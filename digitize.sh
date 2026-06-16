@@ -23,7 +23,7 @@ while [ $# -gt 0 ]; do
 done
 
 STAMP="$(date +%Y%m%d_%H%M%S)"
-SCAN="$ROOT/scans/scan_$STAMP.tiff"
+SCAN="$ROOT/captures/scan_$STAMP.tiff"
 STAGING="$ROOT/photos/_staging/$STAMP"
 PY="$ROOT/.venv/bin/python"
 

@@ -12,8 +12,8 @@ scanner/icascan
 *.swiftdoc
 
 # --- Scanned images & organized photos (data, not code) ---
-scans/*
-!scans/.gitkeep
+captures/*
+!captures/.gitkeep
 photos/*
 !photos/.gitkeep
 !photos/_staging
