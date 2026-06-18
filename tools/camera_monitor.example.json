@@ -1,0 +1,45 @@
+{
+  "ha_url": "http://homeassistant.local.hass.io:8123",
+  "eufy_security_ws_addon": "example_eufy_security_ws",
+  "cameras": [
+    {
+      "slug": "front_door",
+      "name": "Front Door",
+      "entity_id": "camera.front_door",
+      "station": "EUFY_STATION_ID",
+      "lan_ip": "192.0.2.21",
+      "source": "eufy_p2p",
+      "retry_delay": 6.0,
+      "start_delay": 12.0,
+      "refresh_ms": 1000,
+      "stale_ok": false,
+      "stale_ok_seconds": 120,
+      "stale_kick_seconds": 300,
+      "note": ""
+    },
+    {
+      "slug": "yard",
+      "name": "Yard",
+      "entity_id": "camera.yard",
+      "source": "snapshot",
+      "refresh_ms": 2500,
+      "snapshot_interval": 12.0,
+      "stale_ok": true,
+      "stale_ok_seconds": 300,
+      "stale_kick_seconds": 0,
+      "note": "Home Assistant snapshot camera."
+    },
+    {
+      "slug": "workshop",
+      "name": "Workshop",
+      "entity_id": "camera.workshop",
+      "source": "webrtc",
+      "refresh_ms": 2500,
+      "snapshot_interval": 12.0,
+      "stale_ok": true,
+      "stale_ok_seconds": 300,
+      "stale_kick_seconds": 0,
+      "note": "Home Assistant WebRTC camera; browser captures cached still frames."
+    }
+  ]
+}

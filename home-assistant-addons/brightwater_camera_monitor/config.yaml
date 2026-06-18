@@ -1,0 +1,24 @@
+name: Brightwater Camera Monitor
+version: "0.1.0"
+slug: brightwater_camera_monitor
+description: Wall-to-wall camera monitor for Brightwater cameras.
+arch:
+  - amd64
+startup: application
+boot: auto
+init: false
+homeassistant_api: true
+hassio_api: true
+hassio_role: default
+ingress: false
+options:
+  ha_url: "http://supervisor/core"
+  ha_token: ""
+schema:
+  ha_url: str
+  ha_token: password
+ports:
+  8765/tcp: 80
+ports_description:
+  8765/tcp: Camera wall web UI
+webui: "http://[HOST]:[PORT:8765]"

@@ -1,8 +1,12 @@
 # --- Python ---
 .venv/
+.cache/
 __pycache__/
 *.py[cod]
 *.egg-info/
+tools/camera_monitor.local.json
+tools/deploy.local.env
+home-assistant-addons/brightwater_camera_monitor/camera_monitor.local.json
 
 # --- Swift / compiled scanner binary ---
 # Architecture-specific; rebuild with `make build`.
