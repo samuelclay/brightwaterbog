@@ -26,6 +26,69 @@ Output: tagged photos land in `photos/<decade>/<category>/`, each with a sidecar
 | `pipeline/crop.py` | OpenCV: finds each photo on the white bed, deskews, writes separate JPEGs. |
 | `pipeline/tag.py` | Claude (Opus 4.8) vision tagging → sidecar JSON + `--organize` folder sort. Needs `ANTHROPIC_API_KEY`. |
 | `digitize.sh` | Orchestrates scan → crop → tag with scanner process hygiene. |
+| `tools/camera_monitor.py` | Local Home Assistant camera wall. Reads `CABIN_HOME_ASSISTANT_TOKEN`, starts eufy P2P streams on demand, polls Home Assistant snapshot cameras, captures frames from WebRTC-only cameras, and keeps stale frames while retrying. |
+
+## Camera monitor
+
+```bash
+cp tools/camera_monitor.example.json tools/camera_monitor.local.json
+$EDITOR tools/camera_monitor.local.json
+source ~/.zshrc
+make camera-monitor
+```
+
+Open the printed `http://127.0.0.1:<port>` URL on the extra monitor. The viewer
+is a wall-to-wall video grid; tap a camera once to expand it full screen, then
+tap it again to return to the grid. Cameras can be marked as best-effort in the
+local config, which keeps the last good frame visible and continues retrying
+instead of dropping the whole wall. Camera starts are serialized and delayed
+slightly after `start_p2p_livestream` so go2rtc has time to register the stream
+before Home Assistant asks for frames. Last good frames are cached under
+`.cache/camera_monitor/`, so a refresh or viewer restart can immediately show
+the last image with the time it was captured.
+
+WebRTC-only cameras are streamed in the browser through Home Assistant's WebRTC
+signaling and captured locally to cached JPEG frames every couple seconds. If
+Home Assistant or the camera provider rate-limits stream generation, the monitor
+backs off before retrying.
+
+The eufy integration depends on a local Home Assistant RTSP/go2rtc relay. That
+relay should be running on Home Assistant ports `1984`/`8554`; if those ports
+are up but a tile still times out, it is usually a camera/P2P startup issue.
+After repeated stale eufy stream kicks with no new frames, the monitor escalates
+to a throttled `eufy-security-ws` add-on restart to clear cases where Home
+Assistant reports a camera as streaming while the add-on says no livestream is
+actually running.
+
+### Home Assistant add-on
+
+Deploy the Home Assistant camera wall and its local mDNS alias with:
+
+```bash
+cp tools/deploy.example.env tools/deploy.local.env
+$EDITOR tools/deploy.local.env
+make deploy
+```
+
+The local Home Assistant add-on wrapper lives in
+`home-assistant-addons/brightwater_camera_monitor/`; Supervisor exposes it as
+`local_brightwater_camera_monitor`. The local mDNS alias add-on lives in
+`home-assistant-addons/brightwater_mdns_alias/`; Supervisor exposes it as
+`local_brightwater_mdns_alias`.
+
+The add-on listens on container port `8765` and maps it to host port `80`, so
+the camera wall is available at `http://<home-assistant-ip>/`. The mDNS alias
+add-on publishes the configured alias, usually `cameras.local`, as an IPv4-only
+alias for that address.
+
+For eufy streams, configure the add-on `ha_url` option to
+`http://homeassistant.local.hass.io:8123` and set `ha_token` to a Home Assistant
+long-lived access token. The Supervisor proxy works for service calls, but it
+does not reliably carry long MJPEG camera streams. The add-on keeps the token in
+Home Assistant's local add-on options; do not commit it. Camera inventory lives
+in `tools/camera_monitor.local.json`, and deploy settings live in
+`tools/deploy.local.env`; both files are ignored because they contain local
+network and device details.
 
 ## Setup notes
 
