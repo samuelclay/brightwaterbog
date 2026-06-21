@@ -1816,7 +1816,7 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
 
     async function updateStatus() {{
       try {{
-        const response = await fetch("/api/status", {{cache: "no-store"}});
+        const response = await fetch("/api/status?touch=1", {{cache: "no-store"}});
         const statuses = await response.json();
         for (const status of statuses.cameras) {{
           const tile = document.querySelector(`[data-slug="${{status.slug}}"]`);
@@ -1906,6 +1906,16 @@ class MonitorServer(ThreadingHTTPServer):
         with self.state_lock:
             order = list(self.camera_order)
         return [self.runners[slug].snapshot() for slug in order if slug in self.runners]
+
+    def touch_visible_runners(self) -> None:
+        if self.paused:
+            return
+        with self.state_lock:
+            order = list(self.camera_order)
+        for slug in order:
+            runner = self.runners.get(slug)
+            if runner is not None:
+                runner.touch()
 
     def set_camera_order(self, order: list[str]) -> list[str]:
         normalized = save_camera_order(order)
@@ -2017,6 +2027,9 @@ class Handler(BaseHTTPRequestHandler):
             return
 
         if parsed.path == "/api/status":
+            query = urllib.parse.parse_qs(parsed.query)
+            if query.get("touch") == ["1"]:
+                self.server.touch_visible_runners()
             payload = {
                 "paused": self.server.paused,
                 "order": self.server.get_camera_order(),
