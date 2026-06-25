@@ -80,7 +80,7 @@ def build_response(alias: str, address: str, transaction_id: int = 0) -> bytes:
     return header + answer
 
 
-def make_socket() -> socket.socket:
+def make_socket(interface_address: str) -> socket.socket:
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
     sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     try:
@@ -89,9 +89,19 @@ def make_socket() -> socket.socket:
         pass
     sock.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_TTL, 255)
     sock.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_LOOP, 1)
+    interface = socket.inet_aton(interface_address)
+    try:
+        sock.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_IF, interface)
+    except OSError as exc:
+        print(f"Could not set mDNS multicast interface to {interface_address}: {exc}", flush=True)
     sock.bind(("", MDNS_PORT))
-    membership = socket.inet_aton(MDNS_GROUP) + socket.inet_aton("0.0.0.0")
-    sock.setsockopt(socket.IPPROTO_IP, socket.IP_ADD_MEMBERSHIP, membership)
+    try:
+        membership = socket.inet_aton(MDNS_GROUP) + interface
+        sock.setsockopt(socket.IPPROTO_IP, socket.IP_ADD_MEMBERSHIP, membership)
+    except OSError as exc:
+        print(f"Could not join mDNS group on {interface_address}: {exc}; falling back to default interface", flush=True)
+        membership = socket.inet_aton(MDNS_GROUP) + socket.inet_aton("0.0.0.0")
+        sock.setsockopt(socket.IPPROTO_IP, socket.IP_ADD_MEMBERSHIP, membership)
     sock.settimeout(1.0)
     return sock
 
@@ -104,8 +114,13 @@ def should_answer(questions: list[tuple[str, int, int]], alias: str) -> bool:
     return False
 
 
-def publish(sock: socket.socket, response: bytes) -> None:
-    sock.sendto(response, (MDNS_GROUP, MDNS_PORT))
+def publish(sock: socket.socket, response: bytes) -> bool:
+    try:
+        sock.sendto(response, (MDNS_GROUP, MDNS_PORT))
+    except OSError as exc:
+        print(f"Could not publish mDNS response: {exc}", flush=True)
+        return False
+    return True
 
 
 def main() -> None:
@@ -117,15 +132,15 @@ def main() -> None:
     alias = args.alias.rstrip(".")
     address = str(ipaddress.IPv4Address(args.address))
     response = build_response(alias, address)
-    sock = make_socket()
+    sock = make_socket(address)
     next_announcement = 0.0
     print(f"Publishing {alias}. -> {address} via mDNS", flush=True)
 
     while True:
         now = time.time()
         if now >= next_announcement:
-            publish(sock, response)
-            next_announcement = now + 30
+            ok = publish(sock, response)
+            next_announcement = now + (30 if ok else 5)
 
         try:
             packet, _source = sock.recvfrom(9000)
