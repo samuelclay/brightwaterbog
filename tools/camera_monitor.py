@@ -1304,22 +1304,37 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       }} else if (cameraOrder.length > 5) {{
         grid.classList.add("layout-feature-many");
         const mobile = window.innerWidth <= 780;
-        const topCount = cameraOrder.length - 1;
-        const cols = mobile ? 1 : Math.min(4, Math.max(2, Math.ceil(topCount / 2)));
-        const topRows = mobile ? cameraOrder.length : Math.ceil(topCount / cols);
+        const total = cameraOrder.length;
+        const cols = mobile ? 1 : Math.min(4, Math.max(2, Math.ceil((total - 1) / 2)));
+        // The bottom row holds the large feature tiles. Prefer two large tiles
+        // sharing the bottom (e.g. 10 cameras -> 8 in a 2x4 grid above, 2 large
+        // below) whenever the remaining cameras fill the grid with no orphan
+        // row; otherwise fall back to a single full-width feature tile.
+        let featuredCount = 1;
+        let topRows;
+        if (mobile) {{
+          topRows = total;
+        }} else {{
+          const fit = [2, 1].find(f => f < total && cols % f === 0 && (total - f) % cols === 0);
+          featuredCount = fit || 1;
+          topRows = fit ? (total - fit) / cols : Math.ceil((total - 1) / cols);
+        }}
         grid.style.gridTemplateColumns = `repeat(${{cols}}, minmax(0, 1fr))`;
         grid.style.gridTemplateRows = mobile
-          ? `repeat(${{cameraOrder.length}}, minmax(190px, 56vw))`
+          ? `repeat(${{total}}, minmax(190px, 56vw))`
           : `repeat(${{topRows}}, minmax(0, .58fr)) minmax(0, 1.28fr)`;
         for (const tile of grid.querySelectorAll(".tile")) {{
           tile.style.gridColumn = "";
           tile.style.gridRow = "";
         }}
         if (!mobile) {{
-          const featured = getTile(cameraOrder[cameraOrder.length - 1]);
-          if (featured) {{
-            featured.style.gridColumn = `1 / ${{cols + 1}}`;
-            featured.style.gridRow = `${{topRows + 1}}`;
+          const span = cols / featuredCount;
+          for (let i = 0; i < featuredCount; i++) {{
+            const featured = getTile(cameraOrder[total - featuredCount + i]);
+            if (featured) {{
+              featured.style.gridColumn = `${{i * span + 1}} / ${{i * span + span + 1}}`;
+              featured.style.gridRow = `${{topRows + 1}}`;
+            }}
           }}
         }}
         return;
