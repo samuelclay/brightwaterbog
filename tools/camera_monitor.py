@@ -12,6 +12,7 @@ import argparse
 import base64
 import hashlib
 import json
+import math
 import os
 import secrets
 import socket
@@ -23,6 +24,7 @@ import urllib.parse
 import urllib.error
 import urllib.request
 import uuid
+import zlib
 from dataclasses import dataclass, fields
 from http import HTTPStatus
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -77,6 +79,10 @@ def detect_image_content_type(frame: bytes, fallback: str = "image/jpeg") -> str
 
 def is_placeholder_snapshot(frame: bytes, content_type: str) -> bool:
     return content_type == "image/png" and len(frame) < 10_000
+
+
+def frame_fingerprint(frame: bytes) -> str:
+    return hashlib.blake2b(frame, digest_size=16).hexdigest()
 
 
 @dataclass(frozen=True)
@@ -606,6 +612,8 @@ class CameraRunner:
             self.latest_frame,
             self.latest_at,
             self.latest_content_type,
+            self.latest_fingerprint,
+            self.latest_changed_at,
         ) = self._load_cached_frame()
         self.cache_written_at = self.latest_at
         self.live = False
@@ -658,7 +666,8 @@ class CameraRunner:
     def snapshot(self) -> dict[str, Any]:
         now = time.time()
         with self.lock:
-            latest_at = self.latest_at
+            latest_received_at = self.latest_at
+            latest_changed_at = self.latest_changed_at
             return {
                 "slug": self.config.slug,
                 "name": self.config.name,
@@ -669,8 +678,18 @@ class CameraRunner:
                 "live": self.live,
                 "wanted": now < self.wanted_until,
                 "has_frame": self.latest_frame is not None,
-                "age_seconds": None if latest_at <= 0 else round(now - latest_at, 1),
-                "latest_at": None if latest_at <= 0 else latest_at,
+                "age_seconds": (
+                    None if latest_changed_at <= 0 else round(now - latest_changed_at, 1)
+                ),
+                "latest_at": None if latest_changed_at <= 0 else latest_changed_at,
+                "received_age_seconds": (
+                    None
+                    if latest_received_at <= 0
+                    else round(now - latest_received_at, 1)
+                ),
+                "latest_received_at": (
+                    None if latest_received_at <= 0 else latest_received_at
+                ),
                 "last_error": self.last_error,
                 "last_start_status": self.last_start_status,
                 "retry_count": self.retry_count,
@@ -694,7 +713,7 @@ class CameraRunner:
 
     def get_frame(self) -> tuple[bytes | None, float, str]:
         with self.lock:
-            return self.latest_frame, self.latest_at, self.latest_content_type
+            return self.latest_frame, self.latest_changed_at, self.latest_content_type
 
     def _wanted(self) -> bool:
         with self.lock:
@@ -710,6 +729,7 @@ class CameraRunner:
         content_type: str = "image/jpeg",
     ) -> None:
         now = time.time()
+        fingerprint = frame_fingerprint(frame) if frame is not None else ""
         if frame is not None:
             content_type = detect_image_content_type(frame, content_type)
         with self.lock:
@@ -720,41 +740,63 @@ class CameraRunner:
             if start_status is not None:
                 self.last_start_status = start_status
             if frame is not None:
+                frame_changed = fingerprint != self.latest_fingerprint
                 self.latest_frame = frame
                 self.latest_at = now
                 self.latest_content_type = content_type
+                if frame_changed:
+                    self.latest_fingerprint = fingerprint
+                    self.latest_changed_at = now
                 self.first_frame_failure_count = 0
                 if now - self.cache_written_at >= CACHE_WRITE_INTERVAL_SECONDS:
-                    self._write_cached_frame(frame, now, content_type)
+                    self._write_cached_frame(
+                        frame,
+                        now,
+                        content_type,
+                        self.latest_fingerprint,
+                        self.latest_changed_at,
+                    )
                     self.cache_written_at = now
 
-    def _load_cached_frame(self) -> tuple[bytes | None, float, str]:
+    def _load_cached_frame(self) -> tuple[bytes | None, float, str, str, float]:
         content_type = "image/jpeg"
         try:
             if not self.cache_path.exists():
-                return None, 0.0, content_type
+                return None, 0.0, content_type, "", 0.0
             latest_at = self.cache_path.stat().st_mtime
+            latest_changed_at = latest_at
+            fingerprint = ""
             if self.cache_meta_path.exists():
                 metadata = json.loads(self.cache_meta_path.read_text(encoding="utf-8"))
-                latest_at = float(metadata.get("latest_at", latest_at))
+                latest_at = float(
+                    metadata.get("latest_received_at", metadata.get("latest_at", latest_at))
+                )
+                latest_changed_at = float(
+                    metadata.get("latest_changed_at", metadata.get("latest_at", latest_at))
+                )
                 content_type = str(metadata.get("content_type", content_type))
+                fingerprint = str(metadata.get("fingerprint", ""))
             frame = self.cache_path.read_bytes()
             content_type = detect_image_content_type(frame, content_type)
             if self.config.source == "snapshot" and is_placeholder_snapshot(
                 frame,
                 content_type,
             ):
-                return None, 0.0, content_type
-            return frame, latest_at, content_type
+                return None, 0.0, content_type, "", 0.0
+            if not fingerprint:
+                fingerprint = frame_fingerprint(frame)
+            return frame, latest_at, content_type, fingerprint, latest_changed_at
         except Exception as exc:  # noqa: BLE001 - cache should never stop live viewing.
             print(f"Unable to load cache for {self.config.slug}: {exc}", flush=True)
-            return None, 0.0, content_type
+            return None, 0.0, content_type, "", 0.0
 
     def _write_cached_frame(
         self,
         frame: bytes,
-        latest_at: float,
+        latest_received_at: float,
         content_type: str,
+        fingerprint: str,
+        latest_changed_at: float,
     ) -> None:
         try:
             CACHE_DIR.mkdir(parents=True, exist_ok=True)
@@ -767,7 +809,10 @@ class CameraRunner:
                     {
                         "slug": self.config.slug,
                         "entity_id": self.config.entity_id,
-                        "latest_at": latest_at,
+                        "latest_at": latest_changed_at,
+                        "latest_changed_at": latest_changed_at,
+                        "latest_received_at": latest_received_at,
+                        "fingerprint": fingerprint,
                         "content_type": content_type,
                     }
                 ),
@@ -864,7 +909,9 @@ class CameraRunner:
         while self._wanted():
             now = time.time()
             with self.lock:
-                has_recent_frame = self.latest_at > 0 and now - self.latest_at < 6
+                has_recent_frame = (
+                    self.latest_changed_at > 0 and now - self.latest_changed_at < 6
+                )
                 self.live = has_recent_frame
                 if self.last_error.startswith("WebRTC") and has_recent_frame:
                     self.last_error = ""
@@ -906,10 +953,10 @@ class CameraRunner:
         with self.lock:
             if self.config.stale_kick_seconds <= 0:
                 return False
-            if now >= self.wanted_until or self.latest_at <= 0:
+            if now >= self.wanted_until or self.latest_changed_at <= 0:
                 return False
 
-            age = now - self.latest_at
+            age = now - self.latest_changed_at
             if age < self.config.stale_kick_seconds:
                 return False
             if now - self.last_kick_at < STALE_KICK_COOLDOWN_SECONDS:
@@ -923,7 +970,7 @@ class CameraRunner:
             )
             self.live = False
             self.last_error = (
-                f"stale watchdog kicked stream after {round(age)}s without a frame"
+                f"stale watchdog kicked stream after {round(age)}s without a changed frame"
             )
 
         should_restart_addon = wants_addon_restart and self._claim_addon_restart(now)
@@ -1045,6 +1092,148 @@ class CameraRunner:
                     self._set_state(live=True, error="", frame=frame)
 
 
+APP_ICON_TOUCH_SIZE = 180
+_ICON_CACHE: dict[int, bytes] = {}
+_ICON_CACHE_LOCK = threading.Lock()
+
+
+def _png_chunk(tag: bytes, data: bytes) -> bytes:
+    return (
+        struct.pack("!I", len(data))
+        + tag
+        + data
+        + struct.pack("!I", zlib.crc32(tag + data) & 0xFFFFFFFF)
+    )
+
+
+def encode_png_rgb(width: int, height: int, pixels: bytearray) -> bytes:
+    """Encode raw RGB pixel bytes as a PNG using only the standard library."""
+    raw = bytearray()
+    stride = width * 3
+    for y in range(height):
+        raw.append(0)  # filter type 0 (none) for each scanline
+        raw.extend(pixels[y * stride : (y + 1) * stride])
+    signature = b"\x89PNG\r\n\x1a\n"
+    ihdr = struct.pack("!IIBBBBB", width, height, 8, 2, 0, 0, 0)  # 8-bit RGB
+    return (
+        signature
+        + _png_chunk(b"IHDR", ihdr)
+        + _png_chunk(b"IDAT", zlib.compress(bytes(raw), 9))
+        + _png_chunk(b"IEND", b"")
+    )
+
+
+def _render_app_icon(size: int) -> bytes:
+    """Draw a dark camera-lens home-screen icon matching the monitor palette."""
+    cx = size / 2.0
+    cy = size / 2.0
+    aa = size / 340.0  # ~1.5px soft edge at 512
+    grad_cx = size * 0.5
+    grad_cy = size * 0.40
+    grad_max = size * 0.72
+    bg_in = (0x21, 0x2A, 0x33)
+    bg_out = (0x05, 0x07, 0x0A)
+    lens_fill = (0x0B, 0x10, 0x15)
+    ring_col = (0xD2, 0xDC, 0xE6)
+    accent = (0x42, 0xD3, 0x92)
+    glint = (0x8A, 0x97, 0xA4)
+
+    ring_mid = size * 0.315
+    ring_half = size * 0.030
+    inner_r = ring_mid - ring_half
+    glint_cx = cx - inner_r * 0.34
+    glint_cy = cy - inner_r * 0.40
+    glint_r = inner_r * 0.16
+    arc_start = math.radians(150)  # accent segment across the left of the ring
+    arc_end = math.radians(250)
+    two_pi = 2 * math.pi
+
+    pixels = bytearray(size * size * 3)
+    i = 0
+    for y in range(size):
+        fy = y + 0.5
+        for x in range(size):
+            fx = x + 0.5
+            gdx = fx - grad_cx
+            gdy = fy - grad_cy
+            t = min(1.0, ((gdx * gdx + gdy * gdy) ** 0.5) / grad_max)
+            r = bg_in[0] + (bg_out[0] - bg_in[0]) * t
+            g = bg_in[1] + (bg_out[1] - bg_in[1]) * t
+            b = bg_in[2] + (bg_out[2] - bg_in[2]) * t
+
+            dx = fx - cx
+            dy = fy - cy
+            d = (dx * dx + dy * dy) ** 0.5
+
+            fill_cov = min(1.0, max(0.0, 0.5 - (d - inner_r) / aa))
+            if fill_cov > 0:
+                r += (lens_fill[0] - r) * fill_cov
+                g += (lens_fill[1] - g) * fill_cov
+                b += (lens_fill[2] - b) * fill_cov
+                gdist = ((fx - glint_cx) ** 2 + (fy - glint_cy) ** 2) ** 0.5
+                gl = min(1.0, max(0.0, 0.5 - (gdist - glint_r) / aa)) * 0.5 * fill_cov
+                if gl > 0:
+                    r += (glint[0] - r) * gl
+                    g += (glint[1] - g) * gl
+                    b += (glint[2] - b) * gl
+
+            ring_cov = min(1.0, max(0.0, 0.5 - (abs(d - ring_mid) - ring_half) / aa))
+            if ring_cov > 0:
+                ang = math.atan2(dy, dx)
+                if ang < 0:
+                    ang += two_pi
+                col = accent if arc_start <= ang <= arc_end else ring_col
+                r += (col[0] - r) * ring_cov
+                g += (col[1] - g) * ring_cov
+                b += (col[2] - b) * ring_cov
+
+            pixels[i] = min(255, max(0, int(r + 0.5)))
+            pixels[i + 1] = min(255, max(0, int(g + 0.5)))
+            pixels[i + 2] = min(255, max(0, int(b + 0.5)))
+            i += 3
+    return encode_png_rgb(size, size, pixels)
+
+
+def app_icon_png(size: int) -> bytes:
+    with _ICON_CACHE_LOCK:
+        cached = _ICON_CACHE.get(size)
+    if cached is not None:
+        return cached
+    data = _render_app_icon(size)
+    with _ICON_CACHE_LOCK:
+        _ICON_CACHE[size] = data
+    return data
+
+
+def render_manifest() -> bytes:
+    return json.dumps(
+        {
+            "name": "Brightwater Camera Monitor",
+            "short_name": "Cameras",
+            "display": "standalone",
+            "orientation": "landscape",
+            "start_url": "/",
+            "scope": "/",
+            "background_color": "#000000",
+            "theme_color": "#000000",
+            "icons": [
+                {
+                    "src": "/icons/icon-192.png",
+                    "sizes": "192x192",
+                    "type": "image/png",
+                    "purpose": "any maskable",
+                },
+                {
+                    "src": "/icons/icon-512.png",
+                    "sizes": "512x512",
+                    "type": "image/png",
+                    "purpose": "any maskable",
+                },
+            ],
+        }
+    ).encode("utf-8")
+
+
 def make_placeholder_svg() -> bytes:
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
   <defs>
@@ -1068,8 +1257,16 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Brightwater Camera Monitor</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Cameras">
+  <meta name="theme-color" content="#000000">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
   <style>
     :root {{
       color-scheme: dark;
@@ -2035,6 +2232,29 @@ class Handler(BaseHTTPRequestHandler):
 
         if parsed.path == "/favicon.ico":
             self._send_bytes(HTTPStatus.NO_CONTENT, "image/x-icon", b"", cache=True)
+            return
+
+        if parsed.path == "/manifest.webmanifest":
+            self._send_bytes(
+                HTTPStatus.OK,
+                "application/manifest+json; charset=utf-8",
+                render_manifest(),
+                cache=True,
+            )
+            return
+
+        if parsed.path in ("/apple-touch-icon.png", "/apple-touch-icon-precomposed.png"):
+            self._send_bytes(
+                HTTPStatus.OK, "image/png", app_icon_png(APP_ICON_TOUCH_SIZE), cache=True
+            )
+            return
+
+        if parsed.path == "/icons/icon-192.png":
+            self._send_bytes(HTTPStatus.OK, "image/png", app_icon_png(192), cache=True)
+            return
+
+        if parsed.path == "/icons/icon-512.png":
+            self._send_bytes(HTTPStatus.OK, "image/png", app_icon_png(512), cache=True)
             return
 
         if parsed.path == "/.well-known/appspecific/com.chrome.devtools.json":

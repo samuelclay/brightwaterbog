@@ -45,7 +45,7 @@ instead of dropping the whole wall. Camera starts are serialized and delayed
 slightly after `start_p2p_livestream` so go2rtc has time to register the stream
 before Home Assistant asks for frames. Last good frames are cached under
 `.cache/camera_monitor/`, so a refresh or viewer restart can immediately show
-the last image with the time it was captured.
+the last image with the time its visual content last changed.
 
 WebRTC-only cameras are streamed in the browser through Home Assistant's WebRTC
 signaling and captured locally to cached JPEG frames every couple seconds. If
@@ -59,6 +59,11 @@ After repeated stale eufy stream kicks with no new frames, the monitor escalates
 to a throttled `eufy-security-ws` add-on restart to clear cases where Home
 Assistant reports a camera as streaming while the add-on says no livestream is
 actually running.
+
+The wall marks a camera as live only when recently received frames have distinct
+content. If Home Assistant keeps serving the same frozen image, the visible
+frame remains on screen but its badge ages into `STALE` and the stale watchdog
+can restart the stream.
 
 ### Home Assistant add-on
 
