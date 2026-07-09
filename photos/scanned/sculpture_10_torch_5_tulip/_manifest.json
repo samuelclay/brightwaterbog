@@ -1,0 +1,26 @@
+[
+  {
+    "folder": "sculpture_10_torch_5_tulip",
+    "folder_title": "Sculpture 10 Torch 5 Tulip",
+    "catalog_path": "photos/scanned/sculpture_10_torch_5_tulip/20260708_150307_flatbed_001.jpg",
+    "relative_path": "sculpture_10_torch_5_tulip/20260708_150307_flatbed_001.jpg",
+    "filename": "20260708_150307_flatbed_001.jpg",
+    "suffix": ".jpg",
+    "bytes": 678236,
+    "mtime": "2026-07-08T15:09:27",
+    "sha256": "803ecbe90865113d5a3d52964086059504803ce33c7461ca37d312d1bbe884a3",
+    "catalog_source": "filesystem"
+  },
+  {
+    "folder": "sculpture_10_torch_5_tulip",
+    "folder_title": "Sculpture 10 Torch 5 Tulip",
+    "catalog_path": "photos/scanned/sculpture_10_torch_5_tulip/20260708_152508_flatbed_001.jpg",
+    "relative_path": "sculpture_10_torch_5_tulip/20260708_152508_flatbed_001.jpg",
+    "filename": "20260708_152508_flatbed_001.jpg",
+    "suffix": ".jpg",
+    "bytes": 266500,
+    "mtime": "2026-07-08T15:28:05",
+    "sha256": "8ae57ca48fa9e4989b67b06b2ba387faaf0dabd880da36ab90a294bb306f2418",
+    "catalog_source": "filesystem"
+  }
+]

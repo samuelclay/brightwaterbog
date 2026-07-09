@@ -1,0 +1,70 @@
+{
+  "source": "filesystem_recatalog",
+  "root": "photos/scanned",
+  "generated_at": "2026-07-08T15:55:59",
+  "groups": [
+    {
+      "slug": "sculpture_05_gun",
+      "title": "Sculpture 05 Gun",
+      "description": "Filesystem recatalog of sculpture_05_gun.",
+      "pks": [],
+      "uuids": [],
+      "files": [
+        "sculpture_05_gun/20260708_144733_flatbed_002.jpg"
+      ]
+    },
+    {
+      "slug": "sculpture_08_torch_3_land_bridge",
+      "title": "Sculpture 08 Torch 3 Land Bridge",
+      "description": "Filesystem recatalog of sculpture_08_torch_3_land_bridge.",
+      "pks": [],
+      "uuids": [],
+      "files": [
+        "sculpture_08_torch_3_land_bridge/20260708_145936_flatbed_002.jpg"
+      ]
+    },
+    {
+      "slug": "sculpture_09_torch_4_shed",
+      "title": "Sculpture 09 Torch 4 Shed",
+      "description": "Filesystem recatalog of sculpture_09_torch_4_shed.",
+      "pks": [],
+      "uuids": [],
+      "files": [
+        "sculpture_09_torch_4_shed/20260708_144733_flatbed_001.jpg",
+        "sculpture_09_torch_4_shed/20260708_145345_flatbed_002.jpg",
+        "sculpture_09_torch_4_shed/20260708_150943_flatbed_002.jpg",
+        "sculpture_09_torch_4_shed/20260708_151417_flatbed_001.jpg",
+        "sculpture_09_torch_4_shed/20260708_151417_flatbed_002.jpg",
+        "sculpture_09_torch_4_shed/20260708_152508_flatbed_002.jpg",
+        "sculpture_09_torch_4_shed/20260708_153249_flatbed_001.jpg",
+        "sculpture_09_torch_4_shed/20260708_153249_flatbed_002.jpg",
+        "sculpture_09_torch_4_shed/20260708_155250_epson2_calibrated_001.jpg",
+        "sculpture_09_torch_4_shed/20260708_155250_epson2_calibrated_002.jpg"
+      ]
+    },
+    {
+      "slug": "sculpture_10_torch_5_tulip",
+      "title": "Sculpture 10 Torch 5 Tulip",
+      "description": "Filesystem recatalog of sculpture_10_torch_5_tulip.",
+      "pks": [],
+      "uuids": [],
+      "files": [
+        "sculpture_10_torch_5_tulip/20260708_150307_flatbed_001.jpg",
+        "sculpture_10_torch_5_tulip/20260708_152508_flatbed_001.jpg"
+      ]
+    },
+    {
+      "slug": "sculpture_14_porch",
+      "title": "Sculpture 14 Porch",
+      "description": "Filesystem recatalog of sculpture_14_porch.",
+      "pks": [],
+      "uuids": [],
+      "files": [
+        "sculpture_14_porch/20260708_145345_flatbed_001.jpg",
+        "sculpture_14_porch/20260708_145936_flatbed_001.jpg",
+        "sculpture_14_porch/20260708_150307_flatbed_002.jpg",
+        "sculpture_14_porch/20260708_150943_flatbed_001.jpg"
+      ]
+    }
+  ]
+}

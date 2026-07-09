@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "sculpture_05_gun",
+    "title": "Sculpture 05 Gun",
+    "count": 1,
+    "movies": 0,
+    "missing_metadata": 1
+  },
+  {
+    "slug": "sculpture_08_torch_3_land_bridge",
+    "title": "Sculpture 08 Torch 3 Land Bridge",
+    "count": 1,
+    "movies": 0,
+    "missing_metadata": 1
+  },
+  {
+    "slug": "sculpture_09_torch_4_shed",
+    "title": "Sculpture 09 Torch 4 Shed",
+    "count": 10,
+    "movies": 0,
+    "missing_metadata": 10
+  },
+  {
+    "slug": "sculpture_10_torch_5_tulip",
+    "title": "Sculpture 10 Torch 5 Tulip",
+    "count": 2,
+    "movies": 0,
+    "missing_metadata": 2
+  },
+  {
+    "slug": "sculpture_14_porch",
+    "title": "Sculpture 14 Porch",
+    "count": 4,
+    "movies": 0,
+    "missing_metadata": 4
+  }
+]

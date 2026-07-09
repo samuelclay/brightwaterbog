@@ -1,0 +1,50 @@
+[
+  {
+    "folder": "sculpture_14_porch",
+    "folder_title": "Sculpture 14 Porch",
+    "catalog_path": "photos/scanned/sculpture_14_porch/20260708_145345_flatbed_001.jpg",
+    "relative_path": "sculpture_14_porch/20260708_145345_flatbed_001.jpg",
+    "filename": "20260708_145345_flatbed_001.jpg",
+    "suffix": ".jpg",
+    "bytes": 1633319,
+    "mtime": "2026-07-08T14:57:42",
+    "sha256": "55a7dd860f8df52749684ae9eaeeb01abfe2061c2d7519f3196c0e359e2c0bdf",
+    "catalog_source": "filesystem"
+  },
+  {
+    "folder": "sculpture_14_porch",
+    "folder_title": "Sculpture 14 Porch",
+    "catalog_path": "photos/scanned/sculpture_14_porch/20260708_145936_flatbed_001.jpg",
+    "relative_path": "sculpture_14_porch/20260708_145936_flatbed_001.jpg",
+    "filename": "20260708_145936_flatbed_001.jpg",
+    "suffix": ".jpg",
+    "bytes": 1002602,
+    "mtime": "2026-07-08T15:03:47",
+    "sha256": "71ad47d2d01d25b808fdc15e2a499fd0654492549b692c2fe9fac94fda38b0fd",
+    "catalog_source": "filesystem"
+  },
+  {
+    "folder": "sculpture_14_porch",
+    "folder_title": "Sculpture 14 Porch",
+    "catalog_path": "photos/scanned/sculpture_14_porch/20260708_150307_flatbed_002.jpg",
+    "relative_path": "sculpture_14_porch/20260708_150307_flatbed_002.jpg",
+    "filename": "20260708_150307_flatbed_002.jpg",
+    "suffix": ".jpg",
+    "bytes": 1092352,
+    "mtime": "2026-07-08T15:09:28",
+    "sha256": "95d705552104429b38008d10843847413e968ba16c5ccb4806525f0597725cdb",
+    "catalog_source": "filesystem"
+  },
+  {
+    "folder": "sculpture_14_porch",
+    "folder_title": "Sculpture 14 Porch",
+    "catalog_path": "photos/scanned/sculpture_14_porch/20260708_150943_flatbed_001.jpg",
+    "relative_path": "sculpture_14_porch/20260708_150943_flatbed_001.jpg",
+    "filename": "20260708_150943_flatbed_001.jpg",
+    "suffix": ".jpg",
+    "bytes": 2079287,
+    "mtime": "2026-07-08T15:13:19",
+    "sha256": "29ab8f37148a0e3a622a01e81eb7c66912e98e97d15a00481ef7fc3a25394fd7",
+    "catalog_source": "filesystem"
+  }
+]

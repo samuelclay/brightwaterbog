@@ -22,6 +22,8 @@ captures/*
 !captures/.gitkeep
 photos/*
 !photos/.gitkeep
+!photos/scanned
+!photos/scanned/**
 !photos/_staging
 photos/_staging/*
 !photos/_staging/.gitkeep
