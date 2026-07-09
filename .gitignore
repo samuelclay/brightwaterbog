@@ -4,6 +4,8 @@
 __pycache__/
 *.py[cod]
 *.egg-info/
+logs/*
+!logs/.gitkeep
 tools/camera_monitor.local.json
 tools/deploy.local.env
 home-assistant-addons/brightwater_camera_monitor/camera_monitor.local.json

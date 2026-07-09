@@ -5,18 +5,23 @@
 
 DPI    ?= 600
 COLOR  ?= color
+HOST   ?= 127.0.0.1
+PORT   ?= 8766
+LOG    ?= logs/scanned_gallery.log
+SERVER_LABEL ?= brightwaterbog.scanned_gallery
 PY     := .venv/bin/python
 SWIFTC := swiftc
 CLANG  := clang
 
-.PHONY: help setup build scan scan-no-tag capture list camera-monitor eufy-monitor deploy clean
+.PHONY: help setup build scan scan-no-tag server capture list camera-monitor eufy-monitor deploy clean
 
 help:
 	@echo "make setup        Create venv, install deps, build the scanner CLI"
-	@echo "make build        Compile scanner/icascan from Swift"
+	@echo "make build        Compile scanner CLIs"
 	@echo "make scan         Scan bed -> crop -> AI tag -> organize  (DPI=$(DPI) COLOR=$(COLOR))"
 	@echo "make scan-no-tag  Scan + crop only, skip the AI tagging step"
-	@echo "make capture      Run the local scanned-photo confirmation page"
+	@echo "make server       Run Capture with colored startup logs (HOST=$(HOST) PORT=$(PORT) LOG=$(LOG))"
+	@echo "make capture      Alias for make server"
 	@echo "make list         List scanners the Mac can see"
 	@echo "make camera-monitor Run the local Home Assistant camera wall"
 	@echo "make deploy       Deploy the camera monitor Home Assistant add-on"
@@ -44,8 +49,27 @@ scan: build
 scan-no-tag: build
 	./digitize.sh --dpi $(DPI) --color $(COLOR) --no-tag
 
-capture:
-	$(PY) tools/scanned_gallery.py
+server: build
+	@mkdir -p "$$(dirname "$(LOG)")"
+	@ts=$$(date '+%Y-%m-%d %H:%M:%S %Z'); \
+	  printf "  \033[2m%s\033[0m  \033[38;5;179m[make]\033[0m Capture server requested (host=$(HOST) port=$(PORT) log=$(LOG))\n" "$$ts" | tee -a "$(LOG)"
+	@if launchctl print gui/$$(id -u)/$(SERVER_LABEL) >/dev/null 2>&1; then \
+	  ts=$$(date '+%Y-%m-%d %H:%M:%S %Z'); \
+	  printf "  \033[2m%s\033[0m  \033[38;5;179m[make]\033[0m stopping launchd job $(SERVER_LABEL)\n" "$$ts" | tee -a "$(LOG)"; \
+	  launchctl bootout gui/$$(id -u)/$(SERVER_LABEL) >/dev/null 2>&1 || launchctl remove $(SERVER_LABEL) >/dev/null 2>&1 || true; \
+	  sleep 1; \
+	fi
+	@pids=$$(lsof -nP -iTCP:$(PORT) -sTCP:LISTEN -t 2>/dev/null); \
+	  if [ -n "$$pids" ]; then ts=$$(date '+%Y-%m-%d %H:%M:%S %Z'); \
+	    printf "  \033[2m%s\033[0m  \033[38;5;179m[make]\033[0m freeing :$(PORT) (killing %s)\n" "$$ts" "$$pids" | tee -a "$(LOG)"; \
+	    kill $$pids 2>/dev/null || true; sleep 1; \
+	    pids=$$(lsof -nP -iTCP:$(PORT) -sTCP:LISTEN -t 2>/dev/null); \
+	    if [ -n "$$pids" ]; then ts=$$(date '+%Y-%m-%d %H:%M:%S %Z'); \
+	      printf "  \033[2m%s\033[0m  \033[38;5;131m[make]\033[0m :$(PORT) still bound; force killing %s\n" "$$ts" "$$pids" | tee -a "$(LOG)"; \
+	      kill -9 $$pids 2>/dev/null || true; fi; sleep 1; fi
+	@$(PY) tools/scanned_gallery.py --host $(HOST) --port $(PORT) --log "$(LOG)" --color always
+
+capture: server
 
 list: build
 	./scanner/icascan list

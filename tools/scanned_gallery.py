@@ -4,10 +4,10 @@
 from __future__ import annotations
 
 import argparse
-import html
 import json
 import mimetypes
 import os
+import platform
 import re
 import selectors
 import shutil
@@ -27,9 +27,11 @@ from PIL import Image, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SCANNED_ROOT = ROOT / "photos" / "scanned"
+DEFAULT_LOG = ROOT / "logs" / "scanned_gallery.log"
 IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".webp"}
 STAMP_RE = re.compile(r"(?P<stamp>\d{8}_\d{6})")
 DEFAULT_SCAN_SECONDS = 55.0
+SERVER_LOG_COLOR = False
 SCAN_LOCK = threading.Lock()
 SCAN_STATE: dict[str, object] = {
     "running": False,
@@ -49,6 +51,162 @@ SCAN_STATE: dict[str, object] = {
     "lastLine": None,
 }
 SCAN_DURATIONS: list[float] = []
+
+
+class TeeStream:
+    def __init__(self, stream: object, log_file: object) -> None:
+        self.stream = stream
+        self.log_file = log_file
+
+    def write(self, data: str) -> int:
+        self.stream.write(data)
+        self.log_file.write(data)
+        return len(data)
+
+    def flush(self) -> None:
+        self.stream.flush()
+        self.log_file.flush()
+
+    def isatty(self) -> bool:
+        return bool(getattr(self.stream, "isatty", lambda: False)())
+
+
+def should_use_color(mode: str) -> bool:
+    if mode == "always":
+        return True
+    if mode == "never" or os.environ.get("NO_COLOR"):
+        return False
+    return sys.stdout.isatty()
+
+
+def paint(text: str, code: str) -> str:
+    if not SERVER_LOG_COLOR:
+        return text
+    return f"\033[{code}m{text}\033[0m"
+
+
+def timestamp() -> str:
+    return datetime.now().astimezone().strftime("%Y-%m-%d %H:%M:%S %Z")
+
+
+def log_line(tag: str, message: str, color: str = "38;5;111") -> None:
+    prefix = f"  {paint(timestamp(), '2')}  {paint(f'[{tag}]', color)}"
+    for index, line in enumerate(str(message).splitlines() or [""]):
+        if index == 0:
+            print(f"{prefix} {line}", flush=True)
+        else:
+            print(f"  {paint(' ' * 23, '2')}  {paint('|', '2')} {line}", flush=True)
+
+
+def resolve_log_path(path: Path | None) -> Path | None:
+    if path is None:
+        return None
+    return path if path.is_absolute() else ROOT / path
+
+
+def configure_logging(log_path: Path | None, color_mode: str) -> tuple[object | None, Path | None]:
+    global SERVER_LOG_COLOR
+    SERVER_LOG_COLOR = should_use_color(color_mode)
+    resolved = resolve_log_path(log_path)
+    if resolved is None:
+        return None, None
+    resolved.parent.mkdir(parents=True, exist_ok=True)
+    log_file = resolved.open("a", buffering=1)
+    sys.stdout = TeeStream(sys.stdout, log_file)  # type: ignore[assignment]
+    sys.stderr = TeeStream(sys.stderr, log_file)  # type: ignore[assignment]
+    return log_file, resolved
+
+
+def run_probe(label: str, command: list[str], timeout: float = 14.0) -> dict[str, object]:
+    binary = Path(command[0])
+    if not binary.exists():
+        return {
+            "label": label,
+            "ok": False,
+            "status": "missing",
+            "elapsed": 0.0,
+            "lines": [f"{binary} does not exist; run make build"],
+        }
+    started = time.time()
+    try:
+        result = subprocess.run(
+            command,
+            cwd=ROOT,
+            text=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            timeout=timeout,
+            check=False,
+        )
+    except subprocess.TimeoutExpired as exc:
+        elapsed = time.time() - started
+        partial = exc.stdout or ""
+        if isinstance(partial, bytes):
+            partial = partial.decode("utf-8", "replace")
+        lines = [line for line in str(partial).splitlines() if line.strip()]
+        lines.append(f"timed out after {timeout:.0f}s")
+        return {"label": label, "ok": False, "status": "timeout", "elapsed": elapsed, "lines": lines}
+    elapsed = time.time() - started
+    lines = [line for line in result.stdout.splitlines() if line.strip()]
+    if not lines:
+        lines = ["no output"]
+    return {
+        "label": label,
+        "ok": result.returncode == 0,
+        "status": "ok" if result.returncode == 0 else f"exit {result.returncode}",
+        "elapsed": elapsed,
+        "lines": lines,
+    }
+
+
+def probe_scanners() -> list[dict[str, object]]:
+    return [
+        run_probe("Epson Scan 2", [str(ROOT / "scanner" / "epsonscan2"), "devices"]),
+        run_probe("ImageCaptureCore", [str(ROOT / "scanner" / "icascan"), "list"]),
+    ]
+
+
+def log_startup_report(args: argparse.Namespace, scanned_root: Path, log_path: Path | None) -> None:
+    photos = scanned_images(scanned_root)
+    folders = folder_options(scanned_root)
+    url = f"http://{args.host}:{args.port}/"
+    log_line("server", "Capture server starting", "38;5;114")
+    log_line("server", f"url={url} pid={os.getpid()} host={args.host} port={args.port}", "38;5;114")
+    log_line("runtime", f"python={sys.executable}", "38;5;75")
+    log_line("runtime", f"platform={platform.platform()}", "38;5;75")
+    log_line("paths", f"repo={ROOT}", "38;5;111")
+    log_line("paths", f"scanned_root={scanned_root}", "38;5;111")
+    log_line("paths", f"log={log_path if log_path else 'disabled'}", "38;5;111")
+    log_line("photos", f"{len(photos)} photos across {len(folders)} folders", "38;5;179")
+    if folders:
+        labels = ", ".join(str(folder["shortName"]) for folder in folders[:12])
+        suffix = "..." if len(folders) > 12 else ""
+        log_line("folders", f"{labels}{suffix}", "38;5;179")
+    log_line(
+        "scan",
+        "backend=%s rotate=%s dpi=%s brightness=%s contrast=%s saturation=%s"
+        % (
+            os.environ.get("SCAN_BACKEND", "epson2"),
+            os.environ.get("SCAN_ROTATE", "270"),
+            os.environ.get("DPI", "600"),
+            os.environ.get("SCAN_BRIGHTNESS", "0"),
+            os.environ.get("SCAN_CONTRAST", "0"),
+            os.environ.get("SCAN_SATURATION", "0"),
+        ),
+        "38;5;149",
+    )
+    for probe in probe_scanners():
+        color = "38;5;114" if probe["ok"] else "38;5;203"
+        log_line(
+            "scanner",
+            f"{probe['label']}: {probe['status']} in {float(probe['elapsed']):.1f}s",
+            color,
+        )
+        lines = [str(line) for line in probe["lines"]]
+        for line in lines[:18]:
+            log_line("scanner", f"  {line}", "2")
+        if len(lines) > 18:
+            log_line("scanner", f"  ... {len(lines) - 18} more lines", "2")
 
 
 def title_from_slug(slug: str) -> str:
@@ -260,6 +418,7 @@ def scan_worker(scanned_root: Path, folder_slug: str, folder_title: str) -> None
     started = datetime.now()
     started_epoch = time.time()
     estimate = estimated_scan_seconds()
+    log_line("scan", f"starting scan into {folder_title} ({folder_slug})", "38;5;149")
     set_scan_state(
         running=True,
         stage="scan",
@@ -306,6 +465,7 @@ def scan_worker(scanned_root: Path, folder_slug: str, folder_title: str) -> None
                     continue
                 line = line.rstrip("\n")
                 output_lines.append(line)
+                log_line("scan", line[-500:], "38;5;149")
                 stage, progress, message = scan_progress_for_line(line.strip())
                 updates: dict[str, object] = {"lastLine": line[-220:]}
                 if stage:
@@ -319,6 +479,7 @@ def scan_worker(scanned_root: Path, folder_slug: str, folder_title: str) -> None
                 for line in process.stdout:
                     line = line.rstrip("\n")
                     output_lines.append(line)
+                    log_line("scan", line[-500:], "38;5;149")
                     stage, progress, message = scan_progress_for_line(line.strip())
                     updates = {"lastLine": line[-220:]}
                     if stage:
@@ -347,9 +508,11 @@ def scan_worker(scanned_root: Path, folder_slug: str, folder_title: str) -> None
             dest = dest_dir / f"{stamp}_flatbed_{index:03d}.jpg"
             shutil.copy2(crop, dest)
             outputs.append(dest.relative_to(scanned_root).as_posix())
+            log_line("scan", f"filed {dest}", "38;5;149")
         finished_epoch = time.time()
         duration = finished_epoch - started_epoch
         record_scan_duration(duration)
+        log_line("scan", f"done in {duration:.1f}s; filed {len(outputs)} photo(s) in {folder_title}", "38;5;114")
         set_scan_state(
             running=False,
             stage="done",
@@ -364,6 +527,7 @@ def scan_worker(scanned_root: Path, folder_slug: str, folder_title: str) -> None
         )
     except Exception as exc:  # noqa: BLE001 - surfaced to local-only UI
         finished_epoch = time.time()
+        log_line("scan", f"failed: {exc}", "38;5;203")
         set_scan_state(
             running=False,
             stage="error",
@@ -915,9 +1079,9 @@ class GalleryHandler(BaseHTTPRequestHandler):
     scanned_root: Path
 
     def log_message(self, fmt: str, *args: object) -> None:
-        if self.path == "/api/photos":
+        if self.path in {"/api/photos", "/api/scan/status"}:
             return
-        print(f"{self.address_string()} - {fmt % args}", file=sys.stderr)
+        log_line("http", f"{self.address_string()} - {fmt % args}", "38;5;244")
 
     def send_bytes(self, body: bytes, content_type: str, status: HTTPStatus = HTTPStatus.OK) -> None:
         self.send_response(status)
@@ -1024,6 +1188,7 @@ class GalleryHandler(BaseHTTPRequestHandler):
             temp = target.with_name(f".{target.name}.tmp")
             rotated.save(temp, "JPEG", **save_kwargs)
         temp.replace(target)
+        log_line("photo", f"rotated {rel.as_posix()} by {degrees} degrees", "38;5;179")
         self.send_json({"ok": True, "path": rel.as_posix()})
 
     def serve_image(self, encoded_rel: str, query: str) -> None:
@@ -1054,23 +1219,36 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--root", type=Path, default=DEFAULT_SCANNED_ROOT)
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8766)
+    parser.add_argument("--log", type=Path, default=DEFAULT_LOG)
+    parser.add_argument(
+        "--color",
+        choices=("auto", "always", "never"),
+        default="auto",
+        help="Colorize server logs. make server passes --color always.",
+    )
     return parser.parse_args()
 
 
 def main() -> int:
     args = parse_args()
+    log_file, log_path = configure_logging(args.log, args.color)
     scanned_root = args.root.resolve()
-    scanned_root.mkdir(parents=True, exist_ok=True)
-    handler = type("ConfiguredGalleryHandler", (GalleryHandler,), {"scanned_root": scanned_root})
-    server = ThreadingHTTPServer((args.host, args.port), handler)
-    url = f"http://{args.host}:{args.port}/"
-    print(f"Capture serving {html.escape(str(scanned_root))} at {url}", flush=True)
+    server: ThreadingHTTPServer | None = None
     try:
+        scanned_root.mkdir(parents=True, exist_ok=True)
+        handler = type("ConfiguredGalleryHandler", (GalleryHandler,), {"scanned_root": scanned_root})
+        server = ThreadingHTTPServer((args.host, args.port), handler)
+        log_startup_report(args, scanned_root, log_path)
+        log_line("server", "ready", "38;5;114")
         server.serve_forever()
     except KeyboardInterrupt:
-        pass
+        log_line("server", "stopping after keyboard interrupt", "38;5;179")
     finally:
-        server.server_close()
+        if server is not None:
+            server.server_close()
+        log_line("server", "stopped", "38;5;179")
+        if log_file is not None:
+            log_file.close()
     return 0
 
 
