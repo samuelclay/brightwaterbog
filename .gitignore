@@ -11,6 +11,8 @@ home-assistant-addons/brightwater_camera_monitor/camera_monitor.local.json
 # --- Swift / compiled scanner binary ---
 # Architecture-specific; rebuild with `make build`.
 scanner/icascan
+scanner/epsonscan2
+scanner/epson_runtime_dump
 *.o
 *.swiftmodule
 *.swiftdoc

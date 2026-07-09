@@ -7,14 +7,16 @@ DPI    ?= 600
 COLOR  ?= color
 PY     := .venv/bin/python
 SWIFTC := swiftc
+CLANG  := clang
 
-.PHONY: help setup build scan scan-no-tag list camera-monitor eufy-monitor deploy clean
+.PHONY: help setup build scan scan-no-tag capture list camera-monitor eufy-monitor deploy clean
 
 help:
 	@echo "make setup        Create venv, install deps, build the scanner CLI"
 	@echo "make build        Compile scanner/icascan from Swift"
 	@echo "make scan         Scan bed -> crop -> AI tag -> organize  (DPI=$(DPI) COLOR=$(COLOR))"
 	@echo "make scan-no-tag  Scan + crop only, skip the AI tagging step"
+	@echo "make capture      Run the local scanned-photo confirmation page"
 	@echo "make list         List scanners the Mac can see"
 	@echo "make camera-monitor Run the local Home Assistant camera wall"
 	@echo "make deploy       Deploy the camera monitor Home Assistant add-on"
@@ -28,16 +30,22 @@ setup:
 	.venv/bin/pip install -q -r requirements.txt
 	$(MAKE) build
 
-build: scanner/icascan
+build: scanner/icascan scanner/epsonscan2
 
 scanner/icascan: scanner/icascan.swift
 	$(SWIFTC) -O scanner/icascan.swift -o scanner/icascan -framework ImageCaptureCore
+
+scanner/epsonscan2: scanner/epsonscan2.m
+	$(CLANG) -fobjc-arc -framework Foundation -o scanner/epsonscan2 scanner/epsonscan2.m
 
 scan: build
 	./digitize.sh --dpi $(DPI) --color $(COLOR)
 
 scan-no-tag: build
 	./digitize.sh --dpi $(DPI) --color $(COLOR) --no-tag
+
+capture:
+	$(PY) tools/scanned_gallery.py
 
 list: build
 	./scanner/icascan list

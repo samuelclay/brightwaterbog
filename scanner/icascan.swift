@@ -3,6 +3,7 @@
 // SANE's epsonds backend can't handshake this 2023 model, so we drive the
 // macOS ICA driver directly. Two modes:
 //   icascan list                         -> discover scanners, print names, exit
+//   icascan inspect                      -> print scanner feature capabilities, exit
 //   icascan scan --out FILE [opts]       -> scan the flatbed to FILE (TIFF)
 //
 // Build: swiftc -O scanner/icascan.swift -o scanner/icascan -framework ImageCaptureCore
@@ -13,6 +14,12 @@
 //   --color MODE      color|gray, default color
 //   --timeout SEC     overall timeout, default 120
 //   --device NAME     substring match if multiple scanners; default first found.
+//   --backlight LEVEL Epson backlight correction: off|low|middle|high
+//   --color-restoration on|off
+//   --unsharp LEVEL   Epson unsharp mask: off|low|middle|high
+//   --descreen LEVEL  Epson descreen: off|low|middle|high
+//   --dust-removal LEVEL Epson dust removal: off|low|middle|high
+//   --area-inches X,Y,W,H scan only a physical flatbed rectangle
 
 import Foundation
 import ImageCaptureCore
@@ -31,6 +38,12 @@ let outPath = argValue("--out", "scan.tiff")!
 let dpi = Double(argValue("--dpi", "300")!) ?? 300
 let colorMode = argValue("--color", "color")!
 let overallTimeout = Double(argValue("--timeout", "120")!) ?? 120
+let backlightCorrection = argValue("--backlight")
+let colorRestoration = argValue("--color-restoration")
+let unsharpMask = argValue("--unsharp")
+let descreen = argValue("--descreen")
+let dustRemoval = argValue("--dust-removal")
+let areaInches = argValue("--area-inches")
 
 // ---- delegate that drives browse -> open -> scan ---------------------------
 final class Driver: NSObject, ICDeviceBrowserDelegate, ICScannerDeviceDelegate {
@@ -123,12 +136,97 @@ final class Driver: NSObject, ICDeviceBrowserDelegate, ICScannerDeviceDelegate {
         let size = u.physicalSize
         log("cap check #\(attempt): size=\(size.width)x\(size.height) res=\(u.supportedResolutions.count)")
         if size.width > 0.1 && size.height > 0.1 {
+            if mode == "inspect" {
+                describeScanner()
+                finish(0)
+                return
+            }
             configureAndScan()
             return
         }
         if attempt >= 40 { log("capabilities never populated"); finish(6); return }
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) { [weak self] in
             self?.waitForCapabilitiesThenScan(attempt: attempt + 1)
+        }
+    }
+
+    func describeIndexSet(_ set: NSIndexSet) -> String {
+        var values: [Int] = []
+        set.enumerate { idx, _ in values.append(idx) }
+        if values.isEmpty { return "" }
+
+        var ranges: [String] = []
+        var start = values[0]
+        var previous = values[0]
+        for value in values.dropFirst() {
+            if value == previous + 1 {
+                previous = value
+                continue
+            }
+            ranges.append(start == previous ? "\(start)" : "\(start)-\(previous)")
+            start = value
+            previous = value
+        }
+        ranges.append(start == previous ? "\(start)" : "\(start)-\(previous)")
+
+        let visible = ranges.prefix(24).joined(separator: ", ")
+        if ranges.count > 24 {
+            return "\(visible), ... (\(values.count) values)"
+        }
+        return visible
+    }
+
+    func describeFeature(_ feature: ICScannerFeature, prefix: String = "feature") {
+        let internalName = feature.internalName ?? "?"
+        let readableName = feature.humanReadableName ?? "?"
+        log("\(prefix): type=\(feature.type.rawValue) internal=\(internalName) label=\(readableName)")
+        if let tooltip = feature.tooltip, !tooltip.isEmpty {
+            log("  tooltip=\(tooltip)")
+        }
+        switch feature {
+        case let enumFeature as ICScannerFeatureEnumeration:
+            log("  current=\(enumFeature.currentValue) default=\(enumFeature.defaultValue)")
+            log("  values=\(enumFeature.values)")
+            log("  labels=\(enumFeature.menuItemLabels)")
+        case let rangeFeature as ICScannerFeatureRange:
+            log(String(format: "  current=%.3f default=%.3f min=%.3f max=%.3f step=%.3f",
+                       rangeFeature.currentValue,
+                       rangeFeature.defaultValue,
+                       rangeFeature.minValue,
+                       rangeFeature.maxValue,
+                       rangeFeature.stepSize))
+        case let boolFeature as ICScannerFeatureBoolean:
+            log("  value=\(boolFeature.value)")
+        default:
+            break
+        }
+    }
+
+    func describeScanner() {
+        guard let s = scanner else { return }
+        let u = s.selectedFunctionalUnit
+        log("scanner: \(s.name ?? "?")")
+        log("functionalUnit.type=\(u.type.rawValue)")
+        log("physicalSize=\(u.physicalSize.width)x\(u.physicalSize.height)")
+        log("supportedResolutions=\(describeIndexSet(u.supportedResolutions as NSIndexSet))")
+        log("preferredResolutions=\(describeIndexSet(u.preferredResolutions as NSIndexSet))")
+        log("supportedBitDepths=\(describeIndexSet(u.supportedBitDepths as NSIndexSet))")
+        log("supportedScaleFactors=\(describeIndexSet(u.supportedScaleFactors as NSIndexSet))")
+        log("preferredScaleFactors=\(describeIndexSet(u.preferredScaleFactors as NSIndexSet))")
+        log("nativeResolution=\(u.nativeXResolution)x\(u.nativeYResolution)")
+        log("current: resolution=\(u.resolution) bitDepth=\(u.bitDepth.rawValue) pixelDataType=\(u.pixelDataType.rawValue) scale=\(u.scaleFactor)")
+        if let flatbed = u as? ICScannerFunctionalUnitFlatbed {
+            log("flatbed.supportedDocumentTypes=\(describeIndexSet(flatbed.supportedDocumentTypes as NSIndexSet))")
+            log("flatbed.documentType=\(flatbed.documentType.rawValue)")
+        }
+        log("templates.count=\(u.templates.count)")
+        for template in u.templates {
+            describeFeature(template, prefix: "template")
+        }
+        let vendor = u.vendorFeatures ?? []
+        log("vendorFeatures.count=\(vendor.count)")
+        for feature in vendor {
+            describeFeature(feature, prefix: "vendor")
         }
     }
 
@@ -149,11 +247,14 @@ final class Driver: NSObject, ICDeviceBrowserDelegate, ICScannerDeviceDelegate {
         }
         u.pixelDataType = (colorMode == "gray") ? .gray : .RGB
         u.bitDepth = .depth8Bits
+        applyVendorFeatureOverrides(u)
         // Full bed.
         u.measurementUnit = .inches
         let max = u.physicalSize
-        u.scanArea = NSRect(x: 0, y: 0, width: max.width, height: max.height)
-        log(String(format: "scan area: %.2f x %.2f in", max.width, max.height))
+        let area = parsedScanArea(maxSize: max) ?? NSRect(x: 0, y: 0, width: max.width, height: max.height)
+        u.scanArea = area
+        log(String(format: "scan area: x=%.2f y=%.2f %.2f x %.2f in",
+                   area.origin.x, area.origin.y, area.width, area.height))
 
         let url = URL(fileURLWithPath: outPath)
         let dir = url.deletingLastPathComponent()
@@ -165,6 +266,105 @@ final class Driver: NSObject, ICDeviceBrowserDelegate, ICScannerDeviceDelegate {
                       : (kUTTypeTIFF as String)
         log("scanning -> \(outPath)")
         s.requestScan()
+    }
+
+    func parsedScanArea(maxSize: NSSize) -> NSRect? {
+        guard let areaInches else { return nil }
+        let parts = areaInches.split(separator: ",").map { Double($0.trimmingCharacters(in: .whitespaces)) }
+        guard parts.count == 4, let x = parts[0], let y = parts[1], let w = parts[2], let h = parts[3] else {
+            log("WARN: ignoring invalid --area-inches '\(areaInches)', expected X,Y,W,H")
+            return nil
+        }
+        let clampedX = min(max(0.0, x), maxSize.width)
+        let clampedY = min(max(0.0, y), maxSize.height)
+        let clampedW = min(max(0.1, w), maxSize.width - clampedX)
+        let clampedH = min(max(0.1, h), maxSize.height - clampedY)
+        return NSRect(x: clampedX, y: clampedY, width: clampedW, height: clampedH)
+    }
+
+    func normalized(_ value: String) -> String {
+        value.trimmingCharacters(in: .whitespacesAndNewlines)
+             .lowercased()
+             .replacingOccurrences(of: " ", with: "")
+             .replacingOccurrences(of: "-", with: "")
+             .replacingOccurrences(of: "_", with: "")
+    }
+
+    func requestedEnumValue(_ requested: String, feature: ICScannerFeatureEnumeration) -> NSNumber? {
+        let wanted = normalized(requested)
+        let levelAliases: [String: String] = [
+            "0": "off", "none": "off", "false": "off", "no": "off",
+            "1": "low",
+            "2": "middle", "mid": "middle", "medium": "middle",
+            "3": "high"
+        ]
+        let canonical = levelAliases[wanted] ?? wanted
+
+        for (index, label) in feature.menuItemLabels.enumerated() {
+            if normalized(label) == canonical, index < feature.values.count {
+                return feature.values[index]
+            }
+        }
+
+        let numeric: [String: Int] = ["off": 0, "low": 1, "middle": 2, "high": 3]
+        if let target = numeric[canonical] {
+            let targetNumber = NSNumber(value: target)
+            if feature.values.contains(targetNumber) {
+                return targetNumber
+            }
+        }
+        return nil
+    }
+
+    func requestedBoolValue(_ requested: String) -> Bool? {
+        switch normalized(requested) {
+        case "on", "true", "yes", "1", "enabled", "enable":
+            return true
+        case "off", "false", "no", "0", "disabled", "disable":
+            return false
+        default:
+            return nil
+        }
+    }
+
+    func applyVendorFeatureOverrides(_ unit: ICScannerFunctionalUnit) {
+        let enumOverrides: [String: String?] = [
+            "VF_BACKLIGHTCORRECTION": backlightCorrection,
+            "VF_UNSHARPMASK": unsharpMask,
+            "VF_DESCREEN": descreen,
+            "VF_DUSTREMOVAL": dustRemoval
+        ]
+        let boolOverrides: [String: String?] = [
+            "VF_COLORRESTORATION": colorRestoration
+        ]
+
+        for feature in unit.vendorFeatures ?? [] {
+            guard let internalName = feature.internalName else { continue }
+            if let requested = enumOverrides[internalName] ?? nil {
+                guard let enumFeature = feature as? ICScannerFeatureEnumeration else {
+                    log("WARN: \(internalName) is not an enumeration feature")
+                    continue
+                }
+                guard let value = requestedEnumValue(requested, feature: enumFeature) else {
+                    log("WARN: unsupported value '\(requested)' for \(internalName); labels=\(enumFeature.menuItemLabels)")
+                    continue
+                }
+                enumFeature.currentValue = value
+                log("vendor \(internalName)=\(requested) -> \(value)")
+            }
+            if let requested = boolOverrides[internalName] ?? nil {
+                guard let boolFeature = feature as? ICScannerFeatureBoolean else {
+                    log("WARN: \(internalName) is not a boolean feature")
+                    continue
+                }
+                guard let value = requestedBoolValue(requested) else {
+                    log("WARN: unsupported boolean value '\(requested)' for \(internalName)")
+                    continue
+                }
+                boolFeature.value = value
+                log("vendor \(internalName)=\(value)")
+            }
+        }
     }
 
     // --- scan results ---
