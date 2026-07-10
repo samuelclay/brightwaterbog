@@ -1,0 +1,68 @@
+---
+import "@fontsource-variable/fraunces";
+import "@fontsource-variable/newsreader";
+import "@fontsource/ibm-plex-mono/400.css";
+import "@fontsource/ibm-plex-mono/500.css";
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+const {
+  title = "Bright Water Bog",
+  description = "A trail of stained-glass sculpture in Shutesbury, Massachusetts — the work of Julian Janowitz, then and now.",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark light" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    {/* Set theme before first paint to avoid a flash. */}
+    <script is:inline>
+      (() => {
+        try {
+          const t = localStorage.getItem("bwb-theme");
+          if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+        } catch (_) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a href="/" aria-label="Bright Water Bog — home">Bright&nbsp;Water&nbsp;Bog</a>
+      <nav class="topbar__links">
+        <a href="#trail">Trail</a>
+        <a href="#indoor">Indoor</a>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle light and dark">Light / Dark</button>
+      </nav>
+    </header>
+
+    <slot />
+
+    <script>
+      // Theme toggle (progressive; page works without it).
+      const btn = document.querySelector<HTMLButtonElement>("[data-theme-toggle]");
+      btn?.addEventListener("click", () => {
+        const root = document.documentElement;
+        const current =
+          root.dataset.theme ??
+          (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        const next = current === "light" ? "dark" : "light";
+        root.dataset.theme = next;
+        try {
+          localStorage.setItem("bwb-theme", next);
+        } catch (_) {}
+      });
+    </script>
+  </body>
+</html>

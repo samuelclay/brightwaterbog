@@ -1,0 +1,65 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { imageUrl, srcset, STRIP_WIDTHS } from "../lib/imageUrl";
+
+interface PhotoEntry {
+  key: string;
+  era: "now" | "aerial" | "then" | "construction";
+  date: string | null;
+  width: number | null;
+  height: number | null;
+  orientation: string;
+}
+interface Props {
+  items: Array<{ entry: CollectionEntry<"sculptures">; photos: PhotoEntry[] }>;
+}
+const { items } = Astro.props;
+
+function gallery(photos: PhotoEntry[]) {
+  return photos.map((p) => ({
+    full: imageUrl(p.key, { w: 1800, fit: "contain" }),
+    hi: imageUrl(p.key, { w: 2600, fit: "contain" }),
+    w: p.width ?? 0,
+    h: p.height ?? 0,
+  }));
+}
+---
+
+<div class="gallery">
+  {
+    items.map(({ entry, photos }) => {
+      const cover = photos[0];
+      return (
+        <article class="piece">
+          <button
+            class="piece__thumbs"
+            type="button"
+            data-gallery-json={JSON.stringify(gallery(photos))}
+            aria-label={`${entry.data.title} — ${photos.length} photo${photos.length === 1 ? "" : "s"}, open full screen`}
+            style={`--stop-glass: var(--${entry.data.glass})`}
+            disabled={photos.length === 0}
+          >
+            {cover ? (
+              <img
+                src={imageUrl(cover.key, { w: 640, fit: "cover" })}
+                srcset={srcset(cover.key, STRIP_WIDTHS, "cover")}
+                sizes="(max-width: 620px) 45vw, 260px"
+                width={cover.width ?? undefined}
+                height={cover.height ?? undefined}
+                loading="lazy"
+                decoding="async"
+                alt={entry.data.title}
+              />
+            ) : (
+              <span class="strip__empty" style="padding:1rem">No photos yet</span>
+            )}
+          </button>
+          <h3 class="piece__title">{entry.data.title}</h3>
+          <p class="piece__meta">
+            {entry.data.artist} · {photos.length} photo{photos.length === 1 ? "" : "s"}
+          </p>
+        </article>
+      );
+    })
+  }
+</div>

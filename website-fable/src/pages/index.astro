@@ -1,0 +1,91 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../layouts/Base.astro";
+import Hero from "../components/Hero.astro";
+import Minimap from "../components/Minimap.astro";
+import Stop from "../components/Stop.astro";
+import PieceGrid from "../components/PieceGrid.astro";
+import photosData from "../data/photos.json";
+
+const photos = photosData as Record<string, any[]>;
+const all = await getCollection("sculptures");
+
+const outdoor = all
+  .filter((e) => e.data.section === "outdoor")
+  .sort((a, b) => (a.data.pathOrder ?? 999) - (b.data.pathOrder ?? 999));
+const indoor = all
+  .filter((e) => e.data.section === "indoor")
+  .sort((a, b) => a.data.title.localeCompare(b.data.title))
+  .map((entry) => ({ entry, photos: photos[entry.id] ?? [] }));
+const unplaced = all
+  .filter((e) => e.data.section === "unplaced")
+  .map((entry) => ({ entry, photos: photos[entry.id] ?? [] }));
+---
+
+<Base>
+  <Hero />
+
+  <main id="trail" class="trail" data-scrollstage>
+    <Minimap />
+    <div class="stops">
+      {
+        outdoor.map((entry) => (
+          <Stop
+            entry={entry}
+            photos={photos[entry.id] ?? []}
+            displayNumber={entry.data.pathOrder ?? 0}
+          />
+        ))
+      }
+    </div>
+  </main>
+
+  <section id="indoor">
+    <div class="section-head">
+      <p class="section-head__eyebrow eyebrow">Off the trail · Inside the house</p>
+      <h2 class="section-head__title">Indoor stained glass</h2>
+      <p class="section-head__lede">
+        Not part of the walk — these pieces live inside. Tap any to see it full screen.
+      </p>
+    </div>
+    <PieceGrid items={indoor} />
+  </section>
+
+  {
+    unplaced.length > 0 && (
+      <section id="unplaced">
+        <div class="section-head">
+          <p class="section-head__eyebrow eyebrow">To be sorted</p>
+          <h2 class="section-head__title">Unplaced</h2>
+          <p class="section-head__lede">
+            Scans not yet identified or located. They'll move onto the trail or indoors once
+            we know where they belong.
+          </p>
+        </div>
+        <PieceGrid items={unplaced} />
+      </section>
+    )
+  }
+
+  <footer class="site-foot">
+    <span>Bright Water Bog · Shutesbury, MA</span>
+    <span>Sculpture by Julian Janowitz · Hoopla Pyramid by Samuel Clay &amp; Brittany Janis</span>
+  </footer>
+
+  {/* Fullscreen zoom viewer (global) */}
+  <div class="lightbox" data-lightbox-root hidden aria-hidden="true">
+    <div class="lightbox__stage" data-lightbox-stage>
+      <img class="lightbox__img" data-lightbox-img alt="" />
+    </div>
+    <button class="lightbox__close" data-lightbox-close type="button" aria-label="Close">✕</button>
+    <button class="lightbox__nav lightbox__nav--prev" data-lightbox-prev type="button" aria-label="Previous">‹</button>
+    <button class="lightbox__nav lightbox__nav--next" data-lightbox-next type="button" aria-label="Next">›</button>
+    <div class="lightbox__hint" data-lightbox-hint>Pinch or scroll to zoom · scroll away or tap to close</div>
+  </div>
+
+  <script>
+    import "../islands/scroll-stage";
+    import "../islands/photo-strip";
+    import "../islands/lightbox";
+  </script>
+</Base>

@@ -1,0 +1,44 @@
+---
+// A faint leaded-glass window behind the title — the site's whole premise in one image.
+import trail from "../data/trail.json";
+const count = trail.nodes.length;
+---
+
+<section class="hero">
+  <svg class="hero__glass" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <defs>
+      <filter id="soft"><feGaussianBlur stdDeviation="6" /></filter>
+    </defs>
+    <g filter="url(#soft)" opacity="0.55">
+      <polygon points="0,0 420,0 300,320 0,260" fill="var(--cobalt)" opacity="0.28" />
+      <polygon points="420,0 760,0 640,300 300,320" fill="var(--teal)" opacity="0.22" />
+      <polygon points="760,0 1200,0 1200,300 640,300" fill="var(--amber)" opacity="0.30" />
+      <polygon points="0,260 300,320 240,620 0,640" fill="var(--violet)" opacity="0.20" />
+      <polygon points="300,320 640,300 620,600 240,620" fill="var(--garnet)" opacity="0.22" />
+      <polygon points="640,300 1200,300 1200,640 620,600" fill="var(--rose)" opacity="0.20" />
+      <polygon points="0,640 240,620 300,800 0,800" fill="var(--gold)" opacity="0.24" />
+      <polygon points="240,620 620,600 700,800 300,800" fill="var(--teal)" opacity="0.20" />
+      <polygon points="620,600 1200,640 1200,800 700,800" fill="var(--cobalt)" opacity="0.24" />
+    </g>
+    <g stroke="var(--came-strong)" stroke-width="3" fill="none" opacity="0.5">
+      <path d="M0,260 L300,320 L640,300 L1200,300" />
+      <path d="M0,640 L240,620 L620,600 L1200,640" />
+      <path d="M420,0 L300,320 L240,620 L300,800" />
+      <path d="M760,0 L640,300 L620,600 L700,800" />
+    </g>
+  </svg>
+
+  <div class="hero__inner">
+    <p class="hero__eyebrow eyebrow">Shutesbury, Massachusetts · {count} sculptures on a trail</p>
+    <h1 class="hero__title">Bright Water <em>Bog</em></h1>
+    <p class="hero__lede">
+      Three decades of stained-glass sculpture along a woodland path — the work of Julian
+      Janowitz, photographed as he built it and again today. Scroll to walk the trail.
+    </p>
+  </div>
+
+  <div class="hero__foot">
+    <span class="scroll-cue"><span class="scroll-cue__dot"></span> Scroll to begin</span>
+    <span class="eyebrow">Then &amp; now · glass &amp; light</span>
+  </div>
+</section>

@@ -1,0 +1,53 @@
+---
+import { render, type CollectionEntry } from "astro:content";
+import PhotoStrip from "./PhotoStrip.astro";
+
+interface PhotoEntry {
+  key: string;
+  era: "now" | "aerial" | "then" | "construction";
+  date: string | null;
+  width: number | null;
+  height: number | null;
+  orientation: string;
+}
+interface Props {
+  entry: CollectionEntry<"sculptures">;
+  photos: PhotoEntry[];
+  displayNumber: number;
+}
+const { entry, photos, displayNumber } = Astro.props;
+const { data } = entry;
+const { Content } = await render(entry);
+
+const num = String(displayNumber).padStart(2, "0");
+const isPlaceholder = data.status === "placeholder";
+---
+
+<section
+  class="stop"
+  data-stop
+  data-slug={entry.id}
+  data-glass={data.glass}
+  data-order={data.pathOrder}
+  style={`--stop-glass: var(--${data.glass})`}
+  aria-labelledby={`h-${entry.id}`}
+>
+  <div class="stop__head">
+    <p class="stop__index eyebrow">Stop {num} · Outdoor</p>
+    <h2 class="stop__title" id={`h-${entry.id}`}>{data.title}</h2>
+    {data.kicker && <p class="stop__kicker">{data.kicker}</p>}
+    <p class="stop__meta">
+      {data.artist}
+      {data.year && (<><span class="dot">◆</span>{data.year}</>)}
+    </p>
+    <div class="stop__prose"><Content /></div>
+  </div>
+
+  {
+    isPlaceholder ? (
+      <div class="stop__placeholder">Coming soon — photos will appear here.</div>
+    ) : (
+      <PhotoStrip photos={photos} title={data.title} />
+    )
+  }
+</section>

@@ -1,0 +1,105 @@
+---
+import { imageUrl, srcset, STRIP_WIDTHS } from "../lib/imageUrl";
+
+interface PhotoEntry {
+  key: string;
+  era: "now" | "aerial" | "then" | "construction";
+  date: string | null;
+  width: number | null;
+  height: number | null;
+  orientation: string;
+}
+interface Props {
+  photos: PhotoEntry[];
+  title: string;
+}
+const { photos, title } = Astro.props;
+
+const ERAS = [
+  { era: "now", label: "Now", note: "Today" },
+  { era: "aerial", label: "Aerial", note: "From above" },
+  { era: "then", label: "Then", note: "As Julian built it" },
+  { era: "construction", label: "Construction", note: "In progress" },
+] as const;
+
+function frameData(p: PhotoEntry) {
+  return {
+    thumb: imageUrl(p.key, { w: 760, fit: "cover" }),
+    thumbset: srcset(p.key, STRIP_WIDTHS, "cover"),
+    full: imageUrl(p.key, { w: 1800, fit: "contain" }),
+    fullHi: imageUrl(p.key, { w: 2600, fit: "contain" }),
+    w: p.width ?? 0,
+    h: p.height ?? 0,
+    year: p.date ? p.date.slice(0, 4) : "",
+  };
+}
+
+const groups = ERAS.map((e) => ({
+  ...e,
+  items: photos.filter((p) => p.era === e.era).map(frameData),
+})).filter((g) => g.items.length > 0);
+
+const total = photos.length;
+---
+
+{
+  total === 0 ? (
+    <p class="strip__empty">No photos yet — check back.</p>
+  ) : (
+    <div class="strip" data-strip>
+      {groups.length > 1 && (
+        <div class="strip__bar" role="tablist" aria-label={`${title} — photo sections`}>
+          {groups.map((g) => (
+            <button
+              class="seg"
+              type="button"
+              role="tab"
+              data-seg={g.era}
+              style={`flex-grow:${g.items.length}`}
+              aria-label={`Jump to ${g.label}, ${g.items.length} photos`}
+            >
+              <span class="seg__fill" data-seg-fill />
+              <span class="seg__label">
+                {g.label} <i>{g.items.length}</i>
+              </span>
+            </button>
+          ))}
+        </div>
+      )}
+
+      <div class="strip__track" data-strip-track>
+        {groups.map((g) => (
+          <div class="strip__group" data-group={g.era}>
+            {g.items.map((f, i) => (
+              <button
+                class="frame"
+                type="button"
+                data-lightbox
+                data-full={f.full}
+                data-full-hi={f.fullHi}
+                data-w={f.w}
+                data-h={f.h}
+                aria-label={`${title} — ${g.label} photo ${i + 1}, open full screen`}
+              >
+                <img
+                  src={f.thumb}
+                  srcset={f.thumbset}
+                  sizes="440px"
+                  width={f.w || undefined}
+                  height={f.h || undefined}
+                  loading="lazy"
+                  decoding="async"
+                  alt={`${title}, ${g.label.toLowerCase()} photo`}
+                />
+                <span class="frame__era">
+                  {g.label}
+                  {f.year ? ` · ${f.year}` : ""}
+                </span>
+              </button>
+            ))}
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}

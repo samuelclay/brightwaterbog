@@ -1,0 +1,61 @@
+---
+import trail from "../data/trail.json";
+
+const nodes = trail.nodes as Array<{
+  slug: string;
+  title: string;
+  kicker: string | null;
+  glass: string;
+  order: number;
+  status: string;
+  count: number;
+  x: number;
+  y: number;
+}>;
+
+// Smooth meander computed in catalog.mjs (beads in walking order).
+const d = trail.pathD as string;
+const first = nodes[0];
+---
+
+<aside class="map-rail">
+  <div class="minimap" data-minimap>
+    <p class="minimap__title-line">The Trail · {nodes.length} stops</p>
+    <div class="minimap__frame">
+      <svg viewBox={trail.viewBox} role="img" aria-label="Map of the sculpture trail">
+        <path class="mm-path" d={d} />
+        <path class="mm-path--lit" d={d} pathLength="1" data-lit style="stroke-dasharray:1;stroke-dashoffset:1" />
+        {
+          nodes.map((n) => (
+            <circle
+              class="mm-node"
+              data-node={n.slug}
+              cx={n.x}
+              cy={n.y}
+              r="2.4"
+              style={`--node-glass: var(--${n.glass})`}
+            >
+              <title>{`${n.order}. ${n.title}`}</title>
+            </circle>
+          ))
+        }
+        <g class="mm-marker-g" data-marker style={`transform: translate(${first.x}px, ${first.y}px)`}>
+          <circle class="mm-marker" r="3.1" />
+        </g>
+      </svg>
+      <div class="minimap__caption">
+        <span class="minimap__now" data-now>{first.title}</span>
+        <span class="minimap__count" data-count>{first.count} photos</span>
+      </div>
+    </div>
+  </div>
+</aside>
+
+<style>
+  .mm-marker-g {
+    transition: transform 0.55s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .mm-marker-g { transition: none; }
+  }
+</style>

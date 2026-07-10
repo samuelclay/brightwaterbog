@@ -1,0 +1,631 @@
+/* =========================================================================
+   Bright Water Bog — light through stained glass at dusk in a bog.
+   Photos are the light source against a deep spruce ground; "lead came" (the
+   dark line between glass pieces) is the structural motif: hairline rules and
+   the came-line trail map. Type: Fraunces (display) / Newsreader (body) /
+   IBM Plex Mono (archival catalog labels).
+   ========================================================================= */
+
+:root {
+  /* Ground + came (dark is the primary look) */
+  --bg: #0e1512;
+  --bg-2: #121b16;
+  --surface: #16211c;
+  --surface-2: #1c2a23;
+  --came: #26302b;
+  --came-strong: #3b473f;
+
+  /* Candlelight-on-paper text */
+  --ink: #ece4d4;
+  --ink-dim: #a9a595;
+  --ink-faint: #74766c;
+
+  /* Stained-glass spectrum (node + accent colors) */
+  --amber: #f2b45a;
+  --cobalt: #6a93ff;
+  --teal: #35c4a6;
+  --garnet: #e6586f;
+  --violet: #a98bec;
+  --rose: #f191b2;
+  --gold: #f0cf5b;
+
+  /* Active glass color for the stop currently in view (set by JS) */
+  --stop-glass: var(--amber);
+
+  --font-display: "Fraunces Variable", Georgia, serif;
+  --font-body: "Newsreader Variable", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --measure: 62ch;
+  --rail: 340px;
+  --radius: 3px; /* glass is cut, not rounded — keep it tight */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+
+  color-scheme: dark;
+}
+
+/* Light = gallery wall / paper. Auto by preference, overridable by toggle. */
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f3ede0;
+    --bg-2: #ece4d4;
+    --surface: #fbf7ee;
+    --surface-2: #f2ead9;
+    --came: #ddd1b8;
+    --came-strong: #c3b592;
+    --ink: #211d16;
+    --ink-dim: #5e574a;
+    --ink-faint: #8f8778;
+    --amber: #b9791b;
+    --cobalt: #2f5bd0;
+    --teal: #10897073;
+    --teal: #128a70;
+    --garnet: #c0334c;
+    --violet: #6f4fc0;
+    --rose: #c25682;
+    --gold: #b18f16;
+    color-scheme: light;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1512; --bg-2: #121b16; --surface: #16211c; --surface-2: #1c2a23;
+  --came: #26302b; --came-strong: #3b473f;
+  --ink: #ece4d4; --ink-dim: #a9a595; --ink-faint: #74766c;
+  --amber: #f2b45a; --cobalt: #6a93ff; --teal: #35c4a6; --garnet: #e6586f;
+  --violet: #a98bec; --rose: #f191b2; --gold: #f0cf5b;
+  color-scheme: dark;
+}
+:root[data-theme="light"] {
+  --bg: #f3ede0; --bg-2: #ece4d4; --surface: #fbf7ee; --surface-2: #f2ead9;
+  --came: #ddd1b8; --came-strong: #c3b592;
+  --ink: #211d16; --ink-dim: #5e574a; --ink-faint: #8f8778;
+  --amber: #b9791b; --cobalt: #2f5bd0; --teal: #128a70; --garnet: #c0334c;
+  --violet: #6f4fc0; --rose: #c25682; --gold: #b18f16;
+  color-scheme: light;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: clamp(1.02rem, 0.95rem + 0.4vw, 1.18rem);
+  line-height: 1.62;
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+img, svg, video { display: block; max-width: 100%; }
+a { color: inherit; }
+button { font: inherit; color: inherit; background: none; border: none; cursor: pointer; }
+
+:focus-visible {
+  outline: 2px solid var(--stop-glass);
+  outline-offset: 3px;
+  border-radius: var(--radius);
+}
+
+/* ---- shared type helpers ---- */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.came-rule {
+  border: 0;
+  height: 1px;
+  background: var(--came);
+}
+
+/* =========================================================================
+   HERO
+   ========================================================================= */
+.hero {
+  min-height: 100svh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(120% 90% at 50% -10%, color-mix(in oklab, var(--amber) 12%, transparent), transparent 60%),
+    var(--bg);
+}
+.hero__glass {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.5;
+  pointer-events: none;
+}
+.hero__inner {
+  position: relative;
+  z-index: 1;
+  align-self: center;
+  max-width: 22ch;
+}
+.hero__eyebrow { margin-bottom: 1.4rem; }
+.hero__title {
+  font-family: var(--font-display);
+  font-weight: 420;
+  font-variation-settings: "opsz" 144, "SOFT" 40, "WONK" 1;
+  font-size: clamp(3.4rem, 8vw + 1rem, 8.5rem);
+  line-height: 0.92;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+.hero__title em {
+  font-style: italic;
+  font-variation-settings: "opsz" 144, "SOFT" 60, "WONK" 1;
+  color: var(--amber);
+}
+.hero__lede {
+  margin-top: 1.6rem;
+  max-width: 46ch;
+  color: var(--ink-dim);
+  font-size: clamp(1.05rem, 1rem + 0.4vw, 1.35rem);
+}
+.hero__foot {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.scroll-cue {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--ink-dim);
+}
+.scroll-cue__dot {
+  width: 10px; height: 10px; border-radius: 50%;
+  background: var(--amber);
+  box-shadow: 0 0 12px 2px color-mix(in oklab, var(--amber) 70%, transparent);
+  animation: cue 2.4s var(--ease) infinite;
+}
+@keyframes cue { 0%,100%{transform:translateY(0);opacity:.5} 50%{transform:translateY(6px);opacity:1} }
+
+/* =========================================================================
+   TRAIL LAYOUT — sticky came-map rail + scrolling stops
+   ========================================================================= */
+.trail {
+  display: grid;
+  grid-template-columns: var(--rail) minmax(0, 1fr);
+  gap: clamp(1rem, 3vw, 3rem);
+  padding: 0 clamp(1rem, 3vw, 3rem);
+  align-items: start;
+}
+.map-rail {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.5rem 0;
+}
+.stops { min-width: 0; padding: 12svh 0; display: flex; flex-direction: column; gap: 16svh; }
+
+/* ---- a single stop ---- */
+.stop { min-width: 0; scroll-margin-top: 8vh; }
+.stop__head {
+  max-width: var(--measure);
+  opacity: 0.28;
+  transform: translateY(14px);
+  transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
+}
+.stop.is-active .stop__head { opacity: 1; transform: none; }
+.stop__index { margin-bottom: 0.9rem; color: var(--stop-glass); }
+.stop__title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-variation-settings: "opsz" 110, "SOFT" 30, "WONK" 0;
+  font-size: clamp(2.1rem, 4vw + 0.5rem, 3.6rem);
+  line-height: 1.02;
+  letter-spacing: -0.012em;
+}
+.stop__kicker {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  margin-top: 0.5rem;
+}
+.stop__meta {
+  margin-top: 0.9rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-faint);
+}
+.stop__meta .dot { color: var(--stop-glass); padding: 0 0.5em; }
+.stop__prose { margin-top: 1.2rem; color: var(--ink-dim); }
+.stop__prose p + p { margin-top: 0.9em; }
+.stop__prose em { color: var(--ink); font-style: italic; }
+
+/* placeholder / empty */
+.stop__placeholder {
+  margin-top: 1.4rem;
+  border: 1px dashed var(--came-strong);
+  border-radius: var(--radius);
+  padding: 2rem;
+  color: var(--ink-faint);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  background: var(--surface);
+}
+
+/* =========================================================================
+   PHOTO STRIP — horizontal scroll, then/now split
+   ========================================================================= */
+.strip {
+  margin-top: clamp(1.4rem, 3vw, 2.2rem);
+  opacity: 0.3;
+  transition: opacity 0.6s var(--ease) 0.05s;
+}
+.stop.is-active .strip { opacity: 1; }
+.strip__track {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x proximity;
+  padding: 4px 0 18px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--came-strong) transparent;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+}
+.strip__track::-webkit-scrollbar { height: 8px; }
+.strip__track::-webkit-scrollbar-thumb { background: var(--came-strong); border-radius: 99px; }
+
+.frame {
+  position: relative;
+  flex: 0 0 auto;
+  height: clamp(340px, 58vh, 520px);
+  width: clamp(300px, 40vw, 440px); /* uniform "cover" tiles */
+  scroll-snap-align: start;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--came);
+  padding: 0;
+  transition: transform 0.4s var(--ease), border-color 0.4s var(--ease);
+}
+.frame:hover { transform: translateY(-3px); border-color: var(--stop-glass); }
+.frame img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* width computed inline from aspect so the flex item is sized right */
+}
+.frame__era {
+  position: absolute;
+  left: 8px; bottom: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 3px 7px;
+  border-radius: 99px;
+  background: color-mix(in oklab, var(--bg) 62%, transparent);
+  color: var(--ink);
+  backdrop-filter: blur(6px);
+}
+
+/* segmented progress bar over the strip: Then / Now / Construction */
+.strip__bar {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 12px;
+  max-width: min(720px, 100%);
+}
+.seg {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 0;
+  height: 30px;
+  border: 1px solid var(--came);
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  transition: border-color 0.3s var(--ease);
+}
+.seg.is-active { border-color: var(--stop-glass); }
+.seg__fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 0%;
+  background: color-mix(in oklab, var(--stop-glass) 26%, transparent);
+  border-right: 1.5px solid var(--stop-glass);
+  transition: width 0.12s linear;
+}
+.seg.is-active .seg__fill { background: color-mix(in oklab, var(--stop-glass) 34%, transparent); }
+.seg__label {
+  position: relative;
+  z-index: 1;
+  padding: 0 0.85rem;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.seg.is-active .seg__label { color: var(--ink); }
+.seg__label i { font-style: normal; color: var(--ink-faint); }
+
+/* groups inside the track (a larger gap divides the eras) */
+.strip__group { display: flex; gap: 14px; flex: 0 0 auto; }
+.strip__group + .strip__group {
+  margin-left: 18px;
+  padding-left: 32px;
+  border-left: 1px dashed var(--came-strong);
+}
+
+.strip__empty {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--ink-faint);
+  padding: 1.5rem 0;
+}
+
+/* =========================================================================
+   MINIMAP (came-line trail with glowing cabochons)
+   ========================================================================= */
+.minimap { position: relative; width: 100%; }
+.minimap__frame {
+  border: 1px solid var(--came);
+  border-radius: var(--radius);
+  background:
+    radial-gradient(80% 70% at 50% 40%, var(--surface-2), var(--surface));
+  padding: 14px;
+}
+.minimap svg { width: 100%; height: auto; overflow: visible; }
+.mm-path { fill: none; stroke: var(--came-strong); stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+.mm-path--lit {
+  fill: none; stroke: var(--stop-glass); stroke-width: 1.8; stroke-linecap: round;
+  filter: drop-shadow(0 0 3px color-mix(in oklab, var(--stop-glass) 80%, transparent));
+  transition: stroke-dashoffset 0.5s var(--ease);
+}
+.mm-node { fill: var(--surface); stroke: var(--came-strong); stroke-width: 1; transition: all 0.4s var(--ease); }
+.mm-node.is-active {
+  fill: var(--node-glass);
+  stroke: var(--node-glass);
+  filter: drop-shadow(0 0 5px color-mix(in oklab, var(--node-glass) 85%, transparent));
+}
+.mm-node.is-visited { fill: color-mix(in oklab, var(--node-glass) 55%, var(--surface)); stroke: var(--node-glass); }
+.mm-marker {
+  fill: var(--ink);
+  stroke: var(--stop-glass);
+  stroke-width: 2;
+  filter: drop-shadow(0 0 8px color-mix(in oklab, var(--stop-glass) 90%, transparent));
+  transition: transform 0.55s var(--ease);
+}
+.minimap__caption {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+.minimap__now { font-family: var(--font-display); font-size: 1.15rem; font-variation-settings: "opsz" 40, "SOFT" 30; }
+.minimap__count { font-family: var(--font-mono); font-size: 0.7rem; color: var(--ink-faint); letter-spacing: 0.08em; }
+.minimap__title-line { font-family: var(--font-mono); font-size: 0.66rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-faint); }
+
+/* =========================================================================
+   SECTION HEADERS (outdoor / indoor demarcation)
+   ========================================================================= */
+.section-head {
+  padding: clamp(4rem, 12vh, 10rem) clamp(1rem, 3vw, 3rem) clamp(1.5rem, 4vh, 3rem);
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.section-head__eyebrow { margin-bottom: 1rem; }
+.section-head__title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-variation-settings: "opsz" 120, "SOFT" 40, "WONK" 1;
+  font-size: clamp(2.4rem, 6vw, 4.5rem);
+  line-height: 1;
+  letter-spacing: -0.01em;
+}
+.section-head__lede { margin-top: 1.2rem; max-width: var(--measure); color: var(--ink-dim); }
+
+/* =========================================================================
+   INDOOR GALLERY (grid, not on the map)
+   ========================================================================= */
+.gallery {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 3vw, 3rem) 6rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: clamp(1rem, 2vw, 1.8rem);
+}
+.piece { min-width: 0; }
+.piece__thumbs {
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--came);
+  aspect-ratio: 4 / 5;
+  background: var(--surface);
+}
+.piece__thumbs img { width: 100%; height: 100%; object-fit: cover; }
+.piece__title { margin-top: 0.8rem; font-family: var(--font-display); font-size: 1.3rem; font-variation-settings: "opsz" 40, "SOFT" 30; }
+.piece__meta { font-family: var(--font-mono); font-size: 0.7rem; color: var(--ink-faint); letter-spacing: 0.06em; margin-top: 0.2rem; }
+
+/* =========================================================================
+   TOP BAR + THEME TOGGLE + SECTION NAV
+   ========================================================================= */
+.topbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 40;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem clamp(1rem, 3vw, 2rem);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  mix-blend-mode: difference;
+}
+.topbar a { text-decoration: none; opacity: 0.8; }
+.topbar a:hover { opacity: 1; }
+.topbar__links { display: flex; gap: 1.2rem; align-items: center; }
+.theme-toggle {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+}
+
+footer.site-foot {
+  border-top: 1px solid var(--came);
+  padding: 3rem clamp(1rem, 3vw, 3rem);
+  color: var(--ink-faint);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* =========================================================================
+   RESPONSIVE — collapse rail to a fixed bottom trail bar
+   ========================================================================= */
+@media (max-width: 1080px) {
+  .trail { grid-template-columns: minmax(0, 1fr); }
+  .map-rail {
+    position: fixed;
+    left: 0; right: 0; bottom: 0; top: auto;
+    height: auto;
+    z-index: 30;
+    padding: 0;
+    background: color-mix(in oklab, var(--bg) 82%, transparent);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid var(--came);
+  }
+  .minimap__frame { border: 0; border-radius: 0; padding: 8px 12px; background: none; display: flex; align-items: center; gap: 12px; }
+  .minimap svg { max-height: 84px; width: auto; }
+  .minimap__caption { margin: 0; flex-direction: column; align-items: flex-start; gap: 2px; }
+  .stops { padding-bottom: 140px; }
+}
+@media (max-width: 620px) {
+  .frame { height: clamp(300px, 74vw, 440px); width: clamp(240px, 62vw, 340px); }
+  .era-gap { width: 46px; }
+  .hero__inner { max-width: none; }
+}
+
+/* =========================================================================
+   LIGHTBOX (fullscreen pinch/wheel zoom + pan)
+   ========================================================================= */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: color-mix(in oklab, #05080699 92%, transparent);
+  backdrop-filter: blur(14px);
+  display: grid;
+  place-items: center;
+  opacity: 0;
+  transition: opacity 0.28s var(--ease);
+  touch-action: none;
+  overscroll-behavior: contain;
+}
+.lightbox[hidden] { display: none; }
+.lightbox.is-open { opacity: 1; }
+.lightbox__stage {
+  width: 100vw;
+  height: 100svh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.lightbox__img {
+  max-width: 96vw;
+  max-height: 92svh;
+  object-fit: contain;
+  will-change: transform;
+  transform-origin: 0 0;
+  user-select: none;
+  -webkit-user-drag: none;
+  border-radius: var(--radius);
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.6);
+  cursor: zoom-in;
+}
+.lightbox.is-zoomed .lightbox__img { cursor: grab; }
+.lightbox__close,
+.lightbox__nav {
+  position: fixed;
+  z-index: 101;
+  color: var(--ink);
+  background: color-mix(in oklab, var(--bg) 55%, transparent);
+  border: 1px solid var(--came-strong);
+  border-radius: 999px;
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  font-size: 1.4rem;
+  line-height: 1;
+  backdrop-filter: blur(8px);
+  transition: background 0.2s var(--ease), transform 0.2s var(--ease);
+}
+.lightbox__close:hover,
+.lightbox__nav:hover { background: var(--surface-2); }
+.lightbox__close { top: 1rem; right: 1rem; }
+.lightbox__nav--prev { left: 1rem; top: 50%; transform: translateY(-50%); }
+.lightbox__nav--next { right: 1rem; top: 50%; transform: translateY(-50%); }
+.lightbox__nav[disabled] { opacity: 0.25; pointer-events: none; }
+.lightbox__hint {
+  position: fixed;
+  bottom: 1.1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  background: color-mix(in oklab, var(--bg) 55%, transparent);
+  padding: 6px 12px;
+  border-radius: 999px;
+  backdrop-filter: blur(8px);
+  transition: opacity 0.3s var(--ease);
+}
+.lightbox.is-zoomed .lightbox__hint { opacity: 0; }
+@media (max-width: 620px) {
+  .lightbox__nav { display: none; } /* swipe instead */
+}
