@@ -1,0 +1,17 @@
+{
+  "name": "Bright Water Bog",
+  "short_name": "Bright Water Bog",
+  "description": "The stained-glass sculpture trail at Bright Water Bog.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#dce9e3",
+  "theme_color": "#123425",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+---
+import type { MediaItem } from "../lib/types";
+import { imageSrcset, thumbnailFor } from "../lib/media";
+
+type Props = { media?: MediaItem };
+const { media } = Astro.props;
+const image = media?.kind === "image" ? media : undefined;
+const fallback = media ? thumbnailFor(media) : undefined;
+---
+
+<header class="hero" id="top" data-scene="hero">
+  {image && fallback ? (
+    <picture class="hero__media">
+      {image.variants.avif.length > 0 && <source type="image/avif" srcset={imageSrcset(image, "avif")} sizes="100vw" />}
+      <source type="image/webp" srcset={imageSrcset(image, "webp")} sizes="100vw" />
+      <img src={fallback.src} width={fallback.width} height={fallback.height} alt={image.alt} fetchpriority="high" decoding="async" />
+    </picture>
+  ) : (
+    <div class="hero__fallback" aria-hidden="true"></div>
+  )}
+  <div class="hero__veil" aria-hidden="true"></div>
+  <div class="hero__title">
+    <p class="hero__eyebrow">Shutesbury, Massachusetts</p>
+    <h1>Bright<br />Water Bog</h1>
+    <p class="hero__subtitle">Stained-Glass Sculpture Trail</p>
+  </div>
+  <a class="hero__continue" href="#trail">
+    <span>Enter through Stargate</span>
+    <svg aria-hidden="true" viewBox="0 0 24 32"><path d="M12 2v25m-7-7 7 7 7-7" /></svg>
+  </a>
+</header>

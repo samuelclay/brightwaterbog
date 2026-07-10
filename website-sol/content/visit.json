@@ -1,0 +1,12 @@
+{
+  "status": "draft",
+  "address": "Add the public visitor address before launch",
+  "directionsUrl": "",
+  "parking": "Add parking instructions before launch.",
+  "access": "The sculpture trail is outdoors. The nearby home is private; follow the trail signs and remain on the marked path.",
+  "latitude": 42.4984,
+  "longitude": -72.4205,
+  "timezone": "America/New_York",
+  "dawnOffsetMinutes": -60,
+  "duskOffsetMinutes": 60
+}

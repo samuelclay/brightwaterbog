@@ -1,0 +1,23 @@
+---
+import Journey from "../../components/Journey.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getWorkRecords, heroMediaFor } from "../../lib/data";
+
+export async function getStaticPaths() {
+  const records = await getWorkRecords();
+  return records
+    .filter((record) => record.data.section !== "poetry")
+    .map((record) => ({ params: { slug: record.slug } }));
+}
+
+const { slug } = Astro.params;
+const records = await getWorkRecords();
+const record = records.find((item) => item.slug === slug);
+if (!record) return Astro.redirect("/404/");
+const hero = heroMediaFor(record);
+const image = hero?.kind === "image" ? hero.zoom.src : undefined;
+---
+
+<BaseLayout title={record.data.title} description={record.data.summary} initialStop={record.slug} image={image}>
+  <Journey />
+</BaseLayout>

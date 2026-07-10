@@ -1,0 +1,13 @@
+---
+import Journey from "../components/Journey.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getWorkRecords, heroMediaFor } from "../lib/data";
+
+const trail = await getWorkRecords("trail");
+const hero = heroMediaFor(trail.find((work) => work.slug === "stargate"));
+const heroImage = hero?.kind === "image" ? hero.zoom.src : undefined;
+---
+
+<BaseLayout image={heroImage}>
+  <Journey />
+</BaseLayout>

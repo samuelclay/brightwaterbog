@@ -1,0 +1,41 @@
+---
+import type { WorkRecord } from "../lib/data";
+import { smoothPath } from "../lib/map-path";
+
+type Props = { works: WorkRecord[]; compact?: boolean };
+const { works, compact = false } = Astro.props;
+const mapped = works.flatMap((work) => (work.data.map ? [{ work, point: work.data.map }] : []));
+const routePath = smoothPath(mapped.map(({ point }) => point));
+---
+
+<svg
+  class:list={["route-map__svg", compact && "route-map__svg--compact"]}
+  viewBox="0 0 100 130"
+  role={compact ? "img" : "group"}
+  aria-label="Illustrated sculpture trail map"
+>
+  <path class="route-map__path route-map__path--shadow" d={routePath} pathLength="1" />
+  <path class="route-map__path route-map__path--base" d={routePath} pathLength="1" />
+  <path class="route-map__path route-map__path--progress" d={routePath} pathLength="1" />
+  <g class="route-map__markers">
+    {mapped.map(({ work, point }, index) => compact ? (
+      <g class="route-map__marker" data-map-slug={work.slug} aria-hidden="true" style={`--marker-color:${work.data.accent}`}>
+        <circle class="route-map__marker-halo" cx={point.x} cy={point.y} r="5.8" />
+        <circle class="route-map__marker-dot" cx={point.x} cy={point.y} r="2.9" />
+      </g>
+    ) : (
+      <a
+        class="route-map__marker"
+        data-map-link
+        data-map-slug={work.slug}
+        href={`/sculptures/${work.slug}/`}
+        aria-label={`Go to ${work.data.title}`}
+        style={`--marker-color:${work.data.accent}`}
+      >
+        <circle class="route-map__marker-halo" cx={point.x} cy={point.y} r="5.8" />
+        <circle class="route-map__marker-dot" cx={point.x} cy={point.y} r="2.9" />
+        <text x={point.x} y={point.y + 0.85}>{index + 1}</text>
+      </a>
+    ))}
+  </g>
+</svg>

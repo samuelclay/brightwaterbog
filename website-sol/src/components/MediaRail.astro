@@ -1,0 +1,107 @@
+---
+import { imageSrcset, thumbnailFor } from "../lib/media";
+import { MEDIA_CHAPTERS, type MediaItem } from "../lib/types";
+
+type Props = {
+  workSlug: string;
+  title: string;
+  media: MediaItem[];
+  poetry?: boolean;
+};
+
+const { workSlug, title, media, poetry = false } = Astro.props;
+const labels = { now: "Now", aerial: "Aerial", then: "Then", construction: "Construction" };
+const groups = MEDIA_CHAPTERS.map((chapter) => ({ chapter, items: media.filter((item) => item.chapter === chapter) })).filter(
+  (group) => group.items.length > 0,
+);
+const photoCount = media.filter((item) => item.kind === "image").length;
+---
+
+{media.length > 0 ? (
+  <div class:list={["media-rail", poetry && "media-rail--poetry"]} data-media-rail data-work={workSlug}>
+    {!poetry && (
+      <div class="media-rail__pills" aria-label={`${title} media sections`}>
+        {groups.map((group, index) => (
+          <button
+            class="media-pill"
+            type="button"
+            data-gallery-jump={group.chapter}
+            data-pill-index={index}
+            style="--fill:0"
+          >
+            <span class="media-pill__fill" aria-hidden="true"></span>
+            <span class="media-pill__label">{labels[group.chapter]}</span>
+          </button>
+        ))}
+      </div>
+    )}
+    <div class="media-rail__viewport">
+      <div class="media-rail__track" data-gallery-track data-photo-count={photoCount}>
+        {groups.map((group) => (
+          <div
+            class="media-group"
+            role="group"
+            data-gallery-section={group.chapter}
+            aria-label={`${title}: ${labels[group.chapter]} media`}
+          >
+            {group.items.map((item) => {
+              const thumbnail = thumbnailFor(item);
+              const position = `${item.focalPoint.x}% ${item.focalPoint.y}%`;
+              return item.kind === "image" ? (
+                <a
+                  class="media-card"
+                  href={item.zoom.src}
+                  data-pswp
+                  data-pswp-width={item.zoom.width}
+                  data-pswp-height={item.zoom.height}
+                  data-pswp-srcset={imageSrcset(item, "webp")}
+                  data-media-id={item.id}
+                  aria-label={`Open full-screen image: ${item.alt}`}
+                >
+                  <picture>
+                    {item.variants.avif.length > 0 && <source type="image/avif" srcset={imageSrcset(item, "avif")} sizes="(max-width: 720px) 84vw, 47vw" />}
+                    <source type="image/webp" srcset={imageSrcset(item, "webp")} sizes="(max-width: 720px) 84vw, 47vw" />
+                    <img
+                      src={thumbnail.src}
+                      width={thumbnail.width}
+                      height={thumbnail.height}
+                      alt={item.alt}
+                      loading="lazy"
+                      decoding="async"
+                      style={`object-position:${position}`}
+                    />
+                  </picture>
+                  <span class="media-card__expand" aria-hidden="true">↗</span>
+                </a>
+              ) : (
+                <button
+                  class="media-card media-card--video"
+                  type="button"
+                  data-video-src={item.src}
+                  data-video-poster={item.poster.src}
+                  data-video-alt={item.alt}
+                  aria-label={`Play video: ${item.alt}`}
+                >
+                  <img src={item.poster.src} width={item.poster.width} height={item.poster.height} alt="" loading="lazy" style={`object-position:${position}`} />
+                  <span class="media-card__play" aria-hidden="true">Play</span>
+                </button>
+              );
+            })}
+          </div>
+        ))}
+        <div class="media-rail__end" aria-hidden="true">End</div>
+      </div>
+      {!poetry && media.length > 1 && (
+        <div class="media-rail__arrows" aria-label="Gallery controls">
+          <button type="button" data-gallery-prev aria-label="Previous image">←</button>
+          <button type="button" data-gallery-next aria-label="Next image">→</button>
+        </div>
+      )}
+    </div>
+  </div>
+) : (
+  <div class="archive-empty" role="status">
+    <span aria-hidden="true"></span>
+    <p><strong>Archive in progress</strong>Photographs are still being assigned to this stop.</p>
+  </div>
+)}

@@ -1,0 +1,41 @@
+{
+  "name": "bright-water-bog",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "PUBLIC_SHOW_DRAFTS=true astro build",
+    "build:production": "npm run content:check:production && PUBLIC_SHOW_DRAFTS=false astro build",
+    "preview": "astro preview",
+    "check": "astro check && npm run content:check && vitest run",
+    "test": "vitest",
+    "test:e2e": "playwright test",
+    "content:check": "node scripts/check-content.mjs",
+    "content:check:production": "node scripts/check-content.mjs --production",
+    "media:catalog": "node scripts/media-catalog.mjs",
+    "media:build": "node scripts/media-build.mjs",
+    "deploy": "npm run build && wrangler deploy",
+    "deploy:production": "npm run build:production && wrangler deploy"
+  },
+  "dependencies": {
+    "@fontsource/atkinson-hyperlegible": "^5.2.8",
+    "@fontsource/barlow-condensed": "^5.2.8",
+    "@fontsource/ibm-plex-mono": "^5.2.7",
+    "astro": "^7.0.7",
+    "photoswipe": "^5.4.4",
+    "suncalc": "^2.0.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.6",
+    "@axe-core/playwright": "^4.11.0",
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^24.10.1",
+    "@types/suncalc": "^1.9.2",
+    "sharp": "^0.35.3",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.10",
+    "wrangler": "^4.110.0",
+    "yaml": "^2.8.2"
+  }
+}

@@ -1,0 +1,35 @@
+---
+import type { WorkRecord } from "../lib/data";
+import MapSvg from "./MapSvg.astro";
+
+type Props = { works: WorkRecord[] };
+const { works } = Astro.props;
+---
+
+<aside class="route-map" aria-label="Trail progress">
+  <div class="route-map__desktop">
+    <div class="route-map__heading">
+      <p>Counterclockwise trail</p>
+      <strong data-current-stop>Stargate</strong>
+      <span><b data-current-number>1</b> of {works.length}</span>
+    </div>
+    <MapSvg works={works} />
+    <p class="route-map__hint">Choose a marker to jump to a sculpture.</p>
+  </div>
+  <button class="route-map__mobile" type="button" data-open-map aria-haspopup="dialog">
+    <span class="route-map__mobile-graphic"><MapSvg works={works} compact /></span>
+    <span class="route-map__mobile-copy">
+      <small><b data-current-number>1</b> / {works.length}</small>
+      <strong data-current-stop>Stargate</strong>
+    </span>
+    <span class="route-map__expand" aria-hidden="true">Map</span>
+  </button>
+</aside>
+
+<dialog class="map-dialog" data-map-dialog aria-label="Full trail map">
+  <div class="map-dialog__bar">
+    <div><small>On the trail</small><strong data-current-stop>Stargate</strong></div>
+    <button type="button" data-close-map aria-label="Close trail map">Close</button>
+  </div>
+  <MapSvg works={works} />
+</dialog>

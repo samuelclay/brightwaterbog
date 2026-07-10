@@ -1,0 +1,42 @@
+---
+import type { WorkRecord } from "../lib/data";
+import MediaRail from "./MediaRail.astro";
+
+type Props = { work: WorkRecord; routeIndex?: number };
+const { work, routeIndex } = Astro.props;
+const { Content } = work;
+---
+
+<article
+  class:list={["work-stop", `work-stop--${work.data.section}`, work.data.status === "draft" && "is-draft"]}
+  id={work.slug}
+  data-work-stop
+  data-work-slug={work.slug}
+  data-work-title={work.data.title}
+  data-work-order={routeIndex}
+  data-accent={work.data.accent}
+  style={`--accent:${work.data.accent}`}
+>
+  <header class="work-stop__header">
+    <div class="work-stop__identity">
+      {routeIndex && <span class="work-stop__number">{String(routeIndex).padStart(2, "0")}</span>}
+      <div>
+        {work.data.eyebrow && <p class="work-stop__eyebrow">{work.data.eyebrow}</p>}
+        <h2>{work.data.title}</h2>
+      </div>
+    </div>
+    <button class="work-stop__share" type="button" data-copy-link={`/sculptures/${work.slug}/`} aria-label={`Copy a link to ${work.data.title}`}>
+      <span aria-hidden="true">↗</span> Share
+    </button>
+    <p class="work-stop__artists">{work.data.artists.join(" · ") || "Bright Water Bog collection"}</p>
+    <p class="work-stop__summary">{work.data.summary}</p>
+    {work.data.status === "draft" && <span class="draft-label">Editorial preview</span>}
+  </header>
+
+  <MediaRail workSlug={work.slug} title={work.data.title} media={work.media} />
+
+  <div class="work-stop__history">
+    <p class="work-stop__history-label">History</p>
+    <div class="prose"><Content /></div>
+  </div>
+</article>

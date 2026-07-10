@@ -1,0 +1,57 @@
+---
+import "@fontsource/atkinson-hyperlegible/400.css";
+import "@fontsource/atkinson-hyperlegible/700.css";
+import "@fontsource/barlow-condensed/600.css";
+import "@fontsource/barlow-condensed/700.css";
+import "@fontsource/ibm-plex-mono/400.css";
+import "photoswipe/style.css";
+import "../styles/global.css";
+
+type Props = {
+  title?: string;
+  description?: string;
+  initialStop?: string;
+  image?: string;
+};
+
+const {
+  title = "Bright Water Bog",
+  description = "The stained-glass sculpture trail at Bright Water Bog in Shutesbury, Massachusetts.",
+  initialStop = "",
+  image,
+} = Astro.props;
+const pageTitle = title === "Bright Water Bog" ? title : `${title} — Bright Water Bog`;
+const analyticsToken = import.meta.env.PUBLIC_CLOUDFLARE_ANALYTICS_TOKEN;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#123425" />
+    <meta name="description" content={description} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    {image && <meta property="og:image" content={image} />}
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <title>{pageTitle}</title>
+    {analyticsToken && (
+      <script
+        is:inline
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon={JSON.stringify({ token: analyticsToken })}
+      ></script>
+    )}
+  </head>
+  <body data-initial-stop={initialStop}>
+    <a class="skip-link" href="#trail">Skip to the sculpture trail</a>
+    <slot />
+    <script>
+      import "../scripts/client";
+    </script>
+  </body>
+</html>

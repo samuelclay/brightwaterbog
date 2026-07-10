@@ -1,0 +1,38 @@
+---
+import type { VisitConfig } from "../lib/types";
+
+type Props = { visit: VisitConfig };
+const { visit } = Astro.props;
+---
+
+<section
+  class="visit"
+  id="visit"
+  data-visit-hours
+  data-latitude={visit.latitude}
+  data-longitude={visit.longitude}
+  data-timezone={visit.timezone}
+  data-dawn-offset={visit.dawnOffsetMinutes}
+  data-dusk-offset={visit.duskOffsetMinutes}
+>
+  <div class="visit__intro">
+    <p class="section-kicker">Plan your visit</p>
+    <h2>Walk the trail in daylight’s edges.</h2>
+    <p>The outdoor trail is open daily from one hour before civil dawn until one hour after civil dusk.</p>
+  </div>
+  <div class="visit__hours" aria-live="polite">
+    <span>Today</span>
+    <strong><time data-opens-time>—</time><i aria-hidden="true"></i><time data-closes-time>—</time></strong>
+    <small>24-hour · Shutesbury time</small>
+  </div>
+  <div class="visit__details">
+    <div>
+      <h3>Find the trail</h3>
+      {visit.status === "published" ? <address>{visit.address}</address> : <p>Public visitor address being prepared.</p>}
+      {visit.directionsUrl && <a href={visit.directionsUrl} rel="external">Open directions ↗</a>}
+    </div>
+    <div><h3>Parking</h3><p>{visit.parking}</p></div>
+    <div><h3>On the path</h3><p>{visit.access}</p></div>
+  </div>
+  {visit.status === "draft" && <p class="visit__draft">Visitor details are shown as editorial placeholders in this local preview.</p>}
+</section>

@@ -1,0 +1,105 @@
+{
+  "works": {
+    "stargate": [
+      { "path": "../photos/apple-photos-stained-glass/selected/sculpture_02_stargate", "chapter": "now" },
+      { "path": "../photos/scanned/sculpture_02_stargate", "chapter": "then" }
+    ],
+    "tetris": [
+      { "path": "../photos/apple-photos-stained-glass/selected/sculpture_03_tetris", "chapter": "now" },
+      { "path": "../photos/scanned/sculpture_03_tetris", "chapter": "then" }
+    ],
+    "hoopla-pyramid": [
+      { "path": "../photos/apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid", "chapter": "now" }
+    ],
+    "mailbox": [
+      { "path": "../photos/apple-photos-stained-glass/selected/sculpture_11_mailbox", "chapter": "now" },
+      { "path": "../photos/apple-photos-stained-glass/selected/sculpture_15_stone_mailbox", "chapter": "now" }
+    ],
+    "wood-seal-and-eel": [
+      { "path": "../photos/apple-photos-stained-glass/selected/wood_seal_and_eel", "chapter": "now" }
+    ],
+    "the-gun": [
+      { "path": "../photos/apple-photos-stained-glass/selected/sculpture_05_gun", "chapter": "now" },
+      { "path": "../photos/scanned/sculpture_05_gun", "chapter": "then" }
+    ],
+    "the-dancers": [
+      { "path": "../photos/apple-photos-stained-glass/selected/sculpture_16_dancers", "chapter": "now" },
+      { "path": "../photos/scanned/sculpture_01_dancers", "chapter": "then" }
+    ],
+    "jo-bird": [
+      { "path": "../photos/scanned/sculpture_04_jo_bird", "chapter": "then" }
+    ],
+    "geometric-torch": [
+      { "path": "../photos/apple-photos-stained-glass/selected/sculpture_06_torch_1_geometric", "chapter": "now" }
+    ],
+    "torch-panel": [],
+    "torch-2-fire": [
+      { "path": "../photos/apple-photos-stained-glass/selected/sculpture_07_torch_2_fire", "chapter": "now" }
+    ],
+    "four-stages-of-evolution": [
+      { "path": "../photos/apple-photos-stained-glass/selected/sculpture_12_four_stages_of_evolution_1", "chapter": "now" },
+      { "path": "../photos/apple-photos-stained-glass/selected/sculpture_13_four_stages_of_evolution_2", "chapter": "now" },
+      { "path": "../photos/apple-photos-stained-glass/selected/sculpture_13_four_stages_of_evolution_3", "chapter": "now" },
+      { "path": "../photos/apple-photos-stained-glass/selected/sculpture_13_four_stages_of_evolution_4", "chapter": "now" },
+      { "path": "../photos/scanned/sculpture_12_four_stages_of_evolution", "chapter": "then" }
+    ],
+    "torch-3-land-bridge": [
+      { "path": "../photos/apple-photos-stained-glass/selected/sculpture_08_torch_3_land_bridge", "chapter": "now" },
+      { "path": "../photos/scanned/sculpture_08_torch_3_land_bridge", "chapter": "then" }
+    ],
+    "shed-torch": [
+      { "path": "../photos/apple-photos-stained-glass/selected/sculpture_09_torch_4_shed", "chapter": "now" },
+      { "path": "../photos/scanned/sculpture_09_torch_4_shed", "chapter": "then" }
+    ],
+    "tulip-torch": [
+      { "path": "../photos/apple-photos-stained-glass/selected/sculpture_10_torch_5_tulip", "chapter": "now" },
+      { "path": "../photos/scanned/sculpture_10_torch_5_tulip", "chapter": "then" }
+    ],
+    "aspire-to-grace": [
+      { "path": "../photos/apple-photos-stained-glass/selected/sculpture_11_aspire_to_grace", "chapter": "now" },
+      { "path": "../photos/scanned/sculpture_11_aspire_to_grace", "chapter": "then" }
+    ],
+    "porch-light": [
+      { "path": "../photos/apple-photos-stained-glass/selected/sculpture_14_porch", "chapter": "now" },
+      { "path": "../photos/scanned/sculpture_14_porch", "chapter": "then" }
+    ],
+    "the-well": [
+      { "path": "../photos/apple-photos-stained-glass/selected/sculpture_14_well", "chapter": "now" },
+      { "path": "../photos/scanned/sculpture_14_well", "chapter": "then" }
+    ],
+    "dam-light": [
+      { "path": "../photos/apple-photos-stained-glass/selected/sculpture_01_dam", "chapter": "now" }
+    ],
+    "dining-room-flower": [
+      { "path": "../photos/scanned/dining_room_flower_1", "chapter": "then" },
+      { "path": "../photos/scanned/dining_room_flower_2", "chapter": "then" }
+    ],
+    "dinosaur": [
+      { "path": "../photos/scanned/dinosaur", "chapter": "then" }
+    ],
+    "gourd": [
+      { "path": "../photos/scanned/gourd", "chapter": "then" }
+    ],
+    "lower-bedroom": [
+      { "path": "../photos/scanned/lower_bedroom", "chapter": "then" }
+    ],
+    "quartz-crystal": [
+      { "path": "../photos/scanned/quartz_crystal", "chapter": "then" }
+    ],
+    "saguaro-cactus": [
+      { "path": "../photos/scanned/saguaro_cactus", "chapter": "then" }
+    ],
+    "sea-lamp": [
+      { "path": "../photos/scanned/sea_lamp", "chapter": "then" }
+    ],
+    "unfinished-shed-dancers": [
+      { "path": "../photos/scanned/unfinished_shed_dancers_2", "chapter": "then" }
+    ],
+    "mystery-miscellaneous": [
+      { "path": "../photos/scanned/mystery_miscellaneous", "chapter": "then" }
+    ],
+    "poetry-at-bright-water-bog": [
+      { "path": "../photos/apple-photos-stained-glass/poems", "chapter": "then" }
+    ]
+  }
+}

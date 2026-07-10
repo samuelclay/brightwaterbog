@@ -1,0 +1,84 @@
+---
+import { getWorkRecords, heroMediaFor, showDraftContent, visitConfig } from "../lib/data";
+import Hero from "./Hero.astro";
+import MediaRail from "./MediaRail.astro";
+import TrailMap from "./TrailMap.astro";
+import VideoDialog from "./VideoDialog.astro";
+import VisitPanel from "./VisitPanel.astro";
+import WorkStop from "./WorkStop.astro";
+
+const trail = await getWorkRecords("trail");
+const indoor = await getWorkRecords("indoor");
+const poetry = await getWorkRecords("poetry");
+const stargate = trail.find((work) => work.slug === "stargate");
+const heroMedia = heroMediaFor(stargate);
+const showDrafts = showDraftContent();
+---
+
+{showDrafts && (
+  <div class="preview-banner" role="status">
+    <span></span> Editorial preview · draft records and generated descriptions are visible
+  </div>
+)}
+
+<nav class="site-nav" aria-label="Primary navigation">
+  <a class="site-nav__brand" href="/#top">Bright Water Bog</a>
+  <div>
+    <a href="/#trail">Trail</a>
+    <a href="/#indoor">Indoor</a>
+    <a href="/#poetry">Poetry</a>
+    <a href="/#visit">Visit</a>
+  </div>
+</nav>
+
+<Hero media={heroMedia} />
+
+<main>
+  <section class="trail-intro" id="trail">
+    <div>
+      <p class="section-kicker">The outdoor walk</p>
+      <h2>Follow the solder line.</h2>
+    </div>
+    <p>Scroll to move along the path. Swipe each gallery sideways to move between Now, Aerial, Then, and Construction.</p>
+  </section>
+
+  <div class="trail-layout">
+    <TrailMap works={trail} />
+    <div class="trail-layout__stories">
+      {trail.map((work, index) => <WorkStop work={work} routeIndex={index + 1} />)}
+    </div>
+  </div>
+
+  <section class="collection-threshold" id="indoor" data-collection="indoor">
+    <p class="section-kicker">Leave the mapped trail</p>
+    <h2>Indoor Works</h2>
+    <p>These sculptures belong to the collection inside. They are presented separately and do not appear on the trail map.</p>
+  </section>
+
+  <section class="collection-list" aria-label="Indoor works">
+    {indoor.map((work) => <WorkStop work={work} />)}
+  </section>
+
+  <section class="collection-threshold collection-threshold--poetry" id="poetry" data-collection="poetry">
+    <p class="section-kicker">A separate collection</p>
+    <h2>Poetry</h2>
+    <p>Poem placards photographed around Bright Water Bog. Open any image to read it full screen.</p>
+  </section>
+
+  {poetry.map((work) => (
+    <section class="poetry-gallery" data-work-stop data-work-slug={work.slug} data-work-title={work.data.title} data-accent={work.data.accent}>
+      {work.data.status === "draft" && <span class="draft-label">Editorial preview</span>}
+      <MediaRail workSlug={work.slug} title={work.data.title} media={work.media} poetry />
+    </section>
+  ))}
+
+  <VisitPanel visit={visitConfig} />
+</main>
+
+<footer class="site-footer">
+  <p>Bright Water Bog · Shutesbury, Massachusetts</p>
+  <a href="#top">Back to Stargate ↑</a>
+</footer>
+
+<VideoDialog />
+<div class="copy-toast" data-copy-toast role="status" aria-live="polite">Link copied</div>
