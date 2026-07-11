@@ -30,13 +30,12 @@ const { Content } = work;
     </button>
     <p class="work-stop__artists">{work.data.artists.join(" · ") || "Bright Water Bog collection"}</p>
     <p class="work-stop__summary">{work.data.summary}</p>
+    <div class="work-stop__history">
+      <p class="work-stop__history-label">History</p>
+      <div class="prose"><Content /></div>
+    </div>
     {work.data.status === "draft" && <span class="draft-label">Editorial preview</span>}
   </header>
 
   <MediaRail workSlug={work.slug} title={work.data.title} media={work.media} />
-
-  <div class="work-stop__history">
-    <p class="work-stop__history-label">History</p>
-    <div class="prose"><Content /></div>
-  </div>
 </article>

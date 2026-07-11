@@ -183,7 +183,7 @@ function initLightboxes() {
       height: Number(anchor.dataset.pswpHeight),
       srcset: anchor.dataset.pswpSrcset,
       msrc: anchor.querySelector<HTMLImageElement>("img")?.currentSrc,
-      alt: anchor.querySelector<HTMLImageElement>("img")?.alt,
+      alt: anchor.querySelector<HTMLImageElement>("img")?.alt || anchor.dataset.pswpAlt,
       element: anchor,
     }));
     const lightbox = new PhotoSwipeLightbox({

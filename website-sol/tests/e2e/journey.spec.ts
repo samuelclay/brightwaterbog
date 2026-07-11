@@ -27,6 +27,19 @@ test("shows calculated 24-hour visit times", async ({ page }) => {
   await expect(page.locator("[data-closes-time]")).toHaveText(/^\d{2}:\d{2}$/);
 });
 
+test("opens a complete indoor archive from the compact gallery grid", async ({ page }) => {
+  await page.goto("/#indoor");
+  const piece = page.locator("#unfinished-shed-dancers");
+  await piece.scrollIntoViewIfNeeded();
+  await expect(piece.locator("[data-gallery-track]")).toHaveAttribute("data-lightbox-ready", "true");
+  await expect(piece.locator("a[data-pswp]")).toHaveCount(10);
+  await piece.locator(".indoor-piece__image:not(.indoor-piece__image--source)").click();
+  await expect(page.locator(".pswp")).toBeVisible();
+  await expect(page.locator(".pswp__counter")).toContainText("10");
+  await page.keyboard.press("Escape");
+  await expect(page.locator(".pswp")).toBeHidden();
+});
+
 test("opens the compact trail map on mobile", async ({ page, isMobile }) => {
   test.skip(!isMobile, "mobile-only map behavior");
   await page.goto("/");

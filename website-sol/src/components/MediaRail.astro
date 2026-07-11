@@ -19,7 +19,7 @@ const photoCount = media.filter((item) => item.kind === "image").length;
 
 {media.length > 0 ? (
   <div class:list={["media-rail", poetry && "media-rail--poetry"]} data-media-rail data-work={workSlug}>
-    {!poetry && (
+    {!poetry && groups.length > 1 && (
       <div class="media-rail__pills" aria-label={`${title} media sections`}>
         {groups.map((group, index) => (
           <button
@@ -34,6 +34,11 @@ const photoCount = media.filter((item) => item.kind === "image").length;
           </button>
         ))}
       </div>
+    )}
+    {!poetry && groups.length === 1 && (
+      <p class="media-rail__single-label">
+        {labels[groups[0].chapter]} · {groups[0].items.length} {groups[0].items.length === 1 ? "image" : "images"}
+      </p>
     )}
     <div class="media-rail__viewport">
       <div class="media-rail__track" data-gallery-track data-photo-count={photoCount}>
@@ -59,8 +64,8 @@ const photoCount = media.filter((item) => item.kind === "image").length;
                   aria-label={`Open full-screen image: ${item.alt}`}
                 >
                   <picture>
-                    {item.variants.avif.length > 0 && <source type="image/avif" srcset={imageSrcset(item, "avif")} sizes="(max-width: 720px) 84vw, 47vw" />}
-                    <source type="image/webp" srcset={imageSrcset(item, "webp")} sizes="(max-width: 720px) 84vw, 47vw" />
+                    {item.variants.avif.length > 0 && <source type="image/avif" srcset={imageSrcset(item, "avif")} sizes="(max-width: 720px) 78vw, 30rem" />}
+                    <source type="image/webp" srcset={imageSrcset(item, "webp")} sizes="(max-width: 720px) 78vw, 30rem" />
                     <img
                       src={thumbnail.src}
                       width={thumbnail.width}

@@ -1,6 +1,7 @@
 ---
 import { getWorkRecords, heroMediaFor, showDraftContent, visitConfig } from "../lib/data";
 import Hero from "./Hero.astro";
+import IndoorCollection from "./IndoorCollection.astro";
 import MediaRail from "./MediaRail.astro";
 import TrailMap from "./TrailMap.astro";
 import VideoDialog from "./VideoDialog.astro";
@@ -55,9 +56,7 @@ const showDrafts = showDraftContent();
     <p>These sculptures belong to the collection inside. They are presented separately and do not appear on the trail map.</p>
   </section>
 
-  <section class="collection-list" aria-label="Indoor works">
-    {indoor.map((work) => <WorkStop work={work} />)}
-  </section>
+  <IndoorCollection works={indoor} />
 
   <section class="collection-threshold collection-threshold--poetry" id="poetry" data-collection="poetry">
     <p class="section-kicker">A separate collection</p>

@@ -1,0 +1,82 @@
+---
+import type { WorkRecord } from "../lib/data";
+import { imageSrcset, thumbnailFor } from "../lib/media";
+import type { ImageMedia } from "../lib/types";
+
+type Props = { works: WorkRecord[] };
+const { works } = Astro.props;
+const imageMedia = (work: WorkRecord) => work.media.filter((item): item is ImageMedia => item.kind === "image");
+---
+
+<section class="indoor-collection" aria-label="Indoor works">
+  {works.map((work) => {
+    const images = imageMedia(work);
+    const cover = images[0];
+    const { Content } = work;
+    return (
+      <article
+        class="indoor-piece"
+        id={work.slug}
+        data-work-stop
+        data-work-slug={work.slug}
+        data-work-title={work.data.title}
+        data-accent={work.data.accent}
+        style={`--accent:${work.data.accent}`}
+      >
+        {cover ? (
+          <div class="indoor-piece__gallery" data-gallery-track>
+            {images.map((item, index) => {
+              const thumbnail = thumbnailFor(item);
+              const position = `${item.focalPoint.x}% ${item.focalPoint.y}%`;
+              return (
+                <a
+                  class:list={["indoor-piece__image", index > 0 && "indoor-piece__image--source"]}
+                  href={item.zoom.src}
+                  data-pswp
+                  data-pswp-width={item.zoom.width}
+                  data-pswp-height={item.zoom.height}
+                  data-pswp-srcset={imageSrcset(item, "webp")}
+                  data-pswp-alt={item.alt}
+                  data-media-id={item.id}
+                  aria-label={index === 0 ? `Open ${work.data.title} photo gallery, ${images.length} images` : undefined}
+                  aria-hidden={index > 0 ? "true" : undefined}
+                  tabindex={index > 0 ? -1 : undefined}
+                >
+                  {index === 0 && (
+                    <picture>
+                      {item.variants.avif.length > 0 && <source type="image/avif" srcset={imageSrcset(item, "avif")} sizes="(max-width: 720px) 82vw, 28vw" />}
+                      <source type="image/webp" srcset={imageSrcset(item, "webp")} sizes="(max-width: 720px) 82vw, 28vw" />
+                      <img
+                        src={thumbnail.src}
+                        width={thumbnail.width}
+                        height={thumbnail.height}
+                        alt={item.alt}
+                        loading="lazy"
+                        decoding="async"
+                        style={`object-position:${position}`}
+                      />
+                    </picture>
+                  )}
+                </a>
+              );
+            })}
+            <span class="indoor-piece__count">{images.length} {images.length === 1 ? "image" : "images"}</span>
+          </div>
+        ) : (
+          <div class="indoor-piece__empty">Archive in progress</div>
+        )}
+
+        <div class="indoor-piece__caption">
+          <p>{work.data.artists.join(" · ") || "Bright Water Bog collection"}</p>
+          <h3><a href={`/sculptures/${work.slug}/`}>{work.data.title}</a></h3>
+          <p class="indoor-piece__summary">{work.data.summary}</p>
+          <details>
+            <summary>Read the history</summary>
+            <div class="prose"><Content /></div>
+          </details>
+          {work.data.status === "draft" && <span class="draft-label">Editorial preview</span>}
+        </div>
+      </article>
+    );
+  })}
+</section>
