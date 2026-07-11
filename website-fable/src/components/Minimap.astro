@@ -13,49 +13,41 @@ const nodes = trail.nodes as Array<{
   y: number;
 }>;
 
-// Smooth meander computed in catalog.mjs (beads in walking order).
-const d = trail.pathD as string;
+const base = trail.loopD as string; // full loop (closes 20 → 1)
+const prog = trail.pathD as string; // open path — progress fills along this
 const first = nodes[0];
 ---
 
 <aside class="map-rail">
   <div class="minimap" data-minimap>
-    <p class="minimap__title-line">The Trail · {nodes.length} stops</p>
+    <p class="minimap__title-line">Counterclockwise trail</p>
+    <div class="minimap__caption minimap__caption--top">
+      <span class="minimap__now" data-now>{first.title}</span>
+      <span class="minimap__count"><b data-current-number>1</b> of {nodes.length}</span>
+    </div>
+
     <div class="minimap__frame">
-      <svg viewBox={trail.viewBox} role="img" aria-label="Map of the sculpture trail">
-        <path class="mm-path" d={d} />
-        <path class="mm-path--lit" d={d} pathLength="1" data-lit style="stroke-dasharray:1;stroke-dashoffset:1" />
+      <svg viewBox={trail.viewBox} role="group" aria-label="Map of the sculpture trail">
+        <path class="mm-path mm-path--shadow" d={base} />
+        <path class="mm-path mm-path--base" d={base} />
+        <path class="mm-path mm-path--lit" d={prog} pathLength="1" data-lit />
         {
-          nodes.map((n) => (
-            <circle
-              class="mm-node"
+          nodes.map((n, i) => (
+            <a
+              class="mm-marker"
               data-node={n.slug}
-              cx={n.x}
-              cy={n.y}
-              r="2.4"
-              style={`--node-glass: var(--${n.glass})`}
+              href={`#stop-${n.slug}`}
+              aria-label={`Go to ${n.title}`}
+              style={`--marker-color: var(--${n.glass})`}
             >
-              <title>{`${n.order}. ${n.title}`}</title>
-            </circle>
+              <circle class="mm-halo" cx={n.x} cy={n.y} r="5.6" />
+              <circle class="mm-dot" cx={n.x} cy={n.y} r="2.9" />
+              <text x={n.x} y={n.y + 0.95}>{i + 1}</text>
+            </a>
           ))
         }
-        <g class="mm-marker-g" data-marker style={`transform: translate(${first.x}px, ${first.y}px)`}>
-          <circle class="mm-marker" r="3.1" />
-        </g>
       </svg>
-      <div class="minimap__caption">
-        <span class="minimap__now" data-now>{first.title}</span>
-        <span class="minimap__count" data-count>{first.count} photos</span>
-      </div>
     </div>
+    <p class="minimap__hint">Choose a marker to jump to a sculpture.</p>
   </div>
 </aside>
-
-<style>
-  .mm-marker-g {
-    transition: transform 0.55s cubic-bezier(0.22, 0.61, 0.36, 1);
-  }
-  @media (prefers-reduced-motion: reduce) {
-    .mm-marker-g { transition: none; }
-  }
-</style>

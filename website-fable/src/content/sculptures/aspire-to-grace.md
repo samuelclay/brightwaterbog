@@ -1,7 +1,6 @@
 ---
 title: Aspire to Grace
 artist: Julian Janowitz
-year: '[year]'
 pathOrder: 17
 section: outdoor
 glass: violet
@@ -15,4 +14,3 @@ modernFolders:
 summary: A tall reaching form near the top of the loop.
 ---
 
-[Add the story of Aspire to Grace — the title, the form, when it was made.]

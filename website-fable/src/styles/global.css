@@ -138,56 +138,62 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   min-height: 100svh;
   display: grid;
   grid-template-rows: 1fr auto;
-  padding: clamp(1.5rem, 4vw, 3rem);
+  padding: clamp(1.5rem, 4vw, 3.5rem);
   position: relative;
   overflow: hidden;
-  background:
-    radial-gradient(120% 90% at 50% -10%, color-mix(in oklab, var(--amber) 12%, transparent), transparent 60%),
-    var(--bg);
+  background: var(--bg);
 }
-.hero__glass {
+.hero__media {
   position: absolute;
   inset: 0;
   z-index: 0;
-  opacity: 0.5;
-  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero__veil {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    to bottom,
+    rgb(8 11 9 / 55%) 0%,
+    rgb(8 11 9 / 12%) 26%,
+    rgb(8 11 9 / 20%) 58%,
+    rgb(8 11 9 / 86%) 100%
+  );
 }
 .hero__inner {
   position: relative;
-  z-index: 1;
-  align-self: center;
-  max-width: 22ch;
+  z-index: 2;
+  align-self: end;
 }
-.hero__eyebrow { margin-bottom: 1.4rem; }
 .hero__title {
   font-family: var(--font-display);
   font-weight: 420;
   font-variation-settings: "opsz" 144, "SOFT" 40, "WONK" 1;
-  font-size: clamp(3.4rem, 8vw + 1rem, 8.5rem);
-  line-height: 0.92;
+  font-size: clamp(3.4rem, 9vw + 1rem, 9rem);
+  line-height: 0.9;
   letter-spacing: -0.015em;
+  color: #fff;
   text-wrap: balance;
+  text-shadow: 0 2px 30px rgb(0 0 0 / 45%);
 }
 .hero__title em {
   font-style: italic;
   font-variation-settings: "opsz" 144, "SOFT" 60, "WONK" 1;
   color: var(--amber);
 }
-.hero__lede {
-  margin-top: 1.6rem;
-  max-width: 46ch;
-  color: var(--ink-dim);
-  font-size: clamp(1.05rem, 1rem + 0.4vw, 1.35rem);
-}
 .hero__foot {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   align-items: end;
   gap: 1rem;
   flex-wrap: wrap;
 }
+.hero .scroll-cue { color: #e8e2d4; }
 .scroll-cue {
   display: inline-flex;
   align-items: center;
@@ -207,12 +213,14 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
    ========================================================================= */
 .trail {
   display: grid;
-  grid-template-columns: var(--rail) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) var(--rail);
   gap: clamp(1rem, 3vw, 3rem);
   padding: 0 clamp(1rem, 3vw, 3rem);
   align-items: start;
 }
+.stops { grid-column: 1; }
 .map-rail {
+  grid-column: 2;
   position: sticky;
   top: 0;
   height: 100svh;
@@ -400,41 +408,61 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 .minimap__frame {
   border: 1px solid var(--came);
   border-radius: var(--radius);
-  background:
-    radial-gradient(80% 70% at 50% 40%, var(--surface-2), var(--surface));
-  padding: 14px;
+  background: radial-gradient(80% 70% at 50% 40%, var(--surface-2), var(--surface));
+  padding: 16px;
 }
-.minimap svg { width: 100%; height: auto; overflow: visible; }
-.mm-path { fill: none; stroke: var(--came-strong); stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+.minimap svg { width: 100%; height: auto; overflow: visible; display: block; }
+
+/* three-layer routed trail (SOL-style): depth shadow + faint full loop + lit progress */
+.mm-path { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.mm-path--shadow { stroke: rgb(0 0 0 / 45%); stroke-width: 6; }
+.mm-path--base { stroke: var(--came-strong); stroke-width: 2.6; }
 .mm-path--lit {
-  fill: none; stroke: var(--stop-glass); stroke-width: 1.8; stroke-linecap: round;
-  filter: drop-shadow(0 0 3px color-mix(in oklab, var(--stop-glass) 80%, transparent));
-  transition: stroke-dashoffset 0.5s var(--ease);
-}
-.mm-node { fill: var(--surface); stroke: var(--came-strong); stroke-width: 1; transition: all 0.4s var(--ease); }
-.mm-node.is-active {
-  fill: var(--node-glass);
-  stroke: var(--node-glass);
-  filter: drop-shadow(0 0 5px color-mix(in oklab, var(--node-glass) 85%, transparent));
-}
-.mm-node.is-visited { fill: color-mix(in oklab, var(--node-glass) 55%, var(--surface)); stroke: var(--node-glass); }
-.mm-marker {
-  fill: var(--ink);
   stroke: var(--stop-glass);
-  stroke-width: 2;
-  filter: drop-shadow(0 0 8px color-mix(in oklab, var(--stop-glass) 90%, transparent));
-  transition: transform 0.55s var(--ease);
+  stroke-width: 3.2;
+  stroke-dasharray: var(--route-progress, 0) 1;
+  filter: drop-shadow(0 0 3px color-mix(in oklab, var(--stop-glass) 70%, transparent));
+  transition: stroke-dasharray 0.6s var(--ease);
 }
-.minimap__caption {
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 0.5rem;
+
+/* numbered clickable markers */
+.mm-marker { cursor: pointer; text-decoration: none; }
+.mm-halo {
+  fill: var(--marker-color);
+  opacity: 0;
+  filter: blur(2px);
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: opacity 0.35s var(--ease), scale 0.35s var(--ease);
 }
-.minimap__now { font-family: var(--font-display); font-size: 1.15rem; font-variation-settings: "opsz" 40, "SOFT" 30; }
-.minimap__count { font-family: var(--font-mono); font-size: 0.7rem; color: var(--ink-faint); letter-spacing: 0.08em; }
+.mm-dot {
+  fill: var(--surface);
+  stroke: var(--marker-color);
+  stroke-width: 1.15;
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: fill 0.35s ease, stroke 0.35s ease, scale 0.35s var(--ease);
+}
+.mm-marker text {
+  fill: var(--ink);
+  font: 500 2.6px var(--font-mono);
+  text-anchor: middle;
+  pointer-events: none;
+}
+.mm-marker:hover .mm-dot,
+.mm-marker.is-active .mm-dot { fill: var(--marker-color); stroke: var(--ink); scale: 1.3; }
+.mm-marker.is-active .mm-dot { stroke: #fff; }
+.mm-marker.is-active .mm-halo { opacity: 0.7; scale: 1.5; }
+.mm-marker:focus-visible { outline: none; }
+.mm-marker:focus-visible .mm-dot { stroke: var(--ink); scale: 1.35; }
+
+.minimap__caption { display: flex; justify-content: space-between; align-items: baseline; gap: 0.5rem; }
+.minimap__caption--top { margin: 0.4rem 0 0.9rem; }
+.minimap__now { font-family: var(--font-display); font-size: 1.5rem; font-variation-settings: "opsz" 60, "SOFT" 30; line-height: 1.05; }
+.minimap__count { font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-faint); letter-spacing: 0.08em; white-space: nowrap; }
+.minimap__count b { color: var(--stop-glass); font-weight: 500; }
 .minimap__title-line { font-family: var(--font-mono); font-size: 0.66rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-faint); }
+.minimap__hint { margin-top: 0.8rem; font-family: var(--font-mono); font-size: 0.64rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faint); }
 
 /* =========================================================================
    SECTION HEADERS (outdoor / indoor demarcation)
@@ -479,6 +507,56 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 .piece__thumbs img { width: 100%; height: 100%; object-fit: cover; }
 .piece__title { margin-top: 0.8rem; font-family: var(--font-display); font-size: 1.3rem; font-variation-settings: "opsz" 40, "SOFT" 30; }
 .piece__meta { font-family: var(--font-mono); font-size: 0.7rem; color: var(--ink-faint); letter-spacing: 0.06em; margin-top: 0.2rem; }
+
+/* =========================================================================
+   POETRY GALLERY
+   ========================================================================= */
+.poem-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 3vw, 3rem) 6rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: clamp(0.8rem, 1.6vw, 1.4rem);
+}
+.poem {
+  padding: 0;
+  border: 1px solid var(--came);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--surface);
+  aspect-ratio: 3 / 4;
+  transition: transform 0.35s var(--ease), border-color 0.35s var(--ease);
+}
+.poem:hover { transform: translateY(-3px); border-color: var(--teal); }
+.poem img { width: 100%; height: 100%; object-fit: cover; }
+
+/* =========================================================================
+   VISIT
+   ========================================================================= */
+.visit-wrap { max-width: 760px; margin: 0 auto; padding: 0 clamp(1rem, 3vw, 3rem) 6rem; }
+.visit__lede { font-size: clamp(1.15rem, 1rem + 0.6vw, 1.5rem); color: var(--ink); max-width: var(--measure); }
+.visit__list { margin-top: 2rem; border-top: 1px solid var(--came); }
+.visit__row {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  gap: 1.5rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--came);
+}
+.visit__row dt {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--stop-glass);
+  padding-top: 0.15rem;
+}
+.visit__row dd { margin: 0; color: var(--ink-dim); }
+.visit__row a { color: var(--amber); text-underline-offset: 3px; }
+@media (max-width: 560px) {
+  .visit__row { grid-template-columns: 1fr; gap: 0.3rem; }
+}
 
 /* =========================================================================
    TOP BAR + THEME TOGGLE + SECTION NAV
@@ -537,10 +615,13 @@ footer.site-foot {
     backdrop-filter: blur(10px);
     border-top: 1px solid var(--came);
   }
-  .minimap__frame { border: 0; border-radius: 0; padding: 8px 12px; background: none; display: flex; align-items: center; gap: 12px; }
-  .minimap svg { max-height: 84px; width: auto; }
-  .minimap__caption { margin: 0; flex-direction: column; align-items: flex-start; gap: 2px; }
-  .stops { padding-bottom: 140px; }
+  .minimap { display: flex; align-items: center; gap: 12px; padding: 6px 12px; }
+  .minimap__title-line, .minimap__hint { display: none; }
+  .minimap__frame { order: -1; flex: 0 0 auto; width: 92px; border: 0; border-radius: 0; padding: 4px; background: none; }
+  .minimap svg { max-height: 74px; width: auto; }
+  .minimap__caption--top { margin: 0; flex-direction: column; align-items: flex-start; gap: 2px; }
+  .minimap__now { font-size: 1.15rem; }
+  .stops { padding-bottom: 130px; }
 }
 @media (max-width: 620px) {
   .frame { height: clamp(300px, 74vw, 440px); width: clamp(240px, 62vw, 340px); }

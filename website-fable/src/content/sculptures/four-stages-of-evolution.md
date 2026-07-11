@@ -1,7 +1,6 @@
 ---
 title: Four Stages of Evolution
 artist: Julian Janowitz
-year: '[year]'
 pathOrder: 13
 section: outdoor
 glass: violet
@@ -18,6 +17,3 @@ modernFolders:
 summary: Four sculptures read as one — a sequence of change across the panels.
 ---
 
-Four separate sculptures that belong together, read left to right as a single sequence of change.
-
-[Add the story: what the four stages represent, how Julian built them as a set.]

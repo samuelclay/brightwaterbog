@@ -2,7 +2,6 @@
 title: Shed Torch
 kicker: Torch №4
 artist: Julian Janowitz
-year: '[year]'
 pathOrder: 15
 section: outdoor
 glass: amber
@@ -16,6 +15,3 @@ modernFolders:
 summary: 'The fourth torch, by the shed.'
 ---
 
-The fourth torch stands by the shed.
-
-[Add the story.]

@@ -9,4 +9,3 @@ modernFolders: []
 summary: A saguaro cactus in glass.
 ---
 
-[Add the story.]

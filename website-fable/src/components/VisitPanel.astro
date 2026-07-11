@@ -1,0 +1,31 @@
+---
+import visit from "../data/visit.json";
+const { lede, items } = visit as {
+  lede: string;
+  items: Array<{ label: string; value: string; link?: { href: string; text: string } }>;
+};
+---
+
+<div class="visit">
+  <p class="visit__lede">{lede}</p>
+  <dl class="visit__list">
+    {
+      items.map((it) => (
+        <div class="visit__row">
+          <dt>{it.label}</dt>
+          <dd>
+            {it.value}
+            {it.link && (
+              <>
+                {" "}
+                <a href={it.link.href} target="_blank" rel="noopener">
+                  {it.link.text}
+                </a>
+              </>
+            )}
+          </dd>
+        </div>
+      ))
+    }
+  </dl>
+</div>

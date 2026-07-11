@@ -5,6 +5,8 @@ import Hero from "../components/Hero.astro";
 import Minimap from "../components/Minimap.astro";
 import Stop from "../components/Stop.astro";
 import PieceGrid from "../components/PieceGrid.astro";
+import PoemGallery from "../components/PoemGallery.astro";
+import VisitPanel from "../components/VisitPanel.astro";
 import photosData from "../data/photos.json";
 
 const photos = photosData as Record<string, any[]>;
@@ -20,6 +22,8 @@ const indoor = all
 const unplaced = all
   .filter((e) => e.data.section === "unplaced")
   .map((entry) => ({ entry, photos: photos[entry.id] ?? [] }));
+const poetry = all.find((e) => e.data.section === "poetry");
+const poetryPhotos = poetry ? (photos[poetry.id] ?? []) : [];
 ---
 
 <Base>
@@ -49,6 +53,30 @@ const unplaced = all
       </p>
     </div>
     <PieceGrid items={indoor} />
+  </section>
+
+  {
+    poetry && poetryPhotos.length > 0 && (
+      <section id="poetry">
+        <div class="section-head">
+          <p class="section-head__eyebrow eyebrow">Off the trail · Words</p>
+          <h2 class="section-head__title">Poetry</h2>
+          <p class="section-head__lede">
+            Poem placards from around the property, kept as photographs. Tap any to read it
+            full screen.
+          </p>
+        </div>
+        <PoemGallery photos={poetryPhotos} />
+      </section>
+    )
+  }
+
+  <section id="visit">
+    <div class="section-head">
+      <p class="section-head__eyebrow eyebrow">Before you come</p>
+      <h2 class="section-head__title">Visit</h2>
+    </div>
+    <div class="visit-wrap"><VisitPanel /></div>
   </section>
 
   {

@@ -9,4 +9,3 @@ modernFolders: []
 summary: Glass in the lower bedroom.
 ---
 
-[Add the story / identify these pieces.]

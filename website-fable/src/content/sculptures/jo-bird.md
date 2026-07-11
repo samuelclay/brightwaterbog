@@ -13,4 +13,3 @@ modernFolders: []
 summary: Scanned photos of Jo Bird — no location yet; place on the path or indoors.
 ---
 
-[Where does Jo Bird belong — on the trail, or indoors? No GPS on the scans yet.]

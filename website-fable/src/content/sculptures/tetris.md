@@ -15,6 +15,3 @@ modernFolders:
 summary: Interlocking blocks of glass stacked like the falling pieces of the game.
 ---
 
-Blocks of colored glass lock together like the game's falling tetrominoes, each pane a different hue.
-
-[Add the story behind Tetris — the idea, the build, any repairs over the years.]

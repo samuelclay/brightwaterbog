@@ -1,12 +1,6 @@
-// Drives the scrollytelling: reveals each stop as it enters view and moves the
-// minimap marker/lit-path/caption to track the stop nearest the viewport center.
-
-interface NodeRef {
-  slug: string;
-  el: SVGCircleElement;
-  x: number;
-  y: number;
-}
+// Drives the scrollytelling: reveals each stop as it enters view, and tracks the
+// stop nearest the viewport center to fill the trail's progress path, highlight
+// the active marker, and update the map caption.
 
 function init() {
   const stage = document.querySelector<HTMLElement>("[data-scrollstage]");
@@ -16,35 +10,21 @@ function init() {
   const stops = Array.from(stage.querySelectorAll<HTMLElement>("[data-stop]"));
   if (!stops.length) return;
 
-  const nodeEls = Array.from(minimap.querySelectorAll<SVGCircleElement>(".mm-node"));
-  const nodes: NodeRef[] = nodeEls.map((el) => ({
-    slug: el.getAttribute("data-node") ?? "",
-    el,
-    x: parseFloat(el.getAttribute("cx") ?? "0"),
-    y: parseFloat(el.getAttribute("cy") ?? "0"),
-  }));
-  const bySlug = new Map(nodes.map((n, i) => [n.slug, i]));
-
-  const marker = minimap.querySelector<SVGGElement>("[data-marker]");
-  const lit = minimap.querySelector<SVGPathElement>("[data-lit]");
-  const basePath = minimap.querySelector<SVGPathElement>(".mm-path");
-  const pathLen = basePath?.getTotalLength() ?? 0;
+  const markers = Array.from(minimap.querySelectorAll<SVGElement>("[data-node]"));
   const nowEl = minimap.querySelector<HTMLElement>("[data-now]");
-  const countEl = minimap.querySelector<HTMLElement>("[data-count]");
+  const numEl = minimap.querySelector<HTMLElement>("[data-current-number]");
   const root = document.documentElement;
+  const n = stops.length;
 
-  // --- progressive reveal: light up a stop once it's meaningfully in view ---
+  // progressive reveal
   const reveal = new IntersectionObserver(
     (entries) => {
-      for (const e of entries) {
-        if (e.isIntersecting) e.target.classList.add("is-active");
-      }
+      for (const e of entries) if (e.isIntersecting) e.target.classList.add("is-active");
     },
     { threshold: 0.3 },
   );
   stops.forEach((s) => reveal.observe(s));
 
-  // --- minimap tracking: which stop is nearest viewport center + progress ---
   let ticking = false;
   let lastIndex = -1;
 
@@ -52,7 +32,6 @@ function init() {
     ticking = false;
     const centerY = window.innerHeight * 0.42;
 
-    // Find the stop whose head is closest to the sight line.
     let index = 0;
     let best = Infinity;
     const tops: number[] = [];
@@ -67,47 +46,26 @@ function init() {
       }
     });
 
-    // Progress from this stop toward the next (0..1) for smooth marker glide.
     let progress = 0;
-    if (index < stops.length - 1) {
+    if (index < n - 1) {
       const span = tops[index + 1] - tops[index];
       if (span > 0) progress = Math.min(1, Math.max(0, (centerY - tops[index]) / span));
     }
 
-    const stop = stops[index];
-    const slug = stop.getAttribute("data-slug") ?? "";
-    const glass = stop.getAttribute("data-glass") ?? "amber";
-    const ni = bySlug.get(slug) ?? index;
+    const along = (index + progress) / Math.max(1, n - 1);
+    root.style.setProperty("--route-progress", along.toFixed(4));
 
-    // Fraction along the whole trail, then ride the actual curve.
-    const along = (ni + progress) / Math.max(1, nodes.length - 1);
-    if (marker && basePath && pathLen) {
-      const pt = basePath.getPointAtLength(along * pathLen);
-      marker.style.transform = `translate(${pt.x}px, ${pt.y}px)`;
-    } else if (marker) {
-      const a = nodes[ni];
-      marker.style.transform = `translate(${a.x}px, ${a.y}px)`;
-    }
-
-    // Lit came path up to current position.
-    if (lit) lit.style.strokeDashoffset = String(1 - along);
-
-    // Node states.
-    if (ni !== lastIndex) {
-      lastIndex = ni;
+    if (index !== lastIndex) {
+      lastIndex = index;
+      const stop = stops[index];
+      const slug = stop.getAttribute("data-slug") ?? "";
+      const glass = stop.getAttribute("data-glass") ?? "amber";
       root.style.setProperty("--stop-glass", `var(--${glass})`);
-      nodes.forEach((n, i) => {
-        n.el.classList.toggle("is-active", i === ni);
-        n.el.classList.toggle("is-visited", i < ni);
-      });
-      const num = stop.getAttribute("data-order") ?? "";
+      markers.forEach((mk) => mk.classList.toggle("is-active", mk.getAttribute("data-node") === slug));
       const title = stop.querySelector(".stop__title")?.textContent ?? "";
-      const photoCount = stop.querySelectorAll(".frame").length;
+      const order = stop.getAttribute("data-order") ?? String(index + 1);
       if (nowEl) nowEl.textContent = title;
-      if (countEl) {
-        countEl.textContent =
-          photoCount > 0 ? `no. ${num} · ${photoCount} photos` : `no. ${num}`;
-      }
+      if (numEl) numEl.textContent = order;
     }
   }
 

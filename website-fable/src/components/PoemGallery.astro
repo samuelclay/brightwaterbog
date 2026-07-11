@@ -1,0 +1,45 @@
+---
+import { imageUrl, srcset, STRIP_WIDTHS } from "../lib/imageUrl";
+
+interface PhotoEntry {
+  key: string;
+  width: number | null;
+  height: number | null;
+}
+interface Props {
+  photos: PhotoEntry[];
+}
+const { photos } = Astro.props;
+---
+
+{
+  photos.length === 0 ? (
+    <p class="strip__empty" style="padding:0 clamp(1rem,3vw,3rem)">No poems yet.</p>
+  ) : (
+    <div class="poem-grid" data-strip-track>
+      {photos.map((p, i) => (
+        <button
+          class="poem"
+          type="button"
+          data-lightbox
+          data-full={imageUrl(p.key, { w: 1800, fit: "contain" })}
+          data-full-hi={imageUrl(p.key, { w: 2600, fit: "contain" })}
+          data-w={p.width ?? 0}
+          data-h={p.height ?? 0}
+          aria-label={`Poem ${i + 1}, open full screen`}
+        >
+          <img
+            src={imageUrl(p.key, { w: 640, fit: "cover" })}
+            srcset={srcset(p.key, STRIP_WIDTHS, "cover")}
+            sizes="(max-width: 620px) 45vw, 220px"
+            width={p.width ?? undefined}
+            height={p.height ?? undefined}
+            loading="lazy"
+            decoding="async"
+            alt={`Poem placard ${i + 1}`}
+          />
+        </button>
+      ))}
+    </div>
+  )
+}

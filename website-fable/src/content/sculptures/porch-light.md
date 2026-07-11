@@ -1,7 +1,6 @@
 ---
 title: Porch Light
 artist: Julian Janowitz
-year: '[year]'
 pathOrder: 18
 section: outdoor
 glass: amber
@@ -15,6 +14,3 @@ modernFolders:
 summary: Glass worked into the porch of the house itself.
 ---
 
-The trail comes back toward the house, where the porch light is glass too.
-
-[Add the story.]

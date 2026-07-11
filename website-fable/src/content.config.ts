@@ -17,7 +17,7 @@ const sculptures = defineCollection({
     year: z.string().optional(),
     // Position on the outdoor trail (1 = first). Omit for indoor / unplaced.
     pathOrder: z.number().optional(),
-    section: z.enum(["outdoor", "indoor", "unplaced"]).default("outdoor"),
+    section: z.enum(["outdoor", "indoor", "unplaced", "poetry"]).default("outdoor"),
     // "placeholder" renders a coming-soon card (e.g. the new mailbox).
     status: z.enum(["present", "placeholder"]).default("present"),
     // True GPS (median of that folder's geotagged photos); drives minimap nodes.
@@ -36,6 +36,8 @@ const sculptures = defineCollection({
     modernFolders: z.array(z.string()).default([]),
     aerialFolders: z.array(z.string()).default([]),
     constructionFolders: z.array(z.string()).default([]),
+    // Poem-placard photo folders under photos/apple-photos-stained-glass/.
+    poemFolders: z.array(z.string()).default([]),
     // One-sentence summary used in nav / previews.
     summary: z.string().optional(),
   }),

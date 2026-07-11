@@ -1,0 +1,14 @@
+{
+  "status": "draft",
+  "lede": "The sculpture trail is outdoors and open to visitors. Please treat it gently — the art lives in the weather.",
+  "items": [
+    {
+      "label": "Where",
+      "value": "Shutesbury, Massachusetts, on the Bright Water Bog Loop.",
+      "link": { "href": "https://www.alltrails.com/trail/us/massachusetts/bright-water-bog-loop", "text": "AllTrails →" }
+    },
+    { "label": "Hours", "value": "The outdoor trail is best in daylight — dawn to dusk." },
+    { "label": "Parking", "value": "[Add parking directions before launch.]" },
+    { "label": "Please", "value": "The trail is outdoors; the home is private. Stay on the marked path and follow the trail signs." }
+  ]
+}

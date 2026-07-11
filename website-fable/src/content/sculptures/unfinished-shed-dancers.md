@@ -9,4 +9,3 @@ modernFolders: []
 summary: Dancers left unfinished in the shed.
 ---
 
-[Add the story.]

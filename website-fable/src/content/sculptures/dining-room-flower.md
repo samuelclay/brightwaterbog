@@ -10,4 +10,3 @@ modernFolders: []
 summary: A flower panel in the dining room.
 ---
 
-[Add the story of the dining room flower.]

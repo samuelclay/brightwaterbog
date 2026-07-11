@@ -9,4 +9,3 @@ modernFolders: []
 summary: A lamp with a sea motif.
 ---
 
-[Add the story.]

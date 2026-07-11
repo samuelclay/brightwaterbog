@@ -9,4 +9,3 @@ modernFolders: []
 summary: A faceted crystal piece.
 ---
 
-[Add the story.]

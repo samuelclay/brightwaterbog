@@ -9,4 +9,3 @@ modernFolders: []
 summary: An indoor dinosaur in glass.
 ---
 
-[Add the story.]

@@ -145,7 +145,6 @@ function init() {
   let moved = false;
   let pinchStartDist = 0;
   let pinchStartScale = 1;
-  let lastTap = 0;
   let mode: "none" | "pan" | "swipe" | "dismiss" = "none";
 
   const dist = (a: { x: number; y: number }, b: { x: number; y: number }) =>
@@ -221,6 +220,7 @@ function init() {
     const dy = e.clientY - startY;
 
     if (scale > 1.02) {
+      if (!moved) resetTransform(); // tap while zoomed → zoom back out (stays open)
       mode = "none";
       return;
     }
@@ -233,17 +233,13 @@ function init() {
       if (Math.abs(dy) > 90) close();
       else snapBack();
     } else if (!moved) {
-      // A clean tap.
-      const now = Date.now();
-      if (now - lastTap < 300) {
-        zoomAt(e.clientX, e.clientY, 2.6); // double-tap to zoom
-        lastTap = 0;
-      } else {
-        lastTap = now;
-        setTimeout(() => {
-          if (Date.now() - lastTap >= 290 && scale <= 1.02) close();
-        }, 300);
-      }
+      // Clean tap: on the image → zoom in at that point; on the backdrop → close.
+      const r = img.getBoundingClientRect();
+      const onImage =
+        e.clientX >= r.left && e.clientX <= r.right &&
+        e.clientY >= r.top && e.clientY <= r.bottom;
+      if (onImage) zoomAt(e.clientX, e.clientY, 2.6);
+      else close();
     }
     mode = "none";
   }

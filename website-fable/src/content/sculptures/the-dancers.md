@@ -1,7 +1,6 @@
 ---
 title: The Dancers
 artist: Julian Janowitz
-year: '[year]'
 pathOrder: 8
 section: outdoor
 glass: rose
@@ -15,6 +14,3 @@ modernFolders:
 summary: Figures in motion — confirm placement on the path.
 ---
 
-[Confirm where the dancers fall on the walk.] Figures caught mid-motion in glass.
-
-[Add the story.]

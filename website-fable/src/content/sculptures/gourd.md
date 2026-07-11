@@ -9,4 +9,3 @@ modernFolders: []
 summary: A gourd rendered in stained glass.
 ---
 
-[Add the story.]

@@ -2,7 +2,6 @@
 title: Tulip Torch
 kicker: Torch №5
 artist: Julian Janowitz
-year: '[year]'
 pathOrder: 16
 section: outdoor
 glass: rose
@@ -16,6 +15,3 @@ modernFolders:
 summary: The last torch — a flame shaped like a tulip.
 ---
 
-The fifth and final torch blooms like a tulip.
-
-[Add the story.]

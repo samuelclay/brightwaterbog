@@ -1,7 +1,6 @@
 ---
 title: The Well
 artist: Julian Janowitz
-year: '[year]'
 pathOrder: 19
 section: outdoor
 glass: cobalt
@@ -15,6 +14,3 @@ modernFolders:
 summary: A wellhead near the house — confirm placement on the path.
 ---
 
-[Confirm where the well falls on the walk.]
-
-[Add the story.]

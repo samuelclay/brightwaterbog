@@ -1,7 +1,6 @@
 ---
 title: The Gun
 artist: Julian Janowitz
-year: '[year]'
 pathOrder: 6
 section: outdoor
 glass: garnet
@@ -15,4 +14,3 @@ modernFolders:
 summary: 'A stained-glass gun — provocative, unmistakable.'
 ---
 
-[Add the story of the gun — what it means, when Julian made it.]

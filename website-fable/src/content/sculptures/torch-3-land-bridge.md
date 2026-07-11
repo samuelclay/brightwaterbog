@@ -2,7 +2,6 @@
 title: Torch №3
 kicker: Land Bridge
 artist: Julian Janowitz
-year: '[year]'
 pathOrder: 14
 section: outdoor
 glass: teal
@@ -16,6 +15,3 @@ modernFolders:
 summary: 'The third torch, at the land bridge.'
 ---
 
-The third torch marks the land bridge.
-
-[Add the story.]

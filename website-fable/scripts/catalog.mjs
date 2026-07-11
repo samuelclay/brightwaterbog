@@ -23,7 +23,8 @@ const SITE = path.resolve(HERE, "..");
 const REPO = path.resolve(SITE, "..");
 const PHOTOS = path.join(REPO, "photos");
 const SCANNED = path.join(PHOTOS, "scanned");
-const MODERN = path.join(PHOTOS, "apple-photos-stained-glass", "selected");
+const APPLE = path.join(PHOTOS, "apple-photos-stained-glass");
+const MODERN = path.join(APPLE, "selected");
 const CONTENT = path.join(SITE, "src", "content", "sculptures");
 const DATA = path.join(SITE, "src", "data");
 
@@ -122,6 +123,38 @@ async function modernEntries(folder) {
   });
 }
 
+// Poem-placard folders under photos/apple-photos-stained-glass/<folder>.
+async function poemEntries(folder) {
+  const dir = path.join(APPLE, folder);
+  if (!existsSync(dir)) return [];
+  const manifestPath = path.join(dir, "_manifest.json");
+  if (existsSync(manifestPath)) {
+    const rows = JSON.parse(await readFile(manifestPath, "utf8"));
+    return rows
+      .filter((r) => r.filename && isImage(r.filename))
+      .map((r) => ({
+        key: `apple-photos-stained-glass/${folder}/${r.filename}`,
+        era: "poem",
+        date: r.created ? r.created.replace(" ", "T") : null,
+        width: r.width ?? null,
+        height: r.height ?? null,
+        orientation: orient(r.width, r.height),
+      }));
+  }
+  const files = await listImages(dir);
+  return mapLimit(files, 8, async (file) => {
+    const { width, height } = await dims(path.join(dir, file));
+    return {
+      key: `apple-photos-stained-glass/${folder}/${file}`,
+      era: "poem",
+      date: null,
+      width,
+      height,
+      orientation: orient(width, height),
+    };
+  });
+}
+
 function median(nums) {
   if (!nums.length) return null;
   const s = [...nums].sort((a, b) => a - b);
@@ -164,8 +197,11 @@ async function main() {
         (fm.constructionFolders ?? []).map((f) => scannedEntries(f, "construction")),
       )
     ).flat();
+    const poems = (
+      await Promise.all((fm.poemFolders ?? []).map(poemEntries))
+    ).flat();
     // Order within a stop: Now → Aerial → Then → Construction (construction last).
-    const all = [...now, ...aerial, ...then, ...construction];
+    const all = [...now, ...aerial, ...then, ...construction, ...poems];
     photos[slug] = all;
 
     // Resolve GPS: explicit frontmatter wins; else median of recent-photo GPS.
@@ -194,53 +230,62 @@ async function main() {
 
   nodes.sort((a, b) => a.order - b.order);
 
-  // Stylized trail layout: connecting sculptures by raw GPS in walking order
-  // makes a self-crossing scribble (the real path doubles back on itself), so
-  // we lay the stops out as beads along a smooth left-to-right meander instead.
-  // Legible, never crosses, reads as progress. GPS is kept on each node for a
-  // possible real-aerial view later.
-  const N = nodes.length;
-  const VW = 100;
-  const VH = 62;
-  const padX = 8;
-  const padY = 13;
-  // deterministic pseudo-random in [0,1) from an index (no Math.random)
-  const rand = (i) => {
-    const v = Math.sin((i + 1) * 12.9898) * 43758.5453;
-    return v - Math.floor(v);
+  // Accurate hand-tuned map positions (normalized 0..100), matched to the real
+  // GPS layout of the trail. A stop's own frontmatter `map: {x,y}` overrides.
+  const MAP_COORDS = {
+    stargate: { x: 15, y: 10 },
+    tetris: { x: 13, y: 27 },
+    "hoopla-pyramid": { x: 63, y: 38 },
+    "julians-mailbox": { x: 6, y: 68 },
+    "new-mailbox": { x: 10, y: 63 },
+    "wood-seal-and-eel": { x: 23, y: 60 },
+    "the-gun": { x: 26, y: 54 },
+    "the-dancers": { x: 51, y: 92 },
+    "jo-bird": { x: 42, y: 83 },
+    "geometric-torch": { x: 36, y: 51 },
+    "torch-panel": { x: 40, y: 53 },
+    "torch-2-fire": { x: 43, y: 57 },
+    "four-stages-of-evolution": { x: 44, y: 70 },
+    "torch-3-land-bridge": { x: 51, y: 47 },
+    "shed-torch": { x: 55, y: 34 },
+    "tulip-torch": { x: 68, y: 30 },
+    "aspire-to-grace": { x: 75, y: 40 },
+    "porch-light": { x: 80, y: 48 },
+    "the-well": { x: 87, y: 57 },
+    "dam-light": { x: 71, y: 15 },
   };
-  nodes.forEach((n, i) => {
-    const t = N > 1 ? i / (N - 1) : 0.5;
-    n.x = +(padX + t * (VW - 2 * padX)).toFixed(2);
-    // Two overlaid sines + gentle jitter → an organic, hand-drawn wander.
-    const wave = Math.sin(t * Math.PI * 3.1) * 0.72 + Math.sin(t * Math.PI * 1.3 + 0.8) * 0.28;
-    const jit = (rand(i) - 0.5) * 0.16;
-    n.y = +(VH / 2 + (wave + jit) * (VH / 2 - padY)).toFixed(2);
+  nodes.forEach((n) => {
+    const c = n.map ?? MAP_COORDS[n.slug] ?? { x: 50, y: 50 };
+    n.x = c.x;
+    n.y = c.y;
   });
 
-  // Smooth path through the beads (uniform Catmull-Rom → cubic bézier).
-  const pts = nodes.map((n) => [n.x, n.y]);
-  let pathD = "";
-  if (pts.length === 1) {
-    pathD = `M ${pts[0][0]} ${pts[0][1]}`;
-  } else {
-    pathD = `M ${pts[0][0]} ${pts[0][1]}`;
-    for (let i = 0; i < pts.length - 1; i++) {
-      const p0 = pts[i - 1] ?? pts[i];
-      const p1 = pts[i];
-      const p2 = pts[i + 1];
-      const p3 = pts[i + 2] ?? p2;
-      const c1x = p1[0] + (p2[0] - p0[0]) / 6;
-      const c1y = p1[1] + (p2[1] - p0[1]) / 6;
-      const c2x = p2[0] - (p3[0] - p1[0]) / 6;
-      const c2y = p2[1] - (p3[1] - p1[1]) / 6;
-      pathD += ` C ${c1x.toFixed(2)} ${c1y.toFixed(2)}, ${c2x.toFixed(2)} ${c2y.toFixed(2)}, ${p2[0]} ${p2[1]}`;
+  // Quadratic smoothing (midpoint Q/T) — reads as a routed trail, not a scribble.
+  const round = (v) => Number(v.toFixed(2));
+  const smoothPath = (pts) => {
+    if (!pts.length) return "";
+    if (pts.length === 1) return `M ${round(pts[0].x)} ${round(pts[0].y)}`;
+    if (pts.length === 2)
+      return `M ${round(pts[0].x)} ${round(pts[0].y)} L ${round(pts[1].x)} ${round(pts[1].y)}`;
+    const cmds = [`M ${round(pts[0].x)} ${round(pts[0].y)}`];
+    for (let i = 1; i < pts.length - 1; i++) {
+      const p = pts[i];
+      const nx = pts[i + 1];
+      cmds.push(`Q ${round(p.x)} ${round(p.y)} ${round((p.x + nx.x) / 2)} ${round((p.y + nx.y) / 2)}`);
     }
-  }
+    const last = pts[pts.length - 1];
+    cmds.push(`T ${round(last.x)} ${round(last.y)}`);
+    return cmds.join(" ");
+  };
+
+  const pts = nodes.map((n) => ({ x: n.x, y: n.y }));
+  const pathD = smoothPath(pts); // open — drives progress + active-stop mapping
+  const loopD = pts.length > 2 ? smoothPath([...pts, pts[0]]) : pathD; // closes 20 → 1
 
   const trail = {
-    viewBox: `0 0 ${VW} ${VH}`,
+    viewBox: "0 0 100 100",
     pathD,
+    loopD,
     nodes,
   };
 

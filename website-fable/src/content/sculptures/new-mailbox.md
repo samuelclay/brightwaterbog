@@ -14,4 +14,3 @@ modernFolders: []
 summary: A new mailbox in the works — photos coming soon.
 ---
 
-A new mailbox is being built. Check back — photos will appear here as it comes together.
