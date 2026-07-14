@@ -1,0 +1,38 @@
+{
+  "pair": 35,
+  "title": "Sicilian-Style Broccoli",
+  "subtitle": "with Tarragon Hazelnut Relish & Lemon Caper Millet",
+  "servings": "2",
+  "cook_time": "30 min",
+  "nutrition": {"calories": "460", "fat": "15 g", "carbohydrates": "70 g", "protein": "17 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 shallot",
+    "½ cup millet",
+    "1 broccoli crown",
+    "4 oz broccoli rabe",
+    "¼ oz fresh tarragon",
+    "1 garlic clove",
+    "1 lemon*",
+    "⅓ cup hazelnuts",
+    "2 tbsp capers",
+    "¼ cup golden raisins"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Peel and mince the shallot. Heat 1 tsp olive oil in a small saucepan over medium heat. Add minced shallot and cook until softened, 1 to 2 minutes. Add millet and toast until aromatic and beginning to pop, 3 to 5 minutes. Add 1 cup water and a pinch of salt. Bring to a boil, cover, reduce heat to low, and cook until the water is absorbed and grains are tender, 17 to 20 minutes. Remove cooked millet from heat and set aside, covered."},
+    {"n": 2, "title": null, "text": "Cut the broccoli crown into large florets and thinly slice. Trim and roughly chop the broccoli rabe. Pick and roughly chop the tarragon leaves. Peel and mince the garlic. Halve and juice the lemon."},
+    {"n": 3, "title": null, "text": "Place a large skillet over medium heat and add hazelnuts. Cook, shaking the pan occasionally, until nuts are toasted, 3 to 5 minutes. Let toasted hazelnuts cool, and transfer to a cutting board. Remove skins and roughly chop the nuts. Add chopped tarragon, minced garlic, chopped hazelnuts, 2 tbsp olive oil, and a pinch of salt to a small bowl. Stir the tarragon hazelnut relish."},
+    {"n": 4, "title": null, "text": "Return the skillet to medium-heat with 1 tbsp olive oil. Add sliced broccoli florets and cook until until crisp-tender, 2 to 3 minutes per side. Add chopped broccoli rabe and cook until bright green and just wilted, 3 to 5 minutes. Sprinkle charred broccoli with salt and add just half the lemon juice."},
+    {"n": 5, "title": null, "text": "Fluff the cooked millet with a fork. Add remaining lemon juice, capers, golden raisins, and a pinch of salt, and stir. Divide the lemon caper millet between plates. Top with Sicilian-style broccoli and tarragon hazelnut relish. Tuck in!"}
+  ],
+  "tips": [
+    "* This ingredient will be split between steps.",
+    "Culinary Inspo? Caponata! When creating this dish our culinary team was inspired by caponata—described by Martha Rose Shulman, a food columnist for The New York Times, as \"a Sicilian sweet and sour version of ratatouille.\" It's sweet, savory, and a little nutty, just like this dish. Enjoy!"
+  ],
+  "cuisine_tags": ["Italian", "Mediterranean"],
+  "ingredient_tags": ["broccoli", "broccoli rabe", "millet", "hazelnuts"],
+  "item_tags": ["capers", "golden raisins", "tarragon", "lemon", "shallot"],
+  "issues": null
+}

@@ -1,0 +1,25 @@
+{
+  "pair": 100,
+  "title": "Power Bowl",
+  "subtitle": "with Rainbow Vegetables and Zesty Dijon Dressing",
+  "servings": "2",
+  "cook_time": "30 minutes",
+  "nutrition": {"calories": "530", "fat": "32 g", "carbohydrates": "50 g", "protein": "18 g"},
+  "description": "Tender beluga lentils top this colorful mixture of raw and roasted vegetables, including beautiful and vitamin-rich broccoflower. The taste of crunchy vegetables is balanced out by a zesty Dijon dressing. We suggest you toss the salad with half and serve any remaining on the side.",
+  "from_your_kitchen": ["1 tbsp olive oil", "Salt and pepper"],
+  "ingredients": ["⅓ cup beluga lentils", "3 tbsp walnuts", "5 oz broccoflower florets", "3 oz radish", "7 oz carrots", "1 cucumber", "2 tbsp Dijon mustard", "2 tbsp agave", "1 tbsp rice vinegar", "3 tbsp vegan yogurt", "5 oz baby spinach", "2 tbsp currants"],
+  "tools": ["Small saucepan", "Baking sheet"],
+  "steps": [
+    {"n": 1, "title": "SIMMER THE LENTILS", "text": "Preheat the oven to 400°F. Combine the beluga lentils and ⅔ cup water in a small saucepan. Bring to a boil, reduce heat to low, and cook, covered, until lentils are tender and water has been absorbed, about 20 to 25 minutes. Drain any excess water and season with salt and pepper."},
+    {"n": 2, "title": "TOAST AND ROAST", "text": "Add the walnuts to a baking sheet and bake until lightly toasted, about 4 to 6 minutes. Transfer the walnuts to a bowl. Cut the broccoflower into small florets and add them to the baking sheet. Toss with 1 tbsp olive oil, sprinkle with salt and pepper, and roast until tender and browned in places, about 7 to 9 minutes."},
+    {"n": 3, "title": "PREPARE THE VEGETABLES", "text": "Thinly slice the radish. Peel the carrots with a peeler and then continue peeling to make ribbons. Slice the cucumber into thin rounds."},
+    {"n": 4, "title": "MAKE THE DRESSING", "text": "In a medium bowl, combine the Dijon mustard, agave, rice vinegar, yogurt, and a pinch of salt and pepper. Whisk the zesty Dijon dressing until smooth."},
+    {"n": 5, "title": "TOSS THE SALAD", "text": "In a large bowl, toss the baby spinach, currants, a pinch of salt and pepper, and half of the zesty Dijon dressing."},
+    {"n": 6, "title": "SERVE", "text": "Divide the dressed spinach between large bowls or plates. Top with sliced radish, carrot ribbons, sliced cucumber, beluga lentils, and roasted broccoflower. Drizzle with remaining zesty Dijon dressing and dig in!"}
+  ],
+  "tips": ["TIP: Beluga lentils hold their shape. When cooked properly, they'll still have a bite.", "TIP: Watch the walnuts carefully—they burn easily.", "TIP: Use a mandoline to slice the radish and cucumber if you have one."],
+  "cuisine_tags": ["American"],
+  "ingredient_tags": ["lentils", "broccoflower", "spinach", "carrot", "cucumber", "radish"],
+  "item_tags": ["dijon mustard", "agave", "rice vinegar", "vegan yogurt", "walnuts", "currants"],
+  "issues": null
+}

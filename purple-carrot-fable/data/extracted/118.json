@@ -1,0 +1,40 @@
+{
+  "pair": 118,
+  "title": "Black Bean and Squash Enchiladas",
+  "subtitle": "with Pumpkin Seed Mole",
+  "servings": "2",
+  "cook_time": "40 minutes",
+  "nutrition": {"calories": "910", "fat": "32 g", "carbohydrates": "159 g", "protein": "33 g"},
+  "description": "The term mole (MOE-lay) describes a wide variety of Mexican sauces. For this dish, you'll use a classic mole paste that includes ancho chiles, almonds, raisins, cocoa, and sesame. This notoriously labor intensive sauce has been simplified here, without sacrificing on flavor.",
+  "from_your_kitchen": ["1 tbsp + 2 tsp vegetable oil", "Salt"],
+  "ingredients": [
+    "¼ cup Spanish rice",
+    "1 onion",
+    "2 cloves garlic°",
+    "3 tbsp pumpkin seeds",
+    "2 tbsp mole paste",
+    "1 can black beans",
+    "1 red bell pepper",
+    "6 oz butternut squash",
+    "1 lime",
+    "6 whole wheat tortillas",
+    "1 scallion"
+  ],
+  "tools": ["Small saucepan", "Medium saucepan", "Large skillet", "Blender", "8x8 baking dish"],
+  "steps": [
+    {"n": 1, "title": "COOK THE RICE", "text": "Preheat the oven to 425°F. Combine the Spanish rice and ⅔ cup water in a small saucepan over high heat. Bring to a boil, reduce heat to low, cover, and cook until the rice is tender and the water is absorbed, about 15 to 20 minutes. Peel and dice the onion. Peel and mince the garlic."},
+    {"n": 2, "title": "START THE MOLE", "text": "Place a medium saucepan over medium-high heat with 2 tsp vegetable oil. Once hot, add the onion and cook until soft and translucent, about 3 to 5 minutes. Reduce heat to medium, add pumpkin seeds and cook, stirring constantly, until the seeds are lightly toasted, about 3 to 5 minutes. Add the garlic and cook until fragrant, about 30 seconds."},
+    {"n": 3, "title": "SIMMER THE MOLE", "text": "Add 1¼ cups water and mole paste to the pumpkin seed mixture and stir until the paste dissolves. Bring to a boil, reduce heat to low, and cook until sauce has thickened slightly, about 5 to 8 minutes. Drain and rinse the black beans. Deseed and thinly slice the red bell pepper."},
+    {"n": 4, "title": "PREPARE THE FILLING", "text": "Place a large skillet over medium-high heat with 1 tbsp vegetable oil. Once hot, add the butternut squash and cook until browned in places and tender, about 4 to 6 minutes. Add the sliced pepper and cook until just tender, about 1 to 2 minutes. Add the black beans, cooked Spanish rice, and ½ tsp salt and stir to combine."},
+    {"n": 5, "title": "ROLL THE ENCHILADAS", "text": "Transfer pumpkin seed mole sauce to a blender and blend until smooth. Add the juice from half the lime and season with 1 tsp salt. Spread ¼ cup of the mole on the bottom of a baking dish. Lay the tortillas on a clean work surface and top each with ½ cup of the vegetable rice mixture, mixing any remainder into the sauced baking dish. Drizzle each with 1 tbsp mole sauce and roll to seal, lying seam-side down into the dish."},
+    {"n": 6, "title": "PLATE AND SERVE", "text": "Top enchiladas with remaining mole sauce, cover with foil, and bake until warmed through, about 8 to 10 minutes. Cut the remaining lime half into wedges. Thinly slice the scallion. Serve black bean and squash enchiladas on large plates and top with sliced scallion and lime wedges. Olé!"}
+  ],
+  "tips": [
+    "TIP: Be careful blending hot liquids—start on the lowest setting.",
+    "°Find a head of garlic in the Forest Bowl recipe bag."
+  ],
+  "cuisine_tags": ["Mexican"],
+  "ingredient_tags": ["black beans", "butternut squash", "tortillas", "rice", "bell pepper"],
+  "item_tags": ["mole paste", "pumpkin seeds", "lime", "scallion", "garlic"],
+  "issues": null
+}

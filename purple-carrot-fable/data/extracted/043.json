@@ -1,0 +1,39 @@
+{
+  "pair": 43,
+  "title": "Sausage Jambalaya",
+  "subtitle": "with Kale & Long Grain Rice",
+  "servings": "2",
+  "cook_time": "40 min",
+  "nutrition": {"calories": "660", "fat": "10 g", "carbohydrates": "108 g", "protein": "37 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 onion",
+    "1 green bell pepper",
+    "1 celery stalk",
+    "3 garlic cloves",
+    "4 oz curly kale",
+    "2 links Field Roast® Sausage",
+    "¾ cup basmati rice",
+    "1 tsp chipotle morita powder 🌶",
+    "14.5 oz fire roasted diced tomatoes",
+    "2 tsp vegetable broth concentrate"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Peel and dice the onion. Trim, deseed, and dice the green bell pepper. Dice the celery. Peel and mince the garlic. Desteem the curly kale and roughly chop the leaves."},
+    {"n": 2, "title": null, "text": "Remove sausages from the plastic casing and slice into rounds. Heat 2 tbsp vegetable oil in a large pot over medium-high heat. Add sliced sausage and cook, stirring occasionally, until it begins to crisp, 4 to 5 minutes. Add chopped curly kale and cook until kale is bright green and wilted, 1 to 2 minutes. Transfer sautéed sausage and curly kale to a plate."},
+    {"n": 3, "title": null, "text": "Return the pot to medium-high heat. Add diced onion, diced green bell pepper, and diced celery to the pot and cook until softened, 3 to 4 minutes. Add minced garlic and a pinch of salt and cook until fragrant, about 30 seconds."},
+    {"n": 4, "title": null, "text": "Add the basmati rice, chipotle morita powder, tomatoes, vegetable broth concentrate, and 1¼ cups water to the pot. Bring to a boil, cover, reduce heat to low, and cook until the water is absorbed and rice is tender, 15 to 18 minutes."},
+    {"n": 5, "title": null, "text": "Add the sautéed sausage and curly kale to the jambalaya and cook until warm, 1 to 2 minutes. Divide the sausage jambalaya with kale and long-grain rice between large bowls. Dig in!"}
+  ],
+  "tips": [
+    "This item is spicy. (chipotle morita powder)",
+    "TIP: If you're sensitive to spice, omit or use less chipotle.",
+    "A Divine and Delicious Base: You've probably heard of mirepoix, the French term for a flavor base made from sautéed onion, carrot, and celery. It's a key component of many of the soups, stews, and sauces you love. But say you swap in green peppers for carrots, what's that called? In the southeastern United States, people call that mixture the Holy Trinity, and it's the foundation of classic Cajun dishes like gumbo and jambalaya."
+  ],
+  "cuisine_tags": ["Cajun/Creole", "Southern"],
+  "ingredient_tags": ["vegan sausage", "rice", "kale", "bell pepper"],
+  "item_tags": ["chipotle morita powder", "fire roasted tomatoes", "vegetable broth concentrate", "celery"],
+  "issues": null
+}

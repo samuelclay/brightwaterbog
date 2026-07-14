@@ -1,0 +1,42 @@
+{
+  "pair": 82,
+  "title": "Roasted Sweet Potatoes",
+  "subtitle": "with Spicy Cashew Sauce & Kraut",
+  "servings": "2 (4)",
+  "cook_time": "35 (40) min",
+  "nutrition": {"calories": "460", "fat": "14 g", "carbohydrates": "80 g", "protein": "14 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "2 sweet potatoes",
+    "2 garlic cloves",
+    "½ cup cashews*",
+    "2 tbsp rice vinegar",
+    "2 tsp agave",
+    "1 tsp tamari",
+    "1 tsp Aleppo pepper",
+    "8 oz Swiss chard",
+    "1 lime*",
+    "1 Thai chile",
+    "4 oz sauerkraut"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat the oven to 425°F. Halve the sweet potatoes lengthwise and transfer to a baking sheet. Rub halved sweet potatoes with 2 tsp (4 tsp) vegetable oil, sprinkle with salt and pepper, and bake cut-side down until tender, 22 to 26 minutes."},
+    {"n": 2, "title": null, "text": "Peel the garlic and add to a blender. Measure just ⅓ cup (⅔ cup) cashews and add to the blender along with the rice vinegar, agave, tamari, Aleppo pepper, 2 tbsp (4 tbsp) olive oil, and 3 tbsp (4 tbsp) warm water. Blend spicy cashew sauce until smooth. Taste, and add salt as necessary."},
+    {"n": 3, "title": null, "text": "Thinly slice the Swiss chard stems and roughly chop the leaves. Halve the lime(s), juice one half (1 lime), and cut one half (1 lime) into wedges. Thinly slice the Thai chile(s). Place remaining cashews in a large nonstick skillet over medium heat and toast, 3 to 4 minutes. Transfer toasted cashews to a cutting board and roughly chop."},
+    {"n": 4, "title": null, "text": "When the sweet potatoes are done, heat the skillet over medium-high heat with 1 tsp (2 tsp) olive oil. Add the chopped Swiss chard leaves and sliced stems, and cook until just wilted, 2 to 3 minutes. Add the lime juice and a pinch of salt."},
+    {"n": 5, "title": null, "text": "Divide the sautéed Swiss chard between large plates. Top with roasted sweet potatoes and sauerkraut. Drizzle everything with spicy cashew sauce and sprinkle with toasted cashews and sliced Thai chile. Serve with lime wedges. Tuck in!"}
+  ],
+  "tips": [
+    "* These ingredients will be split between steps.",
+    "These items are spicy. (Aleppo pepper, Thai chile)",
+    "TIP: If you prefer more garlic, add another clove.",
+    "TIP: Be sure to wash your hands after preparing the chile(s).",
+    "Time for Kraut: Sauerkraut is experiencing a bit of a renaissance. Made from fermented cabbage and spices, it has a slightly sour taste which makes it the perfect foil for foods like sweet potatoes. But kraut is more than a tasty condiment: It has numerous health benefits, too! It's chock-full of healthy probiotics, fiber, and iron, plus it has a significant amount of Vitamin A."
+  ],
+  "cuisine_tags": ["Fusion", "American"],
+  "ingredient_tags": ["sweet potato", "swiss chard", "cashews", "sauerkraut"],
+  "item_tags": ["aleppo pepper", "thai chile", "tamari", "rice vinegar", "agave", "sauerkraut", "lime"],
+  "issues": null
+}

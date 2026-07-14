@@ -1,0 +1,44 @@
+{
+  "pair": 14,
+  "title": "Crispy Cauliflower Pakoras",
+  "subtitle": "with Red Lentil Dal & Cilantro Chutney",
+  "servings": "2",
+  "cook_time": "35 min",
+  "nutrition": {"calories": "590", "fat": "18 g", "carbohydrates": "86 g", "protein": "24 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 onion",
+    "3 garlic cloves*",
+    "1 oz fresh ginger",
+    "6 oz broccoli florets",
+    "4 oz cauliflower florets",
+    "2 mini sweet peppers",
+    "¼ cup white vinegar",
+    "1 tsp turbinado sugar",
+    "½ cup red lentils",
+    "1 tsp curry powder",
+    "5.5 oz coconut milk",
+    "¾ cup garbanzo bean flour",
+    "1 tsp garam masala",
+    "¼ cup cilantro chutney (spicy)"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Peel and dice the onion. Peel and mince the garlic and ginger. Chop broccoli florets and cauliflower florets into bite-size pieces. Thinly slice the mini sweet peppers. Add vinegar, sugar, and a pinch of salt to a medium bowl and whisk until sugar dissolves. Add sliced mini sweet peppers and toss to combine."},
+    {"n": 2, "title": null, "text": "Rinse and sort the lentils. Heat 1 tbsp vegetable oil in a small saucepan over medium heat. Add diced onion, just half the minced garlic, minced ginger, and a pinch of salt. Cook, stirring frequently, until onion softens, 3 to 4 minutes."},
+    {"n": 3, "title": null, "text": "Add curry powder to the small saucepan, stir, and cook until fragrant, about 1 minute. Add lentils, coconut milk, and ¾ cup water. Bring to a boil, cover, reduce heat to low, and cook until lentils are tender and water is absorbed, 12 to 15 minutes."},
+    {"n": 4, "title": null, "text": "Add remaining minced garlic, garbanzo bean flour, garam masala, ½ cup cold water, and ¼ tsp salt to a large bowl and whisk the pakora batter."},
+    {"n": 5, "title": null, "text": "Add chopped broccoli florets and chopped cauliflower florets to the pakora batter and toss to coat. Heat ½ cup vegetable oil in a medium skillet over medium-high heat. Once hot, gently place coated vegetables in the skillet. Cook until lightly browned, 2 to 3 minutes per side. Transfer to a paper towel-lined plate and sprinkle with salt."},
+    {"n": 6, "title": null, "text": "Divide the red lentil dal between bowls and top with crispy cauliflower pakoras and pickled mini sweet peppers. Drizzle with cilantro chutney. Tuck in!"}
+  ],
+  "tips": [
+    "* This ingredient will be split between steps.",
+    "TIP: To \"sort\" means to look for and discard any naturally occurring debris or stones.",
+    "TIP: Work in batches to avoid overcrowding."
+  ],
+  "cuisine_tags": ["Indian"],
+  "ingredient_tags": ["cauliflower", "broccoli", "red lentils", "chickpea flour"],
+  "item_tags": ["curry powder", "garam masala", "coconut milk", "cilantro chutney", "white vinegar", "ginger", "turbinado sugar"],
+  "issues": null
+}

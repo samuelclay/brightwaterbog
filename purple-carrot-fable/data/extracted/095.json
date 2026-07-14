@@ -1,0 +1,25 @@
+{
+  "pair": 95,
+  "title": "Curried Hummus Flatbread",
+  "subtitle": "with Roasted Cauliflower & Olive Date Relish",
+  "servings": "2",
+  "cook_time": "35 minutes",
+  "nutrition": {"calories": "850", "fat": "40 g", "carbohydrates": "109 g", "protein": "25 g"},
+  "description": "Buttery, briny, and tangy, these trendy Castelvetrano olives are named in honor of their hometown in Southwestern Sicily. The sweet dates add a counterbalance, and everything is piled high on crisp flatbread, dolloped with vegan ricotta and drizzled with lemon juice. You'll only use half of the can of garbanzo beans here, so be sure to save the remainder for the \"Fabcakes\" that also came in your box this week.",
+  "from_your_kitchen": ["2 tbsp + 2 tsp olive oil", "Salt and pepper"],
+  "ingredients": ["4 oz cauliflower florets", "1 lemon", "1 can garbanzo beans*", "1 tbsp tahini", "1 tsp curry powder", "2 pieces naan", "Fresh parsley", "0.75 oz Castelvetrano olives", "3 dates", "3 tbsp vegan ricotta", "1 oz baby arugula"],
+  "tools": ["Baking sheet", "Food processor"],
+  "steps": [
+    {"n": 1, "title": "ROAST THE CAULIFLOWER", "text": "Preheat the oven to 425°F. Cut the cauliflower into even smaller florets. Transfer to a baking sheet and toss with 1 tsp olive oil and a pinch of salt and pepper. Roast the cauliflower until tender and browned in some places, about 15 to 18 minutes."},
+    {"n": 2, "title": "MAKE THE HUMMUS", "text": "Halve the lemon. Drain and rinse the garbanzo beans. Measure out ¾ cup of garbanzos (reserving the remainder for the Fabcakes recipe). Add to the food processor along with the tahini, curry powder, and juice from half the lemon. With the motor running, slowly add 2 tbsp olive oil and blend until smooth, scraping down the sides as necessary with a spatula. Season hummus with ⅛ tsp salt."},
+    {"n": 3, "title": "NAAN TIME", "text": "Place the naan in the oven directly on the rack. Bake until lightly crisp, about 7 to 9 minutes."},
+    {"n": 4, "title": "PREPARE THE RELISH", "text": "Finely chop the parsley leaves, Castelvetrano olives, and dates. Add to a small bowl and stir relish to combine."},
+    {"n": 5, "title": "ASSEMBLE THE FLATBREAD", "text": "When the naan is toasted, spread each piece with half of the curried hummus. Layer on the olive date relish, roasted cauliflower, and dollop with bits of the vegan ricotta. Pop the flatbreads in the oven to warm, about 3 minutes."},
+    {"n": 6, "title": "FINISHING TOUCHES", "text": "Remove the flatbreads from the oven and top with arugula. Sprinkle with salt and drizzle with remaining lemon juice and 1 tsp olive oil. Bon appetit!"}
+  ],
+  "tips": ["*The can of garbanzo beans in this recipe bag is also for the Fabcakes.", "Add more olive oil or water by the tbsp to achieve a smooth consistency."],
+  "cuisine_tags": ["Mediterranean", "Fusion"],
+  "ingredient_tags": ["chickpeas", "cauliflower", "naan", "arugula"],
+  "item_tags": ["tahini", "curry powder", "castelvetrano olives", "dates", "vegan ricotta"],
+  "issues": null
+}

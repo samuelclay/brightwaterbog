@@ -1,0 +1,41 @@
+{
+  "pair": 72,
+  "title": "Charred Pepper Ragout",
+  "subtitle": "with Rotini & Crispy Artichokes",
+  "servings": "2 (4)",
+  "cook_time": "35 (45) min",
+  "nutrition": {"calories": "480", "fat": "3.5 g", "carbohydrates": "39 g", "protein": "19 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "3 garlic cloves",
+    "1 red bell pepper",
+    "1 yellow bell pepper",
+    "1 red Fresno chile",
+    "4 oz grape tomatoes",
+    "13.75 oz artichoke hearts",
+    "6 oz dried rotini",
+    "1 tbsp vegan parmesan*"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Bring a large pot of salted water to boil for the pasta. Peel the garlic. Trim, deseed and chop the red bell pepper(s) and yellow bell pepper(s). Trim and roughly chop the red Fresno chile(s)."},
+    {"n": 2, "title": null, "text": "Position a rack in the middle of the oven and set oven to broil on high. Place peeled garlic, chopped bell peppers, as much chopped red Fresno chile as you'd like, grape tomatoes, 2 tsp (4 tsp) olive oil, ½ tsp (1 tsp) salt, and ½ tsp (1 tsp) pepper on a baking sheet and toss to combine. Broil until peppers are charred and tender, 8 to 10 minutes."},
+    {"n": 3, "title": null, "text": "Drain and rinse the artichoke hearts. Add rotini to the boiling water and stir. Cook until al dente, 7 to 9 minutes. Reserve ½ cup (1 cup) pasta water and drain the pasta."},
+    {"n": 4, "title": null, "text": "Add the charred vegetables to a food processor and pulse until well chopped. Taste the charred pepper ragout and add salt and pepper as necessary. Place artichoke hearts on the baking sheet and add 1 tsp (2 tsp) olive oil and a pinch of salt and pepper. Broil until browned and crispy, 6 to 8 minutes."},
+    {"n": 5, "title": null, "text": "Return the large pot to medium heat. Set aside a quarter of the charred pepper ragout and bring the rest to a simmer in the pot. Add cooked rotini, reserved pasta water, and just 2 tsp (4 tsp) parmesan. Continue to cook until warmed, 3 to 5 minutes. Taste, and add salt and pepper as necessary."},
+    {"n": 6, "title": null, "text": "Divide the charred pepper ragout with rotini between large bowls. Top with crispy artichoke hearts and remaining charred pepper ragout. Sprinkle with remaining parmesan. Bon appétit!"}
+  ],
+  "tips": [
+    "TIP: If you prefer more garlic, add another clove.",
+    "TIP: All broilers are different. Watch carefully to ensure the vegetables don't burn. We'll also use this baking sheet again in step 4.",
+    "TIP: We will use this pot again in step 5.",
+    "* This ingredient will be split between steps",
+    "This item is spicy. (red Fresno chile)",
+    "Substitutes: any color bell pepper for yellow bell pepper; jalapeño for red Fresno chile"
+  ],
+  "cuisine_tags": ["Italian", "Mediterranean"],
+  "ingredient_tags": ["pasta", "bell pepper", "artichokes", "tomatoes"],
+  "item_tags": ["vegan parmesan", "fresno chile", "garlic"],
+  "issues": null
+}

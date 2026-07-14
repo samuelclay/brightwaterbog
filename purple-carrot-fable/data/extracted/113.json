@@ -1,0 +1,44 @@
+{
+  "pair": 113,
+  "title": "Vietnamese Tofu Bowl",
+  "subtitle": "with Bamboo Rice and Pickled Vegetables",
+  "servings": "2",
+  "cook_time": "30 minutes",
+  "nutrition": {"calories": "740", "fat": "34 g", "carbohydrates": "128 g", "protein": "17 g"},
+  "description": "This bowl is highlighted by bright colors and bold flavors. Bamboo rice is infused with juice from fresh bamboo, which is where it gets its light green color. The combination of this fragrant rice and sweet and sour pickled vegetables is one of our favorites. We hope it becomes one of yours, too!",
+  "from_your_kitchen": ["2 tbsp vegetable oil", "Salt"],
+  "ingredients": [
+    "½ cup bamboo rice",
+    "3 oz carrot",
+    "1 jalapeño",
+    "2 packets turbinado sugar",
+    "¼ cup rice vinegar",
+    "4 oz shredded daikon radish",
+    "⅓ cup potato starch",
+    "3 tbsp Follow Your Heart® Vegenaise®",
+    "Sriracha",
+    "1 package WildWood® organic extra firm sprouted tofu",
+    "Fresh cilantro°",
+    "4 oz spring mix°"
+  ],
+  "tools": ["2 small saucepans", "Large nonstick skillet"],
+  "steps": [
+    {"n": 1, "title": "COOK THE RICE", "text": "Combine the bamboo rice, 1 cup water, and a pinch of salt in a small saucepan. Bring to a boil, cover, and reduce heat to low. Cook until all the water is absorbed and the rice is tender, about 14 to 16 minutes. Remove from heat, and let stand for 10 minutes before fluffing rice with a fork."},
+    {"n": 2, "title": "PREPARE TO PICKLE", "text": "Peel the carrot and then continue to peel lengthwise to create \"noodles.\" Thinly slice the jalapeño."},
+    {"n": 3, "title": "PICKLE THE VEGETABLES", "text": "Add the turbinado sugar, rice vinegar, and ⅔ cup water to another small saucepan and bring to boil. Add the carrot, shredded daikon radish, and as much of the jalapeño as you'd like. Turn off the heat and move the saucepan to a cool spot on the stovetop."},
+    {"n": 4, "title": "PREPARE THE AIOLI AND TOFU", "text": "Add the potato starch and a pinch of salt to a plate. In a small bowl, mix together the Vegenaise and as much of the sriracha as you'd like. Drain the tofu and cut into 6 triangles (rectangular slices will also work). Wrap the slices in paper towels and press to drain the excess water."},
+    {"n": 5, "title": "COOK THE TOFU", "text": "Place a large nonstick skillet over medium-high heat with 2 tbsp vegetable oil. Toss the sliced tofu in the potato starch and shake off any excess. Once the oil is hot, carefully lay the tofu into the skillet, and cook until crispy and lightly golden, about 3 minutes per side. Transfer tofu to a plate and sprinkle with salt."},
+    {"n": 6, "title": "SERVE", "text": "Pick half of the cilantro leaves and tender stems (saving half for the Spicy Red Curry Ramen). Drain the liquid from the pickled vegetables. Divide the spring mix between large bowls. Top with bamboo rice, crispy tofu, pickled vegetables, and cilantro. Drizzle the Vietnamese tofu bowls with sriracha aioli and serve with any remaining sriracha for an extra, spicy kick. Dig in!"}
+  ],
+  "tips": [
+    "TIP: For best results, rinse bamboo rice in a fine mesh strainer prior to cooking.",
+    "TIP: If you prefer less spice, deseed the jalapeño.",
+    "TIP: To pick the cilantro leaves means to remove the leafy greens from the stems.",
+    "This item is spicy. (jalapeño, sriracha)",
+    "°These ingredients will be shared with other recipes this week."
+  ],
+  "cuisine_tags": ["Vietnamese"],
+  "ingredient_tags": ["tofu", "rice", "carrot", "daikon", "spring mix"],
+  "item_tags": ["sriracha", "rice vinegar", "vegenaise", "jalapeño", "turbinado sugar", "potato starch", "cilantro"],
+  "issues": null
+}

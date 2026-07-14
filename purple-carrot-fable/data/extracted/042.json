@@ -1,0 +1,38 @@
+{
+  "pair": 42,
+  "title": "Falafel Spiced Tofu",
+  "subtitle": "with Pickled Cauliflower & Creamy Cashew Dressing",
+  "servings": "2",
+  "cook_time": "35 min",
+  "nutrition": {"calories": "450", "fat": "28 g", "carbohydrates": "30 g", "protein": "28 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "½ cup cashews",
+    "14 oz organic extra firm tofu",
+    "2 garlic cloves*",
+    "1 tbsp zhoug seasoning",
+    "1 lemon",
+    "4 oz curly kale",
+    "2 oz Castelvetrano olives",
+    "4 oz roasted red peppers",
+    "3.5 oz curried pickled cauliflower"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat the oven to 425°F. Add cashews and ½ cup hot water to a small bowl. Crumble tofu into bite-size pieces and add to a large bowl. Peel and mince the garlic. Add just half the minced garlic to the bowl with the tofu, along with zhoug seasoning, 2 tsp vegetable oil, ½ tsp salt, and a pinch of pepper. Toss to coat."},
+    {"n": 2, "title": null, "text": "Line a baking sheet with foil or parchment paper. Place tofu mixture on the baking sheet and bake until browned and crispy in places, 25 to 30 minutes."},
+    {"n": 3, "title": null, "text": "Halve and juice the lemon. Destem and thinly slice the curly kale. Check the Castelvetrano olives, remove any pits, and roughly chop the olives. Drain the roasted red peppers."},
+    {"n": 4, "title": null, "text": "Add the cashews, their soaking water, remaining minced garlic, lemon juice, and a pinch of salt and pepper to a blender. Blend until smooth. Taste the creamy cashew dressing and add salt as necessary."},
+    {"n": 5, "title": null, "text": "Add the sliced curly kale and 2 tsp olive oil to a large bowl, and massage kale until bright green. Add chopped Castelvetrano olives, roasted red peppers, and just half the creamy cashew dressing, and toss to combine."},
+    {"n": 6, "title": null, "text": "Divide the kale salad between bowls. Top with falafel spiced tofu and pickled cauliflower. Drizzle with remaining creamy cashew dressing. Bon appétit!"}
+  ],
+  "tips": [
+    "* This ingredient will be split between steps.",
+    "TIP: If you don't have foil or parchment paper, add 2 tsp oil to the baking sheet instead."
+  ],
+  "cuisine_tags": ["Middle Eastern", "Mediterranean"],
+  "ingredient_tags": ["tofu", "kale", "cauliflower", "cashews"],
+  "item_tags": ["zhoug seasoning", "castelvetrano olives", "roasted red peppers", "pickled cauliflower", "lemon"],
+  "issues": null
+}

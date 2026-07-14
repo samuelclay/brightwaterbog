@@ -1,0 +1,37 @@
+{
+  "pair": 30,
+  "title": "Roasted Red Pepper Shakshuka",
+  "subtitle": "with Za'atar Tofu & Crispy Shallots",
+  "servings": "2",
+  "cook_time": "25 min",
+  "nutrition": {"calories": "590", "fat": "31 g", "carbohydrates": "63 g", "protein": "33 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 shallot",
+    "3 garlic cloves",
+    "4 oz roasted red peppers",
+    "¼ oz fresh mint",
+    "14 oz organic extra firm tofu",
+    "1 tbsp za'atar seasoning",
+    "2 tsp cumin seeds",
+    "14.5 oz crushed tomatoes",
+    "1 multigrain flatbread",
+    "2 oz Treeline® Soft French-Style Cashew Cheese",
+    "¼ cup crispy shallots"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat the oven to 400°F. Crumble the tofu into bite-size pieces. Peel and mince the shallot(s) and garlic. Drain the red peppers. Pick the mint leaves from the stems."},
+    {"n": 2, "title": null, "text": "Place the crumbled tofu on a baking sheet and toss with 2 tsp (4 tsp) olive oil, za'atar seasoning, and a pinch of salt and pepper. Bake until browned in places, 12 to 15 minutes."},
+    {"n": 3, "title": null, "text": "Heat 3 tbsp (6 tbsp) olive oil in a large skillet over medium-high heat. Add the minced shallot, minced garlic, and cumin seeds. Cook until fragrant, 1 to 2 minutes. Add the red peppers, tomatoes, ½ tsp (1 tsp) salt, and a pinch of pepper. Bring to a simmer and cook until the sauce thickens, 5 to 8 minutes."},
+    {"n": 4, "title": null, "text": "Place the multigrain flatbread(s) directly on the oven rack. Bake until slightly crisp, 3 to 5 minutes. Add the baked za'atar tofu to the sauce and simmer 2 to 3 minutes. Remove the roasted red pepper shakshuka from heat and dollop with cashew cheese. Top with crispy shallots and mint leaves. Serve family style with crispy flatbread on the side. Enjoy!"}
+  ],
+  "tips": [
+    "What is shakshuka? Though it originated in Northern Africa, Shakshuka has been embraced by cultures around the world, particularly in Israel where it's one of the country's national dishes. Traditionally, eggs are poached in a smoky, spicy, vegetable-packed tomato sauce, but in this recipe we replace eggs with cashew cheese. The result is a tasty protein source. Ultimately, no matter which ingredients you include, this one-skillet wonder is a delicious meal that can be served for breakfast, lunch, or dinner!"
+  ],
+  "cuisine_tags": ["Middle Eastern", "Mediterranean"],
+  "ingredient_tags": ["tofu", "tomatoes", "roasted red peppers", "flatbread"],
+  "item_tags": ["za'atar", "cumin seeds", "cashew cheese", "crispy shallots", "mint"],
+  "issues": null
+}

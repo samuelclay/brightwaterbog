@@ -1,0 +1,40 @@
+{
+  "pair": 46,
+  "title": "Japanese Yam Sushi Bowls",
+  "subtitle": "with Sesame Spinach & Citrus Aioli",
+  "servings": "2",
+  "cook_time": "30 min",
+  "nutrition": {"calories": "730", "fat": "17 g", "carbohydrates": "131 g", "protein": "14 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "2 Japanese yams",
+    "¾ cup quinoa speckled rice",
+    "1 cucumber",
+    "1 tbsp chile garlic sauce 🌶",
+    "1 tbsp rice vinegar",
+    "1 lime*",
+    "3 tbsp Follow Your Heart® Soy-Free Vegenaise®",
+    "4 oz baby spinach",
+    "1 tbsp tuxedo sesame seeds*",
+    "1 nori sheet"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat the oven to 425°F. Cut Japanese yams into wedges and place on a baking sheet. Toss with 2 tsp vegetable oil and a pinch of salt and pepper, and bake until wedges are crisp and slightly browned, 20 to 25 minutes."},
+    {"n": 2, "title": null, "text": "Add the quinoa speckled rice, 1¼ cups water, and a pinch of salt to a small saucepan. Bring to a boil, cover, reduce heat to low, and cook until the water is absorbed and rice is tender, 15 to 20 minutes."},
+    {"n": 3, "title": null, "text": "Thinly slice the cucumber. Add sliced cucumber, chile garlic sauce, and rice vinegar to a medium bowl and toss."},
+    {"n": 4, "title": null, "text": "Zest and halve the lime, juice one half, and cut the other half into wedges. Add lime zest, lime juice, Vegenaise, and a pinch of salt to a small bowl. Mix the citrus aioli."},
+    {"n": 5, "title": null, "text": "Heat 1 tsp vegetable oil in a large nonstick skillet over medium-high heat. Add baby spinach, just 2 tsp tuxedo sesame seeds, and a pinch of salt and pepper. Cook until spinach is wilted, 1 to 2 minutes."},
+    {"n": 6, "title": null, "text": "Divide the cooked quinoa speckled rice between large bowls. Add roasted Japanese yam wedges, sesame spinach, and spicy cucumbers, and drizzle with citrus aioli. Tear the nori sheet into pieces and sprinkle over the bowls. Top the Japanese yam sushi bowls with remaining tuxedo sesame seeds. Serve with lime wedges. Itadakimasu! (In Japan, this is often said before a meal to express thanks to whomever prepared the food.)"}
+  ],
+  "tips": [
+    "This item is spicy. (chile garlic sauce)",
+    "* These ingredients will be split between steps.",
+    "Substitute: sweet potato for Japanese yam"
+  ],
+  "cuisine_tags": ["Japanese"],
+  "ingredient_tags": ["yam", "rice", "quinoa", "cucumber", "spinach"],
+  "item_tags": ["chile garlic sauce", "rice vinegar", "vegenaise", "sesame seeds", "nori", "lime"],
+  "issues": null
+}

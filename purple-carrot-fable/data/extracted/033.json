@@ -1,0 +1,41 @@
+{
+  "pair": 33,
+  "title": "Creamy Tahini Noodles",
+  "subtitle": "with Crispy Shiitakes & Quick Pickles",
+  "servings": "2",
+  "cook_time": "30 min",
+  "nutrition": {"calories": "590", "fat": "21 g", "carbohydrates": "85 g", "protein": "21 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 cucumber",
+    "3 tbsp rice vinegar*",
+    "1 tsp agave*",
+    "6 oz Lacinato kale",
+    "6 oz shiitake mushrooms",
+    "2 garlic cloves",
+    "3 tbsp tahini",
+    "2 tbsp tamari",
+    "1 tbsp sesame oil",
+    "6 oz soba noodles"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Bring a large pot of salted water to a boil for the soba noodles. Peel and thinly slice the cucumber. Add sliced cucumber, just 2 tbsp rice vinegar, just ½ tsp agave, and ⅛ tsp salt to a medium bowl. Toss to combine, and set the quick pickles aside."},
+    {"n": 2, "title": null, "text": "Destem Lacinato kale and thinly slice the leaves. Trim shiitake mushroom stems and thinly slice the caps. Peel and mince the garlic. Add remaining rice vinegar, remaining agave, minced garlic, tahini, tamari, sesame oil, 2 tbsp hot water, and a pinch of salt to a medium bowl and whisk the tahini sauce."},
+    {"n": 3, "title": null, "text": "Heat 2 tbsp vegetable oil in a large nonstick skillet over medium-high heat. Add sliced shiitake mushrooms and cook, stirring occasionally, until well browned, 5 to 6 minutes. Transfer to a paper towel-lined plate and sprinkle with salt."},
+    {"n": 4, "title": null, "text": "Once the water is boiling, add soba noodles and gently stir. Cook until al dente, 2 to 3 minutes. Drain noodles and run under cool water to stop the cooking process."},
+    {"n": 5, "title": null, "text": "Return skillet to medium-high heat and add sliced Lacinato kale and 1 tbsp water. Cook until kale is wilted, 2 to 3 minutes. Remove skillet from heat, add cooked soba noodles and tahini sauce to the kale, and stir."},
+    {"n": 6, "title": null, "text": "Divide the creamy tahini noodles between large bowls and top with crispy shiitakes and quick pickles. Enjoy!"}
+  ],
+  "tips": [
+    "TIP: Don't forget to wash all produce under running water, and wipe mushrooms clean with a damp kitchen towel.",
+    "TIP: We will reuse this skillet in a later step.",
+    "* These ingredients will be split between steps.",
+    "Substitute: soy sauce for tamari"
+  ],
+  "cuisine_tags": ["Japanese", "Fusion"],
+  "ingredient_tags": ["soba noodles", "shiitake mushrooms", "kale", "cucumber"],
+  "item_tags": ["tahini", "tamari", "sesame oil", "rice vinegar", "agave"],
+  "issues": null
+}

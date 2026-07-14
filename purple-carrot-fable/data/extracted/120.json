@@ -1,0 +1,42 @@
+{
+  "pair": 120,
+  "title": "Pumpkin Matar",
+  "subtitle": "with Coconut Yogurt and Brown Basmati Rice",
+  "servings": "2",
+  "cook_time": "35 minutes",
+  "nutrition": {"calories": "600", "fat": "38 g", "carbohydrates": "79 g", "protein": "15 g"},
+  "description": "Bright tomato and creamy coconut milk deliver a delicious base for this seriously satisfying dinner. You'll toss tender roasted pumpkin into the sauce for an extra layer of flavor, and add some texture with a sprinkle of pumpkin seeds.",
+  "from_your_kitchen": ["1 tbsp + 1 tsp vegetable oil", "Salt and pepper"],
+  "ingredients": [
+    "¾ cup brown basmati rice",
+    "8 oz pumpkin",
+    "1 onion",
+    "1 clove garlic*",
+    "Fresh ginger",
+    "½ tsp garam masala",
+    "2 tbsp tomato paste",
+    "1 can coconut milk",
+    "½ cup green peas",
+    "2 tbsp pumpkin seeds",
+    "2 tbsp vegan yogurt"
+  ],
+  "tools": ["Small saucepan", "Baking sheet", "Large nonstick skillet"],
+  "steps": [
+    {"n": 1, "title": "COOK THE RICE", "text": "Preheat the oven to 400°F. Add brown basmati rice, 1¼ cups water, and a pinch of salt to a small saucepan. Bring to a boil, reduce heat to low, and cover. Cook until all water is absorbed and rice is tender, about 30 to 35 minutes."},
+    {"n": 2, "title": "ROAST THE PUMPKIN", "text": "Add the cubed pumpkin to a baking sheet and toss with 1 tsp vegetable oil. Sprinkle with salt and pepper and roast until tender and browned in places, about 18 to 20 minutes."},
+    {"n": 3, "title": "PREPARE THE PRODUCE", "text": "Peel and chop the onion. Peel and mince or grate 1 clove garlic. Peel and mince or grate the ginger. Place a large nonstick skillet over medium-high heat with 1 tbsp vegetable oil. Once the oil is hot, add the chopped onion and cook until softened, about 3 to 5 minutes."},
+    {"n": 4, "title": "ADD THE AROMATICS", "text": "Add the garlic and ginger to the skillet and cook until fragrant, about 1 minute. Add the garam masala and toast for 30 seconds, stirring constantly."},
+    {"n": 5, "title": "ADD THE PUMPKIN", "text": "Add the tomato paste, coconut milk, and ½ cup water to the skillet, and lower heat to medium. Simmer sauce until slightly thickened, about 4 to 6 minutes. Add the roasted pumpkin and green peas to the simmering sauce and season with salt and pepper. Stir to combine."},
+    {"n": 6, "title": "SERVE IT UP", "text": "Divide brown basmati rice between large plates or bowls and top with the pumpkin matar. Garnish with pumpkin seeds and yogurt. Enjoy!"}
+  ],
+  "tips": [
+    "TIP: Use a microplane to grate the garlic and ginger if you have one.",
+    "TIP: Watch the garam masala carefully so it does not burn.",
+    "Once you add the coconut milk, keep a sauce at a simmer to keep it smooth.",
+    "*You'll use the head of garlic in this recipe bag in all recipes this week."
+  ],
+  "cuisine_tags": ["Indian"],
+  "ingredient_tags": ["pumpkin", "rice", "green peas"],
+  "item_tags": ["garam masala", "coconut milk", "tomato paste", "ginger", "pumpkin seeds", "vegan yogurt"],
+  "issues": null
+}

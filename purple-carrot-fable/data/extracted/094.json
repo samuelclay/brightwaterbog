@@ -1,0 +1,25 @@
+{
+  "pair": 94,
+  "title": "Eggplant Parmesan Flatbread",
+  "subtitle": "with Shaved Zucchini and Arugula Salad",
+  "servings": "2",
+  "cook_time": "30 minutes",
+  "nutrition": {"calories": "770", "fat": "41 g", "carbohydrates": "85 g", "protein": "16 g"},
+  "description": "Mozzarella and sun dried tomatoes make this dish taste like an authentic eggplant parmesan. For slicing vegetables, a mandoline may be the most useful tool in your kitchen so if you have one, use it here for the eggplant and zucchini. If you like to grill, this is a good recipe to fire it up for. The eggplant can be grilled and after the flatbreads are assembled, simply leave them on the grill for a few moments with the lid closed to melt the cheese.",
+  "from_your_kitchen": ["2 tbsp + 1 tsp olive oil", "Salt and pepper"],
+  "ingredients": ["14 oz eggplant", "1 oz roasted garlic", "2 pieces naan bread", "Fresh thyme", "1 oz sun dried tomatoes", "½ cup Follow Your Heart vegan mozzarella", "1 zucchini", "1 oz hazelnuts", "2 oz baby arugula", "1 tbsp white balsamic vinegar"],
+  "tools": ["Large nonstick skillet", "Baking sheet"],
+  "steps": [
+    {"n": 1, "title": "COOK THE EGGPLANT", "text": "Trim and thinly slice the eggplant lengthwise. Place a large nonstick skillet over medium-high heat and add 2 tbsp olive oil. Once hot, add the eggplant in one layer and cook until softened and browned, about 2 minutes each side. Once cooked, season with salt and pepper."},
+    {"n": 2, "title": "BUILD THE FLATBREAD", "text": "Set the oven to broil on low. Spread the roasted garlic on the naan with a spoon. Sprinkle with salt and pepper and then layer on the eggplant, overlapping slightly, until all of the slices are used."},
+    {"n": 3, "title": "ADD THE TOPPINGS", "text": "Pick the thyme leaves from the stems. Sprinkle the flatbreads with thyme leaves and sun dried tomatoes. Top with Follow Your Heart vegan mozzarella. Place the flatbreads onto a baking sheet. Broil until the vegan mozzarella is melted, about 4 to 6 minutes."},
+    {"n": 4, "title": "MAKE THE SALAD", "text": "Use a peeler or mandoline to make long ribbons of zucchini and add to large bowl. Roughly chop the hazelnuts. Add the chopped hazelnuts, arugula, white balsamic vinegar, and 1 tsp olive oil to the zucchini and season with salt and pepper. Toss salad well to combine."},
+    {"n": 5, "title": "CUT THE FLATBREADS", "text": "Once the flatbreads are finished, cut into quarters."},
+    {"n": 6, "title": "BON APPETIT", "text": "Serve the eggplant parmesan flatbreads on large plates alongside the shaved zucchini and arugula salad."}
+  ],
+  "tips": ["Cook the eggplant in batches and add additional oil as needed.", "Keep an eye on the flatbread while it's under the broiler."],
+  "cuisine_tags": ["Italian"],
+  "ingredient_tags": ["eggplant", "naan", "zucchini", "arugula"],
+  "item_tags": ["vegan mozzarella", "sun dried tomatoes", "roasted garlic", "hazelnuts", "white balsamic vinegar", "thyme"],
+  "issues": null
+}

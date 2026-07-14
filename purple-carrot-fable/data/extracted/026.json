@@ -1,0 +1,43 @@
+{
+  "pair": 26,
+  "title": "Green Curry Noodles",
+  "subtitle": "with Basil & Thai Tomato Salad",
+  "servings": "2",
+  "cook_time": "35 min",
+  "nutrition": {"calories": "690", "fat": "29 g", "carbohydrates": "73 g", "protein": "31 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "2 garlic cloves",
+    "1 oz fresh ginger",
+    "1 shallot",
+    "¼ oz fresh basil",
+    "14 oz organic extra firm tofu",
+    "4 oz green beans",
+    "1 lime*",
+    "¼ cup peanuts",
+    "2 oz grape tomatoes",
+    "1½ tsp tamari",
+    "1 tbsp green curry paste",
+    "5.5 oz coconut milk",
+    "1 tsp turbinado sugar",
+    "4 oz rice noodles"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Bring a large pot of salted water to a boil for the noodles. Peel and thinly slice the garlic. Peel and mince the ginger. Peel and slice the shallot. Pick the basil leaves. Drain tofu, pat dry, and slice into 1 inch pieces."},
+    {"n": 2, "title": null, "text": "Heat 1 tsp vegetable oil in a large nonstick skillet over medium-high heat. Add green beans and a pinch of salt and cook until beans are charred in places, 3-4 minutes. Transfer charred green beans to a medium bowl. Halve the lime, juice one half, and cut the other half into wedges. Add lime juice to the bowl with the green beans. Roughly chop the peanuts. Halve the grape tomatoes. Add chopped peanuts, halved tomatoes, and tamari to the green beans and toss the Thai tomato salad."},
+    {"n": 3, "title": null, "text": "Heat 1 tsp vegetable oil in a small saucepan over medium-low heat. Add sliced garlic, minced ginger, and sliced shallot, and cook until fragrant, 2-3 minutes. Add green curry paste, coconut milk, turbinado sugar, salt and ¼ cup water. Bring green curry sauce to a simmer, add basil leaves, and turn off the heat."},
+    {"n": 4, "title": null, "text": "Once the water in the large pot is boiling, add rice noodles, stir, and remove from heat. Stir occasionally until noodles are tender, 12 minutes. Drain noodles and rinse under cold water to stop the cooking process, and return noodles to the pot."},
+    {"n": 5, "title": null, "text": "Heat 1 tbsp vegetable oil in the large nonstick skillet over medium-high heat. Add sliced tofu and a pinch of salt. Cook, tossing occasionally, until tofu is crispy in places, 5 to 6 minutes."},
+    {"n": 6, "title": null, "text": "Pour green curry sauce over the rice noodles and stir until noodles are coated. Divide the green curry noodles and tofu between large bowls. Top with Thai tomato salad and garnish with lime wedges. Dig in!"}
+  ],
+  "tips": [
+    "* This ingredient will be split between steps.",
+    "TIP: We will use this skillet again in a later step."
+  ],
+  "cuisine_tags": ["Thai"],
+  "ingredient_tags": ["tofu", "rice noodles", "green beans", "tomatoes"],
+  "item_tags": ["green curry paste", "coconut milk", "tamari", "peanuts", "basil", "ginger", "lime"],
+  "issues": null
+}

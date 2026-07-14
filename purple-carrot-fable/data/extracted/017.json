@@ -1,0 +1,38 @@
+{
+  "pair": 17,
+  "title": "Spicy Mango Tempeh",
+  "subtitle": "with Toasted Almond Couscous & Lemon Arugula",
+  "servings": "2",
+  "cook_time": "35 min",
+  "nutrition": {"calories": "580", "fat": "13 g", "carbohydrates": "76 g", "protein": "30 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "8 oz tempeh",
+    "1 shallot",
+    "¼ oz fresh parsley",
+    "1 lemon*",
+    "3 tbsp mango chutney",
+    "1 tbsp chile garlic sauce (spicy)",
+    "¼ cup sliced almonds",
+    "¾ cup Israeli couscous",
+    "4 oz baby arugula"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Cut tempeh into cubes. Peel and thinly slice the shallot. Chop the parsley leaves. Zest, halve and juice the lemon."},
+    {"n": 2, "title": null, "text": "In a medium bowl, combine just half the lemon juice, mango chutney, chile garlic sauce, 1 tbsp olive oil, and 1 tbsp water. Add a pinch of salt and stir the spicy mango sauce. Add almonds to a small saucepan over medium heat and cook until toasted, 3 to 5 minutes. Transfer toasted almonds to a small bowl."},
+    {"n": 3, "title": null, "text": "Return empty saucepan to high heat and add 1 cup water and a pinch of salt. Bring to a boil, add Israeli couscous, cover, and reduce heat to low. Cook until water is absorbed, 7 to 9 minutes. Add chopped parsley, lemon zest, toasted almonds, and 2 tsp olive oil. Taste toasted almond couscous and add salt as necessary."},
+    {"n": 4, "title": null, "text": "Heat 2 tbsp olive oil in a large nonstick skillet over medium-high heat. Add cubed tempeh and cook until crispy on all sides, 8 to 10 minutes. Sprinkle tempeh with salt and add sliced shallot. Cook until shallot is softened and browned, 2 to 4 minutes. Add spicy mango sauce, toss to coat, and cook for 1 minute."},
+    {"n": 5, "title": null, "text": "Add baby arugula, remaining lemon juice, and 1 tsp olive oil to a large bowl. Toss, and sprinkle with salt and pepper."},
+    {"n": 6, "title": null, "text": "Divide the lemon arugula between large bowls. Top with toasted almond couscous and spicy mango tempeh. Dig in!"}
+  ],
+  "tips": [
+    "* This ingredient will be split between steps.",
+    "Substitute: another green for baby arugula"
+  ],
+  "cuisine_tags": ["Fusion", "Indian"],
+  "ingredient_tags": ["tempeh", "couscous", "arugula"],
+  "item_tags": ["mango chutney", "chile garlic sauce", "sliced almonds", "lemon", "shallot"],
+  "issues": null
+}

@@ -1,0 +1,41 @@
+{
+  "pair": 56,
+  "title": "Sesame Ginger Noodles",
+  "subtitle": "with Stir-Fried Greens & Toasted Peanuts",
+  "servings": "2",
+  "cook_time": "25 min",
+  "nutrition": {"calories": "610", "fat": "29 g", "carbohydrates": "76 g", "protein": "17 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "6 oz gai lan",
+    "1 oz fresh ginger",
+    "2 mini sweet peppers",
+    "1 tbsp tamari",
+    "1 tbsp peanut butter",
+    "2 tbsp rice vinegar",
+    "2 tbsp sesame oil*",
+    "2 tbsp chili garlic sauce* (spicy)",
+    "6 oz udon",
+    "¼ cup peanuts",
+    "4 oz Swiss chard"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Add 2 quarts water and 1 tbsp salt to a medium saucepan and bring to a boil. Chop gai lan into 1 inch pieces. Peel and mince 2 tsp ginger. Trim and thinly slice the mini sweet peppers."},
+    {"n": 2, "title": null, "text": "Add the minced ginger, tamari, peanut butter, rice vinegar, just half the sesame oil, just half the chili garlic sauce, and ¼ hot water to a medium bowl and whisk the sesame ginger sauce."},
+    {"n": 3, "title": null, "text": "Add the udon to the boiling water and cook until al dente, 6 to 8 minutes. Drain noodles and run under cold water to stop the cooking process. Heat the remaining sesame oil in a large nonstick skillet over medium heat. Add peanuts and a pinch of salt and pepper. Cook until nuts are toasted and fragrant, 1 to 3 minutes. Use a slotted spoon to transfer the toasted peanuts to a small bowl, leaving the oil in the skillet."},
+    {"n": 4, "title": null, "text": "Return the skillet with sesame oil to high heat. Thinly slice the Swiss chard. Add chopped gai lan, sliced Swiss chard, and a pinch of salt and pepper to the skillet. Cook until bright green and tender, 2 to 3 minutes."},
+    {"n": 5, "title": null, "text": "Add the cooked udon and sesame ginger sauce to the skillet with the greens. Cook, tossing frequently, until evenly coated and warmed through, 1 to 3 minutes."},
+    {"n": 6, "title": null, "text": "Divide the sesame ginger noodles and stir-fried greens between bowls. Top with sliced mini sweet peppers and toasted peanuts. Enjoy!"}
+  ],
+  "tips": [
+    "TIP: Save any remaining ginger for your own use.",
+    "TIPS: The sauce will not be completely smooth. Keep any remaining chili garlic sauce for your own use.",
+    "* These ingredients will be split between steps."
+  ],
+  "cuisine_tags": ["Chinese", "Fusion"],
+  "ingredient_tags": ["udon", "gai lan", "swiss chard", "peanuts"],
+  "item_tags": ["sesame oil", "chili garlic sauce", "tamari", "peanut butter", "rice vinegar", "ginger"],
+  "issues": null
+}

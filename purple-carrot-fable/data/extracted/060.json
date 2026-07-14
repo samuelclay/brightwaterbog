@@ -1,0 +1,40 @@
+{
+  "pair": 60,
+  "title": "Crispy Potato Skillet",
+  "subtitle": "with Snap Pea Slaw & Scallion Sour Cream",
+  "servings": "2",
+  "cook_time": "40 min",
+  "nutrition": {"calories": "480", "fat": "16 g", "carbohydrates": "71 g", "protein": "15 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "¼ cup beluga lentils",
+    "14 oz red bliss potatoes",
+    "6 oz sugar snap peas",
+    "2 scallions*",
+    "1 lemon",
+    "1 red bell pepper",
+    "1 jalapeño (spicy)",
+    "3 tbsp vegan sour cream",
+    "2 garlic cloves",
+    "2 tbsp vegan butter",
+    "¼ tsp smoked paprika"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Rinse and sort the beluga lentils, and add to a small saucepan with ½ cup water. Bring to a boil, reduce heat to low, and simmer, covered, until lentils are tender, 20 to 24 minutes. Drain any remaining water."},
+    {"n": 2, "title": null, "text": "Add the red bliss potatoes to a large pot, cover with 1 inch cold water, and bring to a boil. Cook until potatoes are fork-tender, 10 to 12 minutes. Drain and let cool."},
+    {"n": 3, "title": null, "text": "Thinly slice the sugar snap peas and scallions. Halve and juice the lemon. Add sliced snap peas, just half the sliced scallion, lemon juice, 1 tbsp olive oil, and a pinch of salt to a medium bowl. Toss the snap pea slaw and set aside. Slice the red bell pepper into thin strips. Thinly slice the jalapeño."},
+    {"n": 4, "title": null, "text": "Add remaining sliced scallion, sour cream and a pinch of salt to a small bowl. Stir to combine the scallion sour cream. Peel and mince the garlic."},
+    {"n": 5, "title": null, "text": "Place cooled boiled potatoes on a cutting board and, using the palm of your hand, gently press each potato until the sides blister open. Heat 1 tbsp vegetable oil in a large skillet over medium heat. Add smashed potatoes and cook until golden brown and crispy, 3 to 5 minutes per side. Add sliced red bell pepper, minced garlic, butter, and paprika, and cook another 2 to 3 minutes."},
+    {"n": 6, "title": null, "text": "Taste the crispy potato skillet and add salt as necessary. Scatter cooked beluga lentils over the skillet. Serve family style, topped with snap pea slaw, scallion sour cream, and sliced jalapeño. Bon appétit!"}
+  ],
+  "tips": [
+    "TIP: To \"sort\" means to look for and discard any naturally occurring debris or stones.",
+    "* This ingredient will be split between steps."
+  ],
+  "cuisine_tags": ["American", "Comfort Food"],
+  "ingredient_tags": ["potatoes", "lentils", "snap peas", "bell pepper"],
+  "item_tags": ["vegan sour cream", "smoked paprika", "vegan butter", "jalapeño", "scallion", "lemon"],
+  "issues": null
+}

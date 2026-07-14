@@ -1,0 +1,42 @@
+{
+  "pair": 52,
+  "title": "Crispy Hearts of Palm Tacos",
+  "subtitle": "with Avocado Salsa & Chipotle Ranch",
+  "servings": "2 (4)",
+  "cook_time": "40 (45) min",
+  "nutrition": {"calories": "530", "fat": "28 g", "carbohydrates": "68 g", "protein": "8 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "2 radishes",
+    "1 jalapeño (spicy)",
+    "14 oz hearts of palm",
+    "1 lime*",
+    "4 oz green cabbage",
+    "1 tsp Mexican oregano",
+    "1 avocado",
+    "¼ cup Follow Your Heart® High Omega Vegan Ranch Salad Dressing",
+    "½ tsp chipotle morita powder (spicy)",
+    "⅓ cup white rice flour",
+    "⅓ cup cornstarch",
+    "6 corn tortillas"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat oven to 350°F for the tortillas. Trim, halve, and thinly slice the radishes. Trim, deseed, and thinly slice the jalapeño(s). Drain the hearts of palm and cut each piece in half crosswise. Gently flatten each piece with the palm of your hand."},
+    {"n": 2, "title": null, "text": "Halve and juice the lime(s). Add just half the lime juice, green cabbage, Mexican oregano, and a pinch of salt to a medium bowl. Toss the curtido slaw."},
+    {"n": 3, "title": null, "text": "Halve the avocado(s), remove the pit(s), and dice the flesh. Transfer diced avocado to a medium bowl. Add sliced radish, sliced jalapeño, remaining lime juice, and a pinch of salt and pepper. Toss the avocado salsa. Add ranch dressing and as much of the chipotle morita powder as you'd like to a small bowl, and whisk the chipotle aioli until smooth."},
+    {"n": 4, "title": null, "text": "Add ¾ cup (1½ cups) vegetable oil to a large skillet over medium-high heat. Add white rice flour, cornstarch, and ⅓ cup (⅔ cup) water to a medium bowl, and whisk until smooth. Dip flattened hearts of palm pieces in the batter and gently place them in the hot oil, working in batches. Cook until crispy, 3 to 4 minutes per side. Transfer crispy hearts of palm to a paper towel-lined plate and sprinkle with salt."},
+    {"n": 5, "title": null, "text": "Wrap the corn tortillas in foil and warm in the oven, 4 to 5 minutes. Place warmed corn tortillas on a flat surface and divide the curtido slaw and crispy hearts of palm between them. Add the avocado salsa and drizzle with chipotle aioli. Dig in!"}
+  ],
+  "tips": [
+    "TIP: If you have a toaster oven or microwave, you can use either one to warm the tortillas instead.",
+    "TIP: We suggest starting with ⅛ tsp (¼ tsp) chipotle morita powder.",
+    "TIP: Work in batches for the 4 serving meal.",
+    "* This ingredient will be split between steps."
+  ],
+  "cuisine_tags": ["Mexican"],
+  "ingredient_tags": ["hearts of palm", "tortillas", "avocado", "cabbage", "radish"],
+  "item_tags": ["chipotle morita powder", "vegan ranch dressing", "mexican oregano", "rice flour", "cornstarch", "lime"],
+  "issues": null
+}

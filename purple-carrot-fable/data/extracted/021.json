@@ -1,0 +1,39 @@
+{
+  "pair": 21,
+  "title": "Curried Carrot Fritters",
+  "subtitle": "with Mango Avocado Salad & Tamarind Chutney",
+  "servings": "2",
+  "cook_time": "30 min",
+  "nutrition": {"calories": "570", "fat": "14 g", "carbohydrates": "104 g", "protein": "16 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "¾ cup garbanzo bean flour",
+    "1½ tsp curry powder",
+    "4 carrots",
+    "1 shallot",
+    "1 garlic clove",
+    "1 mango",
+    "1 avocado",
+    "6 oz grape tomatoes",
+    "¼ oz fresh parsley",
+    "1 lime",
+    "2 tbsp tamarind chutney"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Add garbanzo bean flour, curry powder, and ½ cup cold water to a large bowl and whisk to combine. Grate carrots using the large side of a box grater. Add 2 cups grated carrot, ½ tsp salt and ¼ tsp pepper to the large bowl with the batter. Mix the carrot batter and set aside."},
+    {"n": 2, "title": null, "text": "Peel and mince the shallot. Peel and mince the garlic. Peel the mango, remove the pit, and thinly slice the flesh. Halve the avocado, remove the pit, and thinly slice the flesh. Halve the grape tomatoes. Pick and roughly chop the parsley leaves. Zest, halve, and juice the lime."},
+    {"n": 3, "title": null, "text": "Add minced shallot, minced garlic, sliced mango, sliced avocado, halved tomatoes, chopped parsley leaves, lime zest, lime juice, ½ tsp salt, and a pinch of pepper to a large bowl. Toss the mango avocado salad and refrigerate until ready to serve."},
+    {"n": 4, "title": null, "text": "Heat 1 tbsp vegetable oil in a large nonstick skillet over medium-high heat. Scoop 6 portions of carrot batter into the skillet, each about ¼ cup. Use a measuring cup bottom to flatten the fritters, and cook fritters until browned and crisp, 3 to 5 minutes per side. Transfer curried carrot fritters to a paper towel-lined plate and sprinkle with salt."},
+    {"n": 5, "title": null, "text": "Divide the curried carrot fritters between plates and drizzle with tamarind chutney. Serve with mango avocado salad. Dig in!"}
+  ],
+  "tips": [
+    "TIP: If necessary, work in batches to avoid overcrowding the skillet.",
+    "Madras-Style Curry Powder: Pure Delight — Madras curry originated in southeastern India and is well known for its warm, aromatic quality. Our spice blend recreates that essence with a sophisticated mix of turmeric, cumin, coriander, and fenugreek, adding tons of flavor to your meal."
+  ],
+  "cuisine_tags": ["Indian"],
+  "ingredient_tags": ["carrots", "chickpea flour", "mango", "avocado", "tomatoes"],
+  "item_tags": ["curry powder", "tamarind chutney", "lime", "parsley", "shallot"],
+  "issues": null
+}

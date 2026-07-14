@@ -1,0 +1,39 @@
+{
+  "pair": 67,
+  "title": "Kimchi Tofu Stew",
+  "subtitle": "with Bok Choy & Sticky Rice",
+  "servings": "2",
+  "cook_time": "25 min",
+  "nutrition": {"calories": "480", "fat": "9 g", "carbohydrates": "67 g", "protein": "32 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "½ cup sushi rice",
+    "10 oz Hodo® Organic Firm Tofu",
+    "2 scallions*",
+    "2 garlic cloves",
+    "1 oz fresh ginger",
+    "6 oz baby bok choy",
+    "1 Not-Chick'n™ Bouillon Cube",
+    "2 tbsp gluten-free gochujang",
+    "2 tbsp tamari",
+    "⅓ cup vegan cabbage kimchi"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Add the sushi rice, 1 cup water, and a pinch of salt to a small saucepan and bring to a boil. Cover, reduce heat to low, and cook until the grains are tender and water is absorbed, 15 to 18 minutes."},
+    {"n": 2, "title": null, "text": "Cut the tofu into 1 inch cubes. Thinly slice the scallions, separating the white and green parts. Peel and thinly slice the garlic. Peel and mince the ginger. Cut the baby bok choy in half lengthwise."},
+    {"n": 3, "title": null, "text": "Heat a large pot over medium-high heat with 1 tbsp vegetable oil. Add sliced scallion whites, sliced garlic, and minced ginger and cook, stirring frequently, 1 to 2 minutes. Add cubed tofu and cook until crispy, 4 to 5 minutes. Remove the crispy tofu from heat and set aside."},
+    {"n": 4, "title": null, "text": "Return pot to stove over medium-high heat and add the bouillon cube, gochujang, tamari, and 2 cups water, and whisk to combine. Bring to a boil, and reduce heat to a simmer. Add halved baby bok choy and simmer until bright green and tender, 3 to 5 minutes."},
+    {"n": 5, "title": null, "text": "Add kimchi to the pot and stir. Taste, and add salt and pepper as necessary. Divide the stew between large, shallow bowls, and top with crispy tofu. Top the kimchi tofu stew with bok choy with sliced scallion greens and serve with sticky rice. 잘 먹겠습니다, which means \"enjoy your meal\" in Korean!"}
+  ],
+  "tips": [
+    "* This ingredient will be split between steps.",
+    "TIP: For best results, rinse your sushi rice in a fine mesh strainer before cooking.",
+    "It's Soup Season! Yep, you heard us right! When you drink or eat foods that are hotter than your internal body temperature you trigger your body's eccrine glands, which release sweat to cool you down—making this a great meal to keep you cool this summer! BTW, this same thing happens when you eat spicy foods. So, no time like the present to eat some (spicy) soup!"
+  ],
+  "cuisine_tags": ["Korean"],
+  "ingredient_tags": ["tofu", "rice", "bok choy", "kimchi"],
+  "item_tags": ["gochujang", "tamari", "ginger", "bouillon", "scallions"],
+  "issues": null
+}

@@ -1,0 +1,41 @@
+{
+  "pair": 27,
+  "title": "Tahini Cauliflower Steaks",
+  "subtitle": "with Red Lentil Skordalia & Charred Green Beans",
+  "servings": "2",
+  "cook_time": "40 min",
+  "nutrition": {"calories": "700", "fat": "25 g", "carbohydrates": "93 g", "protein": "36 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 russet potato",
+    "½ oz fresh dill*",
+    "1 head of cauliflower",
+    "2 garlic cloves*",
+    "1 lemon*",
+    "½ cup red lentils",
+    "3 tbsp tahini",
+    "1 tsp smoked paprika",
+    "2 tbsp white vinegar",
+    "6 oz green beans",
+    "¼ cup pumpkin seeds"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat the oven to 425°F. Peel potato and dice into 1 inch pieces. Pick and roughly chop dill fronds. Remove cauliflower leaves and cut 1 inch off the stem. Carefully cut cauliflower into 4 \"steaks,\" each about 1 inch thick. Peel and mince the garlic. Halve the lemon, juice one half, and cut the other half into wedges."},
+    {"n": 2, "title": null, "text": "Add diced potato, red lentils, 1¼ cups water, and a pinch of salt to a small saucepan. Bring to a boil, cover, reduce heat to low, and simmer until lentils are soft and potatoes are fork-tender, 14 to 16 minutes. Mash the red lentil skordalia with a fork."},
+    {"n": 3, "title": null, "text": "Spread 2 tsp oil on a baking sheet. In a medium bowl, combine just half the minced garlic, just 1 tbsp lemon juice, tahini, smoked paprika, 2 tbsp olive oil, and ¾ tsp salt. Whisk until combined. Coat cauliflower steaks with tahini mixture and place on the baking sheet. Roast until tender and well browned, 15 to 20 minutes."},
+    {"n": 4, "title": null, "text": "Add just half the chopped dill, remaining minced garlic, white vinegar, and 1 tbsp olive oil to the saucepan with the red lentil skordalia. Mash with a fork until mostly smooth. Taste, and add salt and pepper as necessary."},
+    {"n": 5, "title": null, "text": "Heat 1 tbsp olive oil in a large nonstick skillet over medium heat. Add green beans and cook until charred in places, 5 to 8 minutes. Taste, add a pinch of salt and pepper, and remove from heat."},
+    {"n": 6, "title": null, "text": "Divide the red lentil skordalia between two plates. Add tahini cauliflower steaks and sprinkle with pumpkin seeds and remaining chopped dill. Serve with charred green beans and lemon wedges. Tuck in!"}
+  ],
+  "tips": [
+    "* These ingredients will be split between steps.",
+    "TIP: Roast any leftover cauliflower florets along with the steaks.",
+    "TIP: If you prefer, you can use foil or parchment paper to line the baking sheet instead of adding oil."
+  ],
+  "cuisine_tags": ["Greek", "Mediterranean"],
+  "ingredient_tags": ["cauliflower", "red lentils", "potatoes", "green beans"],
+  "item_tags": ["tahini", "smoked paprika", "dill", "pumpkin seeds", "white vinegar", "lemon"],
+  "issues": null
+}

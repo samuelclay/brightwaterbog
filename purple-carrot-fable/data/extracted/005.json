@@ -1,0 +1,42 @@
+{
+  "pair": 5,
+  "title": "Sweet Corn Stuffed Poblanos",
+  "subtitle": "with Creamed Spinach & Cilantro",
+  "servings": "2 (4)",
+  "cook_time": "35 (50) min",
+  "nutrition": {"calories": "590", "fat": "30 g", "carbohydrates": "74 g", "protein": "19 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 Not-Chick'n™ Bouillon Cube",
+    "2 poblano peppers",
+    "1 onion",
+    "1 garlic clove",
+    "1 ear of corn",
+    "½ cup polenta",
+    "2 tsp turbinado sugar",
+    "5.5 oz coconut milk*",
+    "2 oz Treeline® Cashew Cream Cheese",
+    "4 oz baby spinach",
+    "2 tbsp nutritional yeast",
+    "¼ oz fresh cilantro"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat the oven to 425°F. Add 2 cups (4 cups) water and bouillon cube(s) to a medium saucepan and bring to a boil. Slice one side of each poblano pepper, from stem to bottom, without fully cutting peppers in half. Remove seeds and as much of the pith as possible. Peel and thinly slice the onion(s). Peel and mince the garlic. Shuck the corn and cut kernels off the cob(s)."},
+    {"n": 2, "title": null, "text": "Once the broth in the saucepan is boiling, add corn kernels, polenta, sugar, just ¼ cup (½ cup) coconut milk, and a pinch of salt and pepper. Whisk until mixture comes to a boil, and cook until thickened, 3 to 4 minutes."},
+    {"n": 3, "title": null, "text": "Place sliced onion in a baking dish and drizzle with 1 tbsp (2 tbsp) olive oil. Top with the sliced poblano peppers, and spoon sweet corn filling into each pepper. Dollop peppers with cashew cheese and bake, uncovered, until peppers are tender, 20 to 25 minutes."},
+    {"n": 4, "title": null, "text": "Heat 1 tsp (2 tsp) olive oil in a large skillet over medium-high heat. Add minced garlic and cook until fragrant, about 1 minute. Add just ½ cup (1 cup) coconut milk, baby spinach, nutritional yeast, ¼ tsp (½ tsp) salt, and a pinch of pepper. Cook until creamed spinach thickens slightly, 4 to 5 minutes."},
+    {"n": 5, "title": null, "text": "Divide the creamed spinach between plates and top with sweet corn stuffed poblanos and roasted onions. Sprinkle with cilantro leaves and stems. Bon appétit!"}
+  ],
+  "tips": [
+    "* This ingredient will be split between steps.",
+    "TIP: You may have extra filling left over depending on the size of your peppers.",
+    "TIP: Keep any remaining coconut milk for your own use.",
+    "Fresh Corn is Our Fave: We make corn the star of this recipe, allowing its natural sweetness to really shine. It also pairs well with the poblanos, and the creamed spinach and cilantro perfectly balance things out."
+  ],
+  "cuisine_tags": ["Mexican"],
+  "ingredient_tags": ["poblano peppers", "corn", "spinach", "polenta"],
+  "item_tags": ["coconut milk", "cashew cream cheese", "nutritional yeast", "bouillon", "cilantro", "turbinado sugar"],
+  "issues": null
+}

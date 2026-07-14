@@ -1,0 +1,43 @@
+{
+  "pair": 127,
+  "title": "Refried Butternut Tacos",
+  "subtitle": "with Roasted Grape Salsa and Plantains",
+  "servings": "2",
+  "cook_time": "40 minutes",
+  "nutrition": {"calories": "610", "fat": "27 g", "carbohydrates": "95 g", "protein": "8 g"},
+  "description": "Our latest taco dish provides the perfect balance of sweet and spicy. Fragrant grapes and twice-cooked butternut squash complement flavorful chipotle and jalapeño. You'll enjoy your tacos with crispy plantains on the side.",
+  "from_your_kitchen": ["1 tbsp + 1 tsp olive oil", "1 tbsp vegetable oil", "Salt and pepper"],
+  "ingredients": [
+    "11 oz butternut squash",
+    "5 oz red grapes",
+    "1 jalapeño",
+    "1 scallion",
+    "Fresh cilantro",
+    "1 lime",
+    "1 plantain",
+    "1 tbsp vegan butter",
+    "2 tsp agave",
+    "2 tbsp chipotle hot sauce*",
+    "4 flour tortillas",
+    "3 oz green cabbage"
+  ],
+  "tools": ["Small saucepan", "Baking sheet", "Large nonstick skillet", "Medium skillet"],
+  "steps": [
+    {"n": 1, "title": "COOK THE BUTTERNUT", "text": "Preheat oven to 400°F. Add the butternut squash to a small saucepan and cover with at least 1 inch of cold water. Bring to a boil, reduce heat to medium, and boil squash until tender (you should be able to pierce the flesh easily with a fork), about 11 to 13 minutes. Drain squash, return to the saucepan, and mash with a fork until smooth."},
+    {"n": 2, "title": "ROAST THE GRAPES", "text": "Halve the grapes. Place on a baking sheet and toss with 1 tsp olive oil and a pinch of salt and pepper. Roast until grapes are soft, fragrant, and slightly wrinkled, about 6 to 8 minutes. Let cool for at least 5 minutes."},
+    {"n": 3, "title": "PREPARE THE SALSA", "text": "Deseed and mince the jalapeño. Thinly slice the scallion. Finely chop the cilantro leaves. Combine everything in a medium bowl and add the juice from half the lime. Once the grapes have cooled slightly, add to the bowl along with a pinch of salt and pepper. Mix salsa well to combine. Cut remaining lime half into wedges. Peel the plantain and slice into 1 inch thick slices on the diagonal."},
+    {"n": 4, "title": "FRY THE BUTTERNUT", "text": "Place a large nonstick skillet over medium-high heat with 1 tbsp olive oil. Add the mashed butternut and press into a single layer in the skillet. Lower heat to medium and cook, undisturbed, until bottom is well browned, about 5 to 8 minutes. Stir, then smooth squash into an even layer once again, and cook for 5 minutes. Stir in just 1 tsp chipotle hot sauce, butter, and agave. Season with salt."},
+    {"n": 5, "title": "CRISP THE PLANTAINS", "text": "Wrap the flour tortillas in foil or a dish towel and warm them in the oven for about 5 minutes. Place a medium nonstick skillet over medium-high heat with 1 tbsp vegetable oil. Once the oil is hot, add the sliced plantains and cook until browned on one side, about 3 to 4 minutes. Flip, sprinkle with salt, and cook until browned on the other side, another 3 to 4 minutes."},
+    {"n": 6, "title": "BUILD YOUR TACOS", "text": "Cut remaining lime half into wedges. Divide the refried butternut between the warm tortillas, spreading it out a bit. Add the roasted grape salsa and green cabbage. Drizzle on any remaining chipotle hot sauce and serve with crispy plantains and lime wedges. Dig in!"}
+  ],
+  "tips": [
+    "*This ingredient will be split between multiple steps.",
+    "TIP: We will use the oven again, don't turn it off yet!",
+    "TIP: Brown spots are normal on plantains—they indicate sweetness.",
+    "TIP: Lower heat as needed to prevent squash from burning."
+  ],
+  "cuisine_tags": ["Mexican", "Latin American"],
+  "ingredient_tags": ["butternut squash", "plantain", "tortillas", "grapes", "cabbage"],
+  "item_tags": ["chipotle hot sauce", "agave", "jalapeño", "cilantro", "lime", "vegan butter"],
+  "issues": null
+}

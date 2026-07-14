@@ -1,0 +1,37 @@
+{
+  "pair": 55,
+  "title": "Penne Mushroom Florentine",
+  "subtitle": "with Chickpea Pasta & Toasted Walnuts",
+  "servings": "2 (4)",
+  "cook_time": "30 (40) min",
+  "nutrition": {"calories": "650", "fat": "25 g", "carbohydrates": "94 g", "protein": "35 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "6 oz cremini mushrooms",
+    "2 garlic cloves",
+    "1 shallot",
+    "¼ cup walnuts",
+    "8 oz Banza® pasta",
+    "2 tbsp vegan butter",
+    "¼ cup sherry wine",
+    "1 Not-Chick'n™ Bouillon Cube",
+    "4 oz baby spinach"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Bring a large pot of salted water to a boil for the pasta. Thinly slice the cremini mushrooms. Peel and mince the garlic and shallot(s). Add walnuts to a large nonstick skillet over medium heat and toast, shaking the pan frequently, until fragrant, 3 to 5 minutes. Transfer toasted walnuts to a plate."},
+    {"n": 2, "title": null, "text": "Return the skillet to medium-high heat with 1 tbsp (2 tbsp) olive oil. Once hot, add sliced cremini mushrooms and a pinch of salt and cook, tossing occasionally, 3 to 5 minutes. Add minced garlic, minced shallot, and a pinch of salt and pepper, and cook until softened, 2 to 4 minutes."},
+    {"n": 3, "title": null, "text": "Add pasta to the boiling water. Cook, stirring occasionally, until al dente, 3 to 5 minutes. Reserve 1 cup (2 cups) pasta water. Drain the pasta and rinse under cold water to stop the cooking process."},
+    {"n": 4, "title": null, "text": "Add the butter and sherry wine to the skillet with the mushrooms and cook for 1 minute. Add bouillon cube(s) to the reserved pasta water, whisk, and add to the skillet. Bring to a boil and cook until slightly thickened, 2 to 3 minutes. Add baby spinach and cooked pasta to the skillet and cook until hot, 1 to 2 minutes."},
+    {"n": 5, "title": null, "text": "Divide the penne mushroom florentine between large bowls and top with toasted walnuts. Buon appetito!"}
+  ],
+  "tips": [
+    "TIP: Don't forget to wash all produce under running water, and wipe mushrooms clean with a damp kitchen towel.",
+    "Delicious, Healthy, and ... Foamy? Chickpea pasta is gluten-free and packed with protein and fiber, plus it has fewer carbs than traditional pasta. This is definitely the vegan pasta we've been waiting for. BTW, it's totally normal to see foam when you boil chickpea pasta. To help reduce the foaming, fill your pot with more water than you need, and lower the heat. You can also add a splash of oil, and frequently stir the pasta."
+  ],
+  "cuisine_tags": ["Italian"],
+  "ingredient_tags": ["pasta", "mushrooms", "spinach", "walnuts"],
+  "item_tags": ["sherry wine", "vegan butter", "bouillon cube", "chickpea pasta", "shallot"],
+  "issues": null
+}

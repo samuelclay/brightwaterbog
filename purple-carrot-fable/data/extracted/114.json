@@ -1,0 +1,40 @@
+{
+  "pair": 114,
+  "title": "Walnut-Crusted Artichokes",
+  "subtitle": "with Dijon Lentils and Green Beans",
+  "servings": "2",
+  "cook_time": "35 minutes",
+  "nutrition": {"calories": "740", "fat": "46 g", "carbohydrates": "68 g", "protein": "24 g"},
+  "description": "Artichokes are best paired with creamy notes, and this walnut crust does the job. It will bubble on top, crisping in the the oven while you finish up the warm lentil salad. Roasted green beans are another highlight, and a simple side dish you can add to your repertoire.",
+  "from_your_kitchen": ["3 tbsp olive oil", "Salt and pepper"],
+  "ingredients": [
+    "¾ cup French lentils",
+    "6 artichoke hearts",
+    "Fresh parsley",
+    "¼ cup walnuts",
+    "3 tbsp Follow Your Heart® Vegenaise®",
+    "¼ tsp red chile flakes",
+    "1 shallot",
+    "6 oz green beans",
+    "2 oz roasted red peppers",
+    "2 tsp champagne vinegar",
+    "1 packet Dijon mustard",
+    "1 lemon"
+  ],
+  "tools": ["Small saucepan", "Baking sheet"],
+  "steps": [
+    {"n": 1, "title": "COOK THE LENTILS", "text": "Add the French lentils, 2 cups water, and a pinch of salt to a small saucepan over high heat. Bring lentils to a boil, reduce heat to low, and simmer until tender, about 18 to 20 minutes. Drain any remaining water and transfer lentils to a medium bowl."},
+    {"n": 2, "title": "MAKE THE WALNUT CRUST", "text": "Drain the artichokes and halve lengthwise. Finely chop the parsley leaves. Finely chop the walnuts. In a small bowl, combine the parsley, walnuts, Follow Your Heart® Vegenaise®, as much of the red chile flakes as you'd like, and a pinch of salt and pepper."},
+    {"n": 3, "title": "PREPARE THE VEGETABLES", "text": "Set the oven to broil on low. Place the artichokes on a baking sheet cut-side up and toss with 1 tbsp olive oil and a pinch of salt and pepper. Broil until crispy on the edges, about 10 to 12 minutes. Peel and mince the shallot. Trim the green beans. Chop the roasted red peppers."},
+    {"n": 4, "title": "FINISH THE LENTILS", "text": "Once the lentils are cooked, add the minced shallot, roasted red peppers, champagne vinegar, Dijon mustard, and 2 tbsp olive oil. Season Dijon lentils with salt and pepper and stir to combine."},
+    {"n": 5, "title": "ADD THE GREEN BEANS", "text": "Move the roasted artichokes to one side of the baking sheet. Spread the walnut crust over each of the artichokes. Add the green beans to the empty side of the baking sheet and toss only the green beans in any residual oil. Sprinkle with salt and pepper. Broil until green beans are just tender and walnut crust begins to brown, about 3 to 4 minutes."},
+    {"n": 6, "title": "PLATE AND EAT UP", "text": "Zest the lemon onto the finished artichokes and green beans. Cut the lemon into wedges. Divide the Dijon lentils and green beans between plates and top with the walnut-crusted artichokes. Serve with the lemon wedges. Enjoy!"}
+  ],
+  "tips": [
+    "TIP: Watch artichokes carefully—all broilers are different."
+  ],
+  "cuisine_tags": ["French", "Mediterranean"],
+  "ingredient_tags": ["lentils", "artichokes", "green beans", "walnuts"],
+  "item_tags": ["dijon mustard", "champagne vinegar", "vegenaise", "red chile flakes", "roasted red peppers", "lemon", "shallot", "parsley"],
+  "issues": null
+}

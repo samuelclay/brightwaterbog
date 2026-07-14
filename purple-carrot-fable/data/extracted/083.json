@@ -1,0 +1,39 @@
+{
+  "pair": 83,
+  "title": "Caribbean Sweet Potatoes",
+  "subtitle": "with Coconut Rice & Mango Salsa",
+  "servings": "2 (4)",
+  "cook_time": "35 (45) min",
+  "nutrition": {"calories": "780", "fat": "16 g", "carbohydrates": "6 g", "protein": "25 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 sweet potato",
+    "1 tbsp jerk seasoning",
+    "1 red onion*",
+    "2 garlic cloves*",
+    "1 mango",
+    "½ oz fresh parsley",
+    "1 lime*",
+    "13.4 oz kidney beans",
+    "½ cup basmati rice",
+    "5.5 oz coconut milk"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat the oven to 425°F. Cut the sweet potato(es) into 1 inch thick wedges. Transfer to a baking sheet and toss with 2 tsp (4 tsp) vegetable oil, jerk seasoning, and a pinch of salt and pepper. Bake until tender and browned in spots, 18 to 22 minutes."},
+    {"n": 2, "title": null, "text": "Peel and mince the red onion(s). Peel and mince the garlic. Peel the mango(es), cut the flesh away from the pit, and dice. Finely chop the parsley leaves. Zest and halve the lime(s), juice one half (1 lime), and cut one half (1 lime) into wedges. Drain and rinse the kidney beans."},
+    {"n": 3, "title": null, "text": "Heat a small saucepan over medium-high with 1 tsp (2 tsp) vegetable oil. Once hot, add just half the minced red onion and just half the minced garlic. Cook until softened, 3 to 5 minutes."},
+    {"n": 4, "title": null, "text": "Add the basmati rice, coconut milk, ½ tsp (1 tsp) salt, and ⅓ cup (⅔) water to the saucepan and bring to a boil. Reduce heat to low, cover, and cook until the water is absorbed, 12 to 15 minutes."},
+    {"n": 5, "title": null, "text": "Add the remaining minced red onion, remaining minced garlic, diced mango, chopped parsley, half the lime juice, ¼ tsp (½ tsp) salt, and a pinch of pepper to a large bowl. Toss the mango salsa to combine."},
+    {"n": 6, "title": null, "text": "Stir the lime zest and kidney beans into the coconut rice, and divide between large, shallow bowls. Top with the Caribbean sweet potatoes and mango salsa. Serve with lime wedges. Tuck in!"}
+  ],
+  "tips": [
+    "* These ingredients will be split between steps.",
+    "Substitute: another herb for fresh parsley"
+  ],
+  "cuisine_tags": ["Caribbean"],
+  "ingredient_tags": ["sweet potato", "kidney beans", "rice", "mango"],
+  "item_tags": ["jerk seasoning", "coconut milk", "lime", "parsley"],
+  "issues": "Front card nutrition line prints 'Carbohydrates: 6 g' which appears to be a misprint (back card panel shows 63 g); also back card sidebar nutrition (910 cal, 69 g fat) belongs to an adjacent recipe column, front card values used."
+}

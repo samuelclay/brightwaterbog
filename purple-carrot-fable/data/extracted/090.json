@@ -1,0 +1,43 @@
+{
+  "pair": 90,
+  "title": "Portobello Steaks",
+  "subtitle": "with Vegetable Orzo Salad & Chimichurri",
+  "servings": "2",
+  "cook_time": "30 minutes",
+  "nutrition": {"calories": "540", "fat": "24 g", "carbohydrates": "70 g", "protein": "15 g"},
+  "description": "The best trick to trim asparagus is to hold the ends of a spear with both hands and find the natural snapping point towards the bottom of the stalk. Line them up and cut the entire bunch at this point, discarding the woody ends. The roasted vegetables get mixed into orzo and everything gets topped with herby, citrusy chimichurri, a South American sauce known for its bright color and bold flavor– it's one of our all time favorites.",
+  "from_your_kitchen": ["4 tbsp + 1 tsp olive oil", "Salt and pepper"],
+  "ingredients": [
+    "12 oz portobello mushrooms",
+    "2 tbsp balsamic vinegar",
+    "7 oz zucchini",
+    "4 oz asparagus",
+    "1 red onion*",
+    "1 garlic clove*",
+    "Fresh parsley",
+    "Fresh cilantro",
+    "1 tbsp red wine vinegar",
+    "1 lemon",
+    "¾ cup orzo",
+    "Parchment paper"
+  ],
+  "tools": ["Small saucepan", "Baking sheet"],
+  "steps": [
+    {"n": 1, "title": "MARINATE THE MUSHROOMS", "text": "Bring a small saucepan of salted water to a boil. Preheat the oven to 400°F. In a large bowl, add the portobello mushrooms, balsamic vinegar, 1 tbsp olive oil, and a pinch of salt and pepper. Toss well to coat the mushrooms and let marinate while you prepare the remaining vegetables. Line a baking sheet with the parchment paper."},
+    {"n": 2, "title": "ROAST THE VEGETABLES", "text": "Trim the zucchini and dice into ½ inch cubes. Trim the tough ends from the asparagus and cut remaining stalks into ½ inch pieces. Peel and chop the red onion, reserving 2 tbsp for Step 3. Add the vegetables to half of the lined baking sheet and drizzle with 1 tbsp olive oil and a pinch of salt and pepper. Add the marinated mushrooms to the other half. Roast until tender, about 15 to 20 minutes."},
+    {"n": 3, "title": "MAKE THE CHIMICHURRI", "text": "Peel and mince 1 garlic clove. Mince the reserved 2 tbsp red onion. Finely chop the parsley and cilantro leaves and tender stems. In a medium bowl, add minced garlic, red onion, parsley, cilantro, red wine vinegar, 2 tbsp olive oil, and a pinch of salt and pepper. Zest 1 tsp of the lemon into the bowl and stir chimichurri to combine."},
+    {"n": 4, "title": "COOK THE ORZO", "text": "Add the orzo to the boiling water and stir. Cook until tender, about 8 to 10 minutes. Drain the orzo, return to the saucepan and mix in 1 tsp olive oil."},
+    {"n": 5, "title": "FINISHING TOUCHES", "text": "Once the roasted vegetables are tender, mix into the orzo. Slice the mushrooms into a few pieces. Cut the lemon into wedges."},
+    {"n": 6, "title": "TIME TO EAT", "text": "Divide the vegetable orzo salad between your plates and top with the portobello steaks. Drizzle with chimichurri and serve with the lemon wedges. Enjoy!"}
+  ],
+  "tips": [
+    "* This item will be split between multiple steps.",
+    "* Find a head of garlic with the ingredients for the Seitan Massaman Curry.",
+    "TIP: Use two baking sheets if your sheets are small.",
+    "TIP: The chimichurri can be made in a food processor."
+  ],
+  "cuisine_tags": ["Latin American", "Mediterranean"],
+  "ingredient_tags": ["portobello mushrooms", "orzo", "zucchini", "asparagus"],
+  "item_tags": ["balsamic vinegar", "red wine vinegar", "chimichurri", "cilantro", "parsley"],
+  "issues": null
+}

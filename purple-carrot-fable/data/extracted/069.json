@@ -1,0 +1,41 @@
+{
+  "pair": 69,
+  "title": "Creamy Tahini Noodles",
+  "subtitle": "with Black Lentils & Crispy Shiitakes",
+  "servings": "2",
+  "cook_time": "35 min",
+  "nutrition": {"calories": "780", "fat": "22 g", "carbohydrates": "117 g", "protein": "36 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "½ cup beluga lentils",
+    "6 oz curly kale",
+    "6 oz shiitake mushrooms",
+    "2 garlic cloves",
+    "3 tbsp tahini",
+    "2 tbsp tamari",
+    "1 tsp agave",
+    "1 tbsp sesame oil",
+    "2 tbsp rice vinegar*",
+    "6 oz soba noodles",
+    "½ oz pea shoots"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Bring a large pot of salted water to boil. Rinse and sort the beluga lentils. In a small saucepan, combine the lentils and 1¼ cup water. Bring to a boil, and reduce heat to low. Cook, covered, until the lentils are tender, 20 to 25 minutes. Drain any remaining water."},
+    {"n": 2, "title": null, "text": "Destem the kale and thinly slice the leaves. Wipe the mushrooms clean with a damp kitchen towel, trim the stems, and thinly slice the caps. Peel and mince the garlic. In a medium bowl, whisk together the minced garlic, tahini, tamari, agave, sesame oil, just 1 tbsp rice vinegar, 2 tbsp hot water, and a pinch of salt. Mix the tahini sauce well."},
+    {"n": 3, "title": null, "text": "Heat a large nonstick skillet over medium-high heat with 1 tbsp vegetable oil. Add the sliced mushrooms and cook, stirring occasionally, until well browned, 5 to 6 minutes. Transfer to a paper towel-lined plate and sprinkle with salt."},
+    {"n": 4, "title": null, "text": "Once the water is boiling, add the soba noodles and gently stir. Cook until al dente, 2 to 3 minutes. Drain and run under cool water to stop the cooking process."},
+    {"n": 5, "title": null, "text": "Return the skillet to medium-high heat and add 1 tsp vegetable oil and the sliced kale. Cook until wilted, 2 to 3 minutes. Remove the skillet from heat and add the cooked soba noodles, just ¼ cup of the cooked lentils, and the tahini sauce, and stir well."},
+    {"n": 6, "title": null, "text": "Toss the pea shoots with the remaining rice vinegar and a pinch of salt, directly on the cutting board. Divide the creamy tahini noodles between large bowls and add the crispy shiitakes. Sprinkle with the remaining beluga lentils and pea shoots. Enjoy!"}
+  ],
+  "tips": [
+    "* This ingredient will be split between steps.",
+    "TIP: To \"sort\" means to look for and discard any naturally occurring debris or stones.",
+    "Substitute: another mushroom for shiitakes"
+  ],
+  "cuisine_tags": ["Japanese", "Fusion"],
+  "ingredient_tags": ["soba noodles", "lentils", "shiitake mushrooms", "kale"],
+  "item_tags": ["tahini", "tamari", "sesame oil", "rice vinegar", "agave", "pea shoots"],
+  "issues": null
+}

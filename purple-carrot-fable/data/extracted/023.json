@@ -1,0 +1,43 @@
+{
+  "pair": 23,
+  "title": "Beluga Lentil Tacos",
+  "subtitle": "with Quick Guacamole & Radish Jalapeño Slaw",
+  "servings": "2",
+  "cook_time": "30 min",
+  "nutrition": {"calories": "630", "fat": "27 g", "carbohydrates": "84 g", "protein": "21 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "½ cup beluga lentils",
+    "1 tbsp ground cumin",
+    "4 tsp vegetable broth concentrate",
+    "2 red radishes",
+    "1 jalapeño 🌶",
+    "2 lime*",
+    "1 avocado",
+    "4 oz shredded red cabbage",
+    "3 tbsp Follow Your Heart® Soy-Free Vegenaise®",
+    "½ tsp chipotle morita powder 🌶",
+    "6 corn tortillas"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat oven to 350°F. Rinse and sort the beluga lentils. Add beluga lentils, cumin, vegetable broth concentrate, and 1¼ cups water to a medium saucepan. Bring to a boil, cover, reduce heat to low, and simmer until lentils are tender and water is absorbed, 20 to 25 minutes."},
+    {"n": 2, "title": null, "text": "Trim and thinly slice the red radishes. Thinly slice the jalapeño."},
+    {"n": 3, "title": null, "text": "Halve and juice 1 lime and cut the remaining lime into wedges. Halve the avocado, remove the pit, and scoop the flesh into a medium bowl. Add just half the lime juice and a pinch of salt and pepper, and mash the quick guacamole with a fork."},
+    {"n": 4, "title": null, "text": "Add sliced red radish, just a few jalapeño slices, remaining lime juice, red cabbage, 1 tsp olive oil, and ⅛ tsp salt to a medium bowl. Toss the radish jalapeño slaw."},
+    {"n": 5, "title": null, "text": "Add Vegenaise, chipotle morita powder, and a pinch of salt to a small bowl. Mix the chipotle crema."},
+    {"n": 6, "title": null, "text": "Wrap corn tortillas in foil and warm in the oven for 4 to 5 minutes. Top warm corn tortillas with quick guacamole, cooked beluga lentils, and radish jalapeño slaw. Dollop the beluga lentil tacos with chipotle crema and serve with lime wedges and any remaining radish jalapeño slaw. Tuck in!"}
+  ],
+  "tips": [
+    "These items are spicy. (jalapeño, chipotle morita powder)",
+    "* This ingredient will be split between steps.",
+    "TIPS: The oven will be used to warm the tortillas. You can use a toaster oven or microwave instead if you prefer. To \"sort\" means to look for and discard any naturally occurring debris or stones.",
+    "TIP: If you're sensitive to spice, deseed the jalapeño before slicing.",
+    "TIP: If you're sensitive to spice, omit or use less chipotle morita powder."
+  ],
+  "cuisine_tags": ["Mexican"],
+  "ingredient_tags": ["lentils", "tortillas", "avocado", "radishes", "red cabbage"],
+  "item_tags": ["cumin", "chipotle", "vegenaise", "jalapeño", "lime", "vegetable broth concentrate"],
+  "issues": null
+}

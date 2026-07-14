@@ -1,0 +1,39 @@
+{
+  "pair": 81,
+  "title": "Eggplant Parmesan",
+  "subtitle": "with Garlicky Tomato Sauce & Lemon Basil Couscous",
+  "servings": "2",
+  "cook_time": "40 min",
+  "nutrition": {"calories": "460", "fat": "4.5 g", "carbohydrates": "94 g", "protein": "14 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 eggplant",
+    "1 shallot",
+    "4 garlic cloves*",
+    "1 lemon*",
+    "1 oz fresh basil*",
+    "1 oz vegan shredded mozzarella",
+    "¼ cup panko breadcrumbs",
+    "2 tsp Italian seasoning",
+    "14.5 oz fire roasted diced tomatoes",
+    "1 cup Israeli couscous"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat oven to 425°F. Trim the eggplant and cut lengthwise into 4 planks. Place on a baking sheet and toss with 1 tbsp olive oil and a pinch of salt and pepper. Bake until lightly browned on each side, flipping halfway through, 15 to 20 minutes."},
+    {"n": 2, "title": null, "text": "Peel and mince the shallot and garlic. Zest and halve the lemon; juice one half and cut the other half into wedges. Pick and tear the basil leaves. Add just half the minced garlic, mozzarella, breadcrumbs, and 2 tsp olive oil to a small bowl. Toss to combine."},
+    {"n": 3, "title": null, "text": "Heat a medium saucepan over medium-high heat with 1 tbsp olive oil. Add the minced shallot, remaining minced garlic, and Italian seasoning. Cook until fragrant, 2 to 3 minutes. Add the tomatoes, ¼ tsp salt, and a pinch of pepper, and reduce heat to medium-low. Simmer until slightly thickened, 5 to 7 minutes."},
+    {"n": 4, "title": null, "text": "Add 1¼ cups water and a pinch of salt to a small saucepan and bring to a boil over high heat. Add the Israeli couscous, reduce heat to low, cover, and cook until water is absorbed, about 10 minutes. Add the lemon zest, lemon juice, just half the torn basil, 2 tsp olive oil, and a pinch of salt and pepper. Stir the lemon basil couscous to combine."},
+    {"n": 5, "title": null, "text": "Remove the baked eggplant from the oven and top with garlicky tomato sauce and breadcrumb mixture. Return to the oven and bake until breadcrumbs are golden brown, 4 to 6 minutes."},
+    {"n": 6, "title": null, "text": "Divide the lemon basil couscous between bowls and top with eggplant parmesan. Sprinkle with the remaining torn basil and serve with lemon wedges. Tuck in!"}
+  ],
+  "tips": [
+    "* These ingredients will be split between steps.",
+    "Substitute: another herb for fresh basil"
+  ],
+  "cuisine_tags": ["Italian", "Mediterranean"],
+  "ingredient_tags": ["eggplant", "couscous", "tomatoes", "basil"],
+  "item_tags": ["vegan mozzarella", "panko breadcrumbs", "italian seasoning", "fire roasted tomatoes", "lemon"],
+  "issues": null
+}

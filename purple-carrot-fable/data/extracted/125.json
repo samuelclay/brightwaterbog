@@ -1,0 +1,43 @@
+{
+  "pair": 125,
+  "title": "Autumn Quinoa Bowl",
+  "subtitle": "with Brussels Slaw and Warm Coconut \"Bacon\"",
+  "servings": "2",
+  "cook_time": "25 minutes",
+  "nutrition": {"calories": "690", "fat": "34 g", "carbohydrates": "85 g", "protein": "19 g"},
+  "description": "Coconut \"bacon\" is one of our recent favorites. We use just a bit of liquid smoke, maple, and miso to amp up the crispy texture of the coconut and add a savory twist. You can reuse the tahini dressing recipe for future greens and grains — it's easy to make and delicious.",
+  "from_your_kitchen": ["1 tsp olive oil", "Salt and pepper"],
+  "ingredients": [
+    "¾ cup quinoa",
+    "¼ cup walnuts",
+    "5 oz Brussels sprouts",
+    "1 scallion",
+    "1 apple",
+    "2 oz napa cabbage",
+    "1 tbsp white miso paste",
+    "1 tbsp maple syrup*",
+    "¼ tsp liquid smoke",
+    "¼ cup coconut chips",
+    "2 tbsp tahini",
+    "1 tbsp apple cider vinegar",
+    "1 oz pomegranate seeds"
+  ],
+  "tools": ["Baking sheet", "Small saucepan", "Small skillet", "Parchment paper (included in your box)"],
+  "steps": [
+    {"n": 1, "title": "COOK THE QUINOA", "text": "Preheat oven to 300°F and line a baking sheet with parchment paper. In a small saucepan, combine the quinoa, 1¼ cups water, and a pinch of salt and place over high heat. Bring to a boil, reduce heat to a simmer, cover, and cook quinoa until water is absorbed and spirals start to burst, about 12 to 15 minutes."},
+    {"n": 2, "title": "PREPARE THE SLAW", "text": "Chop the walnuts. Place a small skillet over medium-high heat and add the walnuts. Cook until toasted, shaking the pan occasionally, about 3 to 5 minutes, and remove from heat. Thinly slice the Brussels sprouts, scallion, and apple and add to a large bowl along with the toasted walnuts and napa cabbage."},
+    {"n": 3, "title": "MAKE THE COCONUT \"BACON\"", "text": "Line a baking sheet with parchment paper. In a bowl, mix the miso paste, liquid smoke, a pinch of pepper, 1 tsp olive oil, and just 2 tsp maple syrup into a paste. Place the coconut chips on the baking sheet and toss them in the miso mixture, adding a little at a time until coated — you may not need all of the miso mixture. Bake until brown, stirring halfway to avoid sticking, about 5 to 8 minutes."},
+    {"n": 4, "title": "MIX THE TAHINI DRESSING", "text": "In a small bowl, combine the tahini, apple cider vinegar, and remaining 1 tsp maple syrup. Add a pinch of salt and 3 tbsp water. Whisk tahini dressing until smooth."},
+    {"n": 5, "title": "TOSS THE SLAW", "text": "Add the tahini dressing to the Brussels slaw. Season with salt and pepper and toss slaw well to combine."},
+    {"n": 6, "title": "BUILD YOUR BOWLS", "text": "Divide the cooked quinoa between large bowls. Top with Brussels slaw and warm coconut \"bacon.\" Sprinkle with pomegranate seeds and dig in!"}
+  ],
+  "tips": [
+    "*This item will be used in multiple steps.",
+    "TIP: If you have one, use a mandoline to slice your sprouts.",
+    "TIP: The coconut bacon will crisp up as it cools."
+  ],
+  "cuisine_tags": ["American", "Comfort Food"],
+  "ingredient_tags": ["quinoa", "brussels sprouts", "apple", "walnuts", "napa cabbage"],
+  "item_tags": ["tahini", "miso", "liquid smoke", "maple syrup", "coconut chips", "pomegranate seeds", "apple cider vinegar"],
+  "issues": null
+}

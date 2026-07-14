@@ -1,0 +1,80 @@
+{
+ "pair": 3,
+ "title": "Korean Tofu Tacos",
+ "subtitle": "with Kimchi Slaw & Cilantro",
+ "servings": "2 (4)",
+ "cook_time": "20 (30) min",
+ "nutrition": {
+  "calories": "690",
+  "fat": "40 g",
+  "carbohydrates": "57 g",
+  "protein": "29 g"
+ },
+ "description": null,
+ "from_your_kitchen": null,
+ "ingredients": [
+  "1 garlic clove",
+  "1 oz fresh ginger",
+  "1 tbsp gochujang 🌶",
+  "2 tbsp peanut butter",
+  "1 tbsp tamari",
+  "1 tsp turbinado sugar",
+  "1 tbsp sesame oil",
+  "14 oz organic extra firm tofu",
+  "4 oz coleslaw blend",
+  "2.8 oz vegan cabbage kimchi",
+  "3 tbsp Follow Your Heart® Soy-Free Vegenaise®",
+  "6 corn tortillas",
+  "½ oz fresh cilantro"
+ ],
+ "tools": null,
+ "steps": [
+  {
+   "n": 1,
+   "title": null,
+   "text": "Preheat the oven to 350°F. Peel and mince the garlic. Peel and mince 2 tsp (4 tsp) ginger. Add minced garlic, minced ginger, gochujang, peanut butter, tamari, turbinado sugar, sesame oil, and 2 tbsp (4 tbsp) warm water to a medium bowl. Whisk the gochujang sauce."
+  },
+  {
+   "n": 2,
+   "title": null,
+   "text": "Cut tofu into ½ inch cubes. Heat 1 tbsp (2 tbsp) vegetable oil in a large nonstick skillet over medium-high heat. Add cubed tofu and cook until crispy in places, 3 to 5 minutes. Add gochujang sauce and cook another 2 to 3 minutes."
+  },
+  {
+   "n": 3,
+   "title": null,
+   "text": "Add coleslaw blend, kimchi, Vegenaise, and a pinch of salt and pepper to a large bowl. Toss the kimchi slaw to combine."
+  },
+  {
+   "n": 4,
+   "title": null,
+   "text": "Wrap tortillas in foil and place them in the oven to warm, 4 to 5 minutes. Roughly chop the cilantro leaves and stems. Divide warm tortillas between plates and top with Korean tofu and kimchi slaw. Top the Korean tofu tacos with chopped cilantro. Tuck in!"
+  }
+ ],
+ "tips": [
+  "This item is spicy.",
+  "Substitute: gluten-free soy sauce for tamari",
+  "TIPS: The oven will be used to warm the tortillas. You can use a toaster oven or microwave instead if you prefer. Save any remaining ginger for your own use.",
+  "Healthy Kimchi: Aside from being a convenient way to preserve vegetables, kimchi is known for its incredible health benefits. It's packed with probiotics, plus it's rich in vitamin C, beta-carotene, and fiber. These elements are essential for healthy digestion, immunity, and heart health, and scientists are continually discovering even more benefits of adding kimchi to your diet."
+ ],
+ "cuisine_tags": [
+  "Korean",
+  "Mexican",
+  "Fusion"
+ ],
+ "ingredient_tags": [
+  "tofu",
+  "kimchi",
+  "tortillas",
+  "cabbage"
+ ],
+ "item_tags": [
+  "gochujang",
+  "peanut butter",
+  "tamari",
+  "sesame oil",
+  "vegenaise",
+  "turbinado sugar",
+  "cilantro"
+ ],
+ "issues": null
+}

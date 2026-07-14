@@ -1,0 +1,39 @@
+{
+  "pair": 116,
+  "title": "Butter Roasted Tomato Gratin",
+  "subtitle": "with Garlic Breadcrumbs and Toasted Farro",
+  "servings": "2",
+  "cook_time": "35 minutes",
+  "nutrition": {"calories": "810", "fat": "28 g", "carbohydrates": "109 g", "protein": "28 g"},
+  "description": "A gratin is a dish with a crunchy, toasted topping, usually hiding a savory, creamy layer of deliciousness beneath. Here, you'll use kale, cannellini beans and garlicky breadcrumbs, with buttery roasted tomatoes as the base. The roasted garlic sea salt is a quick way to build flavor–adjust the seasoning level to your liking.",
+  "from_your_kitchen": ["2 tbsp olive oil", "Salt and pepper"],
+  "ingredients": [
+    "½ cup farro",
+    "2 cloves garlic°",
+    "1 can tomatoes",
+    "2 tbsp vegan butter",
+    "Fresh thyme*",
+    "¾ cup panko breadcrumbs",
+    "2 tsp roasted garlic sea salt",
+    "4 oz kale",
+    "1 can cannellini beans"
+  ],
+  "tools": ["Medium saucepan", "Baking sheet", "8x8 baking dish", "Large skillet"],
+  "steps": [
+    {"n": 1, "title": "COOK THE FARRO", "text": "Preheat the oven to 375°F. Add the farro to a medium saucepan and cover with 1 inch of water. Bring to a boil, reduce heat to low, and simmer until grains are tender but still have a bit of \"chew,\" about 18 to 20 minutes. Drain farro well and spread it out on baking sheet to cool."},
+    {"n": 2, "title": "ROAST THE TOMATOES", "text": "Mince the garlic. Combine the minced garlic, tomatoes, butter, just half of the thyme sprigs (keep the leaves on), and a pinch of salt and pepper in an 8x8 baking dish. Bake the tomatoes until the butter has melted, about 10 minutes. Open the oven, give the buttered tomatoes a stir, and return the dish to the oven to bake for an additional 15 minutes."},
+    {"n": 3, "title": "TOAST THE BREADCRUMBS", "text": "Place a large skillet over medium heat with 2 tsp olive oil. Add the panko breadcrumbs and a pinch of the roasted garlic sea salt. Toast the breadcrumbs, stirring frequently, until golden brown, about 2 to 4 minutes. Taste and add more roasted garlic sea salt if you'd like. Transfer the breadcrumbs to a small bowl. Pick the remaining thyme leaves from the stems and finely chop."},
+    {"n": 4, "title": "COOK THE KALE", "text": "Destem the kale and roughly chop the leaves. Drain and rinse the cannellini beans. Return the large skillet to medium-high heat with 1 tsp olive oil. Once hot, add the chopped kale and reduce heat to medium. Cook the kale until bright green and tender, about 3 to 5 minutes. Add the cannellini beans and season with salt and pepper. Toss to combine, and cook until hot, about 1 minute."},
+    {"n": 5, "title": "TOAST THE FARRO", "text": "Remove the thyme sprigs from the buttered tomatoes. Top the tomatoes with the kale and cannellini beans and sprinkle with breadcrumbs. Return the gratin to the oven until the top is well-browned, about 3 to 5 minutes. Wipe the skillet clean and return it to medium-high heat with 1 tbsp olive oil. Add the farro and chopped thyme and cook until the grains are crisp and develop a golden sheen, about 5 to 7 minutes."},
+    {"n": 6, "title": "SERVE", "text": "Divide the toasted farro between large plates and top with the butter roasted tomato gratin."}
+  ],
+  "tips": [
+    "TIP: To easily destem thyme, run your finger and thumb down the stem.",
+    "° The garlic included in this recipe bag is also for the Greek-Style Cauliflower Steaks.",
+    "*This item will be used in multiple steps."
+  ],
+  "cuisine_tags": ["Italian", "Comfort Food"],
+  "ingredient_tags": ["cannellini beans", "farro", "kale", "tomatoes"],
+  "item_tags": ["panko breadcrumbs", "vegan butter", "thyme", "roasted garlic sea salt", "garlic"],
+  "issues": null
+}

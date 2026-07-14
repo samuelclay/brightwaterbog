@@ -1,0 +1,42 @@
+{
+  "pair": 6,
+  "title": "Plantain Arepas",
+  "subtitle": "with Tofu Scramble & Guacamole",
+  "servings": "2",
+  "cook_time": "45 min",
+  "nutrition": {"calories": "590", "fat": "27 g", "carbohydrates": "72 g", "protein": "26 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 plantain",
+    "2 mini sweet peppers",
+    "1 shallot*",
+    "14 oz organic extra firm tofu",
+    "1½ tsp ground turmeric",
+    "1 tbsp nutritional yeast",
+    "½ cup masa harina",
+    "1 Roma tomato",
+    "¼ oz fresh cilantro",
+    "1 lime*",
+    "1 avocado",
+    "1 tbsp vegan butter"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Peel the plantain and slice into ½ inch thick rounds. Add sliced plantain to a small saucepan, cover with 1 inch water, and bring to a boil. Cook until fork-tender, 4 to 6 minutes. Drain and return plantain to the saucepan, off heat. Mash boiled plantain with a fork."},
+    {"n": 2, "title": null, "text": "Trim, deseed, and thinly slice the mini sweet peppers. Peel the shallot, slice in half, thinly slice one half, and dice the other half. Drain the tofu, pat dry, and crumble."},
+    {"n": 3, "title": null, "text": "Add 2 tbsp vegetable oil and ground turmeric to a large skillet over medium heat. Cook until fragrant, 2 to 3 minutes. Add sliced mini sweet peppers and sliced shallot. Cook until softened, 3 to 5 minutes. Add crumbled tofu, nutritional yeast, and ½ tsp salt. Cook until lightly browned, 5 to 7 minutes. Transfer the tofu scramble to a plate."},
+    {"n": 4, "title": null, "text": "Add mashed plantain, masa harina, and ¼ tsp salt to a large bowl. Add ¼ cup water and mix dough with your hands. Divide arepa dough into 4 equal parts and shape into small, flat rounds about ½ inch thick. Wipe the large skillet clean and return it to medium heat with 1 tbsp vegetable oil. Once hot, add plantain arepas and cook until golden brown, 3 to 5 minutes per side."},
+    {"n": 5, "title": null, "text": "Dice the tomato. Roughly chop cilantro leaves and stems. Halve the lime, juice one half, and cut the other half into wedges. Halve the avocado, scoop flesh into a medium bowl, and mash with a fork. Add diced shallot, diced tomato, chopped cilantro, lime juice, and a pinch of salt to the bowl, and stir the guacamole."},
+    {"n": 6, "title": null, "text": "Halve the plantain arepas crosswise and spread butter on each half. Add guacamole and tofu scramble to one half of each arepa, and top with the remaining arepa half. Serve with lime wedges and any remaining tofu scramble and guacamole. Enjoy!"}
+  ],
+  "tips": [
+    "* These ingredients will be split between steps.",
+    "TIP: We will this skillet again in the next step.",
+    "TIP: If dough is dry, add water—up to 2 tbsp—until you achieve the desired consistency."
+  ],
+  "cuisine_tags": ["Latin American"],
+  "ingredient_tags": ["plantain", "tofu", "avocado", "masa harina"],
+  "item_tags": ["turmeric", "nutritional yeast", "cilantro", "lime", "vegan butter"],
+  "issues": null
+}

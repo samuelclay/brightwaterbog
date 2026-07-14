@@ -1,0 +1,41 @@
+{
+  "pair": 85,
+  "title": "Seitan Gyro",
+  "subtitle": "with Shaved Artichoke Salad and Tahini Yogurt",
+  "servings": "2",
+  "cook_time": "30 minutes",
+  "nutrition": {"calories": "570", "fat": "24 g", "carbohydrates": "47 g", "protein": "39 g"},
+  "description": "One of the best parts about a gyro is the combination of flavors and textures. Crispy seitan, dusted with baharat, is paired with crispy artichokes and a smooth vegan tahini yogurt. Baharat is a traditional Middle Eastern blend with allspice, cloves, and cumin. It brings an authentic, warm flavor to the dish, and you can use as little or as much as you'd like depending on your affinity for spice. Wrap everything up in warm pita and enjoy!",
+  "from_your_kitchen": ["2 tbsp olive oil", "Salt and pepper"],
+  "ingredients": [
+    "Fresh parsley",
+    "1 tomato",
+    "1 cucumber",
+    "6 artichoke hearts",
+    "1 lemon",
+    "1 package Sweet Earth seitan",
+    "¼ cup potato starch",
+    "½ tsp baharat spice",
+    "¼ cup Kite Hill vegan yogurt",
+    "¼ tsp cumin",
+    "1 tbsp tahini",
+    "2 pieces whole wheat pita"
+  ],
+  "tools": ["Large nonstick skillet"],
+  "steps": [
+    {"n": 1, "title": "GET READY", "text": "Chop the parsley leaves. Slice the tomato. Thinly slice the cucumber."},
+    {"n": 2, "title": "ARTICHOKE SALAD", "text": "Thinly slice the artichoke hearts, be careful, they can be slippery! Place a large nonstick skillet over medium-high heat and add 1 tbsp olive oil. Once hot, add the sliced artichokes and cook until browned in places, about 5 to 7 minutes. Let cool slightly, then add to a medium bowl along with the parsley, juice from half the lemon, and a pinch of salt and pepper. Toss well to combine."},
+    {"n": 3, "title": "CRISP THE SEITAN", "text": "Thinly slice the Sweet Earth seitan. Add the potato starch to a plate and dust each piece, shaking off any excess. Return the large skillet to medium-high heat and add 1 tbsp olive oil. Once hot, add the seitan, sprinkle with salt, and cook until crisp, about 3 to 4 minutes. Cook on the other side until crisp, another 3 to 4 minutes. Sprinkle with baharat spice and remove from the heat."},
+    {"n": 4, "title": "MAKE THE TAHINI YOGURT", "text": "In a small bowl mix together the Kite Hill vegan yogurt, cumin, tahini, 1 tbsp of juice from the remaining lemon half, and a pinch of salt and pepper. Stir to combine."},
+    {"n": 5, "title": "WARM THE PITA", "text": "Place the whole wheat pita in the toaster or microwave to warm. You can also set the oven to broil on low and broil until warm."},
+    {"n": 6, "title": "BUILD AND SERVE", "text": "Place the crispy Sweet Earth seitan onto the warmed pitas and top with the shaved artichoke salad, sliced tomatoes, and cucumbers. Drizzle with the tahini yogurt sauce. Serve any remaining salad and vegetables on the side."}
+  ],
+  "tips": [
+    "TIP: You'll use the skillet again in the next step!",
+    "TIP: Taste the tahini yogurt and add additional lemon juice if you'd like."
+  ],
+  "cuisine_tags": ["Greek", "Middle Eastern"],
+  "ingredient_tags": ["seitan", "pita", "artichoke", "cucumber", "tomato"],
+  "item_tags": ["baharat", "tahini", "cumin", "vegan yogurt", "potato starch"],
+  "issues": null
+}

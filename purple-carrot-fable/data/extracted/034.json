@@ -1,0 +1,41 @@
+{
+  "pair": 34,
+  "title": "Kashmiri Chickpea Bowls",
+  "subtitle": "with Yogurt Smashed Vegetables & Golden Raisins",
+  "servings": "2",
+  "cook_time": "25 min",
+  "nutrition": {"calories": "530", "fat": "7 g", "carbohydrates": "106 g", "protein": "23 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "½ cup jasmine rice",
+    "4 oz curly kale",
+    "1 cucumber",
+    "4 radishes",
+    "1 garlic clove",
+    "1 lemon*",
+    "13.4 oz chickpeas",
+    "2 tsp Kashmiri chile powder",
+    "¼ cup Forager Project® Organic Dairy-Free Cashewmilk Yogurt",
+    "1 tsp dried dill",
+    "2 tbsp golden raisins"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat the oven to 400°F. Add jasmine rice, 1 cup water, and a pinch of salt to a small saucepan. Bring to a boil, cover, reduce heat to low, and cook until water is absorbed and grains are tender, 14 to 16 minutes."},
+    {"n": 2, "title": null, "text": "Destem curly kale and roughly chop the leaves. Place cucumber and radishes on a cutting board. Smash vegetables by using the flat side of a knife and applying pressure with the heel of your hand until the vegetables split. Tear the smashed vegetables into bite-size pieces. Peel and mince the garlic. Halve and juice the lemon. Drain and rinse the chickpeas, and pat dry."},
+    {"n": 3, "title": null, "text": "Place chickpeas on a baking sheet and toss with 1 tbsp olive oil, ½ tsp Kashmiri chile powder, and a pinch of salt. Roast until crispy, 12 to 15 minutes."},
+    {"n": 4, "title": null, "text": "Add minced garlic, just 1 tbsp lemon juice, yogurt, and a pinch of salt and pepper to a medium bowl, and stir the yogurt dressing. Add smashed vegetables and toss to coat."},
+    {"n": 5, "title": null, "text": "Heat 1 tsp olive oil in a large skillet over medium-high heat. Add chopped curly kale and a pinch of salt and pepper, and cook until the greens are wilted, 1 to 2 minutes."},
+    {"n": 6, "title": null, "text": "Fluff the cooked jasmine rice with a fork and add remaining lemon juice, dill, golden raisins, and 1 tsp olive oil. Gently stir the pilaf to combine. Divide pilaf and cooked curly kale between shallow bowls. Top with kashmiri chickpeas and yogurt smashed vegetables. Enjoy!"}
+  ],
+  "tips": [
+    "TIPS: Cover the chickpeas with a wire rack if they begin to pop in the oven. The Kashmiri chile powder is spicy; use more or less if you prefer.",
+    "* This ingredient will be split between steps.",
+    "This item is spicy. (Kashmiri chile powder)"
+  ],
+  "cuisine_tags": ["Indian"],
+  "ingredient_tags": ["chickpeas", "rice", "kale", "cucumber", "radishes"],
+  "item_tags": ["kashmiri chile powder", "cashewmilk yogurt", "golden raisins", "dried dill", "lemon"],
+  "issues": null
+}

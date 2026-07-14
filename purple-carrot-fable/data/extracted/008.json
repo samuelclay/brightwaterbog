@@ -1,0 +1,44 @@
+{
+  "pair": 8,
+  "title": "Punjabi Kadhi",
+  "subtitle": "with Spinach Dumplings & Mango Chutney",
+  "servings": "2",
+  "cook_time": "35 min",
+  "nutrition": {"calories": "670", "fat": "24 g", "carbohydrates": "96 g", "protein": "20 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 onion*",
+    "4 garlic cloves",
+    "1 oz fresh ginger",
+    "1 jalapeño 🌶",
+    "8 oz baby spinach*",
+    "⅔ cup garbanzo bean flour",
+    "¼ cup Forager Project® Organic Dairy-free Cashewmilk Yogurt",
+    "¼ tsp baking powder",
+    "2 tsp curry powder",
+    "5.5 oz coconut milk",
+    "1 Not-Chick'n™ Bouillon Cube",
+    "8.8 oz precooked brown rice",
+    "2 tbsp mango chutney"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Peel and finely dice the onion. Peel and mince the garlic and ginger. Halve, deseed, and thinly slice the jalapeño. Roughly chop just half the baby spinach."},
+    {"n": 2, "title": null, "text": "Place a medium saucepan over medium heat. Add chopped spinach and 2 tbsp water and cook, stirring occasionally, until spinach is bright green, 1 to 2 minutes. Drain, and transfer spinach to a medium bowl. To that same bowl, add just 2 tbsp diced onion, garbanzo bean flour, yogurt, baking powder, 2 tbsp vegetable oil, and ¼ tsp salt. Stir the dumpling mixture until just combined."},
+    {"n": 3, "title": null, "text": "Return the empty saucepan to medium heat with 2 tsp vegetable oil. Once hot, add remaining diced onion, minced garlic, and minced ginger. Cook until softened, 2 to 3 minutes. Add curry powder and stir. Add coconut milk, bouillon cube, and ⅔ cup water, and bring sauce to a simmer. Cook until slightly thickened, 3 to 5 minutes. Once curry sauce has thickened, reduce heat to low."},
+    {"n": 4, "title": null, "text": "Drop heaping spoonfuls of dumpling mixture into the sauce; you should get 8 dumplings. Cover dumplings and gently simmer until they expand and are firm to the touch, 5 to 8 minutes."},
+    {"n": 5, "title": null, "text": "Heat 1 tsp vegetable oil in a large skillet over medium-high heat. Add sliced jalapeño, remaining baby spinach, and a pinch of salt. Cook until spinach is bright green and wilted, 2 to 3 minutes."},
+    {"n": 6, "title": null, "text": "Make a small tear at the top of the brown rice bag and microwave bag for 1 minute. Divide warm brown rice between large bowls. Top with sautéed spinach and punjabi kadhi. Dollop with mango chutney. Tuck in!"}
+  ],
+  "tips": [
+    "* These ingredients will be split between steps.",
+    "This item is spicy.",
+    "TIP: Remember to wash your hands after handling the jalapeño.",
+    "TIP: To reheat the rice without a microwave, add precooked brown rice and 1 tbsp water to a small saucepan over medium-high heat. Cover and steam until warmed through, 3 to 4 minutes."
+  ],
+  "cuisine_tags": ["Indian"],
+  "ingredient_tags": ["spinach", "garbanzo bean flour", "rice"],
+  "item_tags": ["curry powder", "coconut milk", "mango chutney", "cashewmilk yogurt", "jalapeño", "ginger", "bouillon"],
+  "issues": null
+}

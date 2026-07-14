@@ -1,0 +1,29 @@
+{
+  "pair": 15,
+  "title": "Green Goddess Bowls",
+  "subtitle": "with Broccoli & Ranch Dressing",
+  "servings": "2",
+  "cook_time": "15 min",
+  "nutrition": {"calories": "650", "fat": "44 g", "carbohydrates": "52 g", "protein": "14 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "8.8 oz precooked brown rice",
+    "6 oz broccoli florets",
+    "1 avocado",
+    "¼ oz fresh dill",
+    "¼ cup pumpkin seeds",
+    "⅓ cup Follow Your Heart® High Omega Vegan Ranch Salad Dressing"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Bring 2 cups salted water to a boil in a small saucepan. Make a small tear at the top of the brown rice bag and microwave bag for 1 minute. Chop broccoli florets into bite-size pieces and add to the boiling water. Cover and cook until crisp-tender, 2 to 3 minutes. Drain the broccoli."},
+    {"n": 2, "title": null, "text": "Halve the avocado, remove the pit, and dice the flesh. Pick and roughly chop the dill fronds. Divide the brown rice between bowls. Add broccoli florets, diced avocado, and chopped dill. Top with pumpkin seeds and drizzle with ranch dressing."}
+  ],
+  "tips": [],
+  "cuisine_tags": ["American"],
+  "ingredient_tags": ["brown rice", "broccoli", "avocado"],
+  "item_tags": ["pumpkin seeds", "ranch dressing", "dill"],
+  "single_page": true,
+  "issues": null
+}

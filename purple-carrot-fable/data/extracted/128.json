@@ -1,0 +1,32 @@
+{
+  "pair": 128,
+  "image": "015b_IMG_9163.jpg",
+  "meal_type": "BREAKFAST",
+  "title": "Smoky Tofu & Sweet Potato Hash",
+  "subtitle": "with Avocado",
+  "servings": "4",
+  "cook_time": "20 min",
+  "nutrition": {"calories": "240", "fat": "12 g", "carbohydrates": "26 g", "protein": "14 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 sweet potato",
+    "1 red onion",
+    "4 mini sweet peppers",
+    "14 oz organic extra firm tofu",
+    "1 avocado",
+    "2 tbsp nutritional yeast",
+    "2 tsp smoked paprika"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Dice the sweet potato. Trim, halve and thinly slice the onion. Trim and thinly slice the mini sweet peppers. Crumble the tofu. Halve the avocado, remove the pit, and thinly slice the flesh."},
+    {"n": 2, "title": null, "text": "Heat 1 tbsp vegetable oil in a large nonstick skillet over medium-high heat. Add diced sweet potato and cook until lightly browned, 3 to 4 minutes. Add ⅓ cup water, cover, and steam until potato is fork-tender, 3 to 4 minutes. Add sliced onion, sliced sweet peppers, and a pinch of salt and pepper. Cook until vegetables are browned, 5 to 8 minutes."},
+    {"n": 3, "title": null, "text": "Heat 1 tbsp vegetable oil in another large skillet over medium-high heat. Add crumbled tofu, nutritional yeast, paprika, and a pinch of salt and pepper. Cook until tofu is golden brown, 5 to 8 minutes. Divide the sweet potato hash between plates and top with smoky tofu. Serve with sliced avocado."}
+  ],
+  "tips": [],
+  "cuisine_tags": ["American", "Comfort Food"],
+  "ingredient_tags": ["tofu", "sweet potato", "avocado", "sweet peppers"],
+  "item_tags": ["nutritional yeast", "smoked paprika"],
+  "issues": null
+}

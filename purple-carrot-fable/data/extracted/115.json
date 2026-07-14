@@ -1,0 +1,40 @@
+{
+  "pair": 115,
+  "title": "Potato Latkes",
+  "subtitle": "with Fennel Slaw and Stone Fruit Preserves",
+  "servings": "2",
+  "cook_time": "45 minutes",
+  "nutrition": {"calories": "820", "fat": "56 g", "carbohydrates": "74 g", "protein": "9 g"},
+  "description": "It's latke season! Although they are delicious on their own, you'll make them even better by pairing them with a creamy horseradish sauce and a crunchy fennel slaw. Stone fruit preserves are served on the side—a little bit of this sweet spread goes a long way.",
+  "from_your_kitchen": ["¼ cup vegetable oil", "1 tsp olive oil", "Salt and pepper"],
+  "ingredients": [
+    "12 oz yukon gold potato",
+    "1 onion",
+    "1 fennel bulb",
+    "3 oz sugar snap peas",
+    "2 tbsp white balsamic vinegar",
+    "1 tbsp horseradish",
+    "6 tbsp Follow Your Heart® Vegenaise®*",
+    "2 tbsp flour",
+    "½ tsp dried thyme",
+    "2 tbsp stone fruit preserves"
+  ],
+  "tools": ["Box grater", "Large nonstick skillet"],
+  "steps": [
+    {"n": 1, "title": "GRATE THE POTATOES", "text": "Scrub the Yukon gold potato and grate with a box grater into a large bowl. Squeeze the grated potato to remove as much of the water as possible. Discard the liquid, wipe the bowl clean, and return the grated potato. Peel and finely dice the onion. Add just ½ cup of the diced onion and reserve the remaining diced onion for your own use."},
+    {"n": 2, "title": "PREPARE THE SLAW", "text": "Cut the fennel bulb in half lengthwise, remove the V-shaped core, and thinly slice the bulb. Trim the sugar snap peas and thinly slice. In a medium bowl, combine the sliced fennel, sugar snap peas, white balsamic vinegar, 1 tsp olive oil, and a pinch of salt and pepper. Toss until coated evenly, and set aside."},
+    {"n": 3, "title": "MAKE THE SAUCE", "text": "In a small bowl, combine the horseradish, just 2 tbsp of Follow Your Heart® Vegenaise®, and a pinch of salt. Stir until well combined."},
+    {"n": 4, "title": "FORM THE LATKES", "text": "Place a large nonstick skillet over medium-high heat with ¼ cup vegetable oil. To the grated potatoes, add the remaining Vegenaise, flour, thyme, 1 tsp salt, and ½ tsp pepper and stir until well combined. Use a ¼ cup measuring cup to divide the mixture into 6 equal portions, and form them into latkes about 3 inches in diameter."},
+    {"n": 5, "title": "COOK THE LATKES", "text": "Once the oil is hot, carefully place each latke into the skillet, pressing down with the bottom of the measuring cup until each patty is about a half inch thick. Lower heat to medium and fry until golden brown and crispy, about 3 to 4 minutes per side. Transfer latkes to a paper-towel lined plate and season with salt."},
+    {"n": 6, "title": "PLATE AND ENJOY", "text": "Divide the fennel slaw between plates. Top with the potato latkes and serve with stone fruit preserves and horseradish sauce. Dig in!"}
+  ],
+  "tips": [
+    "TIP: The more water you squeeze out, the crispier your latkes will be!",
+    "TIP: Season with salt while the latkes are hot so it sticks.",
+    "*This item will be split between multiple steps."
+  ],
+  "cuisine_tags": ["Jewish", "Comfort Food"],
+  "ingredient_tags": ["potatoes", "fennel", "sugar snap peas", "onion"],
+  "item_tags": ["horseradish", "vegenaise", "white balsamic vinegar", "stone fruit preserves", "thyme"],
+  "issues": null
+}

@@ -1,0 +1,19 @@
+{
+  "pair": 102,
+  "title": "Fabcake Sliders",
+  "subtitle": null,
+  "servings": "2",
+  "cook_time": "35 minutes",
+  "nutrition": {"calories": "720", "fat": "34 g", "carbohydrates": "96 g", "protein": "19 g"},
+  "description": "These cakes are fabulous, so we've nicknamed them \"fabcakes\" and popped them on slider buns. You'll use half of the garbanzo beans for this recipe, save the remaining garbanzos for the Curried Flatbread. The vegan remoulade, a creamy sauce often paired with seafood, adds a tangy and salty kick and pairs perfectly with the corn too.",
+  "from_your_kitchen": null,
+  "ingredients": [],
+  "tools": null,
+  "steps": [],
+  "tips": [],
+  "cuisine_tags": ["American", "Cajun/Creole"],
+  "ingredient_tags": ["chickpeas", "slider buns", "corn"],
+  "item_tags": ["remoulade"],
+  "single_page": false,
+  "issues": null
+}

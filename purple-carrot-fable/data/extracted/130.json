@@ -1,0 +1,32 @@
+{
+  "pair": 130,
+  "image": "059b_IMG_9251.jpg",
+  "meal_type": "EXTRAS!",
+  "title": "Curried Chickpea Salads",
+  "subtitle": "with Raisins & Tomatoes",
+  "servings": "2",
+  "cook_time": "5 min",
+  "nutrition": {"calories": "550", "fat": "25 g", "carbohydrates": "60 g", "protein": "19 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "13.4 oz chickpeas",
+    "1 celery stalk",
+    "4 oz cherry tomatoes",
+    "1 onion",
+    "¼ cup Follow Your Heart® Soy-Free Vegenaise®",
+    "2 tsp curry powder",
+    "¼ cup raisins",
+    "2 oz teen spinach"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Drain and rinse the chickpeas. Thinly slice the celery. Halve the cherry tomatoes. Peel and dice the onion. Add chickpeas to a large bowl and mash with a fork. Add sliced celery, diced onion, Vegenaise, curry powder, raisins, ½ tsp salt, and a pinch of pepper, and combine."},
+    {"n": 2, "title": null, "text": "Divide the teen spinach between 2 bowls. Top with curried chickpea salad and halved cherry tomatoes."}
+  ],
+  "tips": [],
+  "cuisine_tags": ["Indian", "Fusion"],
+  "ingredient_tags": ["chickpeas", "spinach", "tomatoes"],
+  "item_tags": ["curry powder", "raisins", "vegenaise", "celery"],
+  "issues": null
+}

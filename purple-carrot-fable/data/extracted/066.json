@@ -1,0 +1,39 @@
+{
+  "pair": 66,
+  "title": "New England Lobster Rolls",
+  "subtitle": "with Hearts of Palm & Lemon Pepper Potato Wedges",
+  "servings": "2 (4)",
+  "cook_time": "30 (40) min",
+  "nutrition": {"calories": "420", "fat": "20 g", "carbohydrates": "57 g", "protein": "9 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "10 oz Yukon Gold potatoes",
+    "14 oz hearts of palm",
+    "1 tsp New England seasoning",
+    "1 shallot",
+    "1 celery stalk",
+    "¼ oz fresh dill",
+    "1 lemon*",
+    "¼ cup Follow Your Heart® Soy-Free Vegenaise®",
+    "2 tsp capers",
+    "2 hot dog buns"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat the oven to 425°F. Slice Yukon Gold potatoes into ½ inch thick wedges and place on a baking sheet. Toss with 2 tsp (4 tsp) vegetable oil, a pinch of salt, and ¼ tsp (½ tsp) pepper. Roast potatoes wedges until crisp in places and lightly browned, 20 to 25 minutes."},
+    {"n": 2, "title": null, "text": "Drain the hearts of palm and pat dry with a clean kitchen towel. Transfer to a baking sheet and gently toss with 1 tsp (2 tsp) vegetable oil, New England seafood seasoning, and a pinch of salt and pepper. Place pieces cut side down and roast until lightly browned, 18 to 20 minutes."},
+    {"n": 3, "title": null, "text": "Peel and mince the shallot(s). Trim and thinly slice the celery. Finely chop dill fronds. Zest and halve the lemon(s), juice one half (1 lemon), and divide the other half (1 lemon) into wedges. Add minced shallot, sliced celery, chopped dill, just 1 tbsp (2 tbsp) lemon juice, Vegenaise, and capers to a large bowl. Mix the dill dressing. Taste, and add salt and pepper as necessary."},
+    {"n": 4, "title": null, "text": "Place a large nonstick skillet over medium-high heat. Brush the top of each hot dog bun with 1 tsp olive oil and place oiled-side down in the skillet to toast, 1 to 2 minutes."},
+    {"n": 5, "title": null, "text": "Add lemon zest to the roasted potato wedges and toss to coat. Add roasted hearts of palm to the dill dressing and gently toss until evenly coated. Divide mixture between the toasted hot dog buns. Serve the New England lobster rolls with lemon pepper potato wedges and lemon wedges on the side. Bon appétit!"}
+  ],
+  "tips": [
+    "* This ingredient will be split between steps.",
+    "TIP: You can also toast hot dog buns in the oven.",
+    "Sea Seasoning: Even when you're eating plant-based meals, there's just something about the allure of foods from the sea—especially in the summer! Our famous lobster rolls transform hearts of palm into something truly spectacular, with some help from New England seasoning. Made with salt, paprika, garlic, lemon peel, onion powder, red pepper, bay leaves, and mustard, this seasoning is light, sweet, and a little bit briny. Yum!"
+  ],
+  "cuisine_tags": ["American", "New England"],
+  "ingredient_tags": ["hearts of palm", "potatoes", "celery", "hot dog buns"],
+  "item_tags": ["new england seasoning", "capers", "dill", "vegenaise", "lemon"],
+  "issues": null
+}

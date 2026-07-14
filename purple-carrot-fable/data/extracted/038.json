@@ -1,0 +1,40 @@
+{
+  "pair": 38,
+  "title": "Coconut Tofu",
+  "subtitle": "with Crunchy Date Slaw & Peanut Sauce",
+  "servings": "2",
+  "cook_time": "30 min",
+  "nutrition": {"calories": "800", "fat": "32 g", "carbohydrates": "109 g", "protein": "31 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "½ cup sushi rice",
+    "14 oz organic extra firm tofu",
+    "2 oz dates",
+    "1 lime",
+    "6 oz shredded red cabbage",
+    "2 tbsp sesame seeds*",
+    "⅓ cup toasted coconut",
+    "¼ cup panko breadcrumbs",
+    "¼ cup cornstarch",
+    "¼ cup spicy peanut sauce"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Add sushi rice, 1 cup water, and a pinch of salt to a small saucepan. Bring to a boil, cover, reduce heat to low, and cook until the grains are tender and water is absorbed, 13 to 15 minutes."},
+    {"n": 2, "title": null, "text": "Pat tofu dry and cut into 8 slices. Finely chop the dates, removing the pits. Halve and juice the lime. Add chopped dates, lime juice, red cabbage, just 1 tsp sesame seeds, 1 tsp vegetable oil, and a pinch of salt to a medium bowl. Toss the crunchy date slaw."},
+    {"n": 3, "title": null, "text": "Chop the toasted coconut. Add remaining sesame seeds, chopped coconut, and breadcrumbs to a plate, and mix. In a separate bowl, combine cornstarch and ¼ cup cold water and whisk."},
+    {"n": 4, "title": null, "text": "Toss sliced tofu in the cornstarch mixture, remove, and press into the coconut breadcrumbs. Heat ¼ cup vegetable oil in a large nonstick skillet over medium heat. Add breaded tofu and cook until browned, 3 to 4 minutes per side. Transfer to a plate, sprinkle with salt, and cover loosely to keep warm."},
+    {"n": 5, "title": null, "text": "Wipe the skillet clean and return to medium-low heat. Add spicy peanut sauce and 2 tbsp water. Cook until hot, 1 to 2 minutes."},
+    {"n": 6, "title": null, "text": "Divide the rice and crunchy date slaw between plates. Top with coconut tofu and serve with peanut sauce for dipping. Bon appétit!"}
+  ],
+  "tips": [
+    "TIP: Instead of chopping the toasted coconut, you can also seal it in a plastic bag and crush with a rolling pin or mug.",
+    "* This ingredient will be split between steps.",
+    "This item is spicy. (spicy peanut sauce)"
+  ],
+  "cuisine_tags": ["Thai", "Fusion"],
+  "ingredient_tags": ["tofu", "rice", "red cabbage", "dates"],
+  "item_tags": ["toasted coconut", "peanut sauce", "sesame seeds", "panko breadcrumbs", "cornstarch", "lime"],
+  "issues": null
+}

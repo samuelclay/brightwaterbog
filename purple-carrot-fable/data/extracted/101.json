@@ -1,0 +1,25 @@
+{
+  "pair": 101,
+  "title": "Wicked Healthy Fajita Tostada",
+  "subtitle": "with Chili-Lime Mango Salad",
+  "servings": "2",
+  "cook_time": "35 minutes",
+  "nutrition": {"calories": "580", "fat": "15 g", "carbohydrates": "91 g", "protein": "25 g"},
+  "description": "Our friends at Wicked Healthy have come up with another stellar dish here and these spicy, sweet tostadas could be our new favorite. The trick to a crispy tortilla is to get an even, light coat of oil. Try using your hands if you don't have a pastry brush. We recommend that you bake the tortillas pressed between baking sheets to keep them flat, but if you'd prefer a more rustic look, by all means, leave them uncovered! To top off your dish, enjoy a Mexican classic, chili-lime mango salad.",
+  "from_your_kitchen": ["1 tbsp + 2 tsp vegetable oil", "Salt and pepper"],
+  "ingredients": ["½ cup red lentils", "4 corn tortillas", "5 garlic cloves*", "3 mini sweet peppers", "1 red onion", "1 lime", "1 mango", "1 tsp Mexican chili spice*", "1 avocado", "3 oz green cabbage"],
+  "tools": ["Small saucepan", "2 baking sheets", "Large skillet"],
+  "steps": [
+    {"n": 1, "title": "COOK THE LENTILS", "text": "Preheat the oven to 400°F. Add the red lentils, 1 cup water, and a pinch of salt to a small saucepan. Bring to a boil, cover, and reduce heat to low. Cook until the lentils are tender and all of the water has been absorbed, about 14 to 17 minutes."},
+    {"n": 2, "title": "CRISP THE TOSTADAS", "text": "Lay the corn tortillas on a baking sheet. Brush both sides of each tortilla with ½ tsp vegetable oil and place another baking sheet on top to hold them down. Bake tortillas until golden brown and crisp, about 10 to 12 minutes."},
+    {"n": 3, "title": "PREPARE THE FAJITA VEGGIES", "text": "Peel and thinly slice the 5 cloves of garlic. Trim, deseed, and slice the mini sweet peppers. Peel and thinly slice the red onion. Place a large skillet over medium-high heat and add 1 tbsp vegetable oil. Once hot, add the garlic, sliced peppers and onion, and a pinch of salt and pepper. Adjust heat to low, and cook until vegetables are soft and caramelized, stirring occasionally, about 12 to 15 minutes."},
+    {"n": 4, "title": "MAKE THE MANGO SALAD", "text": "Zest the lime. Peel the mango, remove the flesh from the pit, and dice. In a large bowl combine the diced mango, lime zest, and the juice from half the lime. Sprinkle mango salad with a ½ tsp of the Mexican chili spice and toss to combine."},
+    {"n": 5, "title": "FINISH IT UP", "text": "Once the lentils are ready, mash them with a fork (they should be spreadable). Squeeze in the juice from the remaining lime half, taste, and season with salt and pepper. Halve the avocado, remove the pit, and slice the flesh."},
+    {"n": 6, "title": "SERVE AND ENJOY", "text": "Place the tostadas on large plates and top with the smashed red lentils. Layer on the fajita veggies, green cabbage, and avocado. Sprinkle with cilantro and remaining Mexican chili spice and serve with the chili-lime mango salad. Dig in!"}
+  ],
+  "tips": ["* This item will be split between multiple steps.", "* Find a head of garlic in this recipe bag.", "Lay the tortillas on your largest baking sheet, it's ok if they overlap slightly."],
+  "cuisine_tags": ["Mexican"],
+  "ingredient_tags": ["red lentils", "tortillas", "mango", "avocado", "cabbage", "sweet peppers"],
+  "item_tags": ["mexican chili spice", "lime", "corn tortillas", "vegetable oil"],
+  "issues": null
+}

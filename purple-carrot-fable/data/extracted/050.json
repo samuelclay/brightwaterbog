@@ -1,0 +1,39 @@
+{
+  "pair": 50,
+  "title": "Creamy Tomato Bisque",
+  "subtitle": "with Quinoa & Parmesan Roasted Cauliflower",
+  "servings": "2 (4)",
+  "cook_time": "25 (30) min",
+  "nutrition": {"calories": "460", "fat": "26 g", "carbohydrates": "48 g", "protein": "11 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "¼ cup quinoa",
+    "6 oz cauliflower florets",
+    "4 garlic cloves",
+    "1 shallot",
+    "¼ cup cashews",
+    "14.5 oz fire roasted diced tomatoes",
+    "5.5 oz coconut milk",
+    "¼ oz fresh basil",
+    "2 tbsp soy-free vegan parmesan"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat oven to 400°F. Add the quinoa, ½ cup (1 cup) water, and a pinch of salt to a small saucepan over high heat. Bring to a boil, reduce heat, cover, and cook until the spirals burst and water is absorbed, 10 to 12 minutes."},
+    {"n": 2, "title": null, "text": "Transfer the cauliflower florets to a baking sheet and toss with 1 tbsp (2 tbsp) olive oil and a pinch of salt and pepper. Roast until tender and browned in places, 12 to 15 minutes."},
+    {"n": 3, "title": null, "text": "Peel and chop the garlic. Peel and roughly chop the shallot(s). Heat 1 tbsp (2 tbsp) olive oil in a large pot over medium heat. Add chopped garlic and chopped shallot and cook until softened, 3 to 5 minutes."},
+    {"n": 4, "title": null, "text": "Add the cashews, tomatoes, coconut milk, and ¼ cup (½ cup) water to the large pot. Bring to a boil, reduce heat to low, and simmer for 3 to 5 minutes. Carefully pour bisque into a blender and purée until smooth. Sprinkle tomato bisque with salt and pepper."},
+    {"n": 5, "title": null, "text": "Tear the basil leaves. Toss roasted cauliflower with just 1 tbsp (2 tbsp) parmesan. Divide the creamy tomato bisque between large bowls. Top with quinoa and parmesan roasted cauliflower. Sprinkle with torn basil leaves and remaining parmesan. Soup's on!"}
+  ],
+  "tips": [
+    "Substitute: broccoli florets for cauliflower florets",
+    "Ingredients listed for 2 servings—if you're making 4 servings, please double your ingredients by using both bags provided. Directions for 4 servings indicated in parentheses.",
+    "TIP: Blend in batches for the 4 serving meal.",
+    "Avoid a Soup Explosion: Hot liquids expand and can create a powerful vortex in your blender. Follow these tips to ensure your soup ends up in your bowls, not on your walls. Give the soup mixture a few minutes to cool down. Fill half the blender jar with soup, add the blender lid, and remove the center part of the lid or open the spout to release steam. Hold a towel over the opening to prevent soup from escaping, and turn on the blender. Start on low and slowly increase the speed. Voilà!"
+  ],
+  "cuisine_tags": ["American", "Comfort Food"],
+  "ingredient_tags": ["tomatoes", "quinoa", "cauliflower", "cashews"],
+  "item_tags": ["coconut milk", "vegan parmesan", "basil", "fire roasted tomatoes"],
+  "issues": null
+}

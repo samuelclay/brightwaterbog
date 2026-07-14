@@ -1,0 +1,43 @@
+{
+  "pair": 111,
+  "title": "Spicy Almond Butter Udon",
+  "subtitle": "with Charred Brussels Sprouts",
+  "servings": "2",
+  "cook_time": "35 minutes",
+  "nutrition": {"calories": "800", "fat": "37 g", "carbohydrates": "95 g", "protein": "31 g"},
+  "description": "Smooth almond butter blends into to a deliciously creamy sauce with the help of tart lime juice and sweet maple syrup. The citrus-spiked sauce coats crisp pan seared vegetables over udon, a thick Japanese noodle that can stand up to the toppings.",
+  "from_your_kitchen": ["1 tbsp + 1 tsp vegetable oil", "Salt and pepper"],
+  "ingredients": [
+    "7 oz Brussels sprouts",
+    "4 oz carrot",
+    "2 scallions*",
+    "7 oz udon noodles",
+    "¼ cup + 2 tbsp peanuts*",
+    "1 lime",
+    "1 garlic clove",
+    "3 tbsp almond butter",
+    "2 tbsp tamari",
+    "1 tbsp chili garlic sauce",
+    "2 tsp maple syrup",
+    "¼ cup edamame"
+  ],
+  "tools": ["Large pot", "Large nonstick skillet", "Blender"],
+  "steps": [
+    {"n": 1, "title": "COOK THE UDON", "text": "Place a large pot of salted water on to boil. Trim the Brussels sprouts and halve or quarter them. Peel the carrot and cut into 2 inch long sticks. Thinly slice the scallions. When the water comes to a boil, add the udon noodles and cook until al dente, about 6 to 8 minutes. Rinse noodles under cold water and toss with 1 tsp vegetable oil."},
+    {"n": 2, "title": "MAKE THE SAUCE", "text": "Place a large nonstick skillet over medium-low heat and toast the peanuts, about 4 to 5 minutes. Cool and roughly chop. Halve the lime. In a blender, combine juice from half the lime, garlic, almond butter, tamari, as much of the chili garlic sauce as you'd like, maple syrup, and ¼ cup water. Blend on high until smooth. Add half the peanuts, season with salt, and blend once more."},
+    {"n": 3, "title": "CHAR THE BRUSSELS", "text": "Place the same skillet over medium-high heat with 1 tbsp vegetable oil. Add the Brussels sprouts and cook, shaking the pan often, until charred in places, about 3 to 5 minutes. Add ¼ cup water to create some steam, reduce heat to medium, and continue cooking until sprouts are bright green and just tender, about 3 to 5 more minutes."},
+    {"n": 4, "title": "GET SAUCY", "text": "Add the carrots and continue to cook until tender, about 4 to 6 minutes. Reduce heat again to low and add edamame, almond butter sauce, and ¼ cup + 2 tbsp water. Toss vegetables to combine, reduce heat, and bring sauce to a simmer."},
+    {"n": 5, "title": "ADD THE UDON", "text": "Add the cooked udon to the skillet, taste and season, and toss to combine. Stir in half the chopped scallion."},
+    {"n": 6, "title": "FINISH IT UP", "text": "Divide spicy almond butter udon between large plates and top with remaining scallion and chopped peanuts. Serve with lime wedges. Dig in!"}
+  ],
+  "tips": [
+    "TIP: To trim the sprouts, slice the bottom and peel away any leaves that look \"weathered.\"",
+    "TIP: Your sauce should be fairly smooth with little, textural pieces of peanuts.",
+    "TIP: If your sauce is too thick, add warm water by the tbsp to loosen.",
+    "* These items will be split between multiple steps."
+  ],
+  "cuisine_tags": ["Japanese", "Fusion"],
+  "ingredient_tags": ["udon noodles", "brussels sprouts", "carrot", "edamame", "peanuts"],
+  "item_tags": ["almond butter", "tamari", "chili garlic sauce", "maple syrup", "lime", "scallions"],
+  "issues": null
+}

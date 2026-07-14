@@ -1,0 +1,25 @@
+{
+  "pair": 103,
+  "title": "Za'atar Sweet Potato Noodles",
+  "subtitle": "with Crispy Chickpeas and Broccolini",
+  "servings": "2",
+  "cook_time": "30 minutes",
+  "nutrition": {"calories": "690", "fat": "40 g", "carbohydrates": "60 g", "protein": "20 g"},
+  "description": "In this simple and delicious meal, sweet potato noodles act as pasta. You'll toss them in a light lemon vinaigrette and season them with za'atar, a Middle Eastern spice blend of sumac, thyme, oregano, and sesame seeds. Thai basil leaves are the final touch, giving the dish another layer of flavor.",
+  "from_your_kitchen": ["1 tbsp vegetable oil", "3 tbsp + 2 tsp olive oil", "Salt and pepper"],
+  "ingredients": ["6 oz broccolini", "1 can chickpeas", "1 lemon", "2 cloves garlic°", "2 tsp champagne vinegar", "1 tbsp za'atar*", "1 tsp dried mint", "8 oz sweet potato noodles", "Fresh Thai basil", "2 tbsp hemp seeds"],
+  "tools": ["Large pot", "Baking sheet", "Large skillet"],
+  "steps": [
+    {"n": 1, "title": "SET THE STAGE", "text": "Preheat the oven to 400°F. Place a large pot of salted water on to boil. Trim the broccolini and roughly chop. Drain the chickpeas, rinse, and pat dry with a paper towel."},
+    {"n": 2, "title": "PREPARE THE VINAIGRETTE", "text": "Zest the lemon over a medium bowl. Peel and grate the garlic into the bowl. Then add the juice from the lemon and the champagne vinegar. While whisking, slowly drizzle in 3 tbsp olive oil. Season vinaigrette with salt and pepper."},
+    {"n": 3, "title": "BAKE THE CHICKPEAS", "text": "Add the chickpeas to a baking sheet and toss with 1 tbsp vegetable oil, 2 tsp of the za'atar spice, and dried mint. Season generously with salt and pepper and bake until chickpeas are crispy and lightly browned, about 14 to 16 minutes."},
+    {"n": 4, "title": "BEGIN TO COOK", "text": "Place a large skillet over medium-high heat with 2 tsp olive oil. Once hot, add the broccolini and cook, tossing occasionally, until bright green and crisp-tender, about 4 to 6 minutes. Drop the sweet potato noodles into the boiling water and cook until al dente, about 3 to 4 minutes. Drain the noodles and add to the skillet with broccolini."},
+    {"n": 5, "title": "ADD THE VINAIGRETTE", "text": "Add the vinaigrette to the skillet, sprinkle sweet potato noodles with salt and pepper, and toss to combine. Reduce heat to medium and cook for 2 minutes, or until heated through."},
+    {"n": 6, "title": "SERVE AND ENJOY", "text": "Hand tear the Thai basil leaves. Top the lemon za'atar noodles with crispy chickpeas, hemp seeds, and Thai basil. Sprinkle with remaining za'atar and serve lemon za'atar noodles family style. Dig in!"}
+  ],
+  "tips": ["°Find a head of garlic in the Forest Bowl recipe bag.", "*This item will be split between multiple steps.", "TIP: Crisp-tender means the vegetable should still have a good crunch."],
+  "cuisine_tags": ["Middle Eastern"],
+  "ingredient_tags": ["sweet potato noodles", "chickpeas", "broccolini"],
+  "item_tags": ["za'atar", "hemp seeds", "champagne vinegar", "dried mint", "thai basil", "lemon"],
+  "issues": null
+}

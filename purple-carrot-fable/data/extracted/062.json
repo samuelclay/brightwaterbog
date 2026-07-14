@@ -1,0 +1,41 @@
+{
+  "pair": 62,
+  "title": "Mexican Cobb Salads",
+  "subtitle": "with Avocado & Cilantro Lime Dressing",
+  "servings": "2 (4)",
+  "cook_time": "30 (35) min",
+  "nutrition": {"calories": "710", "fat": "34 g", "carbohydrates": "95 g", "protein": "22 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 sweet potato",
+    "1 red onion",
+    "1 tsp cumin seeds",
+    "1 garlic clove",
+    "¼ oz fresh cilantro",
+    "1 lime",
+    "¼ cup Follow Your Heart® Soy-Free Vegenaise®",
+    "2 corn tortillas",
+    "13.4 oz black beans",
+    "1 head baby romaine lettuce",
+    "2 radishes",
+    "1 avocado"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat the oven to 425°F. Dice sweet potato(es) into 1 inch pieces. Peel and chop the red onion(s) into 1 inch pieces. Transfer diced sweet potato and chopped red onion to a baking sheet and toss with 1 tbsp (2 tbsp) vegetable oil, cumin seeds, and a pinch of salt and pepper. Roast until sweet potatoes are tender, 18 to 22 minutes."},
+    {"n": 2, "title": null, "text": "Peel and mince the garlic. Finely chop the cilantro leaves and stems. Halve and juice the lime(s). Add minced garlic, chopped cilantro, lime juice, Vegenaise, and a pinch of salt to a small bowl and mix the cilantro lime dressing."},
+    {"n": 3, "title": null, "text": "Slice the corn tortillas into thin ¼ inch thick strips. Place tortilla strips on a baking sheet and toss with 2 tsp (4 tsp) vegetable oil and a pinch of salt. Bake until crispy and lightly browned, 5 to 6 minutes."},
+    {"n": 4, "title": null, "text": "Drain and rinse the black beans. Trim and chop the baby romaine lettuce. Trim and thinly slice the radishes. Halve the avocado(s), remove the pit(s), and dice the flesh."},
+    {"n": 5, "title": null, "text": "Divide the chopped baby romaine lettuce between large plates and top with the black beans, roasted vegetables, sliced radish, and diced avocado. Drizzle Mexican Cobb salads with cilantro lime dressing and sprinkle with crispy tortilla strips. Dig in!"}
+  ],
+  "tips": [
+    "TIP: Toss the tortilla strips halfway through baking.",
+    "Substitute: another fresh herb for cilantro",
+    "The Most Polarizing Herb? Cilantro has been around for centuries. In fact, evidence of cilantro seeds was found in King Tut's tomb! Today you can find cilantro in Middle Eastern, North African, European, and Asian cuisines. But despite cilantro's inclusion in so many meals, its taste is very controversial; people tend to either love it or hate it. For those of us who love it, we can't get enough of the fresh, citrusy taste. However, for about 20 percent of the population cilantro will taste like soap. Why? It's a genetic predisposition. Fun fact: Julia Child famously despised cilantro."
+  ],
+  "cuisine_tags": ["Mexican"],
+  "ingredient_tags": ["black beans", "sweet potato", "romaine lettuce", "avocado", "tortillas"],
+  "item_tags": ["cumin", "cilantro", "lime", "vegenaise", "radishes"],
+  "issues": null
+}

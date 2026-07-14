@@ -1,0 +1,40 @@
+{
+  "pair": 47,
+  "title": "Calabrian Bean & Veggie Bowls",
+  "subtitle": "with Toasted Farro & Basil Cashew Sauce",
+  "servings": "2",
+  "cook_time": "35 min",
+  "nutrition": {"calories": "380", "fat": "12 g", "carbohydrates": "56 g", "protein": "19 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "¾ cup farro",
+    "⅓ cup cashews",
+    "3 garlic cloves*",
+    "6 oz broccolini",
+    "6 oz parsnip",
+    "4 oz roasted red peppers",
+    "1 lime",
+    "½ oz fresh basil*",
+    "2 tbsp white sesame seeds*",
+    "5.3 oz Brami® Hot Chili Pepper Italian Snacking Lupini Beans 🌶"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat the oven to 400°F. Add farro and a pinch of salt to a small saucepan and cover with 1 inch cold water. Bring to a boil, reduce heat to medium, and cook until farro is tender, 18 to 20 minutes. Drain well and return farro to the saucepan, uncovered, off heat."},
+    {"n": 2, "title": null, "text": "Add cashews to a small bowl and cover with ⅓ cup hot water. Peel garlic cloves. Trim one inch off the broccolini stems. Peel parsnip and chop into bite-size pieces. Drain and finely chop the roasted red peppers. Halve and juice the lime."},
+    {"n": 3, "title": null, "text": "Add broccolini to one side of a baking sheet and chopped parsnip to the other side, and toss vegetables with 1 tbsp olive oil and a pinch of salt and pepper. Roast until tender and browned in places, 12 to 15 minutes."},
+    {"n": 4, "title": null, "text": "Pick the basil leaves. Add cashews and their soaking water, just 1 peeled garlic clove, lime juice, just half the basil leaves, just 1 tbsp white sesame seeds, and a pinch of salt to a blender. Blend the basil cashew sauce until smooth."},
+    {"n": 5, "title": null, "text": "Thinly slice remaining peeled garlic cloves. Heat 1 tbsp olive oil in a large nonstick skillet over medium-high heat. Add cooked farro and cook, undisturbed, until grains are glistening and toasted, 3 to 5 minutes. Add sliced garlic, roasted parsnip, chopped red peppers, and lupini beans and cook until warmed through, 3 to 4 minutes. Sprinkle with salt and pepper."},
+    {"n": 6, "title": null, "text": "Tear remaining basil leaves. Divide toasted farro mixture between large bowls. Add roasted broccolini and drizzle with basil cashew sauce. Top the Calabrian bean and veggie bowls with torn basil leaves and remaining white sesame seeds. Dig in!"}
+  ],
+  "tips": [
+    "* These ingredients will be split between steps.",
+    "This item is spicy. (lupini beans)",
+    "Let's Talk about Lupini Beans: Lupini beans, a legume related to chickpeas and lentils, are popular in Mediterranean cuisines. Because they have a slightly bitter taste, these beans are often pickled and eaten as a snack. They have a thick skin that you can eat, or you can squeeze the lupini bean and the seed will shoot out!"
+  ],
+  "cuisine_tags": ["Italian", "Mediterranean"],
+  "ingredient_tags": ["lupini beans", "farro", "broccolini", "parsnip", "cashews"],
+  "item_tags": ["basil", "roasted red peppers", "sesame seeds", "lime", "hot chili pepper"],
+  "issues": null
+}

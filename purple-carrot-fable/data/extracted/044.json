@@ -1,0 +1,39 @@
+{
+  "pair": 44,
+  "title": "Cavatappi Bolognese",
+  "subtitle": "with Rosemary & Parmesan",
+  "servings": "2",
+  "cook_time": "30 min",
+  "nutrition": {"calories": "450", "fat": "4 g", "carbohydrates": "90 g", "protein": "19 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 shallot",
+    "3 garlic cloves",
+    "1 carrot",
+    "¼ oz fresh rosemary",
+    "6 oz broccolini",
+    "4 oz cauliflower florets",
+    "5 oz cavatappi",
+    "¼ tsp red chile flakes 🌶",
+    "14 oz crushed tomatoes",
+    "2 tbsp red miso paste",
+    "2 tbsp vegan parmesan"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Bring a large pot of salted water to a boil for the pasta. Peel and roughly chop the shallot and garlic. Peel and roughly chop the carrot. Pick the rosemary leaves, and mince. Trim the broccolini and chop into 2 inch pieces."},
+    {"n": 2, "title": null, "text": "Add the chopped shallot and chopped garlic to a food processor, and pulse until finely chopped. Add chopped carrot and cauliflower florets to the shallot and garlic in the food processor and pulse until pieces are the size of rice grains, 10 to 12 pulses."},
+    {"n": 3, "title": null, "text": "Add cavatappi to the boiling water, stir, and cook until al dente, 8 to 10 minutes. Reserve ¾ cup pasta water, drain the pasta, and return pasta to the large pot, off heat. Toss cooked cavatappi with 1 tsp olive oil to prevent sticking."},
+    {"n": 4, "title": null, "text": "Heat 1 tbsp olive oil in a large nonstick skillet over medium heat. Add processed vegetable mixture and cook, stirring occasionally, until shallot is softened, 3 to 5 minutes. Add red chile flakes and ½ tsp minced rosemary and cook until fragrant, about 30 seconds."},
+    {"n": 5, "title": null, "text": "Add the crushed tomatoes, red miso paste, and reserved pasta water to the skillet and stir to dissolve the miso. Cook, stirring occasionally, until cauliflower is tender and sauce has thickened, 4 to 6 minutes. Add ½ tsp salt, taste, and add more salt as necessary."},
+    {"n": 6, "title": null, "text": "Divide the cooked cavatappi between large plates and top with bolognese sauce. Return the large pot to medium-high heat with 1 tsp olive oil. Add chopped broccolini, cook until crisp-tender, and sprinkle with salt. Add cooked broccolini to the plates and top everything with parmesan. Mangia!"}
+  ],
+  "tips": [
+    "This item is spicy. (red chile flakes)"
+  ],
+  "cuisine_tags": ["Italian"],
+  "ingredient_tags": ["pasta", "cauliflower", "broccolini", "carrot"],
+  "item_tags": ["red miso paste", "crushed tomatoes", "vegan parmesan", "rosemary", "red chile flakes"],
+  "issues": null
+}

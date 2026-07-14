@@ -1,0 +1,41 @@
+{
+  "pair": 112,
+  "title": "Vegetable Pad Thai",
+  "subtitle": "with Toasted Peanuts and Lime",
+  "servings": "2",
+  "cook_time": "30 minutes",
+  "nutrition": {"calories": "730", "fat": "27 g", "carbohydrates": "108 g", "protein": "21 g"},
+  "description": "We think you'll be pleasantly surprised at how quickly and easily this takeout favorite can come together in your own kitchen. Instead of a heavily sweetened sauce, we use natural lime juice and cashew butter. Pro tip for rice noodles: they cook quickly, so in Step 2, simply drop them in the boiling water and turn off the heat.",
+  "from_your_kitchen": ["1 tbsp vegetable oil", "Salt"],
+  "ingredients": [
+    "6 oz baby bok choy",
+    "4 oz green beans",
+    "1 red bell pepper",
+    "3 scallions",
+    "Fresh cilantro",
+    "7 oz rice noodles",
+    "¼ cup peanuts",
+    "1 lime",
+    "2 tbsp cashew butter",
+    "3 tbsp tamari",
+    "1 tbsp sambal chile paste"
+  ],
+  "tools": ["Large pot", "Large skillet"],
+  "steps": [
+    {"n": 1, "title": "PREPARE THE VEGETABLES", "text": "Place a large pot of salted water on to boil. Trim the bok choy and roughly chop. Cut the green beans in half. Deseed and thinly slice the red bell pepper. Chop the scallions into 2 inch pieces. Chop the cilantro leaves and tender stems."},
+    {"n": 2, "title": "COOK THE NOODLES", "text": "Once the water is boiling, add the rice noodles and turn off the heat. Stir the noodles occasionally until they are al dente, about 8 to 10 minutes. Drain the noodles and run them under cool water to stop the cooking process."},
+    {"n": 3, "title": "TOAST THE PEANUTS", "text": "Place a large skillet over medium heat and add the peanuts. Cook, tossing occasionally, until fragrant and toasted, about 4 to 6 minutes. Transfer the toasted peanuts to a small bowl."},
+    {"n": 4, "title": "SAUTÉ THE VEGETABLES", "text": "Return the large skillet to medium-high heat with 1 tbsp vegetable oil. Once hot, add the bok choy, greens beans, red bell pepper, and scallions. Sprinkle with salt and cook, stirring frequently, until the bell pepper is tender and the bok choy and green beans are bright green, about 3 to 4 minutes."},
+    {"n": 5, "title": "ADD THE SAUCE", "text": "In a medium bowl, whisk together the juice from the lime, cashew butter, tamari, ⅓ cup hot tap water, and as much of the sambal chile paste as you'd like. Add the sauce to the skillet with the vegetables, and then add the cooked rice noodles. Reduce heat to medium and cook, tossing frequently, until the noodles are heated through, about 2 to 4 minutes."},
+    {"n": 6, "title": "SERVE", "text": "Divide the vegetable pad Thai between plates. Sprinkle with toasted peanuts and chopped cilantro. Pass any remaining sambal chile paste at the table."}
+  ],
+  "tips": [
+    "TIP: Bok choy can hide a lot of grit. Make sure to wash well between the leaves.",
+    "TIP: Use two forks to help \"untangle\" the rice noodles.",
+    "This item is spicy. (1 tbsp sambal chile paste)"
+  ],
+  "cuisine_tags": ["Thai"],
+  "ingredient_tags": ["rice noodles", "bok choy", "green beans", "bell pepper", "peanuts"],
+  "item_tags": ["cashew butter", "tamari", "sambal chile paste", "lime", "cilantro", "scallions"],
+  "issues": null
+}

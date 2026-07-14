@@ -1,0 +1,25 @@
+{
+  "pair": 92,
+  "title": "Mediterranean Eggplant",
+  "subtitle": "with Cubanelle Chermoula and Apricot Couscous",
+  "servings": "2",
+  "cook_time": "45 minutes",
+  "nutrition": {"calories": "600", "fat": "31 g", "carbohydrates": "74 g", "protein": "14 g"},
+  "description": "Chermoula is a marinade hailing from Northern Africa. It has a smoky, citrus-y taste. Here, we use it to complement the roasted texture of the eggplant and the sweetness of apricot couscous.",
+  "from_your_kitchen": ["6 tbsp olive oil", "1 tsp vegetable oil", "Salt and pepper"],
+  "ingredients": ["1 eggplant", "1 cubanelle pepper", "½ cup whole wheat couscous", "Fresh ginger", "1 garlic clove", "Fresh dill", "1 lemon", "¼ tsp smoked paprika", "¼ tsp cumin", "2 dried apricots", "2 tbsp currants", "½ cup lima beans", "¼ cup vegan yogurt"],
+  "tools": ["Small saucepan", "Baking sheet", "Medium skillet"],
+  "steps": [
+    {"n": 1, "title": "PREP THE VEGETABLES", "text": "Preheat the oven to 425°F. Cut the eggplant into rounds on the diagonal. Deseed the cubanelle pepper and roughly chop."},
+    {"n": 2, "title": "ROAST THE EGGPLANT", "text": "Add ¾ cup water to a small saucepan and bring to a boil. Add the whole wheat couscous, cover, and remove from heat. Let couscous stand until Step 5. Transfer eggplant to baking sheet and coat with 4 tbsp olive oil. Season generously with salt and pepper and place in the oven. Roast until eggplant is browned on the bottom and soft, about 30 to 35 minutes."},
+    {"n": 3, "title": "CHAR THE PEPPER", "text": "Place a medium skillet over medium-high heat with 1 tsp vegetable oil. Once hot, add the chopped cubanelle to the skillet. Cook, turning occasionally, until charred and softened, about 5 to 7 minutes. Remove from the heat to cool."},
+    {"n": 4, "title": "MAKE THE CHERMOULA", "text": "Peel and grate the ginger. Grate 1 clove garlic into a medium bowl and add the ginger. Chop the dill fronds and add to the bowl. Zest the lemon and add just 1 tsp lemon zest to the bowl. Add the smoked paprika, cumin, ¼ tsp salt, 2 tbsp olive oil, and the juice from half the lemon. Finely chop the charred cubanelle pepper, add to the bowl and stir to combine."},
+    {"n": 5, "title": "FINISH THE COUSCOUS", "text": "Finely chop the dried apricots. Fluff the cooked couscous with a fork and add the apricots, currants, lima beans, remaining lemon zest and juice, and a pinch of salt. Stir to combine."},
+    {"n": 6, "title": "SERVE", "text": "Spread the vegan yogurt on the bottom of large plates. Top with apricot couscous, roasted eggplant, and cubanelle chermoula. Enjoy!"}
+  ],
+  "tips": [],
+  "cuisine_tags": ["Mediterranean", "Moroccan"],
+  "ingredient_tags": ["eggplant", "couscous", "lima beans"],
+  "item_tags": ["chermoula", "smoked paprika", "cumin", "dried apricots", "currants", "vegan yogurt", "ginger", "dill"],
+  "issues": null
+}

@@ -1,0 +1,30 @@
+{
+  "pair": 129,
+  "image": "025b_IMG_9183.jpg",
+  "meal_type": "LUNCH",
+  "title": "Kimchi Grilled Cheese Sandwiches",
+  "subtitle": "with Jalapeño & Sesame Butter",
+  "servings": "2",
+  "cook_time": "10 min",
+  "nutrition": {"calories": "410", "fat": "20 g", "carbohydrates": "48 g", "protein": "9 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 jalapeño 🌶",
+    "2.8 oz vegan cabbage kimchi",
+    "2 tbsp vegan butter",
+    "4 slices sourdough bread",
+    "1 tbsp sesame seeds",
+    "2 oz vegan cheddar cheese"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Trim, deseed, and thinly slice the jalapeño. Roughly chop the kimchi. Spread butter on each slice of sourdough bread, and sprinkle with sesame seeds."},
+    {"n": 2, "title": null, "text": "Heat a large nonstick skillet over medium-high heat. Add 2 slices of sourdough bread, butter side down. Sprinkle ¼ of the cheddar cheese on each slice, and add sliced jalapeño and chopped kimchi. Top with remaining cheddar cheese and close sandwiches with the remaining slices of bread, with the butter side up. Continue to cook sandwiches until they're browned on both sides, 3 to 4 minutes per side. Cut sandwiches in half and serve."}
+  ],
+  "tips": ["🌶 This item is spicy."],
+  "cuisine_tags": ["Korean", "Fusion", "Comfort Food"],
+  "ingredient_tags": ["kimchi", "sourdough bread", "vegan cheese"],
+  "item_tags": ["jalapeño", "sesame seeds", "vegan butter"],
+  "issues": null
+}

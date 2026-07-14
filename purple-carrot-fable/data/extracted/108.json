@@ -1,0 +1,25 @@
+{
+  "pair": 108,
+  "title": "Taco Salad",
+  "subtitle": "with Chipotle Seitan and Cashew Cheese Sauce",
+  "servings": "2",
+  "cook_time": "35 minutes",
+  "nutrition": {"calories": "710", "fat": "35 g", "carbohydrates": "64 g", "protein": "43 g"},
+  "description": "Nacho cheese sauce that's packed with protein? Yes, please! Our cashew \"cheese\" sauce takes only a couple minutes to whisk up, and we do it last minute to ensure it's hot for serving. If you want to reheat, simply whisk in a bit warm water. If you prefer not to fry the tortilla strips, brush the tortillas lightly with oil before slicing and then roast them in the oven at 400°F until they are browned and crisp.",
+  "from_your_kitchen": ["½ cup vegetable oil", "Salt and pepper"],
+  "ingredients": ["1 ear corn", "2 oz radishes", "1 heart of romaine", "2 corn tortillas", "1 package Sweet Earth chipotle seitan", "¼ cup black olives", "¼ cup pickled jalapeños", "1 lime", "2 tbsp cashew butter", "2 tbsp nutritional yeast", "¼ tsp turmeric", "½ tsp paprika"],
+  "tools": ["Medium nonstick skillet", "Small saucepan"],
+  "steps": [
+    {"n": 1, "title": "PREPARE THE TOPPINGS", "text": "Remove the husk from the corn and cut the kernels off the cob. Thinly slice the radishes. Roughly chop the romaine."},
+    {"n": 2, "title": "CRISP THE TORTILLAS", "text": "Place a medium nonstick skillet over medium-high heat and add ½ cup vegetable oil. Slice the corn tortillas into thin strips. Once the oil is hot, add the tortilla strips and cook until golden brown and crisp, about 1 minute. Transfer to a paper towel lined plate and sprinkle immediately with salt. Transfer the hot oil to a heatproof container and return the skillet to medium-high heat."},
+    {"n": 3, "title": "COOK THE SEITAN", "text": "Add the Sweet Earth chipotle seitan to the hot skillet and cook, stirring occasionally, until browned in places, about 4 to 5 minutes. Season seitan with salt and pepper."},
+    {"n": 4, "title": "BUILD THE SALAD", "text": "Place the chopped romaine on large plates and top with the corn, radishes, black olives, pickled jalapeños, and chipotle seitan. Halve the lime and squeeze half over the taco salads."},
+    {"n": 5, "title": "MAKE THE CHEESE SAUCE", "text": "Add the cashew butter, nutritional yeast, turmeric, paprika, ½ tsp salt, and ½ cup cold water to a small saucepan. Bring sauce to a simmer while whisking continuously, until just thickened, about 30 seconds to 1 minute. Once thickened, add juice from remaining lime, stir, and remove from heat."},
+    {"n": 6, "title": "SERVE IT UP", "text": "Drizzle taco salads with some of the cashew cheese sauce and top with tortillas strips. Serve any remaining sauce on the side. Dig in!"}
+  ],
+  "tips": ["No need to wipe out the empty skillet."],
+  "cuisine_tags": ["Mexican"],
+  "ingredient_tags": ["seitan", "romaine", "corn", "tortillas", "radishes"],
+  "item_tags": ["cashew butter", "nutritional yeast", "turmeric", "paprika", "pickled jalapeños", "black olives", "chipotle", "lime"],
+  "issues": null
+}

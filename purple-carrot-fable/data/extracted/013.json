@@ -1,0 +1,41 @@
+{
+  "pair": 13,
+  "title": "Pan Seared Broccolini",
+  "subtitle": "with Mashed Sweet Potatoes & Coconut Turmeric Relish",
+  "servings": "2 (4)",
+  "cook_time": "35 (45) min",
+  "nutrition": {"calories": "520", "fat": "14 g", "carbohydrates": "80 g", "protein": "20 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 sweet potato",
+    "½ cup beluga lentils",
+    "2 garlic cloves",
+    "1 Fresno chile (spicy)",
+    "1 oz fresh ginger",
+    "1 lemon",
+    "8 oz broccolini",
+    "2 tbsp golden raisins",
+    "2 tbsp toasted coconut",
+    "2 tsp brown mustard seeds",
+    "¼ tsp ground turmeric",
+    "2 tbsp vegan butter"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Peel and dice the sweet potato(es). Add diced sweet potato to a small saucepan and cover with 1 inch water. Bring to a boil and cook until fork-tender, 10 to 12 minutes. Drain and return cooked sweet potato to the saucepan, off heat. Rinse and sort the beluga lentils, and add to a separate saucepan with 1 cup (2 cups) water. Bring to a boil, cover, reduce heat to low, and simmer until lentils are tender, 20 to 24 minutes."},
+    {"n": 2, "title": null, "text": "Peel and thinly slice the garlic. Trim, halve, and deseed the Fresno chile(s), and mince one half (1 Fresno chile). Peel and mince 2 tsp (4 tsp) ginger. Halve and juice the lemon(s). Trim 1 inch off the broccolini stems."},
+    {"n": 3, "title": null, "text": "Heat 2 tbsp (4 tbsp) olive oil in a large nonstick skillet over medium heat. Add sliced garlic and cook until lightly browned, 3 to 5 minutes. Add minced Fresno chile, minced ginger, golden raisins, toasted coconut, brown mustard seeds, and turmeric. Stir and cook until aromatic, 1 to 3 minutes. Add lemon juice and transfer the coconut turmeric relish to a medium bowl."},
+    {"n": 4, "title": null, "text": "Wipe the skillet clean and return to medium-high heat. Add 2 tsp (4 tsp) olive oil, ¼ cup (½ cup) water, and a pinch of salt. Add broccolini, cover, and cook until water evaporates and broccolini is tender and crispy in places, 3 to 5 minutes. Flip and cook for an additional 2 minutes."},
+    {"n": 5, "title": null, "text": "Add butter to the cooked sweet potatoes and mash with a fork. Taste, and add salt as necessary. Divide the mashed sweet potatoes and beluga lentils between large plates. Top with pan seared broccolini and coconut turmeric relish. Enjoy!"}
+  ],
+  "tips": [
+    "TIP: To \"sort\" means to look for and discard any naturally occurring debris or stones.",
+    "TIP: Save the remaining ginger for your own use.",
+    "TIPS: Add more Fresno chile if you prefer more heat, and save any remaining chile for your own use. We will use this skillet again in the next step."
+  ],
+  "cuisine_tags": ["Indian", "Fusion"],
+  "ingredient_tags": ["broccolini", "sweet potato", "lentils"],
+  "item_tags": ["toasted coconut", "turmeric", "mustard seeds", "golden raisins", "fresno chile", "ginger", "vegan butter"],
+  "issues": null
+}

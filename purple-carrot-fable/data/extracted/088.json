@@ -1,0 +1,39 @@
+{
+  "pair": 88,
+  "title": "Fettuccine Alfredo",
+  "subtitle": "with Mushroom Medley",
+  "servings": "2",
+  "cook_time": "30 minutes",
+  "nutrition": {"calories": "510", "fat": "20 g", "carbohydrates": "69 g", "protein": "19 g"},
+  "description": "Most of us are familiar with four tastes: sweet, sour, salty, and bitter. But umami, the fifth taste, is savory. Our cashew and miso cream sauce is packed with umami flavor. You'll pour it over whole wheat pasta for a hearty, flavorful meal.",
+  "from_your_kitchen": ["1 tbsp olive oil", "Salt and pepper"],
+  "ingredients": [
+    "⅓ cup cashews",
+    "6 oz mushrooms",
+    "Fresh parsley",
+    "1 shallot",
+    "1 garlic clove*",
+    "2 tsp white miso paste",
+    "1 tsp oyster mushroom powder",
+    "1 lemon",
+    "6 oz whole wheat fettuccine",
+    "2 tbsp vegan parmesan"
+  ],
+  "tools": ["Large pot", "Blender", "Large nonstick skillet"],
+  "steps": [
+    {"n": 1, "title": "SET THE STAGE", "text": "Place a large pot of salted water on to boil. Place the cashews in a small bowl and add ½ cup hot tap water. Let nuts soak for at least 10 minutes."},
+    {"n": 2, "title": "PREP THE VEGETABLES", "text": "Wipe the mushrooms clean with a damp paper towel. Thinly slice the caps and the stems. Chop the parsley leaves. Peel and thinly slice the shallot."},
+    {"n": 3, "title": "BLEND THE SAUCE", "text": "Peel 1 clove garlic. Add the cashews and their soaking water to a blender. Add the garlic, white miso paste, oyster mushroom powder, and just 1 tbsp lemon juice. Blend alfredo sauce on high until smooth. Season with salt and pepper."},
+    {"n": 4, "title": "SAUTE THE MUSHROOMS", "text": "Place a large nonstick skillet over medium-high heat with 1 tbsp olive oil. Add the sliced mushrooms and cook until softened and browned, about 4 to 6 minutes. Add the shallots, reduce heat to medium-low, and cook, stirring often, for an additional 2 minutes."},
+    {"n": 5, "title": "COOK THE PASTA", "text": "Add the fettuccine to the boiling water, stir, and cook until al dente, about 6 to 8 minutes. Reserve ½ cup of cooking water and drain pasta. Add the fettuccine to the skillet along with the alfredo sauce, reserved cooking water, and a pinch of salt and pepper. Reduce heat to low and simmer pasta, tossing occasionally, until sauce has thickened and pasta is well coated, about 2 to 3 minutes."},
+    {"n": 6, "title": "FINISH UP", "text": "Stir the chopped parsley and just half of the parmesan into the pasta. Divide fettuccine alfredo between large plates or bowls and top with remaining parmesan. Mangia!"}
+  ],
+  "tips": [
+    "*Find a head of garlic in the Collard Green Enchiladas recipe bag.",
+    "TIP: If your sauce is still too thick, add warm water by the tablespoon to loosen it up."
+  ],
+  "cuisine_tags": ["Italian"],
+  "ingredient_tags": ["pasta", "mushrooms", "cashews"],
+  "item_tags": ["white miso", "oyster mushroom powder", "vegan parmesan", "lemon", "parsley"],
+  "issues": null
+}

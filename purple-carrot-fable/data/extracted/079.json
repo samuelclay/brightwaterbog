@@ -1,0 +1,46 @@
+{
+  "pair": 79,
+  "title": "Crispy Cauliflower Pakoras",
+  "subtitle": "with Red Lentil Dal & Cilantro Chutney",
+  "servings": "2",
+  "cook_time": "35 min",
+  "nutrition": {"calories": "590", "fat": "19 g", "carbohydrates": "84 g", "protein": "26 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 onion",
+    "1 oz fresh ginger",
+    "3 garlic cloves*",
+    "6 oz broccoli florets",
+    "4 oz cauliflower florets",
+    "2 mini sweet peppers",
+    "¼ cup white vinegar",
+    "2 tsp turbinado sugar",
+    "½ cup red lentils",
+    "1 tsp curry powder",
+    "5.5 oz coconut milk",
+    "¾ cup garbanzo bean flour",
+    "1 tsp garam masala",
+    "¼ cup cilantro chutney"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Peel and dice the onion. Peel and mince the ginger and garlic. Chop the broccoli and cauliflower into bite-size pieces. Thinly slice the mini sweet peppers. Add the vinegar, sugar, and a pinch of salt to a medium bowl and whisk until the sugar is dissolved. Add the sliced peppers and toss to combine."},
+    {"n": 2, "title": null, "text": "Rinse and sort the red lentils. Heat a small saucepan with 1 tbsp vegetable oil over medium heat. Add the diced onion, minced ginger, just half the minced garlic, and a pinch of salt. Cook, stirring frequently, until the onion softens, 3 to 4 minutes."},
+    {"n": 3, "title": null, "text": "Add the curry powder to the saucepan, stir, and cook until fragrant, about 1 minute. Add the red lentils, coconut milk, and ¾ cup water, and bring to a boil. Cover, reduce heat to low, and cook until the lentils are tender and water is absorbed, 12 to 15 minutes."},
+    {"n": 4, "title": null, "text": "Whisk the remaining minced garlic, garbanzo bean flour, garam masala, ½ cup cold water, and ¼ tsp salt in a large bowl."},
+    {"n": 5, "title": null, "text": "Heat a medium skillet with ½ cup vegetable oil over medium-high heat. Once the oil is hot, toss the chopped broccoli florets and chopped cauliflower florets in the batter, remove, and place in the oil without overcrowding the skillet. Cook until lightly browned, 2 to 3 minutes per side. Transfer to a paper towel-lined plate and sprinkle with salt."},
+    {"n": 6, "title": null, "text": "Divide the red lentil dal between serving dishes and top with crispy cauliflower pakoras and pickled peppers. Drizzle with cilantro chutney. Enjoy!"}
+  ],
+  "tips": [
+    "TIP: To \"sort\" means to look for and discard any naturally occurring debris or stones.",
+    "TIP: Work in batches to avoid overcrowding.",
+    "* This ingredient will be split between steps.",
+    "Substitute: radishes for mini sweet peppers",
+    "Handwritten note — cilantro chutney: 1 bunch cilantro, 1 lime, ¼ tspn sugar, 2-3 thai chilis, pinch salt. Blend using mortar & pestle."
+  ],
+  "cuisine_tags": ["Indian"],
+  "ingredient_tags": ["cauliflower", "broccoli", "red lentils"],
+  "item_tags": ["curry powder", "garam masala", "coconut milk", "cilantro chutney", "garbanzo bean flour", "white vinegar", "ginger"],
+  "issues": null
+}

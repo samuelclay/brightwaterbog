@@ -1,0 +1,39 @@
+{
+  "pair": 40,
+  "title": "Sprouting Broccoli Salads",
+  "subtitle": "with Sunflower Seeds & Miso Power Dressing",
+  "servings": "2 (4)",
+  "cook_time": "30 (40) min",
+  "nutrition": {"calories": "640", "fat": "33 g", "carbohydrates": "65 g", "protein": "27 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "¾ cup farro",
+    "2 garlic cloves",
+    "6 oz broccoli florets",
+    "6 oz Brussels sprouts",
+    "2 mini sweet peppers",
+    "2 oz Castelvetrano olives",
+    "1 lemon*",
+    "⅓ cup hemp seeds",
+    "1 tbsp white miso paste",
+    "¼ cup sunflower seeds"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Add farro and a pinch of salt to a small saucepan and cover with 1 inch cold water. Bring to a boil, reduce heat to medium, and cook until farro is tender, 18 to 20 minutes. Drain farro and return to the saucepan, off heat."},
+    {"n": 2, "title": null, "text": "Peel and mince the garlic. Chop broccoli florets into bite-size pieces. Thinly slice Brussels sprouts. Trim and thinly slice mini sweet peppers into rounds. Check Castelvetrano olives, remove any pits, and halve the olives. Zest, halve, and juice the lemon(s)."},
+    {"n": 3, "title": null, "text": "Heat 1 tbsp (2 tbsp) olive oil in a large skillet over medium-high heat. Add minced garlic, chopped broccoli florets, and a pinch of salt and pepper. Cook, tossing occasionally, until broccoli is lightly browned and crisp-tender, 4 to 6 minutes. Turn off the heat, add lemon zest, and toss."},
+    {"n": 4, "title": null, "text": "Add 2 tbsp (4 tbsp) lemon juice, hemp seeds, white miso paste, ¼ cup (½ cup) water, and 2 tbsp (4 tbsp) olive oil to a blender. Blend miso power dressing on high until smooth. Taste, and add salt as necessary."},
+    {"n": 5, "title": null, "text": "Add seared broccoli florets, sliced Brussels sprouts, 3 tbsp (6 tbsp) miso power dressing, and sunflower seeds to a large bowl. Toss the sprouting broccoli salad."},
+    {"n": 6, "title": null, "text": "Divide cooked farro between bowls and top with sprouting broccoli salad. Drizzle with remaining miso power dressing. Top with sliced mini sweet peppers and halved Castelvetrano olives. Dig in!"}
+  ],
+  "tips": [
+    "* This ingredient will be split between steps.",
+    "Substitute: radishes for mini sweet peppers"
+  ],
+  "cuisine_tags": ["Mediterranean", "Fusion"],
+  "ingredient_tags": ["broccoli", "brussels sprouts", "farro", "sweet peppers"],
+  "item_tags": ["miso", "hemp seeds", "sunflower seeds", "castelvetrano olives", "lemon"],
+  "issues": null
+}

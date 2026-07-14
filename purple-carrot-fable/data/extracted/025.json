@@ -1,0 +1,30 @@
+{
+  "pair": 25,
+  "title": "Sunflower Chickpea Sandwiches",
+  "subtitle": "with Dijon Mustard & Radishes",
+  "servings": "2",
+  "cook_time": "5 min",
+  "nutrition": {"calories": "660", "fat": "25 g", "carbohydrates": "77 g", "protein": "26 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "13.4 oz chickpeas",
+    "1 lemon",
+    "6 radishes",
+    "2 tbsp Follow Your Heart® Soy-Free Vegenaise®",
+    "4 tsp Dijon mustard",
+    "¼ cup sunflower seeds",
+    "4 slices sourdough bread"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Drain and rinse the chickpeas. Halve and juice the lemon. Trim and thinly slice the radishes. Add chickpeas to a large bowl and mash with a fork. Add lemon juice, Vegenaise, Dijon mustard, sunflower seeds, and a pinch of salt and pepper to the mashed chickpeas, and stir."},
+    {"n": 2, "title": null, "text": "Toast the sourdough bread. Add half the sunflower chickpea salad and some sliced radish to one slice of sourdough toast. Top with another slice of sourdough toast to close the sandwich. Repeat to make the second sandwich."}
+  ],
+  "tips": [],
+  "cuisine_tags": ["American"],
+  "ingredient_tags": ["chickpeas", "sourdough bread", "radishes", "sunflower seeds"],
+  "item_tags": ["dijon mustard", "vegenaise", "lemon"],
+  "single_page": true,
+  "issues": null
+}

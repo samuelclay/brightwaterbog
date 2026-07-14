@@ -1,0 +1,42 @@
+{
+  "pair": 24,
+  "title": "Mushroom Cheddar Black Bean Burgers",
+  "subtitle": "with Garlic Aioli & Carrot Fries",
+  "servings": "2 (4)",
+  "cook_time": "35 (45) min",
+  "nutrition": {"calories": "780", "fat": "33 g", "carbohydrates": "91 g", "protein": "26 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "2 carrots",
+    "4 oz mushrooms",
+    "1 onion*",
+    "2 tsp fajita seasoning*",
+    "13.4 oz black beans",
+    "2 garlic cloves*",
+    "2 tbsp all-purpose flour",
+    "2 oz vegan shredded cheddar",
+    "¼ cup Follow Your Heart® Soy-Free Vegenaise®",
+    "2 potato buns"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat the oven to 425°F. Peel the carrots, slice into sticks, and place on a baking sheet. Add 2 tsp (4 tsp) vegetable oil, toss to coat, and sprinkle with salt and pepper. Bake carrot fries until tender and browned in spots, 18 to 22 minutes."},
+    {"n": 2, "title": null, "text": "Thinly slice the mushrooms. Halve the onion(s), mince one half (1 onion), and thinly slice the other half (1 onion). Heat 2 tsp (4 tsp) vegetable oil in a large nonstick skillet over medium-high heat. Add sliced mushrooms, sliced onion, and just ½ tsp (1 tsp) fajita seasoning. Cook until mushrooms are browned in places, 5 to 7 minutes. Transfer the sautéed vegetables to a bowl."},
+    {"n": 3, "title": null, "text": "Drain and rinse the black beans. Peel and mince the garlic. Add just ½ cup (1 cup) minced onion, remaining fajita seasoning, black beans, just half the minced garlic, and flour to a large bowl. Mix with your hands, crushing the beans, until burger mix is sticky and uniform, and form into 2 (4) patties about 1 inch thick."},
+    {"n": 4, "title": null, "text": "Heat 2 tbsp (4 tbsp) vegetable oil in the large nonstick skillet over medium-high heat. Add black bean patties and cook until crisp and heated through, 3 to 5 minutes per side. Remove skillet from heat, top cooked black bean patties with cheddar, and cover until melted, 3 to 5 minutes."},
+    {"n": 5, "title": null, "text": "Add remaining minced garlic, Vegenaise, and a pinch of salt to a small bowl. Mix the garlic aioli."},
+    {"n": 6, "title": null, "text": "Toast the potato buns. Spread garlic aioli on the top half of each bun, and place black bean patties on the bottom halves. Top with sautéed vegetables. Serve the mushroom cheddar black bean burgers with carrot fries and garlic aioli for dipping. Dig in!"}
+  ],
+  "tips": [
+    "* These ingredients will be split between steps.",
+    "TIPS: Don't forget to wash all produce under running water, and wipe mushrooms clean with a damp kitchen towel. We will use this skillet again.",
+    "TIP: Keep any remaining minced onion for your own use.",
+    "TIP: Add more oil as necessary to crisp the burgers.",
+    "Ingredients listed for 2 servings—if you're making 4 servings, please double your ingredients by using both bags provided. Directions for 4 servings indicated in parentheses."
+  ],
+  "cuisine_tags": ["American", "Comfort Food"],
+  "ingredient_tags": ["black beans", "mushrooms", "carrots", "potato buns", "vegan cheddar"],
+  "item_tags": ["fajita seasoning", "vegenaise", "garlic", "all-purpose flour"],
+  "issues": null
+}

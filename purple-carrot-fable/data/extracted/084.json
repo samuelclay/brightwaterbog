@@ -1,0 +1,42 @@
+{
+  "pair": 84,
+  "title": "Greek-Style Cauliflower Steaks",
+  "subtitle": "with Tzatziki Sauce and Mashed Yams",
+  "servings": "2",
+  "cook_time": "35 minutes",
+  "nutrition": {"calories": "910", "fat": "69 g", "carbohydrates": "63 g", "protein": "21 g"},
+  "description": "Little touches of vinegar and garlic give mashed yams a depth of flavor similar to Greek skordalia, a delicious potato spread. While it's traditionally eaten with pita, you'll instead pair this vitamin-packed base with cauliflower steaks and zesty tzatziki sauce. Bright, fresh vegetables give the dish a pop of color and a delicious crunch.",
+  "from_your_kitchen": ["1 tbsp olive oil", "Salt and pepper"],
+  "ingredients": [
+    "1 head cauliflower",
+    "8 oz Japanese yam",
+    "1 cucumber",
+    "Fresh dill",
+    "¼ cup Follow Your Heart® Vegenaise®",
+    "1 lemon",
+    "¼ cup pumpkin seeds",
+    "¼ cup kalamata olives",
+    "2 oz radish",
+    "1 clove garlic°",
+    "1 tbsp white vinegar",
+    "1 tbsp hemp seeds"
+  ],
+  "tools": ["Baking sheet", "Small saucepan", "Box grater", "Small skillet"],
+  "steps": [
+    {"n": 1, "title": "PREPARE THE CAULIFLOWER", "text": "Set your oven to broil on high. Trim the leaves and about 1 inch of the stem off the cauliflower, leaving the whole head intact if possible. Slice the cauliflower, from the top down, into 1 inch thick steaks. On a baking sheet gently coat the steaks in 1 tbsp olive oil and season with salt and pepper. Place on the middle rack and broil until well-browned, about 18 to 24 minutes."},
+    {"n": 2, "title": "COOK THE JAPANESE YAM", "text": "Peel the Japanese yam and chop into large pieces. Transfer to a small saucepan, cover with 1 inch water, and add a pinch of salt. Bring the yams to a boil and cook until fork tender, about 10 to 12 minutes. Drain, return to the saucepan, and cover to keep warm."},
+    {"n": 3, "title": "MIX THE TZATZIKI SAUCE", "text": "Grate the cucumber on the largest side of a box grater. Squeeze out the excess water and add the grated cucumber to a medium bowl. Chop the dill fronds and add them to the bowl along with the Vegenaise, juice from half the lemon, and a pinch of salt. Stir well to combine and place in the refrigerator until you're ready to serve."},
+    {"n": 4, "title": "PREPARE THE TOPPINGS", "text": "Place a small skillet over medium heat and add the pumpkin seeds. Cook until fragrant and toasted, about 4 to 6 minutes. Check the kalamata olives for any pits and then roughly chop. Thinly slice the radish."},
+    {"n": 5, "title": "MASH THE YAMS", "text": "With the back of a fork, mash the Japanese yams until they're relatively smooth. Grate the garlic into the saucepan using a microplane or the smallest side of the box grater. Add the white vinegar and a pinch of salt and stir to combine."},
+    {"n": 6, "title": "SERVE", "text": "Thinly slice the remaining lemon half. Spread the mashed yams on large plates and top with cauliflower steaks. Drizzle with tzatziki sauce and sprinkle with kalamata olives, toasted pumpkin seeds, hemp seeds, and radish. Serve with lemon slices."}
+  ],
+  "tips": [
+    "TIP: If some florets fall off the steaks, roast them! They'll be delicious, too.",
+    "TIP: Dill fronds are the wispy dark green leaves on the thick stems.",
+    "°Find a clove of garlic in the Butter Roasted Tomato Gratin recipe bag."
+  ],
+  "cuisine_tags": ["Greek", "Mediterranean"],
+  "ingredient_tags": ["cauliflower", "yam", "cucumber", "radish"],
+  "item_tags": ["kalamata olives", "pumpkin seeds", "hemp seeds", "white vinegar", "vegenaise", "dill"],
+  "issues": null
+}

@@ -1,0 +1,39 @@
+{
+  "pair": 39,
+  "title": "Roasted Sweet Potatoes & Beluga Lentils",
+  "subtitle": "with Citrus Pecan Salad & Chipotle Crema",
+  "servings": "2 (4)",
+  "cook_time": "30 (40) min",
+  "nutrition": {"calories": "660", "fat": "25 g", "carbohydrates": "98 g", "protein": "25 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "½ cup beluga lentils",
+    "2 sweet potatoes",
+    "2 oranges",
+    "½ oz fresh cilantro",
+    "¼ cup pecans",
+    "2 oz Treeline® Soft French-Style Cashew Cheese",
+    "1 garlic clove",
+    "2.5 oz Forager Project® Organic Dairy-Free Cashewmilk Yogurt",
+    "¼ tsp chipotle morita spice"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat the oven to 425°F. Rinse and sort the beluga lentils. Add lentils and 1¼ cups (2½ cups) water to a medium saucepan. Bring to a boil, cover, reduce heat to low, and simmer until lentils are tender and water is absorbed, 20 to 23 minutes. Drain any remaining water, transfer lentils to a bowl, and rinse the saucepan."},
+    {"n": 2, "title": null, "text": "Halve sweet potatoes lengthwise, and cut each half into 3 to 4 long wedges. Transfer to a baking sheet cut side down, coat with 1 tbsp (2 tbsp) olive oil, and sprinkle with salt and pepper. Roast until tender, 22 to 26 minutes."},
+    {"n": 3, "title": null, "text": "Peel the oranges and chop into bite-size pieces. Pick cilantro leaves and reserve the tender stems. Add chopped orange, cilantro leaves and stems, pecans, and a pinch of salt to a medium bowl, and stir to combine. Crumble cashew cheese into the bowl, and gently toss the citrus pecan salad. Peel and mince the garlic."},
+    {"n": 4, "title": null, "text": "In a small bowl, combine the yogurt and ⅛ tsp (¼ tsp) chipotle morita spice. Stir the chipotle crema."},
+    {"n": 5, "title": null, "text": "Return the medium saucepan to medium heat with 1 tbsp (2 tbsp) olive oil. Add minced garlic and cook until golden and toasted, 2 to 3 minutes. Add cooked lentils and cook until heated through. Taste, and add salt as necessary."},
+    {"n": 6, "title": null, "text": "Slightly mash the sweet potatoes with a fork. Smear chipotle crema on large plates. Top with roasted sweet potatoes, beluga lentils and citrus pecan salad. Drizzle with olive oil. Bon appétit!"}
+  ],
+  "tips": [
+    "TIP: We will use this saucepan again",
+    "TIP: Add more chipotle morita spice if you prefer.",
+    "This item is spicy. (chipotle morita spice)"
+  ],
+  "cuisine_tags": ["Latin American", "Fusion"],
+  "ingredient_tags": ["sweet potato", "lentils", "oranges", "pecans"],
+  "item_tags": ["chipotle", "cashew cheese", "cashewmilk yogurt", "cilantro"],
+  "issues": null
+}

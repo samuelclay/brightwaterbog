@@ -1,0 +1,25 @@
+{
+  "pair": 99,
+  "title": "Cornmeal Arepas",
+  "subtitle": "with Black Beans and Zucchini Citrus Salsa",
+  "servings": "2",
+  "cook_time": "35 minutes",
+  "nutrition": {"calories": "880", "fat": "34 g", "carbohydrates": "148 g", "protein": "27 g"},
+  "description": "Arepas are tender, pan seared corn cakes made of masa harina (maize flour). The masa harina is finely ground flour traditionally usually used for tamales and corn tortillas. The dough will be slightly sticky when ready. Although delicious on their own, we've taken them to another level by adding a zucchini citrus salsa.",
+  "from_your_kitchen": ["2 tbsp + 2 tsp olive oil", "Salt and pepper"],
+  "ingredients": ["1 cup + 2 tbsp masa harina", "2 tbsp flour", "2 tbsp vegan butter", "1 tbsp turbinado sugar", "1 orange", "1 onion", "1 zucchini", "2 oz radish", "1 lime", "1 can black beans", "3 oz mixed greens"],
+  "tools": ["Small saucepan", "Large nonstick skillet"],
+  "steps": [
+    {"n": 1, "title": "MAKE THE AREPA MIX", "text": "In a large bowl, combine the masa harina, flour, vegan butter, turbinado sugar, ¼ tsp salt, and 1 cup hot tap water. Mix dough well with a wooden spoon to combine."},
+    {"n": 2, "title": "SUPREME THE ORANGE", "text": "Trim off the top and bottom of the orange with a knife. Set the fruit on end and cut the skin away. Over a medium bowl, cut out each section of the fruit by inserting the blade of the knife between the flesh and the membrane on both sides. Squeeze any remaining juice into the bowl from the membrane."},
+    {"n": 3, "title": "PREPARE THE SALSA", "text": "Peel, halve, and thinly slice the onion. Add as much or as little as you'd like to the medium bowl with the orange. Dice the zucchini. Thinly slice the radishes. Add the zucchini, radishes, 2 tsp olive oil, juice from half of the lime, and a pinch of salt and pepper to the bowl and toss salsa well to combine."},
+    {"n": 4, "title": "WARM THE BEANS", "text": "Drain and rinse the black beans. Place a small saucepan over low heat and add the black beans with ½ cup water. Cook, stirring occasionally, until they are warmed through, about 4 to 5 minutes. Mash beans with a fork and season with salt. Cover to keep warm."},
+    {"n": 5, "title": "MAKE THE AREPAS", "text": "Place a large nonstick skillet over medium heat and add 1 tbsp olive oil. To form the arepas, place about ¼ cup of the batter in your hands and roll it into a ball. Press gently into a flat circle and lay into the skillet. Cook the arepas until they are browned on the bottom and begin to firm up, about 5 minutes. Flip the arepas, add another 1 tbsp olive oil, and cook on the second side, about 3 to 5 minutes."},
+    {"n": 6, "title": "SERVE IT UP", "text": "Cut the remaining lime half into wedges. To serve, spread the black beans on the cornmeal arepas. Top with some of the zucchini citrus salsa and mixed greens. Serve the arepas with any remaining salsa and lime wedges. Enjoy!"}
+  ],
+  "tips": ["TIP: The dough will resemble the texture of pizza dough — fairly wet but easy to handle.", "TIP: You can simply peel and chop the orange if you'd prefer.", "TIP: Slice the onion as thinly as possible. No need to use all of it in your salsa.", "TIP: You can eyeball the amount of dough or measure it out in ¼ cups."],
+  "cuisine_tags": ["Latin American"],
+  "ingredient_tags": ["black beans", "masa harina", "zucchini", "radish"],
+  "item_tags": ["vegan butter", "turbinado sugar", "orange", "lime"],
+  "issues": null
+}

@@ -1,0 +1,39 @@
+{
+  "pair": 87,
+  "title": "Kimchi Quesadilla",
+  "subtitle": "with Radish Pico de Gallo and Lime Crema",
+  "servings": "2",
+  "cook_time": "25 minutes",
+  "nutrition": {"calories": "520", "fat": "14 g", "carbohydrates": "69 g", "protein": "25 g"},
+  "description": "What's better than a crispy quesadilla filled with smooth black beans and bright kimchi? Nothing — except for that it takes less than 30 minutes to prepare. Crunchy radishes add a great bite to classic pico de gallo — feel free to chop them however you'd like to create texture.",
+  "from_your_kitchen": ["2 tsp vegetable oil", "Salt"],
+  "ingredients": [
+    "1 tomato",
+    "1 shallot",
+    "2 oz radishes",
+    "Fresh cilantro",
+    "1 lime",
+    "3 tbsp Follow Your Heart® sour cream",
+    "1 can black beans",
+    "1 tsp Mexican chile spice",
+    "4 oz kimchi",
+    "2 flour tortillas"
+  ],
+  "tools": ["Large nonstick skillet"],
+  "steps": [
+    {"n": 1, "title": "MAKE THE PICO DE GALLO", "text": "Dice the tomato. Peel and mince the shallot. Slice the radishes into thin sticks. Chop the cilantro leaves and tender stems. Combine everything in a medium bowl. Halve the lime and add the juice from half. Add a pinch of salt and stir radish pico de gallo to combine."},
+    {"n": 2, "title": "PREPARE THE \"CREMA\"", "text": "Combine the Follow Your Heart® sour cream and remaining lime juice in a small bowl. Add a pinch of salt and stir the lime crema."},
+    {"n": 3, "title": "MASH THE BEANS", "text": "Place a large nonstick skillet over medium heat. Pour ¼ cup of liquid from the can of beans into a measuring cup and drain the rest. Add the black beans and the reserved liquid to the skillet along with the Mexican chile spice. Cook beans until they are hot, about 5 to 7 minutes. Mash them into a spreadable paste and season with salt."},
+    {"n": 4, "title": "BUILD THE QUESADILLAS", "text": "Drain any liquid from the kimchi and roughly chop. Lay the flour tortillas flat on a clean work surface and top half of each tortilla with the mashed beans, spreading them out. Top the beans with the kimchi, fold tortillas, and set aside."},
+    {"n": 5, "title": "CRISP 'EM UP", "text": "Wipe the skillet clean and return to medium heat with 2 tsp vegetable oil. Once the oil is hot, add the quesadillas. Cook until the bottom is lightly browned, about 2 to 3 minutes, then carefully flip to brown the other side; another 2 to 3 minutes."},
+    {"n": 6, "title": "SERVE", "text": "Cut each quesadilla into 3 pieces and divide between plates. Serve with radish pico de gallo and lime crema. Enjoy!"}
+  ],
+  "tips": [
+    "TIP: If beans are a bit dry, add water by the tablespoon to loosen them up.",
+    "TIP: You can cook the quesadillas in batches if they don't fit in the skillet together."
+  ],
+  "cuisine_tags": ["Mexican", "Korean", "Fusion"],
+  "ingredient_tags": ["black beans", "kimchi", "tortillas", "radish"],
+  "item_tags": ["mexican chile spice", "vegan sour cream", "cilantro", "lime"],
+  "issues": null
+}

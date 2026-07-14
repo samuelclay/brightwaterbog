@@ -1,0 +1,45 @@
+{
+  "pair": 131,
+  "image": "102b_IMG_9339.jpg",
+  "meal_type": null,
+  "title": "Sweet Potato Lasagna",
+  "subtitle": "with Tofu Ricotta and Marinated Bean Salad",
+  "servings": null,
+  "cook_time": null,
+  "nutrition": null,
+  "description": null,
+  "from_your_kitchen": ["4 tbsp olive oil", "Salt and pepper"],
+  "ingredients": [
+    "8 oz sweet potato",
+    "1 shallot",
+    "3 cloves garlic*",
+    "Fresh oregano*",
+    "1 can cannellini beans",
+    "1 can crushed tomatoes",
+    "1 lemon",
+    "1 package Wildwood® Sprouted Organic Tofu",
+    "¼ tsp red chile flakes 🌶",
+    "4 oz baby kale"
+  ],
+  "tools": ["Medium oven-safe skillet with lid", "Food processor", "Large skillet"],
+  "steps": [
+    {"n": 1, "title": "PREPARE THE VEGETABLES", "text": "Peel the sweet potato and slice into thin half-moons, about ¼ inch thick. Peel and dice the shallot. Mince 2 cloves garlic. Finely chop the oregano leaves. Drain and rinse the cannellini beans."},
+    {"n": 2, "title": "START YOUR SAUCE", "text": "Place a medium oven-safe skillet over medium heat with 1 tbsp olive oil. Add the diced shallot and a pinch of salt. Cook until the shallot is translucent, 1 to 2 minutes. Stir in the minced garlic and cook until fragrant, about 1 minute. Add the crushed tomatoes, half of the chopped oregano, and a pinch of salt. Reduce heat to medium-low and bring sauce to a simmer."},
+    {"n": 3, "title": "SIMMER THE SWEET POTATOES", "text": "Add the sliced sweet potatoes to the sauce, cover with lid, and cook until tender (you should be able to pierce the potatoes easily with a fork), about 10 to 12 minutes. Set your oven to broil on high."},
+    {"n": 4, "title": "MAKE THE TOFU RICOTTA", "text": "Zest and halve the lemon. Drain the Wildwood® tofu and add it to a food processor along with ½ tsp chopped oregano, juice from half the lemon, 2 tbsp olive oil, ½ tsp salt, and ½ tsp pepper. Blend tofu ricotta until smooth. With a large spoon or spatula, evenly spread the tofu ricotta over the sweet potatoes and sauce. Broil lasagna until the top begins to brown, about 3 to 5 minutes."},
+    {"n": 5, "title": "PREPARE THE BEAN SALAD", "text": "Place a large skillet over medium heat with 1 tbsp olive oil. Finely mince the remaining clove of garlic. Add garlic, cannellini beans, ½ tsp lemon zest, as many of the red chile flakes as you'd like, and ¼ tsp salt to the skillet. Cook until just warm, about 2 to 3 minutes. Squeeze juice from the remaining lemon half into the beans and add the baby kale. Toss well to combine."},
+    {"n": 6, "title": "SERVE AND EAT UP", "text": "Cut the sweet potato lasagna into pieces. Gently remove the pieces with a large spatula and place on large plates. Sprinkle with the remaining chopped oregano and serve with the marinated bean salad. Enjoy!"}
+  ],
+  "tips": [
+    "TIP: You could use a mandoline to slice the sweet potatoes.",
+    "TIP: No oven-safe skillet? Make the sauce in a saucepan, and assemble in a baking dish.",
+    "*These items will be split between multiple steps.",
+    "🌶 This item is spicy.",
+    "Rinse and dry the produce.",
+    "Handwritten note on step 3: printed \"10 to 12\" minutes crossed out and replaced with \"20 MIN\"."
+  ],
+  "cuisine_tags": ["Italian", "Comfort Food"],
+  "ingredient_tags": ["sweet potato", "tofu", "cannellini beans", "kale", "tomatoes"],
+  "item_tags": ["oregano", "red chile flakes", "lemon", "crushed tomatoes"],
+  "issues": "Directions-side landscape card only; the matching front card (hero photo, summary, nutrition) is not present, so servings/cook time/nutrition are null."
+}

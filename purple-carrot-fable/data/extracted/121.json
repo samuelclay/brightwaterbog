@@ -1,0 +1,42 @@
+{
+  "pair": 121,
+  "title": "Loaded Burritos",
+  "subtitle": "with Tofu \"Chorizo\" and Spanish Rice",
+  "servings": "2",
+  "cook_time": "35 minutes",
+  "nutrition": {"calories": "990", "fat": "45 g", "carbohydrates": "137 g", "protein": "39 g"},
+  "description": "The Spanish rice you'll use in these loaded burritos is packed with goodness, including paprika, bell peppers, celery, onions, and kaniwa (a grain similar to quinoa). There are so many delicious ingredients in this recipe that you may have trouble keeping all of the filling inside the burritos. Stuff them with what you can and serve any remaining beans and rice on the side.",
+  "from_your_kitchen": ["1 tbsp + 2 tsp vegetable oil", "Salt"],
+  "ingredients": [
+    "¼ cup Spanish rice",
+    "1 onion",
+    "2 cloves garlic*",
+    "1 can black beans",
+    "1 package WildWood® organic sprouted tofu",
+    "4 oz Lacinato kale",
+    "2 oz roasted red peppers",
+    "½ tsp Mexican oregano",
+    "1 tsp Mexican chile spice",
+    "2 whole wheat tortillas",
+    "¼ cup Follow Your Heart® Chipotle Vegenaise®",
+    "1 lime"
+  ],
+  "tools": ["Small saucepan", "Large nonstick skillet"],
+  "steps": [
+    {"n": 1, "title": "COOK THE RICE", "text": "Add the Spanish rice and ⅔ cup water to a small saucepan. Bring to a boil, reduce heat to low and cover. Cook until all of the water is absorbed and the rice is tender, about 15 to 20 minutes."},
+    {"n": 2, "title": "PREP THE VEGETABLES", "text": "Peel and dice the onion. Peel and mince 1 clove garlic. Drain and rinse the black beans. Drain the Wildwood® tofu and dry well with paper towels. Destem the Lacinato kale, keeping the leaves as intact as much as possible. Massage kale leaves gently with your fingers to soften them slightly. Thinly slice the roasted red peppers."},
+    {"n": 3, "title": "PREPARE THE \"CHORIZO\"", "text": "Place a large nonstick skillet over medium-high heat with 1 tbsp vegetable oil. Add the diced onion and garlic and cook until softened, about 4 to 5 minutes. Crumble the tofu into the skillet and add the Mexican oregano, Mexican chile spice, and ½ tsp salt. Cook until the tofu is browned in places and has dried out a little, about 7 to 9 minutes."},
+    {"n": 4, "title": "BUILD THE BURRITOS", "text": "Lay the tortillas on a clean work surface. Top with Spanish rice, tofu chorizo, roasted red peppers, ¼ cup black beans, and some of the massaged kale. Roll the burritos, tucking in the sides as you go."},
+    {"n": 5, "title": "SEAR THE BURRITOS", "text": "Wipe the skillet clean and return to medium heat with 2 tsp vegetable oil. Once hot, add the burritos to the skillet, seam side down, and cook until golden brown on the bottom, about 2 to 3 minutes. Carefully flip the burritos and cook an additional 2 minutes."},
+    {"n": 6, "title": "ADD THE FINISHING TOUCHES", "text": "In a small bowl, mix the Follow Your Heart® Chipotle Vegenaise® with the juice from half of the lime. Cut the other half into wedges. Slice burritos in half and serve with chipotle lime sauce, any remaining kale and black beans, and lime wedges."}
+  ],
+  "tips": [
+    "*Find a head of garlic in the Pumpkin Matar recipe bag.",
+    "TIP: Wrap tortillas in paper towels and microwave for 10 seconds to make them more pliable.",
+    "TIP: Wrap you burritos in foil before slicing for easy eating."
+  ],
+  "cuisine_tags": ["Mexican"],
+  "ingredient_tags": ["tofu", "black beans", "rice", "kale", "tortillas"],
+  "item_tags": ["chipotle vegenaise", "mexican oregano", "mexican chile spice", "roasted red peppers", "lime"],
+  "issues": null
+}

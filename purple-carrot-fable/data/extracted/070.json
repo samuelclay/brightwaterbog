@@ -1,0 +1,39 @@
+{
+  "pair": 70,
+  "title": "Chickpea Massaman Curry",
+  "subtitle": "with Farro & Baby Bok Choy",
+  "servings": "2 (4)",
+  "cook_time": "30 (40) min",
+  "nutrition": {"calories": "900", "fat": "35 g", "carbohydrates": "110 g", "protein": "31 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "¾ cup farro",
+    "1 red bell pepper",
+    "6 oz baby bok choy",
+    "2 carrots",
+    "13.4 oz chickpeas",
+    "1 tbsp massaman curry paste",
+    "11 oz coconut milk",
+    "4 tsp tamari",
+    "2 tsp turbinado sugar",
+    "1 lime*"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Add the farro and a pinch of salt to a medium saucepan, cover with 1 inch of water, and bring to a boil. Reduce heat to medium and cook until grains are tender, 18 to 20 minutes. Drain and return grains to the saucepan, off heat."},
+    {"n": 2, "title": null, "text": "Trim, deseed, and chop the red bell pepper(s) into 1 inch pieces. Trim and chop the baby bok choy into 2 inch pieces. Peel and thinly slice the carrots. Drain and rinse the chickpeas."},
+    {"n": 3, "title": null, "text": "Heat 1 tbsp (2 tbsp) vegetable oil in a large pot over medium-high heat. Add chopped red bell pepper, chopped baby bok choy, sliced carrot, and a pinch of salt and pepper. Cook until vegetables begin to soften, 3 to 5 minutes."},
+    {"n": 4, "title": null, "text": "Add the massaman curry paste and cook until fragrant, about 1 minute. Add chickpeas, coconut milk, tamari, turbinado sugar, and a pinch of salt. Bring the curry to a simmer and cook until chickpeas are warmed, 4 to 6 minutes."},
+    {"n": 5, "title": null, "text": "Halve the lime(s), juice one half (1 lime), and divide the other half (1 lime) into wedges. Remove curry from heat and add lime juice. Taste, and add salt as necessary."},
+    {"n": 6, "title": null, "text": "Divide the cooked farro between bowls. Top with chickpea massaman curry and serve with lime wedges. Bon appétit!"}
+  ],
+  "tips": [
+    "* This ingredient will be split between steps.",
+    "Substitute: any color bell pepper for red bell pepper"
+  ],
+  "cuisine_tags": ["Thai"],
+  "ingredient_tags": ["chickpeas", "farro", "bok choy", "carrots", "bell pepper"],
+  "item_tags": ["massaman curry paste", "coconut milk", "tamari", "turbinado sugar", "lime"],
+  "issues": "Handwritten annotations on both cards: front adds '+ broccoli or zuchini' to ingredients; back notes a cooking order: 'carrots 1st, red pepper 2nd, broc. or zuch 3rd, bok choy 4th'."
+}

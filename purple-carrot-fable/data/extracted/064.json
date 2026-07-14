@@ -1,0 +1,42 @@
+{
+  "pair": 64,
+  "title": "Black Bean Falafel",
+  "subtitle": "with Avocado & Lime Aioli",
+  "servings": "2",
+  "cook_time": "35 min",
+  "nutrition": {"calories": "690", "fat": "30 g", "carbohydrates": "73 g", "protein": "26 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "13.4 oz black beans",
+    "1 garlic clove*",
+    "1 onion",
+    "1 cucumber",
+    "1 lime*",
+    "3 tbsp Follow Your Heart® Soy-Free Vegenaise®",
+    "½ cup garbanzo bean flour",
+    "2 tsp zhoug seasoning",
+    "4 oz baby spinach",
+    "1 avocado"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Drain and rinse the black beans. Peel and mince the garlic. Peel and finely dice the onion. Slice the cucumber into rounds. Zest, halve, and juice the lime."},
+    {"n": 2, "title": null, "text": "In a small bowl, combine just ¼ tsp minced garlic, just ½ tsp lime zest, just 2 tsp lime juice, Vegenaise, and a pinch of salt. Mix the lime aioli well."},
+    {"n": 3, "title": null, "text": "Add the black beans, remaining minced garlic, ½ cup diced onion, garbanzo bean flour, zhoug seasoning, and ½ tsp salt to a large bowl. Mix with your hands, crushing the beans, until dough is sticky and uniform. Form dough into approximately six patties, each about 2 inches wide."},
+    {"n": 4, "title": null, "text": "Heat 2 tbsp vegetable oil to a large nonstick skillet over medium-high heat. Add black bean falafel and cook until crisp and heated through, 3 to 5 minutes per side."},
+    {"n": 5, "title": null, "text": "Add the baby spinach, remaining lime juice, 2 tsp olive oil, and a pinch of salt and pepper to a large bowl and toss. Halve the avocado, remove the pit, and thinly slice the flesh. Divide the baby spinach between bowls and top with black bean falafel, sliced cucumber, and sliced avocado. Drizzle with lime aioli. Dig in!"}
+  ],
+  "tips": [
+    "* This ingredient will be split between steps.",
+    "TIP: If you have a Microplane® grater, you can also use that to grate the garlic.",
+    "TIP: You can use a food processor for this step if you'd prefer.",
+    "TIP: Add more oil as necessary to crisp the falafel.",
+    "TIP: If you'd like, top with remaining diced onion.",
+    "Garbanzo Bean Flour: Are you cooking with garbanzo bean flour yet? If not, let us convince you to try it! This flour is packed with protein, fiber, and vitamins, plus it's gluten free. And while some gluten-free flours don't hold up when baked, garbanzo bean flour has a sturdy yet tender texture that's perfect for quick breads, muffins, and fritters. Make it a staple in your kitchen!"
+  ],
+  "cuisine_tags": ["Middle Eastern", "Fusion"],
+  "ingredient_tags": ["black beans", "spinach", "avocado", "cucumber"],
+  "item_tags": ["garbanzo bean flour", "zhoug seasoning", "vegenaise", "lime"],
+  "issues": null
+}

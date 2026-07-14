@@ -1,0 +1,25 @@
+{
+  "pair": 110,
+  "title": "Shakshuka",
+  "subtitle": "with Poached Tofu and Crispy Kale Chips",
+  "servings": "2",
+  "cook_time": "30 minutes",
+  "nutrition": {"calories": "610", "fat": "22 g", "carbohydrates": "79 g", "protein": "28 g"},
+  "description": "Middle Eastern shakshuka tends to be a breakfast dish, but it translates well to dinner. You'll poach creamy, protein-packed tofu instead of eggs. The sauce comes together fairly quickly, and will gain flavor as it simmers. When you're ready to dollop the tofu in, use a large, rounded spoon for best results.",
+  "from_your_kitchen": ["2 tbsp + 1 tsp olive oil", "Salt and pepper"],
+  "ingredients": ["¾ cup freekeh", "1 onion", "1 red bell pepper", "2 cloves garlic°", "4 oz red kale", "½ tsp cumin", "½ tsp sweet paprika", "½ tsp red chile flakes", "1 can fire-roasted tomatoes", "1 package silken tofu", "Fresh cilantro"],
+  "tools": ["Small saucepan", "Large skillet", "Baking sheet"],
+  "steps": [
+    {"n": 1, "title": "MAKE THE FREEKAH", "text": "Preheat the oven to 375°F. Add the freekeh, 1¼ cups water, and a pinch of salt to a small saucepan. Bring to a boil, cover, and cook until all of the water is absorbed and the grains are tender, about 20 to 25 minutes."},
+    {"n": 2, "title": "PREPARE THE VEGETABLES", "text": "Peel and slice the onion. Deseed and thinly slice the red bell pepper. Peel and slice the garlic. Destem the red kale and hand tear the leaves into large pieces."},
+    {"n": 3, "title": "START THE SHAKSHUKA", "text": "Place a large skillet over medium-high heat with 2 tbsp olive oil. Add the sliced onion and red bell pepper, reduce heat to medium, and cook until soft, about 6 to 8 minutes. Add the garlic, cumin, paprika, and a pinch of the red chile flakes, and cook until fragrant, about 1 minute. Add the fire-roasted tomatoes and ½ cup water. Simmer until the sauce has thickened slightly, about 8 to 10 minutes."},
+    {"n": 4, "title": "MAKE THE KALE CHIPS", "text": "Add the red kale leaves to a baking sheet and toss with 1 tsp olive oil. Sprinkle with salt and pepper. Roast until crisp, about 8 to 10 minutes."},
+    {"n": 5, "title": "DOLLOP THE TOFU", "text": "Taste and season the shakshuka sauce with salt and pepper. Open the silken tofu. Use a large spoon to gently scoop out dollops of tofu and drop them into the sauce. Sprinkle with salt and pepper."},
+    {"n": 6, "title": "SERVE AND ENJOY", "text": "Chop the cilantro leaves and tender stems. Divide the freekeh between large plates and top with the shakshuka. Sprinkle with cilantro and serve with the crispy kale chips. Dig in!"}
+  ],
+  "tips": ["°Find a head of garlic in the Miso-Walnut Meatballs recipe bag.", "TIP: Add more of the red chile flakes depending on your affinity for heat."],
+  "cuisine_tags": ["Middle Eastern"],
+  "ingredient_tags": ["tofu", "freekeh", "kale", "bell pepper", "tomatoes"],
+  "item_tags": ["cumin", "sweet paprika", "red chile flakes", "fire-roasted tomatoes", "cilantro"],
+  "issues": null
+}

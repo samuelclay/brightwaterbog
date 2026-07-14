@@ -1,0 +1,25 @@
+{
+  "pair": 91,
+  "title": "Vegetable Chow Mein",
+  "subtitle": "with Sweet Potato and Garlic Tamari Sauce",
+  "servings": "2",
+  "cook_time": "30 minutes",
+  "nutrition": {"calories": "650", "fat": "9 g", "carbohydrates": "120 g", "protein": "22 g"},
+  "description": "This dish is our twist on a takeout favorite. Classic chow mein can be loaded with preservatives, but we've made it healthier and tastier and by adding fresh vegetables and using a simple tamari and garlic sauce.",
+  "from_your_kitchen": ["1 tbsp vegetable oil", "Salt"],
+  "ingredients": ["8 oz sweet potato", "1 clove garlic*", "5 oz button mushrooms", "1 red bell pepper", "5 oz bok choy", "11 oz fresh noodles", "2 tbsp agave", "3 tbsp tamari", "2 oz water chestnuts", "2 tbsp chile garlic sauce"],
+  "tools": ["Small saucepan", "Large nonstick skillet"],
+  "steps": [
+    {"n": 1, "title": "PREP THE VEGETABLES", "text": "Fill a small saucepan with water and place over high heat to boil. Peel the sweet potato with a peeler then continue peeling beyond the skin to make noodles. Peel and mince 1 clove garlic. Thinly slice the mushrooms. Deseed and thinly slice the red bell pepper. Trim the bok choy and roughly chop."},
+    {"n": 2, "title": "BEGIN TO COOK", "text": "Place a large nonstick skillet over high heat with 1 tbsp vegetable oil. Add sliced mushrooms and cook until browned in places, about 4 to 6 minutes. Add the sweet potato noodles, garlic, and red bell pepper. Cook until pepper is tender, about 2 to 3 minutes."},
+    {"n": 3, "title": "COOK THE NOODLES", "text": "Add the noodles to the boiling water and immediately stir. Reduce heat to medium and cook until just al dente, about 2 to 3 minutes. Drain and rinse with cool water to halt the cooking."},
+    {"n": 4, "title": "SAUCE IT UP", "text": "Add the agave, tamari, and ¼ cup water to the skillet, and reduce heat to medium. Cook until the sauce thickens slightly, about 1 minute. Add the bok choy and water chestnuts to the skillet and toss to combine. Cook until bok choy is bright green and just tender, about 2 to 3 minutes."},
+    {"n": 5, "title": "ADD THE NOODLES", "text": "Add the cooked noodles to the skillet with the vegetables, sprinkle with salt, and gently toss them with tongs or a fork until well combined. Let noodles simmer, tossing occasionally to heat through, about 2 to 3 minutes."},
+    {"n": 6, "title": "CHOW DOWN", "text": "Divide vegetable chow mein between large plates and top with the spicy chile garlic sauce. Grab your chopsticks and dig in!"}
+  ],
+  "tips": ["*Find a head of garlic in the Pumpkin Matar recipe bag."],
+  "cuisine_tags": ["Chinese"],
+  "ingredient_tags": ["noodles", "sweet potato", "mushrooms", "bok choy", "bell pepper"],
+  "item_tags": ["tamari", "agave", "water chestnuts", "chile garlic sauce"],
+  "issues": null
+}

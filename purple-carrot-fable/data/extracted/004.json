@@ -1,0 +1,84 @@
+{
+ "pair": 4,
+ "title": "Lemon Zucchini Noodles",
+ "subtitle": "with Cashew Cream & Crispy Artichoke Hearts",
+ "servings": "2",
+ "cook_time": "30 min",
+ "nutrition": {
+  "calories": "500",
+  "fat": "27 g",
+  "carbohydrates": "47 g",
+  "protein": "24 g"
+ },
+ "description": null,
+ "from_your_kitchen": null,
+ "ingredients": [
+  "½ cup cashews",
+  "13.75 oz artichoke hearts",
+  "2 zucchini",
+  "1 lemon*",
+  "1 garlic clove",
+  "2 tsp white miso paste",
+  "1 tbsp nutritional yeast",
+  "1 tbsp hemp seeds",
+  "¼ cup pumpkin seeds",
+  "½ tsp red chile flakes 🌶"
+ ],
+ "tools": null,
+ "steps": [
+  {
+   "n": 1,
+   "title": null,
+   "text": "Add cashews and ½ cup hot water to a small bowl, and let nuts soak for at least 10 minutes. Drain artichoke hearts and pat dry."
+  },
+  {
+   "n": 2,
+   "title": null,
+   "text": "Heat 1 tbsp olive oil in a large nonstick skillet over medium heat. Add artichoke hearts and cook until crispy in places, 5 to 8 minutes. Transfer crispy artichoke hearts to a plate and sprinkle with salt."
+  },
+  {
+   "n": 3,
+   "title": null,
+   "text": "Trim zucchini and slice lengthwise into ¼ inch thick planks. Stack the zucchini planks and cut into thin strips to make noodles."
+  },
+  {
+   "n": 4,
+   "title": null,
+   "text": "Zest and halve the lemon, juice one half, and cut the other half into wedges. Peel the garlic. Add soaked cashews and the soaking water, lemon juice, peeled garlic, white miso paste, nutritional yeast, and a pinch of salt and pepper to a blender. Blend on high until cashew cream is smooth."
+  },
+  {
+   "n": 5,
+   "title": null,
+   "text": "Return skillet to medium-high heat and add zucchini noodles. Sprinkle with salt and pepper and cook, tossing occasionally, until tender, 1 to 2 minutes."
+  },
+  {
+   "n": 6,
+   "title": null,
+   "text": "Divide zucchini noodles between serving bowls. Pour cashew cream over noodles and top with crispy artichoke hearts. Sprinkle with lemon zest, hemp seeds, pumpkin seeds, and as much of the red chile flakes as you'd like. Serve with lemon wedges. Tuck in!"
+  }
+ ],
+ "tips": [
+  "* This ingredient will be split between steps.",
+  "This item is spicy.",
+  "TIP: We will use this skillet again in a later step.",
+  "TIP: You can also use a spiralizer or mandoline to make the zucchini noodles."
+ ],
+ "cuisine_tags": [
+  "Italian",
+  "Mediterranean"
+ ],
+ "ingredient_tags": [
+  "zucchini",
+  "cashews",
+  "artichoke hearts"
+ ],
+ "item_tags": [
+  "white miso paste",
+  "nutritional yeast",
+  "hemp seeds",
+  "pumpkin seeds",
+  "red chile flakes",
+  "lemon"
+ ],
+ "issues": null
+}

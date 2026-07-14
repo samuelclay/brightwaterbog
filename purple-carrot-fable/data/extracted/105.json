@@ -1,0 +1,25 @@
+{
+  "pair": 105,
+  "title": "Wicked Healthy Chopped Salad",
+  "subtitle": "with Charred Vegetables and Ginger-Miso Dressing",
+  "servings": "2",
+  "cook_time": "30 minutes",
+  "nutrition": {"calories": "520", "fat": "19 g", "carbohydrates": "71 g", "protein": "22 g"},
+  "description": "This summer recipe comes from our good friends at Wicked Healthy, a Boston based Chef duo that want you to eat your vegetables and have them taste great. It can be easily adapted for a grill, so heat one up before you begin and forgo the skillet in Step 4. The garbanzo beans get pan toasted and dusted with a smoked nori spice: black and white sesame seeds with nori and smoky spices. Serve this meal family style lightly drizzled with dressing.",
+  "from_your_kitchen": ["1 tbsp olive oil", "Salt and pepper"],
+  "ingredients": ["½ head savoy cabbage", "10 oz zucchini", "1 can garbanzo beans", "5 oz lacinato kale", "3 scallions", "1 Thai chile", "Fresh cilantro", "Fresh mint", "1 orange", "Fresh ginger", "2 tbsp white miso paste", "1 tbsp sesame oil", "1 tbsp smoked nori spice*"],
+  "tools": ["Large nonstick skillet"],
+  "steps": [
+    {"n": 1, "title": "PREP THE GRILLED VEGETABLES", "text": "Halve the savoy cabbage and reserve half for the Okonomiyaki recipe if you have not made it yet. Cut the remaining cabbage in half. Cut the zucchini into planks, about 3 to 4 inches long. Drain the garbanzo beans and dry well with a paper towel."},
+    {"n": 2, "title": "PREP THE SALAD", "text": "Destem and roughly chop the lacinato kale. Thinly slice the scallions and Thai chile. Pick the cilantro and mint leaves from the stems and roughly chop."},
+    {"n": 3, "title": "MAKE THE DRESSING", "text": "Supreme the orange by trimming both ends and cutting away the peel and pith. Working over a medium bowl, remove the flesh segments, then squeeze out the remaining juice. Transfer the segments to a small bowl. Grate the ginger with a microplane (no need to peel) into the medium bowl with the orange juice and add the white miso paste and sesame oil. Whisk ginger-miso dressing to combine."},
+    {"n": 4, "title": "SEAR THE VEGETABLES", "text": "Place a large nonstick skillet over medium-high heat and add 2 tsp olive oil. Once hot, add the cabbage and zucchini and season with salt and pepper. Reduce the heat to medium and cook, turning vegetables occasionally until charred in places and tender, about 4 to 6 minutes. Transfer to a cutting board."},
+    {"n": 5, "title": "CRISP THE GARBANZOS", "text": "Return the skillet to medium-high heat and add 1 tsp olive oil. Add the garbanzos and cook, shaking the skillet frequently, until browned and crispy in places, about 2 to 3 minutes. Season with salt and add 1 tsp smoked nori spice."},
+    {"n": 6, "title": "BUILD THE SALAD", "text": "In a medium bowl, combine 1 tbsp ginger-miso dressing with the kale and massage with your hands for about 1 minute. Chop the charred vegetables. Serve the salad on a large platter with the kale, chopped vegetables, and crispy garbanzos. Top with scallion, chiles, orange, herbs, and remaining smoked nori spice. Serve with ginger-miso dressing. Dig in!"}
+  ],
+  "tips": ["* The head of cabbage included in this recipe is also for the Okonomiyaki.", "* This item will be split between multiple steps.", "Thai chiles are hot. If you're sensitive to spice, simply omit.", "Don't have a mircoplane? Peel the ginger and mince.", "This part of the dish can be grilled! Grill on high and cook until the vegetables are tender."],
+  "cuisine_tags": ["Japanese", "Fusion"],
+  "ingredient_tags": ["garbanzo beans", "cabbage", "zucchini", "kale"],
+  "item_tags": ["white miso paste", "sesame oil", "smoked nori spice", "ginger", "thai chile", "mint", "cilantro", "orange"],
+  "issues": null
+}

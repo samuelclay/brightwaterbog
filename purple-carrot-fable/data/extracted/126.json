@@ -1,0 +1,44 @@
+{
+  "pair": 126,
+  "title": "Creamy Mac N' Cheese",
+  "subtitle": "with Green Chiles and Garlic Broccoli",
+  "servings": "2",
+  "cook_time": "35 minutes",
+  "nutrition": {"calories": "880", "fat": "27 g", "carbohydrates": "129 g", "protein": "40 g"},
+  "description": "Creamy and decadent, no one will believe this mac n' cheese has a plant-based sauce! This family friendly meal can be made with or without the green chiles, which are generally on the milder side and packed with flavor. Buttery breadcrumbs coat the top and be sure to watch these closely in the oven, it should only take a few minutes. The garlic broccoli is a head nod to a childhood favorite; cooked last minute and served bright green.",
+  "from_your_kitchen": ["2 tbsp olive oil", "Salt and pepper"],
+  "ingredients": [
+    "6 oz pipette pasta",
+    "4 garlic cloves*",
+    "2 tbsp arrowroot starch",
+    "8 oz almond milk",
+    "1 lemon",
+    "1 packet dijon mustard",
+    "5 tbsp nutritional yeast",
+    "3 tbsp vegan parmesan",
+    "1 tbsp vegan butter",
+    "½ cup panko breadcrumbs",
+    "2 tbsp green chiles",
+    "8 oz broccoli florets"
+  ],
+  "tools": ["Large pot", "Large nonstick skillet with a lid", "Blender", "8x8 baking dish"],
+  "steps": [
+    {"n": 1, "title": "SET THE STAGE", "text": "Place a large pot of salted water over high heat. Once boiling, add the pipette pasta, stir, and cook until tender, about 8 minutes. Drain but do not rinse. Mince the garlic."},
+    {"n": 2, "title": "START THE SAUCE", "text": "Place a large nonstick skillet over medium-high heat with 1 tbsp olive oil. Set aside 1 tsp of the minced garlic for Step 6. Once hot, add the remaining garlic and cook until slightly toasted, about 1 to 2 minutes. Add the arrowroot starch and whisk continuously for 1 minute."},
+    {"n": 3, "title": "MAKE THE CHEESE SAUCE", "text": "Slowly whisk the almond milk into the large skillet and cook for another 2 minutes, stirring frequently. It's okay if this mixture is lumpy. Carefully transfer the sauce to a blender. Halve the lemon. Add juice from the lemon, dijon mustard, nutritional yeast, and vegan parmesan to the blender and season with salt and pepper. Blend, taste, and adjust seasoning with salt if necessary."},
+    {"n": 4, "title": "BUTTERY BREADCRUMBS", "text": "Set oven to broil on high. Melt the vegan butter in a microwave or small skillet. In a small bowl, combine the melted butter, panko breadcrumbs, and a pinch of salt."},
+    {"n": 5, "title": "PUT IT ALL TOGETHER", "text": "Return the cheese sauce to the large skillet and place over medium-low heat. Add as much or as little of the green chiles as you'd like to the sauce. Bring sauce to a simmer and stir in cooked pasta. Transfer mac n' cheese to a 8x8 baking dish and top with buttery breadcrumbs. Broil until golden brown, about 3 to 5 minutes."},
+    {"n": 6, "title": "SERVE IT UP", "text": "Rinse the large nonstick skillet and place over medium-high heat with 1 tbsp olive oil. Once hot, add the broccoli florets and reserved garlic. Cook until garlic is fragrant, about 1 minute. Add 2 tbsp water to create steam and cover. Cook until broccoli is just tender, about 4 to 5 minutes. Serve the creamy mac n' cheese on large plates with garlic broccoli. Dig in!"}
+  ],
+  "tips": [
+    "*This ingredient is split between multiple steps.",
+    "*The head of garlic included in this recipe bag is for all recipes in the box this week.",
+    "TIP: You will reuse this skillet, no need to rinse.",
+    "TIP: Omit the green chiles if you're sensitive to heat.",
+    "TIP: If you have time, let mac n' cheese stand for 5 minutes before serving."
+  ],
+  "cuisine_tags": ["American", "Comfort Food"],
+  "ingredient_tags": ["pasta", "broccoli"],
+  "item_tags": ["nutritional yeast", "vegan parmesan", "green chiles", "almond milk", "arrowroot starch", "panko breadcrumbs", "dijon mustard", "vegan butter"],
+  "issues": null
+}

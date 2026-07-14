@@ -1,0 +1,42 @@
+{
+  "pair": 57,
+  "title": "Coconut Lentil Soup",
+  "subtitle": "with Caraway Roasted Vegetables",
+  "servings": "2 (4)",
+  "cook_time": "30 (40) min",
+  "nutrition": {"calories": "840", "fat": "30 g", "carbohydrates": "112 g", "protein": "35 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "6 oz cauliflower florets",
+    "2 carrots",
+    "2 tsp caraway seeds",
+    "1 onion",
+    "1 oz fresh ginger",
+    "2 garlic cloves",
+    "1 cup red lentils",
+    "1 scallion",
+    "11 oz coconut milk*",
+    "2 tbsp tomato powder",
+    "1 tsp curry powder"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat the oven to 400°F. Chop cauliflower florets into bite-size pieces. Peel carrots and slice into rounds. Add chopped cauliflower and sliced carrot to a baking sheet and toss with 1 tbsp (2 tbsp) olive oil. Sprinkle with caraway seeds and a pinch of salt and pepper, and roast until tender and browned in places, 18 to 23 minutes."},
+    {"n": 2, "title": null, "text": "Peel and dice the onion(s). Peel and mince the ginger and garlic. Rinse and sort the red lentils. Thinly slice the scallion(s)."},
+    {"n": 3, "title": null, "text": "Heat 1 tbsp (2 tbsp) olive oil in a large pot over medium-high heat. Add diced onion and a pinch of salt and pepper. Cook until softened, 3 to 5 minutes. Add minced ginger and minced garlic and cook until fragrant, about 1 minute. Open the coconut milk and reserve just 1 tbsp (2 tbsp) coconut cream for garnish."},
+    {"n": 4, "title": null, "text": "Measure 2 tbsp (4 tbsp) tomato powder and add to the large pot along with the curry powder. Stir to coat the vegetables. Add red lentils, 2½ cups (5 cups) water, and a pinch of salt and pepper, and bring soup to a boil. Lower heat to a simmer and cook, stirring occasionally, until lentils are tender, 15 to 18 minutes."},
+    {"n": 5, "title": null, "text": "Once the lentils are tender, add remaining coconut milk and stir. Bring soup to a simmer. Taste, and add salt and pepper as necessary."},
+    {"n": 6, "title": null, "text": "Ladle the coconut lentil soup into large bowls and top with caraway roasted vegetables. Sprinkle sliced scallion on top and dollop with the reserved coconut cream. Bon appétit!"}
+  ],
+  "tips": [
+    "TIP: To \"sort\" means to look for and discard any naturally occurring debris or stones.",
+    "TIP: The coconut cream is the thick, solid cream at the top of the can.",
+    "TIP: Keep any remaining tomato powder for your own use.",
+    "* This ingredient will be split between steps."
+  ],
+  "cuisine_tags": ["Indian", "Comfort Food"],
+  "ingredient_tags": ["lentils", "cauliflower", "carrots", "coconut milk"],
+  "item_tags": ["caraway seeds", "curry powder", "tomato powder", "ginger", "scallion"],
+  "issues": null
+}

@@ -1,0 +1,25 @@
+{
+  "pair": 107,
+  "title": "Cashew Korma",
+  "subtitle": "with Cauliflower Rice",
+  "servings": "2",
+  "cook_time": "35 minutes",
+  "nutrition": {"calories": "710", "fat": "43 g", "carbohydrates": "73 g", "protein": "22 g"},
+  "description": "The word \"korma\" means \"to braise,\" and that's how the cashews and vegetables — red bell pepper, Yukon potatoes, and peas — are cooked here. For this dish, we slowly cook the vegetables in coconut milk and layer in flavor with spices. This method mimics the effects of roasting, but cuts cook time in half.",
+  "from_your_kitchen": ["2 tbsp vegetable oil", "Salt and pepper"],
+  "ingredients": ["4 ounces Yukon gold potatoes", "1 head cauliflower", "1 onion", "1 garlic clove*", "Fresh ginger", "1 red bell pepper", "1 can garbanzo beans", "2 tsp Indian spice blend", "¼ cup cashews", "¼ tsp red chile flakes", "1 can coconut milk", "¼ cup green peas", "1 lemon"],
+  "tools": ["Medium saucepan", "Food processor", "Large nonstick skillet"],
+  "steps": [
+    {"n": 1, "title": "MAKE THE CAULIFLOWER RICE", "text": "Peel the potatoes, dice, and add to a medium saucepan. Cover with 1 inch water, bring to a boil, and cook until tender, about 12 to 15 minutes. Reserve ¼ cup cooking water and drain potatoes in a colander. Chop the cauliflower into florets. In batches, pulse the cauliflower in a food processor, until it reaches an even, rice-like consistency."},
+    {"n": 2, "title": "CUT THE VEGGIES", "text": "Peel and dice the onion. Peel and mince 1 garlic clove. Peel and mince the ginger. Deseed and chop the red bell pepper."},
+    {"n": 3, "title": "COOK THE RICE", "text": "Place a large nonstick skillet over medium-high heat with 1 tbsp vegetable oil. Add the cauliflower rice, sprinkle with salt and pepper, and cook, tossing occasionally, until it's just tender, about 5 to 7 minutes. Cover to keep warm. Drain and rinse the garbanzo beans."},
+    {"n": 4, "title": "START THE KORMA", "text": "Return the large skillet to medium-high heat and add 1 tbsp vegetable oil. Add the onions and cook until slightly softened, 3 or 4 minutes. Add the Indian spice blend, garlic, ginger, bell pepper, cashews, and as much of the red chile flake as you'd like. Cook, stirring frequently until fragrant, about 1 minute."},
+    {"n": 5, "title": "SIMMER THE KORMA", "text": "Add the cooked potatoes, garbanzo beans, coconut milk, peas, and reserved cooking water to the skillet. Bring sauce to a simmer, add the juice from half the lemon to the skillet, and reduce heat to low. Simmer korma, stirring occasionally, until the sauce is slightly thickened, about 4 to 6 minutes. Cut remaining lemon half into wedges."},
+    {"n": 6, "title": "SERVE AND ENJOY", "text": "Taste the korma and season with salt. Divide the cauliflower rice between bowls and top with cashew korma. Serve with lemon wedges. Dig in!"}
+  ],
+  "tips": ["* Find a head of garlic in the Butternut Barley Bowl recipe bag.", "TIP: You can use a box grater to grate the cauliflower instead of a food processor."],
+  "cuisine_tags": ["Indian"],
+  "ingredient_tags": ["garbanzo beans", "cauliflower", "potatoes", "cashews", "peas"],
+  "item_tags": ["coconut milk", "indian spice blend", "red chile flakes", "ginger", "lemon"],
+  "issues": null
+}

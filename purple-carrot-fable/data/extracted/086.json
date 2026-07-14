@@ -1,0 +1,41 @@
+{
+  "pair": 86,
+  "title": "Crispy Eggplant Falafel Wraps",
+  "subtitle": "with Lemon Hummus and Parsley Salad",
+  "servings": "2",
+  "cook_time": "35 minutes",
+  "nutrition": {"calories": "980", "fat": "45 g", "carbohydrates": "120 g", "protein": "29 g"},
+  "description": "The best part about falafel is the crispy coating, and in this dish we've replicated it on hearty eggplant, shallow fried until golden brown. Topped with creamy lemon hummus, these wraps will surely satisfy. If you need to keep the eggplant warm while you finish cooking, simply pop it in the oven on a baking sheet.",
+  "from_your_kitchen": ["4 tbsp vegetable oil", "Salt and pepper"],
+  "ingredients": [
+    "Eggplant",
+    "1 can garbanzo beans",
+    "1 lemon",
+    "1 tbsp sesame oil",
+    "½ cup garbanzo bean flour",
+    "1 tbsp cumin",
+    "1 tbsp coriander",
+    "1¼ cup panko breadcrumbs",
+    "2 pieces naan",
+    "Fresh parsley",
+    "1.5 oz sun dried tomatoes"
+  ],
+  "tools": ["Food processor", "Large nonstick skillet"],
+  "steps": [
+    {"n": 1, "title": "PREPARE THE EGGPLANT", "text": "Slice the eggplant into ½ inch thick rounds. Sprinkle each side with a little salt and lay them on paper towels to draw out the moisture."},
+    {"n": 2, "title": "BLEND THE HUMMUS", "text": "Drain the garbanzo beans and add them to a food processor. Zest 2 tsp of lemon zest and add it to the food processor along with the juice from half the lemon and a pinch of salt and pepper. While blending on high speed, drizzle in the sesame oil and 2 tbsp water. Blend hummus on high until smooth, adding more water as necessary. Taste and adjust seasoning with salt."},
+    {"n": 3, "title": "MAKE THE BATTER", "text": "In a medium bowl, combine the garbanzo bean flour, cumin, coriander, ½ cup plus 2 tbsp cold water, and a pinch of salt and pepper. Whisk the batter well. Place the panko breadcrumbs on a large plate."},
+    {"n": 4, "title": "CRISP THE EGGPLANT", "text": "Place a large nonstick skillet over medium-high heat with 2 tbsp vegetable oil. Dip the eggplant into the batter, shake off the excess, then coat in the breadcrumbs. Lay the eggplant into the hot oil and cook until the bottom is browned, 2 to 3 minutes. Flip, add another 2 tbsp vegetable oil, and cook until browned on the second side. Transfer eggplant to a paper towel-lined plate and sprinkle with salt."},
+    {"n": 5, "title": "PREPARE THE SALAD", "text": "Set the oven to broil on low. Pop the naan onto the oven racks to warm for 1 minute. Pick the parsley leaves and tender stems and add to a medium bowl. Slice the sun dried tomatoes and add them to the bowl along with the juice from the remaining lemon half. Season with salt and pepper and toss parsley salad to combine."},
+    {"n": 6, "title": "SERVE", "text": "Stir the lemon hummus and spread it onto the warmed naan. Add a few slices of crispy eggplant, top with the parsley salad, and fold. Serve any remaining filling on the side, and enjoy any extra hummus for dipping."}
+  ],
+  "tips": [
+    "TIP: Salt will draw the water out of the eggplant—you can brush it off afterwards.",
+    "TIP: You may need to press the eggplant into the crumbs to coat.",
+    "TIP: Cut the eggplant rounds in half if they are too big to wrap."
+  ],
+  "cuisine_tags": ["Middle Eastern", "Mediterranean"],
+  "ingredient_tags": ["eggplant", "chickpeas", "naan", "parsley"],
+  "item_tags": ["sesame oil", "cumin", "coriander", "panko breadcrumbs", "sun dried tomatoes", "garbanzo bean flour"],
+  "issues": null
+}

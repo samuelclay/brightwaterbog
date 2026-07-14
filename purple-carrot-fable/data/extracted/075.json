@@ -1,0 +1,41 @@
+{
+  "pair": 75,
+  "title": "Spicy Almond Butter Noodles",
+  "subtitle": "with Gai Lan & Yellow Squash",
+  "servings": "2 (4)",
+  "cook_time": "35 (45) min",
+  "nutrition": {"calories": "650", "fat": "29 g", "carbohydrates": "82 g", "protein": "22 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "6 oz gai lan",
+    "1 yellow squash",
+    "2 scallions",
+    "1 garlic clove",
+    "1 lime*",
+    "¼ cup + 2 tbsp peanuts*",
+    "3 tbsp almond butter",
+    "2 tbsp tamari",
+    "1 tsp turbinado sugar",
+    "1 tbsp chile garlic sauce",
+    "6 oz udon"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Bring a large pot of salted water to boil for the udon. Trim the gai lan, roughly chop the leaves, and thinly slice the stems. Slice yellow squash(es) into rounds. Thinly slice the scallions. Peel the garlic. Halve the lime(s), juice one half (1 lime), and cut the other half (1 lime) into wedges."},
+    {"n": 2, "title": null, "text": "Place a large nonstick skillet over medium-low heat and add all the peanuts. Toast until fragrant, 3 to 4 minutes, and transfer to a bowl. Add garlic, lime juice, almond butter, tamari, turbinado sugar, chile garlic sauce, ½ cup (1 cup) water, and a pinch of salt to a blender. Blend almond butter sauce on high until smooth. Add just ¼ cup (½ cup) toasted peanuts and pulse to combine."},
+    {"n": 3, "title": null, "text": "Once the water is boiling, add udon and gently stir. Cook until al dente, 6 to 8 minutes. Drain udon and run under cold water to stop the cooking process."},
+    {"n": 4, "title": null, "text": "Return skillet to medium-high heat with 2 tsp (4 tsp) vegetable oil. Add chopped gai lan leaves and sliced gai lan stems, sliced yellow squash, and a pinch of salt. Cook until gai lan is bright green and tender, 3 to 5 minutes. Reduce heat to low, add spicy almond butter sauce, and bring to a simmer."},
+    {"n": 5, "title": null, "text": "Add the cooked udon and half the sliced scallions to the skillet with the vegetables, and stir. Taste, and add salt as necessary. Divide spicy almond butter noodles between bowls and top with remaining toasted peanuts and remaining sliced scallions. Serve with lime wedges. Dig in!"}
+  ],
+  "tips": [
+    "TIP: The peanuts are added last, and pulsed instead of blended, to give the sauce texture.",
+    "* These ingredients will be split between steps",
+    "This item is spicy. (chile garlic sauce)",
+    "Substitutes: bok choy for gai lan, zucchini for yellow squash"
+  ],
+  "cuisine_tags": ["Chinese", "Thai", "Fusion"],
+  "ingredient_tags": ["udon", "gai lan", "yellow squash", "peanuts", "noodles"],
+  "item_tags": ["almond butter", "tamari", "chile garlic sauce", "turbinado sugar", "lime", "scallions"],
+  "issues": null
+}

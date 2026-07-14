@@ -1,0 +1,25 @@
+{
+  "pair": 98,
+  "title": "Wicked Healthy® Beetroot Tacos",
+  "subtitle": "with Avocado Salsa",
+  "servings": "2",
+  "cook_time": "35 minutes",
+  "nutrition": {"calories": "710", "fat": "18 g", "carbohydrates": "68 g", "protein": "12 g"},
+  "description": "Beets are high in Vitamin C and fiber, and make the perfect centerpiece in this tasty and healthy taco dish. You'll roast the beets until they're surprisingly sweet and chewy. Blending the salsa (rather than chopping the ingredients) saves time, and this version is particularly delicious.",
+  "from_your_kitchen": ["1 tbsp + 1 tsp vegetable oil", "Salt and pepper"],
+  "ingredients": ["12 oz red beets", "4 oz Lacinato kale", "1 red onion*", "1 avocado*", "1 jalapeño*", "2 garlic cloves*", "¼ cup Follow Your Heart® Vegenaise®", "Fresh cilantro", "2 tbsp sherry vinegar*", "4 whole wheat tortillas"],
+  "tools": ["Baking sheet", "Food processor", "Large skillet"],
+  "steps": [
+    {"n": 1, "title": "ROAST THE BEETS", "text": "Preheat the oven to 400°F. Peel the red beets and slice them into thin wedges, about a half-inch thick. Place the beets on a baking sheet and toss with 1 tbsp vegetable oil and a pinch of salt and pepper. Roast until tender, about 25 to 30 minutes."},
+    {"n": 2, "title": "PREP THE VEGETABLES", "text": "Destem the Lacinato kale and roughly chop the leaves. Halve and peel the red onion. Roughly chop half and thinly slice the other half. Halve the avocado and remove the pit. Trim and deseed the jalapeño."},
+    {"n": 3, "title": "MAKE THE AVOCADO SALSA", "text": "Add the chopped red onion and half of the avocado to a food processor. Peel and add 2 cloves garlic, Follow Your Heart® Vegenaise®, cilantro leaves and tender stems, just 1 tbsp of sherry vinegar, and as much or as little of the jalapeño as you'd like. Pulse until you have a smooth, even consistency, scraping down the sides as necessary. Season avocado salsa with salt."},
+    {"n": 4, "title": "COOK THE KALE", "text": "Place a large skillet over medium-high heat with 1 tsp vegetable oil. Once hot, add the chopped kale and cook until just wilted, about 2 minutes. Season with salt and pepper."},
+    {"n": 5, "title": "WARM THE TORTILLAS", "text": "Once the beets are tender, drizzle them with the remaining sherry vinegar. Wrap the whole wheat tortillas in foil and warm in the oven for a few minutes. Slice the remaining avocado."},
+    {"n": 6, "title": "BUILD YOUR TACOS", "text": "Lay the warm tortillas on plates and top with a dollop of avocado salsa; spread to coat. Layer on the roasted beets, sautéed kale, sliced avocado, and some sliced red onion. Top with more avocado salsa and enjoy!"}
+  ],
+  "tips": ["*These items will be split between multiple steps.", "*The head of garlic in this bag is for all recipes this week.", "TIP: No food processor? You can finely chop all of the ingredients in the salsa and mash.", "TIP: You can also wrap the tortillas in paper towels and warm them in the microwave."],
+  "cuisine_tags": ["Mexican"],
+  "ingredient_tags": ["beets", "kale", "tortillas", "avocado"],
+  "item_tags": ["vegenaise", "sherry vinegar", "cilantro", "jalapeño"],
+  "issues": null
+}

@@ -1,0 +1,41 @@
+{
+  "pair": 123,
+  "title": "Collard Green Enchiladas",
+  "subtitle": "with Salsa Roja and Roasted Potatoes",
+  "servings": "2",
+  "cook_time": "40 minutes",
+  "nutrition": {"calories": "910", "fat": "26 g", "carbohydrates": "79 g", "protein": "40 g"},
+  "description": "Plant-based tortillas? Yes, please. Collard greens make a great substitute. Smothered in salsa roja (a classic Mexican red sauce), the tender rolls of chipotle \"sausage\" and vegetables will leave you satisfied.",
+  "from_your_kitchen": ["1 tbsp vegetable oil", "Salt and pepper"],
+  "ingredients": [
+    "8 oz red potatoes",
+    "1 dried ancho chile pepper",
+    "8 oz collard greens",
+    "1 onion",
+    "1 green bell pepper",
+    "Vegan chipotle sausage",
+    "3 tbsp Follow Your Heart® vegan cream cheese",
+    "3 garlic cloves*",
+    "1 can diced tomatoes",
+    "1 tsp cumin",
+    "⅓ cup Follow Your Heart® vegan mozzarella"
+  ],
+  "tools": ["Baking sheet", "Large pot", "Small saucepan", "Blender", "8x8 baking dish"],
+  "steps": [
+    {"n": 1, "title": "ROAST THE POTATOES", "text": "Preheat the oven to 400°F. Quarter the red potatoes and add to a baking sheet. Toss with 1 tsp vegetable oil and generously season with salt and pepper. Roast until crispy on the bottom and you can easily pierce with a fork, about 18 to 20 minutes."},
+    {"n": 2, "title": "COOK THE COLLARDS", "text": "Place a large pot with a few inches of salted water on to boil. Add the ancho chile to a small saucepan and cover with water. Bring to a simmer over medium heat. Trim the tough stems from collard greens; the leaves should stay intact. Once the water is boiling, add the leaves to the large pot and press into the water with a spatula. Cook collards until bright green, about 1 minute. Drain and rinse with cold water."},
+    {"n": 3, "title": "COOK THE FILLING", "text": "Peel and chop the onion. Deseed and chop the green bell pepper. Wipe the pot dry, return to medium-high heat, and add 1 tbsp vegetable oil. Once hot, crumble the chipotle sausage into the pot and cook, stirring occasionally, until crispy, 3 to 5 minutes. Add the chopped onion and pepper, and cook until vegetables are softened, about 4 to 5 minutes. Mix in the Follow Your Heart® cream cheese."},
+    {"n": 4, "title": "MAKE THE SALSA ROJA", "text": "Peel 3 cloves of garlic. To a blender, add the garlic, diced tomatoes, cumin, and ¾ cup water. Deseed the rehydrated ancho chile and add as much or as little as you'd like to the blender. Blend salsa until smooth, taste, and season with salt. Spread ½ cup of salsa roja onto the bottom of an 8x8 baking dish."},
+    {"n": 5, "title": "ROLL THE ENCHILADAS", "text": "Lay the collard leaves out on a work space and divide the sausage mixture between them. Roll, folding in the sides (like a burrito), and place enchiladas in the baking dish seam side down. Cover with salsa roja (you may have some left over) and sprinkle with the mozzarella. Bake the enchiladas, uncovered, until the top is browned and sauce is bubbling, about 10 to 15 minutes."},
+    {"n": 6, "title": "PLATE AND ENJOY", "text": "Scoop the collard green enchiladas onto plates. Serve with roasted potatoes and any remaining salsa roja. Dig in!"}
+  ],
+  "tips": [
+    "*Garlic will also be used in the Fettucine Alfredo recipe.",
+    "TIP: Let the chile simmer until you're ready to make the sauce.",
+    "TIP: Start with half the chile and add from there depending on how much you like heat."
+  ],
+  "cuisine_tags": ["Mexican"],
+  "ingredient_tags": ["collard greens", "potatoes", "vegan sausage", "bell pepper"],
+  "item_tags": ["ancho chile", "cumin", "vegan cream cheese", "vegan mozzarella", "diced tomatoes", "chipotle"],
+  "issues": null
+}

@@ -1,0 +1,39 @@
+{
+  "pair": 122,
+  "title": "Seitan Massaman Curry",
+  "subtitle": "with Blistered Cherry Tomatoes & Brown Basmati Rice",
+  "servings": "2",
+  "cook_time": "40 minutes",
+  "nutrition": {"calories": "870", "fat": "37 g", "carbohydrates": "76 g", "protein": "52 g"},
+  "description": "Massaman is a staple in many Thai restaurants, but the history can be traced back to the Middle East. The tangy tamarind base of the curry gets rounded out with warm aromatic spices like cardamom, cinnamon, and cloves. We sear the seitan before it gets tossed in the sauce so that it stays crisp, so don't be afraid to let it get nice and browned in the skillet. Adjust the heat as you go and shake the skillet frequently for best results.",
+  "from_your_kitchen": ["2 tbsp vegetable oil", "Salt and pepper"],
+  "ingredients": [
+    "¾ cup brown basmati rice",
+    "1 onion",
+    "3 garlic cloves*",
+    "4 oz haricot vert",
+    "1 lime",
+    "1 package Sweet Earth seitan",
+    "1 tbsp rice flour",
+    "6 oz cherry tomatoes",
+    "2 tbsp massaman curry paste",
+    "1 can coconut milk",
+    "Fresh basil"
+  ],
+  "tools": ["Small saucepan", "Large nonstick skillet"],
+  "steps": [
+    {"n": 1, "title": "COOK THE RICE", "text": "Add brown basmati rice, 1¼ cup water, and a pinch of salt to a small saucepan and bring to a boil. Reduce heat to low and cook, covered, until all water is absorbed and rice is tender, about 30 to 35 minutes. Turn off the heat, leave covered for 5 minutes, and then fluff rice with a fork."},
+    {"n": 2, "title": "PREP THE VEGETABLES", "text": "Peel and chop the onion. Peel and thinly slice 3 cloves of garlic. Trim the ends off the haricot vert. Halve the lime."},
+    {"n": 3, "title": "CRISP THE SEITAN", "text": "Place a large nonstick skillet over medium-high heat and add 1 tbsp vegetable oil. In a medium bowl, toss the Sweet Earth seitan with the rice flour and a pinch of salt and pepper. Once the oil is hot, add the seitan to the skillet and cook, stirring occasionally, until crisp in places, about 3 to 4 minutes."},
+    {"n": 4, "title": "COOK THE VEGETABLES", "text": "Transfer the crispy seitan to a plate. Return the skillet to medium-high heat and add 1 tbsp vegetable oil. Add the cherry tomatoes, sprinkle with salt and pepper, and cook, stirring occasionally, until the tomatoes are blistered and begin to burst, about 2 minutes. Add the onion, garlic, and haricot vert to the tomatoes and cook until just softened, about 5 minutes."},
+    {"n": 5, "title": "ADD THE CURRY PASTE", "text": "Add the massaman curry paste to the vegetables and stir to combine. Add the coconut milk, ¼ cup water, and reduce heat to low. Simmer curry until the sauce has thickened slightly, about 5 to 10 minutes. Squeeze half of the lime into the skillet and stir. Taste the curry and season with salt and pepper. Stir the crispy seitan into the curry."},
+    {"n": 6, "title": "SERVE THE MEAL", "text": "Cut the remaining lime half into wedges. Divide the brown basmati rice between large bowls and top with seitan massaman curry. Use your hands to tear the basil leaves over the bowls. Serve with lime wedges. Enjoy!"}
+  ],
+  "tips": [
+    "*The head of garlic included in this recipe bag is for all recipes in the box this week."
+  ],
+  "cuisine_tags": ["Thai"],
+  "ingredient_tags": ["seitan", "rice", "green beans", "cherry tomatoes"],
+  "item_tags": ["massaman curry paste", "coconut milk", "basil", "lime", "rice flour"],
+  "issues": null
+}

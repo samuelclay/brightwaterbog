@@ -1,0 +1,25 @@
+{
+  "pair": 106,
+  "title": "Butternut Barley Bowl",
+  "subtitle": "with Pickled Peppers and Pistachios",
+  "servings": "2",
+  "cook_time": "35 minutes",
+  "nutrition": {"calories": "580", "fat": "24 g", "carbohydrates": "84 g", "protein": "13 g"},
+  "description": "To us, nothing says autumn like fresh herbs — especially rosemary and parsley. In this fall-inspired recipe, we use these herbs to add warmth to some hearty pearled barley and butternut squash. The sweetness of the squash is the perfect complement to the pickled peppers. This combination will leave your taste buds happy and your stomach satisfied.",
+  "from_your_kitchen": ["2 tsp olive oil", "Salt and pepper"],
+  "ingredients": ["¾ cup barley", "8 oz butternut squash", "2 mini sweet peppers", "1 packet turbinado sugar", "2 tbsp apple cider vinegar", "Pink peppercorns", "1 garlic clove*", "Fresh parsley", "2 sprigs rosemary", "1 scallion", "¼ cup pistachios", "2 tbsp vegan butter", "2 oz baby arugula"],
+  "tools": ["2 small saucepans", "Baking sheet", "Large skillet"],
+  "steps": [
+    {"n": 1, "title": "COOK THE BARLEY", "text": "Preheat the oven to 400°F. Place the barley in a small saucepan and cover with 2 inches of water. Bring to a boil, season with salt, and cook until tender, about 22 to 25 minutes. Drain barley and toss with 1 tsp olive oil to prevent sticking."},
+    {"n": 2, "title": "ROAST THE BUTTERNUT", "text": "Place the butternut squash onto a baking sheet and toss with 1 tsp olive oil. Sprinkle with salt and pepper and roast until tender and browned in places, about 18 to 20 minutes."},
+    {"n": 3, "title": "PICKLE THE PEPPERS", "text": "Slice the mini sweet peppers into very thin strips, about ¼-inch thick. Add peppers to a small saucepan with the turbinado sugar, ¼ cup water, apple cider vinegar, pink peppercorns, and a pinch of salt. Bring to a boil and then reduce heat to low. Simmer until the peppers are soft and the liquid is syrupy, about 10 to 12 minutes."},
+    {"n": 4, "title": "CHOP THE HERBS", "text": "Peel and mince 1 garlic clove. Roughly chop the parsley leaves. Destem the rosemary and mince the leaves. Thinly slice the scallion."},
+    {"n": 5, "title": "TOAST THE PISTACHIOS", "text": "Add the pistachios to a large skillet over medium heat. Cook until toasted and fragrant, about 3 to 4 minutes. Add the minced garlic and vegan butter to the skillet, and cook for an additional minute. Add the cooked barley, chopped parsley, rosemary, and scallions. Season with salt and pepper and toss to combine."},
+    {"n": 6, "title": "FINISH UP", "text": "Stir the baby arugula into the barley mixture and divide between two large bowls. Top herbed barley with roasted butternut squash and pickled peppers. Bon appétit!"}
+  ],
+  "tips": ["* Find a head of garlic in this recipe bag.", "TIP: Leave the peppers in the hot liquid off of the stove once finished."],
+  "cuisine_tags": ["American", "Comfort Food"],
+  "ingredient_tags": ["barley", "butternut squash", "arugula", "sweet peppers"],
+  "item_tags": ["pistachios", "apple cider vinegar", "pink peppercorns", "turbinado sugar", "rosemary", "vegan butter"],
+  "issues": null
+}

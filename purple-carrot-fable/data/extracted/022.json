@@ -1,0 +1,43 @@
+{
+  "pair": 22,
+  "title": "Italian Sausage Sandwiches",
+  "subtitle": "with Shallot Relish & Dilly Cucumber Salad",
+  "servings": "2",
+  "cook_time": "30 min",
+  "nutrition": {"calories": "640", "fat": "21 g", "carbohydrates": "86 g", "protein": "37 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 cucumber",
+    "5 garlic cloves*",
+    "¼ cup white vinegar",
+    "½ tsp dried dill",
+    "1 tsp turbinado sugar",
+    "2 shallots",
+    "1 Thai chile",
+    "1 oz balsamic glaze",
+    "1½ tsp agave",
+    "1 oz Follow Your Heart® Soy-Free Vegenaise®",
+    "2 Field Roast® Italian sausages",
+    "2 ciabatta rolls",
+    "2 oz baby arugula"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Thinly slice the cucumber into rounds. Thinly slice just 4 garlic cloves. Add sliced cucumber, sliced garlic, white vinegar, dill, sugar, and a pinch of salt to a large bowl, and toss the dilly cucumber salad to combine."},
+    {"n": 2, "title": null, "text": "Set the oven to broil. Peel and quarter the shallots. Add quartered shallots, 2 tsp olive oil, and a pinch of salt to a baking sheet, and toss. Broil until softened and well-browned in places, 7 to 10 minutes. Let broiled shallots cool for 5 minutes, transfer to a cutting board, and roughly chop into bite-size pieces. Thinly slice the Thai chile. In a medium bowl, combine chopped shallots, as much sliced chile as you'd like, balsamic glaze, and agave. Toss the shallot relish and sprinkle with salt."},
+    {"n": 3, "title": null, "text": "Peel and mince the remaining garlic clove and add to a small bowl. Add Vegenaise and a pinch of salt. Stir the garlic aioli to combine."},
+    {"n": 4, "title": null, "text": "Remove sausages from the plastic casing and slice. Heat 1 tbsp olive oil in a large nonstick skillet over medium-high heat. Add sliced sausage and cook until browned on both sides, 4 to 6 minutes. Slice ciabatta rolls in half and drizzle cut side of halved rolls with 1 tsp olive oil. Sprinkle with a pinch of salt and broil in the oven, directly on the rack, until golden brown, 2 to 3 minutes."},
+    {"n": 5, "title": null, "text": "Spread the bottom halves of the toasted ciabatta rolls with garlic aioli. Top with cooked sausage, shallot relish, and baby arugula. Serve Italian sausage sandwiches with dilly cucumber salad. Enjoy!"}
+  ],
+  "tips": [
+    "* This ingredient will be split between steps.",
+    "TIP: Continue to toss the cucumbers occasionally to ensure they are evenly coated.",
+    "TIP: All broilers are different. Watch carefully to ensure the shallots don't burn.",
+    "Want Some Fresh Air While Cooking? Then we suggest you fire up the grill! You can cook these tasty Italian sausages in your kitchen, of course, but they also cook up nicely on the grill—gas or charcoal. So if you've got a grill, now's the perfect time to put it to use."
+  ],
+  "cuisine_tags": ["Italian", "American"],
+  "ingredient_tags": ["vegan sausage", "ciabatta", "cucumber", "arugula", "shallots"],
+  "item_tags": ["balsamic glaze", "agave", "vegenaise", "thai chile", "dried dill", "white vinegar", "turbinado sugar"],
+  "issues": null
+}

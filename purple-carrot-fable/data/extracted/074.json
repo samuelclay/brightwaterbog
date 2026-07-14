@@ -1,0 +1,40 @@
+{
+  "pair": 74,
+  "title": "Spicy Red Curry Coconut Noodles",
+  "subtitle": "with Bok Choy & Carrots",
+  "servings": "2 (4)",
+  "cook_time": "25 (35) min",
+  "nutrition": {"calories": "550", "fat": "16 g", "carbohydrates": "91 g", "protein": "13 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "2 carrots",
+    "1 shallot",
+    "1 oz fresh ginger",
+    "1 garlic clove",
+    "6 oz baby bok choy",
+    "2 tbsp red curry paste",
+    "5.5 oz coconut milk",
+    "1 tsp turbinado sugar",
+    "6 oz udon",
+    "¼ oz fresh mint",
+    "1 lime"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Bring a large pot of salted water to a boil for the udon. Peel the carrots, and continue to peel lengthwise to create \"noodles.\" Peel and thinly slice the shallot(s). Chop the unpeeled ginger into large pieces. Peel and thinly slice the garlic. Trim and thinly slice the baby bok choy."},
+    {"n": 2, "title": null, "text": "Heat 1 tsp (2 tsp) vegetable oil in a medium saucepan over medium heat. Add sliced shallot, chopped ginger, and sliced garlic. Cook until ginger and garlic are slightly toasted, 1 to 2 minutes. Add red curry paste, coconut milk, turbinado sugar, and ½ cup (1 cup) water. Bring broth to a boil, reduce heat to low, and simmer until ready to serve."},
+    {"n": 3, "title": null, "text": "Once the water is boiling, add udon and cook until al dente, 8 to 10 minutes."},
+    {"n": 4, "title": null, "text": "Pick the mint leaves. Halve and juice the lime(s). Remove ginger from the broth and add sliced baby bok choy. Add ½ tsp (1 tsp) salt and let broth continue to simmer for about 1 minute. Remove saucepan from heat and add the lime juice."},
+    {"n": 5, "title": null, "text": "Divide cooked udon and carrot \"noodles\" between bowls and top with spicy red curry coconut broth. Sprinkle with mint leaves. Enjoy!"}
+  ],
+  "tips": [
+    "TIP: Cut the ginger into large pieces so that it will be easier to remove later.",
+    "This item is spicy. (red curry paste)",
+    "Substitutes: another herb for fresh mint, baby spinach for bok choy"
+  ],
+  "cuisine_tags": ["Thai"],
+  "ingredient_tags": ["udon", "bok choy", "carrots", "noodles"],
+  "item_tags": ["red curry paste", "coconut milk", "ginger", "mint", "lime", "turbinado sugar"],
+  "issues": null
+}

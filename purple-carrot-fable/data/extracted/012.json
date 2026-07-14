@@ -1,0 +1,40 @@
+{
+  "pair": 12,
+  "title": "Rajas Tacos",
+  "subtitle": "with Avocado & Roasted Corn Salsa",
+  "servings": "2 (4)",
+  "cook_time": "30 (40) min",
+  "nutrition": {"calories": "570", "fat": "14 g", "carbohydrates": "104 g", "protein": "12 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "½ cup Spanish rice",
+    "2 poblano peppers",
+    "1 yellow onion",
+    "1 ear of corn",
+    "1 avocado",
+    "1 scallion",
+    "1 lime",
+    "¼ oz fresh cilantro",
+    "6 corn tortillas",
+    "2 tsp hot sauce (spicy)"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Add Spanish rice and 1 cup (2 cups) water to a small saucepan. Bring to a boil, cover, reduce heat to low, and cook until water is absorbed and rice is tender, 13 to 15 minutes."},
+    {"n": 2, "title": null, "text": "Slice peppers in half and remove the stems and seeds. Cut halved peppers into ½ inch strips. Peel and slice the onion(s). Shuck the corn and slice kernels off the cob(s). Halve the avocado(s), remove the pit(s), and dice the flesh. Slice the scallion(s). Halve the lime(s), juice one half (1 lime), and divide the other half (1 lime) into wedges. Roughly chop the cilantro leaves and stems."},
+    {"n": 3, "title": null, "text": "Set the broiler to high. Add sliced pepper, sliced onion, corn kernels, 1 tbsp (2 tbsp) vegetable oil, and a pinch of salt to a baking sheet, and toss. Broil the corn salsa on the middle rack until onions are translucent and peppers and corn are softened and lightly browned, 5 to 6 minutes."},
+    {"n": 4, "title": null, "text": "Set the oven to 400°F. Add diced avocado, sliced scallion, lime juice, chopped cilantro, and salt to a medium bowl, and stir. Wrap tortillas in foil and warm in the oven, 3 to 4 minutes."},
+    {"n": 5, "title": null, "text": "Add Spanish rice and roasted corn salsa to the tortillas. Dollop with avocado mixture and drizzle with hot sauce. Serve the rajas tacos with lime wedges. Buen provecho!"}
+  ],
+  "tips": [
+    "TIP: To cut kernels off the cob, break cob in half and slice down the sides with a knife. If you are grilling this recipe, remove kernels from cob after grilling.",
+    "TIP: All broilers are different; watch closely to ensure veggies don't burn.",
+    "TIP: If you prefer, you can use a toaster oven or microwave to heat the tortillas instead.",
+    "What Does Rajas Mean? Place corn in the husk, on the grill rack, and cook, turning occasionally, until it is steamed through to the center, about 15 minutes. The outside should be completely black, but the interior should be steamed and moist."
+  ],
+  "cuisine_tags": ["Mexican"],
+  "ingredient_tags": ["tortillas", "poblano peppers", "corn", "avocado", "rice"],
+  "item_tags": ["hot sauce", "cilantro", "lime", "spanish rice"],
+  "issues": null
+}

@@ -1,0 +1,39 @@
+{
+  "pair": 31,
+  "title": "Parmesan Gnocchi",
+  "subtitle": "with Melted Summer Squash & Basil",
+  "servings": "2 (4)",
+  "cook_time": "25 (35) min",
+  "nutrition": {"calories": "500", "fat": "15 g", "carbohydrates": "82 g", "protein": "9 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "3 garlic cloves",
+    "2 yellow squash",
+    "1 lemon*",
+    "½ oz fresh basil",
+    "10 oz fresh gnocchi",
+    "1 tbsp vegan butter",
+    "3 tbsp vegan parmesan",
+    "1 tsp crushed Aleppo pepper"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Bring a large pot of salted water to a boil. Peel and thinly slice the garlic. Trim the yellow squash and slice into half moons. Halve the lemon(s), juice one half (1 lemon), and divide the other half (1 lemon) into wedges. Pick the basil leaves from the stems."},
+    {"n": 2, "title": null, "text": "Heat 2 tsp (4 tsp) olive oil in a large nonstick skillet over medium-high heat. Add the sliced garlic and a pinch of salt and pepper. Cook until garlic is lightly browned, 2 to 3 minutes. Transfer the crispy garlic to a small bowl and return skillet to medium-high heat."},
+    {"n": 3, "title": null, "text": "Add the sliced yellow squash to the skillet and cook until lightly browned in places, 3 to 4 minutes. Reduce heat to low and cook until the squash softens and breaks down, another 5 to 7 minutes. Transfer the melted summer squash to a bowl."},
+    {"n": 4, "title": null, "text": "Add the gnocchi to the large pot of boiling water and cook until the gnocchi floats, 3 to 5 minutes. Drain the cooked gnocchi and shake to remove excess water."},
+    {"n": 5, "title": null, "text": "Return skillet to medium-high heat with the butter. Once melted, add the cooked gnocchi and cook, undisturbed, until browned in places, 2 to 4 minutes. Add the parmesan and melted summer squash and stir to combine. Remove skillet from heat and add the lemon juice."},
+    {"n": 6, "title": null, "text": "Divide the parmesan gnocchi with melted summer squash between bowls. Top with basil leaves, crispy garlic, and as much of the Aleppo pepper as you'd like. Serve with lemon wedges. Dig in!"}
+  ],
+  "tips": [
+    "TIP: We will reuse this skillet in a later step.",
+    "* This ingredient will be split between steps.",
+    "This item is spicy. (Aleppo pepper)",
+    "Substitute: another fresh herb for basil"
+  ],
+  "cuisine_tags": ["Italian"],
+  "ingredient_tags": ["gnocchi", "summer squash", "basil"],
+  "item_tags": ["vegan parmesan", "vegan butter", "aleppo pepper", "lemon", "garlic"],
+  "issues": null
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Favicon picker — The Purple Carrot Book</title>
+<style>
+body{font-family:'Karla',system-ui,sans-serif;background:#FBF8F3;color:#2B2433;margin:0;padding:2rem}
+h1{font-family:Georgia,serif;color:#3E2A52}
+p{max-width:60ch;color:#6B6175}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.2rem;margin-top:1.5rem}
+.opt{background:#fff;border:1px solid #E7DFEF;border-radius:10px;padding:1.2rem}
+.opt h2{font-size:1rem;color:#3E2A52;margin:0 0 .8rem}
+.row{display:flex;align-items:center;gap:1.2rem;padding:.6rem;border-radius:8px}
+.row.dark{background:#2C2433}
+.row img{display:block}
+.sizes{display:flex;align-items:flex-end;gap:1.2rem}
+.lab{font-size:.7rem;color:#9a8fa8;text-align:center;margin-top:.3rem}
+code{background:#F1EAF7;border-radius:4px;padding:.1rem .4rem;font-size:.85rem}
+.tabsim{display:flex;align-items:center;gap:.5rem;background:#DEE1E6;border-radius:8px 8px 0 0;padding:.45rem .8rem;margin-top:.9rem;max-width:230px}
+.tabsim img{width:16px;height:16px}
+.tabsim span{font-size:.75rem;color:#3c4043;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+</style>
+</head>
+<body>
+<h1>Pick a favicon</h1>
+<p>Six options, shown at 64/32/16&nbsp;px on light and dark, plus a fake browser tab. Tell Claude the number you want (currently #2 is wired up on the main page).</p>
+<div class="grid" id="grid"></div>
+<script>
+const opts=[
+ ['1-purple-carrot','Purple carrot, no tile'],
+ ['2-carrot-on-aubergine','Orange carrot on aubergine tile'],
+ ['3-cream-circle','Purple carrot, cream circle + orange ring'],
+ ['4-serif-p-tile','Serif “P” on carrot tile'],
+ ['5-recipe-card','Recipe card with purple banner + carrot'],
+ ['6-binder-rings','Binder page, rings + carrot'],
+];
+document.getElementById('grid').innerHTML=opts.map(([f,name],i)=>`
+ <div class="opt">
+  <h2>#${i+1} — ${name}</h2>
+  <div class="row light sizes">
+    ${[64,32,16].map(s=>`<div><img src="assets/favicons/${f}.svg" width="${s}" height="${s}"><div class="lab">${s}px</div></div>`).join('')}
+  </div>
+  <div class="row dark sizes">
+    ${[64,32,16].map(s=>`<div><img src="assets/favicons/${f}.svg" width="${s}" height="${s}"><div class="lab" style="color:#8d8498">${s}px</div></div>`).join('')}
+  </div>
+  <div class="tabsim"><img src="assets/favicons/${f}.svg"><span>The Purple Carrot Book</span></div>
+  <div style="margin-top:.6rem"><code>assets/favicons/${f}.svg</code></div>
+ </div>`).join('');
+</script>
+</body>
+</html>

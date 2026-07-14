@@ -1,0 +1,43 @@
+{
+  "pair": 80,
+  "title": "Potato Malai Kofta",
+  "subtitle": "with Sautéed Spinach & Tomato Chutney",
+  "servings": "2 (4)",
+  "cook_time": "30 (45) min",
+  "nutrition": {"calories": "480", "fat": "16 g", "carbohydrates": "74 g", "protein": "13 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 russet potato",
+    "1 onion",
+    "2 garlic cloves",
+    "1 oz fresh ginger",
+    "1 carrot",
+    "¼ cup green peas",
+    "2 tbsp tomato powder",
+    "1 tsp curry powder",
+    "5.5 oz coconut milk",
+    "¼ cup garbanzo bean flour",
+    "4 oz baby spinach",
+    "¼ cup tomato chutney"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Peel and dice the potato into bite-size pieces. Add the diced potato to a medium saucepan and cover with 1 inch salted water. Bring to a boil and cook until fork-tender, 10 to 12 minutes."},
+    {"n": 2, "title": null, "text": "Peel and chop the onion(s). Peel and slice the garlic. Peel and mince 2 tsp (4 tsp) ginger. Peel and grate the carrot(s) on the largest side of a box grater. Once the potatoes are fork-tender, add the grated carrot and green peas to the saucepan with the potatoes and cook for 1 minute. Drain potato and carrot mixture and transfer to a large bowl."},
+    {"n": 3, "title": null, "text": "Return the empty saucepan to medium heat with 2 tsp (4 tsp) olive oil. Add the chopped onion, sliced garlic, and minced ginger. Cook until the vegetables are softened, 3 to 5 minutes. Add the tomato powder, curry powder, coconut milk, and ½ tsp (1 tsp) salt, and bring sauce to a simmer. Cook until malai sauce is slightly thickened, 2 to 3 minutes."},
+    {"n": 4, "title": null, "text": "Add the garbanzo bean flour and ¼ tsp (½ tsp) salt to the large bowl with the potato and carrot mixture, and lightly mash until there are only a few lumps. Form the potato kofta mixture into 6 (12) patties about 1 inch thick."},
+    {"n": 5, "title": null, "text": "Heat a large nonstick skillet over medium-high heat with 2 tbsp olive oil. Add the potato kofta and cook until browned and crisp, 1 to 2 minutes per side. Transfer the seared potato kofta to a plate."},
+    {"n": 6, "title": null, "text": "Return the skillet to medium heat with 1 tsp (2 tsp) olive oil. Once hot, add the spinach and a sprinkle of salt and pepper. Cook until wilted, 2 to 3 minutes. Transfer the malai sauce to a blender and blend on low until smooth. Divide the malai sauce between plates and top with sautéed spinach and potato kofta. Serve with tomato chutney for dipping. Enjoy!"}
+  ],
+  "tips": [
+    "TIP: Don't drain the potatoes yet because we'll add vegetables in step 2.",
+    "TIP: If you're making the 4 serving recipe, cook the kofta in batches.",
+    "TIP: Vent blender (by removing the plastic center of lid) to avoid splashing.",
+    "Substitute: another green for baby spinach"
+  ],
+  "cuisine_tags": ["Indian"],
+  "ingredient_tags": ["potatoes", "spinach", "green peas", "carrots"],
+  "item_tags": ["curry powder", "coconut milk", "tomato chutney", "tomato powder", "garbanzo bean flour", "ginger"],
+  "issues": null
+}

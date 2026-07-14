@@ -1,0 +1,25 @@
+{
+  "pair": 93,
+  "title": "Elote Bowl",
+  "subtitle": "with Lime Chickpeas & Quinoa",
+  "servings": "2",
+  "cook_time": "25 minutes",
+  "nutrition": {"calories": "740", "fat": "28 g", "carbohydrates": "105 g", "protein": "27 g"},
+  "description": "Elote is the Spanish word for corn, and this sweet summer vegetable is the highlight of our \"street corn\" bowl. Mexican style corn is usually grilled, so fire it up if you have one. Instead of cutting the corn kernels from the cob, lay them whole on a hot grill and cook until charred, it should only take a few minutes. The key to crispy chickpeas is not shaking the pan too often, they should be browned in places and smell a bit toasted.",
+  "from_your_kitchen": ["4 tsp olive oil", "Salt"],
+  "ingredients": ["¾ cup red quinoa", "1 can chickpeas", "2 ears fresh corn", "1 lime", "2 tbsp Kite Hill vegan yogurt", "1 tbsp Follow Your Heart Vegenaise®", "¼ tsp cayenne pepper*", "1 jalapeño", "2 oz red radish", "Fresh cilantro", "2 tbsp pumpkin seeds", "2 tsp vegan parmesan"],
+  "tools": ["Small saucepan", "Large nonstick skillet with a lid"],
+  "steps": [
+    {"n": 1, "title": "COOK THE QUINOA", "text": "Add the red quinoa, 1¼ cups water, and a pinch of salt to a small saucepan and place over high heat. Bring to a boil, reduce heat to a simmer, cover, and cook quinoa until water is absorbed and spirals start to burst, about 15 minutes."},
+    {"n": 2, "title": "PREPARE THE VEGETABLES", "text": "Drain and rinse the chickpeas, and dry them well with a paper towel. Peel the husks from the corn and cut the kernels off of the cob."},
+    {"n": 3, "title": "MAKE THE ELOTE SAUCE", "text": "Zest the lime. In a small bowl, combine half the lime zest, Kite Hill vegan yogurt, Vegenaise®, and half of the cayenne pepper. Add the juice from half of the lime and a pinch of salt. Stir elote sauce to combine."},
+    {"n": 4, "title": "PREP THE GARNISHES", "text": "Deseed and mince the jalapeño. Thinly slice the radishes. Finely chop the cilantro leaves and tender stems."},
+    {"n": 5, "title": "CRISP THE CHICKPEAS AND CORN", "text": "Place a large nonstick skillet over high heat with 2 tsp olive oil. Once hot, add the chickpeas and cook undisturbed until slightly browned and crisp, about 4 to 6 minutes. Transfer to a medium bowl. Immediately return the skillet to high heat and add 2 tsp olive oil. Add the corn, cover, and cook, shaking the pan occasionally, until blackened in spots, 3 to 4 minutes. Sprinkle with salt."},
+    {"n": 6, "title": "BUILD THE BOWLS", "text": "Add the juice from the remaining lime half, lime zest, jalapeño, and a pinch of salt to the crispy chickpeas, and toss well to combine. Divide the red quinoa between large bowls. Layer on the lime chickpeas, charred corn, and drizzle with elote sauce. Top with sliced radishes, cilantro, pumpkin seeds, and vegan parmesan. Sprinkle bowls with remaining cayenne pepper. Dig in!"}
+  ],
+  "tips": ["*This item will be split between multiple steps", "Use a lid to prevent chickpeas and corn from bouncing out of the skillet."],
+  "cuisine_tags": ["Mexican"],
+  "ingredient_tags": ["chickpeas", "corn", "quinoa", "radish"],
+  "item_tags": ["cayenne", "vegan yogurt", "vegenaise", "pumpkin seeds", "vegan parmesan", "lime", "jalapeño", "cilantro"],
+  "issues": null
+}

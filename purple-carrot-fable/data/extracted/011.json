@@ -1,0 +1,39 @@
+{
+  "pair": 11,
+  "title": "Green Goddess Vegetable Pilaf",
+  "subtitle": "with Asparagus & Herbed Ranch Dressing",
+  "servings": "2 (4)",
+  "cook_time": "25 (35) min",
+  "nutrition": {"calories": "570", "fat": "32 g", "carbohydrates": "63 g", "protein": "12 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "½ cup basmati rice",
+    "4 oz sugar snap peas",
+    "3 scallions",
+    "1 cucumber",
+    "6 oz asparagus",
+    "¼ oz fresh mint",
+    "1 avocado",
+    "1 lemon*",
+    "¼ cup pistachios",
+    "2 tsp dried parsley",
+    "¼ cup Follow Your Heart® High Omega Vegan Ranch Salad Dressing"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Add basmati rice, 1 cup (2 cups) water, and a pinch of salt to a small saucepan. Bring to a boil, cover, reduce heat to low, and cook until the water is absorbed and grains are tender, 13 to 15 minutes."},
+    {"n": 2, "title": null, "text": "Thinly slice the sugar snap peas. Thinly slice scallions. Dice cucumber(s). Trim 1 inch off the ends of the asparagus. Pick and roughly chop the mint leaves. Halve the avocado(s), remove the pit(s), and thinly slice the flesh. Halve and juice the lemon(s)."},
+    {"n": 3, "title": null, "text": "Heat 2 tsp (4 tsp) olive oil in a large skillet over medium-high heat. Add asparagus and cook, undisturbed, until charred in places, 2 to 4 minutes. Sprinkle with salt and pepper, toss, and cook until crisp-tender, another 1 to 2 minutes."},
+    {"n": 4, "title": null, "text": "Fluff the cooked basmati rice and transfer to a large bowl. Add sliced snap peas, sliced scallion, diced cucumber, chopped mint, just 1 tbsp (2 tbsp) lemon juice, pistachios, and 2 tsp (4 tsp) olive oil. Gently toss the vegetable pilaf. Taste, and add salt and pepper as necessary."},
+    {"n": 5, "title": null, "text": "Add remaining lemon juice, parsley, ranch dressing, and a pinch of pepper to a small bowl and stir the herbed ranch dressing. Divide the vegetable pilaf between plates and top with cooked asparagus and sliced avocado. Drizzle the green goddess vegetable pilaf with herbed ranch dressing. Bon appétit!"}
+  ],
+  "tips": [
+    "* This ingredient will be split between steps.",
+    "Full of Freshness: We packed this meal with tons of green veggies, including sugar snap peas, scallions, and asparagus, plus cucumber and avocado (which, yes, we realize are technically fruits, not veggies). We added fresh mint and dried parsley, too, sending the fresh factor off the charts. Plus, this is perfect for camping! Prep is a cinch and it's easy to toss in a container and go. Just don't forget the forks!"
+  ],
+  "cuisine_tags": ["American"],
+  "ingredient_tags": ["rice", "asparagus", "avocado", "sugar snap peas", "cucumber"],
+  "item_tags": ["pistachios", "ranch dressing", "mint", "dried parsley", "lemon"],
+  "issues": null
+}

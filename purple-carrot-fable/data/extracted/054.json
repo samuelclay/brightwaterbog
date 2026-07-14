@@ -1,0 +1,45 @@
+{
+  "pair": 54,
+  "title": "Crispy Fabcakes",
+  "subtitle": "with Fresh Herb Salad & Creamy Lemon Dijon Dressing",
+  "servings": "2",
+  "cook_time": "35 min",
+  "nutrition": {"calories": "750", "fat": "34 g", "carbohydrates": "86 g", "protein": "24 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "2 carrots",
+    "1 garlic clove",
+    "1 lemon*",
+    "13.4 oz chickpeas",
+    "14 oz hearts of palm",
+    "2 radishes",
+    "¼ oz fresh dill",
+    "1 jalapeño (spicy)",
+    "1 tbsp Dijon mustard*",
+    "¼ cup + 2 tbsp Follow Your Heart® Soy-Free Vegenaise®*",
+    "1 tbsp New England seasoning",
+    "¾ cup panko breadcrumbs*",
+    "2 oz baby arugula"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat the oven to 400°F. Peel the carrots, then chop into 1 inch pieces. Peel and mince the garlic. Halve the lemon, juice one half, and cut the other half into wedges. Drain and rinse the chickpeas. Drain and roughly chop the hearts of palm. Trim and halve the radishes. Pick the dill fronds from the stems. Trim, deseed, and roughly chop the jalapeño."},
+    {"n": 2, "title": null, "text": "Add the chopped carrot, halved radishes, 1 tbsp vegetable oil, and a pinch of salt and pepper to a baking sheet. Toss to coat, and roast until tender and browned, 18 to 20 minutes."},
+    {"n": 3, "title": null, "text": "Add the minced garlic, lemon juice, just half the Dijon mustard, just 2 tbsp Vegenaise, 1 tbsp olive oil, and a pinch of salt and pepper to a large bowl. Whisk the lemon Dijon dressing."},
+    {"n": 4, "title": null, "text": "Add the chickpeas, chopped hearts of palm, chopped jalapeño, remaining Dijon mustard, remaining Vegenaise, New England seasoning, just ½ cup panko breadcrumbs, ½ tsp salt, and ¼ tsp pepper to a food processor. Pulse until well combined but not finely chopped, 5 to 8 pulses. Form the fabcake mixture into six 2 inch wide patties."},
+    {"n": 5, "title": null, "text": "Add 2 tbsp vegetable oil to a large nonstick skillet over medium heat. Add remaining panko breadcrumbs to a plate and gently press fabcake patties into breadcrumbs, coating both sides. Add breaded fabcakes to the skillet and cook until golden brown, 5 to 8 minutes per side. Transfer to a paper towel-lined plate and sprinkle with salt."},
+    {"n": 6, "title": null, "text": "Divide the dill fronds and baby arugula between bowls. Top with roasted carrots and radishes, and crispy fabcakes. Drizzle with creamy lemon Dijon dressing and serve with lemon wedges. Dig in!"}
+  ],
+  "tips": [
+    "TIP: Wash your hands and cutting board well after handling the jalapeño.",
+    "TIP: It's okay to start roasting the carrots before your oven is fully preheated.",
+    "TIP: Add more oil as necessary to crisp the fabcakes.",
+    "* These ingredients will be split between steps.",
+    "Substitute: another green for baby arugula"
+  ],
+  "cuisine_tags": ["American", "New England"],
+  "ingredient_tags": ["chickpeas", "hearts of palm", "arugula", "carrots"],
+  "item_tags": ["dijon mustard", "vegenaise", "new england seasoning", "panko breadcrumbs", "dill", "jalapeño"],
+  "issues": null
+}

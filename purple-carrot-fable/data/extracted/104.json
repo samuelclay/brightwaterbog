@@ -1,0 +1,25 @@
+{
+  "pair": 104,
+  "title": "Spiced Chickpea Grain Bowl",
+  "subtitle": "with Freekeh Tabbouleh and Roasted Beets",
+  "servings": "2",
+  "cook_time": "40 minutes",
+  "nutrition": {"calories": "710", "fat": "35 g", "carbohydrates": "83 g", "protein": "27 g"},
+  "description": "Freekeh is not only a fun word to say, but there is also a great story behind each grain. The wheat that will become freekeh is actually harvested very young, roasted, and then sun dried. This technique gives the grain its distinctive chewy texture and nutty flavor, and it really shines in this herb packed tabbouleh. If you don't have two baking sheets, any oven safe casserole dish will work for roasting the beets and chickpeas.",
+  "from_your_kitchen": ["2 tbsp + 2 tsp olive oil", "1 tbsp vegetable oil", "Salt and pepper"],
+  "ingredients": ["¾ cup freekeh", "7 oz red beet", "1 tbsp sesame seeds", "1 can chickpeas", "1 tsp berbere spice", "1 cucumber", "1 scallion", "3 oz grape tomatoes", "Fresh mint", "Fresh parsley", "1 lemon", "3 tbsp vegan yogurt"],
+  "tools": ["Small saucepan", "2 Baking sheets"],
+  "steps": [
+    {"n": 1, "title": "COOK THE FREEKEH", "text": "Preheat the oven to 425°F. Place a small saucepan over medium-high and add the freekeh. Toast in the dry pan, shaking occasionally, until the freekeh becomes fragrant, about 2 minutes. Add 1¾ cups water, a pinch of salt, and bring to a boil. Reduce heat to low, cover, and let simmer until water has been absorbed, about 20 to 25 minutes. Remove from heat and let freekeh stand for an additional 5 minutes."},
+    {"n": 2, "title": "ROAST THE BEET", "text": "Peel the beet and thinly slice. Transfer to a baking sheet and toss with 2 tsp olive oil and a pinch of salt and pepper. Roast until beets are tender, about 15 to 18 minutes. Sprinkle the sesame seeds on the roasted beets and return to the oven until the seeds are golden and toasted, an additional 3 to 5 minutes."},
+    {"n": 3, "title": "BAKE THE CHICKPEAS", "text": "Drain and rinse the chickpeas and pat dry with a paper towel. Add to a baking sheet and toss with 1 tbsp vegetable oil and berbere spice. Season the chickpeas generously with salt and pepper and bake until crispy and lightly browned, about 14 to 16 minutes."},
+    {"n": 4, "title": "PREP THE TABBOULEH", "text": "Thinly slice the cucumber and the scallion. Halve the grape tomatoes. Roughly chop the mint and parsley leaves."},
+    {"n": 5, "title": "MIX THE TABBOULEH", "text": "When the freekeh has finished cooking, add the cucumber, grape tomatoes, scallion, mint, and parsley to the saucepan. Stir in juice from half the lemon and 2 tbsp olive oil. Season freekeh tabbouleh liberally with salt and pepper. Cut the remaining lemon half into wedges."},
+    {"n": 6, "title": "PLATE", "text": "Divide the freekeh tabbouleh between large bowls or plates. Top with sesame roasted beets and spiced chickpeas. Dollop with vegan yogurt and serve with lemon wedges."}
+  ],
+  "tips": ["Add more or less berbere spice depending on your affinity for heat."],
+  "cuisine_tags": ["Middle Eastern", "Mediterranean"],
+  "ingredient_tags": ["chickpeas", "freekeh", "beets", "cucumber", "tomatoes"],
+  "item_tags": ["berbere spice", "sesame seeds", "vegan yogurt", "mint", "parsley", "lemon"],
+  "issues": null
+}

@@ -1,0 +1,41 @@
+{
+  "pair": 71,
+  "title": "Fiesta Enchilada Skillet",
+  "subtitle": "with Mole Black Beans & Avocado",
+  "servings": "2",
+  "cook_time": "30 min",
+  "nutrition": {"calories": "660", "fat": "20 g", "carbohydrates": "93 g", "protein": "26 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 onion",
+    "2 garlic cloves",
+    "1 zucchini",
+    "13.4 oz black beans",
+    "1 ear of corn",
+    "14.5 oz diced tomatoes",
+    "2 tsp Mexican mole spice blend",
+    "1 tsp ground cumin",
+    "2 corn tortillas",
+    "2 oz vegan mozzarella",
+    "1 avocado",
+    "1 lime"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Peel and dice the onion. Peel and mince the garlic. Trim and dice the zucchini. Drain and rinse the black beans. Cut the corn kernels off the cob."},
+    {"n": 2, "title": null, "text": "Heat 1 tbsp vegetable oil in a large oven-safe skillet over medium-high heat. Add diced onion, minced garlic, and a pinch of salt and pepper, and cook until softened, 3 to 5 minutes. Add diced zucchini, black beans, tomatoes, Mexican mole spice blend, cumin, and ¼ tsp salt, and cook until slightly thickened, 4 to 6 minutes."},
+    {"n": 3, "title": null, "text": "Thinly slice the corn tortillas into ¼ inch thick strips. Heat 2 tbsp vegetable oil in a small skillet over medium-high heat. Once hot, add tortilla strips and cook until lightly browned and crispy, 2 to 3 minutes. Transfer to a paper towel-lined plate and sprinkle with salt."},
+    {"n": 4, "title": null, "text": "Set the oven to broil on low. Add corn kernels to the skillet with the mole black beans and stir to combine. Top with mozzarella and place skillet in oven until cheese melts, 3 to 4 minutes."},
+    {"n": 5, "title": null, "text": "Halve the avocado, remove the pit, and slice the flesh. Halve the lime, juice one half, and divide the other half into wedges. Top the fiesta enchilada skillet with crispy tortillas, sliced avocado, and lime juice. Serve with lime wedges. Enjoy!"}
+  ],
+  "tips": [
+    "TIP: The oil should sizzle when you add the tortilla strips.",
+    "TIP: All broilers are different. Watch carefully to ensure cheese doesn't burn.",
+    "Substitute: yellow squash for zucchini"
+  ],
+  "cuisine_tags": ["Mexican"],
+  "ingredient_tags": ["black beans", "zucchini", "corn", "avocado", "tortillas"],
+  "item_tags": ["mole spice blend", "cumin", "vegan mozzarella", "lime", "diced tomatoes"],
+  "issues": null
+}

@@ -1,0 +1,41 @@
+{
+  "pair": 28,
+  "title": "Fettuccine Arrabbiata",
+  "subtitle": "with Roasted Broccoli & Basil Pesto",
+  "servings": "2 (4)",
+  "cook_time": "25 (35) min",
+  "nutrition": {"calories": "570", "fat": "12 g", "carbohydrates": "103 g", "protein": "20 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 onion",
+    "4 garlic cloves",
+    "6 oz broccoli florets",
+    "6 oz fettuccine",
+    "¼ cup panko breadcrumbs",
+    "14 oz crushed tomatoes",
+    "1 tsp Italian seasoning blend",
+    "½ tsp red chile flakes 🌶",
+    "2 tbsp vegan basil pesto",
+    "2 tbsp vegan parmesan"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat the oven to 425°F. Bring a large pot of salted water to a boil. Peel and dice the onion(s). Peel and mince the garlic. Chop broccoli florets into bite-size pieces."},
+    {"n": 2, "title": null, "text": "Add fettuccine to the boiling water and cook until al dente, 10 to 12 minutes. Drain pasta and return to the pot, off heat."},
+    {"n": 3, "title": null, "text": "Add chopped broccoli florets, 1 tsp (2 tsp) olive oil, and a pinch of salt and pepper to a baking sheet, and toss. Roast until browned and crisp in places, 10 to 12 minutes."},
+    {"n": 4, "title": null, "text": "Heat a medium saucepan over medium heat. Add panko breadcrumbs, 2 tsp (4 tsp) olive oil, and ¼ tsp (½ tsp) salt, and stir frequently until breadcrumbs are golden brown, 2 to 4 minutes. Transfer toasted panko breadcrumbs to a small bowl."},
+    {"n": 5, "title": null, "text": "Return the medium saucepan to medium-high heat with 2 tsp (4 tsp) olive oil. Once hot, add diced onion, minced garlic, and a pinch of salt and pepper. Cook until onion is softened, 3 to 5 minutes. Add tomatoes, Italian seasoning blend, ¼ tsp (½ tsp) red chile flakes, and ½ tsp (1 tsp) salt. Cook the arrabbiata sauce until it begins to simmer, 3 to 5 minutes."},
+    {"n": 6, "title": null, "text": "Add arrabbiata sauce to the pot with the fettuccine, and stir. Divide the fettuccine arrabbiata between large bowls, ladling any remaining arrabbiata sauce over the pasta. Serve with roasted broccoli and top with toasted panko breadcrumbs, basil pesto, and parmesan. Enjoy!"}
+  ],
+  "tips": [
+    "This item is spicy. (red chile flakes)",
+    "TIP: We will use this saucepan again in the next step.",
+    "TIP: If you're sensitive to spice, add less of the red chile flakes.",
+    "Ingredients listed for 2 servings—if you're making 4 servings, please double your ingredients by using both bags provided. Directions for 4 servings indicated in parentheses."
+  ],
+  "cuisine_tags": ["Italian"],
+  "ingredient_tags": ["pasta", "broccoli", "tomatoes"],
+  "item_tags": ["basil pesto", "vegan parmesan", "red chile flakes", "italian seasoning", "panko breadcrumbs"],
+  "issues": null
+}

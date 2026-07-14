@@ -1,0 +1,38 @@
+{
+  "pair": 76,
+  "title": "Gnocchi Al Pesto",
+  "subtitle": "with Charred Green Beans & Lemon Zucchini",
+  "servings": "2 (4)",
+  "cook_time": "30 (40) min",
+  "nutrition": {"calories": "510", "fat": "14 g", "carbohydrates": "83 g", "protein": "12 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "6 oz green beans",
+    "1 zucchini",
+    "1 lemon*",
+    "1 tsp Aleppo pepper flakes",
+    "10 oz fresh gnocchi",
+    "¼ cup vegan basil pesto"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Bring a large pot of salted water to a boil for the gnocchi. Cut green beans in half. Trim the zucchini(s) and peel lengthwise to make ribbons. Halve the lemon(s), juice one half (1 lemon), and cut the other half (1 lemon) into wedges."},
+    {"n": 2, "title": null, "text": "Add the zucchini ribbons, lemon juice, Aleppo pepper flakes, and a pinch of salt to a medium bowl. Toss to combine."},
+    {"n": 3, "title": null, "text": "Heat 2 tsp (4 tsp) olive oil in a large nonstick skillet over medium-high heat. Add halved green beans and cook until browned in places, 3 to 4 minutes. Add ¼ cup (½ cup) water and reduce heat to low. Cook green beans until crisp-tender, another 2 to 3 minutes. Sprinkle charred green beans with salt and pepper, and transfer to a bowl."},
+    {"n": 4, "title": null, "text": "Add the gnocchi to the large pot of boiling water and cook until they float to the surface, 3 to 5 minutes. Drain gnocchi and shake off any excess water."},
+    {"n": 5, "title": null, "text": "Return skillet to medium heat with 1 tbsp (2 tbsp) olive oil. Add cooked gnocchi and sauté, undisturbed, until browned in places, 2 to 4 minutes. Return charred green beans to the skillet along with the basil pesto and toss to combine. Sprinkle gnocchi with salt and pepper."},
+    {"n": 6, "title": null, "text": "Divide the gnocchi al pesto with charred green beans between shallow bowls. Serve with lemon zucchini and lemon wedges. Mangia!"}
+  ],
+  "tips": [
+    "TIP: We will reuse this skillet in a later step.",
+    "TIP: If the pesto is too thick, add 1 tablespoon warm water (or more, if necessary), to create a thinner consistency.",
+    "* This ingredient will be split between steps",
+    "This item is spicy. (Aleppo pepper flakes)",
+    "Substitutes: broccoli for green beans, yellow squash for zucchini"
+  ],
+  "cuisine_tags": ["Italian"],
+  "ingredient_tags": ["gnocchi", "green beans", "zucchini"],
+  "item_tags": ["vegan basil pesto", "aleppo pepper", "lemon"],
+  "issues": null
+}

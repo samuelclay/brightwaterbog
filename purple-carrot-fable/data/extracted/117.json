@@ -1,0 +1,38 @@
+{
+  "pair": 117,
+  "title": "Tomato-Braised Artichokes",
+  "subtitle": "with Bright Dill Sauce and Farro",
+  "servings": "2",
+  "cook_time": "30 minutes",
+  "nutrition": {"calories": "650", "fat": "30 g", "carbohydrates": "82 g", "protein": "16 g"},
+  "description": "Artichokes are rich in vitamins and minerals—and they taste good, too. Farro, an ancient grain packed with antioxidants, serves as the perfect bed for your savory, saucy artichokes. You'll top off the dish with a drizzle of Greek-style dill sauce.",
+  "from_your_kitchen": ["1 tbsp olive oil", "Salt and pepper"],
+  "ingredients": [
+    "¾ cup farro",
+    "1 shallot",
+    "3 cloves garlic",
+    "8 oz artichoke hearts",
+    "1 oz cured black olives",
+    "1 can crushed tomatoes",
+    "1 cucumber",
+    "Fresh dill",
+    "1 lemon",
+    "¼ cup Follow Your Heart® Vegenaise®"
+  ],
+  "tools": ["Small saucepan", "Large skillet", "Box grater"],
+  "steps": [
+    {"n": 1, "title": "COOK THE FARRO", "text": "Add the farro to a small saucepan, cover with 1 inch water, and bring to a boil. Cook until the grains are tender, about 18 to 20 minutes. Drain farro and toss with 1 tsp olive oil. Season with salt and pepper and cover to keep warm."},
+    {"n": 2, "title": "CUT THE VEGETABLES", "text": "Peel and mince the shallot. Mince the garlic. Cut the artichoke hearts in half lengthwise. Check the olives for any pits, remove if necessary, and chop."},
+    {"n": 3, "title": "BEGIN TO BRAISE", "text": "Place a large skillet over medium-high heat with 2 tsp olive oil. Add the shallot and garlic and cook until fragrant and slightly toasted, about 1 minute. Add the artichokes and stir to combine. Add the crushed tomatoes and 1 cup water. Bring to a boil, reduce heat to low, and simmer artichokes until the sauce has thickened slightly and you're ready to plate."},
+    {"n": 4, "title": "PREPARE THE DILL SAUCE", "text": "Grate the cucumber on the on the large side of a box grater. Squeeze out the excess water from the cucumber and add cucumber to a medium bowl. Finely chop the dill fronds. Add the dill, juice from half the lemon, Follow Your Heart® Vegenaise®, and a pinch of salt to the bowl. Stir dill sauce to combine."},
+    {"n": 5, "title": "ADD THE FINISHING TOUCHES", "text": "Cut the remaining lemon half into wedges. Season the artichokes with ½ tsp salt."},
+    {"n": 6, "title": "PLATING TIME", "text": "Divide the farro between plates and top with the tomato-braised artichokes. Drizzle with dill sauce and sprinkle with the chopped olives. Enjoy!"}
+  ],
+  "tips": [
+    "TIP: The dill fronds are the green wispy leaves on the thick stems."
+  ],
+  "cuisine_tags": ["Greek", "Mediterranean"],
+  "ingredient_tags": ["artichokes", "farro", "cucumber", "tomatoes"],
+  "item_tags": ["cured black olives", "dill", "vegenaise", "lemon", "shallot", "garlic"],
+  "issues": null
+}

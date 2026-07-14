@@ -1,0 +1,42 @@
+{
+  "pair": 9,
+  "title": "Spinach Artichoke Grilled Cheese",
+  "subtitle": "with Hot Pepper Mayo & Oregano Fries",
+  "servings": "2",
+  "cook_time": "25 min",
+  "nutrition": {"calories": "660", "fat": "26 g", "carbohydrates": "92 g", "protein": "15 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 russet potato",
+    "½ tsp dried oregano",
+    "2 oz pickled jalapeños 🌶",
+    "¼ cup Follow Your Heart® Soy-Free Vegenaise®*",
+    "½ cup artichoke hearts",
+    "2 garlic cloves",
+    "2 oz baby spinach",
+    "4 slices sourdough bread",
+    "2 oz vegan mozzarella"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat the oven to 425°F. Cut potato into ½ inch thick sticks and transfer to a baking sheet. Add 2 tsp olive oil, oregano, and a pinch of salt and pepper, and toss. Roast until browned and crisp in places, 18 to 20 minutes."},
+    {"n": 2, "title": null, "text": "Finely chop the pickled jalapeños. Add chopped jalapeños, just half the Vegenaise, and a pinch of pepper to a small bowl. Stir the hot pepper mayo."},
+    {"n": 3, "title": null, "text": "Drain and roughly chop ½ cup artichoke hearts. Mince the garlic. Add 1 tsp olive oil to a large nonstick skillet over medium-high heat. Add chopped artichoke hearts and cook until crispy in places, 5 to 6 minutes. Add minced garlic and cook until aromatic, about 1 minute. Add baby spinach, stir to combine, and transfer spinach artichoke mixture to a bowl. Wipe the skillet clean and set aside, off heat."},
+    {"n": 4, "title": null, "text": "To assemble the sandwiches, place 2 slices of sourdough bread on a flat surface and spread just ½ tbsp Vegenaise on each slice. Flip slices over and spread hot pepper mayo on the other side. Add spinach artichoke mixture and mozzarella, and top with remaining bread slices to close the sandwiches. Spread remaining Vegenaise on top of each sandwich."},
+    {"n": 5, "title": null, "text": "Place the large nonstick skillet over medium heat. Add sandwiches and cook until golden brown, 2 to 3 minutes per side."},
+    {"n": 6, "title": null, "text": "Cut the spinach artichoke grilled cheese sandwiches in half and serve with oregano fries. Enjoy!"}
+  ],
+  "tips": [
+    "This item is spicy.",
+    "* This ingredient will be split between steps.",
+    "TIP: Rotate the baking sheet halfway through baking to ensure even browning.",
+    "TIP: If you're sensitive to spice, omit or use less pickled jalapeño.",
+    "TIPS: Keep the remaining artichoke hearts for your own use. We will use this skillet again.",
+    "TIP: If the bread browns before the cheese has melted, lower the heat."
+  ],
+  "cuisine_tags": ["American", "Comfort Food"],
+  "ingredient_tags": ["spinach", "artichoke hearts", "potatoes", "sourdough bread"],
+  "item_tags": ["pickled jalapeños", "vegenaise", "vegan mozzarella", "oregano"],
+  "issues": null
+}

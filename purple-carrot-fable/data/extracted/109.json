@@ -1,0 +1,25 @@
+{
+  "pair": 109,
+  "title": "Winter Squash Flatbread",
+  "subtitle": "with Caramelized Apple and Rosemary",
+  "servings": "2",
+  "cook_time": "35 minutes",
+  "nutrition": {"calories": "560", "fat": "25 g", "carbohydrates": "78 g", "protein": "12 g"},
+  "description": "Despite the rich flavors, this flatbread is remarkably light. You'll create a creamy \"bechamel,\" or \"white sauce,\" using vegan butter, almond milk, and a squeeze of lemon juice. The squash and apple toppings add a sweet note that offsets the bitter punch of arugula. You may have extra minced rosemary —save it for cooking on your own.",
+  "from_your_kitchen": ["2 tsp vegetable oil", "1 tsp olive oil", "Salt and pepper"],
+  "ingredients": ["2 sprigs rosemary*", "8 oz squash", "1 shallot", "1 garlic clove*", "½ cup almond milk", "2 tbsp vegan butter", "1 tsp arrowroot starch", "1 lemon", "1 apple", "2 pieces naan", "2 oz baby arugula", "2 tsp white balsamic vinegar"],
+  "tools": ["Baking sheet", "Small saucepan", "Large nonstick skillet"],
+  "steps": [
+    {"n": 1, "title": "ROAST THE SQUASH", "text": "Preheat the oven to 425°F. Strip the rosemary leaves from the stems and mince the leaves. Add the squash to a baking sheet with 1 tsp vegetable oil, just 1 tsp minced rosemary, and a pinch of salt and pepper. Roast until the squash begins to brown in places, about 14 to 18 minutes. Peel and mince the shallot. Peel and mince 1 clove garlic."},
+    {"n": 2, "title": "MAKE THE BECHAMEL", "text": "Place a small saucepan over medium heat and add the butter. Add the shallot and garlic and cook until softened, about 2 to 3 minutes. Add arrowroot starch and stir into a paste. Add the juice from half the lemon, almond milk, and a pinch of salt. Stir until thickened, about 1 minute, and remove from the heat."},
+    {"n": 3, "title": "CARAMELIZE THE APPLE", "text": "Thinly slice the apple. Place a large nonstick skillet over medium-high heat with 1 tsp vegetable oil. Add the sliced apple and 1 tsp of the remaining minced rosemary to the skillet. Sprinkle with salt and cook, stirring frequently, until tender and browned in places, about 4 to 6 minutes. Squeeze in the juice from the remaining lemon onto the apples."},
+    {"n": 4, "title": "CRISP THE NAAN", "text": "Pop the naan into the oven and heat until it's a little crispy, about 5 to 8 minutes."},
+    {"n": 5, "title": "BUILD THE FLATBREADS", "text": "Spread the bechamel sauce onto the naan and top with the roasted squash and caramelized apples. Pop the flatbreads back into the oven for 3 minutes to warm. In a medium bowl, toss the arugula with 1 tsp olive oil and a pinch of salt and pepper."},
+    {"n": 6, "title": "CUT AND SERVE", "text": "Top the winter squash flatbreads with some of the arugula salad. Drizzle with white balsamic vinegar and slice. Serve alongside any remaining arugula salad. Dig in!"}
+  ],
+  "tips": ["*These items will be split between multiple steps.", "*Find a head of garlic in the Beetroot Taco recipe bag.", "TIP: Toss apples frequently to avoid burning.", "TIP: If there are any remaining apples, toss them into the arugula."],
+  "cuisine_tags": ["American", "Fusion"],
+  "ingredient_tags": ["squash", "naan", "apple", "arugula"],
+  "item_tags": ["rosemary", "almond milk", "vegan butter", "arrowroot starch", "white balsamic vinegar", "lemon"],
+  "issues": null
+}

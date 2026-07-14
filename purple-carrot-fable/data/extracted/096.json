@@ -1,0 +1,25 @@
+{
+  "pair": 96,
+  "title": "Sweet-and-Sour Brussels Sprouts Stir-Fry",
+  "subtitle": "with Black Quinoa and Mint",
+  "servings": "2",
+  "cook_time": "30 minutes",
+  "nutrition": {"calories": "670", "fat": "34 g", "carbohydrates": "72 g", "protein": "22 g"},
+  "description": "You'll char hearty Brussels sprouts in a skillet to develop flavor before tossing them in a sweet-and-sour sauce. The sauce has a little heat from the togarashi, a blend of chile, sesame seeds, ginger, and seaweed. Edamame amps up the protein and adds texture in this quick, delicious take on fried rice.",
+  "from_your_kitchen": ["2 tbsp vegetable oil", "Salt"],
+  "ingredients": ["Fresh ginger", "4 oz carrot", "8 oz Brussels sprouts", "¾ cup black quinoa", "Fresh mint*", "1 tbsp agave", "1 tbsp rice vinegar", "½ tsp togarashi spice", "½ cup edamame", "1 tbsp sesame oil", "1 tbsp tamari", "¼ cup tamari almonds"],
+  "tools": ["Large skillet with a lid", "Medium skillet"],
+  "steps": [
+    {"n": 1, "title": "PREPARE THE VEGETABLES", "text": "Peel and mince the ginger. Peel and dice the carrot. Trim and halve the Brussels sprouts."},
+    {"n": 2, "title": "COOK THE QUINOA", "text": "Place a large skillet over medium-high heat with 1 tbsp vegetable oil. Once hot, add the minced ginger and diced carrot. Cook until fragrant, about 1 to 2 minutes. Add the black quinoa along with 1¼ cups water, and bring to a boil. Reduce heat to low, cover, and simmer until all of the water is absorbed, about 12 to 15 minutes."},
+    {"n": 3, "title": "MAKE THE SAUCE", "text": "Thinly slice half of the mint leaves. In a small bowl, combine the sliced mint, agave, rice vinegar, togarashi, and ½ tsp salt. Pick the remaining mint leaves, tear them with your hands, and set aside."},
+    {"n": 4, "title": "SEAR THE SPROUTS", "text": "Place a medium skillet over medium-high heat with 1 tbsp vegetable oil. Once hot, add the halved Brussels sprouts and a pinch of salt. Arrange sprouts cut side down and cook, undisturbed, until browned and crispy, about 2 to 5 minutes. Toss, lower heat to medium-low, and add the sauce. Toss once more, and cook until sauce is syrupy and sprouts are tender, about 2 to 3 minutes."},
+    {"n": 5, "title": "FINISH THE QUINOA", "text": "Once quinoa is cooked, remove the lid, and increase heat to high. Stir in edamame, sesame oil, and tamari. Cook, stirring occasionally, until edamame is warmed through and no liquid remains, about 3 to 4 minutes. Taste quinoa and season with salt as necessary."},
+    {"n": 6, "title": "PLATE AND SERVE", "text": "Roughly chop the tamari almonds. Divide the quinoa between large shallow bowls and top with sweet-and-sour Brussels sprouts. Garnish with tamari almonds and torn mint. Chow down!"}
+  ],
+  "tips": ["*This item will be split between multiple steps.", "This item is spicy. (togarashi spice)", "TIP: Searing cut-side down allows for more caramelization and flavor."],
+  "cuisine_tags": ["Japanese", "Fusion"],
+  "ingredient_tags": ["brussels sprouts", "quinoa", "edamame", "carrot"],
+  "item_tags": ["togarashi", "tamari", "rice vinegar", "sesame oil", "agave", "mint", "tamari almonds", "ginger"],
+  "issues": null
+}

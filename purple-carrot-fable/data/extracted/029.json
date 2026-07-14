@@ -1,0 +1,41 @@
+{
+  "pair": 29,
+  "title": "Greek Seitan Gyros",
+  "subtitle": "with Quick Pickles & Lemon Yogurt",
+  "servings": "2 (4)",
+  "cook_time": "25 (35) min",
+  "nutrition": {"calories": "540", "fat": "9 g", "carbohydrates": "71 g", "protein": "48 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 cucumber",
+    "1 red onion",
+    "8 oz seitan",
+    "1 lemon",
+    "1 Roma tomato",
+    "½ oz fresh mint",
+    "2 tbsp Champagne vinegar",
+    "2 tsp ras el hanout",
+    "¼ cup Forager Project® Organic Dairy-Free Cashewmilk Yogurt",
+    "2 multigrain flatbreads"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat the oven to 350°F. Thinly slice cucumber(s) into rounds. Peel and thinly slice 1 cup (2 cups) onion. Thinly slice the seitan. Halve and juice the lemon(s). Thinly slice the tomato(es). Pick the mint leaves."},
+    {"n": 2, "title": null, "text": "Add sliced cucumber, Champagne vinegar, and a pinch of salt and pepper to a medium bowl, and toss to coat. Set quick pickles aside until step 5."},
+    {"n": 3, "title": null, "text": "Heat 2 tbsp (4 tbsp) olive oil in a large nonstick skillet over medium-high heat. Add sliced seitan and a pinch of salt and cook until seitan is browned in places, 4 to 6 minutes. Sprinkle crispy seitan with just 1 tsp (2 tsp) ras el hanout and cook until fragrant, about 1 minute."},
+    {"n": 4, "title": null, "text": "Add yogurt, just 1 tbsp (2 tbsp) lemon juice, and a pinch of salt to a small bowl, and whisk the lemon yogurt. Place flatbreads directly on the oven rack and toast until warm, 2 to 3 minutes."},
+    {"n": 5, "title": null, "text": "Top toasted flatbreads with crispy seitan, quick pickles, as much sliced onion as you'd like, and sliced tomato. Top the Greek seitan gyros with mint leaves and lemon yogurt. To eat, fold one side of the flatbread over the other, like a taco. Dig in!"}
+  ],
+  "tips": [
+    "TIP: The oven will be used to toast the flatbreads. If you have a toaster oven you can use that instead.",
+    "TIP: Add more ras el hanout if you prefer.",
+    "TIP: Don't let the flatbreads get too crispy. They should still be pliable enough to fold.",
+    "Crispy Seitan = Amazing Seitan — We love seitan because it's high in protein, mimics the texture of meat, and impressively soaks up flavor. And while there are many ways to serve it, in this recipe it's all about creating some crisp. To make delightfully crispy seitan, get the pan nice and hot, somewhere between medium-high and high heat—and make sure you're using enough oil. Finally, toss the seitan occasionally, not too often!",
+    "Ingredients listed for 2 servings—if you're making 4 servings, please double your ingredients by using both bags provided. Directions for 4 servings indicated in parentheses."
+  ],
+  "cuisine_tags": ["Greek", "Mediterranean"],
+  "ingredient_tags": ["seitan", "flatbread", "cucumber", "tomato", "red onion"],
+  "item_tags": ["ras el hanout", "champagne vinegar", "cashewmilk yogurt", "mint", "lemon"],
+  "issues": null
+}

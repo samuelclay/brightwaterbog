@@ -1,0 +1,39 @@
+{
+  "pair": 63,
+  "title": "Spicy Thai Coconut Corn Chowder",
+  "subtitle": "with Fresh Chile & Lime",
+  "servings": "2 (4)",
+  "cook_time": "30 (40) min",
+  "nutrition": {"calories": "600", "fat": "31 g", "carbohydrates": "72 g", "protein": "11 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "1 ear of corn",
+    "1 onion",
+    "1 red bell pepper",
+    "8 oz Yukon Gold potatoes",
+    "1 lime*",
+    "1 Thai chile*",
+    "1 tbsp green curry paste",
+    "11 oz coconut milk",
+    "2 scallions",
+    "¼ oz fresh cilantro"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Cut the corn kernels off the cob(s). Peel and dice the onion(s). Deseed and dice the red bell pepper(s). Dice the Yukon Gold potatoes into ½ inch cubes. Halve the lime(s), juice one half (1 lime), and divide the other half (1 lime) into wedges. Mince the Thai chile(s)."},
+    {"n": 2, "title": null, "text": "Heat 1 tbsp (2 tbsp) vegetable oil in a large pot over medium-high heat. Add diced onion, diced red bell pepper, and just half the minced Thai chile. Cook until onion is translucent and softened, 3 to 5 minutes. Add green curry paste and cook, stirring frequently, until fragrant, 1 to 2 minutes."},
+    {"n": 3, "title": null, "text": "Add the corn, diced Yukon Gold potato, coconut milk and 2 cups (4 cups) water to the pot. Bring to a boil, and reduce heat to low. Simmer chowder until potatoes are fork-tender and coconut milk has thickened slightly, 8 to 10 minutes."},
+    {"n": 4, "title": null, "text": "Thinly slice the scallions. Pick and roughly chop the cilantro leaves. Add lime juice to the chowder. Taste, and add salt as necessary. Ladle the spicy Thai coconut corn chowder into large bowls. Top with sliced scallion, chopped cilantro, and any remaining minced Thai chile. Serve with lime wedges. Enjoy!"}
+  ],
+  "tips": [
+    "* This ingredient will be split between steps.",
+    "TIP: Be sure to wash your hands after preparing the chile.",
+    "TIP: If you're sensitive to spice, use less Thai chile.",
+    "Hot, Tasty, and Nutritious: Red Thai chile peppers aren't HOT hot, but they definitely pack a punch. For reference, these peppers are about 23 times hotter than a jalapeño, and 3 times less spicy than a habanero pepper. These peppers are healthy, too. They've got vitamins A and C, which can help boost the immune system, as well as capsaicin, a chemical compound that contains anti-inflammatory properties and has been shown to help stimulate the circulatory system."
+  ],
+  "cuisine_tags": ["Thai"],
+  "ingredient_tags": ["corn", "potatoes", "bell pepper", "onion"],
+  "item_tags": ["green curry paste", "coconut milk", "thai chile", "lime", "cilantro", "scallions"],
+  "issues": null
+}

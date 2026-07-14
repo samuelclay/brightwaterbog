@@ -1,0 +1,40 @@
+{
+  "pair": 18,
+  "title": "Summer Vegetable Ciabatta",
+  "subtitle": "with Cashew Cheese & Roasted Tomato Vinaigrette",
+  "servings": "2",
+  "cook_time": "30 min",
+  "nutrition": {"calories": "440", "fat": "19 g", "carbohydrates": "64 g", "protein": "16 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "2 garlic cloves*",
+    "1 zucchini",
+    "4 mini sweet peppers",
+    "1 yellow onion",
+    "¼ oz fresh basil",
+    "2 oz roasted tomatoes",
+    "¼ cup red wine vinegar",
+    "2 ciabatta rolls",
+    "2 oz Treeline® Soft French-Style Cashew Cheese",
+    "2 oz baby arugula"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Peel the garlic and mince just one clove. Slice zucchini into thick rounds on a bias. Halve the mini sweet peppers and remove the seeds and stems. Peel the onion and slice into wedges. Pick and roughly chop the basil. Roughly chop the roasted tomatoes."},
+    {"n": 2, "title": null, "text": "Set broiler to high. Add sliced zucchini, halved peppers, sliced onion, 1 tsp olive oil, and a pinch of salt and pepper to a baking sheet, and toss. Broil until vegetables are tender and slightly browned, 5 to 6 minutes."},
+    {"n": 3, "title": null, "text": "Add minced garlic, chopped tomatoes, red wine vinegar, 1 tbsp olive oil, and a sprinkle of salt and pepper to a medium sized bowl. Whisk the roasted tomato vinaigrette to combine."},
+    {"n": 4, "title": null, "text": "Slice the ciabatta rolls in half. Broil in the oven, directly on the rack, until golden brown, 2 to 3 minutes. Cut the tip off the remaining garlic clove and rub the exposed clove on the toasted ciabatta."},
+    {"n": 5, "title": null, "text": "Spread cashew cheese on the bottom half of each toasted ciabatta roll. Pour just half of the roasted tomato vinaigrette on the broiled summer vegetables, directly on the baking sheet, and toss. Add vegetables to the toasted ciabatta and top with chopped basil. Add baby arugula to the remaining vinaigrette and toss. Serve arugula salad alongside the summer vegetable ciabatta. Dig in!"}
+  ],
+  "tips": [
+    "* This ingredient will be split between steps.",
+    "TIP: To cut something \"on a bias\" means to cut it diagonally instead of crosswise.",
+    "TIP: All broilers are different. Watch carefully to ensure food doesn't burn.",
+    "Get Grillin': If you opt to make this on the grill instead, you can use skewers for the veggies. (And if you're using wooden skewers make sure to soak them in water first; we recommend reading the instructions.) We also suggest cutting the zucchini into chunks instead of planks. It'll be a lot easier and every bit as delicious."
+  ],
+  "cuisine_tags": ["Italian", "Mediterranean"],
+  "ingredient_tags": ["ciabatta", "zucchini", "sweet peppers", "arugula", "cashew cheese"],
+  "item_tags": ["red wine vinegar", "roasted tomatoes", "basil", "cashew cheese"],
+  "issues": null
+}

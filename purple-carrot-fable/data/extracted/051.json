@@ -1,0 +1,35 @@
+{
+  "pair": 51,
+  "title": "Herb Sausages",
+  "subtitle": "with Caraway Roasted Potatoes & Maple Mustard Dressing",
+  "servings": "2 (4)",
+  "cook_time": "30 (40) min",
+  "nutrition": {"calories": "550", "fat": "8 g", "carbohydrates": "91 g", "protein": "34 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "2 carrots",
+    "1 onion",
+    "4 oz Brussels sprouts",
+    "1 lb fingerling potatoes",
+    "2 vegan herbed sausages",
+    "2 tsp caraway seeds",
+    "2 tbsp Dijon mustard",
+    "2 tbsp maple syrup"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat the oven to 450°F. Peel and roughly chop the carrots and onion(s). Trim and halve the Brussels sprouts. Halve the fingerling potatoes lengthwise. Remove sausages from the casing and halve lengthwise."},
+    {"n": 2, "title": null, "text": "Add the chopped carrot, chopped onion, halved Brussels sprouts, halved fingerling potatoes, caraway seeds, 1 tbsp (2 tbsp) olive oil, and a pinch of salt and pepper to a baking sheet. Toss to evenly coat, and roast until the vegetables begin to brown, 15 to 17 minutes."},
+    {"n": 3, "title": null, "text": "Combine the Dijon mustard and maple syrup in a small bowl. Mix the maple mustard dressing."},
+    {"n": 4, "title": null, "text": "Heat 1 tbsp (2 tbsp) olive oil in a large nonstick skillet over medium-high heat. Place halved sausages cut side down and cook until well browned and crisp, 3 to 5 minutes. Flip sausages and cook another 1 to 3 minutes."},
+    {"n": 5, "title": null, "text": "Divide the caraway roasted vegetables and herbed sausages between large, shallow plates. Drizzle 1 tbsp (2 tbsp) maple mustard dressing on top, and serve any remaning dressing on the side for dipping. Enjoy!"}
+  ],
+  "tips": [
+    "Caraway Power! If you've eaten rye or pumpernickel breads, you've tasted caraway seeds. These delicious seeds, which are part of the parsley family, add a mild anise flavor and a citrusy, peppery smell to all sorts of classic dishes and savory baked goods. In particular, caraway is very common in Austrian and German cooking, but you'll also find it in Middle Eastern dishes and in condiments like harissa. Besides being a popular culinary ingredient, caraway has been used for hundreds of years as a digestive aid. Research shows that these flavorful seeds can help rebuild your intestinal flora and yeast, acting as a natural probiotic."
+  ],
+  "cuisine_tags": ["German", "American"],
+  "ingredient_tags": ["vegan sausage", "fingerling potatoes", "brussels sprouts", "carrots"],
+  "item_tags": ["caraway seeds", "dijon mustard", "maple syrup"],
+  "issues": null
+}

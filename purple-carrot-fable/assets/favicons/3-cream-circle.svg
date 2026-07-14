@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- purple carrot in a cream circle with carrot-orange ring -->
+  <circle cx="16" cy="16" r="15" fill="#FBF8F3"/>
+  <circle cx="16" cy="16" r="14.2" fill="none" stroke="#E8752E" stroke-width="1.6"/>
+  <g transform="rotate(45 16 16)">
+    <path d="M16 10 C18.9 10 20.5 12.5 19.9 17 C19.4 21 17.7 25 16 26.3 C14.3 25 12.6 21 12.1 17 C11.5 12.5 13.1 10 16 10 Z" fill="#7A4C8F"/>
+    <path d="M16 10 C18.9 10 20.5 12.5 19.9 17 C19.5 19.9 18.5 23 17.5 24.8 C16.7 22.5 16.3 17.3 16.4 12.6 C16.4 11.5 16.3 10.5 16 10 Z" fill="#5C3370"/>
+    <path d="M15.8 9.6 C15 7.2 13.5 5.8 11.4 5.3 C12.7 7.4 13.9 8.7 15.1 9.6 Z" fill="#6B8F3C"/>
+    <path d="M16.2 9.6 C16.4 6.8 17.6 5 19.8 4.4 C19.2 6.8 18.1 8.5 16.8 9.6 Z" fill="#7DA34A"/>
+  </g>
+</svg>

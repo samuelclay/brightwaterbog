@@ -1,0 +1,41 @@
+{
+  "pair": 124,
+  "title": "Sweet Potato Sushi Bowl",
+  "subtitle": "with Sambal Cucumbers and Yuzu Sauce",
+  "servings": "2",
+  "cook_time": "30 minutes",
+  "nutrition": {"calories": "670", "fat": "28 g", "carbohydrates": "93 g", "protein": "10 g"},
+  "description": "Yuzu is an aromatic fruit, somewhere between a lemon, grapefruit, and mandarin. For this dish, you'll use yuzu juice, and the taste will take your sushi bowl to the next level. Kizami nori, a traditional Japanese garnish, is sprinkled on top. Try to get a little in each bite for maximum flavor.",
+  "from_your_kitchen": ["1 tbsp vegetable oil", "Salt and pepper"],
+  "ingredients": [
+    "12 oz sweet potato",
+    "¾ cup quinoa speckled rice",
+    "1 cucumber",
+    "1 tbsp sambal",
+    "1 tsp rice vinegar",
+    "1 tsp tamari",
+    "1 tsp sesame oil",
+    "1 tsp yuzu juice",
+    "3 tbsp Follow Your Heart Vegenaise®",
+    "2 oz Lacinato kale",
+    "1 tbsp sesame seeds",
+    "Kizami nori"
+  ],
+  "tools": ["Baking sheet", "Small saucepan", "Large nonstick skillet"],
+  "steps": [
+    {"n": 1, "title": "ROAST THE SWEET POTATOES", "text": "Preheat the oven to 400°F. Cut the sweet potato into wedges, transfer to a baking sheet, and toss with 2 tsp vegetable oil, salt, and pepper. Bake until the wedges are crisp and slightly browned, about 20 to 25 minutes."},
+    {"n": 2, "title": "COOK THE RICE", "text": "Combine the quinoa speckled rice, 1¼ cups water, and a pinch of salt in a small saucepan and bring to a boil. Reduce heat to low and cook, covered, until all of the water is absorbed and the rice is tender, about 15 to 20 minutes."},
+    {"n": 3, "title": "MARINATE THE CUCUMBER", "text": "Thinly slice the cucumber on the diagonal and place in a medium bowl. To the bowl, add the sambal, rice vinegar, tamari, and sesame oil. With a fork, toss the cucumbers with the sauce, ensuring they're evenly coated. Set aside to marinate."},
+    {"n": 4, "title": "PREPARE THE YUZU SAUCE", "text": "Combine the yuzu juice and Follow Your Heart® Vegenaise® in a small bowl. Sprinkle with salt and mix yuzu sauce to combine."},
+    {"n": 5, "title": "COOK THE KALE", "text": "Destem and chop the Lacinato kale. Place a large nonstick skillet over medium-high heat with 1 tsp vegetable oil. Once hot, add the chopped kale, sesame seeds, and a pinch of salt and pepper, and cook until greens are just wilted, about 1 minute."},
+    {"n": 6, "title": "BUILD YOUR BOWL", "text": "To serve, scoop the quinoa speckled rice into large shallow bowls. Top with sambal cucumbers, sweet potato wedges, and sesame kale. Sprinkle with kizami nori and drizzle with yuzu sauce. Grab your chopsticks and enjoy!"}
+  ],
+  "tips": [
+    "TIP: You can use a rice cooker if you have one.",
+    "TIP: Add as much or as little sambal as you'd like—it's spicy!"
+  ],
+  "cuisine_tags": ["Japanese"],
+  "ingredient_tags": ["sweet potato", "rice", "quinoa", "cucumber", "kale"],
+  "item_tags": ["sambal", "yuzu juice", "tamari", "sesame oil", "sesame seeds", "kizami nori", "rice vinegar", "vegenaise"],
+  "issues": null
+}

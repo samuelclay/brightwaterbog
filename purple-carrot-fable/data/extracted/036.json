@@ -1,0 +1,42 @@
+{
+  "pair": 36,
+  "title": "Kashmiri Roasted Vegetables & Tofu Paneer",
+  "subtitle": "with Cucumber Raita & Millet",
+  "servings": "2 (4)",
+  "cook_time": "35 (45) min",
+  "nutrition": {"calories": "560", "fat": "17 g", "carbohydrates": "82 g", "protein": "29 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "½ cup millet",
+    "14 oz organic extra firm tofu",
+    "3 carrots",
+    "2 garlic cloves",
+    "1 oz fresh ginger",
+    "1 tbsp Kashmiri chile powder",
+    "1 tbsp tomato powder",
+    "4 oz grape tomatoes",
+    "1 cucumber",
+    "1 lemon*",
+    "¼ cup vegan sour cream",
+    "¼ cup mango chutney"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Preheat the oven to 425°F. Add millet to a small saucepan over medium-high heat. Toast until millet is aromatic and begins to pop, 3 to 5 minutes. Add 1 cup (2 cups) water and a pinch of salt. Bring to a boil, cover, reduce heat to low, and cook until the water is absorbed and grains are tender, 17 to 20 minutes. Remove cooked millet from heat and set aside, covered."},
+    {"n": 2, "title": null, "text": "Drain tofu and cut into cubes. Peel and roughly chop carrots. Peel and mince the garlic and ginger. Add minced garlic, minced ginger, 2 tsp Kashmiri chile powder, tomato powder, 2 tbsp (4 tbsp) vegetable oil, 2 tbsp (4 tbsp) warm water, and ½ tsp (1 tsp) salt to a medium bowl and whisk the Kashmiri marinade."},
+    {"n": 3, "title": null, "text": "Place cubed tofu, chopped carrot, and grape tomatoes on a baking sheet, add Kashmiri marinade, and toss to coat. Roast until tofu is browned in places and carrots are tender, 23 to 25 minutes."},
+    {"n": 4, "title": null, "text": "Grate cucumber(s) on the largest side of a box grater. Add grated cucumber to a medium bowl. Halve and juice the lemon(s). Add just half the lemon juice, sour cream, and a pinch of salt to the cucumber. Stir the cucumber raita to combine."},
+    {"n": 5, "title": null, "text": "Drizzle remaining lemon juice over roasted tofu and vegetables. Divide cooked millet between bowls. Top with Kashmiri roasted vegetables & tofu paneer. Serve with cucumber raita and mango chutney. Tuck in!"}
+  ],
+  "tips": [
+    "TIP: Add more Kashmiri chile powder if you prefer.",
+    "This item is spicy. (Kashmiri chile powder)",
+    "* This ingredient will be split between steps.",
+    "Kashmiri Chile: The term \"Kashmiri chile\" is actually somewhat of a misnomer. Due to the extremely small quantity of chiles grown in the Kashmir region of India, most are typically reserved for local consumption. So most Kashmiri chile powder on the market isn't made with authentic Kashmiri chiles. Ours is made using finely ground red chiles from India and it has a rich red color and moderate heat level."
+  ],
+  "cuisine_tags": ["Indian"],
+  "ingredient_tags": ["tofu", "millet", "carrots", "cucumber", "grape tomatoes"],
+  "item_tags": ["kashmiri chile powder", "tomato powder", "mango chutney", "vegan sour cream", "ginger", "lemon"],
+  "issues": null
+}

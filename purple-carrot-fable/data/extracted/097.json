@@ -1,0 +1,25 @@
+{
+  "pair": 97,
+  "title": "Kale Caesar",
+  "subtitle": "with Crispy Butter Beans and Everything \"Bagel\" Croutons",
+  "servings": "2",
+  "cook_time": "25 minutes",
+  "nutrition": {"calories": "460", "fat": "16 g", "carbohydrates": "64 g", "protein": "20 g"},
+  "description": "Fun fact: Caesar Cardini, an Italian immigrant, is credited with inventing the Caesar salad in the 1920's. Usually dressed with a combination of cheese, anchovies, egg, and oil, our kale Caesar takes a lighter approach, bumping up the flavor with briny capers, tahini, and dijon mustard. We also sub out run-of-the-mill croutons for \"everything bagel\" croutons. You'll have trouble not eating them right off the baking sheet!",
+  "from_your_kitchen": ["4½ tsp olive oil", "Salt and pepper"],
+  "ingredients": ["8 oz Lacinato kale", "2 tsp capers", "1 tbsp tahini", "2 tsp Worcestershire sauce", "½ tsp garlic powder", "2 packets dijon mustard", "1 lemon", "1 shallot", "3 oz asparagus", "1 package butter beans", "Fresh parsley", "3 oz whole wheat roll", "1 tbsp everything bagel spice"],
+  "tools": ["Baking sheet", "Large nonstick skillet"],
+  "steps": [
+    {"n": 1, "title": "MASSAGE THE KALE", "text": "Preheat the oven to 425°F. Destem the Lacinato kale and roughly chop the leaves. Place the kale in a large bowl with ½ tsp olive oil. Massage the kale with your hands until the leaves begin to soften, about 1 to 2 minutes."},
+    {"n": 2, "title": "MAKE THE DRESSING", "text": "Mince the capers and add to a small bowl. Add the tahini, Worcestershire sauce, garlic powder, dijon mustard, and a pinch of salt and pepper. Zest the lemon and set the zest aside. Add the juice from the lemon to the bowl and whisk Caesar dressing to combine."},
+    {"n": 3, "title": "PREPARE THE VEGETABLES", "text": "Peel and thinly slice the shallot. Trim and thinly slice the asparagus on the diagonal. Add the shallot and asparagus to the bowl with the massaged kale. Drain the butter beans and pat dry with a paper towel. Finely chop the parsley leaves."},
+    {"n": 4, "title": "MAKE THE CROUTONS", "text": "Cut the whole wheat roll into cubes. Add to a baking sheet and toss with 2 tsp olive oil and everything bagel spice. Bake until toasted and crispy in places, about 7 to 9 minutes."},
+    {"n": 5, "title": "CRISP THE BUTTER BEANS", "text": "Place a large nonstick skillet over medium-high heat and add 2 tsp olive oil. Once hot, add the butter beans and cook, shaking the pan occasionally, until browned in places, about 2 to 4 minutes. Season with salt and stir in the lemon zest and chopped parsley."},
+    {"n": 6, "title": "FINISH AND SERVE", "text": "Toss the massaged kale with the Caesar dressing and a pinch of salt and pepper. Place a heaping serving of the kale Caesar on your plates. Top with the crispy butter beans and everything bagel croutons. Enjoy!"}
+  ],
+  "tips": ["We massage the kale to soften the leaves which aids in digestion.", "Make sure your butter beans are dry, they'll get crispier that way."],
+  "cuisine_tags": ["American", "Italian"],
+  "ingredient_tags": ["kale", "butter beans", "asparagus"],
+  "item_tags": ["capers", "tahini", "worcestershire sauce", "dijon mustard", "everything bagel spice", "garlic powder"],
+  "issues": null
+}

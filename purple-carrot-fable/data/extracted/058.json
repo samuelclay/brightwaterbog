@@ -1,0 +1,45 @@
+{
+  "pair": 58,
+  "title": "Black Pepper Tofu",
+  "subtitle": "with Chinese Broccoli & Brown Rice",
+  "servings": "2 (4)",
+  "cook_time": "40 (50) min",
+  "nutrition": {"calories": "660", "fat": "19 g", "carbohydrates": "105 g", "protein": "29 g"},
+  "description": null,
+  "from_your_kitchen": null,
+  "ingredients": [
+    "¾ cup short-grain brown rice",
+    "3 garlic cloves",
+    "1 oz fresh ginger",
+    "1 shallot",
+    "1 bird's eye chile (spicy)",
+    "14 oz organic extra firm tofu",
+    "3 scallions",
+    "1 celery stalk",
+    "6 oz Chinese broccoli",
+    "¼ cup cornstarch",
+    "1 tbsp vegan butter",
+    "¼ cup tamari",
+    "2 tbsp brown sugar"
+  ],
+  "tools": null,
+  "steps": [
+    {"n": 1, "title": null, "text": "Add the short-grain brown rice, 1½ cups (3 cups) water, and a pinch of salt to a small saucepan. Bring to a boil, cover, reduce heat to low, and cook until water is absorbed, 30 to 35 minutes. Fluff the cooked short-grain brown rice with a fork."},
+    {"n": 2, "title": null, "text": "Peel and mince the garlic, ginger, and shallot(s). Mince the bird's eye chile(s). Drain tofu, pat dry with a clean kitchen towel, and cut into 1 inch cubes. Chop scallions into 2 inch pieces. Thinly slice the celery. Roughly chop the Chinese broccoli."},
+    {"n": 3, "title": null, "text": "Place cubed tofu in a large bowl and toss with the cornstarch. Heat 2 tbsp (4 tbsp) vegetable oil in a large nonstick skillet over medium-high heat. Add cubed tofu and cook, tossing occasionally, until browned in places, 5 to 8 minutes. Transfer the crispy tofu to a paper towel-lined plate and sprinkle with salt."},
+    {"n": 4, "title": null, "text": "Return the skillet to medium heat and add butter. Once melted, add minced garlic, minced ginger, minced shallot, and as much minced bird's eye chile as you'd like. Cook until shallot softens, 1 to 2 minutes. In a small bowl, whisk the tamari and brown sugar until sugar dissolves."},
+    {"n": 5, "title": null, "text": "Add the crispy tofu, chopped scallion, sliced celery, tamari mixture, and up to 1 tbsp (2 tbsp) pepper to the skillet. Cook until tofu is heated through, 3 to 4 minutes."},
+    {"n": 6, "title": null, "text": "Divide the short-grain brown rice between bowls and top with the black pepper tofu. Add chopped Chinese broccoli and ¼ cup (½ cup) water to the skillet over high heat. Sprinkle with salt and cook until crisp-tender, 2 to 3 minutes. Serve Chinese broccoli on the side. Bon appétit!"}
+  ],
+  "tips": [
+    "TIP: Make sure to wash your hands after prepping the chile(s).",
+    "TIP: If necessary, work in batches for the 4 serving meal.",
+    "TIP: We suggest starting with 1 tsp minced bird's eye chile.",
+    "TIP: We will use this skillet again in the next step.",
+    "Substitute: broccoli for Chinese broccoli"
+  ],
+  "cuisine_tags": ["Chinese"],
+  "ingredient_tags": ["tofu", "rice", "chinese broccoli"],
+  "item_tags": ["tamari", "brown sugar", "bird's eye chile", "cornstarch", "ginger", "black pepper"],
+  "issues": null
+}

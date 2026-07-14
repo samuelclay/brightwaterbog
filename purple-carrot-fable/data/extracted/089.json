@@ -1,0 +1,40 @@
+{
+  "pair": 89,
+  "title": "Dosa Lettuce Wraps",
+  "subtitle": "with Spiced Chickpeas and Mango Chutney",
+  "servings": "2",
+  "cook_time": "35 minutes",
+  "nutrition": {"calories": "650", "fat": "33 g", "carbohydrates": "83 g", "protein": "18 g"},
+  "description": "A dosa is an Indian wrap, similar to a crêpe. Here, we lighten up the dish by using tender butter lettuce leaves instead of a traditional wheat-flour wrap. Cumin, coriander, and paprika are just some of the aromatic elements you'll find in the tandoori paste included in this recipe.",
+  "from_your_kitchen": ["3 tbsp plus 1 tsp vegetable oil", "Salt"],
+  "ingredients": [
+    "12 oz red bliss potatoes",
+    "1 onion",
+    "Fresh ginger",
+    "1 can chickpeas",
+    "1.5 oz tandoori paste*",
+    "1 tsp curry powder",
+    "1 head butter lettuce",
+    "1 lemon",
+    "Fresh cilantro",
+    "¼ cup mango chutney",
+    "¼ cup vegan yogurt"
+  ],
+  "tools": ["Small saucepan", "Large nonstick skillet"],
+  "steps": [
+    {"n": 1, "title": "BOIL THE POTATOES", "text": "Quarter the red bliss potatoes, add to a small saucepan, and cover with 1 inch water. Bring to a boil and cook until fork tender, about 12 to 15 minutes. Drain the potatoes."},
+    {"n": 2, "title": "PREPARE THE VEGETABLES", "text": "Peel and thinly slice the onion. Peel and mince the ginger. Drain and rinse the chickpeas and pat dry."},
+    {"n": 3, "title": "CRISP THE CHICKPEAS", "text": "Place a large nonstick skillet over high heat with 1 tsp vegetable oil. Once hot, add the chickpeas and cook, shaking the pan occasionally, until browned in places, about 4 to 6 minutes. Remove from heat, add 1 tbsp tandoori paste, and stir until the chickpeas are evenly coated. Transfer to a bowl and cover to keep warm."},
+    {"n": 4, "title": "BUILD THE FLAVOR", "text": "Return the skillet to medium-high heat with 2 tbsp vegetable oil. Add the sliced onion and cook until softened and browned in places, about 2 to 4 minutes. Add the ginger and curry powder and cook until fragrant, about 1 minute. Transfer the onions to a plate and sprinkle with salt."},
+    {"n": 5, "title": "ADD THE POTATOES", "text": "Clean the skillet and return to medium-high heat with 1 tbsp vegetable oil. Once hot, and the potatoes. Cook, smashing potatoes a bit, until crisp in places, about 5 to 7 minutes. Season with salt. Separate the butter lettuce leaves. Zest half the lemon and then cut into wedges."},
+    {"n": 6, "title": "SERVE", "text": "Add the lemon zest and cooked onions to the potatoes. Roughly chop the cilantro leaves and tender stems. To build your lettuce wraps, top each butter lettuce leaf with some of the crispy lemon potatoes and spiced chickpeas. Dollop with each mango chutney and yogurt. Serve with lemon wedges and the remaining tandoori paste."}
+  ],
+  "tips": [
+    "*This item will be used in multiple steps.",
+    "TIP: No need to clean the skillet—you'll use it again."
+  ],
+  "cuisine_tags": ["Indian"],
+  "ingredient_tags": ["chickpeas", "potatoes", "lettuce", "onion"],
+  "item_tags": ["tandoori paste", "curry powder", "mango chutney", "vegan yogurt", "ginger", "cilantro"],
+  "issues": null
+}

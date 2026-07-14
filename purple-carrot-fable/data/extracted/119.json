@@ -1,0 +1,43 @@
+{
+  "pair": 119,
+  "title": "Pesto Bean Burgers",
+  "subtitle": "with Roasted Peppers and Carrot Fries",
+  "servings": "2",
+  "cook_time": "30 minutes",
+  "nutrition": {"calories": "890", "fat": "42 g", "carbohydrates": "105 g", "protein": "22 g"},
+  "description": "These white bean burgers are deliciously tender on the inside and crispy on the outside. The roasted red peppers and basil not only give the burgers a pop of color but great flavor and texture. You'll finish off the meal with tasty carrot fries.",
+  "from_your_kitchen": ["2 tsp olive oil", "2 tbsp vegetable oil", "Salt and pepper"],
+  "ingredients": [
+    "1 lemon",
+    "1 can cannellini beans",
+    "2 garlic cloves*",
+    "1 tbsp flaxseed meal",
+    "¼ cup garbanzo bean flour",
+    "1 tsp herbs de Provence",
+    "¼ tsp red pepper flakes",
+    "8 oz carrots",
+    "½ tsp coriander",
+    "2 oz roasted red peppers",
+    "2 pretzel buns",
+    "Fresh basil",
+    "¼ cup Follow Your Heart® Pesto Vegenaise®",
+    "1 oz baby kale"
+  ],
+  "tools": ["Food processor", "Baking sheet", "Medium nonstick skillet"],
+  "steps": [
+    {"n": 1, "title": "PREPARE THE MIX", "text": "Preheat the oven to 400°F. Zest the lemon. Drain and rinse the cannellini beans. Add the lemon zest, beans, 2 cloves garlic, flaxseed meal, garbanzo bean flour, herbs de Provence, as much of the red pepper flakes as you'd like, and ¼ tsp salt to the food processor. Pulse a few times to mix, until just combined."},
+    {"n": 2, "title": "MAKE THE PATTIES", "text": "Divide the bean mixture into two equal portions and form into patties about 1 inch thick. Place in the refrigerator until you're ready to cook them."},
+    {"n": 3, "title": "PREP THE CARROT FRIES", "text": "Peel the carrots and cut into 4 inch long sticks. On a baking sheet, toss with 2 tsp olive oil, coriander, salt and pepper. Bake carrot fries until tender and brown in places, about 10 to 15 minutes."},
+    {"n": 4, "title": "SEAR THE BURGERS", "text": "Place a medium nonstick skillet over medium-high heat with 1 tbsp vegetable oil. Cook the burger patties until golden brown and firm, about 4 to 6 minutes per side."},
+    {"n": 5, "title": "PREPARE THE TRIMMINGS", "text": "Slice the roasted red peppers into thin strips. Pop the pretzel buns in the oven to warm. Pick the basil leaves from the stems."},
+    {"n": 6, "title": "BUILD THE BURGERS", "text": "Halve the lemon. Spread the top pretzel buns with some of the Follow Your Heart® Pesto Vegenaise®. On the bottom buns layer the burger patties, roasted red peppers, basil, and baby kale. Top with a squeeze of lemon juice and close them up. Serve bean burgers with the carrot fries and any remaining Pesto Vegenaise for dipping. Dig in!"}
+  ],
+  "tips": [
+    "TIP: Add as much or as little of the red pepper flakes as you'd like.",
+    "*Find a head of garlic in the Beetroot Taco recipe bag."
+  ],
+  "cuisine_tags": ["American", "Comfort Food"],
+  "ingredient_tags": ["cannellini beans", "carrots", "pretzel buns", "kale"],
+  "item_tags": ["pesto vegenaise", "herbs de provence", "flaxseed meal", "garbanzo bean flour", "coriander", "red pepper flakes", "roasted red peppers", "basil"],
+  "issues": null
+}
