@@ -8,8 +8,8 @@
 deploy:
 	rm -rf .dist
 	mkdir -p .dist/data
-	cp -R index.html favicons.html assets images .dist/
-	cp data/recipes.js .dist/data/
+	cp -R index.html favicons.html assets images _worker.js .dist/
+	cp data/recipes.js data/og.json .dist/data/
 	npx --yes wrangler@latest pages deploy --branch main
 
 # Regenerate everything from source photos + extraction data

@@ -612,8 +612,8 @@ footer.site{
     return r.pair + '-' + String(r.title||'').toLowerCase()
       .replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
   }
-  function setUrl(hash, push){
-    const url = hash ? '#'+hash : location.pathname+location.search;
+  function setUrl(slug, push){
+    const url = slug ? '/r/'+slug : '/';
     (push ? history.pushState : history.replaceState).call(history, null, '', url);
   }
   // urlMode: 'push' (user action), 'replace' (filtering), 'none' (popstate/internal)
@@ -643,7 +643,7 @@ footer.site{
     openDetail(r,true);
   }
   function applyHash(){
-    const m = location.hash.match(/^#(\d+)/);
+    const m = location.pathname.match(/^\/r\/(\d+)/) || location.hash.match(/^#(\d+)/);
     const r = m && R.find(x=>x.pair===+m[1]);
     if(r){ if(openPair!==r.pair) openDetail(r,false); }
     else closeDetail('none');

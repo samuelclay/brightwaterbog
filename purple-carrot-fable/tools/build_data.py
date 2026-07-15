@@ -126,7 +126,17 @@ def main():
         json.dump(recipes, f, ensure_ascii=False, separators=(",", ":"))
         f.write(";\n")
 
-    print(f"wrote {len(recipes)} recipes -> {out}")
+    og = {}
+    for r in recipes:
+        img = f"hero/{r['hero']}" if r.get("hero") else f"card/{r['front']}"
+        desc = r.get("subtitle") or ""
+        if r.get("cook_time"):
+            desc = (desc + " · " if desc else "") + r["cook_time"]
+        og[str(r["pair"])] = {"t": r["title"], "d": desc, "i": img}
+    with open(os.path.join(ROOT, "data", "og.json"), "w") as f:
+        json.dump(og, f, ensure_ascii=False, separators=(",", ":"))
+
+    print(f"wrote {len(recipes)} recipes -> {out} (+og.json)")
     if missing:
         print(f"MISSING extractions: {missing}")
     issues = [(r["pair"], r["issues"]) for r in recipes if r.get("issues")]
