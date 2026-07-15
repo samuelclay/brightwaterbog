@@ -276,7 +276,8 @@ main{max-width:1200px;margin:0 auto;padding:1.6rem 1.5rem 4rem}
   .detail-photos{padding:1rem .95rem 1.4rem}
   .ing-cols{columns:1}
   .steps li{padding-left:0}
-  .steps li::before{position:static;margin-bottom:.4rem}
+  /* ol.steps beats the later base rule's specificity; float lets text wrap the number */
+  ol.steps li::before{position:static;float:left;margin:.1rem .55rem .1rem 0}
   .steps li.has-photo{grid-template-columns:1fr;gap:0}
   .steps li.has-photo .step-photo{grid-row:2}
   .steps li.has-photo .step-body{grid-row:3}
