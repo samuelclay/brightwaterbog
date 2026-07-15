@@ -1,0 +1,12 @@
+photos/
+tools/
+data/extracted/
+data/crops/
+data/pairs.json
+data/extraction_instructions.md
+data/crop_instructions.md
+README.md
+wrangler.jsonc
+Makefile
+.gitignore
+.wrangler/
