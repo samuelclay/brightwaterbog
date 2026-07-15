@@ -81,6 +81,8 @@ header.site{
   font:inherit;font-size:.9rem;background:var(--paper);color:var(--ink);
 }
 .searchbox input:focus{outline:2px solid var(--carrot);outline-offset:1px;border-color:transparent}
+/* ≥16px input font stops iOS auto-zoom on focus; pinch zoom stays fully enabled */
+@media (pointer:coarse){.searchbox input{font-size:16px}}
 .searchbox svg{position:absolute;left:.8rem;top:50%;transform:translateY(-50%);width:14px;height:14px;stroke:var(--ink-soft)}
 .result-count{font-weight:600;color:var(--aubergine);white-space:nowrap;font-size:.85rem;margin-left:auto}
 .clear-all{
