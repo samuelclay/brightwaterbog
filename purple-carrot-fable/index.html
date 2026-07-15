@@ -50,9 +50,10 @@ header.site{
 .masthead h1{
   font-family:'Fraunces',Georgia,serif;
   font-weight:600;
-  font-size:clamp(1.9rem,4.5vw,3rem);
+  font-size:clamp(1.35rem,6.2vw,3rem);
   line-height:1.05;
   letter-spacing:-.01em;
+  white-space:nowrap;
 }
 .masthead h1 .carrot-mark{color:var(--carrot);font-style:italic}
 
@@ -378,7 +379,7 @@ footer.site{
   <div class="filterbar-inner">
     <div class="searchbox">
       <svg viewBox="0 0 24 24" fill="none" stroke-width="2.4"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
-      <input type="search" id="search" placeholder="Search recipes…" aria-label="Search recipes">
+      <input type="search" id="search" placeholder="Search" aria-label="Search recipes">
     </div>
     <button class="pill" data-group="cuisine" aria-expanded="false">
       Cuisine <span class="badge"></span><span class="pill-x" role="button" aria-label="Clear cuisine filters">×</span><span class="caret">▾</span>
