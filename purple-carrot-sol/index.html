@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#551b61" />
+    <meta
+      name="description"
+      content="A searchable, photographed archive of Purple Carrot recipes."
+    />
+    <title>The Purple Carrot Archive</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#recipes">Skip to recipes</a>
+
+    <header class="hero">
+      <div class="hero__mark" aria-hidden="true">
+        <span class="hero__leaf hero__leaf--one"></span>
+        <span class="hero__leaf hero__leaf--two"></span>
+        <span class="hero__carrot"></span>
+      </div>
+      <div class="hero__copy">
+        <p class="eyebrow">The family recipe binder · 2016–2026</p>
+        <h1>Ten years<br />at the table.</h1>
+        <p class="hero__lede">
+          Every photographed Purple Carrot card, turned upright, transcribed,
+          paired, and ready to cook from.
+        </p>
+        <div class="hero__facts" aria-label="Archive summary">
+          <span><strong id="recipe-total">—</strong> recipes</span>
+          <span><strong id="image-total">—</strong> photographs</span>
+          <span><strong>1</strong> searchable stack</span>
+        </div>
+      </div>
+      <aside class="hero__note" aria-label="How to use the archive">
+        <p>Start with a craving.</p>
+        <button class="quick-filter" type="button" data-cuisine="Indian" data-ingredient="Chickpeas">
+          Indian + chickpeas
+        </button>
+        <button class="quick-filter" type="button" data-cuisine="Korean" data-ingredient="Tofu">
+          Korean + tofu
+        </button>
+        <p class="hero__note-small">Open any recipe, then tap a source image to read the original card full-screen.</p>
+      </aside>
+    </header>
+
+    <section class="filter-panel" aria-labelledby="filter-title">
+      <div class="filter-panel__topline">
+        <div>
+          <p class="eyebrow" id="filter-title">Find something to cook</p>
+          <p class="result-count" aria-live="polite"><span id="visible-count">—</span> recipes in view</p>
+        </div>
+        <label class="search-box">
+          <span class="sr-only">Search recipes</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.4-4.4m2.4-5.1a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z" /></svg>
+          <input id="search" type="search" autocomplete="off" placeholder="Search titles, ingredients, or steps" />
+        </label>
+        <button class="clear-button" id="clear-filters" type="button" disabled>Clear filters</button>
+      </div>
+
+      <div class="filter-groups" id="filter-groups"></div>
+    </section>
+
+    <main id="recipes" class="recipe-stack" aria-busy="true">
+      <div class="loading-card">
+        <span></span><span></span><span></span>
+        <p>Opening the binder…</p>
+      </div>
+    </main>
+
+    <section class="empty-state" id="empty-state" hidden>
+      <p class="eyebrow">No recipe cards match</p>
+      <h2>Try a broader combination.</h2>
+      <button class="clear-button" type="button" data-clear-all>Show the full binder</button>
+    </section>
+
+    <footer>
+      <p>Transcribed locally from the family photo library. The original photographs remain the final word.</p>
+      <a href="#">Back to the top ↑</a>
+    </footer>
+
+    <dialog class="image-dialog" id="image-dialog">
+      <div class="image-dialog__bar">
+        <p id="dialog-caption"></p>
+        <button id="dialog-close" type="button" aria-label="Close full-screen image">Close</button>
+      </div>
+      <img id="dialog-image" alt="" />
+    </dialog>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
