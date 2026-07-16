@@ -11,6 +11,13 @@ import time
 MDNS_GROUP = "224.0.0.251"
 MDNS_PORT = 5353
 MDNS_TTL = 120
+DNS_TYPE_A = 1
+DNS_TYPE_AAAA = 28
+DNS_TYPE_NSEC = 47
+DNS_TYPE_ANY = 255
+DNS_CLASS_IN = 1
+DNS_CLASS_ANY = 255
+DNS_CACHE_FLUSH = 0x8000
 
 
 def encode_name(name: str) -> bytes:
@@ -69,15 +76,59 @@ def parse_questions(packet: bytes) -> list[tuple[str, int, int]]:
     return questions
 
 
-def build_response(alias: str, address: str, transaction_id: int = 0) -> bytes:
+def parse_aliases(value: str) -> list[str]:
+    aliases: list[str] = []
+    seen: set[str] = set()
+    for raw_alias in value.split(","):
+        alias = raw_alias.strip().rstrip(".").lower()
+        if not alias:
+            continue
+        if not alias.endswith(".local"):
+            raise ValueError(f"mDNS alias must end in .local: {alias}")
+        encode_name(alias)
+        if alias not in seen:
+            aliases.append(alias)
+            seen.add(alias)
+    if not aliases:
+        raise ValueError("At least one mDNS alias is required")
+    return aliases
+
+
+def build_record(alias: str, record_type: int, rdata: bytes) -> bytes:
     name = encode_name(alias)
-    header = struct.pack("!HHHHHH", transaction_id, 0x8400, 0, 1, 0, 0)
-    answer = (
+    return (
         name
-        + struct.pack("!HHIH", 1, 0x8001, MDNS_TTL, 4)
-        + ipaddress.IPv4Address(address).packed
+        + struct.pack(
+            "!HHIH",
+            record_type,
+            DNS_CACHE_FLUSH | DNS_CLASS_IN,
+            MDNS_TTL,
+            len(rdata),
+        )
+        + rdata
     )
-    return header + answer
+
+
+def build_address_record(alias: str, address: str) -> bytes:
+    return build_record(alias, DNS_TYPE_A, ipaddress.IPv4Address(address).packed)
+
+
+def build_nsec_record(alias: str) -> bytes:
+    # RFC 6762 section 6.1: the next-domain name is the owner name, window 0
+    # contains one bitmap byte, and bit 1 (0x40) says only an A record exists.
+    # The NSEC bit itself must remain clear for a synthesized mDNS record.
+    rdata = encode_name(alias) + bytes((0, 1, 0x40))
+    return build_record(alias, DNS_TYPE_NSEC, rdata)
+
+
+def build_positive_response(alias: str, address: str, transaction_id: int = 0) -> bytes:
+    header = struct.pack("!HHHHHH", transaction_id, 0x8400, 0, 1, 0, 1)
+    return header + build_address_record(alias, address) + build_nsec_record(alias)
+
+
+def build_negative_response(alias: str, address: str, transaction_id: int = 0) -> bytes:
+    header = struct.pack("!HHHHHH", transaction_id, 0x8400, 0, 1, 0, 1)
+    return header + build_nsec_record(alias) + build_address_record(alias, address)
 
 
 def make_socket(interface_address: str) -> socket.socket:
@@ -106,12 +157,18 @@ def make_socket(interface_address: str) -> socket.socket:
     return sock
 
 
-def should_answer(questions: list[tuple[str, int, int]], alias: str) -> bool:
+def response_kind(questions: list[tuple[str, int, int]], alias: str) -> str | None:
     normalized_alias = alias.rstrip(".").lower()
-    for name, qtype, qclass in questions:
-        if name == normalized_alias and qclass == 1 and qtype in {1, 255}:
-            return True
-    return False
+    matching_types = {
+        qtype
+        for name, qtype, qclass in questions
+        if name == normalized_alias and qclass in {DNS_CLASS_IN, DNS_CLASS_ANY}
+    }
+    if matching_types & {DNS_TYPE_A, DNS_TYPE_ANY}:
+        return "positive"
+    if DNS_TYPE_AAAA in matching_types:
+        return "negative"
+    return None
 
 
 def publish(sock: socket.socket, response: bytes) -> bool:
@@ -124,22 +181,24 @@ def publish(sock: socket.socket, response: bytes) -> bool:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Publish a single IPv4 mDNS alias.")
-    parser.add_argument("--alias", required=True)
+    parser = argparse.ArgumentParser(description="Publish one or more IPv4 mDNS aliases.")
+    parser.add_argument("--alias", required=True, help="Comma-separated .local aliases")
     parser.add_argument("--address", required=True)
     args = parser.parse_args()
 
-    alias = args.alias.rstrip(".")
+    aliases = parse_aliases(args.alias)
     address = str(ipaddress.IPv4Address(args.address))
-    response = build_response(alias, address)
+    positive_responses = {
+        alias: build_positive_response(alias, address) for alias in aliases
+    }
     sock = make_socket(address)
     next_announcement = 0.0
-    print(f"Publishing {alias}. -> {address} via mDNS", flush=True)
+    print(f"Publishing {', '.join(aliases)} -> {address} via mDNS", flush=True)
 
     while True:
         now = time.time()
         if now >= next_announcement:
-            ok = publish(sock, response)
+            ok = all(publish(sock, response) for response in positive_responses.values())
             next_announcement = now + (30 if ok else 5)
 
         try:
@@ -152,8 +211,13 @@ def main() -> None:
 
         try:
             transaction_id = struct.unpack_from("!H", packet, 0)[0] if len(packet) >= 2 else 0
-            if should_answer(parse_questions(packet), alias):
-                publish(sock, build_response(alias, address, transaction_id))
+            questions = parse_questions(packet)
+            for alias in aliases:
+                kind = response_kind(questions, alias)
+                if kind == "positive":
+                    publish(sock, build_positive_response(alias, address, transaction_id))
+                elif kind == "negative":
+                    publish(sock, build_negative_response(alias, address, transaction_id))
         except Exception as exc:  # noqa: BLE001 - keep the responder alive.
             print(f"Ignoring malformed mDNS query: {exc}", flush=True)
 

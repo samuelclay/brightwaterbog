@@ -1,7 +1,7 @@
 name: Brightwater mDNS Alias
-version: "0.1.0"
+version: "0.1.1"
 slug: brightwater_mdns_alias
-description: Publishes cameras.local as an IPv4 mDNS alias for the camera wall.
+description: Publishes one or more IPv4 mDNS aliases with IPv6-negative answers.
 arch:
   - amd64
 startup: services
