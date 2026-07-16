@@ -32,3 +32,4 @@ photos/_staging/*
 
 # --- macOS ---
 .DS_Store
+.wrangler/
