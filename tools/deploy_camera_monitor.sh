@@ -109,6 +109,7 @@ import json
 import os
 
 print(json.dumps({
+    "boot": "auto",
     "watchdog": True,
     "options": {
         "ha_url": os.environ["CAMERA_MONITOR_DEPLOY_HA_URL"],
