@@ -26,7 +26,7 @@ Output: tagged photos land in `photos/<decade>/<category>/`, each with a sidecar
 | `pipeline/crop.py` | OpenCV: finds each photo on the white bed, deskews, writes separate JPEGs. |
 | `pipeline/tag.py` | Claude (Opus 4.8) vision tagging → sidecar JSON + `--organize` folder sort. Needs `ANTHROPIC_API_KEY`. |
 | `digitize.sh` | Orchestrates scan → crop → tag with scanner process hygiene. |
-| `tools/camera_monitor.py` | Local Home Assistant camera wall. Reads `CABIN_HOME_ASSISTANT_TOKEN`, starts eufy P2P streams on demand, polls Home Assistant snapshot cameras, captures frames from WebRTC-only cameras, and keeps stale frames while retrying. |
+| `tools/camera_monitor.py` | Local Home Assistant camera wall. Reads `CABIN_HOME_ASSISTANT_TOKEN`, refreshes configured Eufy P2P cameras in the background, polls Home Assistant snapshot cameras, captures frames from WebRTC-only cameras, and keeps stale frames while retrying. |
 
 ## Camera monitor
 
@@ -52,13 +52,39 @@ signaling and captured locally to cached JPEG frames every couple seconds. If
 Home Assistant or the camera provider rate-limits stream generation, the monitor
 backs off before retrying.
 
+The Home Assistant add-on also runs a resident headless-browser sentinel. Cameras
+with `"keep_warm": true` stay active even when nobody has `cameras.local` open,
+so the wall can display a current cached frame immediately. For WebRTC cameras,
+the wall consumes the sentinel's locally refreshed frames instead of replacing
+the upstream cloud session, avoiding bursts of Nest API commands and rate
+limits. Nest sessions are renewed before their upstream five-minute expiry, and
+each Nest feed runs in its own browser process so one renderer failure cannot
+take down the other cameras. The add-on wrapper also recycles a process when
+successful frame uploads stop. Leave `keep_warm` disabled for battery cameras
+unless the extra battery drain is intentional.
+
+Warm Eufy cameras are refreshed one at a time: the agent wakes a camera,
+captures a fresh frame, releases the background claim, and moves to the next.
+This avoids overwhelming Eufy's P2P relay with many resident livestreams while
+still keeping recent frames ready for the wall. An active viewer claim is kept
+separate, so releasing a background refresh does not stop a camera somebody is
+watching. Failed starts use exponential backoff. If at least two Eufy refreshes
+fail, the agent pauses Eufy starts, restarts `eufy-security-ws` and go2rtc in
+order, then resumes the cycle. Shared recovery is limited to once every 20
+minutes. A persistently failing camera also backs off its own refresh schedule
+up to 15 minutes so it cannot starve healthy cameras.
+
+Set `"auto_start": false` for a known-offline camera to keep showing its cached
+frame without continuously sending failed start commands whenever the wall is
+open.
+
 The eufy integration depends on a local Home Assistant RTSP/go2rtc relay. That
 relay should be running on Home Assistant ports `1984`/`8554`; if those ports
 are up but a tile still times out, it is usually a camera/P2P startup issue.
-After repeated stale eufy stream kicks with no new frames, the monitor escalates
-to a throttled `eufy-security-ws` add-on restart to clear cases where Home
-Assistant reports a camera as streaming while the add-on says no livestream is
-actually running.
+Per-camera stop/start retries stay isolated, so one failed camera cannot restart
+the shared Eufy backend. The quorum recovery above is reserved for a shared
+failure affecting multiple warm feeds. `"restart_addon_on_failure": true` still
+enables the older single-camera throttled escalation behavior when needed.
 
 The wall marks a camera as live only when recently received frames have distinct
 content. If Home Assistant keeps serving the same frozen image, the visible
