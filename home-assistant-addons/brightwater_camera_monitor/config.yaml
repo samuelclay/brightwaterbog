@@ -1,7 +1,7 @@
 name: Brightwater Camera Monitor
-version: "0.1.0"
+version: "0.2.7"
 slug: brightwater_camera_monitor
-description: Wall-to-wall camera monitor for Brightwater cameras.
+description: Always-warm wall-to-wall camera monitor for Brightwater cameras.
 arch:
   - amd64
 startup: application
@@ -22,3 +22,4 @@ ports:
 ports_description:
   8765/tcp: Camera wall web UI
 webui: "http://[HOST]:[PORT:8765]"
+watchdog: "http://[HOST]:[PORT:8765]/api/status"

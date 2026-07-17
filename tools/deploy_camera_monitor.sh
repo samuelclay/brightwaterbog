@@ -55,7 +55,18 @@ copy_file() {
 build_or_install_addon() {
   local slug="$1"
   if ssh -o BatchMode=yes "${HA_HOST}" "ha apps info '${slug}' --raw-json | jq -e '.data.version != null' >/dev/null 2>&1"; then
-    ssh -o BatchMode=yes "${HA_HOST}" "ha apps rebuild '${slug}' --force --no-progress >/dev/null"
+    local versions
+    versions="$(
+      ssh -o BatchMode=yes "${HA_HOST}" \
+        "ha apps info '${slug}' --raw-json | jq -r '[.data.version, .data.version_latest] | @tsv'"
+    )"
+    local installed_version="${versions%%$'\t'*}"
+    local available_version="${versions#*$'\t'}"
+    if [[ -n "${available_version}" && "${installed_version}" != "${available_version}" ]]; then
+      ssh -o BatchMode=yes "${HA_HOST}" "ha apps update '${slug}' --no-progress >/dev/null"
+    else
+      ssh -o BatchMode=yes "${HA_HOST}" "ha apps rebuild '${slug}' --force --no-progress >/dev/null"
+    fi
   else
     ssh -o BatchMode=yes "${HA_HOST}" "ha apps install '${slug}' --no-progress >/dev/null"
   fi
@@ -69,6 +80,7 @@ copy_file "${ADDON_SRC_DIR}/config.yaml" "${REMOTE_ADDON_DIR}/config.yaml"
 copy_file "${ADDON_SRC_DIR}/Dockerfile" "${REMOTE_ADDON_DIR}/Dockerfile"
 copy_file "${ADDON_SRC_DIR}/run.sh" "${REMOTE_ADDON_DIR}/run.sh"
 copy_file "${ROOT_DIR}/tools/camera_monitor.py" "${REMOTE_ADDON_DIR}/camera_monitor.py"
+copy_file "${ROOT_DIR}/tools/camera_warm_agent.py" "${REMOTE_ADDON_DIR}/camera_warm_agent.py"
 copy_file "${CAMERA_CONFIG_PATH}" "${REMOTE_ADDON_DIR}/camera_monitor.local.json"
 
 echo "Deploying mDNS alias add-on to ${HA_HOST}:${MDNS_REMOTE_ADDON_DIR}"
@@ -96,6 +108,7 @@ import json
 import os
 
 print(json.dumps({
+    "watchdog": True,
     "options": {
         "ha_url": os.environ["CAMERA_MONITOR_DEPLOY_HA_URL"],
         "ha_token": os.environ["CAMERA_MONITOR_DEPLOY_HA_TOKEN"],
