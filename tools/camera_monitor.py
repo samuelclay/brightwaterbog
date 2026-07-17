@@ -53,6 +53,7 @@ ADDON_RESTART_AFTER_STALE_KICKS = 2
 ADDON_RESTART_AFTER_START_FAILURES = 3
 ADDON_RESTART_COOLDOWN_SECONDS = 20 * 60
 ADDON_RESTART_SETTLE_SECONDS = 35.0
+EUFY_RETRY_BACKOFF_MAX_SECONDS = 5 * 60
 START_GATE = threading.Semaphore(1)
 ADDON_RESTART_LOCK = threading.Lock()
 LAST_ADDON_RESTART_AT = 0.0
@@ -100,6 +101,9 @@ class CameraConfig:
     stale_ok: bool = False
     stale_ok_seconds: int = 120
     stale_kick_seconds: int = STALE_KICK_SECONDS
+    keep_warm: bool = False
+    auto_start: bool = True
+    restart_addon_on_failure: bool = False
     note: str = ""
 
 
@@ -464,11 +468,13 @@ class WebRTCSessionProxy:
         runner: "CameraRunner",
         ha: HomeAssistantClient,
         offer: str,
+        role: str,
     ) -> None:
         self.local_id = local_id
         self.runner = runner
         self.ha = ha
         self.offer = offer
+        self.role = role
         self.ws: MinimalWebSocket | None = None
         self.closed = False
         self.created_at = time.time()
@@ -605,7 +611,8 @@ class CameraRunner:
         self.ha = ha
         self.lock = threading.Lock()
         self.thread: threading.Thread | None = None
-        self.wanted_until = 0.0
+        self.viewer_wanted_until = 0.0
+        self.warm_wanted_until = 0.0
         self.cache_path = CACHE_DIR / f"{self.config.slug}.jpg"
         self.cache_meta_path = CACHE_DIR / f"{self.config.slug}.json"
         (
@@ -620,6 +627,7 @@ class CameraRunner:
         self.last_error = ""
         self.last_start_status: int | None = None
         self.retry_count = 0
+        self.consecutive_failure_count = 0
         self.first_frame_failure_count = 0
         self.kick_count = 0
         self.addon_restart_count = 0
@@ -628,10 +636,20 @@ class CameraRunner:
         self.last_kick_at = 0.0
         self.last_addon_restart_at = 0.0
         self.webrtc_cooldown_until = 0.0
+        self.pending_addon_restart_reason = ""
 
-    def touch(self) -> None:
+    def touch(self, role: str = "viewer") -> None:
         with self.lock:
-            self.wanted_until = max(self.wanted_until, time.time() + VIEWER_TTL_SECONDS)
+            if role == "warm":
+                self.warm_wanted_until = max(
+                    self.warm_wanted_until,
+                    time.time() + VIEWER_TTL_SECONDS,
+                )
+            else:
+                self.viewer_wanted_until = max(
+                    self.viewer_wanted_until,
+                    time.time() + VIEWER_TTL_SECONDS,
+                )
             needs_start = self.thread is None or not self.thread.is_alive()
             if needs_start:
                 self.thread = threading.Thread(
@@ -643,11 +661,19 @@ class CameraRunner:
 
     def stop_when_idle(self) -> None:
         with self.lock:
-            self.wanted_until = 0.0
+            self.viewer_wanted_until = 0.0
+            self.warm_wanted_until = 0.0
+
+    def stop_warm(self) -> None:
+        with self.lock:
+            self.warm_wanted_until = 0.0
 
     def receive_browser_frame(self, frame: bytes, content_type: str) -> None:
         with self.lock:
-            self.wanted_until = max(self.wanted_until, time.time() + VIEWER_TTL_SECONDS)
+            self.warm_wanted_until = max(
+                self.warm_wanted_until,
+                time.time() + VIEWER_TTL_SECONDS,
+            )
         self._set_state(live=True, error="", frame=frame, content_type=content_type)
 
     def set_external_error(self, error: str) -> None:
@@ -657,7 +683,7 @@ class CameraRunner:
             for marker in ("429", "rate limit", "too many requests", "resource_exhausted")
         ):
             self.webrtc_cooldown_until = time.time() + WEBRTC_RATE_LIMIT_COOLDOWN_SECONDS
-        self.retry_count += 1
+        self._record_failure()
         self._set_state(live=False, error=error)
 
     def webrtc_cooldown_seconds(self) -> int:
@@ -676,7 +702,12 @@ class CameraRunner:
                 "lan_ip": self.config.lan_ip,
                 "source": self.config.source,
                 "live": self.live,
-                "wanted": now < self.wanted_until,
+                "wanted": now < max(
+                    self.viewer_wanted_until,
+                    self.warm_wanted_until,
+                ),
+                "viewer_wanted": now < self.viewer_wanted_until,
+                "warm_wanted": now < self.warm_wanted_until,
                 "has_frame": self.latest_frame is not None,
                 "age_seconds": (
                     None if latest_changed_at <= 0 else round(now - latest_changed_at, 1)
@@ -693,6 +724,7 @@ class CameraRunner:
                 "last_error": self.last_error,
                 "last_start_status": self.last_start_status,
                 "retry_count": self.retry_count,
+                "consecutive_failure_count": self.consecutive_failure_count,
                 "first_frame_failure_count": self.first_frame_failure_count,
                 "webrtc_cooldown_seconds": self.webrtc_cooldown_seconds(),
                 "kick_count": self.kick_count,
@@ -708,6 +740,9 @@ class CameraRunner:
                 "stale_ok": self.config.stale_ok,
                 "stale_ok_seconds": self.config.stale_ok_seconds,
                 "stale_kick_seconds": self.config.stale_kick_seconds,
+                "keep_warm": self.config.keep_warm,
+                "auto_start": self.config.auto_start,
+                "restart_addon_on_failure": self.config.restart_addon_on_failure,
                 "note": self.config.note,
             }
 
@@ -717,7 +752,10 @@ class CameraRunner:
 
     def _wanted(self) -> bool:
         with self.lock:
-            return time.time() < self.wanted_until
+            return time.time() < max(
+                self.viewer_wanted_until,
+                self.warm_wanted_until,
+            )
 
     def _set_state(
         self,
@@ -747,6 +785,8 @@ class CameraRunner:
                 if frame_changed:
                     self.latest_fingerprint = fingerprint
                     self.latest_changed_at = now
+                    self.kick_count = 0
+                self.consecutive_failure_count = 0
                 self.first_frame_failure_count = 0
                 if now - self.cache_written_at >= CACHE_WRITE_INTERVAL_SECONDS:
                     self._write_cached_frame(
@@ -832,8 +872,8 @@ class CameraRunner:
 
         while self._wanted():
             self.last_attempt_at = time.time()
-            self._maybe_kick_stale_stream()
-            restart_after_stop = False
+            restart_reason = ""
+            stream_claimed = False
 
             start_gate_released = False
 
@@ -854,15 +894,16 @@ class CameraRunner:
                     )
                     self._set_state(start_status=status)
                     if status != HTTPStatus.OK:
-                        self.retry_count += 1
+                        self._record_failure()
                         self._set_state(
                             live=False,
                             error=f"start_p2p returned {status}: {body}",
                         )
                         release_start_gate()
-                        time.sleep(self.config.retry_delay)
+                        self._sleep_while_wanted(self._retry_delay())
                         continue
 
+                    stream_claimed = True
                     self.started_at = time.time()
                     self._set_state(
                         live=False,
@@ -873,6 +914,7 @@ class CameraRunner:
                         release_start_gate()
                         continue
                 else:
+                    stream_claimed = True
                     self._set_state(
                         start_status=HTTPStatus.OK,
                         live=False,
@@ -882,26 +924,29 @@ class CameraRunner:
                 self._set_state(live=False, error="opening Home Assistant stream")
                 self._read_mjpeg_until_idle(on_first_frame=release_start_gate)
             except Exception as exc:  # noqa: BLE001 - local status should show raw failure.
-                self.retry_count += 1
+                self._record_failure()
                 error = f"{type(exc).__name__}: {exc}"
                 self._set_state(live=False, error=error)
-                restart_after_stop = self._record_first_frame_failure(error)
-            finally:
-                release_start_gate()
-                self._set_state(live=False)
-                self.ha.call_service(
-                    "eufy_security",
-                    "stop_p2p_livestream",
-                    self.config.entity_id,
-                )
-                if restart_after_stop:
-                    self._restart_eufy_security_ws(
+                restart_reason = self._take_pending_addon_restart_reason()
+                if not restart_reason and self._record_first_frame_failure(error):
+                    restart_reason = (
                         "first-frame watchdog restarting eufy-security-ws add-on "
                         f"after {self.first_frame_failure_count} start failures"
                     )
+            finally:
+                release_start_gate()
+                self._set_state(live=False)
+                if stream_claimed:
+                    self.ha.call_service(
+                        "eufy_security",
+                        "stop_p2p_livestream",
+                        self.config.entity_id,
+                    )
+                if restart_reason:
+                    self._restart_eufy_security_ws(restart_reason)
 
             if self._wanted():
-                time.sleep(self.config.retry_delay)
+                self._sleep_while_wanted(self._retry_delay())
 
         self._set_state(live=False)
 
@@ -936,7 +981,7 @@ class CameraRunner:
                         )
                     self._set_state(live=True, error="", frame=frame, content_type=content_type)
             except Exception as exc:  # noqa: BLE001 - local status should show raw failure.
-                self.retry_count += 1
+                self._record_failure()
                 self._set_state(live=False, error=f"{type(exc).__name__}: {exc}")
 
             self._sleep_while_wanted(self.config.snapshot_interval)
@@ -947,13 +992,32 @@ class CameraRunner:
         state = self.ha.get_state(self.config.entity_id)
         return bool(state and state.get("state") == "streaming")
 
+    def _record_failure(self) -> None:
+        with self.lock:
+            self.retry_count += 1
+            self.consecutive_failure_count += 1
+
+    def _retry_delay(self) -> float:
+        with self.lock:
+            failure_count = self.consecutive_failure_count
+        exponent = max(0, min(failure_count - 1, 8))
+        return min(
+            max(1.0, self.config.retry_delay) * (2**exponent),
+            EUFY_RETRY_BACKOFF_MAX_SECONDS,
+        )
+
     def _maybe_kick_stale_stream(self) -> bool:
         now = time.time()
         wants_addon_restart = False
         with self.lock:
             if self.config.stale_kick_seconds <= 0:
                 return False
-            if now >= self.wanted_until or self.latest_changed_at <= 0:
+            if (
+                now >= max(self.viewer_wanted_until, self.warm_wanted_until)
+                or self.latest_changed_at <= 0
+            ):
+                return False
+            if self.latest_at < self.last_attempt_at:
                 return False
 
             age = now - self.latest_changed_at
@@ -966,6 +1030,7 @@ class CameraRunner:
             self.kick_count += 1
             wants_addon_restart = (
                 self.config.source == "eufy_p2p"
+                and self.config.restart_addon_on_failure
                 and self.kick_count >= ADDON_RESTART_AFTER_STALE_KICKS
             )
             self.live = False
@@ -973,22 +1038,19 @@ class CameraRunner:
                 f"stale watchdog kicked stream after {round(age)}s without a changed frame"
             )
 
-        should_restart_addon = wants_addon_restart and self._claim_addon_restart(now)
-        restart_reason = (
-            "stale watchdog restarting eufy-security-ws add-on after "
-            f"{self.kick_count} stale kicks"
-        )
-
-        self.ha.call_service(
-            "eufy_security",
-            "stop_p2p_livestream",
-            self.config.entity_id,
-        )
-        if should_restart_addon:
-            self._restart_eufy_security_ws(restart_reason)
-        else:
-            self._sleep_while_wanted(KICK_STOP_SETTLE_SECONDS)
+        if wants_addon_restart and self._claim_addon_restart(now):
+            with self.lock:
+                self.pending_addon_restart_reason = (
+                    "stale watchdog restarting eufy-security-ws add-on after "
+                    f"{self.kick_count} stale kicks"
+                )
         return True
+
+    def _take_pending_addon_restart_reason(self) -> str:
+        with self.lock:
+            reason = self.pending_addon_restart_reason
+            self.pending_addon_restart_reason = ""
+            return reason
 
     def _record_first_frame_failure(self, error: str) -> bool:
         if self.config.source != "eufy_p2p":
@@ -1000,7 +1062,7 @@ class CameraRunner:
 
         now = time.time()
         with self.lock:
-            if self.latest_at > 0:
+            if self.latest_at >= self.last_attempt_at:
                 return False
             self.first_frame_failure_count += 1
             if self.first_frame_failure_count < ADDON_RESTART_AFTER_START_FAILURES:
@@ -1011,7 +1073,10 @@ class CameraRunner:
                 "start failures"
             )
 
-        return self._claim_addon_restart(now)
+        return (
+            self.config.restart_addon_on_failure
+            and self._claim_addon_restart(now)
+        )
 
     def _restart_eufy_security_ws(self, reason: str) -> None:
         now = time.time()
@@ -1474,7 +1539,13 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
 <body>
   <main id="grid"></main>
   <script>
-    const cameras = {cameras_json};
+    const allCameras = {cameras_json};
+    const pageParams = new URLSearchParams(window.location.search);
+    const sentinelMode = pageParams.get("sentinel") === "1";
+    const sentinelCameraSlug = sentinelMode ? pageParams.get("camera") : "";
+    const cameras = sentinelCameraSlug
+      ? allCameras.filter((camera) => camera.slug === sentinelCameraSlug)
+      : allCameras;
     const grid = document.getElementById("grid");
     let cameraOrder = cameras.map((camera) => camera.slug);
     let paused = false;
@@ -1487,9 +1558,11 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
     const webrtcStates = new Map();
     const consoleThrottle = new Map();
     const errorLogIntervalMs = 60000;
-    const webrtcFrameIntervalMs = 2000;
+    const webrtcFrameIntervalMs = sentinelMode ? 1000 : 2000;
     const webrtcRetryMs = 60000;
     const webrtcRateLimitRetryMs = 300000;
+    const webrtcConnectTimeoutMs = 30000;
+    const webrtcFrameStallMs = 20000;
 
     function applyLayout() {{
       const countClass = `count-${{cameraOrder.length}}`;
@@ -1625,18 +1698,26 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       const state = {{
         active: false,
         connecting: true,
+        startedAt: Date.now(),
         sessionId: "",
         pc: null,
         pendingLocalCandidates: [],
         pendingRemoteCandidates: [],
         remoteReady: false,
-        lastCaptureAt: 0,
+        lastSuccessfulFrameAt: 0,
+        uploadInFlight: false,
         captureTimer: null,
         watchdogTimer: null,
+        connectionTimer: null,
         pollTimer: null,
         restartTimer: null,
       }};
       webrtcStates.set(camera.slug, state);
+      state.connectionTimer = setTimeout(() => {{
+        if (state.active && !state.lastSuccessfulFrameAt) {{
+          restartWebRTC(camera, "connection produced no frames");
+        }}
+      }}, webrtcConnectTimeoutMs);
 
       try {{
         const clientConfig = await fetchJson(`/api/webrtc/client-config/${{camera.slug}}`);
@@ -1682,7 +1763,10 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
         const start = await fetchJson(`/api/webrtc/start/${{camera.slug}}`, {{
           method: "POST",
           headers: {{ "Content-Type": "application/json" }},
-          body: JSON.stringify({{ offer: pc.localDescription.sdp }}),
+          body: JSON.stringify({{
+            offer: pc.localDescription.sdp,
+            role: sentinelMode ? "sentinel" : "viewer",
+          }}),
         }});
         state.sessionId = start.session_id;
         flushLocalCandidates(camera, state);
@@ -1752,33 +1836,58 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
 
     function startFrameCapture(camera, video, state) {{
       if (state.captureTimer) return;
-      state.lastCaptureAt = Date.now();
+      const captureStartedAt = Date.now();
       const canvas = document.createElement("canvas");
       const context = canvas.getContext("2d", {{ alpha: false }});
       state.captureTimer = setInterval(() => {{
         if (!state.active || video.readyState < HTMLMediaElement.HAVE_CURRENT_DATA) return;
         if (!video.videoWidth || !video.videoHeight || !context) return;
-        state.lastCaptureAt = Date.now();
+        if (state.uploadInFlight) return;
         const maxWidth = 1280;
         const scale = Math.min(1, maxWidth / video.videoWidth);
         canvas.width = Math.max(2, Math.round(video.videoWidth * scale));
         canvas.height = Math.max(2, Math.round(video.videoHeight * scale));
-        context.drawImage(video, 0, 0, canvas.width, canvas.height);
-        canvas.toBlob((blob) => {{
-          if (!blob) return;
-          fetch(`/api/webrtc/frame/${{camera.slug}}`, {{
-            method: "POST",
-            headers: {{ "Content-Type": "image/jpeg" }},
-            body: blob,
-          }}).catch((error) => logWebRTCError(camera, error));
+        try {{
+          context.drawImage(video, 0, 0, canvas.width, canvas.height);
+        }} catch (error) {{
+          restartWebRTC(camera, `frame capture failed: ${{error}}`);
+          return;
+        }}
+        state.uploadInFlight = true;
+        canvas.toBlob(async (blob) => {{
+          if (!blob) {{
+            state.uploadInFlight = false;
+            return;
+          }}
+          try {{
+            const response = await fetch(`/api/webrtc/frame/${{camera.slug}}`, {{
+              method: "POST",
+              headers: {{ "Content-Type": "image/jpeg" }},
+              body: blob,
+            }});
+            if (!response.ok) {{
+              throw new Error(`${{response.status}} ${{response.statusText}}`);
+            }}
+            if (!state.active) return;
+            state.lastSuccessfulFrameAt = Date.now();
+            if (state.connectionTimer) {{
+              clearTimeout(state.connectionTimer);
+              state.connectionTimer = null;
+            }}
+          }} catch (error) {{
+            logWebRTCError(camera, error);
+          }} finally {{
+            state.uploadInFlight = false;
+          }}
         }}, "image/jpeg", 0.78);
       }}, webrtcFrameIntervalMs);
       state.watchdogTimer = setInterval(() => {{
         if (!state.active) return;
-        if (Date.now() - state.lastCaptureAt > 15000) {{
+        const lastFrameAt = state.lastSuccessfulFrameAt || captureStartedAt;
+        if (Date.now() - lastFrameAt > webrtcFrameStallMs) {{
           restartWebRTC(camera, "frame capture stalled");
         }}
-      }}, 10000);
+      }}, 5000);
     }}
 
     function restartWebRTC(camera, reason) {{
@@ -1791,9 +1900,16 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       const state = webrtcStates.get(camera.slug) || {{}};
       if (state.restartTimer) clearTimeout(state.restartTimer);
       const message = String(reason);
-      const delay = /429|rate limit|too many requests|resource_exhausted|cooling down/i.test(message)
-        ? webrtcRateLimitRetryMs
-        : webrtcRetryMs;
+      let baseDelay = webrtcRetryMs;
+      if (/429|rate limit|too many requests|resource_exhausted|cooling down/i.test(message)) {{
+        baseDelay = webrtcRateLimitRetryMs;
+      }}
+      const webrtcCameras = cameras.filter((item) => item.source === "webrtc");
+      const cameraIndex = Math.max(
+        0,
+        webrtcCameras.findIndex((item) => item.slug === camera.slug),
+      );
+      const delay = baseDelay + (sentinelMode ? cameraIndex * 3000 : 0);
       state.restartTimer = setTimeout(() => startWebRTC(camera), delay);
       webrtcStates.set(camera.slug, state);
     }}
@@ -1805,6 +1921,7 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       state.connecting = false;
       if (state.captureTimer) clearInterval(state.captureTimer);
       if (state.watchdogTimer) clearInterval(state.watchdogTimer);
+      if (state.connectionTimer) clearTimeout(state.connectionTimer);
       if (state.pc) {{
         try {{ state.pc.close(); }} catch (_) {{}}
       }}
@@ -2028,7 +2145,8 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
 
     async function updateStatus() {{
       try {{
-        const response = await fetch("/api/status?touch=1", {{cache: "no-store"}});
+        const touch = sentinelMode ? "warm" : "1";
+        const response = await fetch(`/api/status?touch=${{touch}}`, {{cache: "no-store"}});
         const statuses = await response.json();
         for (const status of statuses.cameras) {{
           const tile = document.querySelector(`[data-slug="${{status.slug}}"]`);
@@ -2066,10 +2184,17 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
         cleanupWebRTC(camera);
       }}
     }});
+    let webrtcStartIndex = 0;
     cameras.forEach((camera, index) => {{
+      if (
+        sentinelMode
+        && (!camera.keep_warm || camera.slug !== sentinelCameraSlug)
+      ) return;
       scheduleImage(camera, index * 1200);
-      if (camera.source === "webrtc") {{
-        setTimeout(() => startWebRTC(camera), index * 1200 + 600);
+      if (camera.source === "webrtc" && (sentinelMode || !camera.keep_warm)) {{
+        const spacing = sentinelMode ? 5000 : 1200;
+        setTimeout(() => startWebRTC(camera), webrtcStartIndex * spacing + 600);
+        webrtcStartIndex += 1;
       }}
     }});
     updateStatus();
@@ -2079,6 +2204,10 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
 """.encode(
         "utf-8"
     )
+
+
+class ViewerSessionActiveError(RuntimeError):
+    """Raised when the sentinel must yield a WebRTC camera to a real viewer."""
 
 
 class MonitorServer(ThreadingHTTPServer):
@@ -2119,15 +2248,32 @@ class MonitorServer(ThreadingHTTPServer):
             order = list(self.camera_order)
         return [self.runners[slug].snapshot() for slug in order if slug in self.runners]
 
-    def touch_visible_runners(self) -> None:
+    def get_webrtc_session_roles(self) -> dict[str, list[str]]:
+        with self.state_lock:
+            sessions = list(self.webrtc_sessions.values())
+        roles: dict[str, list[str]] = {}
+        for session in sessions:
+            roles.setdefault(session.runner.config.slug, []).append(session.role)
+        return {slug: sorted(slug_roles) for slug, slug_roles in roles.items()}
+
+    def touch_visible_runners(self, *, keep_warm_only: bool = False) -> None:
         if self.paused:
             return
         with self.state_lock:
             order = list(self.camera_order)
         for slug in order:
             runner = self.runners.get(slug)
-            if runner is not None:
-                runner.touch()
+            if runner is None or not runner.config.auto_start:
+                continue
+            if keep_warm_only:
+                if not runner.config.keep_warm:
+                    continue
+                if runner.config.source == "eufy_p2p":
+                    # Eufy warm refreshes are serialized by camera_warm_agent.py.
+                    continue
+                runner.touch(role="warm")
+            else:
+                runner.touch(role="viewer")
 
     def set_camera_order(self, order: list[str]) -> list[str]:
         normalized = save_camera_order(order)
@@ -2151,25 +2297,42 @@ class MonitorServer(ThreadingHTTPServer):
         result = response.get("result")
         return result if isinstance(result, dict) else {}
 
-    def start_webrtc_session(self, slug: str, offer: str) -> str:
+    def start_webrtc_session(self, slug: str, offer: str, role: str) -> str:
         runner = self.runners.get(slug)
         if runner is None:
             raise KeyError("unknown camera")
         if runner.config.source != "webrtc":
             raise ValueError("camera is not configured for WebRTC")
+        if role == "viewer" and runner.config.keep_warm:
+            raise ViewerSessionActiveError(
+                "the resident warm agent owns this WebRTC camera"
+            )
         cooldown = runner.webrtc_cooldown_seconds()
         if cooldown > 0:
             raise ValueError(f"WebRTC is cooling down for {cooldown}s after a Nest rate limit")
+        if role not in {"sentinel", "viewer"}:
+            raise ValueError("role must be sentinel or viewer")
 
         self.cleanup_webrtc_sessions()
         local_id = uuid.uuid4().hex
-        session = WebRTCSessionProxy(local_id, runner, self.ha, offer)
+        session = WebRTCSessionProxy(local_id, runner, self.ha, offer, role)
+        sessions_to_close: list[WebRTCSessionProxy] = []
         with self.state_lock:
-            for old_id, old_session in list(self.webrtc_sessions.items()):
-                if old_session.runner.config.slug == slug:
-                    old_session.close()
-                    self.webrtc_sessions.pop(old_id, None)
+            old_sessions = [
+                (old_id, old_session)
+                for old_id, old_session in self.webrtc_sessions.items()
+                if old_session.runner.config.slug == slug
+            ]
+            if role == "sentinel" and any(
+                old_session.role == "viewer" for _, old_session in old_sessions
+            ):
+                raise ViewerSessionActiveError("a viewer is using this WebRTC camera")
+            for old_id, old_session in old_sessions:
+                sessions_to_close.append(old_session)
+                self.webrtc_sessions.pop(old_id, None)
             self.webrtc_sessions[local_id] = session
+        for old_session in sessions_to_close:
+            old_session.close()
         try:
             session.start()
         except Exception:
@@ -2177,7 +2340,7 @@ class MonitorServer(ThreadingHTTPServer):
                 self.webrtc_sessions.pop(local_id, None)
             session.close()
             raise
-        runner.touch()
+        runner.touch(role="warm" if role == "sentinel" else "viewer")
         return local_id
 
     def get_webrtc_events(self, session_id: str) -> list[dict[str, Any]]:
@@ -2265,9 +2428,12 @@ class Handler(BaseHTTPRequestHandler):
             query = urllib.parse.parse_qs(parsed.query)
             if query.get("touch") == ["1"]:
                 self.server.touch_visible_runners()
+            elif query.get("touch") == ["warm"]:
+                self.server.touch_visible_runners(keep_warm_only=True)
             payload = {
                 "paused": self.server.paused,
                 "order": self.server.get_camera_order(),
+                "webrtc_session_roles": self.server.get_webrtc_session_roles(),
                 "cameras": self.server.get_runner_snapshots(),
             }
             self._send_json(HTTPStatus.OK, payload)
@@ -2302,7 +2468,7 @@ class Handler(BaseHTTPRequestHandler):
                 self._send_json(HTTPStatus.NOT_FOUND, {"error": "unknown camera"})
                 return
 
-            if not self.server.paused:
+            if not self.server.paused and runner.config.auto_start:
                 runner.touch()
 
             frame, latest_at, content_type = runner.get_frame()
@@ -2325,6 +2491,36 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_POST(self) -> None:
         parsed = urlparse(self.path)
+        warm_prefix = "/api/warm/eufy/"
+        if parsed.path.startswith(warm_prefix):
+            if self.client_address[0] not in {"127.0.0.1", "::1"}:
+                self._send_json(HTTPStatus.FORBIDDEN, {"error": "loopback only"})
+                return
+            remainder = parsed.path.removeprefix(warm_prefix)
+            action, separator, slug = remainder.partition("/")
+            runner = self.server.runners.get(slug) if separator else None
+            if runner is None:
+                self._send_json(HTTPStatus.NOT_FOUND, {"error": "unknown camera"})
+                return
+            if runner.config.source != "eufy_p2p" or not runner.config.keep_warm:
+                self._send_json(
+                    HTTPStatus.BAD_REQUEST,
+                    {"error": "camera is not a warm Eufy target"},
+                )
+                return
+            if action == "start":
+                if self.server.paused:
+                    self._send_json(HTTPStatus.CONFLICT, {"error": "monitor paused"})
+                    return
+                runner.touch(role="warm")
+            elif action == "stop":
+                runner.stop_warm()
+            else:
+                self._send_json(HTTPStatus.NOT_FOUND, {"error": "unknown action"})
+                return
+            self._send_json(HTTPStatus.OK, runner.snapshot())
+            return
+
         if parsed.path == "/api/pause":
             self.server.paused = True
             for runner in self.server.runners.values():
@@ -2361,9 +2557,15 @@ class Handler(BaseHTTPRequestHandler):
                 offer = payload.get("offer")
                 if not isinstance(offer, str) or not offer:
                     raise ValueError("offer must be a non-empty string")
-                session_id = self.server.start_webrtc_session(slug, offer)
+                role = payload.get("role", "viewer")
+                if not isinstance(role, str):
+                    raise ValueError("role must be a string")
+                session_id = self.server.start_webrtc_session(slug, offer, role)
             except KeyError as exc:
                 self._send_json(HTTPStatus.NOT_FOUND, {"error": str(exc)})
+                return
+            except ViewerSessionActiveError as exc:
+                self._send_json(HTTPStatus.CONFLICT, {"error": str(exc)})
                 return
             except ValueError as exc:
                 self._send_json(HTTPStatus.BAD_REQUEST, {"error": str(exc)})
@@ -2415,6 +2617,12 @@ class Handler(BaseHTTPRequestHandler):
             except ValueError as exc:
                 self._send_json(HTTPStatus.BAD_REQUEST, {"error": str(exc)})
                 return
+            if not frame.startswith((b"\xff\xd8", b"\x89PNG\r\n\x1a\n")):
+                self._send_json(
+                    HTTPStatus.BAD_REQUEST,
+                    {"error": "browser frame is not a valid JPEG or PNG"},
+                )
+                return
             detected = detect_image_content_type(frame, content_type)
             if detected not in {"image/jpeg", "image/png"}:
                 self._send_json(HTTPStatus.BAD_REQUEST, {"error": "unsupported image type"})
@@ -2461,13 +2669,18 @@ class Handler(BaseHTTPRequestHandler):
         *,
         cache: bool,
     ) -> None:
-        self.send_response(status)
-        self.send_header("Content-Type", content_type)
-        self.send_header("Content-Length", str(len(body)))
-        if not cache:
-            self.send_header("Cache-Control", "no-store")
-        self.end_headers()
-        self.wfile.write(body)
+        try:
+            self.send_response(status)
+            self.send_header("Content-Type", content_type)
+            self.send_header("Content-Length", str(len(body)))
+            if not cache:
+                self.send_header("Cache-Control", "no-store")
+            self.end_headers()
+            self.wfile.write(body)
+        except (BrokenPipeError, ConnectionResetError):
+            # A status poll can time out while camera snapshots are collected.
+            # The next poll will reconnect; avoid turning that into a traceback.
+            return
 
 
 def find_port(host: str, preferred_port: int) -> int:
@@ -2529,6 +2742,9 @@ def main() -> None:
             "stale_ok": camera.stale_ok,
             "stale_ok_seconds": camera.stale_ok_seconds,
             "stale_kick_seconds": camera.stale_kick_seconds,
+            "keep_warm": camera.keep_warm,
+            "auto_start": camera.auto_start,
+            "restart_addon_on_failure": camera.restart_addon_on_failure,
             "note": camera.note,
         }
         for camera in cameras

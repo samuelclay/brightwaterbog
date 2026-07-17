@@ -1,6 +1,7 @@
 {
   "ha_url": "http://homeassistant.local.hass.io:8123",
   "eufy_security_ws_addon": "example_eufy_security_ws",
+  "go2rtc_addon": "example_go2rtc",
   "cameras": [
     {
       "slug": "front_door",
@@ -15,6 +16,9 @@
       "stale_ok": false,
       "stale_ok_seconds": 120,
       "stale_kick_seconds": 300,
+      "keep_warm": true,
+      "auto_start": true,
+      "restart_addon_on_failure": false,
       "note": ""
     },
     {
@@ -27,6 +31,7 @@
       "stale_ok": true,
       "stale_ok_seconds": 300,
       "stale_kick_seconds": 0,
+      "keep_warm": false,
       "note": "Home Assistant snapshot camera."
     },
     {
@@ -39,6 +44,7 @@
       "stale_ok": true,
       "stale_ok_seconds": 300,
       "stale_kick_seconds": 0,
+      "keep_warm": true,
       "note": "Home Assistant WebRTC camera; browser captures cached still frames."
     }
   ]
