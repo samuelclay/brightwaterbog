@@ -17,13 +17,18 @@ try:
         value = json.load(options_file).get(key)
 except Exception:
     value = None
-print(value if value else default)
+if value is None:
+    print(default)
+elif isinstance(value, bool):
+    print("1" if value else "0")
+else:
+    print(value)
 PY
 }
 
 HA_URL="$(option_value ha_url "${CAMERA_MONITOR_HA_URL:-http://supervisor/core}")"
 HA_TOKEN="$(option_value ha_token "${CABIN_HOME_ASSISTANT_TOKEN:-}")"
-WARM_AGENT="${CAMERA_MONITOR_WARM_AGENT:-1}"
+WARM_AGENT="$(option_value warm_agent "${CAMERA_MONITOR_WARM_AGENT:-0}")"
 
 if [ -n "${HA_TOKEN}" ]; then
   export CABIN_HOME_ASSISTANT_TOKEN="${HA_TOKEN}"

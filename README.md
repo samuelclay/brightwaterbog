@@ -52,16 +52,14 @@ signaling and captured locally to cached JPEG frames every couple seconds. If
 Home Assistant or the camera provider rate-limits stream generation, the monitor
 backs off before retrying.
 
-The Home Assistant add-on also runs a resident headless-browser sentinel. Cameras
-with `"keep_warm": true` stay active even when nobody has `cameras.local` open,
-so the wall can display a current cached frame immediately. For WebRTC cameras,
-the wall consumes the sentinel's locally refreshed frames instead of replacing
-the upstream cloud session, avoiding bursts of Nest API commands and rate
-limits. Nest sessions are renewed before their upstream five-minute expiry, and
-each Nest feed runs in its own browser process so one renderer failure cannot
-take down the other cameras. The add-on wrapper also recycles a process when
-successful frame uploads stop. Leave `keep_warm` disabled for battery cameras
-unless the extra battery drain is intentional.
+The Home Assistant add-on can also run a resident headless-browser sentinel when
+its `warm_agent` option is enabled. Cameras with `"keep_warm": true` then stay
+active even when nobody has `cameras.local` open, so the wall can display a
+current cached frame immediately. Warm mode is disabled by default because its
+resident Chromium sessions add meaningful load to the Home Assistant host. A
+normal wall viewer always opens its own WebRTC session, so live viewing still
+works when the sentinel is disabled or unhealthy. Leave `keep_warm` disabled for
+battery cameras unless the extra battery drain is intentional.
 
 Warm Eufy cameras are refreshed one at a time: the agent wakes a camera,
 captures a fresh frame, releases the background claim, and moves to the next.

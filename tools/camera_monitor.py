@@ -2191,7 +2191,7 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
         && (!camera.keep_warm || camera.slug !== sentinelCameraSlug)
       ) return;
       scheduleImage(camera, index * 1200);
-      if (camera.source === "webrtc" && (sentinelMode || !camera.keep_warm)) {{
+      if (camera.source === "webrtc") {{
         const spacing = sentinelMode ? 5000 : 1200;
         setTimeout(() => startWebRTC(camera), webrtcStartIndex * spacing + 600);
         webrtcStartIndex += 1;
@@ -2303,10 +2303,6 @@ class MonitorServer(ThreadingHTTPServer):
             raise KeyError("unknown camera")
         if runner.config.source != "webrtc":
             raise ValueError("camera is not configured for WebRTC")
-        if role == "viewer" and runner.config.keep_warm:
-            raise ViewerSessionActiveError(
-                "the resident warm agent owns this WebRTC camera"
-            )
         cooldown = runner.webrtc_cooldown_seconds()
         if cooldown > 0:
             raise ValueError(f"WebRTC is cooling down for {cooldown}s after a Nest rate limit")
