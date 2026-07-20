@@ -103,7 +103,7 @@ trap - EXIT
 echo "Updating add-on options"
 CAMERA_MONITOR_DEPLOY_HA_URL="${HA_URL}" \
 CAMERA_MONITOR_DEPLOY_HA_TOKEN="${CABIN_HOME_ASSISTANT_TOKEN}" \
-CAMERA_MONITOR_DEPLOY_WARM_AGENT="${CAMERA_MONITOR_WARM_AGENT:-0}" \
+CAMERA_MONITOR_DEPLOY_WARM_AGENT="${CAMERA_MONITOR_WARM_AGENT:-1}" \
 python3 - <<'PY' | ssh -o BatchMode=yes "${HA_HOST}" "curl -fsS -X POST -H \"Authorization: Bearer \$SUPERVISOR_TOKEN\" -H \"Content-Type: application/json\" -d @- http://supervisor/addons/${ADDON_SLUG}/options >/dev/null"
 import json
 import os

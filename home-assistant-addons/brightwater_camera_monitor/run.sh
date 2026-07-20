@@ -28,7 +28,8 @@ PY
 
 HA_URL="$(option_value ha_url "${CAMERA_MONITOR_HA_URL:-http://supervisor/core}")"
 HA_TOKEN="$(option_value ha_token "${CABIN_HOME_ASSISTANT_TOKEN:-}")"
-WARM_AGENT="$(option_value warm_agent "${CAMERA_MONITOR_WARM_AGENT:-0}")"
+WARM_AGENT="$(option_value warm_agent "${CAMERA_MONITOR_WARM_AGENT:-1}")"
+export CAMERA_MONITOR_WARM_AGENT_ENABLED="${WARM_AGENT}"
 
 if [ -n "${HA_TOKEN}" ]; then
   export CABIN_HOME_ASSISTANT_TOKEN="${HA_TOKEN}"

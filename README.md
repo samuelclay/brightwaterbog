@@ -52,14 +52,15 @@ signaling and captured locally to cached JPEG frames every couple seconds. If
 Home Assistant or the camera provider rate-limits stream generation, the monitor
 backs off before retrying.
 
-The Home Assistant add-on can also run a resident headless-browser sentinel when
-its `warm_agent` option is enabled. Cameras with `"keep_warm": true` then stay
-active even when nobody has `cameras.local` open, so the wall can display a
-current cached frame immediately. Warm mode is disabled by default because its
-resident Chromium sessions add meaningful load to the Home Assistant host. A
-normal wall viewer always opens its own WebRTC session, so live viewing still
-works when the sentinel is disabled or unhealthy. Leave `keep_warm` disabled for
-battery cameras unless the extra battery drain is intentional.
+The Home Assistant add-on runs a resident headless-browser sentinel by default.
+Cameras with `"keep_warm": true` stay active even when nobody has
+`cameras.local` open, so the wall can display a current cached frame immediately.
+All warm WebRTC cameras share one Chromium process while retaining one
+single-camera tab per feed. This keeps the safe, single-camera signaling path
+without multiplying browser processes. Wall viewers reuse those cached frames
+while the agent heartbeat is healthy; if the agent stops, normal viewer polling
+takes ownership automatically. Leave `keep_warm` disabled for battery cameras
+unless the extra battery drain is intentional.
 
 Warm Eufy cameras are refreshed one at a time: the agent wakes a camera,
 captures a fresh frame, releases the background claim, and moves to the next.
