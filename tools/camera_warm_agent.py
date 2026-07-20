@@ -19,12 +19,10 @@ from typing import Any
 
 INITIAL_STAGGER_SECONDS = 5
 PROCESS_RESTART_DELAY_SECONDS = 10
-STALE_RESTART_DELAY_SECONDS = 30
-STALE_FRAME_SECONDS = 45
-STARTUP_GRACE_SECONDS = 60
-SESSION_RENEW_SECONDS = 225
 STATUS_INTERVAL_SECONDS = 5
 STATUS_REQUEST_TIMEOUT_SECONDS = 6
+CHROMIUM_DEVTOOLS_PORT = 9222
+CHROMIUM_DEVTOOLS_TIMEOUT_SECONDS = 15
 EUFY_FRESH_FRAME_SECONDS = 5
 EUFY_REFRESH_INTERVAL_SECONDS = 60
 EUFY_REFRESH_BACKOFF_MAX_SECONDS = 15 * 60
@@ -41,8 +39,7 @@ ADDON_RESTART_TIMEOUT_SECONDS = 120
 
 @dataclass
 class WarmBrowser:
-    slug: str
-    index: int
+    slugs: list[str]
     process: subprocess.Popen[bytes] | None = None
     started_at: float = 0.0
     next_start_at: float = 0.0
@@ -178,6 +175,9 @@ def refresh_eufy_camera(
         return True
 
     baseline_received_at = float((status or {}).get("latest_received_at") or 0)
+    baseline_failure_count = int(
+        (status or {}).get("consecutive_failure_count") or 0
+    )
     started = False
     last_status = status or {}
     try:
@@ -194,6 +194,12 @@ def refresh_eufy_camera(
             ):
                 print(f"Warm agent refreshed Eufy camera {slug}", flush=True)
                 return True
+            if (
+                int(last_status.get("consecutive_failure_count") or 0)
+                > baseline_failure_count
+                and last_status.get("last_start_status") not in {None, 200}
+            ):
+                break
             stopping.wait(EUFY_REFRESH_POLL_SECONDS)
     except Exception as exc:  # noqa: BLE001 - continue with the next camera.
         print(
@@ -228,7 +234,7 @@ def supervise_eufy_cameras(
         slug: time.time() + index * EUFY_REFRESH_STAGGER_SECONDS
         for index, slug in enumerate(inventory.eufy_slugs)
     }
-    failed_slugs: set[str] = set()
+    consecutive_failed_slugs: list[str] = []
     failure_counts = {slug: 0 for slug in inventory.eufy_slugs}
     last_recovery_at = 0.0
     recovery_enabled = bool(
@@ -250,11 +256,11 @@ def supervise_eufy_cameras(
             continue
 
         if refresh_eufy_camera(base_url, slug, stopping):
-            failed_slugs.discard(slug)
+            consecutive_failed_slugs.clear()
             failure_counts[slug] = 0
             next_refresh_at[slug] = time.time() + EUFY_REFRESH_INTERVAL_SECONDS
         else:
-            failed_slugs.add(slug)
+            consecutive_failed_slugs.append(slug)
             failure_counts[slug] += 1
             retry_delay = min(
                 EUFY_REFRESH_INTERVAL_SECONDS
@@ -265,7 +271,7 @@ def supervise_eufy_cameras(
 
         if (
             recovery_enabled
-            and len(failed_slugs) >= EUFY_RECOVERY_FAILURE_QUORUM
+            and len(consecutive_failed_slugs) >= EUFY_RECOVERY_FAILURE_QUORUM
             and time.time() - last_recovery_at >= EUFY_RECOVERY_COOLDOWN_SECONDS
         ):
             try:
@@ -275,10 +281,10 @@ def supervise_eufy_cameras(
                     token,
                     inventory.eufy_addon,
                     inventory.go2rtc_addon,
-                    sorted(failed_slugs),
+                    consecutive_failed_slugs,
                 )
                 last_recovery_at = time.time()
-                failed_slugs.clear()
+                consecutive_failed_slugs.clear()
                 for index, warm_slug in enumerate(inventory.eufy_slugs):
                     failure_counts[warm_slug] = 0
                     next_refresh_at[warm_slug] = (
@@ -298,9 +304,15 @@ def start_browser(
     base_url: str,
     profile_root: Path,
 ) -> None:
-    profile_dir = profile_root / browser.slug
+    if not browser.slugs:
+        return
+
+    profile_dir = profile_root / "shared"
     profile_dir.mkdir(parents=True, exist_ok=True)
-    query = urllib.parse.urlencode({"sentinel": "1", "camera": browser.slug})
+    sentinel_urls = [
+        f"{base_url}/?{urllib.parse.urlencode({'sentinel': '1', 'camera': slug})}"
+        for slug in browser.slugs
+    ]
     command = [
         chromium,
         "--headless",
@@ -311,25 +323,65 @@ def start_browser(
         "--disable-backgrounding-occluded-windows",
         "--disable-renderer-backgrounding",
         "--disable-breakpad",
+        "--disable-component-update",
+        "--disable-extensions",
+        "--disable-gpu",
+        "--disable-sync",
         "--autoplay-policy=no-user-gesture-required",
         "--log-level=3",
+        "--metrics-recording-only",
         "--mute-audio",
+        "--no-default-browser-check",
+        "--no-first-run",
+        "--renderer-process-limit=4",
+        "--remote-debugging-address=127.0.0.1",
+        f"--remote-debugging-port={CHROMIUM_DEVTOOLS_PORT}",
         f"--user-data-dir={profile_dir}",
-        f"{base_url}/?{query}",
+        sentinel_urls[0],
     ]
     browser.process = subprocess.Popen(command, start_new_session=True)
     browser.started_at = time.time()
     print(
-        f"Warm agent started {browser.slug} in Chromium pid {browser.process.pid}",
+        "Warm agent started shared Chromium for "
+        f"{browser.slugs[0]} in pid {browser.process.pid}",
         flush=True,
     )
+
+    devtools_url = f"http://127.0.0.1:{CHROMIUM_DEVTOOLS_PORT}"
+    deadline = time.time() + CHROMIUM_DEVTOOLS_TIMEOUT_SECONDS
+    while time.time() < deadline:
+        if browser.process.poll() is not None:
+            raise RuntimeError(
+                f"Chromium exited with status {browser.process.returncode}"
+            )
+        try:
+            with urllib.request.urlopen(
+                f"{devtools_url}/json/version",
+                timeout=1,
+            ):
+                break
+        except Exception:
+            time.sleep(0.25)
+    else:
+        raise TimeoutError("Chromium DevTools endpoint did not become ready")
+
+    for slug, sentinel_url in zip(browser.slugs[1:], sentinel_urls[1:]):
+        time.sleep(INITIAL_STAGGER_SECONDS)
+        encoded_url = urllib.parse.quote(sentinel_url, safe="")
+        request = urllib.request.Request(
+            f"{devtools_url}/json/new?{encoded_url}",
+            method="PUT",
+        )
+        with urllib.request.urlopen(request, timeout=5) as response:
+            json.load(response)
+        print(f"Warm agent opened shared Chromium tab for {slug}", flush=True)
 
 
 def stop_browser(browser: WarmBrowser, reason: str, restart_delay: int) -> None:
     process = browser.process
     if process is None:
         return
-    print(f"Warm agent recycling {browser.slug}: {reason}", flush=True)
+    print(f"Warm agent recycling shared Chromium: {reason}", flush=True)
     if process.poll() is None:
         try:
             os.killpg(process.pid, signal.SIGTERM)
@@ -344,21 +396,7 @@ def stop_browser(browser: WarmBrowser, reason: str, restart_delay: int) -> None:
             process.wait()
     browser.process = None
     browser.started_at = 0.0
-    browser.next_start_at = (
-        time.time()
-        + restart_delay
-        + browser.index * INITIAL_STAGGER_SECONDS
-    )
-
-
-def frame_status_is_stale(status: dict[str, Any] | None) -> bool:
-    """Treat missing monitor status as unknown, not as a failed camera."""
-    if status is None:
-        return False
-    received_age = status.get("received_age_seconds")
-    return bool(
-        received_age is None or float(received_age) > STALE_FRAME_SECONDS
-    )
+    browser.next_start_at = time.time() + restart_delay
 
 
 def parse_args() -> argparse.Namespace:
@@ -381,14 +419,11 @@ def parse_args() -> argparse.Namespace:
 def main() -> int:
     args = parse_args()
     inventory = load_warm_inventory(args.config)
-    browsers = [
-        WarmBrowser(
-            slug=slug,
-            index=index,
-            next_start_at=time.time() + index * INITIAL_STAGGER_SECONDS,
-        )
-        for index, slug in enumerate(inventory.webrtc_slugs)
-    ]
+    browser = (
+        WarmBrowser(slugs=inventory.webrtc_slugs, next_start_at=time.time())
+        if inventory.webrtc_slugs
+        else None
+    )
     ha_token = os.environ.get("CABIN_HOME_ASSISTANT_TOKEN") or os.environ.get(
         "SUPERVISOR_TOKEN", ""
     )
@@ -402,7 +437,11 @@ def main() -> int:
 
     signal.signal(signal.SIGINT, request_stop)
     signal.signal(signal.SIGTERM, request_stop)
-    print(f"Warm agent supervising {len(browsers)} WebRTC cameras", flush=True)
+    print(
+        "Warm agent supervising "
+        f"{len(inventory.webrtc_slugs)} WebRTC cameras in one shared Chromium",
+        flush=True,
+    )
     print(
         f"Warm agent monitoring {len(inventory.eufy_slugs)} warm Eufy cameras",
         flush=True,
@@ -438,69 +477,40 @@ def main() -> int:
             elif statuses is not None and not status_available:
                 print("Warm agent status recovered", flush=True)
                 status_available = True
-            for browser in browsers:
+            if browser is not None:
                 process = browser.process
-                camera_status = (
-                    statuses.get(browser.slug) if statuses is not None else None
-                )
-                cooldown = float(
-                    (camera_status or {}).get("webrtc_cooldown_seconds") or 0
-                )
 
                 if process is not None and process.poll() is not None:
                     print(
-                        f"Warm agent noticed {browser.slug} Chromium exit "
+                        "Warm agent noticed shared Chromium exit "
                         f"with status {process.returncode}",
                         flush=True,
                     )
                     browser.process = None
                     browser.started_at = 0.0
-                    browser.next_start_at = (
-                        now
-                        + PROCESS_RESTART_DELAY_SECONDS
-                        + browser.index * INITIAL_STAGGER_SECONDS
-                    )
+                    browser.next_start_at = now + PROCESS_RESTART_DELAY_SECONDS
                     process = None
 
-                if process is None:
-                    if cooldown > 0:
-                        browser.next_start_at = max(
-                            browser.next_start_at,
-                            now + min(cooldown, 60),
+                if process is None and now >= browser.next_start_at:
+                    try:
+                        start_browser(
+                            browser,
+                            args.chromium,
+                            args.base_url,
+                            args.profile_root,
                         )
-                    elif now >= browser.next_start_at:
-                        start_browser(browser, args.chromium, args.base_url, args.profile_root)
-                    continue
-
-                process_age = now - browser.started_at
-                received_age = (camera_status or {}).get("received_age_seconds")
-                renew_after = (
-                    SESSION_RENEW_SECONDS
-                    + browser.index * INITIAL_STAGGER_SECONDS
-                )
-                if process_age >= renew_after:
-                    stop_browser(
-                        browser,
-                        "scheduled pre-expiry renewal",
-                        PROCESS_RESTART_DELAY_SECONDS,
-                    )
-                elif (
-                    process_age >= STARTUP_GRACE_SECONDS
-                    and frame_status_is_stale(camera_status)
-                    and cooldown <= 0
-                ):
-                    stop_browser(
-                        browser,
-                        f"no successful frame for {received_age}s",
-                        STALE_RESTART_DELAY_SECONDS,
-                    )
-
+                    except Exception as exc:  # noqa: BLE001 - wrapper will retry.
+                        stop_browser(
+                            browser,
+                            f"startup failed: {type(exc).__name__}: {exc}",
+                            PROCESS_RESTART_DELAY_SECONDS,
+                        )
             time.sleep(STATUS_INTERVAL_SECONDS)
     finally:
         stop_event.set()
         if eufy_thread is not None:
             eufy_thread.join(timeout=5)
-        for browser in browsers:
+        if browser is not None:
             stop_browser(browser, "warm agent shutting down", 0)
     return 0
 
