@@ -73,6 +73,16 @@ order, then resumes the cycle. Shared recovery is limited to once every 20
 minutes. A persistently failing camera also backs off its own refresh schedule
 up to 15 minutes so it cannot starve healthy cameras.
 
+For warm Eufy cameras with `"recover_on_power_restore": true` and a configured
+`power_entity_id`, the agent watches the Home Assistant switch that powers the
+camera. Use this only for always-powered cameras on a monitored circuit. After
+three `off` or `unavailable` checks it records the camera as offline. When two
+checks confirm that the power switch is back `on`, the agent
+automatically pauses refresh work, restarts Eufy and go2rtc, reloads Home
+Assistant's Eufy integration, resumes the monitor, clears the recovered
+cameras' backoff, and queues fresh frames serially. This handles a restored
+GFCI or camera power circuit without requiring a manual add-on restart.
+
 Set `"auto_start": false` for a known-offline camera to keep showing its cached
 frame without continuously sending failed start commands whenever the wall is
 open.
