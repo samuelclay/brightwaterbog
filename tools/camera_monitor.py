@@ -41,6 +41,9 @@ CACHE_WRITE_INTERVAL_SECONDS = 2.0
 MAX_BROWSER_FRAME_BYTES = 2_500_000
 WEBRTC_SESSION_TTL_SECONDS = 120
 WEBRTC_RATE_LIMIT_COOLDOWN_SECONDS = 5 * 60
+WARM_AGENT_HEARTBEAT_SECONDS = 15
+WARM_AGENT_STARTUP_GRACE_SECONDS = 30
+WEBRTC_OWNER_STALE_SECONDS = 45
 DEFAULT_CACHE_DIR = Path(__file__).resolve().parents[1] / ".cache" / "camera_monitor"
 LEGACY_CACHE_DIR = Path(__file__).resolve().parents[1] / ".cache" / "eufy_monitor"
 CACHE_DIR = Path(os.environ.get("CAMERA_MONITOR_CACHE_DIR", DEFAULT_CACHE_DIR))
@@ -955,7 +958,7 @@ class CameraRunner:
             now = time.time()
             with self.lock:
                 has_recent_frame = (
-                    self.latest_changed_at > 0 and now - self.latest_changed_at < 6
+                    self.latest_at > 0 and now - self.latest_at < 6
                 )
                 self.live = has_recent_frame
                 if self.last_error.startswith("WebRTC") and has_recent_frame:
@@ -1558,7 +1561,7 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
     const webrtcStates = new Map();
     const consoleThrottle = new Map();
     const errorLogIntervalMs = 60000;
-    const webrtcFrameIntervalMs = sentinelMode ? 1000 : 2000;
+    const webrtcFrameIntervalMs = 2000;
     const webrtcRetryMs = 60000;
     const webrtcRateLimitRetryMs = 300000;
     const webrtcConnectTimeoutMs = 30000;
@@ -2152,7 +2155,7 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
           const tile = document.querySelector(`[data-slug="${{status.slug}}"]`);
           if (!tile) continue;
           logCameraError(status);
-          const age = status.age_seconds;
+          const age = status.received_age_seconds;
           const ageText = formatRelativeAge(age);
 
           const liveWindow = status.source === "snapshot" ? 25 : status.source === "webrtc" ? 8 : 8;
@@ -2207,7 +2210,7 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
 
 
 class ViewerSessionActiveError(RuntimeError):
-    """Raised when the sentinel must yield a WebRTC camera to a real viewer."""
+    """Raised when another browser owns a WebRTC camera session."""
 
 
 class MonitorServer(ThreadingHTTPServer):
@@ -2230,6 +2233,11 @@ class MonitorServer(ThreadingHTTPServer):
         self.state_lock = threading.Lock()
         self.webrtc_sessions: dict[str, WebRTCSessionProxy] = {}
         self.paused = False
+        self.last_warm_touch_at = 0.0
+        self.started_at = time.time()
+        self.warm_agent_expected = os.environ.get(
+            "CAMERA_MONITOR_WARM_AGENT_ENABLED", ""
+        ).strip().lower() in {"1", "true", "yes", "on"}
 
     def get_camera_order(self) -> list[str]:
         with self.state_lock:
@@ -2256,7 +2264,31 @@ class MonitorServer(ThreadingHTTPServer):
             roles.setdefault(session.runner.config.slug, []).append(session.role)
         return {slug: sorted(slug_roles) for slug, slug_roles in roles.items()}
 
+    def warm_agent_active(self) -> bool:
+        return time.time() - self.last_warm_touch_at < WARM_AGENT_HEARTBEAT_SECONDS
+
+    def warm_agent_has_startup_ownership(self) -> bool:
+        return self.warm_agent_active() or (
+            self.warm_agent_expected
+            and time.time() - self.started_at < WARM_AGENT_STARTUP_GRACE_SECONDS
+        )
+
+    def touch_runner_for_viewer(self, runner: CameraRunner) -> None:
+        if self.paused or not runner.config.auto_start:
+            return
+        if (
+            runner.config.source == "eufy_p2p"
+            and runner.config.keep_warm
+            and self.warm_agent_has_startup_ownership()
+        ):
+            # The resident agent refreshes Eufy cameras serially. A wall may
+            # read the cached frames without turning every battery camera on.
+            return
+        runner.touch(role="viewer")
+
     def touch_visible_runners(self, *, keep_warm_only: bool = False) -> None:
+        if keep_warm_only:
+            self.last_warm_touch_at = time.time()
         if self.paused:
             return
         with self.state_lock:
@@ -2273,7 +2305,7 @@ class MonitorServer(ThreadingHTTPServer):
                     continue
                 runner.touch(role="warm")
             else:
-                runner.touch(role="viewer")
+                self.touch_runner_for_viewer(runner)
 
     def set_camera_order(self, order: list[str]) -> list[str]:
         normalized = save_camera_order(order)
@@ -2319,10 +2351,29 @@ class MonitorServer(ThreadingHTTPServer):
                 for old_id, old_session in self.webrtc_sessions.items()
                 if old_session.runner.config.slug == slug
             ]
-            if role == "sentinel" and any(
-                old_session.role == "viewer" for _, old_session in old_sessions
-            ):
-                raise ViewerSessionActiveError("a viewer is using this WebRTC camera")
+            if role == "viewer" and old_sessions:
+                raise ViewerSessionActiveError(
+                    "another browser owns this WebRTC camera"
+                )
+            viewer_sessions = [
+                old_session
+                for _, old_session in old_sessions
+                if old_session.role == "viewer"
+            ]
+            if role == "sentinel" and viewer_sessions:
+                has_recent_frame = (
+                    runner.latest_at > 0
+                    and time.time() - runner.latest_at < WEBRTC_OWNER_STALE_SECONDS
+                )
+                has_recent_viewer = any(
+                    time.time() - old_session.last_seen_at
+                    < WEBRTC_OWNER_STALE_SECONDS
+                    for old_session in viewer_sessions
+                )
+                if has_recent_frame or has_recent_viewer:
+                    raise ViewerSessionActiveError(
+                        "a viewer owns this WebRTC camera"
+                    )
             for old_id, old_session in old_sessions:
                 sessions_to_close.append(old_session)
                 self.webrtc_sessions.pop(old_id, None)
@@ -2428,6 +2479,8 @@ class Handler(BaseHTTPRequestHandler):
                 self.server.touch_visible_runners(keep_warm_only=True)
             payload = {
                 "paused": self.server.paused,
+                "warm_agent_active": self.server.warm_agent_active(),
+                "warm_agent_expected": self.server.warm_agent_expected,
                 "order": self.server.get_camera_order(),
                 "webrtc_session_roles": self.server.get_webrtc_session_roles(),
                 "cameras": self.server.get_runner_snapshots(),
@@ -2464,8 +2517,7 @@ class Handler(BaseHTTPRequestHandler):
                 self._send_json(HTTPStatus.NOT_FOUND, {"error": "unknown camera"})
                 return
 
-            if not self.server.paused and runner.config.auto_start:
-                runner.touch()
+            self.server.touch_runner_for_viewer(runner)
 
             frame, latest_at, content_type = runner.get_frame()
             if frame is None:
