@@ -34,7 +34,13 @@ EUFY_RECOVERY_COOLDOWN_SECONDS = 20 * 60
 EUFY_MONITOR_DRAIN_SECONDS = 15
 EUFY_ADDON_SETTLE_SECONDS = 20
 GO2RTC_ADDON_SETTLE_SECONDS = 10
+EUFY_INTEGRATION_SETTLE_SECONDS = 20
 ADDON_RESTART_TIMEOUT_SECONDS = 120
+EUFY_REACHABILITY_INTERVAL_SECONDS = 10
+EUFY_OFFLINE_CONFIRMATIONS = 3
+EUFY_ONLINE_CONFIRMATIONS = 2
+EUFY_POWER_RECOVERY_COOLDOWN_SECONDS = 5 * 60
+EUFY_POWER_RECOVERY_STALE_SECONDS = 5 * 60
 
 
 @dataclass
@@ -46,9 +52,58 @@ class WarmBrowser:
 
 
 @dataclass(frozen=True)
+class EufyTarget:
+    slug: str
+    lan_ip: str
+    power_entity_id: str = ""
+
+
+@dataclass
+class ReachabilityState:
+    online: bool | None = None
+    success_count: int = 0
+    failure_count: int = 0
+
+
+class EufyReachabilityTracker:
+    def __init__(self, targets: list[EufyTarget]) -> None:
+        self.states = {target.slug: ReachabilityState() for target in targets}
+
+    def observe(self, slug: str, reachable: bool) -> str | None:
+        state = self.states[slug]
+        if reachable:
+            state.failure_count = 0
+            state.success_count += 1
+            if state.online is None:
+                state.online = True
+                state.success_count = 0
+                return None
+            if (
+                state.online is False
+                and state.success_count >= EUFY_ONLINE_CONFIRMATIONS
+            ):
+                state.online = True
+                state.success_count = 0
+                return "restored"
+            return None
+
+        state.success_count = 0
+        state.failure_count += 1
+        if (
+            state.online is not False
+            and state.failure_count >= EUFY_OFFLINE_CONFIRMATIONS
+        ):
+            state.online = False
+            state.failure_count = 0
+            return "offline"
+        return None
+
+
+@dataclass(frozen=True)
 class WarmInventory:
     webrtc_slugs: list[str]
     eufy_slugs: list[str]
+    power_restore_targets: list[EufyTarget]
     eufy_addon: str
     go2rtc_addon: str
 
@@ -69,6 +124,20 @@ def load_warm_inventory(config_path: Path) -> WarmInventory:
                 camera.get("source") == "eufy_p2p"
                 and camera.get("keep_warm")
                 and camera.get("auto_start", True)
+            )
+        ],
+        power_restore_targets=[
+            EufyTarget(
+                slug=str(camera["slug"]),
+                lan_ip=str(camera.get("lan_ip") or "").strip(),
+                power_entity_id=str(camera.get("power_entity_id") or "").strip(),
+            )
+            for camera in cameras
+            if (
+                camera.get("source") == "eufy_p2p"
+                and camera.get("keep_warm")
+                and camera.get("auto_start", True)
+                and camera.get("recover_on_power_restore", False)
             )
         ],
         eufy_addon=str(payload.get("eufy_security_ws_addon") or "").strip(),
@@ -137,17 +206,88 @@ def restart_addon(ha_url: str, token: str, addon: str) -> None:
     )
 
 
+def camera_power_is_on(
+    target: EufyTarget,
+    ha_url: str,
+    token: str,
+) -> bool | None:
+    if not target.power_entity_id:
+        return None
+    entity_id = urllib.parse.quote(target.power_entity_id, safe=".")
+    request = urllib.request.Request(
+        f"{ha_url.rstrip('/')}/api/states/{entity_id}",
+        headers={"Authorization": f"Bearer {token}"},
+    )
+    try:
+        with urllib.request.urlopen(
+            request,
+            timeout=STATUS_REQUEST_TIMEOUT_SECONDS,
+        ) as response:
+            state = str(json.load(response).get("state") or "").lower()
+    except Exception:
+        return None
+    if state == "on":
+        return True
+    if state in {"off", "unavailable"}:
+        return False
+    return None
+
+
+def poll_eufy_reachability(
+    inventory: WarmInventory,
+    tracker: EufyReachabilityTracker,
+    ha_url: str,
+    token: str,
+) -> list[str]:
+    restored: list[str] = []
+    for target in inventory.power_restore_targets:
+        reachable = camera_power_is_on(target, ha_url, token)
+        if reachable is None:
+            continue
+        transition = tracker.observe(target.slug, reachable)
+        if transition == "offline":
+            print(
+                f"Warm agent noticed {target.slug} power went offline; waiting for restore",
+                flush=True,
+            )
+        elif transition == "restored":
+            print(
+                f"Warm agent noticed {target.slug} power restored",
+                flush=True,
+            )
+            restored.append(target.slug)
+    return restored
+
+
+def stale_power_restore_targets(
+    inventory: WarmInventory,
+    camera_statuses: dict[str, dict[str, Any]],
+) -> list[str]:
+    stale_slugs: list[str] = []
+    for target in inventory.power_restore_targets:
+        received_age = camera_statuses.get(target.slug, {}).get(
+            "received_age_seconds"
+        )
+        if (
+            received_age is not None
+            and float(received_age) > EUFY_POWER_RECOVERY_STALE_SECONDS
+        ):
+            stale_slugs.append(target.slug)
+    return stale_slugs
+
+
 def recover_eufy_stack(
     base_url: str,
     ha_url: str,
     token: str,
     eufy_addon: str,
     go2rtc_addon: str,
-    unhealthy_slugs: list[str],
+    affected_slugs: list[str],
+    reason: str = "stale feeds",
 ) -> None:
     print(
-        "Warm agent recovering shared Eufy stack after stale feeds: "
-        + ", ".join(unhealthy_slugs),
+        f"Warm agent recovering shared Eufy stack after {reason}: "
+        + ", ".join(affected_slugs),
         flush=True,
     )
     paused = False
@@ -159,6 +299,15 @@ def recover_eufy_stack(
         time.sleep(EUFY_ADDON_SETTLE_SECONDS)
         restart_addon(ha_url, token, go2rtc_addon)
         time.sleep(GO2RTC_ADDON_SETTLE_SECONDS)
+        reload_result = post_json(
+            f"{base_url}/api/reload/config-entry/eufy_security"
+        )
+        print(
+            "Warm agent reloaded "
+            f"{reload_result.get('reloaded', 0)} Eufy integration entry",
+            flush=True,
+        )
+        time.sleep(EUFY_INTEGRATION_SETTLE_SECONDS)
     finally:
         if paused:
             post_json(f"{base_url}/api/resume")
@@ -237,6 +386,10 @@ def supervise_eufy_cameras(
     consecutive_failed_slugs: list[str] = []
     failure_counts = {slug: 0 for slug in inventory.eufy_slugs}
     last_recovery_at = 0.0
+    last_power_recovery_at = 0.0
+    reachability_tracker = EufyReachabilityTracker(inventory.power_restore_targets)
+    next_reachability_check_at = 0.0
+    startup_recovery_checked = False
     recovery_enabled = bool(
         inventory.eufy_addon and inventory.go2rtc_addon and token
     )
@@ -248,6 +401,67 @@ def supervise_eufy_cameras(
         )
 
     while not stopping.is_set():
+        now = time.time()
+        if now >= next_reachability_check_at:
+            camera_statuses = fetch_status(base_url, touch_warm=False) or {}
+            restored_slugs: list[str] = []
+            if not startup_recovery_checked:
+                restored_slugs = stale_power_restore_targets(
+                    inventory,
+                    camera_statuses,
+                )
+                startup_recovery_checked = True
+                if restored_slugs:
+                    print(
+                        "Warm agent found powered-monitor cameras stale at startup: "
+                        + ", ".join(restored_slugs),
+                        flush=True,
+                    )
+            power_restored_slugs = poll_eufy_reachability(
+                inventory,
+                reachability_tracker,
+                ha_url,
+                token,
+            )
+            restored_slugs.extend(
+                slug for slug in power_restored_slugs if slug not in restored_slugs
+            )
+            next_reachability_check_at = now + EUFY_REACHABILITY_INTERVAL_SECONDS
+            if restored_slugs:
+                if (
+                    recovery_enabled
+                    and now - last_power_recovery_at
+                    >= EUFY_POWER_RECOVERY_COOLDOWN_SECONDS
+                ):
+                    try:
+                        recover_eufy_stack(
+                            base_url,
+                            ha_url,
+                            token,
+                            inventory.eufy_addon,
+                            inventory.go2rtc_addon,
+                            restored_slugs,
+                            reason="camera power restoration",
+                        )
+                        last_power_recovery_at = time.time()
+                        last_recovery_at = last_power_recovery_at
+                        consecutive_failed_slugs.clear()
+                        for index, warm_slug in enumerate(inventory.eufy_slugs):
+                            failure_counts[warm_slug] = 0
+                            next_refresh_at[warm_slug] = (
+                                time.time() + index * EUFY_REFRESH_STAGGER_SECONDS
+                            )
+                        continue
+                    except Exception as exc:  # noqa: BLE001 - retry refreshes.
+                        print(
+                            "Warm agent power-restore recovery failed: "
+                            f"{type(exc).__name__}: {exc}",
+                            flush=True,
+                        )
+                for restored_slug in restored_slugs:
+                    failure_counts[restored_slug] = 0
+                    next_refresh_at[restored_slug] = time.time()
+
         slug = min(next_refresh_at, key=next_refresh_at.get)
         wait_seconds = max(0.0, next_refresh_at[slug] - time.time())
         if stopping.wait(min(wait_seconds, STATUS_INTERVAL_SECONDS)):

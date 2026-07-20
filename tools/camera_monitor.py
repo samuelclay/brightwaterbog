@@ -96,6 +96,7 @@ class CameraConfig:
     entity_id: str
     station: str = ""
     lan_ip: str = ""
+    power_entity_id: str = ""
     retry_delay: float = 6.0
     start_delay: float = 12.0
     refresh_ms: int = 1000
@@ -105,6 +106,7 @@ class CameraConfig:
     stale_ok_seconds: int = 120
     stale_kick_seconds: int = STALE_KICK_SECONDS
     keep_warm: bool = False
+    recover_on_power_restore: bool = False
     auto_start: bool = True
     restart_addon_on_failure: bool = False
     note: str = ""
@@ -703,6 +705,7 @@ class CameraRunner:
                 "entity_id": self.config.entity_id,
                 "station": self.config.station,
                 "lan_ip": self.config.lan_ip,
+                "power_entity_id": self.config.power_entity_id,
                 "source": self.config.source,
                 "live": self.live,
                 "wanted": now < max(
@@ -744,6 +747,7 @@ class CameraRunner:
                 "stale_ok_seconds": self.config.stale_ok_seconds,
                 "stale_kick_seconds": self.config.stale_kick_seconds,
                 "keep_warm": self.config.keep_warm,
+                "recover_on_power_restore": self.config.recover_on_power_restore,
                 "auto_start": self.config.auto_start,
                 "restart_addon_on_failure": self.config.restart_addon_on_failure,
                 "note": self.config.note,
@@ -2329,6 +2333,36 @@ class MonitorServer(ThreadingHTTPServer):
         result = response.get("result")
         return result if isinstance(result, dict) else {}
 
+    def reload_config_entries(self, domain: str) -> list[str]:
+        if domain != "eufy_security":
+            raise ValueError("unsupported config entry domain")
+        response = ha_ws_call(self.ha, {"type": "config_entries/get"})
+        if not response.get("success"):
+            raise RuntimeError(str(response.get("error") or response))
+        entries = response.get("result")
+        if not isinstance(entries, list):
+            raise RuntimeError("Home Assistant returned no config entries")
+        entry_ids = [
+            str(entry["entry_id"])
+            for entry in entries
+            if isinstance(entry, dict)
+            and entry.get("domain") == domain
+            and entry.get("entry_id")
+        ]
+        if not entry_ids:
+            raise RuntimeError(f"Home Assistant has no {domain} config entry")
+        for entry_id in entry_ids:
+            status, body = self.ha.call_service_data(
+                "homeassistant",
+                "reload_config_entry",
+                {"entry_id": entry_id},
+            )
+            if status != HTTPStatus.OK:
+                raise RuntimeError(
+                    f"reload_config_entry returned {status}: {body}"
+                )
+        return entry_ids
+
     def start_webrtc_session(self, slug: str, offer: str, role: str) -> str:
         runner = self.runners.get(slug)
         if runner is None:
@@ -2539,6 +2573,29 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_POST(self) -> None:
         parsed = urlparse(self.path)
+        reload_prefix = "/api/reload/config-entry/"
+        if parsed.path.startswith(reload_prefix):
+            if self.client_address[0] not in {"127.0.0.1", "::1"}:
+                self._send_json(HTTPStatus.FORBIDDEN, {"error": "loopback only"})
+                return
+            domain = parsed.path.removeprefix(reload_prefix)
+            try:
+                entry_ids = self.server.reload_config_entries(domain)
+            except ValueError as exc:
+                self._send_json(HTTPStatus.BAD_REQUEST, {"error": str(exc)})
+                return
+            except Exception as exc:  # noqa: BLE001 - local recovery API.
+                self._send_json(
+                    HTTPStatus.BAD_GATEWAY,
+                    {"error": f"{type(exc).__name__}: {exc}"},
+                )
+                return
+            self._send_json(
+                HTTPStatus.OK,
+                {"domain": domain, "reloaded": len(entry_ids)},
+            )
+            return
+
         warm_prefix = "/api/warm/eufy/"
         if parsed.path.startswith(warm_prefix):
             if self.client_address[0] not in {"127.0.0.1", "::1"}:
@@ -2784,6 +2841,7 @@ def main() -> None:
             "entity_id": camera.entity_id,
             "station": camera.station,
             "lan_ip": camera.lan_ip,
+            "power_entity_id": camera.power_entity_id,
             "refresh_ms": camera.refresh_ms,
             "source": camera.source,
             "snapshot_interval": camera.snapshot_interval,
@@ -2791,6 +2849,7 @@ def main() -> None:
             "stale_ok_seconds": camera.stale_ok_seconds,
             "stale_kick_seconds": camera.stale_kick_seconds,
             "keep_warm": camera.keep_warm,
+            "recover_on_power_restore": camera.recover_on_power_restore,
             "auto_start": camera.auto_start,
             "restart_addon_on_failure": camera.restart_addon_on_failure,
             "note": camera.note,

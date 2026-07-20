@@ -116,5 +116,36 @@ class CameraOwnershipTest(unittest.TestCase):
         self.assertEqual(runner.touches, [])
 
 
+class ConfigEntryRecoveryTest(unittest.TestCase):
+    def test_reloads_only_eufy_config_entries(self) -> None:
+        runner = FakeRunner()
+        server = make_server(runner)
+        server.ha = mock.Mock()
+        server.ha.call_service_data.return_value = (200, "[]")
+        entries = [
+            {"entry_id": "eufy-one", "domain": "eufy_security"},
+            {"entry_id": "nest-one", "domain": "nest"},
+        ]
+
+        with mock.patch.object(
+            camera_monitor,
+            "ha_ws_call",
+            return_value={"success": True, "result": entries},
+        ):
+            reloaded = server.reload_config_entries("eufy_security")
+
+        self.assertEqual(reloaded, ["eufy-one"])
+        server.ha.call_service_data.assert_called_once_with(
+            "homeassistant",
+            "reload_config_entry",
+            {"entry_id": "eufy-one"},
+        )
+
+    def test_rejects_unapproved_config_entry_domain(self) -> None:
+        server = make_server(FakeRunner())
+
+        with self.assertRaises(ValueError):
+            server.reload_config_entries("tplink")
+
 if __name__ == "__main__":
     unittest.main()
