@@ -19,6 +19,7 @@
       "stale_kick_seconds": 300,
       "keep_warm": true,
       "recover_on_power_restore": true,
+      "ensure_power_on": true,
       "auto_start": true,
       "restart_addon_on_failure": false,
       "note": ""

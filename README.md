@@ -83,6 +83,17 @@ Assistant's Eufy integration, resumes the monitor, clears the recovered
 cameras' backoff, and queues fresh frames serially. This handles a restored
 GFCI or camera power circuit without requiring a manual add-on restart.
 
+Set `"ensure_power_on": true` only for dedicated camera outlets that should
+never remain off. If one of those outlets comes back `off` after a whole-property
+outage or GFCI reset, the agent turns it on through Home Assistant and waits for
+two healthy power checks before running the shared Eufy recovery sequence.
+
+The resident Chromium supervisor checks actual WebRTC frame ages as well as the
+browser process. If at least half of the warm WebRTC cameras remain stale after
+the two-minute startup grace period, it recycles the shared browser after three
+confirmed checks. Recycling is limited to once every ten minutes to avoid Nest
+rate-limit loops during an upstream outage.
+
 Set `"auto_start": false` for a known-offline camera to keep showing its cached
 frame without continuously sending failed start commands whenever the wall is
 open.

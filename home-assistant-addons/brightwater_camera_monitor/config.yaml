@@ -1,7 +1,7 @@
 name: Brightwater Camera Monitor
-version: "0.3.0"
+version: "0.3.1"
 slug: brightwater_camera_monitor
-description: Camera wall with resident warming and automatic power-restore recovery.
+description: Camera wall with automatic camera power and stale-feed recovery.
 arch:
   - amd64
 startup: application
