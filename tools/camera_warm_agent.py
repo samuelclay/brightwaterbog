@@ -41,6 +41,11 @@ EUFY_OFFLINE_CONFIRMATIONS = 3
 EUFY_ONLINE_CONFIRMATIONS = 2
 EUFY_POWER_RECOVERY_COOLDOWN_SECONDS = 5 * 60
 EUFY_POWER_RECOVERY_STALE_SECONDS = 5 * 60
+CAMERA_POWER_ON_RETRY_SECONDS = 60
+WEBRTC_FRAME_STALE_SECONDS = 2 * 60
+WEBRTC_HEALTH_GRACE_SECONDS = 2 * 60
+WEBRTC_UNHEALTHY_CONFIRMATIONS = 3
+WEBRTC_RECYCLE_COOLDOWN_SECONDS = 10 * 60
 
 
 @dataclass
@@ -49,6 +54,8 @@ class WarmBrowser:
     process: subprocess.Popen[bytes] | None = None
     started_at: float = 0.0
     next_start_at: float = 0.0
+    unhealthy_checks: int = 0
+    last_health_recycle_at: float = 0.0
 
 
 @dataclass(frozen=True)
@@ -56,6 +63,7 @@ class EufyTarget:
     slug: str
     lan_ip: str
     power_entity_id: str = ""
+    ensure_power_on: bool = False
 
 
 @dataclass
@@ -63,6 +71,7 @@ class ReachabilityState:
     online: bool | None = None
     success_count: int = 0
     failure_count: int = 0
+    restore_requested: bool = False
 
 
 class EufyReachabilityTracker:
@@ -74,6 +83,13 @@ class EufyReachabilityTracker:
         if reachable:
             state.failure_count = 0
             state.success_count += 1
+            if state.restore_requested:
+                if state.success_count >= EUFY_ONLINE_CONFIRMATIONS:
+                    state.online = True
+                    state.success_count = 0
+                    state.restore_requested = False
+                    return "restored"
+                return None
             if state.online is None:
                 state.online = True
                 state.success_count = 0
@@ -97,6 +113,13 @@ class EufyReachabilityTracker:
             state.failure_count = 0
             return "offline"
         return None
+
+    def mark_restore_requested(self, slug: str) -> None:
+        state = self.states[slug]
+        state.online = False
+        state.success_count = 0
+        state.failure_count = 0
+        state.restore_requested = True
 
 
 @dataclass(frozen=True)
@@ -131,6 +154,7 @@ def load_warm_inventory(config_path: Path) -> WarmInventory:
                 slug=str(camera["slug"]),
                 lan_ip=str(camera.get("lan_ip") or "").strip(),
                 power_entity_id=str(camera.get("power_entity_id") or "").strip(),
+                ensure_power_on=bool(camera.get("ensure_power_on", False)),
             )
             for camera in cameras
             if (
@@ -206,11 +230,11 @@ def restart_addon(ha_url: str, token: str, addon: str) -> None:
     )
 
 
-def camera_power_is_on(
+def camera_power_state(
     target: EufyTarget,
     ha_url: str,
     token: str,
-) -> bool | None:
+) -> str | None:
     if not target.power_entity_id:
         return None
     entity_id = urllib.parse.quote(target.power_entity_id, safe=".")
@@ -226,6 +250,15 @@ def camera_power_is_on(
             state = str(json.load(response).get("state") or "").lower()
     except Exception:
         return None
+    return state or None
+
+
+def camera_power_is_on(
+    target: EufyTarget,
+    ha_url: str,
+    token: str,
+) -> bool | None:
+    state = camera_power_state(target, ha_url, token)
     if state == "on":
         return True
     if state in {"off", "unavailable"}:
@@ -233,17 +266,60 @@ def camera_power_is_on(
     return None
 
 
+def turn_on_camera_power(target: EufyTarget, ha_url: str, token: str) -> None:
+    if not target.power_entity_id:
+        raise ValueError("camera has no power entity")
+    post_json(
+        f"{ha_url.rstrip('/')}/api/services/switch/turn_on",
+        {"entity_id": target.power_entity_id},
+        token,
+    )
+
+
 def poll_eufy_reachability(
     inventory: WarmInventory,
     tracker: EufyReachabilityTracker,
     ha_url: str,
     token: str,
-) -> list[str]:
+    power_on_attempted_at: dict[str, float] | None = None,
+) -> tuple[list[str], dict[str, bool | None]]:
+    if power_on_attempted_at is None:
+        power_on_attempted_at = {}
     restored: list[str] = []
+    power_states: dict[str, bool | None] = {}
+    now = time.time()
     for target in inventory.power_restore_targets:
-        reachable = camera_power_is_on(target, ha_url, token)
+        state = camera_power_state(target, ha_url, token)
+        reachable = None
+        if state == "on":
+            reachable = True
+        elif state in {"off", "unavailable"}:
+            reachable = False
+        power_states[target.slug] = reachable
         if reachable is None:
             continue
+        if (
+            state == "off"
+            and target.ensure_power_on
+            and token
+            and now - power_on_attempted_at.get(target.slug, 0)
+            >= CAMERA_POWER_ON_RETRY_SECONDS
+        ):
+            try:
+                turn_on_camera_power(target, ha_url, token)
+                power_on_attempted_at[target.slug] = now
+                tracker.mark_restore_requested(target.slug)
+                print(
+                    f"Warm agent turned {target.slug} camera power back on",
+                    flush=True,
+                )
+            except Exception as exc:  # noqa: BLE001 - retry after cooldown.
+                power_on_attempted_at[target.slug] = now
+                print(
+                    f"Warm agent could not turn {target.slug} power on: "
+                    f"{type(exc).__name__}: {exc}",
+                    flush=True,
+                )
         transition = tracker.observe(target.slug, reachable)
         if transition == "offline":
             print(
@@ -256,15 +332,22 @@ def poll_eufy_reachability(
                 flush=True,
             )
             restored.append(target.slug)
-    return restored
+    return restored, power_states
 
 
 def stale_power_restore_targets(
     inventory: WarmInventory,
     camera_statuses: dict[str, dict[str, Any]],
+    power_states: dict[str, bool | None] | None = None,
 ) -> list[str]:
     stale_slugs: list[str] = []
     for target in inventory.power_restore_targets:
+        if (
+            target.ensure_power_on
+            and power_states is not None
+            and power_states.get(target.slug) is not True
+        ):
+            continue
         received_age = camera_statuses.get(target.slug, {}).get(
             "received_age_seconds"
         )
@@ -387,6 +470,7 @@ def supervise_eufy_cameras(
     failure_counts = {slug: 0 for slug in inventory.eufy_slugs}
     last_recovery_at = 0.0
     last_power_recovery_at = 0.0
+    power_on_attempted_at: dict[str, float] = {}
     reachability_tracker = EufyReachabilityTracker(inventory.power_restore_targets)
     next_reachability_check_at = 0.0
     startup_recovery_checked = False
@@ -404,11 +488,19 @@ def supervise_eufy_cameras(
         now = time.time()
         if now >= next_reachability_check_at:
             camera_statuses = fetch_status(base_url, touch_warm=False) or {}
+            power_restored_slugs, power_states = poll_eufy_reachability(
+                inventory,
+                reachability_tracker,
+                ha_url,
+                token,
+                power_on_attempted_at,
+            )
             restored_slugs: list[str] = []
             if not startup_recovery_checked:
                 restored_slugs = stale_power_restore_targets(
                     inventory,
                     camera_statuses,
+                    power_states,
                 )
                 startup_recovery_checked = True
                 if restored_slugs:
@@ -417,12 +509,6 @@ def supervise_eufy_cameras(
                         + ", ".join(restored_slugs),
                         flush=True,
                     )
-            power_restored_slugs = poll_eufy_reachability(
-                inventory,
-                reachability_tracker,
-                ha_url,
-                token,
-            )
             restored_slugs.extend(
                 slug for slug in power_restored_slugs if slug not in restored_slugs
             )
@@ -591,6 +677,27 @@ def start_browser(
         print(f"Warm agent opened shared Chromium tab for {slug}", flush=True)
 
 
+def webrtc_browser_health_issue(
+    browser: WarmBrowser,
+    statuses: dict[str, dict[str, Any]],
+) -> str | None:
+    stale_slugs: list[str] = []
+    for slug in browser.slugs:
+        received_age = statuses.get(slug, {}).get("received_age_seconds")
+        if received_age is None or float(received_age) > WEBRTC_FRAME_STALE_SECONDS:
+            stale_slugs.append(slug)
+    minimum_stale = 1 if len(browser.slugs) == 1 else max(
+        2,
+        (len(browser.slugs) + 1) // 2,
+    )
+    if len(stale_slugs) < minimum_stale:
+        return None
+    return (
+        f"{len(stale_slugs)}/{len(browser.slugs)} WebRTC cameras have stale frames: "
+        + ", ".join(stale_slugs)
+    )
+
+
 def stop_browser(browser: WarmBrowser, reason: str, restart_delay: int) -> None:
     process = browser.process
     if process is None:
@@ -610,6 +717,7 @@ def stop_browser(browser: WarmBrowser, reason: str, restart_delay: int) -> None:
             process.wait()
     browser.process = None
     browser.started_at = 0.0
+    browser.unhealthy_checks = 0
     browser.next_start_at = time.time() + restart_delay
 
 
@@ -704,6 +812,31 @@ def main() -> int:
                     browser.started_at = 0.0
                     browser.next_start_at = now + PROCESS_RESTART_DELAY_SECONDS
                     process = None
+
+                if (
+                    process is not None
+                    and statuses is not None
+                    and now - browser.started_at >= WEBRTC_HEALTH_GRACE_SECONDS
+                ):
+                    health_issue = webrtc_browser_health_issue(browser, statuses)
+                    if health_issue:
+                        browser.unhealthy_checks += 1
+                    else:
+                        browser.unhealthy_checks = 0
+                    if (
+                        health_issue
+                        and browser.unhealthy_checks
+                        >= WEBRTC_UNHEALTHY_CONFIRMATIONS
+                        and now - browser.last_health_recycle_at
+                        >= WEBRTC_RECYCLE_COOLDOWN_SECONDS
+                    ):
+                        browser.last_health_recycle_at = now
+                        stop_browser(
+                            browser,
+                            health_issue,
+                            PROCESS_RESTART_DELAY_SECONDS,
+                        )
+                        process = None
 
                 if process is None and now >= browser.next_start_at:
                     try:

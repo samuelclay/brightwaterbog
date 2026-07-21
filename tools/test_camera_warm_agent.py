@@ -83,6 +83,25 @@ class SharedBrowserTest(unittest.TestCase):
         self.assertIn("camera%3Dnest-two", tab_requests[0].full_url)
         self.assertIn("camera%3Dnest-three", tab_requests[1].full_url)
 
+    def test_reports_shared_browser_failure_from_stale_frames(self) -> None:
+        browser = camera_warm_agent.WarmBrowser(
+            slugs=["nest-one", "nest-two", "nest-three", "nest-four"]
+        )
+        statuses = {
+            "nest-one": {"received_age_seconds": 10},
+            "nest-two": {"received_age_seconds": 121},
+            "nest-three": {"received_age_seconds": 600},
+            "nest-four": {"received_age_seconds": 20},
+        }
+
+        issue = camera_warm_agent.webrtc_browser_health_issue(browser, statuses)
+
+        self.assertIn("2/4 WebRTC cameras", issue or "")
+        statuses["nest-two"]["received_age_seconds"] = 10
+        self.assertIsNone(
+            camera_warm_agent.webrtc_browser_health_issue(browser, statuses)
+        )
+
 
 class EufyRefreshTest(unittest.TestCase):
     @mock.patch.object(camera_warm_agent, "post_json")
@@ -137,6 +156,7 @@ class PowerRestoreRecoveryTest(unittest.TestCase):
                     "keep_warm": True,
                     "recover_on_power_restore": True,
                     "power_entity_id": "switch.dam_camera_power",
+                    "ensure_power_on": True,
                 },
             ]
         }
@@ -150,6 +170,7 @@ class PowerRestoreRecoveryTest(unittest.TestCase):
             [target.slug for target in inventory.power_restore_targets],
             ["dam"],
         )
+        self.assertTrue(inventory.power_restore_targets[0].ensure_power_on)
 
     def test_requires_confirmed_offline_and_online_transitions(self) -> None:
         target = camera_warm_agent.EufyTarget("dam", "192.0.2.10")
@@ -181,6 +202,109 @@ class PowerRestoreRecoveryTest(unittest.TestCase):
         )
 
         self.assertEqual(restored, ["driveway"])
+
+    @mock.patch.object(camera_warm_agent, "turn_on_camera_power")
+    @mock.patch.object(camera_warm_agent, "camera_power_state")
+    def test_turns_dedicated_outlet_on_and_confirms_restore(
+        self,
+        camera_power_state: mock.Mock,
+        turn_on_camera_power: mock.Mock,
+    ) -> None:
+        target = camera_warm_agent.EufyTarget(
+            "dam",
+            "192.0.2.10",
+            "switch.dam_camera_power",
+            ensure_power_on=True,
+        )
+        inventory = camera_warm_agent.WarmInventory(
+            webrtc_slugs=[],
+            eufy_slugs=["dam"],
+            power_restore_targets=[target],
+            eufy_addon="eufy-addon",
+            go2rtc_addon="go2rtc-addon",
+        )
+        tracker = camera_warm_agent.EufyReachabilityTracker([target])
+        attempted_at: dict[str, float] = {}
+        camera_power_state.side_effect = ["off", "on", "on"]
+
+        first, first_states = camera_warm_agent.poll_eufy_reachability(
+            inventory,
+            tracker,
+            "http://supervisor/core",
+            "token",
+            attempted_at,
+        )
+        second, _ = camera_warm_agent.poll_eufy_reachability(
+            inventory,
+            tracker,
+            "http://supervisor/core",
+            "token",
+            attempted_at,
+        )
+        third, _ = camera_warm_agent.poll_eufy_reachability(
+            inventory,
+            tracker,
+            "http://supervisor/core",
+            "token",
+            attempted_at,
+        )
+
+        self.assertEqual(first, [])
+        self.assertEqual(first_states, {"dam": False})
+        self.assertEqual(second, [])
+        self.assertEqual(third, ["dam"])
+        turn_on_camera_power.assert_called_once_with(
+            target,
+            "http://supervisor/core",
+            "token",
+        )
+
+    def test_waits_for_auto_power_before_startup_recovery(self) -> None:
+        target = camera_warm_agent.EufyTarget(
+            "dam",
+            "192.0.2.10",
+            "switch.dam_camera_power",
+            ensure_power_on=True,
+        )
+        inventory = camera_warm_agent.WarmInventory(
+            webrtc_slugs=[],
+            eufy_slugs=["dam"],
+            power_restore_targets=[target],
+            eufy_addon="eufy-addon",
+            go2rtc_addon="go2rtc-addon",
+        )
+
+        restored = camera_warm_agent.stale_power_restore_targets(
+            inventory,
+            {"dam": {"received_age_seconds": 3600}},
+            {"dam": False},
+        )
+
+        self.assertEqual(restored, [])
+
+    @mock.patch.object(camera_warm_agent, "post_json")
+    def test_turn_on_camera_power_calls_home_assistant(
+        self,
+        post_json: mock.Mock,
+    ) -> None:
+        target = camera_warm_agent.EufyTarget(
+            "driveway",
+            "192.0.2.11",
+            "switch.driveway_camera_power",
+            ensure_power_on=True,
+        )
+
+        camera_warm_agent.turn_on_camera_power(
+            target,
+            "http://supervisor/core",
+            "token",
+        )
+
+        post_json.assert_called_once_with(
+            "http://supervisor/core/api/services/switch/turn_on",
+            {"entity_id": "switch.driveway_camera_power"},
+            "token",
+        )
 
     @mock.patch.object(camera_warm_agent.urllib.request, "urlopen")
     def test_reads_home_assistant_power_switch_state(

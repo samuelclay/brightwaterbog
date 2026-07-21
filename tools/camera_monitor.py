@@ -107,6 +107,7 @@ class CameraConfig:
     stale_kick_seconds: int = STALE_KICK_SECONDS
     keep_warm: bool = False
     recover_on_power_restore: bool = False
+    ensure_power_on: bool = False
     auto_start: bool = True
     restart_addon_on_failure: bool = False
     note: str = ""
@@ -748,6 +749,7 @@ class CameraRunner:
                 "stale_kick_seconds": self.config.stale_kick_seconds,
                 "keep_warm": self.config.keep_warm,
                 "recover_on_power_restore": self.config.recover_on_power_restore,
+                "ensure_power_on": self.config.ensure_power_on,
                 "auto_start": self.config.auto_start,
                 "restart_addon_on_failure": self.config.restart_addon_on_failure,
                 "note": self.config.note,
@@ -2850,6 +2852,7 @@ def main() -> None:
             "stale_kick_seconds": camera.stale_kick_seconds,
             "keep_warm": camera.keep_warm,
             "recover_on_power_restore": camera.recover_on_power_restore,
+            "ensure_power_on": camera.ensure_power_on,
             "auto_start": camera.auto_start,
             "restart_addon_on_failure": camera.restart_addon_on_failure,
             "note": camera.note,
