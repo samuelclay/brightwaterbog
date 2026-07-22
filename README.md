@@ -140,12 +140,13 @@ $EDITOR tools/camera_monitor.local.json tools/camera_monitor.docker.local.env
 make camera-monitor-docker
 ```
 
-The Compose service publishes the wall on host port `80`, persists its frame
-cache in a named volume, limits the container to 4 GiB, and restarts it after a
-host reboot. Resident warming is off by default: the wall still starts cameras
-when somebody opens it, without keeping Home Assistant camera sessions active
-all day. Set `CAMERA_MONITOR_WARM_AGENT_ENABLED=1` only after measuring the
-Home Assistant and Docker-host memory impact.
+The Compose service publishes the wall on host port `8765` by default, persists
+its frame cache in a named volume, limits the container to 4 GiB, and restarts
+it after a host reboot. Set `CAMERA_MONITOR_HOST_PORT` before running Compose to
+use another host port. Resident warming is off by default: the wall still
+starts cameras when somebody opens it, without keeping Home Assistant camera
+sessions active all day. Set `CAMERA_MONITOR_WARM_AGENT_ENABLED=1` only after
+measuring the Home Assistant and Docker-host memory impact.
 
 `cameras.local` can continue to be published by the lightweight Home Assistant
 mDNS add-on even when the wall moves to another LAN host. Set its `mappings`

@@ -9,7 +9,7 @@ services:
     restart: unless-stopped
     init: true
     ports:
-      - "80:8765"
+      - "${CAMERA_MONITOR_HOST_PORT:-8765}:8765"
     env_file:
       - tools/camera_monitor.docker.local.env
     environment:
