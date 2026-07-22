@@ -151,7 +151,9 @@ measuring the Home Assistant and Docker-host memory impact.
 `cameras.local` can continue to be published by the lightweight Home Assistant
 mDNS add-on even when the wall moves to another LAN host. Set its `mappings`
 option to comma-separated `alias=address` entries so the Home Assistant alias
-and camera-wall alias can point at different machines.
+and camera-wall alias can point at different machines. mDNS maps a hostname,
+not a port; if another service already owns port `80` on the Docker host, route
+the `cameras.local` Host header through its reverse proxy to port `8765`.
 
 The add-on listens on container port `8765` and maps it to host port `80`, so
 the camera wall is available at `http://<home-assistant-ip>/`. The mDNS alias
