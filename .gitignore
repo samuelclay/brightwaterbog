@@ -7,6 +7,7 @@ __pycache__/
 logs/*
 !logs/.gitkeep
 tools/camera_monitor.local.json
+tools/camera_monitor.docker.local.env
 tools/deploy.local.env
 home-assistant-addons/brightwater_camera_monitor/camera_monitor.local.json
 

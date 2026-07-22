@@ -127,6 +127,31 @@ The local Home Assistant add-on wrapper lives in
 `home-assistant-addons/brightwater_mdns_alias/`; Supervisor exposes it as
 `local_brightwater_mdns_alias`.
 
+### Portable Docker container
+
+The camera monitor can run as one portable Docker container on an `amd64` or
+Apple Silicon host. Copy the ignored local configuration and environment files,
+then start it with Compose:
+
+```bash
+cp tools/camera_monitor.example.json tools/camera_monitor.local.json
+cp tools/camera_monitor.docker.example.env tools/camera_monitor.docker.local.env
+$EDITOR tools/camera_monitor.local.json tools/camera_monitor.docker.local.env
+make camera-monitor-docker
+```
+
+The Compose service publishes the wall on host port `80`, persists its frame
+cache in a named volume, limits the container to 4 GiB, and restarts it after a
+host reboot. Resident warming is off by default: the wall still starts cameras
+when somebody opens it, without keeping Home Assistant camera sessions active
+all day. Set `CAMERA_MONITOR_WARM_AGENT_ENABLED=1` only after measuring the
+Home Assistant and Docker-host memory impact.
+
+`cameras.local` can continue to be published by the lightweight Home Assistant
+mDNS add-on even when the wall moves to another LAN host. Set its `mappings`
+option to comma-separated `alias=address` entries so the Home Assistant alias
+and camera-wall alias can point at different machines.
+
 The add-on listens on container port `8765` and maps it to host port `80`, so
 the camera wall is available at `http://<home-assistant-ip>/`. The mDNS alias
 add-on publishes the configured alias, usually `cameras.local`, as an IPv4-only

@@ -94,6 +94,27 @@ def parse_aliases(value: str) -> list[str]:
     return aliases
 
 
+def parse_mappings(value: str) -> dict[str, str]:
+    mappings: dict[str, str] = {}
+    for raw_mapping in value.split(","):
+        mapping = raw_mapping.strip()
+        if not mapping:
+            continue
+        alias_value, separator, address_value = mapping.partition("=")
+        if not separator:
+            raise ValueError(f"mDNS mapping must use alias=address: {mapping}")
+        aliases = parse_aliases(alias_value)
+        if len(aliases) != 1:
+            raise ValueError(f"mDNS mapping must contain one alias: {mapping}")
+        alias = aliases[0]
+        if alias in mappings:
+            raise ValueError(f"Duplicate mDNS alias: {alias}")
+        mappings[alias] = str(ipaddress.IPv4Address(address_value.strip()))
+    if not mappings:
+        raise ValueError("At least one mDNS mapping is required")
+    return mappings
+
+
 def build_record(alias: str, record_type: int, rdata: bytes) -> bytes:
     name = encode_name(alias)
     return (
@@ -131,7 +152,7 @@ def build_negative_response(alias: str, address: str, transaction_id: int = 0) -
     return header + build_nsec_record(alias) + build_address_record(alias, address)
 
 
-def make_socket(interface_address: str) -> socket.socket:
+def make_socket(interface_address: str = "0.0.0.0") -> socket.socket:
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
     sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     try:
@@ -182,18 +203,37 @@ def publish(sock: socket.socket, response: bytes) -> bool:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Publish one or more IPv4 mDNS aliases.")
-    parser.add_argument("--alias", required=True, help="Comma-separated .local aliases")
-    parser.add_argument("--address", required=True)
+    parser.add_argument("--alias", help="Comma-separated .local aliases")
+    parser.add_argument("--address")
+    parser.add_argument(
+        "--mappings",
+        help="Comma-separated alias=address mappings; overrides --alias/--address",
+    )
+    parser.add_argument(
+        "--interface-address",
+        default="0.0.0.0",
+        help="Local IPv4 interface used for mDNS multicast",
+    )
     args = parser.parse_args()
 
-    aliases = parse_aliases(args.alias)
-    address = str(ipaddress.IPv4Address(args.address))
+    if args.mappings:
+        mappings = parse_mappings(args.mappings)
+    elif args.alias and args.address:
+        address = str(ipaddress.IPv4Address(args.address))
+        mappings = {alias: address for alias in parse_aliases(args.alias)}
+    else:
+        parser.error("provide --mappings or both --alias and --address")
+
     positive_responses = {
-        alias: build_positive_response(alias, address) for alias in aliases
+        alias: build_positive_response(alias, address)
+        for alias, address in mappings.items()
     }
-    sock = make_socket(address)
+    sock = make_socket(str(ipaddress.IPv4Address(args.interface_address)))
     next_announcement = 0.0
-    print(f"Publishing {', '.join(aliases)} -> {address} via mDNS", flush=True)
+    published = ", ".join(
+        f"{alias} -> {address}" for alias, address in mappings.items()
+    )
+    print(f"Publishing {published} via mDNS", flush=True)
 
     while True:
         now = time.time()
@@ -212,12 +252,18 @@ def main() -> None:
         try:
             transaction_id = struct.unpack_from("!H", packet, 0)[0] if len(packet) >= 2 else 0
             questions = parse_questions(packet)
-            for alias in aliases:
+            for alias, address in mappings.items():
                 kind = response_kind(questions, alias)
                 if kind == "positive":
-                    publish(sock, build_positive_response(alias, address, transaction_id))
+                    publish(
+                        sock,
+                        build_positive_response(alias, address, transaction_id),
+                    )
                 elif kind == "negative":
-                    publish(sock, build_negative_response(alias, address, transaction_id))
+                    publish(
+                        sock,
+                        build_negative_response(alias, address, transaction_id),
+                    )
         except Exception as exc:  # noqa: BLE001 - keep the responder alive.
             print(f"Ignoring malformed mDNS query: {exc}", flush=True)
 

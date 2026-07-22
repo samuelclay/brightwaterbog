@@ -50,6 +50,23 @@ class MdnsAliasTest(unittest.TestCase):
         questions = [("cameras.local", mdns_alias.DNS_TYPE_AAAA, mdns_alias.DNS_CLASS_IN)]
         self.assertEqual(mdns_alias.response_kind(questions, "cameras.local"), "negative")
 
+    def test_parse_mappings_supports_different_addresses(self) -> None:
+        self.assertEqual(
+            mdns_alias.parse_mappings(
+                "cameras.local=192.0.2.20, CabinHomeAssistant.local.=192.0.2.10"
+            ),
+            {
+                "cameras.local": "192.0.2.20",
+                "cabinhomeassistant.local": "192.0.2.10",
+            },
+        )
+
+    def test_parse_mappings_rejects_duplicate_alias(self) -> None:
+        with self.assertRaisesRegex(ValueError, "Duplicate mDNS alias"):
+            mdns_alias.parse_mappings(
+                "cameras.local=192.0.2.20,cameras.local=192.0.2.21"
+            )
+
 
 if __name__ == "__main__":
     unittest.main()

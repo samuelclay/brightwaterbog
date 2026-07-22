@@ -9,11 +9,13 @@ HOST   ?= 127.0.0.1
 PORT   ?= 8766
 LOG    ?= logs/scanned_gallery.log
 SERVER_LABEL ?= brightwaterbog.scanned_gallery
+DOCKER ?= docker
+CAMERA_MONITOR_COMPOSE := docker-compose.camera-monitor.yml
 PY     := .venv/bin/python
 SWIFTC := swiftc
 CLANG  := clang
 
-.PHONY: help setup build scan scan-no-tag server capture list camera-monitor eufy-monitor deploy clean
+.PHONY: help setup build scan scan-no-tag server capture list camera-monitor eufy-monitor camera-monitor-docker camera-monitor-docker-stop camera-monitor-docker-logs deploy clean
 
 help:
 	@echo "make setup        Create venv, install deps, build the scanner CLI"
@@ -24,6 +26,9 @@ help:
 	@echo "make capture      Alias for make server"
 	@echo "make list         List scanners the Mac can see"
 	@echo "make camera-monitor Run the local Home Assistant camera wall"
+	@echo "make camera-monitor-docker Build and run the portable camera monitor container"
+	@echo "make camera-monitor-docker-stop Stop the portable camera monitor container"
+	@echo "make camera-monitor-docker-logs Follow portable camera monitor logs"
 	@echo "make deploy       Deploy the camera monitor Home Assistant add-on"
 	@echo "make clean        Remove staging crops and Python caches"
 	@echo ""
@@ -78,6 +83,15 @@ camera-monitor:
 	python3 tools/camera_monitor.py
 
 eufy-monitor: camera-monitor
+
+camera-monitor-docker:
+	$(DOCKER) compose -f $(CAMERA_MONITOR_COMPOSE) up -d --build
+
+camera-monitor-docker-stop:
+	$(DOCKER) compose -f $(CAMERA_MONITOR_COMPOSE) down
+
+camera-monitor-docker-logs:
+	$(DOCKER) compose -f $(CAMERA_MONITOR_COMPOSE) logs -f camera-monitor
 
 deploy:
 	./tools/deploy_camera_monitor.sh

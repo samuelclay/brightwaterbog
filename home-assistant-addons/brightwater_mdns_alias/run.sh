@@ -19,5 +19,16 @@ PY
 
 ALIAS="$(option_value alias "cameras.local")"
 ADDRESS="$(option_value address "192.0.2.10")"
+MAPPINGS="$(option_value mappings "")"
+INTERFACE_ADDRESS="$(option_value interface_address "0.0.0.0")"
 
-exec python3 /app/mdns_alias.py --alias "${ALIAS}" --address "${ADDRESS}"
+if [ -n "${MAPPINGS}" ]; then
+  exec python3 /app/mdns_alias.py \
+    --mappings "${MAPPINGS}" \
+    --interface-address "${INTERFACE_ADDRESS}"
+fi
+
+exec python3 /app/mdns_alias.py \
+  --alias "${ALIAS}" \
+  --address "${ADDRESS}" \
+  --interface-address "${INTERFACE_ADDRESS}"
