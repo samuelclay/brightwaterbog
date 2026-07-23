@@ -1,20 +1,14 @@
 #!/usr/bin/env python3
-"""Local Home Assistant camera wall.
-
-Reads CABIN_HOME_ASSISTANT_TOKEN from the environment, starts eufy P2P streams
-on demand, polls Home Assistant snapshot cameras, caches the latest frame, and
-serves a browser-friendly monitor.
-"""
+"""Portable camera wall with direct Eufy and Nest backends."""
 
 from __future__ import annotations
 
 import argparse
-import base64
 import hashlib
 import json
 import math
 import os
-import secrets
+import select
 import socket
 import ssl
 import struct
@@ -23,7 +17,6 @@ import time
 import urllib.parse
 import urllib.error
 import urllib.request
-import uuid
 import zlib
 from dataclasses import dataclass, fields
 from http import HTTPStatus
@@ -32,34 +25,53 @@ from pathlib import Path
 from typing import Any, Callable
 from urllib.parse import urlparse
 
+from camera_backends import (
+    DirectEufyClient,
+    JsonWebSocket,
+    NestCredentials,
+    configure_nest_streams,
+    nest_stream_name,
+)
 
-DEFAULT_HA_URL = "http://supervisor/core"
+
 DEFAULT_CONFIG_PATH = Path(__file__).resolve().with_name("camera_monitor.local.json")
 VIEWER_TTL_SECONDS = 90
 SOCKET_TIMEOUT_SECONDS = 12
-CACHE_WRITE_INTERVAL_SECONDS = 2.0
+CACHE_WRITE_INTERVAL_SECONDS = 30.0
+VIEWER_ACTIVITY_WRITE_INTERVAL_SECONDS = 60.0
+DEFAULT_WARM_IDLE_HOURS = 48.0
+DEFAULT_EUFY_VIEWER_SLOTS = 2
+DEFAULT_EUFY_THUMBNAIL_REFRESH_SECONDS = 20.0
+EUFY_THUMBNAIL_ATTEMPT_TIMEOUT_SECONDS = 15.0
+EUFY_THUMBNAIL_RETRY_BASE_SECONDS = 20.0
+EUFY_THUMBNAIL_RETRY_MAX_SECONDS = 5 * 60.0
+DIRECT_STATUS_INTERVAL_SECONDS = 2.0
+DIRECT_START_TIMEOUT_SECONDS = 25.0
+DIRECT_ACTIVITY_STALE_SECONDS = 6.0
+DIRECT_STABILITY_SECONDS = 8.0
+NEST_START_TIMEOUT_SECONDS = 10 * 60.0
+NATIVE_STARTER_MSE_CODECS = (
+    "avc1.640029,avc1.64002A,avc1.640033,avc1.4D401F,avc1.42E01E"
+)
 MAX_BROWSER_FRAME_BYTES = 2_500_000
-WEBRTC_SESSION_TTL_SECONDS = 120
-WEBRTC_RATE_LIMIT_COOLDOWN_SECONDS = 5 * 60
+MAX_MJPEG_FRAME_BYTES = 5_000_000
+WEBSOCKET_PROXY_IDLE_SECONDS = 90
+GO2RTC_BROWSER_MODULES = frozenset(
+    {"/go2rtc/video-stream.js", "/go2rtc/video-rtc.js"}
+)
+MAX_GO2RTC_BROWSER_MODULE_BYTES = 256 * 1024
 WARM_AGENT_HEARTBEAT_SECONDS = 15
-WARM_AGENT_STARTUP_GRACE_SECONDS = 30
-WEBRTC_OWNER_STALE_SECONDS = 45
 DEFAULT_CACHE_DIR = Path(__file__).resolve().parents[1] / ".cache" / "camera_monitor"
 LEGACY_CACHE_DIR = Path(__file__).resolve().parents[1] / ".cache" / "eufy_monitor"
 CACHE_DIR = Path(os.environ.get("CAMERA_MONITOR_CACHE_DIR", DEFAULT_CACHE_DIR))
 ORDER_PATH = CACHE_DIR / "layout.json"
+VIEWER_ACTIVITY_PATH = CACHE_DIR / "viewer_activity.json"
+GO2RTC_URL = "http://go2rtc:1984"
 STALE_KICK_SECONDS = 5 * 60
 STALE_KICK_COOLDOWN_SECONDS = 3 * 60
 KICK_STOP_SETTLE_SECONDS = 3.0
-EUFY_SECURITY_WS_ADDON = ""
-ADDON_RESTART_AFTER_STALE_KICKS = 2
-ADDON_RESTART_AFTER_START_FAILURES = 3
-ADDON_RESTART_COOLDOWN_SECONDS = 20 * 60
-ADDON_RESTART_SETTLE_SECONDS = 35.0
 EUFY_RETRY_BACKOFF_MAX_SECONDS = 5 * 60
 START_GATE = threading.Semaphore(1)
-ADDON_RESTART_LOCK = threading.Lock()
-LAST_ADDON_RESTART_AT = 0.0
 
 
 def prepare_cache_dir() -> None:
@@ -69,6 +81,30 @@ def prepare_cache_dir() -> None:
         LEGACY_CACHE_DIR.rename(CACHE_DIR)
     except Exception as exc:  # noqa: BLE001 - losing cache should not block viewing.
         print(f"Unable to migrate legacy cache directory: {exc}", flush=True)
+
+
+def load_viewer_activity() -> float:
+    try:
+        payload = json.loads(VIEWER_ACTIVITY_PATH.read_text(encoding="utf-8"))
+        last_viewed_at = float(payload.get("last_viewed_at", 0))
+        if last_viewed_at > 0:
+            return last_viewed_at
+    except (FileNotFoundError, json.JSONDecodeError, TypeError, ValueError):
+        pass
+    return time.time()
+
+
+def save_viewer_activity(last_viewed_at: float) -> None:
+    try:
+        CACHE_DIR.mkdir(parents=True, exist_ok=True)
+        tmp_path = VIEWER_ACTIVITY_PATH.with_suffix(".json.tmp")
+        tmp_path.write_text(
+            json.dumps({"last_viewed_at": last_viewed_at}),
+            encoding="utf-8",
+        )
+        tmp_path.replace(VIEWER_ACTIVITY_PATH)
+    except Exception as exc:  # noqa: BLE001 - activity persistence is best effort.
+        print(f"Unable to persist viewer activity: {exc}", flush=True)
 
 
 def detect_image_content_type(frame: bytes, fallback: str = "image/jpeg") -> str:
@@ -81,6 +117,14 @@ def detect_image_content_type(frame: bytes, fallback: str = "image/jpeg") -> str
     return fallback.split(";", 1)[0] or "application/octet-stream"
 
 
+def is_websocket_close_frame(data: bytes, *, masked: bool) -> bool:
+    return (
+        len(data) >= 2
+        and data[0] & 0x8F == 0x88
+        and bool(data[1] & 0x80) is masked
+    )
+
+
 def is_placeholder_snapshot(frame: bytes, content_type: str) -> bool:
     return content_type == "image/png" and len(frame) < 10_000
 
@@ -89,36 +133,50 @@ def frame_fingerprint(frame: bytes) -> str:
     return hashlib.blake2b(frame, digest_size=16).hexdigest()
 
 
+def resolve_go2rtc_url() -> str:
+    return os.environ.get("CAMERA_MONITOR_GO2RTC_URL", GO2RTC_URL).strip().rstrip("/")
+
+
+def direct_websocket_url(camera: "CameraConfig") -> str:
+    if not GO2RTC_URL:
+        return ""
+    query = urllib.parse.urlencode({"src": browser_stream_name(camera)})
+    return f"/go2rtc/api/ws?{query}"
+
+
+def browser_stream_name(camera: "CameraConfig") -> str:
+    return f"camera_{camera.slug}_native"
+
+
+def upstream_stream_name(camera: "CameraConfig") -> str:
+    return camera.device_id if camera.source == "eufy" else nest_stream_name(camera.slug)
+
+
 @dataclass(frozen=True)
 class CameraConfig:
     slug: str
     name: str
-    entity_id: str
-    station: str = ""
+    device_id: str
     lan_ip: str = ""
-    power_entity_id: str = ""
     retry_delay: float = 6.0
     start_delay: float = 12.0
     refresh_ms: int = 1000
-    source: str = "eufy_p2p"
+    source: str = "eufy"
     snapshot_interval: float = 10.0
     stale_ok: bool = False
     stale_ok_seconds: int = 120
     stale_kick_seconds: int = STALE_KICK_SECONDS
     keep_warm: bool = False
-    recover_on_power_restore: bool = False
-    ensure_power_on: bool = False
     auto_start: bool = True
-    restart_addon_on_failure: bool = False
     note: str = ""
 
 
 CAMERA_CONFIG_FIELDS = {field.name for field in fields(CameraConfig)}
-CAMERA_SOURCES = {"eufy_p2p", "snapshot", "webrtc"}
+CAMERA_SOURCES = {"eufy", "nest"}
 DEFAULT_CAMERA_ORDER: tuple[str, ...] = ()
 
 
-def load_monitor_config(config_path: Path) -> tuple[str, str, tuple[CameraConfig, ...]]:
+def load_monitor_config(config_path: Path) -> tuple[CameraConfig, ...]:
     try:
         payload = json.loads(config_path.read_text(encoding="utf-8"))
     except FileNotFoundError as exc:
@@ -151,9 +209,9 @@ def load_monitor_config(config_path: Path) -> tuple[str, str, tuple[CameraConfig
             camera = CameraConfig(**entry)
         except TypeError as exc:
             raise SystemExit(f"Camera config entry {index} is incomplete: {exc}") from exc
-        if not camera.slug or not camera.name or not camera.entity_id:
+        if not camera.slug or not camera.name or not camera.device_id:
             raise SystemExit(
-                f"Camera config entry {index} must include slug, name, and entity_id"
+                f"Camera config entry {index} must include slug, name, and device_id"
             )
         if camera.slug in seen_slugs:
             raise SystemExit(f"Duplicate camera slug in config: {camera.slug}")
@@ -164,9 +222,7 @@ def load_monitor_config(config_path: Path) -> tuple[str, str, tuple[CameraConfig
         seen_slugs.add(camera.slug)
         cameras.append(camera)
 
-    ha_url = str(payload.get("ha_url") or "").strip()
-    eufy_addon = str(payload.get("eufy_security_ws_addon") or "").strip()
-    return ha_url, eufy_addon, tuple(cameras)
+    return tuple(cameras)
 
 
 def normalize_camera_order(order: Any) -> list[str]:
@@ -213,408 +269,14 @@ def save_camera_order(order: list[str]) -> list[str]:
     return normalized
 
 
-class HomeAssistantClient:
-    def __init__(self, base_url: str, token: str) -> None:
-        self.base_url = base_url.rstrip("/")
-        self.token = token
-
-    def _request(
-        self,
-        path: str,
-        *,
-        method: str = "GET",
-        data: bytes | None = None,
-        timeout: float = SOCKET_TIMEOUT_SECONDS,
-    ) -> urllib.response.addinfourl:
-        headers = {"Authorization": f"Bearer {self.token}"}
-        if data is not None:
-            headers["Content-Type"] = "application/json"
-        req = urllib.request.Request(
-            f"{self.base_url}{path}",
-            data=data,
-            headers=headers,
-            method=method,
-        )
-        return urllib.request.urlopen(req, timeout=timeout)
-
-    def call_service(self, domain: str, service: str, entity_id: str) -> tuple[int, str]:
-        return self.call_service_data(domain, service, {"entity_id": entity_id})
-
-    def call_service_data(
-        self,
-        domain: str,
-        service: str,
-        payload: dict[str, Any],
-    ) -> tuple[int, str]:
-        data = json.dumps(payload).encode("utf-8")
-        try:
-            with self._request(
-                f"/api/services/{domain}/{service}",
-                method="POST",
-                data=data,
-                timeout=20,
-            ) as response:
-                body = response.read(2048).decode("utf-8", errors="replace")
-                return response.status, body
-        except urllib.error.HTTPError as exc:
-            body = exc.read(2048).decode("utf-8", errors="replace")
-            return exc.code, body
-        except Exception as exc:  # noqa: BLE001 - surfaced to the local monitor UI.
-            return 0, f"{type(exc).__name__}: {exc}"
-
-    def open_camera_stream(self, entity_id: str) -> urllib.response.addinfourl:
-        quoted_entity = urllib.parse.quote(entity_id, safe=".")
-        return self._request(f"/api/camera_proxy_stream/{quoted_entity}", timeout=20)
-
-    def open_camera_snapshot(self, entity_id: str) -> urllib.response.addinfourl:
-        quoted_entity = urllib.parse.quote(entity_id, safe=".")
-        return self._request(f"/api/camera_proxy/{quoted_entity}", timeout=20)
-
-    def websocket_url(self) -> str:
-        parsed = urllib.parse.urlsplit(self.base_url)
-        scheme = "wss" if parsed.scheme == "https" else "ws"
-        base_path = parsed.path.rstrip("/")
-        if base_path.endswith("/core"):
-            path = f"{base_path}/websocket"
-        else:
-            path = f"{base_path}/api/websocket" if base_path else "/api/websocket"
-        return urllib.parse.urlunsplit((scheme, parsed.netloc, path, "", ""))
-
-    def get_state(self, entity_id: str) -> dict[str, Any] | None:
-        quoted_entity = urllib.parse.quote(entity_id, safe=".")
-        try:
-            with self._request(f"/api/states/{quoted_entity}", timeout=8) as response:
-                return json.loads(response.read().decode("utf-8"))
-        except Exception:
-            return None
-
-
-class MinimalWebSocket:
-    """Small WebSocket client for Home Assistant signaling."""
-
-    GUID = "258EAFA5-E914-47DA-95CA-C5AB0DC85B11"
-
-    def __init__(self, url: str) -> None:
-        parsed = urllib.parse.urlsplit(url)
-        if parsed.scheme not in {"ws", "wss"}:
-            raise ValueError(f"unsupported WebSocket scheme: {parsed.scheme}")
-        if not parsed.hostname:
-            raise ValueError("WebSocket URL must include a host")
-
-        port = parsed.port or (443 if parsed.scheme == "wss" else 80)
-        path = parsed.path or "/"
-        if parsed.query:
-            path = f"{path}?{parsed.query}"
-
-        raw_sock = socket.create_connection((parsed.hostname, port), timeout=15)
-        if parsed.scheme == "wss":
-            raw_sock = ssl.create_default_context().wrap_socket(
-                raw_sock,
-                server_hostname=parsed.hostname,
-            )
-        raw_sock.settimeout(30)
-        self.sock = raw_sock
-        self.read_buffer = b""
-        self.send_lock = threading.Lock()
-        self.closed = False
-
-        key = base64.b64encode(secrets.token_bytes(16)).decode("ascii")
-        host = parsed.netloc
-        request = (
-            f"GET {path} HTTP/1.1\r\n"
-            f"Host: {host}\r\n"
-            "Upgrade: websocket\r\n"
-            "Connection: Upgrade\r\n"
-            f"Sec-WebSocket-Key: {key}\r\n"
-            "Sec-WebSocket-Version: 13\r\n"
-            "\r\n"
-        ).encode("ascii")
-        self.sock.sendall(request)
-        response = self._read_http_response()
-        expected = base64.b64encode(
-            hashlib.sha1((key + self.GUID).encode("ascii")).digest()
-        ).decode("ascii")
-        if b" 101 " not in response.split(b"\r\n", 1)[0]:
-            raise ConnectionError(response.decode("utf-8", errors="replace")[:300])
-        if f"sec-websocket-accept: {expected}".lower().encode("ascii") not in response.lower():
-            raise ConnectionError("WebSocket accept header did not match")
-
-    def _read_http_response(self) -> bytes:
-        data = b""
-        while b"\r\n\r\n" not in data:
-            chunk = self.sock.recv(4096)
-            if not chunk:
-                raise ConnectionError("WebSocket handshake closed early")
-            data += chunk
-            if len(data) > 16384:
-                raise ConnectionError("WebSocket handshake response too large")
-        response, self.read_buffer = data.split(b"\r\n\r\n", 1)
-        return response + b"\r\n\r\n"
-
-    def _read_exact(self, length: int) -> bytes:
-        if len(self.read_buffer) >= length:
-            data = self.read_buffer[:length]
-            self.read_buffer = self.read_buffer[length:]
-            return data
-
-        data = self.read_buffer
-        self.read_buffer = b""
-        while len(data) < length:
-            chunk = self.sock.recv(length - len(data))
-            if not chunk:
-                raise ConnectionError("WebSocket closed")
-            data += chunk
-        return data
-
-    def recv_json(self) -> dict[str, Any]:
-        return json.loads(self.recv_text())
-
-    def recv_text(self) -> str:
-        message = bytearray()
-        while True:
-            first, second = self._read_exact(2)
-            fin = bool(first & 0x80)
-            opcode = first & 0x0F
-            masked = bool(second & 0x80)
-            length = second & 0x7F
-            if length == 126:
-                length = struct.unpack("!H", self._read_exact(2))[0]
-            elif length == 127:
-                length = struct.unpack("!Q", self._read_exact(8))[0]
-
-            mask = self._read_exact(4) if masked else b""
-            payload = self._read_exact(length) if length else b""
-            if masked:
-                payload = bytes(byte ^ mask[index % 4] for index, byte in enumerate(payload))
-
-            if opcode == 0x8:
-                raise ConnectionError("WebSocket close received")
-            if opcode == 0x9:
-                self._send_frame(0xA, payload)
-                continue
-            if opcode == 0xA:
-                continue
-            if opcode not in {0x0, 0x1}:
-                continue
-
-            message.extend(payload)
-            if fin:
-                return message.decode("utf-8")
-
-    def send_json(self, payload: dict[str, Any]) -> None:
-        self.send_text(json.dumps(payload, separators=(",", ":")))
-
-    def send_text(self, payload: str) -> None:
-        self._send_frame(0x1, payload.encode("utf-8"))
-
-    def _send_frame(self, opcode: int, payload: bytes) -> None:
-        with self.send_lock:
-            if self.closed:
-                raise ConnectionError("WebSocket is closed")
-            header = bytearray([0x80 | opcode])
-            length = len(payload)
-            if length < 126:
-                header.append(0x80 | length)
-            elif length < 65536:
-                header.append(0x80 | 126)
-                header.extend(struct.pack("!H", length))
-            else:
-                header.append(0x80 | 127)
-                header.extend(struct.pack("!Q", length))
-            mask = secrets.token_bytes(4)
-            masked = bytes(byte ^ mask[index % 4] for index, byte in enumerate(payload))
-            self.sock.sendall(bytes(header) + mask + masked)
-
-    def close(self) -> None:
-        if self.closed:
-            return
-        try:
-            self._send_frame(0x8, b"")
-        except Exception:
-            pass
-        self.closed = True
-        try:
-            self.sock.close()
-        except Exception:
-            pass
-
-
-def ha_ws_connect(ha: HomeAssistantClient) -> MinimalWebSocket:
-    ws = MinimalWebSocket(ha.websocket_url())
-    auth_required = ws.recv_json()
-    if auth_required.get("type") != "auth_required":
-        ws.close()
-        raise ConnectionError(f"unexpected auth preface: {auth_required}")
-    ws.send_json({"type": "auth", "access_token": ha.token})
-    auth_result = ws.recv_json()
-    if auth_result.get("type") != "auth_ok":
-        ws.close()
-        raise PermissionError(f"Home Assistant WebSocket auth failed: {auth_result}")
-    return ws
-
-
-def ha_ws_call(ha: HomeAssistantClient, payload: dict[str, Any]) -> dict[str, Any]:
-    ws = ha_ws_connect(ha)
-    try:
-        command = dict(payload)
-        command["id"] = 1
-        ws.send_json(command)
-        while True:
-            message = ws.recv_json()
-            if message.get("id") == 1:
-                return message
-    finally:
-        ws.close()
-
-
-class WebRTCSessionProxy:
+class CameraRunner:
     def __init__(
         self,
-        local_id: str,
-        runner: "CameraRunner",
-        ha: HomeAssistantClient,
-        offer: str,
-        role: str,
+        config: CameraConfig,
+        eufy: DirectEufyClient | None,
     ) -> None:
-        self.local_id = local_id
-        self.runner = runner
-        self.ha = ha
-        self.offer = offer
-        self.role = role
-        self.ws: MinimalWebSocket | None = None
-        self.closed = False
-        self.created_at = time.time()
-        self.last_seen_at = self.created_at
-        self.ha_session_id = ""
-        self.next_command_id = 2
-        self.pending_candidates: list[dict[str, Any]] = []
-        self.events: list[dict[str, Any]] = []
-        self.lock = threading.Lock()
-        self.thread: threading.Thread | None = None
-
-    def start(self) -> None:
-        self.ws = ha_ws_connect(self.ha)
-        self.ws.sock.settimeout(None)
-        self.ws.send_json(
-            {
-                "id": 1,
-                "type": "camera/webrtc/offer",
-                "entity_id": self.runner.config.entity_id,
-                "offer": self.offer,
-            }
-        )
-        self.thread = threading.Thread(
-            target=self._read_loop,
-            name=f"webrtc-{self.runner.config.slug}",
-            daemon=True,
-        )
-        self.thread.start()
-
-    def add_candidate(self, candidate: dict[str, Any]) -> None:
-        with self.lock:
-            self.last_seen_at = time.time()
-            if self.closed:
-                raise ConnectionError("WebRTC session is closed")
-            if not self.ha_session_id:
-                self.pending_candidates.append(candidate)
-                return
-        self._send_candidate(candidate)
-
-    def pop_events(self) -> list[dict[str, Any]]:
-        with self.lock:
-            self.last_seen_at = time.time()
-            events = self.events
-            self.events = []
-            return events
-
-    def close(self) -> None:
-        with self.lock:
-            if self.closed:
-                return
-            self.closed = True
-        if self.ws is not None:
-            self.ws.close()
-
-    def expired(self) -> bool:
-        with self.lock:
-            return time.time() - self.last_seen_at > WEBRTC_SESSION_TTL_SECONDS
-
-    def _queue_event(self, event: dict[str, Any]) -> None:
-        with self.lock:
-            self.events.append(event)
-            self.last_seen_at = time.time()
-
-    def _read_loop(self) -> None:
-        try:
-            while True:
-                with self.lock:
-                    if self.closed:
-                        return
-                if self.ws is None:
-                    return
-                message = self.ws.recv_json()
-                if message.get("id") == 1 and message.get("success") is False:
-                    error = message.get("error", {})
-                    self._queue_event({"type": "error", "message": str(error)})
-                    self.runner.set_external_error(f"WebRTC offer failed: {error}")
-                    return
-                if message.get("type") != "event" or message.get("id") != 1:
-                    continue
-
-                event = message.get("event")
-                if not isinstance(event, dict):
-                    continue
-                if event.get("type") == "session":
-                    session_id = str(event.get("session_id", ""))
-                    with self.lock:
-                        self.ha_session_id = session_id
-                        pending = self.pending_candidates
-                        self.pending_candidates = []
-                    self._queue_event({"type": "session", "session_id": session_id})
-                    for candidate in pending:
-                        self._send_candidate(candidate)
-                elif event.get("type") == "answer":
-                    self._queue_event({"type": "answer", "answer": event.get("answer", "")})
-                elif event.get("type") == "candidate":
-                    self._queue_event({"type": "candidate", "candidate": event.get("candidate")})
-                elif event.get("type") == "error":
-                    message_text = str(event.get("message") or event)
-                    self._queue_event({"type": "error", "message": message_text})
-                    self.runner.set_external_error(f"WebRTC error: {message_text}")
-        except Exception as exc:  # noqa: BLE001 - browser will retry the session.
-            with self.lock:
-                closed = self.closed
-            if not closed:
-                message_text = f"{type(exc).__name__}: {exc}"
-                self._queue_event({"type": "error", "message": message_text})
-                self.runner.set_external_error(f"WebRTC signaling error: {message_text}")
-        finally:
-            self.close()
-
-    def _send_candidate(self, candidate: dict[str, Any]) -> None:
-        with self.lock:
-            if self.closed or not self.ha_session_id:
-                return
-            command_id = self.next_command_id
-            self.next_command_id += 1
-            session_id = self.ha_session_id
-        if self.ws is None:
-            return
-        self.ws.send_json(
-            {
-                "id": command_id,
-                "type": "camera/webrtc/candidate",
-                "entity_id": self.runner.config.entity_id,
-                "session_id": session_id,
-                "candidate": candidate,
-            }
-        )
-
-
-class CameraRunner:
-    def __init__(self, config: CameraConfig, ha: HomeAssistantClient) -> None:
         self.config = config
-        self.ha = ha
+        self.eufy = eufy
         self.lock = threading.Lock()
         self.thread: threading.Thread | None = None
         self.viewer_wanted_until = 0.0
@@ -629,20 +291,16 @@ class CameraRunner:
             self.latest_changed_at,
         ) = self._load_cached_frame()
         self.cache_written_at = self.latest_at
+        self.latest_transport_at = 0.0
         self.live = False
         self.last_error = ""
         self.last_start_status: int | None = None
         self.retry_count = 0
         self.consecutive_failure_count = 0
-        self.first_frame_failure_count = 0
         self.kick_count = 0
-        self.addon_restart_count = 0
         self.started_at = 0.0
         self.last_attempt_at = 0.0
         self.last_kick_at = 0.0
-        self.last_addon_restart_at = 0.0
-        self.webrtc_cooldown_until = 0.0
-        self.pending_addon_restart_reason = ""
 
     def touch(self, role: str = "viewer") -> None:
         with self.lock:
@@ -675,25 +333,11 @@ class CameraRunner:
             self.warm_wanted_until = 0.0
 
     def receive_browser_frame(self, frame: bytes, content_type: str) -> None:
-        with self.lock:
-            self.warm_wanted_until = max(
-                self.warm_wanted_until,
-                time.time() + VIEWER_TTL_SECONDS,
-            )
         self._set_state(live=True, error="", frame=frame, content_type=content_type)
 
     def set_external_error(self, error: str) -> None:
-        lower_error = error.lower()
-        if any(
-            marker in lower_error
-            for marker in ("429", "rate limit", "too many requests", "resource_exhausted")
-        ):
-            self.webrtc_cooldown_until = time.time() + WEBRTC_RATE_LIMIT_COOLDOWN_SECONDS
         self._record_failure()
         self._set_state(live=False, error=error)
-
-    def webrtc_cooldown_seconds(self) -> int:
-        return max(0, round(self.webrtc_cooldown_until - time.time()))
 
     def snapshot(self) -> dict[str, Any]:
         now = time.time()
@@ -703,11 +347,9 @@ class CameraRunner:
             return {
                 "slug": self.config.slug,
                 "name": self.config.name,
-                "entity_id": self.config.entity_id,
-                "station": self.config.station,
                 "lan_ip": self.config.lan_ip,
-                "power_entity_id": self.config.power_entity_id,
                 "source": self.config.source,
+                "go2rtc_mode": "webrtc" if self.config.source == "nest" else "mse",
                 "live": self.live,
                 "wanted": now < max(
                     self.viewer_wanted_until,
@@ -728,30 +370,29 @@ class CameraRunner:
                 "latest_received_at": (
                     None if latest_received_at <= 0 else latest_received_at
                 ),
+                "transport_age_seconds": (
+                    None
+                    if self.latest_transport_at <= 0
+                    else round(now - self.latest_transport_at, 1)
+                ),
+                "latest_transport_at": (
+                    None
+                    if self.latest_transport_at <= 0
+                    else self.latest_transport_at
+                ),
                 "last_error": self.last_error,
                 "last_start_status": self.last_start_status,
                 "retry_count": self.retry_count,
                 "consecutive_failure_count": self.consecutive_failure_count,
-                "first_frame_failure_count": self.first_frame_failure_count,
-                "webrtc_cooldown_seconds": self.webrtc_cooldown_seconds(),
                 "kick_count": self.kick_count,
                 "last_kick_at": None if self.last_kick_at <= 0 else self.last_kick_at,
-                "addon_restart_count": self.addon_restart_count,
-                "last_addon_restart_at": (
-                    None
-                    if self.last_addon_restart_at <= 0
-                    else self.last_addon_restart_at
-                ),
                 "refresh_ms": self.config.refresh_ms,
                 "snapshot_interval": self.config.snapshot_interval,
                 "stale_ok": self.config.stale_ok,
                 "stale_ok_seconds": self.config.stale_ok_seconds,
                 "stale_kick_seconds": self.config.stale_kick_seconds,
                 "keep_warm": self.config.keep_warm,
-                "recover_on_power_restore": self.config.recover_on_power_restore,
-                "ensure_power_on": self.config.ensure_power_on,
                 "auto_start": self.config.auto_start,
-                "restart_addon_on_failure": self.config.restart_addon_on_failure,
                 "note": self.config.note,
             }
 
@@ -774,6 +415,7 @@ class CameraRunner:
         start_status: int | None = None,
         frame: bytes | None = None,
         content_type: str = "image/jpeg",
+        transport_activity: bool = False,
     ) -> None:
         now = time.time()
         fingerprint = frame_fingerprint(frame) if frame is not None else ""
@@ -786,6 +428,9 @@ class CameraRunner:
                 self.last_error = error[:300]
             if start_status is not None:
                 self.last_start_status = start_status
+            if transport_activity:
+                self.latest_transport_at = now
+                self.consecutive_failure_count = 0
             if frame is not None:
                 frame_changed = fingerprint != self.latest_fingerprint
                 self.latest_frame = frame
@@ -796,7 +441,6 @@ class CameraRunner:
                     self.latest_changed_at = now
                     self.kick_count = 0
                 self.consecutive_failure_count = 0
-                self.first_frame_failure_count = 0
                 if now - self.cache_written_at >= CACHE_WRITE_INTERVAL_SECONDS:
                     self._write_cached_frame(
                         frame,
@@ -827,11 +471,6 @@ class CameraRunner:
                 fingerprint = str(metadata.get("fingerprint", ""))
             frame = self.cache_path.read_bytes()
             content_type = detect_image_content_type(frame, content_type)
-            if self.config.source == "snapshot" and is_placeholder_snapshot(
-                frame,
-                content_type,
-            ):
-                return None, 0.0, content_type, "", 0.0
             if not fingerprint:
                 fingerprint = frame_fingerprint(frame)
             return frame, latest_at, content_type, fingerprint, latest_changed_at
@@ -857,7 +496,6 @@ class CameraRunner:
                 json.dumps(
                     {
                         "slug": self.config.slug,
-                        "entity_id": self.config.entity_id,
                         "latest_at": latest_changed_at,
                         "latest_changed_at": latest_changed_at,
                         "latest_received_at": latest_received_at,
@@ -872,134 +510,150 @@ class CameraRunner:
             print(f"Unable to write cache for {self.config.slug}: {exc}", flush=True)
 
     def _run(self) -> None:
-        if self.config.source == "snapshot":
-            self._run_snapshot_poll()
+        if self.config.source == "nest":
+            self._run_native_watchdog()
             return
-        if self.config.source == "webrtc":
-            self._run_webrtc_watchdog()
+
+        if self.eufy is None:
+            self._set_state(live=False, error="direct Eufy service is unavailable")
             return
 
         while self._wanted():
             self.last_attempt_at = time.time()
-            restart_reason = ""
             stream_claimed = False
-
-            start_gate_released = False
+            gate_released = False
 
             def release_start_gate() -> None:
-                nonlocal start_gate_released
-                if not start_gate_released:
+                nonlocal gate_released
+                if not gate_released:
                     START_GATE.release()
-                    start_gate_released = True
+                    gate_released = True
 
             START_GATE.acquire()
             try:
-                already_streaming = self._ha_camera_is_streaming()
-                if not already_streaming:
-                    status, body = self.ha.call_service(
-                        "eufy_security",
-                        "start_p2p_livestream",
-                        self.config.entity_id,
-                    )
-                    self._set_state(start_status=status)
-                    if status != HTTPStatus.OK:
-                        self._record_failure()
-                        self._set_state(
-                            live=False,
-                            error=f"start_p2p returned {status}: {body}",
-                        )
-                        release_start_gate()
-                        self._sleep_while_wanted(self._retry_delay())
-                        continue
-
-                    stream_claimed = True
-                    self.started_at = time.time()
-                    self._set_state(
-                        live=False,
-                        error=f"waiting {int(self.config.start_delay)}s for go2rtc stream",
-                    )
-                    self._sleep_while_wanted(self.config.start_delay)
-                    if not self._wanted():
-                        release_start_gate()
-                        continue
-                else:
-                    stream_claimed = True
-                    self._set_state(
-                        start_status=HTTPStatus.OK,
-                        live=False,
-                        error="using existing Home Assistant stream",
-                    )
-
-                self._set_state(live=False, error="opening Home Assistant stream")
-                self._read_mjpeg_until_idle(on_first_frame=release_start_gate)
-            except Exception as exc:  # noqa: BLE001 - local status should show raw failure.
-                self._record_failure()
-                error = f"{type(exc).__name__}: {exc}"
-                self._set_state(live=False, error=error)
-                restart_reason = self._take_pending_addon_restart_reason()
-                if not restart_reason and self._record_first_frame_failure(error):
-                    restart_reason = (
-                        "first-frame watchdog restarting eufy-security-ws add-on "
-                        f"after {self.first_frame_failure_count} start failures"
-                    )
+                self._set_state(live=False, error="starting direct Eufy stream")
+                self.eufy.start_stream(self.config.device_id, wanted=self._wanted)
+                stream_claimed = True
+                self.started_at = time.time()
+                self._set_state(live=False, error="waiting for stable go2rtc media")
+                self._sleep_while_wanted(self.config.start_delay)
+                if self._wanted():
+                    self._read_go2rtc_until_idle(on_first_frame=release_start_gate)
+            except Exception as exc:  # noqa: BLE001 - status shows backend failures.
+                if self._wanted():
+                    self._record_failure()
+                    self._set_state(live=False, error=f"{type(exc).__name__}: {exc}")
             finally:
                 release_start_gate()
                 self._set_state(live=False)
                 if stream_claimed:
-                    self.ha.call_service(
-                        "eufy_security",
-                        "stop_p2p_livestream",
-                        self.config.entity_id,
-                    )
-                if restart_reason:
-                    self._restart_eufy_security_ws(restart_reason)
+                    self.eufy.stop_stream(self.config.device_id)
 
             if self._wanted():
                 self._sleep_while_wanted(self._retry_delay())
 
         self._set_state(live=False)
 
-    def _run_webrtc_watchdog(self) -> None:
+    def _run_native_watchdog(self) -> None:
         while self._wanted():
-            now = time.time()
-            with self.lock:
-                has_recent_frame = (
-                    self.latest_at > 0 and now - self.latest_at < 6
-                )
-                self.live = has_recent_frame
-                if self.last_error.startswith("WebRTC") and has_recent_frame:
-                    self.last_error = ""
-            time.sleep(1.0)
-        self._set_state(live=False)
-
-    def _run_snapshot_poll(self) -> None:
-        while self._wanted():
-            self.last_attempt_at = time.time()
+            starter: JsonWebSocket | None = None
             try:
-                with self.ha.open_camera_snapshot(self.config.entity_id) as response:
-                    frame = response.read()
-                    if not frame:
-                        raise ConnectionError("Home Assistant snapshot returned no bytes")
-                    content_type = detect_image_content_type(
-                        frame,
-                        response.headers.get_content_type() or "image/jpeg",
-                    )
-                    if is_placeholder_snapshot(frame, content_type):
-                        raise ConnectionError(
-                            "Home Assistant returned a placeholder image, not a camera snapshot"
-                        )
-                    self._set_state(live=True, error="", frame=frame, content_type=content_type)
-            except Exception as exc:  # noqa: BLE001 - local status should show raw failure.
+                starter, starter_closed = self._start_native_source()
+                self._wait_for_native_handoff(starter_closed)
+                self._read_go2rtc_until_idle(assume_stable=True)
+            except Exception as exc:  # noqa: BLE001 - status shows backend failures.
                 self._record_failure()
                 self._set_state(live=False, error=f"{type(exc).__name__}: {exc}")
-
-            self._sleep_while_wanted(self.config.snapshot_interval)
-
+            finally:
+                if starter is not None:
+                    starter.close()
+            if self._wanted():
+                self._sleep_while_wanted(self._retry_delay())
         self._set_state(live=False)
 
-    def _ha_camera_is_streaming(self) -> bool:
-        state = self.ha.get_state(self.config.entity_id)
-        return bool(state and state.get("state") == "streaming")
+    def _start_native_source(self) -> tuple[JsonWebSocket, threading.Event]:
+        target = urllib.parse.urlsplit(GO2RTC_URL)
+        if target.scheme not in {"http", "https"} or not target.hostname:
+            raise RuntimeError("direct go2rtc URL is not configured")
+        scheme = "wss" if target.scheme == "https" else "ws"
+        path = target.path.rstrip("/") + "/api/ws"
+        query = urllib.parse.urlencode({"src": upstream_stream_name(self.config)})
+        websocket_url = urllib.parse.urlunsplit(
+            (scheme, target.netloc, path, query, "")
+        )
+        starter = JsonWebSocket(websocket_url)
+        starter.send_json(
+            {"type": "mse", "value": NATIVE_STARTER_MSE_CODECS}
+        )
+        closed = threading.Event()
+
+        def drain() -> None:
+            try:
+                while True:
+                    starter.recv_json()
+            except Exception:
+                pass
+            finally:
+                closed.set()
+
+        threading.Thread(
+            target=drain,
+            name=f"camera-starter-{self.config.slug}",
+            daemon=True,
+        ).start()
+        return starter, closed
+
+    def _wait_for_native_handoff(self, starter_closed: threading.Event) -> None:
+        stream_status_url = f"{GO2RTC_URL}/api/streams"
+        started_at = time.monotonic()
+        activity_started_at = 0.0
+        last_producer_signature: tuple[str, ...] = ()
+        last_bytes_received = -1
+        while self._wanted():
+            if starter_closed.is_set():
+                raise ConnectionError("go2rtc starter closed before media was ready")
+            with urllib.request.urlopen(stream_status_url, timeout=5) as response:
+                payload = json.load(response)
+            stream_status = payload.get(upstream_stream_name(self.config), {})
+            if not isinstance(stream_status, dict):
+                stream_status = {}
+            active_producers = [
+                producer
+                for producer in (stream_status.get("producers") or [])
+                if isinstance(producer, dict) and producer.get("id")
+            ]
+            signature = tuple(
+                sorted(str(producer["id"]) for producer in active_producers)
+            )
+            bytes_received = sum(
+                max(0, int(producer.get("bytes_recv") or 0))
+                for producer in active_producers
+            )
+            now = time.monotonic()
+            has_activity = bool(active_producers) and (
+                signature != last_producer_signature
+                or bytes_received > last_bytes_received
+            )
+            if has_activity:
+                if activity_started_at <= 0:
+                    activity_started_at = now
+                stable = now - activity_started_at >= DIRECT_STABILITY_SECONDS
+                self._set_state(
+                    live=stable,
+                    error="" if stable else "waiting for stable go2rtc media",
+                    transport_activity=True,
+                )
+                consumers = stream_status.get("consumers") or []
+                if stable and len(consumers) >= 2:
+                    return
+            else:
+                activity_started_at = 0.0
+                self._set_state(live=False, error="waiting for go2rtc producer")
+            if now - started_at >= NEST_START_TIMEOUT_SECONDS:
+                raise TimeoutError("Nest stream did not warm before the timeout")
+            last_producer_signature = signature
+            last_bytes_received = bytes_received
+            self._sleep_while_wanted(DIRECT_STATUS_INTERVAL_SECONDS)
 
     def _record_failure(self) -> None:
         with self.lock:
@@ -1015,155 +669,87 @@ class CameraRunner:
             EUFY_RETRY_BACKOFF_MAX_SECONDS,
         )
 
-    def _maybe_kick_stale_stream(self) -> bool:
-        now = time.time()
-        wants_addon_restart = False
-        with self.lock:
-            if self.config.stale_kick_seconds <= 0:
-                return False
-            if (
-                now >= max(self.viewer_wanted_until, self.warm_wanted_until)
-                or self.latest_changed_at <= 0
-            ):
-                return False
-            if self.latest_at < self.last_attempt_at:
-                return False
-
-            age = now - self.latest_changed_at
-            if age < self.config.stale_kick_seconds:
-                return False
-            if now - self.last_kick_at < STALE_KICK_COOLDOWN_SECONDS:
-                return False
-
-            self.last_kick_at = now
-            self.kick_count += 1
-            wants_addon_restart = (
-                self.config.source == "eufy_p2p"
-                and self.config.restart_addon_on_failure
-                and self.kick_count >= ADDON_RESTART_AFTER_STALE_KICKS
-            )
-            self.live = False
-            self.last_error = (
-                f"stale watchdog kicked stream after {round(age)}s without a changed frame"
-            )
-
-        if wants_addon_restart and self._claim_addon_restart(now):
-            with self.lock:
-                self.pending_addon_restart_reason = (
-                    "stale watchdog restarting eufy-security-ws add-on after "
-                    f"{self.kick_count} stale kicks"
-                )
-        return True
-
-    def _take_pending_addon_restart_reason(self) -> str:
-        with self.lock:
-            reason = self.pending_addon_restart_reason
-            self.pending_addon_restart_reason = ""
-            return reason
-
-    def _record_first_frame_failure(self, error: str) -> bool:
-        if self.config.source != "eufy_p2p":
-            return False
-
-        lower_error = error.lower()
-        if not any(marker in lower_error for marker in ("first frame", "timed out")):
-            return False
-
-        now = time.time()
-        with self.lock:
-            if self.latest_at >= self.last_attempt_at:
-                return False
-            self.first_frame_failure_count += 1
-            if self.first_frame_failure_count < ADDON_RESTART_AFTER_START_FAILURES:
-                return False
-            self.live = False
-            self.last_error = (
-                f"first-frame watchdog saw {self.first_frame_failure_count} "
-                "start failures"
-            )
-
-        return (
-            self.config.restart_addon_on_failure
-            and self._claim_addon_restart(now)
-        )
-
-    def _restart_eufy_security_ws(self, reason: str) -> None:
-        now = time.time()
-        with self.lock:
-            self.last_addon_restart_at = now
-            self.addon_restart_count += 1
-            self.last_error = reason
-
-        if not EUFY_SECURITY_WS_ADDON:
-            self._set_state(
-                live=False,
-                error=f"{reason}; eufy_security_ws_addon is not configured",
-            )
-            self._sleep_while_wanted(KICK_STOP_SETTLE_SECONDS)
-            return
-
-        status, body = self.ha.call_service_data(
-            "hassio",
-            "addon_restart",
-            {"addon": EUFY_SECURITY_WS_ADDON},
-        )
-        if status != HTTPStatus.OK:
-            self._set_state(
-                live=False,
-                error=f"hassio addon_restart returned {status}: {body}",
-            )
-            self._sleep_while_wanted(KICK_STOP_SETTLE_SECONDS)
-        else:
-            self._sleep_while_wanted(ADDON_RESTART_SETTLE_SECONDS)
-
-    def _claim_addon_restart(self, now: float) -> bool:
-        global LAST_ADDON_RESTART_AT
-        with ADDON_RESTART_LOCK:
-            if now - LAST_ADDON_RESTART_AT < ADDON_RESTART_COOLDOWN_SECONDS:
-                return False
-            LAST_ADDON_RESTART_AT = now
-            return True
-
     def _sleep_while_wanted(self, seconds: float) -> None:
         deadline = time.time() + seconds
         while self._wanted() and time.time() < deadline:
             time.sleep(min(0.5, deadline - time.time()))
 
-    def _read_mjpeg_until_idle(self, on_first_frame: Callable[[], None] | None = None) -> None:
-        with self.ha.open_camera_stream(self.config.entity_id) as response:
-            buffer = b""
-            frames_seen = 0
-            while self._wanted():
-                if self._maybe_kick_stale_stream():
-                    raise ConnectionError("stale watchdog kicked stream")
-                chunk = response.read(8192)
-                if not chunk:
-                    if frames_seen == 0:
-                        raise ConnectionError(
-                            "Home Assistant stream closed before first frame; "
-                            "eufy/go2rtc may still be preparing or the camera timed out"
-                        )
-                    raise ConnectionError("Home Assistant stream closed")
-                buffer += chunk
+    def _read_go2rtc_until_idle(
+        self,
+        on_first_frame: Callable[[], None] | None = None,
+        assume_stable: bool = False,
+    ) -> None:
+        if not GO2RTC_URL:
+            raise RuntimeError("direct go2rtc URL is not configured")
 
-                while True:
-                    start = buffer.find(b"\xff\xd8")
-                    if start == -1:
-                        buffer = buffer[-4096:]
-                        break
-                    end = buffer.find(b"\xff\xd9", start + 2)
-                    if end == -1:
-                        buffer = buffer[start:]
-                        if len(buffer) > 2_000_000:
-                            raise ValueError("MJPEG buffer grew without a full JPEG frame")
-                        break
+        stream_status_url = f"{GO2RTC_URL}/api/streams"
+        started_waiting_at = time.monotonic()
+        last_activity_at = started_waiting_at
+        activity_started_at = (
+            started_waiting_at - DIRECT_STABILITY_SECONDS if assume_stable else 0.0
+        )
+        last_producer_signature: tuple[str, ...] = ()
+        last_bytes_received = -1
+        ready = assume_stable
+        while self._wanted():
+            with urllib.request.urlopen(stream_status_url, timeout=5) as response:
+                payload = json.load(response)
+            if not isinstance(payload, dict):
+                raise ValueError("go2rtc returned invalid stream status")
+            stream_status = payload.get(upstream_stream_name(self.config), {})
+            if not isinstance(stream_status, dict):
+                stream_status = {}
 
-                    frame = buffer[start : end + 2]
-                    buffer = buffer[end + 2 :]
-                    frames_seen += 1
-                    if frames_seen == 1 and on_first_frame is not None:
+            active_producers = [
+                producer
+                for producer in (stream_status.get("producers") or [])
+                if isinstance(producer, dict) and producer.get("id")
+            ]
+            signature = tuple(
+                sorted(str(producer["id"]) for producer in active_producers)
+            )
+            bytes_received = sum(
+                max(0, int(producer.get("bytes_recv") or 0))
+                for producer in active_producers
+            )
+            now = time.monotonic()
+            has_activity = bool(active_producers) and (
+                signature != last_producer_signature
+                or bytes_received > last_bytes_received
+            )
+            if has_activity:
+                if activity_started_at <= 0:
+                    activity_started_at = now
+                last_activity_at = now
+                stable = now - activity_started_at >= DIRECT_STABILITY_SECONDS
+                self._set_state(
+                    live=stable,
+                    error="" if stable else "waiting for stable go2rtc media",
+                    transport_activity=True,
+                )
+                if not ready:
+                    ready = True
+                    if on_first_frame is not None:
                         on_first_frame()
-                    self._set_state(live=True, error="", frame=frame)
+            else:
+                activity_started_at = 0.0
+                error = (
+                    "waiting for go2rtc producer"
+                    if not active_producers
+                    else "go2rtc producer stopped receiving media"
+                )
+                self._set_state(live=False, error=error)
+                timeout = (
+                    DIRECT_ACTIVITY_STALE_SECONDS
+                    if ready
+                    else DIRECT_START_TIMEOUT_SECONDS
+                )
+                if now - last_activity_at >= timeout:
+                    raise ConnectionError(error)
+
+            last_producer_signature = signature
+            last_bytes_received = bytes_received
+            self._sleep_while_wanted(DIRECT_STATUS_INTERVAL_SECONDS)
 
 
 APP_ICON_TOUCH_SIZE = 180
@@ -1426,7 +1012,9 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       outline-offset: -4px;
     }}
     .tile img,
-    .tile video {{
+    .tile canvas[data-role="focus-frame"],
+    .tile video,
+    .tile video-stream {{
       display: block;
       width: 100%;
       height: 100%;
@@ -1435,24 +1023,61 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       pointer-events: none;
       -webkit-user-drag: none;
     }}
-    .tile video {{
+    .tile img[data-role="image"] {{
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      opacity: 0;
+    }}
+    .tile img[data-role="image"].snapshot-active {{
+      opacity: 1;
+    }}
+    .tile img[data-role="image"].snapshot-entering {{
+      z-index: 2;
+    }}
+    .tile canvas[data-role="focus-frame"] {{
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+    }}
+    .tile video,
+    .tile canvas[data-role="focus-frame"],
+    .tile video-stream {{
       display: none;
     }}
-    .tile.webrtc-live img {{
+    .tile.direct-live img {{
       display: none;
     }}
-    .tile.webrtc-live video {{
+    .tile.direct-mse-live img {{
       display: block;
     }}
-    .tile::after {{
-      content: "";
+    .tile.direct-mse-live > video[data-role="video"] {{
+      display: block;
       position: absolute;
-      inset: auto 0 0;
-      height: 32%;
-      pointer-events: none;
-      background: linear-gradient(to top, rgba(0, 0, 0, .44), rgba(0, 0, 0, 0));
-      opacity: .78;
-      z-index: 1;
+      inset: 0;
+      z-index: 0;
+      opacity: 0;
+    }}
+    .tile.direct-focus-pending img {{
+      display: block;
+    }}
+    .tile.direct-focus-pending > video[data-role="video"] {{
+      display: none;
+    }}
+    .tile.direct-focus-frame-live img {{
+      display: none;
+    }}
+    .tile.direct-focus-frame-live > canvas[data-role="focus-frame"] {{
+      display: block;
+    }}
+    .tile.direct-focus-frame-live > video[data-role="video"] {{
+      display: none;
+    }}
+    .tile.direct-webrtc-live > video-stream {{
+      display: block;
+    }}
+    .tile video-stream .info {{
+      display: none;
     }}
     .tile.expanded {{
       position: fixed;
@@ -1461,14 +1086,15 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       background: #000;
     }}
     .tile.expanded img,
-    .tile.expanded video {{
+    .tile.expanded video,
+    .tile.expanded video-stream {{
       object-fit: contain;
     }}
     .hud {{
       position: absolute;
       right: 16px;
       bottom: 14px;
-      z-index: 2;
+      z-index: 3;
       display: flex;
       justify-content: flex-end;
       align-items: center;
@@ -1547,6 +1173,7 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
 </head>
 <body>
   <main id="grid"></main>
+  <script type="module" src="/go2rtc/video-stream.js"></script>
   <script>
     const allCameras = {cameras_json};
     const pageParams = new URLSearchParams(window.location.search);
@@ -1554,7 +1181,11 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
     const sentinelCameraSlug = sentinelMode ? pageParams.get("camera") : "";
     const cameras = sentinelCameraSlug
       ? allCameras.filter((camera) => camera.slug === sentinelCameraSlug)
-      : allCameras;
+      : sentinelMode
+        ? allCameras.filter(
+            (camera) => camera.source === "nest" && camera.keep_warm,
+          )
+        : allCameras;
     const grid = document.getElementById("grid");
     let cameraOrder = cameras.map((camera) => camera.slug);
     let paused = false;
@@ -1563,15 +1194,38 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
     let didDrag = false;
     let suppressNextClick = false;
     let orderSaveTimer = null;
+    let focusedSlug = "";
+    let pageVisible = !document.hidden;
+    const viewerId = window.crypto?.randomUUID?.()
+      || `viewer-${{Date.now()}}-${{Math.random().toString(16).slice(2)}}`;
     const imageTimers = new Map();
-    const webrtcStates = new Map();
+    const imageEtags = new Map();
+    const imageObjectUrls = new Map();
+    const imageSwapVersions = new Map();
+    const imageSwapAnimations = new Map();
+    const directStates = new Map();
     const consoleThrottle = new Map();
+    const snapshotProbeCanvas = document.createElement("canvas");
+    snapshotProbeCanvas.width = 24;
+    snapshotProbeCanvas.height = 14;
+    const snapshotProbeContext = snapshotProbeCanvas.getContext(
+      "2d",
+      {{alpha: false}},
+    );
     const errorLogIntervalMs = 60000;
-    const webrtcFrameIntervalMs = 2000;
-    const webrtcRetryMs = 60000;
-    const webrtcRateLimitRetryMs = 300000;
-    const webrtcConnectTimeoutMs = 30000;
-    const webrtcFrameStallMs = 20000;
+    const captureFrameWidth = 960;
+    const captureFrameQuality = 0.72;
+    const eufyCaptureIntervalMs = 1000;
+    const directCaptureIntervalMs = 30000;
+    const directQueueLimitBytes = 16 * 1024 * 1024;
+    const initialImageStaggerMs = 20;
+    const imageRevealMs = 70;
+    const directMseCodecs = [
+      "avc1.640029",
+      "avc1.64002A",
+      "avc1.640033",
+      "hvc1.1.6.L153.B0",
+    ];
 
     function applyLayout() {{
       const countClass = `count-${{cameraOrder.length}}`;
@@ -1632,8 +1286,11 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       tile.dataset.slug = camera.slug;
       tile.draggable = true;
       tile.innerHTML = `
+        <img alt="" class="snapshot-active" data-role="image" draggable="false">
         <img alt="" data-role="image" draggable="false">
+        <canvas data-role="focus-frame"></canvas>
         <video data-role="video" autoplay muted playsinline></video>
+        <video-stream data-role="webrtc"></video-stream>
         <div class="hud">
           <div class="badge waiting" data-role="badge">waiting</div>
         </div>
@@ -1659,16 +1316,651 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       imageTimers.set(camera.slug, setTimeout(() => refreshImage(camera), delay));
     }}
 
-    function refreshImage(camera) {{
+    function hasVisiblePixels(context, width, height) {{
+      if (!context) return false;
+      try {{
+        const pixels = context.getImageData(0, 0, width, height).data;
+        const pixelCount = pixels.length / 4;
+        let visiblePixels = 0;
+        let totalBrightness = 0;
+        for (let index = 0; index < pixels.length; index += 4) {{
+          const brightness = Math.max(
+            pixels[index],
+            pixels[index + 1],
+            pixels[index + 2],
+          );
+          totalBrightness += brightness;
+          if (brightness >= 18) visiblePixels += 1;
+        }}
+        return (
+          visiblePixels >= Math.max(4, Math.ceil(pixelCount * 0.04))
+          && totalBrightness / pixelCount >= 6
+        );
+      }} catch (_) {{
+        return false;
+      }}
+    }}
+
+    async function visibleImageObjectUrl(blob) {{
+      const imageUrl = URL.createObjectURL(blob);
+      const candidate = new Image();
+      candidate.decoding = "async";
+      candidate.src = imageUrl;
+      try {{
+        if (candidate.decode) {{
+          await candidate.decode();
+        }} else {{
+          await new Promise((resolve, reject) => {{
+            candidate.addEventListener("load", resolve, {{once: true}});
+            candidate.addEventListener("error", reject, {{once: true}});
+          }});
+        }}
+        if (
+          !candidate.naturalWidth
+          || !candidate.naturalHeight
+          || !snapshotProbeContext
+        ) throw new Error("snapshot did not decode");
+        snapshotProbeContext.drawImage(
+          candidate,
+          0,
+          0,
+          snapshotProbeCanvas.width,
+          snapshotProbeCanvas.height,
+        );
+        if (
+          !hasVisiblePixels(
+            snapshotProbeContext,
+            snapshotProbeCanvas.width,
+            snapshotProbeCanvas.height,
+          )
+        ) throw new Error("snapshot is black");
+        return imageUrl;
+      }} catch (_) {{
+        URL.revokeObjectURL(imageUrl);
+        return "";
+      }}
+    }}
+
+    async function presentImageObjectUrl(camera, imageUrl) {{
+      const tile = getTile(camera.slug);
+      const images = [...(tile?.querySelectorAll('[data-role="image"]') || [])];
+      if (images.length !== 2) {{
+        URL.revokeObjectURL(imageUrl);
+        return false;
+      }}
+      const version = (imageSwapVersions.get(camera.slug) || 0) + 1;
+      imageSwapVersions.set(camera.slug, version);
+      const current = images.find((image) =>
+        image.classList.contains("snapshot-active")
+      ) || images[0];
+      const next = images.find((image) => image !== current);
+      imageSwapAnimations.get(camera.slug)?.cancel();
+      imageSwapAnimations.delete(camera.slug);
+      next.src = imageUrl;
+      try {{
+        if (next.decode) await next.decode();
+      }} catch (_) {{
+        if (imageSwapVersions.get(camera.slug) === version) {{
+          next.classList.remove("snapshot-entering");
+        }}
+        URL.revokeObjectURL(imageUrl);
+        return false;
+      }}
+      if (imageSwapVersions.get(camera.slug) !== version) {{
+        URL.revokeObjectURL(imageUrl);
+        return false;
+      }}
+      const oldImageUrl = imageObjectUrls.get(camera.slug);
+      next.classList.add("snapshot-entering");
+      const reveal = next.animate(
+        [
+          {{opacity: 0}},
+          {{opacity: 1}},
+        ],
+        {{
+          duration: imageRevealMs,
+          easing: "linear",
+          fill: "both",
+        }},
+      );
+      imageSwapAnimations.set(camera.slug, reveal);
+      try {{
+        await reveal.finished;
+      }} catch (_) {{}}
+      if (
+        imageSwapVersions.get(camera.slug) !== version
+        || imageSwapAnimations.get(camera.slug) !== reveal
+      ) {{
+        URL.revokeObjectURL(imageUrl);
+        return false;
+      }}
+      next.classList.add("snapshot-active");
+      current.classList.remove("snapshot-active");
+      next.classList.remove("snapshot-entering");
+      reveal.cancel();
+      imageSwapAnimations.delete(camera.slug);
+      imageObjectUrls.set(camera.slug, imageUrl);
+      if (oldImageUrl) {{
+        if (current.getAttribute("src") === oldImageUrl) {{
+          current.removeAttribute("src");
+        }}
+        URL.revokeObjectURL(oldImageUrl);
+      }}
+      return true;
+    }}
+
+    async function presentVisibleImageBlob(camera, blob) {{
+      const imageUrl = await visibleImageObjectUrl(blob);
+      if (!imageUrl) return false;
+      return presentImageObjectUrl(camera, imageUrl);
+    }}
+
+    async function refreshImage(camera) {{
       if (paused) return;
-      const img = document.querySelector(`[data-slug="${{camera.slug}}"] img`);
-      img.onload = () => scheduleImage(camera, camera.refresh_ms);
-      img.onerror = () => scheduleImage(camera, Math.max(camera.refresh_ms, 3000));
-      img.src = `/snapshot/${{camera.slug}}.jpg?t=${{Date.now()}}`;
+      if (!pageVisible && !sentinelMode) {{
+        scheduleImage(camera, 30000);
+        return;
+      }}
+      const directState = directStates.get(camera.slug);
+      if (camera.direct_ws_url && directState?.lastFrameAt) {{
+        scheduleImage(camera, 30000);
+        return;
+      }}
+      const headers = {{}};
+      const etag = imageEtags.get(camera.slug);
+      if (etag) headers["If-None-Match"] = etag;
+      let nextDelay = camera.direct_ws_url ? 30000 : camera.refresh_ms;
+      try {{
+        const role = sentinelMode ? "sentinel" : "viewer";
+        const response = await fetch(
+          `/snapshot/${{camera.slug}}.jpg?role=${{role}}`,
+          {{ cache: "no-store", headers }},
+        );
+        if (response.status === 304) {{
+          nextDelay = Math.max(nextDelay, camera.refresh_ms, 3000);
+          return;
+        }}
+        if (!response.ok) {{
+          throw new Error(`${{response.status}} ${{response.statusText}}`);
+        }}
+        const responseEtag = response.headers.get("ETag");
+        if (responseEtag) imageEtags.set(camera.slug, responseEtag);
+        if (!await presentVisibleImageBlob(camera, await response.blob())) {{
+          nextDelay = Math.min(nextDelay, 3000);
+          return;
+        }}
+      }} catch (_) {{
+        nextDelay = Math.max(nextDelay, camera.refresh_ms, 3000);
+      }} finally {{
+        scheduleImage(camera, nextDelay);
+      }}
     }}
 
     function sleep(ms) {{
       return new Promise((resolve) => setTimeout(resolve, ms));
+    }}
+
+    function pumpDirectMedia(camera, state) {{
+      const sourceBuffer = state.sourceBuffer;
+      if (!sourceBuffer || sourceBuffer.updating || state.mediaReleased) return;
+      const video = state.video;
+      if (sourceBuffer.buffered.length && video.currentTime > 30) {{
+        const oldest = sourceBuffer.buffered.start(0);
+        const cutoff = video.currentTime - 20;
+        if (cutoff > oldest + 5) {{
+          try {{
+            sourceBuffer.remove(oldest, cutoff);
+            return;
+          }} catch (_) {{}}
+        }}
+      }}
+      const segment = state.segmentQueue.shift();
+      if (!segment) return;
+      state.segmentQueueBytes -= segment.byteLength;
+      try {{
+        sourceBuffer.appendBuffer(segment);
+      }} catch (error) {{
+        logCameraError({{
+          slug: camera.slug,
+          last_error: `go2rtc MSE append failed: ${{error}}`,
+        }});
+        state.ws?.close();
+      }}
+    }}
+
+    function keepDirectMediaAtLiveEdge(state) {{
+      const sourceBuffer = state.sourceBuffer;
+      const video = state.video;
+      if (!sourceBuffer?.buffered.length || !video) return;
+      try {{
+        const range = sourceBuffer.buffered.length - 1;
+        const start = sourceBuffer.buffered.start(range);
+        const end = sourceBuffer.buffered.end(range);
+        const lag = end - video.currentTime;
+        if (
+          !state.playbackStarted
+          || video.currentTime < start
+          || lag > 3
+        ) {{
+          video.currentTime = Math.max(start, end - 0.25);
+        }}
+        state.playbackStarted = true;
+      }} catch (_) {{}}
+    }}
+
+    function captureDirectFrame(camera, state) {{
+      const video = state.video;
+      if (
+        !state.active
+        || state.uploadInFlight
+        || video.readyState < HTMLMediaElement.HAVE_CURRENT_DATA
+        || !video.videoWidth
+        || !video.videoHeight
+      ) return;
+      if (!isDirectFrameVisible(state)) return;
+      renderDirectFocusFrame(camera, state, true);
+      const scale = Math.min(1, captureFrameWidth / video.videoWidth);
+      const canvas = state.captureCanvas;
+      const width = Math.max(2, Math.round(video.videoWidth * scale));
+      const height = Math.max(2, Math.round(video.videoHeight * scale));
+      if (canvas.width !== width) canvas.width = width;
+      if (canvas.height !== height) canvas.height = height;
+      try {{
+        state.captureContext.drawImage(video, 0, 0, canvas.width, canvas.height);
+      }} catch (_) {{
+        return;
+      }}
+      state.uploadInFlight = true;
+      canvas.toBlob(async (blob) => {{
+        if (!blob) {{
+          state.uploadInFlight = false;
+          return;
+        }}
+        try {{
+          await Promise.allSettled([
+            presentVisibleImageBlob(camera, blob),
+            fetch(`/api/frame/${{camera.slug}}`, {{
+              method: "POST",
+              headers: {{"Content-Type": "image/jpeg"}},
+              body: blob,
+            }}),
+          ]);
+        }} catch (_) {{
+        }} finally {{
+          state.uploadInFlight = false;
+        }}
+      }}, "image/jpeg", captureFrameQuality);
+    }}
+
+    function isDirectFrameVisible(state) {{
+      if (!state.probeContext) return true;
+      try {{
+        state.probeContext.drawImage(state.video, 0, 0, 16, 9);
+        return hasVisiblePixels(state.probeContext, 16, 9);
+      }} catch (_) {{
+        return false;
+      }}
+    }}
+
+    function renderDirectFocusFrame(camera, state, frameIsVisible = false) {{
+      const video = state.video;
+      if (
+        !video
+        || video.readyState < HTMLMediaElement.HAVE_CURRENT_DATA
+        || !video.videoWidth
+        || !video.videoHeight
+      ) return false;
+      if (focusedSlug !== camera.slug) return true;
+      try {{
+        if (!frameIsVisible && !isDirectFrameVisible(state)) return false;
+        if (
+          directStates.get(camera.slug) === state
+          && state.focusContext
+        ) {{
+          const canvas = state.focusCanvas;
+          if (canvas.width !== video.videoWidth) canvas.width = video.videoWidth;
+          if (canvas.height !== video.videoHeight) canvas.height = video.videoHeight;
+          state.focusContext.drawImage(video, 0, 0, canvas.width, canvas.height);
+          const tile = getTile(camera.slug);
+          tile?.classList.remove("direct-focus-pending");
+          tile?.classList.add("direct-focus-frame-live");
+        }}
+        return true;
+      }} catch (_) {{
+        return false;
+      }}
+    }}
+
+    function setDirectCaptureInterval(camera, state, intervalMs) {{
+      if (state.captureTimer) clearInterval(state.captureTimer);
+      state.captureTimer = setInterval(
+        () => captureDirectFrame(camera, state),
+        intervalMs,
+      );
+      captureDirectFrame(camera, state);
+    }}
+
+    function releaseDirectMedia(camera, state) {{
+      if (state.mediaReleased) return;
+      state.mediaReleased = true;
+      const ownsMedia = directStates.get(camera.slug) === state;
+      if (state.captureTimer) clearInterval(state.captureTimer);
+      if (state.segmentQueue) state.segmentQueue.length = 0;
+      state.segmentQueueBytes = 0;
+      const tile = getTile(camera.slug);
+      if (tile && ownsMedia) {{
+        tile.classList.remove(
+          "direct-live",
+          "direct-mse-live",
+          "direct-webrtc-live",
+        );
+        if (focusedSlug !== camera.slug) {{
+          tile.classList.remove(
+            "direct-focus-pending",
+            "direct-focus-frame-live",
+          );
+        }} else if (!tile.classList.contains("direct-focus-frame-live")) {{
+          tile.classList.add("direct-focus-pending");
+        }}
+      }}
+      const video = state.video;
+      if (video) {{
+        if (state.frameCallbackId && video.cancelVideoFrameCallback) {{
+          video.cancelVideoFrameCallback(state.frameCallbackId);
+        }}
+        if (state.loadedDataHandler) {{
+          video.removeEventListener("loadeddata", state.loadedDataHandler);
+        }}
+        if (state.timeUpdateHandler) {{
+          video.removeEventListener("timeupdate", state.timeUpdateHandler);
+        }}
+        if (ownsMedia) {{
+          video.pause();
+          if (!state.player) {{
+            video.removeAttribute("src");
+            video.load();
+          }}
+        }}
+      }}
+      if (state.player && ownsMedia) {{
+        state.player.wsURL = "";
+        state.player.ondisconnect?.();
+      }}
+      if (state.mediaUrl) URL.revokeObjectURL(state.mediaUrl);
+    }}
+
+    function bindDirectVideo(camera, state, tile, liveClass) {{
+      const video = state.video;
+      state.loadedDataHandler = () => {{
+        if (directStates.get(camera.slug) !== state) return;
+        tile.classList.remove("direct-mse-live", "direct-webrtc-live");
+        tile.classList.add("direct-live", liveClass);
+        if (renderDirectFocusFrame(camera, state)) state.lastFrameAt = Date.now();
+        captureDirectFrame(camera, state);
+        video.play().catch(() => {{}});
+        if (video.requestVideoFrameCallback && !state.frameCallbackId) {{
+          const frameArrived = () => {{
+            if (directStates.get(camera.slug) !== state || state.mediaReleased) return;
+            if (renderDirectFocusFrame(camera, state)) state.lastFrameAt = Date.now();
+            state.frameCallbackId = video.requestVideoFrameCallback(frameArrived);
+          }};
+          state.frameCallbackId = video.requestVideoFrameCallback(frameArrived);
+        }}
+      }};
+      video.addEventListener("loadeddata", state.loadedDataHandler);
+      if (!video.requestVideoFrameCallback) {{
+        state.timeUpdateHandler = () => {{
+          if (renderDirectFocusFrame(camera, state)) state.lastFrameAt = Date.now();
+        }};
+        video.addEventListener("timeupdate", state.timeUpdateHandler);
+      }}
+      setDirectCaptureInterval(
+        camera,
+        state,
+        camera.source === "eufy" ? eufyCaptureIntervalMs : directCaptureIntervalMs,
+      );
+    }}
+
+    function startNestWebRTC(camera) {{
+      if (!camera.direct_ws_url || paused || (!pageVisible && !sentinelMode)) return;
+      const existing = directStates.get(camera.slug);
+      if (existing?.active || existing?.connecting) return;
+
+      const tile = getTile(camera.slug);
+      const player = tile?.querySelector("[data-role=webrtc]");
+      if (!tile || !player || !("RTCPeerConnection" in window)) {{
+        logCameraError({{
+          slug: camera.slug,
+          last_error: "WebRTC is unavailable in this browser",
+        }});
+        return;
+      }}
+
+      const state = {{
+        active: false,
+        connecting: true,
+        ws: null,
+        reconnectTimer: null,
+        lastFrameAt: 0,
+        mediaSource: null,
+        mediaUrl: null,
+        mediaReleased: false,
+        sourceBuffer: null,
+        segmentQueue: [],
+        segmentQueueBytes: 0,
+        video: null,
+        player,
+        captureCanvas: document.createElement("canvas"),
+        captureContext: null,
+        focusCanvas: null,
+        focusContext: null,
+        captureTimer: null,
+        uploadInFlight: false,
+        frameCallbackId: 0,
+        loadedDataHandler: null,
+        timeUpdateHandler: null,
+        playbackStarted: false,
+      }};
+      state.captureContext = state.captureCanvas.getContext("2d", {{alpha: false}});
+      state.focusCanvas = tile.querySelector('[data-role="focus-frame"]');
+      state.focusContext = state.focusCanvas?.getContext("2d", {{alpha: false}});
+      if (!state.captureContext) return;
+      directStates.set(camera.slug, state);
+
+      customElements.whenDefined("video-stream").then(() => {{
+        if (directStates.get(camera.slug) !== state || state.mediaReleased) return;
+        player.mode = "webrtc";
+        player.media = "video";
+        player.background = false;
+        player.visibilityCheck = true;
+        const video = player.video;
+        if (!video) throw new Error("go2rtc WebRTC player did not initialize");
+        state.video = video;
+        video.autoplay = true;
+        video.controls = false;
+        video.muted = true;
+        video.playsInline = true;
+        bindDirectVideo(camera, state, tile, "direct-webrtc-live");
+        state.active = true;
+        state.connecting = false;
+        player.src = camera.direct_ws_url;
+      }}).catch((error) => {{
+        if (directStates.get(camera.slug) !== state) return;
+        logCameraError({{
+          slug: camera.slug,
+          last_error: `go2rtc WebRTC setup failed: ${{error}}`,
+        }});
+        cleanupDirect(camera);
+      }});
+    }}
+
+    function startMseDirect(camera) {{
+      if (!camera.direct_ws_url || paused) return;
+      const existing = directStates.get(camera.slug);
+      if (existing?.active || existing?.connecting) return;
+
+      const tile = getTile(camera.slug);
+      const video = tile?.querySelector("[data-role=video]");
+      const MediaSourceClass = window.MediaSource || window.ManagedMediaSource;
+      if (!tile || !video || !MediaSourceClass) {{
+        logCameraError({{
+          slug: camera.slug,
+          last_error: "MediaSource is unavailable in this browser",
+        }});
+        return;
+      }}
+      const codecs = directMseCodecs.filter((codec) =>
+        MediaSourceClass.isTypeSupported(`video/mp4; codecs="${{codec}}"`)
+      );
+      if (!codecs.length) {{
+        logCameraError({{
+          slug: camera.slug,
+          last_error: "No supported H.264/H.265 MediaSource codec",
+        }});
+        return;
+      }}
+
+      const mediaSource = new MediaSourceClass();
+      const mediaUrl = URL.createObjectURL(mediaSource);
+      const state = {{
+        active: false,
+        connecting: true,
+        ws: null,
+        reconnectTimer: null,
+        lastFrameAt: 0,
+        mediaSource,
+        mediaUrl,
+        mediaReleased: false,
+        sourceBuffer: null,
+        segmentQueue: [],
+        segmentQueueBytes: 0,
+        video,
+        captureCanvas: document.createElement("canvas"),
+        captureContext: null,
+        focusCanvas: null,
+        focusContext: null,
+        captureTimer: null,
+        uploadInFlight: false,
+        probeCanvas: document.createElement("canvas"),
+        probeContext: null,
+        mseRequested: false,
+        frameCallbackId: 0,
+        loadedDataHandler: null,
+        timeUpdateHandler: null,
+        player: null,
+        playbackStarted: false,
+      }};
+      state.captureContext = state.captureCanvas.getContext("2d", {{alpha: false}});
+      state.focusCanvas = tile.querySelector('[data-role="focus-frame"]');
+      state.focusContext = state.focusCanvas?.getContext("2d", {{alpha: false}});
+      state.probeCanvas.width = 16;
+      state.probeCanvas.height = 9;
+      state.probeContext = state.probeCanvas.getContext("2d", {{alpha: false}});
+      if (!state.captureContext || !state.probeContext) {{
+        URL.revokeObjectURL(mediaUrl);
+        return;
+      }}
+      directStates.set(camera.slug, state);
+      video.src = mediaUrl;
+      bindDirectVideo(camera, state, tile, "direct-mse-live");
+
+      const directUrl = new URL(camera.direct_ws_url, window.location.href);
+      directUrl.protocol = window.location.protocol === "https:" ? "wss:" : "ws:";
+      const ws = new WebSocket(directUrl);
+      ws.binaryType = "arraybuffer";
+      state.ws = ws;
+      const requestMse = () => {{
+        if (
+          state.mseRequested
+          || ws.readyState !== WebSocket.OPEN
+          || mediaSource.readyState !== "open"
+        ) return;
+        state.mseRequested = true;
+        ws.send(JSON.stringify({{type: "mse", value: codecs.join(",")}}));
+      }};
+      mediaSource.addEventListener("sourceopen", requestMse, {{once: true}});
+      ws.addEventListener("open", () => {{
+        state.active = true;
+        state.connecting = false;
+        requestMse();
+      }});
+      ws.addEventListener("message", (event) => {{
+        if (typeof event.data === "string") {{
+          try {{
+            const message = JSON.parse(event.data);
+            if (message.type === "mse" && message.value) {{
+              if (!MediaSourceClass.isTypeSupported(message.value)) {{
+                throw new Error(`unsupported codec: ${{message.value}}`);
+              }}
+              state.sourceBuffer = mediaSource.addSourceBuffer(message.value);
+              state.sourceBuffer.addEventListener(
+                "updateend",
+                () => {{
+                  keepDirectMediaAtLiveEdge(state);
+                  pumpDirectMedia(camera, state);
+                }},
+              );
+              state.sourceBuffer.addEventListener("error", () => ws.close());
+              pumpDirectMedia(camera, state);
+            }}
+            if (message.type === "error") {{
+              logCameraError({{
+                slug: camera.slug,
+                last_error: `go2rtc: ${{message.value}}`,
+              }});
+              ws.close();
+            }}
+          }} catch (error) {{
+            logCameraError({{
+              slug: camera.slug,
+              last_error: `go2rtc MSE setup failed: ${{error}}`,
+            }});
+            ws.close();
+          }}
+          return;
+        }}
+        const segment = event.data;
+        state.segmentQueue.push(segment);
+        state.segmentQueueBytes += segment.byteLength;
+        if (state.segmentQueueBytes > directQueueLimitBytes) {{
+          logCameraError({{
+            slug: camera.slug,
+            last_error: "go2rtc MSE queue exceeded 16 MiB",
+          }});
+          ws.close();
+          return;
+        }}
+        pumpDirectMedia(camera, state);
+      }});
+      ws.addEventListener("close", () => {{
+        state.active = false;
+        state.connecting = false;
+        state.ws = null;
+        releaseDirectMedia(camera, state);
+        if (directStates.get(camera.slug) !== state || paused) return;
+        state.reconnectTimer = setTimeout(() => {{
+          directStates.delete(camera.slug);
+          startDirect(camera);
+        }}, 60000);
+      }});
+      ws.addEventListener("error", () => ws.close());
+    }}
+
+    function startDirect(camera) {{
+      if (!pageVisible && !sentinelMode) return;
+      if (camera.source === "nest") startNestWebRTC(camera);
+      else startMseDirect(camera);
+    }}
+
+    function cleanupDirect(camera) {{
+      const state = directStates.get(camera.slug);
+      if (!state) return;
+      if (state.reconnectTimer) clearTimeout(state.reconnectTimer);
+      if (state.ws && state.ws.readyState < WebSocket.CLOSING) state.ws.close();
+      releaseDirectMedia(camera, state);
+      if (directStates.get(camera.slug) === state) {{
+        directStates.delete(camera.slug);
+      }}
     }}
 
     async function fetchJson(url, options = {{}}) {{
@@ -1681,270 +1973,6 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
         throw new Error(payload.error || `${{response.status}} ${{response.statusText}}`);
       }}
       return payload;
-    }}
-
-    function logWebRTCError(camera, error) {{
-      const now = Date.now();
-      const key = `webrtc:${{camera.slug}}`;
-      const last = consoleThrottle.get(key) || 0;
-      if (now - last < errorLogIntervalMs) return;
-      console.warn(`[camera-wall] ${{camera.slug}} WebRTC: ${{error}}`);
-      consoleThrottle.set(key, now);
-    }}
-
-    async function startWebRTC(camera) {{
-      if (camera.source !== "webrtc" || paused) return;
-      const existing = webrtcStates.get(camera.slug);
-      if (existing?.active || existing?.connecting) return;
-
-      const tile = getTile(camera.slug);
-      const video = tile?.querySelector("[data-role=video]");
-      if (!tile || !video || !window.RTCPeerConnection) {{
-        logWebRTCError(camera, "RTCPeerConnection is unavailable in this browser");
-        return;
-      }}
-
-      const state = {{
-        active: false,
-        connecting: true,
-        startedAt: Date.now(),
-        sessionId: "",
-        pc: null,
-        pendingLocalCandidates: [],
-        pendingRemoteCandidates: [],
-        remoteReady: false,
-        lastSuccessfulFrameAt: 0,
-        uploadInFlight: false,
-        captureTimer: null,
-        watchdogTimer: null,
-        connectionTimer: null,
-        pollTimer: null,
-        restartTimer: null,
-      }};
-      webrtcStates.set(camera.slug, state);
-      state.connectionTimer = setTimeout(() => {{
-        if (state.active && !state.lastSuccessfulFrameAt) {{
-          restartWebRTC(camera, "connection produced no frames");
-        }}
-      }}, webrtcConnectTimeoutMs);
-
-      try {{
-        const clientConfig = await fetchJson(`/api/webrtc/client-config/${{camera.slug}}`);
-        const pc = new RTCPeerConnection(clientConfig.configuration || {{}});
-        state.pc = pc;
-        state.active = true;
-        state.connecting = false;
-
-        pc.addTransceiver("audio", {{ direction: "recvonly" }});
-        pc.addTransceiver("video", {{ direction: "recvonly" }});
-        if (clientConfig.dataChannel) {{
-          pc.createDataChannel(clientConfig.dataChannel);
-        }}
-        pc.ontrack = (event) => {{
-          const stream = event.streams?.[0] || new MediaStream([event.track]);
-          if (video.srcObject !== stream) video.srcObject = stream;
-          video.play().catch((error) => logWebRTCError(camera, error));
-          tile.classList.add("webrtc-live");
-          startFrameCapture(camera, video, state);
-        }};
-        pc.onicecandidate = (event) => {{
-          if (!event.candidate) return;
-          const candidate = event.candidate.toJSON();
-          if (!state.sessionId) {{
-            state.pendingLocalCandidates.push(candidate);
-          }} else {{
-            sendWebRTCCandidate(camera, state, candidate);
-          }}
-        }};
-        pc.onconnectionstatechange = () => {{
-          if (["failed", "closed"].includes(pc.connectionState)) {{
-            restartWebRTC(camera, `connection ${{pc.connectionState}}`);
-          }}
-        }};
-        pc.oniceconnectionstatechange = () => {{
-          if (["failed", "closed"].includes(pc.iceConnectionState)) {{
-            restartWebRTC(camera, `ice ${{pc.iceConnectionState}}`);
-          }}
-        }};
-
-        const offer = await pc.createOffer();
-        await pc.setLocalDescription(offer);
-        const start = await fetchJson(`/api/webrtc/start/${{camera.slug}}`, {{
-          method: "POST",
-          headers: {{ "Content-Type": "application/json" }},
-          body: JSON.stringify({{
-            offer: pc.localDescription.sdp,
-            role: sentinelMode ? "sentinel" : "viewer",
-          }}),
-        }});
-        state.sessionId = start.session_id;
-        flushLocalCandidates(camera, state);
-        pollWebRTCEvents(camera, state);
-      }} catch (error) {{
-        cleanupWebRTC(camera);
-        logWebRTCError(camera, error);
-        scheduleWebRTCRestart(camera, error);
-      }}
-    }}
-
-    function flushLocalCandidates(camera, state) {{
-      const pending = state.pendingLocalCandidates.splice(0);
-      for (const candidate of pending) {{
-        sendWebRTCCandidate(camera, state, candidate);
-      }}
-    }}
-
-    async function sendWebRTCCandidate(camera, state, candidate) {{
-      if (!state.sessionId) return;
-      try {{
-        await fetchJson(`/api/webrtc/candidate/${{state.sessionId}}`, {{
-          method: "POST",
-          headers: {{ "Content-Type": "application/json" }},
-          body: JSON.stringify({{ candidate }}),
-        }});
-      }} catch (error) {{
-        logWebRTCError(camera, error);
-      }}
-    }}
-
-    async function pollWebRTCEvents(camera, state) {{
-      while (state.active && state.sessionId) {{
-        try {{
-          const payload = await fetchJson(`/api/webrtc/events/${{state.sessionId}}`);
-          for (const event of payload.events || []) {{
-            await handleWebRTCEvent(camera, state, event);
-          }}
-        }} catch (error) {{
-          logWebRTCError(camera, error);
-          restartWebRTC(camera, error);
-          return;
-        }}
-        await sleep(250);
-      }}
-    }}
-
-    async function handleWebRTCEvent(camera, state, event) {{
-      if (!state.pc) return;
-      if (event.type === "answer" && event.answer) {{
-        await state.pc.setRemoteDescription({{ type: "answer", sdp: event.answer }});
-        state.remoteReady = true;
-        const pending = state.pendingRemoteCandidates.splice(0);
-        for (const candidate of pending) {{
-          await state.pc.addIceCandidate(candidate);
-        }}
-      }} else if (event.type === "candidate" && event.candidate) {{
-        if (state.remoteReady) {{
-          await state.pc.addIceCandidate(event.candidate);
-        }} else {{
-          state.pendingRemoteCandidates.push(event.candidate);
-        }}
-      }} else if (event.type === "error") {{
-        throw new Error(event.message || "WebRTC signaling error");
-      }}
-    }}
-
-    function startFrameCapture(camera, video, state) {{
-      if (state.captureTimer) return;
-      const captureStartedAt = Date.now();
-      const canvas = document.createElement("canvas");
-      const context = canvas.getContext("2d", {{ alpha: false }});
-      state.captureTimer = setInterval(() => {{
-        if (!state.active || video.readyState < HTMLMediaElement.HAVE_CURRENT_DATA) return;
-        if (!video.videoWidth || !video.videoHeight || !context) return;
-        if (state.uploadInFlight) return;
-        const maxWidth = 1280;
-        const scale = Math.min(1, maxWidth / video.videoWidth);
-        canvas.width = Math.max(2, Math.round(video.videoWidth * scale));
-        canvas.height = Math.max(2, Math.round(video.videoHeight * scale));
-        try {{
-          context.drawImage(video, 0, 0, canvas.width, canvas.height);
-        }} catch (error) {{
-          restartWebRTC(camera, `frame capture failed: ${{error}}`);
-          return;
-        }}
-        state.uploadInFlight = true;
-        canvas.toBlob(async (blob) => {{
-          if (!blob) {{
-            state.uploadInFlight = false;
-            return;
-          }}
-          try {{
-            const response = await fetch(`/api/webrtc/frame/${{camera.slug}}`, {{
-              method: "POST",
-              headers: {{ "Content-Type": "image/jpeg" }},
-              body: blob,
-            }});
-            if (!response.ok) {{
-              throw new Error(`${{response.status}} ${{response.statusText}}`);
-            }}
-            if (!state.active) return;
-            state.lastSuccessfulFrameAt = Date.now();
-            if (state.connectionTimer) {{
-              clearTimeout(state.connectionTimer);
-              state.connectionTimer = null;
-            }}
-          }} catch (error) {{
-            logWebRTCError(camera, error);
-          }} finally {{
-            state.uploadInFlight = false;
-          }}
-        }}, "image/jpeg", 0.78);
-      }}, webrtcFrameIntervalMs);
-      state.watchdogTimer = setInterval(() => {{
-        if (!state.active) return;
-        const lastFrameAt = state.lastSuccessfulFrameAt || captureStartedAt;
-        if (Date.now() - lastFrameAt > webrtcFrameStallMs) {{
-          restartWebRTC(camera, "frame capture stalled");
-        }}
-      }}, 5000);
-    }}
-
-    function restartWebRTC(camera, reason) {{
-      logWebRTCError(camera, reason);
-      cleanupWebRTC(camera);
-      scheduleWebRTCRestart(camera, reason);
-    }}
-
-    function scheduleWebRTCRestart(camera, reason = "") {{
-      const state = webrtcStates.get(camera.slug) || {{}};
-      if (state.restartTimer) clearTimeout(state.restartTimer);
-      const message = String(reason);
-      let baseDelay = webrtcRetryMs;
-      if (/429|rate limit|too many requests|resource_exhausted|cooling down/i.test(message)) {{
-        baseDelay = webrtcRateLimitRetryMs;
-      }}
-      const webrtcCameras = cameras.filter((item) => item.source === "webrtc");
-      const cameraIndex = Math.max(
-        0,
-        webrtcCameras.findIndex((item) => item.slug === camera.slug),
-      );
-      const delay = baseDelay + (sentinelMode ? cameraIndex * 3000 : 0);
-      state.restartTimer = setTimeout(() => startWebRTC(camera), delay);
-      webrtcStates.set(camera.slug, state);
-    }}
-
-    function cleanupWebRTC(camera) {{
-      const state = webrtcStates.get(camera.slug);
-      if (!state) return;
-      state.active = false;
-      state.connecting = false;
-      if (state.captureTimer) clearInterval(state.captureTimer);
-      if (state.watchdogTimer) clearInterval(state.watchdogTimer);
-      if (state.connectionTimer) clearTimeout(state.connectionTimer);
-      if (state.pc) {{
-        try {{ state.pc.close(); }} catch (_) {{}}
-      }}
-      const tile = getTile(camera.slug);
-      const video = tile?.querySelector("[data-role=video]");
-      if (video) {{
-        video.pause();
-        video.srcObject = null;
-      }}
-      if (tile) tile.classList.remove("webrtc-live");
-      if (state.sessionId) {{
-        fetch(`/api/webrtc/close/${{state.sessionId}}`, {{ method: "POST" }}).catch(() => {{}});
-      }}
-      webrtcStates.delete(camera.slug);
     }}
 
     function formatRelativeAge(age) {{
@@ -2127,14 +2155,59 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       didDrag = false;
     }}
 
+    async function setCameraFocus(slug) {{
+      if (focusedSlug === slug) return;
+      focusedSlug = slug;
+      for (const camera of cameras) {{
+        if (camera.source !== "eufy") continue;
+        const state = directStates.get(camera.slug);
+        const tile = getTile(camera.slug);
+        if (slug && camera.slug !== slug) {{
+          cleanupDirect(camera);
+        }} else {{
+          if (!slug) {{
+            tile?.classList.remove(
+              "direct-focus-pending",
+              "direct-focus-frame-live",
+            );
+          }} else {{
+            tile?.classList.add("direct-focus-pending");
+            if (state) renderDirectFocusFrame(camera, state);
+          }}
+          if (state) {{
+            setDirectCaptureInterval(
+              camera,
+              state,
+              eufyCaptureIntervalMs,
+            );
+          }}
+        }}
+      }}
+      const path = slug ? `/api/focus/${{encodeURIComponent(slug)}}` : "/api/focus";
+      try {{
+        await fetchJson(`${{path}}?owner=${{encodeURIComponent(viewerId)}}`, {{
+          method: "POST",
+        }});
+      }} catch (error) {{
+        logCameraError({{
+          slug: slug || "focus",
+          last_error: `focus request failed: ${{error}}`,
+        }});
+      }}
+    }}
+
     function toggleExpanded(tile) {{
       const first = tile.getBoundingClientRect();
       if (expandedTile && expandedTile !== tile) {{
         expandedTile.classList.remove("expanded");
       }}
       const willExpand = !tile.classList.contains("expanded");
+      const camera = cameras.find((item) => item.slug === tile.dataset.slug);
+      const nextFocus = willExpand && camera?.source === "eufy" ? camera.slug : "";
+      if (nextFocus) tile.classList.add("direct-focus-pending");
       tile.classList.toggle("expanded", willExpand);
       expandedTile = willExpand ? tile : null;
+      setCameraFocus(nextFocus);
       const last = tile.getBoundingClientRect();
       const dx = first.left - last.left;
       const dy = first.top - last.top;
@@ -2154,18 +2227,65 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
 
     async function updateStatus() {{
       try {{
-        const touch = sentinelMode ? "warm" : "1";
-        const response = await fetch(`/api/status?touch=${{touch}}`, {{cache: "no-store"}});
+        const query = new URLSearchParams();
+        if (sentinelMode) query.set("touch", "warm");
+        else if (pageVisible) query.set("touch", "1");
+        if (focusedSlug && pageVisible) {{
+          query.set("focus", focusedSlug);
+          query.set("owner", viewerId);
+        }}
+        const response = await fetch(`/api/status?${{query}}`, {{cache: "no-store"}});
         const statuses = await response.json();
+        const activeFocus = statuses.focused_slug || "";
+        const wasPaused = paused;
+        paused = Boolean(statuses.paused);
+        if (paused || (!pageVisible && !sentinelMode)) {{
+          for (const camera of cameras) {{
+            cleanupDirect(camera);
+          }}
+        }} else if (wasPaused) {{
+          for (const camera of cameras) {{
+            startDirect(camera);
+          }}
+        }}
         for (const status of statuses.cameras) {{
           const tile = document.querySelector(`[data-slug="${{status.slug}}"]`);
           if (!tile) continue;
           logCameraError(status);
-          const age = status.received_age_seconds;
+          const age = status.source === "eufy"
+            ? status.received_age_seconds
+            : status.age_seconds;
           const ageText = formatRelativeAge(age);
 
-          const liveWindow = status.source === "snapshot" ? 25 : status.source === "webrtc" ? 8 : 8;
-          if (status.live && status.has_frame && age !== null && age < liveWindow) {{
+          if (status.go2rtc_mode) {{
+            const camera = cameras.find((item) => item.slug === status.slug);
+            if (camera) {{
+              if (!pageVisible && !sentinelMode) cleanupDirect(camera);
+              else if (activeFocus && status.slug !== activeFocus) cleanupDirect(camera);
+              else if (
+                status.live
+                || (
+                  status.source === "eufy"
+                  && status.wanted
+                )
+              ) startDirect(camera);
+              else cleanupDirect(camera);
+            }}
+          }}
+
+          const liveWindow = status.go2rtc_mode
+            ? 45
+            : 45;
+          const directState = directStates.get(status.slug);
+          const directFresh = directState?.lastFrameAt
+            && Date.now() - directState.lastFrameAt < 5000;
+          const directVisualWindow = focusedSlug === status.slug ? 5 : 45;
+          if (
+            status.go2rtc_mode
+            && directFresh
+            && age !== null
+            && age < directVisualWindow
+          ) {{
             setBadge(tile, "live", "live");
           }} else if (status.has_frame) {{
             setStaleBadge(tile, ageText);
@@ -2188,22 +2308,40 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
     cameras.forEach(buildTile);
     applyLayout();
     window.addEventListener("resize", applyLayout);
+    document.addEventListener("visibilitychange", () => {{
+      pageVisible = !document.hidden;
+      if (!pageVisible && !sentinelMode) {{
+        if (focusedSlug) {{
+          navigator.sendBeacon(`/api/focus?owner=${{encodeURIComponent(viewerId)}}`);
+          focusedSlug = "";
+        }}
+        for (const camera of cameras) cleanupDirect(camera);
+        return;
+      }}
+      cameras.forEach((camera, index) => {{
+        scheduleImage(camera, index * initialImageStaggerMs);
+      }});
+    }});
     window.addEventListener("beforeunload", () => {{
+      if (focusedSlug) {{
+        navigator.sendBeacon(`/api/focus?owner=${{encodeURIComponent(viewerId)}}`);
+      }}
       for (const camera of cameras) {{
-        cleanupWebRTC(camera);
+        cleanupDirect(camera);
+      }}
+      for (const imageUrl of imageObjectUrls.values()) {{
+        URL.revokeObjectURL(imageUrl);
       }}
     }});
-    let webrtcStartIndex = 0;
     cameras.forEach((camera, index) => {{
       if (
         sentinelMode
-        && (!camera.keep_warm || camera.slug !== sentinelCameraSlug)
+        && (!camera.keep_warm || (sentinelCameraSlug && camera.slug !== sentinelCameraSlug))
       ) return;
-      scheduleImage(camera, index * 1200);
-      if (camera.source === "webrtc") {{
-        const spacing = sentinelMode ? 5000 : 1200;
-        setTimeout(() => startWebRTC(camera), webrtcStartIndex * spacing + 600);
-        webrtcStartIndex += 1;
+      scheduleImage(camera, index * initialImageStaggerMs);
+      const spacing = sentinelMode ? 5000 : 1200;
+      if (camera.source === "nest") {{
+        setTimeout(() => startDirect(camera), index * spacing + 600);
       }}
     }});
     updateStatus();
@@ -2215,32 +2353,73 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
     )
 
 
-class ViewerSessionActiveError(RuntimeError):
-    """Raised when another browser owns a WebRTC camera session."""
-
-
 class MonitorServer(ThreadingHTTPServer):
+    # Browsers commonly open six or more HTTP/1.1 connections at once. The
+    # stdlib default backlog is only five, which can force the last initial
+    # snapshot connections through a one-second TCP retry even though every
+    # frame is already cached in memory.
+    request_queue_size = 64
+    daemon_threads = True
+    block_on_close = False
+
     def __init__(
         self,
         server_address: tuple[str, int],
         handler_class: type[BaseHTTPRequestHandler],
-        ha: HomeAssistantClient,
         runners: dict[str, CameraRunner],
         camera_payload: list[dict[str, Any]],
         camera_order: list[str],
     ) -> None:
         super().__init__(server_address, handler_class)
-        self.ha = ha
         self.runners = runners
         self.camera_payload_by_slug = {
             camera["slug"]: camera for camera in camera_payload
         }
         self.camera_order = normalize_camera_order(camera_order)
         self.state_lock = threading.Lock()
-        self.webrtc_sessions: dict[str, WebRTCSessionProxy] = {}
         self.paused = False
+        self.focused_slug = ""
+        self.focus_owner = ""
+        self.focused_until = 0.0
         self.last_warm_touch_at = 0.0
-        self.started_at = time.time()
+        try:
+            self.eufy_viewer_slots = max(
+                1,
+                int(
+                    os.environ.get(
+                        "CAMERA_MONITOR_EUFY_VIEWER_SLOTS",
+                        DEFAULT_EUFY_VIEWER_SLOTS,
+                    )
+                ),
+            )
+        except ValueError:
+            self.eufy_viewer_slots = DEFAULT_EUFY_VIEWER_SLOTS
+        try:
+            self.eufy_thumbnail_refresh_seconds = max(
+                10.0,
+                float(
+                    os.environ.get(
+                        "CAMERA_MONITOR_EUFY_THUMBNAIL_REFRESH_SECONDS",
+                        DEFAULT_EUFY_THUMBNAIL_REFRESH_SECONDS,
+                    )
+                ),
+            )
+        except ValueError:
+            self.eufy_thumbnail_refresh_seconds = (
+                DEFAULT_EUFY_THUMBNAIL_REFRESH_SECONDS
+            )
+        self.eufy_thumbnail_targets: dict[str, tuple[float, float]] = {}
+        self.eufy_thumbnail_retry_after: dict[str, float] = {}
+        self.eufy_thumbnail_failures: dict[str, int] = {}
+        try:
+            warm_idle_hours = float(
+                os.environ.get("CAMERA_MONITOR_WARM_IDLE_HOURS", DEFAULT_WARM_IDLE_HOURS)
+            )
+        except ValueError:
+            warm_idle_hours = DEFAULT_WARM_IDLE_HOURS
+        self.warm_idle_timeout_seconds = max(0.0, warm_idle_hours * 60 * 60)
+        self.last_viewer_activity_at = load_viewer_activity()
+        self.last_viewer_activity_written_at = 0.0
         self.warm_agent_expected = os.environ.get(
             "CAMERA_MONITOR_WARM_AGENT_ENABLED", ""
         ).strip().lower() in {"1", "true", "yes", "on"}
@@ -2262,56 +2441,223 @@ class MonitorServer(ThreadingHTTPServer):
             order = list(self.camera_order)
         return [self.runners[slug].snapshot() for slug in order if slug in self.runners]
 
-    def get_webrtc_session_roles(self) -> dict[str, list[str]]:
-        with self.state_lock:
-            sessions = list(self.webrtc_sessions.values())
-        roles: dict[str, list[str]] = {}
-        for session in sessions:
-            roles.setdefault(session.runner.config.slug, []).append(session.role)
-        return {slug: sorted(slug_roles) for slug, slug_roles in roles.items()}
-
     def warm_agent_active(self) -> bool:
         return time.time() - self.last_warm_touch_at < WARM_AGENT_HEARTBEAT_SECONDS
 
-    def warm_agent_has_startup_ownership(self) -> bool:
-        return self.warm_agent_active() or (
-            self.warm_agent_expected
-            and time.time() - self.started_at < WARM_AGENT_STARTUP_GRACE_SECONDS
-        )
+    def active_focus_slug(self) -> str:
+        now = time.time()
+        with self.state_lock:
+            if self.focused_slug and now >= self.focused_until:
+                self.focused_slug = ""
+                self.focus_owner = ""
+                self.focused_until = 0.0
+            return self.focused_slug
 
-    def touch_runner_for_viewer(self, runner: CameraRunner) -> None:
+    def set_focus(self, slug: str, owner: str) -> str:
+        if not owner or len(owner) > 128:
+            raise ValueError("focus owner is required")
+        if slug:
+            runner = self.runners.get(slug)
+            if runner is None:
+                raise KeyError("unknown camera")
+            if runner.config.source != "eufy":
+                raise ValueError("focus mode is only needed for Eufy cameras")
+            with self.state_lock:
+                self.focused_slug = slug
+                self.focus_owner = owner
+                self.focused_until = time.time() + VIEWER_TTL_SECONDS
+                self.eufy_thumbnail_targets.clear()
+            for other in self.runners.values():
+                if (
+                    other.config.source == "eufy"
+                    and other.config.slug != slug
+                ):
+                    other.stop_when_idle()
+            self.touch_runner_for_viewer(runner)
+            return slug
+
+        with self.state_lock:
+            if self.focus_owner == owner:
+                self.focused_slug = ""
+                self.focus_owner = ""
+                self.focused_until = 0.0
+        return self.active_focus_slug()
+
+    def record_viewer_activity(self) -> None:
+        now = time.time()
+        with self.state_lock:
+            self.last_viewer_activity_at = now
+            should_persist = (
+                now - self.last_viewer_activity_written_at
+                >= VIEWER_ACTIVITY_WRITE_INTERVAL_SECONDS
+            )
+            if should_persist:
+                self.last_viewer_activity_written_at = now
+        if should_persist:
+            save_viewer_activity(now)
+
+    def viewer_activity_status(self) -> dict[str, float | bool]:
+        now = time.time()
+        with self.state_lock:
+            last_viewer_activity_at = self.last_viewer_activity_at
+            timeout = self.warm_idle_timeout_seconds
+        idle_seconds = max(0.0, now - last_viewer_activity_at)
+        return {
+            "last_viewer_activity_at": last_viewer_activity_at,
+            "viewer_idle_seconds": round(idle_seconds, 1),
+            "viewer_active": idle_seconds < VIEWER_TTL_SECONDS,
+            "warm_idle_timeout_seconds": timeout,
+            "warm_allowed": timeout > 0 and idle_seconds < timeout,
+        }
+
+    def touch_runner_for_viewer(
+        self,
+        runner: CameraRunner,
+        *,
+        record_activity: bool = True,
+    ) -> None:
+        if record_activity:
+            self.record_viewer_activity()
         if self.paused or not runner.config.auto_start:
             return
+        focused_slug = self.active_focus_slug()
         if (
-            runner.config.source == "eufy_p2p"
-            and runner.config.keep_warm
-            and self.warm_agent_has_startup_ownership()
+            focused_slug
+            and runner.config.source == "eufy"
+            and runner.config.slug != focused_slug
         ):
-            # The resident agent refreshes Eufy cameras serially. A wall may
-            # read the cached frames without turning every battery camera on.
+            runner.stop_when_idle()
+            return
+        if (
+            runner.config.source == "eufy"
+            and runner.config.slug not in self._eufy_viewer_targets()
+        ):
+            runner.stop_when_idle()
             return
         runner.touch(role="viewer")
+
+    def _eufy_viewer_targets(self) -> set[str]:
+        focused_slug = self.active_focus_slug()
+        if focused_slug:
+            return {focused_slug}
+        with self.state_lock:
+            return set(self.eufy_thumbnail_targets)
+
+    def _refresh_eufy_thumbnail_targets(self) -> set[str]:
+        focused_slug = self.active_focus_slug()
+        if focused_slug:
+            return {focused_slug}
+
+        now = time.time()
+        monotonic_now = time.monotonic()
+        with self.state_lock:
+            slugs = [
+                slug
+                for slug in self.camera_order
+                if slug in self.runners
+                and self.runners[slug].config.source == "eufy"
+                and self.runners[slug].config.auto_start
+            ]
+            targets = dict(self.eufy_thumbnail_targets)
+            retry_after = dict(self.eufy_thumbnail_retry_after)
+            failures = dict(self.eufy_thumbnail_failures)
+
+        snapshots = {slug: self.runners[slug].snapshot() for slug in slugs}
+        completed: set[str] = set()
+        for slug, (baseline_received_at, started_at) in list(targets.items()):
+            latest_received_at = float(
+                snapshots.get(slug, {}).get("latest_received_at") or 0.0
+            )
+            if latest_received_at > baseline_received_at:
+                completed.add(slug)
+                targets.pop(slug, None)
+                retry_after.pop(slug, None)
+                failures.pop(slug, None)
+            elif monotonic_now - started_at >= EUFY_THUMBNAIL_ATTEMPT_TIMEOUT_SECONDS:
+                completed.add(slug)
+                targets.pop(slug, None)
+                failure_count = failures.get(slug, 0) + 1
+                failures[slug] = failure_count
+                retry_delay = min(
+                    EUFY_THUMBNAIL_RETRY_BASE_SECONDS
+                    * (2 ** min(failure_count - 1, 4)),
+                    EUFY_THUMBNAIL_RETRY_MAX_SECONDS,
+                )
+                retry_after[slug] = monotonic_now + retry_delay
+
+        # Let completed P2P sessions stop before filling their slots. Starting a
+        # replacement in the same heartbeat can briefly exceed Eufy's session
+        # limit and strand both the old and new camera.
+        slots_available = 0 if completed else max(
+            0,
+            min(self.eufy_viewer_slots, len(slugs)) - len(targets),
+        )
+        candidates = sorted(
+            (
+                slug
+                for slug in slugs
+                if slug not in targets
+                and retry_after.get(slug, 0.0) <= monotonic_now
+                and (
+                    not snapshots[slug].get("latest_received_at")
+                    or now - float(snapshots[slug]["latest_received_at"])
+                    >= self.eufy_thumbnail_refresh_seconds
+                )
+            ),
+            key=lambda slug: float(snapshots[slug].get("latest_received_at") or 0.0),
+        )
+        for slug in candidates[:slots_available]:
+            baseline = float(snapshots[slug].get("latest_received_at") or 0.0)
+            targets[slug] = (baseline, monotonic_now)
+
+        with self.state_lock:
+            self.eufy_thumbnail_targets = targets
+            self.eufy_thumbnail_retry_after = retry_after
+            self.eufy_thumbnail_failures = failures
+        for slug in completed:
+            runner = self.runners.get(slug)
+            if runner is not None:
+                runner.stop_when_idle()
+        return set(targets)
 
     def touch_visible_runners(self, *, keep_warm_only: bool = False) -> None:
         if keep_warm_only:
             self.last_warm_touch_at = time.time()
+            if not self.viewer_activity_status()["warm_allowed"]:
+                return
+        else:
+            self.record_viewer_activity()
         if self.paused:
             return
+        focused_slug = self.active_focus_slug()
+        eufy_targets = (
+            self._refresh_eufy_thumbnail_targets() if not keep_warm_only else set()
+        )
         with self.state_lock:
             order = list(self.camera_order)
         for slug in order:
             runner = self.runners.get(slug)
             if runner is None or not runner.config.auto_start:
                 continue
+            if (
+                focused_slug
+                and runner.config.source == "eufy"
+                and slug != focused_slug
+            ):
+                continue
             if keep_warm_only:
                 if not runner.config.keep_warm:
                     continue
-                if runner.config.source == "eufy_p2p":
-                    # Eufy warm refreshes are serialized by camera_warm_agent.py.
+                if runner.config.source == "eufy":
+                    # Eufy thumbnails require browser decoding and are only
+                    # refreshed while a viewer has the wall open.
                     continue
                 runner.touch(role="warm")
             else:
-                self.touch_runner_for_viewer(runner)
+                if runner.config.source == "eufy" and slug not in eufy_targets:
+                    runner.stop_when_idle()
+                else:
+                    self.touch_runner_for_viewer(runner, record_activity=False)
 
     def set_camera_order(self, order: list[str]) -> list[str]:
         normalized = save_camera_order(order)
@@ -2319,155 +2665,32 @@ class MonitorServer(ThreadingHTTPServer):
             self.camera_order = normalized
         return normalized
 
-    def get_webrtc_client_config(self, slug: str) -> dict[str, Any]:
-        runner = self.runners.get(slug)
-        if runner is None:
-            raise KeyError("unknown camera")
-        response = ha_ws_call(
-            self.ha,
-            {
-                "type": "camera/webrtc/get_client_config",
-                "entity_id": runner.config.entity_id,
-            },
-        )
-        if not response.get("success"):
-            raise RuntimeError(str(response.get("error") or response))
-        result = response.get("result")
-        return result if isinstance(result, dict) else {}
-
-    def reload_config_entries(self, domain: str) -> list[str]:
-        if domain != "eufy_security":
-            raise ValueError("unsupported config entry domain")
-        response = ha_ws_call(self.ha, {"type": "config_entries/get"})
-        if not response.get("success"):
-            raise RuntimeError(str(response.get("error") or response))
-        entries = response.get("result")
-        if not isinstance(entries, list):
-            raise RuntimeError("Home Assistant returned no config entries")
-        entry_ids = [
-            str(entry["entry_id"])
-            for entry in entries
-            if isinstance(entry, dict)
-            and entry.get("domain") == domain
-            and entry.get("entry_id")
-        ]
-        if not entry_ids:
-            raise RuntimeError(f"Home Assistant has no {domain} config entry")
-        for entry_id in entry_ids:
-            status, body = self.ha.call_service_data(
-                "homeassistant",
-                "reload_config_entry",
-                {"entry_id": entry_id},
-            )
-            if status != HTTPStatus.OK:
-                raise RuntimeError(
-                    f"reload_config_entry returned {status}: {body}"
-                )
-        return entry_ids
-
-    def start_webrtc_session(self, slug: str, offer: str, role: str) -> str:
-        runner = self.runners.get(slug)
-        if runner is None:
-            raise KeyError("unknown camera")
-        if runner.config.source != "webrtc":
-            raise ValueError("camera is not configured for WebRTC")
-        cooldown = runner.webrtc_cooldown_seconds()
-        if cooldown > 0:
-            raise ValueError(f"WebRTC is cooling down for {cooldown}s after a Nest rate limit")
-        if role not in {"sentinel", "viewer"}:
-            raise ValueError("role must be sentinel or viewer")
-
-        self.cleanup_webrtc_sessions()
-        local_id = uuid.uuid4().hex
-        session = WebRTCSessionProxy(local_id, runner, self.ha, offer, role)
-        sessions_to_close: list[WebRTCSessionProxy] = []
-        with self.state_lock:
-            old_sessions = [
-                (old_id, old_session)
-                for old_id, old_session in self.webrtc_sessions.items()
-                if old_session.runner.config.slug == slug
-            ]
-            if role == "viewer" and old_sessions:
-                raise ViewerSessionActiveError(
-                    "another browser owns this WebRTC camera"
-                )
-            viewer_sessions = [
-                old_session
-                for _, old_session in old_sessions
-                if old_session.role == "viewer"
-            ]
-            if role == "sentinel" and viewer_sessions:
-                has_recent_frame = (
-                    runner.latest_at > 0
-                    and time.time() - runner.latest_at < WEBRTC_OWNER_STALE_SECONDS
-                )
-                has_recent_viewer = any(
-                    time.time() - old_session.last_seen_at
-                    < WEBRTC_OWNER_STALE_SECONDS
-                    for old_session in viewer_sessions
-                )
-                if has_recent_frame or has_recent_viewer:
-                    raise ViewerSessionActiveError(
-                        "a viewer owns this WebRTC camera"
-                    )
-            for old_id, old_session in old_sessions:
-                sessions_to_close.append(old_session)
-                self.webrtc_sessions.pop(old_id, None)
-            self.webrtc_sessions[local_id] = session
-        for old_session in sessions_to_close:
-            old_session.close()
-        try:
-            session.start()
-        except Exception:
-            with self.state_lock:
-                self.webrtc_sessions.pop(local_id, None)
-            session.close()
-            raise
-        runner.touch(role="warm" if role == "sentinel" else "viewer")
-        return local_id
-
-    def get_webrtc_events(self, session_id: str) -> list[dict[str, Any]]:
-        session = self.get_webrtc_session(session_id)
-        return session.pop_events()
-
-    def add_webrtc_candidate(self, session_id: str, candidate: dict[str, Any]) -> None:
-        session = self.get_webrtc_session(session_id)
-        session.add_candidate(candidate)
-
-    def close_webrtc_session(self, session_id: str) -> None:
-        with self.state_lock:
-            session = self.webrtc_sessions.pop(session_id, None)
-        if session is not None:
-            session.close()
-
-    def get_webrtc_session(self, session_id: str) -> WebRTCSessionProxy:
-        with self.state_lock:
-            session = self.webrtc_sessions.get(session_id)
-        if session is None:
-            raise KeyError("unknown WebRTC session")
-        return session
-
-    def cleanup_webrtc_sessions(self) -> None:
-        with self.state_lock:
-            expired = [
-                session_id
-                for session_id, session in self.webrtc_sessions.items()
-                if session.expired()
-            ]
-            sessions = [self.webrtc_sessions.pop(session_id) for session_id in expired]
-        for session in sessions:
-            session.close()
+    def pause_camera_work(self) -> None:
+        self.paused = True
+        for runner in self.runners.values():
+            runner.stop_when_idle()
 
 
 class Handler(BaseHTTPRequestHandler):
     server: MonitorServer
+    protocol_version = "HTTP/1.1"
 
     def log_message(self, format: str, *args: Any) -> None:  # noqa: A002
         return
 
     def do_GET(self) -> None:
         parsed = urlparse(self.path)
+        if parsed.path == "/go2rtc/api/ws":
+            self._proxy_go2rtc_websocket(parsed)
+            return
+        if parsed.path in GO2RTC_BROWSER_MODULES:
+            self._proxy_go2rtc_browser_module(parsed.path)
+            return
+
         if parsed.path == "/":
+            query = urllib.parse.parse_qs(parsed.query)
+            if query.get("sentinel") != ["1"]:
+                self.server.record_viewer_activity()
             self._send_bytes(
                 HTTPStatus.OK,
                 "text/html; charset=utf-8",
@@ -2509,6 +2732,13 @@ class Handler(BaseHTTPRequestHandler):
 
         if parsed.path == "/api/status":
             query = urllib.parse.parse_qs(parsed.query)
+            focus_slugs = query.get("focus", [])
+            focus_owners = query.get("owner", [])
+            if len(focus_slugs) == 1 and len(focus_owners) == 1:
+                try:
+                    self.server.set_focus(focus_slugs[0], focus_owners[0])
+                except (KeyError, ValueError):
+                    pass
             if query.get("touch") == ["1"]:
                 self.server.touch_visible_runners()
             elif query.get("touch") == ["warm"]:
@@ -2518,32 +2748,11 @@ class Handler(BaseHTTPRequestHandler):
                 "warm_agent_active": self.server.warm_agent_active(),
                 "warm_agent_expected": self.server.warm_agent_expected,
                 "order": self.server.get_camera_order(),
-                "webrtc_session_roles": self.server.get_webrtc_session_roles(),
+                "focused_slug": self.server.active_focus_slug(),
                 "cameras": self.server.get_runner_snapshots(),
             }
+            payload.update(self.server.viewer_activity_status())
             self._send_json(HTTPStatus.OK, payload)
-            return
-
-        if parsed.path.startswith("/api/webrtc/client-config/"):
-            slug = parsed.path.removeprefix("/api/webrtc/client-config/")
-            try:
-                self._send_json(HTTPStatus.OK, self.server.get_webrtc_client_config(slug))
-            except KeyError as exc:
-                self._send_json(HTTPStatus.NOT_FOUND, {"error": str(exc)})
-            except Exception as exc:  # noqa: BLE001 - surfaced to browser console.
-                self._send_json(
-                    HTTPStatus.BAD_GATEWAY,
-                    {"error": f"{type(exc).__name__}: {exc}"},
-                )
-            return
-
-        if parsed.path.startswith("/api/webrtc/events/"):
-            session_id = parsed.path.removeprefix("/api/webrtc/events/")
-            try:
-                events = self.server.get_webrtc_events(session_id)
-                self._send_json(HTTPStatus.OK, {"events": events})
-            except KeyError as exc:
-                self._send_json(HTTPStatus.NOT_FOUND, {"error": str(exc)})
             return
 
         if parsed.path.startswith("/snapshot/") and parsed.path.endswith(".jpg"):
@@ -2553,7 +2762,9 @@ class Handler(BaseHTTPRequestHandler):
                 self._send_json(HTTPStatus.NOT_FOUND, {"error": "unknown camera"})
                 return
 
-            self.server.touch_runner_for_viewer(runner)
+            query = urllib.parse.parse_qs(parsed.query)
+            if query.get("role") != ["sentinel"]:
+                self.server.touch_runner_for_viewer(runner)
 
             frame, latest_at, content_type = runner.get_frame()
             if frame is None:
@@ -2562,10 +2773,20 @@ class Handler(BaseHTTPRequestHandler):
                 return
 
             age = time.time() - latest_at
+            etag = f'"{slug}-{int(latest_at * 1000)}"'
+            if self.headers.get("If-None-Match") == etag:
+                self.send_response(HTTPStatus.NOT_MODIFIED)
+                self.send_header("Content-Length", "0")
+                self.send_header("Cache-Control", "no-cache")
+                self.send_header("ETag", etag)
+                self.send_header("X-Frame-Age-Seconds", f"{age:.1f}")
+                self.end_headers()
+                return
             self.send_response(HTTPStatus.OK)
             self.send_header("Content-Type", content_type)
             self.send_header("Content-Length", str(len(frame)))
-            self.send_header("Cache-Control", "no-store")
+            self.send_header("Cache-Control", "no-cache")
+            self.send_header("ETag", etag)
             self.send_header("X-Frame-Age-Seconds", f"{age:.1f}")
             self.end_headers()
             self.wfile.write(frame)
@@ -2573,65 +2794,163 @@ class Handler(BaseHTTPRequestHandler):
 
         self._send_json(HTTPStatus.NOT_FOUND, {"error": "not found"})
 
-    def do_POST(self) -> None:
-        parsed = urlparse(self.path)
-        reload_prefix = "/api/reload/config-entry/"
-        if parsed.path.startswith(reload_prefix):
-            if self.client_address[0] not in {"127.0.0.1", "::1"}:
-                self._send_json(HTTPStatus.FORBIDDEN, {"error": "loopback only"})
-                return
-            domain = parsed.path.removeprefix(reload_prefix)
-            try:
-                entry_ids = self.server.reload_config_entries(domain)
-            except ValueError as exc:
-                self._send_json(HTTPStatus.BAD_REQUEST, {"error": str(exc)})
-                return
-            except Exception as exc:  # noqa: BLE001 - local recovery API.
-                self._send_json(
-                    HTTPStatus.BAD_GATEWAY,
-                    {"error": f"{type(exc).__name__}: {exc}"},
-                )
-                return
+    def _proxy_go2rtc_browser_module(self, path: str) -> None:
+        upstream_path = path.removeprefix("/go2rtc")
+        try:
+            with urllib.request.urlopen(
+                f"{GO2RTC_URL}{upstream_path}",
+                timeout=SOCKET_TIMEOUT_SECONDS,
+            ) as response:
+                body = response.read(MAX_GO2RTC_BROWSER_MODULE_BYTES + 1)
+            if len(body) > MAX_GO2RTC_BROWSER_MODULE_BYTES:
+                raise ValueError("go2rtc browser module is too large")
+        except Exception as exc:  # noqa: BLE001 - bounded local proxy error.
             self._send_json(
-                HTTPStatus.OK,
-                {"domain": domain, "reloaded": len(entry_ids)},
+                HTTPStatus.BAD_GATEWAY,
+                {"error": f"go2rtc browser module failed: {type(exc).__name__}"},
+            )
+            return
+        self._send_bytes(
+            HTTPStatus.OK,
+            "text/javascript; charset=utf-8",
+            body,
+            cache=True,
+        )
+
+    def _proxy_go2rtc_websocket(self, parsed: urllib.parse.ParseResult) -> None:
+        if self.headers.get("Upgrade", "").lower() != "websocket":
+            self._send_json(
+                HTTPStatus.UPGRADE_REQUIRED,
+                {"error": "WebSocket upgrade required"},
             )
             return
 
-        warm_prefix = "/api/warm/eufy/"
-        if parsed.path.startswith(warm_prefix):
-            if self.client_address[0] not in {"127.0.0.1", "::1"}:
-                self._send_json(HTTPStatus.FORBIDDEN, {"error": "loopback only"})
-                return
-            remainder = parsed.path.removeprefix(warm_prefix)
-            action, separator, slug = remainder.partition("/")
-            runner = self.server.runners.get(slug) if separator else None
-            if runner is None:
-                self._send_json(HTTPStatus.NOT_FOUND, {"error": "unknown camera"})
-                return
-            if runner.config.source != "eufy_p2p" or not runner.config.keep_warm:
-                self._send_json(
-                    HTTPStatus.BAD_REQUEST,
-                    {"error": "camera is not a warm Eufy target"},
+        query = urllib.parse.parse_qs(parsed.query)
+        requested_sources = query.get("src", [])
+        allowed_sources = {
+            browser_stream_name(runner.config): upstream_stream_name(runner.config)
+            for runner in self.server.runners.values()
+        }
+        if len(requested_sources) != 1 or requested_sources[0] not in allowed_sources:
+            self._send_json(HTTPStatus.FORBIDDEN, {"error": "unknown camera stream"})
+            return
+        upstream_source = allowed_sources[requested_sources[0]]
+
+        target = urllib.parse.urlsplit(GO2RTC_URL)
+        if target.scheme not in {"http", "https"} or not target.hostname:
+            self._send_json(HTTPStatus.BAD_GATEWAY, {"error": "go2rtc is unavailable"})
+            return
+
+        upstream: socket.socket | ssl.SSLSocket | None = None
+        handshake_forwarded = False
+        try:
+            port = target.port or (443 if target.scheme == "https" else 80)
+            upstream = socket.create_connection(
+                (target.hostname, port),
+                timeout=SOCKET_TIMEOUT_SECONDS,
+            )
+            if target.scheme == "https":
+                upstream = ssl.create_default_context().wrap_socket(
+                    upstream,
+                    server_hostname=target.hostname,
                 )
-                return
-            if action == "start":
-                if self.server.paused:
-                    self._send_json(HTTPStatus.CONFLICT, {"error": "monitor paused"})
+
+            upstream_path = "/api/ws?" + urllib.parse.urlencode(
+                {"src": upstream_source}
+            )
+            request_headers = [
+                f"GET {upstream_path} HTTP/1.1",
+                f"Host: {target.netloc}",
+                "Upgrade: websocket",
+                "Connection: Upgrade",
+                f"Origin: {target.scheme}://{target.netloc}",
+            ]
+            skipped_headers = {
+                "connection",
+                "host",
+                "origin",
+                "proxy-connection",
+                "upgrade",
+            }
+            request_headers.extend(
+                f"{name}: {value}"
+                for name, value in self.headers.items()
+                if name.lower() not in skipped_headers
+            )
+            upstream.sendall(("\r\n".join(request_headers) + "\r\n\r\n").encode("latin-1"))
+
+            response = bytearray()
+            while b"\r\n\r\n" not in response:
+                chunk = upstream.recv(4096)
+                if not chunk:
+                    raise ConnectionError("go2rtc closed during WebSocket handshake")
+                response.extend(chunk)
+                if len(response) > 65536:
+                    raise ValueError("go2rtc WebSocket handshake is too large")
+            status_line = bytes(response).split(b"\r\n", 1)[0]
+            if b" 101 " not in status_line:
+                raise ConnectionError(
+                    "go2rtc rejected the WebSocket handshake: "
+                    + status_line.decode("latin-1", errors="replace")
+                )
+
+            self.connection.sendall(response)
+            handshake_forwarded = True
+            self.close_connection = True
+            upstream.settimeout(None)
+            self.connection.settimeout(None)
+            peers = {
+                self.connection: upstream,
+                upstream: self.connection,
+            }
+            while True:
+                readable, _, _ = select.select(
+                    list(peers),
+                    [],
+                    [],
+                    WEBSOCKET_PROXY_IDLE_SECONDS,
+                )
+                if not readable:
                     return
-                runner.touch(role="warm")
-            elif action == "stop":
-                runner.stop_warm()
-            else:
-                self._send_json(HTTPStatus.NOT_FOUND, {"error": "unknown action"})
+                for source in readable:
+                    data = source.recv(65536)
+                    if not data:
+                        return
+                    peers[source].sendall(data)
+                    if is_websocket_close_frame(
+                        data,
+                        masked=source is self.connection,
+                    ):
+                        return
+        except Exception as exc:  # noqa: BLE001 - local proxy returns a bounded error.
+            if not handshake_forwarded:
+                self._send_json(
+                    HTTPStatus.BAD_GATEWAY,
+                    {"error": f"go2rtc WebSocket proxy failed: {type(exc).__name__}"},
+                )
+        finally:
+            if upstream is not None:
+                upstream.close()
+
+    def do_POST(self) -> None:
+        parsed = urlparse(self.path)
+        if parsed.path == "/api/focus" or parsed.path.startswith("/api/focus/"):
+            query = urllib.parse.parse_qs(parsed.query)
+            owner = query.get("owner", [""])[0]
+            slug = parsed.path.removeprefix("/api/focus/") if parsed.path != "/api/focus" else ""
+            try:
+                focused_slug = self.server.set_focus(slug, owner)
+            except KeyError as exc:
+                self._send_json(HTTPStatus.NOT_FOUND, {"error": str(exc)})
                 return
-            self._send_json(HTTPStatus.OK, runner.snapshot())
+            except ValueError as exc:
+                self._send_json(HTTPStatus.BAD_REQUEST, {"error": str(exc)})
+                return
+            self._send_json(HTTPStatus.OK, {"focused_slug": focused_slug})
             return
 
         if parsed.path == "/api/pause":
-            self.server.paused = True
-            for runner in self.server.runners.values():
-                runner.stop_when_idle()
+            self.server.pause_camera_work()
             self._send_json(HTTPStatus.OK, {"paused": True})
             return
         if parsed.path == "/api/resume":
@@ -2657,63 +2976,8 @@ class Handler(BaseHTTPRequestHandler):
                 },
             )
             return
-        if parsed.path.startswith("/api/webrtc/start/"):
-            slug = parsed.path.removeprefix("/api/webrtc/start/")
-            try:
-                payload = self._read_json_body()
-                offer = payload.get("offer")
-                if not isinstance(offer, str) or not offer:
-                    raise ValueError("offer must be a non-empty string")
-                role = payload.get("role", "viewer")
-                if not isinstance(role, str):
-                    raise ValueError("role must be a string")
-                session_id = self.server.start_webrtc_session(slug, offer, role)
-            except KeyError as exc:
-                self._send_json(HTTPStatus.NOT_FOUND, {"error": str(exc)})
-                return
-            except ViewerSessionActiveError as exc:
-                self._send_json(HTTPStatus.CONFLICT, {"error": str(exc)})
-                return
-            except ValueError as exc:
-                self._send_json(HTTPStatus.BAD_REQUEST, {"error": str(exc)})
-                return
-            except Exception as exc:  # noqa: BLE001 - surfaced to browser console.
-                self._send_json(
-                    HTTPStatus.BAD_GATEWAY,
-                    {"error": f"{type(exc).__name__}: {exc}"},
-                )
-                return
-            self._send_json(HTTPStatus.OK, {"session_id": session_id})
-            return
-        if parsed.path.startswith("/api/webrtc/candidate/"):
-            session_id = parsed.path.removeprefix("/api/webrtc/candidate/")
-            try:
-                payload = self._read_json_body()
-                candidate = payload.get("candidate")
-                if not isinstance(candidate, dict):
-                    raise ValueError("candidate must be an object")
-                self.server.add_webrtc_candidate(session_id, candidate)
-            except KeyError as exc:
-                self._send_json(HTTPStatus.NOT_FOUND, {"error": str(exc)})
-                return
-            except ValueError as exc:
-                self._send_json(HTTPStatus.BAD_REQUEST, {"error": str(exc)})
-                return
-            except Exception as exc:  # noqa: BLE001 - surfaced to browser console.
-                self._send_json(
-                    HTTPStatus.BAD_GATEWAY,
-                    {"error": f"{type(exc).__name__}: {exc}"},
-                )
-                return
-            self._send_json(HTTPStatus.OK, {"ok": True})
-            return
-        if parsed.path.startswith("/api/webrtc/close/"):
-            session_id = parsed.path.removeprefix("/api/webrtc/close/")
-            self.server.close_webrtc_session(session_id)
-            self._send_json(HTTPStatus.OK, {"ok": True})
-            return
-        if parsed.path.startswith("/api/webrtc/frame/"):
-            slug = parsed.path.removeprefix("/api/webrtc/frame/")
+        if parsed.path.startswith("/api/frame/"):
+            slug = parsed.path.removeprefix("/api/frame/")
             runner = self.server.runners.get(slug)
             if runner is None:
                 self._send_json(HTTPStatus.NOT_FOUND, {"error": "unknown camera"})
@@ -2803,10 +3067,10 @@ def find_port(host: str, preferred_port: int) -> int:
 
 
 def main() -> None:
-    global CACHE_DIR, ORDER_PATH, DEFAULT_CAMERA_ORDER, EUFY_SECURITY_WS_ADDON
+    global CACHE_DIR, ORDER_PATH, VIEWER_ACTIVITY_PATH, GO2RTC_URL
+    global DEFAULT_CAMERA_ORDER
 
     parser = argparse.ArgumentParser(description="Run a local camera monitor wall.")
-    parser.add_argument("--ha-url", default=os.environ.get("CAMERA_MONITOR_HA_URL"))
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8765)
     parser.add_argument(
@@ -2821,40 +3085,42 @@ def main() -> None:
 
     CACHE_DIR = Path(args.cache_dir)
     ORDER_PATH = CACHE_DIR / "layout.json"
-    config_ha_url, eufy_addon, cameras = load_monitor_config(Path(args.config))
+    VIEWER_ACTIVITY_PATH = CACHE_DIR / "viewer_activity.json"
+    cameras = load_monitor_config(Path(args.config))
     DEFAULT_CAMERA_ORDER = tuple(camera.slug for camera in cameras)
-    EUFY_SECURITY_WS_ADDON = os.environ.get("CAMERA_MONITOR_EUFY_ADDON") or eufy_addon
-    ha_url = args.ha_url or config_ha_url or DEFAULT_HA_URL
-
-    token = os.environ.get("CABIN_HOME_ASSISTANT_TOKEN") or os.environ.get(
-        "SUPERVISOR_TOKEN"
-    )
-    if not token:
-        raise SystemExit("CABIN_HOME_ASSISTANT_TOKEN or SUPERVISOR_TOKEN is not set")
+    GO2RTC_URL = resolve_go2rtc_url()
 
     prepare_cache_dir()
-    ha = HomeAssistantClient(ha_url, token)
-    runners = {camera.slug: CameraRunner(camera, ha) for camera in cameras}
+    if any(camera.source == "nest" for camera in cameras):
+        configure_nest_streams(
+            GO2RTC_URL,
+            cameras,
+            NestCredentials.from_environment(),
+        )
+    eufy = None
+    if any(camera.source == "eufy" for camera in cameras):
+        eufy = DirectEufyClient(
+            os.environ.get("CAMERA_EUFY_WS_URL", "ws://eufy-security:3000"),
+            GO2RTC_URL,
+        )
+        eufy.start()
+    runners = {camera.slug: CameraRunner(camera, eufy) for camera in cameras}
     camera_order = load_camera_order()
     camera_payload = [
         {
             "slug": camera.slug,
             "name": camera.name,
-            "entity_id": camera.entity_id,
-            "station": camera.station,
             "lan_ip": camera.lan_ip,
-            "power_entity_id": camera.power_entity_id,
             "refresh_ms": camera.refresh_ms,
             "source": camera.source,
+            "go2rtc_mode": "webrtc" if camera.source == "nest" else "mse",
+            "direct_ws_url": direct_websocket_url(camera),
             "snapshot_interval": camera.snapshot_interval,
             "stale_ok": camera.stale_ok,
             "stale_ok_seconds": camera.stale_ok_seconds,
             "stale_kick_seconds": camera.stale_kick_seconds,
             "keep_warm": camera.keep_warm,
-            "recover_on_power_restore": camera.recover_on_power_restore,
-            "ensure_power_on": camera.ensure_power_on,
             "auto_start": camera.auto_start,
-            "restart_addon_on_failure": camera.restart_addon_on_failure,
             "note": camera.note,
         }
         for camera in cameras
@@ -2864,13 +3130,16 @@ def main() -> None:
     server = MonitorServer(
         (args.host, port),
         Handler,
-        ha,
         runners,
         camera_payload,
         camera_order,
     )
     print(f"Serving camera monitor at http://{args.host}:{port}", flush=True)
-    server.serve_forever()
+    try:
+        server.serve_forever()
+    finally:
+        if eufy is not None:
+            eufy.close()
 
 
 if __name__ == "__main__":

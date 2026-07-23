@@ -8,8 +8,7 @@ logs/*
 !logs/.gitkeep
 tools/camera_monitor.local.json
 tools/camera_monitor.docker.local.env
-tools/deploy.local.env
-home-assistant-addons/brightwater_camera_monitor/camera_monitor.local.json
+tools/eufy-security.local.env
 
 # --- Swift / compiled scanner binary ---
 # Architecture-specific; rebuild with `make build`.

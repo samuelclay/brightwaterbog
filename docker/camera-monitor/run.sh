@@ -1,9 +1,6 @@
 #!/bin/sh
 set -eu
 
-: "${CABIN_HOME_ASSISTANT_TOKEN:?CABIN_HOME_ASSISTANT_TOKEN is required}"
-: "${CAMERA_MONITOR_HA_URL:?CAMERA_MONITOR_HA_URL is required}"
-
 config_path="${CAMERA_MONITOR_CONFIG:-/config/camera_monitor.json}"
 cache_dir="${CAMERA_MONITOR_CACHE_DIR:-/data/camera_monitor}"
 monitor_port="${CAMERA_MONITOR_PORT:-8765}"
@@ -14,7 +11,7 @@ if [ ! -r "${config_path}" ]; then
   exit 1
 fi
 
-mkdir -p "${cache_dir}" /data/chromium
+mkdir -p "${cache_dir}"
 
 monitor_pid=""
 warm_agent_pid=""
@@ -34,7 +31,6 @@ trap cleanup INT TERM EXIT
 
 python3 /app/camera_monitor.py \
   --config "${config_path}" \
-  --ha-url "${CAMERA_MONITOR_HA_URL}" \
   --host 0.0.0.0 \
   --port "${monitor_port}" \
   --cache-dir "${cache_dir}" &
@@ -61,8 +57,7 @@ if [ "${ready}" -ne 1 ]; then
 fi
 
 if [ "${warm_agent_enabled}" = "1" ]; then
-  chromium_bin="$(command -v chromium-browser || command -v chromium)"
-  echo "Starting resident camera warm agent"
+  echo "Starting lightweight camera warm agent"
 fi
 
 while kill -0 "${monitor_pid}" >/dev/null 2>&1; do
@@ -72,11 +67,8 @@ while kill -0 "${monitor_pid}" >/dev/null 2>&1; do
       echo "Camera warm agent exited; restarting"
     fi
     python3 /app/camera_warm_agent.py \
-      --chromium "${chromium_bin}" \
       --config "${config_path}" \
-      --base-url "http://127.0.0.1:${monitor_port}" \
-      --ha-url "${CAMERA_MONITOR_HA_URL}" \
-      --profile-root /data/chromium &
+      --base-url "http://127.0.0.1:${monitor_port}" &
     warm_agent_pid="$!"
   fi
   sleep 2

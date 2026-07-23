@@ -1,14 +1,13 @@
 FROM python:3.13-alpine
 
-RUN apk add --no-cache chromium font-noto
-
 RUN addgroup -S camera-monitor \
     && adduser -S -G camera-monitor -h /data camera-monitor \
-    && mkdir -p /app /config /data/camera_monitor /data/chromium \
+    && mkdir -p /app /config /data/camera_monitor \
     && chown -R camera-monitor:camera-monitor /app /config /data
 
 WORKDIR /app
 COPY --chown=camera-monitor:camera-monitor tools/camera_monitor.py /app/camera_monitor.py
+COPY --chown=camera-monitor:camera-monitor tools/camera_backends.py /app/camera_backends.py
 COPY --chown=camera-monitor:camera-monitor tools/camera_warm_agent.py /app/camera_warm_agent.py
 COPY --chown=camera-monitor:camera-monitor docker/camera-monitor/run.sh /app/run.sh
 RUN chmod 755 /app/run.sh

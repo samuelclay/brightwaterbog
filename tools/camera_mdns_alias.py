@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Publish the local cameras hostname without relying on another server."""
 from __future__ import annotations
 
 import argparse

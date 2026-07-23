@@ -11,11 +11,12 @@ LOG    ?= logs/scanned_gallery.log
 SERVER_LABEL ?= brightwaterbog.scanned_gallery
 DOCKER ?= docker
 CAMERA_MONITOR_COMPOSE := docker-compose.camera-monitor.yml
+CAMERA_MONITOR_ENV := tools/camera_monitor.docker.local.env
 PY     := .venv/bin/python
 SWIFTC := swiftc
 CLANG  := clang
 
-.PHONY: help setup build scan scan-no-tag server capture list camera-monitor eufy-monitor camera-monitor-docker camera-monitor-docker-stop camera-monitor-docker-logs deploy clean
+.PHONY: help setup build scan scan-no-tag server capture list camera-monitor eufy-monitor camera-monitor-docker camera-monitor-docker-stop camera-monitor-docker-logs clean
 
 help:
 	@echo "make setup        Create venv, install deps, build the scanner CLI"
@@ -25,11 +26,10 @@ help:
 	@echo "make server       Run Capture with colored startup logs (HOST=$(HOST) PORT=$(PORT) LOG=$(LOG))"
 	@echo "make capture      Alias for make server"
 	@echo "make list         List scanners the Mac can see"
-	@echo "make camera-monitor Run the local Home Assistant camera wall"
+	@echo "make camera-monitor Run the standalone local camera wall"
 	@echo "make camera-monitor-docker Build and run the portable camera monitor container"
 	@echo "make camera-monitor-docker-stop Stop the portable camera monitor container"
 	@echo "make camera-monitor-docker-logs Follow portable camera monitor logs"
-	@echo "make deploy       Deploy the camera monitor Home Assistant add-on"
 	@echo "make clean        Remove staging crops and Python caches"
 	@echo ""
 	@echo "Options: make scan DPI=300 COLOR=gray   (needs ANTHROPIC_API_KEY for tagging)"
@@ -85,16 +85,13 @@ camera-monitor:
 eufy-monitor: camera-monitor
 
 camera-monitor-docker:
-	$(DOCKER) compose -f $(CAMERA_MONITOR_COMPOSE) up -d --build
+	$(DOCKER) compose --env-file $(CAMERA_MONITOR_ENV) -f $(CAMERA_MONITOR_COMPOSE) up -d --build
 
 camera-monitor-docker-stop:
-	$(DOCKER) compose -f $(CAMERA_MONITOR_COMPOSE) down
+	$(DOCKER) compose --env-file $(CAMERA_MONITOR_ENV) -f $(CAMERA_MONITOR_COMPOSE) down
 
 camera-monitor-docker-logs:
-	$(DOCKER) compose -f $(CAMERA_MONITOR_COMPOSE) logs -f camera-monitor
-
-deploy:
-	./tools/deploy_camera_monitor.sh
+	$(DOCKER) compose --env-file $(CAMERA_MONITOR_ENV) -f $(CAMERA_MONITOR_COMPOSE) logs -f camera-monitor
 
 clean:
 	rm -rf photos/_staging/*

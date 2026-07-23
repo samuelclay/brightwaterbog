@@ -3,7 +3,7 @@ from __future__ import annotations
 import struct
 import unittest
 
-import mdns_alias
+import camera_mdns_alias as mdns_alias
 
 
 def response_types(packet: bytes) -> tuple[tuple[int, int], list[int]]:
@@ -28,8 +28,8 @@ def response_types(packet: bytes) -> tuple[tuple[int, int], list[int]]:
 class MdnsAliasTest(unittest.TestCase):
     def test_parse_aliases(self) -> None:
         self.assertEqual(
-            mdns_alias.parse_aliases("cameras.local, CabinHomeAssistant.local."),
-            ["cameras.local", "cabinhomeassistant.local"],
+            mdns_alias.parse_aliases("cameras.local, cameras.local."),
+            ["cameras.local"],
         )
 
     def test_positive_response_includes_a_and_nsec(self) -> None:
@@ -53,11 +53,11 @@ class MdnsAliasTest(unittest.TestCase):
     def test_parse_mappings_supports_different_addresses(self) -> None:
         self.assertEqual(
             mdns_alias.parse_mappings(
-                "cameras.local=192.0.2.20, CabinHomeAssistant.local.=192.0.2.10"
+                "cameras.local=192.0.2.20, cameras-backup.local.=192.0.2.10"
             ),
             {
                 "cameras.local": "192.0.2.20",
-                "cabinhomeassistant.local": "192.0.2.10",
+                "cameras-backup.local": "192.0.2.10",
             },
         )
 

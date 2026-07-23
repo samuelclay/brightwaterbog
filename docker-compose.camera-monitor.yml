@@ -1,6 +1,46 @@
 name: brightwater-camera-monitor
 
+x-bounded-logs: &bounded-logs
+  driver: json-file
+  options:
+    max-size: "10m"
+    max-file: "3"
+
 services:
+  go2rtc:
+    image: alexxit/go2rtc:1.9.14
+    container_name: brightwater-go2rtc
+    restart: unless-stopped
+    environment:
+      CAMERA_MONITOR_WEBRTC_CANDIDATE: ${CAMERA_MONITOR_WEBRTC_CANDIDATE:-cameras.local:8555}
+    command:
+      - /bin/sh
+      - -c
+      - |-
+        printf 'webrtc:\n  listen: ":8555"\n  candidates:\n    - "%s"\n' \
+          "$${CAMERA_MONITOR_WEBRTC_CANDIDATE}" >/tmp/go2rtc-webrtc.yaml
+        exec go2rtc -config /config/go2rtc.yaml -config /tmp/go2rtc-webrtc.yaml
+    ports:
+      - "8555:8555/tcp"
+      - "8555:8555/udp"
+    volumes:
+      - camera-go2rtc-data:/config
+    mem_limit: 256m
+    pids_limit: 128
+    logging: *bounded-logs
+
+  eufy-security:
+    image: bropat/eufy-security-ws:3.1.0
+    container_name: brightwater-eufy-security
+    restart: unless-stopped
+    env_file:
+      - tools/eufy-security.local.env
+    volumes:
+      - camera-eufy-data:/data
+    mem_limit: 768m
+    pids_limit: 256
+    logging: *bounded-logs
+
   camera-monitor:
     build:
       context: .
@@ -8,6 +48,9 @@ services:
     container_name: brightwater-camera-monitor
     restart: unless-stopped
     init: true
+    depends_on:
+      - go2rtc
+      - eufy-security
     ports:
       - "${CAMERA_MONITOR_HOST_PORT:-8765}:8765"
     env_file:
@@ -16,11 +59,16 @@ services:
       CAMERA_MONITOR_CONFIG: /config/camera_monitor.json
       CAMERA_MONITOR_CACHE_DIR: /data/camera_monitor
       CAMERA_MONITOR_PORT: "8765"
+      CAMERA_MONITOR_GO2RTC_URL: http://go2rtc:1984
+      CAMERA_EUFY_WS_URL: ws://eufy-security:3000
     volumes:
       - ./tools/camera_monitor.local.json:/config/camera_monitor.json:ro
       - camera-monitor-data:/data
-    mem_limit: 4g
-    shm_size: 512m
+    mem_limit: 512m
+    pids_limit: 128
+    logging: *bounded-logs
 
 volumes:
   camera-monitor-data:
+  camera-go2rtc-data:
+  camera-eufy-data:
