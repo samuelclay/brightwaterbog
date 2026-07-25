@@ -39,13 +39,19 @@ make camera-monitor-docker
 ```
 
 Open `http://127.0.0.1:8765` or `http://cameras.local`. Tap a camera to expand it
-and tap again to return to the grid. The Compose stack owns all three local
-services: `eufy-security-ws` controls Eufy P2P sessions, `go2rtc` handles Nest
-SDM/WebRTC and remuxes camera media, and `camera-monitor` serves the UI and
-bounded cache. The go2rtc API stays private to the Compose network. Browser
-signaling uses the monitor's same-origin route, while encrypted WebRTC media
-uses the mapped LAN port `8555`. Set `CAMERA_MONITOR_WEBRTC_CANDIDATE` to this
-Mac's LAN address and that port.
+and tap again to return to the grid. `go2rtc` handles Nest SDM/WebRTC and
+remuxes camera media, while `camera-monitor` serves the UI and bounded cache.
+Set `CAMERA_EUFY_WS_URL` to the single authoritative `eufy-security-ws`
+instance for the Eufy account. This deployment uses Home Assistant's tailnet
+address so the laptop never competes for Eufy P2P station ownership and Home
+Assistant remains independent when the laptop moves off-site. The bundled
+`eufy-security` service is available only through the `standalone-eufy` Compose
+profile for deployments that do not already have an Eufy websocket owner.
+
+The go2rtc API stays private to the Compose network. Browser signaling uses the
+monitor's same-origin route, while encrypted WebRTC media uses the mapped LAN
+port `8555`. Set `CAMERA_MONITOR_WEBRTC_CANDIDATE` to this Mac's LAN address and
+that port.
 
 The low-CPU path never transcodes video. Camera H.264/H.265 remains compressed,
 go2rtc packages it for browser playback, and the Mac or iPad performs hardware
@@ -77,8 +83,8 @@ visible with their real age while the isolated camera runner retries.
 
 The stack publishes port `8765`, persists its bounded frame cache, and restarts
 after a host reboot. `tools/publish_camera_mdns.sh` publishes `cameras.local`
-from the Mac's current LAN address. Camera inventory and both credential files
-are ignored by git and must never be committed.
+from the Mac's current LAN address. Camera inventory and credential files are
+ignored by git and must never be committed.
 
 ## Setup notes
 
