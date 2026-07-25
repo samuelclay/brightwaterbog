@@ -16,7 +16,7 @@ PY     := .venv/bin/python
 SWIFTC := swiftc
 CLANG  := clang
 
-.PHONY: help setup build scan scan-no-tag server capture list camera-monitor eufy-monitor camera-monitor-docker camera-monitor-docker-stop camera-monitor-docker-logs clean
+.PHONY: help setup build scan scan-no-tag server capture list camera-monitor eufy-monitor camera-monitor-docker camera-monitor-docker-stop camera-monitor-docker-logs camera-monitor-ha-deploy clean
 
 help:
 	@echo "make setup        Create venv, install deps, build the scanner CLI"
@@ -27,9 +27,10 @@ help:
 	@echo "make capture      Alias for make server"
 	@echo "make list         List scanners the Mac can see"
 	@echo "make camera-monitor Run the standalone local camera wall"
-	@echo "make camera-monitor-docker Build and run the portable camera monitor container"
-	@echo "make camera-monitor-docker-stop Stop the portable camera monitor container"
-	@echo "make camera-monitor-docker-logs Follow portable camera monitor logs"
+	@echo "make camera-monitor-docker Build and run the laptop fallback camera stack"
+	@echo "make camera-monitor-docker-stop Stop the laptop fallback camera stack"
+	@echo "make camera-monitor-docker-logs Follow laptop fallback camera logs"
+	@echo "make camera-monitor-ha-deploy Deploy the optimized camera wall to Home Assistant"
 	@echo "make clean        Remove staging crops and Python caches"
 	@echo ""
 	@echo "Options: make scan DPI=300 COLOR=gray   (needs ANTHROPIC_API_KEY for tagging)"
@@ -92,6 +93,9 @@ camera-monitor-docker-stop:
 
 camera-monitor-docker-logs:
 	$(DOCKER) compose --env-file $(CAMERA_MONITOR_ENV) -f $(CAMERA_MONITOR_COMPOSE) logs -f camera-monitor
+
+camera-monitor-ha-deploy:
+	./tools/deploy_camera_monitor.sh
 
 clean:
 	rm -rf photos/_staging/*

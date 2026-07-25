@@ -1,0 +1,20 @@
+name: Brightwater mDNS Alias
+version: "1.0.0"
+slug: brightwater_mdns_alias
+description: Publishes cameras.local from the Home Assistant host.
+arch:
+  - amd64
+startup: services
+boot: auto
+init: false
+host_network: true
+options:
+  alias: "cameras.local"
+  address: "192.0.2.10"
+  mappings: ""
+  interface_address: "0.0.0.0"
+schema:
+  alias: str
+  address: str
+  mappings: str
+  interface_address: str

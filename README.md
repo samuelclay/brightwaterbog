@@ -30,28 +30,31 @@ Output: tagged photos land in `photos/<decade>/<category>/`, each with a sidecar
 
 ## Camera monitor
 
+The production camera wall runs as two local Home Assistant Docker add-ons:
+`Brightwater Camera Monitor` serves the wall on host port 80 and
+`Brightwater mDNS Alias` publishes `cameras.local`. The monitor reuses Home
+Assistant's existing `eufy-security-ws` and `go2rtc` add-ons, so the four Eufy
+floodlight entities and the six Eufy cameras share one account/session owner.
+It does not contain another Eufy login or another go2rtc instance.
+
 ```bash
 cp tools/camera_monitor.example.json tools/camera_monitor.local.json
 cp tools/camera_monitor.docker.example.env tools/camera_monitor.docker.local.env
-cp tools/eufy-security.example.env tools/eufy-security.local.env
-$EDITOR tools/camera_monitor.local.json tools/camera_monitor.docker.local.env tools/eufy-security.local.env
-make camera-monitor-docker
+cp tools/deploy.example.env tools/deploy.local.env
+$EDITOR tools/camera_monitor.local.json tools/camera_monitor.docker.local.env tools/deploy.local.env
+make camera-monitor-ha-deploy
 ```
 
-Open `http://127.0.0.1:8765` or `http://cameras.local`. Tap a camera to expand it
-and tap again to return to the grid. `go2rtc` handles Nest SDM/WebRTC and
-remuxes camera media, while `camera-monitor` serves the UI and bounded cache.
-Set `CAMERA_EUFY_WS_URL` to the single authoritative `eufy-security-ws`
-instance for the Eufy account. This deployment uses Home Assistant's tailnet
-address so the laptop never competes for Eufy P2P station ownership and Home
-Assistant remains independent when the laptop moves off-site. The bundled
-`eufy-security` service is available only through the `standalone-eufy` Compose
-profile for deployments that do not already have an Eufy websocket owner.
+The ignored Docker environment file supplies the Google/Nest credentials during
+deployment. The ignored deploy file selects the Home Assistant SSH host and LAN
+address. The deploy script stages both add-ons, builds them on Home Assistant,
+applies credentials without writing them to the repository, and enables
+automatic startup. Open `http://cameras.local`; tap a camera to expand it and
+tap again to return to the grid.
 
-The go2rtc API stays private to the Compose network. Browser signaling uses the
-monitor's same-origin route, while encrypted WebRTC media uses the mapped LAN
-port `8555`. Set `CAMERA_MONITOR_WEBRTC_CANDIDATE` to this Mac's LAN address and
-that port.
+Eufy camera streams use the `camera_eufy_` namespace in shared go2rtc. Home
+Assistant's original Eufy stream names are never replaced, which keeps its
+camera entities and floodlight controls independent of the wall.
 
 The low-CPU path never transcodes video. Camera H.264/H.265 remains compressed,
 go2rtc packages it for browser playback, and the Mac or iPad performs hardware
@@ -60,15 +63,14 @@ their content changes. Browser media queues are capped and old segments are
 trimmed, so a long-running tab cannot grow memory without bound. Per-camera
 starts are serialized and failures use bounded backoff.
 
-Eufy thumbnails are snapshots, not six permanent live streams. While the wall
-is visible, at most two cameras wake at once; each is released as soon as the
-browser decodes and caches a fresh frame, then the oldest thumbnails go next.
-The target refresh age is 20 seconds, with actual timing bounded by each
-battery camera's wake latency. Expanding one grants it a renewable 90-second
-focus lease: all other Eufy work is released and the selected camera streams
-continuously with one-second visual-health checks. A `LIVE` badge requires a
-recently decoded frame; transport bytes alone cannot make a frozen image look
-live.
+Eufy thumbnails are snapshots, not six permanent live streams. The Home
+Assistant deployment wakes at most one Eufy camera at a time and targets a
+five-minute thumbnail refresh. Each stream is released as soon as the browser
+decodes and caches a fresh frame, then the oldest thumbnail goes next.
+Expanding one grants it a renewable 90-second focus lease: other Eufy work is
+released and the selected camera streams continuously with one-second
+visual-health checks. A `LIVE` badge requires a recently decoded frame;
+transport bytes alone cannot make a frozen image look live.
 
 When resident warming is enabled, lightweight server-side consumers keep only
 selected Nest transports warm without decoding their video. Eufy is never
@@ -81,10 +83,14 @@ Set `"auto_start": false` for a known-offline camera. It will keep showing its
 last cached frame without continuously attempting to start. Stale frames remain
 visible with their real age while the isolated camera runner retries.
 
-The stack publishes port `8765`, persists its bounded frame cache, and restarts
-after a host reboot. `tools/publish_camera_mdns.sh` publishes `cameras.local`
-from the Mac's current LAN address. Camera inventory and credential files are
-ignored by git and must never be committed.
+The add-ons persist the bounded frame cache and restart after a Home Assistant
+reboot. Camera inventory and credential files are ignored by git and must never
+be committed.
+
+The root Docker Compose file remains a laptop/development fallback. It is not
+part of the cabin production path and must not publish `cameras.local` while the
+Home Assistant add-ons are active. Stop it with
+`make camera-monitor-docker-stop`.
 
 ## Setup notes
 

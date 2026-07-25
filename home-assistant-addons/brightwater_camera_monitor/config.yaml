@@ -1,0 +1,38 @@
+name: Brightwater Camera Monitor
+version: "1.0.1"
+slug: brightwater_camera_monitor
+description: Optimized Eufy and Nest camera wall using Home Assistant's shared media services.
+arch:
+  - amd64
+startup: application
+boot: auto
+init: false
+ingress: false
+options:
+  eufy_ws_url: "ws://192.0.2.10:3300"
+  go2rtc_url: "http://192.0.2.10:1984"
+  nest_client_id: ""
+  nest_client_secret: ""
+  nest_refresh_token: ""
+  nest_project_id: ""
+  eufy_viewer_slots: 1
+  eufy_thumbnail_refresh_seconds: 300
+  warm_agent: true
+  warm_idle_hours: 48
+schema:
+  eufy_ws_url: str
+  go2rtc_url: str
+  nest_client_id: str
+  nest_client_secret: password
+  nest_refresh_token: password
+  nest_project_id: str
+  eufy_viewer_slots: int
+  eufy_thumbnail_refresh_seconds: int
+  warm_agent: bool
+  warm_idle_hours: int
+ports:
+  8765/tcp: 80
+ports_description:
+  8765/tcp: Camera wall web UI
+webui: "http://[HOST]:[PORT:8765]"
+watchdog: "http://[HOST]:[PORT:8765]/api/status"

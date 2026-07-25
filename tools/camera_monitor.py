@@ -149,7 +149,11 @@ def browser_stream_name(camera: "CameraConfig") -> str:
 
 
 def upstream_stream_name(camera: "CameraConfig") -> str:
-    return camera.device_id if camera.source == "eufy" else nest_stream_name(camera.slug)
+    return (
+        f"camera_eufy_{camera.slug}"
+        if camera.source == "eufy"
+        else nest_stream_name(camera.slug)
+    )
 
 
 @dataclass(frozen=True)
@@ -532,7 +536,11 @@ class CameraRunner:
             START_GATE.acquire()
             try:
                 self._set_state(live=False, error="starting direct Eufy stream")
-                self.eufy.start_stream(self.config.device_id, wanted=self._wanted)
+                self.eufy.start_stream(
+                    self.config.device_id,
+                    stream_name=upstream_stream_name(self.config),
+                    wanted=self._wanted,
+                )
                 stream_claimed = True
                 self.started_at = time.time()
                 self._set_state(live=False, error="waiting for stable go2rtc media")

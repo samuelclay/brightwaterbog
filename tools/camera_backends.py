@@ -197,6 +197,7 @@ class _PendingCommand:
 @dataclass
 class _EufyStream:
     serial: str
+    stream_name: str
     chunks: queue.Queue[bytes | None] = field(
         default_factory=lambda: queue.Queue(maxsize=EUFY_VIDEO_QUEUE_CHUNKS)
     )
@@ -245,10 +246,12 @@ class DirectEufyClient:
         self,
         serial: str,
         *,
+        stream_name: str | None = None,
         wanted: Callable[[], bool] | None = None,
     ) -> None:
         if not serial:
             raise ValueError("Eufy camera needs a device_id")
+        target_stream_name = stream_name or serial
         if not self.connected.wait(EUFY_CONNECT_TIMEOUT_SECONDS):
             raise ConnectionError(
                 f"Eufy service is unavailable: {self.last_error or 'not connected'}"
@@ -257,13 +260,13 @@ class DirectEufyClient:
             existing = self.streams.get(serial)
             if existing is not None and existing.active.is_set():
                 return
-            stream = _EufyStream(serial)
+            stream = _EufyStream(serial, target_stream_name)
             stream.active.set()
             self.streams[serial] = stream
 
         livestream_requested = False
         try:
-            self._prepare_go2rtc_stream(serial)
+            self._prepare_go2rtc_stream(stream.stream_name)
             stream.uploader = threading.Thread(
                 target=self._upload_stream,
                 args=(stream,),
@@ -461,12 +464,12 @@ class DirectEufyClient:
             with self.lock:
                 self.pending.pop(message_id, None)
 
-    def _prepare_go2rtc_stream(self, serial: str) -> None:
-        self._go2rtc_request("DELETE", "/api/streams", {"src": serial})
+    def _prepare_go2rtc_stream(self, stream_name: str) -> None:
+        self._go2rtc_request("DELETE", "/api/streams", {"src": stream_name})
         self._go2rtc_request(
             "PUT",
             "/api/streams",
-            {"name": serial, "src": "tcp://127.0.0.1:65535"},
+            {"name": stream_name, "src": "tcp://127.0.0.1:65535"},
         )
 
     def _go2rtc_request(
@@ -497,7 +500,7 @@ class DirectEufyClient:
             target.port or (443 if target.scheme == "https" else 80),
             timeout=30,
         )
-        path = "/api/stream?" + urllib.parse.urlencode({"dst": stream.serial})
+        path = "/api/stream?" + urllib.parse.urlencode({"dst": stream.stream_name})
         try:
             connection.putrequest("POST", path)
             connection.putheader("Content-Type", "application/octet-stream")

@@ -211,7 +211,10 @@ class NativeStreamTest(unittest.TestCase):
     def test_upstream_names_are_provider_specific(self) -> None:
         eufy = SimpleNamespace(source="eufy", slug="door", device_id="T123")
         nest = SimpleNamespace(source="nest", slug="yard", device_id="ignored")
-        self.assertEqual(camera_monitor.upstream_stream_name(eufy), "T123")
+        self.assertEqual(
+            camera_monitor.upstream_stream_name(eufy),
+            "camera_eufy_door",
+        )
         self.assertEqual(camera_monitor.upstream_stream_name(nest), "nest_yard")
 
     def test_generated_page_has_no_legacy_signaling_endpoints(self) -> None:
@@ -308,16 +311,23 @@ class EufyBackendTest(unittest.TestCase):
             "http://go2rtc:1984",
         )
         with mock.patch.object(client, "_go2rtc_request") as request:
-            client._prepare_go2rtc_stream("T123")
+            client._prepare_go2rtc_stream("camera_eufy_backyard")
 
         self.assertEqual(
             request.call_args_list,
             [
-                mock.call("DELETE", "/api/streams", {"src": "T123"}),
+                mock.call(
+                    "DELETE",
+                    "/api/streams",
+                    {"src": "camera_eufy_backyard"},
+                ),
                 mock.call(
                     "PUT",
                     "/api/streams",
-                    {"name": "T123", "src": "tcp://127.0.0.1:65535"},
+                    {
+                        "name": "camera_eufy_backyard",
+                        "src": "tcp://127.0.0.1:65535",
+                    },
                 ),
             ],
         )
@@ -327,7 +337,7 @@ class EufyBackendTest(unittest.TestCase):
             "ws://eufy:3000",
             "http://go2rtc:1984",
         )
-        stream = camera_backends._EufyStream("T123")
+        stream = camera_backends._EufyStream("T123", "camera_eufy_backyard")
         stream.active.set()
         client.streams["T123"] = stream
 
@@ -344,6 +354,30 @@ class EufyBackendTest(unittest.TestCase):
 
         self.assertEqual(stream.chunks.get_nowait(), b"\x00\x01\x02\xff")
         self.assertTrue(stream.first_video.is_set())
+
+    def test_upload_uses_isolated_go2rtc_stream_name(self) -> None:
+        client = camera_backends.DirectEufyClient(
+            "ws://eufy:3000",
+            "http://go2rtc:1984",
+        )
+        stream = camera_backends._EufyStream(
+            "T123",
+            "camera_eufy_backyard",
+        )
+        connection = mock.Mock()
+        connection.getresponse.return_value.status = 200
+
+        with mock.patch.object(
+            camera_backends.http.client,
+            "HTTPConnection",
+            return_value=connection,
+        ):
+            client._upload_stream(stream)
+
+        connection.putrequest.assert_called_once_with(
+            "POST",
+            "/api/stream?dst=camera_eufy_backyard",
+        )
 
     def test_command_results_wake_waiter(self) -> None:
         client = camera_backends.DirectEufyClient(
