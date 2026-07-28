@@ -187,7 +187,231 @@ class CameraOwnershipTest(unittest.TestCase):
         self.assertEqual([runner.touches for runner in eufy], [["viewer"], ["viewer"], ["viewer"], ["viewer"]])
 
 
+class EufyRecoveryTest(unittest.TestCase):
+    @staticmethod
+    def snapshot(
+        slug: str,
+        *,
+        received_age: float,
+        failures: int,
+        displayed_age: float | None = None,
+    ) -> dict[str, object]:
+        return {
+            "slug": slug,
+            "source": "eufy",
+            "has_frame": True,
+            "age_seconds": displayed_age if displayed_age is not None else received_age,
+            "received_age_seconds": received_age,
+            "latest_received_at": time.time() - received_age,
+            "consecutive_failure_count": failures,
+        }
+
+    def test_uses_received_age_instead_of_unchanged_frame_age(self) -> None:
+        snapshots = [
+            self.snapshot(
+                "barn",
+                received_age=5,
+                failures=20,
+                displayed_age=24 * 60 * 60,
+            ),
+            self.snapshot(
+                "dam",
+                received_age=6,
+                failures=20,
+                displayed_age=24 * 60 * 60,
+            ),
+        ]
+
+        decision = camera_monitor.choose_eufy_recovery(snapshots, {})
+
+        self.assertIsNone(decision)
+
+    def test_restarts_for_two_stale_cameras_with_repeated_failures(self) -> None:
+        snapshots = [
+            self.snapshot("barn", received_age=901, failures=3),
+            self.snapshot("dam", received_age=1200, failures=3),
+            self.snapshot("driveway", received_age=100, failures=0),
+        ]
+
+        decision = camera_monitor.choose_eufy_recovery(snapshots, {})
+
+        self.assertEqual(
+            decision,
+            camera_monitor.EufyRecoveryDecision(
+                reason="multiple_stale_eufy_cameras",
+                stale_slugs=("barn", "dam"),
+            ),
+        )
+
+    def test_requires_longer_outage_for_one_stale_camera(self) -> None:
+        before_threshold = [
+            self.snapshot("barn", received_age=1799, failures=10),
+        ]
+        persistent = [
+            self.snapshot("barn", received_age=1800, failures=4),
+        ]
+
+        self.assertIsNone(
+            camera_monitor.choose_eufy_recovery(before_threshold, {})
+        )
+        self.assertEqual(
+            camera_monitor.choose_eufy_recovery(persistent, {}),
+            camera_monitor.EufyRecoveryDecision(
+                reason="one_persistently_stale_eufy_camera",
+                stale_slugs=("barn",),
+            ),
+        )
+
+    def test_thumbnail_failures_contribute_to_recovery_decision(self) -> None:
+        snapshots = [
+            self.snapshot("barn", received_age=901, failures=0),
+            self.snapshot("dam", received_age=901, failures=0),
+        ]
+
+        decision = camera_monitor.choose_eufy_recovery(
+            snapshots,
+            {"barn": 3, "dam": 3},
+        )
+
+        self.assertIsNotNone(decision)
+
+    def test_does_not_restart_when_camera_wall_has_no_viewer(self) -> None:
+        snapshots = [
+            self.snapshot("barn", received_age=901, failures=3),
+            self.snapshot("dam", received_age=901, failures=3),
+        ]
+        server = SimpleNamespace(
+            paused=False,
+            state_lock=threading.Lock(),
+            eufy_thumbnail_failures={},
+            get_runner_snapshots=lambda: snapshots,
+            viewer_activity_status=lambda: {"viewer_active": False},
+        )
+        with tempfile.TemporaryDirectory() as temp_dir:
+            controller = camera_monitor.EufyRecoveryController(
+                server,
+                SimpleNamespace(connected=threading.Event()),
+                enabled=True,
+                supervisor_url="http://supervisor",
+                supervisor_token="test-token",
+                addon_slug="eufy",
+                state_path=Path(temp_dir) / "recovery.json",
+            )
+            with mock.patch.object(controller, "_restart_eufy") as restart:
+                controller.check_once()
+
+        restart.assert_not_called()
+        self.assertEqual(controller.phase, "waiting_for_viewer")
+
+    def test_enforces_restart_cooldown(self) -> None:
+        snapshots = [
+            self.snapshot("barn", received_age=901, failures=3),
+            self.snapshot("dam", received_age=901, failures=3),
+        ]
+        server = SimpleNamespace(
+            paused=False,
+            state_lock=threading.Lock(),
+            eufy_thumbnail_failures={},
+            get_runner_snapshots=lambda: snapshots,
+            viewer_activity_status=lambda: {"viewer_active": True},
+        )
+        with tempfile.TemporaryDirectory() as temp_dir:
+            controller = camera_monitor.EufyRecoveryController(
+                server,
+                SimpleNamespace(connected=threading.Event()),
+                enabled=True,
+                supervisor_url="http://supervisor",
+                supervisor_token="test-token",
+                addon_slug="eufy",
+                state_path=Path(temp_dir) / "recovery.json",
+            )
+            controller.last_restart_at = time.time() - 60
+            controller.restart_times = [controller.last_restart_at]
+            with mock.patch.object(controller, "_restart_eufy") as restart:
+                controller.check_once()
+
+        restart.assert_not_called()
+        self.assertEqual(controller.phase, "cooldown")
+
+    def test_enforces_daily_restart_limit(self) -> None:
+        now = time.time()
+        snapshots = [
+            self.snapshot("barn", received_age=901, failures=3),
+            self.snapshot("dam", received_age=901, failures=3),
+        ]
+        server = SimpleNamespace(
+            paused=False,
+            state_lock=threading.Lock(),
+            eufy_thumbnail_failures={},
+            get_runner_snapshots=lambda: snapshots,
+            viewer_activity_status=lambda: {"viewer_active": True},
+        )
+        with tempfile.TemporaryDirectory() as temp_dir:
+            controller = camera_monitor.EufyRecoveryController(
+                server,
+                SimpleNamespace(connected=threading.Event()),
+                enabled=True,
+                supervisor_url="http://supervisor",
+                supervisor_token="test-token",
+                addon_slug="eufy",
+                state_path=Path(temp_dir) / "recovery.json",
+            )
+            controller.last_restart_at = now - 2 * 60 * 60
+            controller.restart_times = [now - 3 * 60 * 60, now - 2 * 60 * 60]
+            with mock.patch.object(controller, "_restart_eufy") as restart:
+                controller.check_once()
+
+        restart.assert_not_called()
+        self.assertEqual(controller.phase, "restart_limit_reached")
+
+    def test_restart_pauses_monitor_and_persists_verification_state(self) -> None:
+        server = SimpleNamespace(paused=False)
+        server.pause_camera_work = mock.Mock(
+            side_effect=lambda: setattr(server, "paused", True)
+        )
+        connected = threading.Event()
+        connected.set()
+        with tempfile.TemporaryDirectory() as temp_dir:
+            state_path = Path(temp_dir) / "recovery.json"
+            controller = camera_monitor.EufyRecoveryController(
+                server,
+                SimpleNamespace(connected=connected),
+                enabled=True,
+                supervisor_url="http://supervisor",
+                supervisor_token="test-token",
+                addon_slug="eufy",
+                state_path=state_path,
+            )
+            with mock.patch.object(
+                controller,
+                "_request_supervisor_restart",
+            ) as restart:
+                controller._restart_eufy(
+                    camera_monitor.EufyRecoveryDecision(
+                        reason="multiple_stale_eufy_cameras",
+                        stale_slugs=("barn", "dam"),
+                    ),
+                    time.time(),
+                )
+
+            persisted = json.loads(state_path.read_text(encoding="utf-8"))
+
+        restart.assert_called_once_with()
+        server.pause_camera_work.assert_called_once_with()
+        self.assertFalse(server.paused)
+        self.assertEqual(controller.last_result, "restart_completed")
+        self.assertEqual(persisted["last_result"], "restart_completed")
+
+
 class NativeStreamTest(unittest.TestCase):
+    def test_request_handler_ignores_peer_reset_before_request_line(self) -> None:
+        handler = object.__new__(camera_monitor.Handler)
+        with mock.patch(
+            "http.server.BaseHTTPRequestHandler.handle",
+            side_effect=ConnectionResetError("peer reset"),
+        ):
+            handler.handle()
+
     def test_websocket_proxy_recognizes_close_frames(self) -> None:
         self.assertTrue(
             camera_monitor.is_websocket_close_frame(

@@ -71,6 +71,15 @@ STALE_KICK_SECONDS = 5 * 60
 STALE_KICK_COOLDOWN_SECONDS = 3 * 60
 KICK_STOP_SETTLE_SECONDS = 3.0
 EUFY_RETRY_BACKOFF_MAX_SECONDS = 5 * 60
+EUFY_RECOVERY_CHECK_SECONDS = 30.0
+EUFY_RECOVERY_MULTI_STALE_SECONDS = 15 * 60.0
+EUFY_RECOVERY_SINGLE_STALE_SECONDS = 30 * 60.0
+EUFY_RECOVERY_MULTI_MIN_FAILURES = 3
+EUFY_RECOVERY_SINGLE_MIN_FAILURES = 4
+EUFY_RECOVERY_COOLDOWN_SECONDS = 60 * 60.0
+EUFY_RECOVERY_MAX_RESTARTS_24H = 2
+EUFY_RECOVERY_VERIFY_SECONDS = 10 * 60.0
+EUFY_RECOVERY_CONNECT_TIMEOUT_SECONDS = 2 * 60.0
 START_GATE = threading.Semaphore(1)
 
 
@@ -105,6 +114,64 @@ def save_viewer_activity(last_viewed_at: float) -> None:
         tmp_path.replace(VIEWER_ACTIVITY_PATH)
     except Exception as exc:  # noqa: BLE001 - activity persistence is best effort.
         print(f"Unable to persist viewer activity: {exc}", flush=True)
+
+
+@dataclass(frozen=True)
+class EufyRecoveryDecision:
+    reason: str
+    stale_slugs: tuple[str, ...]
+
+
+def choose_eufy_recovery(
+    snapshots: list[dict[str, Any]],
+    thumbnail_failures: dict[str, int],
+) -> EufyRecoveryDecision | None:
+    """Choose a conservative shared-service restart from received-frame health."""
+    candidates: list[tuple[str, float, int]] = []
+    for snapshot in snapshots:
+        if snapshot.get("source") != "eufy":
+            continue
+        slug = str(snapshot.get("slug", ""))
+        if not slug:
+            continue
+        received_age = snapshot.get("received_age_seconds")
+        try:
+            age_seconds = (
+                float("inf") if received_age is None else max(0.0, float(received_age))
+            )
+        except (TypeError, ValueError):
+            age_seconds = float("inf")
+        try:
+            runner_failures = int(snapshot.get("consecutive_failure_count") or 0)
+        except (TypeError, ValueError):
+            runner_failures = 0
+        failures = max(runner_failures, int(thumbnail_failures.get(slug, 0)))
+        candidates.append((slug, age_seconds, failures))
+
+    multi_stale = sorted(
+        slug
+        for slug, age_seconds, failures in candidates
+        if age_seconds >= EUFY_RECOVERY_MULTI_STALE_SECONDS
+        and failures >= EUFY_RECOVERY_MULTI_MIN_FAILURES
+    )
+    if len(multi_stale) >= 2:
+        return EufyRecoveryDecision(
+            reason="multiple_stale_eufy_cameras",
+            stale_slugs=tuple(multi_stale),
+        )
+
+    single_stale = sorted(
+        slug
+        for slug, age_seconds, failures in candidates
+        if age_seconds >= EUFY_RECOVERY_SINGLE_STALE_SECONDS
+        and failures >= EUFY_RECOVERY_SINGLE_MIN_FAILURES
+    )
+    if single_stale:
+        return EufyRecoveryDecision(
+            reason="one_persistently_stale_eufy_camera",
+            stale_slugs=tuple(single_stale),
+        )
+    return None
 
 
 def detect_image_content_type(frame: bytes, fallback: str = "image/jpeg") -> str:
@@ -2431,6 +2498,7 @@ class MonitorServer(ThreadingHTTPServer):
         self.warm_agent_expected = os.environ.get(
             "CAMERA_MONITOR_WARM_AGENT_ENABLED", ""
         ).strip().lower() in {"1", "true", "yes", "on"}
+        self.eufy_recovery: EufyRecoveryController | None = None
 
     def get_camera_order(self) -> list[str]:
         with self.state_lock:
@@ -2678,10 +2746,340 @@ class MonitorServer(ThreadingHTTPServer):
         for runner in self.runners.values():
             runner.stop_when_idle()
 
+    def eufy_recovery_status(self) -> dict[str, Any]:
+        if self.eufy_recovery is None:
+            return {"enabled": False, "phase": "disabled"}
+        return self.eufy_recovery.status()
+
+
+class EufyRecoveryController:
+    """Restart a poisoned shared Eufy service with bounded circuit breaking."""
+
+    def __init__(
+        self,
+        server: MonitorServer,
+        eufy: DirectEufyClient | None,
+        *,
+        enabled: bool,
+        supervisor_url: str,
+        supervisor_token: str,
+        addon_slug: str,
+        state_path: Path,
+    ) -> None:
+        self.server = server
+        self.eufy = eufy
+        self.enabled = enabled
+        self.supervisor_url = supervisor_url.rstrip("/")
+        self.supervisor_token = supervisor_token
+        self.addon_slug = addon_slug
+        self.state_path = state_path
+        self.stopping = threading.Event()
+        self.lock = threading.Lock()
+        self.thread = threading.Thread(
+            target=self._run,
+            name="eufy-recovery",
+            daemon=True,
+        )
+        self.phase = "idle" if enabled else "disabled"
+        self.last_checked_at = 0.0
+        self.last_restart_at = 0.0
+        self.restart_times: list[float] = []
+        self.last_reason = ""
+        self.last_result = ""
+        self.last_error = ""
+        self.stale_slugs: tuple[str, ...] = ()
+        self.verification_pending: tuple[str, ...] = ()
+        self._load_state()
+
+    @classmethod
+    def from_environment(
+        cls,
+        server: MonitorServer,
+        eufy: DirectEufyClient | None,
+    ) -> EufyRecoveryController:
+        enabled = os.environ.get(
+            "CAMERA_MONITOR_EUFY_AUTO_RECOVERY", ""
+        ).strip().lower() in {"1", "true", "yes", "on"}
+        return cls(
+            server,
+            eufy,
+            enabled=enabled,
+            supervisor_url=os.environ.get(
+                "CAMERA_MONITOR_SUPERVISOR_URL",
+                "http://supervisor",
+            ),
+            supervisor_token=os.environ.get("SUPERVISOR_TOKEN", ""),
+            addon_slug=os.environ.get(
+                "CAMERA_MONITOR_EUFY_ADDON_SLUG",
+                "402f1039_eufy_security_ws",
+            ),
+            state_path=CACHE_DIR / "eufy_recovery.json",
+        )
+
+    def start(self) -> None:
+        if not self.thread.is_alive():
+            self.thread.start()
+
+    def close(self) -> None:
+        self.stopping.set()
+        if self.thread.is_alive():
+            self.thread.join(timeout=2.0)
+
+    def status(self) -> dict[str, Any]:
+        now = time.time()
+        with self.lock:
+            restart_times = self._recent_restart_times(now)
+            return {
+                "enabled": self.enabled,
+                "phase": self.phase,
+                "stale_slugs": list(self.stale_slugs),
+                "verification_pending": list(self.verification_pending),
+                "last_checked_at": self.last_checked_at or None,
+                "last_restart_at": self.last_restart_at or None,
+                "last_reason": self.last_reason,
+                "last_result": self.last_result,
+                "last_error": self.last_error,
+                "restarts_24h": len(restart_times),
+                "cooldown_remaining_seconds": round(
+                    max(
+                        0.0,
+                        self.last_restart_at
+                        + EUFY_RECOVERY_COOLDOWN_SECONDS
+                        - now,
+                    ),
+                    1,
+                ),
+                "thresholds": {
+                    "multiple_stale_seconds": EUFY_RECOVERY_MULTI_STALE_SECONDS,
+                    "single_stale_seconds": EUFY_RECOVERY_SINGLE_STALE_SECONDS,
+                    "multiple_min_failures": EUFY_RECOVERY_MULTI_MIN_FAILURES,
+                    "single_min_failures": EUFY_RECOVERY_SINGLE_MIN_FAILURES,
+                    "cooldown_seconds": EUFY_RECOVERY_COOLDOWN_SECONDS,
+                    "max_restarts_24h": EUFY_RECOVERY_MAX_RESTARTS_24H,
+                    "verify_seconds": EUFY_RECOVERY_VERIFY_SECONDS,
+                },
+            }
+
+    def check_once(self) -> None:
+        now = time.time()
+        snapshots = self.server.get_runner_snapshots()
+        with self.server.state_lock:
+            thumbnail_failures = dict(self.server.eufy_thumbnail_failures)
+        viewer_active = bool(self.server.viewer_activity_status()["viewer_active"])
+
+        with self.lock:
+            self.last_checked_at = now
+            self.restart_times = self._recent_restart_times(now)
+            if not self.enabled:
+                self.phase = "disabled"
+                return
+            if (
+                self.eufy is None
+                or not self.supervisor_token
+                or not self.addon_slug
+            ):
+                self.phase = "unavailable"
+                self.last_error = "Eufy recovery lacks its service or Supervisor access"
+                return
+            if self.phase == "restarting":
+                return
+
+            pending = self._verification_pending(snapshots)
+            self.verification_pending = pending
+            if self.last_result == "restart_completed":
+                if not pending:
+                    self.phase = "verified"
+                    self.last_result = "verified"
+                    self.last_error = ""
+                    self._persist_state()
+                elif now - self.last_restart_at < EUFY_RECOVERY_VERIFY_SECONDS:
+                    self.phase = (
+                        "verifying" if viewer_active else "verification_waiting_for_viewer"
+                    )
+                    return
+                elif viewer_active:
+                    self.phase = "verification_failed"
+                    self.last_result = "verification_failed"
+                    self.last_error = (
+                        "Eufy frames did not all refresh after automatic recovery"
+                    )
+                    self._persist_state()
+                    return
+
+            if self.server.paused:
+                self.phase = "paused"
+                return
+            if not viewer_active:
+                self.phase = "waiting_for_viewer"
+                self.stale_slugs = ()
+                return
+            if (
+                self.last_restart_at
+                and now - self.last_restart_at < EUFY_RECOVERY_COOLDOWN_SECONDS
+            ):
+                self.phase = "cooldown"
+                return
+            if len(self.restart_times) >= EUFY_RECOVERY_MAX_RESTARTS_24H:
+                self.phase = "restart_limit_reached"
+                return
+
+            decision = choose_eufy_recovery(snapshots, thumbnail_failures)
+            if decision is None:
+                self.phase = "watching"
+                self.stale_slugs = ()
+                return
+            self.phase = "restarting"
+            self.stale_slugs = decision.stale_slugs
+
+        self._restart_eufy(decision, now)
+
+    def _run(self) -> None:
+        while not self.stopping.is_set():
+            try:
+                self.check_once()
+            except Exception as exc:  # noqa: BLE001 - recovery must stay alive.
+                with self.lock:
+                    self.phase = "error"
+                    self.last_error = f"{type(exc).__name__}: {exc}"[:300]
+            self.stopping.wait(EUFY_RECOVERY_CHECK_SECONDS)
+
+    def _restart_eufy(
+        self,
+        decision: EufyRecoveryDecision,
+        requested_at: float,
+    ) -> None:
+        with self.lock:
+            self.last_restart_at = requested_at
+            self.restart_times.append(requested_at)
+            self.last_reason = decision.reason
+            self.last_result = "restart_requested"
+            self.last_error = ""
+            self.verification_pending = decision.stale_slugs
+            self._persist_state()
+        print(
+            json.dumps(
+                {
+                    "event": "eufy_auto_recovery",
+                    "action": "restart",
+                    "reason": decision.reason,
+                    "stale_slugs": list(decision.stale_slugs),
+                }
+            ),
+            flush=True,
+        )
+
+        self.server.pause_camera_work()
+        try:
+            self._request_supervisor_restart()
+            deadline = time.monotonic() + EUFY_RECOVERY_CONNECT_TIMEOUT_SECONDS
+            while (
+                not self.stopping.is_set()
+                and not self.eufy.connected.is_set()
+                and time.monotonic() < deadline
+            ):
+                self.stopping.wait(1.0)
+            if not self.eufy.connected.is_set():
+                raise TimeoutError("Eufy service did not reconnect after restart")
+            with self.lock:
+                self.phase = "verifying"
+                self.last_result = "restart_completed"
+                self.last_error = ""
+                self._persist_state()
+        except Exception as exc:  # noqa: BLE001 - status retains bounded failure.
+            with self.lock:
+                self.phase = "restart_failed"
+                self.last_result = "restart_failed"
+                self.last_error = f"{type(exc).__name__}: {exc}"[:300]
+                self._persist_state()
+        finally:
+            self.server.paused = False
+
+    def _request_supervisor_restart(self) -> None:
+        addon = urllib.parse.quote(self.addon_slug, safe="")
+        request = urllib.request.Request(
+            f"{self.supervisor_url}/addons/{addon}/restart",
+            data=b"{}",
+            method="POST",
+            headers={
+                "Authorization": f"Bearer {self.supervisor_token}",
+                "Content-Type": "application/json",
+            },
+        )
+        with urllib.request.urlopen(request, timeout=SOCKET_TIMEOUT_SECONDS) as response:
+            if response.status < 200 or response.status >= 300:
+                raise RuntimeError(
+                    f"Supervisor restart returned HTTP {response.status}"
+                )
+            response.read(65536)
+
+    def _verification_pending(
+        self,
+        snapshots: list[dict[str, Any]],
+    ) -> tuple[str, ...]:
+        if self.last_restart_at <= 0:
+            return ()
+        pending = []
+        for snapshot in snapshots:
+            if snapshot.get("source") != "eufy":
+                continue
+            try:
+                latest_received_at = float(snapshot.get("latest_received_at") or 0.0)
+            except (TypeError, ValueError):
+                latest_received_at = 0.0
+            if latest_received_at <= self.last_restart_at:
+                pending.append(str(snapshot.get("slug", "")))
+        return tuple(sorted(slug for slug in pending if slug))
+
+    def _recent_restart_times(self, now: float) -> list[float]:
+        cutoff = now - 24 * 60 * 60
+        return sorted(timestamp for timestamp in self.restart_times if timestamp >= cutoff)
+
+    def _load_state(self) -> None:
+        try:
+            payload = json.loads(self.state_path.read_text(encoding="utf-8"))
+            self.restart_times = [
+                float(timestamp) for timestamp in payload.get("restart_times", [])
+            ]
+            self.last_restart_at = float(payload.get("last_restart_at", 0.0))
+            self.last_reason = str(payload.get("last_reason", ""))
+            self.last_result = str(payload.get("last_result", ""))
+            self.last_error = str(payload.get("last_error", ""))[:300]
+        except (FileNotFoundError, json.JSONDecodeError, TypeError, ValueError):
+            return
+
+    def _persist_state(self) -> None:
+        try:
+            self.state_path.parent.mkdir(parents=True, exist_ok=True)
+            tmp_path = self.state_path.with_suffix(".json.tmp")
+            tmp_path.write_text(
+                json.dumps(
+                    {
+                        "restart_times": self.restart_times,
+                        "last_restart_at": self.last_restart_at,
+                        "last_reason": self.last_reason,
+                        "last_result": self.last_result,
+                        "last_error": self.last_error,
+                    }
+                ),
+                encoding="utf-8",
+            )
+            tmp_path.replace(self.state_path)
+        except Exception as exc:  # noqa: BLE001 - recovery still runs in memory.
+            print(f"Unable to persist Eufy recovery state: {exc}", flush=True)
+
 
 class Handler(BaseHTTPRequestHandler):
     server: MonitorServer
     protocol_version = "HTTP/1.1"
+
+    def handle(self) -> None:
+        try:
+            super().handle()
+        except (BrokenPipeError, ConnectionResetError):
+            # Home Assistant's watchdog closes its short status connection
+            # aggressively. Treat a peer reset before the next request line as
+            # a normal disconnect instead of printing a server traceback.
+            return
 
     def log_message(self, format: str, *args: Any) -> None:  # noqa: A002
         return
@@ -2758,6 +3156,7 @@ class Handler(BaseHTTPRequestHandler):
                 "order": self.server.get_camera_order(),
                 "focused_slug": self.server.active_focus_slug(),
                 "cameras": self.server.get_runner_snapshots(),
+                "eufy_recovery": self.server.eufy_recovery_status(),
             }
             payload.update(self.server.viewer_activity_status())
             self._send_json(HTTPStatus.OK, payload)
@@ -3142,10 +3541,14 @@ def main() -> None:
         camera_payload,
         camera_order,
     )
+    eufy_recovery = EufyRecoveryController.from_environment(server, eufy)
+    server.eufy_recovery = eufy_recovery
+    eufy_recovery.start()
     print(f"Serving camera monitor at http://{args.host}:{port}", flush=True)
     try:
         server.serve_forever()
     finally:
+        eufy_recovery.close()
         if eufy is not None:
             eufy.close()
 

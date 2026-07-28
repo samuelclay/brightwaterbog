@@ -1,5 +1,5 @@
 name: Brightwater Camera Monitor
-version: "1.0.1"
+version: "1.0.2"
 slug: brightwater_camera_monitor
 description: Optimized Eufy and Nest camera wall using Home Assistant's shared media services.
 arch:
@@ -8,6 +8,8 @@ startup: application
 boot: auto
 init: false
 ingress: false
+hassio_api: true
+hassio_role: manager
 options:
   eufy_ws_url: "ws://192.0.2.10:3300"
   go2rtc_url: "http://192.0.2.10:1984"
@@ -17,6 +19,8 @@ options:
   nest_project_id: ""
   eufy_viewer_slots: 1
   eufy_thumbnail_refresh_seconds: 300
+  eufy_auto_recovery: true
+  eufy_addon_slug: "402f1039_eufy_security_ws"
   warm_agent: true
   warm_idle_hours: 48
 schema:
@@ -28,6 +32,8 @@ schema:
   nest_project_id: str
   eufy_viewer_slots: int
   eufy_thumbnail_refresh_seconds: int
+  eufy_auto_recovery: bool
+  eufy_addon_slug: str
   warm_agent: bool
   warm_idle_hours: int
 ports:

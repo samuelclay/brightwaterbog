@@ -72,6 +72,13 @@ released and the selected camera streams continuously with one-second
 visual-health checks. A `LIVE` badge requires a recently decoded frame;
 transport bytes alone cannot make a frozen image look live.
 
+The production add-on also runs a bounded Eufy recovery circuit breaker while
+the wall has an active viewer. It uses the last received frame—not merely the
+last visibly changed frame—and repeated refresh failures. Two cameras stuck for
+15 minutes, or one camera stuck for 30 minutes, trigger a controlled restart of
+only `eufy-security-ws`. Restarts have a one-hour cooldown, are capped at two
+per day, and must be followed by fresh frames from all six Eufy cameras.
+
 When resident warming is enabled, lightweight server-side consumers keep only
 selected Nest transports warm without decoding their video. Eufy is never
 warmed in the background because its thumbnails require a visible browser to
