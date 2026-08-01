@@ -480,6 +480,17 @@ class NativeStreamTest(unittest.TestCase):
         self.assertIn('next.classList.add("snapshot-entering")', page)
         self.assertNotIn("transition: opacity", page)
         self.assertNotIn(".tile::after", page)
+        self.assertIn("const dragThresholdPx = 20", page)
+        self.assertIn('tile.addEventListener("pointerdown", handlePointerDown)', page)
+        self.assertIn("Math.hypot(dx, dy) <= dragThresholdPx", page)
+        self.assertIn("pointerDropTarget(event.clientX, event.clientY)", page)
+        self.assertIn("[nextOrder[fromIndex], nextOrder[targetIndex]]", page)
+        self.assertNotIn("nextOrder.splice", page)
+        self.assertIn("const expandedPointers = new Map()", page)
+        self.assertIn("expandedPointers.size > 1", page)
+        self.assertIn('document.addEventListener("gesturestart", handleSafariPinch', page)
+        self.assertIn("Date.now() < suppressClickUntil", page)
+        self.assertIn(".tile.expanded { touch-action: pan-x pan-y pinch-zoom; }", page)
 
     def test_monitor_server_accepts_parallel_browser_connections(self) -> None:
         self.assertGreaterEqual(camera_monitor.MonitorServer.request_queue_size, 32)

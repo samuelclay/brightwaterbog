@@ -1078,9 +1078,19 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       cursor: pointer;
       transform-origin: top left;
       touch-action: manipulation;
+      -webkit-touch-callout: none;
     }}
     .tile.dragging {{
       opacity: .62;
+    }}
+    .tile.pointer-dragging {{
+      z-index: 12;
+      opacity: .84;
+      cursor: grabbing;
+      pointer-events: none;
+      transition: none;
+      will-change: transform;
+      box-shadow: 0 18px 48px rgba(0, 0, 0, .62);
     }}
     .tile.drop-target {{
       outline: 3px solid rgba(66, 211, 146, .82);
@@ -1244,6 +1254,10 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       .hud {{ right: 10px; bottom: 10px; }}
       .badge {{ font-size: 11px; padding: 6px 8px; }}
     }}
+    @media (pointer: coarse) {{
+      .tile {{ touch-action: none; }}
+      .tile.expanded {{ touch-action: pan-x pan-y pinch-zoom; }}
+    }}
   </style>
 </head>
 <body>
@@ -1268,7 +1282,10 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
     let draggedSlug = null;
     let didDrag = false;
     let suppressNextClick = false;
+    let suppressClickUntil = 0;
     let orderSaveTimer = null;
+    let pointerDrag = null;
+    const expandedPointers = new Map();
     let focusedSlug = "";
     let pageVisible = !document.hidden;
     const viewerId = window.crypto?.randomUUID?.()
@@ -1295,6 +1312,7 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
     const directQueueLimitBytes = 16 * 1024 * 1024;
     const initialImageStaggerMs = 20;
     const imageRevealMs = 70;
+    const dragThresholdPx = 20;
     const directMseCodecs = [
       "avc1.640029",
       "avc1.64002A",
@@ -1371,7 +1389,7 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
         </div>
       `;
       tile.addEventListener("click", () => {{
-        if (suppressNextClick) {{
+        if (suppressNextClick || Date.now() < suppressClickUntil) {{
           suppressNextClick = false;
           return;
         }}
@@ -1383,6 +1401,7 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       tile.addEventListener("dragleave", handleDragLeave);
       tile.addEventListener("drop", handleDrop);
       tile.addEventListener("dragend", handleDragEnd);
+      tile.addEventListener("pointerdown", handlePointerDown);
       grid.appendChild(tile);
     }}
 
@@ -2138,13 +2157,16 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
 
     function orderAfterDrop(fromSlug, targetSlug) {{
       if (!fromSlug || !targetSlug || fromSlug === targetSlug) return cameraOrder;
-      if (!cameraOrder.includes(fromSlug) || !cameraOrder.includes(targetSlug)) {{
+      const fromIndex = cameraOrder.indexOf(fromSlug);
+      const targetIndex = cameraOrder.indexOf(targetSlug);
+      if (fromIndex < 0 || targetIndex < 0) {{
         return cameraOrder;
       }}
-      const targetIsFeatured = targetSlug === cameraOrder[cameraOrder.length - 1];
-      const nextOrder = cameraOrder.filter((slug) => slug !== fromSlug);
-      const insertIndex = targetIsFeatured ? nextOrder.length : nextOrder.indexOf(targetSlug);
-      nextOrder.splice(Math.max(insertIndex, 0), 0, fromSlug);
+      const nextOrder = [...cameraOrder];
+      [nextOrder[fromIndex], nextOrder[targetIndex]] = [
+        nextOrder[targetIndex],
+        nextOrder[fromIndex],
+      ];
       return nextOrder;
     }}
 
@@ -2229,6 +2251,116 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       draggedSlug = null;
       didDrag = false;
     }}
+
+    function handlePointerDown(event) {{
+      if (event.pointerType !== "mouse" && expandedTile) {{
+        expandedPointers.set(event.pointerId, {{
+          x: event.clientX,
+          y: event.clientY,
+        }});
+        if (expandedPointers.size > 1) suppressExpandedClick();
+        return;
+      }}
+      if (
+        event.pointerType === "mouse"
+        || !event.isPrimary
+        || event.button !== 0
+      ) return;
+      pointerDrag = {{
+        pointerId: event.pointerId,
+        tile: event.currentTarget,
+        slug: event.currentTarget.dataset.slug,
+        startX: event.clientX,
+        startY: event.clientY,
+        target: null,
+        active: false,
+      }};
+    }}
+
+    function pointerDropTarget(clientX, clientY) {{
+      const element = document.elementFromPoint(clientX, clientY);
+      const tile = element?.closest?.(".tile");
+      return tile && tile !== pointerDrag?.tile ? tile : null;
+    }}
+
+    function handlePointerMove(event) {{
+      const expandedStart = expandedPointers.get(event.pointerId);
+      if (expandedStart) {{
+        if (
+          expandedPointers.size > 1
+          || Math.hypot(
+            event.clientX - expandedStart.x,
+            event.clientY - expandedStart.y,
+          ) > 8
+        ) suppressExpandedClick();
+        return;
+      }}
+      if (!pointerDrag || event.pointerId !== pointerDrag.pointerId) return;
+      const dx = event.clientX - pointerDrag.startX;
+      const dy = event.clientY - pointerDrag.startY;
+      if (!pointerDrag.active && Math.hypot(dx, dy) <= dragThresholdPx) return;
+      if (!pointerDrag.active) {{
+        pointerDrag.active = true;
+        draggedSlug = pointerDrag.slug;
+        didDrag = true;
+        pointerDrag.tile.classList.add("dragging", "pointer-dragging");
+        try {{
+          pointerDrag.tile.setPointerCapture(event.pointerId);
+        }} catch (_) {{}}
+      }}
+      event.preventDefault();
+      pointerDrag.tile.style.transform = `translate3d(${{dx}}px, ${{dy}}px, 0)`;
+      clearDropTarget();
+      pointerDrag.target = pointerDropTarget(event.clientX, event.clientY);
+      pointerDrag.target?.classList.add("drop-target");
+    }}
+
+    function finishPointerDrag(event, cancelled = false) {{
+      if (expandedPointers.has(event.pointerId)) {{
+        if (cancelled || expandedPointers.size > 1) suppressExpandedClick();
+        expandedPointers.delete(event.pointerId);
+        return;
+      }}
+      if (!pointerDrag || event.pointerId !== pointerDrag.pointerId) return;
+      const drag = pointerDrag;
+      pointerDrag = null;
+      if (!drag.active) return;
+      event.preventDefault();
+      try {{
+        drag.tile.releasePointerCapture(event.pointerId);
+      }} catch (_) {{}}
+      drag.tile.style.transform = "";
+      drag.tile.classList.remove("dragging", "pointer-dragging");
+      clearDropTarget();
+      if (!cancelled && drag.target) {{
+        const nextOrder = orderAfterDrop(drag.slug, drag.target.dataset.slug);
+        if (nextOrder !== cameraOrder) {{
+          animateOrderChange(nextOrder);
+          persistOrder();
+        }}
+      }}
+      suppressNextClick = true;
+      setTimeout(() => {{
+        suppressNextClick = false;
+      }}, 350);
+      draggedSlug = null;
+      didDrag = false;
+    }}
+
+    function suppressExpandedClick() {{
+      suppressClickUntil = Math.max(suppressClickUntil, Date.now() + 1000);
+    }}
+
+    function handleSafariPinch() {{
+      if (expandedTile) suppressExpandedClick();
+    }}
+
+    window.addEventListener("pointermove", handlePointerMove, {{passive: false}});
+    window.addEventListener("pointerup", (event) => finishPointerDrag(event));
+    window.addEventListener("pointercancel", (event) => finishPointerDrag(event, true));
+    document.addEventListener("gesturestart", handleSafariPinch, {{passive: true}});
+    document.addEventListener("gesturechange", handleSafariPinch, {{passive: true}});
+    document.addEventListener("gestureend", handleSafariPinch, {{passive: true}});
 
     async function setCameraFocus(slug) {{
       if (focusedSlug === slug) return;
