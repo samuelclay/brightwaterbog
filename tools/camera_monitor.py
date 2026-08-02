@@ -1126,6 +1126,10 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       will-change: transform;
       box-shadow: 0 18px 48px rgba(0, 0, 0, .62);
     }}
+    .tile.drag-armed {{
+      outline: 2px solid rgba(66, 211, 146, .72);
+      outline-offset: -3px;
+    }}
     .tile.drop-target {{
       outline: 3px solid rgba(66, 211, 146, .82);
       outline-offset: -4px;
@@ -1289,7 +1293,7 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       .badge {{ font-size: 11px; padding: 6px 8px; }}
     }}
     @media (pointer: coarse) {{
-      .tile {{ touch-action: none; }}
+      .tile {{ touch-action: pan-y; }}
       .tile.expanded {{ touch-action: pan-x pan-y pinch-zoom; }}
     }}
   </style>
@@ -1347,6 +1351,9 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
     const initialImageStaggerMs = 20;
     const imageRevealMs = 70;
     const dragThresholdPx = 20;
+    const dragHoldMs = 450;
+    const dragHoldMoveTolerancePx = 10;
+    const expandedClickSuppressMs = 180;
     const directMseCodecs = [
       "avc1.640029",
       "avc1.64002A",
@@ -1411,7 +1418,7 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       const tile = document.createElement("section");
       tile.className = "tile";
       tile.dataset.slug = camera.slug;
-      tile.draggable = true;
+      tile.draggable = !window.matchMedia("(pointer: coarse)").matches;
       tile.innerHTML = `
         <img alt="" class="snapshot-active" data-role="image" draggable="false">
         <img alt="" data-role="image" draggable="false">
@@ -2295,20 +2302,54 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
         if (expandedPointers.size > 1) suppressExpandedClick();
         return;
       }}
+      if (event.pointerType !== "mouse" && !event.isPrimary) {{
+        cancelPendingPointerDrag();
+        return;
+      }}
       if (
         event.pointerType === "mouse"
-        || !event.isPrimary
         || event.button !== 0
       ) return;
-      pointerDrag = {{
+      cancelPendingPointerDrag();
+      const drag = {{
         pointerId: event.pointerId,
         tile: event.currentTarget,
         slug: event.currentTarget.dataset.slug,
         startX: event.clientX,
         startY: event.clientY,
         target: null,
+        armed: false,
         active: false,
+        holdTimer: null,
       }};
+      pointerDrag = drag;
+      drag.holdTimer = setTimeout(() => {{
+        if (pointerDrag !== drag) return;
+        drag.armed = true;
+        drag.tile.classList.add("drag-armed");
+        try {{
+          drag.tile.setPointerCapture(drag.pointerId);
+        }} catch (_) {{}}
+      }}, dragHoldMs);
+    }}
+
+    function cancelPendingPointerDrag() {{
+      if (!pointerDrag) return;
+      const drag = pointerDrag;
+      pointerDrag = null;
+      clearTimeout(drag.holdTimer);
+      try {{
+        drag.tile.releasePointerCapture(drag.pointerId);
+      }} catch (_) {{}}
+      drag.tile.style.transform = "";
+      drag.tile.classList.remove(
+        "drag-armed",
+        "dragging",
+        "pointer-dragging",
+      );
+      clearDropTarget();
+      draggedSlug = null;
+      didDrag = false;
     }}
 
     function pointerDropTarget(clientX, clientY) {{
@@ -2332,7 +2373,12 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       if (!pointerDrag || event.pointerId !== pointerDrag.pointerId) return;
       const dx = event.clientX - pointerDrag.startX;
       const dy = event.clientY - pointerDrag.startY;
-      if (!pointerDrag.active && Math.hypot(dx, dy) <= dragThresholdPx) return;
+      const distance = Math.hypot(dx, dy);
+      if (!pointerDrag.armed) {{
+        if (distance > dragHoldMoveTolerancePx) cancelPendingPointerDrag();
+        return;
+      }}
+      if (!pointerDrag.active && distance <= dragThresholdPx) return;
       if (!pointerDrag.active) {{
         pointerDrag.active = true;
         draggedSlug = pointerDrag.slug;
@@ -2358,11 +2404,18 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       if (!pointerDrag || event.pointerId !== pointerDrag.pointerId) return;
       const drag = pointerDrag;
       pointerDrag = null;
-      if (!drag.active) return;
-      event.preventDefault();
+      clearTimeout(drag.holdTimer);
+      drag.tile.classList.remove("drag-armed");
+      if (!drag.armed) return;
+      if (event.cancelable) event.preventDefault();
       try {{
         drag.tile.releasePointerCapture(event.pointerId);
       }} catch (_) {{}}
+      suppressNextClick = true;
+      setTimeout(() => {{
+        suppressNextClick = false;
+      }}, 350);
+      if (!drag.active) return;
       drag.tile.style.transform = "";
       drag.tile.classList.remove("dragging", "pointer-dragging");
       clearDropTarget();
@@ -2373,16 +2426,15 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
           persistOrder();
         }}
       }}
-      suppressNextClick = true;
-      setTimeout(() => {{
-        suppressNextClick = false;
-      }}, 350);
       draggedSlug = null;
       didDrag = false;
     }}
 
     function suppressExpandedClick() {{
-      suppressClickUntil = Math.max(suppressClickUntil, Date.now() + 1000);
+      suppressClickUntil = Math.max(
+        suppressClickUntil,
+        Date.now() + expandedClickSuppressMs,
+      );
     }}
 
     function handleSafariPinch() {{

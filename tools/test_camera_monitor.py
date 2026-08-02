@@ -526,8 +526,18 @@ class NativeStreamTest(unittest.TestCase):
         self.assertNotIn("transition: opacity", page)
         self.assertNotIn(".tile::after", page)
         self.assertIn("const dragThresholdPx = 20", page)
+        self.assertIn("const dragHoldMs = 450", page)
+        self.assertIn("const dragHoldMoveTolerancePx = 10", page)
+        self.assertIn(
+            'tile.draggable = !window.matchMedia("(pointer: coarse)").matches',
+            page,
+        )
         self.assertIn('tile.addEventListener("pointerdown", handlePointerDown)', page)
-        self.assertIn("Math.hypot(dx, dy) <= dragThresholdPx", page)
+        self.assertIn("drag.holdTimer = setTimeout", page)
+        self.assertIn("drag.armed = true", page)
+        self.assertIn('"drag-armed",\n        "dragging",', page)
+        self.assertIn("distance > dragHoldMoveTolerancePx", page)
+        self.assertIn("distance <= dragThresholdPx", page)
         self.assertIn("pointerDropTarget(event.clientX, event.clientY)", page)
         self.assertIn("[nextOrder[fromIndex], nextOrder[targetIndex]]", page)
         self.assertNotIn("nextOrder.splice", page)
@@ -535,6 +545,9 @@ class NativeStreamTest(unittest.TestCase):
         self.assertIn("expandedPointers.size > 1", page)
         self.assertIn('document.addEventListener("gesturestart", handleSafariPinch', page)
         self.assertIn("Date.now() < suppressClickUntil", page)
+        self.assertIn("const expandedClickSuppressMs = 180", page)
+        self.assertNotIn("Date.now() + 1000", page)
+        self.assertIn(".tile { touch-action: pan-y; }", page)
         self.assertIn(".tile.expanded { touch-action: pan-x pan-y pinch-zoom; }", page)
 
     def test_monitor_server_accepts_parallel_browser_connections(self) -> None:
