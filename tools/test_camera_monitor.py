@@ -116,6 +116,12 @@ class ConfigTest(unittest.TestCase):
 
 
 class CameraOwnershipTest(unittest.TestCase):
+    def test_thumbnail_attempt_outlasts_eufy_start_command(self) -> None:
+        self.assertGreater(
+            camera_monitor.EUFY_THUMBNAIL_ATTEMPT_TIMEOUT_SECONDS,
+            camera_backends.EUFY_COMMAND_TIMEOUT_SECONDS,
+        )
+
     def test_warming_expires_after_48_hours(self) -> None:
         server = make_server(FakeRunner())
         server.last_viewer_activity_at = time.time() - 48 * 60 * 60 - 1
@@ -195,6 +201,7 @@ class EufyRecoveryTest(unittest.TestCase):
         received_age: float,
         failures: int,
         displayed_age: float | None = None,
+        error: str = "",
     ) -> dict[str, object]:
         return {
             "slug": slug,
@@ -204,6 +211,7 @@ class EufyRecoveryTest(unittest.TestCase):
             "received_age_seconds": received_age,
             "latest_received_at": time.time() - received_age,
             "consecutive_failure_count": failures,
+            "last_error": error,
         }
 
     def test_uses_received_age_instead_of_unchanged_frame_age(self) -> None:
@@ -261,6 +269,39 @@ class EufyRecoveryTest(unittest.TestCase):
                 stale_slugs=("barn",),
             ),
         )
+
+    def test_restarts_quickly_for_an_orphaned_livestream(self) -> None:
+        snapshots = [
+            self.snapshot(
+                "dam",
+                received_age=301,
+                failures=2,
+                error=(
+                    "RuntimeError: Eufy command device.start_livestream "
+                    "device_livestream_already_running"
+                ),
+            ),
+        ]
+
+        self.assertEqual(
+            camera_monitor.choose_eufy_recovery(snapshots, {}),
+            camera_monitor.EufyRecoveryDecision(
+                reason="orphaned_eufy_livestream",
+                stale_slugs=("dam",),
+            ),
+        )
+
+    def test_orphaned_livestream_requires_repeated_failure(self) -> None:
+        snapshots = [
+            self.snapshot(
+                "dam",
+                received_age=3600,
+                failures=1,
+                error="device_livestream_already_running",
+            ),
+        ]
+
+        self.assertIsNone(camera_monitor.choose_eufy_recovery(snapshots, {}))
 
     def test_thumbnail_failures_contribute_to_recovery_decision(self) -> None:
         snapshots = [
@@ -369,6 +410,8 @@ class EufyRecoveryTest(unittest.TestCase):
         server.pause_camera_work = mock.Mock(
             side_effect=lambda: setattr(server, "paused", True)
         )
+        server.prepare_eufy_after_recovery = mock.Mock()
+        server.touch_visible_runners = mock.Mock()
         connected = threading.Event()
         connected.set()
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -398,6 +441,8 @@ class EufyRecoveryTest(unittest.TestCase):
 
         restart.assert_called_once_with()
         server.pause_camera_work.assert_called_once_with()
+        server.prepare_eufy_after_recovery.assert_called_once_with()
+        server.touch_visible_runners.assert_called_once_with()
         self.assertFalse(server.paused)
         self.assertEqual(controller.last_result, "restart_completed")
         self.assertEqual(persisted["last_result"], "restart_completed")

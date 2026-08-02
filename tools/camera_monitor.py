@@ -27,6 +27,7 @@ from urllib.parse import urlparse
 
 from camera_backends import (
     DirectEufyClient,
+    EUFY_COMMAND_TIMEOUT_SECONDS,
     JsonWebSocket,
     NestCredentials,
     configure_nest_streams,
@@ -42,7 +43,7 @@ VIEWER_ACTIVITY_WRITE_INTERVAL_SECONDS = 60.0
 DEFAULT_WARM_IDLE_HOURS = 48.0
 DEFAULT_EUFY_VIEWER_SLOTS = 2
 DEFAULT_EUFY_THUMBNAIL_REFRESH_SECONDS = 20.0
-EUFY_THUMBNAIL_ATTEMPT_TIMEOUT_SECONDS = 15.0
+EUFY_THUMBNAIL_ATTEMPT_TIMEOUT_SECONDS = EUFY_COMMAND_TIMEOUT_SECONDS + 10.0
 EUFY_THUMBNAIL_RETRY_BASE_SECONDS = 20.0
 EUFY_THUMBNAIL_RETRY_MAX_SECONDS = 5 * 60.0
 DIRECT_STATUS_INTERVAL_SECONDS = 2.0
@@ -74,8 +75,10 @@ EUFY_RETRY_BACKOFF_MAX_SECONDS = 5 * 60
 EUFY_RECOVERY_CHECK_SECONDS = 30.0
 EUFY_RECOVERY_MULTI_STALE_SECONDS = 15 * 60.0
 EUFY_RECOVERY_SINGLE_STALE_SECONDS = 30 * 60.0
+EUFY_RECOVERY_ORPHAN_STALE_SECONDS = 5 * 60.0
 EUFY_RECOVERY_MULTI_MIN_FAILURES = 3
 EUFY_RECOVERY_SINGLE_MIN_FAILURES = 4
+EUFY_RECOVERY_ORPHAN_MIN_FAILURES = 2
 EUFY_RECOVERY_COOLDOWN_SECONDS = 60 * 60.0
 EUFY_RECOVERY_MAX_RESTARTS_24H = 2
 EUFY_RECOVERY_VERIFY_SECONDS = 10 * 60.0
@@ -127,7 +130,7 @@ def choose_eufy_recovery(
     thumbnail_failures: dict[str, int],
 ) -> EufyRecoveryDecision | None:
     """Choose a conservative shared-service restart from received-frame health."""
-    candidates: list[tuple[str, float, int]] = []
+    candidates: list[tuple[str, float, int, str]] = []
     for snapshot in snapshots:
         if snapshot.get("source") != "eufy":
             continue
@@ -146,11 +149,25 @@ def choose_eufy_recovery(
         except (TypeError, ValueError):
             runner_failures = 0
         failures = max(runner_failures, int(thumbnail_failures.get(slug, 0)))
-        candidates.append((slug, age_seconds, failures))
+        error = str(snapshot.get("last_error") or "")
+        candidates.append((slug, age_seconds, failures, error))
+
+    orphaned = sorted(
+        slug
+        for slug, age_seconds, failures, error in candidates
+        if age_seconds >= EUFY_RECOVERY_ORPHAN_STALE_SECONDS
+        and failures >= EUFY_RECOVERY_ORPHAN_MIN_FAILURES
+        and "device_livestream_already_running" in error
+    )
+    if orphaned:
+        return EufyRecoveryDecision(
+            reason="orphaned_eufy_livestream",
+            stale_slugs=tuple(orphaned),
+        )
 
     multi_stale = sorted(
         slug
-        for slug, age_seconds, failures in candidates
+        for slug, age_seconds, failures, _error in candidates
         if age_seconds >= EUFY_RECOVERY_MULTI_STALE_SECONDS
         and failures >= EUFY_RECOVERY_MULTI_MIN_FAILURES
     )
@@ -162,7 +179,7 @@ def choose_eufy_recovery(
 
     single_stale = sorted(
         slug
-        for slug, age_seconds, failures in candidates
+        for slug, age_seconds, failures, _error in candidates
         if age_seconds >= EUFY_RECOVERY_SINGLE_STALE_SECONDS
         and failures >= EUFY_RECOVERY_SINGLE_MIN_FAILURES
     )
@@ -402,6 +419,23 @@ class CameraRunner:
     def stop_warm(self) -> None:
         with self.lock:
             self.warm_wanted_until = 0.0
+
+    def wait_until_stopped(self, timeout: float) -> bool:
+        with self.lock:
+            thread = self.thread
+        if thread is not None and thread is not threading.current_thread():
+            thread.join(timeout=max(0.0, timeout))
+        return thread is None or not thread.is_alive()
+
+    def reset_after_eufy_recovery(self) -> None:
+        with self.lock:
+            self.live = False
+            self.last_error = ""
+            self.last_start_status = None
+            self.retry_count = 0
+            self.consecutive_failure_count = 0
+            self.started_at = 0.0
+            self.last_attempt_at = 0.0
 
     def receive_browser_frame(self, frame: bytes, content_type: str) -> None:
         self._set_state(live=True, error="", frame=frame, content_type=content_type)
@@ -2873,6 +2907,22 @@ class MonitorServer(ThreadingHTTPServer):
             self.camera_order = normalized
         return normalized
 
+    def prepare_eufy_after_recovery(self) -> None:
+        runners = [
+            runner
+            for runner in self.runners.values()
+            if runner.config.source == "eufy"
+        ]
+        deadline = time.monotonic() + 15.0
+        for runner in runners:
+            runner.wait_until_stopped(max(0.0, deadline - time.monotonic()))
+        for runner in runners:
+            runner.reset_after_eufy_recovery()
+        with self.state_lock:
+            self.eufy_thumbnail_targets.clear()
+            self.eufy_thumbnail_retry_after.clear()
+            self.eufy_thumbnail_failures.clear()
+
     def pause_camera_work(self) -> None:
         self.paused = True
         for runner in self.runners.values():
@@ -2982,8 +3032,10 @@ class EufyRecoveryController:
                     1,
                 ),
                 "thresholds": {
+                    "orphan_stale_seconds": EUFY_RECOVERY_ORPHAN_STALE_SECONDS,
                     "multiple_stale_seconds": EUFY_RECOVERY_MULTI_STALE_SECONDS,
                     "single_stale_seconds": EUFY_RECOVERY_SINGLE_STALE_SECONDS,
+                    "orphan_min_failures": EUFY_RECOVERY_ORPHAN_MIN_FAILURES,
                     "multiple_min_failures": EUFY_RECOVERY_MULTI_MIN_FAILURES,
                     "single_min_failures": EUFY_RECOVERY_SINGLE_MIN_FAILURES,
                     "cooldown_seconds": EUFY_RECOVERY_COOLDOWN_SECONDS,
@@ -3100,6 +3152,7 @@ class EufyRecoveryController:
             flush=True,
         )
 
+        restart_completed = False
         self.server.pause_camera_work()
         try:
             self._request_supervisor_restart()
@@ -3112,6 +3165,8 @@ class EufyRecoveryController:
                 self.stopping.wait(1.0)
             if not self.eufy.connected.is_set():
                 raise TimeoutError("Eufy service did not reconnect after restart")
+            self.server.prepare_eufy_after_recovery()
+            restart_completed = True
             with self.lock:
                 self.phase = "verifying"
                 self.last_result = "restart_completed"
@@ -3125,6 +3180,8 @@ class EufyRecoveryController:
                 self._persist_state()
         finally:
             self.server.paused = False
+            if restart_completed:
+                self.server.touch_visible_runners()
 
     def _request_supervisor_restart(self) -> None:
         addon = urllib.parse.quote(self.addon_slug, safe="")
