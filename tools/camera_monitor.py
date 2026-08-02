@@ -83,6 +83,7 @@ EUFY_RECOVERY_COOLDOWN_SECONDS = 60 * 60.0
 EUFY_RECOVERY_MAX_RESTARTS_24H = 2
 EUFY_RECOVERY_VERIFY_SECONDS = 10 * 60.0
 EUFY_RECOVERY_CONNECT_TIMEOUT_SECONDS = 2 * 60.0
+EUFY_RECOVERY_QUARANTINE_SECONDS = 24 * 60 * 60.0
 START_GATE = threading.Semaphore(1)
 
 
@@ -2934,9 +2935,7 @@ class MonitorServer(ThreadingHTTPServer):
         if self.paused:
             return
         focused_slug = self.active_focus_slug()
-        eufy_targets = (
-            self._refresh_eufy_thumbnail_targets() if not keep_warm_only else set()
-        )
+        eufy_targets = self._refresh_eufy_thumbnail_targets()
         with self.state_lock:
             order = list(self.camera_order)
         for slug in order:
@@ -2950,11 +2949,13 @@ class MonitorServer(ThreadingHTTPServer):
             ):
                 continue
             if keep_warm_only:
-                if not runner.config.keep_warm:
-                    continue
                 if runner.config.source == "eufy":
-                    # Eufy thumbnails require browser decoding and are only
-                    # refreshed while a viewer has the wall open.
+                    if slug not in eufy_targets:
+                        runner.stop_when_idle()
+                    else:
+                        runner.touch(role="warm")
+                    continue
+                if not runner.config.keep_warm:
                     continue
                 runner.touch(role="warm")
             else:
@@ -3032,7 +3033,9 @@ class EufyRecoveryController:
         self.last_result = ""
         self.last_error = ""
         self.stale_slugs: tuple[str, ...] = ()
+        self.verification_targets: tuple[str, ...] = ()
         self.verification_pending: tuple[str, ...] = ()
+        self.quarantined_at: dict[str, float] = {}
         self._load_state()
 
     @classmethod
@@ -3077,7 +3080,9 @@ class EufyRecoveryController:
                 "enabled": self.enabled,
                 "phase": self.phase,
                 "stale_slugs": list(self.stale_slugs),
+                "verification_targets": list(self.verification_targets),
                 "verification_pending": list(self.verification_pending),
+                "quarantined_slugs": sorted(self.quarantined_at),
                 "last_checked_at": self.last_checked_at or None,
                 "last_restart_at": self.last_restart_at or None,
                 "last_reason": self.last_reason,
@@ -3103,6 +3108,7 @@ class EufyRecoveryController:
                     "cooldown_seconds": EUFY_RECOVERY_COOLDOWN_SECONDS,
                     "max_restarts_24h": EUFY_RECOVERY_MAX_RESTARTS_24H,
                     "verify_seconds": EUFY_RECOVERY_VERIFY_SECONDS,
+                    "quarantine_seconds": EUFY_RECOVERY_QUARANTINE_SECONDS,
                 },
             }
 
@@ -3111,7 +3117,14 @@ class EufyRecoveryController:
         snapshots = self.server.get_runner_snapshots()
         with self.server.state_lock:
             thumbnail_failures = dict(self.server.eufy_thumbnail_failures)
-        viewer_active = bool(self.server.viewer_activity_status()["viewer_active"])
+        viewer_status = self.server.viewer_activity_status()
+        viewer_active = bool(viewer_status["viewer_active"])
+        warm_agent_active = bool(
+            getattr(self.server, "warm_agent_active", lambda: False)()
+        )
+        refresh_active = viewer_active or (
+            bool(viewer_status.get("warm_allowed")) and warm_agent_active
+        )
 
         with self.lock:
             self.last_checked_at = now
@@ -3130,6 +3143,7 @@ class EufyRecoveryController:
             if self.phase == "restarting":
                 return
 
+            quarantines_changed = self._refresh_quarantines(snapshots, now)
             pending = self._verification_pending(snapshots)
             self.verification_pending = pending
             if self.last_result == "restart_completed":
@@ -3137,27 +3151,62 @@ class EufyRecoveryController:
                     self.phase = "verified"
                     self.last_result = "verified"
                     self.last_error = ""
+                    self.verification_targets = ()
                     self._persist_state()
                 elif now - self.last_restart_at < EUFY_RECOVERY_VERIFY_SECONDS:
                     self.phase = (
-                        "verifying" if viewer_active else "verification_waiting_for_viewer"
+                        "verifying"
+                        if refresh_active
+                        else "verification_waiting_for_refresh"
                     )
                     return
-                elif viewer_active:
+                elif refresh_active:
                     self.phase = "verification_failed"
                     self.last_result = "verification_failed"
                     self.last_error = (
-                        "Eufy frames did not all refresh after automatic recovery"
+                        "Targeted Eufy frames did not refresh after automatic recovery"
                     )
+                    for slug in pending:
+                        self.quarantined_at[slug] = now
                     self._persist_state()
                     return
 
             if self.server.paused:
                 self.phase = "paused"
                 return
-            if not viewer_active:
-                self.phase = "waiting_for_viewer"
+            if not refresh_active:
+                self.phase = "waiting_for_refresh"
                 self.stale_slugs = ()
+                if quarantines_changed:
+                    self._persist_state()
+                return
+
+            if self._migrate_failed_single_camera(snapshots, now):
+                quarantines_changed = True
+            active_quarantines = set(self.quarantined_at)
+            eligible_snapshots = [
+                snapshot
+                for snapshot in snapshots
+                if str(snapshot.get("slug", "")) not in active_quarantines
+            ]
+            eligible_failures = {
+                slug: failures
+                for slug, failures in thumbnail_failures.items()
+                if slug not in active_quarantines
+            }
+            decision = choose_eufy_recovery(
+                eligible_snapshots,
+                eligible_failures,
+            )
+            if decision is None:
+                self.phase = (
+                    "watching_with_quarantine"
+                    if active_quarantines
+                    else "watching"
+                )
+                self.stale_slugs = ()
+                if quarantines_changed:
+                    self._persist_state()
                 return
             if (
                 self.last_restart_at
@@ -3168,16 +3217,10 @@ class EufyRecoveryController:
             if len(self.restart_times) >= EUFY_RECOVERY_MAX_RESTARTS_24H:
                 self.phase = "restart_limit_reached"
                 return
-
-            decision = choose_eufy_recovery(snapshots, thumbnail_failures)
-            if decision is None:
-                self.phase = "watching"
-                self.stale_slugs = ()
-                return
             self.phase = "restarting"
             self.stale_slugs = decision.stale_slugs
 
-        self._restart_eufy(decision, now)
+        self._restart_eufy(decision, now, keep_warm_only=not viewer_active)
 
     def _run(self) -> None:
         while not self.stopping.is_set():
@@ -3193,6 +3236,8 @@ class EufyRecoveryController:
         self,
         decision: EufyRecoveryDecision,
         requested_at: float,
+        *,
+        keep_warm_only: bool = False,
     ) -> None:
         with self.lock:
             self.last_restart_at = requested_at
@@ -3200,6 +3245,7 @@ class EufyRecoveryController:
             self.last_reason = decision.reason
             self.last_result = "restart_requested"
             self.last_error = ""
+            self.verification_targets = decision.stale_slugs
             self.verification_pending = decision.stale_slugs
             self._persist_state()
         print(
@@ -3239,11 +3285,13 @@ class EufyRecoveryController:
                 self.phase = "restart_failed"
                 self.last_result = "restart_failed"
                 self.last_error = f"{type(exc).__name__}: {exc}"[:300]
+                self.verification_targets = ()
+                self.verification_pending = ()
                 self._persist_state()
         finally:
             self.server.paused = False
             if restart_completed:
-                self.server.touch_visible_runners()
+                self.server.touch_visible_runners(keep_warm_only=keep_warm_only)
 
     def _request_supervisor_restart(self) -> None:
         addon = urllib.parse.quote(self.addon_slug, safe="")
@@ -3269,17 +3317,88 @@ class EufyRecoveryController:
     ) -> tuple[str, ...]:
         if self.last_restart_at <= 0:
             return ()
+        targets = set(self.verification_targets)
+        if not targets:
+            return ()
         pending = []
         for snapshot in snapshots:
-            if snapshot.get("source") != "eufy":
+            slug = str(snapshot.get("slug", ""))
+            if snapshot.get("source") != "eufy" or slug not in targets:
                 continue
             try:
                 latest_received_at = float(snapshot.get("latest_received_at") or 0.0)
             except (TypeError, ValueError):
                 latest_received_at = 0.0
             if latest_received_at <= self.last_restart_at:
-                pending.append(str(snapshot.get("slug", "")))
+                pending.append(slug)
+        observed = {
+            str(snapshot.get("slug", ""))
+            for snapshot in snapshots
+            if snapshot.get("source") == "eufy"
+        }
+        pending.extend(targets - observed)
         return tuple(sorted(slug for slug in pending if slug))
+
+    def _refresh_quarantines(
+        self,
+        snapshots: list[dict[str, Any]],
+        now: float,
+    ) -> bool:
+        latest_received = {}
+        for snapshot in snapshots:
+            slug = str(snapshot.get("slug", ""))
+            try:
+                latest_received[slug] = float(
+                    snapshot.get("latest_received_at") or 0.0
+                )
+            except (TypeError, ValueError):
+                latest_received[slug] = 0.0
+
+        before = dict(self.quarantined_at)
+        self.quarantined_at = {
+            slug: quarantined_at
+            for slug, quarantined_at in self.quarantined_at.items()
+            if latest_received.get(slug, 0.0) <= quarantined_at
+            and now - quarantined_at < EUFY_RECOVERY_QUARANTINE_SECONDS
+        }
+        return self.quarantined_at != before
+
+    def _migrate_failed_single_camera(
+        self,
+        snapshots: list[dict[str, Any]],
+        now: float,
+    ) -> bool:
+        if (
+            self.last_result != "verification_failed"
+            or self.verification_targets
+            or self.quarantined_at
+            or self.last_restart_at <= 0
+            or self.last_reason
+            not in {
+                "one_persistently_stale_eufy_camera",
+                "orphaned_eufy_livestream",
+            }
+        ):
+            return False
+        failed_slugs = []
+        for snapshot in snapshots:
+            if snapshot.get("source") != "eufy":
+                continue
+            try:
+                latest_received_at = float(
+                    snapshot.get("latest_received_at") or 0.0
+                )
+            except (TypeError, ValueError):
+                latest_received_at = 0.0
+            if latest_received_at <= self.last_restart_at:
+                failed_slugs.append(str(snapshot.get("slug", "")))
+        failed_slugs = sorted(slug for slug in failed_slugs if slug)
+        if len(failed_slugs) != 1:
+            return False
+        self.verification_targets = tuple(failed_slugs)
+        self.verification_pending = tuple(failed_slugs)
+        self.quarantined_at[failed_slugs[0]] = now
+        return True
 
     def _recent_restart_times(self, now: float) -> list[float]:
         cutoff = now - 24 * 60 * 60
@@ -3295,6 +3414,16 @@ class EufyRecoveryController:
             self.last_reason = str(payload.get("last_reason", ""))
             self.last_result = str(payload.get("last_result", ""))
             self.last_error = str(payload.get("last_error", ""))[:300]
+            self.verification_targets = tuple(
+                str(slug)
+                for slug in payload.get("verification_targets", [])
+                if slug
+            )
+            self.quarantined_at = {
+                str(slug): float(timestamp)
+                for slug, timestamp in payload.get("quarantined_at", {}).items()
+                if slug
+            }
         except (FileNotFoundError, json.JSONDecodeError, TypeError, ValueError):
             return
 
@@ -3310,6 +3439,8 @@ class EufyRecoveryController:
                         "last_reason": self.last_reason,
                         "last_result": self.last_result,
                         "last_error": self.last_error,
+                        "verification_targets": list(self.verification_targets),
+                        "quarantined_at": self.quarantined_at,
                     }
                 ),
                 encoding="utf-8",

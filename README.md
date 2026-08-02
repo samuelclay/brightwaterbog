@@ -65,26 +65,29 @@ starts are serialized and failures use bounded backoff.
 
 Eufy thumbnails are snapshots, not six permanent live streams. The Home
 Assistant deployment wakes at most one Eufy camera at a time and targets a
-five-minute thumbnail refresh. Each stream is released as soon as the browser
-decodes and caches a fresh frame, then the oldest thumbnail goes next.
+five-minute thumbnail refresh. A lightweight resident agent captures a JPEG
+from shared go2rtc and writes it into the monitor cache, so refreshes continue
+without an open browser. Each stream is released as soon as a fresh frame is
+cached, then the oldest thumbnail goes next.
 Expanding one grants it a renewable 90-second focus lease: other Eufy work is
 released and the selected camera streams continuously with one-second
 visual-health checks. A `LIVE` badge requires a recently decoded frame;
 transport bytes alone cannot make a frozen image look live.
 
 The production add-on also runs a bounded Eufy recovery circuit breaker while
-the wall has an active viewer. It uses the last received frame—not merely the
-last visibly changed frame—and repeated refresh failures. Two cameras stuck for
-15 minutes, or one camera stuck for 30 minutes, trigger a controlled restart of
-only `eufy-security-ws`. Restarts have a one-hour cooldown, are capped at two
-per day, and must be followed by fresh frames from all six Eufy cameras.
+either the wall or resident refresh agent is active. It uses the last received
+frame—not merely the last visibly changed frame—and repeated refresh failures.
+Two cameras stuck for 15 minutes, or one camera stuck for 30 minutes, trigger a
+controlled restart of only `eufy-security-ws`. Restarts have a one-hour
+cooldown, are capped at two per day, and verify only the cameras that triggered
+the restart. A camera that still fails is quarantined from shared restarts for
+24 hours; a fresh frame releases it immediately.
 
-When resident warming is enabled, lightweight server-side consumers keep only
-selected Nest transports warm without decoding their video. Eufy is never
-warmed in the background because its thumbnails require a visible browser to
-decode a frame. After 48 hours without a viewer, Nest background streaming
-stops; opening the wall wakes it again. Set `CAMERA_MONITOR_WARM_IDLE_HOURS` to
-change the window.
+When resident warming is enabled, lightweight server-side consumers keep
+selected Nest transports warm without decoding their video and rotate through
+Eufy snapshots one at a time. After 48 hours without a viewer, all background
+camera work stops; opening the wall wakes it again. Set
+`CAMERA_MONITOR_WARM_IDLE_HOURS` to change the window.
 
 Set `"auto_start": false` for a known-offline camera. It will keep showing its
 last cached frame without continuously attempting to start. Stale frames remain
