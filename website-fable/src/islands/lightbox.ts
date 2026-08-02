@@ -1,5 +1,6 @@
-// Fullscreen photo viewer with pinch/wheel zoom, pan, swipe between photos, and
-// dismiss on tap / swipe-away / Esc. Works with mouse, touch, and trackpad.
+// Fullscreen photo viewer with pinch/wheel zoom, pan, carousel swipe between
+// photos, and dismiss on tap / swipe-away / Esc. Works with mouse, touch, and
+// trackpad.
 
 interface Item {
   full: string;
@@ -24,9 +25,16 @@ function init() {
   let tx = 0;
   let ty = 0;
   let hiLoaded = false;
+  let sliding = false;
+
+  // Neighbor photo element shown during carousel swipes/slides.
+  let peer: HTMLImageElement | null = null;
+  let peerDir: 1 | -1 = 1;
 
   const MIN = 1;
   const MAX = 6;
+  const SLIDE_MS = 320;
+  const SLIDE_EASE = "cubic-bezier(0.22, 0.61, 0.36, 1)";
   const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   let scrollY = 0;
@@ -60,6 +68,13 @@ function init() {
     img.style.transition = "none";
     apply();
   }
+  function resetZoomAnimated() {
+    scale = 1;
+    tx = 0;
+    ty = 0;
+    img.style.transition = reduce ? "none" : "transform 0.3s ease";
+    apply();
+  }
 
   function clampPan() {
     const rect = stage.getBoundingClientRect();
@@ -71,13 +86,9 @@ function init() {
     ty = Math.min(maxY, Math.max(-maxY, ty));
   }
 
-  function render(i: number) {
-    index = (i + items.length) % items.length;
-    const item = items[index];
-    hiLoaded = false;
-    resetTransform();
-    img.src = item.full;
-    // Upgrade to the high-res source in the background.
+  const stageWidth = () => stage.getBoundingClientRect().width;
+
+  function upgradeHi(item: Item) {
     const hi = new Image();
     hi.onload = () => {
       if (items[index] === item) {
@@ -86,9 +97,86 @@ function init() {
       }
     };
     hi.src = item.hi;
+  }
+
+  function removePeer() {
+    peer?.remove();
+    peer = null;
+  }
+
+  // Create (or keep) the neighbor photo sitting one stage-width away in the
+  // given direction, ready to slide in.
+  function ensurePeer(dir: 1 | -1) {
+    if (peer && peerDir === dir) return;
+    removePeer();
+    const it = items[(index + dir + items.length) % items.length];
+    const g = document.createElement("img");
+    g.className = img.className;
+    g.alt = "";
+    g.src = it.full;
+    g.style.transition = "none";
+    g.style.transform = `translateX(${dir * stageWidth()}px)`;
+    stage.appendChild(g);
+    peer = g;
+    peerDir = dir;
+  }
+
+  function render(i: number) {
+    index = (i + items.length) % items.length;
+    const item = items[index];
+    hiLoaded = false;
+    sliding = false;
+    removePeer();
+    resetTransform();
+    img.style.opacity = "1";
+    img.src = item.full;
+    upgradeHi(item);
     const single = items.length < 2;
     if (btnPrev) btnPrev.disabled = single;
     if (btnNext) btnNext.disabled = single;
+  }
+
+  // Carousel slide: the current photo exits one way while the neighbor comes
+  // in from the other side, continuing from wherever a swipe dragged them.
+  function slideTo(dir: 1 | -1) {
+    if (sliding || items.length < 2) return;
+    sliding = true;
+    const width = stageWidth();
+    const nextIndex = (index + dir + items.length) % items.length;
+    const item = items[nextIndex];
+    ensurePeer(dir);
+    const p = peer!;
+    p.getBoundingClientRect(); // commit the start position before animating
+    const t = reduce ? "none" : `transform ${SLIDE_MS}ms ${SLIDE_EASE}`;
+    img.style.transition = t;
+    p.style.transition = t;
+    img.style.transform = `translateX(${-dir * width}px)`;
+    p.style.transform = "translateX(0px)";
+    const finish = () => {
+      index = nextIndex;
+      hiLoaded = false;
+      resetTransform();
+      // The peer keeps covering the stage until the new src is decoded, so
+      // the swap from peer to the canonical img never flashes.
+      img.style.opacity = "0";
+      img.src = item.full;
+      let revealed = false;
+      const reveal = () => {
+        if (revealed) return;
+        revealed = true;
+        img.style.opacity = "1";
+        if (peer === p) peer = null;
+        p.remove();
+        sliding = false;
+        upgradeHi(item);
+      };
+      img.decode().then(reveal, reveal);
+      // decode() is paint-driven and can stall (e.g. hidden tabs) — the peer
+      // already showed this src, so revealing without it is safe.
+      setTimeout(reveal, 400);
+    };
+    if (reduce) finish();
+    else setTimeout(finish, SLIDE_MS + 20);
   }
 
   function open(list: Item[], start: number) {
@@ -109,6 +197,8 @@ function init() {
       root.hidden = true;
       root.setAttribute("aria-hidden", "true");
       unlockScroll();
+      removePeer();
+      sliding = false;
       img.src = "";
       img.style.opacity = "1";
     };
@@ -138,8 +228,8 @@ function init() {
 
   function onKey(e: KeyboardEvent) {
     if (e.key === "Escape") close();
-    else if (e.key === "ArrowRight") render(index + 1);
-    else if (e.key === "ArrowLeft") render(index - 1);
+    else if (e.key === "ArrowRight") slideTo(1);
+    else if (e.key === "ArrowLeft") slideTo(-1);
   }
 
   // ---- pointer gestures (mouse + touch unified) ----
@@ -161,7 +251,10 @@ function init() {
   });
 
   stage.addEventListener("pointerdown", (e) => {
-    stage.setPointerCapture(e.pointerId);
+    if (sliding) return;
+    try {
+      stage.setPointerCapture(e.pointerId);
+    } catch (_) {} // synthetic or already-released pointers can't be captured
     pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
     moved = false;
     if (pts.size === 2) {
@@ -209,8 +302,14 @@ function init() {
       mode = Math.abs(dx) > Math.abs(dy) ? "swipe" : "dismiss";
     }
     if (mode === "swipe") {
+      // Carousel drag: the photo follows the finger and the neighbor for the
+      // current drag direction rides along one stage-width away.
+      const dir: 1 | -1 = dx <= 0 ? 1 : -1;
+      ensurePeer(dir);
       img.style.transition = "none";
       img.style.transform = `translateX(${dx}px)`;
+      peer!.style.transition = "none";
+      peer!.style.transform = `translateX(${dx + dir * stageWidth()}px)`;
     } else if (mode === "dismiss") {
       img.style.transition = "none";
       img.style.transform = `translateY(${dy}px)`;
@@ -219,6 +318,7 @@ function init() {
   });
 
   function endPointer(e: PointerEvent) {
+    if (!pts.has(e.pointerId)) return;
     pts.delete(e.pointerId);
     if (pts.size >= 1) return; // still pinching/panning
 
@@ -226,15 +326,15 @@ function init() {
     const dy = e.clientY - startY;
 
     if (scale > 1.02) {
-      if (!moved) resetTransform(); // tap while zoomed → zoom back out (stays open)
+      if (!moved) resetZoomAnimated(); // tap while zoomed → animate back out (stays open)
       mode = "none";
       return;
     }
 
     if (mode === "swipe") {
-      if (dx < -60) render(index + 1);
-      else if (dx > 60) render(index - 1);
-      snapBack();
+      if (dx < -60) slideTo(1);
+      else if (dx > 60) slideTo(-1);
+      else snapBack();
     } else if (mode === "dismiss") {
       if (Math.abs(dy) > 90) close();
       else snapBack();
@@ -251,9 +351,18 @@ function init() {
   }
 
   function snapBack() {
-    img.style.transition = reduce ? "none" : "transform 0.25s ease, opacity 0.25s ease";
+    const t = reduce ? "none" : "transform 0.25s ease, opacity 0.25s ease";
+    img.style.transition = t;
     img.style.transform = scale > 1.02 ? `translate(${tx}px,${ty}px) scale(${scale})` : "";
     img.style.opacity = "1";
+    if (peer) {
+      const p = peer;
+      const d = peerDir;
+      peer = null;
+      p.style.transition = t;
+      p.style.transform = `translateX(${d * stageWidth()}px)`;
+      setTimeout(() => p.remove(), 300);
+    }
   }
 
   stage.addEventListener("pointerup", endPointer);
@@ -264,6 +373,7 @@ function init() {
     "wheel",
     (e) => {
       e.preventDefault();
+      if (sliding) return;
       const step = e.deltaY < 0 ? 1.18 : 1 / 1.18;
       zoomAt(e.clientX, e.clientY, scale * step);
     },
@@ -271,8 +381,8 @@ function init() {
   );
 
   btnClose?.addEventListener("click", close);
-  btnPrev?.addEventListener("click", () => render(index - 1));
-  btnNext?.addEventListener("click", () => render(index + 1));
+  btnPrev?.addEventListener("click", () => slideTo(-1));
+  btnNext?.addEventListener("click", () => slideTo(1));
 
   // ---- wire up triggers ----
   function itemsFromStrip(track: Element): Item[] {

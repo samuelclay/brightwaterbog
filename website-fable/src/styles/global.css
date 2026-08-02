@@ -296,7 +296,6 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   gap: 14px;
   overflow-x: auto;
   overflow-y: hidden;
-  scroll-snap-type: x proximity;
   padding: 4px 0 18px;
   scrollbar-width: thin;
   scrollbar-color: var(--came-strong) transparent;
@@ -311,7 +310,6 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   flex: 0 0 auto;
   height: clamp(340px, 58vh, 520px);
   width: clamp(300px, 40vw, 440px); /* uniform "cover" tiles */
-  scroll-snap-align: start;
   border-radius: var(--radius);
   overflow: hidden;
   background: var(--surface);
@@ -655,6 +653,7 @@ footer.site-foot {
   overflow: hidden;
 }
 .lightbox__img {
+  grid-area: 1 / 1; /* the carousel peer stacks in the same cell */
   max-width: 96vw;
   max-height: 92svh;
   object-fit: contain;
