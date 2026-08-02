@@ -4,7 +4,7 @@ import Base from "../layouts/Base.astro";
 import Hero from "../components/Hero.astro";
 import Minimap from "../components/Minimap.astro";
 import Stop from "../components/Stop.astro";
-import PieceGrid from "../components/PieceGrid.astro";
+import PieceRows from "../components/PieceRows.astro";
 import PoemGallery from "../components/PoemGallery.astro";
 import VisitPanel from "../components/VisitPanel.astro";
 import photosData from "../data/photos.json";
@@ -21,7 +21,13 @@ const indoor = all
   .map((entry) => ({ entry, photos: photos[entry.id] ?? [] }));
 const unplaced = all
   .filter((e) => e.data.section === "unplaced")
+  .sort((a, b) => a.data.title.localeCompare(b.data.title))
   .map((entry) => ({ entry, photos: photos[entry.id] ?? [] }));
+// Unplaced pieces render as extra rows at the end of the indoor section.
+const indoorRows = [
+  ...indoor.map((x) => ({ ...x, eyebrow: "Indoor · Stained glass" })),
+  ...unplaced.map((x) => ({ ...x, eyebrow: "Indoor · Unplaced" })),
+];
 const poetry = all.find((e) => e.data.section === "poetry");
 const poetryPhotos = poetry ? (photos[poetry.id] ?? []) : [];
 ---
@@ -49,10 +55,11 @@ const poetryPhotos = poetry ? (photos[poetry.id] ?? []) : [];
       <p class="section-head__eyebrow eyebrow">Off the trail · Inside the house</p>
       <h2 class="section-head__title">Indoor stained glass</h2>
       <p class="section-head__lede">
-        Not part of the walk — these pieces live inside. Tap any to see it full screen.
+        Not part of the walk — these pieces live inside. Tap any photo to see it full
+        screen. Pieces not yet placed are listed at the end.
       </p>
     </div>
-    <PieceGrid items={indoor} />
+    <PieceRows items={indoorRows} />
   </section>
 
   {
@@ -78,22 +85,6 @@ const poetryPhotos = poetry ? (photos[poetry.id] ?? []) : [];
     </div>
     <div class="visit-wrap"><VisitPanel /></div>
   </section>
-
-  {
-    unplaced.length > 0 && (
-      <section id="unplaced">
-        <div class="section-head">
-          <p class="section-head__eyebrow eyebrow">To be sorted</p>
-          <h2 class="section-head__title">Unplaced</h2>
-          <p class="section-head__lede">
-            Scans not yet identified or located. They'll move onto the trail or indoors once
-            we know where they belong.
-          </p>
-        </div>
-        <PieceGrid items={unplaced} />
-      </section>
-    )
-  }
 
   <footer class="site-foot">
     <span>Bright Water Bog · Shutesbury, MA</span>

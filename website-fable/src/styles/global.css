@@ -482,29 +482,31 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 .section-head__lede { margin-top: 1.2rem; max-width: var(--measure); color: var(--ink-dim); }
 
 /* =========================================================================
-   INDOOR GALLERY (grid, not on the map)
+   INDOOR PIECES — one per line, same photo strip as the trail
    ========================================================================= */
-.gallery {
+.piece-rows {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 clamp(1rem, 3vw, 3rem) 6rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: clamp(1rem, 2vw, 1.8rem);
 }
-.piece { min-width: 0; }
-.piece__thumbs {
-  display: grid;
-  grid-template-columns: 1fr;
-  border-radius: var(--radius);
-  overflow: hidden;
-  border: 1px solid var(--came);
-  aspect-ratio: 4 / 5;
-  background: var(--surface);
+.piece-row { padding: clamp(1.6rem, 3.2vw, 2.6rem) 0; }
+.piece-row + .piece-row { border-top: 1px solid var(--came); }
+.piece-row .eyebrow { margin-bottom: 0.55rem; }
+.piece-row__title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-variation-settings: "opsz" 60, "SOFT" 30;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  line-height: 1.05;
 }
-.piece__thumbs img { width: 100%; height: 100%; object-fit: cover; }
-.piece__title { margin-top: 0.8rem; font-family: var(--font-display); font-size: 1.3rem; font-variation-settings: "opsz" 40, "SOFT" 30; }
-.piece__meta { font-family: var(--font-mono); font-size: 0.7rem; color: var(--ink-faint); letter-spacing: 0.06em; margin-top: 0.2rem; }
+.piece__meta { font-family: var(--font-mono); font-size: 0.7rem; color: var(--ink-faint); letter-spacing: 0.06em; margin-top: 0.35rem; }
+/* rows aren't trail stops, so the strip never gets a stop's is-active cue */
+.piece-row .strip { opacity: 1; margin-top: clamp(1rem, 2vw, 1.4rem); }
+/* indoor rows get shorter tiles than the trail, but the same carousel */
+.strip--compact .frame {
+  height: clamp(220px, 34vh, 340px);
+  width: clamp(190px, 24vw, 300px);
+}
 
 /* =========================================================================
    POETRY GALLERY

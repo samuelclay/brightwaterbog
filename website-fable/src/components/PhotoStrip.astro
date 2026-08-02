@@ -12,8 +12,9 @@ interface PhotoEntry {
 interface Props {
   photos: PhotoEntry[];
   title: string;
+  compact?: boolean;
 }
-const { photos, title } = Astro.props;
+const { photos, title, compact = false } = Astro.props;
 
 const ERAS = [
   { era: "now", label: "Now", note: "Today" },
@@ -46,7 +47,7 @@ const total = photos.length;
   total === 0 ? (
     <p class="strip__empty">No photos yet — check back.</p>
   ) : (
-    <div class="strip" data-strip>
+    <div class:list={["strip", { "strip--compact": compact }]} data-strip>
       {groups.length > 1 && (
         <div class="strip__bar" role="tablist" aria-label={`${title} — photo sections`}>
           {groups.map((g) => (

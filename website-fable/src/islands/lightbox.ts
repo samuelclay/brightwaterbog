@@ -402,14 +402,6 @@ function init() {
       const list = itemsFromStrip(track);
       const start = Array.from(track.querySelectorAll("[data-lightbox]")).indexOf(frame);
       open(list, Math.max(0, start));
-      return;
-    }
-    const grid = (e.target as HTMLElement).closest<HTMLElement>("[data-gallery-json]");
-    if (grid) {
-      try {
-        const list = JSON.parse(grid.dataset.galleryJson ?? "[]") as Item[];
-        open(list, 0);
-      } catch (_) {}
     }
   });
 

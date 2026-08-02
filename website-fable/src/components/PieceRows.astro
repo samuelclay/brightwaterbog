@@ -1,0 +1,49 @@
+---
+import type { CollectionEntry } from "astro:content";
+import PhotoStrip from "./PhotoStrip.astro";
+
+interface PhotoEntry {
+  key: string;
+  era: "now" | "aerial" | "then" | "construction";
+  date: string | null;
+  width: number | null;
+  height: number | null;
+  orientation: string;
+}
+interface Props {
+  items: Array<{
+    entry: CollectionEntry<"sculptures">;
+    photos: PhotoEntry[];
+    eyebrow: string;
+  }>;
+}
+const { items } = Astro.props;
+---
+
+<div class="piece-rows">
+  {
+    items.map(({ entry, photos, eyebrow }) => (
+      <article
+        class="piece-row"
+        id={`piece-${entry.id}`}
+        style={`--stop-glass: var(--${entry.data.glass})`}
+        aria-labelledby={`ph-${entry.id}`}
+      >
+        <div class="piece-row__head">
+          <p class="eyebrow">{eyebrow}</p>
+          <h3 class="piece-row__title" id={`ph-${entry.id}`}>
+            {entry.data.title}
+          </h3>
+          <p class="piece__meta">
+            {entry.data.artist} · {photos.length} photo{photos.length === 1 ? "" : "s"}
+          </p>
+        </div>
+        {photos.length === 0 ? (
+          <p class="strip__empty">No photos yet — check back.</p>
+        ) : (
+          <PhotoStrip photos={photos} title={entry.data.title} compact />
+        )}
+      </article>
+    ))
+  }
+</div>
