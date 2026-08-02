@@ -532,6 +532,13 @@ class NativeStreamTest(unittest.TestCase):
             'tile.draggable = !window.matchMedia("(pointer: coarse)").matches',
             page,
         )
+        self.assertIn("-webkit-user-select: none", page)
+        self.assertIn("-webkit-tap-highlight-color: transparent", page)
+        self.assertIn(
+            'tile.addEventListener("selectstart", preventTileSelection)',
+            page,
+        )
+        self.assertIn("window.getSelection()?.removeAllRanges()", page)
         self.assertIn('tile.addEventListener("pointerdown", handlePointerDown)', page)
         self.assertIn("drag.holdTimer = setTimeout", page)
         self.assertIn("drag.armed = true", page)

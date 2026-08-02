@@ -1059,6 +1059,7 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       background: var(--bg);
       color: var(--text);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-user-select: none;
       user-select: none;
     }}
     main {{
@@ -1112,7 +1113,10 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       cursor: pointer;
       transform-origin: top left;
       touch-action: manipulation;
+      -webkit-user-select: none;
+      user-select: none;
       -webkit-touch-callout: none;
+      -webkit-tap-highlight-color: transparent;
     }}
     .tile.dragging {{
       opacity: .62;
@@ -1443,6 +1447,7 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       tile.addEventListener("drop", handleDrop);
       tile.addEventListener("dragend", handleDragEnd);
       tile.addEventListener("pointerdown", handlePointerDown);
+      tile.addEventListener("selectstart", preventTileSelection);
       grid.appendChild(tile);
     }}
 
@@ -2325,12 +2330,17 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       pointerDrag = drag;
       drag.holdTimer = setTimeout(() => {{
         if (pointerDrag !== drag) return;
+        window.getSelection()?.removeAllRanges();
         drag.armed = true;
         drag.tile.classList.add("drag-armed");
         try {{
           drag.tile.setPointerCapture(drag.pointerId);
         }} catch (_) {{}}
       }}, dragHoldMs);
+    }}
+
+    function preventTileSelection(event) {{
+      event.preventDefault();
     }}
 
     function cancelPendingPointerDrag() {{
