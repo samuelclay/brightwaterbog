@@ -8,3 +8,6 @@ src/data/trail.json
 # dev image resizer cache
 .img-cache/
 *.log
+# make start/stop bookkeeping
+.dev.pid
+.rotate.pid
