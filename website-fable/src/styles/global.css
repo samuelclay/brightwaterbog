@@ -659,7 +659,7 @@ footer.site-foot {
   max-height: 92svh;
   object-fit: contain;
   will-change: transform;
-  transform-origin: 0 0;
+  transform-origin: center;
   user-select: none;
   -webkit-user-drag: none;
   border-radius: var(--radius);

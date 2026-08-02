@@ -40,7 +40,13 @@ function init() {
     document.body.style.position = "";
     document.body.style.top = "";
     document.body.style.width = "";
+    // Suspend html { scroll-behavior: smooth } for the restore, which
+    // otherwise animates from the top of the page on every close.
+    const html = document.documentElement;
+    const prevBehavior = html.style.scrollBehavior;
+    html.style.scrollBehavior = "auto";
     window.scrollTo(0, scrollY);
+    html.style.scrollBehavior = prevBehavior;
   }
 
   function apply() {
