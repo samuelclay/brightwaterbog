@@ -44,26 +44,45 @@ const {
         <a href="#indoor">Indoor</a>
         <a href="#poetry">Poetry</a>
         <a href="#visit">Visit</a>
-        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle light and dark">Light / Dark</button>
+        <div class="theme-control" role="radiogroup" aria-label="Color theme">
+          <button class="theme-segment" type="button" data-theme-choice="auto">Auto</button>
+          <button class="theme-segment" type="button" data-theme-choice="light">Light</button>
+          <button class="theme-segment" type="button" data-theme-choice="dark">Dark</button>
+        </div>
       </nav>
     </header>
 
     <slot />
 
     <script>
-      // Theme toggle (progressive; page works without it).
-      const btn = document.querySelector<HTMLButtonElement>("[data-theme-toggle]");
-      btn?.addEventListener("click", () => {
-        const root = document.documentElement;
-        const current =
-          root.dataset.theme ??
-          (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
-        const next = current === "light" ? "dark" : "light";
-        root.dataset.theme = next;
+      // Auto / Light / Dark segmented control (progressive; page works without it).
+      const segments = Array.from(
+        document.querySelectorAll<HTMLButtonElement>("[data-theme-choice]")
+      );
+      function applyTheme(choice: string) {
+        if (choice === "light" || choice === "dark") {
+          document.documentElement.dataset.theme = choice;
+        } else {
+          delete document.documentElement.dataset.theme; // auto — follow the system
+        }
         try {
-          localStorage.setItem("bwb-theme", next);
+          localStorage.setItem("bwb-theme", choice);
         } catch (_) {}
-      });
+        segments.forEach((b) =>
+          b.classList.toggle("is-active", b.dataset.themeChoice === choice)
+        );
+      }
+      segments.forEach((b) =>
+        b.addEventListener("click", () => applyTheme(b.dataset.themeChoice ?? "auto"))
+      );
+      let saved: string | null = null;
+      try {
+        saved = localStorage.getItem("bwb-theme");
+      } catch (_) {}
+      const initial = saved === "light" || saved === "dark" ? saved : "auto";
+      segments.forEach((b) =>
+        b.classList.toggle("is-active", b.dataset.themeChoice === initial)
+      );
     </script>
   </body>
 </html>

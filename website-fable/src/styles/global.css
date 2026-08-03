@@ -96,7 +96,9 @@ html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
   }
 }
 
-/* Subtle full-page paper grain over the flat ground color (both themes). */
+/* Full-page texture over the flat ground color (both themes):
+   ::before = fine paper grain, ::after = broad organic mottle (same family
+   as the minimap terrain). Both fixed, behind all content. */
 body::before {
   content: "";
   position: fixed;
@@ -106,6 +108,16 @@ body::before {
   opacity: 0.12;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.5 0 0 0 0 0.5 0 0 0 0 0.45 0 0 0 1.4 0'/></filter><rect width='180' height='180' filter='url(%23n)'/></svg>");
   background-size: 180px 180px;
+}
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.1;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='560' height='560'><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='0.011' numOctaves='4' seed='7' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.45 0 0 0 0 0.52 0 0 0 0 0.42 0.9 0 0 0 -0.18'/></filter><rect width='560' height='560' filter='url(%23m)'/></svg>");
+  background-size: 560px 560px;
 }
 
 body {
@@ -588,17 +600,41 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--ink-dim);
-  mix-blend-mode: difference;
 }
-.topbar a { text-decoration: none; opacity: 0.8; }
+/* blend only the nav links (the theme control needs real backgrounds) */
+.topbar a { text-decoration: none; opacity: 0.8; mix-blend-mode: difference; }
 .topbar a:hover { opacity: 1; }
 .topbar__links { display: flex; gap: 1.2rem; align-items: center; }
-.theme-toggle {
+
+/* Auto/Light/Dark segmented slider — geometry and animation copied from
+   samuelclay.com's theme control (11px/600 segments, 2px-padded 6px-radius
+   track, active pill animates via `all 0.3s ease`). */
+.theme-control {
+  display: flex;
+  border-radius: 6px;
+  padding: 2px;
+  background: color-mix(in oklab, var(--bg) 62%, transparent);
+  backdrop-filter: blur(6px);
+}
+.theme-segment {
+  flex: 1;
+  padding: 6px 8px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 4px;
   font-family: var(--font-mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--ink-dim);
+  background: transparent;
+}
+.theme-segment.is-active {
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 10%);
 }
 
 footer.site-foot {
