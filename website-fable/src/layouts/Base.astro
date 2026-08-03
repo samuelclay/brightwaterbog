@@ -72,12 +72,19 @@ const {
       const effectiveTheme = () =>
         document.documentElement.dataset.theme ??
         (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      // The dissolve is opt-in per switch: the transition rules only apply
+      // while .is-theme-shifting is set, so nothing animates on first paint.
+      const root = document.documentElement;
+      let shiftTimer: number | undefined;
       toggle?.addEventListener("click", () => {
         const next = effectiveTheme() === "dark" ? "light" : "dark";
-        document.documentElement.dataset.theme = next;
+        root.classList.add("is-theme-shifting");
+        root.dataset.theme = next;
         try {
           localStorage.setItem("bwb-theme", next);
         } catch (_) {}
+        window.clearTimeout(shiftTimer);
+        shiftTimer = window.setTimeout(() => root.classList.remove("is-theme-shifting"), 700);
       });
     </script>
   </body>

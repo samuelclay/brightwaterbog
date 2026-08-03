@@ -87,6 +87,23 @@
 *, *::before, *::after { box-sizing: border-box; }
 * { margin: 0; }
 html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+
+/* Light/dark is a slow dissolve, not a snap. Only the color properties
+   transition, and only while the toggle says so — a blanket transition would
+   also animate hover states and the first paint. */
+html.is-theme-shifting,
+html.is-theme-shifting *,
+html.is-theme-shifting *::before,
+html.is-theme-shifting *::after {
+  transition:
+    background-color 0.55s var(--ease),
+    border-color 0.55s var(--ease),
+    color 0.55s var(--ease),
+    fill 0.55s var(--ease),
+    stroke 0.55s var(--ease),
+    box-shadow 0.55s var(--ease),
+    outline-color 0.55s var(--ease) !important;
+}
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after {
