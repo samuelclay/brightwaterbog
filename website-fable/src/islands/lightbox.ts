@@ -42,14 +42,19 @@ function init() {
   let scrollY = 0;
   function lockScroll() {
     scrollY = window.scrollY;
+    // Fixing the body removes the page scrollbar; pad by its width so the
+    // page doesn't shift wider behind the lightbox and snap back on close.
+    const gutter = window.innerWidth - document.documentElement.clientWidth;
     document.body.style.position = "fixed";
     document.body.style.top = `-${scrollY}px`;
     document.body.style.width = "100%";
+    document.body.style.paddingRight = gutter > 0 ? `${gutter}px` : "";
   }
   function unlockScroll() {
     document.body.style.position = "";
     document.body.style.top = "";
     document.body.style.width = "";
+    document.body.style.paddingRight = "";
     // Suspend html { scroll-behavior: smooth } for the restore, which
     // otherwise animates from the top of the page on every close.
     const html = document.documentElement;
