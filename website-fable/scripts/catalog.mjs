@@ -273,7 +273,7 @@ async function main() {
     "the-dancers": { x: 20, y: 90 },
     "jo-bird": { x: 19, y: 78 },
     "geometric-torch": { x: 19, y: 60 },
-    "torch-2-fire": { x: 31, y: 58 },
+    "torch-2-fire": { x: 46, y: 59 },
     "four-stages-of-evolution": { x: 44, y: 70 },
     "torch-3-land-bridge": { x: 51, y: 47 },
     "shed-torch": { x: 55, y: 34 },

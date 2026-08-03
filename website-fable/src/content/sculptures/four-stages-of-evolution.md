@@ -1,7 +1,7 @@
 ---
 title: Four Stages of Evolution
 artist: Julian Janowitz
-pathOrder: 12
+pathOrder: 11
 section: outdoor
 glass: violet
 gps:
