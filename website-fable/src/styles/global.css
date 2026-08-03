@@ -757,24 +757,83 @@ footer.site-foot {
 /* =========================================================================
    RESPONSIVE — collapse rail to a fixed bottom trail bar
    ========================================================================= */
+/* Mobile-only expand/collapse control in the map card's header */
+.minimap__toggle { display: none; }
+
 @media (max-width: 1080px) {
   .trail { grid-template-columns: minmax(0, 1fr); }
+  /* The map floats over the bottom-right corner as a narrow window onto the
+     full map: a slice a quarter of the map tall, panned so the current stop
+     stays centered — like a thumb sliding along a pocket map. The header's
+     ⤢ opens the whole map; picking a stop folds it back to the window. */
   .map-rail {
     position: fixed;
-    left: 0; right: 0; bottom: 0; top: auto;
-    height: auto;
+    left: auto; top: auto;
+    right: max(10px, env(safe-area-inset-right));
+    bottom: max(12px, env(safe-area-inset-bottom));
     z-index: 30;
     padding: 0;
-    background: color-mix(in oklab, var(--bg) 82%, transparent);
-    backdrop-filter: blur(10px);
-    border-top: 1px solid var(--came);
   }
-  .minimap { position: static; display: flex; align-items: center; gap: 12px; padding: 6px 12px; }
-  .minimap__frame { order: -1; flex: 0 0 auto; width: 92px; border: 0; border-radius: 0; padding: 4px; background: none; }
-  .minimap svg { max-height: 74px; width: auto; }
-  .minimap__caption--top { position: static; margin: 0; flex-direction: column; align-items: flex-start; gap: 2px; }
-  .minimap__now { font-size: 1.15rem; }
-  .stops { padding-bottom: 130px; }
+  .minimap {
+    position: relative;
+    width: fit-content;
+    border: 1px solid var(--came);
+    border-radius: var(--radius);
+    background: color-mix(in oklab, var(--bg) 80%, transparent);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 14px 40px rgb(0 0 0 / 40%);
+    padding: 8px 9px;
+    /* full map height; the window shows a fixed fraction of it (must match
+       WINDOW_FRAC in scroll-stage.ts so the pan math stays exact) */
+    --mm-map-h: min(44svh, 420px);
+  }
+  .minimap__frame {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    background: none;
+    height: calc(var(--mm-map-h) * 0.27); /* the visible slice */
+    overflow: hidden;
+  }
+  .map-rail.is-open .minimap__frame { height: auto; }
+  /* Explicit height (not max-height): an SVG with only a viewBox has no
+     intrinsic size, so height must be set for width:auto to follow aspect.
+     The slice pans via a percentage translateY set from scroll-stage.ts —
+     percentages resolve against the svg's own height, so no pixel math. */
+  .minimap svg {
+    height: var(--mm-map-h);
+    max-height: none;
+    width: auto;
+    margin: 0;
+    transition: transform 0.5s var(--ease);
+  }
+  /* Header row: title · count · expand control. width: 0 + min-width: 100%
+     keeps a long title from widening the card past the map. */
+  .minimap__caption--top {
+    position: static;
+    margin: 0 0 6px;
+    width: 0;
+    min-width: 100%;
+    align-items: center;
+    gap: 8px;
+  }
+  .minimap__now { flex: 1; font-size: 0.85rem; line-height: 1.2; }
+  .minimap__count { display: none; } /* the title is enough on mobile */
+  .minimap__toggle {
+    display: grid;
+    place-items: center;
+    width: 28px;
+    height: 28px;
+    flex: 0 0 auto;
+    margin-right: 3px;
+    border: 1px solid var(--came-strong);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--ink);
+    font-size: 0.85rem;
+    line-height: 1;
+  }
+  .stops { padding-bottom: 40px; }
 }
 @media (max-width: 620px) {
   .frame { height: clamp(300px, 74vw, 440px); width: clamp(240px, 62vw, 340px); }

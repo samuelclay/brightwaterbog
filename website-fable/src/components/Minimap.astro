@@ -73,11 +73,18 @@ const TREES: Array<[number, number, number, keyof typeof PINES]> = [
 ];
 ---
 
-<aside class="map-rail">
+<aside class="map-rail" data-map-rail>
   <div class="minimap" data-minimap>
     <div class="minimap__caption minimap__caption--top">
       <span class="minimap__now" data-now>{first.title}</span>
       <span class="minimap__count"><b data-current-number>1</b> of {nodes.length}</span>
+      {/* Mobile only: expands the masked map window to the full map */}
+      <button
+        class="minimap__toggle"
+        type="button"
+        data-map-toggle
+        aria-expanded="false"
+        aria-label="Expand the trail map">⤢</button>
     </div>
 
     <div class="minimap__frame">

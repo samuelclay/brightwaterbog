@@ -12,7 +12,9 @@ function init() {
 
   const markers = Array.from(minimap.querySelectorAll<SVGElement>("[data-node]"));
   const nowEl = minimap.querySelector<HTMLElement>("[data-now]");
-  const numEl = minimap.querySelector<HTMLElement>("[data-current-number]");
+  // Two number badges: the map caption and the mobile cabochon toggle.
+  const numEls = Array.from(document.querySelectorAll<HTMLElement>("[data-current-number]"));
+  const setNum = (v: string) => numEls.forEach((el) => (el.textContent = v));
   const root = document.documentElement;
   const n = stops.length;
 
@@ -27,6 +29,31 @@ function init() {
 
   let ticking = false;
   let lastIndex = -1;
+
+  // Mobile: the floating card shows only a slice of the map, panned so the
+  // active stop's marker stays centered in the window (clamped at the ends).
+  const rail = document.querySelector<HTMLElement>("[data-map-rail]");
+  const mapToggle = document.querySelector<HTMLButtonElement>("[data-map-toggle]");
+  const svg = minimap.querySelector<SVGSVGElement>("svg");
+  const mobileMap = window.matchMedia("(max-width: 1080px)");
+  const isOpen = () => rail?.classList.contains("is-open") ?? false;
+
+  // Fraction of the map the window shows — must match the frame height
+  // factor in global.css (calc(var(--mm-map-h) * 0.27)).
+  const WINDOW_FRAC = 0.27;
+
+  function panMap() {
+    if (!svg) return;
+    if (!mobileMap.matches || isOpen()) {
+      svg.style.transform = "";
+      return;
+    }
+    const dot = minimap!.querySelector<SVGElement>(".mm-marker.is-active .mm-dot");
+    if (!dot) return; // indoor sections keep the last trail position
+    const f = parseFloat(dot.getAttribute("cy") ?? "0") / svg.viewBox.baseVal.height;
+    const shift = Math.min(Math.max(f - WINDOW_FRAC / 2, 0), 1 - WINDOW_FRAC);
+    svg.style.transform = `translateY(${(-shift * 100).toFixed(2)}%)`;
+  }
 
   function update() {
     ticking = false;
@@ -61,8 +88,9 @@ function init() {
       const title = stop.querySelector(".stop__title")?.textContent ?? "";
       const order = stop.getAttribute("data-order") ?? String(index + 1);
       if (nowEl) nowEl.textContent = title;
-      if (numEl) numEl.textContent = order;
+      setNum(order);
     }
+    panMap();
   }
 
   function onScroll() {
@@ -78,7 +106,7 @@ function init() {
   markers.forEach((mk) => {
     const preview = () => {
       if (nowEl) nowEl.textContent = mk.getAttribute("data-title") ?? "";
-      if (numEl) numEl.textContent = mk.getAttribute("data-order") ?? "";
+      setNum(mk.getAttribute("data-order") ?? "");
     };
     const restore = () => {
       lastIndex = -1; // force the caption to re-sync on the next update
@@ -89,6 +117,29 @@ function init() {
     mk.addEventListener("mouseleave", restore);
     mk.addEventListener("blur", restore);
   });
+
+  // Expand to the full map from the header control; picking a stop (or
+  // tapping outside / Esc) folds it back to the moving window.
+  if (rail && mapToggle) {
+    const setOpen = (open: boolean) => {
+      rail.classList.toggle("is-open", open);
+      mapToggle.setAttribute("aria-expanded", String(open));
+      mapToggle.setAttribute(
+        "aria-label",
+        open ? "Collapse the trail map" : "Expand the trail map",
+      );
+      mapToggle.textContent = open ? "✕" : "⤢";
+      panMap();
+    };
+    mapToggle.addEventListener("click", () => setOpen(!isOpen()));
+    markers.forEach((mk) => mk.addEventListener("click", () => setOpen(false)));
+    document.addEventListener("click", (e) => {
+      if (isOpen() && !rail.contains(e.target as Node)) setOpen(false);
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && isOpen()) setOpen(false);
+    });
+  }
 
   window.addEventListener("scroll", onScroll, { passive: true });
   window.addEventListener("resize", onScroll, { passive: true });
