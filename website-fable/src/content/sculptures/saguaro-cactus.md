@@ -5,7 +5,8 @@ section: indoor
 glass: teal
 scannedFolders:
   - saguaro_cactus
-modernFolders: []
+modernFolders:
+  - saguaro_cactus
 summary: A saguaro cactus in glass.
 ---
 

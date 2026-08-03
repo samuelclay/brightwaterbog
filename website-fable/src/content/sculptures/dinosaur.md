@@ -5,7 +5,8 @@ section: indoor
 glass: teal
 scannedFolders:
   - dinosaur
-modernFolders: []
+modernFolders:
+  - dinosaur
 summary: An indoor dinosaur in glass.
 ---
 
