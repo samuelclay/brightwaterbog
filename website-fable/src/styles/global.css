@@ -201,16 +201,13 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
    auto-placement cursor pushes .stops to row 2 — a full 100svh (the rail's
    height) of blank space before the first stop */
 .stops { grid-column: 1; grid-row: 1; }
+/* The rail spans the whole trail; the minimap inside it is the sticky part,
+   so at the trail's end it settles at the rail's bottom (beside the last
+   stop) instead of scrolling off with a fixed-height rail. */
 .map-rail {
   grid-column: 2;
   grid-row: 1;
-  position: sticky;
-  top: 0;
-  height: 100svh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1rem;
+  align-self: stretch;
   padding: 1.5rem 0;
 }
 .stops { min-width: 0; padding: 2rem 0 12svh; display: flex; flex-direction: column; gap: 16svh; }
@@ -382,14 +379,26 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 /* =========================================================================
    MINIMAP (came-line trail with glowing cabochons)
    ========================================================================= */
-.minimap { position: relative; width: 100%; }
+.minimap {
+  position: sticky;
+  /* roughly centers the ~75svh map; also leaves room for the caption above */
+  top: max(4rem, 10svh);
+  width: 100%;
+}
 .minimap__frame {
   border: 1px solid var(--came);
   border-radius: var(--radius);
   background: radial-gradient(80% 70% at 50% 40%, var(--surface-2), var(--surface));
   padding: 16px;
 }
-.minimap svg { width: 100%; height: auto; overflow: visible; display: block; }
+.minimap svg {
+  width: 100%;
+  height: auto;
+  max-height: 72svh; /* the stretched map never exceeds ~75% of the screen */
+  overflow: visible;
+  display: block;
+  margin: 0 auto;
+}
 
 /* three-layer routed trail (SOL-style): depth shadow + faint full loop + lit progress */
 .mm-path { fill: none; stroke-linecap: round; stroke-linejoin: round; }
@@ -597,7 +606,7 @@ footer.site-foot {
     backdrop-filter: blur(10px);
     border-top: 1px solid var(--came);
   }
-  .minimap { display: flex; align-items: center; gap: 12px; padding: 6px 12px; }
+  .minimap { position: static; display: flex; align-items: center; gap: 12px; padding: 6px 12px; }
   .minimap__frame { order: -1; flex: 0 0 auto; width: 92px; border: 0; border-radius: 0; padding: 4px; background: none; }
   .minimap svg { max-height: 74px; width: auto; }
   .minimap__caption--top { position: static; margin: 0; flex-direction: column; align-items: flex-start; gap: 2px; }

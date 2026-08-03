@@ -316,12 +316,21 @@ async function main() {
     return cmds.join(" ");
   };
 
+  // Stretch the map vertically: coords stay hand-tuned in 0..100, but the
+  // emitted geometry is 2.5× taller so the rail's minimap uses its column's
+  // full height (capped by CSS at ~75svh).
+  const Y_STRETCH = 2.5;
+  nodes.forEach((n) => {
+    n.y = round(n.y * Y_STRETCH);
+    n.py = round(n.py * Y_STRETCH);
+  });
+
   const pts = nodes.map((n) => ({ x: n.px, y: n.py }));
   const pathD = smoothPath(pts); // open — drives progress + active-stop mapping
   const loopD = pts.length > 2 ? smoothPath([...pts, pts[0]]) : pathD; // closes 20 → 1
 
   const trail = {
-    viewBox: "0 0 100 100",
+    viewBox: `0 0 100 ${100 * Y_STRETCH}`,
     pathD,
     loopD,
     nodes,
