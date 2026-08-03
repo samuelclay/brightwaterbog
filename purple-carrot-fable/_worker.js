@@ -23,15 +23,19 @@ export default {
     if (r) {
       const tags = [
         `<title>${esc(r.t)} — The Purple Carrot Book</title>`,
+        r.d ? `<meta name="description" content="${esc(r.d)}">` : "",
+        `<link rel="canonical" href="${url.origin}${url.pathname}">`,
         `<meta property="og:type" content="article">`,
         `<meta property="og:site_name" content="The Purple Carrot Book">`,
         `<meta property="og:title" content="${esc(r.t)}">`,
         r.d ? `<meta property="og:description" content="${esc(r.d)}">` : "",
-        `<meta property="og:image" content="${url.origin}/images/${r.i}">`,
         `<meta property="og:url" content="${url.origin}${url.pathname}">`,
+        `<meta property="og:image" content="${url.origin}/images/${r.i}">`,
+        `<meta property="og:image:alt" content="${esc(r.t)}">`,
         `<meta name="twitter:card" content="summary_large_image">`,
       ].filter(Boolean).join("\n");
-      html = html.replace("<title>The Purple Carrot Book</title>", tags);
+      // Swap the whole default block so recipe pages don't carry both.
+      html = html.replace(/<!--og-->[\s\S]*?<!--\/og-->/, () => tags);
     }
     return new Response(html, {
       headers: { "content-type": "text/html; charset=utf-8" },

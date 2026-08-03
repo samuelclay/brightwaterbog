@@ -17,6 +17,7 @@ build:
 	python3 tools/process_images.py
 	python3 tools/crop_images.py
 	python3 tools/build_data.py
+	python3 tools/make_og_cover.py
 
 # Local preview at http://localhost:8471
 serve:
