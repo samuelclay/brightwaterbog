@@ -19,7 +19,6 @@ const { entry, photos, displayNumber } = Astro.props;
 const { data } = entry;
 const { Content } = await render(entry);
 
-const num = String(displayNumber).padStart(2, "0");
 const isPlaceholder = data.status === "placeholder";
 ---
 
@@ -34,9 +33,7 @@ const isPlaceholder = data.status === "placeholder";
   aria-labelledby={`h-${entry.id}`}
 >
   <div class="stop__head">
-    <p class="stop__index eyebrow">Stop {num} · Outdoor</p>
     <h2 class="stop__title" id={`h-${entry.id}`}>{data.title}</h2>
-    {data.kicker && <p class="stop__kicker">{data.kicker}</p>}
     <p class="stop__meta">
       {data.artist}
       {data.year && (<><span class="dot">◆</span>{data.year}</>)}

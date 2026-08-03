@@ -118,13 +118,6 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 }
 
 /* ---- shared type helpers ---- */
-.eyebrow {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--ink-faint);
-}
 .came-rule {
   border: 0;
   height: 1px;
@@ -193,20 +186,6 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   gap: 1rem;
   flex-wrap: wrap;
 }
-.hero .scroll-cue { color: #e8e2d4; }
-.scroll-cue {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6rem;
-  color: var(--ink-dim);
-}
-.scroll-cue__dot {
-  width: 10px; height: 10px; border-radius: 50%;
-  background: var(--amber);
-  box-shadow: 0 0 12px 2px color-mix(in oklab, var(--amber) 70%, transparent);
-  animation: cue 2.4s var(--ease) infinite;
-}
-@keyframes cue { 0%,100%{transform:translateY(0);opacity:.5} 50%{transform:translateY(6px);opacity:1} }
 
 /* =========================================================================
    TRAIL LAYOUT — sticky came-map rail + scrolling stops
@@ -230,7 +209,7 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   gap: 1rem;
   padding: 1.5rem 0;
 }
-.stops { min-width: 0; padding: 12svh 0; display: flex; flex-direction: column; gap: 16svh; }
+.stops { min-width: 0; padding: 2rem 0 12svh; display: flex; flex-direction: column; gap: 16svh; }
 
 /* ---- a single stop ---- */
 .stop { min-width: 0; scroll-margin-top: 8vh; }
@@ -241,7 +220,6 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
 }
 .stop.is-active .stop__head { opacity: 1; transform: none; }
-.stop__index { margin-bottom: 0.9rem; color: var(--stop-glass); }
 .stop__title {
   font-family: var(--font-display);
   font-weight: 400;
@@ -250,14 +228,6 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   line-height: 1.02;
   letter-spacing: -0.012em;
 }
-.stop__kicker {
-  font-family: var(--font-mono);
-  font-size: 0.8rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--ink-dim);
-  margin-top: 0.5rem;
-}
 .stop__meta {
   margin-top: 0.9rem;
   font-family: var(--font-mono);
@@ -265,7 +235,8 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   letter-spacing: 0.04em;
   color: var(--ink-faint);
 }
-.stop__meta .dot { color: var(--stop-glass); padding: 0 0.5em; }
+.stop__meta .dot,
+.piece__meta .dot { color: var(--stop-glass); padding: 0 0.5em; }
 .stop__prose { margin-top: 1.2rem; color: var(--ink-dim); }
 .stop__prose p + p { margin-top: 0.9em; }
 .stop__prose em { color: var(--ink); font-style: italic; }
@@ -420,13 +391,6 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 .mm-path { fill: none; stroke-linecap: round; stroke-linejoin: round; }
 .mm-path--shadow { stroke: rgb(0 0 0 / 45%); stroke-width: 6; }
 .mm-path--base { stroke: var(--came-strong); stroke-width: 2.6; }
-.mm-path--lit {
-  stroke: var(--stop-glass);
-  stroke-width: 3.2;
-  stroke-dasharray: var(--route-progress, 0) 1;
-  filter: drop-shadow(0 0 3px color-mix(in oklab, var(--stop-glass) 70%, transparent));
-  transition: stroke-dasharray 0.6s var(--ease);
-}
 
 /* numbered clickable markers */
 .mm-marker { cursor: pointer; text-decoration: none; }
@@ -464,8 +428,6 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 .minimap__now { font-family: var(--font-display); font-size: 1.5rem; font-variation-settings: "opsz" 60, "SOFT" 30; line-height: 1.05; }
 .minimap__count { font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-faint); letter-spacing: 0.08em; white-space: nowrap; }
 .minimap__count b { color: var(--stop-glass); font-weight: 500; }
-.minimap__title-line { font-family: var(--font-mono); font-size: 0.66rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-faint); }
-.minimap__hint { margin-top: 0.8rem; font-family: var(--font-mono); font-size: 0.64rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faint); }
 
 /* =========================================================================
    SECTION HEADERS (outdoor / indoor demarcation)
@@ -475,7 +437,6 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   max-width: 1100px;
   margin: 0 auto;
 }
-.section-head__eyebrow { margin-bottom: 1rem; }
 .section-head__title {
   font-family: var(--font-display);
   font-weight: 400;
@@ -496,7 +457,6 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 }
 .piece-row { padding: clamp(1.6rem, 3.2vw, 2.6rem) 0; }
 .piece-row + .piece-row { border-top: 1px solid var(--came); }
-.piece-row .eyebrow { margin-bottom: 0.55rem; }
 .piece-row__title {
   font-family: var(--font-display);
   font-weight: 400;
@@ -571,7 +531,7 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   top: 0; left: 0; right: 0;
   z-index: 40;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end; /* nav only — no brand mark over the hero */
   align-items: center;
   padding: 0.75rem clamp(1rem, 3vw, 2rem);
   font-family: var(--font-mono);
@@ -621,7 +581,6 @@ footer.site-foot {
     border-top: 1px solid var(--came);
   }
   .minimap { display: flex; align-items: center; gap: 12px; padding: 6px 12px; }
-  .minimap__title-line, .minimap__hint { display: none; }
   .minimap__frame { order: -1; flex: 0 0 auto; width: 92px; border: 0; border-radius: 0; padding: 4px; background: none; }
   .minimap svg { max-height: 74px; width: auto; }
   .minimap__caption--top { margin: 0; flex-direction: column; align-items: flex-start; gap: 2px; }

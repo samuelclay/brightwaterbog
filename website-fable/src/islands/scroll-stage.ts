@@ -1,6 +1,6 @@
 // Drives the scrollytelling: reveals each stop as it enters view, and tracks the
-// stop nearest the viewport center to fill the trail's progress path, highlight
-// the active marker, and update the map caption.
+// stop nearest the viewport center to highlight the active marker and update
+// the map caption.
 
 function init() {
   const stage = document.querySelector<HTMLElement>("[data-scrollstage]");
@@ -50,9 +50,6 @@ function init() {
       if (span > 0) progress = Math.min(1, Math.max(0, (refY - tops[seg]) / span));
     }
     const index = progress >= 0.5 && seg < n - 1 ? seg + 1 : seg;
-
-    const along = (seg + progress) / Math.max(1, n - 1);
-    root.style.setProperty("--route-progress", along.toFixed(4));
 
     if (index !== lastIndex) {
       lastIndex = index;

@@ -14,13 +14,11 @@ const nodes = trail.nodes as Array<{
 }>;
 
 const base = trail.loopD as string; // full loop (closes 20 → 1)
-const prog = trail.pathD as string; // open path — progress fills along this
 const first = nodes[0];
 ---
 
 <aside class="map-rail">
   <div class="minimap" data-minimap>
-    <p class="minimap__title-line">Counterclockwise trail</p>
     <div class="minimap__caption minimap__caption--top">
       <span class="minimap__now" data-now>{first.title}</span>
       <span class="minimap__count"><b data-current-number>1</b> of {nodes.length}</span>
@@ -30,7 +28,6 @@ const first = nodes[0];
       <svg viewBox={trail.viewBox} role="group" aria-label="Map of the sculpture trail">
         <path class="mm-path mm-path--shadow" d={base} />
         <path class="mm-path mm-path--base" d={base} />
-        <path class="mm-path mm-path--lit" d={prog} pathLength="1" data-lit />
         {
           nodes.map((n, i) => (
             <a
@@ -48,6 +45,5 @@ const first = nodes[0];
         }
       </svg>
     </div>
-    <p class="minimap__hint">Choose a marker to jump to a sculpture.</p>
   </div>
 </aside>

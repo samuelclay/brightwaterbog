@@ -24,10 +24,7 @@ const unplaced = all
   .sort((a, b) => a.data.title.localeCompare(b.data.title))
   .map((entry) => ({ entry, photos: photos[entry.id] ?? [] }));
 // Unplaced pieces render as extra rows at the end of the indoor section.
-const indoorRows = [
-  ...indoor.map((x) => ({ ...x, eyebrow: "Indoor · Stained glass" })),
-  ...unplaced.map((x) => ({ ...x, eyebrow: "Indoor · Unplaced" })),
-];
+const indoorRows = [...indoor, ...unplaced];
 const poetry = all.find((e) => e.data.section === "poetry");
 const poetryPhotos = poetry ? (photos[poetry.id] ?? []) : [];
 ---
@@ -52,7 +49,6 @@ const poetryPhotos = poetry ? (photos[poetry.id] ?? []) : [];
 
   <section id="indoor">
     <div class="section-head">
-      <p class="section-head__eyebrow eyebrow">Off the trail · Inside the house</p>
       <h2 class="section-head__title">Indoor stained glass</h2>
       <p class="section-head__lede">
         Not part of the walk — these pieces live inside. Tap any photo to see it full
@@ -66,7 +62,6 @@ const poetryPhotos = poetry ? (photos[poetry.id] ?? []) : [];
     poetry && poetryPhotos.length > 0 && (
       <section id="poetry">
         <div class="section-head">
-          <p class="section-head__eyebrow eyebrow">Off the trail · Words</p>
           <h2 class="section-head__title">Poetry</h2>
           <p class="section-head__lede">
             Poem placards from around the property, kept as photographs. Tap any to read it
@@ -80,7 +75,6 @@ const poetryPhotos = poetry ? (photos[poetry.id] ?? []) : [];
 
   <section id="visit">
     <div class="section-head">
-      <p class="section-head__eyebrow eyebrow">Before you come</p>
       <h2 class="section-head__title">Visit</h2>
     </div>
     <div class="visit-wrap"><VisitPanel /></div>
