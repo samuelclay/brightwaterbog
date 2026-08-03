@@ -42,7 +42,31 @@ const slides = FEATURED.map(({ slug, title }) => {
   <div class="hero__veil" aria-hidden="true"></div>
 
   <div class="hero__inner">
-    <h1 class="hero__title">Bright Water <em>Bog</em></h1>
+    <h1 class="hero__title">
+      <span class="visually-hidden">Bright Water Bog</span>
+      <!-- "Still Water": amber-glass type with a rippled reflection in the bog. -->
+      <svg class="hero__title-glass" viewBox="0 0 720 170" aria-hidden="true" focusable="false">
+        <defs>
+          <!-- Milk Glass alternative: #fffdf6 / #ece4d4 / #cbbfa4 with stroke #3b473f -->
+          <linearGradient id="titleGlass" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#ffe3ae"></stop>
+            <stop offset="0.55" stop-color="#f2b45a"></stop>
+            <stop offset="1" stop-color="#c97a3d"></stop>
+          </linearGradient>
+          <filter id="titleRipple" x="-10%" y="-10%" width="120%" height="140%">
+            <feTurbulence type="fractalNoise" baseFrequency="0.011 0.09" numOctaves="2" seed="7" result="n"></feTurbulence>
+            <feDisplacementMap in="SourceGraphic" in2="n" scale="22" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+          </filter>
+          <filter id="titleShadow" x="-15%" y="-15%" width="130%" height="130%">
+            <feDropShadow dx="0" dy="2" stdDeviation="9" flood-color="#000" flood-opacity="0.4"></feDropShadow>
+          </filter>
+        </defs>
+        <text class="hero__glass-text" x="4" y="84" filter="url(#titleShadow)">Bright Water Bog</text>
+        <g filter="url(#titleRipple)" opacity="0.38">
+          <text class="hero__glass-text" x="4" y="84" transform="translate(0 182) scale(1 -1)">Bright Water Bog</text>
+        </g>
+      </svg>
+    </h1>
   </div>
 
 </section>

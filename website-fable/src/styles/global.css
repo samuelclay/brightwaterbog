@@ -190,21 +190,36 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   z-index: 2;
   align-self: end;
 }
-.hero__title {
-  font-family: var(--font-display);
-  font-weight: 420;
-  font-variation-settings: "opsz" 144, "SOFT" 40, "WONK" 1;
-  font-size: clamp(3.4rem, 9vw + 1rem, 9rem);
-  line-height: 0.9;
-  letter-spacing: -0.015em;
-  color: #fff;
-  text-wrap: balance;
-  text-shadow: 0 2px 30px rgb(0 0 0 / 45%);
+.hero__title { line-height: 0; }
+/* "Still Water" glass title: gradient-filled type, came-dark edge, and a
+   turbulence-displaced reflection below the baseline. Fixed hexes on purpose —
+   it sits on the photo, not on a themed surface. */
+.hero__title-glass {
+  display: block;
+  width: min(88vw, 46rem);
+  height: auto;
+  overflow: visible;
 }
-.hero__title em {
-  font-style: italic;
-  font-variation-settings: "opsz" 144, "SOFT" 60, "WONK" 1;
-  color: var(--amber);
+.hero__glass-text {
+  font-family: var(--font-display);
+  font-weight: 620;
+  font-variation-settings: "opsz" 144, "SOFT" 40, "WONK" 1;
+  font-size: 84px;
+  fill: url(#titleGlass);
+  stroke: #4a3414;
+  stroke-width: 2.6;
+  paint-order: stroke;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
 }
 .hero__foot {
   position: relative;
