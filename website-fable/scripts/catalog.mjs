@@ -274,8 +274,9 @@ async function main() {
     "jo-bird": { x: 19, y: 78 },
     // The walk back from the dancers passes the gun again before the torch
     // run — the ribbon bends there (`path`), while the numbered marker sits
-    // below the curve, halfway between Jo Bird and Four Stages.
-    "geometric-torch": { x: 31.5, y: 74, path: { x: 19, y: 60 } },
+    // on the curve halfway to Four Stages (the smoothing joint at the
+    // midpoint of the bend and the next stop lies exactly on the ribbon).
+    "geometric-torch": { x: 31.5, y: 65, path: { x: 19, y: 60 } },
     "torch-2-fire": { x: 46, y: 59 },
     "four-stages-of-evolution": { x: 44, y: 70 },
     "torch-3-land-bridge": { x: 51, y: 47 },
