@@ -239,6 +239,12 @@ def main() -> int:
                 print(f"sync-photos: WARN export not bigger for {dest.relative_to(PHOTOS)}")
                 continue
             shutil.copyfile(src, dest)
+            # Manifest dims must be display-oriented (EXIF-rotated); raw JPEG
+            # dims may be swapped. The library records display dims, so prefer
+            # those when they describe the same image.
+            lw, lh = lib[uuid]
+            if {lw, lh} == {new_w, new_h}:
+                new_w, new_h = lw, lh
             per_dir.setdefault(dest.parent, {})[uuid] = (
                 new_w, new_h, sha256(dest), dest.stat().st_size)
             replaced += 1
