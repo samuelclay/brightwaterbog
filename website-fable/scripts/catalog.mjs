@@ -272,7 +272,10 @@ async function main() {
     "the-gun": { x: 9, y: 61 },
     "the-dancers": { x: 20, y: 90 },
     "jo-bird": { x: 19, y: 78 },
-    "geometric-torch": { x: 19, y: 60 },
+    // The walk back from the dancers passes the gun again before the torch
+    // run — the ribbon bends there (`path`), while the numbered marker sits
+    // below the curve, halfway between Jo Bird and Four Stages.
+    "geometric-torch": { x: 31.5, y: 74, path: { x: 19, y: 60 } },
     "torch-2-fire": { x: 46, y: 59 },
     "four-stages-of-evolution": { x: 44, y: 70 },
     "torch-3-land-bridge": { x: 51, y: 47 },
@@ -283,10 +286,15 @@ async function main() {
     "the-well": { x: 87, y: 57 },
     "dam-light": { x: 71, y: 15 },
   };
+  // A stop's marker (x,y) and the point the trail ribbon bends through
+  // (path.x, path.y) usually coincide; `path` lets a marker sit beside the
+  // ribbon while the route still bends where the walk actually goes.
   nodes.forEach((n) => {
     const c = n.map ?? MAP_COORDS[n.slug] ?? { x: 50, y: 50 };
     n.x = c.x;
     n.y = c.y;
+    n.px = c.path?.x ?? c.x;
+    n.py = c.path?.y ?? c.y;
   });
 
   // Quadratic smoothing (midpoint Q/T) — reads as a routed trail, not a scribble.
@@ -307,7 +315,7 @@ async function main() {
     return cmds.join(" ");
   };
 
-  const pts = nodes.map((n) => ({ x: n.x, y: n.y }));
+  const pts = nodes.map((n) => ({ x: n.px, y: n.py }));
   const pathD = smoothPath(pts); // open — drives progress + active-stop mapping
   const loopD = pts.length > 2 ? smoothPath([...pts, pts[0]]) : pathD; // closes 20 → 1
 
