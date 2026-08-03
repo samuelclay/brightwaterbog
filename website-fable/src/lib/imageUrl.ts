@@ -20,21 +20,30 @@ export interface ImageOpts {
   fit?: Fit;
   /** Quality 1–100. */
   q?: number;
+  /**
+   * Cache-busting fingerprint of the source photo (e.g. "3024x4032").
+   * Replacing a photo under the same key changes its dims, which changes the
+   * URL — otherwise browsers/CDNs keep serving the old render for up to their
+   * full TTL, and JS-initiated loads (the lightbox) ignore hard reloads.
+   */
+  v?: string;
 }
 
 const enc = (key: string) => key.split("/").map(encodeURIComponent).join("/");
 
-export function imageUrl(key: string, { w, fit = "cover", q = 78 }: ImageOpts): string {
+export function imageUrl(key: string, { w, fit = "cover", q = 78, v }: ImageOpts): string {
+  const ver = v ? `&v=${encodeURIComponent(v)}` : "";
   if (DEV || !IMG_ZONE || !R2_BASE) {
-    return `${DEV_IMG}/img/${enc(key)}?w=${w}&fit=${fit}&q=${q}`;
+    return `${DEV_IMG}/img/${enc(key)}?w=${w}&fit=${fit}&q=${q}${ver}`;
   }
   const opts = `width=${w},fit=${fit},format=auto,quality=${q}`;
-  return `${IMG_ZONE}/cdn-cgi/image/${opts}/${R2_BASE}/${enc(key)}`;
+  const src = `${R2_BASE}/${enc(key)}${v ? `?v=${encodeURIComponent(v)}` : ""}`;
+  return `${IMG_ZONE}/cdn-cgi/image/${opts}/${src}`;
 }
 
 /** Build a srcset across widths for responsive <img>. */
-export function srcset(key: string, widths: number[], fit: Fit = "cover", q = 78): string {
-  return widths.map((w) => `${imageUrl(key, { w, fit, q })} ${w}w`).join(", ");
+export function srcset(key: string, widths: number[], fit: Fit = "cover", q = 78, v?: string): string {
+  return widths.map((w) => `${imageUrl(key, { w, fit, q, v })} ${w}w`).join(", ");
 }
 
 // Width ladders used around the site.

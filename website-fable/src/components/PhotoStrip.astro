@@ -36,11 +36,13 @@ const ERAS = [
 ] as const;
 
 function frameData(p: PhotoEntry) {
+  // Dims fingerprint busts stale browser/CDN caches when a photo is replaced.
+  const v = p.width && p.height ? `${p.width}x${p.height}` : undefined;
   return {
-    thumb: imageUrl(p.key, { w: 760, fit: "cover" }),
-    thumbset: srcset(p.key, STRIP_WIDTHS, "cover"),
-    full: imageUrl(p.key, { w: 1800, fit: "contain" }),
-    fullHi: imageUrl(p.key, { w: 2600, fit: "contain" }),
+    thumb: imageUrl(p.key, { w: 760, fit: "cover", v }),
+    thumbset: srcset(p.key, STRIP_WIDTHS, "cover", 78, v),
+    full: imageUrl(p.key, { w: 1800, fit: "contain", v }),
+    fullHi: imageUrl(p.key, { w: 2600, fit: "contain", v }),
     w: p.width ?? 0,
     h: p.height ?? 0,
     year: p.date ? p.date.slice(0, 4) : "",
