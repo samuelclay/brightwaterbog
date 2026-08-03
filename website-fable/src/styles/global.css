@@ -364,10 +364,12 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   inset: 0 auto 0 0;
   width: 0%;
   background: color-mix(in oklab, var(--stop-glass) 26%, transparent);
-  border-right: 1.5px solid var(--stop-glass);
   transition: width 0.12s linear;
 }
 .seg.is-active .seg__fill { background: color-mix(in oklab, var(--stop-glass) 34%, transparent); }
+/* leading-edge line only mid-fill (JS toggles it) — at 0% or 100% it reads
+   as a stray stripe at the pill's end caps */
+.seg__fill.is-filling { box-shadow: inset -1.5px 0 0 var(--stop-glass); }
 .seg__label {
   position: relative;
   z-index: 1;

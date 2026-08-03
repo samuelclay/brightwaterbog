@@ -40,7 +40,11 @@ function setup(strip: HTMLElement) {
       const start = relLeft(g.el!);
       const width = g.el!.offsetWidth;
       const ratio = Math.min(1, Math.max(0, (head - start) / Math.max(1, width)));
-      if (g.fill) g.fill.style.width = `${ratio * 100}%`;
+      if (g.fill) {
+        g.fill.style.width = `${ratio * 100}%`;
+        // edge line only mid-fill; at either extreme it shows as stray pixels
+        g.fill.classList.toggle("is-filling", ratio > 0.01 && ratio < 0.99);
+      }
       if (start <= head + 0.5 && start > bestStart) {
         bestStart = start;
         active = i;
