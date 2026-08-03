@@ -38,9 +38,10 @@ function init() {
   const mobileMap = window.matchMedia("(max-width: 1080px)");
   const isOpen = () => rail?.classList.contains("is-open") ?? false;
 
-  // Fraction of the map the window shows — must match the frame height
-  // factor in global.css (calc(var(--mm-map-h) * 0.27)).
-  const WINDOW_FRAC = 0.27;
+  // Height of the collapsed window, read from --mm-window-h so the pan math
+  // can never drift from the frame height in global.css.
+  const windowH = () =>
+    parseFloat(getComputedStyle(minimap!).getPropertyValue("--mm-window-h")) || 0;
 
   function panMap() {
     if (!svg) return;
@@ -50,9 +51,15 @@ function init() {
     }
     const dot = minimap!.querySelector<SVGElement>(".mm-marker.is-active .mm-dot");
     if (!dot) return; // indoor sections keep the last trail position
-    const f = parseFloat(dot.getAttribute("cy") ?? "0") / svg.viewBox.baseVal.height;
-    const shift = Math.min(Math.max(f - WINDOW_FRAC / 2, 0), 1 - WINDOW_FRAC);
-    svg.style.transform = `translateY(${(-shift * 100).toFixed(2)}%)`;
+    const svgH = svg.getBoundingClientRect().height;
+    const winH = windowH();
+    if (!svgH || !winH) return;
+    // Put the active dot on the window's centerline. The clamp only keeps the
+    // map from sliding past its own edges; with a window this short it never
+    // engages, so the dot stays centered end to end.
+    const dotY = (parseFloat(dot.getAttribute("cy") ?? "0") / svg.viewBox.baseVal.height) * svgH;
+    const shift = Math.min(Math.max(dotY - winH / 2, 0), Math.max(svgH - winH, 0));
+    svg.style.transform = `translateY(${(-shift).toFixed(2)}px)`;
   }
 
   function update() {
@@ -132,8 +139,21 @@ function init() {
       panMap();
     };
     mapToggle.addEventListener("click", () => setOpen(!isOpen()));
-    markers.forEach((mk) => mk.addEventListener("click", () => setOpen(false)));
-    document.addEventListener("click", (e) => {
+    markers.forEach((mk) =>
+      mk.addEventListener("click", () => {
+        // Adopt the tapped stop straight away so the map folds back around the
+        // marker you picked, rather than panning to the old one and then
+        // chasing the smooth scroll. The scroll tracker re-syncs on landing.
+        markers.forEach((m) => m.classList.toggle("is-active", m === mk));
+        if (nowEl) nowEl.textContent = mk.getAttribute("data-title") ?? "";
+        setNum(mk.getAttribute("data-order") ?? "");
+        lastIndex = -1;
+        setOpen(false);
+      }),
+    );
+    // pointerdown, not click: iOS Safari withholds click on plain elements,
+    // which would leave the map stuck open after a tap on the page behind it.
+    document.addEventListener("pointerdown", (e) => {
       if (isOpen() && !rail.contains(e.target as Node)) setOpen(false);
     });
     document.addEventListener("keydown", (e) => {
