@@ -28,6 +28,14 @@ const MODERN = path.join(APPLE, "selected");
 const CONTENT = path.join(SITE, "src", "content", "sculptures");
 const DATA = path.join(SITE, "src", "data");
 
+// Curated per-photo construction flags (src/data/construction.json). A "now"
+// photo listed there becomes era "construction-now"; a "then" photo becomes
+// era "construction" — each shown at the end of its own strip section.
+const CONSTRUCTION_FILE = path.join(DATA, "construction.json");
+const constructionKeys = existsSync(CONSTRUCTION_FILE)
+  ? new Set(JSON.parse(await readFile(CONSTRUCTION_FILE, "utf8")).keys)
+  : new Set();
+
 const IMG_RE = /\.(jpe?g|png|webp)$/i;
 const isImage = (f) => IMG_RE.test(f) && !f.startsWith(".") && !f.startsWith("_");
 
@@ -200,8 +208,26 @@ async function main() {
     const poems = (
       await Promise.all((fm.poemFolders ?? []).map(poemEntries))
     ).flat();
-    // Order within a stop: Now → Aerial → Then → Construction (construction last).
-    const all = [...now, ...aerial, ...then, ...construction, ...poems];
+    // Per-photo construction flags split each era: flagged "now" photos become
+    // construction-now, flagged "then" photos join the scanned construction era.
+    for (const p of now) if (constructionKeys.has(p.key)) p.era = "construction-now";
+    for (const p of then) if (constructionKeys.has(p.key)) p.era = "construction";
+    const nowFinished = now.filter((p) => p.era === "now");
+    const nowConstruction = now.filter((p) => p.era === "construction-now");
+    const thenFinished = then.filter((p) => p.era === "then");
+    const thenConstruction = then.filter((p) => p.era === "construction");
+
+    // Order within a stop: Now → its construction → Aerial → Then → its
+    // construction (folder-level constructionFolders merge into the latter).
+    const all = [
+      ...nowFinished,
+      ...nowConstruction,
+      ...aerial,
+      ...thenFinished,
+      ...thenConstruction,
+      ...construction,
+      ...poems,
+    ];
     photos[slug] = all;
 
     // Resolve GPS: explicit frontmatter wins; else median of recent-photo GPS.
@@ -244,8 +270,8 @@ async function main() {
     "new-mailbox": { x: 3, y: 54 },
     "wood-seal-and-eel": { x: 15, y: 65 },
     "the-gun": { x: 10, y: 61 },
-    "the-dancers": { x: 51, y: 92 },
-    "jo-bird": { x: 42, y: 83 },
+    "the-dancers": { x: 20, y: 90 },
+    "jo-bird": { x: 19, y: 78 },
     "geometric-torch": { x: 19, y: 60 },
     "torch-2-fire": { x: 31, y: 58 },
     "four-stages-of-evolution": { x: 44, y: 70 },
