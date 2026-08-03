@@ -429,7 +429,15 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 
 .minimap__caption { display: flex; justify-content: space-between; align-items: baseline; gap: 0.5rem; }
 .minimap__caption--top { margin: 0.4rem 0 0.9rem; }
-.minimap__now { font-family: var(--font-display); font-size: 1.5rem; font-variation-settings: "opsz" 60, "SOFT" 30; line-height: 1.05; }
+.minimap__now {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-variation-settings: "opsz" 60, "SOFT" 30;
+  line-height: 1.05;
+  /* reserve two lines so long titles (scroll or marker hover) never resize
+     the caption and bounce the re-centered map under the cursor */
+  min-height: 2.1em;
+}
 .minimap__count { font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-faint); letter-spacing: 0.08em; white-space: nowrap; }
 .minimap__count b { color: var(--stop-glass); font-weight: 500; }
 
@@ -588,7 +596,7 @@ footer.site-foot {
   .minimap__frame { order: -1; flex: 0 0 auto; width: 92px; border: 0; border-radius: 0; padding: 4px; background: none; }
   .minimap svg { max-height: 74px; width: auto; }
   .minimap__caption--top { margin: 0; flex-direction: column; align-items: flex-start; gap: 2px; }
-  .minimap__now { font-size: 1.15rem; }
+  .minimap__now { font-size: 1.15rem; min-height: 0; }
   .stops { padding-bottom: 130px; }
 }
 @media (max-width: 620px) {
