@@ -361,6 +361,7 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 /* segmented progress bar over the strip: Then / Now / Construction */
 .strip__bar {
   display: flex;
+  flex-wrap: wrap; /* pills keep min-content width, so narrow screens wrap */
   gap: 6px;
   margin-bottom: 12px;
   max-width: min(720px, 100%);
