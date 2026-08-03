@@ -74,10 +74,9 @@ const STOPS = [
 [Add the story: the idea, the build, how it fits into Julian's trail.]`,
   },
   {
-    slug: "julians-mailbox",
+    slug: "welcome-sconce",
     fm: {
-      title: "The Mailbox",
-      kicker: "Julian's mailbox",
+      title: "Welcome Sconce",
       artist: "Julian Janowitz",
       year: "[year]",
       pathOrder: 4,
@@ -85,29 +84,29 @@ const STOPS = [
       glass: "amber",
       gps: { lat: 42.497722, lon: -72.421738 },
       scannedFolders: [],
-      modernFolders: ["sculpture_11_mailbox", "sculpture_15_stone_mailbox"],
-      summary: "The stained-glass mailbox that greets you before the gun.",
+      modernFolders: ["sculpture_11_mailbox"],
+      summary:
+        "The stained-glass sconce on the standing stone that greets you — the old mailbox stands just behind it.",
     },
-    body: `Even the mailbox is a piece of art here — glass set into stone at the edge of the path.
+    body: `Glass set into the standing stone at the edge of the path — long mistaken for the mailbox itself, which stands just behind it.
 
-[Add the story of the mailbox and the stone base.]`,
+[Add the story of the sconce and the stone.]`,
   },
   {
-    slug: "new-mailbox",
+    slug: "the-mailbox",
     fm: {
-      title: "New Mailbox",
+      title: "The Mailbox",
       kicker: "In progress",
       artist: "Samuel Clay",
       pathOrder: 5,
       section: "outdoor",
-      status: "placeholder",
       glass: "rose",
       gps: { lat: 42.49776, lon: -72.4217 },
       scannedFolders: [],
-      modernFolders: [],
-      summary: "A new mailbox in the works — photos coming soon.",
+      modernFolders: ["sculpture_15_stone_mailbox"],
+      summary: "The standing stone becoming the new mailbox — in progress.",
     },
-    body: `A new mailbox is being built. Check back — photos will appear here as it comes together.`,
+    body: `The standing stone is becoming the new mailbox. Check back — photos will appear here as it comes together.`,
   },
   {
     slug: "wood-seal-and-eel",

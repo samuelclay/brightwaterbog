@@ -1,16 +1,15 @@
 ---
-title: New Mailbox
+title: The Mailbox
 kicker: In progress
 artist: Samuel Clay
 pathOrder: 5
 section: outdoor
-status: placeholder
 glass: rose
 gps:
   lat: 42.49776
   lon: -72.4217
 scannedFolders: []
-modernFolders: []
-summary: A new mailbox in the works — photos coming soon.
+modernFolders:
+  - sculpture_15_stone_mailbox
+summary: The standing stone becoming the new mailbox — in progress.
 ---
-

@@ -1,6 +1,5 @@
 ---
-title: The Mailbox
-kicker: Julian's mailbox
+title: Welcome Sconce
 artist: Julian Janowitz
 pathOrder: 4
 section: outdoor
@@ -11,7 +10,5 @@ gps:
 scannedFolders: []
 modernFolders:
   - sculpture_11_mailbox
-  - sculpture_15_stone_mailbox
-summary: The stained-glass mailbox that greets you before the gun.
+summary: The stained-glass sconce on the standing stone that greets you — the old mailbox stands just behind it.
 ---
-
