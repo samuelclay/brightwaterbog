@@ -5,7 +5,7 @@
 function setup(strip: HTMLElement) {
   const track = strip.querySelector<HTMLElement>("[data-strip-track]");
   const segs = Array.from(strip.querySelectorAll<HTMLElement>("[data-seg]"));
-  if (!track || segs.length < 2) return;
+  if (!track || segs.length === 0) return;
 
   const groups = segs
     .map((seg) => ({

@@ -48,7 +48,7 @@ const total = photos.length;
     <p class="strip__empty">No photos yet — check back.</p>
   ) : (
     <div class:list={["strip", { "strip--compact": compact }]} data-strip>
-      {groups.length > 1 && (
+      {groups.length > 0 && (
         <div class="strip__bar" role="tablist" aria-label={`${title} — photo sections`}>
           {groups.map((g) => (
             <button
