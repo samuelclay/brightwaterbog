@@ -448,14 +448,18 @@ function init() {
   stage.addEventListener("pointerup", endPointer);
   stage.addEventListener("pointercancel", endPointer);
 
-  // Wheel / trackpad zoom (desktop).
+  // Wheel / trackpad zoom (desktop). Scale by the actual scroll delta rather
+  // than a fixed step per event — trackpads fire dozens of small events per
+  // gesture, which a fixed step turns into an instant jump to MAX. Trackpad
+  // pinch arrives as wheel events with ctrlKey set and needs a finer touch.
   stage.addEventListener(
     "wheel",
     (e) => {
       e.preventDefault();
       if (sliding) return;
-      const step = e.deltaY < 0 ? 1.18 : 1 / 1.18;
-      zoomAt(e.clientX, e.clientY, scale * step);
+      const dy = e.deltaMode === 1 ? e.deltaY * 16 : e.deltaY; // lines → px
+      const factor = Math.exp(-dy * (e.ctrlKey ? 0.012 : 0.0022));
+      zoomAt(e.clientX, e.clientY, scale * factor);
     },
     { passive: false },
   );
