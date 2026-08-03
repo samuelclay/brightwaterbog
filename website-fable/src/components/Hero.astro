@@ -5,7 +5,7 @@ import photosData from "../data/photos.json";
 // Big full-bleed hero: slow crossfade through the trail's headline sculptures.
 const photos = photosData as Record<
   string,
-  Array<{ key: string; era: string; width: number | null; height: number | null }>
+  Array<{ key: string; era: string; date: string | null; width: number | null; height: number | null }>
 >;
 
 const FEATURED = [
@@ -17,7 +17,11 @@ const FEATURED = [
 
 const slides = FEATURED.map(({ slug, title }) => {
   const list = photos[slug] ?? [];
-  const nows = list.filter((p) => p.era === "now");
+  // Newest "now" photo by date — strip order is curated (pins.json) and
+  // deliberately not what the hero keys off.
+  const nows = [...list.filter((p) => p.era === "now")].sort((a, b) =>
+    (a.date ?? "").localeCompare(b.date ?? ""),
+  );
   return { title, p: nows.at(-1) ?? list[0] };
 }).filter((s) => s.p);
 ---

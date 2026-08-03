@@ -1,0 +1,12 @@
+{
+  "_readme": "Curated photo ordering. Keys are stop slugs. A value may be an array of photo keys pinned to the FRONT of their era section in listed order, or an object {first: [...], last: [...]} to pin to both ends. Unlisted photos keep date order in between. Edit freely, then npm run catalog.",
+  "stargate": {
+    "first": [
+      "apple-photos-stained-glass/selected/sculpture_02_stargate/20201121_194944_A726028A-2B7C-49D9-8997-A55BF602DEB7.jpeg",
+      "apple-photos-stained-glass/selected/sculpture_02_stargate/20211023_070119_3D7B771D-9379-4A21-99A0-3824D0055B0F.jpeg"
+    ],
+    "last": [
+      "apple-photos-stained-glass/selected/sculpture_02_stargate/20211222_134634_A5FFF819-BEFF-4D7F-AE4F-67A344F001F5.jpeg"
+    ]
+  }
+}

@@ -36,6 +36,25 @@ const constructionKeys = existsSync(CONSTRUCTION_FILE)
   ? new Set(JSON.parse(await readFile(CONSTRUCTION_FILE, "utf8")).keys)
   : new Set();
 
+// Curated ordering (src/data/pins.json): per-slug photo keys pinned to the
+// front of their era section, in listed order; the rest keep date order.
+const PINS_FILE = path.join(DATA, "pins.json");
+const pins = existsSync(PINS_FILE)
+  ? JSON.parse(await readFile(PINS_FILE, "utf8"))
+  : {};
+
+function pinSort(entries, pinned) {
+  if (!pinned) return entries;
+  const first = Array.isArray(pinned) ? pinned : (pinned.first ?? []);
+  const last = Array.isArray(pinned) ? [] : (pinned.last ?? []);
+  if (!first.length && !last.length) return entries;
+  const fr = new Map(first.map((k, i) => [k, i]));
+  const lr = new Map(last.map((k, i) => [k, i]));
+  const pos = (e) =>
+    fr.has(e.key) ? fr.get(e.key) - 1e6 : lr.has(e.key) ? lr.get(e.key) + 1e6 : 0;
+  return [...entries].sort((a, b) => pos(a) - pos(b));
+}
+
 const IMG_RE = /\.(jpe?g|png|webp)$/i;
 const isImage = (f) => IMG_RE.test(f) && !f.startsWith(".") && !f.startsWith("_");
 
@@ -219,12 +238,14 @@ async function main() {
 
     // Order within a stop: Now → its construction → Aerial → Then → its
     // construction (folder-level constructionFolders merge into the latter).
+    // pins.json floats curated keys to the front of their era section.
+    const pinned = pins[slug];
     const all = [
-      ...nowFinished,
-      ...nowConstruction,
+      ...pinSort(nowFinished, pinned),
+      ...pinSort(nowConstruction, pinned),
       ...aerial,
-      ...thenFinished,
-      ...thenConstruction,
+      ...pinSort(thenFinished, pinned),
+      ...pinSort(thenConstruction, pinned),
       ...construction,
       ...poems,
     ];
