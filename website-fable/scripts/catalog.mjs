@@ -327,12 +327,14 @@ async function main() {
   //   just south of the trail's return leg.
   // Shoreline first (top → the dancers), then the outer boundary swings off
   // the bottom and right edges — the water owns the whole bottom-right corner.
+  // West shoreline stays east of the climb from the well to dam light
+  // (that trail leg runs x≈73–84 over y 20–50) so the ribbon keeps a bank.
   const BIG_POND = [
     { x: 78, y: 8 },
-    { x: 76, y: 20 },
-    { x: 74, y: 30 },
-    { x: 81, y: 41 },
-    { x: 87, y: 49 },
+    { x: 78, y: 19 },
+    { x: 82, y: 31 },
+    { x: 86, y: 43 },
+    { x: 89, y: 50 },
     { x: 94, y: 58 },
     // the shore recedes between the well (18) and four stages (11), so the
     // well reads as sitting on a little peninsula
@@ -373,7 +375,12 @@ async function main() {
 
   const pts = nodes.map((n) => ({ x: n.px, y: n.py }));
   const pathD = smoothPath(pts); // open — drives progress + active-stop mapping
-  const loopD = pts.length > 2 ? smoothPath([...pts, pts[0]]) : pathD; // closes 20 → 1
+  // Route-only waypoints for the closing leg (dam light → stargate): the walk
+  // back runs north of the lower pond, so the ribbon arcs above it and drops
+  // down into 19 rather than cutting through the water. (0..100 space.)
+  const CLOSE_VIA = [{ x: 45, y: 6 }].map((p) => ({ x: p.x, y: round(p.y * Y_STRETCH) }));
+  const loopD =
+    pts.length > 2 ? smoothPath([...pts, ...CLOSE_VIA, pts[0]]) : pathD; // closes 20 → 1
 
   const pondPath = (pts) => {
     const scaled = pts.map((p) => ({ x: p.x, y: round(p.y * Y_STRETCH) }));
