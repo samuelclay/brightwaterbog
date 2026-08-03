@@ -281,9 +281,12 @@ async function main() {
     "four-stages-of-evolution": { x: 44, y: 70 },
     "torch-3-land-bridge": { x: 51, y: 47 },
     "shed-torch": { x: 55, y: 34 },
-    "tulip-torch": { x: 68, y: 30 },
-    "aspire-to-grace": { x: 75, y: 40 },
-    "porch-light": { x: 80, y: 48 },
+    // The ribbon still swings out through the tulip's true turn (`path`),
+    // but its marker sits further down the run, with Aspire and Porch Light
+    // shifted down toward the well to make room.
+    "tulip-torch": { x: 75, y: 40, path: { x: 68, y: 30 } },
+    "aspire-to-grace": { x: 79, y: 47 },
+    "porch-light": { x: 83, y: 52 },
     "the-well": { x: 87, y: 57 },
     "dam-light": { x: 71, y: 15 },
   };
