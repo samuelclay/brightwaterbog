@@ -33,7 +33,7 @@ CLAY := \033[38;5;173m
 RUST := \033[1;38;5;203m
 MIST := \033[38;5;152m
 
-.PHONY: all start stop restart status logs clean help banner
+.PHONY: all start stop restart status logs clean help banner sync-photos
 
 all: banner restart logs
 
@@ -105,6 +105,14 @@ status:
 		printf "  $(MIST)log $(LOG) · $(SUN)$$(du -h $(LOG) | cut -f1 | tr -d ' ')$(R)$(MIST) of 10M$(R)\n"; \
 	fi
 
+# Replace any thumbnail-sized photos with full-size originals from
+# Photos.app (downloads from iCloud as needed), then rebuild the catalog.
+sync-photos:
+	@printf "$(LILY)◆$(R) syncing photos from Photos.app…\n"
+	@python3 ../tools/sync_photos.py
+	@npm run catalog
+	@printf "$(FERN)●$(R) photos synced $(DIM)(full-size originals + fresh catalog)$(R)\n"
+
 clean: stop
 	@rm -f $(LOG)
 	@rm -rf dist .astro
@@ -118,4 +126,5 @@ help: banner
 	@printf "  $(POND)make status$(R)   $(MIST)pid, ports, log size$(R)\n"
 	@printf "  $(RUST)make stop$(R)     $(MIST)kill the dev stack (pid + port sweep)$(R)\n"
 	@printf "  $(RUST)make clean$(R)    $(MIST)stop + remove log, dist/, .astro/$(R)\n"
+	@printf "  $(SUN)make sync-photos$(R) $(MIST)re-export any thumbnail-sized photos full-size + rebuild catalog$(R)\n"
 	@printf "\n"
