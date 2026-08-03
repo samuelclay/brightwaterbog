@@ -348,7 +348,7 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 .seg {
   position: relative;
   flex: 1 1 0;
-  min-width: 0;
+  min-width: max-content; /* never narrower than "NOW · N PHOTOS" */
   height: 30px;
   border: 1px solid var(--came);
   border-radius: 999px;
@@ -373,6 +373,10 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 .seg__label {
   position: relative;
   z-index: 1;
+  flex: 1;
+  display: flex;
+  justify-content: space-between; /* label left, count right */
+  align-items: baseline;
   padding: 0 0.85rem;
   font-family: var(--font-mono);
   font-size: 0.68rem;
@@ -380,11 +384,10 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   text-transform: uppercase;
   color: var(--ink-dim);
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .seg.is-active .seg__label { color: var(--ink); }
-.seg__label i { font-style: normal; color: var(--ink-faint); margin-left: 0.5em; }
+/* margin is the MINIMUM gap between label and count; space-between widens it */
+.seg__label i { font-style: normal; color: var(--ink-faint); margin-left: 1.5em; }
 
 /* groups inside the track (a larger gap divides the eras) */
 .strip__group { display: flex; gap: 14px; flex: 0 0 auto; }
