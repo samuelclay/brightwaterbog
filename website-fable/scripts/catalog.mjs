@@ -325,6 +325,8 @@ async function main() {
   //   beside the dancers and jo bird (8, 9).
   // - The lower pond is a small oval between stargate (1) and dam light (19),
   //   just south of the trail's return leg.
+  // Shoreline first (top → the dancers), then the outer boundary swings off
+  // the bottom and right edges — the water owns the whole bottom-right corner.
   const BIG_POND = [
     { x: 78, y: 8 },
     { x: 76, y: 20 },
@@ -332,18 +334,31 @@ async function main() {
     { x: 81, y: 41 },
     { x: 87, y: 49 },
     { x: 94, y: 58 },
-    { x: 86, y: 68 },
-    { x: 62, y: 78 },
-    { x: 40, y: 84 },
-    { x: 27, y: 86 },
-    { x: 30, y: 94 },
-    { x: 55, y: 96 },
-    { x: 90, y: 92 },
-    { x: 108, y: 70 },
+    { x: 84, y: 66 },
+    { x: 66, y: 75 },
+    { x: 46, y: 81 },
+    { x: 30, y: 85 },
+    { x: 32, y: 96 },
+    { x: 55, y: 103 },
+    { x: 90, y: 104 },
+    { x: 106, y: 95 },
+    { x: 110, y: 60 },
     { x: 110, y: 30 },
     { x: 100, y: 10 },
   ];
-  const LOWER_POND = { cx: 43, cy: 16, rx: 11, ry: 2.6 };
+  // Wide blob spanning between stargate (1), tetris (2), and dam light (19).
+  const LOWER_POND = [
+    { x: 17, y: 14 },
+    { x: 30, y: 10.5 },
+    { x: 46, y: 10 },
+    { x: 60, y: 11.5 },
+    { x: 67, y: 14.5 },
+    { x: 62, y: 18.5 },
+    { x: 48, y: 20.5 },
+    { x: 34, y: 22 },
+    { x: 21, y: 24 },
+    { x: 16, y: 19 },
+  ];
 
   // Stretch the map vertically: coords stay hand-tuned in 0..100, but the
   // emitted geometry is 2.5× taller so the rail's minimap uses its column's
@@ -358,16 +373,13 @@ async function main() {
   const pathD = smoothPath(pts); // open — drives progress + active-stop mapping
   const loopD = pts.length > 2 ? smoothPath([...pts, pts[0]]) : pathD; // closes 20 → 1
 
-  const bigPondPts = BIG_POND.map((p) => ({ x: p.x, y: round(p.y * Y_STRETCH) }));
+  const pondPath = (pts) => {
+    const scaled = pts.map((p) => ({ x: p.x, y: round(p.y * Y_STRETCH) }));
+    return smoothPath([...scaled, scaled[0]]) + " Z";
+  };
   const ponds = [
-    { kind: "path", d: smoothPath([...bigPondPts, bigPondPts[0]]) + " Z" },
-    {
-      kind: "ellipse",
-      cx: LOWER_POND.cx,
-      cy: round(LOWER_POND.cy * Y_STRETCH),
-      rx: LOWER_POND.rx,
-      ry: round(LOWER_POND.ry * Y_STRETCH),
-    },
+    { kind: "path", d: pondPath(BIG_POND) },
+    { kind: "path", d: pondPath(LOWER_POND) },
   ];
 
   const trail = {
