@@ -288,7 +288,10 @@ async function main() {
     "aspire-to-grace": { x: 79, y: 47 },
     "porch-light": { x: 83, y: 52 },
     "the-well": { x: 87, y: 57 },
-    "dam-light": { x: 71, y: 15 },
+    // The ribbon's turnaround bends sharply up-right of the marker, keeping
+    // the curve tight in the top-right corner instead of sweeping wide
+    // toward the lower pond.
+    "dam-light": { x: 71, y: 15, path: { x: 74, y: 12 } },
   };
   // A stop's marker (x,y) and the point the trail ribbon bends through
   // (path.x, path.y) usually coincide; `path` lets a marker sit beside the
@@ -331,15 +334,19 @@ async function main() {
   // (that trail leg runs x≈73–84 over y 20–50) so the ribbon keeps a bank.
   const BIG_POND = [
     { x: 78, y: 8 },
-    { x: 78, y: 19 },
-    { x: 82, y: 31 },
+    { x: 80, y: 17 },
+    { x: 83, y: 31 },
     { x: 86, y: 43 },
     { x: 89, y: 50 },
     { x: 94, y: 58 },
-    // the shore recedes between the well (18) and four stages (11), so the
-    // well reads as sitting on a little peninsula
-    { x: 89, y: 68 },
-    { x: 69, y: 78 },
+    // a bay curves up into the land between four stages (11) and the well
+    // (18), so the torch run 16-17-18 reads as a peninsula with water on
+    // both sides
+    { x: 91, y: 64 },
+    { x: 76, y: 63 },
+    { x: 68, y: 54 },
+    { x: 63, y: 63 },
+    { x: 62, y: 73 },
     { x: 47, y: 82 },
     { x: 30, y: 85 },
     { x: 32, y: 96 },
@@ -378,7 +385,10 @@ async function main() {
   // Route-only waypoints for the closing leg (dam light → stargate): the walk
   // back runs north of the lower pond, so the ribbon arcs above it and drops
   // down into 19 rather than cutting through the water. (0..100 space.)
-  const CLOSE_VIA = [{ x: 45, y: 6 }].map((p) => ({ x: p.x, y: round(p.y * Y_STRETCH) }));
+  const CLOSE_VIA = [
+    { x: 60, y: 7 }, // hugs the turn at dam light so the U is sharp
+    { x: 45, y: 6 },
+  ].map((p) => ({ x: p.x, y: round(p.y * Y_STRETCH) }));
   const loopD =
     pts.length > 2 ? smoothPath([...pts, ...CLOSE_VIA, pts[0]]) : pathD; // closes 20 → 1
 
