@@ -104,6 +104,40 @@ function init() {
     peer = null;
   }
 
+  // Preload every photo in the carousel as soon as it opens — nearest
+  // neighbors first, a few at a time — so slides never animate in empty.
+  const preloadedUrls = new Set<string>();
+  let preloadToken = 0;
+  function preloadAll(list: Item[], start: number) {
+    const token = ++preloadToken;
+    const n = list.length;
+    const seen = new Set([start]);
+    const seq: number[] = [];
+    for (let d = 1; seen.size < n; d++) {
+      for (const idx of [(start + d) % n, (start - d + n) % n]) {
+        if (!seen.has(idx)) {
+          seen.add(idx);
+          seq.push(idx);
+        }
+      }
+    }
+    let i = 0;
+    const next = () => {
+      if (token !== preloadToken) return;
+      while (i < seq.length && preloadedUrls.has(list[seq[i]].full)) i++;
+      if (i >= seq.length) return;
+      const url = list[seq[i++]].full;
+      const im = new Image();
+      im.onload = () => {
+        preloadedUrls.add(url);
+        next();
+      };
+      im.onerror = next;
+      im.src = url;
+    };
+    for (let k = 0; k < 3; k++) next();
+  }
+
   // Create (or keep) the neighbor photo sitting one stage-width away in the
   // given direction, ready to slide in.
   function ensurePeer(dir: 1 | -1) {
@@ -187,10 +221,12 @@ function init() {
     root.setAttribute("aria-hidden", "false");
     requestAnimationFrame(() => root.classList.add("is-open"));
     render(start);
+    preloadAll(list, index);
     document.addEventListener("keydown", onKey);
   }
 
   function close() {
+    preloadToken++; // stop launching new preloads once closed
     root.classList.remove("is-open");
     document.removeEventListener("keydown", onKey);
     const done = () => {
