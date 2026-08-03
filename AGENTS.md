@@ -10,3 +10,8 @@
 - The production profile allows one Eufy viewer slot and targets a five-minute thumbnail refresh to keep station command pressure, CPU, and memory low.
 - Publish `cameras.local` only from Home Assistant's `brightwater_mdns_alias` add-on. The laptop LaunchAgent and Compose stack are fallback/development tools and must remain stopped during production.
 - Deploy camera-monitor changes with `make camera-monitor-ha-deploy`, then verify all ten live frames, all four Eufy floodlight controls, add-on CPU/memory, Eufy error logs, and go2rtc producer/consumer counts.
+
+## Website (website-fable/)
+
+- `src/data/photos.json` and `src/data/trail.json` are generated (and gitignored) — the site reads them, not the sources. After editing sculpture frontmatter (GPS, `map:`), `MAP_COORDS` in `scripts/catalog.mjs`, or the photos tree, run `make catalog` in `website-fable/` to regenerate.
+- Trail minimap x/y positions are hand-tuned in `MAP_COORDS` (frontmatter `map: {x,y}` overrides); place stops using both latitude and longitude relative to neighboring stops, not just path order.

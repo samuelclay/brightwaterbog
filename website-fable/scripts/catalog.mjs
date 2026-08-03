@@ -235,7 +235,7 @@ async function main() {
   const MAP_COORDS = {
     stargate: { x: 15, y: 10 },
     tetris: { x: 13, y: 27 },
-    "hoopla-pyramid": { x: 22, y: 45 },
+    "hoopla-pyramid": { x: 11, y: 44 },
     "julians-mailbox": { x: 6, y: 68 },
     "new-mailbox": { x: 10, y: 63 },
     "wood-seal-and-eel": { x: 23, y: 60 },

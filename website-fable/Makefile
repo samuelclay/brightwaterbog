@@ -33,7 +33,7 @@ CLAY := \033[38;5;173m
 RUST := \033[1;38;5;203m
 MIST := \033[38;5;152m
 
-.PHONY: all start stop restart status logs clean help banner sync-photos
+.PHONY: all start stop restart status logs clean help banner sync-photos catalog
 
 all: banner restart logs
 
@@ -105,6 +105,15 @@ status:
 		printf "  $(MIST)log $(LOG) · $(SUN)$$(du -h $(LOG) | cut -f1 | tr -d ' ')$(R)$(MIST) of 10M$(R)\n"; \
 	fi
 
+# Rebuild src/data/photos.json + trail.json from the photo tree and the
+# sculpture frontmatter. Run after editing GPS or map coords in
+# src/content/sculptures/*.md, MAP_COORDS in scripts/catalog.mjs, or the
+# photos/ tree — the site reads the generated JSON, not the sources.
+catalog:
+	@printf "$(LILY)◆$(R) rebuilding photo + trail catalog…\n"
+	@npm run catalog
+	@printf "$(FERN)●$(R) catalog rebuilt $(DIM)(src/data/photos.json, trail.json)$(R)\n"
+
 # Replace any thumbnail-sized photos with full-size originals from
 # Photos.app (downloads from iCloud as needed), then rebuild the catalog.
 sync-photos:
@@ -126,5 +135,6 @@ help: banner
 	@printf "  $(POND)make status$(R)   $(MIST)pid, ports, log size$(R)\n"
 	@printf "  $(RUST)make stop$(R)     $(MIST)kill the dev stack (pid + port sweep)$(R)\n"
 	@printf "  $(RUST)make clean$(R)    $(MIST)stop + remove log, dist/, .astro/$(R)\n"
+	@printf "  $(SUN)make catalog$(R)  $(MIST)rebuild photos.json + trail.json (after GPS/map/photo edits)$(R)\n"
 	@printf "  $(SUN)make sync-photos$(R) $(MIST)re-export any thumbnail-sized photos full-size + rebuild catalog$(R)\n"
 	@printf "\n"
