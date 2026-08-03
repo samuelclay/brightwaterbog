@@ -2,12 +2,15 @@
 import { imageUrl, srcset, STRIP_WIDTHS } from "../lib/imageUrl";
 import photosData from "../data/photos.json";
 
-// the largest photo set on the site gets the full bar width; smaller sets
-// get proportionally narrower bars (floored by the pills' own min-content)
+// the largest photo set on the site gets the full bar width; smaller sets get
+// logarithmically narrower bars — tiny sets stay pill-sized (floored by the
+// pills' own min-content), but anything more than a few photos reads wide
 const maxTotal = Math.max(
   1,
   ...Object.values(photosData as Record<string, unknown[]>).map((v) => v.length)
 );
+const barWidth = (count: number) =>
+  Math.round((Math.log(count + 1) / Math.log(maxTotal + 1)) * 720);
 
 interface PhotoEntry {
   key: string;
@@ -61,7 +64,7 @@ const total = photos.length;
           class="strip__bar"
           role="tablist"
           aria-label={`${title} — photo sections`}
-          style={`max-width:min(${Math.round((total / maxTotal) * 720)}px, 100%)`}
+          style={`max-width:min(${barWidth(total)}px, 100%)`}
         >
           {groups.map((g) => (
             <button
