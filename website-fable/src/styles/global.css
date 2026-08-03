@@ -552,7 +552,6 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   padding: 0 clamp(1rem, 3vw, 3rem) 6rem;
 }
 .piece-row { padding: clamp(1.6rem, 3.2vw, 2.6rem) 0; }
-.piece-row + .piece-row { border-top: 1px solid var(--came); }
 .piece-row__title {
   font-family: var(--font-display);
   font-weight: 400;
