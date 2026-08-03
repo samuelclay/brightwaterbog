@@ -30,29 +30,28 @@ function init() {
 
   function update() {
     ticking = false;
-    const centerY = window.innerHeight * 0.42;
+    // Track from the same line an anchor click lands on (scroll-margin-top),
+    // so choosing a marker activates that stop, not the one after it.
+    const refY =
+      parseFloat(getComputedStyle(stops[0]).scrollMarginTop) || window.innerHeight * 0.08;
 
-    let index = 0;
-    let best = Infinity;
-    const tops: number[] = [];
-    stops.forEach((s, i) => {
+    const tops = stops.map((s) => {
       const head = (s.querySelector(".stop__head") as HTMLElement) ?? s;
-      const r = head.getBoundingClientRect();
-      tops[i] = r.top;
-      const d = Math.abs(r.top - centerY);
-      if (d < best) {
-        best = d;
-        index = i;
-      }
+      return head.getBoundingClientRect().top;
     });
 
+    // Last head at/above the reference line, plus fractional progress toward
+    // the next head. The active stop flips at the halfway point.
+    let seg = 0;
+    while (seg < n - 1 && tops[seg + 1] <= refY) seg++;
     let progress = 0;
-    if (index < n - 1) {
-      const span = tops[index + 1] - tops[index];
-      if (span > 0) progress = Math.min(1, Math.max(0, (centerY - tops[index]) / span));
+    if (seg < n - 1) {
+      const span = tops[seg + 1] - tops[seg];
+      if (span > 0) progress = Math.min(1, Math.max(0, (refY - tops[seg]) / span));
     }
+    const index = progress >= 0.5 && seg < n - 1 ? seg + 1 : seg;
 
-    const along = (index + progress) / Math.max(1, n - 1);
+    const along = (seg + progress) / Math.max(1, n - 1);
     root.style.setProperty("--route-progress", along.toFixed(4));
 
     if (index !== lastIndex) {
