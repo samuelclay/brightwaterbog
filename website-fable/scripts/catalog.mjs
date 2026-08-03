@@ -334,9 +334,11 @@ async function main() {
     { x: 81, y: 41 },
     { x: 87, y: 49 },
     { x: 94, y: 58 },
-    { x: 84, y: 66 },
-    { x: 66, y: 75 },
-    { x: 46, y: 81 },
+    // the shore recedes between the well (18) and four stages (11), so the
+    // well reads as sitting on a little peninsula
+    { x: 89, y: 68 },
+    { x: 69, y: 78 },
+    { x: 47, y: 82 },
     { x: 30, y: 85 },
     { x: 32, y: 96 },
     { x: 55, y: 103 },
