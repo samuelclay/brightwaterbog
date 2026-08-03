@@ -7,6 +7,7 @@ interface Item {
   hi: string;
   w: number;
   h: number;
+  era: string;
 }
 
 function init() {
@@ -15,6 +16,7 @@ function init() {
   const img = document.querySelector<HTMLImageElement>("[data-lightbox-img]");
   if (!root || !stage || !img) return;
 
+  const eraPill = document.querySelector<HTMLElement>("[data-lightbox-era]");
   const btnClose = document.querySelector<HTMLButtonElement>("[data-lightbox-close]");
   const btnPrev = document.querySelector<HTMLButtonElement>("[data-lightbox-prev]");
   const btnNext = document.querySelector<HTMLButtonElement>("[data-lightbox-next]");
@@ -155,6 +157,38 @@ function init() {
     peerDir = dir;
   }
 
+  // The pill sits inside the photo's bottom-left corner (like the thumbnail
+  // pill) and rides along with it — swipes, slides, zoom, dismiss drags. The
+  // photo moves via transforms and CSS transitions, so the only way to stay
+  // glued to it is to re-read its box every frame while the lightbox is open.
+  let eraRaf = 0;
+  function placeEra() {
+    if (!eraPill || eraPill.hidden) return;
+    const r = img.getBoundingClientRect();
+    eraPill.style.left = `${r.left + 8}px`;
+    eraPill.style.top = `${r.bottom - eraPill.offsetHeight - 8}px`;
+    // Fade with the photo on dismiss drags, but leave the inline opacity
+    // unset otherwise so the .is-zoomed CSS fade still wins.
+    const o = img.style.opacity;
+    eraPill.style.opacity = o && o !== "1" ? o : "";
+  }
+  function startEraTracking() {
+    cancelAnimationFrame(eraRaf);
+    const loop = () => {
+      placeEra();
+      eraRaf = requestAnimationFrame(loop);
+    };
+    eraRaf = requestAnimationFrame(loop);
+  }
+  function stopEraTracking() {
+    cancelAnimationFrame(eraRaf);
+  }
+  function setEra(item: Item) {
+    if (!eraPill) return;
+    eraPill.textContent = item.era;
+    eraPill.hidden = !item.era;
+  }
+
   function render(i: number) {
     index = (i + items.length) % items.length;
     const item = items[index];
@@ -162,6 +196,7 @@ function init() {
     sliding = false;
     removePeer();
     resetTransform();
+    setEra(item);
     img.style.opacity = "1";
     img.src = item.full;
     upgradeHi(item);
@@ -190,6 +225,7 @@ function init() {
       index = nextIndex;
       hiLoaded = false;
       resetTransform();
+      setEra(item);
       // The peer keeps covering the stage until the new src is decoded, so
       // the swap from peer to the canonical img never flashes.
       img.style.opacity = "0";
@@ -222,11 +258,14 @@ function init() {
     requestAnimationFrame(() => root.classList.add("is-open"));
     render(start);
     preloadAll(list, index);
+    startEraTracking();
     document.addEventListener("keydown", onKey);
   }
 
   function close() {
     preloadToken++; // stop launching new preloads once closed
+    stopEraTracking();
+    if (eraPill) eraPill.hidden = true;
     root.classList.remove("is-open");
     document.removeEventListener("keydown", onKey);
     const done = () => {
@@ -427,6 +466,7 @@ function init() {
       hi: el.dataset.fullHi ?? el.dataset.full ?? "",
       w: Number(el.dataset.w) || 0,
       h: Number(el.dataset.h) || 0,
+      era: el.dataset.era ?? "",
     }));
   }
 

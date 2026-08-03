@@ -99,6 +99,7 @@ const total = photos.length;
                 data-full-hi={f.fullHi}
                 data-w={f.w}
                 data-h={f.h}
+                data-era={`${g.label}${f.year ? ` · ${f.year}` : ""}`}
                 aria-label={`${title} — ${g.label} photo ${i + 1}, open full screen`}
               >
                 <img

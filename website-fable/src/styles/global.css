@@ -903,23 +903,20 @@ footer.site-foot {
 .lightbox__nav--prev { left: 1rem; top: 50%; transform: translateY(-50%); }
 .lightbox__nav--next { right: 1rem; top: 50%; transform: translateY(-50%); }
 .lightbox__nav[disabled] { opacity: 0.25; pointer-events: none; }
-.lightbox__hint {
-  position: fixed;
-  bottom: 1.1rem;
-  left: 50%;
-  transform: translateX(-50%);
+.lightbox__era {
+  position: fixed; /* left/top set by lightbox.ts to hug the photo's corner */
   font-family: var(--font-mono);
-  font-size: 0.68rem;
-  letter-spacing: 0.08em;
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--ink-dim);
-  background: color-mix(in oklab, var(--bg) 55%, transparent);
-  padding: 6px 12px;
-  border-radius: 999px;
-  backdrop-filter: blur(8px);
+  padding: 3px 7px;
+  border-radius: 99px;
+  background: color-mix(in oklab, var(--bg) 62%, transparent);
+  color: var(--ink);
+  backdrop-filter: blur(6px);
   transition: opacity 0.3s var(--ease);
 }
-.lightbox.is-zoomed .lightbox__hint { opacity: 0; }
+.lightbox.is-zoomed .lightbox__era { opacity: 0; }
 @media (max-width: 620px) {
   .lightbox__nav { display: none; } /* swipe instead */
 }

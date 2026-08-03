@@ -86,10 +86,10 @@ const poetryPhotos = poetry ? (photos[poetry.id] ?? []) : [];
     <div class="lightbox__stage" data-lightbox-stage>
       <img class="lightbox__img" data-lightbox-img alt="" />
     </div>
+    <span class="lightbox__era" data-lightbox-era hidden></span>
     <button class="lightbox__close" data-lightbox-close type="button" aria-label="Close">✕</button>
     <button class="lightbox__nav lightbox__nav--prev" data-lightbox-prev type="button" aria-label="Previous">‹</button>
     <button class="lightbox__nav lightbox__nav--next" data-lightbox-next type="button" aria-label="Next">›</button>
-    <div class="lightbox__hint" data-lightbox-hint>Pinch or scroll to zoom · scroll away or tap to close</div>
   </div>
 
   <script>
