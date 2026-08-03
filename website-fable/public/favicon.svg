@@ -1,9 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Tetris (stop 2): the 5x5 red glass square with the 8x1 beam balanced
+       diagonally on its top-left corner, as it glows at dusk. -->
   <rect width="32" height="32" rx="4" fill="#0e1512"/>
-  <g stroke="#3b473f" stroke-width="1.4">
-    <polygon points="16,4 26,16 16,28 6,16" fill="#f2b45a"/>
-    <polygon points="16,4 26,16 16,16" fill="#e6586f"/>
-    <polygon points="26,16 16,28 16,16" fill="#6a93ff"/>
-    <polygon points="16,28 6,16 16,16" fill="#35c4a6"/>
+  <g fill="#c1272d" stroke="#ff6a4d" stroke-width="0.9" stroke-linejoin="round">
+    <!-- 5x5 square -->
+    <rect x="12" y="14" width="16" height="16"/>
+    <path d="M15.2 14v16M18.4 14v16M21.6 14v16M24.8 14v16M12 17.2h16M12 20.4h16M12 23.6h16M12 26.8h16" fill="none"/>
+    <!-- 8x1 beam, balanced at its middle on the square's corner -->
+    <g transform="rotate(-45 12 14)">
+      <rect x="2" y="12.5" width="20" height="3"/>
+      <path d="M4.5 12.5v3M7 12.5v3M9.5 12.5v3M12 12.5v3M14.5 12.5v3M17 12.5v3M19.5 12.5v3" fill="none"/>
+    </g>
   </g>
 </svg>
