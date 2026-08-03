@@ -1,7 +1,7 @@
 ---
 title: The Well
 artist: Julian Janowitz
-pathOrder: 19
+pathOrder: 18
 section: outdoor
 glass: cobalt
 gps:

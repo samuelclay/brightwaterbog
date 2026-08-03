@@ -1,7 +1,7 @@
 ---
 title: Dam Light
 artist: Julian Janowitz
-pathOrder: 20
+pathOrder: 19
 section: outdoor
 glass: cobalt
 gps:

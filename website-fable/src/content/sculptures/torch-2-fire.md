@@ -2,7 +2,7 @@
 title: Torch №2
 kicker: Fire
 artist: Julian Janowitz
-pathOrder: 12
+pathOrder: 11
 section: outdoor
 glass: garnet
 gps:

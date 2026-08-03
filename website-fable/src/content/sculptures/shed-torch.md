@@ -2,7 +2,7 @@
 title: Shed Torch
 kicker: Torch №4
 artist: Julian Janowitz
-pathOrder: 15
+pathOrder: 14
 section: outdoor
 glass: amber
 gps:

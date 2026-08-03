@@ -1,7 +1,7 @@
 ---
 title: Aspire to Grace
 artist: Julian Janowitz
-pathOrder: 17
+pathOrder: 16
 section: outdoor
 glass: violet
 gps:

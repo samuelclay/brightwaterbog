@@ -233,18 +233,21 @@ async function main() {
   // Accurate hand-tuned map positions (normalized 0..100), matched to the real
   // GPS layout of the trail. A stop's own frontmatter `map: {x,y}` overrides.
   const MAP_COORDS = {
+    // Stops 1→2→3→6 read as one straight line; the mailboxes sit on the
+    // gun's row to its left; the descent to the dancers curves gently right
+    // with the seal & eel close below the gun; the return passes back by
+    // the gun (geometric torch) before the torch run climbs to the shed.
     stargate: { x: 15, y: 10 },
     tetris: { x: 13, y: 27 },
     "hoopla-pyramid": { x: 11, y: 44 },
-    "julians-mailbox": { x: 6, y: 68 },
-    "new-mailbox": { x: 10, y: 63 },
-    "wood-seal-and-eel": { x: 23, y: 60 },
-    "the-gun": { x: 26, y: 54 },
+    "julians-mailbox": { x: 4, y: 61 },
+    "new-mailbox": { x: 3, y: 54 },
+    "wood-seal-and-eel": { x: 15, y: 65 },
+    "the-gun": { x: 10, y: 61 },
     "the-dancers": { x: 51, y: 92 },
     "jo-bird": { x: 42, y: 83 },
-    "geometric-torch": { x: 36, y: 51 },
-    "torch-panel": { x: 40, y: 53 },
-    "torch-2-fire": { x: 43, y: 57 },
+    "geometric-torch": { x: 19, y: 60 },
+    "torch-2-fire": { x: 31, y: 58 },
     "four-stages-of-evolution": { x: 44, y: 70 },
     "torch-3-land-bridge": { x: 51, y: 47 },
     "shed-torch": { x: 55, y: 34 },

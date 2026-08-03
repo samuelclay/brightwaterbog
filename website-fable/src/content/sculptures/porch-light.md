@@ -1,7 +1,7 @@
 ---
 title: Porch Light
 artist: Julian Janowitz
-pathOrder: 18
+pathOrder: 17
 section: outdoor
 glass: amber
 gps:

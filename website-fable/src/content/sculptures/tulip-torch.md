@@ -2,7 +2,7 @@
 title: Tulip Torch
 kicker: Torch №5
 artist: Julian Janowitz
-pathOrder: 16
+pathOrder: 15
 section: outdoor
 glass: rose
 gps:

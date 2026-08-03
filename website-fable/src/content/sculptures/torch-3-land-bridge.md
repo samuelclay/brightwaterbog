@@ -2,7 +2,7 @@
 title: Torch №3
 kicker: Land Bridge
 artist: Julian Janowitz
-pathOrder: 14
+pathOrder: 13
 section: outdoor
 glass: teal
 gps:
