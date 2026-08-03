@@ -17,6 +17,38 @@ const base = trail.loopD as string; // full loop (closes 20 → 1)
 const ponds = (trail as any).ponds ?? [];
 const [, , vbW, vbH] = (trail.viewBox as string).split(" ").map(Number);
 const first = nodes[0];
+
+// Stylized conifers, three variants for a bit of forest variation.
+const PINES = {
+  a: "M6 0L2 7h8zM6 4L1 12h10zM6 8L0 17h12zM5 17h2v3H5z", // classic 3-tier
+  b: "M5 0L2 6h6zM5 3L1 11h8zM4 11h2v3H4z", // slim 2-tier
+  c: "M6 0L1 8h10zM6 5L0 14h12zM5 14h2v3H5z", // broad, short
+} as const;
+
+// Hand-placed clusters on open land (0..100 pre-stretch coords), kept clear
+// of the trail ribbon, the markers, and both ponds.
+const TREES: Array<[number, number, number, keyof typeof PINES]> = [
+  // upper-left meadow, west of the 2-3 leg
+  [6, 20, 0.45, "a"],
+  [4, 33, 0.32, "b"],
+  [9, 42, 0.38, "c"],
+  // top-left corner above stargate
+  [5, 3.5, 0.4, "a"],
+  // middle band between the 2-3 leg and the torch run
+  [27, 30, 0.42, "a"],
+  [33, 38, 0.3, "b"],
+  [26, 46, 0.36, "c"],
+  [37, 51, 0.3, "a"],
+  // clearing north of tulip torch
+  [60, 22, 0.3, "c"],
+  // inside the lower loop, east of jo bird
+  [35, 73, 0.34, "b"],
+  [39, 77, 0.28, "a"],
+  // the well's peninsula
+  [79, 54, 0.26, "b"],
+  // bottom-left shore below the dancers
+  [22, 93, 0.3, "b"],
+];
 ---
 
 <aside class="map-rail">
@@ -57,6 +89,13 @@ const first = nodes[0];
         <g clip-path="url(#mm-clip)" aria-hidden="true">
           <rect class="mm-moss" width={vbW} height={vbH} filter="url(#mm-mottle)" />
           <rect class="mm-grain" width={vbW} height={vbH} filter="url(#mm-grain)" />
+          {TREES.map(([x, y, s, v]) => (
+            <path
+              class="mm-pine"
+              transform={`translate(${x} ${(y * vbH) / 100}) scale(${s})`}
+              d={PINES[v]}
+            />
+          ))}
           {ponds.map((p: any) =>
             p.kind === "ellipse" ? (
               <ellipse class="mm-pond" cx={p.cx} cy={p.cy} rx={p.rx} ry={p.ry} />

@@ -2,28 +2,42 @@
 import { imageUrl, srcset, FULL_WIDTHS } from "../lib/imageUrl";
 import photosData from "../data/photos.json";
 
-// Big full-bleed hero: the most recent photo of Stargate (the trail's entrance).
-const photos = photosData as Record<string, Array<{ key: string; era: string; width: number | null; height: number | null }>>;
-const stargate = photos["stargate"] ?? [];
-const nows = stargate.filter((p) => p.era === "now");
-const hero = nows.at(-1) ?? stargate[0];
+// Big full-bleed hero: slow crossfade through the trail's headline sculptures.
+const photos = photosData as Record<
+  string,
+  Array<{ key: string; era: string; width: number | null; height: number | null }>
+>;
+
+const FEATURED = [
+  { slug: "stargate", title: "Stargate" },
+  { slug: "tetris", title: "Tetris" },
+  { slug: "hoopla-pyramid", title: "Hoopla Pyramid" },
+  { slug: "the-dancers", title: "The Dancers" },
+];
+
+const slides = FEATURED.map(({ slug, title }) => {
+  const list = photos[slug] ?? [];
+  const nows = list.filter((p) => p.era === "now");
+  return { title, p: nows.at(-1) ?? list[0] };
+}).filter((s) => s.p);
 ---
 
 <section class="hero">
   {
-    hero && (
+    slides.map(({ title, p }, i) => (
       <img
-        class="hero__media"
-        src={imageUrl(hero.key, { w: 2200, fit: "cover" })}
-        srcset={srcset(hero.key, FULL_WIDTHS, "cover")}
+        class:list={["hero__media", { "is-active": i === 0 }]}
+        src={imageUrl(p.key, { w: 2200, fit: "cover" })}
+        srcset={srcset(p.key, FULL_WIDTHS, "cover")}
         sizes="100vw"
-        width={hero.width ?? undefined}
-        height={hero.height ?? undefined}
-        alt="Stargate at Bright Water Bog"
-        fetchpriority="high"
+        width={p.width ?? undefined}
+        height={p.height ?? undefined}
+        alt={`${title} at Bright Water Bog`}
+        fetchpriority={i === 0 ? "high" : undefined}
+        loading={i === 0 ? undefined : "lazy"}
         decoding="async"
       />
-    )
+    ))
   }
   <div class="hero__veil" aria-hidden="true"></div>
 
@@ -32,3 +46,16 @@ const hero = nows.at(-1) ?? stargate[0];
   </div>
 
 </section>
+
+<script>
+  // Crossfade the hero slides (skipped for reduced motion).
+  const slides = Array.from(document.querySelectorAll<HTMLElement>(".hero__media"));
+  if (slides.length > 1 && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    let current = 0;
+    setInterval(() => {
+      slides[current].classList.remove("is-active");
+      current = (current + 1) % slides.length;
+      slides[current].classList.add("is-active");
+    }, 6000);
+  }
+</script>

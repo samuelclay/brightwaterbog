@@ -111,16 +111,20 @@ body::before {
 }
 body::after {
   content: "";
-  position: fixed;
+  position: absolute; /* scrolls with the page — the forest isn't sticky */
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  opacity: 0.1;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='560' height='560'><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='0.011' numOctaves='4' seed='7' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.45 0 0 0 0 0.52 0 0 0 0 0.42 0.9 0 0 0 -0.18'/></filter><rect width='560' height='560' filter='url(%23m)'/></svg>");
-  background-size: 560px 560px;
+  opacity: 0.18;
+  /* sparse, varied pines over broad organic mottle — it's a pine forest */
+  background-image:
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='340' height='340'><g fill='%235f7a63' fill-opacity='0.45'><path transform='translate(30 38)' d='M6 0L2 7h8zM6 4L1 12h10zM6 8L0 17h12zM5 17h2v3H5z'/><path transform='translate(150 92) scale(0.8)' d='M5 0L2 6h6zM5 3L1 11h8zM4 11h2v3H4z'/><path transform='translate(262 30) scale(1.1)' d='M6 0L1 8h10zM6 5L0 14h12zM5 14h2v3H5z'/><path transform='translate(84 200) scale(0.9)' d='M6 0L2 7h8zM6 4L1 12h10zM6 8L0 17h12zM5 17h2v3H5z'/><path transform='translate(216 228) scale(0.85)' d='M5 0L2 6h6zM5 3L1 11h8zM4 11h2v3H4z'/><path transform='translate(24 286) scale(0.7)' d='M6 0L1 8h10zM6 5L0 14h12zM5 14h2v3H5z'/></g></svg>"),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='560' height='560'><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='0.011' numOctaves='4' seed='7' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.45 0 0 0 0 0.52 0 0 0 0 0.42 1.1 0 0 0 -0.2'/></filter><rect width='560' height='560' filter='url(%23m)'/></svg>");
+  background-size: 340px 340px, 560px 560px;
 }
 
 body {
+  position: relative; /* anchors the scrolling ::after texture to the full page */
   background: var(--bg);
   color: var(--ink);
   font-family: var(--font-body);
@@ -167,7 +171,10 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   width: 100%;
   height: 100%;
   object-fit: cover;
+  opacity: 0;
+  transition: opacity 1.8s var(--ease);
 }
+.hero__media.is-active { opacity: 1; }
 .hero__veil {
   position: absolute;
   inset: 0;
@@ -427,8 +434,9 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 }
 
 /* terrain: mottled undergrowth + paper grain + the two ponds */
-.mm-moss { fill: color-mix(in oklab, var(--teal) 42%, var(--came)); opacity: 0.38; }
-.mm-grain { fill: var(--ink); opacity: 0.11; }
+.mm-moss { fill: color-mix(in oklab, var(--teal) 42%, var(--came)); opacity: 0.5; }
+.mm-grain { fill: var(--ink); opacity: 0.14; }
+.mm-pine { fill: color-mix(in oklab, var(--teal) 30%, var(--came-strong)); opacity: 0.35; }
 .mm-pond {
   fill: color-mix(in oklab, var(--cobalt) 26%, var(--surface-2));
   stroke: color-mix(in oklab, var(--cobalt) 40%, transparent);
@@ -606,35 +614,88 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 .topbar a:hover { opacity: 1; }
 .topbar__links { display: flex; gap: 1.2rem; align-items: center; }
 
-/* Auto/Light/Dark segmented slider — geometry and animation copied from
-   samuelclay.com's theme control (11px/600 segments, 2px-padded 6px-radius
-   track, active pill animates via `all 0.3s ease`). */
-.theme-control {
+/* Light/dark toggle switch — ported verbatim from NewsBlur's welcome page
+   (sun icon · sliding 36x20 pill track · moon icon). The dark state follows
+   this site's theme mechanism via the --tt-* variables. */
+.theme-toggle {
+  --tt-sun: #b8960a;
+  --tt-moon: rgba(0, 0, 0, 0.2);
+  --tt-border: rgba(0, 0, 0, 0.15);
+  --tt-bg: rgba(0, 0, 0, 0.08);
+  --tt-bg-hover: rgba(0, 0, 0, 0.12);
+  --tt-border-hover: rgba(0, 0, 0, 0.25);
+  --tt-thumb: #555;
+  --tt-x: 0px;
   display: flex;
-  border-radius: 6px;
-  padding: 2px;
-  background: color-mix(in oklab, var(--bg) 62%, transparent);
-  backdrop-filter: blur(6px);
-}
-.theme-segment {
-  flex: 1;
-  padding: 6px 8px;
-  text-align: center;
-  font-size: 11px;
-  font-weight: 600;
+  align-items: center;
+  gap: 7px;
+  flex-shrink: 0;
   cursor: pointer;
-  transition: all 0.3s ease;
-  border-radius: 4px;
-  font-family: var(--font-mono);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--ink-dim);
-  background: transparent;
 }
-.theme-segment.is-active {
-  background: var(--surface);
-  color: var(--ink);
-  box-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-toggle {
+    --tt-sun: rgba(255, 255, 255, 0.25);
+    --tt-moon: #8bb8d8;
+    --tt-border: rgba(255, 255, 255, 0.15);
+    --tt-bg: rgba(255, 255, 255, 0.08);
+    --tt-bg-hover: rgba(255, 255, 255, 0.15);
+    --tt-border-hover: rgba(255, 255, 255, 0.3);
+    --tt-thumb: #8bb8d8;
+    --tt-x: 16px;
+  }
+}
+:root[data-theme="dark"] .theme-toggle {
+  --tt-sun: rgba(255, 255, 255, 0.25);
+  --tt-moon: #8bb8d8;
+  --tt-border: rgba(255, 255, 255, 0.15);
+  --tt-bg: rgba(255, 255, 255, 0.08);
+  --tt-bg-hover: rgba(255, 255, 255, 0.15);
+  --tt-border-hover: rgba(255, 255, 255, 0.3);
+  --tt-thumb: #8bb8d8;
+  --tt-x: 16px;
+}
+.theme-toggle__sun,
+.theme-toggle__moon {
+  transition: color 0.3s ease;
+  flex-shrink: 0;
+  display: block;
+}
+.theme-toggle__sun { color: var(--tt-sun); }
+.theme-toggle__moon { color: var(--tt-moon); }
+.theme-toggle__track {
+  position: relative;
+  width: 36px;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--tt-border);
+  background: var(--tt-bg);
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+  appearance: none;
+  transition: background 0.2s ease, border-color 0.2s ease;
+  flex-shrink: 0;
+}
+.theme-toggle__track:hover {
+  background: var(--tt-bg-hover);
+  border-color: var(--tt-border-hover);
+}
+.theme-toggle__track:focus-visible {
+  border-color: #fbdb9b;
+  box-shadow: 0 0 0 2px rgba(251, 219, 155, 0.3);
+}
+.theme-toggle__thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--tt-thumb);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s ease;
+  display: block;
+  transform: translateX(var(--tt-x));
 }
 
 footer.site-foot {

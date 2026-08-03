@@ -44,10 +44,22 @@ const {
         <a href="#indoor">Indoor</a>
         <a href="#poetry">Poetry</a>
         <a href="#visit">Visit</a>
-        <div class="theme-control" role="radiogroup" aria-label="Color theme">
-          <button class="theme-segment" type="button" data-theme-choice="auto">Auto</button>
-          <button class="theme-segment" type="button" data-theme-choice="light">Light</button>
-          <button class="theme-segment" type="button" data-theme-choice="dark">Dark</button>
+        {/* Light/dark toggle switch, ported from NewsBlur's welcome page. */}
+        <div class="theme-toggle" data-theme-toggle title="Toggle theme">
+          <svg class="theme-toggle__sun" viewBox="0 0 24 24" width="14" height="14" fill="none">
+            <circle cx="12" cy="12" r="4" fill="currentColor"></circle>
+            <path
+              d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"></path>
+          </svg>
+          <button class="theme-toggle__track" aria-label="Toggle dark mode" type="button">
+            <span class="theme-toggle__thumb"></span>
+          </button>
+          <svg class="theme-toggle__moon" viewBox="0 0 24 24" width="14" height="14" fill="none">
+            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" fill="currentColor"></path>
+          </svg>
         </div>
       </nav>
     </header>
@@ -55,34 +67,18 @@ const {
     <slot />
 
     <script>
-      // Auto / Light / Dark segmented control (progressive; page works without it).
-      const segments = Array.from(
-        document.querySelectorAll<HTMLButtonElement>("[data-theme-choice]")
-      );
-      function applyTheme(choice: string) {
-        if (choice === "light" || choice === "dark") {
-          document.documentElement.dataset.theme = choice;
-        } else {
-          delete document.documentElement.dataset.theme; // auto — follow the system
-        }
+      // Theme toggle (whole container is the click target, like NewsBlur's).
+      const toggle = document.querySelector<HTMLElement>("[data-theme-toggle]");
+      const effectiveTheme = () =>
+        document.documentElement.dataset.theme ??
+        (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      toggle?.addEventListener("click", () => {
+        const next = effectiveTheme() === "dark" ? "light" : "dark";
+        document.documentElement.dataset.theme = next;
         try {
-          localStorage.setItem("bwb-theme", choice);
+          localStorage.setItem("bwb-theme", next);
         } catch (_) {}
-        segments.forEach((b) =>
-          b.classList.toggle("is-active", b.dataset.themeChoice === choice)
-        );
-      }
-      segments.forEach((b) =>
-        b.addEventListener("click", () => applyTheme(b.dataset.themeChoice ?? "auto"))
-      );
-      let saved: string | null = null;
-      try {
-        saved = localStorage.getItem("bwb-theme");
-      } catch (_) {}
-      const initial = saved === "light" || saved === "dark" ? saved : "auto";
-      segments.forEach((b) =>
-        b.classList.toggle("is-active", b.dataset.themeChoice === initial)
-      );
+      });
     </script>
   </body>
 </html>
