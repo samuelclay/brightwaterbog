@@ -72,6 +72,24 @@ function init() {
     }
   }
 
+  // Hovering (or keyboard-focusing) a marker previews that sculpture's name in
+  // the caption, so you can tell what you're clicking on; leaving restores the
+  // scroll-tracked stop.
+  markers.forEach((mk) => {
+    const preview = () => {
+      if (nowEl) nowEl.textContent = mk.getAttribute("data-title") ?? "";
+      if (numEl) numEl.textContent = mk.getAttribute("data-order") ?? "";
+    };
+    const restore = () => {
+      lastIndex = -1; // force the caption to re-sync on the next update
+      update();
+    };
+    mk.addEventListener("mouseenter", preview);
+    mk.addEventListener("focus", preview);
+    mk.addEventListener("mouseleave", restore);
+    mk.addEventListener("blur", restore);
+  });
+
   window.addEventListener("scroll", onScroll, { passive: true });
   window.addEventListener("resize", onScroll, { passive: true });
   update();

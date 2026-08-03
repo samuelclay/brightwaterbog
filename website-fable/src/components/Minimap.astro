@@ -33,6 +33,8 @@ const first = nodes[0];
             <a
               class="mm-marker"
               data-node={n.slug}
+              data-title={n.title}
+              data-order={n.order}
               href={`#stop-${n.slug}`}
               aria-label={`Go to ${n.title}`}
               style={`--marker-color: var(--${n.glass})`}
