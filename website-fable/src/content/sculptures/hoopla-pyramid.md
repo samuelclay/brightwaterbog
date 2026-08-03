@@ -5,8 +5,8 @@ pathOrder: 3
 section: outdoor
 glass: gold
 gps:
-  lat: 42.498188
-  lon: -72.419753
+  lat: 42.498166
+  lon: -72.421378
 scannedFolders: []
 modernFolders:
   - sculpture_04_hoopla_pyramid
