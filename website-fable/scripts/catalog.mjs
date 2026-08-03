@@ -319,6 +319,32 @@ async function main() {
     return cmds.join(" ");
   };
 
+  // Water, hand-tuned in the same 0..100 space as MAP_COORDS.
+  // - The big pond runs along the right of dam light (19) and the torch run
+  //   (15–18), bleeds off the right edge, and loops around the bottom to sit
+  //   beside the dancers and jo bird (8, 9).
+  // - The lower pond is a small oval between stargate (1) and dam light (19),
+  //   just south of the trail's return leg.
+  const BIG_POND = [
+    { x: 78, y: 8 },
+    { x: 76, y: 20 },
+    { x: 74, y: 30 },
+    { x: 81, y: 41 },
+    { x: 87, y: 49 },
+    { x: 94, y: 58 },
+    { x: 86, y: 68 },
+    { x: 62, y: 78 },
+    { x: 40, y: 84 },
+    { x: 27, y: 86 },
+    { x: 30, y: 94 },
+    { x: 55, y: 96 },
+    { x: 90, y: 92 },
+    { x: 108, y: 70 },
+    { x: 110, y: 30 },
+    { x: 100, y: 10 },
+  ];
+  const LOWER_POND = { cx: 43, cy: 16, rx: 11, ry: 2.6 };
+
   // Stretch the map vertically: coords stay hand-tuned in 0..100, but the
   // emitted geometry is 2.5× taller so the rail's minimap uses its column's
   // full height (capped by CSS at ~75svh).
@@ -332,10 +358,23 @@ async function main() {
   const pathD = smoothPath(pts); // open — drives progress + active-stop mapping
   const loopD = pts.length > 2 ? smoothPath([...pts, pts[0]]) : pathD; // closes 20 → 1
 
+  const bigPondPts = BIG_POND.map((p) => ({ x: p.x, y: round(p.y * Y_STRETCH) }));
+  const ponds = [
+    { kind: "path", d: smoothPath([...bigPondPts, bigPondPts[0]]) + " Z" },
+    {
+      kind: "ellipse",
+      cx: LOWER_POND.cx,
+      cy: round(LOWER_POND.cy * Y_STRETCH),
+      rx: LOWER_POND.rx,
+      ry: round(LOWER_POND.ry * Y_STRETCH),
+    },
+  ];
+
   const trail = {
     viewBox: `0 0 100 ${100 * Y_STRETCH}`,
     pathD,
     loopD,
+    ponds,
     nodes,
   };
 

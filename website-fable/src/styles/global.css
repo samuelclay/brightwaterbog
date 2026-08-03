@@ -96,6 +96,18 @@ html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
   }
 }
 
+/* Subtle full-page paper grain over the flat ground color (both themes). */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.055;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.5 0 0 0 0 0.5 0 0 0 0 0.45 0 0 0 0.9 0'/></filter><rect width='180' height='180' filter='url(%23n)'/></svg>");
+  background-size: 180px 180px;
+}
+
 body {
   background: var(--bg);
   color: var(--ink);
@@ -400,6 +412,15 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   overflow: visible;
   display: block;
   margin: 0 auto;
+}
+
+/* terrain: mottled undergrowth + paper grain + the two ponds */
+.mm-moss { fill: color-mix(in oklab, var(--teal) 30%, var(--came)); opacity: 0.16; }
+.mm-grain { fill: var(--ink); opacity: 0.05; }
+.mm-pond {
+  fill: color-mix(in oklab, var(--cobalt) 26%, var(--surface-2));
+  stroke: color-mix(in oklab, var(--cobalt) 40%, transparent);
+  stroke-width: 0.5;
 }
 
 /* three-layer routed trail (SOL-style): depth shadow + faint full loop + lit progress */

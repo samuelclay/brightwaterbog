@@ -14,6 +14,8 @@ const nodes = trail.nodes as Array<{
 }>;
 
 const base = trail.loopD as string; // full loop (closes 20 → 1)
+const ponds = (trail as any).ponds ?? [];
+const [, , vbW, vbH] = (trail.viewBox as string).split(" ").map(Number);
 const first = nodes[0];
 ---
 
@@ -26,6 +28,44 @@ const first = nodes[0];
 
     <div class="minimap__frame">
       <svg viewBox={trail.viewBox} role="group" aria-label="Map of the sculpture trail">
+        <defs>
+          <clipPath id="mm-clip"><rect x="0" y="0" width={vbW} height={vbH} /></clipPath>
+          {/* broad organic mottling — reads as meadow/undergrowth */}
+          <filter id="mm-mottle" x="0%" y="0%" width="100%" height="100%">
+            <feTurbulence type="fractalNoise" baseFrequency="0.045 0.02" numOctaves="3" seed="11" result="n" />
+            <feColorMatrix
+              in="n"
+              type="matrix"
+              values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  1.4 0 0 0 -0.35"
+              result="mask"
+            />
+            <feComposite in="SourceGraphic" in2="mask" operator="in" />
+          </filter>
+          {/* fine paper grain */}
+          <filter id="mm-grain" x="0%" y="0%" width="100%" height="100%">
+            <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g" />
+            <feColorMatrix
+              in="g"
+              type="matrix"
+              values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0.8 0 0 0 -0.1"
+              result="gmask"
+            />
+            <feComposite in="SourceGraphic" in2="gmask" operator="in" />
+          </filter>
+        </defs>
+
+        <g clip-path="url(#mm-clip)" aria-hidden="true">
+          <rect class="mm-moss" width={vbW} height={vbH} filter="url(#mm-mottle)" />
+          <rect class="mm-grain" width={vbW} height={vbH} filter="url(#mm-grain)" />
+          {ponds.map((p: any) =>
+            p.kind === "ellipse" ? (
+              <ellipse class="mm-pond" cx={p.cx} cy={p.cy} rx={p.rx} ry={p.ry} />
+            ) : (
+              <path class="mm-pond" d={p.d} />
+            )
+          )}
+        </g>
+
         <path class="mm-path mm-path--shadow" d={base} />
         <path class="mm-path mm-path--base" d={base} />
         {
