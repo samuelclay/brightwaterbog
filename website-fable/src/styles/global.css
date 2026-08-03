@@ -384,7 +384,7 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   text-overflow: ellipsis;
 }
 .seg.is-active .seg__label { color: var(--ink); }
-.seg__label i { font-style: normal; color: var(--ink-faint); }
+.seg__label i { font-style: normal; color: var(--ink-faint); margin-left: 0.5em; }
 
 /* groups inside the track (a larger gap divides the eras) */
 .strip__group { display: flex; gap: 14px; flex: 0 0 auto; }

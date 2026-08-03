@@ -61,7 +61,7 @@ const total = photos.length;
             >
               <span class="seg__fill" data-seg-fill />
               <span class="seg__label">
-                {g.label} <i>{g.items.length}</i>
+                {g.label} <i>{`${g.items.length} ${g.items.length === 1 ? "photo" : "photos"}`}</i>
               </span>
             </button>
           ))}
