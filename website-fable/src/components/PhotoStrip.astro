@@ -14,7 +14,7 @@ const barWidth = (count: number) =>
 
 interface PhotoEntry {
   key: string;
-  era: "now" | "aerial" | "then" | "construction";
+  era: "now" | "construction-now" | "aerial" | "then" | "construction";
   date: string | null;
   width: number | null;
   height: number | null;
@@ -29,9 +29,10 @@ const { photos, title, compact = false } = Astro.props;
 
 const ERAS = [
   { era: "now", label: "Now", note: "Today" },
+  { era: "construction-now", label: "Construction", note: "Recent work in progress" },
   { era: "aerial", label: "Aerial", note: "From above" },
   { era: "then", label: "Then", note: "As Julian built it" },
-  { era: "construction", label: "Construction", note: "In progress" },
+  { era: "construction", label: "Construction", note: "As Julian built it" },
 ] as const;
 
 function frameData(p: PhotoEntry) {
