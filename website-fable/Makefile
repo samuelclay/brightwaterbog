@@ -33,7 +33,18 @@ CLAY := \033[38;5;173m
 RUST := \033[1;38;5;203m
 MIST := \033[38;5;152m
 
-.PHONY: all start stop restart status logs clean help banner sync-photos catalog
+.PHONY: all start stop restart status logs clean help banner sync-photos catalog build deploy
+
+# ── deploy (Cloudflare Pages, ofbrooklyn account — same as cooking.samuelclay.com) ──
+# The user-level wrangler default profile is hand-swapped between accounts, so
+# deploys run against an isolated $HOME seeded from the ofbrooklyn profile.
+# Cloudflare rotates OAuth refresh tokens on use, so the refreshed credentials
+# are synced back after every wrangler run — without this the saved profile
+# goes stale after one deploy.
+PAGES_PROJECT := brightwaterbog
+CF_PROFILE    := $(HOME)/.wrangler/config/ofbrooklyn.toml
+DEPLOY_HOME   := $(CURDIR)/.wrangler-home
+WRANGLER      := HOME=$(DEPLOY_HOME) npm_config_cache=$(HOME)/.npm npx --yes wrangler@latest
 
 all: banner restart logs
 
@@ -122,6 +133,24 @@ sync-photos:
 	@npm run catalog
 	@printf "$(FERN)●$(R) photos synced $(DIM)(full-size originals + fresh catalog)$(R)\n"
 
+# Production build: astro → dist/, then the pre-rendered WebP ladder → dist/img/.
+build:
+	@printf "$(LILY)◆$(R) building site…\n"
+	@npm run build
+	@node scripts/prerender-images.mjs
+	@printf "$(FERN)●$(R) built $(DIM)(dist/ incl. image ladder)$(R)\n"
+
+# Deploy dist/ to Cloudflare Pages → bwb.samuelclay.com.
+deploy: build
+	@if [ ! -f $(DEPLOY_HOME)/.wrangler/config/default.toml ]; then \
+		mkdir -p $(DEPLOY_HOME)/.wrangler/config; \
+		cp $(CF_PROFILE) $(DEPLOY_HOME)/.wrangler/config/default.toml; \
+		printf "$(LILY)◆$(R) seeded deploy credentials from ofbrooklyn profile\n"; \
+	fi
+	@$(WRANGLER) pages deploy dist --project-name=$(PAGES_PROJECT) --branch main
+	@cp $(DEPLOY_HOME)/.wrangler/config/default.toml $(CF_PROFILE)
+	@printf "$(FERN)●$(R) deployed $(DIM)(project $(PAGES_PROJECT) → bwb.samuelclay.com)$(R)\n"
+
 clean: stop
 	@rm -f $(LOG)
 	@rm -rf dist .astro
@@ -136,5 +165,6 @@ help: banner
 	@printf "  $(RUST)make stop$(R)     $(MIST)kill the dev stack (pid + port sweep)$(R)\n"
 	@printf "  $(RUST)make clean$(R)    $(MIST)stop + remove log, dist/, .astro/$(R)\n"
 	@printf "  $(SUN)make catalog$(R)  $(MIST)rebuild photos.json + trail.json (after GPS/map/photo edits)$(R)\n"
+	@printf "  $(SUN)make deploy$(R)   $(MIST)build + ship to Cloudflare Pages (bwb.samuelclay.com)$(R)\n"
 	@printf "  $(SUN)make sync-photos$(R) $(MIST)re-export any thumbnail-sized photos full-size + rebuild catalog$(R)\n"
 	@printf "\n"
