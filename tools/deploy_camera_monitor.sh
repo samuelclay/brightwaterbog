@@ -26,6 +26,7 @@ EUFY_VIEWER_SLOTS="${CAMERA_MONITOR_HA_EUFY_VIEWER_SLOTS:-1}"
 EUFY_REFRESH_SECONDS="${CAMERA_MONITOR_HA_EUFY_REFRESH_SECONDS:-300}"
 EUFY_AUTO_RECOVERY="${CAMERA_MONITOR_HA_EUFY_AUTO_RECOVERY:-1}"
 EUFY_ADDON_SLUG="${CAMERA_EUFY_ADDON_SLUG:-402f1039_eufy_security_ws}"
+GO2RTC_ADDON_SLUG="${CAMERA_GO2RTC_ADDON_SLUG:-a889bffc_go2rtc}"
 WARM_AGENT="${CAMERA_MONITOR_WARM_AGENT_ENABLED:-1}"
 WARM_IDLE_HOURS="${CAMERA_MONITOR_WARM_IDLE_HOURS:-48}"
 
@@ -173,6 +174,17 @@ print(json.dumps({
         "warm_agent": os.environ["CAMERA_DEPLOY_WARM_AGENT"] == "1",
         "warm_idle_hours": int(os.environ["CAMERA_DEPLOY_WARM_IDLE_HOURS"]),
     },
+}))
+PY
+
+echo "Enabling shared go2rtc startup and watchdog"
+python3 - <<'PY' | ssh -o BatchMode=yes "${HA_HOST}" \
+  "curl -fsS -X POST -H \"Authorization: Bearer \$SUPERVISOR_TOKEN\" -H 'Content-Type: application/json' --data-binary @- http://supervisor/addons/${GO2RTC_ADDON_SLUG}/options >/dev/null"
+import json
+
+print(json.dumps({
+    "boot": "auto",
+    "watchdog": True,
 }))
 PY
 

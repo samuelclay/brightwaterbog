@@ -46,6 +46,8 @@ DEFAULT_EUFY_THUMBNAIL_REFRESH_SECONDS = 20.0
 EUFY_THUMBNAIL_ATTEMPT_TIMEOUT_SECONDS = EUFY_COMMAND_TIMEOUT_SECONDS + 10.0
 EUFY_THUMBNAIL_RETRY_BASE_SECONDS = 20.0
 EUFY_THUMBNAIL_RETRY_MAX_SECONDS = 5 * 60.0
+EUFY_THUMBNAIL_CIRCUIT_BREAKER_FAILURES = 3
+EUFY_THUMBNAIL_CIRCUIT_BREAKER_SECONDS = 60 * 60.0
 DIRECT_STATUS_INTERVAL_SECONDS = 2.0
 DIRECT_START_TIMEOUT_SECONDS = 25.0
 DIRECT_ACTIVITY_STALE_SECONDS = 6.0
@@ -68,6 +70,7 @@ CACHE_DIR = Path(os.environ.get("CAMERA_MONITOR_CACHE_DIR", DEFAULT_CACHE_DIR))
 ORDER_PATH = CACHE_DIR / "layout.json"
 VIEWER_ACTIVITY_PATH = CACHE_DIR / "viewer_activity.json"
 GO2RTC_URL = "http://go2rtc:1984"
+GO2RTC_DEPENDENCY_TIMEOUT_SECONDS = 3.0
 STALE_KICK_SECONDS = 5 * 60
 STALE_KICK_COOLDOWN_SECONDS = 3 * 60
 KICK_STOP_SETTLE_SECONDS = 3.0
@@ -80,7 +83,8 @@ EUFY_RECOVERY_MULTI_MIN_FAILURES = 3
 EUFY_RECOVERY_SINGLE_MIN_FAILURES = 4
 EUFY_RECOVERY_ORPHAN_MIN_FAILURES = 2
 EUFY_RECOVERY_COOLDOWN_SECONDS = 60 * 60.0
-EUFY_RECOVERY_MAX_RESTARTS_24H = 2
+EUFY_RECOVERY_MAX_BACKGROUND_RESTARTS_24H = 2
+EUFY_RECOVERY_MAX_VIEWER_RESTARTS_24H = 24
 EUFY_RECOVERY_VERIFY_SECONDS = 10 * 60.0
 EUFY_RECOVERY_CONNECT_TIMEOUT_SECONDS = 2 * 60.0
 EUFY_RECOVERY_QUARANTINE_SECONDS = 24 * 60 * 60.0
@@ -124,6 +128,19 @@ def save_viewer_activity(last_viewed_at: float) -> None:
 class EufyRecoveryDecision:
     reason: str
     stale_slugs: tuple[str, ...]
+
+
+def eufy_thumbnail_retry_delay(failure_count: int) -> float:
+    # A stuck station queues commands long after the caller times out. After a
+    # few failures, background retries become counterproductive; an explicit
+    # camera focus still bypasses this thumbnail-only circuit breaker.
+    if failure_count >= EUFY_THUMBNAIL_CIRCUIT_BREAKER_FAILURES:
+        return EUFY_THUMBNAIL_CIRCUIT_BREAKER_SECONDS
+    return min(
+        EUFY_THUMBNAIL_RETRY_BASE_SECONDS
+        * (2 ** max(0, failure_count - 1)),
+        EUFY_THUMBNAIL_RETRY_MAX_SECONDS,
+    )
 
 
 def choose_eufy_recovery(
@@ -2749,6 +2766,17 @@ class MonitorServer(ThreadingHTTPServer):
     def warm_agent_active(self) -> bool:
         return time.time() - self.last_warm_touch_at < WARM_AGENT_HEARTBEAT_SECONDS
 
+    def go2rtc_available(self) -> bool:
+        try:
+            with urllib.request.urlopen(
+                f"{GO2RTC_URL}/api/streams",
+                timeout=GO2RTC_DEPENDENCY_TIMEOUT_SECONDS,
+            ) as response:
+                response.read(1)
+                return 200 <= response.status < 300
+        except (OSError, ValueError):
+            return False
+
     def active_focus_slug(self) -> str:
         now = time.time()
         with self.state_lock:
@@ -2883,11 +2911,7 @@ class MonitorServer(ThreadingHTTPServer):
                 targets.pop(slug, None)
                 failure_count = failures.get(slug, 0) + 1
                 failures[slug] = failure_count
-                retry_delay = min(
-                    EUFY_THUMBNAIL_RETRY_BASE_SECONDS
-                    * (2 ** min(failure_count - 1, 4)),
-                    EUFY_THUMBNAIL_RETRY_MAX_SECONDS,
-                )
+                retry_delay = eufy_thumbnail_retry_delay(failure_count)
                 retry_after[slug] = monotonic_now + retry_delay
 
         # Let completed P2P sessions stop before filling their slots. Starting a
@@ -2909,7 +2933,10 @@ class MonitorServer(ThreadingHTTPServer):
                     >= self.eufy_thumbnail_refresh_seconds
                 )
             ),
-            key=lambda slug: float(snapshots[slug].get("latest_received_at") or 0.0),
+            key=lambda slug: (
+                failures.get(slug, 0),
+                float(snapshots[slug].get("latest_received_at") or 0.0),
+            ),
         )
         for slug in candidates[:slots_available]:
             baseline = float(snapshots[slug].get("latest_received_at") or 0.0)
@@ -3106,7 +3133,12 @@ class EufyRecoveryController:
                     "multiple_min_failures": EUFY_RECOVERY_MULTI_MIN_FAILURES,
                     "single_min_failures": EUFY_RECOVERY_SINGLE_MIN_FAILURES,
                     "cooldown_seconds": EUFY_RECOVERY_COOLDOWN_SECONDS,
-                    "max_restarts_24h": EUFY_RECOVERY_MAX_RESTARTS_24H,
+                    "max_background_restarts_24h": (
+                        EUFY_RECOVERY_MAX_BACKGROUND_RESTARTS_24H
+                    ),
+                    "max_viewer_restarts_24h": (
+                        EUFY_RECOVERY_MAX_VIEWER_RESTARTS_24H
+                    ),
                     "verify_seconds": EUFY_RECOVERY_VERIFY_SECONDS,
                     "quarantine_seconds": EUFY_RECOVERY_QUARANTINE_SECONDS,
                 },
@@ -3125,6 +3157,9 @@ class EufyRecoveryController:
         refresh_active = viewer_active or (
             bool(viewer_status.get("warm_allowed")) and warm_agent_active
         )
+        go2rtc_available = bool(
+            getattr(self.server, "go2rtc_available", lambda: True)()
+        )
 
         with self.lock:
             self.last_checked_at = now
@@ -3142,10 +3177,34 @@ class EufyRecoveryController:
                 return
             if self.phase == "restarting":
                 return
+            if not go2rtc_available:
+                self.phase = "waiting_for_go2rtc"
+                self.stale_slugs = ()
+                self.last_error = (
+                    "Shared go2rtc is unavailable; Eufy recovery is suspended"
+                )
+                return
+            if self.last_error == (
+                "Shared go2rtc is unavailable; Eufy recovery is suspended"
+            ):
+                self.last_error = ""
 
+            had_failed_targets = bool(
+                self.verification_targets or self.quarantined_at
+            )
             quarantines_changed = self._refresh_quarantines(snapshots, now)
             pending = self._verification_pending(snapshots)
             self.verification_pending = pending
+            if (
+                self.last_result == "verification_failed"
+                and had_failed_targets
+                and not pending
+                and not self.quarantined_at
+            ):
+                self.last_result = "verified"
+                self.last_error = ""
+                self.verification_targets = ()
+                self._persist_state()
             if self.last_result == "restart_completed":
                 if not pending:
                     self.phase = "verified"
@@ -3183,7 +3242,13 @@ class EufyRecoveryController:
 
             if self._migrate_failed_single_camera(snapshots, now):
                 quarantines_changed = True
-            active_quarantines = set(self.quarantined_at)
+            # A quarantine protects unattended warming from repeatedly
+            # restarting a station that did not recover. When a person has the
+            # wall open, keep trying once per cooldown instead of giving up for
+            # the rest of the day.
+            active_quarantines = (
+                set() if viewer_active else set(self.quarantined_at)
+            )
             eligible_snapshots = [
                 snapshot
                 for snapshot in snapshots
@@ -3214,7 +3279,12 @@ class EufyRecoveryController:
             ):
                 self.phase = "cooldown"
                 return
-            if len(self.restart_times) >= EUFY_RECOVERY_MAX_RESTARTS_24H:
+            restart_limit = (
+                EUFY_RECOVERY_MAX_VIEWER_RESTARTS_24H
+                if viewer_active
+                else EUFY_RECOVERY_MAX_BACKGROUND_RESTARTS_24H
+            )
+            if len(self.restart_times) >= restart_limit:
                 self.phase = "restart_limit_reached"
                 return
             self.phase = "restarting"
@@ -3263,16 +3333,9 @@ class EufyRecoveryController:
         restart_completed = False
         self.server.pause_camera_work()
         try:
+            connection_generation = self.eufy.connection_generation
             self._request_supervisor_restart()
-            deadline = time.monotonic() + EUFY_RECOVERY_CONNECT_TIMEOUT_SECONDS
-            while (
-                not self.stopping.is_set()
-                and not self.eufy.connected.is_set()
-                and time.monotonic() < deadline
-            ):
-                self.stopping.wait(1.0)
-            if not self.eufy.connected.is_set():
-                raise TimeoutError("Eufy service did not reconnect after restart")
+            self._wait_for_eufy_reconnect(connection_generation)
             self.server.prepare_eufy_after_recovery()
             restart_completed = True
             with self.lock:
@@ -3292,6 +3355,17 @@ class EufyRecoveryController:
             self.server.paused = False
             if restart_completed:
                 self.server.touch_visible_runners(keep_warm_only=keep_warm_only)
+
+    def _wait_for_eufy_reconnect(self, previous_generation: int) -> None:
+        deadline = time.monotonic() + EUFY_RECOVERY_CONNECT_TIMEOUT_SECONDS
+        while not self.stopping.is_set() and time.monotonic() < deadline:
+            if (
+                self.eufy.connected.is_set()
+                and self.eufy.connection_generation > previous_generation
+            ):
+                return
+            self.stopping.wait(0.25)
+        raise TimeoutError("Eufy service did not reconnect after restart")
 
     def _request_supervisor_restart(self) -> None:
         addon = urllib.parse.quote(self.addon_slug, safe="")

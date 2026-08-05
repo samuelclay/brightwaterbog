@@ -222,6 +222,7 @@ class DirectEufyClient:
         self.pending: dict[str, _PendingCommand] = {}
         self.streams: dict[str, _EufyStream] = {}
         self.last_error = ""
+        self.connection_generation = 0
         self.thread = threading.Thread(
             target=self._connection_loop,
             name="eufy-direct-client",
@@ -344,6 +345,7 @@ class DirectEufyClient:
                 with self.lock:
                     self.ws = websocket
                     self.last_error = ""
+                    self.connection_generation += 1
                 self.connected.set()
                 while not self.stopping.is_set():
                     self._handle_message(websocket.recv_json())

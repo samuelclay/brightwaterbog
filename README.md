@@ -49,8 +49,10 @@ The ignored Docker environment file supplies the Google/Nest credentials during
 deployment. The ignored deploy file selects the Home Assistant SSH host and LAN
 address. The deploy script stages both add-ons, builds them on Home Assistant,
 applies credentials without writing them to the repository, and enables
-automatic startup. Open `http://cameras.local`; tap a camera to expand it and
-tap again to return to the grid.
+automatic startup. It also enables Home Assistant's watchdog for the shared
+go2rtc add-on, so a crashed transport service is restarted without waiting for
+a viewer. Open `http://cameras.local`; tap a camera to expand it and tap again
+to return to the grid.
 
 Eufy camera streams use the `camera_eufy_` namespace in shared go2rtc. Home
 Assistant's original Eufy stream names are never replaced, which keeps its
@@ -68,7 +70,11 @@ Assistant deployment wakes at most one Eufy camera at a time and targets a
 five-minute thumbnail refresh. A lightweight resident agent captures a JPEG
 from shared go2rtc and writes it into the monitor cache, so refreshes continue
 without an open browser. Each stream is released as soon as a fresh frame is
-cached, then the oldest thumbnail goes next.
+cached, then the oldest thumbnail goes next. Cameras with fewer failed attempts
+are tried first, preventing one persistently offline camera from starving the
+rest of the rotation. After three failed thumbnail starts, background attempts
+drop to once an hour so an unhealthy station cannot fill Eufy's command queue;
+explicitly opening that camera still tries it immediately.
 Expanding one grants it a renewable 90-second focus lease: other Eufy work is
 released and the selected camera streams continuously with one-second
 visual-health checks. A `LIVE` badge requires a recently decoded frame;
@@ -78,10 +84,15 @@ The production add-on also runs a bounded Eufy recovery circuit breaker while
 either the wall or resident refresh agent is active. It uses the last received
 frame—not merely the last visibly changed frame—and repeated refresh failures.
 Two cameras stuck for 15 minutes, or one camera stuck for 30 minutes, trigger a
-controlled restart of only `eufy-security-ws`. Restarts have a one-hour
-cooldown, are capped at two per day, and verify only the cameras that triggered
-the restart. A camera that still fails is quarantined from shared restarts for
-24 hours; a fresh frame releases it immediately.
+controlled restart of only `eufy-security-ws`. The monitor pauses camera work,
+waits for a genuinely new Eufy socket connection, and then retries the affected
+frames. Restarts have a one-hour cooldown. Unattended warming remains capped at
+two restarts per day and quarantines a camera that still fails, but an open
+camera wall bypasses that quarantine and keeps retrying once per hour (up to the
+cooldown-imposed maximum of 24 times per day). A fresh frame releases the
+quarantine immediately. Eufy restarts are suspended while shared go2rtc is
+unavailable, preventing a transport outage from wasting the Eufy recovery
+budget.
 
 When resident warming is enabled, lightweight server-side consumers keep
 selected Nest transports warm without decoding their video and rotate through
