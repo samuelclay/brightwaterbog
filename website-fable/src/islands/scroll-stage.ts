@@ -30,8 +30,8 @@ function init() {
   let ticking = false;
   let lastIndex = -1;
 
-  // Mobile: the floating card shows only a slice of the map, panned so the
-  // active stop's marker stays centered in the window (clamped at the ends).
+  // Mobile: the floating card shows only a thin slice of the map, panned so the
+  // active stop's marker sits on the slice's centerline.
   const rail = document.querySelector<HTMLElement>("[data-map-rail]");
   const mapToggle = document.querySelector<HTMLButtonElement>("[data-map-toggle]");
   const svg = minimap.querySelector<SVGSVGElement>("svg");
@@ -61,6 +61,21 @@ function init() {
     const shift = Math.min(Math.max(dotY - winH / 2, 0), Math.max(svgH - winH, 0));
     svg.style.transform = `translateY(${(-shift).toFixed(2)}px)`;
   }
+
+  // The card stays out of sight over the hero and rises into place when the
+  // first stop's header reaches its top edge — so the map never overlaps
+  // anything above Stargate. Desktop ignores the class (the rail is in flow
+  // beside the stops there, and never reaches the hero).
+  function syncRailVisibility() {
+    if (!rail) return;
+    const head = (stops[0].querySelector(".stop__head") as HTMLElement) ?? stops[0];
+    // the rail keeps its box while hidden (visibility, not display), so its
+    // own top edge is a valid threshold either way
+    const show = head.getBoundingClientRect().top <= rail.getBoundingClientRect().top;
+    rail.classList.toggle("is-shown", show);
+    if (!show && isOpen()) setOpenRef?.(false);
+  }
+  let setOpenRef: ((open: boolean) => void) | null = null;
 
   function update() {
     ticking = false;
@@ -97,6 +112,7 @@ function init() {
       if (nowEl) nowEl.textContent = title;
       setNum(order);
     }
+    syncRailVisibility();
     panMap();
   }
 
@@ -138,7 +154,22 @@ function init() {
       mapToggle.textContent = open ? "✕" : "⤢";
       panMap();
     };
+    setOpenRef = setOpen; // so scrolling back up to the hero also folds it shut
     mapToggle.addEventListener("click", () => setOpen(!isOpen()));
+    // While folded the whole card is one big open affordance — the 35px strip
+    // is too thin to aim a marker at anyway, so a tap anywhere on it expands
+    // instead of jumping to whatever stop happened to be under your thumb.
+    // Capture, so it runs before the markers' own click handlers.
+    rail.addEventListener(
+      "click",
+      (e) => {
+        if (!mobileMap.matches || isOpen()) return;
+        e.preventDefault();
+        e.stopPropagation();
+        setOpen(true);
+      },
+      true,
+    );
     markers.forEach((mk) =>
       mk.addEventListener("click", () => {
         // Adopt the tapped stop straight away so the map folds back around the

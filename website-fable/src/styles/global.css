@@ -822,7 +822,18 @@ footer.site-foot {
      full map: a slice a quarter of the map tall, panned so the current stop
      stays centered — like a thumb sliding along a pocket map. The header's
      ⤢ opens the whole map; picking a stop folds it back to the window. */
+  /* Held back until the trail starts: a fixed card would otherwise float over
+     the hero from the first paint. scroll-stage.ts reveals it once the first
+     stop's header has risen to the card's own top edge, so the map never
+     covers anything above Stargate. */
   .map-rail {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(10px);
+    transition:
+      opacity 0.4s var(--ease),
+      transform 0.4s var(--ease),
+      visibility 0s linear 0.4s;
     position: fixed;
     left: auto; top: auto;
     right: max(10px, env(safe-area-inset-right));
@@ -830,8 +841,18 @@ footer.site-foot {
     z-index: 30;
     padding: 0;
   }
+  .map-rail.is-shown {
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+    transition-delay: 0s, 0s, 0s;
+  }
   .minimap {
     position: relative;
+    /* the desktop sticky offset must go too: as `relative` it survives as a
+       paint-only nudge that pushes the whole card 10svh off the bottom edge
+       while its fixed parent's box stays put */
+    top: auto;
     width: fit-content;
     border: 1px solid var(--came);
     border-radius: var(--radius);
