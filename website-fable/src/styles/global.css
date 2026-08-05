@@ -664,10 +664,53 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   text-transform: uppercase;
   color: var(--ink-dim);
 }
-/* blend only the nav links (the theme control needs real backgrounds) */
-.topbar a { text-decoration: none; opacity: 0.8; mix-blend-mode: difference; }
-.topbar a:hover { opacity: 1; }
-.topbar__links { display: flex; gap: 1.2rem; align-items: center; }
+.topbar a {
+  text-decoration: none;
+  color: var(--ink);
+  position: relative; /* over the pill */
+  z-index: 1;
+  padding: 0.3rem 0.55rem;
+  border-radius: 99px;
+}
+.topbar a:hover { color: var(--stop-glass); }
+/* One pill for the whole nav, moved by islands/nav-spy.ts, so switching
+   sections reads as travel between links rather than two separate fades. */
+.topbar__pill {
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  left: 0;
+  width: 0;
+  height: 0;
+  transform: translate(0, -50%);
+  border-radius: 99px;
+  background: color-mix(in oklab, var(--stop-glass) 24%, transparent);
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    transform 0.4s var(--ease),
+    width 0.4s var(--ease),
+    opacity 0.3s var(--ease),
+    background-color 0.5s var(--ease);
+}
+/* nothing is current over the hero — the pill fades in with the trail */
+.topbar__links.is-spying .topbar__pill { opacity: 1; }
+/* The bar floats over rotating hero photos, so the links can't take their
+   contrast from whatever happens to be behind them (blending into it was the
+   old trick, and it dissolved against any mid-tone). They carry their own
+   glass instead — the same material as the map card. */
+.topbar__links {
+  position: relative; /* the pill positions against this */
+  display: flex;
+  gap: 0.15rem;
+  align-items: center;
+  padding: 0.35rem 0.45rem;
+  border: 1px solid var(--came);
+  border-radius: var(--radius);
+  background: color-mix(in oklab, var(--bg) 88%, transparent);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 6px 22px rgb(0 0 0 / 20%);
+}
 
 /* Light/dark toggle switch — ported verbatim from NewsBlur's welcome page
    (sun icon · sliding 36x20 pill track · moon icon). The dark state follows
@@ -686,6 +729,7 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   gap: 7px;
   flex-shrink: 0;
   cursor: pointer;
+  margin-left: 0.5rem; /* set apart from the nav links it now shares a chip with */
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) .theme-toggle {

@@ -39,7 +39,9 @@ const {
   </head>
   <body>
     <header class="topbar">
-      <nav class="topbar__links">
+      <nav class="topbar__links" data-navspy>
+        {/* slides behind the section you're on — placed by islands/nav-spy.ts */}
+        <span class="topbar__pill" data-nav-pill aria-hidden="true"></span>
         <a href="#trail">Trail</a>
         <a href="#indoor">Indoor</a>
         <a href="#poetry">Poetry</a>
