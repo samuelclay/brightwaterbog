@@ -67,7 +67,8 @@ const slides = FEATURED.map(({ slug, title }) => {
         </defs>
         <!-- Reflection first: SVG paints in document order, so the title's
              descenders overlap it where they intersect. -->
-        <g filter="url(#titleRipple)" opacity="0.38">
+        <!-- Static fallback; hero-ripple.ts swaps in an animated WebGL version. -->
+        <g class="hero__reflection" filter="url(#titleRipple)" opacity="0.38">
           <text class="hero__glass-text" x="4" y="84" transform="translate(0 182) scale(1 -1)">Bright Water Bog</text>
         </g>
         <text class="hero__glass-text" x="4" y="84" filter="url(#titleShadow)">Bright Water Bog</text>

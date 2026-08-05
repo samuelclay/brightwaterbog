@@ -220,7 +220,10 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   z-index: 2;
   align-self: end;
 }
-.hero__title { line-height: 0; }
+.hero__title {
+  line-height: 0;
+  position: relative;
+}
 /* "Still Water" glass title: gradient-filled type, came-dark edge, and a
    turbulence-displaced reflection below the baseline. Fixed hexes on purpose —
    it sits on the photo, not on a themed surface. */
@@ -229,6 +232,15 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   width: min(88vw, 46rem);
   height: auto;
   overflow: visible;
+  position: relative; /* paints above .hero__ripple so descenders overlap it */
+}
+/* WebGL reflection canvas (hero-ripple.ts); sized/positioned from JS in
+   viewBox units so it tracks the svg at any width. */
+.hero__ripple {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
 }
 .hero__glass-text {
   font-family: var(--font-display);
