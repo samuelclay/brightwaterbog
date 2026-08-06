@@ -36,15 +36,10 @@ MIST := \033[38;5;152m
 .PHONY: all start stop restart status logs clean help banner sync-photos catalog build deploy
 
 # ── deploy (Cloudflare Pages, ofbrooklyn account — same as cooking.samuelclay.com) ──
-# The user-level wrangler default profile is hand-swapped between accounts, so
-# deploys run against an isolated $HOME seeded from the ofbrooklyn profile.
-# Cloudflare rotates OAuth refresh tokens on use, so the refreshed credentials
-# are synced back after every wrangler run — without this the saved profile
-# goes stale after one deploy.
+# --profile reads/writes ~/.wrangler/config/ofbrooklyn.toml directly, so token
+# rotation stays in the right file. If auth expires: wrangler login --profile ofbrooklyn
 PAGES_PROJECT := brightwaterbog
-CF_PROFILE    := $(HOME)/.wrangler/config/ofbrooklyn.toml
-DEPLOY_HOME   := $(CURDIR)/.wrangler-home
-WRANGLER      := HOME=$(DEPLOY_HOME) npm_config_cache=$(HOME)/.npm npx --yes wrangler@latest
+WRANGLER      := npx --yes wrangler@latest --profile ofbrooklyn
 
 all: banner restart logs
 
@@ -142,13 +137,7 @@ build:
 
 # Deploy dist/ to Cloudflare Pages → bwb.samuelclay.com.
 deploy: build
-	@if [ ! -f $(DEPLOY_HOME)/.wrangler/config/default.toml ]; then \
-		mkdir -p $(DEPLOY_HOME)/.wrangler/config; \
-		cp $(CF_PROFILE) $(DEPLOY_HOME)/.wrangler/config/default.toml; \
-		printf "$(LILY)◆$(R) seeded deploy credentials from ofbrooklyn profile\n"; \
-	fi
 	@$(WRANGLER) pages deploy dist --project-name=$(PAGES_PROJECT) --branch main
-	@cp $(DEPLOY_HOME)/.wrangler/config/default.toml $(CF_PROFILE)
 	@printf "$(FERN)●$(R) deployed $(DIM)(project $(PAGES_PROJECT) → bwb.samuelclay.com)$(R)\n"
 
 clean: stop

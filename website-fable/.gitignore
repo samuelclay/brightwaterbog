@@ -11,5 +11,3 @@ src/data/trail.json
 # make start/stop bookkeeping
 .dev.pid
 .rotate.pid
-# isolated wrangler auth home for make deploy (holds OAuth tokens)
-.wrangler-home/

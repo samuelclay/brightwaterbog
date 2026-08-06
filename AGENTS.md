@@ -54,8 +54,24 @@ Single-page Astro site (`src/pages/index.astro`) for the sculpture trail. `make`
   The saguaro cactus is the branching amber floor lamp; the DINOSAUR is the four-point
   rainbow web canopy stretched in the rafters (not a literal dinosaur).
 - Photo identity is the path relative to `photos/`; the dev image server resolves
-  `GET :8788/img/<key>?w=NNN` and R2 uploads preserve the same key — upload new
-  photo keys to R2 when deploying.
+  `GET :8788/img/<key>?w=NNN`. Prod serves pre-rendered WebP from the same keys
+  (`/img/<width>/<key>.webp`), baked by `scripts/prerender-images.mjs` during
+  `make build` — new photos just need `make catalog` + a redeploy.
+
+### Deploying (`make deploy` → bwb.samuelclay.com)
+
+- `make deploy` in `website-fable/` builds (astro + image ladder) and
+  direct-uploads `dist/` to the `brightwaterbog` Cloudflare Pages project on the
+  ofbrooklyn account (the same account as cooking.samuelclay.com).
+- ALWAYS run wrangler with `--profile ofbrooklyn` for this site. Profiles live in
+  `~/.wrangler/config/<name>.toml` (newsblur, ofbrooklyn, tavus); `--profile`
+  reads AND writes the named file. NEVER copy a profile toml elsewhere and run
+  wrangler against the copy: Cloudflare rotates the OAuth refresh token on every
+  use and treats reuse of an old one as theft, revoking the whole grant. If auth
+  dies anyway, re-auth with `npx wrangler login --profile ofbrooklyn`.
+- `samuelclay.com` DNS is at DNSimple (not Cloudflare) — there is no CF zone, so
+  no `/cdn-cgi/image` transforms and no R2; that's why the image ladder is baked
+  at build time. Subdomains are plain DNSimple CNAMEs to `<project>.pages.dev`.
 
 ### Trail minimap
 
