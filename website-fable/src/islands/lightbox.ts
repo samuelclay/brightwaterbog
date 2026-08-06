@@ -254,10 +254,32 @@ function init() {
     else setTimeout(finish, SLIDE_MS + 20);
   }
 
+  // iOS Safari pinch-zooms the page itself even over touch-action: none, so a
+  // pinch on a photo zoomed both the photo and the page. While the lightbox is
+  // open, swallow the browser's own zoom gestures at the document level —
+  // gesturestart/change are Safari's proprietary pinch events, and the
+  // multi-touch touchmove guard covers the rest. Page zoom stays available
+  // everywhere outside the lightbox.
+  const stopNativeGesture = (e: Event) => e.preventDefault();
+  const stopMultiTouch = (e: TouchEvent) => {
+    if (e.touches.length > 1) e.preventDefault();
+  };
+  function blockNativeZoom() {
+    document.addEventListener("gesturestart" as "wheel", stopNativeGesture);
+    document.addEventListener("gesturechange" as "wheel", stopNativeGesture);
+    document.addEventListener("touchmove", stopMultiTouch, { passive: false });
+  }
+  function unblockNativeZoom() {
+    document.removeEventListener("gesturestart" as "wheel", stopNativeGesture);
+    document.removeEventListener("gesturechange" as "wheel", stopNativeGesture);
+    document.removeEventListener("touchmove", stopMultiTouch);
+  }
+
   function open(list: Item[], start: number) {
     if (!list.length) return;
     items = list;
     lockScroll();
+    blockNativeZoom();
     root.hidden = false;
     root.setAttribute("aria-hidden", "false");
     requestAnimationFrame(() => root.classList.add("is-open"));
@@ -269,6 +291,7 @@ function init() {
 
   function close() {
     preloadToken++; // stop launching new preloads once closed
+    unblockNativeZoom();
     stopEraTracking();
     if (eraPill) eraPill.hidden = true;
     root.classList.remove("is-open");
