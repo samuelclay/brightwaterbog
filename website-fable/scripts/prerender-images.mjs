@@ -86,8 +86,28 @@ await Promise.all(
   }),
 );
 
+// Social preview card: the same photo the hero leads with (Stargate's newest
+// "now" shot, matching Hero.astro's slide pick), cropped to the 1200x630
+// Open Graph frame as JPEG — WhatsApp and older scrapers are unreliable with
+// WebP. Base.astro points og:image at /og.jpg.
+const ogList = photos["stargate"] ?? [];
+const ogNows = ogList
+  .filter((p) => p.era === "now")
+  .sort((a, b) => (a.date ?? "").localeCompare(b.date ?? ""));
+const ogPhoto = ogNows.at(-1) ?? ogList[0];
+if (ogPhoto) {
+  await sharp(path.join(PHOTOS, ogPhoto.key))
+    .rotate()
+    .resize({ width: 1200, height: 630, fit: "cover" })
+    .jpeg({ quality: 82 })
+    .toFile(path.join(SITE, "dist", "og.jpg"));
+} else {
+  console.error("og.jpg skipped: no stargate photo in the catalog");
+}
+
 console.log(
   `prerender-images: ${keys.length} photos × ${ALL_WIDTHS.length} widths — ` +
-    `${rendered} rendered, ${cached} cached, ${failed} failed`,
+    `${rendered} rendered, ${cached} cached, ${failed} failed` +
+    (ogPhoto ? ", og.jpg rendered" : ""),
 );
 if (failed) process.exit(1);
