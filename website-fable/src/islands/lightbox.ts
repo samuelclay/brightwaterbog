@@ -342,6 +342,7 @@ function init() {
   let baseTx = 0;
   let baseTy = 0;
   let moved = false;
+  let pinched = false; // two fingers landed during this gesture — never a tap
   let pinchStartDist = 0;
   let pinchStartScale = 1;
   let mode: "none" | "pan" | "swipe" | "dismiss" = "none";
@@ -359,17 +360,20 @@ function init() {
       stage.setPointerCapture(e.pointerId);
     } catch (_) {} // synthetic or already-released pointers can't be captured
     pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
-    moved = false;
     if (pts.size === 2) {
       const [a, b] = [...pts.values()];
       pinchStartDist = dist(a, b);
       pinchStartScale = scale;
       mode = "pan";
+      pinched = true;
+      moved = true; // two fingers is a pinch, never the start of a tap
     } else {
       startX = e.clientX;
       startY = e.clientY;
       baseTx = tx;
       baseTy = ty;
+      moved = false;
+      pinched = false;
       mode = scale > 1.02 ? "pan" : "none";
     }
   });
@@ -423,13 +427,33 @@ function init() {
   function endPointer(e: PointerEvent) {
     if (!pts.has(e.pointerId)) return;
     pts.delete(e.pointerId);
+    if (pts.size === 1) {
+      // Pinch is ending: one finger lifted, one still down. Re-baseline the
+      // survivor so its next moves pan from where the pinch left off instead
+      // of jumping against the pre-pinch start point.
+      const [rest] = [...pts.values()];
+      startX = rest.x;
+      startY = rest.y;
+      baseTx = tx;
+      baseTy = ty;
+      return;
+    }
     if (pts.size >= 1) return; // still pinching/panning
 
+    const wasPinch = pinched;
+    pinched = false;
     const dx = e.clientX - startX;
     const dy = e.clientY - startY;
 
     if (scale > 1.02) {
-      if (!moved) resetZoomAnimated(); // tap while zoomed → animate back out (stays open)
+      // Tap while zoomed animates back out — but only a real tap; the end of
+      // a pinch (or the pan after one) must never re-trigger zoom steps.
+      if (!moved && !wasPinch) resetZoomAnimated();
+      mode = "none";
+      return;
+    }
+    if (wasPinch) {
+      // Pinched back out to 1x: the gesture is over, not a tap or swipe.
       mode = "none";
       return;
     }
