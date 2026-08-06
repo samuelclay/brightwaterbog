@@ -825,10 +825,17 @@ footer.site-foot {
      full map: a slice a quarter of the map tall, panned so the current stop
      stays centered — like a thumb sliding along a pocket map. The header's
      ⤢ opens the whole map; picking a stop folds it back to the window. */
-  /* Held back until the trail starts: a fixed card would otherwise float over
+  /* Held back until the trail starts: a floating card would otherwise sit over
      the hero from the first paint. scroll-stage.ts reveals it once the first
      stop's header has risen to the card's own top edge, so the map never
      covers anything above Stargate. */
+  /* The card is pinned only INSIDE the trail — same trick as the desktop
+     rail, one column over: the rail overlays the stops column at full height
+     (a grid item's own sticky range is just its grid area, so the rail can't
+     be the sticky thing itself) and the minimap inside it sticks to the
+     viewport bottom. At the trail's end the card hits its natural place at
+     the rail's bottom and scrolls away with the last stop (Dam Light)
+     instead of floating over the indoor/poetry/visit sections. */
   .map-rail {
     visibility: hidden;
     opacity: 0;
@@ -837,12 +844,17 @@ footer.site-foot {
       opacity 0.4s var(--ease),
       transform 0.4s var(--ease),
       visibility 0s linear 0.4s;
-    position: fixed;
-    left: auto; top: auto;
-    right: max(10px, env(safe-area-inset-right));
-    bottom: max(12px, env(safe-area-inset-bottom));
+    grid-column: 1;
+    grid-row: 1;
+    align-self: stretch;
+    justify-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
     z-index: 30;
     padding: 0;
+    pointer-events: none; /* full-height overlay — only the card is real */
   }
   .map-rail.is-shown {
     visibility: visible;
@@ -851,11 +863,13 @@ footer.site-foot {
     transition-delay: 0s, 0s, 0s;
   }
   .minimap {
-    position: relative;
-    /* the desktop sticky offset must go too: as `relative` it survives as a
-       paint-only nudge that pushes the whole card 10svh off the bottom edge
-       while its fixed parent's box stays put */
-    top: auto;
+    position: sticky;
+    bottom: max(12px, env(safe-area-inset-bottom));
+    top: auto; /* the desktop sticky-top offset must not fight bottom */
+    pointer-events: auto;
+    /* pull past the trail column's padding so the card keeps the old fixed
+       inset of 10px from the screen edge */
+    margin-right: calc(max(10px, env(safe-area-inset-right)) - clamp(1rem, 3vw, 3rem));
     width: fit-content;
     border: 1px solid var(--came);
     border-radius: var(--radius);

@@ -69,9 +69,11 @@ function init() {
   function syncRailVisibility() {
     if (!rail) return;
     const head = (stops[0].querySelector(".stop__head") as HTMLElement) ?? stops[0];
-    // the rail keeps its box while hidden (visibility, not display), so its
-    // own top edge is a valid threshold either way
-    const show = head.getBoundingClientRect().top <= rail.getBoundingClientRect().top;
+    // The card keeps its box while hidden (visibility, not display), so its
+    // own top edge is a valid threshold either way. Measure the minimap card,
+    // not the rail — the rail stretches the whole trail so the card can be
+    // sticky inside it (pinned only between Stargate and Dam Light).
+    const show = head.getBoundingClientRect().top <= minimap.getBoundingClientRect().top;
     rail.classList.toggle("is-shown", show);
     if (!show && isOpen()) setOpenRef?.(false);
   }
