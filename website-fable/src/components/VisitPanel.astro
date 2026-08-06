@@ -5,8 +5,6 @@ const { lede, items } = visit as {
   lede: string;
   items: Array<{ label: string; value: string; link?: VisitLink; links?: VisitLink[] }>;
 };
-const linksOf = (it: { link?: VisitLink; links?: VisitLink[] }) =>
-  it.links ?? (it.link ? [it.link] : []);
 ---
 
 <div class="visit">
@@ -18,14 +16,23 @@ const linksOf = (it: { link?: VisitLink; links?: VisitLink[] }) =>
           <dt>{it.label}</dt>
           <dd>
             {it.value}
-            {linksOf(it).map((l) => (
+            {it.link && (
               <>
                 {" "}
-                <a href={l.href} target="_blank" rel="noopener">
-                  {l.text}
+                <a href={it.link.href} target="_blank" rel="noopener">
+                  {it.link.text}
                 </a>
               </>
-            ))}
+            )}
+            {it.links && (
+              <span class="visit__links">
+                {it.links.map((l) => (
+                  <a href={l.href} target="_blank" rel="noopener">
+                    {l.text}
+                  </a>
+                ))}
+              </span>
+            )}
           </dd>
         </div>
       ))
