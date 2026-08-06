@@ -153,7 +153,7 @@ function init() {
         "aria-label",
         open ? "Collapse the trail map" : "Expand the trail map",
       );
-      mapToggle.textContent = open ? "✕" : "⤢";
+      mapToggle.setAttribute("aria-label", open ? "Collapse the trail map" : "Expand the trail map");
       panMap();
     };
     setOpenRef = setOpen; // so scrolling back up to the hero also folds it shut

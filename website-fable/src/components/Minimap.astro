@@ -79,12 +79,19 @@ const TREES: Array<[number, number, number, keyof typeof PINES]> = [
       <span class="minimap__now" data-now>{first.title}</span>
       <span class="minimap__count"><b data-current-number>1</b> of {nodes.length}</span>
       {/* Mobile only: expands the masked map window to the full map */}
+      {/* Inline SVGs, not ⤢/✕ text — iOS glyph metrics sit off-center. CSS
+          swaps the two icons via .map-rail.is-open. */}
       <button
         class="minimap__toggle"
         type="button"
         data-map-toggle
         aria-expanded="false"
-        aria-label="Expand the trail map">⤢</button>
+        aria-label="Expand the trail map">
+        <svg class="minimap__toggle-expand" viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"
+          ><path d="M7.5 1H11v3.5M11 1L6.75 5.25M4.5 11H1V7.5M1 11l4.25-4.25" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" fill="none"></path></svg>
+        <svg class="minimap__toggle-close" viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"
+          ><path d="M2 2l8 8M10 2l-8 8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"></path></svg>
+      </button>
     </div>
 
     <div class="minimap__frame">

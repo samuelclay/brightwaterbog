@@ -977,6 +977,9 @@ footer.site-foot {
   }
   .minimap__now { flex: 1; font-size: 0.85rem; line-height: 1.2; }
   .minimap__count { display: none; } /* the title is enough on mobile */
+  .minimap__toggle-close { display: none; }
+  .map-rail.is-open .minimap__toggle-expand { display: none; }
+  .map-rail.is-open .minimap__toggle-close { display: block; }
   .minimap__toggle {
     display: grid;
     place-items: center;
