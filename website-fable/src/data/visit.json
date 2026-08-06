@@ -1,5 +1,5 @@
 {
-  "status": "draft",
+  "status": "live",
   "lede": "The sculpture trail is outdoors and open to visitors. Please treat it gently — the art lives in the weather.",
   "items": [
     {
@@ -8,7 +8,19 @@
       "link": { "href": "https://www.alltrails.com/trail/us/massachusetts/bright-water-bog-loop", "text": "AllTrails →" }
     },
     { "label": "Hours", "value": "The outdoor trail is best in daylight — dawn to dusk." },
-    { "label": "Parking", "value": "[Add parking directions before launch.]" },
+    {
+      "label": "Parking",
+      "value": "A small gravel lot at the trailhead holds about eight cars; an accessible raised path leads in from there.",
+      "link": { "href": "https://maps.google.com/?q=42.497722,-72.421738", "text": "Google Maps →" }
+    },
+    {
+      "label": "The land",
+      "value": "The 147 acres around Ames Pond are conserved by Kestrel Land Trust, who maintain its five miles of trails as the Bright Water Bog Nature Retreat.",
+      "links": [
+        { "href": "https://www.kestreltrust.org/places/bright-water-bog-nature-retreat/", "text": "Kestrel →" },
+        { "href": "https://www.kestreltrust.org/welcome-to-bright-water-bog/", "text": "the story →" }
+      ]
+    },
     { "label": "Please", "value": "The trail is outdoors; the home is private. Stay on the marked path and follow the trail signs." }
   ]
 }

@@ -1,9 +1,12 @@
 ---
 import visit from "../data/visit.json";
+type VisitLink = { href: string; text: string };
 const { lede, items } = visit as {
   lede: string;
-  items: Array<{ label: string; value: string; link?: { href: string; text: string } }>;
+  items: Array<{ label: string; value: string; link?: VisitLink; links?: VisitLink[] }>;
 };
+const linksOf = (it: { link?: VisitLink; links?: VisitLink[] }) =>
+  it.links ?? (it.link ? [it.link] : []);
 ---
 
 <div class="visit">
@@ -15,14 +18,14 @@ const { lede, items } = visit as {
           <dt>{it.label}</dt>
           <dd>
             {it.value}
-            {it.link && (
+            {linksOf(it).map((l) => (
               <>
                 {" "}
-                <a href={it.link.href} target="_blank" rel="noopener">
-                  {it.link.text}
+                <a href={l.href} target="_blank" rel="noopener">
+                  {l.text}
                 </a>
               </>
-            )}
+            ))}
           </dd>
         </div>
       ))
