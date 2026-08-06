@@ -729,6 +729,21 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   box-shadow: 0 6px 22px rgb(0 0 0 / 20%);
 }
 
+/* Narrow phones (iPhone SE): the chip was overflowing, clipping the moon off
+   the theme toggle. Stretch it to the full bar width and let the links share
+   the row instead of pushing past it. */
+@media (max-width: 560px) {
+  .topbar { padding: 0.6rem 10px; }
+  .topbar__links {
+    width: 100%;
+    justify-content: space-between;
+    gap: 0;
+    padding: 0.3rem 0.35rem;
+  }
+  .topbar a { padding: 0.3rem 0.4rem; }
+  .theme-toggle { margin-left: 0; }
+}
+
 /* Light/dark toggle switch — ported verbatim from NewsBlur's welcome page
    (sun icon · sliding 36x20 pill track · moon icon). The dark state follows
    this site's theme mechanism via the --tt-* variables. */
