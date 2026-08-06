@@ -39,6 +39,11 @@
     {
       "label": "Please",
       "value": "The trail is outdoors; the home is private. Stay on the marked path and follow the trail signs."
+    },
+    {
+      "label": "Contact",
+      "value": "Feel free to email Samuel Clay with questions, photos, and ideas:",
+      "link": { "href": "mailto:brightwaterbog@conesus.com", "text": "brightwaterbog@conesus.com" }
     }
   ]
 }
