@@ -605,7 +605,10 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   margin: 0 auto;
   padding: 0 clamp(1rem, 3vw, 3rem) 6rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  /* min(180px, 40%): on phones the 180px floor would force a single column —
+     capping it at 40% of the row keeps the grid at least two placards wide
+     (each poem hangs beside its zoomed-in twin) without touching desktop. */
+  grid-template-columns: repeat(auto-fill, minmax(min(180px, 40%), 1fr));
   gap: clamp(0.8rem, 1.6vw, 1.4rem);
 }
 .poem {
