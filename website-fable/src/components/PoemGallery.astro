@@ -10,36 +10,93 @@ interface Props {
   photos: PhotoEntry[];
 }
 const { photos } = Astro.props;
+
+// Every poem was photographed twice on the same walk, seconds apart: once
+// from the trail (the placard in its place) and once close enough to read.
+// The catalog keeps them adjacent, so pair them up as (far, near) diptychs.
+const pairs: [PhotoEntry, PhotoEntry][] = [];
+for (let i = 0; i + 1 < photos.length; i += 2) pairs.push([photos[i], photos[i + 1]]);
+const leftover = photos.length % 2 === 1 ? photos[photos.length - 1] : null;
+
+const halfAttrs = (p: PhotoEntry, label: string) => ({
+  "data-full": imageUrl(p.key, { w: 1800, fit: "contain" }),
+  "data-full-hi": imageUrl(p.key, { w: 2600, fit: "contain" }),
+  "data-w": p.width ?? 0,
+  "data-h": p.height ?? 0,
+  "aria-label": label,
+});
 ---
 
 {
   photos.length === 0 ? (
     <p class="strip__empty" style="padding:0 clamp(1rem,3vw,3rem)">No poems yet.</p>
   ) : (
-    <div class="poem-grid" data-strip-track>
-      {photos.map((p, i) => (
-        <button
-          class="poem"
-          type="button"
-          data-lightbox
-          data-full={imageUrl(p.key, { w: 1800, fit: "contain" })}
-          data-full-hi={imageUrl(p.key, { w: 2600, fit: "contain" })}
-          data-w={p.width ?? 0}
-          data-h={p.height ?? 0}
-          aria-label={`Poem ${i + 1}, open full screen`}
-        >
-          <img
-            src={imageUrl(p.key, { w: 640, fit: "cover" })}
-            srcset={srcset(p.key, STRIP_WIDTHS, "cover")}
-            sizes="(max-width: 620px) 45vw, 220px"
-            width={p.width ?? undefined}
-            height={p.height ?? undefined}
-            loading="lazy"
-            decoding="async"
-            alt={`Poem placard ${i + 1}`}
-          />
-        </button>
+    <div class="poem-pairs" data-strip-track>
+      {pairs.map(([far, near], n) => (
+        <figure class="poem-pair">
+          <button
+            class="poem poem--far"
+            type="button"
+            data-lightbox
+            {...halfAttrs(far, `Poem ${n + 1} on the trail, open full screen`)}
+          >
+            <img
+              src={imageUrl(far.key, { w: 640, fit: "cover" })}
+              srcset={srcset(far.key, STRIP_WIDTHS, "cover")}
+              sizes="(max-width: 620px) 38vw, 420px"
+              width={far.width ?? undefined}
+              height={far.height ?? undefined}
+              loading="lazy"
+              decoding="async"
+              alt={`Poem ${n + 1} seen from the trail`}
+            />
+          </button>
+          <button
+            class="poem poem--near"
+            type="button"
+            data-lightbox
+            {...halfAttrs(near, `Poem ${n + 1} up close, open full screen`)}
+          >
+            <img
+              src={imageUrl(near.key, { w: 640, fit: "cover" })}
+              srcset={srcset(near.key, STRIP_WIDTHS, "cover")}
+              sizes="(max-width: 620px) 52vw, 580px"
+              width={near.width ?? undefined}
+              height={near.height ?? undefined}
+              loading="lazy"
+              decoding="async"
+              alt={`Poem ${n + 1} up close`}
+            />
+          </button>
+          <figcaption class="poem-pair__num" aria-hidden="true">
+            {String(n + 1).padStart(2, "0")}
+          </figcaption>
+        </figure>
       ))}
+      {leftover && (
+        <figure class="poem-pair poem-pair--single">
+          <button
+            class="poem"
+            type="button"
+            data-lightbox
+            {...halfAttrs(leftover, `Poem ${pairs.length + 1}, open full screen`)}
+          >
+            <img
+              src={imageUrl(leftover.key, { w: 640, fit: "cover" })}
+              srcset={srcset(leftover.key, STRIP_WIDTHS, "cover")}
+              sizes="(max-width: 620px) 90vw, 1000px"
+              width={leftover.width ?? undefined}
+              height={leftover.height ?? undefined}
+              loading="lazy"
+              decoding="async"
+              alt={`Poem ${pairs.length + 1}`}
+            />
+          </button>
+          <figcaption class="poem-pair__num" aria-hidden="true">
+            {String(pairs.length + 1).padStart(2, "0")}
+          </figcaption>
+        </figure>
+      )}
     </div>
   )
 }

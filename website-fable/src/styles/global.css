@@ -600,28 +600,58 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 /* =========================================================================
    POETRY GALLERY
    ========================================================================= */
-.poem-grid {
-  max-width: 1200px;
+/* Each poem was shot twice on the same walk: from the trail, then close
+   enough to read. One poem = one leaded window — the far pane and the near
+   pane fused by a came line, numbered like archival plates. The page runs
+   long on purpose; it's a walk. */
+.poem-pairs {
+  max-width: 1040px;
   margin: 0 auto;
   padding: 0 clamp(1rem, 3vw, 3rem) 6rem;
   display: grid;
-  /* min(180px, 40%): on phones the 180px floor would force a single column —
-     capping it at 40% of the row keeps the grid at least two placards wide
-     (each poem hangs beside its zoomed-in twin) without touching desktop. */
-  grid-template-columns: repeat(auto-fill, minmax(min(180px, 40%), 1fr));
-  gap: clamp(0.8rem, 1.6vw, 1.4rem);
+  gap: clamp(1.2rem, 2.6vw, 2rem);
 }
-.poem {
-  padding: 0;
+.poem-pair {
+  position: relative;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1.4fr; /* the readable pane gets the room */
+  gap: 2px; /* the came line between the panes */
+  background: var(--came);
   border: 1px solid var(--came);
   border-radius: var(--radius);
   overflow: hidden;
-  background: var(--surface);
-  aspect-ratio: 3 / 4;
+  height: clamp(280px, 52svh, 560px);
   transition: border-color 0.35s var(--ease);
 }
-.poem:hover { border-color: var(--teal); }
+.poem-pair--single { grid-template-columns: 1fr; }
+.poem-pair:hover { border-color: var(--teal); }
+.poem {
+  padding: 0;
+  overflow: hidden;
+  background: var(--surface);
+  height: 100%;
+  min-width: 0;
+}
 .poem img { width: 100%; height: 100%; object-fit: cover; }
+.poem-pair__num {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  color: var(--ink);
+  background: color-mix(in oklab, var(--bg) 72%, transparent);
+  backdrop-filter: blur(6px);
+  border: 1px solid var(--came);
+  border-radius: var(--radius);
+  padding: 0.15rem 0.45rem;
+  pointer-events: none;
+}
+@media (max-width: 620px) {
+  .poem-pair { height: clamp(220px, 40svh, 340px); }
+}
 
 /* =========================================================================
    VISIT
