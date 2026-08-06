@@ -14,6 +14,6 @@ modernFolders:
   - sculpture_13_four_stages_of_evolution_2
   - sculpture_13_four_stages_of_evolution_3
   - sculpture_13_four_stages_of_evolution_4
-summary: Four sculptures read as one — a sequence of change across the panels.
+summary: Four sculptures read as one, a sequence of change across the panels.
 ---
 

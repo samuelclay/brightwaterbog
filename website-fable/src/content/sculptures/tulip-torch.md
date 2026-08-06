@@ -12,6 +12,6 @@ scannedFolders:
   - sculpture_10_torch_5_tulip
 modernFolders:
   - sculpture_10_torch_5_tulip
-summary: The last torch — a flame shaped like a tulip.
+summary: The last torch, a flame shaped like a tulip.
 ---
 

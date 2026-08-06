@@ -11,6 +11,6 @@ scannedFolders:
   - sculpture_14_well
 modernFolders:
   - sculpture_14_well
-summary: A wellhead near the house — confirm placement on the path.
+summary: A wellhead near the house. Confirm placement on the path.
 ---
 

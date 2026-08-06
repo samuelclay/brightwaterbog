@@ -1,26 +1,44 @@
 {
   "status": "live",
-  "lede": "The sculpture trail is outdoors and open to visitors. Please treat it gently — the art lives in the weather.",
+  "lede": "The sculpture trail is outdoors and open to visitors. Please treat it gently. The art lives in the weather.",
   "items": [
     {
       "label": "Where",
       "value": "Shutesbury, Massachusetts, on the Bright Water Bog Loop.",
-      "link": { "href": "https://www.alltrails.com/trail/us/massachusetts/bright-water-bog-loop", "text": "AllTrails →" }
+      "link": {
+        "href": "https://www.alltrails.com/trail/us/massachusetts/bright-water-bog-loop",
+        "text": "AllTrails →"
+      }
     },
-    { "label": "Hours", "value": "The outdoor trail is best in daylight — dawn to dusk." },
+    {
+      "label": "Hours",
+      "value": "The outdoor trail is best in daylight, dawn to dusk."
+    },
     {
       "label": "Parking",
       "value": "A small gravel lot at the trailhead holds about eight cars; an accessible raised path leads in from there.",
-      "link": { "href": "https://www.google.com/maps/place/Bright+Water+Bog+-+Kestrel+Land+Trust/@42.496406,-72.4160419,16.29z/data=!4m6!3m5!1s0x89e135004cf1af9b:0x8786f343b5c34865!8m2!3d42.4992247!4d-72.4226827!16s%2Fg%2F11y47z58jn?entry=ttu&g_ep=EgoyMDI2MDgwMy4wIKXMDSoASAFQAw%3D%3D", "text": "Google Maps →" }
+      "link": {
+        "href": "https://www.google.com/maps/place/Bright+Water+Bog+-+Kestrel+Land+Trust/@42.496406,-72.4160419,16.29z/data=!4m6!3m5!1s0x89e135004cf1af9b:0x8786f343b5c34865!8m2!3d42.4992247!4d-72.4226827!16s%2Fg%2F11y47z58jn?entry=ttu&g_ep=EgoyMDI2MDgwMy4wIKXMDSoASAFQAw%3D%3D",
+        "text": "Google Maps →"
+      }
     },
     {
       "label": "The land",
       "value": "The 147 acres around Ames Pond are conserved by Kestrel Land Trust, who maintain its five miles of trails as the Bright Water Bog Nature Retreat.",
       "links": [
-        { "href": "https://www.kestreltrust.org/places/bright-water-bog-nature-retreat/", "text": "The Nature Retreat at Kestrel Land Trust →" },
-        { "href": "https://www.kestreltrust.org/welcome-to-bright-water-bog/", "text": "Welcome to Bright Water Bog — the story of the land →" }
+        {
+          "href": "https://www.kestreltrust.org/places/bright-water-bog-nature-retreat/",
+          "text": "The Nature Retreat at Kestrel Land Trust →"
+        },
+        {
+          "href": "https://www.kestreltrust.org/welcome-to-bright-water-bog/",
+          "text": "Welcome to Bright Water Bog, the story of the land →"
+        }
       ]
     },
-    { "label": "Please", "value": "The trail is outdoors; the home is private. Stay on the marked path and follow the trail signs." }
+    {
+      "label": "Please",
+      "value": "The trail is outdoors; the home is private. Stay on the marked path and follow the trail signs."
+    }
   ]
 }

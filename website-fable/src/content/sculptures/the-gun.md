@@ -11,6 +11,6 @@ scannedFolders:
   - sculpture_05_gun
 modernFolders:
   - sculpture_05_gun
-summary: 'A stained-glass gun — provocative, unmistakable.'
+summary: A stained-glass gun. Provocative, unmistakable.
 ---
 

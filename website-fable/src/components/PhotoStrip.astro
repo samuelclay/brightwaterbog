@@ -59,14 +59,14 @@ const total = photos.length;
 
 {
   total === 0 ? (
-    <p class="strip__empty">No photos yet — check back.</p>
+    <p class="strip__empty">No photos yet. Check back soon.</p>
   ) : (
     <div class:list={["strip", { "strip--compact": compact }]} data-strip>
       {groups.length > 0 && (
         <div
           class="strip__bar"
           role="tablist"
-          aria-label={`${title} — photo sections`}
+          aria-label={`${title} photo sections`}
           style={`max-width:min(${barWidth(total)}px, 100%)`}
         >
           {groups.map((g) => (
@@ -100,7 +100,7 @@ const total = photos.length;
                 data-w={f.w}
                 data-h={f.h}
                 data-era={`${g.label}${f.year ? ` · ${f.year}` : ""}`}
-                aria-label={`${title} — ${g.label} photo ${i + 1}, open full screen`}
+                aria-label={`${title}, ${g.label} photo ${i + 1}, open full screen`}
               >
                 <img
                   src={f.thumb}

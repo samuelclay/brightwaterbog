@@ -38,7 +38,7 @@ const { items } = Astro.props;
           </p>
         </div>
         {photos.length === 0 ? (
-          <p class="strip__empty">No photos yet — check back.</p>
+          <p class="strip__empty">No photos yet. Check back soon.</p>
         ) : (
           <PhotoStrip photos={photos} title={entry.data.title} compact />
         )}

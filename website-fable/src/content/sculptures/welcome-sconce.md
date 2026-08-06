@@ -10,5 +10,5 @@ gps:
 scannedFolders: []
 modernFolders:
   - sculpture_11_mailbox
-summary: The stained-glass sconce on the standing stone that greets you — the old mailbox stands just behind it.
+summary: The stained-glass sconce on the standing stone that greets you. The old mailbox stands just behind it.
 ---

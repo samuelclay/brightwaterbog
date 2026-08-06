@@ -10,6 +10,6 @@ gps:
 scannedFolders: []
 modernFolders:
   - sculpture_01_dam
-summary: Out at the dam — the path doubles back to reach it.
+summary: Out at the dam. The path doubles back to reach it.
 ---
 

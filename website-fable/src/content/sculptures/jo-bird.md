@@ -10,6 +10,6 @@ gps:
 scannedFolders:
   - sculpture_04_jo_bird
 modernFolders: []
-summary: Scanned photos of Jo Bird — no location yet; place on the path or indoors.
+summary: Scanned photos of Jo Bird. No location yet; place on the path or indoors.
 ---
 

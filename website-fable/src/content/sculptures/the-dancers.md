@@ -11,6 +11,6 @@ scannedFolders:
   - sculpture_01_dancers
 modernFolders:
   - sculpture_16_dancers
-summary: Figures in motion — confirm placement on the path.
+summary: Figures in motion. Confirm placement on the path.
 ---
 

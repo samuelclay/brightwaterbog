@@ -12,6 +12,6 @@ scannedFolders:
   - sculpture_02_stargate
 modernFolders:
   - sculpture_02_stargate
-summary: The first stop on the trail — a ring of colored glass that frames the sky.
+summary: The first stop on the trail, a ring of colored glass that frames the sky.
 ---
 

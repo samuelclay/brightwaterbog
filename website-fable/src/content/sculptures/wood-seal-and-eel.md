@@ -10,6 +10,6 @@ gps:
 scannedFolders: []
 modernFolders:
   - wood_seal_and_eel
-summary: A carved seal and eel near the mailbox — confirm placement on the path.
+summary: A carved seal and eel near the mailbox. Confirm placement on the path.
 ---
 
