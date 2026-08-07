@@ -13,6 +13,7 @@ import selectors
 import shutil
 import subprocess
 import sys
+import tempfile
 import threading
 import time
 import traceback
@@ -28,11 +29,13 @@ from PIL import Image, ImageOps
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SCANNED_ROOT = ROOT / "photos" / "scanned"
 DEFAULT_LOG = ROOT / "logs" / "scanned_gallery.log"
+DEFAULT_SCAN_TRASH = ROOT / "photos" / "_scan_trash"
 IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".webp"}
 STAMP_RE = re.compile(r"(?P<stamp>\d{8}_\d{6})")
 DEFAULT_SCAN_SECONDS = 55.0
 SERVER_LOG_COLOR = False
 SCAN_LOCK = threading.Lock()
+PAGE_TRANSFORM_LOCK = threading.Lock()
 SCAN_STATE: dict[str, object] = {
     "running": False,
     "stage": "idle",
@@ -187,7 +190,7 @@ def log_startup_report(args: argparse.Namespace, scanned_root: Path, log_path: P
         "backend=%s rotate=%s dpi=%s brightness=%s contrast=%s saturation=%s"
         % (
             os.environ.get("SCAN_BACKEND", "epson2"),
-            os.environ.get("SCAN_ROTATE", "270"),
+            os.environ.get("SCAN_ROTATE", "180"),
             os.environ.get("DPI", "600"),
             os.environ.get("SCAN_BRIGHTNESS", "0"),
             os.environ.get("SCAN_CONTRAST", "0"),
@@ -342,6 +345,165 @@ def scanned_images(scanned_root: Path) -> list[dict[str, object]]:
     return items
 
 
+def resolve_scanned_image(scanned_root: Path, requested: object) -> tuple[Path, Path]:
+    """Resolve one gallery image without permitting traversal or non-images."""
+    root = scanned_root.resolve()
+    rel = Path(str(requested or ""))
+    target = (root / rel).resolve()
+    try:
+        safe_rel = target.relative_to(root)
+    except ValueError as exc:
+        raise ValueError("invalid image path") from exc
+    if not target.is_file() or target.suffix.lower() not in IMAGE_SUFFIXES:
+        raise ValueError("image not found")
+    return target, safe_rel
+
+
+def trash_scanned_image(
+    scanned_root: Path,
+    requested: object,
+    trash_root: Path = DEFAULT_SCAN_TRASH,
+) -> tuple[Path, Path]:
+    """Remove a gallery image immediately while keeping local recovery possible."""
+    target, rel = resolve_scanned_image(scanned_root, requested)
+    destination = trash_root.resolve() / rel
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    if destination.exists():
+        destination = destination.with_name(
+            f"{destination.stem}_{time.time_ns()}{destination.suffix}"
+        )
+    target.replace(destination)
+    return rel, destination
+
+
+def transform_scanned_page(
+    scanned_root: Path,
+    requested: object,
+    operation: str,
+    trash_root: Path = DEFAULT_SCAN_TRASH,
+    captures_root: Path = ROOT / "captures",
+    python: Path = ROOT / ".venv" / "bin" / "python",
+    crop_script: Path = ROOT / "pipeline" / "crop.py",
+) -> tuple[Path, list[Path], Path]:
+    """Replace one page with a crop or segments, preserving it in trash."""
+    flags = {"crop": "--crop-sketch", "segment": "--segment-sketches"}
+    if operation not in flags:
+        raise ValueError(f"unknown page operation: {operation}")
+    with PAGE_TRANSFORM_LOCK:
+        target, rel = resolve_scanned_image(scanned_root, requested)
+        stamp_match = STAMP_RE.search(target.name)
+        if not stamp_match:
+            raise ValueError("this image does not have a scan timestamp")
+        stamp = stamp_match.group("stamp")
+        siblings = [
+            path
+            for path in target.parent.glob(f"{stamp}_flatbed_*")
+            if path.is_file() and path.suffix.lower() in IMAGE_SUFFIXES
+        ]
+        if len(siblings) != 1 or siblings[0].resolve() != target.resolve():
+            raise ValueError("this scan already has multiple results")
+
+        raw_candidates = [
+            captures_root / f"scan_{stamp}.jpg",
+            captures_root / f"scan_{stamp}.tiff",
+            captures_root / f"scan_{stamp}.tif",
+        ]
+        raw = next((candidate for candidate in raw_candidates if candidate.is_file()), None)
+        source = raw or target
+        rotation = int(os.environ.get("SCAN_ROTATE", "180")) if raw else 0
+        if rotation % 360 not in {0, 90, 180, 270}:
+            raise ValueError("SCAN_ROTATE must be 0, 90, 180, or 270")
+
+        with tempfile.TemporaryDirectory(prefix=f"brightwater-{operation}-") as temp_dir_name:
+            temp_dir = Path(temp_dir_name)
+            result = subprocess.run(
+                [
+                    str(python),
+                    str(crop_script),
+                    str(source),
+                    str(temp_dir),
+                    "--rotate",
+                    str(rotation),
+                    flags[operation],
+                ],
+                cwd=ROOT,
+                text=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
+                check=False,
+                timeout=120,
+            )
+            if result.returncode != 0:
+                tail = "\n".join(result.stdout.splitlines()[-10:])
+                raise ValueError(f"{operation} failed with exit {result.returncode}\n{tail}")
+            generated = sorted(
+                path for path in temp_dir.iterdir() if path.suffix.lower() in IMAGE_SUFFIXES
+            )
+            if not generated:
+                raise ValueError("no drawings were found; the page was left unchanged")
+            if operation == "crop" and len(generated) != 1:
+                raise ValueError("crop produced multiple images; the page was left unchanged")
+
+            pending: list[tuple[Path, Path]] = []
+            for index, generated_path in enumerate(generated, 1):
+                destination = target.parent / f"{stamp}_flatbed_{index:03d}.jpg"
+                staged = target.parent / f".{stamp}_{operation}_{time.time_ns()}_{index:03d}.jpg"
+                shutil.copy2(generated_path, staged)
+                pending.append((staged, destination))
+
+            trashed_rel, trashed_path = trash_scanned_image(scanned_root, rel, trash_root)
+            outputs: list[Path] = []
+            try:
+                for staged, destination in pending:
+                    staged.replace(destination)
+                    outputs.append(rel.parent / destination.name)
+            except Exception:
+                for staged, destination in pending:
+                    staged.unlink(missing_ok=True)
+                    destination.unlink(missing_ok=True)
+                trashed_path.replace(target)
+                raise
+        return trashed_rel, outputs, trashed_path
+
+
+def segment_scanned_page(
+    scanned_root: Path,
+    requested: object,
+    trash_root: Path = DEFAULT_SCAN_TRASH,
+    captures_root: Path = ROOT / "captures",
+    python: Path = ROOT / ".venv" / "bin" / "python",
+    crop_script: Path = ROOT / "pipeline" / "crop.py",
+) -> tuple[Path, list[Path], Path]:
+    return transform_scanned_page(
+        scanned_root,
+        requested,
+        "segment",
+        trash_root,
+        captures_root,
+        python,
+        crop_script,
+    )
+
+
+def crop_scanned_page(
+    scanned_root: Path,
+    requested: object,
+    trash_root: Path = DEFAULT_SCAN_TRASH,
+    captures_root: Path = ROOT / "captures",
+    python: Path = ROOT / ".venv" / "bin" / "python",
+    crop_script: Path = ROOT / "pipeline" / "crop.py",
+) -> tuple[Path, list[Path], Path]:
+    return transform_scanned_page(
+        scanned_root,
+        requested,
+        "crop",
+        trash_root,
+        captures_root,
+        python,
+        crop_script,
+    )
+
+
 def set_scan_state(**updates: object) -> None:
     with SCAN_LOCK:
         SCAN_STATE.update(updates)
@@ -439,9 +601,14 @@ def scan_worker(scanned_root: Path, folder_slug: str, folder_title: str) -> None
     try:
         env = os.environ.copy()
         env.setdefault("SCAN_BACKEND", "epson2")
-        env.setdefault("SCAN_ROTATE", "270")
+        env.setdefault("SCAN_ROTATE", "180")
+        script_path = ROOT / "digitize.sh"
+        # Execute an in-memory snapshot. Editing digitize.sh while the scanner is
+        # busy must not shift the running shell's file offset and corrupt its next
+        # command when the hardware call returns.
+        script_source = script_path.read_text(encoding="utf-8")
         process = subprocess.Popen(
-            [str(ROOT / "digitize.sh"), "--no-tag"],
+            ["/bin/bash", "-c", script_source, str(script_path), "--no-tag"],
             cwd=ROOT,
             env=env,
             text=True,
@@ -718,6 +885,16 @@ def page_html() -> bytes:
       width: min(500px, 100%);
       margin: 0 14px 22px 0;
       vertical-align: top;
+      transition: opacity 140ms ease, transform 140ms ease;
+    }
+    .capture.removing {
+      opacity: 0.25;
+      transform: scale(0.985);
+      pointer-events: none;
+    }
+    .capture.processing {
+      opacity: 0.58;
+      pointer-events: none;
     }
     .meta {
       margin: 0 0 6px;
@@ -736,6 +913,7 @@ def page_html() -> bytes:
     }
     .actions {
       display: flex;
+      flex-wrap: wrap;
       gap: 6px;
       margin: 6px 0 8px;
     }
@@ -748,6 +926,45 @@ def page_html() -> bytes:
       font: inherit;
       font-size: 12px;
       padding: 4px 8px;
+    }
+    .actions button:hover {
+      background: #f0f0ea;
+    }
+    .actions .delete {
+      margin-left: 4px;
+      border-color: #d8aaaa;
+      color: #922f2f;
+    }
+    .actions .segment {
+      margin-left: 4px;
+      border-color: #8ba997;
+      color: #185a3c;
+      font-weight: 650;
+    }
+    .actions .crop {
+      margin-left: 4px;
+      border-color: #a4a887;
+      color: #535b20;
+      font-weight: 650;
+    }
+    .actions .crop:hover {
+      border-color: #687126;
+      background: #687126;
+      color: #fff;
+    }
+    .actions .segment:hover {
+      border-color: #1f6f4a;
+      background: #1f6f4a;
+      color: #fff;
+    }
+    .actions .delete:hover {
+      border-color: #922f2f;
+      background: #922f2f;
+      color: #fff;
+    }
+    .actions button:focus-visible {
+      outline: 3px solid rgba(31, 111, 74, 0.3);
+      outline-offset: 2px;
     }
     img {
       display: block;
@@ -954,6 +1171,83 @@ def page_html() -> bytes:
       await refresh();
     }
 
+    async function deletePhoto(item, section, button) {
+      section.classList.add("removing");
+      button.disabled = true;
+      const response = await fetch("/api/delete", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ path: item.path })
+      });
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        section.classList.remove("removing");
+        button.disabled = false;
+        scanStatus.textContent = payload.error || `Delete failed: HTTP ${response.status}`;
+        return;
+      }
+      section.remove();
+      scanStatus.textContent = `Deleted ${item.filename}`;
+      lastSignature = "";
+      await refresh();
+    }
+
+    async function segmentPhoto(item, section, button) {
+      section.classList.add("processing");
+      button.disabled = true;
+      const originalText = button.textContent;
+      button.textContent = "Segmenting…";
+      scanStatus.textContent = `Finding drawings in ${item.filename}`;
+      try {
+        const response = await fetch("/api/segment", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ path: item.path })
+        });
+        if (!response.ok) {
+          const payload = await response.json().catch(() => ({}));
+          throw new Error(payload.error || `Segmentation failed: HTTP ${response.status}`);
+        }
+        const payload = await response.json();
+        const count = (payload.outputs || []).length;
+        scanStatus.textContent = `Segmented ${item.filename} into ${count} drawings`;
+        lastSignature = "";
+        await refresh();
+      } catch (error) {
+        section.classList.remove("processing");
+        button.disabled = false;
+        button.textContent = originalText;
+        scanStatus.textContent = error.message || "Segmentation failed";
+      }
+    }
+
+    async function cropPhoto(item, section, button) {
+      section.classList.add("processing");
+      button.disabled = true;
+      const originalText = button.textContent;
+      button.textContent = "Cropping…";
+      scanStatus.textContent = `Cropping around drawings in ${item.filename}`;
+      try {
+        const response = await fetch("/api/crop", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ path: item.path })
+        });
+        if (!response.ok) {
+          const payload = await response.json().catch(() => ({}));
+          throw new Error(payload.error || `Crop failed: HTTP ${response.status}`);
+        }
+        scanStatus.textContent = `Cropped ${item.filename} around its drawing composition`;
+        lastSignature = "";
+        await refresh();
+      } catch (error) {
+        section.classList.remove("processing");
+        button.disabled = false;
+        button.textContent = originalText;
+        scanStatus.textContent = error.message || "Crop failed";
+      }
+    }
+
     function render(items) {
       const signature = JSON.stringify(items.map(item => [item.path, item.src]));
       if (signature === lastSignature) return;
@@ -992,7 +1286,25 @@ def page_html() -> bytes:
         right.type = "button";
         right.textContent = "Rotate Right";
         right.addEventListener("click", () => rotatePhoto(item.path, 90));
-        actions.append(left, right);
+        const crop = document.createElement("button");
+        crop.type = "button";
+        crop.className = "crop";
+        crop.textContent = "Crop drawing";
+        crop.setAttribute("aria-label", `Crop around drawings in ${item.filename}`);
+        crop.addEventListener("click", () => cropPhoto(item, section, crop));
+        const segment = document.createElement("button");
+        segment.type = "button";
+        segment.className = "segment";
+        segment.textContent = "Segment drawings";
+        segment.setAttribute("aria-label", `Segment drawings in ${item.filename}`);
+        segment.addEventListener("click", () => segmentPhoto(item, section, segment));
+        const remove = document.createElement("button");
+        remove.type = "button";
+        remove.className = "delete";
+        remove.textContent = "Delete";
+        remove.setAttribute("aria-label", `Delete ${item.filename}`);
+        remove.addEventListener("click", () => deletePhoto(item, section, remove));
+        actions.append(left, right, crop, segment, remove);
 
         const img = document.createElement("img");
         img.src = item.src;
@@ -1135,6 +1447,15 @@ class GalleryHandler(BaseHTTPRequestHandler):
             if parsed.path == "/api/rotate":
                 self.rotate_from_request()
                 return
+            if parsed.path == "/api/crop":
+                self.crop_from_request()
+                return
+            if parsed.path == "/api/segment":
+                self.segment_from_request()
+                return
+            if parsed.path == "/api/delete":
+                self.delete_from_request()
+                return
         except ValueError as exc:
             self.send_bytes(
                 json.dumps({"error": str(exc)}).encode("utf-8"),
@@ -1167,17 +1488,10 @@ class GalleryHandler(BaseHTTPRequestHandler):
 
     def rotate_from_request(self) -> None:
         payload = self.read_json_body()
-        rel = Path(str(payload.get("path") or ""))
+        target, rel = resolve_scanned_image(self.scanned_root, payload.get("path"))
         degrees = int(payload.get("degrees") or 0)
         if degrees % 360 not in {90, 180, 270}:
             raise ValueError("degrees must be 90, 180, or 270")
-        target = (self.scanned_root / rel).resolve()
-        try:
-            target.relative_to(self.scanned_root)
-        except ValueError as exc:
-            raise ValueError("invalid image path") from exc
-        if not target.is_file() or target.suffix.lower() not in IMAGE_SUFFIXES:
-            raise ValueError("image not found")
         with Image.open(target) as im:
             im = ImageOps.exif_transpose(im)
             icc = im.info.get("icc_profile")
@@ -1190,6 +1504,56 @@ class GalleryHandler(BaseHTTPRequestHandler):
         temp.replace(target)
         log_line("photo", f"rotated {rel.as_posix()} by {degrees} degrees", "38;5;179")
         self.send_json({"ok": True, "path": rel.as_posix()})
+
+    def delete_from_request(self) -> None:
+        payload = self.read_json_body()
+        rel, destination = trash_scanned_image(self.scanned_root, payload.get("path"))
+        log_line(
+            "photo",
+            f"deleted {rel.as_posix()} (recoverable at {destination})",
+            "38;5;203",
+        )
+        self.send_json({"ok": True, "path": rel.as_posix()})
+
+    def segment_from_request(self) -> None:
+        payload = self.read_json_body()
+        rel, outputs, destination = segment_scanned_page(
+            self.scanned_root,
+            payload.get("path"),
+        )
+        log_line(
+            "photo",
+            f"segmented {rel.as_posix()} into {len(outputs)} drawings "
+            f"(page recoverable at {destination})",
+            "38;5;149",
+        )
+        self.send_json(
+            {
+                "ok": True,
+                "path": rel.as_posix(),
+                "outputs": [path.as_posix() for path in outputs],
+            }
+        )
+
+    def crop_from_request(self) -> None:
+        payload = self.read_json_body()
+        rel, outputs, destination = crop_scanned_page(
+            self.scanned_root,
+            payload.get("path"),
+        )
+        log_line(
+            "photo",
+            f"cropped {rel.as_posix()} around its drawing composition "
+            f"(page recoverable at {destination})",
+            "38;5;149",
+        )
+        self.send_json(
+            {
+                "ok": True,
+                "path": rel.as_posix(),
+                "outputs": [path.as_posix() for path in outputs],
+            }
+        )
 
     def serve_image(self, encoded_rel: str, query: str) -> None:
         # Preserve literal slashes while decoding escaped path characters.
