@@ -27,15 +27,22 @@ const sculptures = defineCollection({
       .enum(["amber", "cobalt", "teal", "garnet", "violet", "rose", "gold"])
       .default("amber"),
     // Photo source folders, relative to their era root.
-    // Section order in the strip: Now → Aerial → Then → Construction.
+    // Section order in the strip:
+    //   Now → Construction → Drawings → Aerial → Then → Construction → Drawings
     // now   = recent photos (photos/apple-photos-stained-glass/selected)
+    // cad   = born-digital drawings for work underway (photos/drawings/<folder>)
     // aerial = overhead / drone shots (photos/scanned/<folder>)
     // then  = Julian's scanned build-era prints (photos/scanned/<folder>)
-    // construction = in-progress / build shots (photos/scanned/<folder>) — LAST
+    // construction = in-progress / build shots (photos/scanned/<folder>)
+    // drawings = scanned plans / sketches (photos/scanned/<folder>) — LAST
+    // Single photos mixed into an existing folder go in src/data/construction.json
+    // or src/data/drawings.json instead of getting their own folder here.
     scannedFolders: z.array(z.string()).default([]),
     modernFolders: z.array(z.string()).default([]),
     aerialFolders: z.array(z.string()).default([]),
     constructionFolders: z.array(z.string()).default([]),
+    drawingFolders: z.array(z.string()).default([]),
+    cadFolders: z.array(z.string()).default([]),
     // Poem-placard photo folders under photos/apple-photos-stained-glass/.
     poemFolders: z.array(z.string()).default([]),
     // One-sentence summary used in nav / previews.

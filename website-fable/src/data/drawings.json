@@ -1,0 +1,31 @@
+{
+  "_readme": "Curated list of photo keys (paths relative to photos/) that are drawings — plans, sketches, blueprints, CAD. Edit freely and re-run npm run catalog. catalog.mjs uses this to reclassify: a modern 'now' photo listed here becomes era 'drawings-now' (strip section right after the Now construction); a scanned 'then' photo becomes era 'drawings' (last strip section, right after the Then construction). Applied after construction.json, so a key listed in both reads as a drawing. Whole folders of drawings don't need to be listed here — use frontmatter 'drawingFolders' (scanned paper, photos/scanned/<folder>) or 'cadFolders' (born-digital, photos/drawings/<folder>) instead.",
+  "keys": [
+    "scanned/blood_from_a_stone/20260807_151031_flatbed_001.jpg",
+    "scanned/mystery_miscellaneous/20260807_180419_flatbed_001.jpg",
+    "scanned/quartz_crystal/20260807_180310_flatbed_001.jpg",
+    "scanned/sculpture_02_stargate/20260807_170020_flatbed_001.jpg",
+    "scanned/sculpture_02_stargate/20260807_170020_flatbed_002.jpg",
+    "scanned/sculpture_02_stargate/20260807_174345_flatbed_001.jpg",
+    "scanned/sculpture_02_stargate/20260807_175929_flatbed_001.jpg",
+    "scanned/sculpture_03_tetris/20260807_171827_flatbed_001.jpg",
+    "scanned/sculpture_03_tetris/20260807_171930_flatbed_001.jpg",
+    "scanned/sculpture_03_tetris/20260807_173015_flatbed_001.jpg",
+    "scanned/sculpture_03_tetris/20260807_173202_flatbed_001.jpg",
+    "scanned/sculpture_03_tetris/20260807_173259_flatbed_001.jpg",
+    "scanned/sculpture_03_tetris/20260807_173624_flatbed_001.jpg",
+    "scanned/sculpture_03_tetris/20260807_180702_flatbed_001.jpg",
+    "scanned/sculpture_08_torch_3_land_bridge/20260807_174214_flatbed_001.jpg",
+    "scanned/sculpture_09_torch_4_shed/20260807_165224_flatbed_001.jpg",
+    "scanned/sculpture_09_torch_4_shed/20260807_165224_flatbed_002.jpg",
+    "scanned/sculpture_09_torch_4_shed/20260807_165324_flatbed_001.jpg",
+    "scanned/sculpture_09_torch_4_shed/20260807_165324_flatbed_002.jpg",
+    "scanned/sculpture_09_torch_4_shed/20260807_165445_flatbed_001.jpg",
+    "scanned/sculpture_12_four_stages_of_evolution/20260807_135618_flatbed_001.jpg",
+    "scanned/sculpture_12_four_stages_of_evolution/20260807_135618_flatbed_002.jpg",
+    "scanned/sculpture_12_four_stages_of_evolution/20260807_141536_flatbed_001.jpg",
+    "scanned/sculpture_12_four_stages_of_evolution/20260807_165103_flatbed_001.jpg",
+    "scanned/sculpture_12_four_stages_of_evolution/20260807_173749_flatbed_001.jpg",
+    "scanned/sculpture_14_porch/20260807_143921_flatbed_001.jpg"
+  ]
+}

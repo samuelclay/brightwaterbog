@@ -4,7 +4,14 @@ import PhotoStrip from "./PhotoStrip.astro";
 
 interface PhotoEntry {
   key: string;
-  era: "now" | "construction-now" | "aerial" | "then" | "construction";
+  era:
+    | "now"
+    | "construction-now"
+    | "drawings-now"
+    | "aerial"
+    | "then"
+    | "construction"
+    | "drawings";
   date: string | null;
   width: number | null;
   height: number | null;

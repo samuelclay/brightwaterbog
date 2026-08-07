@@ -22,7 +22,6 @@ const HERE = path.dirname(fileURLToPath(import.meta.url));
 const SITE = path.resolve(HERE, "..");
 const REPO = path.resolve(SITE, "..");
 const PHOTOS = path.join(REPO, "photos");
-const SCANNED = path.join(PHOTOS, "scanned");
 const APPLE = path.join(PHOTOS, "apple-photos-stained-glass");
 const MODERN = path.join(APPLE, "selected");
 const CONTENT = path.join(SITE, "src", "content", "sculptures");
@@ -34,6 +33,16 @@ const DATA = path.join(SITE, "src", "data");
 const CONSTRUCTION_FILE = path.join(DATA, "construction.json");
 const constructionKeys = existsSync(CONSTRUCTION_FILE)
   ? new Set(JSON.parse(await readFile(CONSTRUCTION_FILE, "utf8")).keys)
+  : new Set();
+
+// Curated per-photo drawing flags (src/data/drawings.json) — plans, sketches
+// and CAD, kept as their own strip section after construction. Same shape as
+// construction.json: a "now" photo becomes era "drawings-now", a "then" scan
+// becomes era "drawings". Applied after the construction pass, so a key in
+// both files reads as a drawing.
+const DRAWINGS_FILE = path.join(DATA, "drawings.json");
+const drawingKeys = existsSync(DRAWINGS_FILE)
+  ? new Set(JSON.parse(await readFile(DRAWINGS_FILE, "utf8")).keys)
   : new Set();
 
 // Curated ordering (src/data/pins.json): per-slug photo keys pinned to the
@@ -94,15 +103,17 @@ async function mapLimit(items, limit, fn) {
   return out;
 }
 
-// Scanned-root folders. `era` is "then" (finished, decades ago) or
-// "construction" (build/in-progress shots) — both live under photos/scanned.
-async function scannedEntries(folder, era = "then") {
-  const dir = path.join(SCANNED, folder);
+// Folders cataloged by directory listing (no manifest, dimensions from sharp).
+// `root` is the subdirectory of photos/ the folder sits in, and doubles as the
+// key prefix: "scanned" for flatbed scans of prints and paper drawings,
+// "drawings" for born-digital drawings (CAD exports).
+async function dirEntries(root, folder, era) {
+  const dir = path.join(PHOTOS, root, folder);
   const files = await listImages(dir);
   return mapLimit(files, 8, async (file) => {
     const { width, height } = await dims(path.join(dir, file));
     return {
-      key: `scanned/${folder}/${file}`,
+      key: `${root}/${folder}/${file}`,
       era,
       date: null,
       width,
@@ -111,6 +122,10 @@ async function scannedEntries(folder, era = "then") {
     };
   });
 }
+
+// Scanned-root folders. `era` is "then" (finished, decades ago), "aerial",
+// "construction" (build/in-progress shots) or "drawings" (scanned plans).
+const scannedEntries = (folder, era = "then") => dirEntries("scanned", folder, era);
 
 async function modernEntries(folder) {
   const dir = path.join(MODERN, folder);
@@ -224,6 +239,18 @@ async function main() {
         (fm.constructionFolders ?? []).map((f) => scannedEntries(f, "construction")),
       )
     ).flat();
+    // Whole folders of drawings: scanned paper under photos/scanned (the
+    // "then" side) and born-digital CAD under photos/drawings (the "now" side).
+    const drawings = (
+      await Promise.all(
+        (fm.drawingFolders ?? []).map((f) => scannedEntries(f, "drawings")),
+      )
+    ).flat();
+    const cad = (
+      await Promise.all(
+        (fm.cadFolders ?? []).map((f) => dirEntries("drawings", f, "drawings-now")),
+      )
+    ).flat();
     const poems = (
       await Promise.all((fm.poemFolders ?? []).map(poemEntries))
     ).flat();
@@ -231,22 +258,32 @@ async function main() {
     // construction-now, flagged "then" photos join the scanned construction era.
     for (const p of now) if (constructionKeys.has(p.key)) p.era = "construction-now";
     for (const p of then) if (constructionKeys.has(p.key)) p.era = "construction";
+    // Drawing flags split them the same way, and win over a construction flag.
+    for (const p of now) if (drawingKeys.has(p.key)) p.era = "drawings-now";
+    for (const p of then) if (drawingKeys.has(p.key)) p.era = "drawings";
     const nowFinished = now.filter((p) => p.era === "now");
     const nowConstruction = now.filter((p) => p.era === "construction-now");
+    const nowDrawings = now.filter((p) => p.era === "drawings-now");
     const thenFinished = then.filter((p) => p.era === "then");
     const thenConstruction = then.filter((p) => p.era === "construction");
+    const thenDrawings = then.filter((p) => p.era === "drawings");
 
-    // Order within a stop: Now → its construction → Aerial → Then → its
-    // construction (folder-level constructionFolders merge into the latter).
+    // Order within a stop: Now → its construction → its drawings → Aerial →
+    // Then → its construction → its drawings (folder-level constructionFolders
+    // / drawingFolders / cadFolders merge into the matching section).
     // pins.json floats curated keys to the front of their era section.
     const pinned = pins[slug];
     const all = [
       ...pinSort(nowFinished, pinned),
       ...pinSort(nowConstruction, pinned),
+      ...pinSort(nowDrawings, pinned),
+      ...cad,
       ...aerial,
       ...pinSort(thenFinished, pinned),
       ...pinSort(thenConstruction, pinned),
       ...construction,
+      ...pinSort(thenDrawings, pinned),
+      ...drawings,
       ...poems,
     ];
     photos[slug] = all;

@@ -14,7 +14,14 @@ const barWidth = (count: number) =>
 
 interface PhotoEntry {
   key: string;
-  era: "now" | "construction-now" | "aerial" | "then" | "construction";
+  era:
+    | "now"
+    | "construction-now"
+    | "drawings-now"
+    | "aerial"
+    | "then"
+    | "construction"
+    | "drawings";
   date: string | null;
   width: number | null;
   height: number | null;
@@ -27,12 +34,16 @@ interface Props {
 }
 const { photos, title, compact = false } = Astro.props;
 
+// Rendered in this order; a section with no photos is dropped, so a piece with
+// no drawings never shows a Drawings tab.
 const ERAS = [
   { era: "now", label: "Now", note: "Today" },
   { era: "construction-now", label: "Construction", note: "Recent work in progress" },
+  { era: "drawings-now", label: "Drawings", note: "Plans for the work underway" },
   { era: "aerial", label: "Aerial", note: "From above" },
   { era: "then", label: "Then", note: "As Julian built it" },
   { era: "construction", label: "Construction", note: "As Julian built it" },
+  { era: "drawings", label: "Drawings", note: "Julian's plans and sketches" },
 ] as const;
 
 function frameData(p: PhotoEntry) {

@@ -27,6 +27,9 @@ photos/*
 !photos/.gitkeep
 !photos/scanned
 !photos/scanned/**
+# Born-digital drawings (CAD exports) — tracked like the scans
+!photos/drawings
+!photos/drawings/**
 !photos/_staging
 photos/_staging/*
 !photos/_staging/.gitkeep

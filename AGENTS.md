@@ -21,17 +21,21 @@ Single-page Astro site (`src/pages/index.astro`) for the sculpture trail. `make`
 - `src/data/photos.json` and `src/data/trail.json` are generated (and gitignored).
   The site reads only those, never the photo tree or manifests. After ANY change to
   the photos tree, a `_manifest.json`, sculpture frontmatter (GPS, `map:`, folder
-  lists), `construction.json`, or `MAP_COORDS` in `scripts/catalog.mjs`, run
-  `make catalog` in `website-fable/`.
+  lists), `construction.json`, `drawings.json`, or `MAP_COORDS` in
+  `scripts/catalog.mjs`, run `make catalog` in `website-fable/`.
 - The Astro dev server does NOT hot-reload the regenerated `photos.json` — run
   `make restart` (or `make`) after `make catalog`, or the browser keeps serving
   the stale photo set.
 
 ### Photo tree (`photos/`, content gitignored)
 
-- `photos/scanned/<folder>/` — flatbed scans of old prints. Cataloged by directory
-  listing; era `then` (or `construction`/`aerial` when referenced via
-  `constructionFolders`/`aerialFolders`).
+- `photos/scanned/<folder>/` — flatbed scans of old prints and paper drawings.
+  Cataloged by directory listing; era `then` (or `construction`/`aerial`/`drawings`
+  when referenced via `constructionFolders`/`aerialFolders`/`drawingFolders`).
+- `photos/drawings/<folder>/` — born-digital drawings (CAD exports for the mailbox,
+  hoopla, etc.), era `drawings-now`. Cataloged by directory listing like `scanned/`,
+  so no manifest is needed — but sharp only reads JPG/PNG/WebP, so export CAD to PNG
+  rather than dropping in a PDF. Referenced via frontmatter `cadFolders`.
 - `photos/apple-photos-stained-glass/selected/<folder>/` — modern photos, era `now`.
   IMPORTANT: if the folder has a `_manifest.json`, only files with a manifest row
   are cataloged — dropping a JPG in the folder silently does nothing. Append a row
@@ -45,6 +49,14 @@ Single-page Astro site (`src/pages/index.astro`) for the sculpture trail. `make`
 - `src/data/construction.json` (tracked, curated) reclassifies listed photo keys:
   a `now` photo becomes era `construction-now`, a `then` scan becomes `construction`.
   Workshop/build shots belong here.
+- `src/data/drawings.json` (tracked, curated) does the same for drawings — plans,
+  sketches, blueprints: a `now` photo becomes `drawings-now`, a `then` scan becomes
+  `drawings`. Use it for drawings scanned into a folder alongside that piece's
+  photos; use `drawingFolders`/`cadFolders` when the drawings get their own folder.
+  It runs after `construction.json`, so a key in both reads as a drawing.
+- Strip section order is set by `ERAS` in `PhotoStrip.astro`:
+  Now → Construction → Drawings → Aerial → Then → Construction → Drawings.
+  Empty sections are dropped, so a piece with no drawings shows no Drawings tab.
 - Sculpture pages map to folders via frontmatter `scannedFolders` / `modernFolders`
   in `src/content/sculptures/*.md`. A piece with no modern photos has
   `modernFolders: []` — add the folder name when its first modern photos arrive.
