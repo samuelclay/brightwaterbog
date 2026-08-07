@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Bounded 48-hour Nest warm-session supervisor for the camera stack."""
+"""Bounded 48-hour warm-session and thumbnail agent for the camera stack."""
 
 from __future__ import annotations
 
@@ -8,6 +8,7 @@ import json
 import os
 import signal
 import threading
+import urllib.parse
 import urllib.request
 from dataclasses import dataclass
 from pathlib import Path
@@ -15,11 +16,14 @@ from typing import Any
 
 
 CHECK_INTERVAL_SECONDS = 15.0
+MAX_EUFY_FRAME_BYTES = 2_500_000
+GO2RTC_FRAME_TIMEOUT_SECONDS = 8.0
 
 
 @dataclass(frozen=True)
 class WarmInventory:
     nest_slugs: list[str]
+    eufy_slugs: list[str]
 
 
 def load_warm_inventory(config_path: Path) -> WarmInventory:
@@ -30,6 +34,12 @@ def load_warm_inventory(config_path: Path) -> WarmInventory:
             str(camera["slug"])
             for camera in cameras
             if camera.get("source") == "nest" and camera.get("keep_warm")
+        ],
+        eufy_slugs=[
+            str(camera["slug"])
+            for camera in cameras
+            if camera.get("source") == "eufy"
+            and camera.get("auto_start", True)
         ],
     )
 
@@ -46,15 +56,83 @@ def fetch_status(base_url: str, *, touch_warm: bool = False) -> dict[str, Any]:
     return payload
 
 
+def capture_eufy_thumbnail(
+    slug: str,
+    base_url: str,
+    go2rtc_url: str,
+) -> bool:
+    query = urllib.parse.urlencode({"src": f"camera_eufy_{slug}"})
+    frame_url = f"{go2rtc_url.rstrip('/')}/api/frame.jpeg?{query}"
+    with urllib.request.urlopen(
+        frame_url,
+        timeout=GO2RTC_FRAME_TIMEOUT_SECONDS,
+    ) as response:
+        content_type = response.headers.get_content_type()
+        frame = response.read(MAX_EUFY_FRAME_BYTES + 1)
+    if (
+        content_type != "image/jpeg"
+        or not frame.startswith(b"\xff\xd8")
+        or len(frame) > MAX_EUFY_FRAME_BYTES
+    ):
+        return False
+
+    upload_url = (
+        f"{base_url.rstrip('/')}/api/frame/"
+        f"{urllib.parse.quote(slug, safe='')}"
+    )
+    request = urllib.request.Request(
+        upload_url,
+        data=frame,
+        method="POST",
+        headers={"Content-Type": "image/jpeg"},
+    )
+    with urllib.request.urlopen(request, timeout=10) as response:
+        response.read(65536)
+        return 200 <= response.status < 300
+
+
+def capture_wanted_eufy_thumbnails(
+    status: dict[str, Any],
+    inventory: WarmInventory,
+    base_url: str,
+    go2rtc_url: str,
+) -> None:
+    eufy_slugs = set(inventory.eufy_slugs)
+    cameras = status.get("cameras", [])
+    if not isinstance(cameras, list):
+        return
+    for camera in cameras:
+        if not isinstance(camera, dict):
+            continue
+        slug = str(camera.get("slug", ""))
+        if slug not in eufy_slugs or not camera.get("warm_wanted"):
+            continue
+        try:
+            capture_eufy_thumbnail(slug, base_url, go2rtc_url)
+        except (OSError, ValueError):
+            continue
+
+
 def run_agent(
     inventory: WarmInventory,
     base_url: str,
     stopping: threading.Event,
+    *,
+    go2rtc_url: str = "",
 ) -> None:
-    del inventory  # The server owns the configured Nest warm targets.
+    resolved_go2rtc_url = go2rtc_url or os.environ.get(
+        "CAMERA_MONITOR_GO2RTC_URL",
+        "http://go2rtc:1984",
+    )
     while not stopping.is_set():
         try:
-            fetch_status(base_url, touch_warm=True)
+            status = fetch_status(base_url, touch_warm=True)
+            capture_wanted_eufy_thumbnails(
+                status,
+                inventory,
+                base_url,
+                resolved_go2rtc_url,
+            )
         except (OSError, ValueError):
             stopping.wait(CHECK_INTERVAL_SECONDS)
             continue
@@ -82,6 +160,7 @@ def main() -> None:
         inventory,
         args.base_url,
         stopping,
+        go2rtc_url=os.environ.get("CAMERA_MONITOR_GO2RTC_URL", ""),
     )
 
 

@@ -27,6 +27,7 @@ from urllib.parse import urlparse
 
 from camera_backends import (
     DirectEufyClient,
+    EUFY_COMMAND_TIMEOUT_SECONDS,
     JsonWebSocket,
     NestCredentials,
     configure_nest_streams,
@@ -42,9 +43,11 @@ VIEWER_ACTIVITY_WRITE_INTERVAL_SECONDS = 60.0
 DEFAULT_WARM_IDLE_HOURS = 48.0
 DEFAULT_EUFY_VIEWER_SLOTS = 2
 DEFAULT_EUFY_THUMBNAIL_REFRESH_SECONDS = 20.0
-EUFY_THUMBNAIL_ATTEMPT_TIMEOUT_SECONDS = 15.0
+EUFY_THUMBNAIL_ATTEMPT_TIMEOUT_SECONDS = EUFY_COMMAND_TIMEOUT_SECONDS + 10.0
 EUFY_THUMBNAIL_RETRY_BASE_SECONDS = 20.0
 EUFY_THUMBNAIL_RETRY_MAX_SECONDS = 5 * 60.0
+EUFY_THUMBNAIL_CIRCUIT_BREAKER_FAILURES = 3
+EUFY_THUMBNAIL_CIRCUIT_BREAKER_SECONDS = 60 * 60.0
 DIRECT_STATUS_INTERVAL_SECONDS = 2.0
 DIRECT_START_TIMEOUT_SECONDS = 25.0
 DIRECT_ACTIVITY_STALE_SECONDS = 6.0
@@ -67,10 +70,24 @@ CACHE_DIR = Path(os.environ.get("CAMERA_MONITOR_CACHE_DIR", DEFAULT_CACHE_DIR))
 ORDER_PATH = CACHE_DIR / "layout.json"
 VIEWER_ACTIVITY_PATH = CACHE_DIR / "viewer_activity.json"
 GO2RTC_URL = "http://go2rtc:1984"
+GO2RTC_DEPENDENCY_TIMEOUT_SECONDS = 3.0
 STALE_KICK_SECONDS = 5 * 60
 STALE_KICK_COOLDOWN_SECONDS = 3 * 60
 KICK_STOP_SETTLE_SECONDS = 3.0
 EUFY_RETRY_BACKOFF_MAX_SECONDS = 5 * 60
+EUFY_RECOVERY_CHECK_SECONDS = 30.0
+EUFY_RECOVERY_MULTI_STALE_SECONDS = 15 * 60.0
+EUFY_RECOVERY_SINGLE_STALE_SECONDS = 30 * 60.0
+EUFY_RECOVERY_ORPHAN_STALE_SECONDS = 5 * 60.0
+EUFY_RECOVERY_MULTI_MIN_FAILURES = 3
+EUFY_RECOVERY_SINGLE_MIN_FAILURES = 4
+EUFY_RECOVERY_ORPHAN_MIN_FAILURES = 2
+EUFY_RECOVERY_COOLDOWN_SECONDS = 60 * 60.0
+EUFY_RECOVERY_MAX_BACKGROUND_RESTARTS_24H = 2
+EUFY_RECOVERY_MAX_VIEWER_RESTARTS_24H = 24
+EUFY_RECOVERY_VERIFY_SECONDS = 10 * 60.0
+EUFY_RECOVERY_CONNECT_TIMEOUT_SECONDS = 2 * 60.0
+EUFY_RECOVERY_QUARANTINE_SECONDS = 24 * 60 * 60.0
 START_GATE = threading.Semaphore(1)
 
 
@@ -105,6 +122,91 @@ def save_viewer_activity(last_viewed_at: float) -> None:
         tmp_path.replace(VIEWER_ACTIVITY_PATH)
     except Exception as exc:  # noqa: BLE001 - activity persistence is best effort.
         print(f"Unable to persist viewer activity: {exc}", flush=True)
+
+
+@dataclass(frozen=True)
+class EufyRecoveryDecision:
+    reason: str
+    stale_slugs: tuple[str, ...]
+
+
+def eufy_thumbnail_retry_delay(failure_count: int) -> float:
+    # A stuck station queues commands long after the caller times out. After a
+    # few failures, background retries become counterproductive; an explicit
+    # camera focus still bypasses this thumbnail-only circuit breaker.
+    if failure_count >= EUFY_THUMBNAIL_CIRCUIT_BREAKER_FAILURES:
+        return EUFY_THUMBNAIL_CIRCUIT_BREAKER_SECONDS
+    return min(
+        EUFY_THUMBNAIL_RETRY_BASE_SECONDS
+        * (2 ** max(0, failure_count - 1)),
+        EUFY_THUMBNAIL_RETRY_MAX_SECONDS,
+    )
+
+
+def choose_eufy_recovery(
+    snapshots: list[dict[str, Any]],
+    thumbnail_failures: dict[str, int],
+) -> EufyRecoveryDecision | None:
+    """Choose a conservative shared-service restart from received-frame health."""
+    candidates: list[tuple[str, float, int, str]] = []
+    for snapshot in snapshots:
+        if snapshot.get("source") != "eufy":
+            continue
+        slug = str(snapshot.get("slug", ""))
+        if not slug:
+            continue
+        received_age = snapshot.get("received_age_seconds")
+        try:
+            age_seconds = (
+                float("inf") if received_age is None else max(0.0, float(received_age))
+            )
+        except (TypeError, ValueError):
+            age_seconds = float("inf")
+        try:
+            runner_failures = int(snapshot.get("consecutive_failure_count") or 0)
+        except (TypeError, ValueError):
+            runner_failures = 0
+        failures = max(runner_failures, int(thumbnail_failures.get(slug, 0)))
+        error = str(snapshot.get("last_error") or "")
+        candidates.append((slug, age_seconds, failures, error))
+
+    orphaned = sorted(
+        slug
+        for slug, age_seconds, failures, error in candidates
+        if age_seconds >= EUFY_RECOVERY_ORPHAN_STALE_SECONDS
+        and failures >= EUFY_RECOVERY_ORPHAN_MIN_FAILURES
+        and "device_livestream_already_running" in error
+    )
+    if orphaned:
+        return EufyRecoveryDecision(
+            reason="orphaned_eufy_livestream",
+            stale_slugs=tuple(orphaned),
+        )
+
+    multi_stale = sorted(
+        slug
+        for slug, age_seconds, failures, _error in candidates
+        if age_seconds >= EUFY_RECOVERY_MULTI_STALE_SECONDS
+        and failures >= EUFY_RECOVERY_MULTI_MIN_FAILURES
+    )
+    if len(multi_stale) >= 2:
+        return EufyRecoveryDecision(
+            reason="multiple_stale_eufy_cameras",
+            stale_slugs=tuple(multi_stale),
+        )
+
+    single_stale = sorted(
+        slug
+        for slug, age_seconds, failures, _error in candidates
+        if age_seconds >= EUFY_RECOVERY_SINGLE_STALE_SECONDS
+        and failures >= EUFY_RECOVERY_SINGLE_MIN_FAILURES
+    )
+    if single_stale:
+        return EufyRecoveryDecision(
+            reason="one_persistently_stale_eufy_camera",
+            stale_slugs=tuple(single_stale),
+        )
+    return None
 
 
 def detect_image_content_type(frame: bytes, fallback: str = "image/jpeg") -> str:
@@ -335,6 +437,23 @@ class CameraRunner:
     def stop_warm(self) -> None:
         with self.lock:
             self.warm_wanted_until = 0.0
+
+    def wait_until_stopped(self, timeout: float) -> bool:
+        with self.lock:
+            thread = self.thread
+        if thread is not None and thread is not threading.current_thread():
+            thread.join(timeout=max(0.0, timeout))
+        return thread is None or not thread.is_alive()
+
+    def reset_after_eufy_recovery(self) -> None:
+        with self.lock:
+            self.live = False
+            self.last_error = ""
+            self.last_start_status = None
+            self.retry_count = 0
+            self.consecutive_failure_count = 0
+            self.started_at = 0.0
+            self.last_attempt_at = 0.0
 
     def receive_browser_frame(self, frame: bytes, content_type: str) -> None:
         self._set_state(live=True, error="", frame=frame, content_type=content_type)
@@ -958,6 +1077,7 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       background: var(--bg);
       color: var(--text);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-user-select: none;
       user-select: none;
     }}
     main {{
@@ -1011,9 +1131,26 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       cursor: pointer;
       transform-origin: top left;
       touch-action: manipulation;
+      -webkit-user-select: none;
+      user-select: none;
+      -webkit-touch-callout: none;
+      -webkit-tap-highlight-color: transparent;
     }}
     .tile.dragging {{
       opacity: .62;
+    }}
+    .tile.pointer-dragging {{
+      z-index: 12;
+      opacity: .84;
+      cursor: grabbing;
+      pointer-events: none;
+      transition: none;
+      will-change: transform;
+      box-shadow: 0 18px 48px rgba(0, 0, 0, .62);
+    }}
+    .tile.drag-armed {{
+      outline: 2px solid rgba(66, 211, 146, .72);
+      outline-offset: -3px;
     }}
     .tile.drop-target {{
       outline: 3px solid rgba(66, 211, 146, .82);
@@ -1177,6 +1314,10 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       .hud {{ right: 10px; bottom: 10px; }}
       .badge {{ font-size: 11px; padding: 6px 8px; }}
     }}
+    @media (pointer: coarse) {{
+      .tile {{ touch-action: pan-y; }}
+      .tile.expanded {{ touch-action: pan-x pan-y pinch-zoom; }}
+    }}
   </style>
 </head>
 <body>
@@ -1201,7 +1342,10 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
     let draggedSlug = null;
     let didDrag = false;
     let suppressNextClick = false;
+    let suppressClickUntil = 0;
     let orderSaveTimer = null;
+    let pointerDrag = null;
+    const expandedPointers = new Map();
     let focusedSlug = "";
     let pageVisible = !document.hidden;
     const viewerId = window.crypto?.randomUUID?.()
@@ -1228,6 +1372,10 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
     const directQueueLimitBytes = 16 * 1024 * 1024;
     const initialImageStaggerMs = 20;
     const imageRevealMs = 70;
+    const dragThresholdPx = 20;
+    const dragHoldMs = 450;
+    const dragHoldMoveTolerancePx = 10;
+    const expandedClickSuppressMs = 180;
     const directMseCodecs = [
       "avc1.640029",
       "avc1.64002A",
@@ -1292,7 +1440,7 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       const tile = document.createElement("section");
       tile.className = "tile";
       tile.dataset.slug = camera.slug;
-      tile.draggable = true;
+      tile.draggable = !window.matchMedia("(pointer: coarse)").matches;
       tile.innerHTML = `
         <img alt="" class="snapshot-active" data-role="image" draggable="false">
         <img alt="" data-role="image" draggable="false">
@@ -1304,7 +1452,7 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
         </div>
       `;
       tile.addEventListener("click", () => {{
-        if (suppressNextClick) {{
+        if (suppressNextClick || Date.now() < suppressClickUntil) {{
           suppressNextClick = false;
           return;
         }}
@@ -1316,6 +1464,8 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       tile.addEventListener("dragleave", handleDragLeave);
       tile.addEventListener("drop", handleDrop);
       tile.addEventListener("dragend", handleDragEnd);
+      tile.addEventListener("pointerdown", handlePointerDown);
+      tile.addEventListener("selectstart", preventTileSelection);
       grid.appendChild(tile);
     }}
 
@@ -2071,13 +2221,16 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
 
     function orderAfterDrop(fromSlug, targetSlug) {{
       if (!fromSlug || !targetSlug || fromSlug === targetSlug) return cameraOrder;
-      if (!cameraOrder.includes(fromSlug) || !cameraOrder.includes(targetSlug)) {{
+      const fromIndex = cameraOrder.indexOf(fromSlug);
+      const targetIndex = cameraOrder.indexOf(targetSlug);
+      if (fromIndex < 0 || targetIndex < 0) {{
         return cameraOrder;
       }}
-      const targetIsFeatured = targetSlug === cameraOrder[cameraOrder.length - 1];
-      const nextOrder = cameraOrder.filter((slug) => slug !== fromSlug);
-      const insertIndex = targetIsFeatured ? nextOrder.length : nextOrder.indexOf(targetSlug);
-      nextOrder.splice(Math.max(insertIndex, 0), 0, fromSlug);
+      const nextOrder = [...cameraOrder];
+      [nextOrder[fromIndex], nextOrder[targetIndex]] = [
+        nextOrder[targetIndex],
+        nextOrder[fromIndex],
+      ];
       return nextOrder;
     }}
 
@@ -2162,6 +2315,166 @@ def render_index(camera_payload: list[dict[str, Any]]) -> bytes:
       draggedSlug = null;
       didDrag = false;
     }}
+
+    function handlePointerDown(event) {{
+      if (event.pointerType !== "mouse" && expandedTile) {{
+        expandedPointers.set(event.pointerId, {{
+          x: event.clientX,
+          y: event.clientY,
+        }});
+        if (expandedPointers.size > 1) suppressExpandedClick();
+        return;
+      }}
+      if (event.pointerType !== "mouse" && !event.isPrimary) {{
+        cancelPendingPointerDrag();
+        return;
+      }}
+      if (
+        event.pointerType === "mouse"
+        || event.button !== 0
+      ) return;
+      cancelPendingPointerDrag();
+      const drag = {{
+        pointerId: event.pointerId,
+        tile: event.currentTarget,
+        slug: event.currentTarget.dataset.slug,
+        startX: event.clientX,
+        startY: event.clientY,
+        target: null,
+        armed: false,
+        active: false,
+        holdTimer: null,
+      }};
+      pointerDrag = drag;
+      drag.holdTimer = setTimeout(() => {{
+        if (pointerDrag !== drag) return;
+        window.getSelection()?.removeAllRanges();
+        drag.armed = true;
+        drag.tile.classList.add("drag-armed");
+        try {{
+          drag.tile.setPointerCapture(drag.pointerId);
+        }} catch (_) {{}}
+      }}, dragHoldMs);
+    }}
+
+    function preventTileSelection(event) {{
+      event.preventDefault();
+    }}
+
+    function cancelPendingPointerDrag() {{
+      if (!pointerDrag) return;
+      const drag = pointerDrag;
+      pointerDrag = null;
+      clearTimeout(drag.holdTimer);
+      try {{
+        drag.tile.releasePointerCapture(drag.pointerId);
+      }} catch (_) {{}}
+      drag.tile.style.transform = "";
+      drag.tile.classList.remove(
+        "drag-armed",
+        "dragging",
+        "pointer-dragging",
+      );
+      clearDropTarget();
+      draggedSlug = null;
+      didDrag = false;
+    }}
+
+    function pointerDropTarget(clientX, clientY) {{
+      const element = document.elementFromPoint(clientX, clientY);
+      const tile = element?.closest?.(".tile");
+      return tile && tile !== pointerDrag?.tile ? tile : null;
+    }}
+
+    function handlePointerMove(event) {{
+      const expandedStart = expandedPointers.get(event.pointerId);
+      if (expandedStart) {{
+        if (
+          expandedPointers.size > 1
+          || Math.hypot(
+            event.clientX - expandedStart.x,
+            event.clientY - expandedStart.y,
+          ) > 8
+        ) suppressExpandedClick();
+        return;
+      }}
+      if (!pointerDrag || event.pointerId !== pointerDrag.pointerId) return;
+      const dx = event.clientX - pointerDrag.startX;
+      const dy = event.clientY - pointerDrag.startY;
+      const distance = Math.hypot(dx, dy);
+      if (!pointerDrag.armed) {{
+        if (distance > dragHoldMoveTolerancePx) cancelPendingPointerDrag();
+        return;
+      }}
+      if (!pointerDrag.active && distance <= dragThresholdPx) return;
+      if (!pointerDrag.active) {{
+        pointerDrag.active = true;
+        draggedSlug = pointerDrag.slug;
+        didDrag = true;
+        pointerDrag.tile.classList.add("dragging", "pointer-dragging");
+        try {{
+          pointerDrag.tile.setPointerCapture(event.pointerId);
+        }} catch (_) {{}}
+      }}
+      event.preventDefault();
+      pointerDrag.tile.style.transform = `translate3d(${{dx}}px, ${{dy}}px, 0)`;
+      clearDropTarget();
+      pointerDrag.target = pointerDropTarget(event.clientX, event.clientY);
+      pointerDrag.target?.classList.add("drop-target");
+    }}
+
+    function finishPointerDrag(event, cancelled = false) {{
+      if (expandedPointers.has(event.pointerId)) {{
+        if (cancelled || expandedPointers.size > 1) suppressExpandedClick();
+        expandedPointers.delete(event.pointerId);
+        return;
+      }}
+      if (!pointerDrag || event.pointerId !== pointerDrag.pointerId) return;
+      const drag = pointerDrag;
+      pointerDrag = null;
+      clearTimeout(drag.holdTimer);
+      drag.tile.classList.remove("drag-armed");
+      if (!drag.armed) return;
+      if (event.cancelable) event.preventDefault();
+      try {{
+        drag.tile.releasePointerCapture(event.pointerId);
+      }} catch (_) {{}}
+      suppressNextClick = true;
+      setTimeout(() => {{
+        suppressNextClick = false;
+      }}, 350);
+      if (!drag.active) return;
+      drag.tile.style.transform = "";
+      drag.tile.classList.remove("dragging", "pointer-dragging");
+      clearDropTarget();
+      if (!cancelled && drag.target) {{
+        const nextOrder = orderAfterDrop(drag.slug, drag.target.dataset.slug);
+        if (nextOrder !== cameraOrder) {{
+          animateOrderChange(nextOrder);
+          persistOrder();
+        }}
+      }}
+      draggedSlug = null;
+      didDrag = false;
+    }}
+
+    function suppressExpandedClick() {{
+      suppressClickUntil = Math.max(
+        suppressClickUntil,
+        Date.now() + expandedClickSuppressMs,
+      );
+    }}
+
+    function handleSafariPinch() {{
+      if (expandedTile) suppressExpandedClick();
+    }}
+
+    window.addEventListener("pointermove", handlePointerMove, {{passive: false}});
+    window.addEventListener("pointerup", (event) => finishPointerDrag(event));
+    window.addEventListener("pointercancel", (event) => finishPointerDrag(event, true));
+    document.addEventListener("gesturestart", handleSafariPinch, {{passive: true}});
+    document.addEventListener("gesturechange", handleSafariPinch, {{passive: true}});
+    document.addEventListener("gestureend", handleSafariPinch, {{passive: true}});
 
     async function setCameraFocus(slug) {{
       if (focusedSlug === slug) return;
@@ -2431,6 +2744,7 @@ class MonitorServer(ThreadingHTTPServer):
         self.warm_agent_expected = os.environ.get(
             "CAMERA_MONITOR_WARM_AGENT_ENABLED", ""
         ).strip().lower() in {"1", "true", "yes", "on"}
+        self.eufy_recovery: EufyRecoveryController | None = None
 
     def get_camera_order(self) -> list[str]:
         with self.state_lock:
@@ -2451,6 +2765,17 @@ class MonitorServer(ThreadingHTTPServer):
 
     def warm_agent_active(self) -> bool:
         return time.time() - self.last_warm_touch_at < WARM_AGENT_HEARTBEAT_SECONDS
+
+    def go2rtc_available(self) -> bool:
+        try:
+            with urllib.request.urlopen(
+                f"{GO2RTC_URL}/api/streams",
+                timeout=GO2RTC_DEPENDENCY_TIMEOUT_SECONDS,
+            ) as response:
+                response.read(1)
+                return 200 <= response.status < 300
+        except (OSError, ValueError):
+            return False
 
     def active_focus_slug(self) -> str:
         now = time.time()
@@ -2586,11 +2911,7 @@ class MonitorServer(ThreadingHTTPServer):
                 targets.pop(slug, None)
                 failure_count = failures.get(slug, 0) + 1
                 failures[slug] = failure_count
-                retry_delay = min(
-                    EUFY_THUMBNAIL_RETRY_BASE_SECONDS
-                    * (2 ** min(failure_count - 1, 4)),
-                    EUFY_THUMBNAIL_RETRY_MAX_SECONDS,
-                )
+                retry_delay = eufy_thumbnail_retry_delay(failure_count)
                 retry_after[slug] = monotonic_now + retry_delay
 
         # Let completed P2P sessions stop before filling their slots. Starting a
@@ -2612,7 +2933,10 @@ class MonitorServer(ThreadingHTTPServer):
                     >= self.eufy_thumbnail_refresh_seconds
                 )
             ),
-            key=lambda slug: float(snapshots[slug].get("latest_received_at") or 0.0),
+            key=lambda slug: (
+                failures.get(slug, 0),
+                float(snapshots[slug].get("latest_received_at") or 0.0),
+            ),
         )
         for slug in candidates[:slots_available]:
             baseline = float(snapshots[slug].get("latest_received_at") or 0.0)
@@ -2638,9 +2962,7 @@ class MonitorServer(ThreadingHTTPServer):
         if self.paused:
             return
         focused_slug = self.active_focus_slug()
-        eufy_targets = (
-            self._refresh_eufy_thumbnail_targets() if not keep_warm_only else set()
-        )
+        eufy_targets = self._refresh_eufy_thumbnail_targets()
         with self.state_lock:
             order = list(self.camera_order)
         for slug in order:
@@ -2654,11 +2976,13 @@ class MonitorServer(ThreadingHTTPServer):
             ):
                 continue
             if keep_warm_only:
-                if not runner.config.keep_warm:
-                    continue
                 if runner.config.source == "eufy":
-                    # Eufy thumbnails require browser decoding and are only
-                    # refreshed while a viewer has the wall open.
+                    if slug not in eufy_targets:
+                        runner.stop_when_idle()
+                    else:
+                        runner.touch(role="warm")
+                    continue
+                if not runner.config.keep_warm:
                     continue
                 runner.touch(role="warm")
             else:
@@ -2673,15 +2997,545 @@ class MonitorServer(ThreadingHTTPServer):
             self.camera_order = normalized
         return normalized
 
+    def prepare_eufy_after_recovery(self) -> None:
+        runners = [
+            runner
+            for runner in self.runners.values()
+            if runner.config.source == "eufy"
+        ]
+        deadline = time.monotonic() + 15.0
+        for runner in runners:
+            runner.wait_until_stopped(max(0.0, deadline - time.monotonic()))
+        for runner in runners:
+            runner.reset_after_eufy_recovery()
+        with self.state_lock:
+            self.eufy_thumbnail_targets.clear()
+            self.eufy_thumbnail_retry_after.clear()
+            self.eufy_thumbnail_failures.clear()
+
     def pause_camera_work(self) -> None:
         self.paused = True
         for runner in self.runners.values():
             runner.stop_when_idle()
 
+    def eufy_recovery_status(self) -> dict[str, Any]:
+        if self.eufy_recovery is None:
+            return {"enabled": False, "phase": "disabled"}
+        return self.eufy_recovery.status()
+
+
+class EufyRecoveryController:
+    """Restart a poisoned shared Eufy service with bounded circuit breaking."""
+
+    def __init__(
+        self,
+        server: MonitorServer,
+        eufy: DirectEufyClient | None,
+        *,
+        enabled: bool,
+        supervisor_url: str,
+        supervisor_token: str,
+        addon_slug: str,
+        state_path: Path,
+    ) -> None:
+        self.server = server
+        self.eufy = eufy
+        self.enabled = enabled
+        self.supervisor_url = supervisor_url.rstrip("/")
+        self.supervisor_token = supervisor_token
+        self.addon_slug = addon_slug
+        self.state_path = state_path
+        self.stopping = threading.Event()
+        self.lock = threading.Lock()
+        self.thread = threading.Thread(
+            target=self._run,
+            name="eufy-recovery",
+            daemon=True,
+        )
+        self.phase = "idle" if enabled else "disabled"
+        self.last_checked_at = 0.0
+        self.last_restart_at = 0.0
+        self.restart_times: list[float] = []
+        self.last_reason = ""
+        self.last_result = ""
+        self.last_error = ""
+        self.stale_slugs: tuple[str, ...] = ()
+        self.verification_targets: tuple[str, ...] = ()
+        self.verification_pending: tuple[str, ...] = ()
+        self.quarantined_at: dict[str, float] = {}
+        self._load_state()
+
+    @classmethod
+    def from_environment(
+        cls,
+        server: MonitorServer,
+        eufy: DirectEufyClient | None,
+    ) -> EufyRecoveryController:
+        enabled = os.environ.get(
+            "CAMERA_MONITOR_EUFY_AUTO_RECOVERY", ""
+        ).strip().lower() in {"1", "true", "yes", "on"}
+        return cls(
+            server,
+            eufy,
+            enabled=enabled,
+            supervisor_url=os.environ.get(
+                "CAMERA_MONITOR_SUPERVISOR_URL",
+                "http://supervisor",
+            ),
+            supervisor_token=os.environ.get("SUPERVISOR_TOKEN", ""),
+            addon_slug=os.environ.get(
+                "CAMERA_MONITOR_EUFY_ADDON_SLUG",
+                "402f1039_eufy_security_ws",
+            ),
+            state_path=CACHE_DIR / "eufy_recovery.json",
+        )
+
+    def start(self) -> None:
+        if not self.thread.is_alive():
+            self.thread.start()
+
+    def close(self) -> None:
+        self.stopping.set()
+        if self.thread.is_alive():
+            self.thread.join(timeout=2.0)
+
+    def status(self) -> dict[str, Any]:
+        now = time.time()
+        with self.lock:
+            restart_times = self._recent_restart_times(now)
+            return {
+                "enabled": self.enabled,
+                "phase": self.phase,
+                "stale_slugs": list(self.stale_slugs),
+                "verification_targets": list(self.verification_targets),
+                "verification_pending": list(self.verification_pending),
+                "quarantined_slugs": sorted(self.quarantined_at),
+                "last_checked_at": self.last_checked_at or None,
+                "last_restart_at": self.last_restart_at or None,
+                "last_reason": self.last_reason,
+                "last_result": self.last_result,
+                "last_error": self.last_error,
+                "restarts_24h": len(restart_times),
+                "cooldown_remaining_seconds": round(
+                    max(
+                        0.0,
+                        self.last_restart_at
+                        + EUFY_RECOVERY_COOLDOWN_SECONDS
+                        - now,
+                    ),
+                    1,
+                ),
+                "thresholds": {
+                    "orphan_stale_seconds": EUFY_RECOVERY_ORPHAN_STALE_SECONDS,
+                    "multiple_stale_seconds": EUFY_RECOVERY_MULTI_STALE_SECONDS,
+                    "single_stale_seconds": EUFY_RECOVERY_SINGLE_STALE_SECONDS,
+                    "orphan_min_failures": EUFY_RECOVERY_ORPHAN_MIN_FAILURES,
+                    "multiple_min_failures": EUFY_RECOVERY_MULTI_MIN_FAILURES,
+                    "single_min_failures": EUFY_RECOVERY_SINGLE_MIN_FAILURES,
+                    "cooldown_seconds": EUFY_RECOVERY_COOLDOWN_SECONDS,
+                    "max_background_restarts_24h": (
+                        EUFY_RECOVERY_MAX_BACKGROUND_RESTARTS_24H
+                    ),
+                    "max_viewer_restarts_24h": (
+                        EUFY_RECOVERY_MAX_VIEWER_RESTARTS_24H
+                    ),
+                    "verify_seconds": EUFY_RECOVERY_VERIFY_SECONDS,
+                    "quarantine_seconds": EUFY_RECOVERY_QUARANTINE_SECONDS,
+                },
+            }
+
+    def check_once(self) -> None:
+        now = time.time()
+        snapshots = self.server.get_runner_snapshots()
+        with self.server.state_lock:
+            thumbnail_failures = dict(self.server.eufy_thumbnail_failures)
+        viewer_status = self.server.viewer_activity_status()
+        viewer_active = bool(viewer_status["viewer_active"])
+        warm_agent_active = bool(
+            getattr(self.server, "warm_agent_active", lambda: False)()
+        )
+        refresh_active = viewer_active or (
+            bool(viewer_status.get("warm_allowed")) and warm_agent_active
+        )
+        go2rtc_available = bool(
+            getattr(self.server, "go2rtc_available", lambda: True)()
+        )
+
+        with self.lock:
+            self.last_checked_at = now
+            self.restart_times = self._recent_restart_times(now)
+            if not self.enabled:
+                self.phase = "disabled"
+                return
+            if (
+                self.eufy is None
+                or not self.supervisor_token
+                or not self.addon_slug
+            ):
+                self.phase = "unavailable"
+                self.last_error = "Eufy recovery lacks its service or Supervisor access"
+                return
+            if self.phase == "restarting":
+                return
+            if not go2rtc_available:
+                self.phase = "waiting_for_go2rtc"
+                self.stale_slugs = ()
+                self.last_error = (
+                    "Shared go2rtc is unavailable; Eufy recovery is suspended"
+                )
+                return
+            if self.last_error == (
+                "Shared go2rtc is unavailable; Eufy recovery is suspended"
+            ):
+                self.last_error = ""
+
+            had_failed_targets = bool(
+                self.verification_targets or self.quarantined_at
+            )
+            quarantines_changed = self._refresh_quarantines(snapshots, now)
+            pending = self._verification_pending(snapshots)
+            self.verification_pending = pending
+            if (
+                self.last_result == "verification_failed"
+                and had_failed_targets
+                and not pending
+                and not self.quarantined_at
+            ):
+                self.last_result = "verified"
+                self.last_error = ""
+                self.verification_targets = ()
+                self._persist_state()
+            if self.last_result == "restart_completed":
+                if not pending:
+                    self.phase = "verified"
+                    self.last_result = "verified"
+                    self.last_error = ""
+                    self.verification_targets = ()
+                    self._persist_state()
+                elif now - self.last_restart_at < EUFY_RECOVERY_VERIFY_SECONDS:
+                    self.phase = (
+                        "verifying"
+                        if refresh_active
+                        else "verification_waiting_for_refresh"
+                    )
+                    return
+                elif refresh_active:
+                    self.phase = "verification_failed"
+                    self.last_result = "verification_failed"
+                    self.last_error = (
+                        "Targeted Eufy frames did not refresh after automatic recovery"
+                    )
+                    for slug in pending:
+                        self.quarantined_at[slug] = now
+                    self._persist_state()
+                    return
+
+            if self.server.paused:
+                self.phase = "paused"
+                return
+            if not refresh_active:
+                self.phase = "waiting_for_refresh"
+                self.stale_slugs = ()
+                if quarantines_changed:
+                    self._persist_state()
+                return
+
+            if self._migrate_failed_single_camera(snapshots, now):
+                quarantines_changed = True
+            # A quarantine protects unattended warming from repeatedly
+            # restarting a station that did not recover. When a person has the
+            # wall open, keep trying once per cooldown instead of giving up for
+            # the rest of the day.
+            active_quarantines = (
+                set() if viewer_active else set(self.quarantined_at)
+            )
+            eligible_snapshots = [
+                snapshot
+                for snapshot in snapshots
+                if str(snapshot.get("slug", "")) not in active_quarantines
+            ]
+            eligible_failures = {
+                slug: failures
+                for slug, failures in thumbnail_failures.items()
+                if slug not in active_quarantines
+            }
+            decision = choose_eufy_recovery(
+                eligible_snapshots,
+                eligible_failures,
+            )
+            if decision is None:
+                self.phase = (
+                    "watching_with_quarantine"
+                    if active_quarantines
+                    else "watching"
+                )
+                self.stale_slugs = ()
+                if quarantines_changed:
+                    self._persist_state()
+                return
+            if (
+                self.last_restart_at
+                and now - self.last_restart_at < EUFY_RECOVERY_COOLDOWN_SECONDS
+            ):
+                self.phase = "cooldown"
+                return
+            restart_limit = (
+                EUFY_RECOVERY_MAX_VIEWER_RESTARTS_24H
+                if viewer_active
+                else EUFY_RECOVERY_MAX_BACKGROUND_RESTARTS_24H
+            )
+            if len(self.restart_times) >= restart_limit:
+                self.phase = "restart_limit_reached"
+                return
+            self.phase = "restarting"
+            self.stale_slugs = decision.stale_slugs
+
+        self._restart_eufy(decision, now, keep_warm_only=not viewer_active)
+
+    def _run(self) -> None:
+        while not self.stopping.is_set():
+            try:
+                self.check_once()
+            except Exception as exc:  # noqa: BLE001 - recovery must stay alive.
+                with self.lock:
+                    self.phase = "error"
+                    self.last_error = f"{type(exc).__name__}: {exc}"[:300]
+            self.stopping.wait(EUFY_RECOVERY_CHECK_SECONDS)
+
+    def _restart_eufy(
+        self,
+        decision: EufyRecoveryDecision,
+        requested_at: float,
+        *,
+        keep_warm_only: bool = False,
+    ) -> None:
+        with self.lock:
+            self.last_restart_at = requested_at
+            self.restart_times.append(requested_at)
+            self.last_reason = decision.reason
+            self.last_result = "restart_requested"
+            self.last_error = ""
+            self.verification_targets = decision.stale_slugs
+            self.verification_pending = decision.stale_slugs
+            self._persist_state()
+        print(
+            json.dumps(
+                {
+                    "event": "eufy_auto_recovery",
+                    "action": "restart",
+                    "reason": decision.reason,
+                    "stale_slugs": list(decision.stale_slugs),
+                }
+            ),
+            flush=True,
+        )
+
+        restart_completed = False
+        self.server.pause_camera_work()
+        try:
+            connection_generation = self.eufy.connection_generation
+            self._request_supervisor_restart()
+            self._wait_for_eufy_reconnect(connection_generation)
+            self.server.prepare_eufy_after_recovery()
+            restart_completed = True
+            with self.lock:
+                self.phase = "verifying"
+                self.last_result = "restart_completed"
+                self.last_error = ""
+                self._persist_state()
+        except Exception as exc:  # noqa: BLE001 - status retains bounded failure.
+            with self.lock:
+                self.phase = "restart_failed"
+                self.last_result = "restart_failed"
+                self.last_error = f"{type(exc).__name__}: {exc}"[:300]
+                self.verification_targets = ()
+                self.verification_pending = ()
+                self._persist_state()
+        finally:
+            self.server.paused = False
+            if restart_completed:
+                self.server.touch_visible_runners(keep_warm_only=keep_warm_only)
+
+    def _wait_for_eufy_reconnect(self, previous_generation: int) -> None:
+        deadline = time.monotonic() + EUFY_RECOVERY_CONNECT_TIMEOUT_SECONDS
+        while not self.stopping.is_set() and time.monotonic() < deadline:
+            if (
+                self.eufy.connected.is_set()
+                and self.eufy.connection_generation > previous_generation
+            ):
+                return
+            self.stopping.wait(0.25)
+        raise TimeoutError("Eufy service did not reconnect after restart")
+
+    def _request_supervisor_restart(self) -> None:
+        addon = urllib.parse.quote(self.addon_slug, safe="")
+        request = urllib.request.Request(
+            f"{self.supervisor_url}/addons/{addon}/restart",
+            data=b"{}",
+            method="POST",
+            headers={
+                "Authorization": f"Bearer {self.supervisor_token}",
+                "Content-Type": "application/json",
+            },
+        )
+        with urllib.request.urlopen(request, timeout=SOCKET_TIMEOUT_SECONDS) as response:
+            if response.status < 200 or response.status >= 300:
+                raise RuntimeError(
+                    f"Supervisor restart returned HTTP {response.status}"
+                )
+            response.read(65536)
+
+    def _verification_pending(
+        self,
+        snapshots: list[dict[str, Any]],
+    ) -> tuple[str, ...]:
+        if self.last_restart_at <= 0:
+            return ()
+        targets = set(self.verification_targets)
+        if not targets:
+            return ()
+        pending = []
+        for snapshot in snapshots:
+            slug = str(snapshot.get("slug", ""))
+            if snapshot.get("source") != "eufy" or slug not in targets:
+                continue
+            try:
+                latest_received_at = float(snapshot.get("latest_received_at") or 0.0)
+            except (TypeError, ValueError):
+                latest_received_at = 0.0
+            if latest_received_at <= self.last_restart_at:
+                pending.append(slug)
+        observed = {
+            str(snapshot.get("slug", ""))
+            for snapshot in snapshots
+            if snapshot.get("source") == "eufy"
+        }
+        pending.extend(targets - observed)
+        return tuple(sorted(slug for slug in pending if slug))
+
+    def _refresh_quarantines(
+        self,
+        snapshots: list[dict[str, Any]],
+        now: float,
+    ) -> bool:
+        latest_received = {}
+        for snapshot in snapshots:
+            slug = str(snapshot.get("slug", ""))
+            try:
+                latest_received[slug] = float(
+                    snapshot.get("latest_received_at") or 0.0
+                )
+            except (TypeError, ValueError):
+                latest_received[slug] = 0.0
+
+        before = dict(self.quarantined_at)
+        self.quarantined_at = {
+            slug: quarantined_at
+            for slug, quarantined_at in self.quarantined_at.items()
+            if latest_received.get(slug, 0.0) <= quarantined_at
+            and now - quarantined_at < EUFY_RECOVERY_QUARANTINE_SECONDS
+        }
+        return self.quarantined_at != before
+
+    def _migrate_failed_single_camera(
+        self,
+        snapshots: list[dict[str, Any]],
+        now: float,
+    ) -> bool:
+        if (
+            self.last_result != "verification_failed"
+            or self.verification_targets
+            or self.quarantined_at
+            or self.last_restart_at <= 0
+            or self.last_reason
+            not in {
+                "one_persistently_stale_eufy_camera",
+                "orphaned_eufy_livestream",
+            }
+        ):
+            return False
+        failed_slugs = []
+        for snapshot in snapshots:
+            if snapshot.get("source") != "eufy":
+                continue
+            try:
+                latest_received_at = float(
+                    snapshot.get("latest_received_at") or 0.0
+                )
+            except (TypeError, ValueError):
+                latest_received_at = 0.0
+            if latest_received_at <= self.last_restart_at:
+                failed_slugs.append(str(snapshot.get("slug", "")))
+        failed_slugs = sorted(slug for slug in failed_slugs if slug)
+        if len(failed_slugs) != 1:
+            return False
+        self.verification_targets = tuple(failed_slugs)
+        self.verification_pending = tuple(failed_slugs)
+        self.quarantined_at[failed_slugs[0]] = now
+        return True
+
+    def _recent_restart_times(self, now: float) -> list[float]:
+        cutoff = now - 24 * 60 * 60
+        return sorted(timestamp for timestamp in self.restart_times if timestamp >= cutoff)
+
+    def _load_state(self) -> None:
+        try:
+            payload = json.loads(self.state_path.read_text(encoding="utf-8"))
+            self.restart_times = [
+                float(timestamp) for timestamp in payload.get("restart_times", [])
+            ]
+            self.last_restart_at = float(payload.get("last_restart_at", 0.0))
+            self.last_reason = str(payload.get("last_reason", ""))
+            self.last_result = str(payload.get("last_result", ""))
+            self.last_error = str(payload.get("last_error", ""))[:300]
+            self.verification_targets = tuple(
+                str(slug)
+                for slug in payload.get("verification_targets", [])
+                if slug
+            )
+            self.quarantined_at = {
+                str(slug): float(timestamp)
+                for slug, timestamp in payload.get("quarantined_at", {}).items()
+                if slug
+            }
+        except (FileNotFoundError, json.JSONDecodeError, TypeError, ValueError):
+            return
+
+    def _persist_state(self) -> None:
+        try:
+            self.state_path.parent.mkdir(parents=True, exist_ok=True)
+            tmp_path = self.state_path.with_suffix(".json.tmp")
+            tmp_path.write_text(
+                json.dumps(
+                    {
+                        "restart_times": self.restart_times,
+                        "last_restart_at": self.last_restart_at,
+                        "last_reason": self.last_reason,
+                        "last_result": self.last_result,
+                        "last_error": self.last_error,
+                        "verification_targets": list(self.verification_targets),
+                        "quarantined_at": self.quarantined_at,
+                    }
+                ),
+                encoding="utf-8",
+            )
+            tmp_path.replace(self.state_path)
+        except Exception as exc:  # noqa: BLE001 - recovery still runs in memory.
+            print(f"Unable to persist Eufy recovery state: {exc}", flush=True)
+
 
 class Handler(BaseHTTPRequestHandler):
     server: MonitorServer
     protocol_version = "HTTP/1.1"
+
+    def handle(self) -> None:
+        try:
+            super().handle()
+        except (BrokenPipeError, ConnectionResetError):
+            # Home Assistant's watchdog closes its short status connection
+            # aggressively. Treat a peer reset before the next request line as
+            # a normal disconnect instead of printing a server traceback.
+            return
 
     def log_message(self, format: str, *args: Any) -> None:  # noqa: A002
         return
@@ -2758,6 +3612,7 @@ class Handler(BaseHTTPRequestHandler):
                 "order": self.server.get_camera_order(),
                 "focused_slug": self.server.active_focus_slug(),
                 "cameras": self.server.get_runner_snapshots(),
+                "eufy_recovery": self.server.eufy_recovery_status(),
             }
             payload.update(self.server.viewer_activity_status())
             self._send_json(HTTPStatus.OK, payload)
@@ -3142,10 +3997,14 @@ def main() -> None:
         camera_payload,
         camera_order,
     )
+    eufy_recovery = EufyRecoveryController.from_environment(server, eufy)
+    server.eufy_recovery = eufy_recovery
+    eufy_recovery.start()
     print(f"Serving camera monitor at http://{args.host}:{port}", flush=True)
     try:
         server.serve_forever()
     finally:
+        eufy_recovery.close()
         if eufy is not None:
             eufy.close()
 

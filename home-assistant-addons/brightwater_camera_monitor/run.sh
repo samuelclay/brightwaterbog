@@ -35,6 +35,13 @@ export CAMERA_MONITOR_EUFY_VIEWER_SLOTS="$(option_value eufy_viewer_slots "1")"
 export CAMERA_MONITOR_EUFY_THUMBNAIL_REFRESH_SECONDS="$(
   option_value eufy_thumbnail_refresh_seconds "300"
 )"
+export CAMERA_MONITOR_EUFY_AUTO_RECOVERY="$(
+  option_value eufy_auto_recovery "1"
+)"
+export CAMERA_MONITOR_EUFY_ADDON_SLUG="$(
+  option_value eufy_addon_slug "402f1039_eufy_security_ws"
+)"
+export CAMERA_MONITOR_SUPERVISOR_URL="http://supervisor"
 export CAMERA_MONITOR_WARM_AGENT_ENABLED="$(option_value warm_agent "1")"
 export CAMERA_MONITOR_WARM_IDLE_HOURS="$(option_value warm_idle_hours "48")"
 

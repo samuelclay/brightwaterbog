@@ -116,6 +116,29 @@ class ConfigTest(unittest.TestCase):
 
 
 class CameraOwnershipTest(unittest.TestCase):
+    def test_thumbnail_attempt_outlasts_eufy_start_command(self) -> None:
+        self.assertGreater(
+            camera_monitor.EUFY_THUMBNAIL_ATTEMPT_TIMEOUT_SECONDS,
+            camera_backends.EUFY_COMMAND_TIMEOUT_SECONDS,
+        )
+
+    def test_thumbnail_failures_open_hourly_circuit_breaker(self) -> None:
+        self.assertEqual(camera_monitor.eufy_thumbnail_retry_delay(1), 20.0)
+        self.assertEqual(camera_monitor.eufy_thumbnail_retry_delay(2), 40.0)
+        self.assertEqual(
+            camera_monitor.eufy_thumbnail_retry_delay(3),
+            camera_monitor.EUFY_THUMBNAIL_CIRCUIT_BREAKER_SECONDS,
+        )
+
+    def test_explicit_focus_bypasses_thumbnail_circuit_breaker(self) -> None:
+        eufy = FakeRunner(slug="focused", source="eufy")
+        server = make_server(eufy)
+        server.eufy_thumbnail_retry_after["focused"] = float("inf")
+        server.focused_slug = "focused"
+        server.focused_until = time.time() + 60
+
+        self.assertEqual(server._refresh_eufy_thumbnail_targets(), {"focused"})
+
     def test_warming_expires_after_48_hours(self) -> None:
         server = make_server(FakeRunner())
         server.last_viewer_activity_at = time.time() - 48 * 60 * 60 - 1
@@ -124,6 +147,27 @@ class CameraOwnershipTest(unittest.TestCase):
 
         self.assertFalse(status["warm_allowed"])
         self.assertFalse(status["viewer_active"])
+
+    def test_warm_heartbeat_refreshes_one_bounded_eufy_thumbnail(self) -> None:
+        nest = FakeRunner(slug="nest", source="nest")
+        eufy_one = FakeRunner(slug="eufy-one", source="eufy")
+        eufy_two = FakeRunner(slug="eufy-two", source="eufy")
+        server = make_server(nest)
+        server.eufy_viewer_slots = 1
+        for runner in (eufy_one, eufy_two):
+            server.runners[runner.config.slug] = runner
+            server.camera_order.append(runner.config.slug)
+
+        with (
+            mock.patch.object(camera_monitor.time, "time", return_value=100.0),
+            mock.patch.object(camera_monitor.time, "monotonic", return_value=100.0),
+        ):
+            server.last_viewer_activity_at = 100.0
+            server.touch_visible_runners(keep_warm_only=True)
+
+        self.assertEqual(nest.touches, ["warm"])
+        self.assertEqual(eufy_one.touches, ["warm"])
+        self.assertEqual(eufy_two.touches, [])
 
     @mock.patch.object(camera_monitor, "save_viewer_activity")
     def test_eufy_focus_stops_and_blocks_other_eufy_streams(
@@ -186,8 +230,587 @@ class CameraOwnershipTest(unittest.TestCase):
             server.touch_visible_runners()
         self.assertEqual([runner.touches for runner in eufy], [["viewer"], ["viewer"], ["viewer"], ["viewer"]])
 
+    @mock.patch.object(camera_monitor, "save_viewer_activity")
+    def test_failed_oldest_eufy_does_not_starve_untried_camera(
+        self,
+        _save_viewer_activity: mock.Mock,
+    ) -> None:
+        failed_oldest = FakeRunner(slug="failed-oldest", source="eufy")
+        untried = FakeRunner(slug="untried", source="eufy")
+        server = make_server(failed_oldest)
+        server.eufy_viewer_slots = 1
+        server.runners[untried.config.slug] = untried
+        server.camera_order.append(untried.config.slug)
+        failed_oldest.latest_received_at = 1.0
+        untried.latest_received_at = 2.0
+
+        with (
+            mock.patch.object(camera_monitor.time, "time", return_value=1000.0),
+            mock.patch.object(camera_monitor.time, "monotonic", return_value=100.0),
+        ):
+            server.touch_visible_runners()
+        self.assertEqual(failed_oldest.touches, ["viewer"])
+
+        completed_at = (
+            100.0 + camera_monitor.EUFY_THUMBNAIL_ATTEMPT_TIMEOUT_SECONDS + 1
+        )
+        with (
+            mock.patch.object(camera_monitor.time, "time", return_value=1100.0),
+            mock.patch.object(
+                camera_monitor.time,
+                "monotonic",
+                return_value=completed_at,
+            ),
+        ):
+            server.touch_visible_runners()
+
+        retry_ready_at = (
+            completed_at + camera_monitor.EUFY_THUMBNAIL_RETRY_BASE_SECONDS + 1
+        )
+        with (
+            mock.patch.object(camera_monitor.time, "time", return_value=1200.0),
+            mock.patch.object(
+                camera_monitor.time,
+                "monotonic",
+                return_value=retry_ready_at,
+            ),
+        ):
+            server.touch_visible_runners()
+
+        self.assertEqual(failed_oldest.touches, ["viewer"])
+        self.assertEqual(untried.touches, ["viewer"])
+
+
+class EufyRecoveryTest(unittest.TestCase):
+    @staticmethod
+    def snapshot(
+        slug: str,
+        *,
+        received_age: float,
+        failures: int,
+        displayed_age: float | None = None,
+        error: str = "",
+    ) -> dict[str, object]:
+        return {
+            "slug": slug,
+            "source": "eufy",
+            "has_frame": True,
+            "age_seconds": displayed_age if displayed_age is not None else received_age,
+            "received_age_seconds": received_age,
+            "latest_received_at": time.time() - received_age,
+            "consecutive_failure_count": failures,
+            "last_error": error,
+        }
+
+    def test_uses_received_age_instead_of_unchanged_frame_age(self) -> None:
+        snapshots = [
+            self.snapshot(
+                "barn",
+                received_age=5,
+                failures=20,
+                displayed_age=24 * 60 * 60,
+            ),
+            self.snapshot(
+                "dam",
+                received_age=6,
+                failures=20,
+                displayed_age=24 * 60 * 60,
+            ),
+        ]
+
+        decision = camera_monitor.choose_eufy_recovery(snapshots, {})
+
+        self.assertIsNone(decision)
+
+    def test_restarts_for_two_stale_cameras_with_repeated_failures(self) -> None:
+        snapshots = [
+            self.snapshot("barn", received_age=901, failures=3),
+            self.snapshot("dam", received_age=1200, failures=3),
+            self.snapshot("driveway", received_age=100, failures=0),
+        ]
+
+        decision = camera_monitor.choose_eufy_recovery(snapshots, {})
+
+        self.assertEqual(
+            decision,
+            camera_monitor.EufyRecoveryDecision(
+                reason="multiple_stale_eufy_cameras",
+                stale_slugs=("barn", "dam"),
+            ),
+        )
+
+    def test_requires_longer_outage_for_one_stale_camera(self) -> None:
+        before_threshold = [
+            self.snapshot("barn", received_age=1799, failures=10),
+        ]
+        persistent = [
+            self.snapshot("barn", received_age=1800, failures=4),
+        ]
+
+        self.assertIsNone(
+            camera_monitor.choose_eufy_recovery(before_threshold, {})
+        )
+        self.assertEqual(
+            camera_monitor.choose_eufy_recovery(persistent, {}),
+            camera_monitor.EufyRecoveryDecision(
+                reason="one_persistently_stale_eufy_camera",
+                stale_slugs=("barn",),
+            ),
+        )
+
+    def test_restarts_quickly_for_an_orphaned_livestream(self) -> None:
+        snapshots = [
+            self.snapshot(
+                "dam",
+                received_age=301,
+                failures=2,
+                error=(
+                    "RuntimeError: Eufy command device.start_livestream "
+                    "device_livestream_already_running"
+                ),
+            ),
+        ]
+
+        self.assertEqual(
+            camera_monitor.choose_eufy_recovery(snapshots, {}),
+            camera_monitor.EufyRecoveryDecision(
+                reason="orphaned_eufy_livestream",
+                stale_slugs=("dam",),
+            ),
+        )
+
+    def test_orphaned_livestream_requires_repeated_failure(self) -> None:
+        snapshots = [
+            self.snapshot(
+                "dam",
+                received_age=3600,
+                failures=1,
+                error="device_livestream_already_running",
+            ),
+        ]
+
+        self.assertIsNone(camera_monitor.choose_eufy_recovery(snapshots, {}))
+
+    def test_thumbnail_failures_contribute_to_recovery_decision(self) -> None:
+        snapshots = [
+            self.snapshot("barn", received_age=901, failures=0),
+            self.snapshot("dam", received_age=901, failures=0),
+        ]
+
+        decision = camera_monitor.choose_eufy_recovery(
+            snapshots,
+            {"barn": 3, "dam": 3},
+        )
+
+        self.assertIsNotNone(decision)
+
+    def test_does_not_restart_without_viewer_or_warm_agent(self) -> None:
+        snapshots = [
+            self.snapshot("barn", received_age=901, failures=3),
+            self.snapshot("dam", received_age=901, failures=3),
+        ]
+        server = SimpleNamespace(
+            paused=False,
+            state_lock=threading.Lock(),
+            eufy_thumbnail_failures={},
+            get_runner_snapshots=lambda: snapshots,
+            viewer_activity_status=lambda: {"viewer_active": False},
+        )
+        with tempfile.TemporaryDirectory() as temp_dir:
+            controller = camera_monitor.EufyRecoveryController(
+                server,
+                SimpleNamespace(connected=threading.Event()),
+                enabled=True,
+                supervisor_url="http://supervisor",
+                supervisor_token="test-token",
+                addon_slug="eufy",
+                state_path=Path(temp_dir) / "recovery.json",
+            )
+            with mock.patch.object(controller, "_restart_eufy") as restart:
+                controller.check_once()
+
+        restart.assert_not_called()
+        self.assertEqual(controller.phase, "waiting_for_refresh")
+
+    def test_does_not_restart_eufy_when_shared_go2rtc_is_down(self) -> None:
+        snapshots = [
+            self.snapshot("barn", received_age=901, failures=3),
+            self.snapshot("dam", received_age=901, failures=3),
+        ]
+        server = SimpleNamespace(
+            paused=False,
+            state_lock=threading.Lock(),
+            eufy_thumbnail_failures={},
+            get_runner_snapshots=lambda: snapshots,
+            viewer_activity_status=lambda: {"viewer_active": True},
+            go2rtc_available=lambda: False,
+        )
+        with tempfile.TemporaryDirectory() as temp_dir:
+            controller = camera_monitor.EufyRecoveryController(
+                server,
+                SimpleNamespace(connected=threading.Event()),
+                enabled=True,
+                supervisor_url="http://supervisor",
+                supervisor_token="test-token",
+                addon_slug="eufy",
+                state_path=Path(temp_dir) / "recovery.json",
+            )
+            with mock.patch.object(controller, "_restart_eufy") as restart:
+                controller.check_once()
+
+        restart.assert_not_called()
+        self.assertEqual(controller.phase, "waiting_for_go2rtc")
+        self.assertIn("Eufy recovery is suspended", controller.last_error)
+
+    def test_warm_agent_can_trigger_recovery_without_visible_viewer(self) -> None:
+        snapshots = [
+            self.snapshot("barn", received_age=901, failures=3),
+            self.snapshot("dam", received_age=901, failures=3),
+        ]
+        server = SimpleNamespace(
+            paused=False,
+            state_lock=threading.Lock(),
+            eufy_thumbnail_failures={},
+            get_runner_snapshots=lambda: snapshots,
+            viewer_activity_status=lambda: {
+                "viewer_active": False,
+                "warm_allowed": True,
+            },
+            warm_agent_active=lambda: True,
+        )
+        with tempfile.TemporaryDirectory() as temp_dir:
+            controller = camera_monitor.EufyRecoveryController(
+                server,
+                SimpleNamespace(connected=threading.Event()),
+                enabled=True,
+                supervisor_url="http://supervisor",
+                supervisor_token="test-token",
+                addon_slug="eufy",
+                state_path=Path(temp_dir) / "recovery.json",
+            )
+            with mock.patch.object(controller, "_restart_eufy") as restart:
+                controller.check_once()
+
+        restart.assert_called_once()
+        self.assertTrue(restart.call_args.kwargs["keep_warm_only"])
+
+    def test_failed_recovery_quarantines_only_its_target(self) -> None:
+        now = time.time()
+        snapshots = [
+            self.snapshot("barn", received_age=5, failures=0),
+            self.snapshot("driveway", received_age=3600, failures=5),
+        ]
+        server = SimpleNamespace(
+            paused=False,
+            state_lock=threading.Lock(),
+            eufy_thumbnail_failures={},
+            get_runner_snapshots=lambda: snapshots,
+            viewer_activity_status=lambda: {"viewer_active": True},
+        )
+        with tempfile.TemporaryDirectory() as temp_dir:
+            controller = camera_monitor.EufyRecoveryController(
+                server,
+                SimpleNamespace(connected=threading.Event()),
+                enabled=True,
+                supervisor_url="http://supervisor",
+                supervisor_token="test-token",
+                addon_slug="eufy",
+                state_path=Path(temp_dir) / "recovery.json",
+            )
+            controller.last_restart_at = (
+                now - camera_monitor.EUFY_RECOVERY_VERIFY_SECONDS - 1
+            )
+            controller.last_result = "restart_completed"
+            controller.verification_targets = ("driveway",)
+            controller.check_once()
+
+        self.assertEqual(controller.phase, "verification_failed")
+        self.assertEqual(set(controller.quarantined_at), {"driveway"})
+
+    def test_quarantined_camera_does_not_consume_shared_restart_budget(self) -> None:
+        snapshots = [
+            self.snapshot("driveway", received_age=3600, failures=5),
+        ]
+        server = SimpleNamespace(
+            paused=False,
+            state_lock=threading.Lock(),
+            eufy_thumbnail_failures={},
+            get_runner_snapshots=lambda: snapshots,
+            viewer_activity_status=lambda: {
+                "viewer_active": False,
+                "warm_allowed": True,
+            },
+            warm_agent_active=lambda: True,
+        )
+        with tempfile.TemporaryDirectory() as temp_dir:
+            controller = camera_monitor.EufyRecoveryController(
+                server,
+                SimpleNamespace(connected=threading.Event()),
+                enabled=True,
+                supervisor_url="http://supervisor",
+                supervisor_token="test-token",
+                addon_slug="eufy",
+                state_path=Path(temp_dir) / "recovery.json",
+            )
+            controller.quarantined_at = {"driveway": time.time()}
+            with mock.patch.object(controller, "_restart_eufy") as restart:
+                controller.check_once()
+
+        restart.assert_not_called()
+        self.assertEqual(controller.phase, "watching_with_quarantine")
+
+    def test_migrates_old_failed_verification_to_single_camera_quarantine(self) -> None:
+        now = time.time()
+        snapshots = [
+            self.snapshot("barn", received_age=5, failures=0),
+            self.snapshot("driveway", received_age=3600, failures=0),
+        ]
+        server = SimpleNamespace(
+            paused=False,
+            state_lock=threading.Lock(),
+            eufy_thumbnail_failures={},
+            get_runner_snapshots=lambda: snapshots,
+            viewer_activity_status=lambda: {
+                "viewer_active": False,
+                "warm_allowed": True,
+            },
+            warm_agent_active=lambda: True,
+        )
+        with tempfile.TemporaryDirectory() as temp_dir:
+            controller = camera_monitor.EufyRecoveryController(
+                server,
+                SimpleNamespace(connected=threading.Event()),
+                enabled=True,
+                supervisor_url="http://supervisor",
+                supervisor_token="test-token",
+                addon_slug="eufy",
+                state_path=Path(temp_dir) / "recovery.json",
+            )
+            controller.last_restart_at = now - 30 * 60
+            controller.last_result = "verification_failed"
+            controller.last_reason = "one_persistently_stale_eufy_camera"
+            with mock.patch.object(controller, "_restart_eufy") as restart:
+                controller.check_once()
+
+        restart.assert_not_called()
+        self.assertEqual(controller.verification_targets, ("driveway",))
+        self.assertEqual(set(controller.quarantined_at), {"driveway"})
+        self.assertEqual(controller.phase, "watching_with_quarantine")
+
+    def test_fresh_frame_releases_camera_quarantine(self) -> None:
+        now = time.time()
+        snapshots = [self.snapshot("driveway", received_age=1, failures=0)]
+        server = SimpleNamespace(
+            paused=False,
+            state_lock=threading.Lock(),
+            eufy_thumbnail_failures={},
+            get_runner_snapshots=lambda: snapshots,
+            viewer_activity_status=lambda: {"viewer_active": True},
+        )
+        with tempfile.TemporaryDirectory() as temp_dir:
+            controller = camera_monitor.EufyRecoveryController(
+                server,
+                SimpleNamespace(connected=threading.Event()),
+                enabled=True,
+                supervisor_url="http://supervisor",
+                supervisor_token="test-token",
+                addon_slug="eufy",
+                state_path=Path(temp_dir) / "recovery.json",
+            )
+            controller.quarantined_at = {"driveway": now - 60}
+            controller.check_once()
+
+        self.assertEqual(controller.quarantined_at, {})
+        self.assertEqual(controller.phase, "watching")
+
+    def test_fresh_frame_clears_old_verification_failure(self) -> None:
+        now = time.time()
+        snapshots = [self.snapshot("driveway", received_age=1, failures=0)]
+        server = SimpleNamespace(
+            paused=False,
+            state_lock=threading.Lock(),
+            eufy_thumbnail_failures={},
+            get_runner_snapshots=lambda: snapshots,
+            viewer_activity_status=lambda: {"viewer_active": True},
+        )
+        with tempfile.TemporaryDirectory() as temp_dir:
+            controller = camera_monitor.EufyRecoveryController(
+                server,
+                SimpleNamespace(connected=threading.Event()),
+                enabled=True,
+                supervisor_url="http://supervisor",
+                supervisor_token="test-token",
+                addon_slug="eufy",
+                state_path=Path(temp_dir) / "recovery.json",
+            )
+            controller.last_restart_at = now - 2 * 60 * 60
+            controller.last_result = "verification_failed"
+            controller.last_error = "old failure"
+            controller.verification_targets = ("driveway",)
+            controller.quarantined_at = {"driveway": now - 60}
+            controller.check_once()
+
+        self.assertEqual(controller.last_result, "verified")
+        self.assertEqual(controller.last_error, "")
+        self.assertEqual(controller.verification_targets, ())
+
+    def test_enforces_restart_cooldown(self) -> None:
+        snapshots = [
+            self.snapshot("barn", received_age=901, failures=3),
+            self.snapshot("dam", received_age=901, failures=3),
+        ]
+        server = SimpleNamespace(
+            paused=False,
+            state_lock=threading.Lock(),
+            eufy_thumbnail_failures={},
+            get_runner_snapshots=lambda: snapshots,
+            viewer_activity_status=lambda: {"viewer_active": True},
+        )
+        with tempfile.TemporaryDirectory() as temp_dir:
+            controller = camera_monitor.EufyRecoveryController(
+                server,
+                SimpleNamespace(connected=threading.Event()),
+                enabled=True,
+                supervisor_url="http://supervisor",
+                supervisor_token="test-token",
+                addon_slug="eufy",
+                state_path=Path(temp_dir) / "recovery.json",
+            )
+            controller.last_restart_at = time.time() - 60
+            controller.restart_times = [controller.last_restart_at]
+            with mock.patch.object(controller, "_restart_eufy") as restart:
+                controller.check_once()
+
+        restart.assert_not_called()
+        self.assertEqual(controller.phase, "cooldown")
+
+    def test_enforces_daily_restart_limit_for_unattended_warming(self) -> None:
+        now = time.time()
+        snapshots = [
+            self.snapshot("barn", received_age=901, failures=3),
+            self.snapshot("dam", received_age=901, failures=3),
+        ]
+        server = SimpleNamespace(
+            paused=False,
+            state_lock=threading.Lock(),
+            eufy_thumbnail_failures={},
+            get_runner_snapshots=lambda: snapshots,
+            viewer_activity_status=lambda: {
+                "viewer_active": False,
+                "warm_allowed": True,
+            },
+            warm_agent_active=lambda: True,
+        )
+        with tempfile.TemporaryDirectory() as temp_dir:
+            controller = camera_monitor.EufyRecoveryController(
+                server,
+                SimpleNamespace(connected=threading.Event()),
+                enabled=True,
+                supervisor_url="http://supervisor",
+                supervisor_token="test-token",
+                addon_slug="eufy",
+                state_path=Path(temp_dir) / "recovery.json",
+            )
+            controller.last_restart_at = now - 2 * 60 * 60
+            controller.restart_times = [now - 3 * 60 * 60, now - 2 * 60 * 60]
+            with mock.patch.object(controller, "_restart_eufy") as restart:
+                controller.check_once()
+
+        restart.assert_not_called()
+        self.assertEqual(controller.phase, "restart_limit_reached")
+
+    def test_active_viewer_retries_quarantined_camera_after_cooldown(self) -> None:
+        now = time.time()
+        snapshots = [self.snapshot("barn", received_age=3600, failures=5)]
+        server = SimpleNamespace(
+            paused=False,
+            state_lock=threading.Lock(),
+            eufy_thumbnail_failures={},
+            get_runner_snapshots=lambda: snapshots,
+            viewer_activity_status=lambda: {"viewer_active": True},
+        )
+        with tempfile.TemporaryDirectory() as temp_dir:
+            controller = camera_monitor.EufyRecoveryController(
+                server,
+                SimpleNamespace(connected=threading.Event()),
+                enabled=True,
+                supervisor_url="http://supervisor",
+                supervisor_token="test-token",
+                addon_slug="eufy",
+                state_path=Path(temp_dir) / "recovery.json",
+            )
+            controller.last_restart_at = now - 2 * 60 * 60
+            controller.restart_times = [now - 3 * 60 * 60, now - 2 * 60 * 60]
+            controller.quarantined_at = {"barn": now - 2 * 60 * 60}
+            with mock.patch.object(controller, "_restart_eufy") as restart:
+                controller.check_once()
+
+        restart.assert_called_once()
+
+    def test_restart_pauses_monitor_and_persists_verification_state(self) -> None:
+        server = SimpleNamespace(paused=False)
+        server.pause_camera_work = mock.Mock(
+            side_effect=lambda: setattr(server, "paused", True)
+        )
+        server.prepare_eufy_after_recovery = mock.Mock()
+        server.touch_visible_runners = mock.Mock()
+        connected = threading.Event()
+        connected.set()
+        with tempfile.TemporaryDirectory() as temp_dir:
+            state_path = Path(temp_dir) / "recovery.json"
+            eufy = SimpleNamespace(
+                connected=connected,
+                connection_generation=7,
+            )
+            controller = camera_monitor.EufyRecoveryController(
+                server,
+                eufy,
+                enabled=True,
+                supervisor_url="http://supervisor",
+                supervisor_token="test-token",
+                addon_slug="eufy",
+                state_path=state_path,
+            )
+            with (
+                mock.patch.object(
+                    controller,
+                    "_request_supervisor_restart",
+                ) as restart,
+                mock.patch.object(
+                    controller,
+                    "_wait_for_eufy_reconnect",
+                ) as reconnect,
+            ):
+                controller._restart_eufy(
+                    camera_monitor.EufyRecoveryDecision(
+                        reason="multiple_stale_eufy_cameras",
+                        stale_slugs=("barn", "dam"),
+                    ),
+                    time.time(),
+                )
+
+            persisted = json.loads(state_path.read_text(encoding="utf-8"))
+
+        restart.assert_called_once_with()
+        reconnect.assert_called_once_with(7)
+        server.pause_camera_work.assert_called_once_with()
+        server.prepare_eufy_after_recovery.assert_called_once_with()
+        server.touch_visible_runners.assert_called_once_with(keep_warm_only=False)
+        self.assertFalse(server.paused)
+        self.assertEqual(controller.last_result, "restart_completed")
+        self.assertEqual(persisted["last_result"], "restart_completed")
+        self.assertEqual(persisted["verification_targets"], ["barn", "dam"])
+
 
 class NativeStreamTest(unittest.TestCase):
+    def test_request_handler_ignores_peer_reset_before_request_line(self) -> None:
+        handler = object.__new__(camera_monitor.Handler)
+        with mock.patch(
+            "http.server.BaseHTTPRequestHandler.handle",
+            side_effect=ConnectionResetError("peer reset"),
+        ):
+            handler.handle()
+
     def test_websocket_proxy_recognizes_close_frames(self) -> None:
         self.assertTrue(
             camera_monitor.is_websocket_close_frame(
@@ -256,6 +879,37 @@ class NativeStreamTest(unittest.TestCase):
         self.assertIn('next.classList.add("snapshot-entering")', page)
         self.assertNotIn("transition: opacity", page)
         self.assertNotIn(".tile::after", page)
+        self.assertIn("const dragThresholdPx = 20", page)
+        self.assertIn("const dragHoldMs = 450", page)
+        self.assertIn("const dragHoldMoveTolerancePx = 10", page)
+        self.assertIn(
+            'tile.draggable = !window.matchMedia("(pointer: coarse)").matches',
+            page,
+        )
+        self.assertIn("-webkit-user-select: none", page)
+        self.assertIn("-webkit-tap-highlight-color: transparent", page)
+        self.assertIn(
+            'tile.addEventListener("selectstart", preventTileSelection)',
+            page,
+        )
+        self.assertIn("window.getSelection()?.removeAllRanges()", page)
+        self.assertIn('tile.addEventListener("pointerdown", handlePointerDown)', page)
+        self.assertIn("drag.holdTimer = setTimeout", page)
+        self.assertIn("drag.armed = true", page)
+        self.assertIn('"drag-armed",\n        "dragging",', page)
+        self.assertIn("distance > dragHoldMoveTolerancePx", page)
+        self.assertIn("distance <= dragThresholdPx", page)
+        self.assertIn("pointerDropTarget(event.clientX, event.clientY)", page)
+        self.assertIn("[nextOrder[fromIndex], nextOrder[targetIndex]]", page)
+        self.assertNotIn("nextOrder.splice", page)
+        self.assertIn("const expandedPointers = new Map()", page)
+        self.assertIn("expandedPointers.size > 1", page)
+        self.assertIn('document.addEventListener("gesturestart", handleSafariPinch', page)
+        self.assertIn("Date.now() < suppressClickUntil", page)
+        self.assertIn("const expandedClickSuppressMs = 180", page)
+        self.assertNotIn("Date.now() + 1000", page)
+        self.assertIn(".tile { touch-action: pan-y; }", page)
+        self.assertIn(".tile.expanded { touch-action: pan-x pan-y pinch-zoom; }", page)
 
     def test_monitor_server_accepts_parallel_browser_connections(self) -> None:
         self.assertGreaterEqual(camera_monitor.MonitorServer.request_queue_size, 32)
