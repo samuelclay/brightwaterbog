@@ -10,6 +10,8 @@ gps:
 scannedFolders: []
 modernFolders:
   - sculpture_04_hoopla_pyramid
+cadFolders:
+  - sculpture_04_hoopla_pyramid
 summary: The one piece not by Julian, built by Samuel Clay and Brittany Janis.
 ---
 
