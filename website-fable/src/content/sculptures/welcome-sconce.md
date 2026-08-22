@@ -9,6 +9,6 @@ gps:
   lon: -72.421738
 scannedFolders: []
 modernFolders:
-  - sculpture_11_mailbox
+  - sculpture_11_welcome_sconce
 summary: The stained-glass sconce on the standing stone that greets you. The old mailbox stands just behind it.
 ---

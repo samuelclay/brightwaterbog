@@ -60,9 +60,11 @@ Single-page Astro site (`src/pages/index.astro`) for the sculpture trail. `make`
 - Sculpture pages map to folders via frontmatter `scannedFolders` / `modernFolders`
   in `src/content/sculptures/*.md`. A piece with no modern photos has
   `modernFolders: []` — add the folder name when its first modern photos arrive.
-- Folder-name gotchas: `sculpture_11_mailbox` is the WELCOME SCONCE (red crystal
-  sconce set into the standing stone by the road); `sculpture_15_stone_mailbox` is
-  THE MAILBOX (Samuel's in-progress copper/chevron mailbox for that same stone).
+- Folder-name notes: `sculpture_11_welcome_sconce` is the red crystal sconce set
+  into the standing stone by the road; `sculpture_15_mailbox` is Samuel's in-progress
+  copper/chevron mailbox for that same stone. Both were renamed in Aug 2026 (from
+  `sculpture_11_mailbox` / `sculpture_15_stone_mailbox`), so pre-rename prod image
+  URLs used the old keys.
   The saguaro cactus is the branching amber floor lamp; the DINOSAUR is the four-point
   rainbow web canopy stretched in the rafters (not a literal dinosaur).
 - Photo identity is the path relative to `photos/`; the dev image server resolves
@@ -82,8 +84,10 @@ Single-page Astro site (`src/pages/index.astro`) for the sculpture trail. `make`
   use and treats reuse of an old one as theft, revoking the whole grant. If auth
   dies anyway, re-auth with `npx wrangler login --profile ofbrooklyn`.
 - `samuelclay.com` DNS is at DNSimple (not Cloudflare) — there is no CF zone, so
-  no `/cdn-cgi/image` transforms and no R2; that's why the image ladder is baked
-  at build time. Subdomains are plain DNSimple CNAMEs to `<project>.pages.dev`.
+  no `/cdn-cgi/image` transforms and no public R2 image serving path; that's why
+  the image ladder is baked at build time. Subdomains are plain DNSimple CNAMEs
+  to `<project>.pages.dev`. Private R2 is still used as a cloud backup/sync
+  target for ignored full-resolution originals.
 
 ### Trail minimap
 
@@ -95,3 +99,19 @@ Single-page Astro site (`src/pages/index.astro`) for the sculpture trail. `make`
 
 - `make sync-photos` re-exports thumbnail-sized site photos full-size from Photos.app
   (for iCloud-evicted originals), then rebuilds the catalog.
+
+### Original photo cloud sync
+
+- Full-resolution modern originals under `photos/apple-photos-stained-glass/`
+  are ignored by git. Keep a Cloudflare R2 copy so a fresh machine can hydrate
+  the main photo tree with `make sync-originals-down` from `website-fable/`.
+- R2 settings and credentials live in ignored `tools/r2-originals.local.env`;
+  copy `tools/r2-originals.example.env` and never print, paste, or commit the
+  real R2 account ID, bucket credentials, or secret key.
+- `make sync-originals-up` uploads the ignored originals tree to R2 without
+  deleting remote-only files. Use `make sync-originals-dry-run` before a first
+  upload or any suspicious local change. Deletion requires explicitly running
+  `python3 ../tools/r2_originals_sync.py up --delete` from `website-fable/`.
+- `make deploy-with-originals` first uploads originals to R2, then runs the
+  normal Pages deploy; `make deploy` still only builds the site and uploads the
+  baked responsive image ladder to Cloudflare Pages.

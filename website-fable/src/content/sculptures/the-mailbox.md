@@ -10,6 +10,6 @@ gps:
   lon: -72.4217
 scannedFolders: []
 modernFolders:
-  - sculpture_15_stone_mailbox
+  - sculpture_15_mailbox
 summary: The standing stone becoming the new mailbox, in progress.
 ---

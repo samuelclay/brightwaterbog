@@ -84,7 +84,7 @@ const STOPS = [
       glass: "amber",
       gps: { lat: 42.497722, lon: -72.421738 },
       scannedFolders: [],
-      modernFolders: ["sculpture_11_mailbox"],
+      modernFolders: ["sculpture_11_welcome_sconce"],
       summary:
         "The stained-glass sconce on the standing stone that greets you — the old mailbox stands just behind it.",
     },
@@ -103,7 +103,7 @@ const STOPS = [
       glass: "rose",
       gps: { lat: 42.49776, lon: -72.4217 },
       scannedFolders: [],
-      modernFolders: ["sculpture_15_stone_mailbox"],
+      modernFolders: ["sculpture_15_mailbox"],
       summary: "The standing stone becoming the new mailbox — in progress.",
     },
     body: `The standing stone is becoming the new mailbox. Check back — photos will appear here as it comes together.`,
