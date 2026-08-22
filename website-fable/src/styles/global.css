@@ -480,7 +480,9 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   background: radial-gradient(80% 70% at 50% 40%, var(--surface-2), var(--surface));
   padding: 16px;
 }
-.minimap svg {
+/* the map svg only — a bare `.minimap svg` also catches the toggle button's
+   inline icon svgs, which these size rules would blow up to map height */
+.minimap__frame svg {
   width: 100%;
   height: auto;
   max-height: 72svh; /* the stretched map never exceeds ~75% of the screen */
@@ -958,7 +960,7 @@ footer.site-foot {
      The slice pans via a pixel translateY set from scroll-stage.ts; it rides
      back to 0 on the same curve as the frame's height so opening reads as one
      motion. */
-  .minimap svg {
+  .minimap__frame svg {
     height: var(--mm-map-h);
     max-height: none;
     width: auto;

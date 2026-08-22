@@ -34,7 +34,9 @@ function init() {
   // active stop's marker sits on the slice's centerline.
   const rail = document.querySelector<HTMLElement>("[data-map-rail]");
   const mapToggle = document.querySelector<HTMLButtonElement>("[data-map-toggle]");
-  const svg = minimap.querySelector<SVGSVGElement>("svg");
+  // Scope to the frame: the caption's toggle button holds inline icon svgs
+  // that come first in DOM order, so a bare "svg" query would pan the icon.
+  const svg = minimap.querySelector<SVGSVGElement>(".minimap__frame svg");
   const mobileMap = window.matchMedia("(max-width: 1080px)");
   const isOpen = () => rail?.classList.contains("is-open") ?? false;
 
