@@ -27,6 +27,28 @@ Output: tagged photos land in `photos/<decade>/<category>/`, each with a sidecar
 | `pipeline/tag.py` | Claude (Opus 4.8) vision tagging → sidecar JSON + `--organize` folder sort. Needs `ANTHROPIC_API_KEY`. |
 | `digitize.sh` | Orchestrates scan → crop → tag with scanner process hygiene. |
 | `tools/camera_monitor.py` | Standalone local camera wall with direct Eufy control, direct Google Nest signaling, bounded fallback-frame caching, and focused-camera priority. |
+| `tools/r2_originals_sync.py` | Syncs ignored full-resolution modern photo originals with Cloudflare R2 via the AWS CLI. |
+
+## Website photo originals
+
+The modern site originals live in ignored
+`photos/apple-photos-stained-glass/`. The generated Astro catalog and the
+deployed responsive WebP ladder use those files, but git does not store the
+full-resolution originals.
+
+To hydrate or back up that tree with Cloudflare R2:
+
+```bash
+cp tools/r2-originals.example.env tools/r2-originals.local.env
+$EDITOR tools/r2-originals.local.env
+cd website-fable
+make sync-originals-down     # download originals from R2, then rebuild catalog
+make sync-originals-dry-run  # preview upload delta
+make sync-originals-up       # upload originals to R2
+make deploy-with-originals   # upload originals, build image ladder, deploy Pages
+```
+
+The local env file contains the R2 account and access keys; keep it out of git.
 
 ## Camera monitor
 

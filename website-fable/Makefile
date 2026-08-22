@@ -33,7 +33,7 @@ CLAY := \033[38;5;173m
 RUST := \033[1;38;5;203m
 MIST := \033[38;5;152m
 
-.PHONY: all start stop restart status logs clean help banner sync-photos catalog build deploy
+.PHONY: all start stop restart status logs clean help banner sync-photos sync-originals-down sync-originals-up sync-originals-dry-run catalog build deploy deploy-with-originals
 
 # ── deploy (Cloudflare Pages, ofbrooklyn account — same as cooking.samuelclay.com) ──
 # --profile reads/writes ~/.wrangler/config/ofbrooklyn.toml directly, so token
@@ -128,6 +128,23 @@ sync-photos:
 	@npm run catalog
 	@printf "$(FERN)●$(R) photos synced $(DIM)(full-size originals + fresh catalog)$(R)\n"
 
+# Hydrate or back up the ignored full-resolution Apple Photos export via
+# Cloudflare R2. Credentials live in ../tools/r2-originals.local.env.
+sync-originals-down:
+	@printf "$(LILY)◆$(R) syncing original photos down from R2…\n"
+	@python3 ../tools/r2_originals_sync.py down
+	@npm run catalog
+	@printf "$(FERN)●$(R) originals synced down $(DIM)(fresh catalog rebuilt)$(R)\n"
+
+sync-originals-up:
+	@printf "$(LILY)◆$(R) syncing original photos up to R2…\n"
+	@python3 ../tools/r2_originals_sync.py up
+	@printf "$(FERN)●$(R) originals synced up $(DIM)(R2 backup current)$(R)\n"
+
+sync-originals-dry-run:
+	@printf "$(LILY)◆$(R) checking original-photo R2 upload delta…\n"
+	@python3 ../tools/r2_originals_sync.py up --dry-run
+
 # Production build: astro → dist/, then the pre-rendered WebP ladder → dist/img/.
 build:
 	@printf "$(LILY)◆$(R) building site…\n"
@@ -139,6 +156,8 @@ build:
 deploy: build
 	@$(WRANGLER) pages deploy dist --project-name=$(PAGES_PROJECT) --branch main
 	@printf "$(FERN)●$(R) deployed $(DIM)(project $(PAGES_PROJECT) → bwb.samuelclay.com)$(R)\n"
+
+deploy-with-originals: sync-originals-up deploy
 
 clean: stop
 	@rm -f $(LOG)
@@ -155,5 +174,9 @@ help: banner
 	@printf "  $(RUST)make clean$(R)    $(MIST)stop + remove log, dist/, .astro/$(R)\n"
 	@printf "  $(SUN)make catalog$(R)  $(MIST)rebuild photos.json + trail.json (after GPS/map/photo edits)$(R)\n"
 	@printf "  $(SUN)make deploy$(R)   $(MIST)build + ship to Cloudflare Pages (bwb.samuelclay.com)$(R)\n"
+	@printf "  $(SUN)make deploy-with-originals$(R) $(MIST)upload originals to R2, then deploy site$(R)\n"
+	@printf "  $(SUN)make sync-originals-down$(R) $(MIST)download ignored originals from R2 + rebuild catalog$(R)\n"
+	@printf "  $(SUN)make sync-originals-up$(R) $(MIST)upload ignored originals to R2$(R)\n"
+	@printf "  $(SUN)make sync-originals-dry-run$(R) $(MIST)preview original-photo R2 upload delta$(R)\n"
 	@printf "  $(SUN)make sync-photos$(R) $(MIST)re-export any thumbnail-sized photos full-size + rebuild catalog$(R)\n"
 	@printf "\n"
