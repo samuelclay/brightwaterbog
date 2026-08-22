@@ -11,5 +11,7 @@ gps:
 scannedFolders: []
 modernFolders:
   - sculpture_15_mailbox
+cadFolders:
+  - sculpture_15_mailbox
 summary: The standing stone becoming the new mailbox, in progress.
 ---
