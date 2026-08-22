@@ -54,6 +54,7 @@ function frameData(p: PhotoEntry) {
     thumbset: srcset(p.key, STRIP_WIDTHS, "cover", 78, v),
     full: imageUrl(p.key, { w: 1800, fit: "contain", v }),
     fullHi: imageUrl(p.key, { w: 2600, fit: "contain", v }),
+    fullZoom: imageUrl(p.key, { w: 4000, fit: "contain", v }),
     w: p.width ?? 0,
     h: p.height ?? 0,
     year: p.date ? p.date.slice(0, 4) : "",
@@ -108,6 +109,7 @@ const total = photos.length;
                 data-lightbox
                 data-full={f.full}
                 data-full-hi={f.fullHi}
+                data-full-zoom={f.fullZoom}
                 data-w={f.w}
                 data-h={f.h}
                 data-era={`${g.label}${f.year ? ` · ${f.year}` : ""}`}

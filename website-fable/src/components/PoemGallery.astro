@@ -21,6 +21,7 @@ const leftover = photos.length % 2 === 1 ? photos[photos.length - 1] : null;
 const halfAttrs = (p: PhotoEntry, label: string) => ({
   "data-full": imageUrl(p.key, { w: 1800, fit: "contain" }),
   "data-full-hi": imageUrl(p.key, { w: 2600, fit: "contain" }),
+  "data-full-zoom": imageUrl(p.key, { w: 4000, fit: "contain" }),
   "data-w": p.width ?? 0,
   "data-h": p.height ?? 0,
   "aria-label": label,

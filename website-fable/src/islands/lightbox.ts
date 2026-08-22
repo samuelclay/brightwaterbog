@@ -5,6 +5,7 @@
 interface Item {
   full: string;
   hi: string;
+  zoom: string;
   w: number;
   h: number;
   era: string;
@@ -27,6 +28,8 @@ function init() {
   let tx = 0;
   let ty = 0;
   let hiLoaded = false;
+  let zoomRequested = false;
+  let zoomApplied = false;
   let sliding = false;
 
   // Neighbor photo element shown during carousel swipes/slides.
@@ -98,12 +101,33 @@ function init() {
   function upgradeHi(item: Item) {
     const hi = new Image();
     hi.onload = () => {
-      if (items[index] === item) {
+      if (items[index] === item && !zoomApplied) {
         img.src = item.hi;
         hiLoaded = true;
       }
     };
     hi.src = item.hi;
+  }
+
+  // The 2600px tier runs out of pixels fast once zoomed on a hi-DPR phone.
+  // The first zoom gesture on each photo fetches the near-original-width
+  // render and swaps it in after decode, so the swap never paints a flash.
+  function upgradeZoom() {
+    if (zoomRequested) return;
+    zoomRequested = true;
+    const item = items[index];
+    if (!item?.zoom || item.zoom === item.hi) return;
+    const z = new Image();
+    z.onload = () => {
+      const swap = () => {
+        if (items[index] === item) {
+          img.src = item.zoom;
+          zoomApplied = true;
+        }
+      };
+      z.decode ? z.decode().then(swap, swap) : swap();
+    };
+    z.src = item.zoom;
   }
 
   function removePeer() {
@@ -198,6 +222,8 @@ function init() {
     index = (i + items.length) % items.length;
     const item = items[index];
     hiLoaded = false;
+    zoomRequested = false;
+    zoomApplied = false;
     sliding = false;
     removePeer();
     resetTransform();
@@ -229,6 +255,8 @@ function init() {
     const finish = () => {
       index = nextIndex;
       hiLoaded = false;
+      zoomRequested = false;
+      zoomApplied = false;
       resetTransform();
       setEra(item);
       // The peer keeps covering the stage until the new src is decoded, so
@@ -327,6 +355,7 @@ function init() {
     }
     img.style.transition = reduce ? "none" : "transform 0.12s ease-out";
     apply();
+    if (scale > 1.02) upgradeZoom();
   }
 
   function onKey(e: KeyboardEvent) {
@@ -520,6 +549,7 @@ function init() {
     return Array.from(track.querySelectorAll<HTMLElement>("[data-lightbox]")).map((el) => ({
       full: el.dataset.full ?? "",
       hi: el.dataset.fullHi ?? el.dataset.full ?? "",
+      zoom: el.dataset.fullZoom ?? el.dataset.fullHi ?? el.dataset.full ?? "",
       w: Number(el.dataset.w) || 0,
       h: Number(el.dataset.h) || 0,
       era: el.dataset.era ?? "",

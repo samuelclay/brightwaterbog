@@ -7,7 +7,8 @@
 export const STRIP_WIDTHS = [500, 760, 1040]; // photo strips / thumbs
 export const FULL_WIDTHS = [1200, 1800, 2600]; // hero srcset + lightbox fulls
 export const EXTRA_WIDTHS = [640, 2200]; // PoemGallery thumb, hero primary src
+export const ZOOM_WIDTHS = [4000]; // lightbox zoom-in upgrade (≈ original width; smaller photos render at their own width)
 
-export const ALL_WIDTHS = [...new Set([...STRIP_WIDTHS, ...FULL_WIDTHS, ...EXTRA_WIDTHS])].sort(
+export const ALL_WIDTHS = [...new Set([...STRIP_WIDTHS, ...FULL_WIDTHS, ...EXTRA_WIDTHS, ...ZOOM_WIDTHS])].sort(
   (a, b) => a - b,
 );
