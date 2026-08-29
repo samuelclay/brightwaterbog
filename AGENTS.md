@@ -46,6 +46,32 @@ Single-page Astro site (`src/pages/index.astro`) for the sculpture trail. `make`
   the right selected/ folder as `YYYYMMDD_HHMMSS_IMG_NNNN.jpeg`, pull created/GPS/dims
   with `mdls` (its dates are UTC — convert to America/New_York), append manifest rows.
   `exiftool` is not installed; `mdls` gives orientation-corrected pixel dims.
+- Video clips live in the same selected/ folders and ride the photo pipeline via
+  a poster still: the manifest row's `filename` is a `.jpg` frame (taken a third
+  of the way in — the opening frame is often black), plus `video: "<same
+  stem>.mp4"`. catalog.mjs copies `video` onto the entry, PhotoStrip renders a
+  muted looping `<video>` in place of the `<img>`, and the lightbox swaps in
+  `[data-lightbox-video]`. Clips sort to the FRONT of their Now section
+  (`clipsFirst` in catalog.mjs), ahead of pins.json.
+- Encode clips as BOOMERANGS — forward, then the reverse minus its first frame —
+  so the file ends on the frame it began on and plain `loop` ping-pongs instead
+  of cutting. Handheld footage drifts, so a straight loop is visibly jarring:
+    ffmpeg -i in.MOV -filter_complex "[0:v]scale='min(1280,iw)':'min(1280,ih)':\
+      force_original_aspect_ratio=decrease,scale=trunc(iw/2)*2:trunc(ih/2)*2,split[a][b];\
+      [b]reverse,trim=start_frame=1,setpts=PTS-STARTPTS[r];[a][r]concat=n=2:v=1[out]" \
+      -map "[out]" -c:v libx264 -profile:v high -crf 26 -preset slow \
+      -pix_fmt yuv420p -movflags +faststart -an out.mp4
+  Always re-encode from the original MOV, never the delivered MP4. `-an` matters:
+  muted autoplay is a browser requirement, so audio is pure weight. The `reverse`
+  filter buffers every frame in RAM — scale before reversing, and run clips
+  sequentially.
+- MP4s are NOT laddered. `videoUrl()` serves them raw: the dev server's `/video/`
+  route (with byte ranges — Safari won't play without them), and in prod
+  `dist/video/<key>`, copied there by scripts/prerender-images.mjs.
+- Strip clips carry no `src` until they scroll into view (islands/strip-video.ts)
+  — 22 clips is ~76MB, so eager loading would be brutal. They also pause when
+  scrolled away or the tab is hidden, and honor prefers-reduced-motion by
+  staying on the poster.
 - `src/data/construction.json` (tracked, curated) reclassifies listed photo keys:
   a `now` photo becomes era `construction-now`, a `then` scan becomes `construction`.
   Workshop/build shots belong here.

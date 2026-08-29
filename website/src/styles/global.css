@@ -164,6 +164,11 @@ body {
 }
 
 img, svg, video { display: block; max-width: 100%; }
+/* The rule above is an author rule, so it outranks the UA's
+   [hidden] { display: none } — without this, el.hidden = true is a no-op on
+   every image and video on the site (it left the lightbox's <video> stacked
+   over the photo, still painting its poster). */
+[hidden] { display: none !important; }
 a { color: inherit; }
 button { font: inherit; color: inherit; background: none; border: none; cursor: pointer; }
 
@@ -378,12 +383,15 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   transition: border-color 0.4s var(--ease);
 }
 .frame:hover { border-color: var(--stop-glass); }
-.frame img {
+.frame :is(img, video) {
   height: 100%;
   width: 100%;
   object-fit: cover;
   /* width computed inline from aspect so the flex item is sized right */
 }
+/* Clips sit in the strip as photos that move — no chrome, no controls. */
+.frame__video { pointer-events: none; background: var(--surface); }
+
 .frame__era {
   position: absolute;
   left: 8px; bottom: 8px;

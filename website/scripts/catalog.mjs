@@ -64,6 +64,13 @@ function pinSort(entries, pinned) {
   return [...entries].sort((a, b) => pos(a) - pos(b));
 }
 
+// Clips lead their section — they're the liveliest thing a stop has, and a
+// looping video buried mid-strip is never reached. Stable, so pinned stills
+// keep their curated order behind the clips.
+function clipsFirst(entries) {
+  return [...entries].sort((a, b) => (b.video ? 1 : 0) - (a.video ? 1 : 0));
+}
+
 const IMG_RE = /\.(jpe?g|png|webp)$/i;
 const isImage = (f) => IMG_RE.test(f) && !f.startsWith(".") && !f.startsWith("_");
 
@@ -142,6 +149,11 @@ async function modernEntries(folder) {
         width: r.width ?? null,
         height: r.height ?? null,
         orientation: orient(r.width, r.height),
+        // Video rows carry a poster still as `filename` (so they ride the
+        // normal image ladder) plus a sibling .mp4 played in its place.
+        video: r.video
+          ? `apple-photos-stained-glass/selected/${folder}/${r.video}`
+          : undefined,
         gps:
           r.latitude && r.longitude
             ? { lat: r.latitude, lon: r.longitude }
@@ -271,12 +283,13 @@ async function main() {
     // Order within a stop: Now → its construction → its drawings → Aerial →
     // Then → its construction → its drawings (folder-level constructionFolders
     // / drawingFolders / cadFolders merge into the matching section).
-    // pins.json floats curated keys to the front of their era section.
+    // pins.json floats curated keys to the front of their era section, and
+    // clips float ahead of even those in the Now sections.
     const pinned = pins[slug];
     const all = [
-      ...pinSort(nowFinished, pinned),
-      ...pinSort(nowConstruction, pinned),
-      ...pinSort(nowDrawings, pinned),
+      ...clipsFirst(pinSort(nowFinished, pinned)),
+      ...clipsFirst(pinSort(nowConstruction, pinned)),
+      ...clipsFirst(pinSort(nowDrawings, pinned)),
       ...cad,
       ...aerial,
       ...pinSort(thenFinished, pinned),

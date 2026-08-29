@@ -7,8 +7,8 @@
 
 import http from "node:http";
 import { createHash } from "node:crypto";
-import { readFile, writeFile, mkdir } from "node:fs/promises";
-import { existsSync } from "node:fs";
+import { readFile, writeFile, mkdir, stat } from "node:fs/promises";
+import { existsSync, createReadStream } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import sharp from "sharp";
@@ -27,9 +27,48 @@ function send(res, status, body, headers = {}) {
   res.end(body);
 }
 
+// Resolve a key inside PHOTOS, refusing traversal outside it.
+function resolveKey(key) {
+  const abs = path.resolve(PHOTOS, key);
+  return abs.startsWith(PHOTOS + path.sep) && existsSync(abs) ? abs : null;
+}
+
+// Videos are served as-is (already transcoded at ingest), with byte ranges —
+// Safari won't play a clip from a source that can't answer a Range request.
+async function serveVideo(req, res, key) {
+  const abs = resolveKey(key);
+  if (!abs) return send(res, 404, `no such video: ${key}`);
+  const size = (await stat(abs)).size;
+  const base = {
+    "Content-Type": "video/mp4",
+    "Accept-Ranges": "bytes",
+    "Cache-Control": "public, max-age=86400",
+    "Access-Control-Allow-Origin": "*",
+  };
+  const m = /^bytes=(\d*)-(\d*)$/.exec(req.headers.range ?? "");
+  if (m) {
+    const start = m[1] ? Number(m[1]) : 0;
+    const end = m[2] ? Math.min(Number(m[2]), size - 1) : size - 1;
+    if (start >= size || start > end) {
+      return send(res, 416, "", { ...base, "Content-Range": `bytes */${size}` });
+    }
+    res.writeHead(206, {
+      ...base,
+      "Content-Range": `bytes ${start}-${end}/${size}`,
+      "Content-Length": end - start + 1,
+    });
+    return createReadStream(abs, { start, end }).pipe(res);
+  }
+  res.writeHead(200, { ...base, "Content-Length": size });
+  createReadStream(abs).pipe(res);
+}
+
 const server = http.createServer(async (req, res) => {
   try {
     const url = new URL(req.url, `http://localhost:${PORT}`);
+    if (url.pathname.startsWith("/video/")) {
+      return await serveVideo(req, res, decodeURIComponent(url.pathname.slice("/video/".length)));
+    }
     if (!url.pathname.startsWith("/img/")) return send(res, 404, "not found");
 
     const key = decodeURIComponent(url.pathname.slice("/img/".length));

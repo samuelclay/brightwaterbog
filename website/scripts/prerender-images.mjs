@@ -86,6 +86,26 @@ await Promise.all(
   }),
 );
 
+// Videos ship as-is — they were transcoded once at ingest (H.264, long edge
+// ≤1280, no audio, faststart), so there is no ladder to render. Copy each
+// clip to dist/video/<key>, matching videoUrl() in src/lib/imageUrl.ts.
+const videoKeys = [
+  ...new Set(Object.values(photos).flat().map((p) => p.video).filter(Boolean)),
+].sort();
+let videosCopied = 0;
+for (const key of videoKeys) {
+  const src = path.join(PHOTOS, key);
+  if ((await mtime(src)) < 0) {
+    failed++;
+    console.error(`missing source video: ${key}`);
+    continue;
+  }
+  const dest = path.join(SITE, "dist", "video", key);
+  await mkdir(path.dirname(dest), { recursive: true });
+  await copyFile(src, dest, constants.COPYFILE_FICLONE);
+  videosCopied++;
+}
+
 // Social preview card: the same photo the hero leads with (Stargate's newest
 // "now" shot, matching Hero.astro's slide pick), cropped to the 1200x630
 // Open Graph frame as JPEG — WhatsApp and older scrapers are unreliable with
@@ -108,6 +128,7 @@ if (ogPhoto) {
 console.log(
   `prerender-images: ${keys.length} photos × ${ALL_WIDTHS.length} widths — ` +
     `${rendered} rendered, ${cached} cached, ${failed} failed` +
+    `, ${videosCopied} videos copied` +
     (ogPhoto ? ", og.jpg rendered" : ""),
 );
 if (failed) process.exit(1);

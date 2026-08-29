@@ -41,6 +41,16 @@ export function imageUrl(key: string, { w, fit = "cover", q = 78, v }: ImageOpts
   return `/img/${w}/${enc(key)}.webp${v ? `?v=${encodeURIComponent(v)}` : ""}`;
 }
 
+/**
+ * URL for a video key (path relative to photos/). Unlike images there is no
+ * ladder — the clip is transcoded once by the ingest step and served as-is:
+ * from the dev server's /video route in dev, and from dist/video/<key> in
+ * prod (copied there by scripts/prerender-images.mjs).
+ */
+export function videoUrl(key: string): string {
+  return DEV ? `${DEV_IMG}/video/${enc(key)}` : `/video/${enc(key)}`;
+}
+
 /** Build a srcset across widths for responsive <img>. */
 export function srcset(key: string, widths: number[], fit: Fit = "cover", q = 78, v?: string): string {
   return widths.map((w) => `${imageUrl(key, { w, fit, q, v })} ${w}w`).join(", ");

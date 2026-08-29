@@ -1,5 +1,5 @@
 ---
-import { imageUrl, srcset, STRIP_WIDTHS } from "../lib/imageUrl";
+import { imageUrl, srcset, videoUrl, STRIP_WIDTHS } from "../lib/imageUrl";
 import photosData from "../data/photos.json";
 
 // the largest photo set on the site gets the full bar width; smaller sets get
@@ -26,6 +26,8 @@ interface PhotoEntry {
   width: number | null;
   height: number | null;
   orientation: string;
+  /** Present on video items: key of the .mp4 played in place of the still. */
+  video?: string;
 }
 interface Props {
   photos: PhotoEntry[];
@@ -55,6 +57,7 @@ function frameData(p: PhotoEntry) {
     full: imageUrl(p.key, { w: 1800, fit: "contain", v }),
     fullHi: imageUrl(p.key, { w: 2600, fit: "contain", v }),
     fullZoom: imageUrl(p.key, { w: 4000, fit: "contain", v }),
+    video: p.video ? videoUrl(p.video) : "",
     w: p.width ?? 0,
     h: p.height ?? 0,
     year: p.date ? p.date.slice(0, 4) : "",
@@ -113,18 +116,37 @@ const total = photos.length;
                 data-w={f.w}
                 data-h={f.h}
                 data-era={`${g.label}${f.year ? ` · ${f.year}` : ""}`}
-                aria-label={`${title}, ${g.label} photo ${i + 1}, open full screen`}
+                data-video={f.video || undefined}
+                aria-label={`${title}, ${g.label} ${f.video ? "clip" : "photo"} ${i + 1}, open full screen`}
               >
-                <img
-                  src={f.thumb}
-                  srcset={f.thumbset}
-                  sizes="440px"
-                  width={f.w || undefined}
-                  height={f.h || undefined}
-                  loading="lazy"
-                  decoding="async"
-                  alt={`${title}, ${g.label.toLowerCase()} photo`}
-                />
+                {f.video ? (
+                  /* src is withheld until the clip scrolls into view (see
+                     islands/strip-video) so a page of strips doesn't pull
+                     down every megabyte at once. */
+                  <video
+                    class="frame__video"
+                    data-strip-video={f.video}
+                    poster={f.thumb}
+                    width={f.w || undefined}
+                    height={f.h || undefined}
+                    muted
+                    loop
+                    playsinline
+                    preload="none"
+                    aria-label={`${title}, ${g.label.toLowerCase()} clip`}
+                  />
+                ) : (
+                  <img
+                    src={f.thumb}
+                    srcset={f.thumbset}
+                    sizes="440px"
+                    width={f.w || undefined}
+                    height={f.h || undefined}
+                    loading="lazy"
+                    decoding="async"
+                    alt={`${title}, ${g.label.toLowerCase()} photo`}
+                  />
+                )}
                 <span class="frame__era">
                   {g.label}
                   {f.year ? ` · ${f.year}` : ""}

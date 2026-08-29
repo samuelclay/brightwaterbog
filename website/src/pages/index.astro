@@ -85,6 +85,9 @@ const poetryPhotos = poetry ? (photos[poetry.id] ?? []) : [];
   <div class="lightbox" data-lightbox-root hidden aria-hidden="true">
     <div class="lightbox__stage" data-lightbox-stage>
       <img class="lightbox__img" data-lightbox-img alt="" />
+      {/* Swapped in for the <img> on video items — same class, so it inherits
+          the stage sizing, zoom transform origin and carousel stacking. */}
+      <video class="lightbox__img" data-lightbox-video muted loop playsinline hidden></video>
     </div>
     <span class="lightbox__era" data-lightbox-era hidden></span>
     {/* Inline SVG icons, not text glyphs — iOS renders ✕/‹/› with off-kilter
@@ -109,6 +112,7 @@ const poetryPhotos = poetry ? (photos[poetry.id] ?? []) : [];
     import "../islands/hero-ripple";
     import "../islands/scroll-stage";
     import "../islands/photo-strip";
+    import "../islands/strip-video";
     import "../islands/lightbox";
   </script>
 </Base>

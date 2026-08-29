@@ -9,13 +9,21 @@ interface Item {
   w: number;
   h: number;
   era: string;
+  /** Video items play a clip in place of the still; `full` is its poster. */
+  video: string;
 }
 
 function init() {
   const root = document.querySelector<HTMLElement>("[data-lightbox-root]");
   const stage = document.querySelector<HTMLElement>("[data-lightbox-stage]");
   const img = document.querySelector<HTMLImageElement>("[data-lightbox-img]");
+  const vid = document.querySelector<HTMLVideoElement>("[data-lightbox-video]");
   if (!root || !stage || !img) return;
+
+  // Whichever of <img>/<video> is currently on stage. Every gesture — zoom,
+  // pan, swipe, dismiss — drives this rather than the <img> directly, so
+  // clips get the same handling photos do.
+  let media: HTMLElement = img;
 
   const eraPill = document.querySelector<HTMLElement>("[data-lightbox-era]");
   const btnClose = document.querySelector<HTMLButtonElement>("[data-lightbox-close]");
@@ -33,7 +41,7 @@ function init() {
   let sliding = false;
 
   // Neighbor photo element shown during carousel swipes/slides.
-  let peer: HTMLImageElement | null = null;
+  let peer: HTMLElement | null = null;
   let peerDir: 1 | -1 = 1;
 
   const MIN = 1;
@@ -68,28 +76,28 @@ function init() {
   }
 
   function apply() {
-    img.style.transform = `translate(${tx}px, ${ty}px) scale(${scale})`;
+    media.style.transform = `translate(${tx}px, ${ty}px) scale(${scale})`;
     root.classList.toggle("is-zoomed", scale > 1.02);
   }
   function resetTransform() {
     scale = 1;
     tx = 0;
     ty = 0;
-    img.style.transition = "none";
+    media.style.transition = "none";
     apply();
   }
   function resetZoomAnimated() {
     scale = 1;
     tx = 0;
     ty = 0;
-    img.style.transition = reduce ? "none" : "transform 0.3s ease";
+    media.style.transition = reduce ? "none" : "transform 0.3s ease";
     apply();
   }
 
   function clampPan() {
     const rect = stage.getBoundingClientRect();
-    const iw = img.clientWidth * scale;
-    const ih = img.clientHeight * scale;
+    const iw = media.clientWidth * scale;
+    const ih = media.clientHeight * scale;
     const maxX = Math.max(0, (iw - rect.width) / 2 + 40);
     const maxY = Math.max(0, (ih - rect.height) / 2 + 40);
     tx = Math.min(maxX, Math.max(-maxX, tx));
@@ -99,6 +107,7 @@ function init() {
   const stageWidth = () => stage.getBoundingClientRect().width;
 
   function upgradeHi(item: Item) {
+    if (item.video) return; // clips have no resolution ladder
     const hi = new Image();
     hi.onload = () => {
       if (items[index] === item && !zoomApplied) {
@@ -116,7 +125,7 @@ function init() {
     if (zoomRequested) return;
     zoomRequested = true;
     const item = items[index];
-    if (!item?.zoom || item.zoom === item.hi) return;
+    if (!item?.zoom || item.zoom === item.hi || item.video) return;
     const z = new Image();
     z.onload = () => {
       const swap = () => {
@@ -128,6 +137,61 @@ function init() {
       z.decode ? z.decode().then(swap, swap) : swap();
     };
     z.src = item.zoom;
+  }
+
+  // Park an element off stage: it may still carry a transform/opacity from
+  // the gesture that just ended, and it must come back clean.
+  function stash(el: HTMLElement) {
+    el.hidden = true;
+    el.style.transition = "none";
+    el.style.transform = "";
+    el.style.opacity = "";
+  }
+
+  // Put an item on stage, choosing <img> or <video>, and point `media` at
+  // whichever landed there.
+  function showItem(item: Item) {
+    if (item.video && vid) {
+      img.removeAttribute("src");
+      stash(img);
+      vid.hidden = false;
+      vid.poster = item.full;
+      vid.src = item.video;
+      void vid.play().catch(() => {});
+      media = vid;
+    } else {
+      if (vid) {
+        vid.pause();
+        vid.removeAttribute("src");
+        // The poster outlives the src, so it must go too — otherwise the
+        // parked <video> still has a frame to paint.
+        vid.removeAttribute("poster");
+        stash(vid);
+      }
+      img.hidden = false;
+      img.src = item.full;
+      media = img;
+    }
+  }
+
+  // Peer element matching an item's kind, used for carousel slides.
+  function makePeer(item: Item): HTMLElement {
+    if (item.video && vid) {
+      const v = document.createElement("video");
+      v.className = vid.className;
+      v.muted = true;
+      v.loop = true;
+      v.playsInline = true;
+      v.poster = item.full;
+      v.src = item.video;
+      void v.play().catch(() => {});
+      return v;
+    }
+    const g = document.createElement("img");
+    g.className = img.className;
+    g.alt = "";
+    g.src = item.full;
+    return g;
   }
 
   function removePeer() {
@@ -174,11 +238,7 @@ function init() {
   function ensurePeer(dir: 1 | -1) {
     if (peer && peerDir === dir) return;
     removePeer();
-    const it = items[(index + dir + items.length) % items.length];
-    const g = document.createElement("img");
-    g.className = img.className;
-    g.alt = "";
-    g.src = it.full;
+    const g = makePeer(items[(index + dir + items.length) % items.length]);
     g.style.transition = "none";
     g.style.transform = `translateX(${dir * stageWidth()}px)`;
     stage.appendChild(g);
@@ -193,12 +253,12 @@ function init() {
   let eraRaf = 0;
   function placeEra() {
     if (!eraPill || eraPill.hidden) return;
-    const r = img.getBoundingClientRect();
+    const r = media.getBoundingClientRect();
     eraPill.style.left = `${r.left + 8}px`;
     eraPill.style.top = `${r.bottom - eraPill.offsetHeight - 8}px`;
     // Fade with the photo on dismiss drags, but leave the inline opacity
     // unset otherwise so the .is-zoomed CSS fade still wins.
-    const o = img.style.opacity;
+    const o = media.style.opacity;
     eraPill.style.opacity = o && o !== "1" ? o : "";
   }
   function startEraTracking() {
@@ -226,10 +286,10 @@ function init() {
     zoomApplied = false;
     sliding = false;
     removePeer();
+    showItem(item);
     resetTransform();
     setEra(item);
-    img.style.opacity = "1";
-    img.src = item.full;
+    media.style.opacity = "1";
     upgradeHi(item);
     const single = items.length < 2;
     if (btnPrev) btnPrev.disabled = single;
@@ -248,35 +308,37 @@ function init() {
     const p = peer!;
     p.getBoundingClientRect(); // commit the start position before animating
     const t = reduce ? "none" : `transform ${SLIDE_MS}ms ${SLIDE_EASE}`;
-    img.style.transition = t;
+    const outgoing = media;
+    outgoing.style.transition = t;
     p.style.transition = t;
-    img.style.transform = `translateX(${-dir * width}px)`;
+    outgoing.style.transform = `translateX(${-dir * width}px)`;
     p.style.transform = "translateX(0px)";
     const finish = () => {
       index = nextIndex;
       hiLoaded = false;
       zoomRequested = false;
       zoomApplied = false;
+      showItem(item);
       resetTransform();
       setEra(item);
       // The peer keeps covering the stage until the new src is decoded, so
-      // the swap from peer to the canonical img never flashes.
-      img.style.opacity = "0";
-      img.src = item.full;
+      // the swap from peer to the canonical element never flashes.
+      media.style.opacity = "0";
       let revealed = false;
       const reveal = () => {
         if (revealed) return;
         revealed = true;
-        img.style.opacity = "1";
+        media.style.opacity = "1";
         if (peer === p) peer = null;
         p.remove();
         sliding = false;
         upgradeHi(item);
       };
-      img.decode().then(reveal, reveal);
       // decode() is paint-driven and can stall (e.g. hidden tabs) — the peer
-      // already showed this src, so revealing without it is safe.
-      setTimeout(reveal, 400);
+      // already showed this src, so revealing without it is safe. Video has no
+      // decode(); its poster is the frame the peer was already showing.
+      if (media === img) img.decode().then(reveal, reveal);
+      setTimeout(reveal, media === img ? 400 : 60);
     };
     if (reduce) finish();
     else setTimeout(finish, SLIDE_MS + 20);
@@ -332,6 +394,12 @@ function init() {
       sliding = false;
       img.src = "";
       img.style.opacity = "1";
+      // Stop decoding the clip once it's out of sight.
+      if (vid) {
+        vid.pause();
+        vid.removeAttribute("src");
+        vid.removeAttribute("poster");
+      }
     };
     if (reduce) done();
     else setTimeout(done, 260);
@@ -339,7 +407,7 @@ function init() {
 
   function zoomAt(px: number, py: number, next: number) {
     const target = Math.min(MAX, Math.max(MIN, next));
-    const rect = img.getBoundingClientRect();
+    const rect = media.getBoundingClientRect();
     const cx = px - (rect.left + rect.width / 2);
     const cy = py - (rect.top + rect.height / 2);
     const f = target / scale;
@@ -353,7 +421,7 @@ function init() {
     } else {
       clampPan();
     }
-    img.style.transition = reduce ? "none" : "transform 0.12s ease-out";
+    media.style.transition = reduce ? "none" : "transform 0.12s ease-out";
     apply();
     if (scale > 1.02) upgradeZoom();
   }
@@ -428,7 +496,7 @@ function init() {
       tx = baseTx + dx;
       ty = baseTy + dy;
       clampPan();
-      img.style.transition = "none";
+      media.style.transition = "none";
       apply();
       return;
     }
@@ -442,14 +510,14 @@ function init() {
       // current drag direction rides along one stage-width away.
       const dir: 1 | -1 = dx <= 0 ? 1 : -1;
       ensurePeer(dir);
-      img.style.transition = "none";
-      img.style.transform = `translateX(${dx}px)`;
+      media.style.transition = "none";
+      media.style.transform = `translateX(${dx}px)`;
       peer!.style.transition = "none";
       peer!.style.transform = `translateX(${dx + dir * stageWidth()}px)`;
     } else if (mode === "dismiss") {
-      img.style.transition = "none";
-      img.style.transform = `translateY(${dy}px)`;
-      img.style.opacity = String(Math.max(0.2, 1 - Math.abs(dy) / 400));
+      media.style.transition = "none";
+      media.style.transform = `translateY(${dy}px)`;
+      media.style.opacity = String(Math.max(0.2, 1 - Math.abs(dy) / 400));
     }
   });
 
@@ -496,7 +564,7 @@ function init() {
       else snapBack();
     } else if (!moved) {
       // Clean tap: on the image → zoom in at that point; on the backdrop → close.
-      const r = img.getBoundingClientRect();
+      const r = media.getBoundingClientRect();
       const onImage =
         e.clientX >= r.left && e.clientX <= r.right &&
         e.clientY >= r.top && e.clientY <= r.bottom;
@@ -508,9 +576,9 @@ function init() {
 
   function snapBack() {
     const t = reduce ? "none" : "transform 0.25s ease, opacity 0.25s ease";
-    img.style.transition = t;
-    img.style.transform = scale > 1.02 ? `translate(${tx}px,${ty}px) scale(${scale})` : "";
-    img.style.opacity = "1";
+    media.style.transition = t;
+    media.style.transform = scale > 1.02 ? `translate(${tx}px,${ty}px) scale(${scale})` : "";
+    media.style.opacity = "1";
     if (peer) {
       const p = peer;
       const d = peerDir;
@@ -553,6 +621,7 @@ function init() {
       w: Number(el.dataset.w) || 0,
       h: Number(el.dataset.h) || 0,
       era: el.dataset.era ?? "",
+      video: el.dataset.video ?? "",
     }));
   }
 
