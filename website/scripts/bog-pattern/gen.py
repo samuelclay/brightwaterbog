@@ -7,7 +7,7 @@ whole page at runtime with blue-noise spacing, so no two areas match.
 
 Animal silhouettes come from phylopic.org (see sources/CREDITS.md); mountain
 laurel and blueberry are drawn here because PhyloPic has no Kalmia and its
-Vaccinium loses the berries at this size. Run from website-fable/:
+Vaccinium loses the berries at this size. Run from website/:
 
     python3 scripts/bog-pattern/gen.py
 """

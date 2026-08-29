@@ -41,7 +41,7 @@ To hydrate or back up that tree with Cloudflare R2:
 ```bash
 cp tools/r2-originals.example.env tools/r2-originals.local.env
 $EDITOR tools/r2-originals.local.env
-cd website-fable
+cd website
 make sync-originals-down     # download originals from R2, then rebuild catalog
 make sync-originals-dry-run  # preview upload delta
 make sync-originals-up       # upload originals to R2

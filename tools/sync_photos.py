@@ -14,11 +14,11 @@ finds those stale files and replaces them with the full-size original:
   4. Overwrites each stale file in place (same filename, so site keys and
      R2 upload keys never change) and updates the folder's _manifest.json.
   5. Repairs manifest `filename` fields that don't match the on-disk name.
-  6. Clears website-fable/.img-cache when anything changed so the dev image
+  6. Clears website/.img-cache when anything changed so the dev image
      server re-renders.
 
 Idempotent: a second run finds nothing to do. Run via `make sync-photos`
-from website-fable/ (which also regenerates the site catalog afterwards).
+from website/ (which also regenerates the site catalog afterwards).
 """
 
 from __future__ import annotations
@@ -39,7 +39,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 PHOTOS = REPO / "photos"
 APPLE = PHOTOS / "apple-photos-stained-glass"
-IMG_CACHE = REPO / "website-fable" / ".img-cache"
+IMG_CACHE = REPO / "website" / ".img-cache"
 LIBRARY = Path.home() / "Pictures" / "Photos Library.photoslibrary"
 
 UUID_RE = re.compile(r"_([0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12})\.\w+$")
@@ -256,7 +256,7 @@ def main() -> int:
         for f in IMG_CACHE.iterdir():
             if f.suffix == ".webp":
                 f.unlink()
-        print("sync-photos: cleared website-fable/.img-cache")
+        print("sync-photos: cleared website/.img-cache")
 
     print(f"sync-photos: replaced {replaced}/{len(stale)} stale photo(s)")
     return 0

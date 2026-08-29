@@ -11,10 +11,10 @@
 - Publish `cameras.local` only from Home Assistant's `brightwater_mdns_alias` add-on. The laptop LaunchAgent and Compose stack are fallback/development tools and must remain stopped during production.
 - Deploy camera-monitor changes with `make camera-monitor-ha-deploy`, then verify all ten live frames, all four Eufy floodlight controls, add-on CPU/memory, Eufy error logs, and go2rtc producer/consumer counts.
 
-## Website (website-fable/)
+## Website (website/)
 
 Single-page Astro site (`src/pages/index.astro`) for the sculpture trail. `make` in
-`website-fable/` (re)starts the dev stack: site on :4321, dev image server on :8788.
+`website/` (re)starts the dev stack: site on :4321, dev image server on :8788.
 
 ### Generated data — `make catalog`, then restart dev
 
@@ -22,7 +22,7 @@ Single-page Astro site (`src/pages/index.astro`) for the sculpture trail. `make`
   The site reads only those, never the photo tree or manifests. After ANY change to
   the photos tree, a `_manifest.json`, sculpture frontmatter (GPS, `map:`, folder
   lists), `construction.json`, `drawings.json`, or `MAP_COORDS` in
-  `scripts/catalog.mjs`, run `make catalog` in `website-fable/`.
+  `scripts/catalog.mjs`, run `make catalog` in `website/`.
 - The Astro dev server does NOT hot-reload the regenerated `photos.json` — run
   `make restart` (or `make`) after `make catalog`, or the browser keeps serving
   the stale photo set.
@@ -74,7 +74,7 @@ Single-page Astro site (`src/pages/index.astro`) for the sculpture trail. `make`
 
 ### Deploying (`make deploy` → bwb.samuelclay.com)
 
-- `make deploy` in `website-fable/` builds (astro + image ladder) and
+- `make deploy` in `website/` builds (astro + image ladder) and
   direct-uploads `dist/` to the `brightwaterbog` Cloudflare Pages project on the
   ofbrooklyn account (the same account as cooking.samuelclay.com).
 - ALWAYS run wrangler with `--profile ofbrooklyn` for this site. Profiles live in
@@ -104,14 +104,14 @@ Single-page Astro site (`src/pages/index.astro`) for the sculpture trail. `make`
 
 - Full-resolution modern originals under `photos/apple-photos-stained-glass/`
   are ignored by git. Keep a Cloudflare R2 copy so a fresh machine can hydrate
-  the main photo tree with `make sync-originals-down` from `website-fable/`.
+  the main photo tree with `make sync-originals-down` from `website/`.
 - R2 settings and credentials live in ignored `tools/r2-originals.local.env`;
   copy `tools/r2-originals.example.env` and never print, paste, or commit the
   real R2 account ID, bucket credentials, or secret key.
 - `make sync-originals-up` uploads the ignored originals tree to R2 without
   deleting remote-only files. Use `make sync-originals-dry-run` before a first
   upload or any suspicious local change. Deletion requires explicitly running
-  `python3 ../tools/r2_originals_sync.py up --delete` from `website-fable/`.
+  `python3 ../tools/r2_originals_sync.py up --delete` from `website/`.
 - `make deploy-with-originals` first uploads originals to R2, then runs the
   normal Pages deploy; `make deploy` still only builds the site and uploads the
   baked responsive image ladder to Cloudflare Pages.
