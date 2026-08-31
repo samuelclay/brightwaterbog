@@ -46,6 +46,11 @@ Single-page Astro site (`src/pages/index.astro`) for the sculpture trail. `make`
   the right selected/ folder as `YYYYMMDD_HHMMSS_IMG_NNNN.jpeg`, pull created/GPS/dims
   with `mdls` (its dates are UTC — convert to America/New_York), append manifest rows.
   `exiftool` is not installed; `mdls` gives orientation-corrected pixel dims.
+  CAVEAT: that UTC rule only holds for videos. For JPGs, `mdls` re-reads the
+  naive EXIF time in the MACHINE's timezone, so on a laptop not set to Eastern
+  the date comes back shifted (3h off on Pacific). Read EXIF directly instead —
+  `.venv/bin/python` has Pillow, and `DateTimeOriginal` (0x9003) is already
+  local Eastern time.
 - Video clips live in the same selected/ folders and ride the photo pipeline via
   a poster still: the manifest row's `filename` is a `.jpg` frame (taken a third
   of the way in — the opening frame is often black), plus `video: "<same
@@ -72,6 +77,14 @@ Single-page Astro site (`src/pages/index.astro`) for the sculpture trail. `make`
   — 22 clips is ~76MB, so eager loading would be brutal. They also pause when
   scrolled away or the tab is hidden, and honor prefers-reduced-motion by
   staying on the poster.
+- A manifest row whose `filename` is a `.mov` is silently skipped by catalog.mjs
+  (that's how raw clips sometimes land from another machine). To publish one:
+  boomerang-encode it with the ffmpeg recipe above, pull the poster from the
+  ENCODED mp4 at one third of the original duration (`-ss dur/3 -frames:v 1`,
+  so dims/orientation match), then rewrite that row in place — `filename:` the
+  poster .jpg, plus `video:`, `duration:`, `video_loop: "boomerang"`, and jpg
+  width/height/bytes (copy the shape of an existing video row). Keep the .mov
+  in the folder as the re-encode source; non-manifest files are never cataloged.
 - `src/data/construction.json` (tracked, curated) reclassifies listed photo keys:
   a `now` photo becomes era `construction-now`, a `then` scan becomes `construction`.
   Workshop/build shots belong here.
@@ -141,3 +154,20 @@ Single-page Astro site (`src/pages/index.astro`) for the sculpture trail. `make`
 - `make deploy-with-originals` first uploads originals to R2, then runs the
   normal Pages deploy; `make deploy` still only builds the site and uploads the
   baked responsive image ladder to Cloudflare Pages.
+- The sync script shells out to the `aws` CLI (`brew install awscli`). One-time
+  account setup (done 2026-08-30): R2 enabled on the ofbrooklyn account, bucket
+  created with `wrangler r2 bucket create brightwaterbog-originals --profile
+  ofbrooklyn`, and an API token (dashboard → R2 → Manage R2 API Tokens, "Object
+  Read & Write" scoped to that bucket) pasted into the local env. Needs global
+  wrangler ≥4.12x for the `--profile` flag (`wrangler whoami` refuses the flag
+  and only reports the active profile).
+- If the sync dies with `SSLV3_ALERT_HANDSHAKE_FAILURE` from
+  `<account>.r2.cloudflarestorage.com`, that is NOT an aws/python problem: the
+  S3 endpoint's TLS doesn't exist until R2 is enabled, and lags enablement by
+  some minutes. Wait and retry before debugging anything local.
+- Fallback while R2 creds aren't on a machine: the ignored photo tree diverges
+  per machine (claymac-studio is where imports happen — commits can reference
+  keys that exist only there, silently emptying stops elsewhere). Merge over
+  the tailnet with `rsync -a` between the `photos/apple-photos-stained-glass/`
+  trees — dry-run (`-n --itemize-changes`) BOTH directions first, never
+  `--delete` — then `make catalog`.
