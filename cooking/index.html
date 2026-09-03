@@ -4,18 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <base href="/">
-<!--og--><title>The Purple Carrot Book</title>
-<meta name="description" content="131 plant-based dinners from the family's Purple Carrot recipe cards — full ingredients, steps, and photos, all searchable on one page.">
+<!--og--><title>The Cooking Book</title>
+<meta name="description" content="131 plant-based dinners from the family's Purple Carrot recipe cards, plus the recipes saved from NYT Cooking — full ingredients, steps, and photos, all searchable on one page.">
 <link rel="canonical" href="https://cooking.samuelclay.com/">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="The Purple Carrot Book">
-<meta property="og:title" content="The Purple Carrot Book">
-<meta property="og:description" content="131 plant-based dinners from the family's Purple Carrot recipe cards — full ingredients, steps, and photos, all searchable on one page.">
+<meta property="og:site_name" content="The Cooking Book">
+<meta property="og:title" content="The Cooking Book">
+<meta property="og:description" content="131 plant-based dinners from the family's Purple Carrot recipe cards, plus the recipes saved from NYT Cooking — full ingredients, steps, and photos, all searchable on one page.">
 <meta property="og:url" content="https://cooking.samuelclay.com/">
 <meta property="og:image" content="https://cooking.samuelclay.com/images/og-cover.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="A mosaic of six Purple Carrot dishes behind the wordmark “The Purple Carrot Book”.">
+<meta property="og:image:alt" content="A mosaic of six Purple Carrot dishes behind the wordmark “The Cooking Book”.">
 <meta name="twitter:card" content="summary_large_image"><!--/og-->
 <meta name="theme-color" content="#3E2A52">
 <link rel="icon" type="image/svg+xml" href="assets/favicons/2-carrot-on-aubergine.svg">
@@ -203,6 +203,13 @@ main{max-width:1200px;margin:0 auto;padding:1.6rem 1.5rem 4rem}
   font-size:.7rem;font-weight:600;color:var(--aubergine);
   background:#F1EAF7;border-radius:4px;padding:.05rem .4rem;
 }
+/* source chips lead the tag row: orange for the binder, slate blue for NYT Cooking */
+.mini-tag.src-pc{background:var(--carrot);color:#fff}
+.mini-tag.src-nyt{background:#33465B;color:#fff}
+.cover-wrap .no-photo{
+  width:100%;height:100%;display:flex;align-items:center;justify-content:center;
+  font-family:'Fraunces',Georgia,serif;font-style:italic;color:var(--ink-soft);background:#F1EAF7;
+}
 
 /* ---------- expanded recipe (binder page) ---------- */
 .detail{
@@ -241,6 +248,72 @@ main{max-width:1200px;margin:0 auto;padding:1.6rem 1.5rem 4rem}
 }
 .banner span{padding:.32rem .8rem}
 .banner span+span{background:var(--banner-deep)}
+
+/* ---------- servings scaler ---------- */
+.detail-top{
+  display:flex;align-items:center;gap:.6rem .8rem;flex-wrap:wrap;margin-bottom:.9rem;
+}
+.detail-top .banner{margin-bottom:0}
+/* single-column layouts put the × close button over this row's right edge */
+@media (max-width:880px){.detail-top{padding-right:2.6rem}}
+.scaler{
+  margin-left:auto;display:inline-flex;align-items:center;gap:.5rem;
+  border:1.5px solid var(--hairline);border-radius:999px;
+  padding:.25rem .4rem .25rem .75rem;background:var(--paper);
+}
+.scaler-label{
+  font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--carrot-deep);white-space:nowrap;
+}
+.scaler-range{
+  -webkit-appearance:none;appearance:none;
+  width:100px;height:18px;margin:0;
+  background:transparent;cursor:pointer;
+}
+.scaler-range::-webkit-slider-runnable-track{
+  height:4px;border-radius:2px;
+  background:linear-gradient(to right,var(--carrot) var(--fill,0%),var(--hairline) var(--fill,0%));
+}
+.scaler-range::-webkit-slider-thumb{
+  -webkit-appearance:none;appearance:none;
+  width:18px;height:18px;margin-top:-7px;border-radius:50%;
+  background:var(--card);border:2.5px solid var(--carrot);
+  box-shadow:0 1px 3px rgba(43,36,51,.28);
+}
+.scaler-range::-moz-range-track{height:4px;border-radius:2px;background:var(--hairline)}
+.scaler-range::-moz-range-progress{height:4px;border-radius:2px;background:var(--carrot)}
+.scaler-range::-moz-range-thumb{
+  width:13px;height:13px;border-radius:50%;
+  background:var(--card);border:2.5px solid var(--carrot);
+}
+.scaler-range:focus-visible{outline:2px solid var(--carrot);outline-offset:3px;border-radius:999px}
+.scaler-num{
+  width:2.4rem;padding:.12rem .25rem;text-align:center;
+  font:inherit;font-weight:700;font-size:1rem;line-height:1.3;color:var(--aubergine-deep);
+  background:var(--card);border:1.5px solid var(--hairline);border-radius:6px;
+  -moz-appearance:textfield;appearance:textfield;
+}
+.scaler-num::-webkit-outer-spin-button,.scaler-num::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.scaler-num:focus{outline:2px solid var(--carrot);outline-offset:1px;border-color:transparent}
+@media (pointer:coarse){.scaler-num{font-size:16px}}
+@media (max-width:600px){
+  .scaler{width:100%;margin-left:0}
+  .scaler-range{flex:1;width:auto}
+}
+/* "for 12 servings · ×6 · reset" beside the Ingredients heading */
+.scale-note{
+  display:inline-flex;align-items:baseline;gap:.35rem;
+  font-weight:600;letter-spacing:0;text-transform:none;color:var(--ink-soft);
+}
+.scale-note[hidden]{display:none}
+.scale-note b{color:var(--carrot-deep);font-weight:700}
+.scaler-reset{
+  font-size:.72rem;font-weight:600;letter-spacing:0;text-transform:none;color:var(--ink-soft);
+  text-decoration:underline;text-underline-offset:3px;padding:0 .1rem;white-space:nowrap;
+}
+.scaler-reset:hover{color:var(--carrot-deep)}
+.scaler-reset:focus-visible{outline:2px solid var(--carrot);outline-offset:1px;border-radius:4px}
+.ing-cols.scaled .qty,.plain-list.scaled .qty{color:var(--carrot-deep);font-weight:700}
 .detail-text h2{
   font-family:'Fraunces',Georgia,serif;font-weight:700;
   font-size:clamp(1.5rem,3vw,2.1rem);line-height:1.12;color:var(--aubergine-deep);
@@ -250,6 +323,10 @@ main{max-width:1200px;margin:0 auto;padding:1.6rem 1.5rem 4rem}
   color:var(--ink-soft);font-size:1.05rem;margin-top:.15rem;
 }
 .detail-text .desc{margin-top:.8rem;color:var(--ink);max-width:58ch}
+.detail-text .byline{font-family:inherit;font-style:normal;font-size:.92rem}
+.detail-text .byline a{color:var(--carrot-deep);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.detail-text .byline a:hover{color:var(--aubergine)}
+.detail-text .byline .rating-n{color:var(--ink-soft);font-weight:400}
 .detail-tags{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.8rem}
 .section-label{
   font-size:.72rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
@@ -265,6 +342,18 @@ main{max-width:1200px;margin:0 auto;padding:1.6rem 1.5rem 4rem}
 .ing-cols li::before,.plain-list li::before{
   content:"»";position:absolute;left:0;color:var(--carrot);font-weight:700;
 }
+/* NYT ingredient group headings ("For the sauce") */
+.ing-cols li.ing-group{
+  padding-left:0;margin-top:.55rem;font-size:.72rem;font-weight:700;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--aubergine);
+}
+.ing-cols li.ing-group::before{content:none}
+.ing-cols li.ing-group:first-child{margin-top:0}
+.src-link{
+  display:block;text-align:center;font-size:.8rem;font-weight:600;color:var(--carrot-deep);
+  text-decoration:underline;text-underline-offset:3px;
+}
+.src-link:hover{color:var(--aubergine)}
 .steps{list-style:none;counter-reset:step}
 .steps li{
   counter-increment:step;position:relative;
@@ -387,7 +476,7 @@ footer.site{
 <header class="site">
   <div class="site-inner">
     <div class="masthead">
-      <h1>The <span class="carrot-mark">Purple&nbsp;Carrot</span> Book</h1>
+      <h1>The <span class="carrot-mark">Cooking</span> Book</h1>
     </div>
   </div>
 </header>
@@ -407,6 +496,12 @@ footer.site{
     <button class="pill" data-group="item" aria-expanded="false">
       Pantry &amp; spices <span class="badge"></span><span class="pill-x" role="button" aria-label="Clear pantry filters">×</span><span class="caret">▾</span>
     </button>
+    <button class="pill" data-group="course" aria-expanded="false">
+      Course <span class="badge"></span><span class="pill-x" role="button" aria-label="Clear course filters">×</span><span class="caret">▾</span>
+    </button>
+    <button class="pill" data-group="source" aria-expanded="false">
+      Source <span class="badge"></span><span class="pill-x" role="button" aria-label="Clear source filters">×</span><span class="caret">▾</span>
+    </button>
     <span class="result-count" id="count"></span>
     <button class="clear-all" id="clearAll">Clear all</button>
   </div>
@@ -415,6 +510,8 @@ footer.site{
       <div class="group-box" data-group="cuisine"><div class="chips" data-group="cuisine"></div></div>
       <div class="group-box" data-group="ingredient"><div class="chips" data-group="ingredient"></div></div>
       <div class="group-box" data-group="item"><div class="chips" data-group="item"></div></div>
+      <div class="group-box" data-group="course"><div class="chips" data-group="course"></div></div>
+      <div class="group-box" data-group="source"><div class="chips" data-group="source"></div></div>
     </div>
   </div>
 </div>
@@ -424,7 +521,7 @@ footer.site{
 </main>
 
 <footer class="site">
-  131 recipes digitized from 254 photos of the family's Purple Carrot cards · photographed June 5, 2026 · OCR by Claude
+  131 recipes digitized from 254 photos of the family's Purple Carrot cards · photographed June 5, 2026 · OCR by Claude<span id="nytNote"></span>
 </footer>
 
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Recipe card photo">
@@ -439,17 +536,27 @@ footer.site{
 </div>
 
 <script src="data/recipes.js"></script>
+<script src="data/nyt_recipes.js"></script>
 <script>
 (function(){
-  const R = window.RECIPES || [];
+  // Binder cards first, then the recipes saved from NYT Cooking (data/nyt_recipes.js,
+  // same row shape, source:"nyt"). Each row gets a source tag so "Source" filters like
+  // any other group.
+  const R = [...(window.RECIPES || []), ...(window.NYT_RECIPES || [])];
+  const SOURCE_NAME = {nyt:'New York Times'};
+  const srcChip = r => `<span class="mini-tag src-${r.source==='nyt'?'nyt':'pc'}">${esc(r.source_tags[0])}</span>`;
+  R.forEach(r => {
+    r.source_tags = [SOURCE_NAME[r.source] || 'Purple Carrot'];
+    r.course_tags = r.course_tags || ['Dinner'];   // every binder card is a dinner kit
+  });
   const grid = document.getElementById('grid');
-  const state = {cuisine:new Set(), ingredient:new Set(), item:new Set(), q:''};
+  const state = {cuisine:new Set(), ingredient:new Set(), item:new Set(), course:new Set(), source:new Set(), q:''};
   let openPair = null;
 
   // ---------- tag inventories ----------
-  const GROUPS = ['cuisine','ingredient','item'];
-  const KEY = {cuisine:'cuisine_tags', ingredient:'ingredient_tags', item:'item_tags'};
-  const SHOW_N = {cuisine:99, ingredient:18, item:18};
+  const GROUPS = ['cuisine','ingredient','item','course','source'];
+  const KEY = {cuisine:'cuisine_tags', ingredient:'ingredient_tags', item:'item_tags', course:'course_tags', source:'source_tags'};
+  const SHOW_N = {cuisine:99, ingredient:18, item:18, course:99, source:99};
 
   function tagCounts(group){
     const m = new Map();
@@ -571,7 +678,7 @@ footer.site{
     if(shown===0 && !empty){
       empty = document.createElement('div');
       empty.className='empty-state';
-      empty.innerHTML = '<div class="big">Nothing in the binder matches</div>Try removing a filter — cuisine, ingredient, and pantry filters all have to match at once.';
+      empty.innerHTML = '<div class="big">Nothing in the binder matches</div>Try removing a filter — cuisine, ingredient, pantry, course, and source filters all have to match at once.';
       grid.appendChild(empty);
     } else if(shown>0 && empty){ empty.remove(); }
   }
@@ -592,24 +699,29 @@ footer.site{
 
   function buildCards(){
     const frag = document.createDocumentFragment();
-    R.forEach(r=>{
-      r._hay = [r.title,r.subtitle,(r.ingredients||[]).join(' '),
+    R.forEach((r,idx)=>{
+      r._hay = [r.title,r.subtitle,r.author,(r.ingredients||[]).join(' '),
                 (r.steps||[]).map(s=>(s.title?s.title+' ':'')+s.text).join(' '),
                 (r.cuisine_tags||[]).join(' '),(r.ingredient_tags||[]).join(' '),
-                (r.item_tags||[]).join(' ')].join(' ').toLowerCase();
+                (r.item_tags||[]).join(' '),(r.keywords||[]).join(' '),
+                (r.course_tags||[]).join(' '),(r.source_tags||[]).join(' ')].join(' ').toLowerCase();
       const art = document.createElement('article');
       art.className = 'recipe-card';
       art.id = 'r'+r.pair;
+      const cover = r.hero ? `images/hero/${r.hero}` : r.front ? `images/card/${r.front}` : null;
+      const sub = r.subtitle || (r.author ? 'by '+r.author : '');
+      const serves = r.servings ? `serves ${esc(r.servings)}` : (r.yield_text ? esc(r.yield_text) : '');
       art.innerHTML = `
         <button class="card-btn" aria-expanded="false">
-          <span class="cover-wrap"><img src="${r.hero?`images/hero/${r.hero}`:`images/card/${r.front}`}" alt="${esc(r.title)} — recipe photo" loading="eager"></span>
+          <span class="cover-wrap">${cover?`<img src="${cover}" alt="${esc(r.title)} — recipe photo" loading="${idx<16?'eager':'lazy'}">`:`<span class="no-photo">no photo</span>`}</span>
           <span class="card-body">
             <h2>${esc(r.title)}</h2>
-            ${r.subtitle?`<span class="card-sub">${esc(r.subtitle)}</span>`:''}
-            <span class="card-tags">${(r.cuisine_tags||[]).map(t=>`<span class="mini-tag">${esc(t)}</span>`).join('')}</span>
+            ${sub?`<span class="card-sub">${esc(sub)}</span>`:''}
+            <span class="card-tags">${srcChip(r)}${(r.cuisine_tags||[]).map(t=>`<span class="mini-tag">${esc(t)}</span>`).join('')}</span>
             <span class="card-meta">
               ${r.cook_time?`<span>⏱ ${esc(r.cook_time)}</span>`:''}
-              ${r.servings?`<span>serves ${esc(r.servings)}</span>`:''}
+              ${serves?`<span>${serves}</span>`:''}
+              ${r.rating&&r.rating.count?`<span>★ ${esc(r.rating.value)} · ${Number(r.rating.count).toLocaleString()}</span>`:''}
             </span>
           </span>
         </button>`;
@@ -705,11 +817,96 @@ footer.site{
     return rx ? safe.replace(rx, m=>'<b>'+m+'</b>') : safe;
   }
 
+  // ---------- servings scaler ----------
+  // Cards list amounts for their base serving count ("2" or "2 (4)"); the slider
+  // multiplies every leading quantity in Ingredients / From your kitchen by n/base.
+  const SCALER_MAX = 24;
+  const FRAC = {'⅛':1/8,'⅙':1/6,'¼':1/4,'⅓':1/3,'⅜':3/8,'½':1/2,'⅝':5/8,'⅔':2/3,'¾':3/4,'⅚':5/6,'⅞':7/8};
+  const QTY_RX = new RegExp(
+    '^(?:(\\d+)\\s+)?(\\d+)\\s*\\/\\s*(\\d+)(?![\\d\\/])' +            // 1/2, 1 1/2
+    '|^(\\d+(?:\\.\\d+)?)?\\s*([' + Object.keys(FRAC).join('') + '])' +  // ½, 1½, 1 ½
+    '|^(\\d+(?:\\.\\d+)?)(?![\\d\\/])'                                 // 1, 13.4
+  );
+  function baseServings(r){
+    const m = /\d+/.exec(String(r.servings||''));
+    if(m) return Math.max(1,+m[0]);
+    return r.yield_count>0 ? r.yield_count : 2;   // "24 cookies" scales by count
+  }
+  // NYT ingredient lists can carry group headings ("For the sauce") before line N
+  function ingList(r){
+    const groups = new Map((r.ingredient_groups||[]).map(g=>[g.at, g.title]));
+    return (r.ingredients||[]).map((i,idx)=>
+      (groups.has(idx)?`<li class="ing-group">${esc(groups.get(idx))}</li>`:'') +
+      `<li data-src="${esc(i)}">${scaledLine(i,1)}</li>`).join('');
+  }
+  function parseQty(s){
+    const m = QTY_RX.exec(s);
+    if(!m) return null;
+    let v, dec = false;
+    if(m[2]!==undefined){ if(!+m[3]) return null; v = (+m[1]||0) + (+m[2])/(+m[3]); }
+    else if(m[5]!==undefined){ v = (m[4]?+m[4]:0) + FRAC[m[5]]; dec = /\./.test(m[4]||''); }
+    else { v = +m[6]; dec = /\./.test(m[6]); }
+    return {value:v, dec, len:m[0].length};
+  }
+  function fmtQty(v, dec){
+    if(!(v>0)) return '0';
+    if(dec) return String(Math.round(v*100)/100);
+    const whole = Math.floor(v+1e-9), frac = v-whole;
+    if(frac<.02) return String(whole);
+    if(frac>.98) return String(whole+1);
+    let best=null, bd=.035;
+    for(const ch in FRAC){ const d=Math.abs(frac-FRAC[ch]); if(d<bd){bd=d;best=ch;} }
+    return best ? (whole||'')+best : String(Math.round(v*100)/100);
+  }
+  // Compound amounts ("¼ cup + 2 tbsp", "3 tbsp plus 1 tsp") scale each part.
+  function scaledLine(str, k){
+    return String(str||'').split(/(\s(?:\+|plus)\s+)/).map((seg,i)=>{
+      if(i%2) return esc(seg);
+      const q = parseQty(seg);
+      if(!q) return esc(seg);
+      const shown = k===1 ? seg.slice(0,q.len) : fmtQty(q.value*k, q.dec);
+      return `<span class="qty">${esc(shown)}</span>${esc(seg.slice(q.len))}`;
+    }).join('');
+  }
+  function attachScaler(d, base){
+    const range = d.querySelector('.scaler-range');
+    const num = d.querySelector('.scaler-num');
+    const reset = d.querySelector('.scaler-reset');
+    const note = d.querySelector('.scale-note');
+    const noteText = d.querySelector('.scale-note-text');
+    const lists = [...d.querySelectorAll('[data-scale]')];
+    const lis = [...d.querySelectorAll('[data-scale] li[data-src]')];
+    let current = base;
+    function apply(n){
+      n = Math.round(+n);
+      if(!(n>=1)) n = base;
+      current = Math.min(99, n);
+      const k = current/base;
+      const pos = Math.min(current, +range.max);
+      range.value = pos;
+      range.style.setProperty('--fill', ((pos-1)/(+range.max-1)*100)+'%');
+      if(document.activeElement!==num) num.value = current;
+      lis.forEach(li=>{ li.innerHTML = scaledLine(li.dataset.src, k); });
+      lists.forEach(ul=>ul.classList.toggle('scaled', k!==1));
+      noteText.innerHTML = `for <b>${current}</b> servings · <b>×${Math.round(k*100)/100}</b>`;
+      note.hidden = k===1;
+    }
+    range.addEventListener('input', ()=>apply(range.value));
+    num.addEventListener('input', ()=>{ if(num.value!=='') apply(num.value); });
+    num.addEventListener('change', ()=>{ apply(num.value); num.value = current; });
+    [num, range].forEach(el=>el.addEventListener('keydown', e=>{
+      if(e.key==='Escape'){ e.stopPropagation(); el.blur(); }   // don't close the recipe
+    }));
+    reset.addEventListener('click', ()=>apply(base));
+    apply(base);
+  }
+
   function renderDetail(r){
     const rx = boldRegex(r);
     const d = document.createElement('section');
     d.className = 'detail';
     d.setAttribute('aria-label', r.title + ' — full recipe');
+    const base = baseServings(r);
     const nut = r.nutrition||{};
     const nutRow = ['calories','fat','carbohydrates','protein']
       .filter(k=>nut[k]).map(k=>`<span>${k}: <b>${esc(nut[k])}</b></span>`).join('');
@@ -718,21 +915,31 @@ footer.site{
       <div class="detail-inner">
         <div class="detail-text">
           <span class="binder-hole h1"></span><span class="binder-hole h2"></span><span class="binder-hole h3"></span>
-          <div class="banner">
-            ${r.servings?`<span>${esc(r.servings)} servings</span>`:''}
-            ${r.cook_time?`<span>cook time: ${esc(r.cook_time)}</span>`:''}
+          <div class="detail-top">
+            <div class="banner">
+              ${r.yield_text||r.servings?`<span>${esc(r.yield_text || r.servings+' servings')}</span>`:''}
+              ${r.cook_time?`<span>cook time: ${esc(r.cook_time)}</span>`:''}
+            </div>
+            <div class="scaler" role="group" aria-label="Scale recipe servings">
+              <label class="scaler-label" for="scaler-num-${r.pair}">${!r.servings&&r.yield_count>0?'Makes':'Serves'}</label>
+              <input class="scaler-range" type="range" min="1" max="${SCALER_MAX}" step="1" value="${base}" aria-label="Servings slider">
+              <input class="scaler-num" id="scaler-num-${r.pair}" type="number" min="1" max="99" step="1" value="${base}" inputmode="numeric">
+            </div>
           </div>
           <h2>${esc(r.title)}</h2>
           ${r.subtitle?`<p class="subtitle">${esc(r.subtitle)}</p>`:''}
+          ${r.source==='nyt'?`<p class="subtitle byline">by ${esc(r.author||'NYT Cooking')} · <a href="${esc(r.url)}" target="_blank" rel="noopener">NYT Cooking ↗</a>${r.rating&&r.rating.count?` · ★ ${esc(r.rating.value)} <span class="rating-n">(${Number(r.rating.count).toLocaleString()} ratings)</span>`:''}</p>`:''}
           ${r.description?`<p class="desc">${esc(r.description)}</p>`:''}
           <div class="detail-tags">
-            ${[...(r.cuisine_tags||[]),...(r.ingredient_tags||[])].map(t=>`<span class="mini-tag">${esc(t)}</span>`).join('')}
+            ${srcChip(r)}${[...(r.cuisine_tags||[]),...(r.ingredient_tags||[])].map(t=>`<span class="mini-tag">${esc(t)}</span>`).join('')}
           </div>
           ${r.from_your_kitchen && r.from_your_kitchen.length?`
             <div class="section-label">From your kitchen</div>
-            <ul class="plain-list">${r.from_your_kitchen.map(i=>`<li>${esc(i)}</li>`).join('')}</ul>`:''}
-          <div class="section-label">Ingredients</div>
-          <ul class="ing-cols">${(r.ingredients||[]).map(i=>`<li>${esc(i)}</li>`).join('')}</ul>
+            <ul class="plain-list" data-scale>${r.from_your_kitchen.map(i=>`<li data-src="${esc(i)}">${scaledLine(i,1)}</li>`).join('')}</ul>`:''}
+          <div class="section-label">Ingredients
+            <span class="scale-note" hidden><span class="scale-note-text"></span>·<button type="button" class="scaler-reset">reset to ${base}</button></span>
+          </div>
+          <ul class="ing-cols" data-scale>${ingList(r)}</ul>
           ${r.tools && r.tools.length?`
             <div class="section-label">Tools</div>
             <ul class="plain-list">${r.tools.map(i=>`<li>${esc(i)}</li>`).join('')}</ul>`:''}
@@ -749,14 +956,15 @@ footer.site{
         </div>
         <div class="detail-photos">
           <div class="photo-sticky">
-            <button class="photo-frame" data-side="0" aria-label="View front of card fullscreen">
-              <img src="images/card/${r.front}" alt="${esc(r.title)} — card front photo">
-              <span class="zoom-hint">tap to read</span>
-            </button>
+            ${r.front?`<button class="photo-frame" data-side="0" aria-label="${r.source==='nyt'?'View photo fullscreen':'View front of card fullscreen'}">
+              <img src="images/card/${r.front}" alt="${esc(r.title)} — ${r.source==='nyt'?'photo':'card front photo'}">
+              <span class="zoom-hint">${r.source==='nyt'?'tap to enlarge':'tap to read'}</span>
+            </button>`:''}
             ${r.back?`<button class="photo-frame" data-side="1" aria-label="View back of card fullscreen">
               <img src="images/card/${r.back}" alt="${esc(r.title)} — card back photo">
               <span class="zoom-hint">tap to read</span>
             </button>`:''}
+            ${r.source==='nyt'?`<a class="src-link" href="${esc(r.url)}" target="_blank" rel="noopener">Saved from NYT Cooking ↗</a>`:''}
           </div>
         </div>
       </div>`;
@@ -767,6 +975,7 @@ footer.site{
     d.querySelectorAll('.step-photo').forEach(f=>{
       f.addEventListener('click',()=>openLightbox(r, r.back?1:0));
     });
+    attachScaler(d, base);
     return d;
   }
 
@@ -817,7 +1026,7 @@ footer.site{
     full.onload = ()=>{
       if(lb.classList.contains('open') && !lbClosing && lbImg.src.includes(file)) lbImg.src = full.src;
     };
-    lbImg.alt = lbRecipe.title + (lbSide===0?' — card front':' — card back');
+    lbImg.alt = lbRecipe.title + (lbRecipe.source==='nyt' ? ' — photo' : (lbSide===0?' — card front':' — card back'));
     lbLabel.textContent = lbRecipe.title + (lbRecipe.back ? (lbSide===0?' · front':' · back') : '');
     document.getElementById('lbFlip').style.display = lbRecipe.back ? '' : 'none';
   }
@@ -861,6 +1070,8 @@ footer.site{
   });
 
   // ---------- boot ----------
+  const nytN = R.filter(r=>r.source==='nyt').length;
+  if(nytN) document.getElementById('nytNote').textContent = ` · plus ${nytN} recipes saved from NYT Cooking`;
   buildCards();
   buildChips();
   applyFilters();

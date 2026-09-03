@@ -22,11 +22,11 @@ export default {
     const r = og && og[m[1]];
     if (r) {
       const tags = [
-        `<title>${esc(r.t)} — The Purple Carrot Book</title>`,
+        `<title>${esc(r.t)} — The Cooking Book</title>`,
         r.d ? `<meta name="description" content="${esc(r.d)}">` : "",
         `<link rel="canonical" href="${url.origin}${url.pathname}">`,
         `<meta property="og:type" content="article">`,
-        `<meta property="og:site_name" content="The Purple Carrot Book">`,
+        `<meta property="og:site_name" content="The Cooking Book">`,
         `<meta property="og:title" content="${esc(r.t)}">`,
         r.d ? `<meta property="og:description" content="${esc(r.d)}">` : "",
         `<meta property="og:url" content="${url.origin}${url.pathname}">`,

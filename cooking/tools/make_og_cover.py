@@ -132,8 +132,8 @@ def main():
     mark = svg_image(CARROT_SVG, 62)
     card.alpha_composite(mark, (W // 2 - mark.width // 2, py0 + 22))
 
-    # Wordmark: "The Purple Carrot Book", middle two words in carrot italic
-    runs = [("The ", title_up, CREAM), ("Purple Carrot", title_it, CARROT),
+    # Wordmark: "The Cooking Book", middle word in carrot italic
+    runs = [("The ", title_up, CREAM), ("Cooking", title_it, CARROT),
             (" Book", title_up, CREAM)]
     ty = py0 + 100
     draw_runs(d, (W - run_width(d, runs)) / 2, ty, runs)
@@ -141,7 +141,7 @@ def main():
     # Hairline + subtitle
     ry = ty + 108
     d.line((W // 2 - 46, ry, W // 2 + 46, ry), fill=CARROT, width=2)
-    caption = "131 plant-based dinners, digitized from the recipe cards"
+    caption = "131 Purple Carrot cards, digitized, plus the recipes saved from NYT Cooking"
     d.text((W // 2, ry + 22), caption, font=sub, fill=CREAM_SOFT, anchor="ma")
 
     card.convert("RGB").save(OUT, quality=86, optimize=True,
