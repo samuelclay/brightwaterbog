@@ -172,13 +172,28 @@ Single-page Astro site (`src/pages/index.astro`) for the sculpture trail. `make`
 - `make deploy-with-originals` first uploads originals to R2, then runs the
   normal Pages deploy; `make deploy` still only builds the site and uploads the
   baked responsive image ladder to Cloudflare Pages.
-- The sync script shells out to the `aws` CLI (`brew install awscli`). One-time
-  account setup (done 2026-08-30): R2 enabled on the ofbrooklyn account, bucket
-  created with `wrangler r2 bucket create brightwaterbog-originals --profile
-  ofbrooklyn`, and an API token (dashboard → R2 → Manage R2 API Tokens, "Object
-  Read & Write" scoped to that bucket) pasted into the local env. Needs global
-  wrangler ≥4.12x for the `--profile` flag (`wrangler whoami` refuses the flag
-  and only reports the active profile).
+- The sync script shells out to the `aws` CLI (`brew install awscli`; claybook
+  does not have it, claymac-studio does). Account setup so far: R2 enabled on
+  the ofbrooklyn account and the bucket created (2026-08-30) with `wrangler r2
+  bucket create brightwaterbog-originals --profile ofbrooklyn`. The R2 API
+  token has NOT been created yet: as of 2026-09-03 the `BWB_R2_ACCESS_KEY_ID` /
+  `BWB_R2_SECRET_ACCESS_KEY` lines in `tools/r2-originals.local.env` (same file
+  on claybook and claymac-studio) are still the `replace-with-…` placeholders,
+  so `make sync-originals-*` cannot authenticate — that is why the bucket sat
+  empty for its first days. Create one in the dashboard (R2 → Manage R2 API
+  Tokens, "Object Read & Write" scoped to that bucket) and paste both values
+  into the env on each machine.
+- Until then the bucket is fed through wrangler's OAuth grant instead, one
+  object per call: `wrangler r2 object put brightwaterbog-originals/<key>
+  --file <path> --remote --profile ofbrooklyn`, where `<key>` is the same
+  `apple-photos-stained-glass/…` path the sync script uses, so `aws s3 sync`
+  later picks up where this left off. `--remote` is REQUIRED: without it
+  wrangler 4 writes to a local Miniflare bucket and still prints "Upload
+  complete". `wrangler r2 bucket info` object counts lag real uploads badly
+  (still 0 more than ten minutes after 385 objects landed on 2026-09-03);
+  verify a key with `wrangler r2 object get … --remote` and `cmp` instead.
+- Needs global wrangler ≥4.12x for the `--profile` flag (`wrangler whoami`
+  refuses the flag and only reports the active profile).
 - If the sync dies with `SSLV3_ALERT_HANDSHAKE_FAILURE` from
   `<account>.r2.cloudflarestorage.com`, that is NOT an aws/python problem: the
   S3 endpoint's TLS doesn't exist until R2 is enabled, and lags enablement by
