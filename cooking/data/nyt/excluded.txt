@@ -1,0 +1,10 @@
+# NYT recipe ids left out of the site (meat / fish). One id per line; text after # is ignored.
+# recipes.txt still mirrors the recipe box; this list is what build_nyt.py and fetch_nyt_images.py skip.
+1013047  # Fried Chickpeas With Chorizo and Spinach — chorizo
+1014816  # Seaweed Salad With Scallops — scallops
+1016660  # Green Lasagna With Bolognese Sauce and Bechamel — ground beef, beef stock
+1012551  # Southeast Asian Mussel Salad — mussels
+1014918  # Farro Niçoise — tuna, anchovies
+1018327  # Broccoli Salad With Cheddar and Warm Bacon Vinaigrette — bacon
+1021594  # Onion Tart — rendered bacon fat or lard, no vegetarian alternative given
+1017000  # Health Soup — bonito-flake dashi and fish sauce are the base

@@ -10,3 +10,5 @@ wrangler.jsonc
 Makefile
 .gitignore
 .wrangler/
+data/nyt/raw/
+data/nyt/tagging_input/

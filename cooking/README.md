@@ -1,8 +1,9 @@
-# The Purple Carrot Book
+# The Cooking Book
 
 A single-page archive of the family's Purple Carrot recipe-card binder: 131 recipes
 digitized from 254 photos taken June 5, 2026 (Photos.app, IMG_9134–9389, minus one
-beach photo).
+beach photo) — plus the 224 recipes saved in Samuel's NYT Cooking recipe box, which sit
+in the same grid tagged "New York Times" (see below).
 
 ## Viewing
 
@@ -20,6 +21,8 @@ falls back to system fonts offline).
 
 - `index.html` — the whole site (markup, CSS, JS)
 - `data/recipes.js` — compiled recipe data (`window.RECIPES`), generated
+- `data/nyt_recipes.js` — the NYT Cooking recipes (`window.NYT_RECIPES`), generated;
+  `index.html` concatenates both lists
 - `data/pairs.json` — photo pairing manifest, generated
 - `data/extracted/NNN.json` — per-recipe OCR extraction (001–127 = card pairs,
   128–131 = standalone single-page recipes found on the back of pairs 15/25/59/102)
@@ -40,6 +43,44 @@ python3 tools/process_images.py   # photos/original → images/full+card + data/
 python3 tools/crop_images.py      # data/crops boxes → images/hero + images/steps
 python3 tools/build_data.py       # data/extracted (+hero/step files) → data/recipes.js
 ```
+
+## NYT Cooking recipes
+
+The saved recipes from Samuel's NYT Cooking recipe box use the same row shape as the
+binder cards, so filters, search, the servings scaler, the lightbox and `/r/<id>` links
+all work unchanged. A "Source" filter (New York Times / Purple Carrot), a filled source chip leading
+every card's tag row (orange for the binder, slate blue for NYT), and a byline in the
+expanded view are the only things that set them apart.
+
+- `data/nyt/recipes.txt` — one `<id>-<slug>` per line in recipe-box order (newest save
+  first). The recipe box pages at `cooking.nytimes.com/recipe-box?page=N` (48 per page)
+  link to `/recipes/<id>-<slug>`; add new saves at the top of the file.
+- `data/nyt/excluded.txt` — ids to leave out (the family is vegetarian, so saved
+  recipes built on meat or fish go here with a note). `build_nyt.py` and
+  `fetch_nyt_images.py` skip them; `recipes.txt` stays a plain mirror of the box.
+- `tools/fetch_nyt.py` — fetches each page once and stores its schema.org JSON-LD plus
+  NYT's own `scoopRecipe` object (`_scoop`: tips, display time, yield, typed tags,
+  ingredient-group headings — none of which the JSON-LD carries) in ignored
+  `data/nyt/raw/<id>.json`. Re-run to fetch new ids and retry failures; the CDN
+  sometimes gzips regardless of headers and the script handles that. Bare `/recipes/<id>`
+  URLs 404 — the slug is required.
+- `tools/fetch_nyt_images.py` — downloads each recipe's photo (the 3:2 "superJumbo"
+  rendition) into `images/full/nyt_<id>.jpg` (≤2000px, lightbox) and
+  `images/card/nyt_<id>.jpg` (900px, grid cover + detail photo). There is no hero crop;
+  the grid falls back to the card image.
+- `data/nyt/tags/<id>.json` — curated `cuisine_tags` / `ingredient_tags` / `item_tags`
+  (tracked). Written by Claude subagents following `data/nyt/tagging_instructions.md`:
+  `python3 tools/build_nyt.py --tagging-input` writes batches of untagged recipes plus
+  the current tag vocabulary into ignored `data/nyt/tagging_input/`; hand each batch to
+  an agent, then rebuild. `build_nyt.py` normalizes the results through `build_data.py`'s
+  alias tables plus its own NYT spellings map.
+- `tools/build_nyt.py` — merges raw + tags into `data/nyt_recipes.js` (`pair` = NYT id,
+  `source: "nyt"`, `era: "nyt"`, `front` = the card photo, plus `author`, `url`, `rating`,
+  `yield_text`/`yield_count` for non-serving yields like "24 cookies", `ingredient_groups`,
+  `keywords`) and adds their OpenGraph rows to `data/og.json`. Run it after
+  `build_data.py`, which rewrites og.json from scratch. `--tags` prints the NYT tag
+  inventory with tags new to the binder flagged.
+- `make nyt` = fetch + images + build. `make build` and `make deploy` include the NYT data.
 
 ## Notes
 

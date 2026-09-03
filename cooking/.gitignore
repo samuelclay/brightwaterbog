@@ -3,3 +3,5 @@ photos/original/
 .dist/
 .wrangler/
 tools/.fonts/
+data/nyt/raw/
+data/nyt/tagging_input/
