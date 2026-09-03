@@ -4,9 +4,9 @@ You are locating photo regions on photographed Purple Carrot recipe cards so the
 
 ## Files
 
-- Images: `/Users/sclay/projects/brightwaterbog/purple-carrot-fable/images/full/`
+- Images: `/Users/sclay/projects/brightwaterbog/cooking/images/full/`
 - Each pair NNN has `NNNa_IMG_XXXX.jpg` (front) and `NNNb_IMG_XXXX.jpg` (back). `ls` the directory for exact names.
-- Write one JSON file per pair: `/Users/sclay/projects/brightwaterbog/purple-carrot-fable/data/crops/NNN.json`
+- Write one JSON file per pair: `/Users/sclay/projects/brightwaterbog/cooking/data/crops/NNN.json`
 
 ## What to locate
 

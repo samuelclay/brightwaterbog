@@ -4,9 +4,9 @@ You are extracting structured recipe data from photos of Purple Carrot (plant-ba
 
 ## Files
 
-- Images live in `/Users/sclay/projects/brightwaterbog/purple-carrot-fable/images/full/`
+- Images live in `/Users/sclay/projects/brightwaterbog/cooking/images/full/`
 - Each recipe is a PAIR: `NNNa_IMG_XXXX.jpg` (front card) and `NNNb_IMG_XXXX.jpg` (back card), where NNN is the zero-padded pair number you were assigned. Run `ls` on the directory to get exact filenames for your assigned pairs.
-- Write one JSON file per pair to `/Users/sclay/projects/brightwaterbog/purple-carrot-fable/data/extracted/NNN.json` (create nothing else there).
+- Write one JSON file per pair to `/Users/sclay/projects/brightwaterbog/cooking/data/extracted/NNN.json` (create nothing else there).
 
 ## Card formats (two eras)
 
