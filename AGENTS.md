@@ -11,6 +11,23 @@
 - Publish `cameras.local` only from Home Assistant's `brightwater_mdns_alias` add-on. The laptop LaunchAgent and Compose stack are fallback/development tools and must remain stopped during production.
 - Deploy camera-monitor changes with `make camera-monitor-ha-deploy`, then verify all ten live frames, all four Eufy floodlight controls, add-on CPU/memory, Eufy error logs, and go2rtc producer/consumer counts.
 
+## Cooking site (cooking/ → cooking.samuelclay.com)
+
+- Static single page (`index.html`) over two generated lists: `data/recipes.js` (the
+  131 Purple Carrot cards, from `data/extracted/` OCR) and `data/nyt_recipes.js` (the
+  recipes saved in Samuel's NYT Cooking recipe box, tagged "New York Times"). Same row
+  shape; `pair` is the card number or the NYT recipe id. The site README documents
+  the pipeline (`make nyt`, `tools/fetch_nyt.py`, `tools/build_nyt.py`).
+- New NYT saves: add `<id>-<slug>` lines to `data/nyt/recipes.txt` (from the recipe
+  box's `/recipes/...` links; bare ids 404), run `make nyt`, tag them with subagents
+  per `data/nyt/tagging_instructions.md` (`build_nyt.py --tagging-input` writes the
+  batches), then rebuild. Raw NYT page data is gitignored; the tags are tracked.
+- The family is vegetarian: saved recipes built on meat or fish are listed in
+  `data/nyt/excluded.txt` (with a reason) and skipped by the build. Check new saves
+  for meat, fish, fish sauce, bonito, and meat-based fats before adding them.
+- The NYT rows carry full recipe text and photos, and both the repo and the deployed
+  site are public.
+
 ## Website (website/)
 
 Single-page Astro site (`src/pages/index.astro`) for the sculpture trail. `make` in
@@ -121,7 +138,8 @@ Single-page Astro site (`src/pages/index.astro`) for the sculpture trail. `make`
   reads AND writes the named file. NEVER copy a profile toml elsewhere and run
   wrangler against the copy: Cloudflare rotates the OAuth refresh token on every
   use and treats reuse of an old one as theft, revoking the whole grant. If auth
-  dies anyway, re-auth with `npx wrangler login --profile ofbrooklyn`.
+  dies anyway, re-auth with `npx wrangler@latest auth create ofbrooklyn` (wrangler ≥4.127
+  rejects `login --profile`; `auth create <name>` re-authenticates a named profile).
 - `samuelclay.com` DNS is at DNSimple (not Cloudflare) — there is no CF zone, so
   no `/cdn-cgi/image` transforms and no public R2 image serving path; that's why
   the image ladder is baked at build time. Subdomains are plain DNSimple CNAMEs
