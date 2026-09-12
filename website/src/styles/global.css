@@ -392,6 +392,36 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 /* Clips sit in the strip as photos that move — no chrome, no controls. */
 .frame__video { pointer-events: none; background: var(--surface); }
 
+/* ── Duplicate review overlay (temporary) ──────────────────────────────
+   Every "now" item carries its ID from src/data/duplicates.json; the ones
+   recommended for deletion also get a red border, drawn inset so it sits
+   over the image instead of growing the tile and knocking the strip out of
+   alignment. Clearing `labels`/`remove` removes all of it. */
+.frame--drop { border-color: #ff2d2d; }
+.frame--drop::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 5px solid #ff2d2d;
+  border-radius: var(--radius);
+  pointer-events: none;
+}
+.frame__id {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  z-index: 1;
+  padding: 3px 9px;
+  border-radius: 99px;
+  background: rgba(12, 16, 14, 0.82);
+  color: #fff;
+  font-family: var(--font-mono);
+  font-size: 0.86rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+}
+.frame__id--drop { background: #ff2d2d; }
 .frame__era {
   position: absolute;
   left: 8px; bottom: 8px;
