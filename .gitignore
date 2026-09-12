@@ -35,6 +35,13 @@ photos/*
 photos/_staging/*
 !photos/_staging/.gitkeep
 
+# --- Photo drop zones: empty folders tracked, dropped content never ---
+drop-zones/*
+!drop-zones/README.txt
+!drop-zones/*/
+drop-zones/*/*
+!drop-zones/*/.gitkeep
+
 # --- macOS ---
 .DS_Store
 .wrangler/
