@@ -1,959 +1,192 @@
 {
-  "_readme": "Review overlay. `labels` numbers every era-\"now\" item in page order. `remove` marks the ones recommended for deletion (red border on the site) \u2014 the rest of each near-duplicate group is the keeper. Nothing is deleted by this file.",
-  "policy": "Within each near-duplicate group keep the best still, plus the best clip when the group contains clips.",
+  "_readme": "Review overlay. `labels` numbers every era-\"now\" item in page order and `remove` red-borders the ones proposed for deletion; both are empty now, so nothing is drawn. Refill them (or rerun the review) to bring the overlay back. `groups` is the record of the 2026-09-20 review: labels there refer to that review's numbering.",
+  "policy": "Reviewed by eye on 2026-09-20, erring on NOT calling something a duplicate. Red only for true burst twins: the same frame within a few seconds with nothing but a figure moving, or a second clip repeating an existing still+clip pair. Portrait vs landscape, a different distance or angle, a different day's light, and a still paired with its own clip all stay.",
+  "reviewed": "2026-09-20",
+  "resolved": "2026-09-20",
   "groups": [
     {
-      "stop": "stargate",
-      "members": [
-        {
-          "label": "12",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260625_204204_F67CF3C7-80C2-4F58-B8A5-4C23F46E9D9C.jpeg"
-        },
-        {
-          "label": "13",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260807_201249_IMG_9829.jpeg"
-        },
-        {
-          "label": "14",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260807_201256_IMG_9830.jpeg"
-        },
-        {
-          "label": "1",
-          "kind": "clip",
-          "action": "keep",
-          "file": "20260807_201259_IMG_9831.jpg"
-        },
-        {
-          "label": "15",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260807_201318_IMG_9832.jpeg"
-        },
-        {
-          "label": "2",
-          "kind": "clip",
-          "action": "remove",
-          "file": "20260807_201320_IMG_9833.jpg"
-        }
-      ]
-    },
-    {
       "stop": "tetris",
+      "why": "same frame 2 s apart; only the figures by the cart moved",
       "members": [
         {
-          "label": "23",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260625_204335_ED214824-2903-4351-AD3D-969411335D64.jpeg"
-        },
-        {
-          "label": "27",
+          "label": "46",
           "kind": "photo",
           "action": "keep",
-          "file": "20260625_204345_50259429-E741-41E7-9155-ACD1AD6C9027.jpeg"
+          "file": "20260625_204425_F771870C-2117-4912-AA40-062483C04340.jpeg",
+          "key": "apple-photos-stained-glass/selected/sculpture_03_tetris/20260625_204425_F771870C-2117-4912-AA40-062483C04340.jpeg"
+        },
+        {
+          "label": "45",
+          "kind": "photo",
+          "action": "deleted",
+          "file": "20260625_204423_10EF7334-AFBD-4F95-A228-02338AC53B18.jpeg",
+          "key": "apple-photos-stained-glass/selected/sculpture_03_tetris/20260625_204423_10EF7334-AFBD-4F95-A228-02338AC53B18.jpeg"
         }
-      ]
-    },
-    {
-      "stop": "tetris",
-      "members": [
-        {
-          "label": "30",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260625_204423_10EF7334-AFBD-4F95-A228-02338AC53B18.jpeg"
-        },
-        {
-          "label": "31",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260625_204425_F771870C-2117-4912-AA40-062483C04340.jpeg"
-        }
-      ]
-    },
-    {
-      "stop": "tetris",
-      "members": [
-        {
-          "label": "32",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260807_195311_IMG_9802.jpeg"
-        },
-        {
-          "label": "18",
-          "kind": "clip",
-          "action": "keep",
-          "file": "20260807_195313_IMG_9803.jpg"
-        },
-        {
-          "label": "19",
-          "kind": "clip",
-          "action": "remove",
-          "file": "20260807_195325_IMG_9804.jpg"
-        }
-      ]
-    },
-    {
-      "stop": "tetris",
-      "members": [
-        {
-          "label": "33",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260807_195338_IMG_9805.jpeg"
-        },
-        {
-          "label": "20",
-          "kind": "clip",
-          "action": "keep",
-          "file": "20260807_195339_IMG_9806.jpg"
-        }
-      ]
-    },
-    {
-      "stop": "tetris",
-      "members": [
-        {
-          "label": "34",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260807_195402_IMG_9807.jpeg"
-        },
-        {
-          "label": "21",
-          "kind": "clip",
-          "action": "remove",
-          "file": "20260807_195407_IMG_9808.jpg"
-        },
-        {
-          "label": "35",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260807_195416_IMG_9809.jpeg"
-        },
-        {
-          "label": "22",
-          "kind": "clip",
-          "action": "keep",
-          "file": "20260807_195418_IMG_9810.jpg"
-        }
-      ]
+      ],
+      "outcome": "deleted 45"
     },
     {
       "stop": "hoopla-pyramid",
+      "why": "three portraits from one spot a few seconds apart; the flagged one is the in-between zoom of the other two",
       "members": [
         {
-          "label": "47",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260625_204530_3A91C7C4-66E6-437C-B6EE-9B4BBC11B9A2.jpeg"
-        },
-        {
-          "label": "48",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260625_204548_AA67F3A5-6C1A-4629-9E38-1FFCCD8D6817.jpeg"
-        },
-        {
-          "label": "49",
+          "label": "56",
           "kind": "photo",
           "action": "keep",
-          "file": "20260625_204556_2A179A44-D9A7-48F3-90B3-CC3E33C65D44.jpeg"
-        }
-      ]
-    },
-    {
-      "stop": "hoopla-pyramid",
-      "members": [
-        {
-          "label": "53",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260807_195205_IMG_9795.jpeg"
+          "file": "20260625_204530_3A91C7C4-66E6-437C-B6EE-9B4BBC11B9A2.jpeg",
+          "key": "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260625_204530_3A91C7C4-66E6-437C-B6EE-9B4BBC11B9A2.jpeg"
         },
-        {
-          "label": "36",
-          "kind": "clip",
-          "action": "keep",
-          "file": "20260807_195208_IMG_9796.jpg"
-        }
-      ]
-    },
-    {
-      "stop": "hoopla-pyramid",
-      "members": [
-        {
-          "label": "57",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260807_195244_IMG_9800.jpeg"
-        },
-        {
-          "label": "37",
-          "kind": "clip",
-          "action": "keep",
-          "file": "20260807_195245_IMG_9801.jpg"
-        }
-      ]
-    },
-    {
-      "stop": "hoopla-pyramid",
-      "members": [
-        {
-          "label": "61",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260807_200902_IMG_9822.jpeg"
-        },
-        {
-          "label": "38",
-          "kind": "clip",
-          "action": "remove",
-          "file": "20260807_200904_IMG_9823.jpg"
-        },
-        {
-          "label": "62",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260807_200916_IMG_9824.jpeg"
-        },
-        {
-          "label": "39",
-          "kind": "clip",
-          "action": "keep",
-          "file": "20260807_200920_IMG_9825.jpg"
-        }
-      ]
-    },
-    {
-      "stop": "welcome-sconce",
-      "members": [
         {
           "label": "66",
           "kind": "photo",
           "action": "keep",
-          "file": "20260718_110749_IMG_9661.jpeg"
+          "file": "20260625_204556_2A179A44-D9A7-48F3-90B3-CC3E33C65D44.jpeg",
+          "key": "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260625_204556_2A179A44-D9A7-48F3-90B3-CC3E33C65D44.jpeg"
         },
         {
-          "label": "67",
+          "label": "65",
           "kind": "photo",
-          "action": "remove",
-          "file": "20260718_110755_IMG_9662.jpeg"
+          "action": "deleted",
+          "file": "20260625_204548_AA67F3A5-6C1A-4629-9E38-1FFCCD8D6817.jpeg",
+          "key": "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260625_204548_AA67F3A5-6C1A-4629-9E38-1FFCCD8D6817.jpeg"
         }
-      ]
+      ],
+      "outcome": "deleted 65"
     },
     {
-      "stop": "welcome-sconce",
+      "stop": "hoopla-pyramid",
+      "why": "identical close-ups from below, 14 s apart",
       "members": [
         {
-          "label": "68",
+          "label": "73",
           "kind": "photo",
           "action": "keep",
-          "file": "20260718_110800_IMG_9663.jpeg"
-        },
-        {
-          "label": "69",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260718_110804_IMG_9664.jpeg"
-        }
-      ]
-    },
-    {
-      "stop": "the-gun",
-      "members": [
-        {
-          "label": "78",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260625_204638_DC7601EE-1E87-4A83-AA1F-10A2923E6E54.jpeg"
-        },
-        {
-          "label": "79",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260625_204640_3CBB8BC5-2039-4161-9679-B6213B78A608.jpeg"
-        },
-        {
-          "label": "80",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260625_204642_D626366F-9897-45A1-8B80-0635BC0A1479.jpeg"
-        }
-      ]
-    },
-    {
-      "stop": "the-gun",
-      "members": [
-        {
-          "label": "81",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260625_204657_123482AD-296E-47E7-8B41-8B7498FD5EC3.jpeg"
-        },
-        {
-          "label": "82",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260625_204703_62E4377C-821A-4B3A-8204-569F9AE0EE27.jpeg"
-        }
-      ]
-    },
-    {
-      "stop": "the-gun",
-      "members": [
-        {
-          "label": "83",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260807_195045_IMG_9788.jpeg"
-        },
-        {
-          "label": "70",
-          "kind": "clip",
-          "action": "keep",
-          "file": "20260807_195046_IMG_9789.jpg"
-        }
-      ]
-    },
-    {
-      "stop": "the-gun",
-      "members": [
-        {
-          "label": "84",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260807_195106_IMG_9790.jpeg"
+          "file": "20260807_195235_IMG_9799.jpeg",
+          "key": "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260807_195235_IMG_9799.jpeg"
         },
         {
           "label": "71",
-          "kind": "clip",
-          "action": "keep",
-          "file": "20260807_195110_IMG_9791.jpg"
-        },
-        {
-          "label": "72",
-          "kind": "clip",
-          "action": "remove",
-          "file": "20260807_195120_IMG_9792.jpg"
-        },
-        {
-          "label": "85",
           "kind": "photo",
-          "action": "remove",
-          "file": "20260807_195130_IMG_9793.jpeg"
+          "action": "deleted",
+          "file": "20260807_195221_IMG_9797.jpeg",
+          "key": "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260807_195221_IMG_9797.jpeg"
         }
-      ]
+      ],
+      "outcome": "deleted 71"
     },
     {
       "stop": "the-gun",
-      "members": [
-        {
-          "label": "86",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260807_200801_IMG_9817.jpeg"
-        },
-        {
-          "label": "87",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260807_200808_IMG_9818.jpeg"
-        }
-      ]
-    },
-    {
-      "stop": "geometric-torch",
-      "members": [
-        {
-          "label": "101",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260625_204722_3828978E-6617-4DBB-A3F0-FB353F92554F.jpeg"
-        },
-        {
-          "label": "102",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260625_204724_1CD0462C-FF7F-4878-87D9-5A6B6609D25A.jpeg"
-        }
-      ]
-    },
-    {
-      "stop": "geometric-torch",
-      "members": [
-        {
-          "label": "105",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260807_194828_IMG_9784.jpeg"
-        },
-        {
-          "label": "106",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260807_194838_IMG_9785.jpeg"
-        },
-        {
-          "label": "99",
-          "kind": "clip",
-          "action": "keep",
-          "file": "20260807_194844_IMG_9786.jpg"
-        },
-        {
-          "label": "100",
-          "kind": "clip",
-          "action": "remove",
-          "file": "20260807_194856_IMG_9787.jpg"
-        }
-      ]
-    },
-    {
-      "stop": "four-stages-of-evolution",
-      "members": [
-        {
-          "label": "110",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260807_194656_IMG_9776.jpeg"
-        },
-        {
-          "label": "108",
-          "kind": "clip",
-          "action": "keep",
-          "file": "20260807_194658_IMG_9777.jpg"
-        }
-      ]
-    },
-    {
-      "stop": "torch-2-fire",
+      "why": "2 s apart; the dog took one step",
       "members": [
         {
           "label": "121",
           "kind": "photo",
           "action": "keep",
-          "file": "20260625_204820_7028E05A-E271-4447-8C1E-91B97E42EB6E.jpeg"
+          "file": "20260625_204638_DC7601EE-1E87-4A83-AA1F-10A2923E6E54.jpeg",
+          "key": "apple-photos-stained-glass/selected/sculpture_05_gun/20260625_204638_DC7601EE-1E87-4A83-AA1F-10A2923E6E54.jpeg"
         },
         {
           "label": "122",
           "kind": "photo",
-          "action": "remove",
-          "file": "20260625_204823_81283AEA-98B4-40CD-A970-3D92561B7739.jpeg"
+          "action": "deleted",
+          "file": "20260625_204640_3CBB8BC5-2039-4161-9679-B6213B78A608.jpeg",
+          "key": "apple-photos-stained-glass/selected/sculpture_05_gun/20260625_204640_3CBB8BC5-2039-4161-9679-B6213B78A608.jpeg"
         }
-      ]
+      ],
+      "outcome": "deleted 122"
     },
     {
-      "stop": "torch-2-fire",
+      "stop": "welcome-sconce",
+      "why": "same close-up of the sconce; the flagged one is a touch wider",
       "members": [
         {
-          "label": "123",
+          "label": "81",
           "kind": "photo",
           "action": "keep",
-          "file": "20260807_194602_IMG_9770.jpeg"
+          "file": "20260718_110800_IMG_9663.jpeg",
+          "key": "apple-photos-stained-glass/selected/sculpture_11_welcome_sconce/20260718_110800_IMG_9663.jpeg"
         },
         {
-          "label": "118",
-          "kind": "clip",
+          "label": "86",
+          "kind": "photo",
           "action": "keep",
-          "file": "20260807_194606_IMG_9771.jpg"
-        },
-        {
-          "label": "119",
-          "kind": "clip",
-          "action": "remove",
-          "file": "20260807_194617_IMG_9772.jpg"
+          "file": "20260718_110804_IMG_9664.jpeg",
+          "key": "apple-photos-stained-glass/selected/sculpture_11_welcome_sconce/20260718_110804_IMG_9664.jpeg"
         }
-      ]
-    },
-    {
-      "stop": "torch-3-land-bridge",
-      "members": [
-        {
-          "label": "128",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260625_204848_B07284A1-F2F2-490F-A531-3BF7BBB4579F.jpeg"
-        },
-        {
-          "label": "129",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260625_204857_0E67C3C2-95E7-460A-8735-28C9AC67BBD2.jpeg"
-        }
-      ]
-    },
-    {
-      "stop": "torch-3-land-bridge",
-      "members": [
-        {
-          "label": "130",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260807_194457_IMG_9764.jpeg"
-        },
-        {
-          "label": "131",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260807_194506_IMG_9765.jpeg"
-        }
-      ]
-    },
-    {
-      "stop": "torch-3-land-bridge",
-      "members": [
-        {
-          "label": "134",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260807_194529_IMG_9768.jpeg"
-        },
-        {
-          "label": "135",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260807_194537_IMG_9769.jpeg"
-        }
-      ]
-    },
-    {
-      "stop": "shed-torch",
-      "members": [
-        {
-          "label": "138",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260625_204922_959CD766-71A9-4807-B678-31FF362DD1FC.jpeg"
-        },
-        {
-          "label": "140",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260807_202239_IMG_9841.jpeg"
-        }
-      ]
+      ],
+      "outcome": "kept both (Samuel: keep 86)"
     },
     {
       "stop": "tulip-torch",
+      "why": "same frame 8 s apart",
       "members": [
         {
-          "label": "147",
+          "label": "212",
           "kind": "photo",
-          "action": "keep",
-          "file": "20260625_204955_65DDE2E4-663A-4CAC-80CB-D1BB96D7B573.jpeg"
+          "action": "deleted",
+          "file": "20260625_204955_65DDE2E4-663A-4CAC-80CB-D1BB96D7B573.jpeg",
+          "key": "apple-photos-stained-glass/selected/sculpture_10_torch_5_tulip/20260625_204955_65DDE2E4-663A-4CAC-80CB-D1BB96D7B573.jpeg"
         },
         {
-          "label": "148",
+          "label": "213",
           "kind": "photo",
-          "action": "remove",
-          "file": "20260625_205003_111ADD4B-2BB9-46D9-BE77-88546E87B075.jpeg"
+          "action": "keep",
+          "file": "20260625_205003_111ADD4B-2BB9-46D9-BE77-88546E87B075.jpeg",
+          "key": "apple-photos-stained-glass/selected/sculpture_10_torch_5_tulip/20260625_205003_111ADD4B-2BB9-46D9-BE77-88546E87B075.jpeg"
         }
-      ]
+      ],
+      "outcome": "deleted 212 (Samuel: keep 213 instead)"
     },
     {
       "stop": "aspire-to-grace",
+      "why": "a still with its clip, then a second clip of the same framing 3 s later; the second clip is the flagged one",
       "members": [
         {
-          "label": "159",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260625_205020_3012B21F-4C50-4455-9418-46DCDC3FA2D2.jpeg"
-        },
-        {
-          "label": "160",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260625_205026_2244AA88-3D3F-425A-9EBE-86523E66FA4B.jpeg"
-        },
-        {
-          "label": "152",
+          "label": "219",
           "kind": "clip",
           "action": "keep",
-          "file": "20260807_202339_IMG_9847.jpg"
-        }
-      ]
-    },
-    {
-      "stop": "aspire-to-grace",
-      "members": [
+          "file": "20260807_202401_IMG_9848.jpg",
+          "key": "apple-photos-stained-glass/selected/sculpture_11_aspire_to_grace/20260807_202401_IMG_9848.jpg"
+        },
         {
-          "label": "153",
+          "label": "229",
+          "kind": "photo",
+          "action": "keep",
+          "file": "20260807_202403_IMG_9849.jpeg",
+          "key": "apple-photos-stained-glass/selected/sculpture_11_aspire_to_grace/20260807_202403_IMG_9849.jpeg"
+        },
+        {
+          "label": "220",
           "kind": "clip",
-          "action": "keep",
-          "file": "20260807_202401_IMG_9848.jpg"
-        },
-        {
-          "label": "161",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260807_202403_IMG_9849.jpeg"
-        },
-        {
-          "label": "154",
-          "kind": "clip",
-          "action": "remove",
-          "file": "20260807_202404_IMG_9850.jpg"
+          "action": "deleted",
+          "file": "20260807_202404_IMG_9850.jpg",
+          "key": "apple-photos-stained-glass/selected/sculpture_11_aspire_to_grace/20260807_202404_IMG_9850.jpg"
         }
-      ]
-    },
-    {
-      "stop": "dam-light",
-      "members": [
-        {
-          "label": "178",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260807_201139_IMG_9827.jpeg"
-        },
-        {
-          "label": "179",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260807_201142_IMG_9828.jpeg"
-        }
-      ]
-    },
-    {
-      "stop": "dam-light",
-      "members": [
-        {
-          "label": "182",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260807_201829_IMG_9836.jpeg"
-        },
-        {
-          "label": "183",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260807_201833_IMG_9837.jpeg"
-        }
-      ]
-    },
-    {
-      "stop": "dam-light",
-      "members": [
-        {
-          "label": "184",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260807_201843_IMG_9838.jpeg"
-        },
-        {
-          "label": "185",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260807_201901_IMG_9839.jpeg"
-        }
-      ]
+      ],
+      "outcome": "deleted 220"
     },
     {
       "stop": "dinosaur",
+      "why": "same frame 7 s apart",
       "members": [
         {
-          "label": "198",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260807_185742_IMG_9756.jpeg"
-        },
-        {
-          "label": "199",
+          "label": "273",
           "kind": "photo",
           "action": "keep",
-          "file": "20260807_185749_IMG_9757.jpeg"
-        }
-      ]
-    },
-    {
-      "stop": "quartz-crystal",
-      "members": [
-        {
-          "label": "204",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260807_185718_IMG_9754.jpeg"
+          "file": "20260807_185749_IMG_9757.jpeg",
+          "key": "apple-photos-stained-glass/selected/dinosaur/20260807_185749_IMG_9757.jpeg"
         },
         {
-          "label": "205",
+          "label": "272",
           "kind": "photo",
-          "action": "keep",
-          "file": "20260807_185723_IMG_9755.jpeg"
+          "action": "deleted",
+          "file": "20260807_185742_IMG_9756.jpeg",
+          "key": "apple-photos-stained-glass/selected/dinosaur/20260807_185742_IMG_9756.jpeg"
         }
-      ]
-    },
-    {
-      "stop": "blood-from-a-stone",
-      "members": [
-        {
-          "label": "187",
-          "kind": "photo",
-          "action": "remove",
-          "file": "20260807_185651_IMG_9752.jpeg"
-        },
-        {
-          "label": "188",
-          "kind": "photo",
-          "action": "keep",
-          "file": "20260807_185658_IMG_9753.jpeg"
-        }
-      ]
+      ],
+      "outcome": "deleted 272"
     }
   ],
-  "labels": {
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20260807_201259_IMG_9831.jpg": "1",
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20260807_201320_IMG_9833.jpg": "2",
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20201121_194944_A726028A-2B7C-49D9-8997-A55BF602DEB7.jpeg": "3",
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20211023_070119_3D7B771D-9379-4A21-99A0-3824D0055B0F.jpeg": "4",
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20200917_165355_72EA4563-5B19-4520-9D61-CD6555D7B816.jpeg": "5",
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20211114_155121_B9384C5C-004E-451C-85F0-FD1015B1D58C.jpeg": "6",
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20230127_171454_1138C1D8-07B5-4051-BA25-BF6729FA7982.jpeg": "7",
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20231019_181548_13172E9D-38FE-4F1B-A834-2370E680F642.jpeg": "8",
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20231019_181811_5EE90688-91F6-493B-B22F-C9D279290D59.jpeg": "9",
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20260625_204151_1C78DD60-EA78-4480-8E7B-F67F9846DA08.jpeg": "10",
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20260625_204155_0F21CC7A-7481-48BF-BC97-8E2B773E73B0.jpeg": "11",
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20260625_204204_F67CF3C7-80C2-4F58-B8A5-4C23F46E9D9C.jpeg": "12",
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20260807_201249_IMG_9829.jpeg": "13",
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20260807_201256_IMG_9830.jpeg": "14",
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20260807_201318_IMG_9832.jpeg": "15",
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20260807_202218_IMG_9840.jpeg": "16",
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20211222_134634_A5FFF819-BEFF-4D7F-AE4F-67A344F001F5.jpeg": "17",
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20260807_195313_IMG_9803.jpg": "18",
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20260807_195325_IMG_9804.jpg": "19",
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20260807_195339_IMG_9806.jpg": "20",
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20260807_195407_IMG_9808.jpg": "21",
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20260807_195418_IMG_9810.jpg": "22",
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20260625_204335_ED214824-2903-4351-AD3D-969411335D64.jpeg": "23",
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20200812_105310_82070122-3D03-44A2-9C9E-A74DFACAEC08.jpeg": "24",
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20200812_105315_3C442ADA-0937-4CC8-AF6B-3C380029744B.jpeg": "25",
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20200917_170003_1A984F5B-9C35-4D5E-A070-88A495C5870B.jpeg": "26",
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20260625_204345_50259429-E741-41E7-9155-ACD1AD6C9027.jpeg": "27",
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20260625_204352_1EAADD26-6885-40D3-B4EF-D67B4C46B1FD.jpeg": "28",
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20260625_204414_A07D37EF-9127-46E2-8B99-64CA300CF89B.jpeg": "29",
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20260625_204423_10EF7334-AFBD-4F95-A228-02338AC53B18.jpeg": "30",
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20260625_204425_F771870C-2117-4912-AA40-062483C04340.jpeg": "31",
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20260807_195311_IMG_9802.jpeg": "32",
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20260807_195338_IMG_9805.jpeg": "33",
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20260807_195402_IMG_9807.jpeg": "34",
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20260807_195416_IMG_9809.jpeg": "35",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260807_195208_IMG_9796.jpg": "36",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260807_195245_IMG_9801.jpg": "37",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260807_200904_IMG_9823.jpg": "38",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260807_200920_IMG_9825.jpg": "39",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20240730_082505_8D56F988-5478-4341-98C7-479AEE650E0A.jpeg": "40",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20240730_082514_2FFAE208-88B1-429A-892D-71DA3CAD0CBD.jpeg": "41",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20240808_200147_24B22940-C14D-4577-A6F3-4816174BEFB8.jpeg": "42",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20250823_160631_71A1F49B-828C-413D-8A6A-3D8118DC5F34.jpeg": "43",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20250823_194455_8F01634C-FA56-4CC6-A5A4-FA4057225641.jpeg": "44",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260625_204508_2B2F0D91-DB5B-4162-A99C-F4B7AB96DF12.jpeg": "45",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260625_204522_D4DC8DEC-FF26-4515-AE54-DB82DC54A776.jpeg": "46",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260625_204530_3A91C7C4-66E6-437C-B6EE-9B4BBC11B9A2.jpeg": "47",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260625_204548_AA67F3A5-6C1A-4629-9E38-1FFCCD8D6817.jpeg": "48",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260625_204556_2A179A44-D9A7-48F3-90B3-CC3E33C65D44.jpeg": "49",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260730_190005_IMG_9713.jpeg": "50",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260730_190014_IMG_9714.jpeg": "51",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260807_195144_IMG_9794.jpeg": "52",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260807_195205_IMG_9795.jpeg": "53",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260807_195221_IMG_9797.jpeg": "54",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260807_195230_IMG_9798.jpeg": "55",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260807_195235_IMG_9799.jpeg": "56",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260807_195244_IMG_9800.jpeg": "57",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260807_200839_IMG_9819.jpeg": "58",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260807_200847_IMG_9820.jpeg": "59",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260807_200850_IMG_9821.jpeg": "60",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260807_200902_IMG_9822.jpeg": "61",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260807_200916_IMG_9824.jpeg": "62",
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260807_200941_IMG_9826.jpeg": "63",
-    "apple-photos-stained-glass/selected/sculpture_11_welcome_sconce/20200917_170656_508CE49D-D564-4819-99A0-3B436736A77B.jpeg": "64",
-    "apple-photos-stained-glass/selected/sculpture_11_welcome_sconce/20201111_115006_A7B70EE2-F84D-4645-846E-F460B27243CD.jpeg": "65",
-    "apple-photos-stained-glass/selected/sculpture_11_welcome_sconce/20260718_110749_IMG_9661.jpeg": "66",
-    "apple-photos-stained-glass/selected/sculpture_11_welcome_sconce/20260718_110755_IMG_9662.jpeg": "67",
-    "apple-photos-stained-glass/selected/sculpture_11_welcome_sconce/20260718_110800_IMG_9663.jpeg": "68",
-    "apple-photos-stained-glass/selected/sculpture_11_welcome_sconce/20260718_110804_IMG_9664.jpeg": "69",
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20260807_195046_IMG_9789.jpg": "70",
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20260807_195110_IMG_9791.jpg": "71",
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20260807_195120_IMG_9792.jpg": "72",
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20200912_212232_E5EE59E8-3C6D-4855-A9BD-B2618544D7D4.jpeg": "73",
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20200917_170545_453EB929-23DA-4A5A-9674-796992AB0981.jpeg": "74",
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20210223_173253_96D5D6C7-874E-4A4A-A400-A894FC03561F.jpeg": "75",
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20231021_093549_F009A882-2C77-4389-840E-5AE28F5D8D11.jpeg": "76",
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20260625_204629_F5CEFF12-3A09-457C-9A2B-F74E6EE64F7A.jpeg": "77",
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20260625_204638_DC7601EE-1E87-4A83-AA1F-10A2923E6E54.jpeg": "78",
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20260625_204640_3CBB8BC5-2039-4161-9679-B6213B78A608.jpeg": "79",
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20260625_204642_D626366F-9897-45A1-8B80-0635BC0A1479.jpeg": "80",
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20260625_204657_123482AD-296E-47E7-8B41-8B7498FD5EC3.jpeg": "81",
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20260625_204703_62E4377C-821A-4B3A-8204-569F9AE0EE27.jpeg": "82",
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20260807_195045_IMG_9788.jpeg": "83",
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20260807_195106_IMG_9790.jpeg": "84",
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20260807_195130_IMG_9793.jpeg": "85",
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20260807_200801_IMG_9817.jpeg": "86",
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20260807_200808_IMG_9818.jpeg": "87",
-    "apple-photos-stained-glass/selected/wood_seal_and_eel/20230115_110315_BC2A8272-6380-4950-A7D7-B26CDEE157FC.jpeg": "88",
-    "apple-photos-stained-glass/selected/wood_seal_and_eel/20260730_190114_IMG_9715.jpeg": "89",
-    "apple-photos-stained-glass/selected/wood_seal_and_eel/20260730_190124_IMG_9716.jpeg": "90",
-    "apple-photos-stained-glass/selected/wood_seal_and_eel/20260730_190132_IMG_9717.jpeg": "91",
-    "apple-photos-stained-glass/selected/wood_seal_and_eel/20260730_190140_IMG_9718.jpeg": "92",
-    "apple-photos-stained-glass/selected/wood_seal_and_eel/20260806_153025_seal_and_eel.jpeg": "93",
-    "apple-photos-stained-glass/selected/sculpture_16_dancers/20201006_182234_3A39D1C5-9541-4FDF-91E1-C8E822DF683E.jpeg": "94",
-    "apple-photos-stained-glass/selected/sculpture_16_dancers/20200915_102947_8CC5541F-62E4-4247-8FA7-C72FEACDE8A7.jpeg": "95",
-    "apple-photos-stained-glass/selected/sculpture_16_dancers/20200915_103049_975C3A0F-BC74-43BD-90F6-1DA969E5E14E.jpeg": "96",
-    "apple-photos-stained-glass/selected/sculpture_16_dancers/20201006_182041_62EB62E3-ED70-4562-90D3-1EF7185D7EC9.jpeg": "97",
-    "apple-photos-stained-glass/selected/sculpture_16_dancers/20210929_133217_09CA61E2-9998-4A94-9D79-3C5CB51C9793.jpeg": "98",
-    "apple-photos-stained-glass/selected/sculpture_06_torch_1_geometric/20260807_194844_IMG_9786.jpg": "99",
-    "apple-photos-stained-glass/selected/sculpture_06_torch_1_geometric/20260807_194856_IMG_9787.jpg": "100",
-    "apple-photos-stained-glass/selected/sculpture_06_torch_1_geometric/20260625_204722_3828978E-6617-4DBB-A3F0-FB353F92554F.jpeg": "101",
-    "apple-photos-stained-glass/selected/sculpture_06_torch_1_geometric/20260625_204724_1CD0462C-FF7F-4878-87D9-5A6B6609D25A.jpeg": "102",
-    "apple-photos-stained-glass/selected/sculpture_06_torch_1_geometric/20260807_194819_IMG_9782.jpeg": "103",
-    "apple-photos-stained-glass/selected/sculpture_06_torch_1_geometric/20260807_194824_IMG_9783.jpeg": "104",
-    "apple-photos-stained-glass/selected/sculpture_06_torch_1_geometric/20260807_194828_IMG_9784.jpeg": "105",
-    "apple-photos-stained-glass/selected/sculpture_06_torch_1_geometric/20260807_194838_IMG_9785.jpeg": "106",
-    "apple-photos-stained-glass/selected/sculpture_06_torch_1_geometric/20200917_170840_0DE24ABA-340B-48A4-8BCC-7498B5B8C763.jpeg": "107",
-    "apple-photos-stained-glass/selected/sculpture_12_four_stages_of_evolution_1/20260807_194658_IMG_9777.jpg": "108",
-    "apple-photos-stained-glass/selected/sculpture_12_four_stages_of_evolution_1/20200917_170926_397A1FF6-8782-4569-8D5C-44E7F8409FE3.jpeg": "109",
-    "apple-photos-stained-glass/selected/sculpture_12_four_stages_of_evolution_1/20260807_194656_IMG_9776.jpeg": "110",
-    "apple-photos-stained-glass/selected/sculpture_12_four_stages_of_evolution_1/20260807_194723_IMG_9778.jpeg": "111",
-    "apple-photos-stained-glass/selected/sculpture_13_four_stages_of_evolution_2/20200917_170943_C033667D-E9D1-41BA-824A-4A7199A58B37.jpeg": "112",
-    "apple-photos-stained-glass/selected/sculpture_13_four_stages_of_evolution_2/20260807_194726_IMG_9779.jpeg": "113",
-    "apple-photos-stained-glass/selected/sculpture_13_four_stages_of_evolution_3/20200917_170919_30FC2050-3149-4F1D-98A5-11AC070B74F4.jpeg": "114",
-    "apple-photos-stained-glass/selected/sculpture_13_four_stages_of_evolution_3/20260807_194731_IMG_9780.jpeg": "115",
-    "apple-photos-stained-glass/selected/sculpture_13_four_stages_of_evolution_4/20200917_170913_0FBCC1FD-61DD-4EB4-9220-1BBDAD576076.jpeg": "116",
-    "apple-photos-stained-glass/selected/sculpture_13_four_stages_of_evolution_4/20260807_194737_IMG_9781.jpeg": "117",
-    "apple-photos-stained-glass/selected/sculpture_07_torch_2_fire/20260807_194606_IMG_9771.jpg": "118",
-    "apple-photos-stained-glass/selected/sculpture_07_torch_2_fire/20260807_194617_IMG_9772.jpg": "119",
-    "apple-photos-stained-glass/selected/sculpture_07_torch_2_fire/20260625_204807_8FDFC295-D970-4731-B3FB-C4AE94CEB3CC.jpeg": "120",
-    "apple-photos-stained-glass/selected/sculpture_07_torch_2_fire/20260625_204820_7028E05A-E271-4447-8C1E-91B97E42EB6E.jpeg": "121",
-    "apple-photos-stained-glass/selected/sculpture_07_torch_2_fire/20260625_204823_81283AEA-98B4-40CD-A970-3D92561B7739.jpeg": "122",
-    "apple-photos-stained-glass/selected/sculpture_07_torch_2_fire/20260807_194602_IMG_9770.jpeg": "123",
-    "apple-photos-stained-glass/selected/sculpture_07_torch_2_fire/20260807_194629_IMG_9773.jpeg": "124",
-    "apple-photos-stained-glass/selected/sculpture_07_torch_2_fire/20260807_194634_IMG_9774.jpeg": "125",
-    "apple-photos-stained-glass/selected/sculpture_07_torch_2_fire/20260807_194639_IMG_9775.jpeg": "126",
-    "apple-photos-stained-glass/selected/sculpture_07_torch_2_fire/20200917_171027_2AF14800-CBAB-4484-9DE0-1CE0496183B8.jpeg": "127",
-    "apple-photos-stained-glass/selected/sculpture_08_torch_3_land_bridge/20260625_204848_B07284A1-F2F2-490F-A531-3BF7BBB4579F.jpeg": "128",
-    "apple-photos-stained-glass/selected/sculpture_08_torch_3_land_bridge/20260625_204857_0E67C3C2-95E7-460A-8735-28C9AC67BBD2.jpeg": "129",
-    "apple-photos-stained-glass/selected/sculpture_08_torch_3_land_bridge/20260807_194457_IMG_9764.jpeg": "130",
-    "apple-photos-stained-glass/selected/sculpture_08_torch_3_land_bridge/20260807_194506_IMG_9765.jpeg": "131",
-    "apple-photos-stained-glass/selected/sculpture_08_torch_3_land_bridge/20260807_194517_IMG_9766.jpeg": "132",
-    "apple-photos-stained-glass/selected/sculpture_08_torch_3_land_bridge/20260807_194523_IMG_9767.jpeg": "133",
-    "apple-photos-stained-glass/selected/sculpture_08_torch_3_land_bridge/20260807_194529_IMG_9768.jpeg": "134",
-    "apple-photos-stained-glass/selected/sculpture_08_torch_3_land_bridge/20260807_194537_IMG_9769.jpeg": "135",
-    "apple-photos-stained-glass/selected/sculpture_08_torch_3_land_bridge/20200917_171056_4D9D6403-C531-4CF8-9D01-C1C67BFDCE3F.jpeg": "136",
-    "apple-photos-stained-glass/selected/sculpture_09_torch_4_shed/20260625_204912_1A54A689-2DDC-493C-8B0F-7703FCB6EAB6.jpeg": "137",
-    "apple-photos-stained-glass/selected/sculpture_09_torch_4_shed/20260625_204922_959CD766-71A9-4807-B678-31FF362DD1FC.jpeg": "138",
-    "apple-photos-stained-glass/selected/sculpture_09_torch_4_shed/20260625_204928_88DF5836-5CF8-43EF-A054-BE3F712B4DA1.jpeg": "139",
-    "apple-photos-stained-glass/selected/sculpture_09_torch_4_shed/20260807_202239_IMG_9841.jpeg": "140",
-    "apple-photos-stained-glass/selected/sculpture_09_torch_4_shed/20260807_202245_IMG_9842.jpeg": "141",
-    "apple-photos-stained-glass/selected/sculpture_09_torch_4_shed/20260807_202252_IMG_9843.jpeg": "142",
-    "apple-photos-stained-glass/selected/sculpture_09_torch_4_shed/20200917_171130_F854F099-5B3A-4631-A7A8-655BB1903370.jpeg": "143",
-    "apple-photos-stained-glass/selected/sculpture_10_torch_5_tulip/20231019_180915_E3F00B4F-583C-4592-AAF6-3430A8962430.jpeg": "144",
-    "apple-photos-stained-glass/selected/sculpture_10_torch_5_tulip/20200917_165039_11EE1E30-ACA5-4955-B79A-7FFA0C63F7FB.jpeg": "145",
-    "apple-photos-stained-glass/selected/sculpture_10_torch_5_tulip/20260625_204949_AB8170E8-A07B-4516-A256-BFBEC3A194C5.jpeg": "146",
-    "apple-photos-stained-glass/selected/sculpture_10_torch_5_tulip/20260625_204955_65DDE2E4-663A-4CAC-80CB-D1BB96D7B573.jpeg": "147",
-    "apple-photos-stained-glass/selected/sculpture_10_torch_5_tulip/20260625_205003_111ADD4B-2BB9-46D9-BE77-88546E87B075.jpeg": "148",
-    "apple-photos-stained-glass/selected/sculpture_10_torch_5_tulip/20260807_202312_IMG_9844.jpeg": "149",
-    "apple-photos-stained-glass/selected/sculpture_10_torch_5_tulip/20260807_202319_IMG_9845.jpeg": "150",
-    "apple-photos-stained-glass/selected/sculpture_10_torch_5_tulip/20260807_202324_IMG_9846.jpeg": "151",
-    "apple-photos-stained-glass/selected/sculpture_11_aspire_to_grace/20260807_202339_IMG_9847.jpg": "152",
-    "apple-photos-stained-glass/selected/sculpture_11_aspire_to_grace/20260807_202401_IMG_9848.jpg": "153",
-    "apple-photos-stained-glass/selected/sculpture_11_aspire_to_grace/20260807_202404_IMG_9850.jpg": "154",
-    "apple-photos-stained-glass/selected/sculpture_11_aspire_to_grace/20200917_164852_C78A9494-5104-475B-8854-31B2D93F5497.jpeg": "155",
-    "apple-photos-stained-glass/selected/sculpture_11_aspire_to_grace/20210527_140857_8446C55D-D444-477C-B978-AA636024E95B.jpeg": "156",
-    "apple-photos-stained-glass/selected/sculpture_11_aspire_to_grace/20210607_091112_6025CAA4-773A-41B2-8528-19F319E15841.jpeg": "157",
-    "apple-photos-stained-glass/selected/sculpture_11_aspire_to_grace/20231019_182726_IMG_4991.jpeg": "158",
-    "apple-photos-stained-glass/selected/sculpture_11_aspire_to_grace/20260625_205020_3012B21F-4C50-4455-9418-46DCDC3FA2D2.jpeg": "159",
-    "apple-photos-stained-glass/selected/sculpture_11_aspire_to_grace/20260625_205026_2244AA88-3D3F-425A-9EBE-86523E66FA4B.jpeg": "160",
-    "apple-photos-stained-glass/selected/sculpture_11_aspire_to_grace/20260807_202403_IMG_9849.jpeg": "161",
-    "apple-photos-stained-glass/selected/sculpture_11_aspire_to_grace/20200801_104028_916B9959-A0DF-415E-91BE-6758ED3811C9.jpeg": "162",
-    "apple-photos-stained-glass/selected/sculpture_14_porch/20250813_200608_FB2CC08F-4B79-4402-AB31-422AA91189DD.jpeg": "163",
-    "apple-photos-stained-glass/selected/sculpture_14_porch/20250813_200622_C79FB601-4CB1-4204-AEA3-018A0DA17788.jpeg": "164",
-    "apple-photos-stained-glass/selected/sculpture_14_porch/20250813_200636_967C2020-BC63-4209-97BC-C5E6F57C915F.jpeg": "165",
-    "apple-photos-stained-glass/selected/sculpture_14_well/20200917_171325_246097C2-D918-42FD-859C-F86D36B3BEE7.jpeg": "166",
-    "apple-photos-stained-glass/selected/sculpture_14_well/20200917_171333_DCD27C17-2184-4CAA-8440-A0234F1BE64D.jpeg": "167",
-    "apple-photos-stained-glass/selected/sculpture_14_well/20210320_165808_2147BE57-A468-42F4-864B-C59F03688183.jpeg": "168",
-    "apple-photos-stained-glass/selected/sculpture_14_well/20260807_202554_IMG_9851.jpeg": "169",
-    "apple-photos-stained-glass/selected/sculpture_14_well/20260807_202600_IMG_9852.jpeg": "170",
-    "apple-photos-stained-glass/selected/sculpture_14_well/20260807_202610_IMG_9853.jpeg": "171",
-    "apple-photos-stained-glass/selected/sculpture_01_dam/20200917_165207_D0EA2356-2F66-4679-BCBA-457515A49653.jpeg": "172",
-    "apple-photos-stained-glass/selected/sculpture_01_dam/20211012_183225_3C9249A1-C665-4A62-9A7B-AD4D55F90044.jpeg": "173",
-    "apple-photos-stained-glass/selected/sculpture_01_dam/20231019_181109_188D2BBA-B65B-42F2-863C-02A7E9A78F06.jpeg": "174",
-    "apple-photos-stained-glass/selected/sculpture_01_dam/20260625_203955_B9361938-504C-4DD5-BAFD-98BD5C3EE5A9.jpeg": "175",
-    "apple-photos-stained-glass/selected/sculpture_01_dam/20260625_204001_411DE900-1831-4188-8FFC-D2B457283817.jpeg": "176",
-    "apple-photos-stained-glass/selected/sculpture_01_dam/20260625_204007_3C19600C-7C35-4445-9220-211F39AF677F.jpeg": "177",
-    "apple-photos-stained-glass/selected/sculpture_01_dam/20260807_201139_IMG_9827.jpeg": "178",
-    "apple-photos-stained-glass/selected/sculpture_01_dam/20260807_201142_IMG_9828.jpeg": "179",
-    "apple-photos-stained-glass/selected/sculpture_01_dam/20260807_201813_IMG_9834.jpeg": "180",
-    "apple-photos-stained-glass/selected/sculpture_01_dam/20260807_201821_IMG_9835.jpeg": "181",
-    "apple-photos-stained-glass/selected/sculpture_01_dam/20260807_201829_IMG_9836.jpeg": "182",
-    "apple-photos-stained-glass/selected/sculpture_01_dam/20260807_201833_IMG_9837.jpeg": "183",
-    "apple-photos-stained-glass/selected/sculpture_01_dam/20260807_201843_IMG_9838.jpeg": "184",
-    "apple-photos-stained-glass/selected/sculpture_01_dam/20260807_201901_IMG_9839.jpeg": "185",
-    "apple-photos-stained-glass/selected/blood_from_a_stone/20201121_213331_blog_from_a_stone.jpeg": "186",
-    "apple-photos-stained-glass/selected/blood_from_a_stone/20260807_185651_IMG_9752.jpeg": "187",
-    "apple-photos-stained-glass/selected/blood_from_a_stone/20260807_185658_IMG_9753.jpeg": "188",
-    "apple-photos-stained-glass/selected/dining_room_flowers/20260807_185614_IMG_9745.jpeg": "189",
-    "apple-photos-stained-glass/selected/dining_room_flowers/20260807_185620_IMG_9746.jpeg": "190",
-    "apple-photos-stained-glass/selected/dining_room_flowers/20260807_185624_IMG_9747.jpeg": "191",
-    "apple-photos-stained-glass/selected/dining_room_flowers/20260807_185633_IMG_9748.jpeg": "192",
-    "apple-photos-stained-glass/selected/dining_room_flowers/20260807_185637_IMG_9749.jpeg": "193",
-    "apple-photos-stained-glass/selected/dining_room_flowers/20260807_185640_IMG_9750.jpeg": "194",
-    "apple-photos-stained-glass/selected/dining_room_flowers/20260807_185644_IMG_9751.jpeg": "195",
-    "apple-photos-stained-glass/selected/dinosaur/20260709_194340_IMG_9611.jpeg": "196",
-    "apple-photos-stained-glass/selected/dinosaur/20260709_194355_IMG_9613.jpeg": "197",
-    "apple-photos-stained-glass/selected/dinosaur/20260807_185742_IMG_9756.jpeg": "198",
-    "apple-photos-stained-glass/selected/dinosaur/20260807_185749_IMG_9757.jpeg": "199",
-    "apple-photos-stained-glass/selected/dinosaur/20260807_185759_IMG_9758.jpeg": "200",
-    "apple-photos-stained-glass/selected/lower_bedroom/20260807_185905_IMG_9759.jpeg": "201",
-    "apple-photos-stained-glass/selected/lower_bedroom/20260807_185914_IMG_9760.jpeg": "202",
-    "apple-photos-stained-glass/selected/lower_bedroom/20260807_185928_IMG_9761.jpeg": "203",
-    "apple-photos-stained-glass/selected/quartz_crystal/20260807_185718_IMG_9754.jpeg": "204",
-    "apple-photos-stained-glass/selected/quartz_crystal/20260807_185723_IMG_9755.jpeg": "205",
-    "apple-photos-stained-glass/selected/saguaro_cactus/20260709_194312_IMG_9608.jpeg": "206",
-    "apple-photos-stained-glass/selected/saguaro_cactus/20260709_194326_IMG_9609.jpeg": "207"
-  },
-  "remove": {
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20260625_204204_F67CF3C7-80C2-4F58-B8A5-4C23F46E9D9C.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20260807_201249_IMG_9829.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20260807_201318_IMG_9832.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_02_stargate/20260807_201320_IMG_9833.jpg": true,
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20260625_204335_ED214824-2903-4351-AD3D-969411335D64.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20260625_204423_10EF7334-AFBD-4F95-A228-02338AC53B18.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20260807_195325_IMG_9804.jpg": true,
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20260807_195402_IMG_9807.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_03_tetris/20260807_195407_IMG_9808.jpg": true,
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260625_204530_3A91C7C4-66E6-437C-B6EE-9B4BBC11B9A2.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260625_204548_AA67F3A5-6C1A-4629-9E38-1FFCCD8D6817.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260807_200902_IMG_9822.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_04_hoopla_pyramid/20260807_200904_IMG_9823.jpg": true,
-    "apple-photos-stained-glass/selected/sculpture_11_welcome_sconce/20260718_110755_IMG_9662.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_11_welcome_sconce/20260718_110804_IMG_9664.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20260625_204638_DC7601EE-1E87-4A83-AA1F-10A2923E6E54.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20260625_204640_3CBB8BC5-2039-4161-9679-B6213B78A608.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20260625_204703_62E4377C-821A-4B3A-8204-569F9AE0EE27.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20260807_195120_IMG_9792.jpg": true,
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20260807_195130_IMG_9793.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_05_gun/20260807_200801_IMG_9817.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_06_torch_1_geometric/20260625_204724_1CD0462C-FF7F-4878-87D9-5A6B6609D25A.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_06_torch_1_geometric/20260807_194828_IMG_9784.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_06_torch_1_geometric/20260807_194856_IMG_9787.jpg": true,
-    "apple-photos-stained-glass/selected/sculpture_07_torch_2_fire/20260625_204823_81283AEA-98B4-40CD-A970-3D92561B7739.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_07_torch_2_fire/20260807_194617_IMG_9772.jpg": true,
-    "apple-photos-stained-glass/selected/sculpture_08_torch_3_land_bridge/20260625_204857_0E67C3C2-95E7-460A-8735-28C9AC67BBD2.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_08_torch_3_land_bridge/20260807_194506_IMG_9765.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_08_torch_3_land_bridge/20260807_194537_IMG_9769.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_09_torch_4_shed/20260625_204922_959CD766-71A9-4807-B678-31FF362DD1FC.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_10_torch_5_tulip/20260625_205003_111ADD4B-2BB9-46D9-BE77-88546E87B075.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_11_aspire_to_grace/20260625_205020_3012B21F-4C50-4455-9418-46DCDC3FA2D2.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_11_aspire_to_grace/20260807_202404_IMG_9850.jpg": true,
-    "apple-photos-stained-glass/selected/sculpture_01_dam/20260807_201142_IMG_9828.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_01_dam/20260807_201833_IMG_9837.jpeg": true,
-    "apple-photos-stained-glass/selected/sculpture_01_dam/20260807_201901_IMG_9839.jpeg": true,
-    "apple-photos-stained-glass/selected/dinosaur/20260807_185742_IMG_9756.jpeg": true,
-    "apple-photos-stained-glass/selected/quartz_crystal/20260807_185718_IMG_9754.jpeg": true,
-    "apple-photos-stained-glass/selected/blood_from_a_stone/20260807_185651_IMG_9752.jpeg": true
-  }
+  "labels": {},
+  "remove": {}
 }
