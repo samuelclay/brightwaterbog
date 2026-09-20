@@ -59,6 +59,18 @@ Single-page Astro site (`src/pages/index.astro`) for the sculpture trail. `make`
   with at least `filename`, `created` ("YYYY-MM-DD HH:MM:SS", local Eastern time),
   `width`, `height` (display-orientation dims), `latitude`, `longitude`. Existing
   rows come from osxphotos; hand-imported ones use `catalog_source: "desktop_import"`.
+- `drop-zones/<piece>/` is the import inbox (README there). Import with
+  `tools/import_drop_zones.py plan` then `apply` (run with `.venv/bin/python`;
+  needs Pillow + ffmpeg). `plan` writes ignored `drop-zones/_plan.json` with one
+  entry per file — status (`exact_duplicate` by md5, `probable_duplicate` when a
+  manifest row shares the capture second, `near_duplicate` by dHash), proposed
+  `action` (import/skip/hold), `folder`, `era` (now/construction/drawings). Edit
+  the plan, then `apply` copies stills, boomerang-encodes clips + posters,
+  appends manifest rows (`catalog_source: "drop_zone_import"`), adds
+  construction/drawings keys, and moves originals to ignored `_imported/`.
+  A `construction/` subfolder inside a zone pre-sets the era. Then `make catalog`.
+  Gotcha: Photos re-exports of a frame already in the tree (rotated, cropped,
+  HEIC→JPEG) hash differently — the same-second check is what catches them.
 - Import convention for one-off photos (e.g. AirDropped to the Desktop): copy into
   the right selected/ folder as `YYYYMMDD_HHMMSS_IMG_NNNN.jpeg`, pull created/GPS/dims
   with `mdls` (its dates are UTC — convert to America/New_York), append manifest rows.

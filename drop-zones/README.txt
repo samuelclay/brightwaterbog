@@ -2,8 +2,18 @@ BRIGHTWATER BOG PHOTO DROP ZONES
 ================================
 
 Drop new photos/videos into the folder for their piece, then tell Claude:
-"import the drop zones". Claude renames, reads EXIF dates/GPS, appends
-manifest rows, rebuilds the catalog, and (when you say so) deploys.
+"import the drop zones". Claude runs tools/import_drop_zones.py, which
+renames, reads EXIF dates/GPS, boomerang-encodes clips, appends manifest
+rows and construction keys, then rebuilds the catalog and (when you say
+so) deploys.
+
+    .venv/bin/python tools/import_drop_zones.py plan    # writes _plan.json
+    .venv/bin/python tools/import_drop_zones.py apply   # carries it out
+
+The plan lists every file with its duplicate status and a proposed
+action/folder/era; edit it (or have Claude edit it) before apply. Entries
+marked "hold" stay put until decided. Both _plan.json and _imported/ are
+git-ignored.
 
 WHAT GOES WHERE
 - One folder per trail stop / indoor piece. Originals straight off the
