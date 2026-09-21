@@ -116,7 +116,7 @@ const total = photos.length;
 
       <div class="strip__track" data-strip-track>
         {groups.map((g) => (
-          <div class="strip__group" data-group={g.era}>
+          <div class="strip__group" data-group={g.era} data-label={g.label}>
             {g.items.map((f, i) => (
               <button
                 class:list={["frame", { "frame--drop": f.drop }]}
@@ -151,7 +151,7 @@ const total = photos.length;
                   <img
                     src={f.thumb}
                     srcset={f.thumbset}
-                    sizes="440px"
+                    sizes="(max-width: 620px) 340px, 524px"
                     width={f.w || undefined}
                     height={f.h || undefined}
                     loading="lazy"

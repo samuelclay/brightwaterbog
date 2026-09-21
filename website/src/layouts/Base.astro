@@ -47,6 +47,15 @@ const ogUrl = new URL(Astro.url.pathname, site).href;
           const t = localStorage.getItem("bwb-theme");
           if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
         } catch (_) {}
+        // Trail map view (see global.css MAP VIEWS): phones get the corner
+        // card; desktop gets the rail unless it was minimized last time.
+        let view = "rail";
+        try {
+          if (localStorage.getItem("bwb-map-min") === "1") view = "card";
+        } catch (_) {}
+        document.documentElement.dataset.mapView = matchMedia("(max-width: 1080px)").matches
+          ? "mobile"
+          : view;
       })();
     </script>
   </head>

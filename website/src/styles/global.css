@@ -373,8 +373,8 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 .frame {
   position: relative;
   flex: 0 0 auto;
-  height: clamp(340px, 58vh, 520px);
-  width: clamp(300px, 40vw, 440px); /* uniform "cover" tiles */
+  height: clamp(340px, 68vh, 620px);
+  width: clamp(300px, 46vw, 524px); /* uniform "cover" tiles, same 0.85 shape as before, scaled up */
   border-radius: var(--radius);
   overflow: hidden;
   background: var(--surface);
@@ -491,10 +491,32 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 /* groups inside the track (a larger gap divides the eras) */
 .strip__group { display: flex; gap: 14px; flex: 0 0 auto; }
 .strip__group + .strip__group {
+  position: relative;
   margin-left: 18px;
-  padding-left: 32px;
+  padding-left: var(--spine-w, 72px); /* the gap the section's name runs down */
   border-left: 1px dashed var(--came-strong);
 }
+/* The section's name runs down the gap like a book spine (rotated, reading
+   top to bottom): bold and tracked so it's well defined, faded so it doesn't
+   compete with the photos. The first section (Now) has no gap, so no word. */
+.strip__group + .strip__group::before {
+  content: attr(data-label);
+  position: absolute;
+  left: calc(var(--spine-w, 72px) / 2);
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  white-space: nowrap;
+  font-family: system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: var(--spine-size, 2.2rem);
+  line-height: 1;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: color-mix(in oklab, var(--ink) 30%, transparent);
+  pointer-events: none;
+}
+/* shorter tiles get a smaller spine so the word still fits the tile height */
+.strip--compact .strip__group + .strip__group { --spine-w: 52px; --spine-size: 1.5rem; }
 
 .strip__empty {
   font-family: var(--font-mono);
@@ -508,15 +530,21 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
    ========================================================================= */
 .minimap {
   position: sticky;
-  /* roughly centers the ~75svh map; also leaves room for the caption above */
-  top: max(4rem, 10svh);
+  /* clears the fixed topbar (nav pill bottom ≈ 53px) with room for the
+     caption row that hangs above the frame (28px + 0.7rem), plus a breath;
+     grows with tall viewports so the ~72svh map stays roughly centred */
+  top: max(7rem, 10svh + 1rem);
   width: 100%;
+  /* the visible slice when minimized — the same window the mobile card uses;
+     scroll-stage.ts reads it back to centre the active marker in the slice */
+  --mm-window-h: 35px;
 }
 .minimap__frame {
   border: 1px solid var(--came);
   border-radius: var(--radius);
   background: radial-gradient(80% 70% at 50% 40%, var(--surface-2), var(--surface));
   padding: 16px;
+  transition: height 0.45s var(--ease);
 }
 /* the map svg only — a bare `.minimap svg` also catches the toggle button's
    inline icon svgs, which these size rules would blow up to map height */
@@ -527,6 +555,7 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   overflow: visible;
   display: block;
   margin: 0 auto;
+  transition: transform 0.45s var(--ease); /* the slice pans to the active stop */
 }
 
 /* terrain: mottled undergrowth + paper grain + the two ponds */
@@ -575,7 +604,7 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 .mm-marker:focus-visible { outline: none; }
 .mm-marker:focus-visible .mm-dot { stroke: var(--ink); scale: 1.35; }
 
-.minimap__caption { display: flex; justify-content: space-between; align-items: baseline; gap: 0.5rem; }
+.minimap__caption { display: flex; justify-content: flex-start; align-items: baseline; gap: 0.5rem; }
 /* anchored above the frame, out of flow: a wrapping title grows upward over
    empty rail space instead of resizing the caption and bouncing the map */
 .minimap__caption--top {
@@ -591,7 +620,7 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   font-variation-settings: "opsz" 60, "SOFT" 30;
   line-height: 1.05;
 }
-.minimap__count { font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-faint); letter-spacing: 0.08em; white-space: nowrap; }
+.minimap__count { margin-left: auto; font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-faint); letter-spacing: 0.08em; white-space: nowrap; }
 .minimap__count b { color: var(--stop-glass); font-weight: 500; }
 
 /* =========================================================================
@@ -915,27 +944,55 @@ footer.site-foot {
 /* =========================================================================
    RESPONSIVE — collapse rail to a fixed bottom trail bar
    ========================================================================= */
-/* Mobile-only expand/collapse control in the map card's header */
-.minimap__toggle { display: none; }
+/* Map card header control. In the rail view (desktop) it minimizes the map
+   to the corner card ⤡; in the card view it restores the rail ⤢; on mobile
+   it expands the card's slice to the full map ⤢ and folds it back ✕. */
+.minimap__toggle {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  flex: 0 0 auto;
+  align-self: center;
+  border: 1px solid var(--came-strong);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.85rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: border-color 0.3s var(--ease), color 0.3s var(--ease);
+}
+.minimap__toggle:hover { border-color: var(--stop-glass); color: var(--stop-glass); }
+.minimap__toggle-expand, .minimap__toggle-close { display: none; }
+/* Mobile only: the ✕ once the card's slice is opened to the full map */
+html[data-map-view="mobile"] .map-rail.is-open .minimap__toggle-expand { display: none; }
+html[data-map-view="mobile"] .map-rail.is-open .minimap__toggle-close { display: block; }
 
-@media (max-width: 1080px) {
-  .trail { grid-template-columns: minmax(0, 1fr); }
-  /* The map floats over the bottom-right corner as a narrow window onto the
-     full map: a slice a quarter of the map tall, panned so the current stop
-     stays centered — like a thumb sliding along a pocket map. The header's
-     ⤢ opens the whole map; picking a stop folds it back to the window. */
-  /* Held back until the trail starts: a floating card would otherwise sit over
-     the hero from the first paint. scroll-stage.ts reveals it once the first
-     stop's header has risen to the card's own top edge, so the map never
-     covers anything above Stargate. */
-  /* The card is pinned only INSIDE the trail — same trick as the desktop
-     rail, one column over: the rail overlays the stops column at full height
-     (a grid item's own sticky range is just its grid area, so the rail can't
-     be the sticky thing itself) and the minimap inside it sticks to the
-     viewport bottom. At the trail's end the card hits its natural place at
-     the rail's bottom and scrolls away with the last stop (Dam Light)
-     instead of floating over the indoor/poetry/visit sections. */
-  .map-rail {
+/* =========================================================================
+   MAP VIEWS — rail (desktop default) vs card (mobile, or desktop minimized)
+   ========================================================================= */
+/* <html data-map-view="rail|card|mobile"> is set before first paint by the
+   inline script in Base.astro and kept current by scroll-stage.ts: "mobile"
+   under 1080px, otherwise the remembered desktop choice. The card is the
+   same on both: the map floats over the bottom-right corner as a narrow
+   window onto the full map — a slice panned so the current stop stays
+   centered, like a thumb sliding along a pocket map — and the stops column
+   takes the whole width, so the photo strips run edge to edge. Tapping the
+   slice opens the whole map; picking a stop folds it back to the window.
+   Held back until the trail starts: a floating card would otherwise sit over
+   the hero from the first paint. scroll-stage.ts reveals it once the first
+   stop's header has risen to the card's own top edge, so the map never
+   covers anything above Stargate.
+   The card is pinned only INSIDE the trail — same trick as the desktop rail,
+   one column over: the rail overlays the stops column at full height (a grid
+   item's own sticky range is just its grid area, so the rail can't be the
+   sticky thing itself) and the minimap inside it sticks to the viewport
+   bottom. At the trail's end the card hits its natural place at the rail's
+   bottom and scrolls away with the last stop (Dam Light) instead of floating
+   over the indoor/poetry/visit sections. */
+  html:is([data-map-view="card"], [data-map-view="mobile"]) .trail { grid-template-columns: minmax(0, 1fr); }
+  html:is([data-map-view="card"], [data-map-view="mobile"]) .map-rail {
     visibility: hidden;
     opacity: 0;
     transform: translateY(10px);
@@ -955,13 +1012,13 @@ footer.site-foot {
     padding: 0;
     pointer-events: none; /* full-height overlay — only the card is real */
   }
-  .map-rail.is-shown {
+  html:is([data-map-view="card"], [data-map-view="mobile"]) .map-rail.is-shown {
     visibility: visible;
     opacity: 1;
     transform: none;
     transition-delay: 0s, 0s, 0s;
   }
-  .minimap {
+  html:is([data-map-view="card"], [data-map-view="mobile"]) .minimap {
     position: sticky;
     bottom: max(12px, env(safe-area-inset-bottom));
     top: auto; /* the desktop sticky-top offset must not fight bottom */
@@ -982,7 +1039,7 @@ footer.site-foot {
     --mm-map-h: min(44svh, 420px);
     --mm-window-h: 35px;
   }
-  .minimap__frame {
+  html:is([data-map-view="card"], [data-map-view="mobile"]) .minimap__frame {
     border: 0;
     border-radius: 0;
     padding: 0;
@@ -992,22 +1049,22 @@ footer.site-foot {
     /* an explicit open height (not auto) so the expansion can animate */
     transition: height 0.45s var(--ease);
   }
-  .map-rail.is-open .minimap__frame { height: var(--mm-map-h); }
+  html:is([data-map-view="card"], [data-map-view="mobile"]) .map-rail.is-open .minimap__frame { height: var(--mm-map-h); }
   /* Explicit height (not max-height): an SVG with only a viewBox has no
      intrinsic size, so height must be set for width:auto to follow aspect.
      The slice pans via a pixel translateY set from scroll-stage.ts; it rides
      back to 0 on the same curve as the frame's height so opening reads as one
      motion. */
-  .minimap__frame svg {
+  html:is([data-map-view="card"], [data-map-view="mobile"]) .minimap__frame svg {
     height: var(--mm-map-h);
     max-height: none;
     width: auto;
     margin: 0;
     transition: transform 0.45s var(--ease);
   }
-  /* Header row: title · count · expand control. width: 0 + min-width: 100%
-     keeps a long title from widening the card past the map. */
-  .minimap__caption--top {
+  /* Header row: title · count · control. width: 0 + min-width: 100% keeps a
+     long title from widening the card past the map. */
+  html:is([data-map-view="card"], [data-map-view="mobile"]) .minimap__caption--top {
     position: static;
     margin: 0 0 6px;
     width: 0;
@@ -1015,29 +1072,113 @@ footer.site-foot {
     align-items: center;
     gap: 8px;
   }
-  .minimap__now { flex: 1; font-size: 0.85rem; line-height: 1.2; }
-  .minimap__count { display: none; } /* the title is enough on mobile */
-  .minimap__toggle-close { display: none; }
-  .map-rail.is-open .minimap__toggle-expand { display: none; }
-  .map-rail.is-open .minimap__toggle-close { display: block; }
-  .minimap__toggle {
-    display: grid;
-    place-items: center;
-    width: 28px;
-    height: 28px;
-    flex: 0 0 auto;
-    margin-right: 3px;
-    border: 1px solid var(--came-strong);
-    border-radius: var(--radius);
-    background: var(--surface);
-    color: var(--ink);
-    font-size: 0.85rem;
-    line-height: 1;
+  html:is([data-map-view="card"], [data-map-view="mobile"]) .minimap__now { flex: 1; font-size: 0.85rem; line-height: 1.2; }
+  html:is([data-map-view="card"], [data-map-view="mobile"]) .minimap__count { display: none; } /* the title is enough on the card */
+  html:is([data-map-view="card"], [data-map-view="mobile"]) .minimap__toggle { margin-right: 3px; }
+  html:is([data-map-view="card"], [data-map-view="mobile"]) .minimap__toggle-minimize { display: none; }
+  html:is([data-map-view="card"], [data-map-view="mobile"]) .minimap__toggle-expand { display: block; }
+
+/* Desktop rail ⇄ card flight (scroll-stage.ts): the card is measured in both
+   layouts and played back from the old spot to the new one. */
+.minimap.is-flying {
+  transition: transform 0.45s var(--ease);
+  transform-origin: top left;
+  will-change: transform;
+}
+
+/* No-JS fallback: without the attribute, phones still get the card layout. */
+@media (max-width: 1080px) {
+  html:not([data-map-view]) .trail { grid-template-columns: minmax(0, 1fr); }
+  html:not([data-map-view]) .map-rail {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(10px);
+    transition:
+      opacity 0.4s var(--ease),
+      transform 0.4s var(--ease),
+      visibility 0s linear 0.4s;
+    grid-column: 1;
+    grid-row: 1;
+    align-self: stretch;
+    justify-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 30;
+    padding: 0;
+    pointer-events: none; /* full-height overlay — only the card is real */
   }
+  html:not([data-map-view]) .map-rail.is-shown {
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+    transition-delay: 0s, 0s, 0s;
+  }
+  html:not([data-map-view]) .minimap {
+    position: sticky;
+    bottom: max(12px, env(safe-area-inset-bottom));
+    top: auto; /* the desktop sticky-top offset must not fight bottom */
+    pointer-events: auto;
+    /* pull past the trail column's padding so the card keeps the old fixed
+       inset of 10px from the screen edge */
+    margin-right: calc(max(10px, env(safe-area-inset-right)) - clamp(1rem, 3vw, 3rem));
+    width: fit-content;
+    border: 1px solid var(--came);
+    border-radius: var(--radius);
+    background: color-mix(in oklab, var(--bg) 80%, transparent);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 14px 40px rgb(0 0 0 / 40%);
+    padding: 8px 9px;
+    /* full map height, and the height of the collapsed window onto it. Both
+       are read back by scroll-stage.ts, which centers the active marker in
+       the window — keep them as plain px/length values it can parse. */
+    --mm-map-h: min(44svh, 420px);
+    --mm-window-h: 35px;
+  }
+  html:not([data-map-view]) .minimap__frame {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    background: none;
+    height: var(--mm-window-h); /* the visible slice */
+    overflow: hidden;
+    /* an explicit open height (not auto) so the expansion can animate */
+    transition: height 0.45s var(--ease);
+  }
+  html:not([data-map-view]) .map-rail.is-open .minimap__frame { height: var(--mm-map-h); }
+  /* Explicit height (not max-height): an SVG with only a viewBox has no
+     intrinsic size, so height must be set for width:auto to follow aspect.
+     The slice pans via a pixel translateY set from scroll-stage.ts; it rides
+     back to 0 on the same curve as the frame's height so opening reads as one
+     motion. */
+  html:not([data-map-view]) .minimap__frame svg {
+    height: var(--mm-map-h);
+    max-height: none;
+    width: auto;
+    margin: 0;
+    transition: transform 0.45s var(--ease);
+  }
+  /* Header row: title · count · control. width: 0 + min-width: 100% keeps a
+     long title from widening the card past the map. */
+  html:not([data-map-view]) .minimap__caption--top {
+    position: static;
+    margin: 0 0 6px;
+    width: 0;
+    min-width: 100%;
+    align-items: center;
+    gap: 8px;
+  }
+  html:not([data-map-view]) .minimap__now { flex: 1; font-size: 0.85rem; line-height: 1.2; }
+  html:not([data-map-view]) .minimap__count { display: none; } /* the title is enough on the card */
+  html:not([data-map-view]) .minimap__toggle { margin-right: 3px; }
+  html:not([data-map-view]) .minimap__toggle-minimize { display: none; }
+  html:not([data-map-view]) .minimap__toggle-expand { display: block; }
   .stops { padding-bottom: 40px; }
 }
 @media (max-width: 620px) {
   .frame { height: clamp(300px, 74vw, 440px); width: clamp(240px, 62vw, 340px); }
+  .strip__group + .strip__group { --spine-w: 52px; --spine-size: 1.5rem; }
   .era-gap { width: 46px; }
   .hero__inner { max-width: none; }
 }

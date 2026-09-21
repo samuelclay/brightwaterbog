@@ -1,6 +1,14 @@
 // Drives the scrollytelling: reveals each stop as it enters view, and tracks the
 // stop nearest the viewport center to highlight the active marker and update
-// the map caption.
+// the map caption. Also owns the map's three views (see global.css MAP VIEWS):
+//   rail   — desktop default, the full map beside the stops
+//   card   — desktop minimized: the bottom-right slice card, strips full width
+//   mobile — the same card, forced under 1080px
+// <html data-map-view> is set before first paint by Base.astro and kept
+// current here; the desktop choice is remembered in localStorage.
+
+type MapView = "rail" | "card" | "mobile";
+const MIN_KEY = "bwb-map-min";
 
 function init() {
   const stage = document.querySelector<HTMLElement>("[data-scrollstage]");
@@ -30,15 +38,33 @@ function init() {
   let ticking = false;
   let lastIndex = -1;
 
-  // Mobile: the floating card shows only a thin slice of the map, panned so the
-  // active stop's marker sits on the slice's centerline.
+  // The card (mobile, or desktop minimized) shows only a thin slice of the
+  // map, panned so the active stop's marker sits on the slice's centerline.
   const rail = document.querySelector<HTMLElement>("[data-map-rail]");
   const mapToggle = document.querySelector<HTMLButtonElement>("[data-map-toggle]");
   // Scope to the frame: the caption's toggle button holds inline icon svgs
   // that come first in DOM order, so a bare "svg" query would pan the icon.
   const svg = minimap.querySelector<SVGSVGElement>(".minimap__frame svg");
+  const frame = minimap.querySelector<HTMLElement>(".minimap__frame");
   const mobileMap = window.matchMedia("(max-width: 1080px)");
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+  const remembered = (): MapView => {
+    try {
+      return localStorage.getItem(MIN_KEY) === "1" ? "card" : "rail";
+    } catch {
+      return "rail";
+    }
+  };
+  const view = (): MapView =>
+    (root.getAttribute("data-map-view") as MapView | null) ??
+    (mobileMap.matches ? "mobile" : remembered());
+  const setView = (v: MapView) => root.setAttribute("data-map-view", v);
+  if (!root.hasAttribute("data-map-view")) setView(view());
+
   const isOpen = () => rail?.classList.contains("is-open") ?? false;
+  // "Folded" = only the slice is showing (any card view, not opened).
+  const isFolded = () => view() !== "rail" && !isOpen();
 
   // Height of the collapsed window, read from --mm-window-h so the pan math
   // can never drift from the frame height in global.css.
@@ -47,7 +73,7 @@ function init() {
 
   function panMap() {
     if (!svg) return;
-    if (!mobileMap.matches || isOpen()) {
+    if (!isFolded()) {
       svg.style.transform = "";
       return;
     }
@@ -66,8 +92,8 @@ function init() {
 
   // The card stays out of sight over the hero and rises into place when the
   // first stop's header reaches its top edge — so the map never overlaps
-  // anything above Stargate. Desktop ignores the class (the rail is in flow
-  // beside the stops there, and never reaches the hero).
+  // anything above Stargate. The rail view ignores the class (the rail is in
+  // flow beside the stops there, and never reaches the hero).
   function syncRailVisibility() {
     if (!rail) return;
     const head = (stops[0].querySelector(".stop__head") as HTMLElement) ?? stops[0];
@@ -145,29 +171,105 @@ function init() {
     mk.addEventListener("blur", restore);
   });
 
-  // Expand to the full map from the header control; picking a stop (or
-  // tapping outside / Esc) folds it back to the moving window.
   if (rail && mapToggle) {
-    const setOpen = (open: boolean) => {
-      rail.classList.toggle("is-open", open);
-      mapToggle.setAttribute("aria-expanded", String(open));
+    const syncToggle = () => {
+      const v = view();
+      const expanded = v === "rail" || isOpen();
+      mapToggle.setAttribute("aria-expanded", String(expanded));
       mapToggle.setAttribute(
         "aria-label",
-        open ? "Collapse the trail map" : "Expand the trail map",
+        v === "rail"
+          ? "Minimize the trail map"
+          : v === "card"
+            ? "Restore the full trail map"
+            : isOpen()
+              ? "Collapse the trail map"
+              : "Expand the trail map",
       );
-      mapToggle.setAttribute("aria-label", open ? "Collapse the trail map" : "Expand the trail map");
+    };
+    // Card views: open the slice to the whole map, or fold it back.
+    const setOpen = (open: boolean) => {
+      rail.classList.toggle("is-open", open);
+      syncToggle();
       panMap();
     };
     setOpenRef = setOpen; // so scrolling back up to the hero also folds it shut
-    mapToggle.addEventListener("click", () => setOpen(!isOpen()));
+
+    // Desktop: rail ⇄ card. A FLIP flight — measure the card where it is,
+    // switch the layout, measure where it landed, then play it back from the
+    // old spot to the new one (translate + the width ratio). The frame folds
+    // or unfolds its height on the same curve: `auto` can't transition, so it
+    // is pinned at its current pixel height for one frame first, then handed
+    // the target — the CSS slice height going to the card, the full map
+    // height (svg + padding + border) coming back — and released on landing.
+    let flight: number | undefined;
+    const land = () => {
+      window.clearTimeout(flight);
+      minimap.classList.remove("is-flying");
+      minimap.style.transform = "";
+      if (frame) {
+        frame.style.height = "";
+        frame.style.overflow = "";
+        frame.style.transition = "";
+      }
+    };
+    const setCard = (card: boolean) => {
+      if (mobileMap.matches) return;
+      const target: MapView = card ? "card" : "rail";
+      if (view() === target) return;
+      land();
+      rail.classList.remove("is-open");
+      const animate = !reduceMotion.matches && frame && svg;
+      const first = minimap.getBoundingClientRect();
+      const frameH = frame?.offsetHeight ?? 0;
+      setView(target);
+      try {
+        localStorage.setItem(MIN_KEY, card ? "1" : "0");
+      } catch {}
+      syncRailVisibility(); // the card hides itself above the trail
+      if (animate) {
+        // pin without animating: the frame's height transition is live in
+        // both layouts, and would otherwise chase the pin instead of the target
+        frame!.style.transition = "none";
+        frame!.style.height = `${frameH}px`;
+        frame!.style.overflow = "hidden";
+        const last = minimap.getBoundingClientRect();
+        // the unfolded height, measured now — before the inverse transform,
+        // which would scale every descendant rect along with the card
+        const cs = getComputedStyle(frame!);
+        const fullH =
+          svg!.getBoundingClientRect().height +
+          parseFloat(cs.paddingTop) + parseFloat(cs.paddingBottom) +
+          parseFloat(cs.borderTopWidth) + parseFloat(cs.borderBottomWidth);
+        minimap.style.transform =
+          `translate(${(first.left - last.left).toFixed(1)}px, ${(first.top - last.top).toFixed(1)}px)` +
+          ` scale(${(first.width / last.width).toFixed(4)})`;
+        void minimap.offsetWidth; // commit the start state before the flight
+        frame!.style.transition = "";
+        minimap.classList.add("is-flying");
+        minimap.style.transform = "";
+        // fold to the CSS slice height, or unfold to the full map
+        frame!.style.height = card ? "" : `${fullH}px`;
+        flight = window.setTimeout(land, 520);
+      }
+      syncToggle();
+      panMap();
+    };
+
+    mapToggle.addEventListener("click", () => {
+      const v = view();
+      if (v === "mobile") setOpen(!isOpen());
+      else setCard(v === "rail");
+    });
     // While folded the whole card is one big open affordance — the 35px strip
-    // is too thin to aim a marker at anyway, so a tap anywhere on it expands
+    // is too thin to aim a marker at anyway, so a tap anywhere on it opens
     // instead of jumping to whatever stop happened to be under your thumb.
-    // Capture, so it runs before the markers' own click handlers.
+    // Capture, so it runs before the markers' own click handlers; the header
+    // control keeps its own job.
     rail.addEventListener(
       "click",
       (e) => {
-        if (!mobileMap.matches || isOpen()) return;
+        if (!isFolded() || mapToggle.contains(e.target as Node)) return;
         e.preventDefault();
         e.stopPropagation();
         setOpen(true);
@@ -194,6 +296,17 @@ function init() {
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape" && isOpen()) setOpen(false);
     });
+    // Crossing the breakpoint: phones are always the card; back on desktop
+    // the remembered choice returns. No flight either way.
+    mobileMap.addEventListener("change", () => {
+      land();
+      rail.classList.remove("is-open");
+      setView(mobileMap.matches ? "mobile" : remembered());
+      syncToggle();
+      syncRailVisibility();
+      panMap();
+    });
+    syncToggle();
   }
 
   window.addEventListener("scroll", onScroll, { passive: true });
