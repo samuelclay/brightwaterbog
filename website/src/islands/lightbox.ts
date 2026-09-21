@@ -32,9 +32,22 @@ function init() {
 
   let items: Item[] = [];
   let index = 0;
-  let scale = 1;
+  let scale = 1; // transform scale on top of the baked layout size
   let tx = 0;
   let ty = 0;
+  // Zoom is baked into the <img>'s layout size once a gesture settles (see
+  // bake()): iOS Safari rasterizes a transform-scaled layer at its layout
+  // size and just stretches the bitmap, so a pure transform zoom is soft no
+  // matter how big the source is. `baked` is the layout multiplier; the
+  // visual zoom is baked × scale.
+  let baked = 1;
+  const zoomed = () => baked * scale > 1.02;
+  // The strip the lightbox opened from, so closing can bring the photo you
+  // swiped to into view underneath.
+  let stripTrack: HTMLElement | null = null;
+  let frames: HTMLElement[] = [];
+  // Active pointers (declared up here so bake() can check for a live pinch).
+  const pts = new Map<number, { x: number; y: number }>();
   let hiLoaded = false;
   let zoomRequested = false;
   let zoomApplied = false;
@@ -77,21 +90,62 @@ function init() {
 
   function apply() {
     media.style.transform = `translate(${tx}px, ${ty}px) scale(${scale})`;
-    root.classList.toggle("is-zoomed", scale > 1.02);
+    root.classList.toggle("is-zoomed", zoomed());
+  }
+  function unbake() {
+    baked = 1;
+    img.style.width = "";
+    img.style.height = "";
+    img.style.maxWidth = "";
+    img.style.maxHeight = "";
   }
   function resetTransform() {
+    window.clearTimeout(bakeTimer);
     scale = 1;
     tx = 0;
     ty = 0;
+    unbake();
     media.style.transition = "none";
     apply();
   }
   function resetZoomAnimated() {
-    scale = 1;
+    window.clearTimeout(bakeTimer);
     tx = 0;
     ty = 0;
+    scale = 1 / baked; // visually back to the natural size
     media.style.transition = reduce ? "none" : "transform 0.3s ease";
     apply();
+    const settle = () => resetTransform();
+    if (reduce) settle();
+    else setTimeout(settle, 320);
+  }
+
+  // Fold the transform zoom into the image's real width/height so the layer
+  // re-rasterizes at the zoomed resolution (and the near-original render
+  // fetched by upgradeZoom actually gets drawn). Runs shortly after a zoom
+  // gesture settles — never mid-pinch, which would jump the pinch math.
+  let bakeTimer: number | undefined;
+  function bake() {
+    if (media !== img || pts.size > 0) return;
+    if (!zoomed()) {
+      if (baked !== 1 || scale !== 1) resetTransform();
+      return;
+    }
+    if (Math.abs(scale - 1) < 0.002) return;
+    const w = img.clientWidth * scale;
+    const h = img.clientHeight * scale;
+    baked *= scale;
+    scale = 1;
+    img.style.transition = "none";
+    img.style.maxWidth = "none";
+    img.style.maxHeight = "none";
+    img.style.width = `${w}px`;
+    img.style.height = `${h}px`;
+    apply();
+  }
+  function scheduleBake(ms = 160) {
+    window.clearTimeout(bakeTimer);
+    bakeTimer = window.setTimeout(bake, ms);
   }
 
   function clampPan() {
@@ -365,9 +419,11 @@ function init() {
     document.removeEventListener("touchmove", stopMultiTouch);
   }
 
-  function open(list: Item[], start: number) {
+  function open(list: Item[], start: number, track: HTMLElement | null = null) {
     if (!list.length) return;
     items = list;
+    stripTrack = track;
+    frames = track ? Array.from(track.querySelectorAll<HTMLElement>("[data-lightbox]")) : [];
     lockScroll();
     blockNativeZoom();
     root.hidden = false;
@@ -379,8 +435,25 @@ function init() {
     document.addEventListener("keydown", onKey);
   }
 
+  // Scroll the strip underneath so the photo the lightbox is on sits in
+  // view — after swiping through a stop, closing lands you where you were.
+  function syncStrip() {
+    const t = stripTrack;
+    const f = frames[index];
+    if (!t || !f) return;
+    const left =
+      f.getBoundingClientRect().left - t.getBoundingClientRect().left + t.scrollLeft -
+      (t.clientWidth - f.offsetWidth) / 2;
+    const prev = t.style.scrollBehavior;
+    t.style.scrollBehavior = "auto"; // land instantly, behind the fade
+    t.scrollLeft = Math.max(0, left);
+    t.style.scrollBehavior = prev;
+  }
+
   function close() {
     preloadToken++; // stop launching new preloads once closed
+    window.clearTimeout(bakeTimer);
+    syncStrip();
     unblockNativeZoom();
     stopEraTracking();
     if (eraPill) eraPill.hidden = true;
@@ -406,7 +479,9 @@ function init() {
   }
 
   function zoomAt(px: number, py: number, next: number) {
-    const target = Math.min(MAX, Math.max(MIN, next));
+    // `next` is a transform scale on top of the baked size; the visual zoom
+    // (baked × scale) is what MIN/MAX bound.
+    const target = Math.min(MAX / baked, Math.max(MIN / baked, next));
     const rect = media.getBoundingClientRect();
     const cx = px - (rect.left + rect.width / 2);
     const cy = py - (rect.top + rect.height / 2);
@@ -414,8 +489,8 @@ function init() {
     tx -= cx * (f - 1);
     ty -= cy * (f - 1);
     scale = target;
-    if (scale <= 1.02) {
-      scale = 1;
+    if (!zoomed()) {
+      scale = 1 / baked;
       tx = 0;
       ty = 0;
     } else {
@@ -423,7 +498,8 @@ function init() {
     }
     media.style.transition = reduce ? "none" : "transform 0.12s ease-out";
     apply();
-    if (scale > 1.02) upgradeZoom();
+    if (zoomed()) upgradeZoom();
+    scheduleBake();
   }
 
   function onKey(e: KeyboardEvent) {
@@ -433,7 +509,6 @@ function init() {
   }
 
   // ---- pointer gestures (mouse + touch unified) ----
-  const pts = new Map<number, { x: number; y: number }>();
   let startX = 0;
   let startY = 0;
   let baseTx = 0;
@@ -471,7 +546,7 @@ function init() {
       baseTy = ty;
       moved = false;
       pinched = false;
-      mode = scale > 1.02 ? "pan" : "none";
+      mode = zoomed() ? "pan" : "none";
     }
   });
 
@@ -492,7 +567,7 @@ function init() {
     const dy = e.clientY - startY;
     if (Math.abs(dx) > 6 || Math.abs(dy) > 6) moved = true;
 
-    if (scale > 1.02) {
+    if (zoomed()) {
       tx = baseTx + dx;
       ty = baseTy + dy;
       clampPan();
@@ -542,10 +617,11 @@ function init() {
     const dx = e.clientX - startX;
     const dy = e.clientY - startY;
 
-    if (scale > 1.02) {
+    if (zoomed()) {
       // Tap while zoomed animates back out — but only a real tap; the end of
       // a pinch (or the pan after one) must never re-trigger zoom steps.
       if (!moved && !wasPinch) resetZoomAnimated();
+      else scheduleBake(); // fingers are up: fold the zoom into the layout
       mode = "none";
       return;
     }
@@ -577,7 +653,7 @@ function init() {
   function snapBack() {
     const t = reduce ? "none" : "transform 0.25s ease, opacity 0.25s ease";
     media.style.transition = t;
-    media.style.transform = scale > 1.02 ? `translate(${tx}px,${ty}px) scale(${scale})` : "";
+    media.style.transform = zoomed() ? `translate(${tx}px,${ty}px) scale(${scale})` : "";
     media.style.opacity = "1";
     if (peer) {
       const p = peer;
@@ -632,7 +708,7 @@ function init() {
       if (!track) return;
       const list = itemsFromStrip(track);
       const start = Array.from(track.querySelectorAll("[data-lightbox]")).indexOf(frame);
-      open(list, Math.max(0, start));
+      open(list, Math.max(0, start), track as HTMLElement);
     }
   });
 
