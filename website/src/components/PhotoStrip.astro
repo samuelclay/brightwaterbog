@@ -58,6 +58,18 @@ const ERAS = [
   { era: "drawings", label: "Drawings", note: "Julian's plans and sketches" },
 ] as const;
 
+// "May 2021" from an ISO date — the badge wants the month, not the day.
+const MONTHS = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December",
+];
+function whenLabel(date: string | null | undefined): string {
+  if (!date) return "";
+  const m = Number(date.slice(5, 7));
+  const year = date.slice(0, 4);
+  return m >= 1 && m <= 12 ? `${MONTHS[m - 1]} ${year}` : year;
+}
+
 function frameData(p: PhotoEntry) {
   // Dims fingerprint busts stale browser/CDN caches when a photo is replaced.
   const v = p.width && p.height ? `${p.width}x${p.height}` : undefined;
@@ -72,7 +84,7 @@ function frameData(p: PhotoEntry) {
     drop: Boolean(dupeRemove[p.key]),
     w: p.width ?? 0,
     h: p.height ?? 0,
-    year: p.date ? p.date.slice(0, 4) : "",
+    when: whenLabel(p.date),
   };
 }
 
@@ -127,7 +139,7 @@ const total = photos.length;
                 data-full-zoom={f.fullZoom}
                 data-w={f.w}
                 data-h={f.h}
-                data-era={`${g.label}${f.year ? ` · ${f.year}` : ""}`}
+                data-era={`${g.label}${f.when ? ` · ${f.when}` : ""}`}
                 data-video={f.video || undefined}
                 aria-label={`${title}, ${g.label} ${f.video ? "clip" : "photo"} ${i + 1}, open full screen`}
               >
@@ -161,7 +173,7 @@ const total = photos.length;
                 )}
                 <span class="frame__era">
                   {g.label}
-                  {f.year ? ` · ${f.year}` : ""}
+                  {f.when ? ` · ${f.when}` : ""}
                 </span>
                 {f.label && (
                   <span class:list={["frame__id", { "frame__id--drop": f.drop }]}>{f.label}</span>
