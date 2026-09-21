@@ -279,6 +279,36 @@ function init() {
     peer = null;
   }
 
+  // Clip neighbours are built ahead of the swipe (cued to their poster frame,
+  // playing muted, detached) so the copy that slides in already has a decoded
+  // frame — otherwise it shows its JPEG poster for the first beat and the
+  // switch to the real frame reads as a flash.
+  const prepared = new Map<number, HTMLVideoElement>();
+  function prepareNeighbours() {
+    const n = items.length;
+    const want = new Set(n > 1 ? [(index + 1) % n, (index - 1 + n) % n] : []);
+    for (const [i, v] of prepared) {
+      if (!want.has(i)) {
+        v.pause();
+        v.removeAttribute("src");
+        v.load();
+        prepared.delete(i);
+      }
+    }
+    for (const i of want) {
+      if (!items[i].video || prepared.has(i)) continue;
+      prepared.set(i, makePeer(items[i]) as HTMLVideoElement);
+    }
+  }
+  function dropPrepared() {
+    for (const v of prepared.values()) {
+      v.pause();
+      v.removeAttribute("src");
+      v.load();
+    }
+    prepared.clear();
+  }
+
   // Preload every photo in the carousel as soon as it opens — nearest
   // neighbors first, a few at a time — so slides never animate in empty.
   const preloadedUrls = new Set<string>();
@@ -318,7 +348,10 @@ function init() {
   function ensurePeer(dir: 1 | -1) {
     if (peer && peerDir === dir) return;
     removePeer();
-    const g = makePeer(items[(index + dir + items.length) % items.length]);
+    const i = (index + dir + items.length) % items.length;
+    const ready = prepared.get(i);
+    if (ready) prepared.delete(i);
+    const g = ready ?? makePeer(items[i]);
     g.style.transition = "none";
     g.style.transform = `translateX(${dir * stageWidth()}px)`;
     stage.appendChild(g);
@@ -371,6 +404,7 @@ function init() {
     setEra(item);
     media.style.opacity = "1";
     upgradeHi(item);
+    prepareNeighbours();
     const single = items.length < 2;
     if (btnPrev) btnPrev.disabled = single;
     if (btnNext) btnNext.disabled = single;
@@ -415,6 +449,7 @@ function init() {
         p.remove();
         sliding = false;
         upgradeHi(item);
+        prepareNeighbours();
       };
       // decode() is paint-driven and can stall (e.g. hidden tabs) — the peer
       // already showed this src, so revealing without it is safe. A clip is
@@ -426,7 +461,12 @@ function init() {
       } else {
         const v = media as HTMLVideoElement;
         const arm = () => {
-          if (peerTime != null) cueVideo(v, p instanceof HTMLVideoElement ? p.currentTime : peerTime);
+          // Freeze the sliding copy so the frame the real player seeks to is
+          // the one on screen when it's revealed, not a few frames behind it.
+          if (p instanceof HTMLVideoElement) {
+            p.pause();
+            cueVideo(v, p.currentTime);
+          } else if (peerTime != null) cueVideo(v, peerTime);
           if (v.seeking) v.addEventListener("seeked", reveal, { once: true });
           else requestAnimationFrame(() => requestAnimationFrame(reveal));
         };
@@ -505,6 +545,7 @@ function init() {
       root.setAttribute("aria-hidden", "true");
       unlockScroll();
       removePeer();
+      dropPrepared();
       sliding = false;
       img.src = "";
       img.style.opacity = "1";
