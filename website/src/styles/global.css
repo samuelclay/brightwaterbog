@@ -283,7 +283,7 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
    ========================================================================= */
 .trail {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) var(--rail);
+  grid-template-columns: minmax(0, 1fr); /* the map overlays the stops, no gutter */
   gap: clamp(1rem, 3vw, 3rem);
   padding: 0 clamp(1rem, 3vw, 3rem);
   align-items: start;
@@ -292,16 +292,24 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
    auto-placement cursor pushes .stops to row 2 — a full 100svh (the rail's
    height) of blank space before the first stop */
 .stops { grid-column: 1; grid-row: 1; }
-/* The rail spans the whole trail; the minimap inside it is the sticky part,
-   so at the trail's end it settles at the rail's bottom (beside the last
-   stop) instead of scrolling off with a fixed-height rail. */
+/* The rail overlays the stops column at full height (same grid cell, on
+   top) so the photo strips run edge to edge underneath; the map card inside
+   it is the sticky part, so at the trail's end it settles at the rail's
+   bottom and scrolls away with the last stop instead of floating over the
+   indoor/poetry/visit sections. Only the card takes pointer events — the
+   strips stay scrollable around it. */
 .map-rail {
-  grid-column: 2;
+  grid-column: 1;
   grid-row: 1;
   align-self: stretch;
-  /* top padding houses the caption overlay (it hangs above the frame),
-     so the map isn't clipped before the sticky engages */
-  padding: 4.5rem 0 1.5rem;
+  justify-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  z-index: 30;
+  padding: 0;
+  pointer-events: none;
 }
 .stops { min-width: 0; padding: 2rem 0 12svh; display: flex; flex-direction: column; gap: 2rem; }
 
@@ -530,11 +538,19 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
    ========================================================================= */
 .minimap {
   position: sticky;
-  /* clears the fixed topbar (nav pill bottom ≈ 53px) with room for the
-     caption row that hangs above the frame (28px + 0.7rem), plus a breath;
-     grows with tall viewports so the ~72svh map stays roughly centred */
-  top: max(7rem, 10svh + 1rem);
-  width: 100%;
+  /* clears the fixed topbar (nav pill bottom ≈ 53px) with a breath; grows
+     with tall viewports so the ~72svh map stays roughly centred */
+  top: max(5rem, 8svh + 1rem);
+  width: var(--rail);
+  pointer-events: auto;
+  /* the same glass card as the minimized version, just full size: the
+     photos show through the blur instead of losing a gutter to the map */
+  border: 1px solid var(--came);
+  border-radius: var(--radius);
+  background: color-mix(in oklab, var(--bg) 80%, transparent);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 14px 40px rgb(0 0 0 / 40%);
+  padding: 10px 12px 12px;
   /* the visible slice when minimized — the same window the mobile card uses;
      scroll-stage.ts reads it back to centre the active marker in the slice */
   --mm-window-h: 35px;
@@ -543,7 +559,7 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   border: 1px solid var(--came);
   border-radius: var(--radius);
   background: radial-gradient(80% 70% at 50% 40%, var(--surface-2), var(--surface));
-  padding: 16px;
+  padding: 12px;
   transition: height 0.45s var(--ease);
 }
 /* the map svg only — a bare `.minimap svg` also catches the toggle button's
@@ -605,21 +621,21 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
 .mm-marker:focus-visible .mm-dot { stroke: var(--ink); scale: 1.35; }
 
 .minimap__caption { display: flex; justify-content: flex-start; align-items: baseline; gap: 0.5rem; }
-/* anchored above the frame, out of flow: a wrapping title grows upward over
-   empty rail space instead of resizing the caption and bouncing the map */
+/* the card's header row; the title keeps two lines' worth of room so a
+   long name wraps without bouncing the map below it */
 .minimap__caption--top {
-  position: absolute;
-  bottom: calc(100% + 0.7rem);
-  left: 0;
-  right: 0;
-  margin: 0;
+  margin: 0 0 8px;
+  align-items: flex-start;
 }
 .minimap__now {
+  flex: 1;
+  min-height: 2.1em;
   font-family: var(--font-display);
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-variation-settings: "opsz" 60, "SOFT" 30;
   line-height: 1.05;
 }
+.minimap__count { padding-top: 0.35em; }
 .minimap__count { margin-left: auto; font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-faint); letter-spacing: 0.08em; white-space: nowrap; }
 .minimap__count b { color: var(--stop-glass); font-weight: 500; }
 
@@ -1072,7 +1088,7 @@ html[data-map-view="mobile"] .map-rail.is-open .minimap__toggle-close { display:
     align-items: center;
     gap: 8px;
   }
-  html:is([data-map-view="card"], [data-map-view="mobile"]) .minimap__now { flex: 1; font-size: 0.85rem; line-height: 1.2; }
+  html:is([data-map-view="card"], [data-map-view="mobile"]) .minimap__now { flex: 1; font-size: 0.85rem; line-height: 1.2; min-height: 0; }
   html:is([data-map-view="card"], [data-map-view="mobile"]) .minimap__count { display: none; } /* the title is enough on the card */
   html:is([data-map-view="card"], [data-map-view="mobile"]) .minimap__toggle { margin-right: 3px; }
   html:is([data-map-view="card"], [data-map-view="mobile"]) .minimap__toggle-minimize { display: none; }
@@ -1169,7 +1185,7 @@ html[data-map-view="mobile"] .map-rail.is-open .minimap__toggle-close { display:
     align-items: center;
     gap: 8px;
   }
-  html:not([data-map-view]) .minimap__now { flex: 1; font-size: 0.85rem; line-height: 1.2; }
+  html:not([data-map-view]) .minimap__now { flex: 1; font-size: 0.85rem; line-height: 1.2; min-height: 0; }
   html:not([data-map-view]) .minimap__count { display: none; } /* the title is enough on the card */
   html:not([data-map-view]) .minimap__toggle { margin-right: 3px; }
   html:not([data-map-view]) .minimap__toggle-minimize { display: none; }
