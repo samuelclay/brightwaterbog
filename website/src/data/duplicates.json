@@ -796,5 +796,27 @@
     "scanned/mystery_miscellaneous/20260807_180419_flatbed_001.jpg": "606"
   },
   "remove": {},
-  "numbered": "2026-09-20 all sections"
+  "numbered": "2026-09-20 all sections",
+  "archived": [
+    {
+      "label": "15",
+      "key": "apple-photos-stained-glass/selected/sculpture_02_stargate/20230127_171454_1138C1D8-07B5-4051-BA25-BF6729FA7982.jpeg",
+      "when": "2026-09-20"
+    },
+    {
+      "label": "18",
+      "key": "apple-photos-stained-glass/selected/sculpture_02_stargate/20260625_204151_1C78DD60-EA78-4480-8E7B-F67F9846DA08.jpeg",
+      "when": "2026-09-20"
+    },
+    {
+      "label": "20",
+      "key": "apple-photos-stained-glass/selected/sculpture_02_stargate/20260625_204204_F67CF3C7-80C2-4F58-B8A5-4C23F46E9D9C.jpeg",
+      "when": "2026-09-20"
+    },
+    {
+      "label": "22",
+      "key": "apple-photos-stained-glass/selected/sculpture_02_stargate/20260807_201256_IMG_9830.jpeg",
+      "when": "2026-09-20"
+    }
+  ]
 }
