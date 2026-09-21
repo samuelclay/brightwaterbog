@@ -1193,7 +1193,7 @@ html[data-map-view="mobile"] .map-rail.is-open .minimap__toggle-close { display:
   .stops { padding-bottom: 40px; }
 }
 @media (max-width: 620px) {
-  .frame { height: clamp(300px, 74vw, 440px); width: clamp(240px, 62vw, 340px); }
+  .frame { height: clamp(390px, 96vw, 572px); width: clamp(312px, 81vw, 442px); } /* 1.3× the old 300–440 tile, same shape */
   .strip__group + .strip__group { --spine-w: 52px; --spine-size: 1.5rem; }
   .era-gap { width: 46px; }
   .hero__inner { max-width: none; }
