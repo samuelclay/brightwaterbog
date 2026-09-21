@@ -58,7 +58,10 @@ function init() {
   let peerDir: 1 | -1 = 1;
 
   const MIN = 1;
-  const MAX = 6;
+  // Deep zoom: the construction detail is the point. Past the source's own
+  // pixels it's upscaling either way, so bake() stops growing the layer at
+  // native resolution and the transform carries the rest.
+  const MAX = 16;
   const SLIDE_MS = 320;
   const SLIDE_EASE = "cubic-bezier(0.22, 0.61, 0.36, 1)";
   const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -132,15 +135,22 @@ function init() {
       return;
     }
     if (Math.abs(scale - 1) < 0.002) return;
-    const w = img.clientWidth * scale;
-    const h = img.clientHeight * scale;
-    baked *= scale;
-    scale = 1;
+    const want = baked * scale; // the visual zoom to keep
+    const baseW = img.clientWidth / baked; // layout size at zoom 1
+    const baseH = img.clientHeight / baked;
+    // The layer needs no more device pixels than the render has: cap the
+    // layout at native resolution and leave any zoom beyond it on the transform.
+    const nativeW = Math.min(items[index]?.w || 4000, 4000);
+    const capZoom = Math.max(1, nativeW / (window.devicePixelRatio || 1) / baseW);
+    const layoutZoom = Math.min(want, capZoom);
+    if (Math.abs(layoutZoom - baked) < 0.002) return; // already at the cap
+    baked = layoutZoom;
+    scale = want / layoutZoom;
     img.style.transition = "none";
     img.style.maxWidth = "none";
     img.style.maxHeight = "none";
-    img.style.width = `${w}px`;
-    img.style.height = `${h}px`;
+    img.style.width = `${baseW * layoutZoom}px`;
+    img.style.height = `${baseH * layoutZoom}px`;
     apply();
   }
   function scheduleBake(ms = 160) {
@@ -202,15 +212,30 @@ function init() {
     el.style.opacity = "";
   }
 
+  // Start a clip on its poster frame (the poster is a third into the forward
+  // pass, i.e. a sixth of the boomerang) — or at a given time — so the first
+  // painted frame matches what was already on screen instead of jumping to 0.
+  function cueVideo(v: HTMLVideoElement, at?: number) {
+    const seek = () => {
+      const t = at ?? (Number.isFinite(v.duration) && v.duration > 0 ? v.duration / 6 : 0);
+      try {
+        v.currentTime = t;
+      } catch (_) {}
+    };
+    if (v.readyState >= 1) seek();
+    else v.addEventListener("loadedmetadata", seek, { once: true });
+  }
+
   // Put an item on stage, choosing <img> or <video>, and point `media` at
   // whichever landed there.
-  function showItem(item: Item) {
+  function showItem(item: Item, at?: number) {
     if (item.video && vid) {
       img.removeAttribute("src");
       stash(img);
       vid.hidden = false;
       vid.poster = item.full;
       vid.src = item.video;
+      cueVideo(vid, at);
       void vid.play().catch(() => {});
       media = vid;
     } else {
@@ -238,6 +263,7 @@ function init() {
       v.playsInline = true;
       v.poster = item.full;
       v.src = item.video;
+      cueVideo(v);
       void v.play().catch(() => {});
       return v;
     }
@@ -372,7 +398,9 @@ function init() {
       hiLoaded = false;
       zoomRequested = false;
       zoomApplied = false;
-      showItem(item);
+      // A clip takes over from wherever the sliding peer's copy has played to.
+      const peerTime = p instanceof HTMLVideoElement ? p.currentTime : undefined;
+      showItem(item, peerTime);
       resetTransform();
       setEra(item);
       // The peer keeps covering the stage until the new src is decoded, so
@@ -389,10 +417,23 @@ function init() {
         upgradeHi(item);
       };
       // decode() is paint-driven and can stall (e.g. hidden tabs) — the peer
-      // already showed this src, so revealing without it is safe. Video has no
-      // decode(); its poster is the frame the peer was already showing.
-      if (media === img) img.decode().then(reveal, reveal);
-      setTimeout(reveal, media === img ? 400 : 60);
+      // already showed this src, so revealing without it is safe. A clip is
+      // revealed only once it has sought to the peer's frame, so the handoff
+      // never flashes the poster or restarts from the top.
+      if (media === img) {
+        img.decode().then(reveal, reveal);
+        setTimeout(reveal, 400);
+      } else {
+        const v = media as HTMLVideoElement;
+        const arm = () => {
+          if (peerTime != null) cueVideo(v, p instanceof HTMLVideoElement ? p.currentTime : peerTime);
+          if (v.seeking) v.addEventListener("seeked", reveal, { once: true });
+          else requestAnimationFrame(() => requestAnimationFrame(reveal));
+        };
+        if (v.readyState >= 2) arm();
+        else v.addEventListener("loadeddata", arm, { once: true });
+        setTimeout(reveal, 1500);
+      }
     };
     if (reduce) finish();
     else setTimeout(finish, SLIDE_MS + 20);
