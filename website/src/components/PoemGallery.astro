@@ -11,9 +11,10 @@ interface Props {
 }
 const { photos } = Astro.props;
 
-// Every poem was photographed twice on the same walk, seconds apart: once
-// from the trail (the placard in its place) and once close enough to read.
-// The catalog keeps them adjacent, so pair them up as (far, near) diptychs.
+// Every poem was photographed twice, usually on the same walk seconds apart:
+// once from the trail (the placard in its place) and once close enough to
+// read. The manifest keeps them adjacent, so pair them up as (far, near)
+// diptychs.
 const pairs: [PhotoEntry, PhotoEntry][] = [];
 for (let i = 0; i + 1 < photos.length; i += 2) pairs.push([photos[i], photos[i + 1]]);
 const leftover = photos.length % 2 === 1 ? photos[photos.length - 1] : null;
