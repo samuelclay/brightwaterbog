@@ -38,11 +38,18 @@ function resolveKey(key) {
 async function serveVideo(req, res, key) {
   const abs = resolveKey(key);
   if (!abs) return send(res, 404, `no such video: ${key}`);
-  const size = (await stat(abs)).size;
+  const st = await stat(abs);
+  const size = st.size;
+  // Revalidate every time (dev iterates on clips in place): a cheap 304 when
+  // nothing changed, the new bytes the moment a re-cut lands.
+  const etag = `"${size}-${Math.round(st.mtimeMs)}"`;
+  if (req.headers["if-none-match"] === etag) return send(res, 304, "", { ETag: etag });
   const base = {
     "Content-Type": "video/mp4",
     "Accept-Ranges": "bytes",
-    "Cache-Control": "public, max-age=86400",
+    "Cache-Control": "no-cache",
+    ETag: etag,
+    "Last-Modified": st.mtime.toUTCString(),
     "Access-Control-Allow-Origin": "*",
   };
   const m = /^bytes=(\d*)-(\d*)$/.exec(req.headers.range ?? "");
@@ -81,7 +88,14 @@ const server = http.createServer(async (req, res) => {
       return send(res, 404, `no such image: ${key}`);
     }
 
-    const hash = createHash("sha1").update(`${key}|${w}|${q}`).digest("hex");
+    // The render cache is keyed by the source's size + mtime too, so a photo
+    // or poster replaced at the same path gets re-rendered, not served stale.
+    const st = await stat(abs);
+    const hash = createHash("sha1")
+      .update(`${key}|${w}|${q}|${st.size}|${Math.round(st.mtimeMs)}`)
+      .digest("hex");
+    const etag = `"${hash}"`;
+    if (req.headers["if-none-match"] === etag) return send(res, 304, "", { ETag: etag });
     const cached = path.join(CACHE, `${hash}.webp`);
     let buf;
     if (existsSync(cached)) {
@@ -96,7 +110,8 @@ const server = http.createServer(async (req, res) => {
     }
     send(res, 200, buf, {
       "Content-Type": "image/webp",
-      "Cache-Control": "public, max-age=86400",
+      "Cache-Control": "no-cache",
+      ETag: etag,
       "Access-Control-Allow-Origin": "*",
     });
   } catch (err) {
