@@ -47,8 +47,9 @@ export function imageUrl(key: string, { w, fit = "cover", q = 78, v }: ImageOpts
  * from the dev server's /video route in dev, and from dist/video/<key> in
  * prod (copied there by scripts/prerender-images.mjs).
  */
-export function videoUrl(key: string): string {
-  return DEV ? `${DEV_IMG}/video/${enc(key)}` : `/video/${enc(key)}`;
+export function videoUrl(key: string, v?: string | number | null): string {
+  const base = DEV ? `${DEV_IMG}/video/${enc(key)}` : `/video/${enc(key)}`;
+  return v ? `${base}?v=${encodeURIComponent(String(v))}` : base;
 }
 
 /** Build a srcset across widths for responsive <img>. */

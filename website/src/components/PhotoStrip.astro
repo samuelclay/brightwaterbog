@@ -23,6 +23,8 @@ const barWidth = (count: number) =>
   Math.round((Math.log(count + 1) / Math.log(maxTotal + 1)) * 720);
 
 interface PhotoEntry {
+  bytes?: number | null;
+  videoBytes?: number | null;
   key: string;
   era:
     | "now"
@@ -71,15 +73,16 @@ function whenLabel(date: string | null | undefined): string {
 }
 
 function frameData(p: PhotoEntry) {
-  // Dims fingerprint busts stale browser/CDN caches when a photo is replaced.
-  const v = p.width && p.height ? `${p.width}x${p.height}` : undefined;
+  // Fingerprint busts stale browser/CDN caches when a photo is replaced:
+  // dims plus file size, so a re-rendered poster at the same size still busts.
+  const v = p.width && p.height ? `${p.width}x${p.height}${p.bytes ? `-${p.bytes}` : ""}` : undefined;
   return {
     thumb: imageUrl(p.key, { w: 760, fit: "cover", v }),
     thumbset: srcset(p.key, STRIP_WIDTHS, "cover", 78, v),
     full: imageUrl(p.key, { w: 1800, fit: "contain", v }),
     fullHi: imageUrl(p.key, { w: 2600, fit: "contain", v }),
     fullZoom: imageUrl(p.key, { w: 4000, fit: "contain", v }),
-    video: p.video ? videoUrl(p.video) : "",
+    video: p.video ? videoUrl(p.video, p.videoBytes) : "",
     label: dupeLabels[p.key] ?? "",
     drop: Boolean(dupeRemove[p.key]),
     w: p.width ?? 0,

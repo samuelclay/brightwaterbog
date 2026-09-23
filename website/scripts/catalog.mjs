@@ -154,6 +154,10 @@ async function modernEntries(folder) {
         video: r.video
           ? `apple-photos-stained-glass/selected/${folder}/${r.video}`
           : undefined,
+        // File sizes feed the cache-busting fingerprint in image/video URLs:
+        // a re-cut clip or re-rendered poster keeps its path but not its bytes.
+        bytes: r.bytes ?? null,
+        videoBytes: r.video_bytes ?? null,
         gps:
           r.latitude && r.longitude
             ? { lat: r.latitude, lon: r.longitude }
