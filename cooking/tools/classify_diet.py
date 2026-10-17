@@ -28,6 +28,8 @@ PLANT = re.compile(r"\b(?:(?:peanut|almond|cashew|sunflower(?: seed)?|seed|nut|c
     r"(?:coconut|almond|oat|soy|cashew|rice|hemp|plant|nut|pea|flax|macadamia)[- ](?:milk|cream|yogh?urt|creamer|cheese|butter)s?|"
     r"cream of tartar|eggplants?|egg replacer|(?:flax|chia) ?eggs?|honeydew|honeycrisp|honeynut|cheesecloth|"
     r"nutritional yeast|swiss chard|cream of coconut|coconut whipped cream|cream soda|olive ranch|"
+    # condiments the family buys in vegetarian (and vegan) versions
+    r"fish sauce|worcestershire(?: sauce)?|oyster sauce|dashi|"
     r"(?:vegan|plant[- ]based|dairy[- ]free|non[- ]?dairy|egg[- ]free|vegetarian)\s+(?:[\w'’-]+\s+){0,2}[\w'’-]+)\b", re.I)
 ANIMAL = re.compile(r"\b(?:butter|buttermilk|ghee|milk|cream|creme|crème|half[- ]and[- ]half|cheeses?|parmesan|parmigiano|"
     r"pecorino|romano|feta|ricotta|mozzarella|burrata|cheddar|gruy[eè]re|fontina|gouda|brie|camembert|halloumi|"

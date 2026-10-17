@@ -239,5 +239,17 @@
       "1 tablespoon vegetarian stir-fry sauce, such as vegetarian oyster or hoisin sauce (optional)": "1 tablespoon hoisin sauce (optional)"
     },
     "note": "Uses the hoisin sauce option explicitly offered in the original recipe."
+  },
+  "https://smittenkitchen.com/2007/01/asparagus-shiitake-risotto/": {
+    "replacements": {
+      "5 cups (1.2 liters) chicken broth": "5 cups (1.2 liters) vegetable broth"
+    },
+    "note": "Uses vegetable broth in place of the original's chicken broth."
+  },
+  "https://smittenkitchen.com/2007/11/brussel-sprouts-and-chestnuts-in-brown-butter/": {
+    "replacements": {
+      "2 1/2 cups hot chicken stock": "2 1/2 cups hot vegetable stock"
+    },
+    "note": "Uses vegetable stock in place of the original's chicken stock."
   }
 }

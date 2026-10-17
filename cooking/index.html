@@ -599,10 +599,12 @@ footer.site{
   let tagSort = 'count';
   try{ if(localStorage.getItem('tagSort')==='alpha') tagSort = 'alpha'; }catch(e){}
 
-  // Counts follow the diet toggle; a selected tag stays listed even if nothing matches it.
+  // Tags combine with AND, so a tag's count is how many of the current results carry it:
+  // the results you'd have after adding it. Tags that would leave nothing aren't listed,
+  // but a selected tag always is.
   function tagCounts(group){
     const m = new Map();
-    R.forEach(r => inDiet(r) && (r[KEY[group]]||[]).forEach(t => m.set(t,(m.get(t)||0)+1)));
+    R.forEach(r => r._ok && (r[KEY[group]]||[]).forEach(t => m.set(t,(m.get(t)||0)+1)));
     state[group].forEach(t => m.has(t) || m.set(t,0));
     return m;
   }
@@ -649,7 +651,7 @@ footer.site{
     bar.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{
       tagSort = b.dataset.sort;
       try{ localStorage.setItem('tagSort', tagSort); }catch(e){}
-      GROUPED.forEach(renderGroup);
+      renderGroup(group);
     }));
     box.appendChild(bar);
     const wrap = document.createElement('div');
@@ -679,8 +681,6 @@ footer.site{
     });
     box.appendChild(wrap);
   }
-  const buildChips = () => GROUPS.forEach(renderGroup);
-
   function toggleTag(group,tag){
     const s = state[group];
     s.has(tag) ? s.delete(tag) : s.add(tag);
@@ -694,7 +694,6 @@ footer.site{
   document.querySelectorAll('.diet button').forEach(b=>b.addEventListener('click',()=>{
     state.diet = b.dataset.diet;
     document.querySelectorAll('.diet button').forEach(o=>o.setAttribute('aria-pressed', o===b ? 'true':'false'));
-    buildChips();
     applyFilters();
   }));
 
@@ -713,6 +712,7 @@ footer.site{
 
   function openPanel(group){
     openGroup = group;
+    renderGroup(group);
     panel.classList.add('open');
     panel.querySelectorAll('.group-box').forEach(b=>
       b.classList.toggle('active', b.dataset.group===group));
@@ -730,7 +730,6 @@ footer.site{
     p.addEventListener('click',e=>{
       if(e.target.classList.contains('pill-x')){
         state[g].clear();
-        renderGroup(g);
         applyFilters();
         e.stopPropagation();
         return;
@@ -749,7 +748,7 @@ footer.site{
       const sel = state[g];
       if(sel.size){
         const tags = r[KEY[g]]||[];
-        if(![...sel].some(t=>tags.includes(t))) return false;
+        if(![...sel].every(t=>tags.includes(t))) return false;
       }
     }
     if(state.q){
@@ -762,7 +761,7 @@ footer.site{
   function applyFilters(){
     let shown = 0;
     R.forEach(r=>{
-      const ok = matches(r);
+      const ok = r._ok = matches(r);
       r._el.classList.toggle('dimmed',!ok);
       if(!ok && openPair===r.pair) closeDetail('replace');
       if(ok) shown++;
@@ -773,11 +772,12 @@ footer.site{
     const any = GROUPS.some(g=>state[g].size) || state.q;
     document.getElementById('clearAll').classList.toggle('visible',!!any);
     updatePills();
+    if(openGroup) renderGroup(openGroup);   // counts follow every other filter
     let empty = document.querySelector('.empty-state');
     if(shown===0 && !empty){
       empty = document.createElement('div');
       empty.className='empty-state';
-      empty.innerHTML = '<div class="big">Nothing in the binder matches</div>Try removing a filter — cuisine, ingredient, pantry, course, and source filters all have to match at once.';
+      empty.innerHTML = '<div class="big">Nothing in the binder matches</div>Try removing a filter or clearing the search — every selected tag has to match.';
       grid.appendChild(empty);
     } else if(shown>0 && empty){ empty.remove(); }
   }
@@ -789,7 +789,6 @@ footer.site{
     GROUPS.forEach(g=>state[g].clear());
     state.q='';
     document.getElementById('search').value='';
-    buildChips();
     applyFilters();
   });
 
@@ -1172,7 +1171,6 @@ footer.site{
   const blogN = R.filter(r=>r.linked).length;
   document.getElementById('nytNote').textContent = (nytN?` · plus ${fmt(nytN)} recipes saved from NYT Cooking`:'') + (blogN?` · ${fmt(blogN)} from Smitten Kitchen and Cookie and Kate`:'');
   buildCards();
-  buildChips();
   applyFilters();
   applyHash();  // deep-link: #<id>-<slug> opens that recipe on load
 })();

@@ -38,14 +38,16 @@ Store-bought items, unless the line says otherwise:
   sprinkles
 - **Not vegan:** milk chocolate, all-butter pastry, homemade pie crust or biscuits made
   with butter, graham crackers (honey), caramel and toffee (dairy), pesto (Parmesan),
-  kimchi (fish sauce), ravioli/tortellini/pierogi (cheese, egg), wonton and dumpling
+  kimchi (usually salted shrimp), ravioli/tortellini/pierogi (cheese, egg), wonton and dumpling
   wrappers (egg), store-bought gnocchi (often egg)
 - **Cookies:** judge by type. Shortbread, ladyfingers, and amaretti are not vegan;
   Oreo-style chocolate sandwich cookies are.
 
-An item labeled vegan, dairy-free, egg-free, or vegetarian (for Worcestershire and fish
-sauce) is vegan. If a line names a homemade component ("pesto, see recipe"), judge it by
-the ingredients listed for that component in the same recipe.
+An item labeled vegan, dairy-free, or egg-free is vegan. Fish sauce, Worcestershire,
+oyster sauce, and dashi count as their vegetarian versions, which the family buys, so
+they don't make a recipe non-vegan (the screen already ignores them). If a line names
+a homemade component ("pesto, see recipe"), judge it by the ingredients listed for that
+component in the same recipe.
 
 ## Output
 

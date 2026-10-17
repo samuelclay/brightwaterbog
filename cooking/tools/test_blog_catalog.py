@@ -38,8 +38,9 @@ class CatalogTests(unittest.TestCase):
         self.assertNotIn('Publisher', str(row))
 
     def test_vegetarian_screen_keeps_oyster_mushrooms_but_holds_fish(self):
-        self.assertEqual(dietary_flags({'ingredients':['1 pound oyster mushrooms', '¼ cup coconut bacon']}), [])
-        for line in ('1 tsp fish sauce', 'bonito flakes', '2 cups chicken or vegetable broth', 'bacon (optional)'):
+        self.assertEqual(dietary_flags({'ingredients':['1 pound oyster mushrooms', '¼ cup coconut bacon',
+            '1 tsp fish sauce', '1 tablespoon Worcestershire sauce']}), [])
+        for line in ('2 anchovy fillets', 'bonito flakes', '2 cups chicken or vegetable broth', 'bacon (optional)'):
             self.assertEqual(dietary_flags({'ingredients':[line]}), [line])
 
     def test_fractional_yield_does_not_invent_servings(self):

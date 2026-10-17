@@ -16,8 +16,8 @@
 1023407  # Slow-Cooker Corn Chowder — chicken broth is the base, no alternative given (Brittany's box)
 1027625  # Broccoli, Barley and Cannellini Bean Soup — beef bouillon is the broth (Brittany's box)
 1018491  # Butternut Squash and Green Curry Soup — 5 tbsp fish sauce, no alternative given (Brittany's box)
-# 2026-10-17: also hidden when the meat or fish is optional (some saves predate going vegetarian),
-# or comes as fish sauce / Worcestershire with no vegetarian alternative in the same line.
+# 2026-10-17: also hidden when the meat or fish is optional (some saves predate going vegetarian).
+# Condiments with vegetarian versions (fish sauce, Worcestershire, oyster sauce, dashi) are fine.
 1023257  # Spoonbread — crawfish (optional)
 1026148  # Creamy Tortellini Soup — Italian sausage (optional)
 759928717  # One-Pot Creamy Pasta With Carrots and Peas — turkey, ham or chicken (optional)
@@ -25,11 +25,3 @@
 12475  # Lasagna With Roasted Broccoli — anchovies (optional)
 1019704  # Baked Eggs With Beans and Greens — Italian sausage (optional)
 1017128  # Lentil Salad With Roasted Vegetables — bacon (optional)
-1024036  # Thai-Style Crunchy Vegetable Salad — fish sauce
-1021158  # Kimchijeon (Kimchi Pancake) — fish sauce
-1023282  # Mango-Avocado Salad With Lime Vinaigrette — fish sauce
-1021091  # Sweet-and-Spicy Grilled Vegetables With Burrata — fish sauce or colatura (optional)
-1023940  # Vegetable Soup With Tamarind and Lemongrass — fish sauce (optional)
-1026143  # Pumpkin-Peanut Rice Balls With Maafé — fish sauce (optional)
-1015769  # Sweet Potato-Pecan Salad — Worcestershire (anchovies)
-769539003  # One-Pot French Onion Rigatoni — Worcestershire (anchovies)

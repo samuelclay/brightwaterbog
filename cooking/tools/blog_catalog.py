@@ -379,7 +379,9 @@ def dietary_flags(facts):
     for line in facts['ingredients']:
         # These literal plant ingredients can contain animal words in their names.
         scan = re.sub(r'\b(?:oyster mushrooms?|coconut bacon|chicken of the woods|chick[’\']?n)\b', '', line, flags=re.I)
-        scan = re.sub(r'\b(?:vegan|vegetarian)\s+(?:fish sauce|worcestershire sauce|marshmallows?|sausages?|chorizo)\b', '', scan, flags=re.I)
+        scan = re.sub(r'\b(?:vegan|vegetarian)\s+(?:marshmallows?|sausages?|chorizo)\b', '', scan, flags=re.I)
+        # Condiments the family buys in vegetarian versions.
+        scan = re.sub(r'\b(?:fish sauce|worcestershire(?: sauce)?|oyster sauce|dashi)\b', '', scan, flags=re.I)
         if ANIMAL.search(scan): flags.append(line)
     return flags
 

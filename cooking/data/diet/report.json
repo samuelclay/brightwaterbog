@@ -1,8 +1,8 @@
 {
- "vegan": 936,
- "not_vegan": 1179,
+ "vegan": 941,
+ "not_vegan": 1185,
  "pending_review": [],
- "reviewed": 386,
+ "reviewed": 390,
  "recipes": {
   "1": {
    "title": "Tomato Zucchini Fritters",
@@ -1055,6 +1055,11 @@
    "status": "vegan",
    "lines": []
   },
+  "1024036": {
+   "title": "Thai-Style Crunchy Vegetable Salad",
+   "status": "vegan",
+   "lines": []
+  },
   "1016062": {
    "title": "Red Lentil Soup",
    "status": "vegan",
@@ -1137,6 +1142,13 @@
    "title": "Olive-Walnut Pasta",
    "status": "vegan",
    "lines": []
+  },
+  "1021158": {
+   "title": "Kimchijeon (Kimchi Pancake)",
+   "status": "not-vegan",
+   "lines": [
+    "kimchi (usually made with fish sauce or shrimp)"
+   ]
   },
   "1020204": {
    "title": "Ricotta Dumplings With Buttered Peas and Asparagus",
@@ -1447,6 +1459,13 @@
    "title": "Frozen Tom Collins",
    "status": "vegan",
    "lines": []
+  },
+  "1021091": {
+   "title": "Sweet-and-Spicy Grilled Vegetables With Burrata",
+   "status": "not-vegan",
+   "lines": [
+    "honey required, burrata/mozzarella/ricotta"
+   ]
   },
   "1021036": {
    "title": "Focaccia",
@@ -1783,6 +1802,11 @@
   },
   "1019471": {
    "title": "Sweet and Spicy Tofu With Soba Noodles",
+   "status": "vegan",
+   "lines": []
+  },
+  "1015769": {
+   "title": "Sweet Potato-Pecan Salad",
    "status": "vegan",
    "lines": []
   },
@@ -3185,6 +3209,11 @@
    "status": "vegan",
    "lines": []
   },
+  "1023282": {
+   "title": "Mango-Avocado Salad With Lime Vinaigrette",
+   "status": "vegan",
+   "lines": []
+  },
   "1024312": {
    "title": "Fruity Ice Cream Sodas",
    "status": "not-vegan",
@@ -4480,6 +4509,13 @@
     "kimchi optional"
    ]
   },
+  "1026143": {
+   "title": "Pumpkin-Peanut Rice Balls With Maafé",
+   "status": "vegan",
+   "lines": [
+    "fish sauce optional; vegetable stock option"
+   ]
+  },
   "1022614": {
    "title": "Cauliflower Piccata",
    "status": "not-vegan",
@@ -5525,6 +5561,13 @@
     "½ cup heavy cream"
    ]
   },
+  "1023940": {
+   "title": "Vegetable Soup With Tamarind and Lemongrass",
+   "status": "vegan",
+   "lines": [
+    "fish sauce optional"
+   ]
+  },
   "1022299": {
    "title": "Tofu Laab",
    "status": "vegan",
@@ -5835,6 +5878,15 @@
    "status": "not-vegan",
    "lines": [
     "Freshly grated Parmesan, for serving"
+   ]
+  },
+  "769539003": {
+   "title": "One-Pot French Onion Rigatoni",
+   "status": "not-vegan",
+   "lines": [
+    "2 tablespoons unsalted butter",
+    "½ cup heavy cream",
+    "1 cup shredded Gruyère cheese (about 5 ounces)"
    ]
   },
   "772206378": {
@@ -6267,6 +6319,14 @@
     "6 large eggs"
    ]
   },
+  "220630053129403": {
+   "title": "asparagus, artichoke and shiitake risotto",
+   "status": "not-vegan",
+   "lines": [
+    "4 tablespoons (55 grams) unsalted butter",
+    "2 ounces finely grated parmesan cheese (about 1/2 cup)"
+   ]
+  },
   "145192448463747": {
    "title": "avocado cup salads, two ways",
    "status": "vegan",
@@ -6507,6 +6567,13 @@
     "3 tablespoons butter, divided",
     "1 cup whole milk",
     "8 ounces cheddar cheese, coarsely grated"
+   ]
+  },
+  "202050312894579": {
+   "title": "brussels sprouts and chestnuts in brown butter",
+   "status": "not-vegan",
+   "lines": [
+    "4 tablespoons unsalted butter"
    ]
   },
   "164324678472540": {
@@ -7396,6 +7463,14 @@
    "title": "israeli salad + pita chips",
    "status": "vegan",
    "lines": []
+  },
+  "208575724347413": {
+   "title": "japanese vegetable pancakes",
+   "status": "not-vegan",
+   "lines": [
+    "6 large eggs, lightly beaten",
+    "1 tablespoon honey"
+   ]
   },
   "250983719868409": {
    "title": "kale and caramelized onion stuffing",

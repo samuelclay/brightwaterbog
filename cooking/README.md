@@ -3,7 +3,7 @@
 A single-page archive of the family's Purple Carrot recipe-card binder: 131 recipes
 digitized from 254 photos taken June 5, 2026 (Photos.app, IMG_9134–9389, minus one
 beach photo) — plus the recipes saved in Samuel's and Brittany's NYT Cooking recipe boxes
-(224 and 611 saves; 752 distinct recipes after 31 meat/fish exclusions, 50 saved by both),
+(224 and 611 saves; 760 distinct recipes after 23 meat/fish exclusions, 51 saved by both),
 which sit in the same grid with a source chip naming each person's box (see below).
 
 ## Viewing
@@ -61,10 +61,11 @@ expanded view are the only things that set them apart.
   list with `tools/recipe_box_export.js` (see "Separate NYT collections").
 - `data/nyt/excluded.txt` — ids to leave out, each with a note. The family is
   vegetarian, and some saves predate that, so this lists any recipe with meat or
-  seafood, even when optional ("bacon (optional)"), including fish sauce and
-  Worcestershire, unless the same line offers a vegetarian alternative ("chicken or
-  vegetable broth", "fish sauce or soy sauce"). `NON_VEGETARIAN_TAGS` in
-  `tools/build_data.py` keeps those ingredient names off the filter panels. `build_nyt.py` and
+  seafood, even when optional ("bacon (optional)"), unless the same line offers a
+  vegetarian alternative ("chicken or vegetable broth"). Condiments the family buys
+  in vegetarian versions (fish sauce, Worcestershire, oyster sauce, dashi) don't
+  count. `NON_VEGETARIAN_TAGS` in `tools/build_data.py` keeps meat and fish names off
+  the filter panels. `build_nyt.py` and
   `fetch_nyt_images.py` skip them; the list files stay plain mirrors of the boxes.
 - `tools/fetch_nyt.py` — fetches each page once and stores its schema.org JSON-LD plus
   NYT's own `scoopRecipe` object (`_scoop`: tips, display time, yield, typed tags,
@@ -186,3 +187,8 @@ defined in `assets/tag-groups.js`. A tag missing there shows under "Other", so a
 tags to a section when they appear. Each panel sorts by Most used (the top 8 per
 section, with "+ more") or A–Z (everything), and the choice is remembered in
 `localStorage`.
+
+Selected tags combine with AND, within a panel as well as across them: lentils +
+carrot shows only recipes with both. Each tag's count is how many of the current
+results carry it (so it follows the other tags, the search box, and the diet toggle),
+and a tag that would leave no results isn't listed.
