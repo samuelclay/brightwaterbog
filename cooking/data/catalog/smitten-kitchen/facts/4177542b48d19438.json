@@ -31,7 +31,32 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2012/10/butternut-squash-salad-with-farro-and-pepitas/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 375 degrees F."
+   },
+   {
+    "title": null,
+    "text": "Peel squash, then halve lengthwise and scoop out seeds. Cut squash into approximately 3/4-inch chunks. Coat one large or two small baking sheets with 2 tablespoons oil total. Spread squash out in single layer on sheet. Sprinkle with salt and freshly ground black pepper. Roast until pieces are tender, about 30 to 40 minutes, turning them over halfway through the cooking time. Set aside to cool slightly."
+   },
+   {
+    "title": null,
+    "text": "While squash is roasting, cook farro in a large pot of simmering salted water until the grains are tender but chewy, about 30 minutes. (Since there are so many varieties of farro, however, if your package suggests otherwise, it’s best to defer to its cooking suggestion.) Drain and cool slightly."
+   },
+   {
+    "title": null,
+    "text": "While squash is roasting and farro is simmering, in a small bowl, whisk together sherry vinegar, water, 1/2 teaspoon table salt and granulated sugar until sugar and salt dissolve. Stir in onion; it will barely be covered by vinegar mixture but don’t worry. Cover and set in fridge until needed; 30 minutes is ideal but less time will still make a lovely, lightly pickled onion."
+   },
+   {
+    "title": null,
+    "text": "In a large bowl, mix together butternut squash, farro, red onion and its vinegar brine, the crumbled cheese and pepitas. Toss with 3 tablespoons of the remaining olive oil, use the 4th one only if needed. Taste and adjust seasonings. Eat now or later. Salad keeps in the fridge for up to a week."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -23,7 +23,32 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/stovetop-mac-and-cheese-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a medium pot of water to boil. Add the noodles and salt. Cook until the pasta is al dente, according to package directions. In the meantime, make sure all of your ingredients are measured and ready (I combine the dry spices in a small bowl)."
+   },
+   {
+    "title": null,
+    "text": "Drain the pasta and leave it in the colander for now. Return the empty pot to medium heat. Immediately add the cream and let the mixture come to a boil. Once boiling, set a timer for 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Once the minute is up, add all of the cheese and spices. Stir until the cheese has fully melted to produce a creamy sauce. Add the pasta, stir until the pasta is evenly coated in cheese sauce, and remove the pot from the heat."
+   },
+   {
+    "title": null,
+    "text": "Taste and season with salt, if necessary. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Substitute your favorite sturdy gluten-free noodles, such as a corn and quinoa blend.",
+   "Change it up: To make this mac and cheese a little more sophisticate, sprinkle your bowls with some finely grated Parmesan cheese and toasted bread crumbs. See my note above in the “lighten-up” section on how to incorporate broccoli or other veggies.",
+   "How to reheat: This mac and cheese is best enjoyed fresh, but you can gently reheat it in the microwave or on the stove. Don’t overdo it; the ingredients are more likely to separate if they are overheated."
+  ],
+  "summary": "The best stovetop mac and cheese! This recipe is like blue box mac and cheese, but made with real cheddar cheese. It’s creamy, delicious and so easy to make! Recipe yields 3 modest or 2 generous servings; multiply and use a larger pot as necessary.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

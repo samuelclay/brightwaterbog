@@ -32,7 +32,47 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2024/11/skillet-baked-macaroni-and-cheese/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven: To 375°F (190°C)."
+   },
+   {
+    "title": null,
+    "text": "Toast the crumbs: In a 10-inch ovenproof skillet (I’m using this one), melt 2 tablespoons of the butter over medium heat and add the breadcrumbs. Toast the crumbs in the butter, stirring, until they’re a light golden brown. Season with a pinch of salt and scrape crumbs into a dish to set aside. Swipe out the pan to clean it, if you wish. Nobody will notice if a crumb ends up in the sauce, however."
+   },
+   {
+    "title": null,
+    "text": "Soak your pasta: Place uncooked pasta in a large bowl and cover with hot tap water. Soak for 10 minutes then drain it, shaking the pasta out. (I find it traps a lot of water.)"
+   },
+   {
+    "title": null,
+    "text": "Make the sauce and assemble: Combine the three cheeses right on the paper or board you’ve grated them onto."
+   },
+   {
+    "title": null,
+    "text": "Return your ovenproof skillet to the stove over medium-high heat and melt the remaining 3 tablespoons of butter in it. Add the flour, whisking to combine. Add milk, 1/2 cup at a time, whisking to combine each addition with the butter-flour mixture until smooth. When all milk is added, season with 1 1/2 teaspoons kosher salt (Diamond brand; use half of any other brand), many grinds of black pepper, cayenne, and nutmeg, and cook, stirring, until mixture comes to a simmer and begins to thicken. Once simmering, cook for 2-3 minutes, stirring. Turn the burner off."
+   },
+   {
+    "title": null,
+    "text": "Setting aside 2/3 cup of the cheese mixture, add the rest of the cheeses to the sauce, stirring just until it has melted. Taste the sauce (carefully!) here and adjust seasonings if needed to taste. Stir in drained pasta until evenly coated. Sprinkle the surface with reserved cheese, followed by the toasted breadcrumbs."
+   },
+   {
+    "title": null,
+    "text": "Bake: Transfer the skillet to the oven and bake, uncovered, for 30 minutes. You can fish out a piece of macaroni just to confirm it’s cooked through, but I’ve never found this to be an issue. Add another 5 minutes in the oven, if needed for it to soften. If you want it a little more browned on top, run the pan briefly under your broiler for a minute."
+   },
+   {
+    "title": null,
+    "text": "Serve: Let rest for 2 to 3 minutes, then serve right away."
+   }
+  ],
+  "notes": [
+   "Do ahead: Given the choice between reheating cooked macaroni and cheese and baking it fresh, and given that it can take almost the same amount of oven time to bake it as to warm it through, I always choose baking the mac and cheese right before serving it. You can assemble it earlier, however, and bake before you’re ready to eat. Reheat leftovers in the original pan or an ovenproof dish at 350°F for 20 to 30 minutes.",
+   "This recipe can be be doubled in a 12-inch round ovenproof skillet, my favorite braiser, or a 9×13-inch baking dish. If you don’t have a 10-inch ovenproof skillet, you can make the mac and cheese in one large sauté pan and transfer it to a 2-quart baking dish for the oven portion. See notes in the introduction about cheese options, flavorings, and technique."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

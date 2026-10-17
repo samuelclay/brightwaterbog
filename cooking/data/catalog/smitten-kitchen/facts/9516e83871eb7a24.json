@@ -32,7 +32,28 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2015/10/the-broccoli-roast/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 450 degrees F. Coat a large roasting pan with a glug or two of olive oil. Combine rub ingredients in a small dish. Taste a pinch; it should be flavorful, but more salty than sweet, with a kick. Make adjustments to taste."
+   },
+   {
+    "title": null,
+    "text": "Prep broccoli by peeling any knobby bits and outer skin off stalks. Cut smaller heads lengthwise through stem into two “steaks;” cut larger ones a second time into four wedge-shaped “steaks,” if desired. Place cut side down in roasting pan; drizzle tops very lightly with olive oil and sprinkle with rub. Roast for 20 minutes, until deeply brown underneath. While roasting, combine cider vinegar dip ingredients. Flip, coat cut side with more rub and roast for another 10 to 15 minutes, until charred at edges. Remove from oven and immediately grate a small amount of cheese over broccoli."
+   },
+   {
+    "title": null,
+    "text": "Serve with cider vinegar dip and, if you’d like to be more like the restaurant, with a little pile of smoked sea salt on the side. Eat with forks and steak knives."
+   },
+   {
+    "title": null,
+    "text": "P.S. Looking for a different flavor? Try these stunning broccoli steaks, also inspired by my Burnside obsession, with a red chile-sambal romesco."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

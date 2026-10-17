@@ -20,7 +20,24 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/best-manhattan-cocktail-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Fill a mixing glass a few inches high with ice. Add the whiskey, vermouth and bitters. Stir in a circular motion for about 30 seconds, or until the drink is very cold (if you’d like a drink with less bite, stir longer)."
+   },
+   {
+    "title": null,
+    "text": "Strain the liquid into a coupe or martini glass. Garnish with a cocktail cherry. Enjoy."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Punch and Jim Meehan via Food & Wine.",
+   "Measurement tip: Two ounces is ¼ cup. I like to use this stainless steel jigger (affiliate link) for measuring small amounts of liquid.",
+   "Change it up: Though unnecessary, you enjoy a twist of orange or lemon (or both, which is called “rabbit ears”). If preferred, you can serve your Manhattan on the rocks instead of up—ideally use a large ice cube, which melts slowly, rather than multiple small cubes."
+  ],
+  "summary": "Learn how to make a classic Manhattan cocktail with this simple recipe! Quality ingredients and proper technique are all you need to make the best Manhattan you’ve ever had. Recipe yields 1 cocktail; multiply the ingredients to make more at once (just use a suitably-sized mixing glass).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

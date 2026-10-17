@@ -37,7 +37,38 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2014/04/baked-eggs-with-spinach-and-mushrooms/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "If you’ve just washed your spinach, no need to dry it before wilting it in the pan. If it’s already dry, bring 1/2 inch water to a boil in a very large ovenproof heavy skillet, then add half of spinach and cook, turning with tongs, until wilted, about 30 seconds. Add remaining spinach and wilt in same manner, then cook, covered, over moderately high heat until spinach is tender, about 1 to 2 minutes. Drain in a colander and cool under cold running water. Gently squeeze handfuls of spinach to remove as much liquid as possible, then coarsely chop. You will have about 2 cups fairly tightly packed cooked spinach."
+   },
+   {
+    "title": null,
+    "text": "Wipe skillet dry, then melt butter over medium-low heat. Cook onion and garlic until softened, 2 to 3 minutes. Add mushrooms and increase heat to medium-high, then cook, stirring, until mushrooms have softened, exuded liquid and that liquid has cooked off, about 5 minutes. Stir in cream, salt, pepper, nutmeg (if using), and chopped spinach and bring back a simmer. Remove skillet from heat."
+   },
+   {
+    "title": null,
+    "text": "If baking eggs in this skillet, make 12 large indentations in mixture, each large enough to fit an egg. Otherwise, you can transfer this mixture to a 9×13-inch baking dish and do the same there. I like to use 2 teaspoons to make the wells; I press the backs of them together to “pinch” up the spinach mixture to form taller walls so that the eggs will not merge together."
+   },
+   {
+    "title": null,
+    "text": "When you’re ready to bake the dish, or about 30 minutes before serving, put oven rack in upper third of oven and heat oven to 450°F. Crack an egg into each well. Bake until whites are firm and yolks are still runny. You can check this by inserting a toothpick into various parts of the eggs and seeing whether they’re runny or set, which takes anywhere from 15 to 30 minutes. The range is long due to different ovens and baking vessels. It’s better to have to check more often than to let them overcook."
+   },
+   {
+    "title": null,
+    "text": "[Cooking note: It is nearly impossible to get all 12 eggs to cook evenly. The ones in the center will be more runny; at the edges, they’ll be more firm. But don’t fret. I’ve found that almost all people have an egg preference (more runny vs. more firm) and each egg manages to find the right home. Just ask people their preference as you serve them.]"
+   },
+   {
+    "title": null,
+    "text": "Remove dish from oven, sprinkle with additional salt and pepper, plus grated Parmesan. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Do ahead: You can then set this aside for a few hours or up to one day in the fridge, covered."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

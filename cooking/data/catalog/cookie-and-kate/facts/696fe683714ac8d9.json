@@ -1,6 +1,64 @@
 {
  "url": "https://cookieandkate.com/morning-glory-oatmeal/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Morning Glory Oatmeal",
+  "ingredients": [
+   "3 cups water",
+   "1 cup light coconut milk (or milk of choice or another cup of water)",
+   "1 cup steel-cut oats",
+   "1 cup grated carrots (about 2 large carrots)",
+   "⅔ cup seedless raisins",
+   "¾ teaspoon ground cinnamon",
+   "¼ teaspoon ground ginger",
+   "¼ teaspoon ground nutmeg",
+   "½ teaspoon kosher salt",
+   "½ cup unsweetened coconut flakes",
+   "1 ½ tablespoon grated orange zest (this took 1 ½ oranges for me)",
+   "1 teaspoon vanilla extract",
+   "1 or more tablespoons maple syrup (or honey or agave nectar or brown sugar)",
+   "½ cup chopped walnuts or pecans (optional but recommended)"
+  ],
+  "yield_text": "4",
+  "cook_time": "40 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/morning-glory-oatmeal/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a saucepan, bring the water and milk to a boil. Stir in the oats, carrots, raisins, cinnamon, ginger, nutmeg and salt. Bring the mixture back to boil, then decrease the heat to low and partially cover the pot."
+   },
+   {
+    "title": null,
+    "text": "Cook the porridge, without stirring, until it begins to thicken and the oats are soft yet chewy. Check the oat’s texture by stirring them after 25 minutes of cooking (it might need a few more minutes of cooking)."
+   },
+   {
+    "title": null,
+    "text": "Remove from heat and stir in the coconut flakes, orange zest and vanilla. Add maple syrup (or other sweetener), to taste. Cover and let the oatmeal rest for 5 minutes before serving."
+   },
+   {
+    "title": null,
+    "text": "Toast the walnut pieces in a pan over medium-low, tossing frequently, until the edges are golden and the walnuts smell nice and toasty."
+   },
+   {
+    "title": null,
+    "text": "Serve the oatmeal with a sprinkling of walnuts and a splash of milk or a swirl of plain yogurt."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Megan Gordan’s cookbook, Whole-Grain Mornings.",
+   "Change it up: This recipe is wide open to adaptation. Feel free to sub other dried fruit for the raisins, change up the nuts, etc.",
+   "Make it gluten free: Buy certified gluten-free steel-cut oats if you are avoiding gluten.",
+   "Make it nut free: Skip the nuts. You can substitute pepitas (pumpkin) or sunflower seeds if desired."
+  ],
+  "summary": "Creamy, wholesome steel-cut oats cooked with carrots, coconut milk and spices. Serve with yogurt for a breakfast that sticks with you until lunch time. (This recipe is gluten free and easily vegan.)",
+  "ingredient_groups": []
+ }
 }

@@ -1,6 +1,69 @@
 {
  "url": "https://cookieandkate.com/roasted-carrot-and-potato-lentils-and-miso-parsley-sauce/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Roasted Carrot and Potato, Lentils and Miso Parsley Sauce",
+  "ingredients": [
+   "1 pound red potatoes (about 3 large), cut into 1-inch cubes",
+   "5 medium carrots, cut on the bias into 1-inch pieces",
+   "2 tablespoons olive oil",
+   "1 ½ cups vegetable broth or water",
+   "1 cup French green lentils or regular brown lentils, picked through to remove debris and rinsed",
+   "1 bay leaf, optional",
+   "1 ½ cup fresh parsley, gently packed",
+   "1 lemon, zested and juiced",
+   "4 garlic cloves, roughly chopped",
+   "1 ¾ teaspoon white miso",
+   "Pinch red pepper flakes",
+   "3 to 4 tablespoons olive oil",
+   "Freshly ground black pepper and salt, to taste"
+  ],
+  "yield_text": "4 to 6",
+  "cook_time": "50 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-carrot-and-potato-lentils-and-miso-parsley-sauce/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Roast the vegetables: Preheat oven to 425 degrees Fahrenheit. Toss the chopped potatoes and carrots in 2 tablespoons olive oil and arrange them in a single layer on a large, rimmed baking sheet. Bake for 30 to 35 minutes, tossing halfway, until the vegetables are tender and golden."
+   },
+   {
+    "title": null,
+    "text": "Cook the lentils: In a medium saucepan, bring the broth (or water) to boil and add lentils. Cover, reduce heat and simmer for 30 to 35 minutes, until tender. Drain the lentils, return to pot, remove bay leaf and cover."
+   },
+   {
+    "title": null,
+    "text": "Make the sauce: In the bowl of a small food processor or a blender, combine the parsley, lemon zest and juice, garlic cloves, miso and red pepper flakes. Blend the mixture while slowly drizzling in the olive oil. (If you don’t have a food processor/blender, you could finely chop the parsley, press or mince the garlic cloves and whisk the ingredients together.)"
+   },
+   {
+    "title": null,
+    "text": "Assemble the dish: In a large serving bowl, toss together the lentils, vegetables and sauce. Season with black pepper and salt to taste (miso is salty so you might not need much or any salt). Serve."
+   }
+  ],
+  "notes": [
+   "Root vegetables like carrots and potatoes tend to absorb all the nasties in conventional farming soil, so that’s why I suggest buying organic."
+  ],
+  "summary": "Roasted carrots and potatoes tossed with lentils and a lemony parsley sauce with miso. A hearty winter meal that is both vegan and gluten free.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted Vegetables"
+   },
+   {
+    "at": 3,
+    "title": "Lentils"
+   },
+   {
+    "at": 6,
+    "title": "Gremolata miso sauce"
+   }
+  ]
+ }
 }

@@ -20,7 +20,32 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/cucumber-mint-gimlet-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a cocktail shaker, muddle the cucumber, mint and agave nectar until the cucumber offers no more resistance."
+   },
+   {
+    "title": null,
+    "text": "Fill the shaker with ice, then pour in the lime juice and gin. Put the lid on your shaker and shake until the cocktail is thoroughly chilled, about 20 seconds."
+   },
+   {
+    "title": null,
+    "text": "Strain the mixture into a martini glass. Garnish with a tiny sprig of mint, if you’d like."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my basil gimlet cocktail.",
+   "Change it up: You can use vodka if you don’t like gin. Other ideas: substitute basil for mint, and/or add a little splash of St. Germain elderflower liqueur, and/or muddle some fresh jalapeño with the cucumber."
+  ],
+  "summary": "Learn how to make a refreshing cucumber and mint gimlet. This naturally sweetened cucumber cocktail is perfect for warm days.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per cocktail"
+   }
+  ]
  },
  "parser_version": 2
 }

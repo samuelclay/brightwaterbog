@@ -1,6 +1,82 @@
 {
  "url": "https://cookieandkate.com/cheesecake-tart-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Lemony Cheesecake Tart with Pistachio Crust",
+  "ingredients": [
+   "¾ cup (75 grams) old-fashioned oats (certified gluten-free if necessary)",
+   "¾ cup (100 grams) raw pistachios or hazelnuts",
+   "Scant ¼ teaspoon fine salt",
+   "6 tablespoons (85 grams) unsalted butter, cut into 1-inch pieces and softened to room temperature",
+   "3 tablespoons (38 grams) sugar",
+   "8 ounces (226 grams) cream cheese, softened to room temperature",
+   "¼ cup (50 grams) sugar",
+   "1 tablespoon lemon zest (from about 1 medium lemon)",
+   "2 tablespoons fresh lemon juice",
+   "¼ teaspoon vanilla extract",
+   "⅛ teaspoon fine salt",
+   "1 large egg"
+  ],
+  "yield_text": "One 9″ tart",
+  "cook_time": "45 minutes (plus cooling time)",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "N/A"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cheesecake-tart-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the crust: Preheat the oven to 350 degrees Fahrenheit. Use butter to heavily grease a 9-inch tart pan with a removable base. Line the base of the pan with parchment paper cut into a circle to fit."
+   },
+   {
+    "title": null,
+    "text": "Pour the oats into a food processor and process until the oats are ground so finely that they look like fine sand. Add the pistachios and salt. Process the mixture until the pieces resemble coarse sand. Pour the mixture into a bowl for the time being."
+   },
+   {
+    "title": null,
+    "text": "Combine the butter and sugar in the food processor and process until the butter is smooth and the sugar has dissolved, about 30 seconds. Pour the flour mixture back into the food processor and process just until blended, about 30 seconds to 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Scoop the dough into your prepared tart pan and fold in any crumbs remaining in the food processor. Press the dough into the tart pan evenly, using the heel of your hand to press the bottom smooth, which will help push the crust up the sides. Aim for even thickness across the bottom and up the edges. Prick the base of the crust all over with a fork. (If the dough isn’t cooperating, set the crust in the refrigerator for 10 minutes to firm it up before baking.)"
+   },
+   {
+    "title": null,
+    "text": "Bake the unfilled tart crust for 10 to 14 minutes, until the center is firm to the touch. (The sides won’t look as neat and tall as before baking, but don’t worry.) Place it on a cooling rack until cooled, about 30 minutes."
+   },
+   {
+    "title": null,
+    "text": "While the shell cools, make the filling. In a large bowl, combine the cream cheese, sugar, lemon zest and juice, vanilla, and salt. Use an electric mixer to whip the mixture until it’s smooth and fluffy, about 3 to 4 minutes. Add the egg and continue mixing until it’s completely incorporated, scraping down the sides of the bowl with a spatula if needed. Gently tap the bowl on the counter a few times, then stir the mixture a few times to release any remaining air bubbles."
+   },
+   {
+    "title": null,
+    "text": "Pour the mixture into the crust, smooth the top and bake for 15 to 20 minutes, until it’s set around the edges and slightly wiggly in the center."
+   },
+   {
+    "title": null,
+    "text": "Let the tart cool to room temperature on a baking rack, then transfer it to the refrigerator to cool completely (if you try to slice it before chilling, the filling will be too soft). When you’re ready to serve, remove the outer ring. Slice with a warm knife, wiping the knife with a damp towel in between cuts for the tidiest slices. Serve cold or at room temperature. This keeps well in the fridge, covered, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by French Market in Kansas City. The filling was adapted from Yossy Arefi’s Lemon Cheesecake Tart and the crust was adapted from my Gluten-Free Apple Tart."
+  ],
+  "summary": "This cheesecake tart recipe is the best! It’s easy to make and tastes gourmet. The homemade pistachio-oat crust happens to be gluten free. Recipe yields one 9-inch tart, enough for 8 medium slices.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Pistachio-oat crust"
+   },
+   {
+    "at": 5,
+    "title": "Filling"
+   }
+  ]
+ }
 }

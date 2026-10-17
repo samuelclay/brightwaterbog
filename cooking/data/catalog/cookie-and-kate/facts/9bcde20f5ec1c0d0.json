@@ -1,6 +1,62 @@
 {
  "url": "https://cookieandkate.com/raw-kale-and-brussels-sprouts-salad-with-tahini-maple-dressing/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Kale and Brussels Sprouts Salad with Tahini-Maple Dressing",
+  "ingredients": [
+   "1 bunch of curly green kale",
+   "12 Brussels sprouts (about ½ pound or 2 big handfuls’ worth)",
+   "¼ cup sliced almonds",
+   "¼ cup shaved Parmesan, to taste (use a vegetable peeler to shave the cheese into little strips)",
+   "Fine salt",
+   "¼ cup tahini",
+   "2 tablespoons white wine vinegar",
+   "2 teaspoons white miso",
+   "2 teaspoons maple syrup",
+   "Pinch of red pepper flakes",
+   "¼ cup water"
+  ],
+  "yield_text": "2 large salads",
+  "cook_time": "20 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/raw-kale-and-brussels-sprouts-salad-with-tahini-maple-dressing/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Use a chef’s knife to cut out the ribs of the kale leaves. Chop the kale into small, bite-sized pieces. Sprinkle salt lightly over the kale and use your hands to “massage” it by lightly scrunching it between your hands. Continue massaging until the kale becomes darker in color and more fragrant. Transfer the kale to a medium serving bowl."
+   },
+   {
+    "title": null,
+    "text": "Chop off and discard the stem end of the Brussels sprouts and any discolored outer leaves. Either use your knife to slice the sprouts as thin as possible, or shred the sprouts in your food processor using the slicing disk. Add the sprouts to the bowl and use your fingers break up any clumps."
+   },
+   {
+    "title": null,
+    "text": "In a small mixing bowl, whisk together the tahini, vinegar, miso, maple syrup and red pepper flakes. Whisk in the water until the mixture is smooth and creamy. Some brands of tahini are thicker than others, so if your dressing is too thick, add a bit more water and/or vinegar, to taste. Pour the dressing over the kale and sprouts and mix well."
+   },
+   {
+    "title": null,
+    "text": "In a small pan over medium heat, toast the almonds, stirring frequently, until fragrant and turning golden (this will take less than five minutes so watch carefully). Add the toasted almonds and parmesan shavings to the salad and toss. Taste, and add more Parmesan if desired. Leftovers can be stored in the refrigerator for a couple of days. Before serving, you might want to wake up the flavors with a tiny splash of vinegar."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Omit the Parmesan cheese.",
+   "Make it gluten free: Omit the miso. Add salt to the dressing, to taste."
+  ],
+  "summary": "Thinly sliced Brussels sprouts and toasted slivered almonds lend this kale salad a slaw-like crunch, while Parmesan and miso contribute savoriness. Recipe yields 2 large salads or 4 side salads.",
+  "ingredient_groups": [
+   {
+    "at": 5,
+    "title": "Tahini-maple dressing"
+   }
+  ]
+ }
 }

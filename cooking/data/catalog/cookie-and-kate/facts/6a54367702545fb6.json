@@ -1,6 +1,50 @@
 {
  "url": "https://cookieandkate.com/best-blueberry-smoothie-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Blueberry Smoothie",
+  "ingredients": [
+   "1 ½ cups to 2 cups unsweetened vanilla almond milk or water",
+   "1 ½ cups frozen blueberries",
+   "1 ½ cups frozen bananas",
+   "¼ cup almond butter",
+   "Optional nutrition boosters: ¼ cup old-fashioned oats and/or 2 tablespoons flax seed",
+   "1 to 2 teaspoons maple syrup, if necessary"
+  ],
+  "yield_text": "2 smoothies",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Smoothie"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-blueberry-smoothie-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a blender, combine all of the ingredients."
+   },
+   {
+    "title": null,
+    "text": "Blend on low until the blender gains traction, then ramp up to the highest speed as soon as possible (or if your blender has a smoothie function, that will work great). Stop to scrape down the sides or add more milk if necessary."
+   },
+   {
+    "title": null,
+    "text": "Once the smoothie is completely smooth and creamy, taste it and blend in maple syrup if you’d like a sweeter smoothie. Divide the smoothie into 2 glasses. Serve immediately!"
+   }
+  ],
+  "notes": [
+   "Recipe inspired by my banana almond smoothie.",
+   "Make it gluten free: The smoothie is gluten-free without the oats. If you’re adding oats, be sure they’re certified gluten-free.",
+   "Make it nut free: I haven’t tried this, but you could substitute sunbutter for the almond butter, and nut-free milk (oat milk, coconut milk, etc.) or water for the almond milk.",
+   "Storage suggestions: These smoothie keep well in the refrigerator, covered, for 1 to 2 days. The top layer may darken in color; scoop off that layer if you’re bothered by it."
+  ],
+  "summary": "Make this blueberry smoothie for breakfast! This smoothie recipe is creamy, luscious and so nutritious. You’ll need frozen blueberries and bananas, almond butter and almond milk. Recipe yields 2 servings (about 4 cups); you can easily halve or double the recipe.",
+  "ingredient_groups": []
+ }
 }

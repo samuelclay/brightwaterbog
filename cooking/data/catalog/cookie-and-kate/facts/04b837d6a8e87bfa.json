@@ -1,6 +1,67 @@
 {
  "url": "https://cookieandkate.com/balsamic-roasted-brussels-sprouts-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Balsamic Roasted Brussels Sprouts with Cranberries & Pecans",
+  "ingredients": [
+   "1 ½ pounds Brussels sprouts",
+   "2 tablespoons extra-virgin olive oil",
+   "¼ teaspoon fine sea salt",
+   "⅓ cup dried cranberries",
+   "⅓ cup pecans, roughly chopped",
+   "1 tablespoon thick balsamic vinegar*",
+   "⅓ cup finely grated Parmesan Cheese and/or a few thin pats of butter",
+   "Salt and pepper, to taste"
+  ],
+  "yield_text": "4 side servings",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/balsamic-roasted-brussels-sprouts-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper for easy cleanup, if desired."
+   },
+   {
+    "title": null,
+    "text": "To prepare your Brussels sprouts, trim the nubby ends and remove any discolored or damaged leaves. Then, cut each sprout in half lengthwise from the flat base through the top."
+   },
+   {
+    "title": null,
+    "text": "On your prepared baking sheet, combine the halved sprouts, olive oil and salt. Toss until the sprouts are lightly and evenly coated. Arrange the sprouts in an even layer with their flat sides facing down."
+   },
+   {
+    "title": null,
+    "text": "Roast the the sprouts until they are tender and deeply golden on the edges, tossing halfway, about 20 to 25 minutes. When they’re nearly done (about 3 to 5 minutes to go), add the pecans to the pan and return them to the oven (this is an easy way to toast the pecans)."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, place the cranberries in a small bowl and cover them with warm water. This will plump them up. Set them aside while the sprouts are in the oven."
+   },
+   {
+    "title": null,
+    "text": "Transfer the roasted Brussels sprouts and toasted pecans to a serving platter or bowl. Drain the cranberries and sprinkle them on top. Drizzle the balsamic vinegar over the dish, then sprinkle with Parmesan and/or add the pats of butter for added richness. Season with salt and pepper, to taste. Serve warm or at room temperature (it’s great either way)."
+   },
+   {
+    "title": null,
+    "text": "This recipe is best when fresh, but leftovers will keep for two to three days in the refrigerator, covered. Gently reheat before serving."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Simply omit the Parmesan/butter.",
+   "Make it nut free: Replace the pecans with pepitas (green pumpkin seeds) or omit them.",
+   "*Balsamic vinegar recommendation: Thick, high quality balsamic vinegar will yield the most beautiful and delicious results. I love Napa Valley Naturals’ Grand Reserve Balsamic Vinegar—make sure you get the bottle with “25 stars” on it. It’s under $10 and typically available at Natural Grocers and other well-stocked grocery stores."
+  ],
+  "summary": "This recipe features roasted Brussels sprouts, pecans, cranberries, and a drizzle of balsamic vinegar. This simple side dish is utterly irresistible and perfect for the holidays! Recipe yields 4 to 6 side servings.",
+  "ingredient_groups": []
+ }
 }

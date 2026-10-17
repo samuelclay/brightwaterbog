@@ -1,6 +1,60 @@
 {
  "url": "https://cookieandkate.com/lentil-salad/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Lentil Salad",
+  "ingredients": [
+   "1 cup regular brown or green lentils",
+   "¾ teaspoon fine salt, divided",
+   "1 small bunch of curly parsley, chopped (about ¾ cup)",
+   "½ cup chopped roasted red or yellow bell peppers (jarred or homemade)",
+   "½ cup sliced cherry tomatoes",
+   "⅓ cup chopped green onion (green and white parts)",
+   "¼ cup pitted and thinly sliced Kalamata olives",
+   "2 medium cloves garlic, pressed or minced",
+   "¼ cup lemon juice",
+   "2 tablespoons olive oil",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "5 cups",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/lentil-salad/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Fill a medium-to-large saucepan with water, leaving several inches of room at the top. Bring it to a boil over high heat."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, sort through your lentils for debris. Then, rinse your lentils under running water until the water runs clear. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Once the water is boiling, add the rinsed lentils and ½ teaspoon of the salt. Set the timer for 13 minutes. Reduce the heat as necessary to prevent overflow and to maintain a lively simmer. Once your timer has gone off, use a fork to scoop out a few lentils and test for doneness (careful, they’re hot). Your lentils are done when they are pleasantly tender throughout (not mushy or falling apart) and taste nicely earthy (undercooked lentils tend to taste somewhat metallic). If your lentils aren’t fully cooked yet, retest every 1 to 2 minutes until they are. Once cooked, immediately strain off all the excess water. Pour the lentils back into your pot to cool."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, in a medium serving bowl, combine all the remaining ingredients (the chopped parsley, peppers, tomatoes, green onions, olives, garlic, lemon juice, olive oil, and several twists of black pepper)."
+   },
+   {
+    "title": null,
+    "text": "Once the lentils are mostly cool, add them to the bowl and stir until the salad is well combined. Season with the remaining ¼ teaspoon salt (more if desired) and pepper, to taste. Leftovers will keep well for up to 5 days, covered in the refrigerator."
+   }
+  ],
+  "notes": [
+   "Lentil options: If you would like to use pre-cooked lentils, you will need 3 cups. This salad is designed for “standard” lentils, which are brownish-green in color and nicely tender once cooked. Other options include black beluga lentils (set the timer for 16 minutes) or French green lentils (set the timer for 18 minutes). Don’t use red lentils here—they’re too mushy."
+  ],
+  "summary": "This classic lentil salad recipe is the perfect side dish! It’s easy to make with simple ingredients like cherry tomatoes, lemon and parsley. Recipe yields about 5 cups of salad, enough for 4 hearty portions.",
+  "ingredient_groups": []
+ }
 }

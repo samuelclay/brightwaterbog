@@ -1,6 +1,66 @@
 {
  "url": "https://cookieandkate.com/honey-mustard-brussels-sprout-slaw/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Honey Mustard Brussels Sprout Slaw",
+  "ingredients": [
+   "1 pound Brussels sprouts",
+   "⅓ cup slivered almonds, toasted",
+   "⅓ cup tart dried cherries or cranberries, chopped",
+   "⅓ cup finely shredded Parmesan cheese",
+   "¼ cup extra-virgin olive oil",
+   "2 tablespoons apple cider vinegar",
+   "1 tablespoon honey",
+   "1 tablespoon Dijon mustard",
+   "1 garlic clove, pressed or minced",
+   "¼ teaspoon fine sea salt"
+  ],
+  "yield_text": "4 side salads",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/honey-mustard-brussels-sprout-slaw/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Shred the sprouts: First, cut off the tough ends of the sprouts and any browning outer leaves. Then shred them in a food processor using the slicing blade, pressing the sprouts against the blade with the provided plastic pusher. If you don’t have a food processor, slice them as thinly as possible using a sharp chef’s knife, then give them a few extra chops for good measure."
+   },
+   {
+    "title": null,
+    "text": "If you are using raw almonds, toast them over medium heat for three to four minutes, stirring frequently, until they are fragrant and turning golden on the edges."
+   },
+   {
+    "title": null,
+    "text": "Whisk together the olive oil, vinegar, honey, mustard and garlic until blended. In a medium serving bowl, toss the shredded sprouts with the almonds, chopped dried fruit, Parmesan and dressing. Taste, and add another pinch or two of salt if it needs a little something more."
+   },
+   {
+    "title": null,
+    "text": "Serve immediately, or cover and refrigerate for up for 4 days. The Brussels sprouts will continue to soften as they marinate. The edges of the sprouts might brown lightly over time. Wake up leftovers with a little sprinkle of salt and a tiny splash of vinegar."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by the Justus Drugstore patio’s coleslaw and the seasonal Brussels sprout salad at The Mixx.",
+   "Make it dairy free/vegan: Skip the Parmesan, or substitute vegan Parmesan, or try mixing a little bit of white miso into the dressing to make up for it. For vegan slaw, also substitute maple syrup for the honey.",
+   "Make it nut free: Omit the almonds, and perhaps add pepitas or sunflower seeds if desired."
+  ],
+  "summary": "This delicious slaw recipe features shredded Brussels sprouts tossed with tangy honey mustard dressing, toasted almonds and dried cherries (or cranberries). Recipe yields 4 substantial side servings; double if desired.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Coleslaw"
+   },
+   {
+    "at": 4,
+    "title": "Honey mustard dressing"
+   }
+  ]
+ }
 }

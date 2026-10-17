@@ -1,6 +1,66 @@
 {
  "url": "https://cookieandkate.com/amazing-chocolate-chip-cookies/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Vegan Chocolate Chip Cookies",
+  "ingredients": [
+   "2 cups white whole wheat flour, regular whole wheat flour or all-purpose flour",
+   "1 teaspoon baking powder",
+   "¾ teaspoon baking soda",
+   "½ teaspoon fine salt",
+   "1 ¼ cups vegan chocolate chips*",
+   "⅔ cup lightly packed coconut sugar or ½ cup packed brown sugar",
+   "½ cup sugar",
+   "½ cup plus 1 tablespoon melted coconut oil or extra-virgin olive oil**",
+   "¼ cup plus 1 tablespoon water",
+   "Flaky sea salt for sprinkling (optional)"
+  ],
+  "yield_text": "13 cookies",
+  "cook_time": "30 minutes (plus 30 minutes chill time)",
+  "categories": [
+   "Cookie"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/amazing-chocolate-chip-cookies/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium bowl, combine the flour, baking powder, baking soda and salt. Whisk to combine, then add the chocolate chips and toss to coat."
+   },
+   {
+    "title": null,
+    "text": "In a large bowl, combine the coconut sugar, regular sugar, oil and water. Whisk until the sugar has incorporated into the oil and the mixture is smooth, about 1 to 2 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the flour mixture to the sugar mixture, then stir just until combined and no more flour is visible (don’t overdo it)."
+   },
+   {
+    "title": null,
+    "text": "Line 2 baking sheets with parchment paper for easy cleanup. Fill an ice cream scoop two-thirds with dough (or spoon the mixture into even 2-inch mounds), and place the dough onto one of the prepared sheets. Repeat with the remaining dough, leaving several inches of space around each cookie."
+   },
+   {
+    "title": null,
+    "text": "Freeze the cookies on their pans for 30 minutes, or chill them for up to 24 hours in the refrigerator."
+   },
+   {
+    "title": null,
+    "text": "When you’re ready to bake, preheat the oven to 350 degrees Fahrenheit. Bake until the edges are just starting to turn golden, about 14 to 17 minutes. Place the baking sheet on a cooling rack and sprinkle the cookies with flaky salt, if using. Repeat with the remaining cookies."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Ovenly’s Secretly Vegan Salted Chocolate Chip Cookies.",
+   "*Chocolate chip notes: Use dairy-free/vegan chocolate chips, such as Enjoy Life brand. If you’re not trying to make vegan cookies, I also like Ghiradelli’s bittersweet 60% cacao chocolate chips here.",
+   "**Oil notes: You’ll detect a light coconut or olive oil flavor in these cookies. Use whichever one you prefer. For completely neutral-flavored cookies, use a neutral-flavored oil such as avocado oil or safflower oil.",
+   "Make it gluten free: Bob’s Red Mill’s gluten-free all-purpose flour blend works well in this recipe."
+  ],
+  "summary": "Meet the best vegan chocolate chip cookie recipe! These cookies are easy to make with basic, wholesome ingredients (no mixer required). Recipe yields 13 large cookies.",
+  "ingredient_groups": []
+ }
 }

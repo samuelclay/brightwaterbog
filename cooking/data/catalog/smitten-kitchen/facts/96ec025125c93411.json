@@ -33,7 +33,20 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2015/08/angel-hair-pasta-with-raw-tomato-sauce/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Halve the first pound of tomatoes crosswise, then rub the cut sides against the large holes of a box grater set in a large bowl, discarding the skin. Core (see note up top) and chop the last two pounds of tomatoes and add to the grated tomato bowl. Add garlic, lemon juice or vinegar, salt, sugar (if using) and pepper and let marinate at room temperature until ready to use, at least 10 minutes but also up to 2 hours if you’re planning ahead. After it has steeped for a while, taste and adjust seasonings as needed."
+   },
+   {
+    "title": null,
+    "text": "Cook pasta in salted boiling water as package time recommends. Drain then toss with fresh sauce and basil. Serve lukewarm (as it is now) or at room temperature with a drizzle of olive oil and freshly grated cheese on top."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

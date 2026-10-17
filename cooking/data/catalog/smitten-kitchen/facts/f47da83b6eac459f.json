@@ -34,7 +34,40 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2024/04/spinach-and-artichoke-pan-pizza/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the dough: In a large bowl, whisk together the flour, salt, and yeast. Add the water and olive oil and use a spoon or dough whisk (I have this one) to bring it together, stirring the mixture a few times to ensure there are no unmixed pockets of flour. Cover the bowl with plastic wrap and let it rise until it doubles and moves a lot when jiggled, about 1 1/2 to 2 hours at room temperature. If you won’t need the dough until later, you can transfer it to the fridge a little before it’s fully doubled and let it finish there for a few hours or overnight."
+   },
+   {
+    "title": null,
+    "text": "Assemble the pizza: Heat your oven to 450°F (230°C). Coat a 12-inch (30-cm) round cast-iron skillet or a 9×13 cake pan with 2 to 3 tablespoons olive oil. Scrape dough into the pan, then turn it over once so it’s oiled on both sides. Dip your fingers in the oil to coat them and dimple the dough out to the edges as best as you can; it’s okay if it doesn’t fully stretch at this point. Set it aside, loosely covered, for 30 minutes to finish proofing."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, make the spinach pesto: In a food processor or high-speed blender, combine the scallions and garlic. Add spinach and pulse the machine until it’s well-chopped. Drizzle in olive oil until the mixture looks thick but loosened — usually it needs 4 to 6 tablespoons. Season well with salt and red pepper flakes to taste."
+   },
+   {
+    "title": null,
+    "text": "To assemble: Being careful not to deflate the dough, use oiled fingers to gently dimple the dough out to the edges of the pan if it’s not there already. Spoon half of the spinach pesto mixture over the dough, and use the back of the spoon to gently spread it out. The toppings should go all the way to the pan’s edge when making this pizza, i.e. do not leave an empty border. Arrange the artichoke hearts over the spinach pesto, then finely grate some of the lemon zest over. Sprinkle mozzarella, parmesan, and fontina, then season the pizza with salt, red pepper flakes, and a little more lemon zest."
+   },
+   {
+    "title": null,
+    "text": "Bake the pizza: For 25 to 30 minutes, until deeply golden brown at the edges and toasty on top. Yes, this baking time and temperature is correct. It sounds very long but I’ve made a hundred of these pizzas and always regret when I take it out before 30 minutes, as the edges have a less satisfying crunch."
+   },
+   {
+    "title": null,
+    "text": "To serve: Finish with lemon juice. You can serve it right in the pan, but I prefer to protect my knives and loosen the pizza from the pan and slide it onto a cutting board before cutting it into wedges or squares."
+   }
+  ],
+  "notes": [
+   "Do ahead: Leftovers reheat fantastically. I heat leftover slices on a foil-covered sheet pan at 350°F or 375°F for 15 minutes. Leftover spinach pesto keeps for up to 5 days in the fridge.",
+   "This pizza dough is adapted from a focaccia dough, and my favorite comes from Alexandra Stafford. I wrote about the focaccia in her first book in 2018. Guess what? Next Tuesday, her second cookbook, Pizza Night, comes out and it’s all about pizza — pizza for home cooks without special equipment. I’m wildly excited about it. You should order yourself a copy.",
+   "Note: I almost always double the dough and make two pizzas at once, because any leftovers reheat fantastically, but wrote this recipe for just one. You’ll have enough spinach pesto for two pizzas, however. I’ve spread extra on a thick slice of toasted sourdough and covered it with a cloud of microplane-d parmesan (like I had at Sailor a couple weeks ago)."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -26,7 +26,28 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2009/09/roasted-tomatoes-and-cipollini/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 375°F. Boil a small pot of water and blanche the cipollini for 10 seconds, then plunging them into cold water. Use a paring knife to make a small slit in each, and slide them out of their skins and outer layer."
+   },
+   {
+    "title": null,
+    "text": "Spread peeled onions and tomatoes in a roasting pan. Drizzle with olive oil and a few good pinches of coarse salt. Toss everything together until well-coated and roast in preheated oven for about 45 minutes, reaching in every 15 minutes with a spatula to roll the tomatoes and onions around to ensure all sides get blistered."
+   },
+   {
+    "title": null,
+    "text": "Just before you take the tomatoes and onions out, place your bread slices on the oven rack (or a tray, if you’re more refined than us) and let them toast lightly. You can rub the toasts with a halved garlic clove, if you like, while still hot. Use tongs to arrange toasts in one layer on a serving platter. Dump the white beans over the bread, and using a pot holder, scrape the entire contents of the tomato-and-onion roasting pan, still hot, over the white beans. Do not skimp on the juices that have collected, all of them — don’t leave any in the pan. They could make a religious person out of you."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle the dish with the basil and eat at once."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

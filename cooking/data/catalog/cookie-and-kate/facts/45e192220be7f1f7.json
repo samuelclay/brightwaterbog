@@ -1,6 +1,45 @@
 {
  "url": "https://cookieandkate.com/cilantro-lime-sauce/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Cilantro Lime Sauce",
+  "ingredients": [
+   "1 medium jalapeño",
+   "1 cup lightly packed fresh cilantro (from 1 small bunch, slender stems are ok)",
+   "1 cup sour cream",
+   "1 tablespoon fresh lime juice",
+   "1 medium clove garlic, cut into several segments",
+   "½ teaspoon fine salt",
+   "⅛ teaspoon ground cumin"
+  ],
+  "yield_text": "1 cup",
+  "cook_time": "10 minutes",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Mexican-inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cilantro-lime-sauce/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To char the jalapeño (optional, you can use chopped fresh jalapeño instead*): On a gas stove over medium heat, use heat-safe tongs to hold the jalapeño a couple inches directly over the flame for about 60 to 90 seconds until it’s mostly blackened. Turn it over and repeat the process on the other side. Place it in a small paper bag or in a bowl covered with plastic wrap for about 10 minutes to let it steam (this makes it easy to remove the charred layer). Wipe off the charred outer layer with a clean tea towel, then cut off the green flesh, and slice it into smaller pieces. Add the pieces to your food processor."
+   },
+   {
+    "title": null,
+    "text": "To the food processor, add the remaining ingredients (cilantro, sour cream, lime juice, sliced garlic, salt and cumin). Process until the mixture is smooth and light green, with tiny flecks of green from the cilantro. You can use it right away, or refrigerate it for a couple of hours for even better flavor. It will keep well in an airtight container in the refrigerator for up to 5 days."
+   }
+  ],
+  "notes": [
+   "*To use fresh jalapeño: Fresh jalapeño can be spicier than roasted, so you might want to start by adding just half of the jalapeño. Then you can blend in more to taste. Slice off the green flesh, avoiding most of the ribs and seeds. Cut it into smaller segments, then toss it into the food processor with the other ingredients.",
+   "Make it dairy free/vegan: Substitute my vegan sour cream. Since you’re already using the blender to make it, you can add the remaining ingredients directly to the blender."
+  ],
+  "summary": "This fresh cilantro sauce offers bold flavor! Inspired by Chipotle, it’s easy to make in a food processor with sour cream, cilantro, lime juice, garlic and charred jalapeño. Recipe yields about 1 cup, and could easily be doubled.",
+  "ingredient_groups": []
+ }
 }

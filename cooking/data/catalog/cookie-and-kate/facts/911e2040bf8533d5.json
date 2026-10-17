@@ -21,7 +21,35 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/roasted-eggplant-spaghetti-with-miso-brown-butter-sauce/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. Chop the eggplant into ¾-inch chunks and toss in olive oil until all the edges are lightly coated in oil. Sprinkle with salt and arrange on a baking sheet in a single layer. Bake for 35 to 40 minutes, tossing halfway. Pierce one of the large pieces with a fork and make sure it doesn’t offer any resistance—if it does, put the pan back in the oven for a few more minutes."
+   },
+   {
+    "title": null,
+    "text": "Bring a large pot of salted water to boil and cook the spaghetti according to package directions. Remove the pan from heat, reserve one cup of cooking water and drain off the rest. Return the spaghetti to the pan."
+   },
+   {
+    "title": null,
+    "text": "Plop the butter into a small saucepan and let it melt over medium heat. Shimmy and swirl the pan by the handle often so the butter doesn’t splatter (if you hear a gurgling, pressurized sound, you need to stir the butter immediately!). Continue to heat the butter, swirling frequently, until you see little brown flecks in the bottom of the pan (this takes about three minutes)."
+   },
+   {
+    "title": null,
+    "text": "Remove the butter from heat and add a few twists of black pepper to the pan. Let the butter cool for a minute, then use a small whisk to mix in the miso. Then whisk in ¼ cup cooking water. (Do not add water to boiling hot butter!)"
+   },
+   {
+    "title": null,
+    "text": "Toss the spaghetti with the roasted eggplant, miso brown butter and ample grated Parmesan. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Miso butter adapted from Martha Stewart.",
+   "*I used Miso Master Organic’s mellow white miso. It’s pretty readily available in well-stocked supermarkets and health food stores these days. Look for it in the refrigerated section near the tofu."
+  ],
+  "summary": "Roasted eggplant and spaghetti tossed in an incredibly flavorful brown butter-miso-black pepper sauce. This dish is more buttery and carb-heavy than most others in my index, but some days call for butter and carbs. On those days, make this.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

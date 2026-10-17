@@ -21,7 +21,33 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/cranberry-orange-steel-cut-oats/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large saucepan, bring the water and milk to a simmer over medium heat. In the meantime, melt the butter (or coconut oil) in a 12-inch skillet over medium heat. Toast the oats, stirring occasionally, until golden and fragrant, around 1 ½ to 2 minutes."
+   },
+   {
+    "title": null,
+    "text": "Stir the oats into the simmering water/milk mixture. Reduce the heat to medium low and simmer gently for about 20 minutes, until the mixture is very thick."
+   },
+   {
+    "title": null,
+    "text": "Stir in the salt. Continue to simmer the mixture, stirring occasionally, until almost all of the liquid is absorbed, about 10 minutes. The oatmeal should be very creamy at this point. Stir in the orange zest and juice, and let the oatmeal stand for 5 minutes before serving."
+   },
+   {
+    "title": null,
+    "text": "Portion into bowls and top with cranberry sauce, toasted pecans, a splash of almond milk and/or Greek yogurt."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from: The America’s Test Kitchen Healthy Family Cookbook.",
+   "Make it dairy free/vegan: Just substitute coconut oil for the butter, and choose a non-dairy milk.",
+   "Make it gluten free: Use certified gluten-free steel-cut oats.",
+   "Preparation tips: If you ignore the orange zest and juice part of the recipe, you’ll have a basic recipe for super creamy steel cut oats, which you can top any way you’d like. Nut butters, fruit (fresh or defrosted), toasted nuts, compotes, jam and honey are all good ideas. Greek yogurt is highly recommended."
+  ],
+  "summary": "Enjoy this healthy cranberry oatmeal recipe for breakfast! You’ll learn my tricks to making ultra creamy steel-cut oats, too. This recipe serves 4 modestly; add yogurt to stretch the portions.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

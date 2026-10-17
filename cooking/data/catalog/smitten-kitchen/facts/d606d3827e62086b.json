@@ -27,7 +27,26 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2014/02/fennel-and-blood-orange-salad/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Place nuts in dry skillet and cook over medium heat, stirring, to toast. Let cool. If using hazelnuts, roll them around in a dishcloth (or, if cool enough, in your hands), discarding any loose skins. Coarsely chop nuts; set aside."
+   },
+   {
+    "title": null,
+    "text": "Slice about 1/2 inch from bottom of fennel and discard. Slice fennel very thinly on a mandonline, benriner or with a knife, starting with flat bottom side. Toss in serving bowl with salt, pepper and lemon juice."
+   },
+   {
+    "title": null,
+    "text": "Trim all peel and pith from oranges. Holding peeled fruit over bowl containing fennel, use sharp knife to cut sections from membrane and let them drop into bowl. Squeeze remaining membrane over bowl to sprinkle salad with remaining juice, and discard membrane.Add shallots, mint leaves, olive oil and reserved nuts and toss gently. Sprinkle with lime zest."
+   }
+  ],
+  "notes": [
+   "Do ahead: While the mint leaves will look and taste best on the first day, I really enjoyed the leftovers from this salad for lunch the next day."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

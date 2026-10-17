@@ -1,6 +1,72 @@
 {
  "url": "https://cookieandkate.com/cranberry-orange-granola-bars/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Cranberry Orange Granola Bars",
+  "ingredients": [
+   "1 cup pecan pieces",
+   "⅓ cup pepitas",
+   "⅔ cup dried cranberries",
+   "1 ¾ cups quick-cooking oats (or old-fashioned oats, pulsed briefly in a food processor or blender to break them up)",
+   "1 teaspoon orange zest, preferably organic (from 1 large orange)",
+   "½ teaspoon ground cinnamon",
+   "½ to ¾ teaspoon salt, to taste (decrease if your almond/peanut butter is salted)",
+   "1 cup creamy unsalted almond butter or peanut butter, packed",
+   "½ cup honey or maple syrup",
+   "1 ½ teaspoons vanilla extract"
+  ],
+  "yield_text": "16 granola bars",
+  "cook_time": "15 minutes",
+  "categories": [
+   "Snack"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cranberry-orange-granola-bars/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Line a 9-inch square baker with two strips of criss-crossed parchment paper, cut to fit neatly against the base and up the sides. The parchment paper will make it easy for you to slice the bars later."
+   },
+   {
+    "title": null,
+    "text": "In a medium skillet over medium heat, toast the pecans and pepitas, stirring often, until they are fragrant and the pepitas are starting to make little popping noises, about 5 minutes. Transfer the toasted pecans and pepitas to a food processor. Add the cranberries and then run the machine for about 10 seconds, until the nuts and cranberries are all broken up. (If you skip the food processor step, your bars will be more difficult to slice through and more likely to crumble at the edges.)"
+   },
+   {
+    "title": null,
+    "text": "In a mixing bowl, combine the contents of the food processor with the oats, orange zest, cinnamon and salt. Whisk to combine."
+   },
+   {
+    "title": null,
+    "text": "In a smaller mixing bowl, whisk together the almond butter, honey and vanilla extract until well blended."
+   },
+   {
+    "title": null,
+    "text": "Pour the liquid ingredients into the dry ingredients. Use a big spoon to mix them together until the two are evenly combined and no dry oats remain. This takes some arm muscles, but you can do it! If the mixture was easy to mix together, that’s a sign that you need to add some more oats—sprinkle in more oats until you can’t incorporate any more."
+   },
+   {
+    "title": null,
+    "text": "Transfer the mixture to the prepared square baker. Use your spoon to arrange the mixture fairly evenly in the baker, then use the bottom of a flat, round surface (like a short, sturdy drinking glass), covered in a small piece of parchment paper, to pack the mixture down as firmly and evenly as possible."
+   },
+   {
+    "title": null,
+    "text": "Cover the baker and refrigerate for at least one hour, or preferably overnight. (The oats need time to soak up some of the moisture so they aren’t sticky.) When you’re ready to slice, lift the bars out of the baker by grabbing both pieces of parchment paper on opposite corners. Use a sharp knife to slice the bars into 1” strips, then slice them in half through the middle."
+   },
+   {
+    "title": null,
+    "text": "For portability, you can wrap individual bars in plastic wrap or parchment paper. Bars keep well for a couple of days at room temperature, but I recommend storing individually wrapped bars in a freezer-safe bag in the freezer for best flavor."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my healthy chocolate chip granola bars.",
+   "Make it vegan: Use maple syrup instead of honey.",
+   "Make it gluten free: Be sure to choose certified gluten-free oats.",
+   "Make it nut free: I haven’t tried this, but I think you could replace the almond butter with sunflower seed butter and the pecans with more pepitas and/or sunflower seeds."
+  ],
+  "summary": "These wholesome cranberry-orange granola bars are a great healthy snack! They’re made with oats, honey, nuts, dried cranberries and orange zest. This gluten free and easily vegan recipe yields 14 to 16 granola bars.",
+  "ingredient_groups": []
+ }
 }

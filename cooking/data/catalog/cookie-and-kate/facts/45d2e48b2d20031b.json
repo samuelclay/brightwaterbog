@@ -1,6 +1,49 @@
 {
  "url": "https://cookieandkate.com/basil-pesto-party-almonds/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Basil Pesto Party Almonds",
+  "ingredients": [
+   "2 egg whites",
+   "¼ cup packed whole basil leaves",
+   "¾ teaspoon salt",
+   "½ teaspoon garlic powder",
+   "¼ teaspoon red pepper flakes",
+   "2 cups whole, unsalted almonds",
+   "¼ cup finely grated Parmesan cheese"
+  ],
+  "yield_text": "2 cups",
+  "cook_time": "40 minutes",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/basil-pesto-party-almonds/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 225 degrees Fahrenheit. Line a large baking sheet with parchment paper and set aside."
+   },
+   {
+    "title": null,
+    "text": "In a blender, combine the egg whites, basil leaves, salt, garlic powder and red pepper flakes. Process on low speed until mixture is pureed. In a small mixing bowl, toss the basil egg white mixture with the almonds until well combined. Let the almonds soak up some of the excess moisture for a few minutes. Stir in the Parmesan. Use a large mixing spoon to transfer the almonds to the prepared pan, leaving any excess basil mixture in the bowl."
+   },
+   {
+    "title": null,
+    "text": "Spread almonds in a single layer on the baking sheet. Bake for 30 minutes or longer, stirring every 15 minutes, until the basil mixture is dried and the almonds are sufficiently crunchy. Let the almonds cool completely, then store in an air-tight container. Mine are in a freezer-safe bag in the freezer for my next girls’ night."
+   }
+  ],
+  "notes": [
+   "Recipe adapted, with permission, from the Almond Board of California.",
+   "Change it up: I’m pretty sure you could substitute a variety of nuts for the almonds. You could also substitute arugula for the basil."
+  ],
+  "summary": "These roasted, pesto-covered almonds make an irresistible snack or party appetizer. Recipe yields 2 cups pesto almonds.",
+  "ingredient_groups": []
+ }
 }

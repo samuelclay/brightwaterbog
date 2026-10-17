@@ -1,6 +1,67 @@
 {
  "url": "https://cookieandkate.com/thai-pineapple-fried-rice-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Thai Pineapple Fried Rice",
+  "ingredients": [
+   "2 tablespoons coconut oil or quality vegetable oil, divided",
+   "2 eggs, beaten with a dash of salt",
+   "1 ½ cups chopped fresh pineapple",
+   "1 large red bell pepper, diced",
+   "¾ cup chopped green onions (about ½ bunch)",
+   "2 cloves garlic, pressed or minced",
+   "½ cup chopped raw, unsalted cashews",
+   "2 cups cooked and chilled brown rice*, preferably long-grain brown jasmine rice",
+   "1 tablespoon reduced-sodium tamari or soy sauce",
+   "1 to 2 teaspoons chili garlic sauce or sriracha",
+   "1 small lime, halved",
+   "Salt, to taste",
+   "Handful of fresh cilantro leaves, torn into little pieces, for garnishing"
+  ],
+  "yield_text": "2 to 4 servings",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Asian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/thai-pineapple-fried-rice-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat a large wok, cast iron skillet or non-stick frying pan over medium-high heat and place an empty serving bowl nearby. Once the pan is hot enough that a drop of water sizzles on contact, add 1 teaspoon oil. Pour in the eggs and cook, stirring frequently, until the eggs are scrambled and lightly set, about 30 seconds to 1 minute. Transfer the eggs to the empty bowl. Wipe out the pan if necessary with a paper towel (be careful, it’s hot!)."
+   },
+   {
+    "title": null,
+    "text": "Add 1 tablespoon oil to the pan and add the pineapple and red pepper. Cook, stirring constantly, until the liquid has evaporated and the pineapple is caramelized on the edges, about 3 to 5 minutes. Then add the green onion and garlic. Cook until fragrant while stirring constantly, about 30 seconds. Transfer the contents of the pan to your bowl of eggs."
+   },
+   {
+    "title": null,
+    "text": "Reduce the heat to medium and add the remaining 2 teaspoons oil to the pan. Pour in the cashews and cook until fragrant, stirring constantly, about 30 seconds. Add the rice to the pan and stir to combine. Cook until the rice is hot, stirring occasionally, about 3 minutes."
+   },
+   {
+    "title": null,
+    "text": "Pour the contents of the bowl back into the pan and stir to combine, breaking up the scrambled eggs with your spoon. Cook until the contents are warmed through, then remove the pan from heat. Add the tamari and chili garlic sauce, to taste. Squeeze the juice of ½ lime over the dish and stir to combine. Season to taste with salt and set aside."
+   },
+   {
+    "title": null,
+    "text": "Slice the remaining ½ lime into 4 wedges. Transfer the stir-fry to individual serving bowls and garnish each bowl with a lime wedge and a light sprinkle of cilantro. Serve with bottles of tamari and chili garlic sauce or sriracha on the side, for those who might want to add more to their bowls."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my spicy kale and coconut fried rice.",
+   "*Rice notes: For 2 cups cooked rice, you’ll need to cook up about ⅔ cup dry rice. To cook the rice, rinse it well in a fine mesh colander, then bring a large pot of water to boil. Add the rice and let it boil, uncovered, for 30 minutes. Drain off the remaining cooking water, then return the rice to the pot. Cover the pot and let the rice steam, off the heat, for 10 minutes. To chill the rice ASAP, spread it across a parchment paper-lined rimmed baking sheet and let it cool in the refrigerator.",
+   "MAKE IT VEGAN/EGG FREE: Skip the eggs by heating the pan and then start cooking with step 2. This fried rice would be great with crispy baked tofu, which you could toss in during step 4.",
+   "MAKE IT GLUTEN FREE: Make sure to use a certified gluten-free soy sauce (tamari is usually gluten free, but check to be sure).",
+   "STORAGE SUGGESTIONS: The dish tastes great the next day, whether reheated or served at room temperature.",
+   "If you love this recipe: Be sure to check out my other Thai-inspired recipes here!"
+  ],
+  "summary": "Thai-style sweet and spicy pineapple fried rice with red bell pepper, cashews and cilantro. This is a healthy and quick, vegetarian weeknight dinner! This dish comes together very quickly, so be sure to have your ingredients (including chilled leftover rice) prepped in advance. Recipe yields 2 large, restaurant-sized portions or 4 more modest portions.",
+  "ingredient_groups": []
+ }
 }

@@ -21,7 +21,30 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/simple-strawberry-smoothie-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a blender, combine all of the ingredients, starting with the almond milk."
+   },
+   {
+    "title": null,
+    "text": "Blend on low until the blender gains traction, then ramp up to the highest speed as soon as possible (or if your blender has a smoothie function, that will work well). Use your blender’s tamper, if you have one, and stop to scrape down the sides as necessary. If the strawberries refuse to break up, let the mixture rest for several minutes before trying again. Add up to ½ cup additional milk if necessary."
+   },
+   {
+    "title": null,
+    "text": "Once the smoothie is completely smooth and creamy, taste and blend in maple syrup if you’d like a sweeter smoothie. Divide the smoothie into 2 to 4 glasses, depending on your desired serving size. Serve immediately!"
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Basic Blueberry Smoothie.",
+   "*Strawberry note: Frozen strawberries, especially when large, can be difficult to blend even in high-powered blenders. That’s why I suggest letting the strawberries thaw at room temperature for 5 to 10 minutes in advance.",
+   "Make it gluten free: The smoothie is gluten-free without the oats. If you’re adding oats, be sure they’re certified gluten-free.",
+   "Make it nut free: I haven’t tried this, but you could substitute sunbutter for the almond butter, and nut-free milk (oat milk, coconut milk, etc.) or water for the almond milk.",
+   "Storage suggestions: These smoothie keep well in the refrigerator, covered, for 1 to 2 days. The top layer may darken in color; scoop off that layer if you’re bothered by it."
+  ],
+  "summary": "Make this strawberry smoothie for breakfast (or dessert)! This strawberry smoothie recipe is creamy, luscious and nutritious. It almost tastes like a strawberry milkshake. Recipe yields 2 to 4 servings (about 4 cups); you can easily halve or double the recipe.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -35,7 +35,30 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2009/01/warm-butternut-squash-and-chickpea-salad/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425°F."
+   },
+   {
+    "title": null,
+    "text": "In a large bowl, combine the butternut squash, garlic, allspice, olive oil, and a few pinches of salt. Toss the squash pieces until evenly coated. Roast them on a baking sheet for 25 minutes, or until soft. Remove from the oven and cool."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, make the tahini dressing: In a small bowl, whisk together the garlic and lemon juice. Add the tahini, and whisk to blend. Add the water and olive oil, whisk well, and taste for seasoning. The sauce should have plenty of nutty tahini flavor, but also a little kick of lemon. You will probably need to add more water to thin it out."
+   },
+   {
+    "title": null,
+    "text": "To assemble the salad, combine the squash, chickpeas, onion, and cilantro or parsley in a mixing bowl. Either add the tahini dressing to taste, and toss carefully, or you could serve the salad with the dressing on the side. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Do ahead: Molly says this salad, lightly dressed, keeps beautifully in the fridge, that you should hold a little of the dressing on the side and that it can be reheated in the microwave. I, for one, have never had any leftovers."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

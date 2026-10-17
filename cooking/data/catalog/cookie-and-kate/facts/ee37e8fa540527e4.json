@@ -1,6 +1,45 @@
 {
  "url": "https://cookieandkate.com/tahini-date-shake/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Tahini Date Shake",
+  "ingredients": [
+   "1 cup almond milk or milk of choice (nut-free if necessary)",
+   "2 sliced and frozen ripe (but not overripe) bananas",
+   "¼ cup well-stirred tahini",
+   "4 Medjool dates, pitted and torn into pieces*",
+   "⅛ teaspoon ground cinnamon",
+   "⅛ teaspoon real vanilla extract",
+   "Optional garnishes: pinch of cinnamon and/or sesame seeds"
+  ],
+  "yield_text": "2 small shakes",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "Middle Eastern"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/tahini-date-shake/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a blender, combine the milk, frozen banana slices, tahini, dates, cinnamon and vanilla."
+   },
+   {
+    "title": null,
+    "text": "Blend until smooth. Taste and add more vanilla or cinnamon if desired. If you’d like to lighten it up, blend in some ice as well. Pour into glasses and serve immediately."
+   }
+  ],
+  "notes": [
+   "*Date tip: If your dates are old and difficult to tear open, soak them in hot water for 5 minutes before using.",
+   "Change it up: Substitute nut butter for the tahini, like peanut butter, almond butter or pecan butter."
+  ],
+  "summary": "This creamy, dairy-free shake is made with tahini, dates and bananas. This rich smoothie would be a lovely after-dinner drink or afternoon treat! Recipe yields two small shakes.",
+  "ingredient_groups": []
+ }
 }

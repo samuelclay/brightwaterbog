@@ -33,7 +33,52 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/strawberry-kale-salad-with-nutty-granola-croutons/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the granola: Preheat oven to 350 degrees Fahrenheit. In a medium bowl, toss the oats, pistachios, almonds, sunflower seeds, sesame seeds, salt, and cayenne pepper. Stir in the beaten egg white, oil, and honey until well blended. Transfer mixture to a rimmed baking sheet and bake, stirring halfway, until golden, about 16-19 minutes. Let the granola cool on the baking sheet."
+   },
+   {
+    "title": null,
+    "text": "To make the dressing: In a small bowl, whisk together the olive oil, lemon juice, mustard, honey and salt until well blended. Season generously with freshly ground black pepper, to taste."
+   },
+   {
+    "title": null,
+    "text": "To prepare the kale: Use a chef’s knife to remove the tough ribs from the kale, then discard the ribs (or feed them to your dog!). Chop the kale leaves into small, bite-sized pieces. Transfer the chopped kale to a big salad bowl. Sprinkle a pinch of salt over the kale and massage the leaves with your hands by lightly scrunching big handfuls at a time, until the leaves are darker in color and fragrant."
+   },
+   {
+    "title": null,
+    "text": "To assemble the salad: Drizzle in the salad dressing (you might not need all of it) and toss well, until all of the kale is lightly coated in dressing. Add the sliced strawberries and chopped radishes, then use a fork to crumble the goat cheese over the salad. For the best flavor, let the salad rest for 15 minutes before serving (this gives the dressing time to soak into the kale)."
+   },
+   {
+    "title": null,
+    "text": "Top with granola just before serving to preserve its crunch (if you intend to have leftovers, add granola to individual servings and store it separately from the salad). This salad will keep well covered in the refrigerator for up to 2 days and the granola will keep in an air-tight freezer bag in the freezer for several months. It’s good on salads or yogurt."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Deb’s kale salad and Bon Appetit’s savory granola.",
+   "Massaged kale, what? Massaging the kale helps make the leaves more palatable, flavorful and fragrant. Don’t worry, you won’t hurt the kale in the process. :)",
+   "Make it vegan: Add diced avocado instead of goat cheese. Use agave nectar or maple syrup in place of the honey. Skip the egg white in the granola, but keep an eye on the granola near the end of baking. It might be done a couple minutes early.",
+   "Make it gluten free: Be sure to use certified gluten-free oats.",
+   "Recommended equipment: My Oxo salad spinner helps remove all of the water from the greens. Watery greens repel salad dressing, which makes for a not-so-great salad.",
+   "2025 recipe edit: I omitted the optional 1 tablespoon fennel seeds from the granola because I prefer the granola without it."
+  ],
+  "summary": "Raw kale, chopped strawberries and radishes, and crumbled goat cheese tossed in a tangy lemon dressing. Top that with savory, nutty granola “crouton” clusters for a hearty and healthy meal in a bowl. The recipe below yields enough salad for two full-sized portions or four side salads, and plenty of leftover granola croutons for future salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Kale salad"
+   },
+   {
+    "at": 4,
+    "title": "Lemon honey mustard dressing"
+   },
+   {
+    "at": 10,
+    "title": "Nutty granola “croutons”"
+   }
+  ]
  },
  "parser_version": 2
 }

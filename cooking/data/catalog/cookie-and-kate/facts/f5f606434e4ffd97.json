@@ -29,7 +29,35 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/creamy-pumpkin-marinara-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Warm the olive oil in a large skillet over medium heat. Once it’s shimmering, add the onion, bell pepper and ¼ teaspoon of the salt. Cook, stirring often, until the onions and pepper are very tender, 6 to 8 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the garlic, oregano, tarragon, and cinnamon. While stirring, cook until fragrant, about 1 minute. Add the tomatoes and cook for 1 minute, while stirring. Add the pumpkin purée and stir to combine. Continue simmering for 5 minutes, then remove it from the heat."
+   },
+   {
+    "title": null,
+    "text": "Carefully transfer the mixture to your blender. Add 1 tablespoon butter and 1 teaspoon vinegar. Blend until very smooth and creamy."
+   },
+   {
+    "title": null,
+    "text": "Season generously with freshly ground black pepper and additional salt (I usually add another ¼ teaspoon salt). For a more luxurious sauce, add another tablespoon of butter, or for more tangy complexity, add another teaspoon of vinegar. Blend to combine."
+   },
+   {
+    "title": null,
+    "text": "Stir into warm pasta. Serve with freshly grated Parmesan and chopped parsley on top."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Omit the butter or blend in olive oil instead. Use vegan Parmesan or omit it.",
+   "Make it gluten free: This sauce is gluten free. Just serve it over gluten-free pasta."
+  ],
+  "summary": "This pumpkin marinara recipe tastes like fall. It’s comforting like mac and cheese, but lighter and full of vegetables! Just add pasta. Recipe yields about 4 cups sauce (enough to generously coat 12 ounces/4 modest servings of pasta).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

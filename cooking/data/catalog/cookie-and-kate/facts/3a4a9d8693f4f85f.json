@@ -14,7 +14,22 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/how-to-make-powdered-sugar/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Pour granulated sugar into a blender or food processor. Blend the sugar until it is a fine, fluffy powdered sugar. The more refined, whiter sugars make the fluffiest powdered sugars."
+   },
+   {
+    "title": null,
+    "text": "Use powdered sugar immediately or save it for later. You may want to sift the sugar before use for clump free, super fluffy sugar."
+   }
+  ],
+  "notes": [
+   "Make it vegan: Use sugar that is labeled vegan/hasn’t been filtered through bone char."
+  ],
+  "summary": "Homemade powdered sugar is so easy to make! Learn how in this simple tutorial. Use any sugar you have on hand (healthier options like coconut sugar and turbinado sugar work great!). One cup sugar will yield about two cups powdered sugar.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

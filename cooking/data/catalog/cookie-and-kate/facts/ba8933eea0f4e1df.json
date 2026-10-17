@@ -1,6 +1,50 @@
 {
  "url": "https://cookieandkate.com/honey-butter-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Honey Butter",
+  "ingredients": [
+   "One stick of unsalted butter (4 ounces or 8 tablespoons), softened",
+   "3 tablespoons honey",
+   "¼ teaspoon ground cinnamon",
+   "⅛ teaspoon fine salt",
+   "For garnish: Drizzle of honey, and a sprinkle of flaky sea salt or kosher salt"
+  ],
+  "yield_text": "3/4 cup",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Condiment"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/honey-butter-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a 2-cup liquid measuring cup (or other small, shatter-proof mixing bowl with tall sides), combine the softened butter, honey, cinnamon and salt."
+   },
+   {
+    "title": null,
+    "text": "Using a hand mixer, whip the ingredients together until the butter is light and fluffy."
+   },
+   {
+    "title": null,
+    "text": "Transfer the mixture to a small serving bowl. Lightly drizzle honey on top, followed by a little sprinkle of flaky salt or kosher salt."
+   },
+   {
+    "title": null,
+    "text": "Serve promptly, or refrigerate for later (let the mixture come back to room temperature before serving). Leftovers keep well in the refrigerator, covered, for up to 5 days."
+   }
+  ],
+  "notes": [
+   "Change it up: The cinnamon is technically optional but quite nice. You might enjoy other warming spices, like pumpkin spice blend, a dash of nutmeg or even some freshly ground black pepper. Maple syrup will work in place of the honey."
+  ],
+  "summary": "This honey butter is so easy to whip together! A final drizzle of honey and sprinkle of salt make it utterly irresistible. Recipe yields about ¾ cup—double it for a crowd.",
+  "ingredient_groups": []
+ }
 }

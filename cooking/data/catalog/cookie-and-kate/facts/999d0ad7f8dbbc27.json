@@ -1,6 +1,101 @@
 {
  "url": "https://cookieandkate.com/mango-burrito-bowls-with-crispy-tofu/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Mango Burrito Bowls with Crispy Tofu and Peanut Sauce",
+  "ingredients": [
+   "1 block (12 to 15 ounces) organic extra-firm tofu",
+   "1 tablespoon extra-virgin olive oil",
+   "1 tablespoon reduced-sodium tamari* or soy sauce",
+   "1 tablespoon cornstarch or arrowroot starch",
+   "1 ¼ cups brown basmati rice or long-grain brown rice, rinsed",
+   "⅓ cup creamy peanut butter",
+   "3 tablespoons lime juice (about 1 lime)",
+   "2 tablespoons reduced-sodium tamari* or soy sauce",
+   "1 tablespoon honey or maple syrup, to taste",
+   "2 teaspoons toasted sesame oil",
+   "2 garlic cloves, pressed or minced",
+   "¼ teaspoon red pepper flakes (omit or reduce if sensitive to spice)",
+   "2 large ripe mangos, diced",
+   "1 medium red bell pepper, chopped",
+   "½ cup (about 4) thinly sliced green onions",
+   "¼ cup chopped fresh cilantro",
+   "1 medium jalapeño, seeds and ribs removed, minced",
+   "2 tablespoons lime juice",
+   "¼ teaspoon fine sea salt",
+   "2 cups shredded purple or green cabbage",
+   "Handful of chopped roasted peanuts, for garnish"
+  ],
+  "yield_text": "4 bowls",
+  "cook_time": "1 hour 15 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Asian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/mango-burrito-bowls-with-crispy-tofu/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 400 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper to prevent the tofu from sticking."
+   },
+   {
+    "title": null,
+    "text": "To prepare the tofu: Drain the tofu and use your palms to gently squeeze out some of the water. Slice the tofu into thirds lengthwise so you have 3 even slabs. Stack the slabs on top of each other and slice through them lengthwise to make 3 even columns, then slice across to make 5 even rows."
+   },
+   {
+    "title": null,
+    "text": "Line a cutting board with a lint-free tea towel or paper towels, then arrange the tofu in an even layer on the towel(s). Fold the towel(s) over the cubed tofu, then place something heavy on top (like another cutting board, topped with a cast iron pan or large cans of tomatoes) to help the tofu drain. Let the tofu rest for at least 10 minutes (preferably more like 30 minutes, if you have the time)."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, bring a large pot of water to boil. Add the rice and boil, uncovered, for 30 minutes. Drain off the remaining cooking water and return the rice to the pot. Cover the pot and let the rice rest, off the heat, for 10 minutes. Fluff with a fork and set aside."
+   },
+   {
+    "title": null,
+    "text": "Transfer the pressed tofu to the lined baking sheet and drizzle with the olive oil and tamari. Toss to combine. Sprinkle the starch over the tofu, and toss the tofu until the starch is evenly coated, so there are no powdery spots remaining."
+   },
+   {
+    "title": null,
+    "text": "Arrange the tofu in an even layer. Bake for 25 to 30 minutes, tossing the tofu halfway, until the tofu is deeply golden on the edges. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, prepare the peanut sauce by whisking all the ingredients together in a bowl. Taste, and if it’s too bold, add another teaspoon of honey to tame it. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Then, in a medium mixing bowl, combine the diced mango, bell pepper, green onion, cilantro, jalapeño, lime juice and salt. Stir to combine, and set aside."
+   },
+   {
+    "title": null,
+    "text": "To assemble your bowls, start with a big scoop of cooked rice. Top with a handful (½ cup) shredded cabbage, then a big scoop of mango salsa, a handful of baked tofu, a hefty drizzle of peanut sauce, and a little sprinkle of chopped peanuts. Leftover bowls will keep well in the refrigerator, covered, for about 4 days."
+   }
+  ],
+  "notes": [
+   "*Make it gluten free: This dish is gluten free as long as you use gluten-free tamari, which is a variety of soy sauce that is usually (but not always, check the label) gluten free. I always use tamari instead of soy sauce because I prefer the flavor of it! Look for tamari next to the soy sauce in the Asian aisle of the grocery store.",
+   "Make it vegan: Use maple syrup instead of honey.",
+   "Change it up: If you can’t find good mangos, diced fresh pineapple would be delicious. You’ll need about 2 cups."
+  ],
+  "summary": "Think of these mango bowls as a Thai spin on your favorite burrito bowl. This recipe features brown rice, fresh mango, tofu and peanut sauce. You will have time to prepare the produce while the tofu and rice cook, so get started on those elements first. Recipe yields 4 bowls.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Crispy baked tofu and rice"
+   },
+   {
+    "at": 5,
+    "title": "Peanut sauce"
+   },
+   {
+    "at": 12,
+    "title": "Mango salsa and cabbage"
+   }
+  ]
+ }
 }

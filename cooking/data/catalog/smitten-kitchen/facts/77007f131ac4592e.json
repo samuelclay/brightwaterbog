@@ -24,7 +24,20 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2016/03/nolita-style-avocado-toast/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Toast the bread so that it’s dark and firm. Scoop the avocado into a bowl and lightly mash/chop it, or directly onto your toast and do the same. Spread the avocado from edge to edge of the toast, leaving no bread uncovered, mounding it smoothly in the center. Drizzle olive oil over so that it rolls off onto the plate. Repeat with lemon juice. Shake or grind on some fine salt and cover with red pepper flakes. Slice toast on the diagonal and eat with a knife and fork, if before noon, with a cup of coffee or tea, if after, a petite glass of rose wine."
+   },
+   {
+    "title": null,
+    "text": "On the side: If trying to stretch this into a fuller meal, you cannot go wrong with David Lebovitz’s simple carrot salad on the side, or the Moroccan-hinted harissa and feta version in the archives here."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

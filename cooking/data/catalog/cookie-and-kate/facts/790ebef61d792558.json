@@ -33,7 +33,46 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/vegetarian-pho-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Warm a medium soup pot or Dutch oven over medium heat. Add the cinnamon sticks, cloves, and star anise and toast until fragrant, stirring occasionally, about 3 to 4 minutes. Add the onion, ginger, vegetable stock, water and tamari. Raise the heat to high and bring the mixture to a boil, then reduce the heat as necessary to maintain a gentle simmer. Simmer for 30 minutes to give the flavors time to meld."
+   },
+   {
+    "title": null,
+    "text": "In the meantime, prepare your rice noodles by cooking them according to package directions. Set them aside."
+   },
+   {
+    "title": null,
+    "text": "To prepare the shiitake mushrooms, warm the oil in a medium skillet over medium heat until shimmering. Add the mushrooms and a few dashes of salt. Cook until the mushrooms are tender and lightly browned, about 4 to 6 minutes, then set them aside."
+   },
+   {
+    "title": null,
+    "text": "Once the broth is done cooking, strain out the onions, ginger and spices (this is easiest with a small metal sieve, but you can also strain the mixture through a colander into another large bowl). Season it to taste with extra tamari and/or salt until the flavors of the spices really shine."
+   },
+   {
+    "title": null,
+    "text": "Ladle the broth into bowls, add cooked noodles and mushrooms, and fresh garnishes to your heart’s content (don’t forget the lime!). Serve immediately, with chopsticks and soup spoons."
+   }
+  ],
+  "notes": [
+   "If you love spicy pho: Sriracha overpowers the delicate flavors in this soup, so I don’t recommend adding any. You can add a pinch of red pepper flakes to the broth as it cooks, and/or add extra sliced jalapeño to your bowls.",
+   "Make it gluten free: Be sure to use gluten-free tamari or soy sauce (tamari is usually gluten-free, but check your bottle to be sure).",
+   "*For even more flavor: Char your onions and ginger before adding them to the pot. If you go this route, just slice the onion in half (instead of quarters), and don’t peel the ginger. You have a few options on how to char them—you can supposedly char them with metal tongs over a gas flame (I don’t have gas, so I couldn’t try this), or broil them, cut sides down, on a baking sheet, or—the most reliable method—roast them, cut sides down, on a baking sheet, on the upper rack in a 500 degree Fahrenheit oven for 15 to 20 minutes.",
+   "Mushroom alternatives: You can just omit the mushrooms altogether (I’d actually stir a couple teaspoons of oil into the broth, for body). Untraditional alternatives include crispy tofu or steamed edamame."
+  ],
+  "summary": "This vegetarian pho (Vietnamese noodle soup) is full of flavor, thanks to spices, herbs and sautéed shiitake mushrooms! It’s easy and fun to make, too. Recipe yields 4 generous bowls of soup.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Soup"
+   },
+   {
+    "at": 12,
+    "title": "Garnishes"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -34,7 +34,38 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2017/05/broccoli-rubble-farro-salad/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a medium/large pot of salted water to boil. Once boiling, add broccoli and boil for 2 to 2 1/2 minutes, until slightly softened but still crisp overall. Scoop out with slotted spoon or tongs, then drain."
+   },
+   {
+    "title": null,
+    "text": "Add farro back to same pot (I’m totally okay with some errant leftover broccoli flecks and vitamins here, if you’re not, use another pot of salted water) and cook, simmering, for 25 to 30 minutes, until tender. (Since there are so many varieties of farro, however, if your package suggests otherwise, it’s best to defer to its cooking suggestion.) Drain and tip into a large mixing bowl; cool to lukewarm."
+   },
+   {
+    "title": null,
+    "text": "Pat drained broccoli dry on towels, trying to remove as much excess moisture as possible. Chop into small (roughly 1/2-inch) bits. In a large sauté pan, heat olive oil over medium-high heat until hot. Add garlic and pepper flakes, to taste, and cook for 1 minute, until garlic is faintly golden. Add chopped broccoli, lemon zest, and salt (I use a full teaspoon kosher salt here, but adjust the amount to your taste) and cook, stirring, for 3 to 4 more minutes, until broccoli is well-seasoned and slightly more tender."
+   },
+   {
+    "title": null,
+    "text": "Add broccoli and every bit of garlic and oil from the pan to the bowl of farro and stir to combine. Add lemon juice, black pepper and more salt to taste (but 1/2 teaspoon of each is what we used) and stir to combine. Stir in cheese."
+   },
+   {
+    "title": null,
+    "text": "Serve warm or at room temperature as-in, with an egg on top, burrata, and/or seasoned breadcrumbs."
+   }
+  ],
+  "notes": [
+   "I like grain salads that are as much vegetable as they are grain, if not more so. If that’s not your thing, double the farro here.",
+   "I like broccolini for this because it gets and stays more green when you cook it, even when it’s hit with lemon juice. Regular broccoli works just fine, however, there’s just more risk of discoloration once you add lemon juice. When using regular broccoli, I like to peel the stems so that they cook as quickly as the florets.",
+   "I boil the broccoli here for ease — so you don’t have to turn on the oven and use the stove — but you can definitely approach the broccoli prep as we did here and then give it a chop.",
+   "This is the easiest way to make farro — boiling and draining — second only to a rice-cooker. If mine hadn’t been broken at the hands of a small, possibly well-intended child, I’d have used it.",
+   "Update 5/26: I’m terribly sorry. Did you make this recipe and find that your was much more green than mine? This is completely my fault. I made this with 1 to 1 1/4 pounds of broccoli, not 2 pounds originally written. I feel terrible about this; it sounds from the comments that just about everyone still enjoyed but if you were among those who did not, I’m terribly sorry. I do have my share of typos, but rarely mistakes of this magnitude. It will not become a habit."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

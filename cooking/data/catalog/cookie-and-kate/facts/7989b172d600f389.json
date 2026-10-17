@@ -26,7 +26,47 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/fresh-cranberry-margaritas/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the jam: In a medium saucepan, bring cranberries, agave (or sugar), orange juice and ½ cup water to boil. Reduce heat and simmer, stirring occasionally, until thick and jammy, about 20 to 25 minutes. Remove from heat, stir in the orange zest and set aside to cool."
+   },
+   {
+    "title": null,
+    "text": "Make the sugar and spice blend: On a small, flat plate, mix together the salt, sugar, cinnamon, ginger and cloves (or allspice)."
+   },
+   {
+    "title": null,
+    "text": "Line the glasses: You will need 8 old fashioned/small cocktail glasses. Rub a wedge of lime along the rim of each glass, then dip it into the sugar and spice blend. Repeat for remaining glasses, then fill each with ice (assuming that you will be serving the cocktails immediately)."
+   },
+   {
+    "title": null,
+    "text": "To make each cocktail individually, combine 1 tablespoon (½ ounce) lime juice, 2 tablespoons (1 ounce) orange juice, 3 tablespoons (1 ½ ounces) tequila and 2 tablespoons cranberry jam in a cocktail shaker. Cover and shake until outside is frosty, about 30 seconds. Strain into prepared glass and serve with a star anise."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from The Red Cat’s recipe in Bon Appetit.",
+   "Recommended tequila: Espolón, Milagro or any other 100 percent agave silver tequila.",
+   "To make four drinks at once: combine ¼ cup lime juice, ½ cup orange juice, ¾ cup tequila and ½ of the jam in cocktail shaker. Fill the shaker with ice, shake vigorously and strain the mixture into 4 prepared glasses.",
+   "To make a pitcher of margaritas (pretty sure this will work well): fill a small pitcher with ice and pour in the tequila. In a cocktail shaker or mason jar, shake the orange juice, lime juice and all of the jam well (or blend it all up in a blender). Strain the mixture into the pitcher. Stir well before serving.",
+   "Storage suggestions: Leftover jam should keep well, covered, in the refrigerator for a couple of weeks. It would be good on toast or oatmeal."
+  ],
+  "summary": "Simple and stunning cranberry margaritas made with fresh cranberries. This recipe yields 8 small, 4-ounce drinks (or 6 drinks if your glasses are the same size as mine). You will need about 6 medium oranges and 5 medium limes. To get a head start on the drinks, make the cranberry jam up to 5 days in advance.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Cranberry jam"
+   },
+   {
+    "at": 4,
+    "title": "Sugar and spice blend"
+   },
+   {
+    "at": 9,
+    "title": "Margarita"
+   }
+  ]
  },
  "parser_version": 2
 }

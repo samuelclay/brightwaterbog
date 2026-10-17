@@ -24,7 +24,30 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/greek-pizza-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 500 degrees Fahrenheit with a rack in the upper third of the oven. If you’re using a baking stone or baking steel, place it in the oven on the top rack. Prepare dough through step 5."
+   },
+   {
+    "title": null,
+    "text": "Spread marinara sauce evenly over the pizzas, or top with drained, crushed tomatoes (crush the tomatoes over the sink to get out as much liquid as possible). Sprinkle lightly with dried oregano."
+   },
+   {
+    "title": null,
+    "text": "Divide toppings evenly over the two pizzas, beginning with shredded mozzarella, followed by roasted red pepper, artichoke, olives and lastly, the feta."
+   },
+   {
+    "title": null,
+    "text": "Bake pizzas individually on the top rack until the crust is golden and the cheese is golden and bubbly, about 12 minutes (or significantly less, if you’re using a baking stone/steel—keep an eye on it). Transfer pizza to a cutting board and sprinkle with torn fresh basil. I sprinkled mine with red pepper flakes, too. Slice and serve!"
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Whole Foods locations in Kansas City."
+  ],
+  "summary": "Homemade Greek pizza featuring feta, roasted red peppers, artichokes, olive and basil! This is a delicious weeknight meal made with pantry ingredients. Feel free to toss on some chopped red onion (¼ cup or so) if that sounds good to you. Recipe yields two 11-inch pizzas.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

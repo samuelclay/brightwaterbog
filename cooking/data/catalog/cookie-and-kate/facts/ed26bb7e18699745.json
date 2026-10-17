@@ -21,7 +21,22 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/pink-drink-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring the water to a simmer. Place the tea bag in a 1-quart (4 cups) liquid measuring cup or small heat-proof pitcher. Pour the water over the tea bag, stir in the honey until dissolved, and drop in half of the sliced strawberries. Let the mixture steep for 10 to 20 minutes."
+   },
+   {
+    "title": null,
+    "text": "Discard the tea bag. Pour the orange juice and coconut milk into the mixture and stir to combine. Fill drinking glasses with ice and divide the pink drink between the glasses. Garnish the drinks with the remaining sliced strawberries. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Make it vegan: Use maple syrup or your vegan sweetener of choice instead of the honey."
+  ],
+  "summary": "This pink drink is my interpretation of the Starbucks drink. This naturally sweetened hibiscus punch/mocktail recipe is fresh, fruity and super refreshing. Recipe yields 4 cups.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

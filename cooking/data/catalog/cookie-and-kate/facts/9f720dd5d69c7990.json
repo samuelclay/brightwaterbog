@@ -1,6 +1,70 @@
 {
  "url": "https://cookieandkate.com/healthy-raspberry-muffins-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Lemon Raspberry Muffins",
+  "ingredients": [
+   "1¾ cups white whole wheat flour or regular whole wheat flour",
+   "1 teaspoon baking powder",
+   "½ teaspoon baking soda",
+   "½ teaspoon fine salt",
+   "⅓ cup melted coconut oil or extra-virgin olive oil",
+   "½ cup honey or maple syrup",
+   "2 eggs, preferably at room temperature",
+   "1 cup plain Greek yogurt*",
+   "2 teaspoons vanilla extract",
+   "Zest of 1 medium lemon (about ½ teaspoon)",
+   "1½ cups frozen raspberries (from one 10-ounce bag)",
+   "1 tablespoon turbinado sugar (also called raw sugar), for sprinkling on top"
+  ],
+  "yield_text": "12 muffins",
+  "cook_time": "32 minutes",
+  "categories": [
+   "Baked goods"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/healthy-raspberry-muffins-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit. If necessary, grease all 12 cups on your muffin tin with butter, coconut oil or cooking spray (my pan is non-stick and doesn’t require any grease)."
+   },
+   {
+    "title": null,
+    "text": "In a large mixing bowl, combine the flour, baking powder, baking soda and salt. Blend well with a whisk."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, combine the oil and honey or maple syrup and beat together with a whisk. Add the eggs and beat well, then add the yogurt, vanilla and lemon zest. Mix well. (If the coconut oil solidifies in contact with cold ingredients, gently warm the mixture in the microwave in 30 second bursts.)"
+   },
+   {
+    "title": null,
+    "text": "Pour the wet ingredients into the dry and mix with a big spoon, just until combined (a few lumps are ok). Gently fold the raspberries into the batter. The mixture will be thick, but don’t worry."
+   },
+   {
+    "title": null,
+    "text": "Divide the batter evenly between the 12 muffin cups (I used an ice cream scoop with a wire level, which worked perfectly). Sprinkle the tops of the muffins with turbinado sugar. Bake the muffins for 22 to 24 minutes, or until the muffins are golden on top and a toothpick inserted into a muffin comes out clean."
+   },
+   {
+    "title": null,
+    "text": "Place the muffin tin on a cooling rack to cool. You might need to run a butter knife along the outer edge of the muffins to loosen them from the pan. If you have leftover muffins, store them, covered, at room temperature for 2 days, or in the refrigerator for up to 5 days. Freeze leftover muffins for up to 3 months."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my carrot muffins.",
+   "Make it vegan: You can replace the eggs with flax eggs. Replace the yogurt with a smaller amount of vegan buttermilk—just mix ⅔ cup non-dairy milk with 2 teaspoons vinegar. Let it rest for 5 minutes before adding it to the other liquid ingredients. Or, use 1 cup vegan yogurt.",
+   "Make it dairy free: See buttermilk option above.",
+   "Make it egg free: Substitute flax eggs for the regular eggs.",
+   "Make it gluten free: Substitute an all-purpose gluten-free flour blend for the whole wheat flour. Bob’s Red Mill makes a GF blend that works well.",
+   "*Note on Greek yogurt: I’ve used a variety of fat percentages and the muffins have always turned out well. Higher fat yogurt will yield a somewhat more rich muffin. You can also substitute plain (not Greek) yogurt, but your muffins might not rise quite as high."
+  ],
+  "summary": "These delicious raspberry muffins are moist and fluffy. They’re healthier than most, too, since they are made from whole wheat flour and naturally sweetened with honey. Recipe yields 1 dozen muffins.",
+  "ingredient_groups": []
+ }
 }

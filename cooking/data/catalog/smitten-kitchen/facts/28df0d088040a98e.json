@@ -21,7 +21,28 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2014/07/easiest-fridge-dill-pickles/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Slice your cucumbers very thin — I used 1/8-inch slices here but usually go even thinner on a mandoline. Place them in a 1-liter or equivalent lidded jar. Add 3 teaspoons salt and dill, then pour in white vinegar. Close the jar and give it a few shakes to begin distributing the ingredients."
+   },
+   {
+    "title": null,
+    "text": "You’re going to find the liquid level in the jar worrisomely low as it is well below the pickle pile line, but don’t fret. Within an hour or two, the salt will draw the moisture from the cucumbers and wilt them, while the liquid becomes a perfectly balanced pickle brine."
+   },
+   {
+    "title": null,
+    "text": "Place jar in the refrigerator near the front, which should remind you to shake it once or twice more over the new few hours. (Or whenever you’re back at the fridge.) You can eat them as little as 1 to 2 hours later, but they become ideal at 6 to 8 hours. They’ll keep in the fridge, submerged in their brine, for 3 weeks, though never around here."
+   },
+   {
+    "title": null,
+    "text": "Just a little NYC sourcing shout-out: There are several local farms that bring kirby cucumbers to the Greenmarkets, but by far, my favorites to seek out come from Kernan Farms, where they have them for over a month each summer and they’re always incredibly crisp. During the growing season, they’re at St. Marks Church Tuesdays, Union Square Wednesdays, Borough Hall Thursdays, 97th Street Fridays, Grand Army Plaza and Abington Square Saturdays and Bensonhurst Sundays."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

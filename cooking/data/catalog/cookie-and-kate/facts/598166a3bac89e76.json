@@ -1,6 +1,67 @@
 {
  "url": "https://cookieandkate.com/baked-asparagus-frittata/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Baked Asparagus Frittata",
+  "ingredients": [
+   "6 large eggs",
+   "2 tablespoons full-fat dairy (heavy cream, half-and-half, whole milk)",
+   "1 small finely chopped shallot (about 3 tablespoons)",
+   "1 ½ teaspoons Dijon mustard",
+   "¼ teaspoon fine salt, plus a pinch more for the asparagus",
+   "4 to 5 ounces goat cheese or feta, crumbled",
+   "½ pound pencil-thin asparagus (must be thin!)",
+   "1 teaspoon olive oil",
+   "1 teaspoon fresh lemon juice",
+   "Freshly ground black pepper"
+  ],
+  "yield_text": "6 to 9 servings",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Vegetarian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/baked-asparagus-frittata/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 400 degrees Fahrenheit. Line a 9-inch square baking pan with two strips of parchment paper cut to fit neatly across the base, with a couple of extra inches on each side (see photos within post)."
+   },
+   {
+    "title": null,
+    "text": "Crack the eggs into a medium mixing bowl and whisk until the egg whites and yolks are blended. Add the dairy, shallot, mustard and salt, and whisk to combine. Lastly, stir in the goat cheese."
+   },
+   {
+    "title": null,
+    "text": "Double-check that the parchment paper is pressed neatly into the baking dish, then pour the egg mixture into the prepared dish. Tug up the sides of the parchment paper if necessary so they rest flat against the pan, and carefully slide the baking dish onto the middle rack of the oven. Bake for 10 minutes, until the top layer of the mixture is turning opaque in spots."
+   },
+   {
+    "title": null,
+    "text": "While the eggs are baking, rinse the asparagus and pat it dry. Snap off the tough ends of the asparagus; they should be shorter than 9 inches in length. Toss the asparagus with a small drizzle of olive oil, a big squeeze of lemon juice, a pinch of salt, and a few twists of pepper. Set it aside."
+   },
+   {
+    "title": null,
+    "text": "Once the timer goes off, remove the egg dish from the oven and place the asparagus, one by one, on top in a neat row (if any piece is too long, just snap off a bit more of the end). I placed all of my asparagus in one direction, but some readers have suggested alternating the tips and ends, which seems like a good idea."
+   },
+   {
+    "title": null,
+    "text": "Return the dish to the oven for another 7 to 8 minutes. When it’s done, the center should be springy to the touch."
+   },
+   {
+    "title": null,
+    "text": "Let the frittata rest for 5 minutes, then slide a knife around the edges of the pan (paying special attention to the corners) and use both hands to lift the frittata out and onto a flat surface. Use a sharp chef’s knife to slice in between the strips of asparagus to make three columns. Then, use a gentle see-saw motion to slice down the middle through the asparagus. Serve warm or at room temperature. This frittata will keep well in the refrigerator for up to 4 days."
+   }
+  ],
+  "notes": [
+   "2025 recipe edits: I revisited the quantities and improved the clarity of the instructions."
+  ],
+  "summary": "This beautiful baked asparagus frittata recipe is remarkably simple to make! It’s the perfect springtime brunch recipe. Recipe yields one 9-inch square frittata, enough for 6 large or 9 smaller servings.",
+  "ingredient_groups": []
+ }
 }

@@ -24,7 +24,42 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/healthy-granola-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 350 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper."
+   },
+   {
+    "title": null,
+    "text": "In a large mixing bowl, combine the oats, nuts and/or seeds, salt and cinnamon. Stir to blend."
+   },
+   {
+    "title": null,
+    "text": "Pour in the oil, maple syrup and/or honey and vanilla. Mix well, until every oat and nut is lightly coated. Pour the granola onto your prepared pan and use a large spoon to spread it in an even layer."
+   },
+   {
+    "title": null,
+    "text": "Bake until lightly golden, about 21 to 24 minutes, stirring halfway (for extra-clumpy granola, press the stirred granola down with your spatula to create a more even layer). The granola will further crisp up as it cools."
+   },
+   {
+    "title": null,
+    "text": "Let the granola cool completely, undisturbed (at least 45 minutes). Top with the dried fruit (and optional chocolate chips, if using). Break the granola into pieces with your hands if you want to retain big chunks, or stir it around with a spoon if you don’t want extra-clumpy granola."
+   },
+   {
+    "title": null,
+    "text": "Store the granola in an airtight container at room temperature for 1 to 2 weeks, or in a sealed freezer bag in the freezer for up to 3 months. The dried fruit can freeze solid, so let it warm to room temperature for 5 to 10 minutes before serving."
+   }
+  ],
+  "notes": [
+   "Recipe adapted Meg Gordan’s granola, which I’ve tweaked over the years.",
+   "Make it gluten free: Be sure to use certified gluten-free oats.",
+   "Make it nut free: Use seeds, like pepitas or sunflower seeds, instead of nuts.",
+   "*If you want toasted coconut in your granola: Stir the coconut flakes into the granola halfway through baking. They’ll get nice and toasty that way.",
+   "Serving suggestions: This granola is awesome on its own, with milk or yogurt and fresh fruit, and you can even throw a couple handfuls into a salad for granola “croutons.”"
+  ],
+  "summary": "This delicious healthy granola recipe is naturally sweetened with maple syrup (or honey). It’s made with oats, coconut oil and your favorite nuts and fruit. Make it your own! Recipe yields about 8 cups granola, enough for about 16 half-cup servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

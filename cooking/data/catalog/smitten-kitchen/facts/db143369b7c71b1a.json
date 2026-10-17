@@ -26,7 +26,18 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2007/08/quick-zucchini-saute/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat a large skillet over medium-high and add enough oil to coat the pan well. Heat the oil until hot but not smoking, then add the almonds to the pan. Cook them, stirring, until the almonds are golden-brown, approximately a minute or two. Don’t skimp on this step; they provide a depth of flavor that carries the whole dish. Add the zucchini to the pan, tossing it with the oil and almonds until it just begins to glisten, about one minute. The idea is not to cook the zucchini so much as warm it so it begins to soften. Season well with salt and pepper, slide onto a plate, top with cheese (if using) and immediately dig in."
+   }
+  ],
+  "notes": [
+   "Inspired by the version at The Red Cat."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

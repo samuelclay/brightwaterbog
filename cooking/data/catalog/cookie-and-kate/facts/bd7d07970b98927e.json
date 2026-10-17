@@ -17,7 +17,27 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/cinnamon-maple-whiskey-sour-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Fill a cocktail shaker or mason jar about two-thirds full with ice. Pour in the bourbon, lemon juice, maple syrup and a pinch of ground cinnamon. Securely fasten the lid and shake well."
+   },
+   {
+    "title": null,
+    "text": "Pour fresh ice into your cocktail glass and strain the cold whiskey sour mixture into the glass. Enjoy!"
+   }
+  ],
+  "notes": [
+   "Recipe inspired by the cinnamon maple whiskey sour at Summit Grill and Bar in Kansas City."
+  ],
+  "summary": "Meet the best whiskey sour recipe—it’s full of bourbon and fresh lemon, sweetened with maple syrup and includes a hint of cinnamon (spice is optional). Feel free to multiply the amounts given below by up to four, if you’d like to make a bigger batch in your cocktail shaker all at once.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per cocktail"
+   }
+  ]
  },
  "parser_version": 2
 }

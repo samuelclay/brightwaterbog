@@ -29,7 +29,53 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/quinoa-salad-recipe-with-roasted-sweet-potato-kale/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper for easy cleanup."
+   },
+   {
+    "title": null,
+    "text": "To prepare the sweet potatoes, transfer them to the prepared baking sheet and toss them with 2 tablespoons olive oil. Sprinkle with salt and pepper and arrange in a single layer. Bake for 10 minutes, then toss and bake for 10 to 15 minutes longer, until tender and browning. Set the pan aside to cool."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, combine the rinsed quinoa and broth in a medium saucepan. Bring the mixture to a boil over medium-high heat, then decrease the heat to maintain a simmer, cover, and cook until the quinoa has absorbed all the liquid, about 20 minutes. Fluff the quinoa with a fork and set aside to cool."
+   },
+   {
+    "title": null,
+    "text": "To make the vinaigrette, combine all of the ingredients in a blender or food processor and process until mostly smooth, but with small pieces of herbs still visible."
+   },
+   {
+    "title": null,
+    "text": "Transfer the chopped kale to a large serving bowl. Sprinkle with a dash of salt and then use your hands to “massage” the kale, grabbing big handfuls at a time and gently squeezing them in your fist until the kale is darker in color and more fragrant, about 15 seconds."
+   },
+   {
+    "title": null,
+    "text": "Add the sweet potatoes, quinoa, kale, sunflower seeds and sliced basil to the bowl. Drizzle with about ⅓ cup dressing and gently toss until all of the ingredients are evenly coated. Taste and mix in more dressing if desired (you may want to use all of it)."
+   },
+   {
+    "title": null,
+    "text": "Serve the salad at room temperature or cold. Leftovers will keep well in the refrigerator, covered, for up to 2 days."
+   }
+  ],
+  "notes": [
+   "Recipe reprinted with permission from Food52 Vegan, by Gena Hamshaw, copyright © 2015, published by Ten Speed Press, an imprint of Penguin Random House LLC.",
+   "Change it up: Butternut would be a great substitution for the sweet potato, as would pepitas for the sunflower seeds.",
+   "*How to toast your own sunflower seeds: If you only have raw, unsalted sunflower seeds at home (like me), toast them in a small skillet over medium heat with ¼ teaspoon olive oil and a pinch of salt. Cook until they’re turning lightly golden on the edges, stirring frequently, about 5 minutes."
+  ],
+  "summary": "This hearty vegan quinoa salad features crisp and tender roasted sweet potato, toasted sunflower seeds and an outrageously flavorful, pesto-inspired dressing. It would be a great light dinner on its own, or a suitable side salad for soups and sandwiches. It packs great for lunches, too! Recipe yields 4 medium servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 8,
+    "title": "Pesto dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

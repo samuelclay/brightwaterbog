@@ -24,7 +24,16 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2008/07/sauteed-radishes-and-sugar-snaps-with-dill/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Melt butter with oil in large nonstick skillet over medium heat. Add shallots and sauté until golden, about 5 minutes. Add sugar snap peas, cook for one to two minutes, and radishes sauteing until crisp-tender, about 3 to 4 minutes more. Add orange juice and dill seeds; stir 1 minute. Season with salt and pepper. Stir in chopped dill. Transfer to bowl; serve."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

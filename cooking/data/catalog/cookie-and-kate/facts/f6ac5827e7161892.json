@@ -18,7 +18,24 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/roasted-butternut-squash-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper for easy clean-up."
+   },
+   {
+    "title": null,
+    "text": "Place the cubed butternut squash on your rimmed baking sheet. Drizzle it with the olive oil and sprinkle it with the salt. Toss until the cubes are lightly and evenly coated in oil, then arrange them in a single layer."
+   },
+   {
+    "title": null,
+    "text": "Roast for 35 to 55 minutes, tossing after 20 minutes, until they are starting to turn golden on the edges and tender when pierced through with a fork. Use as desired."
+   }
+  ],
+  "notes": [],
+  "summary": "With this simple recipe, your roasted butternut squash will turn out perfectly tender on the inside and caramelized on the outside. Recipe yields 4 servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -23,7 +23,44 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/fresh-honeydew-margaritas/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the honeydew juice: Use a chef’s knife to slice the melon in half. Use a big spoon to scoop out the seeds, then discard them. Use the spoon to scoop pieces of melon into the blender. Put on the lid of your blender and blend until there are no remaining bits of melon. Do not overfill your blender! Work in batches if necessary."
+   },
+   {
+    "title": null,
+    "text": "Prepare your margarita glasses: On a small, rimmed plate, mix together the salt and chili powder. Run a wedge of lime around the top of each glass. Dip the top of the glass into the salt blend at a 45-degree angle and roll it from side to side to catch the salt. Add ice cubes to your glass and set it aside."
+   },
+   {
+    "title": null,
+    "text": "To make margaritas (feel free to make multiple margaritas at once): Fill a cocktail shaker with ice. Pour in the honeydew juice, tequila and lime juice."
+   },
+   {
+    "title": null,
+    "text": "Put on the lid and shake for 30 seconds. Taste and add sweetener if desired (mine didn’t need any). Strain the liquid into your prepared glass(es). Cheers!"
+   }
+  ],
+  "notes": [
+   "Change it up: Not feeling tequila? This drink is also fantastic with white rum.",
+   "Recommended tequila brands: Espolón or Milagro."
+  ],
+  "summary": "Cold, refreshing, fruit-sweetened margaritas. These summer cocktails are really easy to make with fresh honeydew melon, lime juice and tequila!",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Honeydew juice"
+   },
+   {
+    "at": 1,
+    "title": "Salted rims"
+   },
+   {
+    "at": 4,
+    "title": "Ingredients per margarita"
+   }
+  ]
  },
  "parser_version": 2
 }

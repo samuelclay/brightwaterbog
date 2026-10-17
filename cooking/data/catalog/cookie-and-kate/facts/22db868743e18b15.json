@@ -22,7 +22,26 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/roasted-breakfast-potatoes-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit."
+   },
+   {
+    "title": null,
+    "text": "On a large, rimmed baking sheet, combine the prepared potatoes, bell pepper and onion. Drizzle the olive oil over the vegetables, then sprinkle the garlic powder, salt, and several twists of freshly ground black pepper over them. Toss until they are evenly coated in olive oil, and no powdery spots from the garlic powder remain. Arrange them in an even layer on the sheet."
+   },
+   {
+    "title": null,
+    "text": "Bake until the vegetables are tender and deeply golden on the edges, about 45 to 50 minutes, stirring every 15 minutes for even browning. (The potatoes like to stick to the pan, so I find that using a metal spatula with a sharp edge helps me get underneath them without breaking off their crispy parts.) Serve immediately."
+   }
+  ],
+  "notes": [
+   "To double this recipe: Before preheating the oven, arrange oven racks in the middle and upper third positions. Prepare the vegetables on two large, rimmed baking sheets. Bake as described, swapping their positions on the oven racks once or twice. They might need a little longer in the oven than the single batch."
+  ],
+  "summary": "These crispy breakfast potatoes are roasted in the oven, so they’re less greasy and more healthy than traditional breakfast potatoes cooked in a skillet! They taste like home fries from your favorite diner. Recipe yields 1 pan of breakfast potatoes, enough for about 4 servings. See notes for how to double the recipe.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

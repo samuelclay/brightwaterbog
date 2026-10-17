@@ -1,6 +1,63 @@
 {
  "url": "https://cookieandkate.com/7-layer-dip-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "7-Layer Dip",
+  "ingredients": [
+   "1 can refried beans (15 to 16 ounces) or 2 cups homemade refried beans*",
+   "1 ¼ cups mild red salsa, divided",
+   "1 teaspoon ground cumin",
+   "2 medium ripe avocados",
+   "2 tablespoons lime juice (from about 1 lime)",
+   "1 medium jalapeño, seeds and ribs removed and finely chopped (about 2 tablespoons)",
+   "Fine salt, to taste",
+   "1 cup sour cream",
+   "6 ounces freshly grated Cheddar cheese (about 1 ½ cups)",
+   "⅓ cup drained pickled jalapeño peppers, roughly chopped, or 1 small can (2.25 ounces dry weight) drained sliced black olives",
+   "⅓ cup thinly sliced green onions (about 2 to 3)",
+   "⅓ cup fresh cilantro leaves",
+   "Tortilla chips, for serving"
+  ],
+  "yield_text": "12 servings",
+  "cook_time": "20 minutes",
+  "categories": [
+   "Dip"
+  ],
+  "cuisines": [
+   "Tex-Mex"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/7-layer-dip-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a bowl, stir together the refried beans, ¼ cup salsa, and cumin. Spread the mixture across the base of an 8-inch square baking dish."
+   },
+   {
+    "title": null,
+    "text": "In another bowl, use a large fork to mash the avocado. Add the lime juice, half of the chopped jalapeño, and ¼ teaspoon salt, then stir until combined. Spread the mixture evenly on top of the beans."
+   },
+   {
+    "title": null,
+    "text": "In another bowl, stir together the sour cream and the remaining jalapeño. Season it with a pinch or two of salt, to taste. Spread the sour cream over the beans."
+   },
+   {
+    "title": null,
+    "text": "Pour the remaining salsa into a mesh colander over the sink to release the excess moisture. Spread the salsa over the mixture."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle the cheese all over, followed by the drained jalapeños, green onions, and cilantro. Serve with tortilla chips."
+   }
+  ],
+  "notes": [
+   "*Homemade refried beans: After making the homemade version, you’ll have about ½ cup extra refried beans. Use it all for an extra-beany dip! You can also save it as a protein booster for an upcoming meal or enjoy it on the side with chips.",
+   "Make it dairy free/vegan: Substitute vegan sour cream and omit the cheddar cheese."
+  ],
+  "summary": "Make the ultimate 7-layer dip! This notoriously creamy, cheesy dip tastes fresh and irresistible when you follow these simple steps. Store-bought ingredients yield great results. The recipe yields about 12 servings (about 6 to 7 cups of dip total).",
+  "ingredient_groups": []
+ }
 }

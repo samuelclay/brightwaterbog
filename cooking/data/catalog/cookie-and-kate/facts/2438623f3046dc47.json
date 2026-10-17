@@ -16,7 +16,24 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/kombucha-moscow-mules/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Fill a highball glass with ice. Pour in 1 part vodka (say, 1.5 ounces) and top it off with 3 parts kombucha (so 4.5 ounces)."
+   },
+   {
+    "title": null,
+    "text": "Add a generous squeeze of lime and an optional lime wheel for garnish."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Love and Lemons.",
+   "Change it up: Replace the vodka with pretty much any other basic liquor.",
+   "If you love this recipe: You’ll also love my ginger beer concentrate."
+  ],
+  "summary": "Moscow mules made with ginger kombucha instead of ginger beer! If you love kombucha, you’ll love kombucha Moscow mules. Just add vodka and lime.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

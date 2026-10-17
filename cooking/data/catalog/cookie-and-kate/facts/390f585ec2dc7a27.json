@@ -24,7 +24,25 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/poppy-seed-dressing/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a liquid measuring cup, combine all of the ingredients as listed. Whisk until the mixture is fully combined and creamy."
+   },
+   {
+    "title": null,
+    "text": "Taste, and if it’s too tart for your liking, whisk in 1 to 2 tablespoons more oil. Use as desired. Leftover dressing will keep in the refrigerator, covered, for up to 10 days. The olive oil tends to solidify in the refrigerator, which is normal. Let the dressing warm to room temperature for 5 minutes or microwave it for about 10 seconds before using."
+   }
+  ],
+  "notes": [
+   "Change it up: You could make lime or orange-flavored poppy seed dressing by changing the citrus zest and juice accordingly.",
+   "Make it dairy free: Use mayonnaise, not yogurt.",
+   "Make it egg free: Use yogurt, not mayonnaise.",
+   "Make it vegan: Use vegan mayonnaise and maple syrup."
+  ],
+  "summary": "This poppy seed dressing recipe offers a bright and lemony poppy seed flavor. It’s lightly creamy, perfectly balanced and easy to make with basic ingredients. Recipe yields 1 cup dressing.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -33,7 +33,38 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2025/06/cucumber-crunch-salad-with-tofu/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the dressing: Whisk all of the dressing ingredients together in a large bowl. It’s going to taste pretty salty and robust if you use regular soy sauce (as I do) but don’t fret, it’s going to taste much milder when tossed with the cucumbers. Remove 3 to 4 tablespoons of the dressing (just eyeball it) and place it in a smaller bowl. Whisk a little soy sauce or water into this smaller amount to thin it; we want this small amount pourable."
+   },
+   {
+    "title": null,
+    "text": "Prepare the vegetables and tofu: Cut the cucumbers in half lengthwise, then each half three more times into long wedge-shaped pieces (i.e. 6 long pieces per cucumber). Cut them into 1 1/2-inch lengths on a diagonal and add them to the big bowl with the dressing."
+   },
+   {
+    "title": null,
+    "text": "Finely chop the scallion, then add peanuts to the cutting board and chop them tiny with the scallions. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Remove the tofu from its package and pat dry with a paper towel. Cut it into a grid of rectangles the height of the tofu block (see photo for reference)."
+   },
+   {
+    "title": null,
+    "text": "Assemble and serve: Arrange half of the tofu on a serving plate and drizzle with half of the reserved, thinned dressing. Combine cucumbers and dressing and heap half on the tofu. Repeat with remaining tofu, reserved dressing, and dressed cucumbers and finish with the scallion-peanut mixture. Drizzle or dot chili crisp or hot sauce over, and finish with toasted sesame seeds for extra crunch, if you wish."
+   },
+   {
+    "title": null,
+    "text": "Eat right away. If left too long, the salt draws the water in the cucumber out, so I’d either just mix what I need or commit to finishing the whole dish. It won’t be as hard as you’d think."
+   }
+  ],
+  "notes": [
+   "This is a riff on my favorite Peanut Sesame Noodles so check it out if you’re looking for more of a big meal. This is just for you, or for you and a lucky friend if you’re feeling generous. If you cannot find firm silken tofu, you can use silken tofu here but don’t bother cutting it into batons. Simply halve it crosswise (into two thinner slabs) and arrange them on your serving plate. Drizzle with the reserved dressing and heap the dressed cucumbers (and crunchy toppings) over it. When you scoop up the salad, scoop up the tofu as well."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

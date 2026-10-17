@@ -1,6 +1,49 @@
 {
  "url": "https://cookieandkate.com/chocolate-easter-egg-nests/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Chocolate Easter Egg Nests",
+  "ingredients": [
+   "4 ½ ounces chopped semi-sweet chocolate bars or ¾ cup chocolate chips",
+   "¾ cup (2 ½ ounces) sliced almonds",
+   "¾ cup (3 ½ ounces) lightly salted roasted pistachios",
+   "30 mini eggs (Cadbury, Lindt, Hershey’s or M&M’s)",
+   "Optional garnishes: Flaky sea salt and 1 tablespoon very finely chopped pistachios"
+  ],
+  "yield_text": "12",
+  "cook_time": "10 minutes (plus 10 minutes in the refrigerator)",
+  "categories": [
+   "Candy"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/chocolate-easter-egg-nests/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Line a muffin tin with paper or silicone liners. Melt the chocolate in a microwave-safe bowl in 30-second increments, stirring after each one. Don’t overdo it. The chocolate is done when it’s about 90% melted—keep stirring off the heat, and the pieces should completely dissolve. (Alternately, you can melt it in a heat-proof bowl set over a saucepan of gently simmering water.)"
+   },
+   {
+    "title": null,
+    "text": "Stir in the sliced almonds and chopped pistachios until they’re completely coated in chocolate. Using a medium cookie scoop or two spoons, gently scoop (try not to compact the mixture any more than necessary) about 1 ½ tablespoons of the mixture into each muffin liner, trying to concentrate the mixture a little more around the edges to make a well for the eggs."
+   },
+   {
+    "title": null,
+    "text": "Lightly press two to three eggs onto the center of each nest. Immediately sprinkle them all over with chopped pistachios and flaky salt, if using."
+   },
+   {
+    "title": null,
+    "text": "Place the tray in the refrigerator and chill until the chocolate is set, about 10 minutes (avoid refrigerating longer than necessary to reduce the risk of water marks). Pop them out of the liners. Store at room temperature in an airtight container. They look their best up to 3 days after making, but they’ll keep for up to 1 month."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Eating Bird Food’s Chocolate Coconut Nests.",
+   "Change it up: Substitute another nut for the pistachios (more sliced almonds, chopped pecans or walnuts, etc.). For a nut-free option, you could try lightly toasted pepitas (green pumpkin seeds) in place of the almonds and pistachios."
+  ],
+  "summary": "These chocolate bird’s nests with pastel eggs are the perfect sweet treat for your Easter table. They’re easy to make with simple ingredients, and taste gourmet! Recipe yields 1 dozen.",
+  "ingredient_groups": []
+ }
 }

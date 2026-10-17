@@ -1,6 +1,51 @@
 {
  "url": "https://cookieandkate.com/coconut-slaw-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Hot Pink Coconut Slaw",
+  "ingredients": [
+   "¼ cup lime juice (about 1 large lime)",
+   "¼ cup apple cider vinegar",
+   "2 tablespoons olive oil",
+   "1 tablespoon honey or maple syrup",
+   "½ teaspoon salt",
+   "1 small-to-medium red onion, thinly sliced (2 cups)",
+   "4 cups thinly sliced purple cabbage (about ½ medium cabbage)",
+   "1 cup thinly sliced radishes (about 5 large) or shredded carrots",
+   "1 small jalapeño, seeds and membranes removed, chopped",
+   "½ cup chopped cilantro",
+   "1 cup large unsweetened coconut flakes or ¾ cup unsweetened shredded coconut"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Side"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/coconut-slaw-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large serving bowl, combine the lime juice, vinegar, olive oil, honey and salt. Add the remaining ingredients and toss to combine."
+   },
+   {
+    "title": null,
+    "text": "Set aside for 20 minutes, tossing occasionally. It will seem like you don’t have nearly enough liquid, but be patient—the produce will release liquid as it marinates."
+   },
+   {
+    "title": null,
+    "text": "Taste, and add additional salt if necessary (I usually add another ¼ teaspoon). This salad is best served between 20 minutes to 3 hours after preparing, but it will keep for up to 3 to 4 days in the fridge."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Hola Arepa in Minneapolis.",
+   "Make it vegan: Use maple syrup instead of honey."
+  ],
+  "summary": "This hot pink slaw is totally irresistible, thanks to—surprise—coconut! If you like coconut, you’re going to love this nutrient-dense coleslaw/side salad. Recipe yields 6 side servings (about 1 cup each).",
+  "ingredient_groups": []
+ }
 }

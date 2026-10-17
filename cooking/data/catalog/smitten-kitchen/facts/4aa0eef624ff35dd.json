@@ -27,7 +27,36 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2024/06/blistered-peas-in-the-pod-with-lemon-and-salt/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Wash and pat dry the fresh peas in their pods. Toss in a bowl with a drizzle of olive oil."
+   },
+   {
+    "title": null,
+    "text": "Heat your grill to a medium-high temperature. Use tongs to arrange the pea pods across grill grates so they don’t fall in. Grill for about 5 minutes on the first side, until blistered and dark in spots underneath. Flip pea pods over and repeat on second side, another 5 minutes, adding another minute or two if needed. [Note: My grill is small and fairly weak. This might take less time on a more robust grill. Look for blistering, not a measured amount of time.]"
+   },
+   {
+    "title": null,
+    "text": "Transfer grilled peas to a serving plate. Season with salt, pepper, and lemon zest; nestle lemon wedges on the plate for those who want fresh juice on theirs. There are two ways to serve these:"
+   },
+   {
+    "title": null,
+    "text": "Edamame-style: Serve in the closed pods, just like this, to be eaten “edamame-style” — i.e. holding the pod in your hand and popping the peas into your mouth, discarding the pod."
+   },
+   {
+    "title": null,
+    "text": "Raft-style: Alternatively, you can peel open the pods, exposing the row of peas inside. With this method, I season the insides as well with salt, pepper, and zest. Add the optional extras of mint and crumbled cheese."
+   },
+   {
+    "title": null,
+    "text": "Serve hot or warm. There will be no leftovers."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

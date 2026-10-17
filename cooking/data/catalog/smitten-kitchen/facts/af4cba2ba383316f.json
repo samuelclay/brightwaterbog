@@ -32,7 +32,38 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2017/02/broccoli-pizza/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat your oven to 500°F with a rack in the center."
+   },
+   {
+    "title": null,
+    "text": "Make sauce: Melt butter in a small saucepan over medium heat and stir in flour, whisking until smooth. Add milk a splash at a time, mixing each addition until it is completely smooth before adding more milk. Add garlic, salt and lots of freshly ground black pepper. Cook, stirring, while mixture comes to a simmer and becomes thick enough to coat a spoon, about 2 to 3 minutes. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Prepare broccoli: Peel the stems of your broccoli with a vegetable peeler first so that they cook evenly, and cut the rest into large chunks. Pour about 1-inch puddle of salted water into a large sauté pan and bring to a boil. Add broccoli and cover with a lid and boil/steam for 2 minutes. Rinse under cold water to stop cooking, drain well and pat dry on a towel, wringing out as much extra liquid as possible. Chop into small (roughly 1/2- to 1-inch) bits and toss broccoli with lemon zest, lemon juice and pecorino, then salt and red pepper flakes to taste."
+   },
+   {
+    "title": null,
+    "text": "Assemble pizza: Brush either 1 13×18-inch rimmed half-sheet pan or 2 9×13-inch quarter-sheet pans (as I do) with olive oil. Divide your dough as needed (I made 3 oblong pizzas in my 13×18-inch) and use oiled fingertips to pull, stretch, nudge and press the dough across the bottom of the pan. The dough will be thin and imperfect; just try to get it even and if holes form, just pinch them together. No matter how bad it looks (you can see mine, for example), it’s going to bake up just fine, thin and crisp."
+   },
+   {
+    "title": null,
+    "text": "Give the white sauce a little stir and spread it evenly over the pizzas, almost completely to the edge. Sprinkle pizzas with provolone and mozzarella. Scatter broccoli mixture on top."
+   },
+   {
+    "title": null,
+    "text": "Bake for 13 to 16 minutes, until the pizzas are brown at the edges. For better browning on top, you can run the finished pizzas under the broiler for 1 minute. Cut into wedges, squares or strips and dig in."
+   }
+  ],
+  "notes": [
+   "A bunch of notes and tips: I’ve been using less pizza dough these days and spreading it thinner with oiled fingertips and have been happier with the thin, crisp results. (Directions below.) You can cook the broccoli any which way but I do find this simmer/steam to be fastest. Finally, I think this pizza would take well to crumbled sausage or chopped pepperoni or another salami, should you not need or wish to keep it vegetarian."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

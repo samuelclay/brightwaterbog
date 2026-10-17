@@ -29,7 +29,45 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/baked-oatmeal-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 375 degrees. Grease a 9-inch square baking dish. Once the oven has finished preheating, pour the nuts onto a rimmed baking sheet. Toast for 4 to 5 minutes, until fragrant."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, combine the oats, toasted nuts, cinnamon, baking powder, salt and nutmeg. Whisk to combine."
+   },
+   {
+    "title": null,
+    "text": "In a smaller mixing bowl, combine the milk, maple syrup or honey, egg, half of the butter or coconut oil, and vanilla. Whisk until blended. (If you used coconut oil and it solidified in contact with the cold ingredients, briefly microwave the bowl in 30-second increments, just until the coconut oil melts again.)"
+   },
+   {
+    "title": null,
+    "text": "Reserve about ½ cup of the berries for topping the baked oatmeal, then arrange the remaining berries evenly over the bottom of the baking dish (no need to defrost frozen fruit first). Cover the fruit with the dry oat mixture, then drizzle the wet ingredients over the oats. Wiggle the baking dish to make sure the milk moves down through the oats, then gently pat down any dry oats resting on top."
+   },
+   {
+    "title": null,
+    "text": "Scatter the remaining berries across the top. Sprinkle some raw sugar on top if you’d like some extra sweetness and crunch."
+   },
+   {
+    "title": null,
+    "text": "Bake for 42 to 45 minutes (if using frozen berries, 45 to 50 minutes), until the top is nice and golden. Remove your baked oatmeal from the oven and let it cool for a few minutes. Drizzle the remaining melted butter on the top before serving."
+   },
+   {
+    "title": null,
+    "text": "Serve as-is or with toppings of your choice. I prefer this baked oatmeal served warm, but it is also good at room temperature or chilled. This oatmeal keeps well in the refrigerator, covered, for 4 to 5 days. If desired, simply reheat individual portions in the microwave before serving."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Super Natural Every Day by Heidi Swanson.",
+   "Make it gluten free: Be sure to use certified gluten-free oats.",
+   "Make it vegan: Use non-dairy milk, flax eggs and coconut oil.",
+   "Make it nut free: You can skip the nuts, or use pepitas (green pumpkin seeds) instead."
+  ],
+  "summary": "This naturally sweetened baked oatmeal recipe features blueberries (or any fruit you’d like), wholesome oats, nuts and warming spices. You can bake some now and enjoy oatmeal for the rest of the week! Recipe yields 6 to 8 servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

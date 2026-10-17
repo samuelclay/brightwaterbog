@@ -31,7 +31,42 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/thai-peanut-quinoa-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cook the quinoa: First, rinse the quinoa in a fine mesh colander under running water. In a medium-sized pot, combine the rinsed quinoa and 1 ½ cups water. Bring the mixture to a gentle boil over medium heat, then reduce the heat to medium-low and gently simmer the quinoa until it has absorbed all of the water, about 10 to 15 minutes. Remove the quinoa from heat, cover the pot and let it rest for 5 minutes. Uncover the pot and fluff the quinoa with a fork. Set it aside to cool. (Here’s how to cook millet.)"
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, make the peanut sauce: Whisk together the peanut butter and tamari until smooth (if this is difficult, microwave the mixture for up to 30 seconds to loosen it up). Add the remaining ingredients and whisk until smooth. If the mixture seems too thick to toss into the salad, whisk in a bit of water to loosen it up (I didn’t need to do this)."
+   },
+   {
+    "title": null,
+    "text": "In a large serving bowl, combine the cooked quinoa, shredded cabbage, carrot, snow peas, cilantro and green onion. Toss to combine, then pour in the peanut sauce. Toss again until everything it lightly coated in sauce. Taste, and if it doesn’t taste quite amazing yet, add a pinch of salt and toss again. Divide into individual bowls and garnish with peanuts."
+   },
+   {
+    "title": null,
+    "text": "This salad keeps well, covered and refrigerated, for about 4 days. If you don’t want your chopped peanuts to get soggy, store them separately from the rest and garnish just before serving."
+   }
+  ],
+  "notes": [
+   "Recipe minimally adapted from Frugal Vegan by Katie Koteen and Kate Kasbee.",
+   "Make it vegan: Use maple syrup (or agave nectar) instead of honey.",
+   "Make it gluten free: Be sure to use certified gluten-free tamari, not soy sauce.",
+   "Recommended equipment: I used this mandoline to shred the cabbage (it’s dangerous; watch your fingers at all times!) and this julienne peeler to shred the carrots."
+  ],
+  "summary": "This Thai-flavored salad recipe is made with carrots, cabbage, snow peas, and quinoa, tossed in delicious peanut sauce. This healthy salad is vegan, gluten free, and packs well for lunch. Recipe yields 4 salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 8,
+    "title": "Peanut sauce"
+   }
+  ]
  },
  "parser_version": 2
 }

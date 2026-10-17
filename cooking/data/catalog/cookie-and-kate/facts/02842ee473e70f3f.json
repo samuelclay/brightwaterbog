@@ -1,6 +1,52 @@
 {
  "url": "https://cookieandkate.com/roasted-green-beans-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Perfect Roasted Green Beans",
+  "ingredients": [
+   "1 pound (16 ounces) green beans or haricots verts",
+   "2 teaspoons extra-virgin olive oil",
+   "Scant ¼ teaspoon fine sea salt"
+  ],
+  "yield_text": "4 side servings",
+  "cook_time": "20 minutes",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-green-beans-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper for easy cleanup."
+   },
+   {
+    "title": null,
+    "text": "Wash and trim the rough ends off the green beans. Pat them very dry with clean tea towels (wet green beans turn soggy in the oven)."
+   },
+   {
+    "title": null,
+    "text": "Place the prepared green beans on your baking sheet. Drizzle the olive oil over the beans and sprinkle the salt all over. Use your hands to toss until all of the beans are lightly coated in oil. Arrange the green beans across the pan in a single, even layer."
+   },
+   {
+    "title": null,
+    "text": "Roast for 14 to 16 minutes, undisturbed, until they are crisp-tender with some golden, caramelized spots. (If using slender haricots verts, they may be ready a couple of minutes earlier.)"
+   },
+   {
+    "title": null,
+    "text": "Transfer to a serving dish and enjoy with any desired accompaniments (see recipe notes for seasoning suggestions). Roasted green beans are best enjoyed while warm, but leftovers will keep in the refrigerator in an airtight container for 4 to 5 days."
+   }
+  ],
+  "notes": [
+   "Seasoning suggestions: Roasted green beans are nice with lemon zest or wedges, grated Parmesan, fresh herbs (basil, mint, parsley or chives), red pepper flakes, pats of butter, a drizzle of balsamic reduction or thick balsamic vinegar, or toasted sliced almonds."
+  ],
+  "summary": "Learn how to roast green beans with this simple recipe. Roasted green beans are an easy and delicious side dish (or snack)! Recipe yields 4 side servings.",
+  "ingredient_groups": []
+ }
 }

@@ -1,6 +1,59 @@
 {
  "url": "https://cookieandkate.com/easy-gluten-free-oat-waffles/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Easy Gluten Free Oat Waffles",
+  "ingredients": [
+   "1 ½ cups (128 grams) oat flour*, certified gluten-free if necessary",
+   "2 teaspoons baking powder",
+   "½ teaspoon salt",
+   "Pinch of cinnamon, optional",
+   "¾ cup room temperature milk of choice (light coconut milk, nut milk, cow’s milk)",
+   "¼ cup + 1 tablespoon melted coconut oil or 5 tablespoons unsalted butter, melted",
+   "2 large eggs",
+   "2 tablespoons maple syrup",
+   "1 teaspoon vanilla extract"
+  ],
+  "yield_text": "6 Belgian-style waffles",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Gluten free"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/easy-gluten-free-oat-waffles/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a mixing bowl, whisk together the dry ingredients: oat flour, baking powder, salt and cinnamon. In another bowl, whisk together the wet ingredients: milk, melted coconut oil or butter, eggs, maple syrup and vanilla extract. (If your coconut oil solidifies on contact with cold ingredients, gently heat the wet mixture in the microwave in ten seconds intervals, until it melts again.)"
+   },
+   {
+    "title": null,
+    "text": "Pour the wet ingredients into the dry ingredients. Stir with a big spoon until just combined (the batter will still be a little lumpy). Let the batter rest for 10 minutes so the oat flour has time to soak up some of the moisture. Plug in your waffle iron to preheat now (if your waffle iron has a temperature/browning dial, set it to medium-high)."
+   },
+   {
+    "title": null,
+    "text": "Once 10 minutes is up, give the batter one more swirl with your spoon. Pour batter onto the heated waffle iron, enough to cover the center and most of the central surface area, and close the lid. Once the waffle is deeply golden and crisp, transfer it to a cooling rack or baking sheet. Don’t stack your waffles on top of each other, or they’ll lose crispness. If desired, keep your waffles warm by placing them in a 200 degree oven until you’re ready to serve."
+   },
+   {
+    "title": null,
+    "text": "Repeat with remaining batter. Serve waffles with maple syrup and nut butter, or any other toppings that sound good!"
+   }
+  ],
+  "notes": [
+   "Recipe based on my oat pancakes and coconut waffles recipes.",
+   "*Make your own oat flour: Simply blend old-fashioned or quick-cooking oats (be sure to buy certified gluten-free oats if necessary) in a food processor or blender until they are ground into fine flour. You’ll need to blend roughly 1 ½ cups oats to make enough flour for these waffles (you will probably end up with a little extra). Once you’ve blended the flour, measure it using the spoon and swoop method.",
+   "Make it egg free: You can omit the eggs. The waffles will be slightly more delicate, but they’ve turned out great for me.",
+   "Make it dairy free: Use non-dairy milk and coconut oil.",
+   "Make it vegan: Use non-dairy milk, coconut oil and omit the eggs.",
+   "Freeze it: These waffles freeze beautifully. Just store in freezer-safe plastic bags and pop individual waffles into the toaster until warmed through."
+  ],
+  "summary": "These light, crispy-on-the-outside, fluffy-on-the-inside, gluten-free waffles are my favorite waffles! They’re heart healthy, too. This waffle recipe requires just one flour, oat flour, which you can easily make yourself (see note). Recipe yields 3 to 4 round, 7-inch Belgian waffles, or 6 small, square Belgian waffles (the size shown here).",
+  "ingredient_groups": []
+ }
 }

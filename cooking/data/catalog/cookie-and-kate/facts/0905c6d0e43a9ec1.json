@@ -26,7 +26,31 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/veggie-stir-fry-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a liquid measuring cup, combine the soy sauce, honey, starch, ginger, garlic and red pepper flakes. Whisk until blended and set aside."
+   },
+   {
+    "title": null,
+    "text": "Warm the oil over medium heat until shimmering. Add the onion and carrots and a pinch of salt. Raise the heat to medium-high and cook, stirring every 30 seconds or so, until the onions have softened, about 4 to 5 minutes. (If at any point you catch a whiff of something burning while making this stir-fry, dial back the heat a bit.)"
+   },
+   {
+    "title": null,
+    "text": "Add the asparagus and cook, stirring every 30 seconds, until the carrots are starting to caramelize on the edges and are easily pierced by a fork, about 3 to 4 minutes."
+   },
+   {
+    "title": null,
+    "text": "Pour in the prepared sauce and cook, while stirring constantly, until the sauce has thickened to your liking, about 20 to 60 seconds. Remove from heat and serve as a side dish as-is, or turn it into a main dish by serving it with rice, fried eggs or tofu."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Use gluten-free reduced-sodium tamari instead of regular soy sauce.",
+   "Make it vegan: Use maple syrup instead of honey."
+  ],
+  "summary": "This vegetable stir-fry recipe comes together in no time! To turn this side dish into a complete meal, serve it with brown rice and your choice of protein, like crispy baked tofu . Recipe yields 4 side servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

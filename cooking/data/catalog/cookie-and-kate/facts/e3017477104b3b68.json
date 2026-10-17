@@ -26,7 +26,36 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/cranberry-crostini/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Toast the bread: Preheat the oven to 400 degrees Fahrenheit. Lightly brush both sides of each slice of bread with olive oil and arrange them in a single layer on a baking sheet. Lightly sprinkle the slices with salt. Toast the bread in the oven for 10 to 12 minutes, turning halfway, until the slices are lightly golden on both sides. Set the pan aside to cool."
+   },
+   {
+    "title": null,
+    "text": "Make the cranberry sauce: Rinse the cranberries and toss any squishy ones. In a large, heavy-bottomed saucepan, bring ½ cup water, honey, cinnamon, cloves and allspice to a gentle boil. Add the cranberries and cook, stirring frequently, for about 3 minutes or until the cranberries have popped and the sauce is starting to look, well, saucy. Remove from heat and stir in about two-thirds of the orange zest."
+   },
+   {
+    "title": null,
+    "text": "Assemble the crostini: Top each slice of toast with a generous spread of cheese, then cranberry sauce and a light sprinkle of orange zest. Serve."
+   }
+  ],
+  "notes": [
+   "Cranberry sauce adapted from Shockingly Delicious and my cranberry orange steel-cut oatmeal.",
+   "Uses for extra sauce: This recipe yields around a cup of extra cranberry sauce, which would be a great addition to the Thanksgiving table. Serve leftovers on toast or stirred into oatmeal or yogurt. It should store well, refrigerated in an air-tight container, for up to 1 month."
+  ],
+  "summary": "Cranberry-orange sauce on whole grain crostini with goat cheese makes a beautiful (and quick!) appetizer.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Crostini"
+   },
+   {
+    "at": 4,
+    "title": "Cranberry orange sauce"
+   }
+  ]
  },
  "parser_version": 2
 }

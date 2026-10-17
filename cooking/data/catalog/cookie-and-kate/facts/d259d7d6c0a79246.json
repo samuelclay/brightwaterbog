@@ -1,6 +1,56 @@
 {
  "url": "https://cookieandkate.com/spicy-sweet-potato-hummus/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Sweet Potato Hummus",
+  "ingredients": [
+   "1 medium-to-somewhat-large sweet potato (8 to 14 ounces)",
+   "⅓ cup tahini",
+   "2 medium cloves garlic, peeled and roughly chopped",
+   "Zest of ½ lemon (about 1 teaspoon)",
+   "¼ cup lemon juice",
+   "1 teaspoon fine salt",
+   "¼ teaspoon ground cumin",
+   "1 to 3 tablespoons cool water, as needed",
+   "1 can (15 ounces) chickpeas, rinsed and drained, or 1 ½ cups cooked chickpeas",
+   "Up to ¼ teaspoon cayenne pepper (optional, for spice)*",
+   "Optional garnishes: Olive oil, cayenne pepper, or sesame seeds"
+  ],
+  "yield_text": "3 cups",
+  "cook_time": "1 hour",
+  "categories": [
+   "Dip"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/spicy-sweet-potato-hummus/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 400 degrees Fahrenheit. Bake the sweet potato on the middle oven rack or in a baking dish for 45 minutes to 1 hour. It will yield to a gentle squeeze when it’s done baking."
+   },
+   {
+    "title": null,
+    "text": "While the sweet potato is cooling, combine the tahini, garlic, lemon zest and juice, salt and cumin in a food processor. While processing the mixture, drizzle in 1 tablespoon of the water. Blend until the mixture is super creamy, pausing to scrape down the bottom or sides as necessary (you may need to add 1 to 2 more tablespoons of water if your tahini was thick)."
+   },
+   {
+    "title": null,
+    "text": "Add the drained chickpeas and process until the mixture is completely smooth, about 2 minutes. Once the sweet potato has cooled enough to handle, use a knife or your fingers to peel off the skin. Discard the skin and add the sweet potato flesh to the food processor."
+   },
+   {
+    "title": null,
+    "text": "Blend until the mixture is completely smooth, about 1 minute. Taste, and blend in a pinch or two of cayenne pepper if you’d like your hummus to taste spicy. Enjoy as is, or garnish it with a drizzle of olive oil, a light sprinkle of cayenne pepper or sesame seeds. This hummus will keep well in the refrigerator for about 1 week."
+   }
+  ],
+  "notes": [
+   "Adapted from My New Roots and Whole Family Fare.",
+   "*Spice level: The recipe originally was quite spicy, calling for 1 ½ teaspoon cayenne pepper (start with less, season to taste) and ½ teaspoon smoked paprika. My current jar of cayenne is so spicy that I could not tolerate the full amount and found it quite spicy at ¼ teaspoon. I also found that smoked paprika muddied the sweet potato flavor, so I omitted it. If your hummus tastes too spicy at first, just refrigerate it for a day and try it again—it should be just right!",
+   "2024 recipe adjustments: After retesting the recipe, I made the spice edits mentioned above, increased the tahini from 3 tablespoons to ⅓ cup for thicker hummus, omitted the olive oil, restructured the blending process and incorporated water, and increased the salt for more overall flavor."
+  ],
+  "summary": "This sweet potato hummus is bursting with flavor—it’s savory, a little sweet, and spicy if you wish. Enjoy it as a snack with pita wedges and veggies, or use it as a spread! This recipe yields about 3 cups of hummus (a lot!).",
+  "ingredient_groups": []
+ }
 }

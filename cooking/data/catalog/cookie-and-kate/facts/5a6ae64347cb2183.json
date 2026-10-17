@@ -17,7 +17,35 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/basil-gimlet/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a cocktail shaker or mason jar, gently muddle the basil leaves."
+   },
+   {
+    "title": null,
+    "text": "Add lime juice, agave nectar and gin."
+   },
+   {
+    "title": null,
+    "text": "Fill with ice, securely fasten the lid and shake well."
+   },
+   {
+    "title": null,
+    "text": "Strain into a martini glass."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Scott Beattie’s Live Basil Gimlet (The New York Times)."
+  ],
+  "summary": "This delicious basil gimlet recipe is refreshing and herbal. It’s a strong cocktail that is just perfect for slow summer sipping.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per gimlet"
+   }
+  ]
  },
  "parser_version": 2
 }

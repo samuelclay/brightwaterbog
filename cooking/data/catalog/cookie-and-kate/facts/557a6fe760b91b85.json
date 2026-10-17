@@ -18,7 +18,27 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/easy-green-enchilada-sauce/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a blender, combine the salsa verde and cilantro. Blend until smooth."
+   },
+   {
+    "title": null,
+    "text": "Transfer the mixture to a large skillet and bring it to a simmer over medium heat. Continue simmering, stirring often, for about 5 to 7 minutes, until the mixture is reduced by about one-third."
+   },
+   {
+    "title": null,
+    "text": "If you’re using sour cream, temper it by mixing about equal parts warm salsa with the sour cream, then stir it into the sauce. ( Or, if you’re using heavy cream or crème fraîche, you can stir it directly into the warm sauce). Use the enchilada sauce immediately, or let it cool to room temperature then refrigerate for up to 5 days, or freeze for up to 3 months."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Mexican Everyday by Rick Bayless.",
+   "Make it dairy free/vegan: I haven’t tried to be sure, but I believe that my vegan sour cream would work well in place of conventional sour cream."
+  ],
+  "summary": "This green enchilada sauce is so easy to make with three simple ingredients! It will take your enchiladas to the next level. Recipe yields about 2 ⅓ cups.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

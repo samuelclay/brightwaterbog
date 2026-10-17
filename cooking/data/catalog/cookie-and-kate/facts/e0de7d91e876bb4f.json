@@ -20,7 +20,32 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/mango-lassi-frozen-yogurt/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium saucepan, combine the mango (frozen or fresh), honey, lime juice and salt. Bring the mixture to a gentle boil over medium heat. Reduce heat to maintain a simmer, then cook, stirring occasionally, for 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the mango mixture from heat and let it cool for a few minutes. Purée the mixture in a blender until it is completely smooth."
+   },
+   {
+    "title": null,
+    "text": "Transfer the mixture to a bowl (using a larger bowl will help the mixture cool faster) and refrigerate it until the mixture is thoroughly chilled. You can let it cool in the refrigerator for a few hours, or even overnight, or speed up the process by placing the bowl in the freezer, stirring every 15 minutes or so, for about 45 minutes."
+   },
+   {
+    "title": null,
+    "text": "Mix together your chilled mango mixture and chilled yogurt, then freeze the mixture in your ice cream maker according to your manufacturer’s instructions. Serve immediately for a soft serve texture, or transfer the frozen yogurt to a freezer-safe container and freeze for several hours for a scoopable consistency."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my blueberry frozen yogurt.",
+   "On the yogurt: I used Trader Joe’s European-style organic full-fat yogurt (my favorite kind). I *think* full-fat Greek yogurt will work as well, but there’s a chance the mixture will be too thick to churn. Let me know if you try!",
+   "A note on ice cream makers: I love-love-love my 2-quart Cuisinart. If you don’t have an ice cream maker and don’t want to buy one, here are a couple of methods that might work for this frozen yogurt (I haven’t tried them): how to make ice cream with a food processor (tips from Jeni Britton) and how to make ice cream without a machine (by David Lebovitz)."
+  ],
+  "summary": "Creamy mango frozen yogurt made with all-natural ingredients! This mango fro-yo is so delicious and healthy, too. Recipe yields 1 quart frozen yogurt.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

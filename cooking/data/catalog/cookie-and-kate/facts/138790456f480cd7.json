@@ -1,6 +1,63 @@
 {
  "url": "https://cookieandkate.com/naturally-sweetened-candied-pecans-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Naturally Sweetened Candied Pecans",
+  "ingredients": [
+   "¼ cup maple syrup",
+   "1 tablespoon unsalted butter, melted",
+   "1 ½ teaspoons kosher salt*",
+   "2 teaspoons vanilla extract or 1 tablespoon bourbon",
+   "¼ teaspoon ground cinnamon or 1 tablespoon pumpkin spice blend (for pumpkin-spiced pecans)",
+   "Scant ¼ teaspoon cayenne pepper (optional, for some heat)",
+   "3 cups raw pecan halves"
+  ],
+  "yield_text": "3 cups",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/naturally-sweetened-candied-pecans-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 325 degrees Fahrenheit. Line a large rimmed baking sheet with parchment paper or a silicone baking mat so the maple syrup doesn’t get stuck to the pan (this is important)."
+   },
+   {
+    "title": null,
+    "text": "In a medium bowl, combine the maple syrup, melted butter, salt, vanilla, cinnamon, and cayenne (if using) and whisk until blended. Add the pecans and stir to coat."
+   },
+   {
+    "title": null,
+    "text": "Dump the contents of the bowl onto the prepared baking sheet and spread out in a single layer (the maple syrup will pool on the bottom of the pan, but that’s okay)."
+   },
+   {
+    "title": null,
+    "text": "Bake, stirring after the first 10 minutes and then every 5 minutes thereafter, until almost no maple syrup remains on the parchment paper and the nuts are deeply golden, 23 to 26 minutes. (The maple syrup coating will be a little sticky right out of the oven, but will harden as the pecans cool.)"
+   },
+   {
+    "title": null,
+    "text": "Remove from the oven and stir the pecans one more time, spreading them into an even layer across the pan. Let them cool down for about 10 minutes, then, while the nuts are still warm, carefully separate any large clumps. Let the pecans cool completely on the pan."
+   },
+   {
+    "title": null,
+    "text": "Candied pecans will keep for up to 2 months in a sealed bag at room temperature."
+   }
+  ],
+  "notes": [
+   "Recipe minimally adapted from my cookbook, Love Real Food.",
+   "*Salt note: I like how the large flakes of kosher salt make some bites a little saltier than others, but kosher salt’s weight varies considerably by brand. I used Diamond Crystal salt brand. If you’re using Morton kosher salt, use 1 teaspoon. If you’re using fine sea salt or regular table salt, use ¾ teaspoon.",
+   "Make it dairy free/vegan: Substitute extra-virgin olive oil for the butter.",
+   "Change it up: See flavoring options provided within recipe. You can substitute other nuts for the pecans (it’s hard to beat pecans, though). You can also use honey in place of the maple syrup, but I really prefer the flavor of the maple syrup version. If you use honey, your nuts will probably need longer in the oven, about 30 minutes. Be sure to stir every 5 minutes as directed."
+  ],
+  "summary": "The best candied pecans are also naturally sweetened! For this recipe, you’ll simply toss raw pecan halves in maple syrup and bake—it’s easy! Recipe yields 3 cups candied pecans.",
+  "ingredient_groups": []
+ }
 }

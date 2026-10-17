@@ -23,7 +23,28 @@
   "author": "Deb Perelman",
   "yield_count": 8,
   "url": "https://smittenkitchen.com/2010/01/edna-maes-sour-cream-pancakes/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat a cast iron skillet or griddle over medium-low heat; you want it to slowly get nice and hot."
+   },
+   {
+    "title": null,
+    "text": "Stir the flour, sugar, baking soda and salt together in the bottom of a medium bowl. Dump the sour cream in on top and stir it together very gently; it’s okay to leave the texture a bit uneven. Whisk the eggs and vanilla in a separate bowl and stir them into the sour cream mixture, once again, being careful not to overmix."
+   },
+   {
+    "title": null,
+    "text": "Melt about a tablespoon of butter in your skillet or griddle and pour the batter in, a scant 1/4 cup at a time. Cook for about 2 minutes on the first side, or until bubbles appear all over the surface [See Pancakes 101 for this and other tips], flipping them carefully and cooking for about a minute on the other side. Repeat with remaining batter."
+   },
+   {
+    "title": null,
+    "text": "Serve in a stack, topped with a pat of butter and a cascade of maple syrup."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

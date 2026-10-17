@@ -31,7 +31,32 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2014/11/pickled-cabbage-salad/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Mix brine ingredients in the bottom of a medium bowl and set aside."
+   },
+   {
+    "title": null,
+    "text": "Prepare your vegetables: Trim and core cabbage and slice thinly with a knife, food processor slicing blade or adjustable-blade slicer. Place in a large bowl. Core, seed and thinly slice red pepper; peel and thinly slice or julienne carrot; thinly slice cucumber (I quartered mine first). Add vegetables to cabbage bowl."
+   },
+   {
+    "title": null,
+    "text": "By the time you’re done preparing your vegetables, the sugar and salt in the pickling mixture should have dissolved. If not, whisk a few times until they do. Taste and adjust if you’d like it a little saltier — I added 1 more teaspoon of kosher salt in the end."
+   },
+   {
+    "title": null,
+    "text": "Pour pickling brine over vegetables and cover bowl with a lid or plastic wrap. Refrigerate for 1 hour or up to 1 week. Salad becomes more pickled as it rests. Eat with everything."
+   },
+   {
+    "title": null,
+    "text": "* Not all salts are weighted equally: Read more here. I used Morton brand, which for 1 tablespoon plus 2 teaspoons clocks in at 24 grams. If using table or fine sea salt, use only 4 teaspoons."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

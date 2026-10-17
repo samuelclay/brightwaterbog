@@ -22,7 +22,37 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/blood-orange-pomegranate-sparkling-sangria/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "So here’s the deal: You may or may not want to add simple syrup. It will depend on the sweetness of your wine/fruit and your own preferences. I don’t have much of a sweet tooth but I still preferred my sangria with the full amount of simple syrup to balance out the harshness of the brandy. To make simple syrup, combine equal parts sweetener and hot water. Whisk until the sweetener has mixed into the water."
+   },
+   {
+    "title": null,
+    "text": "Juice two of the blood oranges with a citrus juicer (or just squeeze the blood orange halves to extract the juice). Slice the remaining blood orange into thin rounds, then slice them through the middle to create half moons."
+   },
+   {
+    "title": null,
+    "text": "In a pitcher, combine the blood orange juice, blood orange slices, pomegranate arils and brandy. For best flavor, let the fruit marinate in this mixture for a few hours, covered and chilled in the refrigerator. (Don’t worry, it’ll be great right away if you need it now.)"
+   },
+   {
+    "title": null,
+    "text": "When you’re ready to serve, pour in the sparkling rosé. Add simple syrup to taste. Use a ladle to divide the sangria and fruit into glasses."
+   }
+  ],
+  "notes": [],
+  "summary": "This sparkling rosé sangria recipe features blood oranges, pomegranates and a touch of brandy. It’s naturally sweetened and so delicious! Feel free to double or triple this recipe for a crowd. Just wait to pour in the rosé until you’re ready to drink.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Sparkling rosé sangria"
+   },
+   {
+    "at": 5,
+    "title": "Simple syrup (see step 1)"
+   }
+  ]
  },
  "parser_version": 2
 }

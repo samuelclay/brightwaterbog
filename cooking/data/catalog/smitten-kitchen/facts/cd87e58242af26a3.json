@@ -28,7 +28,27 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2022/06/summer-ricotta-with-grilled-vegetables/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the ricotta: Line a fine-mesh or other tiny-holed strainer with a layer or two of cheesecloth and set it over a large bowl with enough clearance that the bottom of the strainer won’t touch the bowl once it has 4 cups of liquid in it, or the cheese won’t drain. In a heavy medium-large saucepan, heat the milk, cream, and salt over medium-high heat until just below a simmer — it will look like it’s foaming and register just below 200°F. Remove the pot from the heat and stir in lemon juice. Let it sit for 5 minutes, then pour it through the cheesecloth. Drain for 10 minutes, or until it’s a nice soft ricotta consistency, and up to 10 minutes longer if needed. [The amount of time it takes to drain has to do with the size of your cheesecloth holes.] Transfer ricotta to a bowl to serve. Drizzle with olive oil, and finish with salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "Grill the bread and vegetables: Brush or drizzle your vegetables and bread with olive oil. I grill my vegetables, even small ones, directly on my grill grates at fairly high heat but I know there are baskets that might lead to fewer falling in, I’m just stubborn. Grill the vegetables, bread, and lemon halves until they’re lightly charred underneath (depending on how robust your grill is, this could take 2 to 6 minutes), then flip the vegetables and bread and cook on the second side. Season with the vegetables with salt and pepper and transfer everything to a serving platter."
+   },
+   {
+    "title": null,
+    "text": "Serve: Right before serving, drizzle everything with additional olive oil, squeeze at least one lemon half over the vegetables (leave the second half on the platter), and season with additional salt and pepper. You could also drizzle some balsamic vinegar over, or keep it on the side."
+   }
+  ],
+  "notes": [
+   "Do ahead: Leftover ricotta is not a thing that exists, but it theoretically keeps for 3 days in the fridge.",
+   "As shown, this feeds four people for appetizers, but it’s easily doubled or tripled. This is not authentic ricotta, which isn’t made with milk or cream, but with the whey byproduct from cheesemaking. This is a slightly updated version of my 2011 Rich Homemade Ricotta; I use less cream these days but love the extra softness and luxury that even a smaller amount provides. Shown here are a mix of the vegetables that looked good at the market on Monday — some spring red onions, small summer squash, and fresh peas in their pods — but almost any vegetable you like will work grilled or roasted here."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

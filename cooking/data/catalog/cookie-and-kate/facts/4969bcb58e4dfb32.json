@@ -24,7 +24,38 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/whole-wheat-waffles-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To keep the cooked waffles warm while you finish cooking the rest, reheat your oven to 200 degrees and heat up your waffle iron."
+   },
+   {
+    "title": null,
+    "text": "Mix the dry ingredients (flours, baking powder, baking soda, salt and cinnamon) in a large mixing bowl."
+   },
+   {
+    "title": null,
+    "text": "In a large measuring cup, whisk together the buttermilk, eggs, maple syrup and vanilla until combined."
+   },
+   {
+    "title": null,
+    "text": "Pour the liquid ingredients into the dry ingredients. Stir just until they are mixed. Add the melted butter and mix well."
+   },
+   {
+    "title": null,
+    "text": "Pour batter into your waffle iron until the batter reaches the edges of the iron. Cook until crisp and golden."
+   },
+   {
+    "title": null,
+    "text": "To keep them warm until you’re ready to serve, place each waffle in a single layer on a rack in a 200-degree oven. Five minutes in the oven may help them get a little crispier."
+   }
+  ],
+  "notes": [
+   "Adapted from Alice Waters’ recipe in Green Market Baking Book."
+  ],
+  "summary": "These crispy whole grain waffles are perfect for weekend breakfasts. These freeze well for later, too (just defrost in the toaster).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

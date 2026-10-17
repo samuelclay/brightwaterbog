@@ -1,6 +1,56 @@
 {
  "url": "https://cookieandkate.com/roasted-pumpkin-seeds-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Roasted Pumpkin Seeds",
+  "ingredients": [
+   "1 ½ cups fresh pumpkin seeds",
+   "2 teaspoons extra-virgin olive oil or melted butter",
+   "Optional sweetener: 2 teaspoons maple syrup or honey",
+   "¼ teaspoon fine salt, to taste",
+   "Optional flavorings: Freshly ground black pepper, to taste, or 1 teaspoon pumpkin spice blend or ground cinnamon or curry powder"
+  ],
+  "yield_text": "1 1/2 cups",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Snack"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-pumpkin-seeds-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To clean your pumpkin seeds: Place the pumpkin seeds in a colander. Run water over the seeds and swish them around, removing any obvious bits of pumpkin flesh along the way. Drain off the excess water. Create a double layer of paper grocery bags (one inside the other). Place the seeds inside with a clean, lint-free tea towel or several paper towels. Fold the bag to close and shake it all around! They should be dry enough at this point."
+   },
+   {
+    "title": null,
+    "text": "To toast your pumpkin seeds: Preheat the oven to 425 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper for easy clean-up."
+   },
+   {
+    "title": null,
+    "text": "Place your rinsed and dried pumpkin seeds on the prepared baking sheet. Add the oil, sweetener (if using) and salt. Stir until all of the seeds are coated, then spread them in an even layer across the baking sheet."
+   },
+   {
+    "title": null,
+    "text": "Bake for 12 to 16 minutes, stirring every 5 minutes, until the seeds are fragrant and turning golden. Season them with additional salt, to taste. If desired, season with black pepper, to taste, or stir in the pumpkin spice blend or curry powder. Enjoy."
+   },
+   {
+    "title": null,
+    "text": "Cooled, leftover pumpkin seeds will keep well in a bag at room temperature for up to 2 weeks."
+   }
+  ],
+  "notes": [
+   "*Pumpkin seed quantity notes: If your pumpkin yields a bit over or under 1 ½ cups, you should be fine following these ingredients and instructions as written. If it yields significantly less, know that your seeds may finish baking a few minutes earlier, so keep an eye on them. I’m able to fit a maximum of 2 cups on my baking sheet at one time—don’t overcrowd them or they won’t get toasty.",
+   "Make it dairy free/vegan: For dairy-free pumpkin seeds, simply use olive oil instead of butter. For vegan seeds, use olive oil and don’t use honey (maple syrup is a great alternative, or skip the sweetener altogether).",
+   "Change it up: You can use this technique to roast other winter squash seeds, including butternut, acorn, delicata and spaghetti squash. Since these seeds are typically smaller than pumpkin seeds, they may roast more quickly, so keep an eye on them."
+  ],
+  "summary": "This fun recipe yields perfect roasted pumpkin seeds, every time. You’ll also find tips on how to clean the seeds, plus flavor variations! Recipe yields about one medium pumpkin’s worth of seeds (1 ½ cups).*",
+  "ingredient_groups": []
+ }
 }

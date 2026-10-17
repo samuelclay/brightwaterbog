@@ -30,7 +30,36 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/strawberry-arugula-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To assemble the salad: On a large serving platter or in a large serving bowl, layer the ingredients as listed."
+   },
+   {
+    "title": null,
+    "text": "To prepare the vinaigrette: In a liquid measuring cup or small bowl, combine all of the ingredients and whisk until fully blended. Taste, and add more salt or pepper if needed. The dressing should be nice and tangy, but you can add more maple syrup for balance if desired."
+   },
+   {
+    "title": null,
+    "text": "When you’re ready to serve the salad, drizzle vinaigrette on top, and toss to combine. Serve promptly. (If you’re planning to have leftovers, store the salad and dressing separately and toss before serving.) Stored separately, leftovers will keep well for 3 to 4 days."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Substitute diced avocado for the goat cheese. Vegans, be sure to use maple syrup in the dressing.",
+   "Change it up: This salad is versatile. If you don’t have basil, or you don’t love jalapeño or radish, simply omit them. If you don’t like arugula, use spring greens instead."
+  ],
+  "summary": "This large strawberry salad is colorful and delicious! It’s made with arugula, strawberries, goat cheese, sunflower seeds and balsamic vinaigrette. Recipe yields 4 large or 8 side salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Strawberry salad"
+   },
+   {
+    "at": 8,
+    "title": "Balsamic vinaigrette"
+   }
+  ]
  },
  "parser_version": 2
 }

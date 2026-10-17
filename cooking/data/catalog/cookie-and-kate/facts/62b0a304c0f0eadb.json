@@ -1,6 +1,60 @@
 {
  "url": "https://cookieandkate.com/vegetarian-halloumi-tacos-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Halloumi Tacos with Pineapple Salsa & Aji Verde",
+  "ingredients": [
+   "8 small corn or flour tortillas",
+   "8 ounces halloumi cheese, sliced into ¼″ wide rounds",
+   "¼ cup extra-virgin olive oil, for frying",
+   "Pineapple Salsa",
+   "Aji Verde"
+  ],
+  "yield_text": "8 tacos",
+  "cook_time": "45 minutes",
+  "categories": [
+   "Main Dish"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/vegetarian-halloumi-tacos-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium skillet (I love to use cast iron) over medium heat, warm each tortilla on both sides until it’s warmed through and developing a few little golden spots. Stack each tortilla together under a clean tea towel to keep them warm."
+   },
+   {
+    "title": null,
+    "text": "Warm the olive oil in the same skillet over medium heat. Using kitchen tongs, carefully place slices of halloumi into the hot oil (be careful, the oil can splatter). Leave a little room around each piece of cheese so they don’t stick together (I usually cook the cheese in two batches). I recommend covering the skillet to contain any splatters."
+   },
+   {
+    "title": null,
+    "text": "Cook the cheese until the undersides are golden, about 2 to 4 minutes (if it’s taking forever to brown, raise the heat a bit; if it’s browning very quickly or you catch any whiff of smoke, turn down the heat). Carefully flip each piece of cheese with the tongs, recover the skillet, and cook until the other side is golden, about 2 to 4 minutes."
+   },
+   {
+    "title": null,
+    "text": "In the meantime, place a few paper towels on an empty plate or cutting board to absorb excess oil. Place each piece of cooked cheese onto the plate and let the cheese cool down a bit before handling. Slice each piece of cheese into strips about 1″ wide for more even cheese distribution throughout your taco (hooray)."
+   },
+   {
+    "title": null,
+    "text": "To assemble the tacos, place a few strips of cheese along half of your tortilla. Using a slotted spoon or serving fork, top the cheese with pineapple salsa. Finish each taco with a drizzle of aji verde. Serve warm!"
+   },
+   {
+    "title": null,
+    "text": "If you intend to have leftovers, store the individual components separately and combine just before serving. You can gently warm the tortillas and cheese in the microwave. Assemble and enjoy."
+   }
+  ],
+  "notes": [
+   "Prepare in advance: You can make the salsa and aji verde in advance and store them in the refrigerator for later. Ideally, let them warm to room temperature before serving. Freshly fried halloumi cheese is the best but it also reheats pretty well in the microwave.",
+   "Make it gluten free: Be sure to use certified gluten free tortillas.",
+   "Make it dairy free/vegan: This is a stretch, but you could replace the halloumi with crispy baked tofu and add dollops of this avocado sauce instead of the aji verde."
+  ],
+  "summary": "These amazing vegetarian tacos feature fried halloumi cheese, pineapple salsa and a drizzle of Peruvian green sauce. You’ll love this unlikely combination of flavors! Recipe yields 8 tacos (enough for 4 servings).",
+  "ingredient_groups": []
+ }
 }

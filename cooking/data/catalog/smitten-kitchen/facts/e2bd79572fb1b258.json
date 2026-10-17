@@ -35,7 +35,40 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2006/12/holding-the-gray-salt/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 400°F."
+   },
+   {
+    "title": null,
+    "text": "Melt the butter in a large skillet over moderate heat and cook until it foams. Add the garlic and thyme, and immediately add the bread cubes. Toss to coat well. Add most of the grated cheese and stir. Transfer bread to a baking sheet and sprinkle with the remaining cheese and salt and pepper and gently toss again while still warm to melt the cheese. Bake stirring once or twice, until the croutons are crisp and lightly colored on the outside but still soft within, about 10 to 15 minutes. Set aside and let cool."
+   },
+   {
+    "title": null,
+    "text": "Soak the sliced onion in the sherry vinegar and a pinch of salt for about 15 minutes. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Toss the squash with 1 1/2 tablespoons of the olive oil, sage, salt, and pepper. Arrange in a single layer on a baking sheet and bake until the squash is tender and lightly caramelized, about 15 to minutes. Let cool."
+   },
+   {
+    "title": null,
+    "text": "Bring a large pot of salted water to a boil. Add the quartered Brussels sprouts and cook until tender but retain a touch of crispness, about 1 1/2 minutes, and drain."
+   },
+   {
+    "title": null,
+    "text": "Into the reserved red onions and vinegar, whisk in remaining 1/2 cup olive oil. Season with pepper."
+   },
+   {
+    "title": null,
+    "text": "In a large bowl combine the roasted squash, croutons, and Brussels sprouts. Add the vinaigrette and toss. Add the parsley leaves and toss again. Taste and adjust the seasoning. Garnish with grated Parmesan and serve immediately."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

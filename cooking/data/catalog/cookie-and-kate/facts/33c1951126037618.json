@@ -25,7 +25,42 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/orange-arugula-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, toast the almonds: In a small skillet over medium heat, warm the almonds until they are fragrant and starting to turn golden on the edges, stirring frequently (careful, they’ll burn!), about 5 minutes. Transfer them to a bowl to cool."
+   },
+   {
+    "title": null,
+    "text": "Place the arugula on a large serving platter or into a large serving bowl. Arrange the oranges, toasted almonds, goat cheese and radishes on top. Sprinkle the top lightly with a pinch or two of cinnamon. Set aside."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl, combine the olive oil, lemon juice, honey and salt. Whisk together until blended. Taste, and add a little more honey if it’s unpleasantly tart."
+   },
+   {
+    "title": null,
+    "text": "Once you’re ready to serve, drizzle the dressing lightly over the salad (you might have a little extra), toss, and serve immediately."
+   }
+  ],
+  "notes": [
+   "Storage suggestions: If you intend to have leftover salad, store the salad and dressing separately, and toss individual portions just before serving.",
+   "Make it dairy free: Omit the goat cheese.",
+   "Make it vegan: Omit the goat cheese and use maple syrup instead of honey.",
+   "Make it nut free: Substitute sunflower seeds for the almonds, or omit them altogether."
+  ],
+  "summary": "You’re going to love this beautiful green salad featuring fresh oranges, goat cheese, almonds and radishes! A simple lemon dressing ties it all together. Recipe yields 6 side salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 6,
+    "title": "Lemon dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

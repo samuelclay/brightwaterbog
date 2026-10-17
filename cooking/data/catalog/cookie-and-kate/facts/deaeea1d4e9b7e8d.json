@@ -20,7 +20,32 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/roasted-grape-crostini-with-brie-and-thyme/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 400 degrees Fahrenheit with racks in the top third and lower third of the oven. Line a large rimmed baking sheet and a small rimmed baking sheet with parchment paper for easy cleanup."
+   },
+   {
+    "title": null,
+    "text": "Brush olive oil lightly over both sides of each slice of bread. Arrange the future toasts in a single layer on the large baking sheet. Remove all stems from the grapes. Transfer the grapes to the small baking sheet, toss them with about 1 tablespoon olive oil and then season them with a light sprinkle of salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "Place the grapes on the upper oven rack and the toasts on the lower. Set the timer for 20 minutes. Keep an eye on the toasts; they will be ready to remove from the oven around the halfway mark, once they are nice and golden on top. Let the grapes roast for the full 20 minutes, and maybe a few minutes longer. They’re done when they’re tender and their skins are lightly wrinkled."
+   },
+   {
+    "title": null,
+    "text": "Slice the brie into long, ¼-inch wide strips, then slice them into smaller strips to fit the crostini (leave the waxy rind on, it’s edible). Top each toast with enough brie to roughly cover the surface, followed by grapes. Finish the crostini with a light sprinkle of pepper and fresh thyme leaves."
+   }
+  ],
+  "notes": [
+   "Serving suggestions: This crostini would make a lovely, light meal when served with a little green salad.",
+   "Change it up: Feel free to substitute Gorgonzola cheese, goat cheese, mascarpone or ricotta for the brie. You could also add a light drizzle of honey and/or toasted, sliced almonds. Instead of toasting the bread in the oven, you could grill it for a more complex flavor.",
+   "More crostini: Check out my pear, raspberry and goat cheese crostini and cranberry orange crostini."
+  ],
+  "summary": "This grape crostini is a simple appetizer for late summer get-togethers. Jammy, roasted grapes with creamy brie on toasts, topped with a sprinkling of fresh thyme, makes some seriously irresistible crostini. This recipe yields enough crostini to serve 4 as an appetizer.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

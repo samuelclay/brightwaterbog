@@ -25,7 +25,23 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/best-chickpea-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium bowl, combine all of the ingredients. Toss until combined. Taste and add additional lemon juice, salt, or pepper if necessary."
+   },
+   {
+    "title": null,
+    "text": "Serve immediately, or chill until you’re ready to serve. Leftovers keep well, covered in the refrigerator, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "This recipe comes straight from my cookbook, Love Real Food.",
+   "Serving suggestions: Enjoy this salad as-is or serve it over greens or literally anything that could use some substance and vegetables (nachos or pasta, even). It’s nice with crumbled feta cheese as well."
+  ],
+  "summary": "This chickpea salad recipe is the best! Keep this healthy chickpea salad in the fridge—it’s the perfect side salad, snack and meal component. It’s vegan and gluten free, too! Recipe yields 4 generous side salads or 6 medium.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

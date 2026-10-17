@@ -1,6 +1,71 @@
 {
  "url": "https://cookieandkate.com/vegan-spaghetti-alla-puttanesca/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Vegan Spaghetti alla Puttanesca",
+  "ingredients": [
+   "1 large (28 ounce) can of chunky tomato sauce or diced tomatoes",
+   "⅓ cup chopped Kalamata olives",
+   "⅓ cup capers",
+   "1 tablespoon Kalamata olive brine (from your jar of olives)",
+   "1 tablespoon caper brine (from your jar of capers)",
+   "3 cloves garlic, pressed or minced",
+   "¼ teaspoon red pepper flakes",
+   "1 tablespoon olive oil",
+   "½ cup chopped fresh parsley leaves, divided",
+   "Freshly ground black pepper",
+   "Salt, if necessary",
+   "8 ounces whole grain spaghetti, or an equivalent combination of spaghetti and zucchini noodles"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Pasta"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/vegan-spaghetti-alla-puttanesca/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium saucepan, combine the tomato sauce, olives, capers, olive bring, caper brine, garlic and red pepper flakes. Bring the mixture to a simmer over medium-high heat, then reduce heat to medium and simmer, stirring often, for 20 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the sauce from heat, and stir in the olive oil and almost all of the chopped parsley, reserving some to sprinkle on the finished bowls. Season to taste with freshly ground black pepper and salt, if necessary (the sauce was already plenty salty for me, so I didn’t add any salt)."
+   },
+   {
+    "title": null,
+    "text": "While the sauce cooks, bring a large pot of salted water to boil and cook your spaghetti according to package directions. Drain and return it to the pot."
+   },
+   {
+    "title": null,
+    "text": "If you’re adding zucchini noodles, spiralize the zucchini with a spiralizer, or turn the zucchini into noodles with a julienne peeler, or grate the zucchini the long way on a large box grater."
+   },
+   {
+    "title": null,
+    "text": "Once all of your components are ready, pour the sauce over the pasta and stir to combine. Stir in the zucchini noodles, if using (if you plan on having leftovers, store extra zucchini noodles separately, as they leech water once they come into contact with salty ingredients). Divide into individual bowls and top each bowl with a light sprinkle of parsley. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Fresh Italian Cooking for the New Generation by Alexandra Caspero.",
+   "Make it gluten free: Use all zucchini noodles, or substitute your favorite gluten-free pasta."
+  ],
+  "summary": "This easy vegan pasta alla puttanesca is perfect for busy weeknight dinners! It’s made with pantry staples but tastes super fresh and delicious. Recipe yields 4 generous servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Puttanesca sauce"
+   },
+   {
+    "at": 11,
+    "title": "Everything else"
+   }
+  ]
+ }
 }

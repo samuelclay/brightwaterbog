@@ -1,6 +1,106 @@
 {
  "url": "https://cookieandkate.com/sweet-potato-black-bean-tostadas-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Sweet Potato and Black Bean Tostadas",
+  "ingredients": [
+   "1 ¾ pounds sweet potatoes (about 3 medium), peeled and sliced into ¾” pieces",
+   "1 tablespoon SimplyNature Organic Extra Virgin Olive Oil",
+   "½ teaspoon chili powder",
+   "Salt",
+   "1 tablespoon SimplyNature Organic Extra Virgin Olive Oil",
+   "2 cloves garlic, pressed or minced",
+   "1 teaspoon ground cumin",
+   "2 cans (15 ounces each) SimplyNature Organic Black Beans, rinsed and drained",
+   "½ cup water",
+   "½ teaspoon sea salt grinder, more to taste",
+   "8 corn tortillas",
+   "1 tablespoon SimplyNature Organic Extra Virgin Olive Oil, for brushing",
+   "18 ounces romaine lettuce, roughly chopped",
+   "⅔ cup (about 4 ounces) Happy Farms Preferred Feta Cheese Crumbles",
+   "¾ cup finely chopped red onion, divided",
+   "¼ cup SimplyNature Organic Extra Virgin Olive Oil",
+   "2 tablespoons fresh lime juice (about 1 lime)",
+   "Sea salt grinder to taste, if necessary",
+   "2 ripe avocados, pitted and thinly sliced",
+   "Small handful of fresh cilantro leaves, chopped",
+   "Hot sauce or salsa, for serving"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "1 hour 10 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/sweet-potato-black-bean-tostadas-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To roast the sweet potatoes: Preheat the oven to 400 degrees Fahrenheit with two racks placed near the middle of the oven, leaving a few inches in between the racks. Line two large rimmed baking sheets with parchment paper to prevent sticking."
+   },
+   {
+    "title": null,
+    "text": "Place the sweet potatoes on one of the prepared baking sheets, then drizzle the olive oil on top and sprinkle with the chili powder and several dash of salt. Toss until the sweet potatoes are lightly and evenly coated with oil and spices."
+   },
+   {
+    "title": null,
+    "text": "Bake until the sweet potatoes are tender and caramelized on the edges, about 30 to 35 minutes. Set aside, but leave the oven on for the crispy tortillas."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, to cook the refried beans: In a medium saucepan over medium heat, warm the olive oil until shimmering. Add the garlic and cumin and cook, while stirring constantly, until fragrant, about 30 seconds."
+   },
+   {
+    "title": null,
+    "text": "Add the drained beans, water and salt. Let the mixture come to a simmer and cook for 10 minutes, stirring often, and reducing heat as necessary to maintain a gentle simmer. Remove from the heat and mash the beans with a potato masher, pastry cutter or fork until the mixture is thick and spreadable. Cover and set aside."
+   },
+   {
+    "title": null,
+    "text": "To prepare the crispy tortillas: On the remaining prepared baking sheet, brush both sides of each tortilla lightly with oil. Clear off the other baking sheet by transferring the roasted sweet potatoes to a serving bowl, but reuse the parchment paper. Arrange 4 tortillas in a single layer across each pan. Bake for 10 to 12 minutes, turning halfway, until each tortilla is golden and lightly crisp. Set aside."
+   },
+   {
+    "title": null,
+    "text": "To prepare the salad: In a medium serving bowl, combine the chopped lettuce, feta, about ½ cup of the red onion (reserve the rest for garnish), olive oil and lime juice. Toss to combine, and add a pinch of salt if the flavors don’t quite sing yet. Divide the salad between 4 low, wide salad bowls or dinner plates."
+   },
+   {
+    "title": null,
+    "text": "To assemble the tostadas, spread black beans over each tortilla, and place each one on a bed of salad. Top each tortilla with a few slices of avocado, followed by the sweet potatoes, and a sprinkle of red onion and cilantro. Serve with your favorite hot sauce or salsa on the side."
+   },
+   {
+    "title": null,
+    "text": "Tostadas are best consumed promptly. If you have leftovers, store individual components separately, if possible. Leftover black beans make a good side, and they’re also a great quesadilla filling."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Use certified gluten-free/100% corn tortillas.",
+   "Make it dairy free/vegan: Omit the feta cheese. You might like to add some pickled jalapeños or a few dashes of hot sauce to make up for feta’s salty kick.",
+   "Change it up: These tostadas would be great with a variety of roasted vegetables, not just sweet potatoes! Cauliflower and butternut come to mind. You could also skip the roasted veggies for lighter tostadas.",
+   "Storage suggestions: If you intend to have leftovers, it’s best to store individual components separately rather than assembling the tostadas all at once. If possible, store the salad and dressing separately, and toss only as much as you need together before serving."
+  ],
+  "summary": "This vegetarian tostadas recipe features roasted sweet potatoes and healthy “refried” black beans, served on a bed of crisp salad. It’s gluten free and easily vegan (see recipe notes). This recipe yields 4 generous servings; leftovers keep well for a few days (see storage notes), or you can halve the recipe for fewer servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted Sweet Potatoes"
+   },
+   {
+    "at": 4,
+    "title": "Refried Black Beans"
+   },
+   {
+    "at": 10,
+    "title": "Crispy Baked Tortillas"
+   },
+   {
+    "at": 12,
+    "title": "Crisp Lime Salad and Garnishes"
+   }
+  ]
+ }
 }

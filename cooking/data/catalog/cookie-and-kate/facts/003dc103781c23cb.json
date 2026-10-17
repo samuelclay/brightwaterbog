@@ -30,7 +30,55 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/roasted-butternut-squash-risotto/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare: Place your oven racks in the lower third and upper third positions (we’re going to bake the risotto on the middle rack and roast the squash on the upper rack at the same time), then preheat oven to 375 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper for the butternut squash. Reserve 1 cup broth from your container and set it aside for when the risotto is out of the oven."
+   },
+   {
+    "title": null,
+    "text": "Heat 1 tablespoon olive oil in a medium-to-large Dutch oven over medium heat until shimmering. Add onion and a pinch of salt. Cook, stirring occasionally, until softened and turning translucent, about 5 minutes. Add the minced garlic and cook until the garlic is fragrant, 1 to 2 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add 3 cups broth and 1 cup water, cover, and bring to a boil over medium-high heat. Remove from heat and stir in the rice. Cover the pot and bake on the lower rack until rice is tender and cooked through, about 65 to 70 minutes. It will seem pretty dry when you take off the lid, but don’t worry!"
+   },
+   {
+    "title": null,
+    "text": "Immediately after placing the pot of risotto in the oven, toss the cubed butternut with 2 tablespoons olive oil on your lined baking sheet. Sprinkle with salt and some freshly ground black pepper and arrange the butternut in a single layer on the pan. Roast on the upper rack until the butternut is fork tender and the edges are deeply caramelized, tossing halfway. This took 55 to 60 minutes for me, but start checking for doneness around 40 minutes."
+   },
+   {
+    "title": null,
+    "text": "While the risotto and butternut are in the oven, fry the sage: Heat 1 tablespoon olive oil in a medium skillet over medium heat. Once the oil is shimmering, add the sage and toss to coat. Let the sage get darker green and crispy (but not brown) before transferring it to a plate covered with a paper towel. Sprinkle the fried sage lightly with salt and set it aside."
+   },
+   {
+    "title": null,
+    "text": "Carefully remove the Dutch oven from the oven. Remove the lid and pour in the remaining cup of broth, the Parmesan, wine and butter. Stir vigorously for 2 to 3 minutes, until the rice is thick and creamy. Stir in the salt, a generous amount of pepper and a pinch of red pepper flakes."
+   },
+   {
+    "title": null,
+    "text": "Stir in the roasted butternut. Taste and add more salt and/or pepper, as needed. Divide the risotto into bowls and top each with a sprinkle of fried sage. Leftovers keep well in the refrigerator, covered, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my cauliflower risotto recipe.",
+   "Make it dairy free/vegan: Starchy rice accounts for most of this risotto’s creaminess, so you can skip the dairy or replace it with the following. Replace the butter with vegan butter or a tablespoon or two of additional olive oil, to taste. Skip the Parmesan cheese. You might like to add some nutritional yeast for cheesy flavor.",
+   "*A note on Parmesan: I always get a few comments on recipes that include Parmesan (“It’s not vegetarian!”) but Whole Foods actually makes a great animal rennet-free Parmesan. There’s plenty of flavor in here without the Parmesan, if you’d rather leave it out.",
+   "If you must use white arborio rice: Bake it for 40 to 45 minutes, until tender to the bite, and proceed as directed.",
+   "If you don’t have a Dutch oven: Use a large saucepan instead, then carefully pour the boiling broth and rice mixture into a casserole dish. If the casserole dish has an oven-safe lid, use that; if not, cover it tightly with foil. Bake as directed."
+  ],
+  "summary": "This butternut squash risotto recipe tastes incredible! Roasted butternut squash and crispy fried sage take it over the top. This risotto is also healthier than most, since it calls for brown rice instead of white, and requires practically no stirring. You can just bake it all in the oven! Recipe yields 4 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Butternut squash risotto"
+   },
+   {
+    "at": 13,
+    "title": "Fried sage"
+   }
+  ]
  },
  "parser_version": 2
 }

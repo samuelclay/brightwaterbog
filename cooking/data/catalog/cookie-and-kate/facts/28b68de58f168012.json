@@ -1,6 +1,51 @@
 {
  "url": "https://cookieandkate.com/ranch-dressing-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Homemade Ranch Dressing",
+  "ingredients": [
+   "½ cup sour cream",
+   "¼ to ½ cup buttermilk, depending on your desired consistency",
+   "2 tablespoons mayonnaise",
+   "1 tablespoon minced fresh parsley",
+   "1 tablespoon minced fresh cilantro or dill, or a combination of the two",
+   "1 tablespoon minced fresh chives",
+   "1 garlic clove, pressed or minced",
+   "1 to 2 teaspoons fresh lemon juice, to taste",
+   "½ teaspoon fine salt",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "1 cup",
+  "cook_time": "10 minutes",
+  "categories": [
+   "Salad dressing"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/ranch-dressing-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a bowl, combine the sour cream, ¼ cup buttermilk, mayonnaise, fresh herbs, garlic, 1 teaspoon lemon juice, salt, and about 5 twists of black pepper. Whisk to combine."
+   },
+   {
+    "title": null,
+    "text": "Taste, and add up to ¼ cup more buttermilk if you desire a thinner, more drizzly consistency. Add up to 1 teaspoon more lemon juice if you would like more zing, and/or more pepper to kick it up a notch."
+   },
+   {
+    "title": null,
+    "text": "This dressing tastes great immediately and even better after a 10-minute rest. Use as desired, and store leftovers in an air-tight jar in the refrigerator, covered, for 5 to 7 days."
+   }
+  ],
+  "notes": [
+   "Change it up: Like spicy ranch? Add sriracha, to taste, or a finely chopped seeded jalapeño."
+  ],
+  "summary": "Make ranch dressing from scratch with this simple recipe! This creamy ranch dressing recipe calls for fresh herbs and tastes amazing. Recipe yields about 1 cup dressing.",
+  "ingredient_groups": []
+ }
 }

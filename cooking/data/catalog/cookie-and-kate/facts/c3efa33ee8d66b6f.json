@@ -24,7 +24,24 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/torn-olives-with-almonds-celery-parmesan/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium bowl, toss all of the ingredients except the celery leaves together. Taste, and adjust the seasonings to your preference (I usually add a little more olive oil and vinegar, and about ¼ teaspoon kosher salt)."
+   },
+   {
+    "title": null,
+    "text": "Garnish with the chopped celery leaves. Refrigerate until needed, for up to 5 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted just the tiniest bit from Smitten Kitchen Everyday by Deb Perelman.",
+   "*Deb’s notes: If you’re serving this as part of a cheese spread, keep the pieces chunky and offer toothpicks for serving. If it’s a first course, you can chop everything smaller and offer forks. (I like to chop it pretty small and serve it with hummus so people can pile it onto the hummus.)",
+   "**How to toast your almonds: I roasted whole almonds on a rimmed baking sheet for 12 to 14 minutes at 350 degrees Fahrenheit, then chopped them."
+  ],
+  "summary": "This fun Mediterranean appetizer features briny green olives, crumbled Parmesan, crisp celery, and toasted almonds. Recipe yields about 2 cups, enough to serve 4 to 6.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

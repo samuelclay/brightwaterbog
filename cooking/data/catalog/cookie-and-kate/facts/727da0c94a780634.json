@@ -22,7 +22,40 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/chai-affogato-with-honey-sweetened-coconut-milk-ice-cream/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a Dutch oven or a big, heavy-bottomed pot, combine the coconut milk, honey, water, vanilla, cinnamon and salt. Bring to a gentle simmer over medium heat while whisking often. While the mixture warms up, whisk the arrowroot starch with a couple tablespoons of the coconut milk mixture in a small bowl until thoroughly incorporated and no lumps remain."
+   },
+   {
+    "title": null,
+    "text": "Once the coconut milk mixture reaches a gentle simmer, pour the arrowroot mixture into the pot and simmer, whisking constantly, for one minute. Remove from heat, let cool to room temperature, then place the bowl in the refrigerator until the mixture is completely and thoroughly chilled."
+   },
+   {
+    "title": null,
+    "text": "Before you start your ice cream maker, place your future ice cream container in the freezer to chill. Use a spoon to scoop off the thickened top layer of ice cream and discard it. Whisk together the chilled mixture in case the honey has separated from the rest. Pour the mixture into your ice cream maker and freeze according to your manufacturer’s instructions, then transfer it to your chilled container. Freeze for several hours."
+   },
+   {
+    "title": null,
+    "text": "When you’re ready for dessert, bring 2 cups water to a boil and pour the water over 8 chai tea bags. Steep for 4 minutes, then remove the bags (squeeze out some of the water they have absorbed). Scoop your ice cream into small bowls, then pour hot tea into the bowls. Serve immediately!"
+   }
+  ],
+  "notes": [
+   "Coconut milk ice cream adapted from my chai coconut ice cream recipe.",
+   "Wait, what’s that?: Arrowroot starch significantly improves the texture of the ice cream by making it less icy and therefore more creamy, so I strongly recommend using it. Look for arrowroot starch near the cornstarch in the baking section of well-stocked grocery/health food stores (I used Bob’s Red Mill brand). Arrowroot is a great thickener in non-dairy sauces and desserts. You can probably substitute an equal amount of cornstarch for the arrowroot if you’d like. Both arrowroot and cornstarch must be activated by heat, which is why the instructions call for heating the ice cream mixture to a simmer before adding the starch."
+  ],
+  "summary": "Strong, spiced chai tea poured over rich, honey-sweetened ice cream makes a beautiful hot-and-cold dessert. The creamy homemade coconut milk ice cream is dairy free and egg free. For a super simple treat, buy a quality vanilla ice cream and pour extra-strong, freshly brewed chai tea over it.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Honey-Sweetened Coconut Milk Ice Cream (yields 8 small scoops of ice cream)"
+   },
+   {
+    "at": 7,
+    "title": "Strong chai tea (use 4 tea bags per 1 cup water, which yields enough tea for 4 small servings)"
+   }
+  ]
  },
  "parser_version": 2
 }

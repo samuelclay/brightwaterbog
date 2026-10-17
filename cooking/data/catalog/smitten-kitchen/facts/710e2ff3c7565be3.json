@@ -33,7 +33,44 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2014/01/cheese-blintz/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make wrapper/crêpe batter: Combine wrapper ingredients in a blender, or in a bowl with an immersion blender, or whisk by hand until smooth. Cover with plastic wrap and refrigerate for an hour or up to two days."
+   },
+   {
+    "title": null,
+    "text": "Cook wrappers/crêpes: Heat a medium skillet or crêpe pan over medium-high heat. Once heated, brush pan lightly with melted butter or oil. If batter has gotten too thick to pour thinly in the fridge, you can add an additional tablespoon or two of milk or water to thin it. Pour 3 to 4 tablespoons batter into skillet, just enough that it coats the bottom in an even layer when you swirl it around. Let cook, undisturbed, until the crêpe becomes a little golden underneath or at the edges. (We can cook these more pale than dessert crêpe, because we’re going to cook them again before serving.)"
+   },
+   {
+    "title": null,
+    "text": "Here’s my crêpe-flipping technique: I use a small offset spatula (my first kind of favorite spatula) to loosen the edges and get underneath the crêpe enough to lift it. Then, in the lifted space between the crêpe and the skillet, I put a flexible fish spatula (my second favorite kind of spatula) further underneath, remove the “lifting” offset spatula, and then use the bigger one to flip it in one movement. If it lands off-center, just shimmy the skillet until it goes back into place."
+   },
+   {
+    "title": null,
+    "text": "Cook the crêpe on the reverse side for another 20 seconds, then slide onto a plate to cool. Repeat with remaining batter, brushing the skillet with additional oil or butter as needed. You can stack the crêpe on top of each other even when they’re hot; they will not stick."
+   },
+   {
+    "title": null,
+    "text": "Either use the crêpe right away, or cover the plate with plastic wrap and use them in the next 2 days."
+   },
+   {
+    "title": null,
+    "text": "Make filling and fill wrappers: Mix all filling ingredients together until smooth. Place 3 tablespoons or so filling across the center of the top wrapper/crêpe in your stack. Fold the bottom part of the wrapper up and over it; fold the sides in over the bottom and filling, then fold the pancake up to form an egg roll-like shape filled pancake."
+   },
+   {
+    "title": null,
+    "text": "You can use these blintz right away, or refrigerate them for up to 2 days or freeze them between layers of waxed paper for up to 2 months."
+   },
+   {
+    "title": null,
+    "text": "Serve the blintz: Heat a pat of butter over medium heat in a skillet. Fry blintz until browned on both sides. Transfer to a place and serve with sour cream or a fruit sauce or jam or your choice."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -41,7 +41,22 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2009/02/red-kidney-bean-curry/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oil in a deep saucepan over medium heat for one minute. Add ginger, garlic, onion, and green chile, and let sizzle for one minute. Add the tomato sauce, salt and remaining spices and cook for an additional five minutes, stirring frequently. Add red kidney beans plus 2 additional cups of water, and tomatoes. Bring it to a boil, then reduce to medium heat and let cook uncovered for 10 minutes. Remove from heat. Garnish with cilantro."
+   },
+   {
+    "title": null,
+    "text": "Serve over rice or with naan. A dollop of plain yogurt (if not keeping the dish vegan) on top is heavenly."
+   }
+  ],
+  "notes": [
+   "Note: This recipe used to call for undrained kidney beans (i.e. using the liquid from the can) but the measurement was uneven and my impression was that nobody was into this. It’s been updated for drained and rinsed beans with an additional cup of water, works just as well."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

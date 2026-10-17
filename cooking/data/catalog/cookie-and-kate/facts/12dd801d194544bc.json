@@ -28,7 +28,42 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/blueberry-almond-crisp/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit. Rinse and drain the blueberries and pick through them to remove any stems still attached. In a 9-inch square baking dish, mix together the blueberries, maple syrup or honey, arrowroot or cornstarch, lemon zest, lemon juice and cinnamon."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, stir together the oats, almond meal/flour, sliced almonds, brown sugar and salt. Mix in the butter and yogurt. Stir until all of the flour is incorporated and the mixture is moistened throughout."
+   },
+   {
+    "title": null,
+    "text": "Dollop spoonfuls of the oat mixture over the filling and use your fingers to break up the mixture until it is evenly distributed (no need to pack it down)."
+   },
+   {
+    "title": null,
+    "text": "Bake for 40 to 50 minutes, or until the filling is actively bubbling around the edges and the top is lightly golden. Let the crisp rest for 5 to 10 minutes before serving. Serve with vanilla ice cream (I insist!)."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my pear cranberry crisp.",
+   "*How to use frozen blueberries: Defrost the blueberries in the refrigerator overnight or at room temperature for about 2 hours (no need to drain off excess juices). Or, while the oven is preheating, place the frozen blueberries in your square baker. Warm them up in the oven, stirring every 10 minutes or so, until they have defrosted to the point that they are cool to the touch but no longer frozen. Then add the maple syrup, etc. and proceed with the recipe as written.",
+   "Make it nut free: Omit the sliced almonds and use ¾ cup whole wheat flour and ¾ cup oats instead of the almond meal and oats specified above. It will no longer be gluten free. If you want to keep it gluten free, I suspect that you could replace the almond meal with oat flour or more oats (haven’t tried that, please comment if you do!).",
+   "Make it vegan: I believe you could use melted coconut oil in place of the browned butter/yogurt (use 4 tablespoons coconut oil and add up to 3 more, until the topping mixture is moistened throughout) and maple syrup instead of the honey. I haven’t tried it, though."
+  ],
+  "summary": "This amazing blueberry crisp recipe is the perfect summertime dessert! It’s easy to make with blueberries, maple syrup, lemon, oats and almonds. It’s gluten free, too! Recipe yields 6 to 8 servings (a lot!).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Lemon blueberry filling"
+   },
+   {
+    "at": 6,
+    "title": "Gluten-free oat and almond topping"
+   }
+  ]
  },
  "parser_version": 2
 }

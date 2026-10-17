@@ -22,7 +22,41 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/tom-collins-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the simple syrup: Combine the sugar (or honey) and water in a small saucepan. Warm over medium heat, whisking occasionally, just until the sweetener has fully dissolved into the water. Remove the pot from the heat and set it aside to cool."
+   },
+   {
+    "title": null,
+    "text": "To make a cocktail: Fill a cocktail shaker with ice. Pour in the gin, lemon juice and simple syrup. Shake for 20 to 30 seconds, until the outside of the shaker is really cold."
+   },
+   {
+    "title": null,
+    "text": "Fill a Collins (tall) glass with ice. Strain the contents of the shaker into the glass. Fill the rest of the glass with club soda, and give it a gentle stir with a spoon."
+   },
+   {
+    "title": null,
+    "text": "Garnish with a lemon round or ½ of an orange round, plus a cocktail cherry. Enjoy."
+   }
+  ],
+  "notes": [
+   "*Gin suggestions: Old Tom Gin is the traditional choice. Any gin that you enjoy will work, especially if it’s not overwhelmingly junipery. I used Rieger’s Midwestern Dry Gin, which has a nice, balanced flavor profile and is made here in Kansas City. If you’re generally not a gin lover, try Hendrick’s, which is more mellow in flavor and infused with cucumber and rose.",
+   "Measurement tips: I love this measuring jigger (affiliate link) for measuring small amounts of liquids. Or, use measuring cups and spoons. Two ounces is ¼ cup, 1 ounce is 2 tablespoons, and ½ ounce is 1 tablespoon.",
+   "Make it quick: Though the cocktail shaker method yields the nicest flavor, you could skip it and mix these drinks in ice-filled glasses (stir together the gin, lemon juice and simple syrup, then the add the club soda and gently stir to combine). They’ll taste stronger on the first few sips and mellow as the ice melts."
+  ],
+  "summary": "This Tom Collins recipe is the best! Tom Collins cocktails are made with gin, lemon, club soda and simple syrup. They’re delightfully fizzy, delicious and refreshing. Recipe yields 1 cocktail, so multiply as needed (you can mix several at once in a cocktail shaker).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per cocktail"
+   },
+   {
+    "at": 7,
+    "title": "Simple syrup (yields enough for 6 to 8 cocktails, scale as necessary)"
+   }
+  ]
  },
  "parser_version": 2
 }

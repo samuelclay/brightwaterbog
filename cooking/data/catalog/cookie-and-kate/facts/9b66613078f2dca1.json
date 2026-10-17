@@ -1,6 +1,66 @@
 {
  "url": "https://cookieandkate.com/peppermint-bark-popcorn/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Peppermint Bark Popcorn",
+  "ingredients": [
+   "2 tablespoons coconut oil or olive oil",
+   "½ cup popcorn kernels",
+   "½ teaspoon fine salt",
+   "1 cup (6 ounces) semisweet to dark chocolate chips",
+   "½ teaspoon peppermint extract or flavoring",
+   "½ cup (3 ounces) chopped white chocolate",
+   "4 standard-sized peppermint candy canes (to yield about ⅓ cup finely crushed peppermint)",
+   "Flaky sea salt (optional)"
+  ],
+  "yield_text": "6",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/peppermint-bark-popcorn/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cover a large, rimmed baking sheet with parchment paper to prevent the chocolate from sticking to the pan (you’ll need to fit the baking sheet into your refrigerator later—use two smaller baking sheets if needed). Pour the oil into a large, heavy-bottomed pan with a lid (if you have a medium-sized Dutch oven, it’s perfect for this). Turn the heat up to medium, add 2 kernels of corn, and cover."
+   },
+   {
+    "title": null,
+    "text": "Once the kernels pop, remove the lid and pour in the remaining popcorn kernels. Cover the pot and give the pot a little shimmy to distribute the kernels evenly."
+   },
+   {
+    "title": null,
+    "text": "Cook over medium heat, shaking the pot occasionally. Crack the lid just a smidge so the popcorn stays crisp, and cook until the popping sound slows to about one pop per every few seconds. Remove the pan from heat and dump the popcorn onto the parchment paper-covered pan. Discard any kernels that didn’t pop—this is important because they will be hard to see later. Sprinkle the salt evenly all over and stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Place the candy canes in a plastic bag. Cover the bag with a tea towel and crush the candy canes by rolling a rolling pin over it. (A mallet or hammer works, too.) When you’re done, the candy canes should be pretty finely crushed."
+   },
+   {
+    "title": null,
+    "text": "Place the chocolate chips in one microwave-safe bowl and the white chocolate in another microwave-safe bowl. Melt them in the microwave in twenty-second bursts, stirring between each, or over double boilers until it’s completely melted and smooth (one may be done before the other)."
+   },
+   {
+    "title": null,
+    "text": "Stir the peppermint oil into the dark chocolate chips, then drizzle the mixture all over the popcorn. Next, drizzle the white chocolate all over (if it has thickened, warm it up for 10 to 20 seconds first). Working quickly, sprinkle the popcorn with the crushed candy canes. Very lightly sprinkle it with flaky salt, if using."
+   },
+   {
+    "title": null,
+    "text": "Transfer the baking sheet to the refrigerator for 15 to 20 minutes or until the chocolate is set completely (it should be snappy when you try to break some off). Break up the popcorn sheet with your hands and serve. The popcorn is best served on the day it’s made but will keep for a few days. Store leftovers in an airtight plastic bag at room temperature."
+   }
+  ],
+  "notes": [
+   "Make it vegan/dairy free: Substitute dairy-free chocolate chips, such as Enjoy Life. You can omit the white chocolate if you can’t find it. Double-check that your candy canes are vegan, if necessary.",
+   "Change it up: This recipe is very flexible. For a lighter treat, omit the white chocolate or use half as much dark chocolate. Or substitute milk chocolate if you prefer a lighter, sweeter chocolate flavor."
+  ],
+  "summary": "Get your chocolate and peppermint fix with this peppermint bark popcorn recipe. Please do make the popcorn on the stove with a bit of oil—it’s really easy and tastes SO much better than microwave or air-popped popcorn. This peppermint bark popcorn is perfect to bring to holiday parties since it is gluten-free and easily vegan (see note). Recipe yields about six cups of popcorn.",
+  "ingredient_groups": []
+ }
 }

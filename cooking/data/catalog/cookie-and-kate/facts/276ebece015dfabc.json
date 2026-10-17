@@ -30,7 +30,49 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/broccoli-rabe-peanut-soba-noodles/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Prepare the broccoli rabe by rinsing it well and patting it dry. Slice off the tough lower ends of the stems and discard. Slice off any remaining stems that are over ¼-inch in diameter and discard those as well, since they will be too fibrous even after cooking."
+   },
+   {
+    "title": null,
+    "text": "Next, prepare the peanut sauce. In a 2-cup liquid measuring cup, whisk together the ingredients until well blended. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Bring a large pot of salted water to boil. Meanwhile, warm 2 tablespoons olive oil in a large skillet over medium heat. Add the broccoli rabe and season with the salt and a small pinch of red pepper flakes. Toss to combine and continue cooking, stirring occasionally, until the leaves have wilted and the stems are easily pierced by a fork, about 8 minutes. Remove from heat."
+   },
+   {
+    "title": null,
+    "text": "Once the water is boiling, add the soba noodles and cook just until al dente, about 5 minutes. Drain the noodles, then return them to the pot, add the broccoli rabe and toss with peanut sauce (you might not quite need all of it) until blended."
+   },
+   {
+    "title": null,
+    "text": "Transfer to a serving bowl or individual bowls and top with a sprinkle of chopped cilantro, a small squeeze of lime juice, a sprinkle of sesame seeds and red pepper flakes, if you’d like some extra heat."
+   }
+  ],
+  "notes": [
+   "Make it vegan: Use agave nectar instead of honey.",
+   "Make it gluten free: Use gluten-free tamari instead of soy sauce and substitute firm gluten-free spaghetti (adjust cooking time accordingly) for the soba noodles.",
+   "Storage suggestions: This dish is best served fresh but will keep well in the refrigerator, covered, for up to three days."
+  ],
+  "summary": "This soba noodle bowl features sautéed broccoli rabe tossed with spicy peanut sauce. It’s a simple weeknight meal that’s hearty, quick and full of healthy greens! Feel free to double the amount of broccoli rabe for extra greens. Recipe yields 2 large or 4 modest servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Soba and broccoli rabe"
+   },
+   {
+    "at": 4,
+    "title": "Peanut sauce"
+   },
+   {
+    "at": 12,
+    "title": "Garnishes"
+   }
+  ]
  },
  "parser_version": 2
 }

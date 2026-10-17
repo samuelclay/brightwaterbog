@@ -28,7 +28,26 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/pumpkin-cookie-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 350 degrees Fahrenheit (175 degrees C). In a medium bowl, whisk together your dry ingredients (flour, baking powder, baking soda, cinnamon, nutmeg, ground cloves, and salt)."
+   },
+   {
+    "title": null,
+    "text": "In another medium bowl, cream together butter and sugar. Add pumpkin, egg, and 1 teaspoon vanilla; beat until creamy. Mix in dry ingredients and stir just until combined. Use a cookie dough scoop or two spoons to drop one tablespoon of dough onto a parchment paper-covered cookie sheet. Flatten each cookie slightly."
+   },
+   {
+    "title": null,
+    "text": "Bake for 15 to 20 minutes. Sprinkle the baked cookies with a light dusting of powdered sugar and transfer the cookies to a rack to cool."
+   }
+  ],
+  "notes": [
+   "Adapted from Gina’s recipe on Allrecipes."
+  ],
+  "summary": "These pumpkin cookies are easy to make and healthier than most. They’re perfect holiday treats! Recipe yields around 30 to 36 cookies.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

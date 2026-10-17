@@ -1,6 +1,56 @@
 {
  "url": "https://cookieandkate.com/vegetable-lettuce-wraps-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Colorful Veggie Lettuce Wraps",
+  "ingredients": [
+   "2 heads of butter lettuce (also called Boston or Bibb lettuce)",
+   "1 ½ cups (12 ounces) edamame hummus (plain hummus is good, too)",
+   "3 cups very thinly sliced crisp vegetables",
+   "¼ cup rice vinegar",
+   "¼ teaspoon salt",
+   "4 ½ ounces soba noodles*",
+   "¾ cup thinly sliced green onions (from about 1 small bunch)",
+   "2 tablespoons sesame seeds, preferably black, plus a few more for garnish",
+   "2 tablespoons reduced-sodium tamari or soy sauce*",
+   "2 teaspoons toasted sesame oil"
+  ],
+  "yield_text": "12 lettuce wraps",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Asian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/vegetable-lettuce-wraps-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a pot of salted water to boil for the soba noodles. Carefully remove about 12 intact lettuce leaves from your heads of lettuce, and set aside (save the smaller leaves and use them in a salad)."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, in a medium bowl, combine the sliced vegetables, vinegar and salt, and toss to combine. Let the mixture marinate, tossing occasionally, for at least 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Cook the soba noodles just until al dente, according to package directions (usually about 4 minutes). Drain the noodles, then return them to the pot (off the heat) and stir in the green onions, sesame seeds, tamari and sesame oil. Set aside."
+   },
+   {
+    "title": null,
+    "text": "To assemble the lettuce wraps, spread a dollop of hummus over the center of a lettuce leaf. Top with a small handful of soba noodles, then pickled veggies. Sprinkle lightly with additional sesame seeds, if desired, and enjoy!"
+   }
+  ],
+  "notes": [
+   "Storage suggestions: If you plan to have leftover lettuce wraps, store individual components separately, and assemble just before serving (otherwise, the lettuce will wilt).",
+   "*Make it gluten free: Use gluten-free tamari (San-J brand is gluten free) and soba noodles (100% buckwheat). Not all tamari and soba noodles are gluten free, so be sure to check the labels."
+  ],
+  "summary": "These healthy vegetable lettuce wraps are colorful and delicious! This recipe is a perfect appetizer or light meal. It’s vegetarian, vegan & easily gluten free (see notes). Recipe yields about 12 lettuce wraps, enough for about 3 main meals or 6 appetizer servings.",
+  "ingredient_groups": []
+ }
 }

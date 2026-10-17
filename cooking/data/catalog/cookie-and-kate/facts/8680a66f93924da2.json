@@ -1,6 +1,53 @@
 {
  "url": "https://cookieandkate.com/cilantro-lime-brown-rice-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Cilantro Lime Brown Rice",
+  "ingredients": [
+   "1 ½ cups long-grain brown rice or brown basmati rice, rinsed",
+   "1 bay leaf",
+   "¼ cup chopped fresh cilantro",
+   "2 tablespoons lime juice (from about 1 lime)*",
+   "1 ½ teaspoons lemon juice (from 1 small lemon)",
+   "1 tablespoon plus 1 teaspoon extra-virgin olive oil",
+   "½ teaspoon fine sea salt"
+  ],
+  "yield_text": "4 1/2 cups",
+  "cook_time": "40 minutes",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cilantro-lime-brown-rice-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a large pot of water to boil over high heat. Pour in the rinsed rice and drop in the bay leaf. Give the mixture a brief stir and let it boil for 30 minutes, reducing the heat if necessary to prevent overflow."
+   },
+   {
+    "title": null,
+    "text": "Drain the rice, return it to the pot, cover, and let it rest for 10 minutes off the heat. Discard the bay leaf and fluff the rice with a fork."
+   },
+   {
+    "title": null,
+    "text": "Add the cilantro, lime juice, lemon juice, olive oil, and salt and stir to combine. Taste and add additional salt if necessary (I usually add an extra ¼ teaspoon). Cover until you’re ready to serve."
+   },
+   {
+    "title": null,
+    "text": "Leftover rice will keep well in the refrigerator, covered, for up to 5 days."
+   }
+  ],
+  "notes": [
+   "Recipe originally published in my cookbook, Love Real Food (page 142).",
+   "Change it up: For some extra protein, stir one can of well-rinsed black beans (or 1 ½ cups cooked black beans) into the rice after cooking."
+  ],
+  "summary": "This cilantro lime brown rice recipe is the perfect side dish for Mexican meals! It tastes just like Chipotle’s, and it’s so easy to make. Recipe yields 4 ½ cups, enough for 4 servings.",
+  "ingredient_groups": []
+ }
 }

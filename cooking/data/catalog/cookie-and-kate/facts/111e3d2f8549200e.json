@@ -30,7 +30,44 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/mexican-kale-quinoa-salad/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the quinoa: Combine the rinsed quinoa and the water in a medium saucepan. Bring the mixture to a boil over medium-high heat, then decrease the heat to maintain a gentle simmer. Cook until the quinoa has absorbed all of the water, about 15 minutes, reducing heat as time goes on to maintain a gentle simmer. Remove from heat, cover, and let the quinoa rest for 5 minutes, which gives it time to fluff up."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, toast the pepitas in a small skillet over medium heat, stirring frequently, until fragrant and making little popping noises, about 5 minutes. Set aside to cool."
+   },
+   {
+    "title": null,
+    "text": "Place the chopped kale in a large serving bowl. Sprinkle it lightly with salt and massage it with your hands by scrunching up large handfuls at a time until it’s darker and more fragrant (this makes the kale more tasty and easier to eat). Add the cooked quinoa, toasted pepitas, drained beans, onions, cilantro, sun-dried tomatoes, feta (if using), and jalapeño(s). Set aside."
+   },
+   {
+    "title": null,
+    "text": "To prepare the dressing, combine the olive oil, 3 tablespoons of lime juice, the cumin and salt in a cup or jar. Whisk until blended. Pour all of the dressing over the salad and stir until the salad is evenly coated. Taste, and add another tablespoon of lime juice (I like this salad to be pretty zippy) and/or more salt, if necessary. For best flavor, let the salad rest for about 15 minutes before serving."
+   },
+   {
+    "title": null,
+    "text": "This salad keeps well, covered and chilled, for about 3 days. You might want to wake up leftovers with an extra squeeze of lime juice and a dash of salt."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by my Herbed Quinoa & Chickpea Salad with Lemon-Tahini Dressing.",
+   "Make it dairy free/vegan: Omit the feta cheese."
+  ],
+  "summary": "Healthy kale and quinoa salad recipe with Mexican flavors, including black beans, pepitas, and a cumin-lime dressing. Gluten free, easily vegan (skip the cheese), and packs great for lunch. Recipe yields 4 medium servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 11,
+    "title": "Cumin-lime dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

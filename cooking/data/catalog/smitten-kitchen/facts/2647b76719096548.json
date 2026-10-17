@@ -29,7 +29,37 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2016/10/skillet-baked-pasta-with-five-cheeses/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a pot of well-salted water to a boil. Add the pasta and cook until very al dente, a full 2 minutes shy of whatever your package says. Try a piece of pasta — it should have a toothsome bite to it because it will continue softening in the oven after this. If it’s still crunchy, however, continue to boil the rest of the pasta for another minute."
+   },
+   {
+    "title": null,
+    "text": "Heat your oven to 500 degrees F."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, in the bottom of a large bowl, combine the five cheeses. Scoop out half and set aside. Whisk milk and tomatoes in the half of cheese left in the large bowl. When pasta is drained, add it to the bowl and stir to combine. Season well with salt and pepper and stir in any herbs you plan to use."
+   },
+   {
+    "title": null,
+    "text": "Coat the sides and bottom of a 12-inch cast-iron or other oven-proof skillet with olive oil. Pour the pasta and sauce in. Sprinkle with remaining cheese. Bake until the top is bubbling and golden brown, 16 to 18 minutes. If it’s not brown enough for your tastes, run it under the broiler for 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Top with scallions and dig in."
+   }
+  ],
+  "notes": [
+   "This is adapted from Matt and Emily Hyland’s version shared on Tasting Table, which was inspired by Al Forno restaurant’s famous “Pasta In The Pink” dish.",
+   "As I mentioned above, to me, this is less rich and luxe than the Rhode Island original, which seems to use more like 2 cups of cream instead of 1 cup of milk. Would you like yours to be more rich or saucy? Try splashing in a little cream to taste, or swapping all or part of the milk with heavy or light (half-and-half) cream. As written, it is saucy but not quite in the puddling way described.",
+   "Because I know many people will ask, you can of course swap and or all of the cheeses with ones you have or prefer. I think the ricotta would be lovely with mascarpone instead (I find it creamier when baked, uh, because it is), you could parmesan instead of pecorino (but I so love a salty funky aged pecorino here) and you could use another cheese for the blue, which I know is divisive. I adore blue cheese (this is our current favorite) but the first time we had this, found it very distracting and thought I might use something else in the dish next time. By the third round of leftovers, however, I was hooked and now wouldn’t want it any other way.",
+   "I didn’t use the rosemary suggested but I might add a few chopped leaves of basil next time stirred right into the pasta, which I’ve seen is part of the original recipe."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

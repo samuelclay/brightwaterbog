@@ -22,7 +22,44 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/quick-roasted-brussels-sprouts-coconut-ginger-sauce/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat your broiler. In a small saucepan over medium heat, combine the coconut milk, ginger, agave nectar and tamari. Add chili garlic sauce, to taste. Whisk the ingredients together and simmer for a couple of minutes to infuse the flavors, stirring often. Remove the pan from heat and stir in the rice vinegar."
+   },
+   {
+    "title": null,
+    "text": "Set a 12-inch cast iron skillet over medium-high heat on the stove. Let it heat up for two to three minutes. It should be so hot that a few drops of water sizzle and quickly disappear after contact."
+   },
+   {
+    "title": null,
+    "text": "Toss the prepared Brussels sprouts with olive oil and salt. Toss well, so that the sprouts are evenly coated in a thin layer of oil. Once the pan is hot, dump the sprouts into the pan and quickly rearrange them so the flat sides are face down. Let them cook for about two minutes, or until they are starting to brown on the bottom."
+   },
+   {
+    "title": null,
+    "text": "Transfer the pan to your broiler. The pan will be heavy and hot so use oven mitts and be careful! Let the Brussels broil for about three minutes. Check the sprouts for doneness—their tops should be a little browned and the bottoms caramelized. How long you should leave them in there depends on your preferences and your oven."
+   },
+   {
+    "title": null,
+    "text": "Transfer the sprouts to a bowl(s), drizzle with coconut ginger sauce and serve."
+   }
+  ],
+  "notes": [
+   "*Make it gluten free: Tamari is a delicious, readily available Japanese soy sauce that is gluten free. Regular soy sauce is not gluten free.",
+   "**Where to buy: You can find chili-garlic sauce in the Asian aisle of the grocery store. I love the stuff. If you can’t find it, you could probably add sriracha, to taste, or just a generous pinch of red pepper flakes."
+  ],
+  "summary": "Tender roasted brussels sprouts tossed in a simple, spicy coconut ginger sauce. This vegan and gluten-free side dish comes together in less than 15 minutes.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Spicy coconut ginger sauce"
+   },
+   {
+    "at": 6,
+    "title": "Brussels sprouts"
+   }
+  ]
  },
  "parser_version": 2
 }

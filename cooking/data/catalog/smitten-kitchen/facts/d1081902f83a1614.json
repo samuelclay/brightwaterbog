@@ -22,7 +22,20 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2007/01/a-monday-kind-of-salad/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 325°F. Spray baking sheet with nonstick spray. Combine corn syrup and next 4 ingredients in large bowl. Stir to blend. Add pecans; stir gently to coat. Transfer to baking sheet."
+   },
+   {
+    "title": null,
+    "text": "Place large piece of foil on work surface. Bake pecans 5 minutes. Using fork, stir pecans to coat with melted spice mixture. Continue baking until pecans are golden and coating bubbles, about 10 minutes. Transfer to foil. Working quickly, separate nuts with fork. Cool. (Can be made 3 days ahead. Store airtight at room temperature.)"
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

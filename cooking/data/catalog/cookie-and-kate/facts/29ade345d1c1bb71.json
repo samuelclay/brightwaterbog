@@ -22,7 +22,22 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/blue-cheese-dip-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small serving bowl, combine all of the ingredients and stir to combine. Taste, and add more salt and pepper, if desired."
+   },
+   {
+    "title": null,
+    "text": "Garnish with a light sprinkle of crumbled blue cheese and chives. This dip tastes great immediately, but gets even better after a short rest. Serve as desired. Leftovers keep in the refrigerator, covered, for up to four days."
+   }
+  ],
+  "notes": [
+   "Change it up: For a different flavor profile, try feta instead of blue cheese."
+  ],
+  "summary": "This blue cheese dip is creamy and irresistible, and so easy to make. Serve with Buffalo Cauliflower , bell pepper, celery, or carrot sticks. Recipe yields about 2 cups.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

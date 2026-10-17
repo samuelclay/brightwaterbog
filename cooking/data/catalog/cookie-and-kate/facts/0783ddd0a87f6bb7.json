@@ -28,7 +28,41 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/sun-dried-tomato-spinach-quinoa-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the quinoa: Combine the rinsed quinoa and 2 cups water in a medium saucepan. Bring the mixture to a boil over medium-high heat, then decrease the heat to maintain a gentle simmer. Cook until the quinoa has absorbed all of the water, about 15 minutes, reducing heat as time goes on to maintain a gentle simmer. Remove from heat, cover, and let the quinoa rest for 5 minutes, which gives it time to fluff up."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, to prepare the dressing: Whisk together the olive oil, lemon juice, garlic, mustard, salt and red pepper flakes. Season to taste with freshly ground black pepper."
+   },
+   {
+    "title": null,
+    "text": "To toast the almonds: Warm ¼ teaspoon olive oil in a small skillet over medium heat until shimmering. Add the almonds and a dash of salt and cook, stirring frequently (beware, these burn quickly!), until they are golden and fragrant. Transfer the toasted almonds to a medium-sized serving bowl to cool."
+   },
+   {
+    "title": null,
+    "text": "Once the quinoa is done cooking, fluff it with a fork and then transfer it into your serving bowl. Drizzle all of the dressing on top and toss to combine. Add the chopped sun-dried tomatoes and wait a few more minutes to add the spinach so it doesn’t wilt completely. Toss again, season to taste with additional salt and pepper, if necessary, and serve immediately."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by a quinoa salad at Whole Foods Market.",
+   "Make it nut free: Replace the almonds with pepitas (green pumpkin seeds). Sunflower seeds might be nice, as would pine nuts if you aren’t sensitive to them (they are technically seeds).",
+   "Storage suggestions: This quinoa will keep well, covered and refrigerated, for several days. Gently reheat or serve chilled."
+  ],
+  "summary": "This simple spinach quinoa salad is full of fresh Mediterranean flavors, including lemon, sun-dried tomatoes and toasted almonds! It’s vegan and gluten free, too, so it’s a great potluck option. Recipe yields 4 side servings or 2 main dish-sized servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 6,
+    "title": "Lemon dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

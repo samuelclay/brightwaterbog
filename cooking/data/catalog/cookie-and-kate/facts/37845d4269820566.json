@@ -1,6 +1,69 @@
 {
  "url": "https://cookieandkate.com/cowboy-caviar-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Healthy Cowboy Caviar",
+  "ingredients": [
+   "2 cans (14 ounces each) black-eyed peas, rinsed and drained, or 3 cups cooked black-eyed peas",
+   "1 can (14 ounces) black beans, rinsed and drained, or 1 ½ cups cooked black beans",
+   "1 ½ cups fresh or defrosted frozen corn kernels (about 2 ears of corn), or 1 can (14 ounces) corn, drained",
+   "1 ½ cups chopped ripe tomatoes (about ¾ pound)",
+   "1 medium red, orange or yellow bell pepper, chopped",
+   "¾ cup chopped red onion (about ½ small red onion)",
+   "½ cup chopped cilantro, leaves and stems",
+   "1 to 2 jalapeños, ribs removed, seeded and finely chopped",
+   "1 avocado (optional)",
+   "⅓ cup olive oil",
+   "3 tablespoons red wine vinegar or lime juice",
+   "2 medium cloves garlic, pressed or minced",
+   "1 to 1 ½ teaspoons salt, to taste",
+   "1 teaspoon dried oregano",
+   "½ teaspoon dried basil",
+   "1 teaspoon maple syrup or honey",
+   "⅛ teaspoon red pepper flakes",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "8 cups",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Southern"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cowboy-caviar-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large serving bowl, combine the drained black-eyed peas, black beans, corn, chopped tomatoes, bell pepper, onion, cilantro and jalapeño. If you’ll be including avocado, wait to dice it until you’re ready to serve the dip, so it doesn’t turn brown in the meantime."
+   },
+   {
+    "title": null,
+    "text": "In a cup, whisk together the dressing ingredients until well blended. Drizzle the dressing over the serving bowl and toss until well mixed. Season to taste with additional salt and pepper. If you’d like the salad to have more of a pickled flavor, add another tablespoon of vinegar, or for more richness, add another tablespoon or two of olive oil."
+   },
+   {
+    "title": null,
+    "text": "For best flavor, let the mixture marinate for at least 20 minutes before serving. If you’re adding avocado, mix it in just before serving."
+   }
+  ],
+  "notes": [
+   "Serving suggestions: Don’t forget the chips! I also like to turn this dip into a green salad by serving it on lettuce with a squeeze of lime, some crumbled feta and a sprinkle of crushed corn chips or toasted pepitas.",
+   "Storage suggestions: This dip keeps well in the refrigerator, covered, for up to 4 days."
+  ],
+  "summary": "This cowboy caviar recipe (also known as Texas caviar) is made from scratch with all-natural ingredients! Serve it as a dip, salsa or salad—it’ll be a hit at your next party. Recipe yields a lot of “caviar,” about 8 cups.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Cowboy caviar"
+   },
+   {
+    "at": 9,
+    "title": "Italian dressing"
+   }
+  ]
+ }
 }

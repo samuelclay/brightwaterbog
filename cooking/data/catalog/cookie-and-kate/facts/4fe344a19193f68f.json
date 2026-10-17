@@ -19,7 +19,20 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/rosemary-parmesan-sweet-potato/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bake your sweet potato: scrub it with a vegetable brush and throw it in the oven at 400 degrees for about 45 minutes. I didn’t even bother poking holes in the potato beforehand."
+   },
+   {
+    "title": null,
+    "text": "Slice the potato lengthwise, and squish the ends toward the middle a bit to open it up. Fill with remaining ingredients (amounts given above are approximate, use your best judgment)."
+   }
+  ],
+  "notes": [],
+  "summary": "A simple, savory baked sweet potato. This sweet potato would be fantastic as a side dish or accompanied by a giant green salad.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

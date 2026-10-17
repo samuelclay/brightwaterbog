@@ -1,6 +1,65 @@
 {
  "url": "https://cookieandkate.com/baked-pumpkin-dip-with-goat-cheese/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Baked Pumpkin Dip with Goat Cheese",
+  "ingredients": [
+   "10 ounces goat cheese",
+   "2 ounces cream cheese",
+   "¼ cup pumpkin purée (not pumpkin pie filling)",
+   "1 teaspoon pumpkin spice blend",
+   "1 tablespoon honey, plus more for drizzling",
+   "1 small-to-medium garlic clove, sliced into several pieces",
+   "¼ teaspoon fine salt",
+   "10 twists of freshly ground black pepper",
+   "⅛ teaspoon red pepper flakes, to taste (optional)",
+   "For serving: Crusty sourdough or crostini or toasted pita wedges"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/baked-pumpkin-dip-with-goat-cheese/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit with a rack in the upper third of the oven."
+   },
+   {
+    "title": null,
+    "text": "In a food processor, combine the goat cheese, cream cheese, pumpkin purée, honey, garlic, salt, pepper, and red pepper flakes (if using)."
+   },
+   {
+    "title": null,
+    "text": "Process until the mixture comes together completely and is lightly whipped, about 2 minutes, pausing to scrape down the sides and base as necessary. The mixture will ball up in the food processor and eventually smooth itself out. If in doubt, process a little longer."
+   },
+   {
+    "title": null,
+    "text": "Taste and adjust as necessary—add another pinch of red pepper flakes for more heat, or another teaspoon or two of honey if you’d like it sweeter (we will drizzle it with more honey next, so the finished dip will be a little sweeter than you’re tasting now)."
+   },
+   {
+    "title": null,
+    "text": "Transfer the dip to a small oven-safe baking dish with a 3- to 4-cup (1 quart) capacity. Spread it evenly across the base of the dish, leaving some texture on top. Drizzle it with 1 teaspoon of additional honey."
+   },
+   {
+    "title": null,
+    "text": "Bake the dip on the upper rack for 13 to 15 minutes, until the top is turning lightly golden in places and bubbling and puffed around the edges. Drizzle it with another teaspoon or two of honey, and let it cool for about 5 minutes (it’s hot). Serve with your desired accompaniments."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: The dip is gluten-free, so choose gluten-free accompaniments like crackers.",
+   "Cream cheese note: The cream cheese makes this dip more creamy and luscious. Without it, the pumpkin and spice flavors taste bolder, which you might love if you’re a big fan. I did not need to let the cream cheese or goat cheese warm to room temperature before blending them in my Cuisinart food processor.",
+   "Leftover pumpkin? See the post for more recipes to make or store the rest in a freezer bag for up to 6 months."
+  ],
+  "summary": "This pumpkin dip recipe straddles the line between sweet and savory! Pumpkin purée blended with goat cheese and pumpkin spice makes an irresistible dip. Recipe yields about 2 cups, enough for 4 to 6 appetizer servings.",
+  "ingredient_groups": []
+ }
 }

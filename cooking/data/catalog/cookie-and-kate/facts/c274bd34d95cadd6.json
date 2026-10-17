@@ -27,7 +27,56 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/toasted-oatmeal-strawberry-chia-jam-coconut-whipped-cream/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "The strawberry chia jam takes the longest to make, so let’s start with the jam: In a medium saucepan, combine the berries (no need to defrost if they are frozen) and sweetener. Cover and bring to a simmer over medium heat, stirring frequently. Once the berries are warmed throughout and saucy (5 minutes or more), lightly mash the berries with a potato masher or fork."
+   },
+   {
+    "title": null,
+    "text": "Reduce the heat to medium low. Stir in the chia seeds and cook, stirring frequently, until the jam is reduced and looking, for lack of better term, jammy (15 to 20 minutes). Note that the jam will further thicken up as it cools. Remove the pan from heat and add more sweetener if you’d like."
+   },
+   {
+    "title": null,
+    "text": "Make the oatmeal: Melt the coconut oil/butter in a large skillet over medium heat. Add the oats and toast over medium heat, stirring occasionally, until they start smelling fragrant and toasty, around 6 to 8 minutes."
+   },
+   {
+    "title": null,
+    "text": "In a large, heavy bottomed pot, combine the milk, water, salt, cinnamon and ginger. Bring the mixture to a slow boil over medium heat. Add the toasted oats and gently stir once or twice to incorporate the oats into the liquid. Cover the pot and turn off the heat. Let the oats sit on the burner, untouched, for 7 minutes. After 7 minutes, uncover and check the oats. Mine were perfectly done at this point, but if yours are wetter than you’d like, let them continue to absorb water in a covered pot for a few more minutes."
+   },
+   {
+    "title": null,
+    "text": "Make the coconut whipped cream: Pull out the chilled can of coconut milk and mixing bowl. The coconut cream should have separated from the liquid by now. Flip the can over and open it from the bottom with a can opener. Pour out the coconut water (reserve for smoothies if you’d like)."
+   },
+   {
+    "title": null,
+    "text": "Scoop the solid coconut cream into the chilled bowl. Using an electric hand mixer, beat the cream until fluffy and smooth. Add the sweetener and vanilla extract and gently blend again to combine. Use the coconut cream immediately or cover and store in the fridge for later (it will be soft at room temperature and firm when cold)."
+   }
+  ],
+  "notes": [
+   "Oatmeal recipe adapted from Megan Gordan’s Whole-Grain Mornings cookbook. Chia jam and coconut whipped cream cooking techniques adapted from Angela Liddon’s forthcoming The Oh She Glows Cookbook. (You can pre-order it now! Angela has a step-by-step coconut whipped cream tutorial here and a recipe for blueberry vanilla chia jam here.)",
+   "*On using frozen berries: I really recommend frozen berries for this jam. They break down especially well once heated and taste better than off-season berries. Angela says that fresh strawberries don’t break down as well as other berries, so if you’re using fresh strawberries, she recommends breaking them down in a food processor before cooking.",
+   "Recipe yields 2 very large or 4 moderate portions. Store leftover components separately in the refrigerator, covered. You might want to add a bit of water while reheating the oats.",
+   "Make it gluten free: Use certified gluten-free oats.",
+   "Make it vegan: Use coconut oil instead of butter and maple syrup or agave nectar instead of honey.",
+   "If you want to add more protein to this breakfast, top your oatmeal with nuts and/or Greek yogurt."
+  ],
+  "summary": "Three healthy recipes in one bowl: the best toasted oatmeal, (frozen) strawberry chia jam and coconut whipped cream. This breakfast is easily vegan and gluten free (see notes). If you’re making the coconut whipped cream, be sure to chill your coconut milk overnight, and place your mixing bowl in the freezer at least 30 minutes.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Strawberry chia jam (yields about 1 cup, you might want to double these amounts so you’ll have more for later)"
+   },
+   {
+    "at": 3,
+    "title": "Toasted oatmeal"
+   },
+   {
+    "at": 11,
+    "title": "Coconut whipped cream"
+   }
+  ]
  },
  "parser_version": 2
 }

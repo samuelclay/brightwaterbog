@@ -28,7 +28,20 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2012/04/pasta-with-garlicky-broccoli-rabe/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "To serve: Grated Parmesan or Romano cheese (omit, of course, if keeping the dish vegan)"
+   },
+   {
+    "title": null,
+    "text": "Bring a huge pot of salted water to a boil. Add pasta and five minutes before its cooking time is up, add the broccoli rabe. It will seem like too much for the water, but with a stir or two, the rabe should wilt and cook alongside the pasta. Drain rabe and pasta together and pour into serving bowl. In the same pot or a tiny one, heat the olive oil with the garlic, pepper flakes and Kosher salt over moderate heat, stirring frequently for 3 to 4 minutes, or until the garlic becomes lightly golden. Pour mixture over pasta and toss to evenly coat. Shower with freshly grated cheese and eat at once."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

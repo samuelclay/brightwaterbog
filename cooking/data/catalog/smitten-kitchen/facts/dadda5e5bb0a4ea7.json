@@ -26,7 +26,24 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2010/08/zucchini-and-almond-pasta-salad/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Further additions, if you wish: 1/2 cup crumbled feta or blue cheese (replacing parmesan), 1/4 red onion, thinly sliced (you can let this marinate in the dressing for a few minutes, to reduce its bite), 1/4 pound fresh arugula or 1/4 cup thinly slivered basil or 1 cup white beans, rinsed and drained"
+   },
+   {
+    "title": null,
+    "text": "Toss zucchini slices with one teaspoon salt in a large colander set over a bowl or in sink. Let drain 20 minutes. If they taste too salty to you, rinse and drain them again."
+   },
+   {
+    "title": null,
+    "text": "Stir zucchini, parmesan, almonds and pasta together. Whisk together olive oil and lemon juice, seasoning generously with black pepper and salt to taste. Toss with salad and adjust seasonings to taste. Pack up salad and take it with you to the beach."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

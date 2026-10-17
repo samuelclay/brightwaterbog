@@ -34,7 +34,62 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/southwestern-kale-power-salad/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the quinoa: First, rinse the quinoa in a fine mesh colander under running water for a minute or two. In a medium-sized pot, combine the rinsed quinoa and 2 cups water. Bring the mixture to a gentle boil, then cover the pot, reduce heat to a simmer and cook for 15 minutes. Remove the quinoa from heat and let it rest, still covered, for 5 minutes. Uncover the pot, drain off any excess water and fluff the quinoa with a fork. Set it aside to cool."
+   },
+   {
+    "title": null,
+    "text": "To cook the sweet potatoes: In a large skillet, warm the olive oil over medium heat. Add the chopped sweet potatoes and toss to coat, then add the cumin, smoked paprika and salt. Stir to combine. Once the pan is sizzling, add a scant ¼ cup water, then cover the pan and reduce heat to low to avoid burning the contents. Cook, stirring occasionally, until the sweet potato is easily pierced through with a fork, about 7 to 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Uncover the pan, raise the heat back to medium and cook until the excess moisture has evaporated and the sweet potatoes are caramelizing on the edges, about 3 to 7 minutes (add another little splash of olive oil if the potatoes start sticking to the pan). Set aside to cool."
+   },
+   {
+    "title": null,
+    "text": "To prepare the kale: Transfer the kale to a large mixing bowl. Sprinkle the chopped kale with salt and use your hands to “massage” it, which improves the flavor. Just grab handfuls of kale in your hands and scrunch it up in your palms. Repeat until the kale is darker green in color and more fragrant. Whisk together 2 tablespoons olive oil, the juice of 1 lime and ½ teaspoon salt. Drizzle over the kale and toss to coat."
+   },
+   {
+    "title": null,
+    "text": "To make the avocado sauce: Combine the ingredients as listed in a food processor or blender. Blend well, add more lime juice if desired, and season with salt, to taste."
+   },
+   {
+    "title": null,
+    "text": "To toast the pepitas: In a small skillet over medium-low heat, toast the pepitas, stirring frequently, until they are turning lightly golden on the edges and starting to make little popping noises, about 3 to 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Once the quinoa has cooled down a bit, pour it into the bowl of kale and toss to combine. Divide the kale and quinoa mixture into four large salad bowls. Top with sweet potatoes, black beans, a big dollop of avocado sauce, and a sprinkle of feta and pepitas."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Omit the feta.",
+   "Storage suggestions: This salad keeps well, covered and refrigerated, for a few days. To keep the avocado sauce from browning, store it separately in a small bowl—either press plastic wrap against the top surface or add a wedge of raw onion.",
+   "Change it up: Butternut squash or carrots would be good substitutions for the sweet potatoes.",
+   "Edits January 11, 2024: Adjusted avocado sauce by omitting 2 tablespoons olive oil (unnecessary), decreasing the salt for the sweet potatoes from 1 ½ teaspoons to ½ teaspoon, and specifying the amounts of lime juice and salt."
+  ],
+  "summary": "Healthy kale and quinoa power salad with spicy sweet potato, black beans and creamy avocado sauce. If your lime are particularly big, scale back. This gluten-free, vegetarian (easily vegan) salad packs well for lunch, too! Recipe yields 4 generous salads or 6 medium.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Quinoa and kale"
+   },
+   {
+    "at": 5,
+    "title": "Sweet potatoes"
+   },
+   {
+    "at": 10,
+    "title": "Avocado sauce"
+   },
+   {
+    "at": 16,
+    "title": "Everything else"
+   }
+  ]
  },
  "parser_version": 2
 }

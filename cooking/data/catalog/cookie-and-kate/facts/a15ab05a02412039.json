@@ -1,6 +1,50 @@
 {
  "url": "https://cookieandkate.com/arugula-pesto/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Arugula Pesto",
+  "ingredients": [
+   "½ cup walnut or pecan halves, almonds or pepitas",
+   "2 ½ ounces fresh arugula (about 3 cups, loosely packed—thick stems removed if not using baby arugula)",
+   "½ cup (1 ¼ ounces) freshly grated Parmesan cheese",
+   "2 medium garlic cloves, peeled and roughly chopped",
+   "1 to 2 tablespoons lemon juice",
+   "¼ teaspoon fine salt, to taste",
+   "½ cup extra-virgin olive oil"
+  ],
+  "yield_text": "1 cup",
+  "cook_time": "15 minutes",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/arugula-pesto/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large skillet over medium heat, toast the walnuts, stirring frequently, until fragrant, about three to five minutes. Transfer them to the bowl of a food processor and let them cool for a few minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the arugula, Parmesan, garlic, 1 tablespoon lemon juice and salt. Process the mixture while drizzling in the olive oil, until it is mostly smooth."
+   },
+   {
+    "title": null,
+    "text": "Transfer the pesto to a bowl. Taste and add more lemon juice, for zing (up to 1 tablespoon), or salt, for overall flavor. Use as desired. Leftover pesto keeps well in the refrigerator, covered, for up to 1 week. Or, freeze it for up to 6 months. (I like to freeze pesto in ice cube trays. Once frozen, pop out the cubes and store in a freezer-safe bag.)"
+   }
+  ],
+  "notes": [
+   "How to toss pesto with pasta: Place a liquid measuring cup in the sink before you drain your pasta. Then, pour about 1 cup of the pasta cooking water into the measuring cup before you drain off the rest of the water. That pasta cooking water is pure gold—it contains starches that create a creamy emulsion and help attach the sauce to the pasta. Off the heat, toss pasta, pesto and small splashes of pasta cooking water together until you’re satisfied with the consistency (I used roughly ⅓ cup reserved pasta cooking water for ½ pound of spaghetti).",
+   "Make it dairy free/vegan: Omit the Parmesan. You might like to finish your dish with a sprinkle of my vegan Parmesan.",
+   "Make it nut free: Substitute pepitas (green pumpkin seeds) for the nuts. They will toast more quickly—they’re done when they’re turning golden on the edges and making little popping sounds. Or, try hemp hearts instead."
+  ],
+  "summary": "Arugula basil is a simple and delicious twist on classic basil pesto! This recipe is easy to make, affordable and full of fresh flavor. Recipe yields just over 1 cup pesto, which is enough to toss with 8 to 12 ounces of pasta, depending on how saucy you like it. Double the recipe to use an entire container of arugula (you can freeze the leftovers).",
+  "ingredient_groups": []
+ }
 }

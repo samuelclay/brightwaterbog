@@ -1,6 +1,60 @@
 {
  "url": "https://cookieandkate.com/vegan-tomato-and-lentil-curry/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Tomato and Lentil Curry",
+  "ingredients": [
+   "1 tablespoon olive oil",
+   "1 yellow or white onion, chopped",
+   "3 cloves garlic, pressed or minced",
+   "1 tablespoon minced fresh ginger",
+   "1 jalapeño pepper, minced",
+   "2 tablespoons curry powder",
+   "1 teaspoon ground cumin",
+   "Pinch of sugar",
+   "2 Yukon gold potatoes, peeled and chopped",
+   "1 carrot, chopped",
+   "Salt and black pepper",
+   "1 cup black beluga lentils or regular green/brown lentils, picked over for debris and rinsed",
+   "3 cups vegetable broth",
+   "1 cup light coconut milk, plus more for garnish",
+   "1 large can (28 ounces) diced tomatoes",
+   "1 small cauliflower, cored and roughly chopped",
+   "¼ cup chopped fresh cilantro, for garnish",
+   "Cooked brown jasmine or long-grain rice, for serving (optional)",
+   "Lime wedges, for serving"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "1 hour",
+  "categories": [
+   "Stew"
+  ],
+  "cuisines": [
+   "Indian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/vegan-tomato-and-lentil-curry/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Warm the oil in a large pot or Dutch oven over medium-high heat. When it’s hot, add the onion, garlic, ginger, and jalapeño. Cook until softened, about 3 to 5 minutes, stirring occasionally. Stir in the curry powder, cumin, and sugar. Cook and stir until fragrant, about 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Add the potatoes and carrot and sprinkle with salt and pepper. Cook, stirring for a minute or two. Add the lentils, broth, coconut milk and tomatoes with their liquid. Bring the mixture to a boil, then lower the heat so the mixture bubbles gently. Cook, stirring occasionally, until the potatoes and carrots are soft, about 15 to 20 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the cauliflower and adjust the heat so that the mixture bubbles gently. Cook until all of the vegetables are tender, about 15 more minutes. Serve in bowls with an extra drizzle of coconut milk, chopped cilantro, and a wedge of lime."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from The Food Matters Cookbook by Mark Bittman."
+  ],
+  "summary": "This is a hearty, bold, veggie-packed curry stew with lentils. It’s vegan and good for you, too! Recipe yields 4 to 6 servings.",
+  "ingredient_groups": []
+ }
 }

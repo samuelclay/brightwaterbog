@@ -20,7 +20,43 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/raspberry-daiquiri/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Prepare your glass by running a lime wedge around the rim of a martini glass. Dip the top of the glass into a plate sprinkled with sugar."
+   },
+   {
+    "title": null,
+    "text": "In a mixing glass, muddle the raspberries with the lime juice and sugar."
+   },
+   {
+    "title": null,
+    "text": "Add rum and lots of ice. Shake well."
+   },
+   {
+    "title": null,
+    "text": "Pour the mixture through a sieve into a martini glass. The sieve helps catch the raspberry seeds."
+   },
+   {
+    "title": null,
+    "text": "Garnish with a lime twist (optional). Cheers!"
+   }
+  ],
+  "notes": [
+   "Adapted from the strawberry daiquiri recipe in Market-Fresh Mixology."
+  ],
+  "summary": "Raspberry daiquiri recipe made with fresh, natural ingredients. Cool down with this beautiful summer cocktail.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per cocktail"
+   },
+   {
+    "at": 5,
+    "title": "For the rim"
+   }
+  ]
  },
  "parser_version": 2
 }

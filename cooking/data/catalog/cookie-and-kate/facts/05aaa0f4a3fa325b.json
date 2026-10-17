@@ -33,7 +33,57 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/spicy-thai-peanut-sauce-over-roasted-sweet-potatoes-and-rice/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Prep: Bring a large pot of water to boil. Preheat the oven to 425 degrees Fahrenheit with a rack in the middle and another rack near the top."
+   },
+   {
+    "title": null,
+    "text": "Roast the vegetables: On a large, rimmed baking sheet, toss the sweet potato with a generous tablespoon of coconut oil, the cumin and a sprinkle of salt. Arrange them in a single layer, and set aside."
+   },
+   {
+    "title": null,
+    "text": "On a separate, smaller baking sheet, toss the bell pepper with about 1 teaspoon of coconut oil and a sprinkle of salt. Toss until lightly coated, and arrange them in a single layer."
+   },
+   {
+    "title": null,
+    "text": "Roast the sweet potatoes on the middle rack for about 35 minutes, tossing halfway, and roast the peppers on the top rack for about 20 minutes, tossing halfway. The vegetables will be tender and caramelized on the edges when they are ready."
+   },
+   {
+    "title": null,
+    "text": "In the meantime, cook the rice: Once the water is boiling, pour in the rice and give it a stir. Boil the rice for 30 minutes, then turn off the heat and drain the rice. Return the rice to the pot and cover the pot. Let the rice steam that way for 10 minutes. Remove the lid, fluff the rice with a fork and season with salt to taste."
+   },
+   {
+    "title": null,
+    "text": "Make the sauce: In a bowl, whisk together the sauce ingredients. If the sauce is too thick or too spicy, whisk in a little more water."
+   },
+   {
+    "title": null,
+    "text": "Serve: In bowls, divide the rice and roasted vegetables. Drizzle each bowl generously with sauce, and top with a sprinkle of green onions, cilantro and peanuts."
+   }
+  ],
+  "notes": [
+   "Storage suggestions: Leftover sauce should keep well, refrigerated and covered, for a couple of weeks. Wake up the flavors with a little bit of apple cider vinegar or tamari if necessary.",
+   "Make it gluten free: Tamari is a Japanese soy sauce that has a great flavor and is gluten free, unlike most other soy sauces. I like the San-J brand.",
+   "Make it vegan: Use maple syrup instead of honey for vegan sauce."
+  ],
+  "summary": "Bold and spicy Thai peanut sauce drizzled over roasted sweet potatoes and bell peppers on a bed of rice. The sauce would also be great on stir-fries and salads, or as a dip for raw vegetables. This is a healthy vegetarian, vegan and gluten-free recipe.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Spicy Thai Peanut Sauce"
+   },
+   {
+    "at": 8,
+    "title": "Roasted vegetables"
+   },
+   {
+    "at": 13,
+    "title": "Rice and garnishes"
+   }
+  ]
  },
  "parser_version": 2
 }

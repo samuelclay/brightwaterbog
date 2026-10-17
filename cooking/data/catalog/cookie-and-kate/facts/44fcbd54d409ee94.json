@@ -32,7 +32,52 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/roasted-eggplant-tomato-orzo-pasta-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 400 degrees Fahrenheit with one rack in the middle of the oven and the other rack in the upper third of the oven. Line 1 large, rimmed baking sheet and 1 small, rimmed baking sheet with parchment paper for easy cleanup."
+   },
+   {
+    "title": null,
+    "text": "On the large baking sheet, toss the cubed eggplant with 2 tablespoons olive oil and a sprinkle of salt and pepper. Arrange the eggplant in a single layer. Roast on the middle rack until the eggplant is tender and deeply golden on the edges, about 25 minutes, tossing halfway."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, on the smaller baking sheet, toss the halved tomatoes with 1 teaspoon olive oil and a sprinkle of salt and pepper. Wait to place the pan of tomatoes on the top rack until you return the eggplant to the oven after tossing. Roast until the tomatoes are tender and a little wrinkled, about 12 minutes. (So in an ideal situation, the eggplant and tomatoes will be done roasting at the same time.)"
+   },
+   {
+    "title": null,
+    "text": "Bring a large pot of salted water to boil. Add the orzo, give it a stir and cook until al dente, about 9 minutes. Reserve about 1 cup cooking water, then drain the orzo and transfer it to a large serving bowl."
+   },
+   {
+    "title": null,
+    "text": "To prepare the dressing, whisk together the olive oil, lemon juice, garlic, salt, red pepper flakes and freshly ground black pepper. Drizzle it over the warm orzo and toss to coat. Add the roasted eggplant, tomatoes, feta, basil, parsley and pine nuts. Toss to combine. If the pasta seems dry, add a couple of tablespoons of the reserved pasta cooking water and/or a little more olive oil. Season to taste with additional salt (mine needed ¼ teaspoon more) and pepper. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Omit the feta. You might want to add some thinly sliced, pitted Kalamata olives to make up for feta’s salty punch.",
+   "Make it gluten free: Substitute a small gluten-free pasta for the orzo and cook according to package directions."
+  ],
+  "summary": "Roasted eggplant, cherry tomatoes and orzo combine in this light pasta dish. It’s a great weeknight dinner recipe for summer and early fall! If you can’t find whole wheat orzo, try rotini or fusilli or another small pasta shape. Recipe yields 4 to 6 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted eggplant"
+   },
+   {
+    "at": 3,
+    "title": "Roasted tomatoes"
+   },
+   {
+    "at": 6,
+    "title": "Everything else"
+   },
+   {
+    "at": 11,
+    "title": "Lemon-garlic dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

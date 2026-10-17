@@ -1,6 +1,73 @@
 {
  "url": "https://cookieandkate.com/thai-panang-curry-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Thai Panang Curry with Vegetables",
+  "ingredients": [
+   "Optional: 1 batch crispy baked tofu",
+   "Optional: 1 ¼ cups brown jasmine rice or long-grain brown rice, rinsed",
+   "1 tablespoon coconut oil or olive oil",
+   "1 small white or yellow onion, chopped (about 1 cup)",
+   "Pinch of salt, more to taste",
+   "1 red bell pepper, sliced into thin (¼” wide) strips",
+   "1 yellow, orange or green bell pepper, sliced into thin (¼” wide) strips",
+   "3 carrots, peeled and sliced on the diagonal into ¼” thick rounds (about 1 cup)",
+   "2 cloves garlic, pressed or minced",
+   "1 to 2 tablespoons panang curry paste* (use 1 for mild or 2 for spicy)",
+   "1 can (14 ounces) regular coconut milk",
+   "½ cup water",
+   "2 tablespoons peanut butter",
+   "1 tablespoon tamari or soy sauce**",
+   "1 ½ teaspoons coconut sugar or brown sugar",
+   "2 teaspoons fresh lime juice, to taste",
+   "Optional garnishes: fresh Thai basil or regular basil, sriracha or chili garlic sauce for extra spice"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "45 minutes",
+  "categories": [
+   "Main Dish"
+  ],
+  "cuisines": [
+   "Thai"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/thai-panang-curry-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "If you’d like to serve rice with your curry (optional): Bring a large pot of water to boil. Add the rinsed rice and continue boiling for 30 minutes, reducing heat as necessary to prevent overflow. Remove from heat, drain the rice and return the rice to pot. Cover and let the rice rest for 10 minutes or longer, until you’re ready to serve. Just before serving, season the rice to taste with salt and fluff it with a fork."
+   },
+   {
+    "title": null,
+    "text": "To make the curry, warm a large skillet with deep sides over medium heat. Once it’s hot, add the oil. Add the onion and a sprinkle of salt and cook, stirring often, until the onion has softened and is turning translucent, about 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the bell peppers and carrots. Cook until the bell peppers are easily pierced through by a fork, 3 to 5 more minutes, stirring occasionally. Add the garlic and curry paste and cook, while stirring, for 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Add the coconut milk and water, and stir to combine. Bring the mixture to a simmer over medium heat. Reduce heat as necessary to maintain a gentle simmer and cook until the peppers and carrots have softened to your liking, about 5 to 10 minutes, stirring occasionally. If you’re adding crispy tofu, stir it in now."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from the heat. Stir in the peanut butter, tamari, sugar and lime juice. Add salt, to taste (I usually add a pinch or two). If the curry needs a little more punch, add ½ teaspoon more tamari, or for more acidity, add ½ teaspoon more lime juice."
+   },
+   {
+    "title": null,
+    "text": "Divide rice and curry into bowls and garnish with fresh basil, if using. If you love spicy curries, serve with sriracha or chili garlic sauce on the side."
+   }
+  ],
+  "notes": [
+   "*Panang curry paste: You might find it in the Asian section of the grocery store. You will definitely find it at Asian grocery stores or you can buy it online like I did. Two brands I like are A Taste of Thai and Maesri, which are both vegan/vegetarian. Not all brands are (they can contain fish sauce and/or shrimp paste).",
+   "**Make it gluten free: Be sure to use gluten-free tamari instead of regular soy sauce. Double-check your curry paste to make sure it’s gluten free, too.",
+   "Make it vegan: Make sure your curry paste is free of shellfish and fish sauce. See the recommendations provided above.",
+   "Make it nut free: Omit the peanut butter, and verify that your curry paste is nut free."
+  ],
+  "summary": "This Thai panang curry recipe is so easy to make at home and tastes better than take-out! This recipe is full of veggies and fresh flavor, and the tofu is optional. Recipe yields 4 servings.",
+  "ingredient_groups": []
+ }
 }

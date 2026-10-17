@@ -1,6 +1,44 @@
 {
  "url": "https://cookieandkate.com/pickle-dip-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Dill Pickle Dip",
+  "ingredients": [
+   "16 ounces (2 cups) sour cream or plain Greek yogurt",
+   "1 ¼ cups chopped dill pickles",
+   "2 tablespoons pickle brine",
+   "2 tablespoons chopped fresh dill, plus more for garnish",
+   "2 tablespoons chopped fresh chives, plus more for garnish",
+   "Freshly ground black pepper, to taste",
+   "Serving suggestions: Wavy potato chips, and sticks of carrot, celery or bell pepper"
+  ],
+  "yield_text": "3 1/2 cups",
+  "cook_time": "10 minutes",
+  "categories": [
+   "Dip"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pickle-dip-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small serving bowl, combine the sour cream, chopped pickles, brine, dill and chives. Stir to combine, then season with a few twists of black pepper, to taste."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle the top lightly with chopped chives, dill and another twist of pepper. Serve as desired. Leftover pickle dip will keep well in the refrigerator, covered, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Substitute my vegan sour cream. Double the recipe to yield 2 cups."
+  ],
+  "summary": "This dill pickle dip recipe is creamy, rich and full of fresh flavor! It’s a relatively healthy homemade dip that’s ready in 10 minutes. This dip is perfect for game day watch parties or a fun snack. Recipe yields about 3 ½ cups dip, enough for 7 to 10 servings.",
+  "ingredient_groups": []
+ }
 }

@@ -28,7 +28,26 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2010/01/barley-risotto-with-beans-and-greens/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium saucepan, bring the chicken stock to a simmer over moderately high heat. Reduce the heat to low and keep warm."
+   },
+   {
+    "title": null,
+    "text": "In a large, deep skillet, heat the olive oil. Add the onion and thyme and cook over moderate heat, stirring occasionally, until the onion is softened, about 6 minutes. Add the barley and cook, stirring, for 2 minutes. Add the wine if using and cook, stirring until absorbed, about one minute. Add 1 cup of the warm stock and cook, stirring, until nearly absorbed. Continue adding the stock 1/2 cup at a time in six additions — you’ll have a cup of stock left in the pot — stirring until it is nearly absorbed between additions. Most barley risottos are done when the barley is al dente and suspended in a thick, creamy sauce, about 35 minutes, however, I like to take this one a little “soupier” adding another half to one cup of stock. (This gives the beans something to drink up, and you a margin of error if you grains continue to absorb the stock once you think they are done.) Stir it in until the risotto is on the loose side, then add the beans and let them cook for a minute. Add the escarole and let it wilt and then cook for an additional minute. Stir in the 1/2 cup of Parmigiano-Reggiano and the butter and season with salt and pepper. Serve at once, passing more cheese at the table."
+   },
+   {
+    "title": null,
+    "text": "Bean cooking wonder! Cooked my beans in the slow-cooker — they were perfect. No presoaking, just put them in covered with 2 to 3 inches of water for 3 hours on high. (You may need up to 4 hours with larger beans.) I let them cool in their cooking water, which was by then quite flavorful. They were dreamy."
+   }
+  ],
+  "notes": [
+   "Do ahead: Although it’s not generally ideal to reheat rice risottos, I actually enjoyed this barley one reheated. Keep the flame low, splash in some more broth if it seems thick and slowly warm the dish, stirring. Top with extra cheese."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

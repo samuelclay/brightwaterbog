@@ -1,6 +1,84 @@
 {
  "url": "https://cookieandkate.com/easy-black-bean-tacos-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Easy Black Bean Tacos",
+  "ingredients": [
+   "2 cans (15 ounces each) black beans, or 3 cups cooked black beans",
+   "2 tablespoons extra-virgin olive oil",
+   "1 teaspoon ground cumin",
+   "2 cloves garlic, pressed or minced",
+   "½ teaspoon fine sea salt",
+   "1 cup plain Greek or regular yogurt",
+   "2 tablespoons lime juice (from 1 small lime)",
+   "¼ teaspoon fine sea salt",
+   "Optional: Your favorite hot sauce, to taste",
+   "8 to 10 small corn or flour tortillas",
+   "3 cups finely sliced red or green cabbage (about ½ medium head of cabbage)",
+   "½ cup or more crumbled Cotija or feta cheese",
+   "Big handful of fresh cilantro leaves and/or thinly sliced green onion"
+  ],
+  "yield_text": "10 tacos",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/easy-black-bean-tacos-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the black beans: We’re going to use the cooking liquid from one can of beans (or substitute ⅓ cup water for the cooking liquid). Rinse and drain the other can of beans. Once the beans are ready to go, warm the olive oil in small saucepan over medium-low heat. Add the cumin, garlic and salt. Cook, stirring often, until fragrant, about 30 seconds to 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Pour in the can of beans with all of its liquid (or ⅓ cup water). Stir to combine. Mash up a portion of the beans with a potato masher or serving fork. Cook for a few minutes, stirring often, until the mixture reaches a simmer. Mash up the beans once more, then add the rinsed and drained beans."
+   },
+   {
+    "title": null,
+    "text": "Stir to combine. Simmer for a few minutes, then reduce the heat to a bare minimum while we finish the remaining ingredients. Cover the pot, and stir it every few minutes so the beans don’t stick to the bottom of the pan."
+   },
+   {
+    "title": null,
+    "text": "To make the “crema”: Combine the yogurt, lime juice and salt in a small bowl. Stir to combine. If desired, add hot sauce, to taste. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Warm the tortillas in a large skillet over medium heat in batches, flipping to warm each side. Alternatively, you can warm them directly over a low flame on a gas range. Stack the warmed tortillas on a plate and cover with a tea towel to keep warm."
+   },
+   {
+    "title": null,
+    "text": "Soften the cabbage just a bit by sprinkling it with a couple dashes of salt. Then use your hands to “massage” it by scrunching up handfuls of cabbage until it is slightly wilted and fragrant."
+   },
+   {
+    "title": null,
+    "text": "Finally, assemble your tacos: Spread a layer of beans down the center of each tortilla, followed by a small handful of cabbage, a generous drizzle of sauce, and sprinkles of cheese and cilantro and/or green onion. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Be sure to use certified gluten-free, 100 percent corn tortillas.",
+   "Make it dairy free/vegan: Omit the cheese. Instead of the yogurt-based sauce provided, try vegan sour cream (use lime juice in place of the lemon and omit the mustard), avocado sauce, shatta (make it with pepitas) or guacamole. You might especially enjoy the addition of quick-pickled onions or radishes, to make up for the tang otherwise provided by feta."
+  ],
+  "summary": "Make these simple tacos tonight! They’re easy, inexpensive and quite versatile—start with a base of seasoned black beans, top with crisp cabbage and finish it off with a delicious yogurt-based sauce (find several other sauce options within the post). Recipe yields about 10 hearty tacos, and could easily be halved.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Refried black beans"
+   },
+   {
+    "at": 5,
+    "title": "Yogurt “crema”"
+   },
+   {
+    "at": 9,
+    "title": "Everything else"
+   }
+  ]
+ }
 }

@@ -27,7 +27,27 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/spicy-quick-pickled-vegetables-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Pack the cauliflower, carrots, onion, jalapeños and garlic into a quart-sized wide-mouth mason jar. Place the jar in the sink, since you’ll be pouring hot liquid into it soon."
+   },
+   {
+    "title": null,
+    "text": "In a medium saucepan, combine the vinegar, water, salt, honey, bay leaf, oregano and a generous amount of freshly ground black pepper. Bring the mixture to a simmer over high heat, then carefully pour the hot vinegar mixture into the jar. You should have enough to completely submerge the vegetables (and maybe a little extra). Tuck the bay leaf into the side of the jar."
+   },
+   {
+    "title": null,
+    "text": "Let the pickles cool to room temperature (about 1 ½ hours) before gently tapping the jar to remove air bubbles. The pickles should be pretty well pickled and ready to consume at this point. If you’re not eating them right away, securely fasten the lid and refrigerate for up to a month."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Trader Joe’s spicy pickled vegetables and adapted from my quick-pickled radishes.",
+   "Can I can it? No. This recipe is a “refrigerator pickle” recipe. It is not designed for canning in a water bath, and it has not been tested for canning safety. Please do not attempt! Follow a recipe specifically designed for canning instead."
+  ],
+  "summary": "Learn how to make spicy quick-pickled vegetables (jalapeños en escabeche)! They are so easy to make. Pickled veggies are great on salads, sandwiches and other dishes. Recipe yields 1 quart pickles.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

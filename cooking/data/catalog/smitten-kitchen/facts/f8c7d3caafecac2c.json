@@ -30,7 +30,24 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2014/10/homemade-harissa/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Roast your red pepper: You can do so in a 350°F oven, turning it every 15 minutes for a total of 45 to 60, until it’s deeply roasted on all sides. Some people prefer to do this over a gas flame, but be sure you cook it long enough that’s it truly soft inside, so it will blend well. Set aside to cool — you can do this in a bowl with foil or plastic over it, but I find it’s just as easy to peel a well-roasted pepper even if it’s cooled right on the tray, without the added steam. Once cool enough to handle, peel and seed the pepper."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, place dried chiles and sundried tomato in a bowl and cover with boiling water. Let sit for 30 minutes, until well-softened. Drain and with gloved hands, if you don’t like living on the edge, remove the seeds and stems from the chiles. The sundried tomatoes can be used as-is."
+   },
+   {
+    "title": null,
+    "text": "Place roasted red pepper, rehydrated chiles, tomatoes, garlic, salt and spices in a blender or food processor with 1 tablespoon olive oil and blend until it becomes a thick paste; a little water may be necessary to help this along. Store in the fridge, topped with a thin layer of olive oil. Use on everything."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

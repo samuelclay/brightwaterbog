@@ -1,6 +1,41 @@
 {
  "url": "https://cookieandkate.com/creamy-basil-sauce/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Creamy Basil Sauce",
+  "ingredients": [
+   "1 medium clove garlic, cut into several pieces",
+   "1 cup lightly packed fresh basil leaves (about 0.7 ounces)",
+   "1 cup mayonnaise",
+   "Scant ½ teaspoon fine salt",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "1 cup",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Condiment"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/creamy-basil-sauce/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Place the garlic in a food processor* and process until it’s finely chopped. Add the mayonnaise, basil, salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "Process until smooth. Leftovers keep for up to 1 week in an airtight container in the refrigerator."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by the basil dip served with French fries at French Market in Kansas City.",
+   "Make it by hand: Finely chop the basil, press or mince the garlic, and whisk together the ingredients in a bowl."
+  ],
+  "summary": "This simple basil sauce packs so much fresh basil flavor! Use it in place of ranch dressing on your summertime sandwiches and meals. Recipe yields just over 1 cup.",
+  "ingredient_groups": []
+ }
 }

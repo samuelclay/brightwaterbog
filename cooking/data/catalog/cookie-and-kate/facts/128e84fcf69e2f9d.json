@@ -18,7 +18,32 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/perfect-roasted-brussels-sprouts-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. If desired, line a large, rimmed baking sheet with parchment paper for easy cleanup."
+   },
+   {
+    "title": null,
+    "text": "To prepare your Brussels sprouts, slice off the nubby ends and remove any discolored or damaged leaves. Cut each sprout in half from the flat base through the top."
+   },
+   {
+    "title": null,
+    "text": "On your baking sheet, combine the halved sprouts, olive oil and salt. Toss until the sprouts are lightly and evenly coated. Arrange the sprouts in an even layer with their flat sides facing down."
+   },
+   {
+    "title": null,
+    "text": "Roast the sprouts until they are tender and deeply golden on the edges, about 17 to 25 minutes. Garnish if desired (see ideas below). Roasted Brussels are best served warm, but they are also good at room temperature. Leftovers will keep for up to 4 days in the refrigerator."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my recipe for Balsamic Roasted Brussels Sprouts with Cranberries & Pecans.",
+   "How to double this recipe: Double the ingredients and divide them between two large, rimmed baking sheets. Arrange your oven racks in the lower and upper thirds of the oven. Roast both pans in the oven at the same time, swapping their positions halfway through cooking (lower pan goes to upper rack and vice versa).",
+   "Change it up: Your garnishes can offer extra flavor. I love finishing the sprouts with a light drizzle of thick balsamic vinegar or balsamic glaze, or a squeeze of fresh lemon juice (bonus points for adding lemon zest, too). Grated Parmesan is a good idea, especially if you’re serving your Brussels sprouts with Italian main dishes. You can’t go wrong with a light sprinkle of red pepper flakes. For an Asian spin, top with sesame seeds (white or black), and a light drizzle of toasted sesame oil. Or for a Middle Eastern take, serve your sprouts over several generous swooshes of tahini sauce."
+  ],
+  "summary": "The best roasted Brussels sprouts are golden and crisp on the outside, and irresistibly tender on the inside. You’ll find the basic recipe below. Check the recipe notes for fun variations on roasted Brussels. Recipe yields 4 side servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

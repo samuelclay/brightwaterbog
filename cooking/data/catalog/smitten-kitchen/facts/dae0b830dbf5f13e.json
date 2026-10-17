@@ -31,7 +31,37 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2021/11/fall-bliss-salad/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Prepare the squash and shallots: Heat oven to 400°F and line a large baking sheet with parchment paper. Drizzle or brush parchment lightly with olive oil and sprinkle the oil with salt and pepper. Arrange winter squash slices in one layer on parchment. Coat lightly with more oil, salt, and pepper."
+   },
+   {
+    "title": null,
+    "text": "Place shallot halves on a square of foil and drizzle lightly with olive oil and kosher salt. Tightly seal foil around them into a little packet and place on the baking sheet with squash."
+   },
+   {
+    "title": null,
+    "text": "Roast squash and shallots for 15 minutes, until the squash is lightly brown underneath. Flip the squash pieces and carefully open the foil packet with the shallots. Return the tray to the oven for another 5 to 10 minutes, until the squash is evenly brown. The shallot will not be brown or look caramelized, but will be tender, which is all we need. If you’d like, you can return the open foil packet to the oven for another 10 minutes for more color and flavor, but I rarely bother."
+   },
+   {
+    "title": null,
+    "text": "Make the dressing: In a blender or food processor, whiz warm shallots with 4 tablespoons olive oil until smooth, scraping down the bowl as needed. With the machine running, add dijon mustard and 3 tablespoons vinegar, blending until smooth. Season well with salt and pepper, blending again. Taste and adjust with more vinegar, salt, and pepper as needed. If the dressing is very thick, you can thin it with 1 to 2 tablespoons water."
+   },
+   {
+    "title": null,
+    "text": "To serve: In a large wide bowl or salad plate, toss greens with half the dressing and season with additional salt and pepper. Arrange roasted squash over the greens, fanning out slices if you wish. Sprinkle salad with pomegranate, goat cheese, and pepitas and drizzle some of the remaining dressing over, to taste. Serve right away, with extra dressing on the side."
+   }
+  ],
+  "notes": [
+   "Do ahead: The recipe can be paused here until needed. The squash and dressing are perfectly delicious at room temperature.",
+   "Pepitas: Sometimes I buy pepitas that are crackly-crisp and wonderful, sometimes, even when labeled roasted, they seem flat and almost stale. When the latter happens, I warm them in a small skillet with 1 teaspoon olive oil, 1 teaspoon butter, salt and red pepper flakes to taste over medium heat, stirring frequently, until they’re a shade darker and smell nutty. Set aside until you’re ready to use them.",
+   "Preparing butternut/honeynut squash: I’ve got a TikTok demo here.",
+   "Lettuce: I love kale or spinach here, but used what I had: a 4-ounce package of baby kale, a few ounces of red endive, thinly sliced, and a handful of green oak leaf lettuce. Sturdier lettuces hold up better if the salad needs to rest."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

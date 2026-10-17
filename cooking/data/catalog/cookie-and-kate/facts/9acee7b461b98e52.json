@@ -28,7 +28,40 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/wild-rice-kale-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "(This step is designed for an Instant Pot. See recipe notes for stovetop instructions.) Add the wild rice and water to the Instant Pot. Secure the lid and move the steam release valve to Sealing. Select Manual/Pressure Cook and cook on high pressure for 22 minutes."
+   },
+   {
+    "title": null,
+    "text": "While the rice is cooking, in a large bowl, whisk together the olive oil, lemon juice, garlic, salt, pepper and maple syrup to make the dressing. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Remove the ribs from the kale and finely chop the leaves (you should have about 2 to 3 cups); add the kale to the bowl. Chop the green onions (about 1 cup) and cut the tomatoes into quarters, adding both to the bowl as you work. Seed and chop the red bell pepper and add it to the bowl. Toss the vegetables to coat well in the dressing."
+   },
+   {
+    "title": null,
+    "text": "When the cooking cycle is complete, let the pressure naturally release for 10 minutes, then move the steam release valve to Venting to release any remaining pressure. When the floating valve drops, remove the lid and give the rice a stir."
+   },
+   {
+    "title": null,
+    "text": "Add the rice to the bowl of dressed vegetables. (If you haven’t finished chopping the vegetables, you can finish as the rice cools.) Toss well to coat. Megan suggests chilling the bowl in the fridge for 30 minutes, but I was hungry and it tasted great to me, so do as you please."
+   },
+   {
+    "title": null,
+    "text": "Just before serving, stir in the feta and taste and adjust the seasonings as needed, adding an extra squeeze of lemon juice to brighten the flavors. Store leftovers in an airtight container in the fridge for up to 3 days."
+   }
+  ],
+  "notes": [
+   "This recipe comes from The Fresh & Healthy Instant Pot Cookbook by Megan Gilmore, to which I added some notes. Republished with permission.",
+   "How to cook wild rice on the stovetop: Bring a large pot of water to boil. Add the rinsed rice and continue boiling, reducing the heat as necessary to prevent overflow, until the rice is pleasantly tender but still offers a light resistance to the bite, 40 to 55 minutes. Remove the pot from the heat, drain the rice, and return it to the pot. Cover and let the rice rest for 10 minutes, then uncover and set aside while you assemble the slaw.",
+   "*Make it dairy free/vegan: Simply omit the cheese. You might enjoy some toasted pepitas (green pumpkin seeds) or sunflower seeds for additional texture and protein."
+  ],
+  "summary": "This hearty salad features nutritious wild rice, kale, goat cheese and colorful vegetables. Serve it as a light dinner and pack it for tomorrow’s lunch! Recipe yields 4 medium salads.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

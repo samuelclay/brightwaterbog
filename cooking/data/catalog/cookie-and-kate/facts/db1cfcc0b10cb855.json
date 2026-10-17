@@ -1,6 +1,40 @@
 {
  "url": "https://cookieandkate.com/how-to-cut-a-mango/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "How to Cut a Mango",
+  "ingredients": [
+   "1 ripe mango"
+  ],
+  "yield_text": "3/4 cup",
+  "cook_time": "3 minutes",
+  "categories": [
+   "Basic"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/how-to-cut-a-mango/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "With one hand, hold the mango upright with the stem on top. Use a sharp chef’s knife to slice off one wide side of the mango, about ½-inch from the center (if you hit something hard or hear a scratching sound, you’re too close to the pit and need to slice further from the center). Then, slice off the other side in the same fashion."
+   },
+   {
+    "title": null,
+    "text": "Working with one piece at a time, gently use your knife to slice through the flesh (don’t press so hard that you cut the skin). To make sliced mango, slice long, narrow vertical cuts. To make diced mango, make wider vertical cuts followed by horizontal cuts to make a grid pattern. You can likely slice more flesh off each side of the pit and score it as well."
+   },
+   {
+    "title": null,
+    "text": "Use a large spoon to scoop the flesh from the skin, then use your slices or cubes as desired. If your mango was large, you might be able to slice a bit more flesh from around the pit, though the pieces won’t be uniform like the rest—they’re good for snacking!"
+   }
+  ],
+  "notes": [
+   "To freeze leftover mango: Place the mango on a parchment paper-lined pan that will fit into your freezer. Freeze until the mango is solid, then transfer it to a freezer bag."
+  ],
+  "summary": "Learn how to slice or dice a mango! It’s easy once you know this method. Prepare as many mangos as you need, and see the recipe notes for freezing instructions.",
+  "ingredient_groups": []
+ }
 }

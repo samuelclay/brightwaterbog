@@ -27,7 +27,24 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2008/09/eggs-in-tomato-sauce-contest-winners/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small skillet, heat olive oil over medium-high heat. Add garlic and crushed red pepper; cook, stirring, until lightly browned, about 1 minute. Add tomato sauce and bring to a boil; season with sugar, salt and pepper. Reduce heat to a simmer and cook for 10 to 20 minutes minutes. A few minutes before it’s done, I like to add a glug of red wine and let it simmer for a moment."
+   },
+   {
+    "title": null,
+    "text": "Gently crack eggs into tomato mixture, cover, and let cook 5 minutes. Remove skillet from heat, uncover, and let stand 2 to 3 minutes."
+   },
+   {
+    "title": null,
+    "text": "Transfer each egg to a piece of toast. Spoon over sauce, garnish with cheese, and season with salt and pepper; serve immediately."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

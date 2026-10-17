@@ -23,7 +23,31 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/pots-de-creme-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a blender, combine the eggs, egg yolks, vanilla and sugar. Pour in the cream. Securely attach the lid and blend for 30 seconds, until the mixture is uniformly pale yellow."
+   },
+   {
+    "title": null,
+    "text": "Next, melt the chocolate, Kahlua and orange juice in a small, heavy-bottomed saucepan over very low heat, stirring every minute or two. Once the chocolate chips are about 90% melted, about 4 to 6 minutes, remove the pan from the heat and stir until the mixture is silky smooth."
+   },
+   {
+    "title": null,
+    "text": "Add the melted chocolate to the blender. Blend on high speed until smooth, about 1 minute, scraping down the sides halfway through."
+   },
+   {
+    "title": null,
+    "text": "Divide the mixture evenly between small glasses or small ramekins/serving bowls. Either place the servings in a container with a lid or cover the tops with plastic wrap. Refrigerate until serving time (at least 1 hour, ideally 2+) or freeze for later. Refrigerated mousse will keep well for up to 5 days; frozen mousse will keep well for up to 3 months (allow the mousse to rest for at least 15 minutes at room temperature before serving)."
+   }
+  ],
+  "notes": [
+   "*Chocolate note: Choose your chocolate chips based on your preferred level of chocolate intensity. I love darker chocolate and enjoyed these cups made with 54% cacao content semi-sweet chocolate chips (Whole Foods 365 brand).",
+   "Make it alcohol-free: Replace the liqueur with additional orange juice."
+  ],
+  "summary": "This foolproof pots de crème recipe comes together quickly in the blender and tastes amazing. Make it for dessert, and freeze the extra! Yields 36 ounces, enough for anywhere between 36 tiny 1-ounce servings and 9 generous 4-ounce servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

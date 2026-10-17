@@ -28,7 +28,49 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/sweet-potato-black-bean-quesadillas-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the avocado salsa verde: In a food processor or blender, combine the salsa verde, avocado, cilantro and about 1 tablespoon lime juice. Blend until the salsa until it is super creamy, stopping to scrape down the sides as necessary. Scoop it into a bowl for dipping."
+   },
+   {
+    "title": null,
+    "text": "If you have a spiralizer: Slice off the pointy ends of the sweet potatoes, then spiralize the sweet potatoes using blade A (the skinniest noodle option). Warm 1 tablespoon olive oil over medium heat until shimmering, then add the spiralized sweet potato, chili powder, cumin and a pinch of salt. Cook, stirring often, until the noodles are tender and cooked through, about 8 to 10 minutes (I added another tablespoon oil to my cast iron skillet to prevent the noodles from sticking; non-stick skillets may not need any extra)."
+   },
+   {
+    "title": null,
+    "text": "If you don’t have a spiralizer: Slice your sweet potatoes into ¼″ cubes. In a large skillet, warm the olive oil over medium heat. Add the chopped sweet potatoes and toss to coat, then add the chili powder, cumin and a pinch salt. Stir to combine. Once the pan is sizzling, add a scant ¼ cup water, then cover the pan and reduce heat to low to avoid burning the contents. Cook, stirring occasionally, until the sweet potato is tender and cooked through, about 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Make the quesadillas, one or two at a time: Heat a 10-inch skillet over medium heat. Warm one tortilla for about 30 seconds, flipping halfway. Flip once more, and sprinkle one-half of the tortilla with about ⅓ cup shredded cheese. Cover the cheese with ¼th of the cooked sweet potatoes and ¼ cup beans. Sprinkle about ⅓ cup cheese over the fillings and fold over the empty side of the tortilla to enclose the fillings."
+   },
+   {
+    "title": null,
+    "text": "Quickly brush the topside of the quesadilla with a light coating of oil, then flip it with a spatula. Let the underside of the quesadilla cook until golden and crispy, about 1 to 2 minutes. Brush the topside with a light coating of olive oil, then carefully flip it and cook until the underside is golden and crispy. Transfer it to a cutting board. Repeat with remaining quesadillas."
+   },
+   {
+    "title": null,
+    "text": "Slice each quesadilla into three even wedges using a sharp pizza cutter or chef’s knife. Serve immediately, with avocado salsa verde on the side."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Use gluten-free 8″ quesadillas.",
+   "Make it dairy free/vegan: I haven’t tried this, but I think you could substitute refried black beans for the whole black beans, and they might/should hold the quesadillas together.",
+   "Storage suggestions: Store leftover avocado salsa verde in the fridge with plastic wrap pressed against the top surface to prevent oxidation. Leftover quesadillas will keep well, refrigerated, for a few days—just reheat in the microwave or, better yet, the oven before serving."
+  ],
+  "summary": "These hearty quesadillas are filled with spicy sweet potatoes, black beans and melted cheese. Serve them with creamy avocado dip to really take them over the top, so don’t skip it! These are a great appetizer or busy weeknight dinner. Recipe yields 4 quesadillas (each made from 1 tortilla folded in half, for a visual).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Avocado Salsa Verde"
+   },
+   {
+    "at": 4,
+    "title": "Quesadillas"
+   }
+  ]
  },
  "parser_version": 2
 }

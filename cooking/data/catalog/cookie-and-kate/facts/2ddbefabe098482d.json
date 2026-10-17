@@ -1,6 +1,52 @@
 {
  "url": "https://cookieandkate.com/baked-frittata/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Basic Baked Frittata Recipe",
+  "ingredients": [
+   "6 eggs",
+   "A handful of cheese",
+   "A splash of milk",
+   "Vegetables, spices, salt, pepper, and anything else you want to throw together"
+  ],
+  "yield_text": "4",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Main",
+   "Side"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/baked-frittata/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 400 degrees Fahrenheit."
+   },
+   {
+    "title": null,
+    "text": "Line a 9-inch springform pan OR 9-inch square baking dish with parchment paper (here’s a photo that demonstrates how to line the square dish)."
+   },
+   {
+    "title": null,
+    "text": "In a separate bowl, whisk together eggs, cheese, milk, vegetables and seasonings."
+   },
+   {
+    "title": null,
+    "text": "Pour the mixture into the springform pan or baking dish."
+   },
+   {
+    "title": null,
+    "text": "Bake until the frittata is golden and puffy and the center feels firm and springy, about 25 minutes or more."
+   }
+  ],
+  "notes": [],
+  "summary": "Have you mastered the frittata yet? Baked frittatas make a great, easy meal any time of the day—even for a quick weeknight dinner.",
+  "ingredient_groups": []
+ }
 }

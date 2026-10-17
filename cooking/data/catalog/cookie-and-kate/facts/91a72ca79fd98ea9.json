@@ -1,6 +1,69 @@
 {
  "url": "https://cookieandkate.com/apple-oatmeal-muffins/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Apple Oatmeal Muffins",
+  "ingredients": [
+   "1 ¼ cups whole wheat flour",
+   "1 ¼ cups old-fashioned oats",
+   "1 teaspoon baking powder",
+   "½ teaspoon baking soda",
+   "¼ teaspoon fine salt",
+   "½ teaspoon ground cinnamon",
+   "1 cup unsweetened applesauce",
+   "½ cup buttermilk (or ½ cup milk of choice + ½ tablespoon vinegar, stirred together and rest for 5 minutes before using)",
+   "½ cup packed brown sugar",
+   "2 tablespoons avocado oil, mild olive oil or melted coconut oil",
+   "1 large egg, lightly beaten",
+   "½ teaspoon vanilla extract",
+   "2 small Gala apples, chopped into small pieces (½-inch cubes or smaller)",
+   "Optional: 1 teaspoon turbinado (raw) sugar, for sprinkling on top"
+  ],
+  "yield_text": "12",
+  "cook_time": "26 minutes",
+  "categories": [
+   "Muffins"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/apple-oatmeal-muffins/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 375 degrees. Line a 12-cup muffin tin with paper liners or spray them with nonstick cooking spray."
+   },
+   {
+    "title": null,
+    "text": "In a large bowl, combine the flour, oats, baking powder, baking soda, salt and cinnamon. Stir until the mixture is well combined."
+   },
+   {
+    "title": null,
+    "text": "In a medium bowl, combine the applesauce, buttermilk, sugar, oil, egg and vanilla extract. Whisk until the mixture is well combined."
+   },
+   {
+    "title": null,
+    "text": "Make a well in the dry ingredients and pour in the wet mixture. Stir just until moistened throughout (some streaks of flour are ok)."
+   },
+   {
+    "title": null,
+    "text": "Gently fold in the chopped apples. Divide the batter between the muffin cups, filling them ⅔ to ¾ full. Sprinkle turbinado sugar (if using) on top of the muffins."
+   },
+   {
+    "title": null,
+    "text": "Bake for 16 to 18 minutes, until the muffins are lightly golden on top. Since these muffins contain fresh fruit, they will spoil more quickly than regular muffins. Store them in the refrigerator if you don’t intend to finish them within a day or two, or store them in the freezer for up to six months."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Joy the Baker’s oatmeal blueberry applesauce muffins (her post has since been deleted).",
+   "2025 edits: To simplify the recipe, I omitted ¼ teaspoon cardamom, ⅛ teaspoon ginger, and a sprinkle of nutmeg on top. I also suggest brown sugar instead of hard-to-find muscovado sugar. Lastly, I changed from coconut milk-and-lemon to buttermilk, which can be made with your milk of choice.",
+   "Make it dairy free: Make your own buttermilk with dairy-free milk, like almond milk."
+  ],
+  "summary": "These apple oatmeal muffins are wholesome and delicious. They’re made with whole wheat flour, old-fashioned oats, applesauce and fresh diced apple. Recipe yields 1 dozen muffins.",
+  "ingredient_groups": []
+ }
 }

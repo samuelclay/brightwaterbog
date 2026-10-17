@@ -29,7 +29,52 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/roasted-beet-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To roast the beets: Preheat the oven to 375 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper for easy clean-up. Scrub the beets well with a vegetable brush under running water (no need to peel them at any point)."
+   },
+   {
+    "title": null,
+    "text": "Using a sharp chef’s knife, slice off the base of each beet to create a flat surface, and slice off the skinny pointy ends as well. Place each beet with its flat side against the cutting board and slice the beets in half, then slice the beets into wedges of even thickness, about ½ to ¾-inch thick on the widest edge."
+   },
+   {
+    "title": null,
+    "text": "Place the beet wedges on the prepared baking sheet. Drizzle the beets with the olive oil and sprinkle with the salt. Toss until the beets are evenly coated, then arrange them in a single layer across the pan."
+   },
+   {
+    "title": null,
+    "text": "Roast for 35 to 40 minutes, tossing halfway, until you’re able to pierce through the beets with a fork with light pressure."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, prep the remaining ingredients and whisk together the dressing: In a liquid measuring cup or bowl, combine the olive oil, vinegar, honey, mustard and salt. Season generously with black pepper and whisk until fully blended. Taste, and add more pepper to make it nicely peppery. Set aside."
+   },
+   {
+    "title": null,
+    "text": "To assemble the salad, place the arugula in a large serving bowl or platter. Scatter the roasted beets on top, followed by the crumbled goat cheese, chopped pistachios, radishes and green onion."
+   },
+   {
+    "title": null,
+    "text": "When you’re ready to serve, drizzle the dressing over the salad (you might not need all of it) and gently toss to coat. If you’re planning for leftovers, dress individual servings as needed instead, and store the salad and dressing separately in the fridge for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Omit the goat cheese. Diced ripe avocado might be nice instead. To make the dressing vegan, substitute maple syrup for the honey.",
+   "*Make it nut free: Substitute pepitas (green pumpkin seeds) for the pistachios. For best flavor, toast them first—warm them in a medium skillet over medium heat, stirring often, until they are starting to make popping noises and turning golden at the edges."
+  ],
+  "summary": "This classic roasted beet salad recipe is like my favorite French restaurants’ beet salads! This salad features goat cheese, pistachios and arugula with a zippy Dijon dressing. Recipe yields 4 to 6 side servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 8,
+    "title": "Dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

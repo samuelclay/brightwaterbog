@@ -33,7 +33,24 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2014/03/kale-and-quinoa-salad-with-ricotta-salata/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Rinse quinoa well in a small colander. This is essential to remove bitterness. Place quinoa and 1 1/2 cups water in a small saucepan and bring to a simmer with a couple pinches of salt. Simmer at a very low temperature for 15 to 20 minutes, until tender. Drain any un-absorbed liquid from cooked quinoa. Spread quinoa on a plate to cool quickly."
+   },
+   {
+    "title": null,
+    "text": "Wash your kale and dry it well. Then, with a knife, remove the rib from each stalk, leaving long strips of kale leaves. Stack the leaves in small batches, roll them tightly the long way, and cut the roll crosswise into thin ribbons. Add the kale ribbons to a large salad bowl. Add remaining salad ingredients to kale and toss to mix."
+   },
+   {
+    "title": null,
+    "text": "Whisk dressing ingredients together in a small dish, and pour the dressing over the salad. Season with salt and pepper to taste, then dig in."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

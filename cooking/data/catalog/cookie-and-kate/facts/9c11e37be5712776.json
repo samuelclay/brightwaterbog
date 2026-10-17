@@ -28,7 +28,49 @@
   "cuisines": [],
   "author": "Kathryne Taylor",
   "url": "https://cookieandkate.com/blueberry-cobbler-with-almond-topping/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 375 degrees Fahrenheit. To make the filling: Rinse and drain the blueberries, then pick through them to remove any stems still attached. In a 9-inch square baking dish, combine the blueberries, maple syrup, starch, lemon juice and cinnamon. Stir until all of the powdered ingredients have disappeared into the mixture. Bake the filling for about 25 minutes, until the mixture is bubbling around all four edges."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, prepare the topping: In a mixing bowl, combine the flour, baking powder and salt. Whisk gently until combined, and set it aside."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl, combine the sugar and lemon zest. Use your fingers to rub the zest into the sugar (this extracts more flavor from the lemon). Then, pour the sugar into the other dry ingredients and whisk to combine."
+   },
+   {
+    "title": null,
+    "text": "In the smaller bowl, combine the melted butter, yogurt and egg, and whisk until evenly combined. Pour the wet mixture into the dry mixture, and stir until well combined. It will look crumbly at first, but stir well until it forms a cohesive dough."
+   },
+   {
+    "title": null,
+    "text": "Dollop one large spoonful at a time over the hot filling, using the back of another spoon or your finger to help transfer each dollop. Sprinkle the sugar evenly over the dough."
+   },
+   {
+    "title": null,
+    "text": "Bake for 16 to 20 minutes, until the filling is actively bubbling around the edges and the top is lightly golden. Let the cobbler rest for 5 to 10 minutes before serving. Serve with vanilla ice cream, if desired. Leftovers keep well for up to 5 days in the refrigerator—try them the next day with Greek yogurt for breakfast!"
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Peach Cobbler with Almond Topping and Blueberry Almond Crisp.",
+   "*How to use frozen blueberries: Defrost the blueberries in the refrigerator overnight (no need to drain off excess juices). Or, while the oven is preheating, place the frozen blueberries in your square baker. Warm them up in the oven, stirring every 10 minutes or so, until they have defrosted to the point that they are cool to the touch but no longer frozen. Then add the maple syrup and other ingredients, and proceed with the recipe as written.",
+   "**Almond flour notes: Not all almond flours are created equally. I tested this recipe with Bob’s Red Mill’s super-fine almond flour and Whole Foods 365’s almond flour with great results."
+  ],
+  "summary": "This blueberry cobbler recipe features bubbly, jammy blueberries underneath a perfectly golden topping. The topping is made of almond flour, which offers amazing flavor and makes the recipe naturally gluten free. Recipe yields about 9 modest servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Blueberry filling"
+   },
+   {
+    "at": 5,
+    "title": "Almond flour topping"
+   }
+  ]
  },
  "parser_version": 2
 }

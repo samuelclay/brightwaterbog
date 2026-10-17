@@ -1,6 +1,58 @@
 {
  "url": "https://cookieandkate.com/blood-orange-margaritas/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Blood Orange Margaritas",
+  "ingredients": [
+   "2 ounces silver/blanco tequila",
+   "2 ounces fresh blood orange juice (about 1 large blood orange, juiced)",
+   "1 ounce fresh lime juice (about 1 lime, juiced)",
+   "1 teaspoon light agave nectar or simple syrup, to taste",
+   "1 tiny drop pure vanilla extract (optional)",
+   "2 teaspoons kosher sea salt and/or Himalayan salt",
+   "1 teaspoon brown sugar (optional)",
+   "Lime wedges"
+  ],
+  "yield_text": "1",
+  "cook_time": "6 minutes",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/blood-orange-margaritas/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Mix together the salt and sugar on a small plate (preferably one just slightly larger than the top of your margarita glass). Run a wedge of lime around the top of your glass. Dip the top of the glass into the salt blend at a 45-degree angle and roll it from side to side to catch the salt. Add ice cubes to your glass and set it aside."
+   },
+   {
+    "title": null,
+    "text": "Fill a small cocktail shaker with ice. Pour in the tequila, freshly squeezed blood orange and lime juice and agave nectar. If desired, add a drop of vanilla extract (don’t pour it straight from the bottle, I used the blunt end of a fork as a dropper)."
+   },
+   {
+    "title": null,
+    "text": "Put on the lid and shake for 30 seconds. Strain the liquid into your glass and garnish with a slice of blood orange, if desired."
+   }
+  ],
+  "notes": [
+   "Recommended tequila: Espolón, Milagro or any other 100 percent agave silver tequila."
+  ],
+  "summary": "Simple margaritas made with fresh blood oranges, limes, agave nectar, tequila and a tiny hint of vanilla. Amounts listed below yield 1 drink so multiply as necessary.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Margarita"
+   },
+   {
+    "at": 5,
+    "title": "Salt and brown sugar rim (use all salt if you want)"
+   }
+  ]
+ }
 }

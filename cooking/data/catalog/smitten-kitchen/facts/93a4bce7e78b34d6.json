@@ -37,7 +37,64 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2014/04/three-bean-chili/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "To serve: Lime wedges, sour cream, diced white onion, cilantro, corn or flour tortillas or tortilla chips or rice"
+   },
+   {
+    "title": null,
+    "text": "Heat oil in the bottom of a medium-sized heavy pot or Dutch oven (if finishing it on the stove), in the pot of your pressure-cooker (if using one) or in a large skillet (if finishing in a slow-cooker). Once warm, add onion and cook for 5 minutes, until translucent. Add any fresh peppers and cook for 3 more minutes. Add garlic, chili powder, cumin, oregano and salt and cook for 2 minutes, until browned and deeply fragrant. Add beer and scrape up any bits stuck to the pot. Boil until reduced by half, or, if you’re nervous about alcohol content, until it has all but disappeared."
+   },
+   {
+    "title": null,
+    "text": "If finishing on the stove: Add tomatoes, dried beans, any dried or rehydrated-and-pureed chiles and the smaller amount of water. Bring mixture to a full boil and boil for one minute, then reduce heat to a very low, gentle simmer, place a lid on your pot, and cook for 2 1/2 to 3 hours, until the beans are tender, stirring occasionally. Add the last 1/2 cup water if mixture seems to be getting dry, though I didn’t need it in most of my tested batches. If a slightly more sloshy chili wouldn’t bother you, you can add it from the get-go."
+   },
+   {
+    "title": null,
+    "text": "If finishing in a slow-cooker: Scrape onion, spice and beer mixture into a slow-cooker and add tomatoes, dried beans, any dried or rehydrated-and-pureed chiles and the smaller amount of water. Cook on HIGH for 6 to 7 hours, until beans are tender. You can add the last 1/2 cup water if needed, but probably will not find it necessary."
+   },
+   {
+    "title": null,
+    "text": "If finishing in a pressure-cooker: Follow the directions from your pressure cooker manufacturer. I failed to get this fully tested in my new one (boo) but estimate that it will take 20 to 22 minutes on high [updated to note that] I find that small black and red beans can finish in 22 to 25 minutes, but pinto, kidney, and most others can take 35 to 40 minutes from dried in the InstantPot. Hope that helps!"
+   },
+   {
+    "title": null,
+    "text": "Serve as-is or with fixings of your choice."
+   },
+   {
+    "title": "Notes",
+    "text": "Peppers: The most important decision you make about your chili is, unsurprisingly, in the chiles themselves. If you’re cooking for people who don’t like spicy food, I recommend just using 1 bell pepper or 1 fresh poblano, which is very mild. 2 fresh jalapenos will give you slightly more heat. 2 small dried chiles, depending on which you use, will give you a bit more of a kick, as will 1 to 2 chipotle en adobo peppers from a can. If you need help choosing a dried chile, Serious Eats has a great guide to the properties of each here. To best incorporate the flavor of dried chiles into your chili, cover them with a bit of boiling water until they’re soft, then puree them. If this sounds like too much work, you can cook them with the dried beans for decent heat flavor infusion."
+   },
+   {
+    "title": null,
+    "text": "Chile powder: If you’d like the clear flavor of your dried chiles to come through, you can skip the chile powder in part or entirely."
+   },
+   {
+    "title": null,
+    "text": "Tomatoes: This makes a fairly tomato-y chili. If that’s not your thing, halve the suggested tomatoes, using only a 15-ounce can instead."
+   },
+   {
+    "title": null,
+    "text": "Beer: Use whatever type you’d like here. I used Dos Equis; I think a Negra Modelo would also impart a nice, deep flavor."
+   },
+   {
+    "title": null,
+    "text": "Beans: I use a mix of three beans here, usually 1/3 dried kidney beans, 1/3 black beans and 1/3 pinto beans, but I had a bag small pink Rosa de Castillo beans from Rancho Gordo around so I used them instead. I find that these three beans, surprisingly, take about the same time to cook, but if you’re nervous one will take longer than the others, you can soak it in water while preparing your other ingredients. Even 30 minutes should even up the cooking times."
+   },
+   {
+    "title": null,
+    "text": "To pre-soak your beans: This recipe doesn’t call for or require pre-soaking but pre-soaked beans will cook faster. How much faster depends on how long they are soaked for, but you can estimate that beans soaked for 6 hours or overnight will approximately halve suggested cooking times, regardless of cooking method. If pre-soaking beans, do so in the 3 1/2 to 4 cups of water listed in the recipe, and use the remaining soaking liquid as the water in the recipe."
+   },
+   {
+    "title": null,
+    "text": "Using canned beans instead: 1 1/2 cups dried beans will yield approximately 3 to 3 3/4 cups of cooked ones. To use canned or already-cooked beans instead, you’ll want to use 2 to 3 15-ounce cans of cooked beans and then — this is important — skip the water. Simmer all of the ingredients except the drained and rinsed beans for 20 minutes, then add the beans and simmer it 10 minutes more. If the mixture looks dry, add 1/4 cup water and simmer for another few minutes."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

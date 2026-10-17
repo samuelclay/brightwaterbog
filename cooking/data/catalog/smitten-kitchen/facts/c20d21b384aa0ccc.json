@@ -44,7 +44,24 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2009/01/squash-and-chickpea-moroccan-stew/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat butter and olive oil in a 3- to 4-quart Dutch oven or heavy-bottomed saucepan with a tight fitting lid over medium heat. When oil shimmers, add onion, garlic, cumin, and cinnamon, and season with salt and freshly ground black pepper. Cook, stirring occasionally, until spices are aromatic and onions are soft and translucent, about 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add squash and potatoes, season with salt and freshly ground black pepper, stir to coat, and cook until just tender, about 3 minutes. Add broth, chickpeas, tomatoes and their juices, and saffron, if using. Bring mixture to a boil then reduce heat to low. Cover and simmer until squash is fork tender, about 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove from heat and stir in preserved lemon and olives. Serve over couscous garnished with cilantro, almonds, and yogurt."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

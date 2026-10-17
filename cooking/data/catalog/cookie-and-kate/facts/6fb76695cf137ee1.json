@@ -23,7 +23,32 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/zhoug-sauce-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Place the garlic in your food processor and process until the garlic is broken into tiny pieces."
+   },
+   {
+    "title": null,
+    "text": "Add the cilantro, jalapeño (keep the seeds in case you want to make the sauce more spicy after tasting), salt, cardamom, cumin and red pepper flakes. Process until the mixture is all mixed together and very finely chopped."
+   },
+   {
+    "title": null,
+    "text": "While running the food processor, slowly drizzle in the olive oil. Scrape down the sides and blend until the sauce is mostly smooth."
+   },
+   {
+    "title": null,
+    "text": "Adjust to taste—for a spicier sauce, add the jalapeño seeds or additional red pepper flakes (¼ teaspoon at a time) and blend again. Too bitter? You can add more salt or give the flavors some time to mellow. This sauce’s flavor transforms with time, so if it’s too spicy or you just don’t love it right off the bat, let it chill in the fridge and try it again in an hour."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Trader Joe’s zhoug sauce.",
+   "Storage suggestions: This sauce keeps well in the refrigerator, covered, for up to 1 week. Olive oil sometimes solidifies when chilled—if this happens, let the sauce warm to room temperature or microwave it for just a few seconds. Stir to recombine.",
+   "Change it up: Some zhoug recipes call for a mix of cilantro and parsley. Use half of each if that combination appeals more to you. You can also use other varieties of peppers; Epicurious recommends Hungarian wax peppers."
+  ],
+  "summary": "Homemade zhoug sauce adds a spicy cilantro kick to any meal! Zhoug is a popular Middle Eastern condiment that’s very easy to make. Recipe yields 1 ¼ cup.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

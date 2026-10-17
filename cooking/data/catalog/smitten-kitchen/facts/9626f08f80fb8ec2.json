@@ -36,7 +36,42 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2024/05/grilled-feta-with-asparagus-chimichurri/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the chimichurri: Place garlic, oregano, and red chili in a food processor or high speed blender and blend until chopped. Strip the leaves from the parsley and add them to the blender, pulsing the machine until the parsley is well-chopped. Add olive oil, kosher salt, and black pepper and blend until the parsley is finely chopped. Transfer to a bowl and stir in vinegar."
+   },
+   {
+    "title": null,
+    "text": "If you’ve got time before using it, chimichurri tastes great after resting at room temperature for 30 minutes to 2 hours before using. No blender? Finely chop all the ingredients by hand, stirring in the oil and vinegar."
+   },
+   {
+    "title": null,
+    "text": "Grill everything else: Heat your grill to a high temperature; I like a quick char on everything here. Arrange baguette slices, onion, and asparagus on a large tray (but keeping items separate) and drizzle everything with olive oil and season it with salt and pepper. Pat feta block dry and place in a small cast-iron skillet or a piece of foil folded a few times so it’s a little sturdier. Drizzle feta with olive oil, too, and head outside."
+   },
+   {
+    "title": null,
+    "text": "My grill is tiny, so I have to grill items one at a time. Start with the baguette slices, arranging them in one layer and flipping them with tongs as soon as they get licks of color underneath. Transfer bread back to the tray and grill the onion slices, until they have brown marks all over. As soon as they come off the grill, place them in a medium-large bowl with a big spoonful of the chimichurri, so they mellow and sweeten further."
+   },
+   {
+    "title": null,
+    "text": "Next grill the asparagus, rolling it over as soon as it gets some char underneath, and repeating on the remaining parts. Transfer the asparagus back to the tray, and grill the feta last. Place the pan or foil holding the feta directly on the grill and let it heat for 5 to 10 minutes. If you can multitask, use the feta grilling time to cut the asparagus into 1/2-inch segments on an angle and transfer it to the bowl with the onions and pour in all but the the last 2 tablespoons chimichurri, stirring to combine. Season with salt and black pepper to taste."
+   },
+   {
+    "title": null,
+    "text": "Assemble and serve: When the feta is very hot throughout and maybe even browned a little at the edges, use a spatula to carefully transfer it from the grill to a serving plate. Arrange the baguette slices around one half of it, and spoon the asparagus chimichurri around the other half. Spoon some extra chimichurri over the feta. Eat right away, smooshing the feta on the toasts and spooning the asparagus on top. The feta is the creamiest when it’s still piping hot, but it will still be delicious even after it has cooled."
+   },
+   {
+    "title": null,
+    "text": "No grill? You can make each element in the oven — the broiler works great here, just keep an eye on the bread and feta, as they’ll brown much faster."
+   }
+  ],
+  "notes": [
+   "Thanks to How Sweet Eats for inspiring the combination of grilled feta and chimichurri. While I’m adding asparagus and red onion here, I truly think this would be excellent with anything from sugar snaps, snow peas, green beans, broccoli, sweet peas … yes, I basically cannot think of a vegetable that’s bad with chimichurri sauce, sorry."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

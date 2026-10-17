@@ -22,7 +22,36 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/vegan-white-russian-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the cashew cream: For ultra creamy results, soak the cashews in water for 2 to 4 hours. Drain them, then rinse the cashews under running water."
+   },
+   {
+    "title": null,
+    "text": "Place the drained cashews in your blender and add 1 cup of the water. Blend the mixture on high until the cashews are totally pulverized and the mixture is very creamy. Add the remaining 1 cup of water, the maple syrup and vanilla extract, and blend again. Taste, and blend in additional maple syrup if you’d like it to be sweeter. (If your cashew milk still has tiny bits of cashews in it, pour it through a fine metal sieve into a glass.)"
+   },
+   {
+    "title": null,
+    "text": "To make a cocktail: Fill a short cocktail glass with ice. Pour in the vodka, followed by the Kahlua and cashew cream. Lightly swirl the contents with a spoon, and enjoy."
+   }
+  ],
+  "notes": [
+   "*Cashew cream yield: This cashew cream will yield about 2 ¼ cups, which is enough for 9 cocktails. Leftovers make great coffee creamer; just whisk or shake the mixture to recombine before serving. Leftover cashew cream will keep well in the refrigerator for about 4 days.",
+   "Recommended equipment: This ice cube tray makes the giant ice cubes you see in the pictures, and this stainless steel jigger is great for measuring liquor. (Those are affiliate links.)"
+  ],
+  "summary": "This white Russian cocktail recipe is creamy, delicious and surprisingly dairy free! Just whip up some cashew milk (instructions provided below), then add vodka and Kahlua. Easy!",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Cashew cream*"
+   },
+   {
+    "at": 4,
+    "title": "Per cocktail"
+   }
+  ]
  },
  "parser_version": 2
 }

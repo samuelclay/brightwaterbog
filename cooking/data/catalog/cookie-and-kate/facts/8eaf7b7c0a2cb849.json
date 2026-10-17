@@ -26,7 +26,27 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/tomato-feta-dip-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Combine the quartered tomatoes and sliced olives on a large serving platter or in a medium-sized serving bowl. Set aside."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl, combine the olive oil, lemon juice, sun-dried tomatoes, garlic, vinegar and pepper. Whisk until blended. Drizzle all of the mixture over the tomatoes and olives, and toss to combine."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle the crumbled feta and chopped basil over the tomatoes. Gently toss a few times to combine. Serve immediately, with accompaniments of your choice. This dip is best when fresh, since the tomatoes continue to release their juices over time, but leftovers (covered and chilled) are still good for a day or two."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: The dip itself is gluten free. Just be sure to choose gluten-free accompaniments.",
+   "Make it dairy free: I think that this dip would be fantastic on a platter without the feta, with the vegan cashew sour cream from my cookbook drizzled on top."
+  ],
+  "summary": "This tomato feta dip recipe is perfect for summer parties! This beautiful dip is absolutely delicious and easy to make. You can serve it as a salad or use it as a topping for scrambled eggs or omelets, too. Recipe yields 6 to 8 servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

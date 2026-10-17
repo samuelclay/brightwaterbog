@@ -1,6 +1,58 @@
 {
  "url": "https://cookieandkate.com/homemade-pumpkin-chai-latte/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Homemade Pumpkin Chai Latte",
+  "ingredients": [
+   "1 tea bag of spiced chai or decaf spiced rooibos chai",
+   "½ cup plain, unsweetened almond milk or milk of choice*",
+   "2 tablespoons real pumpkin purée",
+   "1 tablespoon real maple syrup or honey",
+   "¼ teaspoon pumpkin spice blend (or ⅛ teaspoon ground cinnamon, ⅛ teaspoon ground ginger, dash of nutmeg, dash of cloves)",
+   "¼ teaspoon vanilla extract",
+   "Tiny dash of salt",
+   "½ teaspoon arrowroot starch or cornstarch (optional, makes the latte super creamy)",
+   "Optional garnishes: 1 cinnamon stick or star of anise, coconut whipped cream** or real whipped cream"
+  ],
+  "yield_text": "1 drink",
+  "cook_time": "10 minutes",
+  "categories": [
+   "Drinks"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/homemade-pumpkin-chai-latte/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small saucepan, bring ½ cup water to a gentle boil. Remove the water from heat, add the tea bag, and let it steep for 4 minutes. Before removing the tea bag, squeeze any water remaining out by pressing the tea bag against the side of the pan with the back of a spoon."
+   },
+   {
+    "title": null,
+    "text": "Add the milk, pumpkin purée, maple syrup, pumpkin spice blend, vanilla, and salt to the pan. Whisk in the optional arrowroot starch or cornstarch, if using. Pour the mixture into a stand blender and blend for a minute or two, until the components are blended together and the drink is nice and creamy. (You can alternatively use an immersion blender, but I had much better results with my stand blender.)"
+   },
+   {
+    "title": null,
+    "text": "Pour the mixture back into your pan and gently rewarm on the stove, then pour it into a mug. Top with optional whipped coconut cream and/or garnish with a cinnamon stick or star of anise."
+   }
+  ],
+  "notes": [
+   "*Milk notes: I’ve made this drink with Califia Farms and Malk brands of almond milk. Feel free to substitute your milk of choice for the almond milk. Homemade cashew milk would be nice. Whole cow’s milk would yield creamy results, no starch necessary. If you are using sweetened almond milk or cow’s milk, which is naturally sweet, you might prefer less maple syrup. This drink’s nutrition information and allergen contents depend mostly on the milk you use—if you want a nut-free drink, choose a nut-free milk, etc.",
+   "**Coconut whipped cream: You’ll need 1 can (14 ounces) full-fat coconut milk (chilled a minimum of 10 hours and put a glass mixing bowl in the fridge while you’re at it), plus 1 tablespoon maple syrup, ½ teaspoon vanilla extract, and ⅛ teaspoon ground cinnamon. To make it, pull out the chilled can of coconut milk and mixing bowl. Open the can of coconut milk and scoop the solid coconut cream into the chilled bowl (you can use the remaining coconut water in smoothies). Using an electric hand mixer, beat the cream until fluffy and smooth. Add the maple syrup, vanilla extract and cinnamon and gently blend again to combine. Use the coconut cream immediately or cover it and store it in the fridge for later (it will be soft at room temperature and firmer when cold).",
+   "Make it dairy free/vegan: Use your favorite non-dairy drink.",
+   "Make it nut free: Use a nut-free milk."
+  ],
+  "summary": "This pumpkin spice chai latte is made with natural ingredients: pumpkin puree, almond milk, maple syrup and spices. I believe you could make a big batch of this, store it in the refrigerator and rewarm individual drinks on the stove (whisk well to recombine). Amounts listed below yield one latte, so multiply as necessary.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Latte"
+   }
+  ]
+ }
 }

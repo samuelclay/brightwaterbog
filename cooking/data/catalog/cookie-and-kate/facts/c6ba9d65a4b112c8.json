@@ -23,7 +23,41 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/hearty-spaghetti-with-lentils-marinara/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the lentils, first pick through the lentils for debris (I once bit into a tiny rock) and then rinse them in a fine-mesh colander. In a small saucepan, combine the lentils, bay leaf, garlic, salt and broth."
+   },
+   {
+    "title": null,
+    "text": "Bring the mixture to a simmer over medium-high heat, then reduce heat to maintain a gentle simmer. Simmer until the lentils are cooked through and tender, which will take somewhere between 20 to 35 minutes, depending on the age and variety of the lentils. Drain the lentils, discard the bay leaf and garlic, and set the pot aside, uncovered."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, bring a large pot of salted water to boil. Cook the pasta until al dente, according to the package directions. Drain, then return the pasta to the pot and set it aside."
+   },
+   {
+    "title": null,
+    "text": "Stir the marinara into the lentils and warm them together over medium heat. Divide pasta into bowls, top with warm marinara and lentils, and garnish with Parmesan and/or chopped fresh basil, if you’d like. Serve warm. Leftovers will keep well, covered and refrigerated, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Substitute your favorite gluten-free pasta.",
+   "Make it dairy free/vegan: Don’t add cheese, or choose a vegan alternative.",
+   "Parmesan note: Most Parmesans are not technically vegetarian (they contain animal rennet), but Whole Foods 365 and BelGioioso brands offer vegetarian Parmesan cheese."
+  ],
+  "summary": "This wholesome dinner features hearty lentils, marinara sauce and spaghetti. This vegetarian dinner is easy to make, affordable and delicious! Recipe yields 4 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Lentils"
+   },
+   {
+    "at": 5,
+    "title": "Everything else"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -35,7 +35,56 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/roasted-carrots-recipe-with-farro-chickpeas/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the farro: In a medium saucepan, combine the rinsed farro with at least three cups water (enough water to cover the farro by a couple of inches). Bring the water to a boil, then reduce heat to a gentle simmer. Cook, stirring occasionally, until the farro is tender to the bite but still pleasantly chewy (pearled farro will take around 15 minutes; unprocessed farro will take 25 to 40 minutes). Drain off the excess water and return the farro to the pot. Add 1 teaspoon olive oil, the lemon juice, garlic and ½ teaspoon salt. Mix well, then add the chickpeas and stir to combine. Set aside, covered, until you’re ready to assemble."
+   },
+   {
+    "title": null,
+    "text": "To roast the carrots: Preheat the oven to 425 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper and add the carrots. Drizzle them with 1 tablespoon olive oil and sprinkle with cumin, salt and pepper. Use your fingers to make sure the carrots are lightly and evenly coated in oil and spices. Roast for 20 to 35 minutes, until the carrots are easily pierced by a fork near the top of their stems. Roasting time will depend entirely on the size of your carrots. I removed some of the more slender carrots at 20 minutes and checked them at 5 minute intervals thereafter, removing the carrots as they were done."
+   },
+   {
+    "title": null,
+    "text": "To toast the pepitas: In a small skillet over medium heat, warm ½ teaspoon olive oil until shimmering. Add the pepitas and generous pinches of cumin, chili powder and salt. Cook, stirring frequently, until the pepitas are turning golden on the edges and starting to make little popping noises. Remove from heat to cool."
+   },
+   {
+    "title": null,
+    "text": "To make the herbed crème fraîche, combine the crème fraîche, 1 tablespoon chopped parsley, water, and a few dashes of salt and pepper in a small bowl. Stir to combine and set aside."
+   },
+   {
+    "title": null,
+    "text": "To assemble the dish, pour the farro and chickpea mixture onto a large serving platter. Arrange the carrots in a single layer over the mixture. Drizzle herbed crème fraîche generously over the carrots, then sprinkle them with pepitas and one tablespoon chopped fresh parsley. Serve immediately or let the dish cool to room temperature (it’s good either way!)."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Substitute brown rice and/or wild rice for the farro, adjusting the cooking method/time accordingly.",
+   "Make it dairy free/vegan: Lemony tahini sauce with parsley is great here, too. Mix together ⅓ cup tahini, 2 tablespoons chopped parsley and 2 tablespoons lemon juice, then thin it out with 3 to 4 tablespoons water. Season to taste with salt, pepper and additional lemon juice."
+  ],
+  "summary": "This roasted carrot recipe looks gourmet, but it’s surprisingly easy to make! It would be a lovely dish on your holiday table or a great weeknight dinner on its own. Recipe yields 4 main dish servings to 8 side servings, depending on portions.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Farro and chickpeas"
+   },
+   {
+    "at": 6,
+    "title": "Roasted carrots"
+   },
+   {
+    "at": 10,
+    "title": "Spiced pepitas"
+   },
+   {
+    "at": 15,
+    "title": "Herbed crème fraîche"
+   },
+   {
+    "at": 19,
+    "title": "Garnish"
+   }
+  ]
  },
  "parser_version": 2
 }

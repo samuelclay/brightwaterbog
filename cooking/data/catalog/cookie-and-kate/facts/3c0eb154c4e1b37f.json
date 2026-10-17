@@ -19,7 +19,20 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/pumpkin-spice-blend-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small bowl or jar, combine all of the spices. Stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Pumpkin spice will keep well in an airtight container for up to 1 year. Fresh spices are generally more potent, however."
+   }
+  ],
+  "notes": [],
+  "summary": "This pumpkin spice blend recipe is so easy to make. Combine ground cinnamon, ginger, nutmeg, and allspice or cloves. Stir them together and make your favorite pumpkin recipe! Recipe yields 2 tablespoons. You can easily double or triple the recipe (3 teaspoons is equivalent to 1 tablespoon).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

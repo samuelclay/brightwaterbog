@@ -35,7 +35,56 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/healthy-freezer-breakfast-burritos-with-sweet-potato-hash/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the hash: Heat a large skillet over medium heat. Add the olive oil, then the onion, and cook until the onion is slightly softened, 2 to 3 minutes. Add the garlic, sweet potato, red pepper, paprika, salt and pepper. Stir to combine, reduce heat to medium low, cover and cook until the sweet potato is tender, about 8 minutes. Uncover and continue cooking, stirring often, until the excess moisture has evaporated and the sweet potatoes are caramelized and golden on the edges. Carefully taste to make sure the sweet potatoes are cooked through. If desired, add more smoked paprika to taste."
+   },
+   {
+    "title": null,
+    "text": "To scramble the eggs: In a large bowl, whisk together the eggs, salt and pepper. Heat another skillet over medium heat. Add the olive oil, then pour the eggs into the skillet and stir constantly with a heatproof spatula until the eggs are just cooked (don’t overdo it!). Transfer the eggs to a bowl and set aside."
+   },
+   {
+    "title": null,
+    "text": "To prepare the goat cheese: (Skip this step if you bought herbed goat cheese.) In a small bowl, stir the dried herbs into the softened goat cheese (if you forgot to pull the cheese out the refrigerator until now, just zap it in the microwave for a few seconds to soften it)."
+   },
+   {
+    "title": null,
+    "text": "To prepare the burritos: Spread about a tablespoon of goat cheese down the center of each tortilla. Top with a scoop of eggs, followed by black beans and sweet potato hash, equally dividing the ingredients between the burritos. Try not to overfill these!"
+   },
+   {
+    "title": null,
+    "text": "To make them freezer ready: Let the burritos cool to room temperature before proceeding (excess moisture trapped in plastic wrap will turn into freezer burn). Lay a square of plastic wrap on your work surface and place a prepared tortilla in the center. Fold one side of the tortilla over the burrito, then snugly pull the opposite side over to make a wrap. Pull one corner of the plastic wrap over the exposed end, then repeat with the opposite side and roll it up to tightly wrap the burrito. Transfer the wrapped burritos to a freezer-safe bag and squeeze out the air before sealing. Store the burritos in the freezer."
+   },
+   {
+    "title": null,
+    "text": "To warm the burritos, remove from the freezer and microwave until warm, 30 to 60 seconds. If preferred, you could also warm them in an oven or toaster oven. Serve with plenty of hot sauce and/or salsa on the side."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Seriously Delish: 150 Recipes for People Who Totally Love Food by Jessica Merchant.",
+   "Make it gluten free: Just use gluten-free tortillas!"
+  ],
+  "summary": "Hearty, vegetarian freezer breakfast burritos with sweet potato hash, black beans and scrambled eggs! Freeze your extra burritos for busy mornings. Recipe yields 8 small burritos.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Sweet potato and pepper hash"
+   },
+   {
+    "at": 8,
+    "title": "Scrambled eggs"
+   },
+   {
+    "at": 12,
+    "title": "Herbed goat cheese"
+   },
+   {
+    "at": 17,
+    "title": "For serving"
+   }
+  ]
  },
  "parser_version": 2
 }

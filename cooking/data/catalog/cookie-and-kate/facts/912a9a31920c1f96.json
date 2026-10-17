@@ -30,7 +30,48 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/beer-bean-stuffed-poblano-peppers/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large bowl, soak the beans in plenty of water for at least 6 hours, or up to overnight."
+   },
+   {
+    "title": null,
+    "text": "Drain the beans and set them aside. In a large pot over medium heat, add the olive oil, onion and garlic and sauté for a few minutes, until the onion is just softened."
+   },
+   {
+    "title": null,
+    "text": "Add the soaked beans and 2 ½ cups water, stir, and bring the beans to a simmer. Simmer until the beans are cooked through (but not totally tender), 45 minutes to 75 minutes. Add the beer, chipotle and cinnamon and simmer until much of the liquid is absorbed, around 20 minutes. If necessary, add some water to keep the beans from drying out. Add ½ to ¾ teaspoon salt, to taste, and cook for another 10 minutes. Preheat the oven to 425 degrees and set the beans aside."
+   },
+   {
+    "title": null,
+    "text": "Grease a large baking dish or cast iron skillet(s)**. Cut a slit down the length of each poblano. Use your fingers (you might want to wear gloves) and a paring knife to remove, and then discard, the membranes and seeds from each pepper."
+   },
+   {
+    "title": null,
+    "text": "In a bowl, mix together the shredded Jack and crumbled cotija/feta cheese with the lime juice. If there is still a good amount of liquid in your beans, drain off some of it. Mix the chopped tomatoes into the beans. Use a spoon to fill most of each pepper with beans, then stuff a handful of cheese inside. Brush the outside of each pepper with olive oil and bake for around 25 minutes, until the tops are roasted and golden and the pepper is tender all around. Serve peppers immediately, with the slit side up and garnished with cilantro."
+   }
+  ],
+  "notes": [
+   "Adapted from The Sprouted Kitchen Cookbook by Sara Forte.",
+   "Sara recommends serving the peppers with Spanish rice. I took the lazy route and cooked up 2 cups (dried) long grain brown rice and mixed in ½ cup store-bought, mild salsa verde.",
+   "You can also cook these peppers on the grill. Sara says to preheat the grill to medium-high heat, leaving one section over indirect heat. Grill the peppers over direct heat, rotating them every few minutes in order to evenly char the outsides, 6 to 8 minutes total. Transfer them to indirect heat for another 8 to 10 minutes, until the insides are melty and the peppers have softened up.",
+   "*To substitute canned beans here, rinse and drain the beans and then sauté the onion and garlic in olive oil as directed in step 2. Don’t add water, just the beer, chipotle and cinnamon, and simmer, uncovered, for about 10 to 15 minutes. You probably don’t need to add salt since canned beans contain so much sodium, so you can proceed with stuffing the peppers once the beer and bean mixture has reduced. Note that Sara’s original recipe calls for pinto beans or Rio Zape beans.",
+   "**I didn’t think of it until later, but perhaps baking the peppers in a cast iron pan would have helped cook the bottom sides of the larger peppers (you could even preheat the pan in the oven to further the process). I also think corn cut fresh from the cob would make a nice addition to the beer bean stuffing.",
+   "This recipe can be gluten-free if and only if you use gluten-free beer."
+  ],
+  "summary": "The most time-consuming and variable step here is cooking the beans. Canned beans would be a big time saver; see the notes section for Sara’s recommendations on how to sub them for home-cooked beans.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Beer beans"
+   },
+   {
+    "at": 8,
+    "title": "Peppers"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -33,7 +33,48 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2008/03/vegetarian-cassoulet/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make cassoulet:"
+   },
+   {
+    "title": null,
+    "text": "Halve leeks lengthwise and cut crosswise into 1/2-inch pieces, then wash well and pat dry."
+   },
+   {
+    "title": null,
+    "text": "Cook leeks, carrots, celery, and garlic in oil with herb sprigs, bay leaf, cloves, and 1/2 teaspoon each of salt and pepper in a large heavy pot over medium heat, stirring occasionally, until softened and golden, about 15 minutes. Stir in beans, tomatoes, tomato paste, then stock, and simmer, partially covered, stirring occasionally, until carrots are tender but not falling apart, about 30 minutes."
+   },
+   {
+    "title": null,
+    "text": "Make garlic crumbs while cassoulet simmers:"
+   },
+   {
+    "title": null,
+    "text": "Preheat oven to 350°F with rack in middle."
+   },
+   {
+    "title": null,
+    "text": "Toss bread crumbs with oil, garlic, and 1/4 teaspoon each of salt and pepper in a bowl until well coated. Spread in a baking pan and toast in oven, stirring once halfway through, until crisp and golden, 12 to 15 minutes. Cool crumbs in pan, then return to bowl and stir in parsley."
+   },
+   {
+    "title": null,
+    "text": "Finish cassoulet:"
+   },
+   {
+    "title": null,
+    "text": "Discard herb sprigs and bay leaf. Mash some of beans in pot with a potato masher or back of a spoon to thicken broth. Season with salt and pepper. Just before serving, sprinkle with garlic crumbs."
+   },
+   {
+    "title": null,
+    "text": "How about some sausage with that! Slice one pound of cooked sausage into discs and mix with the bean and vegetable stew before adding the breadcrumbs. From here, you can either heat them through for another 15 minutes on the stove, then finish with the breadcrumbs, or add an additional cup of water/broth, scatter that breadcrumbs on top and bake it in a 350°F oven for 20 minutes until the sausage is heated through."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

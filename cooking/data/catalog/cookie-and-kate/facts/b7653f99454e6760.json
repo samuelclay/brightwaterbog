@@ -1,6 +1,84 @@
 {
  "url": "https://cookieandkate.com/mujaddara-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Mujadara (Lentils and Rice with Caramelized Onions)",
+  "ingredients": [
+   "4 medium cloves garlic, smashed and peeled",
+   "2 bay leaves",
+   "1 tablespoon ground cumin",
+   "1 ¾ teaspoons fine sea salt, divided",
+   "Freshly ground black pepper",
+   "5 cups water",
+   "1 cup brown* basmati rice (regular, not quick-cooking), rinsed and drained",
+   "1 cup regular brown or green lentils**, picked over for debris, rinsed and drained",
+   "⅓ cup extra-virgin olive oil",
+   "2 medium-to-large yellow onions, halved and thinly sliced",
+   "½ cup thinly sliced green onions (from 1 bunch), divided",
+   "½ cup chopped fresh cilantro or flat-leaf parsley, divided",
+   "Plain whole-milk or Greek yogurt, for serving",
+   "Spicy sauce, for serving (optional): shatta or zhoug or store-bought chili-garlic sauce or even sriracha"
+  ],
+  "yield_text": "4 generous servings",
+  "cook_time": "1 hour",
+  "categories": [
+   "Main Dish"
+  ],
+  "cuisines": [
+   "Middle Eastern"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/mujaddara-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large Dutch oven or soup pot, combine the garlic, bay leaves, cumin, 1 ½ teaspoons of the salt and about 20 twists of freshly ground black pepper. Add the water and bring the mixture to a boil over medium-high heat."
+   },
+   {
+    "title": null,
+    "text": "Once boiling, stir in the rice and reduce the heat to medium. Cover and cook, stirring occasionally and adjusting the heat as necessary to maintain a controlled simmer, for 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Stir in the lentils and let the mixture return to a simmer. Cover again, reduce the heat to medium-low, and cook until the liquid is absorbed and the rice and lentils are tender, about 20 to 23 minutes."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, warm the olive oil in a large (12-inch) skillet over medium-high heat. When it’s warm enough that a slice of onion sizzles on contact, add the remaining onions. Stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Stir only every 3 minutes or so at first, then more often once the onions at the edges of the pan start browning. If the onions are browning before they have softened, dial down the heat to give them more time. Cook until the onions are deeply caramelized and starting to crisp at the edges, about 20 to 30 minutes. In the meantime, line a large plate or cutting board with a couple paper towels."
+   },
+   {
+    "title": null,
+    "text": "Using a slotted spoon or fish spatula, transfer the onions to the lined plate and spread them evenly across. Sprinkle the remaining ¼ teaspoon salt over the onions. They’ll crisp up as they cool."
+   },
+   {
+    "title": null,
+    "text": "When the lentils and rice are done cooking, drain off any excess water (if there is any) and return the mixture to the pot, off the heat. Lay a kitchen towel across the top of the pot to absorb steam, then cover the pot and let it rest for 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the lid, discard the bay leaves, and smash the garlic cloves against the side of the pan with a fork. Add about ¾ths of the green onions and cilantro, reserving the rest for garnish. Gently stir and fluff the rice with a fork. Season to taste with additional salt and pepper, if necessary."
+   },
+   {
+    "title": null,
+    "text": "Transfer the rice and lentil mixture to a large serving platter or bowl. Top with the caramelized onions and the remaining green onions and cilantro. Serve hot, warm or at room temperature, with yogurt and spicy sauce (optional) on the side."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Milk Street.",
+   "*Brown rice notes: This recipe is specifically designed for regular (not quick-cooking) brown rice. Any variety of regular brown rice will theoretically work, though basmati is the most traditional choice. You can find brown basmati rice (Lundberg brand) at most well-stocked grocery stores, or you can buy it at Trader Joe’s (they sell both regular and quick-cooking brown basmati, so be sure to buy the regular).",
+   "*To make this recipe with white basmati rice instead: Cook the lentils in the boiling water first for about 10 minutes (until somewhat softened on the outside/still firm in the middle), then add the rice and cook until both lentils and rice are tender, about 25 minutes.",
+   "**Lentil notes: You want to use standard-issue uncooked brown or green lentils, not red or yellow lentils or fancy French green or black beluga lentils or canned lentils. Those all have different cooking times, which won’t work with these instructions. If you want to use a different type of lentil for this recipe, cook it in a separate pot from the rice, then stir them together before serving (canned lentils would simply need to be rinsed and drained before using).",
+   "Make it dairy free/vegan: This is easy! Replace the yogurt with something similarly creamy and tangy, like classic hummus or tahini sauce.",
+   "Prepare in advance: This recipe is a great candidate for making ahead. You could gently reheat the lentil and rice mixture and onions (reserve fresh herbs for the end), or just let it warm to room temperature."
+  ],
+  "summary": "Mujadara is a classic Arabic recipe featuring cooked lentils and rice, caramelized onions, herbs and yogurt. It’s a delicious vegetarian main dish! This version calls for brown rice instead of white (if you want to use white, see recipe notes). Recipe yields 4 generous servings.",
+  "ingredient_groups": []
+ }
 }

@@ -21,7 +21,42 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/simple-vegan-pancake-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a mixing bowl, whisk together the flour, baking powder and salt. In a 2-cup liquid measuring cup or another mixing bowl, whisk together the milk, oil, maple syrup and vanilla extract until thoroughly blended. (If your coconut oil solidifies on contact with the cold milk, gently warm it in the microwave just until it liquifies again.)"
+   },
+   {
+    "title": null,
+    "text": "Pour the liquid mixture into the dry mixture. Stir until combined, so only a few lumps remain (don’t over-mix or your pancakes will be tough!). If you’d like to mix in any totally optional add-ins (like chocolate chips or blueberries), gently fold them in now. Let the batter rest for 5 minutes so your pancakes will be nice and fluffy."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, if you’ll be using an electric skillet, heat it to 350 degrees Fahrenheit. Otherwise, heat a heavy cast iron skillet or nonstick griddle over medium-low heat. You’re ready to start cooking your pancakes once the surface of the pan is hot enough that a drop of water sizzles on contact."
+   },
+   {
+    "title": null,
+    "text": "If necessary, lightly oil the cooking surface with additional oil or cooking spray (I don’t oil the surface of my non-stick griddle and my pancakes turned out great)."
+   },
+   {
+    "title": null,
+    "text": "Using a ¼-cup measure, scoop the batter onto the warm skillet. Cook for 2 to 3 minutes until small bubbles form on the surface of the pancakes (you’ll know it’s ready to flip when about ½-inch of the perimeter is matte instead of glossy), and flip. Cook on the opposite sides for 1 to 2 minutes, or until golden brown."
+   },
+   {
+    "title": null,
+    "text": "Repeat the process with the remaining batter, adding more oil as needed. You may need to adjust the heat up or down at this point. Serve the pancakes immediately or keep warm in a 200 degree Fahrenheit oven."
+   }
+  ],
+  "notes": [
+   "Adapted from my gingerbread pancake recipe.",
+   "*Flour options: All-purpose flour should also work fine here.",
+   "*Make it gluten-free: Readers report that Bob’s Red Mill’s gluten-free all-purpose flour works great.",
+   "Leftover pancakes? Pancakes make great leftovers! Store them in the refrigerator for up to 5 days, or freeze them for months. To warm, wrap a short stack of pancakes loosely in a paper towel and gently reheat in the microwave until warmed through, flipping and re-wrapping the stack halfway through.",
+   "Make-ahead option? I don’t recommend mixing pancake batter and storing it in the refrigerator overnight. You will have better luck mixing the dry ingredients separately from the wet ingredients, as directed in step 1, then storing those two components separately (store the wet mixture in the fridge). When you’re ready to make pancakes, begin with step 2. This technique will work better if you use olive oil, since coconut oil solidifies when chilled."
+  ],
+  "summary": "These easy vegan pancakes are my favorite basic pancakes! Who knew that eggless, whole grain pancakes could be so fluffy?! Feel free to throw in some add-ins like blueberries or chocolate chips, if you’re so inclined. Recipe yields 6 modestly-sized pancakes (perfect for 2 servings), so multiply as necessary.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

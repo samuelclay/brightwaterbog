@@ -1,6 +1,68 @@
 {
  "url": "https://cookieandkate.com/butternut-tabbouleh-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Butternut Tabbouleh",
+  "ingredients": [
+   "1 small butternut squash (about 1 ½ pounds), sliced into little ¼-inch cubes",
+   "2 tablespoons olive oil",
+   "1 teaspoon fine salt",
+   "½ cup bulgur",
+   "1 cup water",
+   "Pinch of salt",
+   "1 cup (about ½ bunch) chopped fresh parsley",
+   "½ cup (1 small bunch) chopped fresh mint",
+   "1 shallot, minced (about ⅓ cup minced)",
+   "¼ cup dried cranberries",
+   "¼ cup lemon juice, more to taste (1 to 2 lemons)",
+   "2 to 3 tablespoons olive oil",
+   "Optional garnish: crumbled feta cheese"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Lebanese-inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/butternut-tabbouleh-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the butternut, warm 2 tablespoons olive oil in a large skillet over medium heat. Once the oil is shimmering, add the cubed butternut and 1 teaspoon salt. Toss to coat. Cover and cook, stirring occasionally, for 5 minutes, then uncover and continue cooking until the butternut is tender and the edges are nice and caramelized, about 7 minutes. Transfer the butternut to a medium-sized serving bowl to cool."
+   },
+   {
+    "title": null,
+    "text": "While the butternut is cooking, combine the bulgur and water in a pot. Bring the mixture to a boil over high heat, then cover, reduce heat to low and cook for 10 minutes. Remove the pot from the heat and let the bulgur rest, covered, for 5 minutes. Fluff the bulgur with a fork and season to taste with salt. Set it aside to cool."
+   },
+   {
+    "title": null,
+    "text": "Once the butternut and bulgur have cooled, toss them together in your serving bowl. Add the chopped parsley, mint and shallot, as well as the dried cranberries. Drizzle in the lesser amounts of lemon juice and olive oil. Taste, and add another tablespoon of lemon juice for more acidity or another tablespoon of olive oil for richness. Toss and serve with crumbled feta on top, if you’d like. Leftover keeps well in the refrigerator, covered, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Make it vegan/dairy free: Skip the feta!",
+   "Make it gluten free: Substitute quinoa for the bulgur, cooked according to these directions."
+  ],
+  "summary": "This fresh winter tabbouleh salad recipe features butternut squash instead of tomatoes, along with some dried cranberries for complementary flavor. This recipe yields 4 side salads. Feel free to double the recipe; if you do, you’ll likely need to cook the butternut squash longer than indicated below.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Butternut"
+   },
+   {
+    "at": 3,
+    "title": "Bulgur"
+   },
+   {
+    "at": 6,
+    "title": "Everything else"
+   }
+  ]
+ }
 }

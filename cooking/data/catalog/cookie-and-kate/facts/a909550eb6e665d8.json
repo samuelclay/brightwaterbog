@@ -1,6 +1,50 @@
 {
  "url": "https://cookieandkate.com/basil-pesto-vinaigrette-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Basil Pesto Salad Dressing",
+  "ingredients": [
+   "½ cup packed fresh basil leaves",
+   "1 clove garlic, roughly chopped",
+   "3 tablespoons raw pine nuts",
+   "½ cup extra-virgin olive oil",
+   "2 tablespoons lemon juice (about 1 medium lemon, juiced)",
+   "¼ teaspoon salt",
+   "Freshly ground pepper, to taste"
+  ],
+  "yield_text": "1/2 cup",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Salad dressing"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/basil-pesto-vinaigrette-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In the bowl of your food processor (a blender will probably also work), combine the basil, garlic and pine nuts. Pulse until coarsely chopped."
+   },
+   {
+    "title": null,
+    "text": "While the machine is running, drizzle in the olive oil, lemon juice and salt. Season to taste with freshly ground black pepper and blend until smooth. For best flavor, use immediately, or cover and store in the refrigerator for up to 3 days."
+   }
+  ],
+  "notes": [
+   "Storage suggestions: This dressing is best served immediately, but will keep in the refrigerator, covered, for another day or two.",
+   "Change it up: Feel free to play around with the herbs and nuts used in this recipe! Mint or cilantro would be lovely additions or substitutions. The pine nuts blend right into the dressing, which is nice, but you could also experiment with almonds, cashews, pepitas and sunflower seeds."
+  ],
+  "summary": "This simple basil salad dressing takes cues from pesto and pairs marvelously with green salads, Italian/Greek flavors and a variety of bold, summery flavors. Recipe yields about ½ cup dressing and keeps well for up to 10 days.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Basil dressing"
+   }
+  ]
+ }
 }

@@ -1,6 +1,69 @@
 {
  "url": "https://cookieandkate.com/roasted-delicata-squash-pomegranate-arugula-salad/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Roasted Delicata Squash, Pomegranate and Arugula Salad",
+  "ingredients": [
+   "2 medium delicata squash (about 2 pounds total)",
+   "1 tablespoon extra virgin olive oil",
+   "Pinch of fine salt",
+   "5 ounces (about 5 heaping cups) arugula or mixed baby greens",
+   "Arils from 1 pomegranate (about 1 cup) or a generous handful of dried cherries or cranberries",
+   "⅓ cup raw pepitas (green pumpkin seeds) or chopped pecans",
+   "3 to 4 ounces (about ¾ cup) crumbled feta cheese or goat cheese",
+   "3 tablespoons extra virgin olive oil",
+   "1 ½ tablespoons balsamic vinegar",
+   "2 teaspoons maple syrup",
+   "1 teaspoon Dijon mustard",
+   "¼ teaspoon fine salt",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "6 to 10",
+  "cook_time": "45 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-delicata-squash-pomegranate-arugula-salad/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. Wash the squash and scrape off any tough bits of skin with a knife. Slice the squash into ½-inch wide rounds. Use a spoon to scoop out the seeds from each round. Drizzle the squash with a generous tablespoon of olive oil and a sprinkle of salt. Use your fingers to lightly coat all surfaces of the squash with olive oil. Bake for about 30 to 35 minutes or until the squash is tender and golden, flipping halfway."
+   },
+   {
+    "title": null,
+    "text": "In a medium skillet over medium-low heat, toast the pepitas or pecans, stirring frequently, until they are fragrant and lightly golden on the edges, about 3 to 5 minutes. Remove from heat."
+   },
+   {
+    "title": null,
+    "text": "To prepare the dressing: In a small bowl, whisk together the olive oil, balsamic vinegar, maple syrup, Dijon mustard and salt. Season generously with black pepper, to taste."
+   },
+   {
+    "title": null,
+    "text": "Once the squash has cooled for a few minutes, combine the arugula, pomegranate, pepitas, crumbled feta and squash in a large serving bowl. When you’re ready to serve, drizzle in the dressing and gently toss to combine. Serve promptly."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Skip the feta or serve it on the side.",
+   "Make it nut free: Use pepitas, not pecans.",
+   "Storage suggestions: Ideally, store the salad and dressing separately and toss individual servings as needed (the salad will keep well for about 3 days with this method). The arugula will wilt after being exposed to the dressing, but even then, should keep for a day or so."
+  ],
+  "summary": "This vibrant salad features delicata squash, pomegranate, arugula, pepitas and feta tossed in a maple balsamic vinaigrette. If you are preparing this salad in advance, reserve the dressing on the side until you are ready to serve. Recipe yields 6 substantial side salads or up to 10 small salads; cut the recipe in half if desired.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 7,
+    "title": "Maple-balsamic vinaigrette"
+   }
+  ]
+ }
 }

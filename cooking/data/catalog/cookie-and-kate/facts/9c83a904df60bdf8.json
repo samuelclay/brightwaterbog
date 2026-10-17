@@ -26,7 +26,40 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/super-kale-pesto-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the pesto: In a food processor, add the peeled garlic cloves and process until the garlic is minced. Add the kale, hemp seeds, lemon juice, salt and pepper. Turn on the food processor and drizzle in the oil. Process until the pesto reaches your desired consistency, stopping to scrape down the sides as necessary. Taste and add more lemon, salt or pepper if necessary. (You can thin out the pesto with more oil, but if you’re serving with pasta, keep in mind that you can also thin it out with reserved pasta cooking water.)"
+   },
+   {
+    "title": null,
+    "text": "Cook the pasta (optional): Bring a large pot of salted water to boil. Add the pasta and cook until al dente, according to package directions. Reserve one cup cooking liquid before draining the pasta. Let the pasta and pasta water cool for a minute to make sure the high heat doesn’t damage the flax oil pesto."
+   },
+   {
+    "title": null,
+    "text": "If you intend to have leftovers, transfer the amount of pasta you think you’ll be eating immediately to a serving bowl and mix in pesto with splashes of cooking water. Otherwise, you can mix the pasta and pesto together in your cooking pot, adding splashes of cooking water as necessary. Keep in mind that you have diluted the flavor a bit with the cooking water, so taste and add more lemon, salt or a drizzle of olive oil as necessary."
+   }
+  ],
+  "notes": [
+   "Recipe loosely adapted from The Oh She Glows Cookbook.",
+   "Suggestions for leftovers: If you intend to have leftover pasta, it’s best to store the noodles and pesto separately. Avoid reheating pesto (it will lose its vibrance and some of its flavor)—especially if you used flaxseed oil, which is heat sensitive. To serve, bring the pesto to room temperature and add a little water if necessary to get the right consistency.",
+   "Make it vegan: This pesto is vegan as long as you skip the Parmesan.",
+   "Make it gluten-free: This pesto is gluten-free; just be sure to serve it on gluten-free pasta or whatever else.",
+   "Make it nut-free: Use hemp seeds instead of walnuts or pecans.",
+   "Recommended equipment: If you’re in the market for a food processor, I love this small, highly rated Cuisinart food processor (affiliate link)."
+  ],
+  "summary": "This kale pesto recipe is made with Omega 3-rich hemp seeds and flaxseed oil. Ready in under 10 minutes! For a more pantry-friendly option, use walnuts/pecans instead of hemp seeds and/or olive oil for the flaxseed oil (it’s just as tasty). Recipe yields about 1 ¼ cups pesto.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Pesto"
+   },
+   {
+    "at": 9,
+    "title": "Pasta (if you want pasta…)"
+   }
+  ]
  },
  "parser_version": 2
 }

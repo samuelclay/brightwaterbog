@@ -37,7 +37,55 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/sweet-potato-burrito-bowls-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 400 degrees Fahrenheit. Line a baking dish with parchment paper."
+   },
+   {
+    "title": null,
+    "text": "Place the sweet potatoes in the baking dish, and prick each one a couple of times with a fork. Slide the sweet potatoes into the oven and bake until very tender, about 45 minutes (mine took 5 to 10 minutes extra since they were a little bigger than specified)."
+   },
+   {
+    "title": null,
+    "text": "In a medium saucepan, combine the basmati rice, black beans, cumin, garlic, olive oil, tomato paste and salt. Pour 1 ¼ cups water into the pot. Cover and bring to a boil over medium heat. Lower the heat to a simmer, and cook until all of the liquid is absorbed, about 40 minutes. Cover and set aside to keep the rice warm."
+   },
+   {
+    "title": null,
+    "text": "Make the rustic salsa: In a medium bowl, combine the bell pepper, cherry tomatoes, red onions, lime juice, cilantro and olive oil. Season the mixture with salt and pepper, and toss to combine. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Make the guacamole: Peel the avocado and extract the pit. Place the avocado flesh in a medium bowl and mash with a fork. Once you’ve broken it up a bit, add the garlic, lime juice, cilantro and salt. Mash the avocado until the seasoning is evenly distributed and you have a chunky paste. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Place each baked sweet potato in a shallow bowl. Cut along the top of the sweet potato and pull back the skin. Spilt the sweet potatoes a little bit to make room for the fillings."
+   },
+   {
+    "title": null,
+    "text": "Divide the rice and bean mixture among the sweet potatoes (spillover is fine!). Top each bowl with ¼th of the rustic salsa. Finish each plate with a dollop of the guacamole and some shredded cabbage on top. Serve with hot sauce on the side if you wish."
+   }
+  ],
+  "notes": [
+   "Reprinted from The First Mess Cookbook by arrangement with Avery Books, a member of Penguin Group (USA) LLC, A Penguin Random House Company. Copyright © 2017, Laura Wright."
+  ],
+  "summary": "Fresh sweet potato burrito bowls from The First Mess Cookbook! This is a fun, hearty dinner recipe that happens to be vegan and gluten free. Recipe yields 4 stuffed sweet potatoes, enough for 2 to 4 servings.",
+  "ingredient_groups": [
+   {
+    "at": 8,
+    "title": "Rustic salsa"
+   },
+   {
+    "at": 15,
+    "title": "Guacamole"
+   },
+   {
+    "at": 20,
+    "title": "For serving"
+   }
+  ]
  },
  "parser_version": 2
 }

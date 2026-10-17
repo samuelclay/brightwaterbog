@@ -1,6 +1,67 @@
 {
  "url": "https://cookieandkate.com/light-mint-ice-cream-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Fresh Mint Ice Cream",
+  "ingredients": [
+   "2 cups 2% milk",
+   "1 cup half-and-half",
+   "20 fresh mint leaves",
+   "¾ cups turbinado (raw) sugar",
+   "Dash of salt",
+   "2 large egg yolks",
+   "1 teaspoon real vanilla extract"
+  ],
+  "yield_text": "1 quart",
+  "cook_time": "1 hour 30 minutes",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/light-mint-ice-cream-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Combine milk, half-and-half and mint leaves in a medium sized, heavy sauce pan or Dutch oven over medium-high heat. Heat until tiny bubbles form around the edge (which should be about 180 degrees). Do not let it boil!"
+   },
+   {
+    "title": null,
+    "text": "Remove from heat, cover and let stand for ten minutes. That gives the mint flavor time to steep."
+   },
+   {
+    "title": null,
+    "text": "Uncover it and pour the mixture through a colander into a medium bowl. Press the mint leaves slightly with a big spoon to get all the flavor. Discard the leaves, and pour the liquid back into your pan."
+   },
+   {
+    "title": null,
+    "text": "In a new bowl, combine sugar, salt and egg yolks. Stir with a whisk until the mixture is pale."
+   },
+   {
+    "title": null,
+    "text": "Gradually add half of the milk mixture to the egg mixture, while stirring constantly with a whisk. Pour the egg/milk mixture back into the pan with the rest of the milk."
+   },
+   {
+    "title": null,
+    "text": "Cook over medium-low heat for about two minutes (or to 160 degrees), stirring constantly."
+   },
+   {
+    "title": null,
+    "text": "Pour the mixture into a bowl. Stir in the vanilla extract. Place the bowl in the fridge until the mixture cools completely, stirring occasionally."
+   },
+   {
+    "title": null,
+    "text": "Pour the mixture into your ice cream maker and follow the manufacturer’s instructions. If you’d like the ice cream to harden up a little more, freeze it for a couple of hours."
+   }
+  ],
+  "notes": [
+   "Adapted from Cooking Light.",
+   "Note: I originally advised adding a couple of tablespoons of vodka to the cream mixture per David Lebovitz‘s suggestion, but it turns out you don’t need any in this recipe. It’s scoopable straight from the freezer, without any extra help from alcohol."
+  ],
+  "summary": "This delicately flavored, light ice cream is made with real mint and all-natural ingredients. It’s perfect for hot summer days. Recipe yields about 1 quart.",
+  "ingredient_groups": []
+ }
 }

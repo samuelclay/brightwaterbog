@@ -25,7 +25,42 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/balsamic-roasted-broccoli-and-red-pepper-grilled-cheese/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. Prepare your veggies, keeping in mind that you want them to be roughly the same size for even cooking. Remove the florets from the broccoli stems and slice them into bite-sized pieces. Slice the bell pepper into thin strips. Halve the onion and slice it into thin strips as well (no need to separate the strips of onion from each other)."
+   },
+   {
+    "title": null,
+    "text": "Transfer the prepared veggies to a large, rimmed baking sheet. Drizzle on the olive oil and balsamic vinegar. Add the salt and toss until all of the ingredients are evenly combined. Arrange the veggies in a single layer on the baking sheet. Sprinkle lightly with red pepper flakes (if using) and a few twists of freshly ground black pepper. Bake until the veggies are tender and deeply caramelized, about 20 minutes, tossing halfway."
+   },
+   {
+    "title": null,
+    "text": "To prepare your sandwiches: Spread a very thin layer of Dijon mustard on one slice of bread. Top the mustard with a heavy sprinkling of shredded cheese, then as much roasted vegetables as you can reasonably fit on top. Top with more cheese and place another piece of bread on top. Repeat for the remaining three sandwiches."
+   },
+   {
+    "title": null,
+    "text": "To cook your sandwiches: Heat a large skillet, preferably cast iron, over medium heat. Once it’s hot, add a generous pat of butter. Let the butter melt and swirl it around. Carefully place one sandwich on one side of the pan, then another sandwich on the other side. Cover the pan with a lid or a baking dish to help the cheese melt. Let the sandwich cook until the bottom side is golden and the cheese is mostly melted. Use a spatula to life one sandwich out of the pan at a time. Add a little more butter to the pan and let it melt (reduce the heat as necessary so the butter doesn’t burn). Carefully flip the sandwiches over and place them back in the pan to cook the other sides until they’re nice and golden (I covered the sandwiches again here). Once the cheese is melted through and both sides are golden, transfer the sandwiches to serving plates. Repeat with remaining sandwiches."
+   }
+  ],
+  "notes": [
+   "Serving suggestions: This sandwich would be great with roasted tomato and red pepper soup or a simple green salad.",
+   "Change it up: Pretty much any caramelized roasted veggies would be great in here.",
+   "Prepare in advance: Feel free to roast the veggies the night before. Actually, you might want to go ahead and roast extra veggies for other meals. Just make sure to arrange the prepared vegetables in a single layer on the baking sheet(s).",
+   "2025 recipe edit: I retested the recipe and increased the cheese from 8 ounces to 12 ounces for nicely cheesy sandwiches that can accommodate a broader range of bread sizes."
+  ],
+  "summary": "Hearty grilled cheese sandwiches made with whole grain bread and stuffed with caramelized, balsamic roasted vegetables and cheddar cheese. Recipe yields 4 sandwiches.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted vegetables"
+   },
+   {
+    "at": 8,
+    "title": "Sandwiches"
+   }
+  ]
  },
  "parser_version": 2
 }

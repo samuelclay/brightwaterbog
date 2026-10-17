@@ -1,6 +1,51 @@
 {
  "url": "https://cookieandkate.com/peach-and-burrata-salad/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Peach and Burrata Salad",
+  "ingredients": [
+   "3 medium ripe-but-not-overripe peaches, thinly sliced",
+   "½ cup baby arugula",
+   "1 tablespoon thinly sliced fresh basil, plus more small leaves for garnish",
+   "¼ teaspoon fine salt",
+   "1 tablespoon + 1 teaspoon olive oil, divided",
+   "2 teaspoons thick balsamic vinegar or balsamic glaze, divided",
+   "8 ounces burrata (2 balls)",
+   "1 ½ tablespoons chopped roasted pistachios (salted or unsalted)",
+   "Freshly ground black pepper",
+   "Flaky sea salt, optional",
+   "Optional: Crostini or crusty bread, for serving"
+  ],
+  "yield_text": "4",
+  "cook_time": "15 minutes",
+  "categories": [
+   "Appetizer",
+   "Salad"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/peach-and-burrata-salad/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a shallow serving bowl, combine the peaches, arugula and basil. Add 1 tablespoon of the olive oil and 1 teaspoon of the vinegar, and stir to combine all of the ingredients."
+   },
+   {
+    "title": null,
+    "text": "Gently tear open each ball of burrata and nestle them into the center of the peach mixture. Drizzle the burrata with the remaining 1 teaspoon olive oil and 1 teaspoon balsamic vinegar. Sprinkle the pistachios all over the dish, followed by some reserved basil leaves, plus a sprinkle of black pepper. Sprinkle a pinch of flaky salt over the cheese, if using."
+   },
+   {
+    "title": null,
+    "text": "Serve with crostini or crusty bread on the side, if using. This dish is best the day it’s made, but leftovers are good for several days in the refrigerator, covered."
+   }
+  ],
+  "notes": [
+   "Change it up: This dish would also be great with sliced fresh mozzarella or smaller mozzarella balls if you can’t find burrata."
+  ],
+  "summary": "This summery peach salad is topped with fresh arugula, basil, pistachios and balsamic vinegar. Burrata cheese is the perfect creamy accent. Recipe yields 4 salad servings or 6 appetizer servings.",
+  "ingredient_groups": []
+ }
 }

@@ -1,6 +1,63 @@
 {
  "url": "https://cookieandkate.com/arugula-carrot-and-chickpea-salad-with-wheat-berries/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Wheat Berry Salad with Arugula, Carrots and Chickpeas",
+  "ingredients": [
+   "1 cup dried wheat berries*",
+   "1 can chickpeas (15 ounces) or 1 ½ cups cooked chickpeas, rinsed and drained",
+   "4 medium carrots, sliced into ribbons using a vegetable peeler",
+   "½ cup feta cheese, crumbled",
+   "5 ounces arugula (if it’s not baby arugula, give it a few chops to break it into smaller pieces)",
+   "⅓ cup extra-virgin olive oil",
+   "¼ cup lemon juice (about 1 large or 2 medium lemons), to taste",
+   "2 teaspoons honey",
+   "2 medium garlic cloves, pressed",
+   "¼ teaspoon red pepper flakes (omit if sensitive to spice)",
+   "¼ teaspoon fine salt",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "6",
+  "cook_time": "1 hour 15 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/arugula-carrot-and-chickpea-salad-with-wheat-berries/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cook the wheat berries: Since wheat berries take around an hour to cook, I like to make extra and freeze it for later. To cook the wheat berries, bring 4 quarts of water to a boil in a large pot. Stir in the wheat berries and ½ teaspoon salt. Partially cover the pot with a lid and cook, stirring often, until the berries are tender but still a little chewy, about 45 minutes to 1 hour. Drain the wheat berries and let them cool to room temperature or close to it (you can speed up the cooling by pouring them onto a rimmed baking sheet or pouring them into a large bowl, stirring occasionally)."
+   },
+   {
+    "title": null,
+    "text": "In the meantime, whisk together the dressing ingredients. It should taste nicely tangy; you can add another tablespoon lemon juice to make it more zippy, or another pinch of salt for more flavor overall."
+   },
+   {
+    "title": null,
+    "text": "Transfer the cooled wheat berries to a big bowl. Add the chickpeas, carrots, feta cheese and arugula and toss to combine. If you’ll be serving the entire salad within the next few hours, drizzle in all of the dressing and toss to coat. If you’re planning on leftovers, store the dressing separately and dress individual portions before serving."
+   }
+  ],
+  "notes": [
+   "Recipe loosely adapted from two of my favorite recipe sources, Melissa Clark (Cook This Now) and America’s Test Kitchen (Healthy Family Cookbook).",
+   "Make it dairy free/vegan: Replace the feta with pitted and roughly chopped Kalamata olives to make up for feta’s salty and tangy flavors.",
+   "*Wheat berry alternatives: Try farro, spelt berries or wild rice, cooked according to their own methods. Wild rice is your best gluten-free option.",
+   "2026 recipe edits: I updated the ingredient quantities and yield for improved clarity."
+  ],
+  "summary": "This salad recipe features chewy wheat berries combined with arugula, chickpeas, carrots and feta cheese tossed in a lemon dressing. It’s beautiful and boldly flavored, and proves that whole grains can be a lovely salad component. Recipe yields 6 medium servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 5,
+    "title": "Dressing"
+   }
+  ]
+ }
 }

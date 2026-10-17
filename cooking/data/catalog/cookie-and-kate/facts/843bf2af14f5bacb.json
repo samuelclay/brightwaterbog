@@ -1,6 +1,73 @@
 {
  "url": "https://cookieandkate.com/healthy-carrot-muffins-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Healthy Carrot Muffins",
+  "ingredients": [
+   "1 ¾ cups white whole wheat flour or regular whole wheat flour",
+   "1 ½ teaspoons baking powder",
+   "1 teaspoon ground cinnamon",
+   "½ teaspoon baking soda",
+   "½ teaspoon salt",
+   "½ teaspoon ground ginger",
+   "¼ teaspoon ground nutmeg",
+   "2 cups peeled and grated carrots* (from ¾ pound carrots—about 3 large or up to 6 small/medium)",
+   "½ cup roughly chopped walnuts",
+   "½ cup raisins, tossed in 1 teaspoon flour",
+   "⅓ cup melted coconut oil or extra-virgin olive oil**",
+   "½ cup maple syrup or honey",
+   "2 eggs, preferably at room temperature",
+   "1 cup plain Greek yogurt***",
+   "1 teaspoon vanilla extract",
+   "1 tablespoon turbinado sugar (also called raw sugar), for sprinkling on top"
+  ],
+  "yield_text": "12 muffins",
+  "cook_time": "28 minutes",
+  "categories": [
+   "Baked goods"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/healthy-carrot-muffins-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 425 degrees Fahrenheit. If necessary, grease all 12 cups on your muffin tin with butter or non-stick cooking spray (my pan is non-stick and doesn’t require any grease)."
+   },
+   {
+    "title": null,
+    "text": "In a large mixing bowl, combine the flour, baking powder, cinnamon, baking soda, salt, ginger and nutmeg. Blend well with a whisk. In a separate, small bowl, toss the raisins with 1 teaspoon flour so they don’t stick together. Add the grated carrots, chopped walnuts and floured raisins to the other ingredients and stir to combine."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, combine the oil and maple syrup and beat together with a whisk. Add the eggs and beat well, then add the yogurt and vanilla and mix well. (If the coconut oil solidifies in contact with cold ingredients, gently warm the mixture in the microwave in 30 second bursts.)"
+   },
+   {
+    "title": null,
+    "text": "Pour the wet ingredients into the dry and mix with a big spoon, just until combined (a few lumps are ok). Divide the batter evenly between the 12 muffin cups. Sprinkle the tops of the muffins with turbinado sugar. Bake muffins for 13 to 16 minutes, or until the muffins are golden on top and a toothpick inserted into a muffin comes out clean."
+   },
+   {
+    "title": null,
+    "text": "Place the muffin tin on a cooling rack to cool. If you have leftover muffins, store them, covered, at room temperature for two days, or in the refrigerator for up to 4 days. Freeze leftover muffins for up to 3 months."
+   }
+  ],
+  "notes": [
+   "*Carrot grating tips: You can grate the carrots by hand, or for an easier option, use the grating attachment on your food processor.",
+   "**A note on oils: I love coconut oil here. I used unrefined coconut oil and can hardly taste it in the final product. Olive oil will lend an herbal note to the muffins, if you’re into that. Vegetable oil has a neutral flavor, but the average vegetable/canola oil is highly processed, so I recommend using cold-pressed sunflower oil or grapeseed oil if possible.",
+   "***Note on Greek yogurt: I’ve used a variety of fat percentages and the muffins have always turned out well. Higher fat yogurt will yield a somewhat more rich muffin. You can also substitute plain (not Greek) yogurt, but your muffins might not rise quite as high.",
+   "Make it vegan: You can replace the eggs with flax “eggs.” Replace the yogurt with a smaller amount of vegan buttermilk—just mix ⅔ cup non-dairy milk with 2 teaspoons vinegar. Let it rest for 5 minutes before adding it to the other liquid ingredients. Or, use 1 cup vegan yogurt.",
+   "Make it dairy free: See buttermilk option above.",
+   "Make it egg free: Substitute flax eggs for the regular eggs.",
+   "Make it gluten free: Substitute an all-purpose gluten-free flour blend for the whole wheat flour. Bob’s Red Mill makes a GF blend that works well.",
+   "Make it nut free: Skip the walnuts!",
+   "Make it lower in fat: I would argue that this bread contains a healthy amount of fat, but you can replace the oil with applesauce if you’re following a low-fat diet."
+  ],
+  "summary": "Healthy carrot muffins made with whole wheat flour, coconut oil and maple syrup! They taste fantastic, too, of course. These muffins make a great, quick breakfast! Recipe yields 12 muffins.",
+  "ingredient_groups": []
+ }
 }

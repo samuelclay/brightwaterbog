@@ -1,6 +1,54 @@
 {
  "url": "https://cookieandkate.com/chimichurri-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Chimichurri Sauce",
+  "ingredients": [
+   "1 cup packed fresh flat-leaf parsley leaves (from 1 large bunch, about 1.2 ounces—a few small stems are ok)",
+   "4 medium cloves garlic, peeled",
+   "½ cup extra-virgin olive oil",
+   "¼ cup red wine vinegar",
+   "½ teaspoon fine salt, to taste",
+   "½ teaspoon red pepper flakes, to taste*",
+   "½ cup finely chopped red onion (about ½ small)"
+  ],
+  "yield_text": "1 1/2 cups",
+  "cook_time": "10 minutes",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Argentine"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/chimichurri-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a food processor, combine the parsley and garlic. Process until finely chopped, stopping to scrape down the sides as necessary."
+   },
+   {
+    "title": null,
+    "text": "Add the olive oil, vinegar, salt and red pepper flakes to the food processor (don’t add the onion just yet). Process briefly to combine."
+   },
+   {
+    "title": null,
+    "text": "Transfer the mixture to a small jar or bowl and whisk in the red onion until the mixture is well blended. Let the sauce rest for 10 minutes to allow the flavors to meld. Taste, and if necessary, add additional salt (sometimes I add another ¼ teaspoon) and/or red pepper flakes (for more heat)."
+   },
+   {
+    "title": null,
+    "text": "The sauce tastes best when served fresh, but it keeps well in an air-tight container in the refrigerator for 3 to 4 days. To prevent the sauce from turning a darker color (which doesn’t impact flavor), press plastic wrap directly against the surface before storing. If the olive oil solidifies in the refrigerator, don’t worry—let it warm up for 5 to 10 minutes at room temperature and then whisk to recombine."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from The Complete America’s Test Kitchen Cookbook and Food and Wine.",
+   "Food processor notes: If you don’t have a food processor, you can finely chop the parsley (the finer, the better) and press or mince the garlic. Whisk the olive oil and vinegar together in a bowl until blended, then add the remaining ingredients and whisk again!",
+   "*Spice level: To make your chimichurri less spicy, scale back or omit the red pepper flakes. The sauce will still taste bold and zippy thanks to the garlic, onion and vinegar."
+  ],
+  "summary": "You’ll love this traditional chimichurri recipe! Chimichurri verde is a popular parsley sauce from Argentina with bold, fresh flavor. It’s easy to make, too. Recipe yields 1 ½ cups.",
+  "ingredient_groups": []
+ }
 }

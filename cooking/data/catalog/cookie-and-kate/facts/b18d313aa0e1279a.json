@@ -1,6 +1,57 @@
 {
  "url": "https://cookieandkate.com/burrata-with-tomatoes-basil/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Burrata with Tomatoes and Basil",
+  "ingredients": [
+   "1 pint cherry or grape tomatoes, halved or quartered if large",
+   "¼ cup thinly sliced oil-packed sun-dried tomatoes",
+   "1 tablespoon thinly sliced fresh basil, plus more small leaves for garnish",
+   "1 medium clove garlic, pressed or minced",
+   "¼ teaspoon fine salt",
+   "1 tablespoon + 1 teaspoon olive oil, divided",
+   "2 teaspoons thick balsamic vinegar or balsamic glaze, divided",
+   "8 ounces burrata (2 balls)",
+   "1 ½ tablespoons pine nuts or chopped roasted pistachios",
+   "Freshly ground black pepper",
+   "Flaky sea salt, optional",
+   "Optional: Crostini or crusty bread, for serving"
+  ],
+  "yield_text": "4",
+  "cook_time": "15 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Italian-inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/burrata-with-tomatoes-basil/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "If you’re using pine nuts: In a small skillet over medium-low heat, warm the pine nuts until they’re fragrant and turning lightly golden on the edges, about 3 to 5 minutes, stirring often (don’t let them burn!). Transfer them to a bowl to cool."
+   },
+   {
+    "title": null,
+    "text": "In a shallow serving bowl, combine the cherry tomatoes, sun-dried tomatoes, basil and garlic. Add 1 tablespoon of the olive oil and 1 teaspoon of the vinegar, and stir to combine all of the ingredients."
+   },
+   {
+    "title": null,
+    "text": "Gently tear open each ball of burrata and nestle them gently into the center of the tomato mixture. Drizzle the burrata with the remaining 1 teaspoon olive oil and 1 teaspoon balsamic vinegar. Sprinkle the pine nuts all over the dish, followed by some reserved basil leaves, plus a sprinkle of black pepper. Sprinkle a pinch of flaky salt over the cheese, if using."
+   },
+   {
+    "title": null,
+    "text": "Serve with crostini or crusty bread on the side, if using. This burrata is best the day it’s made, but leftovers are good for several days in the refrigerator, covered."
+   }
+  ],
+  "notes": [
+   "Change it up: Substitute a large sliced peach for half of the tomatoes. Or for a more fruity variation, substitute peaches, nectarines or cherries for the tomatoes altogether (about 2 cups), and omit the sun-dried tomatoes. For the fruity variation, you might prefer pistachios to pine nuts."
+  ],
+  "summary": "This burrata salad recipe features tomatoes, basil and pine nuts, with a drizzle of balsamic vinegar and olive oil. It’s irresistible and ready in 15 minutes. Serve it as a salad or an appetizer with crostini or crusty bread. Recipe yields 4 to 6 servings.",
+  "ingredient_groups": []
+ }
 }

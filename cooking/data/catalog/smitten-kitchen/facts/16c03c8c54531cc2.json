@@ -20,7 +20,33 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2017/03/easiest-french-fries/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cover your largest baking sheet with paper towels or paper bags for draining."
+   },
+   {
+    "title": null,
+    "text": "Scrub potatoes and dab them dry, then cut into 1/4-inch batons (see here for how I do it). Place in a 4 to 5-quart heavy, deep frying pan or Dutch oven and add oil; it will barely cover the potatoes. Turn burner to high and bring oil to a boil, which will take about 5 minutes. Cook potatoes for another 15 minutes; do not stir; they’ll just break. At this 20 minute mark, you can use tongs or a thin spatula to gently scrape loose any potatoes that have stuck to the pan. Continue to cook, stirring only if absolutely necessary, for 5 to 10 minutes longer, or until crisp and as golden as you like them."
+   },
+   {
+    "title": null,
+    "text": "Use a large slotted spoon or spider to scoop potatoes from and spread them on prepared tray drain, tossing immediately with salt as you do."
+   },
+   {
+    "title": null,
+    "text": "You can keep fries warm in a 200 degree oven but the texture is really best right from the fryer."
+   }
+  ],
+  "notes": [
+   "This recipe requires no peeling, soaking, twice-frying, deep-fry thermometer (or deep-fryer), temperature monitoring or even stirring and uses a fraction of the oil of classically twice-fried frites. It really, really loves us.",
+   "A few changes from the original: CI has you bevel your potatoes into perfectly batons and isn’t clear what to do with the edges. I use them all; thinner pieces will cook faster and darker and I will generally fight you for them.",
+   "Oil choices: Any neutral oil that can handle high frying temperatures will work; my favorite for french fries is peanut. You can add 1/4 cup of duck, goose or bacon fat for an even more delicious flavor.",
+   "Salt: Always salt your fries when they’re hot, hot, hot from the oil. The finer the salt, the better it sticks."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

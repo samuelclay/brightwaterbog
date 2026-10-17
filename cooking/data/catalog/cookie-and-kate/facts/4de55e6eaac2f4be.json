@@ -1,6 +1,74 @@
 {
  "url": "https://cookieandkate.com/peanut-soba-noodle-bowl/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Peanut Soba Noodles with Broccoli and Red Pepper",
+  "ingredients": [
+   "12 ounces soba noodles or spaghetti noodles of choice",
+   "2 medium red bell peppers, cut into two inch strips",
+   "5 to 6 tightly bunched broccoli stems (about 1½ to 2 pounds), cut into florets",
+   "1 to 2 tablespoons vegetable oil, for stir-frying",
+   "2 handfuls fresh cilantro leaves, chopped",
+   "1 small bunch of green onions, thinly sliced",
+   "Handful of roasted peanuts, for topping",
+   "⅔ cup creamy peanut butter",
+   "¼ cup rice vinegar",
+   "2 cloves garlic, minced and crushed into a paste",
+   "1 teaspoon toasted sesame oil",
+   "2 tablespoons reduced-sodium tamari",
+   "Big pinch of crushed red pepper flakes",
+   "¼ to ½ cup hot water"
+  ],
+  "yield_text": "6 bowls",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [
+   "Asian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/peanut-soba-noodle-bowl/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Boil a big pot of water. Add the soba noodles and cook according to the instructions on the package. Drain and rinse with cold water. (Tip: soba noodles seem to be more finicky than regular whole wheat pasta, so really, you need to cook them in a lot of water, be sure not to overcook them, and rinse them immediately.)"
+   },
+   {
+    "title": null,
+    "text": "Sauté your broccoli and red peppers over medium high heat with a splash of vegetable oil for about 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Whisk together the sauce, adding the hot water in increments at the end. As Heidi put it, you want it to be the consistency of a thin yogurt."
+   },
+   {
+    "title": null,
+    "text": "Once your noodles are done cooking, rinsed and drained, toss together the noodles, broccoli, red peppers, cilantro, green onions and sauce."
+   },
+   {
+    "title": null,
+    "text": "Portion into small bowls and top with a sprinkling of dry roasted peanuts."
+   }
+  ],
+  "notes": [
+   "Sauce adapted from 101 Cookbooks’s Lazy Day Peanut Noodle Salad Recipe.",
+   "Make it gluten free: This dish can be gluten free if you use gluten-free spaghetti instead (like a quinoa and corn spaghetti blend).",
+   "Preparation tips: I chose to sautée my veggies but you could probably steam them lightly or perhaps use them raw. You could sub any number of seasonal vegetables for the broccoli and red pepper, too. Just be sure to use a lot of veggies to keep the dish light."
+  ],
+  "summary": "This vegan, Asian-inspired soba noodle bowl recipe is a quick, easy meal. Filled with vegetables, whole grains and protein, it’s nutritious and satisfying.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Noodle bowl"
+   },
+   {
+    "at": 7,
+    "title": "Sauce"
+   }
+  ]
+ }
 }

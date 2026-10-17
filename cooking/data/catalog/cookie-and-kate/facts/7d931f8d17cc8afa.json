@@ -1,6 +1,51 @@
 {
  "url": "https://cookieandkate.com/cilantro-lime-dressing-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Cilantro Lime Dressing",
+  "ingredients": [
+   "½ cup extra-virgin olive oil",
+   "½ cup lime juice (from about 4 to 6 limes)",
+   "1 cup loosely packed cilantro (mostly leaves, small stems are ok, from about 1 small bunch)",
+   "1 tablespoon honey or maple syrup, to taste",
+   "1 teaspoon Dijon mustard",
+   "½ teaspoon ground cumin",
+   "Scant ½ teaspoon fine salt, to taste",
+   "1 clove garlic, roughly chopped",
+   "Optional, for spice: 1 small jalapeño, seeds and ribs removed, and roughly chopped, and/or a pinch of red pepper flakes",
+   "Optional, for creamy dressing: 2 tablespoons tahini or ½ cup whole-milk Greek yogurt"
+  ],
+  "yield_text": "1 1/4 cups",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Salad dressing"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cilantro-lime-dressing-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a food processor or small blender, combine all of the ingredients. Process until the mixture is completely smooth with tiny flecks of cilantro."
+   },
+   {
+    "title": null,
+    "text": "Taste, and adjust as necessary—if the dressing is overwhelmingly tart, add more honey by the teaspoon. If it tastes a little bitter or needs extra oomph, add another pinch or two of salt. For more spice, add a pinch of red pepper flakes. Blend again."
+   },
+   {
+    "title": null,
+    "text": "Serve immediately or store in a covered jar in the refrigerator for up to 1 week."
+   }
+  ],
+  "notes": [
+   "Make it vegan: Use maple syrup instead of honey. For a creamy dressing, choose tahini."
+  ],
+  "summary": "Make this cilantro lime dressing recipe for your next green salad! It’s the perfect burst of freshness to accompany your Mexican and Tex-Mex meals. You can make the dressing creamy or spicy, if you wish! Recipe yields 1 ¼ cups.",
+  "ingredient_groups": []
+ }
 }

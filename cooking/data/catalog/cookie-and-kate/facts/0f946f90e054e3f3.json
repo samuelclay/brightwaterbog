@@ -33,7 +33,39 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/tex-mex-omelet-with-roasted-cherry-tomato-salsa/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the salsa: Preheat the oven to 400 degrees Fahrenheit. Line a small, rimmed baking pan with parchment paper for easy clean-up. Toss the cherry tomatoes with ½ teaspoon olive oil and a sprinkle of sea salt on the baking pan. Roast for 15 to 20 minutes, until the tomatoes are juicy and collapsing on themselves."
+   },
+   {
+    "title": null,
+    "text": "In a bowl, mix together the chopped onion, cilantro, jalapeño, garlic, lime juice or vinegar and sea salt. Once the tomatoes have cooled enough to handle, use a serrated knife to chop them. Pull off the tomato skins as you go for a smoother salsa. Mix the tomatoes into the mixture. Taste and add more salt or lime juice if necessary."
+   },
+   {
+    "title": null,
+    "text": "Make the omelet: In a bowl, whisk together the eggs, milk or water, sea salt, black pepper and a few dashes of hot sauce. You want the egg mixture to be super scrambled. Heat an 8-inch, well-seasoned cast iron skillet or non-stick skillet over medium-low heat. Once the pan is hot enough that a drop of water sizzles on contact, toss in the pat of butter and swirl the pan to coat. Pour in the egg mixture and let it set for about ten seconds. Use a heat-safe spatula to gently scoot the set eggs toward the middle of the pan, then tilt the pan so runny eggs take their place. Repeat this process until there is hardly any runny eggs to scoot around. Use your spatula to gently release the underside of the omelet from the pan. Tilt the pan a little forward and back to make sure it’s not stuck anywhere, then use a quick flick of the wrist to flip the omelet back into the pan. Let it set for a few seconds, then scoot it off the pan onto a plate."
+   },
+   {
+    "title": null,
+    "text": "Immediately top ½ of the warm omelet with a sprinkle of cheese, followed by black beans, smashed tortilla chips, and more cheese, then gently fold the other half on top. Spoon a generous amount of salsa (warm the salsa first if necessary) over the middle of the omelet as shown. Serve immediately."
+   }
+  ],
+  "notes": [
+   "If you’re in a hurry, skip roasting the tomatoes and make pico de gallo using the salsa recipe below, or gently warm store-bought salsa instead. If an omelet seems too tricky, just make scrambled eggs."
+  ],
+  "summary": "Fresh Tex-Mex omelet stuffed with black beans, smashed tortilla chips and cheese, topped with homemade roasted cherry tomato salsa. Good for breakfast, brunch or dinner!",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted Cherry Tomato Salsa (quantities below yield enough for 2 saucy to 4 not-so-saucy omelets)"
+   },
+   {
+    "at": 8,
+    "title": "Tex-Mex Omelet (quantities below yield 1 omelet)"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -31,7 +31,28 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2012/01/carrot-soup-with-miso-and-sesame/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oil in heavy large saucepan over medium heat. Add carrots, onion and garlic sauté until onion is translucent, about 10 minutes. Add broth and ginger. Cover and simmer until carrots are tender when pierced, stirring occasionally, about 30 minutes."
+   },
+   {
+    "title": null,
+    "text": "Puree soup in batches in blender, or all at once with an immersion blender. In a small bowl, whisk together the miso and a half-cup of the soup. Stir the mixture back into the pot of soup. Taste the soup and season with salt, pepper or additional miso to taste."
+   },
+   {
+    "title": null,
+    "text": "Ladle into bowls and garnish each with a drizzle of sesame oil and small mound of scallions."
+   },
+   {
+    "title": null,
+    "text": "Pickled scallions? I didn’t do this in the end, but was tempted to lightly pickled the scallions by letting them hang out in a mixture of 6 tablespoons rice vinegar, 2 tablespoons water, 1 tablespoon of Kosher salt (I use Diamond brand, use less if you’re using Morton or another, which are more dense) and 1 1/2 teaspoons sugar for a while before using them as garnish."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

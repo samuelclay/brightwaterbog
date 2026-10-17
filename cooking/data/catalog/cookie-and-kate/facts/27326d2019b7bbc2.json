@@ -1,6 +1,48 @@
 {
  "url": "https://cookieandkate.com/toasted-everything-bagel-seasoning-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Everything Bagel Seasoning",
+  "ingredients": [
+   "2 tablespoons white sesame seeds",
+   "2 tablespoons poppy seeds",
+   "1 tablespoon dried minced onion",
+   "2 teaspoons dried minced garlic",
+   "1 teaspoon kosher salt or ½ teaspoon fine salt",
+   "¼ teaspoon red pepper flakes (optional)"
+  ],
+  "yield_text": "1/3 cup",
+  "cook_time": "7 minutes",
+  "categories": [
+   "Spice Blend"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/toasted-everything-bagel-seasoning-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small skillet, combine the sesame seeds, poppy seeds, dried onion, dried garlic, salt, and red pepper flakes (if using)."
+   },
+   {
+    "title": null,
+    "text": "Warm over medium heat, stirring frequently, until the spices are fragrant and the sesame seeds are turning barely golden on the edges, about 5 minutes. Keep an eye on the pan, as the seeds can burn if they are not stirred frequently, especially during the last couple of minutes."
+   },
+   {
+    "title": null,
+    "text": "Transfer the mix to a small bowl to cool. Store cooled leftover spice blend in an airtight jar at room temperature for up to 1 month (if it starts to taste bitter or off, the toasted seeds have gone bad)."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my cookbook, Love Real Food.",
+   "Change it up: I love to add 2 tablespoons raw sunflower seeds or pepitas (green pumpkin seeds) to the skillet for an extra boost of seedy flavor and crunch. Hemp seeds would be good, too."
+  ],
+  "summary": "The trick to making the best everything bagel seasoning is to toast the seeds and spices in a skillet! That way, it tastes just like a freshly toasted everything bagel. Recipe yields a little over ⅓ cup (6 tablespoons).",
+  "ingredient_groups": []
+ }
 }

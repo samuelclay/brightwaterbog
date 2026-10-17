@@ -20,7 +20,35 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/oat-milk-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, we’re going to soak the oats for 15 minutes so they blend and strain more easily. Place the oats in a pitcher or bowl, and add enough water to cover by a couple of inches. Set aside for 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "Drain the soaked oats in a fine-mesh sieve, and rinse them thoroughly under running water."
+   },
+   {
+    "title": null,
+    "text": "Next, transfer the oats to your blender. Add 2 cups of the water, plus the maple syrup, vanilla extract and tiny pinch of salt. Blend on high speed until the oat milk is smooth, about 1 to 2 minutes. Add the remaining 2 cups water and blend again."
+   },
+   {
+    "title": null,
+    "text": "To strain, place the fine-mesh sieve over a pitcher and pour the mixture through. Taste, and add more maple syrup for sweetness, if desired."
+   },
+   {
+    "title": null,
+    "text": "Oat milk tastes best after it’s been chilled in the refrigerator for at least 30 minutes. It will separate over time, so give it a stir before serving. Oat milk will keep well in the fridge, covered, for up to 5 days."
+   }
+  ],
+  "notes": [
+   "*Make it gluten free: Be sure to use certified gluten-free oats.",
+   "Suggested equipment: My Vitamix blender blends oat milk and nut milks like a champ."
+  ],
+  "summary": "Learn how to make oat milk with this easy recipe! Oat milk is delicious and inexpensive. It’s also vegan, dairy free, nut free and gluten free.* Recipe yields about 4 ¾ cups oat milk.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

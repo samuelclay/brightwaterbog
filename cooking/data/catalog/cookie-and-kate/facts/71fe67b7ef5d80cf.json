@@ -1,6 +1,71 @@
 {
  "url": "https://cookieandkate.com/kale-colcannon-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Kale Colcannon",
+  "ingredients": [
+   "3 pounds Russet potatoes, peeled",
+   "2 teaspoons fine sea salt*, divided",
+   "2 tablespoons unsalted butter, divided, plus more for garnish",
+   "1 large bunch kale, preferably Tuscan/Lacinato, ribs removed and chopped into small, bite-sized pieces (3 to 4 cups)",
+   "1 medium clove garlic, pressed or minced",
+   "8 ounces cream cheese",
+   "4 ounces (½ cup) sour cream",
+   "3 tablespoons thinly sliced green onion, divided"
+  ],
+  "yield_text": "8 servings",
+  "cook_time": "40 minutes",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Irish"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/kale-colcannon-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare, pull the cream cheese out of the fridge and let it warm up on the counter while we cook the potatoes. Cut the potatoes into even chunks about 2” in size (see photos)."
+   },
+   {
+    "title": null,
+    "text": "Place the potato chunks in a large Dutch oven or soup pot. Add 1 teaspoon of the salt, and enough water to cover the potatoes by 1 to 2 inches."
+   },
+   {
+    "title": null,
+    "text": "Bring the mixture to a boil over high heat. Continue cooking, reducing the heat as necessary to prevent overflow, until the potatoes are easily pierced through by a fork, about 10 to 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "Carefully drain off all of the water and leave the potatoes in the colander for now."
+   },
+   {
+    "title": null,
+    "text": "Return the empty pot to the stove over medium-high heat and add 1 tablespoon of the butter. Once melted, add the chopped kale. Cook, stirring often, for 2 to 4 minutes, until the kale has wilted and turned dark green. Add the garlic and cook until fragrant, about 30 seconds to 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from the heat and add the drained potatoes. Mash the potatoes and kale until the potatoes reach your desired consistency (I like mine a little chunky, but you can mash them completely smooth if you prefer)."
+   },
+   {
+    "title": null,
+    "text": "Add the cream cheese, sour cream, remaining 1 tablespoon of butter, and 1 teaspoon salt. Mash it together until the mixture is mostly combined, then add 2 tablespoons of the green onions and stir until everything comes together."
+   },
+   {
+    "title": null,
+    "text": "Transfer the mashed potatoes to a serving bowl. Top with a couple pats of butter and the remaining tablespoon of green onions. Serve while warm."
+   }
+  ],
+  "notes": [
+   "*Salt note: If you’re using regular table salt instead of fine sea salt, scale back a bit. You can always add more salt, to taste, at the end.",
+   "Change it up: You can easily substitute chard, collard greens or cabbage for the kale.",
+   "Make it dairy free/vegan: I haven’t tried this, but I think these potatoes would be good if you cooked the kale in olive oil, and stirred in 1 to 1 ½ cups vegan sour cream in place of the cream cheese and sour cream combination. Skip the extra butter."
+  ],
+  "summary": "You’re going to love these Irish mashed potatoes with kale. This colcannon recipe is the perfect side dish for St. Patrick’s Day. So creamy and delicious! Recipe yields 8 modest side servings, or 6 medium.",
+  "ingredient_groups": []
+ }
 }

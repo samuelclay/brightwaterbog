@@ -24,7 +24,16 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2010/12/garlic-butter-roasted-mushrooms/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 450°F with rack in middle. Toss mushrooms with capers, garlic, oil, 1/8 teaspoon salt and several grinds of pepper in a 1 1/2- to 2-qt shallow baking dish. Top with butter and roast, stirring occasionally, until mushrooms are tender and golden and bubbly garlic sauce forms below, 15 to 20 minutes. Stir in lemon juice and parsley. Serve immediately, with crusty bread on the side for swiping up the juices."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -26,7 +26,66 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/whole-wheat-pancake-mix/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make pancake mix: In a large mixing bowl, simply combine the flour, baking powder, baking soda, salt and cinnamon. Whisk until blended."
+   },
+   {
+    "title": null,
+    "text": "Use immediately, or carefully transfer to an air-tight jar for storage (a quart-sized mason jar is perfect—to make it all fit, you may need to let the flour settle in the jar for a few minutes/tap the jar to condense the flour a bit). Store it in a cool, dark, dry place for up to 6 months."
+   },
+   {
+    "title": null,
+    "text": "To make pancakes: In a 2-cup liquid measuring cup, combine the milk and vinegar. Stir to combine and let this homemade “buttermilk” mixture rest until it is lightly curdled, about 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "To the curdled buttermilk mixture, add the egg, melted butter and maple syrup. Whisk until thoroughly blended."
+   },
+   {
+    "title": null,
+    "text": "Measure the pancake mix into a medium mixing bowl. Pour the liquid mixture into the flour mixture. Stir just until combined (a few small lumps are okay). Let the batter rest for 5 minutes so your pancakes will be nice and fluffy."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, if you are using an electric skillet, preheat it to 375 degrees Fahrenheit. Otherwise, heat a heavy cast iron skillet or nonstick griddle over medium-low heat. You’re ready to start cooking pancakes once a drop of water sizzles on contact with the hot surface. If necessary, lightly oil the cooking surface with additional butter, oil, or cooking spray (nonstick surfaces likely won’t require any oil)."
+   },
+   {
+    "title": null,
+    "text": "Gently stir the batter one last time, in case the liquid has separated. Using a ⅓-cup measuring cup, scoop batter onto the warm skillet, leaving a couple of inches around each pancake for expansion."
+   },
+   {
+    "title": null,
+    "text": "Cook until small bubbles form on the surface of the pancakes, 2 to 3 minutes (you’ll know it’s ready to flip when about ½-inch of the perimeter is matte instead of glossy). Flip the pancakes, then cook until lightly golden on both sides, 1 to 2 minutes more."
+   },
+   {
+    "title": null,
+    "text": "Repeat the process with the remaining batter, adding more oil and adjusting the heat as necessary. Serve the pancakes immediately with toppings of your choosing, or keep them warm in a 200 degree Fahrenheit oven."
+   },
+   {
+    "title": null,
+    "text": "Leftover pancakes can be stored in the refrigerator for up to 3 days, or frozen* for up to 2 months. To reheat, stack leftover pancakes and wrap them in a paper towel before gently reheating in the microwave."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Substitute certified gluten-free oat flour for the wheat flour and let the batter rest for 5 extra minutes.",
+   "Make it dairy free: Use nondairy milk and olive oil instead of butter.",
+   "Make it vegan: Use nondairy milk, replace the egg with 1 tablespoon ground flaxseed, and use olive oil instead of butter.",
+   "Make it egg free: Replace the egg with 1 tablespoon ground flaxseed."
+  ],
+  "summary": "This pancake mix makes pancakes more feasible on busy mornings! It’s simply a bulk recipe for my whole wheat pancakes recipe . This mix fits perfectly into a quart-sized mason jar.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Bulk pancake mix (enough for 4 batches of pancakes)—for a single batch, follow this recipe instead"
+   },
+   {
+    "at": 5,
+    "title": "To make 1 batch of pancakes (yields 6 to 7 pancakes; multiply as necessary)"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -28,7 +28,43 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/pomegranate-pear-green-salad-with-ginger-dressing/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To toast the pecans, place them in a skillet over medium heat. Toast, stirring often, until they’re fragrant and starting to turn golden on the edges, about 4 to 5 minutes. Remove the pecans from the heat and roughly chop them (no need to chop if you started with pecan pieces). Set aside."
+   },
+   {
+    "title": null,
+    "text": "Arrange the arugula across a large serving platter (or bowl, but the salad looks prettiest on a platter). Sprinkle the chopped pecans and crumbled goat cheese over the arugula. Fan out your slices of pear and apple and arrange them across the salad in sections (see photos). Sprinkle all over with fresh pomegranate arils."
+   },
+   {
+    "title": null,
+    "text": "To prepare the dressing, combine all of the ingredients and whisk until blended. Taste, and if it isn’t quite zippy enough, add another teaspoon of vinegar."
+   },
+   {
+    "title": null,
+    "text": "Wait to dress the salad until you’re ready to serve (the dressing will wilt the greens over time). When you’re ready, drizzle the ginger dressing lightly all over the salad (you might not need all of it). Serve promptly."
+   }
+  ],
+  "notes": [
+   "Dressing adapted from the liquid gold salad dressing in my cookbook, Love Real Food.",
+   "Make it dairy free/vegan: Simply omit the goat cheese. Vegans, be sure to use maple syrup instead of honey.",
+   "Make it nut free: Substitute pepitas (green pumpkin seeds) for the pecans.",
+   "Prepare in advance: You could prepare the salad dressing, and arrange the arugula, pecans, goat cheese and pomegranate up to 1 day in advance. Cover and chill in the refrigerator. Slice and arrange the apple and pear just before serving, since they turn brown over time.",
+   "Storage suggestions: This salad is best served promptly. If you know you’ll have leftovers, dress individual servings as needed and store the salad and dressing separately. Leftover dressing will keep well in the refrigerator for 1 week."
+  ],
+  "summary": "This gorgeous green salad recipe is bursting with fresh pomegranate, Bartlett pear and Honeycrisp apple! This salad will brighten up your holiday table, and liven up a regular weeknight dinner. Recipe yields 4 to 6 side salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 6,
+    "title": "Ginger dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

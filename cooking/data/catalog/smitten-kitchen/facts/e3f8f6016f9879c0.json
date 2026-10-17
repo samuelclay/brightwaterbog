@@ -27,7 +27,36 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2014/09/latke-waffles/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 350. Lightly oil a large baking sheet and set aside."
+   },
+   {
+    "title": null,
+    "text": "In a food processor or on a box grater, coarsely shred the potato and onion. For longer strands, lay the potato sideways in the chute of your food processor. Transfer grated mixture to a bowl lined with a fuzz-free dishcloth (linen is great here) or cheesecloth. Pull up the sides of the cloth, forming a bag of grated ingredients, and twist it until you’ve squeezed out all of the excess liquid. Let stand for 1 to 2 minutes, then squeeze out one more time."
+   },
+   {
+    "title": null,
+    "text": "Discard the liquid in the bowl, then add wrung-out shredded potato and onion to it. Sprinkle baking powder, salt and several grinds of black pepper over mixture and stir with a fork until it distributes throughout the shreds. Add flour, and again, stir into the potato-onion mixture until the pieces are evenly coated. Crack eggs on top; use your fork to break up the yolks and stir them so that they’re evenly distributed through the batter."
+   },
+   {
+    "title": null,
+    "text": "Heat your waffle iron to high heat. Once hot, coat lightly with a nonstick spray. Heap some latke mixture on top and spread it into an even layer. Cook until the latkes are a nice, deep golden brown underneath. (I found that the bottom colors better than the top, but you’ll even this out in the oven.)"
+   },
+   {
+    "title": null,
+    "text": "Transfer to oiled baking sheet, paler side down, and place in warmed oven. Continue with remaining latke batter. Keep latke waffles in oven until crisp (about 5 to 10 minutes), or until all the other parts of your meal are ready."
+   },
+   {
+    "title": null,
+    "text": "Serve with applesauce or sour cream, latke-style, or breakfast-style, with eggs and bacon. Sour cream is pretty good with the eggs, too. Chives make it pretty."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

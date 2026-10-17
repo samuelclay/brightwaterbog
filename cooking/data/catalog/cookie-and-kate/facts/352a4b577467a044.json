@@ -1,6 +1,49 @@
 {
  "url": "https://cookieandkate.com/thai-peanut-dressing/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Peanut Dressing",
+  "ingredients": [
+   "¼ cup creamy peanut butter",
+   "1 tablespoon tamari or soy sauce",
+   "1 tablespoon + 1 teaspoon maple syrup or honey, to taste",
+   "2 medium cloves garlic, pressed or minced",
+   "Pinch of red pepper flakes",
+   "¼ cup lime juice (about 2 to 3 limes)"
+  ],
+  "yield_text": "2/3 cup",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Salad dressing"
+  ],
+  "cuisines": [
+   "Thai-inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/thai-peanut-dressing/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the dressing, combine the peanut butter, tamari, maple syrup, garlic and optional red pepper flakes (everything but the lime juice) in a liquid measuring cup or small bowl. Use a small whisk or fork to stir until blended."
+   },
+   {
+    "title": null,
+    "text": "Whisk in about half of the lime juice until creamy, then whisk in the rest. Continue whisking until the mixture is fully blended and nicely creamy."
+   },
+   {
+    "title": null,
+    "text": "Taste, and if it tastes too tart, add another teaspoon or so of maple syrup. Serve as desired. Leftover dressing will keep well in the refrigerator for up to 1 week."
+   }
+  ],
+  "notes": [
+   "Peanut butter note: Use ultra creamy peanut butter for the most luxurious texture. Some natural peanut butters can be gritty, depending on the brand. My homemade peanut butter is so creamy that it would work well.",
+   "Make it vegan: Use maple syrup, not honey.",
+   "Make it gluten free: Use certified gluten-free tamari, not soy sauce, which contains wheat."
+  ],
+  "summary": "This irresistible peanut dressing pairs well with Thai flavors. It’s so creamy and flavorful that a little goes a long way. Recipe yields a scant ⅔ cup—double it if needed.",
+  "ingredient_groups": []
+ }
 }

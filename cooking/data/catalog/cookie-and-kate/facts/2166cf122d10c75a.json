@@ -22,7 +22,31 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/gluten-free-chocolate-chip-cookies-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit and line a large baking sheet with parchment paper."
+   },
+   {
+    "title": null,
+    "text": "In a large mixing bowl, combine the almond flour, baking powder and salt, and stir well. In a smaller bowl, combine the butter, maple syrup, egg and vanilla extract, and whisk until combined (if the butter solidifies upon contact with colder ingredients, gently warm the mixture in the microwave for a few seconds—assuming you’re using a microwave-safe bowl!). Pour the wet mixture into the dry mixture and stir until combined. Fold in the chocolate chips with a large spoon or spatula."
+   },
+   {
+    "title": null,
+    "text": "Scoop each cookie onto the prepared baking sheet using a medium cookie dough scoop or about 1 ½ tablespoons of dough per cookie, leaving a few inches around each cookie for expansion. Use the back of a spoon to help spread them into a wider circle. Bake the cookies for 13 to 15 minutes, until they’re golden on top and deeply golden on the bottom."
+   },
+   {
+    "title": null,
+    "text": "Remove the baking sheet from the oven and set it on a cooling rack to cool completely (the cookies will be delicate while warm). If desired, lightly sprinkle the cookies with flaky salt while they are still warm. Store leftover cookies in a single layer at room temperature for 1 day, or in the refrigerator for up to 1 week, or in the freezer for several months."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from a since-deleted version with coconut flour, with reference to The Big Man’s World and Detoxinista.",
+   "Make it dairy free: Use coconut oil instead of butter, and choose dairy-free chocolate chips, such as Enjoy Life brand."
+  ],
+  "summary": "These are the ultimate gluten-free chocolate chip cookies. The recipe yields perfectly golden cookies that are lightly crisp around the edges and tender in the middle! They’re made with almond flour and are relatively healthy for a chocolate chip cookie. Recipe yields 16 cookies.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

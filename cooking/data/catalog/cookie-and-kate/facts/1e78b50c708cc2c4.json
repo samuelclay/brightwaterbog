@@ -23,7 +23,38 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/potatoes-au-gratin-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. Peel the potatoes and slice them as thinly as possible, ideally ⅛-inch thick."
+   },
+   {
+    "title": null,
+    "text": "In a liquid measuring cup, whisk together the cream, minced garlic, salt, pepper and nutmeg."
+   },
+   {
+    "title": null,
+    "text": "Arrange about one-third of the potatoes in the bottom of a 9-inch square pan in an overlapping fish-scale pattern. Whisk the cream mixture again, then pour about one-third of the cream mixture over the potatoes. Sprinkle with ½ cup of the cheese."
+   },
+   {
+    "title": null,
+    "text": "Repeat this two more times, topping with all of the remaining cheese."
+   },
+   {
+    "title": null,
+    "text": "Bake for 40 minutes, then place a sheet of parchment paper or foil over the top to prevent it from turning too brown. Bake for 5 to 10 more minutes, checking every 5, until you can press a fork all the way through the potatoes with ease."
+   },
+   {
+    "title": null,
+    "text": "Let the dish cool for at least 20 minutes (it’s crazy hot). Garnish with the optional chives, if desired, and serve warm."
+   }
+  ],
+  "notes": [
+   "Prepare in advance: This dish can be assembled up to 24 hours in advance. Chill it in the refrigerator, covered. It will likely need more time in the oven since it’s starting off cold, and it’s difficult to offer exact timing in this scenario. Keep an eye on the dish starting at 40 minutes and cover it once it’s turning nicely golden on top."
+  ],
+  "summary": "This potatoes au gratin recipe is rich, golden brown and utterly irresistible! Known as gratin dauphinois in France, this potato gratin is made with layers of potato, cream and cheese. It’s worthy of your holiday table! Recipe yields 12 side servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

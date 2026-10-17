@@ -1,6 +1,63 @@
 {
  "url": "https://cookieandkate.com/thai-green-curry-with-spring-vegetables/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Thai Green Curry with Spring Vegetables",
+  "ingredients": [
+   "1 cup brown basmati rice, rinsed",
+   "2 teaspoons coconut oil or olive oil",
+   "1 small white onion, diced",
+   "1 tablespoon finely chopped fresh ginger (about a 1-inch nub of ginger, peeled and chopped)",
+   "2 cloves garlic, finely chopped",
+   "Pinch of salt",
+   "½ bunch asparagus, tough ends removed and sliced into 2-inch long pieces (to yield about 2 cups prepared asparagus)",
+   "3 carrots, peeled and sliced on the diagonal into ¼-inch wide rounds (to yield about 1 cup sliced carrots)",
+   "2 tablespoons Thai green curry paste*",
+   "1 can (14 ounces) coconut milk",
+   "½ cup water",
+   "1 ½ teaspoons coconut sugar or turbinado (raw) sugar or brown sugar",
+   "2 cups packed baby spinach, roughly chopped",
+   "1 ½ teaspoons rice vinegar or fresh lime juice",
+   "1 ½ teaspoons soy sauce**",
+   "Garnishes: handful of chopped fresh cilantro and red pepper flakes, to taste"
+  ],
+  "yield_text": "2 to 4 servings",
+  "cook_time": "45 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Thai"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/thai-green-curry-with-spring-vegetables/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the rice, bring a large pot of water to boil. Add the rinsed rice and continue boiling for 30 minutes, reducing heat as necessary to prevent overflow. Remove from heat, drain the rice and return the rice to pot. Cover and let the rice rest for 10 minutes or longer, until you’re ready to serve."
+   },
+   {
+    "title": null,
+    "text": "Warm a large skillet with deep sides over medium heat. Once it’s hot, add a couple teaspoons of oil. Cook the onion, ginger and garlic with a sprinkle of salt for about 5 minutes, stirring often. Add the asparagus and carrots and cook for 3 more minutes, stirring occasionally. Then add the curry paste and cook, stirring often, for 2 minutes."
+   },
+   {
+    "title": null,
+    "text": "Pour the coconut milk into the pan, along with ½ cup water and 1 ½ teaspoons sugar. Bring the mixture to a simmer. Reduce heat as necessary to maintain a gentle simmer and cook until the carrots and asparagus are tender and cooked through, about 5 to 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Once the vegetables are done cooking, stir the spinach into the mixture and cook until the spinach has wilted, about 30 seconds. Remove the curry from heat and season with rice vinegar and soy sauce. Add salt and red pepper flakes (optional), to taste. Divide rice and curry into bowls and garnish with chopped cilantro and a sprinkle of red pepper flakes, if you’d like."
+   }
+  ],
+  "notes": [
+   "*Green curry paste: Look for it in the Asian section of the grocery store. I like Thai Kitchen brand. Not all Thai curry pastes are vegetarian, but this one is.",
+   "**Make it gluten free: Be sure to use gluten-free tamari instead of regular soy sauce.",
+   "If you love this recipe: Be sure to check out my other Thai-inspired recipes here!"
+  ],
+  "summary": "This healthy, vegetarian Thai green curry features fresh asparagus, carrots and spinach! It’s full of flavor and simple enough for weeknight dinners. Feel free to substitute sliced snow peas for the asparagus if it’s not in season where you live. Recipe yields two large servings (as shown) or four small servings.",
+  "ingredient_groups": []
+ }
 }

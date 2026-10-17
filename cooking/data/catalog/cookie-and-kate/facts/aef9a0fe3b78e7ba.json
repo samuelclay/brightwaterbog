@@ -24,7 +24,31 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/chickpea-salad-recipe-with-carrots-dill/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium serving bowl, combine the chickpeas, carrots, celery, green onions, and dill. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Toast the pepitas in a small skillet over medium heat, stirring frequently, until they are starting to turn golden and make little popping noises, about 5 minutes. Set aside to cool for a few minutes."
+   },
+   {
+    "title": null,
+    "text": "To prepare the vinaigrette, in a liquid measuring cup or small bowl, combine the olive oil, 2 tablespoons of the vinegar, garlic, salt, and about ten twists of pepper. Whisk until blended and pour all of the dressing over the chickpea mixture. Add the toasted pepitas to the bowl and stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Taste, and add additional vinegar (for more zing, I usually add another tablespoon) and/or salt (for more flavor overall, add another pinch). For the best flavor, let the salad marinate for 30 minutes or even overnight in the refrigerator."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Serious Eats.",
+   "Change it up: Instead of dill, I think you could use chopped cilantro and/or parsley, whichever you prefer. For more of a punch, try adding thinly sliced Kalamata olives and/or crumbled feta cheese. You can also serve this salad over fresh greens with extra oil and vinegar, make a wrap out of it with hummus, etc."
+  ],
+  "summary": "My favorite chickpea salad recipe, made with grated carrots, chopped celery, fresh dill, and lots of chickpeas. This protein-rich salad is perfect for potlucks, packs well for lunch, and it’s easy to make! Recipe yields 4 side servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -1,6 +1,66 @@
 {
  "url": "https://cookieandkate.com/zucchini-noodles-with-pesto-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Zucchini Noodles with Basil-Pumpkin Seed Pesto",
+  "ingredients": [
+   "1 garlic clove, roughly chopped",
+   "2 cups packed fresh basil leaves (arugula works, too)",
+   "½ cup pepitas (green pumpkin seeds), toasted",
+   "⅓ cup olive oil",
+   "2 teaspoons red wine vinegar, to taste (or lemon juice)",
+   "Pinch of red pepper flakes",
+   "Salt, to taste",
+   "3 large zucchini",
+   "Salt",
+   "1 pint cherry tomatoes",
+   "Fresh basil leaves, for garnishing"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "20 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/zucchini-noodles-with-pesto-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To toast the pepitas, pour them into a medium skillet over medium heat. Cook, stirring frequently, until the seeds are fragrant and the pepitas start making little popping noises, about 3 to 5 minutes. Pour them onto a plate to cool."
+   },
+   {
+    "title": null,
+    "text": "To prepare the pesto: In a food processor, combine the garlic, basil, toasted pepitas, olive oil, vinegar and red pepper flakes. Blend until smooth and season with salt, to taste (I added about ½ teaspoon)."
+   },
+   {
+    "title": null,
+    "text": "To prepare the noodles: Spiralize the zucchini with a spiralizer, or turn the zucchini into noodles with a julienne peeler, or grate the zucchini the long way on a large box grater. If you’re serving this dish in its entirety right away, toss the zucchini with pesto until well coated, and season with salt (I added another ¼ teaspoon). Otherwise, toss just the amount of zucchini you need now with pesto, and store the rest separately for later."
+   },
+   {
+    "title": null,
+    "text": "Transfer the pesto noodles to a large platter and sprinkle with the cherry tomatoes. Tuck the fresh basil into the corners to garnish. Serve promptly. Store leftover zucchini noodles, tomatoes, and basil in one container, and pesto in another, then combine and season with salt just before serving (they’ll keep for up to 4 days this way)."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Pure Delicious by Heather Christo, with permission.",
+   "2026 recipe edit: Heather’s original recipe included ½ small yellow onion, roughly chopped, in the pesto. I prefer it without, which offers a more classic pesto flavor profile, so I omitted it."
+  ],
+  "summary": "Raw zucchini noodles tossed with basil pesto and cherry tomatoes make a light, healthy meal. Make this recipe for lunch or dinner, or serve it as a side! Recipe yields 4 generous main dish servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Basil-pumpkin seed pesto"
+   },
+   {
+    "at": 7,
+    "title": "Zucchini noodles"
+   }
+  ]
+ }
 }

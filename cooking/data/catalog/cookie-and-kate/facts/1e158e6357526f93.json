@@ -22,7 +22,42 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/no-bake-greek-yogurt-tart-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the crust: In a food processor, pulse the pecans until ground into a semi-fine meal. Add the dates and pulse until the mixture holds together when pinched and starts to look like dough (don’t overdo it like I did in the photos)."
+   },
+   {
+    "title": null,
+    "text": "Press the dough into a 9 to 9 ½-inch tart pan with a removable bottom to form an even crust along the base and sides. Chill in the freezer for 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Make the filling: Remove the crust from the freezer. Carefully remove the tart from the pan (leave it resting on the round base) and slide it onto a round serving platter. Spread the yogurt over the crust. Top the yogurt with the raspberries and strawberries, then drizzle with honey."
+   },
+   {
+    "title": null,
+    "text": "To serve, slice the tart with a sharp knife, wiping off the blade after each cut. Use a thin pie server or spatula to serve."
+   }
+  ],
+  "notes": [
+   "Recipe adapted a tiny bit from Inspiralized & Beyond by Ali Maffucci.",
+   "Ali’s tip: You can make individual tarts by using six ramekins lined with parchment paper and dividing the ingredients accordingly.",
+   "Make it dairy free: Use your favorite brand of thick dairy-free yogurt.",
+   "Make it vegan: See above, and drizzle the tart with maple syrup instead of honey."
+  ],
+  "summary": "This no-bake Greek yogurt tart recipe looks impressive, but it’s very easy to make and nutritious, too! I topped mine with raspberries and strawberries, but use any fresh fruit you’d like. Recipe yields one 9-inch tart (6 slices).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "For the crust"
+   },
+   {
+    "at": 3,
+    "title": "For the filling"
+   }
+  ]
  },
  "parser_version": 2
 }

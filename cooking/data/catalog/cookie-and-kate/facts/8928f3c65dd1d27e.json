@@ -30,7 +30,50 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/arugula-almond-pesto-pizza/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 500 degrees Fahrenheit with a rack in the upper third of the oven. Or, if you’re using a pizza stone, make sure it’s in the oven on the appropriate rack (consult manufacturer’s directions)."
+   },
+   {
+    "title": null,
+    "text": "Toast the almonds: In a large skillet over medium heat, toast the almonds, while stirring frequently, until the almonds are fragrant and turning lightly golden at the edges. Transfer the almonds to a bowl to cool."
+   },
+   {
+    "title": null,
+    "text": "To make the pesto: In a food processor, combine the arugula/basil, cooled almonds, Parmesan, garlic and salt. Pulse while drizzling in the olive oil. Stir in the lemon juice and season to taste with freshly ground black pepper."
+   },
+   {
+    "title": null,
+    "text": "Prepare the pizza dough as directed. For best results, roll the dough out as thin as reasonably possible while maintaining an even surface level. Transfer each pizza crust onto individual pieces of parchment paper."
+   },
+   {
+    "title": null,
+    "text": "Lightly oil the outer edge of the pizza with olive oil. Spread each pizza with ½ of the pesto. Top each pizza with cheese, sliced tomatoes, squash pieces and, finally, a sprinkle of sliced almonds."
+   },
+   {
+    "title": null,
+    "text": "Transfer one pizza to the oven. Bake until the crust is golden and the cheese on top is bubbly (about 10 to 12 minutes on a baking sheet, or as few as 5 minutes on a baking stone). Repeat with remaining pizza. Top each pizza with a light sprinkle of fresh arugula or basil and, if desired, a dash of red pepper flakes. Slice and serve."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my arugula walnut pesto and whole wheat pizza dough.",
+   "Preparation tips: This recipe is designed for immediate consumption! The dough is best baked immediately after making, and the pesto will oxidize over time.",
+   "Change it up: Feel free to trade other greens (like kale) for the arugula/basil or other toasted nuts for the almonds. Top the pizza with whatever’s in season!",
+   "Make it quick: You can certainly buy pre-made pizza dough or pre-cooked flatbread instead of making your own dough. Just adjust toppings and baking time as necessary."
+  ],
+  "summary": "Homemade pesto pizza recipe with a simple whole wheat pizza crust, topped with fresh summer tomatoes and squash. Feel free to change up the toppings. Recipe below yields two 12-inch pizzas.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Pesto"
+   },
+   {
+    "at": 8,
+    "title": "Everything else"
+   }
+  ]
  },
  "parser_version": 2
 }

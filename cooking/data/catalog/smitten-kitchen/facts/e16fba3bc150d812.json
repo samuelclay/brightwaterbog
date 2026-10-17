@@ -31,7 +31,16 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2022/07/roasted-tomatoes-with-white-beans/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat your oven to 400°F. Pour 2 tablespoons of the olive oil in the bottom of a 13-by-9-inch baking dish. Arrange the tomatoes in the dish, cut side up. Nestle garlic cloves around the dish. Drizzle with another 2 tablespoons of the olive oil, and sprinkle with 1 teaspoon kosher salt and many grinds of black pepper. Roast the tomatoes for 20 minutes, until everything is bubbly and juicy. Remove from the oven to a trivet or cooling rack and use a fork to lightly mash the tomatoes and garlic (being careful if they spray), which will not be fully soft yet. Add drained beans and more salt and pepper if needed and stir to combine. Return to the oven for 5 minutes. Drizzle with remaining 1 tablespoon olive oil, scatter with basil and eat right away, either as is or ladled over crostini."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

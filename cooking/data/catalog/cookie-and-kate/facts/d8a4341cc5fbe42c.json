@@ -22,7 +22,42 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/cinnamon-breakfast-quinoa-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, toast the pecans before we add the remaining ingredients. To do so, warm the pecans in a small saucepan (use a larger saucepan if you are making multiple servings) over medium heat, shimmying the pan often, until the pecans smell fragrant and toasty, about 4 to 6 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the coconut oil, cinnamon and salt to the pot. While stirring constantly, cook until the cinnamon is fragrant, about 15 seconds."
+   },
+   {
+    "title": null,
+    "text": "Add the quinoa to the pot and stir to combine. Cook, while stirring constantly, just until the quinoa is warmed through, about a minute or so. Remove the pan from heat and stir in the maple syrup."
+   },
+   {
+    "title": null,
+    "text": "Transfer the mixture to a bowl and top with dried fruit and a hefty sprinkle of hemp seeds, if using. Top with a light sprinkle of cinnamon. Serve promptly, with additional maple syrup and milk or yogurt on the side, if you’d like."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Yum Universe by Heather Crosby.",
+   "Change it up: Try honey instead of maple syrup, use your favorite nuts or seeds, toast unsweetened shredded or flaked coconut with the nuts, top with fresh fruit or instead of dried, add a big dollop of applesauce, etc.",
+   "Make it nut free: Omit the nuts or replace them with pepitas (hulled pumpkin seeds).",
+   "*How to cook quinoa: Check out my preferred cooking method here. You’ll need to cook about ⅓ cup dry quinoa with ⅔ cup water to yield 1 cup quinoa, but I recommend making more than that so you have leftovers for tomorrow’s breakfast."
+  ],
+  "summary": "Epic breakfast quinoa recipe featuring toasted pecans, coconut oil, cinnamon and dried cherries or cranberries. It tastes like cinnamon toast! Recipe as written yields 1 serving; you can multiply it as necessary, as long as you use a suitably sized pot.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Breakfast quinoa"
+   },
+   {
+    "at": 6,
+    "title": "Toppings and optional accompaniments"
+   }
+  ]
  },
  "parser_version": 2
 }

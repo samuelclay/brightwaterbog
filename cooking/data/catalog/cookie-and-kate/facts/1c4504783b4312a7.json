@@ -1,6 +1,43 @@
 {
  "url": "https://cookieandkate.com/maple-new-york-sour/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "New York Sour",
+  "ingredients": [
+   "2 ounces (¼ cup) rye whiskey or bourbon",
+   "1 ounce (2 tablespoons) fresh lemon juice",
+   "2 to 4 teaspoons maple syrup or simple syrup, to taste",
+   "½ ounce (1 tablespoon) fruity red wine*"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/maple-new-york-sour/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Fill a cocktail shaker or mason jar with ice. Pour in the whiskey, lemon juice and maple syrup. Securely fasten the lid and shake for about 30 seconds."
+   },
+   {
+    "title": null,
+    "text": "Pour fresh ice into your cocktail glass. Strain the cold whiskey sour mixture into the glass. Slowly pour the wine over the back of a spoon held just above the drink’s surface, so it has a nice layered effect. Sip up!"
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my cinnamon maple whiskey sour and Bon Appetit.",
+   "*Wine notes: Look for wine descriptions that suggest notes of cherry/plum/berries, etc., and you should find a winner. Avoid using a particularly spicy or dry red wine. I used an organic Cabernet Sauvignon from Trader Joe’s labeled “Rare Earth.”",
+   "Egg white option: For a foamy top, follow the dry shake method described in my Whiskey Sour. I prefer my New York sour without it since it already has a layered appearance and complex flavor, but you can incorporate it if you’d like."
+  ],
+  "summary": "Learn how to make a New York sour cocktail. I sweeten mine with maple syrup instead of simple syrup for a subtle flavor boost! Recipe as written below yields one cocktail. You can make two or three cocktails at once in your cocktail shaker; just pour them over ice and top each one with a wine float as explained below.",
+  "ingredient_groups": []
+ }
 }

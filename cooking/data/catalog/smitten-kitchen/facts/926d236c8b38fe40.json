@@ -30,7 +30,28 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2024/03/weeknight-tomato-soup/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the soup: In a 3- to 4-quart saucepan, melt butter over medium-high heat, then add onions. Cook, stirring, until onions are tender and beginning to brown at edges, about 5 to 7 minutes. Add garlic and cook for 1 minute. Add tomato paste, and cook for 2 to 3 minutes. Add sherry, if using, and cook for 1 minute, then tomatoes. Cook the tomatoes, mashing them slightly with your spoon, for 3 minutes, then add broth and seasoning to taste — I usually start with 1 teaspoon kosher salt, many grinds of black pepper, and a couple pinches of pepper flakes. Bring mixture to a simmer and cover the pot. Cook at a simmer for 15 to 20 minutes; this is a great time to prepare grilled cheese sandwiches (see below) if you’re making them."
+   },
+   {
+    "title": null,
+    "text": "To finish: Either with an immersion blender or in a full-sized blender, blend the hot soup carefully until totally smooth — my immersion blender often misses some tomato skins, so go around the pot a few extra times. Taste, adjust seasoning as needed. If you’d like the soup to be creamy, add it a splash at a time, stirring, until you reach your desired level. Finally, you can add 1 teaspoon sherry vinegar for a little brightness at the end, and a second teaspoon if it needs more."
+   },
+   {
+    "title": null,
+    "text": "To serve: Ladle into bowls or mugs, finish with a little freshly ground black pepper, and surround with grilled cheese “fingers” (below) for dipping."
+   },
+   {
+    "title": null,
+    "text": "To make grilled cheese fingers: [For one sandwich] Spread the outside of two slices of sandwich bread with either softened butter or a thin (a little goes a long way) layer of mayonnaise. Fill with the cheese of your choice. I like to use one slice of American cheese (for meltiness) and some sharp grated cheddar (for flavor). Place in a cold heavy skillet and turn heat to a medium-low. Cook slowly until the underside is a deep even golden brown. Flip the sandwich over and cook on the second side until it matches the first side. Cut into strips."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -29,7 +29,36 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2016/04/potato-pizza-even-better/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium bowl, combine the 1 quart lukewarm water with salt, stirring until the salt has dissolved. Use a mandoline or your best sharpest knife to slice the potatoes very thin (1/16 inch thick), and put the sliced directly into the salted water, which prevents oxidation and also helps soften them so they cook up nicely. Lahey says to let them soak for 1 1/2 hours or up to 12 in the fridge overnight, but I was quite happy with my results after a 25 to 30 minute soak."
+   },
+   {
+    "title": null,
+    "text": "Heat your oven to 500°F with a rack in the center. Brush either 1 13×18-inch rimmed half-sheet pan or 2 9×13-inch quarter-sheet pans (shown) with olive oil. Divide your risen dough in half and use your fingertips, oiled or dusted with flour, to pull, stretch, nudge and press the dough across the bottom of the pan. The dough will be thin and imperfect. If holes form, just pinch them together. It’s all going to work out, promise."
+   },
+   {
+    "title": null,
+    "text": "Drain the potatoes in a colander and use your hands to press out as much water as possible, then pat dry on paper towels. In a medium bowl, toss the potato slices with the onion, pepper, and olive oil. Spread this potato mixture over your dough, going all the way to the edges so that there’s no uncovered edge; put a bit more topping around the edges of the pie, as the outside tends to cook more quickly. Sprinkle evenly with rosemary. Usually the salt the potatoes were soaked in is enough, but you can sprinkle more on if desired."
+   },
+   {
+    "title": null,
+    "text": "Bake for 25 to 30 minutes, until the topping is starting to turn golden brown and the crust is nicely bronzed underneath. Serve pizza hot or at room temperature."
+   },
+   {
+    "title": null,
+    "text": "Jim Lahey’s Basic Pizza Dough"
+   },
+   {
+    "title": null,
+    "text": "This is halved and modified slightly"
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -1,6 +1,65 @@
 {
  "url": "https://cookieandkate.com/gluten-free-pumpkin-spice-waffles/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Healthy Pumpkin Spice Waffles",
+  "ingredients": [
+   "2 ¼ cups (200 grams) oat flour*",
+   "1 tablespoon baking powder",
+   "¾ teaspoon fine salt",
+   "1 teaspoon ground cinnamon",
+   "½ teaspoon ground ginger",
+   "¼ teaspoon ground nutmeg",
+   "¼ teaspoon ground allspice or cloves",
+   "3 large eggs",
+   "Scant ⅔ cup milk of choice",
+   "Scant ½ cup melted coconut oil or 7 ½ tablespoons unsalted butter, melted",
+   "½ cup (122 grams) packed pumpkin puree",
+   "3 tablespoons maple syrup",
+   "1 tablespoon vanilla extract",
+   "Suggested toppings: more maple syrup, nut butter and/or toasted nuts, whipped cream…"
+  ],
+  "yield_text": "4 large waffles",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/gluten-free-pumpkin-spice-waffles/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large mixing bowl, combine the oat flour, baking powder, salt, cinnamon, ginger, nutmeg and allspice or cloves. Whisk to combine."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, whisk the eggs. Then add the milk, coconut oil or butter, pumpkin purée, maple syrup and vanilla extract. Whisk until the mixture is thoroughly blended."
+   },
+   {
+    "title": null,
+    "text": "Pour the liquid mixture into the oat flour mixture. Stir with a big spoon until just combined (the batter will still be a little lumpy). Let the batter rest for 10 minutes so the oat flour has time to soak up some of the moisture. Plug in your waffle iron to preheat now."
+   },
+   {
+    "title": null,
+    "text": "Once 10 minutes is up, give the batter one more gentle swirl with your spoon. The batter will be pretty thick, but don’t worry! Your waffles will turn out great. Pour batter onto the heated waffle iron, enough to cover the center and most of the central surface area, and close the lid."
+   },
+   {
+    "title": null,
+    "text": "Once the waffle is deeply golden and crisp, transfer it to a cooling rack or baking sheet. Don’t stack your waffles on top of each other or they’ll lose crispness. If desired, keep your waffles warm by placing them in a 200 degree oven until you’re ready to serve. Repeat with the remaining batter and serve with desired toppings. Leftovers will keep well in a sealed bag in the refrigerator for up to 5 days or in the freezer for up to 6 months. Pop individual waffles into the toaster until warmed through."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my gluten-free oat waffles recipe.",
+   "*Make your own oat flour: Simply blend old-fashioned or quick-cooking oats in a food processor or blender until they are ground into a fine flour. You’ll need to blend about 2 ¼ cups oats to make 2 ¼ cups flour.",
+   "*A note on gluten free oats: Be sure to buy certified gluten-free oats or certified gluten-free oat flour to ensure your waffles are gluten free."
+  ],
+  "summary": "These delicious, gluten-free pumpkin waffles are crispy on the outside and fluffy on the inside. This pumpkin waffle recipe’s secret ingredient is oat flour! You can easily make your own oat flour at home (check the recipe notes for details). This recipe yields 4 round, 7-inch Belgian waffles. Note: when I say “scant,” I mean just a couple teaspoons shy of the measurement listed.",
+  "ingredient_groups": []
+ }
 }

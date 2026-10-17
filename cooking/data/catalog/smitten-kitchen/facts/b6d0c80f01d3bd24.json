@@ -30,7 +30,40 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2017/03/mushroom-tartines/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the sauce: In a large skillet (so you can use it again for the mushrooms), melt butter over medium heat and then stir in flour until a paste forms. Very slowly drizzle in milk, whisking the whole time to keep the mixture smooth. Add nutmeg, salt and pepper and cook, stirring, until mixture has simmered for a couple minutes. It will be thick and get thicker as it cools; this makes for a better spread. Scrape into a bowl and stir in Dijon. Adjust seasonings if needed. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Heat oven: To 425 degrees F. Line your largest baking sheet with foil."
+   },
+   {
+    "title": null,
+    "text": "Cook the mushrooms: Wipe out skillet and heat over medium-high. Add a glug of olive oil or a mix of olive oil and butter. Once it is very hot, add 1/3 to 1/2 of mushrooms, 1/3 to 1/2 of herbs and let sear in pan until brown underneath, about 2 to 3 minutes, before stirring and continuing to cook until tender and any liquid in the pan has cooked off, about 5 minutes. Season well with salt and pepper. Repeat with remaining mushrooms."
+   },
+   {
+    "title": null,
+    "text": "Assemble and bake: Spread bread in one layer on prepared baking sheet. Schmear each all the way to the edges with sauce; you should have exactly enough for a thin coat on each. Heap each slice with mushrooms; use them all. Sprinkle cheese over and since the mushrooms are heaped so high, you’ll probably have to press it in a bit with your hand. You’ll be glad you got all the cheese on there."
+   },
+   {
+    "title": null,
+    "text": "Bake for 10 minutes, until cheese is melted all over, then transfer to the broiler and cook until tops are browned, a few minutes more (but keep an eye on it because broilers vary wildly and mine is rather weak)."
+   },
+   {
+    "title": null,
+    "text": "To serve: Scatter with parsley and eat with a knife and fork, preferably with a big green salad on the side."
+   }
+  ],
+  "notes": [
+   "We’ve made this for dinner twice in the last month and have found it each time surprisingly substantial, especially with a salad on the side.",
+   "A few notes: If your bread is on the softer side, you might want to lightly pre-toast it before adding the other ingredients. However, if it’s already quite sturdy or has a dark crust, as mine did, it’s not needed.",
+   "This makes an exactly-just-right amount of bechamel (3/4 cup), I use about 1 tablespoon per slice. If you’d like more, it can easily be scaled up with 3 tablespoons each butter and flour and 1 cup plus 2 tablespoons milk, and a heaped tablespoon of Dijon."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

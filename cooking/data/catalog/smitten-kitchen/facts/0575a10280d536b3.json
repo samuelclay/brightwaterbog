@@ -35,7 +35,30 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2012/12/cauliflower-feta-fritters-with-pomegranate/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cook cauliflower in simmering salted water, uncovered, until tender, about 5 to 6 minutes, until firm but tender. Using a slotted spoon, transfer to a bowl of ice water to stop cooking. Drain well. Spread on towels to dry as much as possible."
+   },
+   {
+    "title": null,
+    "text": "In the bottom of a large bowl, whisk together egg, garlic and lemon zest. Add cauliflower florets and mash with a potato masher until they’re crushed into an average of pea-sized pieces (i.e. some will be bigger, some smaller, but most will be little nubs). Sprinkle in feta and stir to combine egg mixture, cauliflower and feta. In a small dish, whisk flour, salt, pepper and baking powder until evenly combined. Sprinkle over cauliflower batter and stir just until combined."
+   },
+   {
+    "title": null,
+    "text": "Heat oven to 200 degrees F and place a tray inside. On the stove, heat a large, heavy skillet over moderate heat. Once hot, add a good slick of oil, about 2 to 3 tablespoons. Once the oil is hot (you can test it by flicking a droplet of water into it; it should hiss and sputter), scoop a two tablespoon-size mound of the batter and drop it into the pan, then flatten it slightly with your spoon or spatula. Repeat with additional batter, leaving a couple inches between each. Once brown underneath, about 2 to 3 minutes, flip each fritter and cook on the other side until equally golden, about another 1 to 2 minutes."
+   },
+   {
+    "title": null,
+    "text": "Transfer briefly to paper towels to drain, then the tray in the oven to keep them warm until needed. Once all fritters are cooked, mix yogurt with cumin, salt and pepper. Spread fritters on serving platter. Dollop each with cumin yogurt and sprinkle with pomegranate arils."
+   }
+  ],
+  "notes": [
+   "Do ahead: Fritters both freeze and reheat well. To warm and recrisp them, lay them on a tray and toast them at 400 degrees in the oven until crisp again."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

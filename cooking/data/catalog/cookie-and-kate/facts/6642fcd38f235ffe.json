@@ -1,6 +1,61 @@
 {
  "url": "https://cookieandkate.com/toasted-sesame-hummus-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Toasted Sesame Hummus",
+  "ingredients": [
+   "¼ cup tahini",
+   "¼ cup lemon juice (from 1 ½ to 2 lemons)",
+   "2 tablespoons extra-virgin olive oil",
+   "1 medium clove garlic",
+   "½ teaspoon fine salt",
+   "1 ½ teaspoons toasted sesame oil, divided, more to taste",
+   "1 can (15 ounces) chickpeas, rinsed and drained, or 1 ½ cups cooked chickpeas",
+   "2 to 4 tablespoons water, as needed",
+   "1 teaspoon raw sesame seeds",
+   "Flaky sea salt, for garnish (optional)",
+   "Suggested accompaniments: Toasted pita bread or pita chips, raw veggies like carrot, bell pepper or celery, crackers, etc."
+  ],
+  "yield_text": "1 3/4 cups",
+  "cook_time": "18 minutes",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/toasted-sesame-hummus-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a food processor or high-powered blender (i.e., Vitamix or Blendtec), combine the tahini, lemon juice, olive oil, garlic, salt, and ½ teaspoon of the sesame oil. Process for about 1 ½ minutes, pausing to scrape down the sides and bottom as necessary, until the mixture is smooth and creamy."
+   },
+   {
+    "title": null,
+    "text": "Add half of the chickpeas to the food processor and process for 1 minute. Scrape down the bowl, then add the remaining chickpeas and process until the hummus is thick and smooth, 1 to 2 more minutes."
+   },
+   {
+    "title": null,
+    "text": "While running the food processor, drizzle in 2 to 4 tablespoons of water, until it reaches your desired consistency and level of creaminess. Taste and season with additional salt (I added ¼ teaspoon) and toasted sesame oil, if you want more pronounced sesame flavor (about ½ teaspoon). Set aside."
+   },
+   {
+    "title": null,
+    "text": "Toast the sesame seeds in a small skillet over medium heat, shimmying the skillet frequently, until they’re starting to turn golden, about 2 to 4 minutes. Pour them into a bowl to prevent them from burning."
+   },
+   {
+    "title": null,
+    "text": "Scrape the hummus into a small serving bowl. Lightly drizzle 1 teaspoon sesame oil over the top. Sprinkle generously with sesame seeds and a light sprinkle of flaky sea salt (if using). Serve with accompaniments of your choice. Leftover hummus keeps well, chilled, for 4 to 5 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my green goddess hummus recipe.",
+   "Change it up: If you omit the sesame oil and sesame seeds, you’ll have an ultra-creamy basic hummus recipe."
+  ],
+  "summary": "This creamy hummus recipe includes toasted sesame oil and toasted sesame seeds for incredible sesame flavor! It’s easy to make and so delicious. Recipe yields about 1 ¾ cup hummus.",
+  "ingredient_groups": []
+ }
 }

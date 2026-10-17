@@ -29,7 +29,30 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2019/09/crisped-chickpeas-with-herbs-and-garlic-yogurt/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Spread chickpeas out in a single layer on a paper towel or two and roll around to pat dry; leave them there until you fry them. Stir together garlic, yogurt, and a couple pinches of salt on a plate until mixed. Spread to cover most of bottom of plate."
+   },
+   {
+    "title": null,
+    "text": "Heat scant 4 tablespoons olive oil in a medium-large nonstick skillet over medium-high heat. Add chickpeas and cook, stirring to ensure they color evenly, until golden and crispy, about 10 minutes. They’re going to crackle and pop as they fry; be careful or use a splatter screen if you have one. Use a slotted spoon, transfer the chickpeas to paper towels to drain briefly then season well, while still very hot, with finely grated lemon zest, fine sea salt, and pepper flakes."
+   },
+   {
+    "title": null,
+    "text": "Add another tablespoon or so of oil if needed to the pan and warm again over medium-high. Add the zucchini — you will not fit it all in one layer and that’s fine, just leave it there until browned underneath, a few minutes, then turn in sections, repeating the don’t-move-until-browned pause until the zucchini is tender and browned in spots. Season well with salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "Slide zucchini onto prepared yogurt. Cut the zested lemon half into two wedges. Drizzle hot zucchini with juice from one of the wedges; place the second on the side of the plate for serving. Sprinkle half of chickpeas on top of zucchini (save the second half of the chickpeas for next time). Finish with a small drizzle of olive oil and fresh herbs. Eat right away."
+   }
+  ],
+  "notes": [
+   "Note: This makes enough chickpeas for two servings."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

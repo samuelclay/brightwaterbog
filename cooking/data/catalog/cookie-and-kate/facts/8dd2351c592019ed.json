@@ -1,6 +1,68 @@
 {
  "url": "https://cookieandkate.com/lentil-curry/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Lentil Curry",
+  "ingredients": [
+   "2 tablespoons extra-virgin olive oil",
+   "1 yellow onion, chopped",
+   "2 medium carrots, chopped",
+   "1 red bell pepper, chopped",
+   "1 ¼ teaspoon fine salt, divided",
+   "1 small cauliflower (about 1 ¼ pound, or 4 ½ cups), cored and roughly chopped",
+   "1 Yukon gold potato (½ pound or less), peeled and chopped",
+   "3 cloves garlic, pressed or minced",
+   "1 tablespoon minced fresh ginger",
+   "2 tablespoons curry powder",
+   "1 teaspoon ground cumin",
+   "1 cup black beluga or French green lentils, picked over for debris and rinsed",
+   "3 cups water",
+   "1 cup light or regular coconut milk, plus more for garnish",
+   "1 large can (28 ounces) diced tomatoes",
+   "Black pepper, to taste",
+   "¼ cup chopped fresh cilantro, for garnish",
+   "Cooked brown jasmine rice or long-grain rice, for serving (optional)",
+   "Lime wedges, for serving"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "50 minutes",
+  "categories": [
+   "Main Dish"
+  ],
+  "cuisines": [
+   "Indian-inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/lentil-curry/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Warm the oil in a large pot or Dutch oven over medium-high heat. Once it’s hot, add the onion, carrots, bell pepper, and salt. Cook until the onions are turning translucent, stirring often, about 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the cauliflower and potato. Cook until the vegetables are fork-tender and the cauliflower has some color to it, about 6 to 8 minutes, stirring occasionally."
+   },
+   {
+    "title": null,
+    "text": "Stir in the garlic, ginger, curry powder and cumin. Stir until fragrant, about 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Add the lentils, water, coconut milk and tomatoes with their liquid, plus another ¼ teaspoon salt. Bring the mixture to a boil, then lower the heat to maintain a gentle simmer. Cook, stirring every few minutes to prevent the mixture from sticking to the bottom, until the potatoes, carrots and lentils are cooked through and the mixture has thickened, about 20 to 30 minutes."
+   },
+   {
+    "title": null,
+    "text": "Season to taste with additional salt (I added another ¼ teaspoon) and black pepper. Serve in bowls with an extra drizzle of coconut milk, chopped cilantro, and a wedge of lime. Leftovers will keep well in the refrigerated, covered, for up to 4 days, or in the freezer for up to 6 months."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from an older (since deleted) recipe titled Tomato and Lentil Curry. I like this recipe much better."
+  ],
+  "summary": "This lentil curry recipe offers fresh flavor, warming spices and vegetables. Inspired by Indian curries, this recipe is satisfying and delicious! Recipe yields about 6 bowls.",
+  "ingredient_groups": []
+ }
 }

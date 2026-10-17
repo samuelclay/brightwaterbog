@@ -1,6 +1,67 @@
 {
  "url": "https://cookieandkate.com/vegetable-stir-fry/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Vegetable Stir Fry",
+  "ingredients": [
+   "⅓ cup reduced-sodium soy sauce or tamari (regular soy sauce is too salty)",
+   "1 tablespoon toasted sesame oil",
+   "1 tablespoon honey or maple syrup",
+   "2 teaspoons arrowroot starch or 1 teaspoon corn starch",
+   "2 large cloves garlic, pressed or minced",
+   "¼ teaspoon crushed red pepper",
+   "1 tablespoon sesame seeds, for garnish",
+   "1 tablespoon avocado oil, coconut oil or your cooking oil of choice",
+   "1 small red onion, root and tip ends removed and cut into ¼-inch thick wedges (about 1 cup)",
+   "2 medium carrots, peeled and cut into very thin rounds (about 1 ½ cups)",
+   "Pinch of salt",
+   "1 medium red bell pepper, cut into ¼ inch strips (about 1 ¼ cup)",
+   "1 medium yellow bell pepper, cut into ¼ inch strips (about 1 ¼ cup)",
+   "1 cup small broccoli florets (from about 1 stalk)",
+   "2 tablespoons water",
+   "Thinly sliced green onion, for garnish"
+  ],
+  "yield_text": "4",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Main dish or side"
+  ],
+  "cuisines": [
+   "Chinese"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/vegetable-stir-fry/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a liquid measuring cup, combine the soy sauce, sesame oil, honey, starch, garlic and red pepper flakes (if using). Whisk until blended and set aside."
+   },
+   {
+    "title": null,
+    "text": "Warm the sesame seeds in a large cast iron or stainless steel skillet over medium heat, stirring constantly, until fragrant and turning lightly golden, about 1 minute. Transfer them to a plate and set them aside, then return the skillet to the stove."
+   },
+   {
+    "title": null,
+    "text": "Warm the oil over medium heat until shimmering. Add the onion and carrots and a pinch of salt. Raise the heat to medium-high and cook, stirring every 30 seconds or so, until the onions have softened, about 4 to 6 minutes. (If at any point you catch a whiff of something burning while making this stir-fry, dial back the heat a bit.)"
+   },
+   {
+    "title": null,
+    "text": "Add the bell peppers and broccoli and stir to combine. Pour in the water and immediately cover the pan. Cook, uncovering to stir every minute or so then covering again, until the broccoli and bell pepper are fork-tender and browning along the edges, about 7 to 9 minutes."
+   },
+   {
+    "title": null,
+    "text": "Uncover and remove the skillet from the heat. Immediately pour in the prepared sauce and stir well to coat the veggies. Taste, and if it needs a little more flavor, stir in a pinch of salt. Serve as desired, sprinkled with toasted sesame seeds and green onion. Leftovers keep well in an airtight container in the refrigerator for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Spring Veggie Stir-Fry and Fajita Veggies (Chipotle-Inspired).",
+   "Make it gluten free: Be sure to use certified gluten-free tamari. Regular soy sauce is not gluten free.",
+   "Make it vegan: Use maple syrup instead of honey."
+  ],
+  "summary": "This vegetable stir fry recipe comes together beautifully for home cooks. It’s designed for cooking in a large skillet rather than a wok. Recipe yields 4 medium veggie servings; turn it into a full meal by adding rice and protein.",
+  "ingredient_groups": []
+ }
 }

@@ -19,7 +19,39 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/rainier-cherry-mojito/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a mixing glass, thoroughly muddle cherries, mint, lime juice and sugar."
+   },
+   {
+    "title": null,
+    "text": "Stir the rum into the mixture."
+   },
+   {
+    "title": null,
+    "text": "Fill a collins glass with ice and pour your mixture into the glass. Top it off with club soda."
+   },
+   {
+    "title": null,
+    "text": "Mix by pouring the drink back into your mixing glass, then back into your drinking glass."
+   },
+   {
+    "title": null,
+    "text": "Sip. Relax. Enjoy."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Sprouted Kitchen’s rainier cherry muddler."
+  ],
+  "summary": "This rainier cherry mojito recipe is so refreshing. It’s a naturally sweet cocktail that’s perfect for hot summer days.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per cocktail"
+   }
+  ]
  },
  "parser_version": 2
 }

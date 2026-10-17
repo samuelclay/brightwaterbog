@@ -23,7 +23,38 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/gluten-free-double-chocolate-cookies/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Position racks in the upper and lower thirds of the oven and preheat to 350 degrees Fahrenheit. Line 2 rimless cookie sheets with parchment paper."
+   },
+   {
+    "title": null,
+    "text": "Place the butter in a small, heavy-bottomed saucepan set over the lowest possible heat. Add 8 ounces of the chocolate (not all of it!) and melt together, stirring frequently to prevent the chocolate from scorching. Continue cooking until the mixture is pleasantly warm, but not super hot, to the touch. Remove from the heat and keep warm. Sift the buckwheat flour, tapioca flour and baking powder into a small bowl and set aside."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, place the eggs, sugar and salt in the bowl of a stand mixer fitted with the paddle attachment and whip on medium-high speed until the mixture is very light and fluffy, 5 minutes (or use a mixing bowl and hand mixer). Turn the mixer to low and stir in the vanilla until just combined, then the warm chocolate butter mixture. Add the flour mixture and beat on low speed until combined. Remove the bowl from the mixer and use a flexible silicone spatula to fold in the remaining 4 ounces chopped chocolate."
+   },
+   {
+    "title": null,
+    "text": "If the batter is very runny, let it cool for a few minutes until it firms to the consistency of a thick brownie batter. Use a #40 spring-loaded ice cream scoop or 2 spoons to drop heaping tablespoons of batter onto the prepared baking sheets, spacing them at least 2 inches apart. Top each cookie with a few chunks of chocolate and a few flecks of flaky salt."
+   },
+   {
+    "title": null,
+    "text": "Bake the cookies until puffed and cracked and the edges are set, 8–12 minutes, rotating the pans front to back and top to bottom halfway through baking. Let cool on the pans. Enjoy warm or at room temperature. The cookies are best the day of baking but will keep, airtight at room temperature, for up to 3 days."
+   }
+  ],
+  "notes": [
+   "Recipe from Alternative Baker by Alanna Taylor-Tobin of Bojon Gourmet.",
+   "*Chocolate note: I used Trader Joe’s enormous Belgian dark chocolate bar to make these (54% cacao mass).",
+   "**Potential tapioca starch substitutions: I think arrowroot starch or cornstarch might work just as well, but haven’t tried, so please let a comment if you do!",
+   "***How to warm eggs to room temperature quickly: If you forget to pull these out of the fridge before you’re ready to bake cookies (cough, me), just put your eggs in a bowl and pour hot water over them. If you do this when you start preparing the ingredients, the eggs should reach room temperature by the time you need them.",
+   "Bergamot/orange variation: Add 1 ½ teaspoons packed finely grated zest from 1 medium bermagot or orange to the chocolate and butter mixture as it melts."
+  ],
+  "summary": "This gluten-free double chocolate cookie recipe is made with buckwheat flour, which lends a delicious nutty flavor. These cookies totally taste like brownies. Note that you will need a stand mixer or electric hand mixer for this recipe! Recipe yields 30 small cookies (mine were a little bigger than they were supposed to be so I ended up with about 24).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

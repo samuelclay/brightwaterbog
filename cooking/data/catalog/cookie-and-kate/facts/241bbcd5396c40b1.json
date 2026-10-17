@@ -1,6 +1,45 @@
 {
  "url": "https://cookieandkate.com/gimlet-cocktail/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Gimlet Cocktail",
+  "ingredients": [
+   "2 ounces gin",
+   "1 ounce fresh lime juice",
+   "¾ ounce simple syrup*",
+   "1 strip of lime peel"
+  ],
+  "yield_text": "1",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/gimlet-cocktail/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Chill your coupe glass by filling it to the brim with ice and water. Set it aside while you prepare the cocktail."
+   },
+   {
+    "title": null,
+    "text": "Next, fill a cocktail shaker with ice. Pour in the gin, lime juice and simple syrup. Securely fasten the lid and shake the mixture for about 20 seconds, or until the outside of the shaker is absolutely ice cold."
+   },
+   {
+    "title": null,
+    "text": "Discard the ice water in your glass and gently shake out any stubborn water droplets. Strain the mixture into your prepared glass. Gently twist the lime peel over the drink to release the oils, then lightly draw it over the rim of the glass before dropping it in. Enjoy."
+   }
+  ],
+  "notes": [
+   "*To make simple syrup: Combine equal parts sugar (or honey) and water in a small saucepan or in a microwave-safe bowl. Warm over medium heat or in 30-second bursts in the microwave, whisking occasionally, just until the sweetener has fully dissolved into the water. Set it aside to cool before using. Leftover simple syrup will keep in the refrigerator in an airtight container for up to 1 month.",
+   "Gin recommendations: Plymouth gin is the most authentic choice and yields a great gimlet. I love Hendrick’s for its cucumber and floral notes. You could also use a London dry gin, like Beefeater or Fords.",
+   "Measurement tips: Two ounces is ¼ cup, 1 ounce is 2 tablespoons, and ½ ounce is 1 tablespoon."
+  ],
+  "summary": "The gimlet cocktail is a delightful combination of gin, fresh lime juice and simple syrup, served up with a twist of lime. Recipe yields 1 drink; you can mix up to 3 in a standard cocktail shaker at once.",
+  "ingredient_groups": []
+ }
 }

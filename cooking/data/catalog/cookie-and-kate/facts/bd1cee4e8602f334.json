@@ -29,7 +29,46 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/healthy-gluten-free-apple-crisp/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit."
+   },
+   {
+    "title": null,
+    "text": "Place the sliced apples in a 9-inch square baking dish. In a liquid measuring cup, whisk together the honey and water until combined. Add the lemon juice, starch, cinnamon and allspice, and whisk to combine. Pour the mixture over the apples and toss to combine. Bake for 20 minutes."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, in a medium mixing bowl, stir together the oats, almond meal, pecans, coconut sugar and salt. Mix in the melted butter and the yogurt. Stir until all of the flour is incorporated and the mixture is moistened throughout."
+   },
+   {
+    "title": null,
+    "text": "Once the apples have baked for 20 minutes, give them a stir and redistribute them evenly in the baker. Dollop small spoonfuls of the oat mixture evenly over the filling (see photos; no need to pack it down). Return the baker to the oven and bake for 25 to 30 more minutes, until the filling is bubbling around the edges and the top is nice and golden."
+   },
+   {
+    "title": null,
+    "text": "Let the crisp rest for 5 to 10 minutes before serving. Serve with vanilla ice cream, I insist. Leftovers keep well in the refrigerator, covered, for about 5 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my pear cranberry crisp.",
+   "Make it nut free: To make this recipe nut free, omit the walnuts and use ¾ cup whole wheat flour and ¾ cup oats instead of the almond meal and oats specified above. It will no longer be gluten free. If you want to keep it gluten free, I suspect that you could replace the almond meal with certified gluten-free oat flour or gluten-free all-purpose flour.",
+   "Make it vegan: In the topping, use non-dairy yogurt and coconut oil in place of the butter. In the filling, use maple syrup instead of honey.",
+   "Make it dairy free: Use non-dairy yogurt and coconut oil in place of the butter."
+  ],
+  "summary": "This wholesome, honey-sweetened apple crisp is covered in an irresistible oat, almond meal and pecan topping. This dessert is perfect for the holidays! This recipe yields about 8 modest servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Apple filling"
+   },
+   {
+    "at": 7,
+    "title": "Oat, almond meal and pecan topping"
+   }
+  ]
  },
  "parser_version": 2
 }

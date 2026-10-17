@@ -27,7 +27,47 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/cranberry-muffins-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 400 degrees Fahrenheit. Grease all 12 cups of your muffin tin or line them with papers, if necessary."
+   },
+   {
+    "title": null,
+    "text": "In a food processor, process the cranberries for about 5 seconds, until they are broken into little bits (but not puréed—see photos). Set aside."
+   },
+   {
+    "title": null,
+    "text": "In a large mixing bowl, combine the flour, baking powder, baking soda, and salt. Stir to combine."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, combine the oil and honey and beat together with a whisk. Add the eggs and whisk to combine, then add the yogurt, vanilla and orange zest. Mix well."
+   },
+   {
+    "title": null,
+    "text": "Pour the wet ingredients into the dry and mix with a big spoon, just until combined (a few lumps are ok). Gently fold the cranberry pieces into the batter."
+   },
+   {
+    "title": null,
+    "text": "Divide the batter evenly between the 12 muffin cups (they will be quite full). Sprinkle the tops of the muffins with turbinado sugar. Bake the muffins for 15 to 18 minutes, or until the muffins are golden on top and a toothpick inserted into a muffin comes out clean."
+   },
+   {
+    "title": null,
+    "text": "Place the muffin tin on a cooling rack to cool. You might need to run a butter knife along the outer edge of the muffins to loosen them from the pan. If you have leftover muffins, store them, covered, at room temperature for 2 days, or in the refrigerator for up to 5 days. Freeze leftover muffins for up to 3 months."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my healthy blueberry muffins.",
+   "*Note on Greek yogurt: I’ve used a variety of fat percentages and the muffins have always turned out well. Higher fat yogurt will yield a somewhat more rich muffin. You can also substitute plain (not Greek) yogurt, but your muffins might not rise quite as high.",
+   "Make it vegan: You can replace the eggs with flax eggs. Replace the yogurt with a smaller amount of vegan buttermilk—just mix ⅔ cup non-dairy milk with 2 teaspoons vinegar. Let it rest for 5 minutes before adding it to the other liquid ingredients. Or, use 1 cup thick vegan yogurt.",
+   "Make it dairy free: See buttermilk option above.",
+   "Make it egg free: Substitute flax eggs for the regular eggs.",
+   "Make it gluten free: Substitute an all-purpose gluten-free flour blend for the whole wheat flour. Bob’s Red Mill makes a gluten-free blend that works well."
+  ],
+  "summary": "These cranberry muffins will be your family’s new favorite! Don’t tell them the recipe calls for healthy ingredients. These fluffy muffins are bursting with fresh cranberry and orange flavor, plus they’re whole grain and naturally sweetened! Recipe yields 12 muffins.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

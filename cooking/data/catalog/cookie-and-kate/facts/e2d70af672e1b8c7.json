@@ -1,6 +1,49 @@
 {
  "url": "https://cookieandkate.com/roasted-berry-and-honey-yogurt-popsicles/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Berry Yogurt Popsicles",
+  "ingredients": [
+   "12 ounces (two small containers) small berries, like blueberries and raspberries",
+   "2 teaspoons sugar (preferably turbinado sugar), optional",
+   "Dash of salt",
+   "2 tablespoons + ¼ cup honey, divided (to taste)",
+   "2 cups whole-milk Greek yogurt",
+   "½ small lemon, juiced"
+  ],
+  "yield_text": "8",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-berry-and-honey-yogurt-popsicles/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit. Line a rimmed baking sheet with parchment paper. In a medium bowl, gently toss the berries with the sugar, salt and 2 tablespoons of the honey. Pour the berries onto the prepared baking sheet and arrange them in a single layer. Roast for 30 minutes, stirring halfway, or long enough for the berry juices to thicken but not burn (watch the edges in particular)."
+   },
+   {
+    "title": null,
+    "text": "While the fruit is roasting, blend together the Greek yogurt and lemon juice in a medium bowl. Mix in honey to taste, until it is barely sweet enough for your liking (keep in mind that the berries will be very sweet). Add more lemon juice if you want tart popsicles."
+   },
+   {
+    "title": null,
+    "text": "Let the berries cool for at least ten minutes, then scrape the berries and all of their juices into the bowl of yogurt. Use a big spoon to gently fold the mixture together (for a marbled effect, do not mix thoroughly)."
+   },
+   {
+    "title": null,
+    "text": "Use the spoon to transfer the yogurt blend into the popsicle moulds and insert popsicle sticks. Freeze for at least four hours. When you’re ready to pop out the popsicles, run warm water around the outsides of the moulds for about ten seconds and gently remove the popsicles. Enjoy immediately."
+   }
+  ],
+  "notes": [
+   "Inspired by The Year in Food’s roasted strawberry popsicles with coconut milk (her recipe has since been deleted)."
+  ],
+  "summary": "These super creamy Greek yogurt popsicles are swirled with jammy, roasted raspberries and blueberries. Sweetened with honey, these are all-natural, delicious summer treats. Recipe yields eight 3-ounce popsicles (24 ounces in total).",
+  "ingredient_groups": []
+ }
 }

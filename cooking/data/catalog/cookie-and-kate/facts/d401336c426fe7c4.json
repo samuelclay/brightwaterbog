@@ -29,7 +29,46 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/sugar-snap-pea-and-carrot-soba-noodles/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the vegetables: Use a chef’s knife to slice the peas in half lengthwise (or just roughly chop them). Slice the carrots into long, thin strips with a julienne peeler, or slice them into ribbons with a vegetable peeler."
+   },
+   {
+    "title": null,
+    "text": "To make the sauce: Whisk together the ingredients in a small bowl until well blended. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Bring two big pots of water to a boil. In the meantime, toast the sesame seeds: Pour the sesame seeds into a small pan. Toast for about 4 to 5 minutes over medium-low heat, shaking the pan frequently to prevent burning, until the seeds turn golden and start to make popping noises."
+   },
+   {
+    "title": null,
+    "text": "Once the pots of water are boiling: In one pot, cook the soba noodles just until al dente, according to package directions (probably about 5 minutes), then drain and briefly rinse under cool water. Cook the frozen edamame in the other pot until warmed through (about 4 to 6 minutes) but before draining, toss the halved peas into the boiling edamame water and cook for an additional 20 seconds. Drain."
+   },
+   {
+    "title": null,
+    "text": "Combine the soba noodles, edamame, snap peas and carrots in a large serving bowl. Pour in the dressing and toss with salad servers. Toss in the chopped cilantro and toasted sesame seeds, and serve in bowls. This salad keeps well for 2 days in the refrigerator, covered. Serve leftovers chilled or gently warmed—you might like to wake up the leftovers with a splash of tamari or lime juice."
+   }
+  ],
+  "notes": [
+   "*Miso note: I used Miso Master brand’s reduced-sodium sweet white miso. It’s in the refrigerated section near the tofu. Omit if you can’t find it, but it provides a nice boost of flavor (add salt to taste if you’re not using miso).",
+   "Make it vegan: Sub maple syrup for the honey.",
+   "Make it gluten free: Buy certified gluten-free, all buckwheat soba noodles (or gluten-free spaghetti) and use tamari instead of regular soy sauce. Make sure your miso is gluten free, if using.",
+   "Change it up: Substitute other seasonal produce for the sugar snap peas, or skip them altogether for less prep work. Very thinly sliced bell pepper strips would be a nice addition this summer."
+  ],
+  "summary": "This healthy, vibrant soba noodle recipe is full of fresh springtime produce. Feel free to trade in other seasonal vegetables for the sugar snap peas, like thinly sliced bell pepper. This recipe yields about 6 servings and the leftovers keep well for just 2 days, but you can store the dressing and salad separately to keep them for up to 4 days.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Soba noodles and veggies"
+   },
+   {
+    "at": 6,
+    "title": "Ginger-sesame sauce"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -32,7 +32,36 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/lentil-and-mushroom-meatballs/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 400 degrees Fahrenheit and line a baking sheet with parchment paper. Combine the lentils, bay leaf, and vegetable broth in a medium saucepan. Bring to a boil, then reduce the heat to low and simmer for 10 minutes. (Don’t worry, you want the lentils to be a little undercooked.) Remove from heat, drain and let cool for a few minutes. Discard the bay leaf."
+   },
+   {
+    "title": null,
+    "text": "In a food processor, combine the mushrooms, oats, lentils, parsley and spices (oregano, red pepper flakes, thyme and tarragon), plus 1 teaspoon salt. Pulse/blend until the mixture is pretty well pulverized but not mush (see photos)."
+   },
+   {
+    "title": null,
+    "text": "In a large skillet over medium heat, warm the olive oil, then add the chopped onion and a pinch of salt. Cook, stirring often, until onions are translucent and turning golden at the edges, about 5 minutes. Add the garlic and cook, stirring, for about 30 seconds. Stir in the lentil-mushroom mixture and cook until browned, about 5 minutes, stirring constantly."
+   },
+   {
+    "title": null,
+    "text": "Add the red wine and soy sauce (if using) to the skillet. Continue to cook, stirring constantly, until the liquid has been absorbed. Remove from heat and, if you’re using a pan that retains heat like cast iron, transfer the mixture to a heat-safe bowl. Season with salt (I added ¼ teaspoon) and pepper to taste. Allow the mixture to cool until it is comfortable to handle."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl, whisk together two eggs, then thoroughly mix the eggs into the lentil and mushroom mixture. Use your hands to scoop up one small handful of the mixture at a time, shaping it into a golf-ball sized ball (about 1 ½-inch diameter). Place each “meatball” onto the baking sheet, leaving an inch of space around each one (you should end up with 15 or more meatballs). Bake for 35 minutes, or until golden brown."
+   }
+  ],
+  "notes": [
+   "Adapted from Oh My Veggies and The Meatball Shop, via The New York Times.",
+   "Vegans: You can omit the eggs here, but they act as a binder, so the meatballs will fall apart once you break them with a fork.",
+   "Gluten-free eaters: Make sure your oats are certified gluten free. Tamari is typically wheat/gluten free; other soy sauces are not."
+  ],
+  "summary": "Hearty vegetarian “meatballs” with just the right amount of spice. Serve with ample marinara sauce or pesto, on their own or on a bed of pasta. These make great leftovers (they taste even better a few hours later).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -23,7 +23,42 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/honey-whole-wheat-banana-bread/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 325 degrees Fahrenheit (165 degrees Celsius) and grease a 9×5 inch loaf pan."
+   },
+   {
+    "title": null,
+    "text": "In a large bowl, beat oil and honey together. Add eggs and beat well."
+   },
+   {
+    "title": null,
+    "text": "Stir in bananas and vanilla, then stir in the salt and cinnamon. Lastly, stir in the flour, just until combined."
+   },
+   {
+    "title": null,
+    "text": "Add baking soda to hot water, stir to mix, and then mix briefly into batter until it is evenly distributed. Spread batter into the greased loaf pan."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle with cinnamon and swirl with a toothpick or the tip of a butter knife for a pretty marbled effect."
+   },
+   {
+    "title": null,
+    "text": "Bake for 55 to 65 minutes. Be sure to check that the bread is done baking by inserting a toothpick in the top. It should come out clean. Let the bread cool in the loaf pan for 5 minutes, then transfer it to a wire rack to cool for 30 minutes before slicing."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Pedgi at Allrecipes.",
+   "Loaf pan recommendations: I recommend a metal loaf pan or stoneware. I love my turquoise Fiesta stoneware loaf pan, which is non-toxic, heats evenly and cleans easily. Highly recommended!",
+   "*Baking soda/water update: After several years of being baffled by the hot water/baking soda trick, I can now definitively report that it’s an unnecessary step. If you prefer, you can just stir in ¼ cup water or milk (any kind) into the oil/honey/eggs and whisk the baking soda in with the spices. I’m leaving the recipe as is because I know so many of you love it as written!",
+   "Need to omit the eggs? I’ve heard from other commenters that flax eggs/chia eggs work well as replacements for the eggs. One commenter even said the bread turned out well when she forgot the eggs!",
+   "Want to make muffins? Check out my healthy banana muffins, which are a riff on this banana bread!"
+  ],
+  "summary": "Your search for the perfect healthy banana bread recipe is over! Made with whole wheat flour and sweetened with honey, this banana bread is decadently fluffy and sweet. You don’t even have to tell anyone it’s healthy! Recipe yields one loaf.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

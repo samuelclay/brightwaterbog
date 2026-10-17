@@ -24,7 +24,27 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/watermelon-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small bowl, combine the sliced shallot with the vinegar and fine salt. Toss to combine, and place in the refrigerator to lightly pickle while you prepare the remaining ingredients (at least 10 minutes)."
+   },
+   {
+    "title": null,
+    "text": "Spread the cubed watermelon over a large platter or shallow serving bowl. Arrange the pickled shallot on top, and spoon the leftover vinegar over the salad. Sprinkle the feta and pistachios on top."
+   },
+   {
+    "title": null,
+    "text": "Drizzle the olive oil all over. Finish the salad with a sprinkle of fresh herbs and flaky salt. This salad is best enjoyed within an hour or two, but will keep in the refrigerator for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Prepare in advance: Since watermelon starts releasing moisture once it comes into contact with salt, your best bet is to arrange the cubed watermelon across a platter and store everything separately until it’s close to serving time. Or, at minimum, wait to sprinkle flaky salt on top until it’s time to serve.",
+   "Make it dairy free/vegan: Omit the feta. You might like some roughly chopped, pitted Kalamatas in its place."
+  ],
+  "summary": "This classic watermelon salad recipe features crumbled feta and fresh mint. Lightly pickled shallots and chopped pistachios make it amazing! Recipe yields 6 to 8 side salads.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

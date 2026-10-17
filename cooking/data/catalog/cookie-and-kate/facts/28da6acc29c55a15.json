@@ -17,7 +17,30 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/cashew-butter-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit. Spread the cashews across a large, rimmed baking sheet and bake them for 10 minutes, stirring halfway."
+   },
+   {
+    "title": null,
+    "text": "Let the cashews cool until they’re just warm (not hot), about 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Transfer the cashews to a food processor. Add the salt. Blend until the mixture is completely smooth and creamy, pausing to scrape down the sides as necessary. You’ll think it’ll never blend, but be patient! The cashews will go from flour-like clumps to a ball against the side of the food processor, and finally, the mixture will turn lusciously creamy. If the mixture gets hot along the way or your machine seems tired, stop and let it cool for a few minutes."
+   },
+   {
+    "title": null,
+    "text": "Let the cashew butter cool to room temperature, then transfer the mixture to a mason jar and screw on the lid. Store in the refrigerator for up to 1 month."
+   }
+  ],
+  "notes": [
+   "Change it up: You can create a mixed nut butter by substituting raw almonds, walnuts or pecans for some of the cashews. Toast them all together on the pan."
+  ],
+  "summary": "Make creamy cashew butter at home! It’s easy in your food processor and much more affordable than store-bought. Recipe yields 1 ¾ cups.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

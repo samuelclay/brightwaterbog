@@ -21,7 +21,29 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/overnight-oats-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a jar or bowl (a working jar or 1-pint mason jar is perfect), combine the muesli (or old-fashioned oats and cinnamon), chia seeds and nut butter. Add a splash of the milk and mix the nut butter into the oats. Then add the rest of the milk and stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Top with your fruit of choice. (If you used more milk than ½ cup and you want your fruit to stay on top, wait to top the oats until you’re ready to serve. If you’re using fruit that doesn’t store well, like sliced apple or banana, wait to top the oats until you’re ready to serve.)"
+   },
+   {
+    "title": null,
+    "text": "Place the lid on the jar and refrigerate overnight, or up to 5 days. When you’re ready to serve, add a drizzle of maple syrup or honey if you’d like, and enjoy chilled."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Use certified gluten-free oats.",
+   "Make it vegan: Choose one of the dairy-free milk options listed above. If adding additional sweetener, use maple syrup instead of honey.",
+   "Make it nut free: Omit the nut butter or replace it with sunbutter. If you’re using muesli, follow my instructions for making nut-free muesli in the recipe notes for that recipe.",
+   "Warm it up: Overnight oats are typically served chilled. However, if you prefer warm oats, you can heat them in the microwave. Just use a microwave-safe jar and stir frequently while you’re warming them up. Since the oats are so thick, I’m not sure this would work well on the stovetop, but you could give it a try."
+  ],
+  "summary": "Here’s my favorite recipe for overnight oats! Feel free to make it your own. Overnight oats are a simple, healthy breakfast that you can make ahead for busy mornings. The recipe below yields 1 serving, so make as many servings (each in a separate jar) as you’d like. Overnight oats will keep for up to 5 days in the refrigerator.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

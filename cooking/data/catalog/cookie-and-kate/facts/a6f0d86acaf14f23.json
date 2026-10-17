@@ -22,7 +22,39 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/hibiscus-mocktail-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the tea component, heat the water to a low simmer, either in a tea pot or in a saucepan on the stovetop. Steep the tea in the hot water for 3 minutes, then remove the bags (or strain off the loose tea). Set the tea aside to cool to room temperature, about 20 minutes."
+   },
+   {
+    "title": null,
+    "text": "To make the honey syrup: Combine equal parts honey and water (say, 2 tablespoons each if you’re only making one batch of drinks) in a microwave-safe bowl or small saucepan. Warm in the microwave or over the stovetop just until you can completely stir the honey into the water. Set aside."
+   },
+   {
+    "title": null,
+    "text": "When you’re ready to serve, fill four medium glasses with ice. Fill each halfway with hibiscus tea. Top each with about a tablespoon of lime juice and 1 teaspoon of the honey simple syrup, and stir to combine. Fill the rest of each glass with sparkling water, gently stirring afterward to combine. You may want to adjust to taste by using less lime juice or more simple syrup—totally up to you! Serve promptly."
+   }
+  ],
+  "notes": [
+   "Prepare in advance: You can make the tea component and honey simple syrup in advance, and chill both separately until you’re ready to serve. I’d suggest mixing the drinks just before serving since the sparkling water loses its carbonation over time.",
+   "Change it up: For a fun twist, add a splash of homemade watermelon juice to each drink!",
+   "Make it vegan: Use traditional simple syrup instead of honey simple syrup (substitute vegan cane sugar for the honey, and warm the mixture until the sugar is fully dissolved).",
+   "*Simple syrup note: We mix the warm water with honey in this fashion because full-strength honey doesn’t mix well with liquids. You might have a bit of simple syrup left over—save it to sweeten your coffee/tea/cocktails (it keeps well for up to 2 weeks), or discard it.",
+   "A note on pregnancy safety: Hibiscus is considered potentially unsafe for pregnancy, so out of an abundance of caution, I would not recommend this mocktail if you are expecting."
+  ],
+  "summary": "Looking for a not-too-sweet mocktail recipe? This sparkling non-alcoholic hibiscus drink is just the ticket! It’s colorful, festive, and simple to make. Recipe yields 4 medium (12-ounce) drinks. Multiply as necessary, or double it to make a big pitcher (combine just when you’re ready to serve).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Mocktails"
+   },
+   {
+    "at": 5,
+    "title": "Honey Simple Syrup*"
+   }
+  ]
  },
  "parser_version": 2
 }

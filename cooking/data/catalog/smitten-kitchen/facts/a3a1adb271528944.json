@@ -26,7 +26,28 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2011/09/roasted-eggplant-with-tomatoes-and-mint/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 425 degrees. Coat a large baking sheet generously with olive oil, about 1 to 2 tablespoons. Arrange eggplant rounds in a single layer. Sprinkle with salt and freshly ground black pepper. Roast, without disturbing, for 15 to 20 minutes. Carefully flip each piece: the undersides should be blistery, dark and a bit puffy and should release from the pan with no effort. If they’re not, let it cook longer. Once flipped, sprinkle them with additional salt and freshly ground black pepper and return the pan to the oven for another 10 to 12 minutes or so, until the undersides match the tops."
+   },
+   {
+    "title": null,
+    "text": "[Alternatively, on the grill: Brush eggplant slices with oil; sprinkle with salt and pepper. Grill eggplant slices until slightly charred and tender when pierced with knife, about 5 to 7 minutes per side.]"
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, mix your ricotta, capers, onion, tomatoes, mint, vinegar and remaining 4 teaspoons olive oil in a small bowl. Taste for seasoning; ricotta salata tends to be quite salty so I don’t find that this dish needs more than a pinch of salt, if that. Add more vinegar, if desired. Add freshly ground black pepper, to taste."
+   },
+   {
+    "title": null,
+    "text": "When the eggplant discs are done, arrange them on a serving platter. Scoop a spoonful of the salad over each round. Eat immediately."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

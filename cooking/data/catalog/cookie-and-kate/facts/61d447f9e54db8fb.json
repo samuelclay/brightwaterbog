@@ -1,6 +1,62 @@
 {
  "url": "https://cookieandkate.com/healthy-cherry-chocolate-cake/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Vegan Cherry Chocolate Cake",
+  "ingredients": [
+   "1 ½ cups whole wheat pastry flour",
+   "⅓ cup unsweetened cocoa powder",
+   "1 teaspoon baking soda",
+   "½ teaspoon salt",
+   "1 scant cup raw (turbinado) sugar",
+   "½ cup melted coconut oil or quality vegetable oil",
+   "1 cup coffee",
+   "1 teaspoon vanilla extract",
+   "½ teaspoon almond extract",
+   "2 tablespoons cider vinegar",
+   "1 ¼ pound dark cherries, pitted (roughly enough cherries to cover the bottom of your cake pan)"
+  ],
+  "yield_text": "One 9″ cake",
+  "cook_time": "55 minutes",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/healthy-cherry-chocolate-cake/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 375 degrees Fahrenheit. Line the bottom of your pan with parchment paper. I used a 9 inch non-stick springform pan, which made removing the cake a cinch."
+   },
+   {
+    "title": null,
+    "text": "Whisk together the flour, cocoa powder, baking soda, salt, and sugar directly into the cake pan."
+   },
+   {
+    "title": null,
+    "text": "In a measuring cup, measure and mix together the oil, cold coffee (or cold water and Starbucks VIA), almond extract and vanilla extract."
+   },
+   {
+    "title": null,
+    "text": "Pour the liquid ingredients into the baking pan and mix the batter with a fork or a small whisk until it is smooth."
+   },
+   {
+    "title": null,
+    "text": "Add the vinegar and stir quickly. You will see pale swirls in the batter as the vinegar reacts with the baking soda. Stir just until the vinegar is evenly distributed throughout the batter."
+   },
+   {
+    "title": null,
+    "text": "Mix in your cherries with minimal stirring. I poked the cherries down into the batter with my finger. Bake for 35 to 45 minutes, or until a toothpick inserted in the center comes out clean. Set aside to cool."
+   }
+  ],
+  "notes": [
+   "Adapted from Moosewood Restaurant."
+  ],
+  "summary": "This decadent chocolate cherry cake is made healthier with whole wheat flour and fresh cherries. It’s vegan, too, but you don’t have to tell!",
+  "ingredient_groups": []
+ }
 }

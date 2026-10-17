@@ -39,7 +39,27 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2008/04/peanut-sesame-noodles/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the sauce: Either with a whisk or a blender, combine sauce ingredients except the warm water until completely smooth, then add the water a tablespoon or two at a time until you get the consistency you like. Set aside until needed."
+   },
+   {
+    "title": null,
+    "text": "Make the noodles: Boil in salted water as directed on the package then drain and rinse under cold water until fully cool."
+   },
+   {
+    "title": null,
+    "text": "Assemble: Place noodles and vegetables in a large bowl and toss with sauce to evenly coat. Transfer to serving bowl, if you’re fancy, and scatter with tofu, drizzling a little extra sauce over it. Garnish with sesame seeds and eat immediately."
+   }
+  ],
+  "notes": [
+   "Note: I usually keep the noodles in one container, the vegetables and tofu in another, and the sauce in a jar and assemble it one bowl at a time. The sauce keeps for two weeks in the fridge.",
+   "Updated with some freshly photos in 2023, thank goodness. These are the cold peanut sesame noodles I’ve been making since college. I always made it with buckwheat soba noodles because I loved the flavor and haven’t stopped since. Over the years I’ve had dalliances with other cold noodle recipes but I recently came back to this one and it was like reuniting with an old friend. I forgot how perfect this sauce is. I can’t believe I ever tossed it aside for something new. We’ve been making up for lost time since."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

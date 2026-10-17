@@ -22,7 +22,36 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/crepes-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a blender, food processor or big bowl, combine all of the ingredients. Blend, process or whisk by hand until the mixture is completely smooth, pausing to scrape down the sides at least once. Once you are certain that there are no big lumps of flour, set the bowl aside."
+   },
+   {
+    "title": null,
+    "text": "Heat a medium-sized skillet, either stainless steel or non-stick, over medium heat. Scoop batter into a ¼ cup measuring cup so it will be ready to pour, and set it aside. Once the pan is hot, add a small pat of butter. Use a clean rag or paper towel to quickly spread the butter into an even, very light layer."
+   },
+   {
+    "title": null,
+    "text": "Tilt the pan to about 45 degrees toward you as you pour in the batter, then immediately swirl the batter around so it evenly covers the entire surface of the base."
+   },
+   {
+    "title": null,
+    "text": "Cook the crepe until the top surface has turned from shiny to matte and the bottom is speckled with brown spots, less than 1 minute. Loosen the edges and flip the crepe to cook on the other side (I used a large silicone spatula for this step). Once the crepe is lightly speckled on the other side, slide it onto a plate."
+   },
+   {
+    "title": null,
+    "text": "Repeat until you have no more batter, measuring the batter before adding a small pat of butter and wiping the skillet between each one. To serve, top one crepe at a time as desired, and either roll it up or fold it into quarters. Enjoy! Leftover crepes will keep well for up to 4 days in the refrigerator, stacked and covered (add toppings just before serving). Or freeze them for up to 3 months, with parchment paper layered between the crepes to prevent them from freezing together."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Buckwheat and Spelt Crepes.",
+   "Make it gluten free: Use certified gluten-free buckwheat flour.",
+   "Make it dairy free: Use non-dairy milk and vegan butter or coconut oil instead of butter."
+  ],
+  "summary": "Learn how to make crêpes at home with this foolproof crêpe recipe! Crêpes are easier to make than you might think. This versatile recipe works with several kinds of flour: all-purpose flour, whole wheat flour or buckwheat flour. Make them sweeter by using the full amount of sugar, or keep them more savory on the lower end. Recipe yields 8 crêpes.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -32,7 +32,72 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2015/09/zucchini-rice-cheese-gratin/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": "New, simplified directions",
+    "text": "Heat oven to 325 degrees F. Oil or butter a 2-quart baking dish, or 2 smaller 1-quart dishes (as I did, with the intention of freezing one)."
+   },
+   {
+    "title": null,
+    "text": "Prepare zucchini: Wash zucchini and trim ends. Halve lengthwise, and if seeds are particularly large, core them out. Coarsely grate and place in a large bowl."
+   },
+   {
+    "title": null,
+    "text": "Prepare remaining ingredients: In a large frying pan, cook the onions slowly in 3 tablespoons oil for 8 to 10 minutes until tender and translucent. Raise heat slightly and stir several minutes until very lightly browned. Stir in garlic and cook another minute. Add uncooked rice and sauté for another two minutes. Season generously with salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "Assemble gratin: Transfer to bowl with zucchini and stir together with 1/2 cup liquid of your choice and all but 2 tablespoons cheese. Taste and adjust seasoning if needed. Transfer to prepared baking dish."
+   },
+   {
+    "title": null,
+    "text": "Bake gratin: Cover tightly with foil and bake for 50 to 60 minutes, until rice within is cooked but not mush. Increase oven temperature to 450 degrees. Remove foil, drizzle top with remaining olive oil (or dot with butter), sprinkle on remaining cheese and bake uncovered until browned and crisp on top, about another 10 to 15 minutes. For extra color, you can run it under the broiler for one minute at the end."
+   },
+   {
+    "title": "Directions as originally published here",
+    "text": "Prepare zucchini: Wash zucchini and trim ends. Halve lengthwise, and if seeds are particularly large, core them out. Coarsely grate and place in a colander set over a bowl. Toss with kosher salt. Let drain for 5 minutes, says Julia Child, but more like 20 or, if you’ve got the time, up to 30 minutes."
+   },
+   {
+    "title": null,
+    "text": "Save drained liquid and squeeze a handful of the zucchini and taste. If it’s very salty, rinse and drain it again (not saving liquid this time). Squeeze all of the zucchini in handfuls, gently, collecting any juices in the bowl of drained liquid. Blot dry on paper towels."
+   },
+   {
+    "title": null,
+    "text": "Prepare rice: Boil for exactly 5 minutes in salted water. Drain and set aside. [In comments I’ve read about this recipe online, many people say that they skip this step and it all works out in the oven. But I didn’t this time.]"
+   },
+   {
+    "title": null,
+    "text": "Prepare remaining ingredients: In a large frying pan, cook the onions slowly in 3 tablespoons oil for 8 to 10 minutes until tender and translucent. Raise heat slightly and stir several minutes until very lightly browned. Stir in the grated and dried zucchini and garlic; season with salt and pepper. Toss and turn for 5 to 6 minutes until the zucchini is almost tender. Sprinkle in the flour, stir over moderate heat for 2 minutes, and remove from heat."
+   },
+   {
+    "title": null,
+    "text": "Assemble dish: Measure the drained liquid from the zucchini. If you have less than 2 1/2 cups, add milk to bring the level up to it. (I became sidetracked and mine drained for an hour; I ended up with the full 2 1/2 cups and needed no milk.)"
+   },
+   {
+    "title": null,
+    "text": "Stir into zucchini-onion mixture, return pan to stove over medium-high heat and bring to a simmer, stirring. Remove from heat again, stir in par-cooked rice and all but 2 tablespoons cheese. Taste and adjust seasoning if needed."
+   },
+   {
+    "title": null,
+    "text": "Turn into a 2-quart baking dish, or 2 smaller 1-quart dishes (as I did, with the intention of freezing one). Sprinkle with reserved cheese and remaining olive oil, although I apparently used butter instead, because: butter"
+   },
+   {
+    "title": null,
+    "text": "You can cook it right away, or let it sit until 30 minutes before you want to serve it."
+   },
+   {
+    "title": null,
+    "text": "30 minutes before serving: Heat oven to 425 degrees. Bake in upper third of oven until bubbling and browned on top, about 25 to 30 minutes. (If yours begins to brown too quickly, you can cover it with foil until the last 5 minutes.) The rice should absorb all the liquid. Serve immediately."
+   }
+  ],
+  "notes": [
+   "From Julia Child’s Mastering the Art of French Cooking, Volume II",
+   "A big update! Several people asked very logical questions after this was published such as: If you drained 2 1/2 cups liquid from the zucchini and need to add 2 1/2 cups liquid back, is that salting and draining process necessary? Related to this, it sounds like many people who did not get 2 1/2 cups liquid from their zucchini and thus added some back found the end results soupy? Also asked: Is the flour absolutely necessary? And does the rice have to be parboiled, can’t you just bake the gratin longer?",
+   "And so I retested this several ways and found that you could skip the flour, skip the salting and draining and even skip the parboiling and it all worked out! Note: It takes much longer to cook the gratin this way, even if you parboil the rice (thus I’m advising you don’t even bother because it doesn’t save enough time) mostly because it seems to take a long time for the zucchini shreds to release enough liquid to cook the rice. You’ll want to give yourself at least 90 minutes including prep time. This may or may not make it worth it, so I left the original instructions as a second set below. Finally, you’ll need to add 1/2 cup liquid to the uncooked rice to make up for what it would have absorbed in parboiling."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

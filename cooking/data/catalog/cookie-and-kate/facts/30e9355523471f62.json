@@ -30,7 +30,38 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/almond-sesame-soba-zoodles-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a large pot of salted water to a boil. Cook the soba noodles until al dente, according to package directions. Drain and rinse the noodles with cool water until they are room temperature, shaking out all the excess water. Transfer the noodles to a large serving bowl and set aside."
+   },
+   {
+    "title": null,
+    "text": "While the noodles are cooking, in a medium mixing bowl, combine the radishes, cucumber, vinegar and 1 teaspoon of the salt. Let the veggies marinate for 10 minutes, tossing occasionally."
+   },
+   {
+    "title": null,
+    "text": "(Phoebe did this step in a food processor but I opted to whisk together by hand.) In a 2-cup liquid measuring cup, combine the almond butter, garlic, lime juice, tamari, honey, sesame oil and remaining 1 teaspoon salt. Whisk until blended, then add ¼ cup water and blend again. If necessary, add more water, 1 tablespoon at a time, until you reach the consistency of peanut sauce."
+   },
+   {
+    "title": null,
+    "text": "Pour the sauce into the mixing bowl with the soba noodles. Add the zucchini noodles and toss until everything is well coated. Divide among serving bowls, top with quick-pickled veggies, and garnish with a sprinkle of sesame seeds."
+   },
+   {
+    "title": null,
+    "text": "Serve room temperature or cold, with your favorite Asian hot sauce on the side."
+   }
+  ],
+  "notes": [
+   "Recipe minimally adapted from The Wellness Project by Phoebe Lapine.",
+   "Make it vegan: Substitute maple syrup for the honey.",
+   "Make it gluten free: Use gluten-free 100% buckwheat soba noodles (Phoebe recommends King Soba) and gluten-free tamari instead of regular soy sauce.",
+   "Make it paleo: Phoebe suggests omitting the soba noodles and doubling the amount of zucchini noodles.",
+   "If you don’t have a spiralizer: You can also turn zucchini into “noodles” with a julienne peeler (they just won’t be as curly and voluminous) or with a regular peeler, to make zucchini “ribbons.” Or, double the amount of soba noodles and skip the zucchini altogether. Here’s my favorite spiralizer, designed by Ali of Inspiralized."
+  ],
+  "summary": "These soba noodles are lightened up with zoodles (zucchini noodles). Toss with peanut sauce and top with colorful quick-pickled cucumbers and radishes for a refreshing spring/summer dinner. If you plan on having leftovers, store the zucchini noodles separately and toss together just before serving. Recipe yields 4 moderate servings or 2 large.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

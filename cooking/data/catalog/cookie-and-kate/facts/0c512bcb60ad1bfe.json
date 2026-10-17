@@ -31,7 +31,54 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/best-panzanella-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the croutons: Preheat the oven to 425 degrees Fahrenheit. If desired, line a large, rimmed baking sheet with parchment paper for easy clean-up."
+   },
+   {
+    "title": null,
+    "text": "Slice your bread* into 1-inch cubes (no larger) and place them on the baking sheet. Drizzle the cubes with the olive oil, sprinkle them with the salt, and toss until thoroughly combined. Bake until deeply golden, about 7 to 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, prepare your salad dressing: In a bowl, combine the olive oil, vinegar, oregano, garlic, salt, and a generous amount of black pepper. Whisk until combined."
+   },
+   {
+    "title": null,
+    "text": "We’re going to add the onion to mellow its flavor and lightly pickle it—first, cut your sliced onion down the middle to make the pieces more manageable. Then, stir the onions into the dressing. Place the bowl in the refrigerator while you assemble the salad."
+   },
+   {
+    "title": null,
+    "text": "To prepare the salad: Transfer the prepared tomatoes to a large serving platter. Nestle about half of the croutons in between the tomatoes, and distribute the rest on top. Place the cucumber rounds and mozzarella all over the salad."
+   },
+   {
+    "title": null,
+    "text": "Use a fork or your hands to distribute the lightly pickled onions all over. Give the remaining dressing a stir and drizzle it over the salad. Sprinkle the basil and olives and/or capers on top, followed by a light sprinkling of extra black pepper and dried oregano. Ideally, let the salad marinate for 20 minutes (or up to 1 hour) before serving."
+   }
+  ],
+  "notes": [
+   "*Stale bread note: If your bread is super soft inside and challenging to cut, bake it on the baking sheet dry for 3 to 5 minutes. Then, cube it, toss it in olive oil and bake as instructed.",
+   "Make it dairy free/vegan: Simply omit the mozzarella or replace it with cooked chickpeas (as much as one 15-ounce can, rinsed and drained, or 1 ½ cups cooked).",
+   "Change it up: If you hate olives and capers, leave them out. Add a diced bell pepper to the mix if you’d like some additional crispness. See above for how to use chickpeas instead of mozzarella.",
+   "Storage suggestions: This salad does not keep particularly well for later because the croutons will continue to absorb dressing over time and turn to mush. If you plan on having leftovers, reserve the croutons for later."
+  ],
+  "summary": "This panzanella salad recipe is the best! It features loads of ripe tomatoes and fresh summertime produce, homemade croutons, and a light vinaigrette. Layering the ingredients on a large platter is key. Recipe yields 1 large salad, enough for 8 side servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Homemade croutons"
+   },
+   {
+    "at": 3,
+    "title": "Vinaigrette"
+   },
+   {
+    "at": 10,
+    "title": "Salad"
+   }
+  ]
  },
  "parser_version": 2
 }

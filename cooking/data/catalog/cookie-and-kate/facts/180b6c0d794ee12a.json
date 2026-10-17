@@ -24,7 +24,37 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/triple-coconut-granola-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper."
+   },
+   {
+    "title": null,
+    "text": "In a large mixing bowl, combine the oats, almonds, cinnamon, salt and ground ginger. Using a silicone or rubber spatula, stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Add the coconut oil, maple syrup and vanilla (we’re going to add the coconut later, so keep it nearby). Stir until every oat is lightly and evenly coated. Using your spatula, scrape the contents of the bowl onto your prepared pan, making sure to get every last bit of liquid. Spread the granola into an even layer."
+   },
+   {
+    "title": null,
+    "text": "Bake for 15 minutes, then remove the pan from the oven, add both the coconut flakes and shredded coconut, and stir it all together. Place the pan back into the oven until the coconut is lightly golden, about 5 to 10 minutes. Let the granola cool completely on the pan. It will further crisp up as it cools."
+   },
+   {
+    "title": null,
+    "text": "Store the granola in an airtight container, like a freezer bag (if you’re adding dried fruit, add it now). This granola will stay fresh at room temperature for 1 to 2 weeks, or in the freezer for up to 3 months."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my very best granola and gingerbread granola.",
+   "*Where to buy coconut flakes: Look for them in the baking section at Whole Foods, health food stores or in the health food section of well-stocked grocery stores. I used Bob’s Red Mill brand. You can also replace the coconut flakes with more shredded coconut.",
+   "Make it gluten free: Just be sure to use certified gluten-free oats!",
+   "Make it nut free: Substitute pepitas (green pumpkin seeds) for the almonds."
+  ],
+  "summary": "This easy homemade coconut granola recipe features coconut flakes, shredded coconut and coconut oil! It’s naturally sweetened with maple syrup. Recipe yields about 6 cups granola, enough for about 12 servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

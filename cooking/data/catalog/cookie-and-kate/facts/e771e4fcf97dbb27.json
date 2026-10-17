@@ -31,7 +31,38 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/chopped-greek-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large serving bowl, combine the chopped lettuce, tomatoes, cucumber, pepper, onion, parsley, olives and feta. Toss the ingredients together and set aside."
+   },
+   {
+    "title": null,
+    "text": "To prepare the vinaigrette, combine all of the ingredients in a liquid measuring cup and whisk until blended. Taste, and add more vinegar if you’d like a more tangy dressing, or more honey for a more tame dressing."
+   },
+   {
+    "title": null,
+    "text": "If you’ll be serving all of the salad at once, go ahead and drizzle enough dressing in to lightly coat the salad and toss to combine. I prefer to store the salad and dressing separately so I can enjoy salad for a few days. Whisk the dressing again before drizzling (if the olive oil solidifies a bit in the refrigerator, don’t worry, that’s normal—just let it warm up for about 5 minutes at room temperature or microwave for 10 to 20 seconds)."
+   }
+  ],
+  "notes": [
+   "*Romaine note: If you want to make this salad in a hurry, just buy two bags (5 ounces each) of chopped romaine, and chop it into even smaller, bite-sized pieces.",
+   "Make it dairy free: Omit the feta cheese! To make up for feta’s salty punch, you might want to add some extra olives or some sliced pepperoncini peppers.",
+   "Make it vegan: Omit the feta (see notes above). To make the dressing vegan, use maple syrup instead of honey (or skip the sweetener altogether).",
+   "Change it up: To make this salad more of a complete meal, add chickpeas (1 can, rinsed and drained, or 1 ½ cups cooked chickpeas)."
+  ],
+  "summary": "This Greek salad recipe is the best! It features chopped romaine lettuce and colorful garden vegetables, plus irresistible olives, feta cheese, and a simple Greek vinaigrette. Recipe yields 6 to 8 side servings or 3 to 4 meal-sized servings (that’s a lot of salad!). If you store the salad separately from the vinaigrette, it will keep well for up to 4 days.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Greek Salad"
+   },
+   {
+    "at": 8,
+    "title": "Greek vinaigrette"
+   }
+  ]
  },
  "parser_version": 2
 }

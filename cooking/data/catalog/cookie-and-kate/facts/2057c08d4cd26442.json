@@ -1,6 +1,60 @@
 {
  "url": "https://cookieandkate.com/mini-peanut-butter-cups-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Mini Peanut Butter Cups",
+  "ingredients": [
+   "2 tablespoons peanut butter*",
+   "2 tablespoons maple syrup or honey",
+   "6 ounces chocolate (that’s 1 cup regular-sized chocolate chips)**",
+   "Flaky sea salt, optional"
+  ],
+  "yield_text": "15 mini peanut butter cups",
+  "cook_time": "15 minutes (plus 30 minutes chill time)",
+  "categories": [
+   "Candy"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/mini-peanut-butter-cups-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small bowl, combine the peanut butter and maple syrup, and stir until well blended. Fill a mini cupcake pan with liners or arrange mini cupcake liners on plate(s) like I did."
+   },
+   {
+    "title": null,
+    "text": "Melt the chocolate (I did this in the microwave in 30-second bursts, stirring after each one, or you can use a double boiler on the stove)."
+   },
+   {
+    "title": null,
+    "text": "Fill the bottom of each cup with 1 teaspoon of the melted chocolate. Add a small dollop of the peanut butter mixture in the center (about ½ teaspoon), then top it with another teaspoon of the chocolate."
+   },
+   {
+    "title": null,
+    "text": "Freeze the candies for 5 minutes. Sprinkle sea salt lightly over the tops (if using), then freeze until firm, about 25 minutes more. Now they’re ready to eat!"
+   },
+   {
+    "title": null,
+    "text": "If you won’t be serving them all immediately, transfer them to a container or sealed bag. Store at room temperature for up to 1 week, or in the refrigerator for up to 2 months."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from these chocolate peppermint cups.",
+   "*Peanut butter notes: I’ve used a range of natural peanut butters here, and they all work well (or you can make your own). If your peanut butter is salt-free, I would stir a little pinch of salt into the filling. Crunchy peanut butter works if you want some crunch. You can also use almond butter instead of peanut butter.",
+   "**Chocolate notes: I used Ghiradelli bittersweet chocolate chips (60% cacao content) and thought they were perfect. Use chocolate chips that you enjoy on their own—I prefer darker chocolate, but milk chocolate will work, too.",
+   "Make it dairy free: Choose dairy-free chocolate chips. Check out Enjoy Life and Pascha brands.",
+   "Make it vegan: Choose dairy-free chocolate chips (see above) and maple syrup instead of honey.",
+   "Make it soy free: Make sure your chocolate is free of soy derivatives like soy lecithin (see above).",
+   "Make it nut free: Use sunflower seed butter instead of peanut butter.",
+   "FYI: The links to Amazon on this page are affiliate links, meaning that I make a tiny percentage of your purchase at no cost to you."
+  ],
+  "summary": "Delicious homemade mini peanut butter cups! This recipe is so easy. You’ll need chocolate chips, peanut butter and maple syrup (I add flaky sea salt, too). Recipe yields 15 mini candies; multiply as necessary.",
+  "ingredient_groups": []
+ }
 }

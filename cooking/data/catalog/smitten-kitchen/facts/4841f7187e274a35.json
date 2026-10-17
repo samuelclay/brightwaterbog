@@ -41,7 +41,28 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2015/02/spaghetti-pangrattato-with-fried-eggs/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make crispy crumbs (pangrattato): Heat olive oil in a medium skillet over medium heat. Once hot, add garlic and let sizzle for barely a minute, just until it begins to turn a pale golden color. Add breadcrumbs, salt, pepper, rosemary and lemon zest and reduce heat to low, cooking mixture slowly until all of the crumbs are an even golden color, about 5 minutes. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Cook pasta: Bring a large pot of well salted water to a generous boil and cook pasta until al dente about 1 to 2 minutes shy of package directions. Reserve 1/2 cup pasta cooking water before draining pasta."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, make crispy eggs: Wipe out breadcrumbs skillet. Return to stove over high heat and add a generous glug of olive oil per egg. Once hot enough that the oil begins to smoke, add egg(s). They’re going to hiss and splatter so step back as soon as you do. Spoon some of the cooking oil over the eggs, carefully. Season with salt and pepper. In 1 to 2 minutes, the egg(s) will be brown and very crisp underneath and around the edges. Shimmy a thin spatula underneath the egg(s) (a flexible fish spatula works great here), being careful not to break the yolk. If you’re cooking for someone who shouldn’t be eating runny yolks (ahem), you can flip the egg over and cook it for another 30 seconds or so before removing it. Transfer cooked egg(s) to paper towels to drain."
+   },
+   {
+    "title": null,
+    "text": "Assemble dish: Once pasta is drained, return it to the empty pot or a large skillet with 1 tablespoon olive oil and a splash or two (or all, if needed to loosen pasta) of reserved cooking water. Over high heat, toss with capers and parsley for 1 minute. Divide among bowls or plates. Sprinkle with Pecorino, if using, then 1/3 of breadcrumb (pangrattato) mixture. Place an egg over each dish, and break up with a fork. Eat immediately."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

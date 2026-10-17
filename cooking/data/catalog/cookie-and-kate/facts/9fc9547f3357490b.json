@@ -27,7 +27,35 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/pomegranate-salsa-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the salsa, combine all of the ingredients in a bowl and gently stir until combined. Taste, and add a little more salt if desired."
+   },
+   {
+    "title": null,
+    "text": "To prepare the optional whipped goat cheese, combine all of the ingredients in the bowl of a food processor. Process until the mixture is absolutely smooth and creamy, which could take a couple of minutes, pausing to scrape down the sides of the bowl as necessary."
+   },
+   {
+    "title": null,
+    "text": "To serve, use the salsa as-is, or spread the whipped goat cheese into the base of a wide, shallow bowl. Spoon all of the salsa around the perimeter of the bowl. Serve promptly. Leftovers will keep for up to 5 days (the whipped goat cheese will need to warm back to room temperature to spread easily)."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Serve the salsa without the goat cheese, or over guacamole instead. If you have dairy free/vegan guests at a party, serve the goat cheese separately from the salsa."
+  ],
+  "summary": "This pomegranate salsa recipe is bursting with sweet-and-spicy flavor. It’s a fun holiday appetizer or special wintertime snack. Serve it on its own with tortilla chips, or with whipped goat cheese for a creamy base that goes well with crostini or toasted pita. Recipe yields 8 appetizer servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salsa"
+   },
+   {
+    "at": 7,
+    "title": "Optional whipped goat cheese"
+   }
+  ]
  },
  "parser_version": 2
 }

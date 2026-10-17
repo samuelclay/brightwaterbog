@@ -25,7 +25,35 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/pasta-with-peas-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium bowl, whisk together the garlic, cheese, oil, lemon juice, red pepper flakes (if using), a couple pinches of salt, and plenty of black pepper."
+   },
+   {
+    "title": null,
+    "text": "Add the thawed peas and stir to combine. Taste and adjust the salt and pepper as needed. Use the back of a fork to roughly mash just half of the peas, and leave the other half whole."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, bring a large pot of salted water to boil and cook the pasta according to the package instructions. Drain and toss the pasta with the smashed peas and a few large spoonfuls of pesto. Taste, and add more salt and pepper if necessary."
+   },
+   {
+    "title": null,
+    "text": "Top with the basil, lemon slices, and a light grating of cheese before serving."
+   }
+  ],
+  "notes": [
+   "Recipe lightly adapted from Take It Easy by Gaby Dalkin.",
+   "*How to thaw frozen peas: Defrost the frozen peas in the refrigerator for several hours or overnight, or simply place them in a colander and run cool water over them for 3 to 6 minutes.",
+   "**Pasta suggestions: Ideally, choose a shorter pasta noodle that has little nooks and crannies that can catch the peas. Options include reginetti (shown), mafaldine, fusilli, farfalle or papillon, shells, trumpets, or orecchiette.",
+   "Change it up: Dollops of ricotta cheese are a nice addition. This recipe is easily halved.",
+   "Make it gluten free: Substitute your favorite sturdy gluten-free noodle.",
+   "Make it vegan: Substitute vegan pesto (or make your own with this recipe but omit the cheese), omit the cheese and top with a generous sprinkle of my Vegan Parmesan Cheese."
+  ],
+  "summary": "This easy pasta recipe features peas and pesto. It’s made with basic ingredients (frozen peas and store-bought pesto) and tastes fantastic! Keep this recipe in your back pocket for busy weeknights. Recipes serves 6.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

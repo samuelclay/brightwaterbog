@@ -1,6 +1,52 @@
 {
  "url": "https://cookieandkate.com/easy-romesco-sauce-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Easy Romesco Sauce",
+  "ingredients": [
+   "One 16-ounce jar of roasted red peppers, drained",
+   "½ cup raw or roasted almonds (unsalted)",
+   "¼ cup oil-packed sun-dried tomatoes, rinsed and drained",
+   "2 medium-to-large cloves garlic, peeled and quartered",
+   "1 tablespoon sherry vinegar or red wine vingar",
+   "1 teaspoon smoked paprika",
+   "½ teaspoon fine sea salt, to taste",
+   "¼ teaspoon cayenne pepper",
+   "½ cup extra-virgin olive oil"
+  ],
+  "yield_text": "2 1/2 cups",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Catalonian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/easy-romesco-sauce-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a blender (preferably) or food processor, combine everything but the olive oil. Securely fasten the lid and blend, starting on low and increasing the speed as you are able to gain traction."
+   },
+   {
+    "title": null,
+    "text": "Once the ingredients are mostly blended, start drizzling in the olive oil while running the blender. Blend until you reach your desired consistency (I like my romesco sauce pretty creamy, but you might prefer it with a more chunky texture)."
+   },
+   {
+    "title": null,
+    "text": "Taste, and add additional salt (up to ¼ teaspoon) if it doesn’t quite knock your socks off yet. Serve immediately, or store in a jar in the refrigerator for 7 to 10 days."
+   }
+  ],
+  "notes": [
+   "Make it nut free: Your best bet would probably be to omit the almonds altogether. If you can tolerate pine nuts, they would work (technically pine nuts are seeds, but people with nut allergies are sometimes allergic to pine nuts as well).",
+   "Make it tomato free: Romesco sauces typically contain tomatoes, but you can omit the sun-dried tomatoes if necessary.",
+   "Recommended equipment: My Vitamix blender can blend this sauce into creamy oblivion."
+  ],
+  "summary": "This romesco sauce is the best! This simplified romesco recipe is made with basic pantry ingredients and ready in 5 minutes. It’s bold, zippy and delicious. Recipe yields about 2 ½ cups.",
+  "ingredient_groups": []
+ }
 }

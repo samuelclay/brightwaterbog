@@ -33,7 +33,30 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2013/08/burst-tomato-galette-with-corn-and-zucchini/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make dough: Whisk the flour and salt together in a large bowl. Sprinkle bits of butter over dough and using a pastry blender or your fingertips, work it into the flour until the mixture resembles coarse meal, with the biggest pieces of butter the size of tiny peas. Add sour cream, lemon juice and water and to the butter-flour mixture and combine with a flexible spatula or spoon until large clumps form. Pat the lumps into a ball. Wrap with plastic or a large piece of parchment paper and refrigerate for 1 to 2 hours, until firm, or up to 4 days, if planning ahead."
+   },
+   {
+    "title": null,
+    "text": "Make filling: Get down the sauté pan with the lid. If you don’t have one, any large lid will do. Add olive oil, tomatoes, 1 teaspoon salt and a pinch of red pepper flakes to your sauté pan then cover and heat over high heat. Roll the tomatoes around from time to time so that they’ll cook evenly. In a few minutes, you’ll hear some putts and pops as the tomatoes burst a little. When most have, remove lid, turn heat down to medium and add zucchini chunks. Sauté for two minutes, until they begin to soften. Add corn and cook one minute. Add scallions, just stirring them in, then turn off heat. Adjust seasonings — adding freshly ground black pepper and more salt, as needed. Transfer mixture to a large plate and spread it out, so that it will cool faster. You want it cooled to at least lukewarm before assembling the galette."
+   },
+   {
+    "title": null,
+    "text": "Assemble galette: Heat oven to 400 degrees. On a floured counter, roll the dough out into a 12-inch round — no need for it to be perfectly round. Transfer to a parchment-lined baking sheet; I like to fold my dough gently, without creasing, in quarters then unfold it onto the baking pan. Sprinkle tomato-zucchini-corn mixture with half of parmesan and spoon the mixture into the center of the dough, leaving a 2-inch border. If any liquid has puddled on the plate, try to leave it there as you spoon. Sprinkle with almost all of remaining parmesan, leaving a pinch or two behind for the crust. Fold the border over the filling, pleating the edge to make it fit. The center will be open. Brush crust with egg yolk glaze. Sprinkle glaze with last pinches of parmesan."
+   },
+   {
+    "title": null,
+    "text": "Bake the galette: For 30 to 40 minutes, or until puffed and golden brown. Remove from the oven and let stand for 5 minutes, then slide the galette onto a serving plate. Cut into wedges and serve hot, warm or at room temperature."
+   }
+  ],
+  "notes": [
+   "Do ahead: Baked galette keeps in the fridge for 4 to 5 days. Reheat on a baking sheet in a 350-degree oven for about 15 minutes."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -20,7 +20,28 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/pecan-milk-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "If you have soaked your pecans, rinse them in a fine-mesh sieve under running water. Place the pecans in your blender and add 2 cups of the water. Blend until the mixture is creamy and completely smooth, about 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Add the remaining 2 cups water, 1 tablespoon maple syrup, the vanilla and a couple dashes of salt (salt just amplifies the other flavors). Blend again to combine. Taste, and add additional maple syrup if you’d like sweeter milk."
+   },
+   {
+    "title": null,
+    "text": "Serve immediately (I prefer my pecan milk chilled, so I add a few ice cubes to my glass) or refrigerate it, covered, for up to 5 days. Pecan milk will separate over time, so just whisk it back together before serving."
+   }
+  ],
+  "notes": [
+   "On soaking: Most nut milk recipes will tell you to soak your nuts for 4 hours before blending to make your nut milks more nutritious and easier to blend. Feel free to do so. I have no patience for soaking and my Vitamix can easily blend pecans into oblivion without pre-soaking. Pecans are so soft that I suspect less expensive blenders could also make do with un-soaked nuts, but that will really depend on your blender.",
+   "Raw vs. roasted pecans: Raw pecans make a lovely milk with a more subtle pecan flavor. For more intense pecan flavor, you can roast raw pecans on a small, rimmed baking sheet for 5 to 8 minutes, stirring halfway, in a 350 degree-Fahrenheit oven. Don’t attempt to make pecan milk with pre-roasted, store-bought nuts; those nuts are often coated in oil and have gone rancid already.",
+   "Change it up: You can add a pinch of cinnamon to this milk for some spice, although I prefer it without. You could also sweeten the milk with a couple of plump, juicy Medjool dates (be sure to pit them first). For chocolate pecan milk, blend in cocoa powder, to taste (you really need to blend it in the blender—it’s impossible to incorporate by hand!)."
+  ],
+  "summary": "Learn how to make pecan milk with this easy recipe! I love pecan milk because it’s creamy, delicious and nutritious. Plus, it doesn’t require straining like other nut milks. Recipe yields about 4 glasses of pecan milk (a total of 4 ½ cups or 36 ounces).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -1,6 +1,64 @@
 {
  "url": "https://cookieandkate.com/banana-coconut-muffins/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Banana Coconut Muffins",
+  "ingredients": [
+   "¾ cup whole wheat pastry flour or white/regular whole wheat flour",
+   "½ cup white whole wheat flour or regular whole wheat flour",
+   "1 ½ teaspoons baking powder",
+   "¼ teaspoon fine sea salt",
+   "½ teaspoon lemon zest (the zest from about about ½ medium lemon)",
+   "1 cup mashed ripe banana (from about 3 bananas)",
+   "½ cup virgin coconut oil, melted",
+   "¼ cup honey",
+   "1 large egg, preferably at room temperature",
+   "1 teaspoon vanilla extract",
+   "¾ cup unsweetened shredded coconut, divided",
+   "1 tablespoon turbinado (raw) sugar"
+  ],
+  "yield_text": "12 muffins",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Baked goods"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/banana-coconut-muffins/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 375 degrees Fahrenheit. If necessary, grease all 12 cups of your muffin tin with butter or muffin liners (my pan is non-stick and didn’t require any grease)."
+   },
+   {
+    "title": null,
+    "text": "In a medium bowl, whisk together the flours, baking powder, salt and lemon zest. Stir in ½ cup of the shredded coconut."
+   },
+   {
+    "title": null,
+    "text": "In a separate, medium bowl, whisk together the mashed banana, coconut oil, honey, egg and vanilla."
+   },
+   {
+    "title": null,
+    "text": "Pour the wet ingredients into the dry ingredients and stir until just combined. Divide the batter evenly between the muffin cups (a scant ¼ cup batter each), then sprinkle the muffin tops with the remaining ¼ cup shredded coconut. Sprinkle the tops with the raw sugar."
+   },
+   {
+    "title": null,
+    "text": "Bake for about 17 to 20 minutes, until a toothpick inserted into the center comes out clean. Transfer muffins to a cooling rack and let them cool."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Smitten Kitchen’s Double Coconut Muffins.",
+   "Make it vegan: All you’ll need to do is replace the egg with a flax egg. I haven’t tried this substitution myself, but it should work.",
+   "Make it gluten free: Based on similar recipes, Bob’s Red Mill gluten-free all-purpose blend should work well.",
+   "Freeze it: The muffins freeze well!"
+  ],
+  "summary": "These naturally sweetened banana coconut muffins taste like a tropical treat. They’re so tender and flavorful, I bet you can’t tell they’re made with 100% whole wheat flour! Recipe yields 1 dozen muffins.",
+  "ingredient_groups": []
+ }
 }

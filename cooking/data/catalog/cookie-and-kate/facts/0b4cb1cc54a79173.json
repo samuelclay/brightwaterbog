@@ -1,6 +1,53 @@
 {
  "url": "https://cookieandkate.com/hummus-quesadillas-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Hummus Quesadillas!",
+  "ingredients": [
+   "One 8-inch whole grain tortilla (or gluten-free tortilla for gluten-free quesadillas)",
+   "¼ to ⅓ cup hummus of choice",
+   "Fillings of your choice",
+   "Extra-virgin olive oil, for brushing",
+   "Optional, for serving: additional hummus, hot sauce, pesto, etc."
+  ],
+  "yield_text": "1",
+  "cook_time": "15 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/hummus-quesadillas-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Spread hummus generously over your tortilla. Lightly cover one-half of the tortilla with fillings of your choice. Fold the blank half over to create a half-moon shape. Repeat if you’d like to make more than one quesadilla; you can cook up to two at a time in the same skillet."
+   },
+   {
+    "title": null,
+    "text": "Warm a medium skillet over medium heat. Place the folded quesadilla(s) in the pan. Let the bottom sides warm up for a minute or two, then carefully flip. Brush the warm sides lightly with olive oil and let them cook in the pan for another minute or two. Carefully flip once again, brush the new top side lightly with olive oil, and cook until the bottom is lightly golden and crisp. Carefully flip and cook until that side is lightly golden and crisp."
+   },
+   {
+    "title": null,
+    "text": "Transfer the quesadilla(s) to a cutting board and let them rest for a couple of minutes. Then, use a sharp chef’s knife or pizza cutter to slice each quesadilla into three wedges. Serve immediately. I enjoyed mine as-is, but you might like some additional hummus on the side, or perhaps some hot sauce or a dab of pesto."
+   }
+  ],
+  "notes": [
+   "Serving suggestions: This quesadilla would go great with a simple green side salad or almost any of my other salad recipes.",
+   "Storage suggestions: These quesadillas are at their crisp best right after making, but they will keep well for about three days in the refrigerator, covered. Gently reheat before serving, if desired.",
+   "If you love this recipe: Check out more quesadilla recipes and my favorite hummus sandwich recipe."
+  ],
+  "summary": "These quesadillas are made with hummus instead of cheese, and they are absolutely delicious! Hummus quesadillas are a healthy dairy-free and vegan meal. Recipe below makes one folded/half-moon quesadilla; multiply as necessary.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per quesadilla"
+   }
+  ]
+ }
 }

@@ -33,7 +33,48 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/vegetable-paella-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Arrange your oven racks in the upper and lower thirds of the oven, making sure that you have ample space between the two racks for your Dutch oven. You’re going to need a large Dutch oven (preferably 6 quarts/11-to-12” in diameter or bigger, although I got by with my 5.5-quart Le Creuset) or a large skillet with a snug-fitting lid (both must be oven-safe!)."
+   },
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit. Heat 2 tablespoons of the oil in your Dutch oven or skillet over medium heat until shimmering. Add the onion and a pinch of salt. Cook until the onions are tender and translucent, about 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Stir in the garlic and paprika and cook until fragrant, about 30 seconds. Stir in the tomatoes and cook until the mixture begins to darken and thicken slightly, about 2 minutes Stir in the rice and cook until the grains are well coated with tomato mixture, about 1 minute. Stir in the chickpeas, broth, wine, saffron (if using) and 1 teaspoon salt."
+   },
+   {
+    "title": null,
+    "text": "Increase the heat to medium-high and bring the mixture to a boil, stirring occasionally. Cover the pot and transfer it to the lower rack in the oven. Bake, undisturbed, until the liquid is absorbed and the rice is tender, 50 to 55 minutes."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, line a large, rimmed baking sheet with parchment paper for easy cleanup. On the baking sheet, combine the artichoke, peppers, chopped olives, 1 tablespoon of the olive oil, ½ teaspoon of the salt, and about 10 twists of freshly ground black pepper. Toss to combine, then spread the contents evenly across the pan."
+   },
+   {
+    "title": null,
+    "text": "Roast the vegetables on the upper rack until the artichokes and peppers are tender and browned around the edges, about 40 to 45 minutes. Remove from the oven and let the vegetables cool for a few minutes. Add ¼ cup parsley to the pan and the lemon juice, and toss to combine. Season with salt and pepper, to taste. Set aside."
+   },
+   {
+    "title": null,
+    "text": "For optional socarrat (crispy bottom—beware that you might have to scrub burnt bits from your pot later if you do this): Uncover the pot of baked rice, transfer it to the stovetop and cook over medium-high heat for about 5 minutes, rotating the pot as needed, until the bottom layer of rice is well browned and crisp."
+   },
+   {
+    "title": null,
+    "text": "Socarrat or not, sprinkle the peas and roasted vegetables over the baked rice, cover, and let the paella sit for 5 minutes. Garnish with a sprinkle of chopped parsley (about 1 tablespoon) and serve in individual bowls, with lemon wedges on the side."
+   }
+  ],
+  "notes": [
+   "Recipe significantly adapted from The Complete Vegetarian Cookbook by America’s Test Kitchen.",
+   "*Rice options: You can choose a different rice, but the baking time for the rice will vary according to the variety. White Valencia or arborio rice will be done baking at 25 to 35 minutes. Long-grain brown rice will be done baking at 55 to 60 minutes.",
+   "**Wine suggestions: I recommend using a dry, unoaked white wine, such as Sauvignon blanc or Pinot grigio. If you’re avoiding alcohol, replace it with vegetable broth."
+  ],
+  "summary": "The best vegetable paella recipe! It’s loaded with vegetables, chickpeas, and savory, smoky rice. This Spanish dish is perfect for serving at dinner parties, since it’s vegetarian, vegan and gluten free. Recipe yields 6 hearty servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

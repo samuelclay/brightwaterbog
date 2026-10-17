@@ -27,7 +27,39 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/broccoli-rabe-pesto-flatbread-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 425 degrees Fahrenheit. Prepare the broccoli rabe by rinsing it and patting it dry. Slice off the tough lower ends and any stems that are greater than ¼-inch in diameter. Toss the rabe with a light drizzle of olive oil and a sprinkle of salt and pepper. Rub the olive oil onto the leaves to make sure the rabe is lightly and evenly coated with oil. Set aside."
+   },
+   {
+    "title": null,
+    "text": "In a food processor or blender, combine the basil, almonds, Parmesan, garlic, lemon juice, salt and a few twists of freshly ground black pepper. Process the pesto while slowly drizzling in the olive oil, until the mixture is relatively smooth and uniform."
+   },
+   {
+    "title": null,
+    "text": "Place the naan on an oven-safe metal cooling rack, if you have one, then place the rack on a baking sheet to catch any drips (the rack helps the naan get nice and crisp). If not, just place the naan directly onto a baking sheet. Spread pesto on the naan and top with crumbled feta cheese. Top with an even layer of broccoli rabe and a light sprinkle of sliced almonds."
+   },
+   {
+    "title": null,
+    "text": "Bake until the broccoli rabe is tender and the leaves are deep green and crispy, about 8 to 9 minutes. Squeeze a small wedge of lemon over the naan and top with a light sprinkling of red pepper flakes. Let the naan cool slightly before slicing it with a sharp knife or pizza cutter and serving."
+   }
+  ],
+  "notes": [
+   "Change it up: Feel free to substitute pine nuts for the sliced almonds, goat cheese for the feta or arugula for the basil."
+  ],
+  "summary": "These bold flatbreads feature spicy basil-almond pesto, roasted broccoli rabe and creamy feta. They make a wonderful party appetizer or light meal. Instead of naan, you could use pita bread or one 12-inch pizza crust. Recipe as written yields 3 small flatbreads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Basil-almond pesto ingredients"
+   },
+   {
+    "at": 8,
+    "title": "Flatbread ingredients"
+   }
+  ]
  },
  "parser_version": 2
 }

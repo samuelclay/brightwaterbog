@@ -33,7 +33,42 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2021/01/parmesan-oven-risotto/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven: To 350°F."
+   },
+   {
+    "title": null,
+    "text": "Make risotto: In 4-quart Dutch oven or deep, oven-safe saucepan with a lid, heat oil over medium heat. Add onion and garlic and cook until softened, about 4 minutes."
+   },
+   {
+    "title": null,
+    "text": "If you’re using parmesan rinds and have 10 minutes to spare: Add wine or vinegar to onion and garlic and cook until it boils off. Add water, 2 teaspoons kosher salt, many grinds of black pepper, and your parmesan rinds and bring the mixture to a boil. Reduce to a simmer, cover pot, and simmer 8 to 10 minutes. This gives the rinds a chance to infuse the broth a bit more deeply before making the risotto. Leave the rinds in the pot, add the rice, and give it a stir. Replace the lid, and transfer the pot to the oven."
+   },
+   {
+    "title": null,
+    "text": "If you’re not using parmesan rinds, or you’re using them but are in more of a hurry: Add rice to onion and garlic mixture and cook, toasting gently, for 2 minutes. Add wine or vinegar to rice mixture and cook until it boils off. Add 5 cups water, 2 teaspoons kosher salt, many grinds of black pepper, and parmesan rinds (if using) and bring mixture to a simmer. Place lid on pot and transfer to the oven."
+   },
+   {
+    "title": null,
+    "text": "Both methods: Bake risotto in the oven for 25 to 30 minutes, or until most of the liquid is absorbed, but it looks a tiny bit watery."
+   },
+   {
+    "title": null,
+    "text": "To finish: Transfer pan to a trivet or cooling rack on your counter. Remove lid, fish out and discard parmesan rinds, and stir mixture for 2 minutes, or until the mixture looks more creamy and risotto-like. Taste and adjust seasonings, adding more salt and pepper to your taste. Add most (about 2 1/2 tablespoons) of the butter to the risotto and stir well to combine. Reserve 1/4 cup grated cheese to finish, and add the rest — using the smaller amount for a moderate parmesan flavor and the larger amount for a more robust one, stirring to just combine."
+   },
+   {
+    "title": null,
+    "text": "To serve: Scoop into a serving bowl. Finish with remaining pat of butter, more black pepper, and reserved cheese."
+   }
+  ],
+  "notes": [
+   "I always save parmesan rinds because they provide an amazing boost in simple bean soups, minestrones, and even vegetable broths. You can freeze them almost forever. If you don’t have any saved — but you promise to going forward, right? — I’ve found that most stores that sell grated parmesan they’ve packed themselves also sell the rinds they have leftover, or will if you ask. Here, if you have any, throw them for extra flavor. You can either do this right away, or if you have 10 minutes to spare, you can infuse them further in a quick broth."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

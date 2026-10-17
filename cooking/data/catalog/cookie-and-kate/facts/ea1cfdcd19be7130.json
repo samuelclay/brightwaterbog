@@ -20,7 +20,33 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/the-bootleg-cocktail/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the bootleg mix: Juice the lemons and limes into a liquid measuring cup. Add sweetener. Pour the juice and sweetener into a blender. Add 2 firmly packed tablespoons of fresh mint leaves. Blend thoroughly, until the mint is is broken into teeny tiny bits."
+   },
+   {
+    "title": null,
+    "text": "To make the drinks: Fill cocktail glasses with ice. For each drink, pour in 2 ounces of your bootleg mix, plus 2 ounces of your liquor of choice and top with 2 ounces club soda. Serve with a straw, which doubles as a stirring device."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Brit’s Pub in Minneapolis. Recipe created with guidance from The Bootleg: Minnesota’s signature country-club cocktail on City Pages.",
+   "*I ran out of agave nectar as I was making these drinks, so I used 2 tablespoons agave nectar and 2 tablespoons cane sugar. You could also use honey, but your drinks will have a strong honey flavor. I preferred a more neutral sweetener here.",
+   "Storage tip: The bootleg mix will keep for a couple of days in the refrigerator, but is best served immediately."
+  ],
+  "summary": "The Bootleg hails from Minneapolis. It’s a refreshing cocktail made with naturally sweetened lemon-limeade blended with mint, plus gin, vodka or bourbon and club soda. Feel free to adjust the amount of sweetener and mint to suit your preferences. You can omit the liquor for a delightful, minty lemonade.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Bootleg mix: lemon/limeade blended with mint, yields enough mix for 4 drinks"
+   },
+   {
+    "at": 4,
+    "title": "Per drink (note: 2 ounces is ¼ cup)"
+   }
+  ]
  },
  "parser_version": 2
 }

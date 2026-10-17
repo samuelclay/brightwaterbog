@@ -13,7 +13,12 @@
    "1 small cucumber, peeled, seeded, and chopped",
    "12 pimiento-stuffed Spanish green olives, halved",
    "1 tablespoon capers, rinsed",
-   "1/2 cup parsley leaves"
+   "1/2 cup parsley leaves",
+   "1 or 2 garlic cloves, coarsely chopped",
+   "salt and freshly milled pepper",
+   "1 1/2 tablespoons sherry vinegar or aged red wine vinegar",
+   "1 teaspoon Dijon mustard",
+   "6 tablespoons extra-virgin olive oil"
   ],
   "yield_text": "",
   "cook_time": null,
@@ -25,7 +30,33 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2008/11/cauliflower-salad-with-green-olives-and-capers/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Slice off very thin slices of cauliflower, working your way around the head. Quarter then thinly slice the cauliflower. Be sure to include the stalks, too, peeled and thinly sliced."
+   },
+   {
+    "title": null,
+    "text": "Smash the hard-cooked egg yolk with the garlic and salt when you make the vinaigrette. Keep the dressing a little on the tart side."
+   },
+   {
+    "title": null,
+    "text": "Dice the egg white and toss it with the vegetables, olives, capers, and parsley. Add the vinaigrette (below) and toss again."
+   },
+   {
+    "title": "Sherry Vinaigrette",
+    "text": "Pound the garlic with 1/4 teaspoon salt in a mortar until it breaks down into a puree. Combine the garlic, vinegar, and mustard in a small bowl, then whisk in the oil and season with pepper. Taste and correct the balance."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": [
+   {
+    "at": 10,
+    "title": "Sherry Vinaigrette"
+   }
+  ]
  },
  "parser_version": 4
 }

@@ -34,7 +34,43 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/roasted-beets-labneh-side-dish/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper."
+   },
+   {
+    "title": null,
+    "text": "Scrub and trim the beets and slice them into wedges (about ½ to ¾-inch thick on the widest edge). Toss the beets and shallots with the olive oil and season with the red pepper flakes (go easy on the flakes if you’re sensitive to spice), salt and pepper. Transfer the seasoned beets and shallots to the prepared baking sheet (it’s ok if they overlap) and roast for 40 to 50 minutes, until fork tender. Remove from the oven and set aside to come to room temperature."
+   },
+   {
+    "title": null,
+    "text": "To make the basil vinaigrette: In a high-powered blender or food processor, combine the shallot, basil, garlic, red pepper flakes, olive oil, red wine vinegar, and salt. Blend for 1 minute, or until very smooth. Season to taste with salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "Spread the labneh on a large platter, dollop with basil vinaigrette, and scatter with the beets and avocado wedges. Sprinkle with fresh mint leaves, dill, and flaky salt (don’t hold back) and serve."
+   }
+  ],
+  "notes": [
+   "This recipe comes from Cook What You Want by Gaby Dalkin. I added a few of my cooking notes in parentheses.",
+   "Labneh note: I cheated and use Siggi’s 4% yogurt instead. Gaby suggests that you can find labneh, an extra-thick yogurt, at specialty markets. Or, strain plain Greek yogurt through a cheesecloth for a few hours.",
+   "Change it up: If you can’t find fresh basil, dill and mint, you could simplify and use just one. Feel free to substitute Italian parsley or cilantro for any/all of them—beets go well with all of these herbs.",
+   "Storage suggestions and leftovers: This dish should keep well in the refrigerator, covered, for about three days. Leftover basil vinaigrette is great on fresh, summery salads. It will keep in the fridge for up to three days.",
+   "Make it dairy free/vegan: You could use vegan sour cream in place of the labneh."
+  ],
+  "summary": "You’ll love this vibrant, healthy dish from the new Eat What You Want Cookbook by Gaby Dalkin. It features roasted beets over ultra creamy labneh, with avocado, homemade basil vinagrette and fresh herbs. Serve it as a side dish, salad or light meal. Recipe yields 6 to 8 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Beet Salad"
+   },
+   {
+    "at": 11,
+    "title": "Basil Vinaigrette (this makes 1 cup, so you’ll have plenty extra)"
+   }
+  ]
  },
  "parser_version": 2
 }

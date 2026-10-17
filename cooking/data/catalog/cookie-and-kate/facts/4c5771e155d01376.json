@@ -31,7 +31,41 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/greek-kale-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the salad: Place the chopped kale in a large serving bowl. Sprinkle it lightly with salt and massage it with your hands by scrunching up large handfuls at a time until it’s darker and more fragrant (this makes the kale more tasty and easier to eat). Add the chickpeas, olives and/or pepper rings, sun-dried tomatoes, and Parmesan (if using). Set aside."
+   },
+   {
+    "title": null,
+    "text": "To toast the sunflower seeds, combine the seeds with the olive oil and a few dashes of salt in a small skillet over medium heat. Cook, stirring often, until the seeds are fragrant and turning lightly golden at the edges, about 5 minutes. Pour the toasted seeds into the salad bowl."
+   },
+   {
+    "title": null,
+    "text": "To prepare the salad dressing: In a small liquid measuring cup or bowl, combine the tahini, olive oil, lemon juice, garlic, mustard, and salt. Whisk until blended. Add the water and whisk until blended. Season generously with freshly black pepper, to taste."
+   },
+   {
+    "title": null,
+    "text": "Pour the dressing into the salad (you might not need quite all of it, but I did). Toss until the salad is evenly coated with dressing. Serve immediately. This salad keeps well in the refrigerator, covered, for up to 3 days."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Omit the Parmesan. You might like a light sprinkle of nutritional yeast to make up for it.",
+   "*Sunflower seeds: I prefer to use freshly-toasted raw sunflower seeds and salt them myself to keep the salad from getting too salty. That said, if you can only find pre-roasted and salted sunflower seeds, skip step 2.",
+   "If you love this recipe: Check out more kale salads here."
+  ],
+  "summary": "This healthy Greek kale salad recipe is full of bold Mediterranean flavors. It packs great for lunch, too. Recipe yields 2 large meal-sized servings, or 4 medium side salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Kale salad"
+   },
+   {
+    "at": 8,
+    "title": "Creamy tahini dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

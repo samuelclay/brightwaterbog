@@ -32,7 +32,59 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/favorite-banana-cake-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the cake: Preheat the oven to 350 degrees Fahrenheit and grease a 9” square baker."
+   },
+   {
+    "title": null,
+    "text": "In a large bowl, beat the oil and honey together together with a whisk. Add the eggs and beat well, then whisk in the mashed bananas and milk. (If your coconut oil solidifies on contact with cold ingredients, simply let the bowl rest in a warm place for a few minutes, like on top of your stove, or warm it for 10 to 20 seconds in the microwave.)"
+   },
+   {
+    "title": null,
+    "text": "Add the baking powder, baking soda, vanilla, salt and cinnamon, and whisk to blend. Add both flours, switch to a big spoon and stir just until combined. Some lumps are ok! If you’re adding any additional mix-ins, gently fold them in now."
+   },
+   {
+    "title": null,
+    "text": "Pour the batter into your greased baker. Bake for 30 to 34 minutes, or until a toothpick inserted into the center comes out clean. Place the cake pan on a cooling rack and let the cake cool completely before frosting."
+   },
+   {
+    "title": null,
+    "text": "To prepare the frosting: In a medium mixing bowl or the bowl of a stand mixer, combine the softened cream cheese and butter. Using a hand mixer or a stand mixer (or your own strength), beat the cream cheese and butter together until fluffy."
+   },
+   {
+    "title": null,
+    "text": "Add the powdered sugar and vanilla and stir with a spoon until it is incorporated (or else powdered sugar will fly everywhere), then whip the frosting until it’s nice and fluffy."
+   },
+   {
+    "title": null,
+    "text": "To assemble, spread frosting evenly over the top of the cake, then slice it and serve. This cake is best stored in the refrigerator for up to 4 days."
+   }
+  ],
+  "notes": [
+   "*Oil options: I love coconut oil here. I used unrefined coconut oil and can hardly taste it in the final product. Olive oil might lend an herbal note to the cake, if you’re into that (I tested with California Olive Ranch’s “Everyday” variety and couldn’t even taste it). Vegetable oil has a neutral flavor, but the average vegetable canola oil is highly processed, so I recommend using cold-pressed sunflower oil or grapeseed oil if possible.",
+   "Make it vegan: Use maple syrup instead of honey, replace the eggs with flax eggs and choose non-dairy milk (I used almond milk) or water. Substitute vegan products in the frosting or use your favorite vegan frosting recipe.",
+   "Make it dairy free: Choose non-dairy milk (I used almond milk) or water. Substitute dairy-free products in the frosting or use your favorite dairy-free frosting recipe.",
+   "Make it egg free: Replace the eggs with flax eggs.",
+   "Make it gluten free: Bob’s Red Mill’s gluten-free blend works well here. Do not substitute coconut flour (it’s never a suitable substitute for other flours).",
+   "Recommended equipment: I love this square baker and this hand mixer (affiliate links).",
+   "How to make a layer cake: This recipe as written makes one 9″ round cake, no timing adjustments needed. Double the recipe and divide the batter between two 9″ round cake pans (butter or oil and flour the pans first) for a two-tiered layer cake. Double the frosting, too.",
+   "How to make cupcakes: Divide the batter between 12 muffin cups. Bake at 350 degrees Fahrenheit for 18 to 20 minutes, or until the cupcakes are golden on top and a toothpick inserted into a cupcake comes out clean. See photo below.",
+   "How to make a large 9×13″ cake: Simply double the banana cake and frosting ingredients. Bake in a greased 9×13″ pan at 350 degrees Fahrenheit for 36 to 40 minutes. Be sure to use a true 3-quart, 9×13″ pan (I used this one), as this makes a lot of cake (15 to 18 deep slices). See photos below!"
+  ],
+  "summary": "This banana cake recipe is the best! It’s fluffy and moist, infused with banana flavor, and so easy to make. Topped with luscious cream cheese frosting, this banana cake will become your family’s favorite. Recipe yields one 9″ square or round cake; see final recipe note on how to double this recipe for a large 9×13″ cake or layer cake.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Banana Cake"
+   },
+   {
+    "at": 13,
+    "title": "Cream Cheese Frosting"
+   }
+  ]
  },
  "parser_version": 2
 }

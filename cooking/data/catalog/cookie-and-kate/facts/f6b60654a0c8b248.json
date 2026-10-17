@@ -1,6 +1,82 @@
 {
  "url": "https://cookieandkate.com/black-bean-enchiladas-with-roasted-red-pepper-sauce/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Enchiladas with Roasted Red Pepper Sauce",
+  "ingredients": [
+   "8 ounces jarred, drained roasted red peppers (mine came in a 12-ounce jar)",
+   "¼ cup water",
+   "1 small yellow onion, chopped",
+   "2 cloves garlic",
+   "2 tablespoons lime juice",
+   "1 tablespoon olive oil",
+   "1 teaspoon sugar",
+   "1 tablespoon olive oil",
+   "1 yellow onion, chopped",
+   "8 ounces frozen spinach",
+   "8 ounces frozen corn",
+   "1 can (15 ounces) black beans, rinsed and drained (or 1 ½ cups cooked black beans)",
+   "1 small can (7 ounces) diced green chiles, drained",
+   "½ cup roasted red pepper sauce sauce",
+   "1 cup crumbled feta cheese or Jack cheese* (about 4 ounces)",
+   "Salt and pepper, to taste",
+   "8 to 10 corn tortillas**",
+   "1 cup shredded Jack cheese (about 4 ounces)",
+   "3 to 4 ripe avocados",
+   "⅓ cup chopped cilantro leaves, loosely packed",
+   "½ lime, juiced"
+  ],
+  "yield_text": "4",
+  "cook_time": "45 minutes",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/black-bean-enchiladas-with-roasted-red-pepper-sauce/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit and oil a 13×7 or 13×9-inch baking pan. In a food processor or high-powered blender, combine all of the sauce ingredients. Blend until smooth. If you taste the sauce now, you may find by the raw onion flavor overpowering. Don’t worry, it will mellow out thanks to the lime and after spending time in the oven."
+   },
+   {
+    "title": null,
+    "text": "In a medium skillet over medium heat, add the olive oil and chopped onion. Sauté for a few minutes, until the onion starts to turn translucent and starts lightly browning around the edges. Add the frozen spinach and corn and cook until warmed through and the juices have mostly evaporated. Add the black beans and green chiles and cook until warmed through. Remove from heat and pour in ½ cup enchilada sauce and feta cheese. Mix and add salt and pepper to taste."
+   },
+   {
+    "title": null,
+    "text": "Gently warm the tortillas so they don’t break when you roll them. The easiest way to do this is to place them in a stack in the microwave under a damp paper towel and microwave for about 30 to 60 seconds. Leave the paper towel on top to keep them warm as you roll. Working one at a time, lump a scant ½ cup filling down the middle of each tortilla and roll snugly. Place it with the seam side down in your baking dish. Repeat with the remaining tortillas, placing each rolled enchilada snugly next to the other until you have used all your tortillas."
+   },
+   {
+    "title": null,
+    "text": "Pour the enchilada sauce down the middle of your row of enchiladas and gently shimmy the pan a bit to help distribute it. Sprinkle the Jack cheese down the middle. Bake the enchiladas for 20 to 25 minutes until the cheese is melted, the enchiladas are warmed through, and the top of the tortillas are just crisp. Let the enchiladas cool for five minutes while you dice the avocados (dice as many as you need for this meal and save the rest for leftovers). Combine them in a bowl with chopped cilantro and toss with a big squeeze of lime juice. Divide the enchiladas onto plates, top with a healthy amount of the avocado mix, and serve. Leftovers keep well in the refrigerator for up to 4 days (dice fresh avocados just before serving)."
+   }
+  ],
+  "notes": [
+   "Recipe created with guidance from The America’s Test Kitchen Healthy Family Cookbook.",
+   "Make it gluten free: Buy gluten-free tortillas.",
+   "*Cheese note: Feta is tangy and salty, whereas Jack cheese is mellow and creamy. If you use only Jack cheese, you’ll use up one block of cheese.",
+   "**Tortilla note: I had enough filling to fill 10 tortillas, but only 8 tortillas came in the package and I ran out of room in my baking dish. I’ll make quesadillas with the leftovers."
+  ],
+  "summary": "Hearty vegetarian enchiladas that make use of pantry and freezer ingredients. Top with cilantro and avocado for a fresh and vibrant meal.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted red pepper sauce"
+   },
+   {
+    "at": 7,
+    "title": "Filling"
+   },
+   {
+    "at": 16,
+    "title": "Remaining ingredients"
+   }
+  ]
+ }
 }

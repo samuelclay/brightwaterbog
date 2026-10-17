@@ -31,7 +31,39 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2020/01/roasted-squash-and-tofu-with-ginger/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Drain your tofu and remove as much water as you can: There are two easy ways to ensure your tofu gets as crisp as possible, but the first requires advanced planning. 1. The first is one that a dear reader has been pressing (get it? sorry) me/us to try for years: freezing it. You can freeze your tofu as soon as you get it home, still in the package, or already drained. Once defrosted, it easily shakes off all of its water (you’ll want to blot it though) and even has a lovely texture. But, this requires a little more planning. 2. The second is a little faster, but some say less effective: place your block of on a few layers of paper towel with more towels over it (and even a tray or plate on top to weight it) and to set aside for 5 minutes, or until needed."
+   },
+   {
+    "title": null,
+    "text": "Heat your oven: To 400°F. Cover 1 to 2 baking sheets with parchment paper for easy cleanup."
+   },
+   {
+    "title": null,
+    "text": "Prepare tofu and vegetables: Cut tofu into 1/2-inch slices, and then in half again. Halve and seed your squash — I like to remove the seeds with a metal soup spoon, which makes it much easier to get it clean. Cut squash into 1/2 to 3/4-inch thick wedges. If using two pans, you can arrange the squash on one and the tofu on another. If using one, try to puzzle them together as I do above; it will be more snug."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl, whisk together the honey or sugar, soy sauce, pepper flakes (to taste), ginger, and 4 tablespoons of the oil. If using two pans, pour 2/3 of the marinade over the squash and 1/3 over the tofu, and turn each slice of squash over gently to coat on both sides. If using only one, use all the marinade, coating the squash and tofu together. In all cases, season the squash and tofu with salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "Cook: Roast for 15 minutes, then using a thin metal spatula (this is my favorite), turn the squash and tofu chunks over. In a small bowl, combine the remaining 3 tablespoons oil with the garlic and spoon this all over the squash and tofu. Return pan(s) to the oven and roast until the tofu is dark and the squash is completely tender, 10 to 15 more minutes."
+   },
+   {
+    "title": null,
+    "text": "Serve: Directly from the pan(s) or arranged on a serving plate. Scatter with sesame seeds and scallions, and squeeze lime juice over."
+   }
+  ],
+  "notes": [
+   "The book focuses on what we’d call sheet pan meals but large sheet pans aren’t as much of a thing across the pond, but roasting dishes (a little smaller) are. Nevertheless, I tried to squeeze this onto one large (half-sheet) pan vs. the two baking dishes she suggests in the book and my tofu didn’t come out very crisp. If this doesn’t bother you, squeeze away.",
+   "Please read: To ensure this recipe is gluten-free, use soy sauce or tamari labeled clearly labeled as gluten-free. To make this dish vegan, use sugar or another sweetener instead of honey."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -11,7 +11,19 @@
    "3 scallions, thinly sliced",
    "1 tablespoon lime juice",
    "2 cups (about 8 ounces) coarsely grated monterey jack cheese",
-   "12 small (7-inch) flour tortillas"
+   "12 small (7-inch) flour tortillas",
+   "1/2 cup sour cream or Mexican crema",
+   "A few gratings fresh lime zest",
+   "1 tablespoon freshly squeezed lime juice",
+   "1/2 teaspoon ground cumin",
+   "Pinch of salt",
+   "1 bag coleslaw mix or (as used here) 3 cups finely shredded red cabbage and 1 coarsely grated carrot",
+   "Coarse salt",
+   "Juice of half a lime",
+   "2 scallions, sliced thin",
+   "A dollop of mayonnaise, sour cream or plain yogurt",
+   "A dash of hot sauce (optional)",
+   "1/4 cup roughly chopped cilantro or flat-leaf parsley leaves"
   ],
   "yield_text": "Yield: 6 quesadillas, serves 6",
   "cook_time": null,
@@ -30,7 +42,49 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2015/02/charred-cauliflower-quesadillas/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Char peppers: Over a gas burner turned to high, hold the poblanos over the flame with tongs and char them until they are black and blistered all over. Alternatively, you could do this under a broiler, turning them frequently for even blistering. Transfer hot chiles to a bowl and cover tightly with foil. Set aside to steam and let their skins loosen while you cook the cauliflower."
+   },
+   {
+    "title": null,
+    "text": "Char cauliflower: In a large bowl, toss cauliflower with 3 tablespoons olive oil, salt and pepper, until it’s evenly coated. Heat your largest heaviest frying pan over high heat until almost smoking, add cauliflower, and let it cook until each piece has a few black spots but is not mushy, turning and moving it frequently to ensure even cooking. This will take 8 to 10 minutes. Transfer florets to cutting board to rest."
+   },
+   {
+    "title": null,
+    "text": "Mix filling: When poblanos are cool enough to handle, peel the charred skin off with your fingertips or a paring knife. Pull out and discard stems and seed clusters, and slice peppers into 1/4-inch wide strips. Add to cauliflower on board and give both a rough chop together, reducing the cauliflower to no bigger than 1/2-inch chunks. Return cauliflower and peppers to the large bowl, add scallions, lime juice and salt to taste. You should have about 2 cups of cauliflower filling."
+   },
+   {
+    "title": null,
+    "text": "Assemble and cook quesadillas: Lay out 6 tortillas and spread 1/3 cup cauliflower filling and 1/3 cup shredded cheese to each. Place second 6 tortillas on top as lids. Heat a skillet over medium heat. Once hot, coat lightly with olive oil and reduce heat to medium-low. Cook quesadillas until browned underneath, about 3 to 4 minutes. Carefully a flip — a large, thin spatula like my favorite kind helps here — and repeat on the second side. Repeat with remaining quesadillas."
+   },
+   {
+    "title": null,
+    "text": "To serve: Cut quesadillas into wedges and serve with your choice of fixings. Two of my favorites are below."
+   },
+   {
+    "title": "Cumin-Lime Crema",
+    "text": "Combine, adjust seasonings to taste, and serve alongside quesadillas."
+   },
+   {
+    "title": "Lazy Taco Slaw",
+    "text": "Toss cabbage mix, salt and lime together in a large bowl; set aside for 5 minutes. It will shrink down a bit. Stir in scallions, then mayo and hot sauce. Adjust seasonings/ingredients to taste, then stir in cilantro leaves. Serve alongside quesadillas or any of your favorite tortilla-clad meals."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": [
+   {
+    "at": 8,
+    "title": "Cumin-Lime Crema"
+   },
+   {
+    "at": 13,
+    "title": "Lazy Taco Slaw"
+   }
+  ]
  },
  "parser_version": 4
 }

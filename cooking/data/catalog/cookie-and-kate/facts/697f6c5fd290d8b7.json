@@ -1,6 +1,48 @@
 {
  "url": "https://cookieandkate.com/strawberry-infused-bourbon-and-mint-julep/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Strawberry-Infused Bourbon",
+  "ingredients": [
+   "Organic strawberries",
+   "Bourbon"
+  ],
+  "yield_text": "Varies",
+  "cook_time": "72 hours 10 minutes",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/strawberry-infused-bourbon-and-mint-julep/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Rinse the strawberries, then chop off the leafy tops and discard them. Chop the strawberries into bite-sized pieces. Transfer the strawberries into a jar large enough to hold all the strawberries and leave a couple of inches of room at the top."
+   },
+   {
+    "title": null,
+    "text": "Pour bourbon over the mixture, screw on the lid tightly and give it a shake. Store the jar in a dark place, like in a cupboard, for anywhere from 3 to 7 days. Try to give the jar a shake once a day (I kept the jar in a cabinet right next to my coffee so I remembered to shake it every morning)."
+   },
+   {
+    "title": null,
+    "text": "When you’re ready to strain the mixture, place a mesh colander over an appropriately sized bowl. If you have one, you can use a nut milk bag, clean paint straining bag, cheese cloth or even a coffee filter in place of or in addition to the colander. Pour the mixture over the colander/bag/filter to catch the strawberries and any strawberry debris. Discard the strawberries. If you see any debris in the bowl, pour the vodka through your strainer once or twice more to remove it."
+   },
+   {
+    "title": null,
+    "text": "Store the strawberry bourbon in the refrigerator for up to a month, or in the freezer to retain its fresh flavor even longer."
+   }
+  ],
+  "notes": [
+   "Adapted from David Lebovitz and Tracy of Shutterbean.",
+   "There’s no need to use high-end liquor here, though I wouldn’t recommend any liquor that you wouldn’t want to consume in its original state (e.g. McCormick’s), either. I used Weller for this jar, but Jim Beam is another good choice."
+  ],
+  "summary": "Bourbon made sweeter with the real strawberries. It’s so simple! This is a basic infusion recipe, so you can substitute another strong liquor for the bourbon, or different fruit for the strawberries.",
+  "ingredient_groups": []
+ }
 }

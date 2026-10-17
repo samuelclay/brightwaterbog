@@ -24,7 +24,26 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/kalamata-white-bean-dip-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Combine all of the ingredients in a food processor. Blend until smooth."
+   },
+   {
+    "title": null,
+    "text": "Taste and add another pinch of salt if the flavor needs a boost. Transfer to a serving bowl and top with a light drizzle of olive oil and a sprinkle of basil, if using."
+   },
+   {
+    "title": null,
+    "text": "Leftovers will keep well in the refrigerator, covered, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Lidia’s, a restaurant in Kansas City owned by Lidia Bastianich."
+  ],
+  "summary": "Whip up this white bean dip with Kalamata olives! It’s easy to make with pantry ingredients and tastes delicious. The sprinkle of fresh basil is optional. Recipe yields about 1 ¾ cups of dip.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

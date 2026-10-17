@@ -17,7 +17,23 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/simple-syrup-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small saucepan, combine the sugar (or honey) and water. Warm the mixture over medium heat, stirring often, until the sweetener is fully incorporated and the mixture is clear (it’s done when you no longer see any sugar granules or swirls of honey). No need to cook it any longer at this point."
+   },
+   {
+    "title": null,
+    "text": "Remove the mixture from the heat and let it cool to room temperature. Use as needed. Store any leftover simple syrup in an air-tight container in the refrigerator for up to 1 month."
+   }
+  ],
+  "notes": [
+   "Change it up: Before warming, add fresh herbs (mint, thyme, lavender or rosemary), or whole spices (cinnamon sticks, cloves or nutmeg), or strips of citrus zest (orange, lemon or lime), or several slices of fresh ginger. Let the mixture cool to room temperature before removing your flavoring agents.",
+   "Alternate mixing options: You can also make simple syrup in the microwave (use a microwave-safe bowl large enough to contain the mixture if it starts bubbling). If using honey, you can just pour very hot water into the honey and stir until blended. Or if you want to use some muscle, shake sugar and water together in a mason jar until the sugar fully dissolves."
+  ],
+  "summary": "Make this simple syrup recipe and enjoy cocktails at home! Simple syrup is so easy to make. Recipe as written yields ¾ cup (made with sugar) or 1 cup (made with honey). It can easily be scaled up or down to suit your needs; just use equal parts water and sweetener.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

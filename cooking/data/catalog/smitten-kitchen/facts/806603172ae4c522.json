@@ -28,7 +28,46 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2013/11/cauliflower-with-brown-butter-crumbs/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "To steam cauliflower: Set a steamer basket (see Notes) inside a large pot. Bring about one inch of water to a boil in the pot, lower cauliflower, whole or in large florets, into basket, and cover pot with lid. Reduce heat to medium. Let cauliflower steam for 10 to 20 minutes (less time if using a proper steamer basket, longer if using the modified basket below), or until it is easily pierced with a knife."
+   },
+   {
+    "title": null,
+    "text": "To roast cauliflower: Heat oven to 400 degrees. Lightly coat a large baking sheet with oil. Scatter cauliflower florets evenly over pan and roast until cauliflower is brown at edges and easily pierced with a knife, about 20 to 30 minutes. Toss and flip pieces once, halfway through roasting time, to ensure that they brown easily."
+   },
+   {
+    "title": null,
+    "text": "Make brown butter crumbs: When cauliflower is almost done, melt butter in a heavy frying pan over medium heat, and continue to cook it after it is melted until it is a little brown, and smells toasty. Working quickly, stir in the shallots, and let them hiss in the butter for about 30 seconds. Add the breadcrumbs, garlic, 1/4 teaspoon table salt (if using unsalted butter, skip if using salted) and a few grinds of black pepper and cook together, stirring frequently, until crumbs are a shade darker, anywhere from 5 to 10 minutes. Add a scrape or two of lemon zest and adjust seasonings to taste."
+   },
+   {
+    "title": null,
+    "text": "Assemble dish: Place whole cooked cauliflower or cauliflower florets in a low serving bowl. Toss gently with lemon juice, salt and pepper to taste. Spoon crumbs over cauliflower, pressing them onto the florets as you can, and letting the rest fall into the serving dish. Scatter herbs over top and serve with a large spoon."
+   },
+   {
+    "title": null,
+    "text": "Many notes:"
+   },
+   {
+    "title": null,
+    "text": "Don’t have a steamer basket? Me neither, or not one I’ve been able to find in a couple years, which probably means it’s an Elmo cradle somewhere. Anyway, I suspend a mesh metal strainer with handles over the pot with bubbling water, and set the lid on as best as possible. More water escapes (it’s best to check it halfway through, and make sure you don’t need to add more), but it does the job just fine."
+   },
+   {
+    "title": null,
+    "text": "Why panko? They’re fluffy and pale, light, crisp and neutrally flavored, thus they are great to keep around for times when you don’t feel like making your own. I keep mine in an airtight jar in the cabinet and they last a long time."
+   },
+   {
+    "title": null,
+    "text": "Don’t have panko breadcrumbs? Here’s how I fake them when I don’t: Heat oven to 350 degrees. Tear two to three slices of soft, crustless white bread into 1-inch pieces and pulse them in a food processor until coarsely ground. Transfer crumbs to a rimmed baking sheet and bake until golden brown and dry, about 15 minutes, stirring occasionally. Cool. Use. [This will make 3/4 to 1 full cup.]"
+   }
+  ],
+  "notes": [
+   "Do ahead: Steam or roast cauliflower and make crumbs; keep them separate until serving. Just before serving, rewarm cauliflower and add crumbs."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

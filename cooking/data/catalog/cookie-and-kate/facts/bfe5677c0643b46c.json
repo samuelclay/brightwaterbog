@@ -1,6 +1,57 @@
 {
  "url": "https://cookieandkate.com/swiss-chard-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Sautéed Swiss Chard",
+  "ingredients": [
+   "1 large bunch chard (about 10 ounces)",
+   "1 ½ tablespoons extra-virgin olive oil",
+   "⅛ teaspoon fine salt, to taste",
+   "2 medium cloves garlic, pressed or minced",
+   "Pinch of red pepper flakes (optional, scale back or omit if sensitive to spice)",
+   "½ teaspoon lemon juice plus lemon wedges, for serving"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "15 minutes",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/swiss-chard-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the chard: Cut off the browned bits at the ends of the stems and discard them. Cut out the thick center ribs and slice across the ribs to make ¼-inch thick pieces. Keep these separate from the leaves."
+   },
+   {
+    "title": null,
+    "text": "Stack the remaining greens and roll them up into a cigar-like shape. Slice over the “cigar” as thinly as possible (⅛″ to ¼″) to make long strands. Shake up the greens and chop across them a few times so the strands aren’t so long."
+   },
+   {
+    "title": null,
+    "text": "Heat a large, heavy-bottomed skillet over medium-high heat, then add the olive oil. Once the oil is shimmering, add the ribs and the salt. Stir to combine and cook, stirring often, until the ribs are easily pierced through by a fork, about 3 to 4 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add all of the greens to the pan. Stir until they’re lightly coated in oil, then let them cook for about 30 seconds before stirring again. Continue stirring in 30-second intervals until the greens are wilted and dark green and some are starting to turn brown on the edges (this is delicious). This will take 2 to 4 minutes."
+   },
+   {
+    "title": null,
+    "text": "Once the chard is nearly done, add the garlic and red pepper flakes (if using). Stir to break up the garlic and cook until it’s fragrant, about 30 seconds. Remove the pan from the heat."
+   },
+   {
+    "title": null,
+    "text": "Stir in the lemon juice. Taste and add another pinch of salt, if desired. Serve each portion with a lemon wedge. Leftovers keep well in the refrigerator, covered, for up to 4 days. Briefly warm the leftovers in the microwave before serving."
+   }
+  ],
+  "notes": [],
+  "summary": "This quickly sautéed Swiss chard is lemony, garlicky, and truly irresistible. The key is in the method. Recipe yields 4 modest side servings. Cook another batch in another skillet if desired.",
+  "ingredient_groups": []
+ }
 }

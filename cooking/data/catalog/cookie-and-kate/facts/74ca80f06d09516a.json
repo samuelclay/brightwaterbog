@@ -1,6 +1,73 @@
 {
  "url": "https://cookieandkate.com/spinach-pasta-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Spinach Pasta with Roasted Broccoli & Bell Pepper",
+  "ingredients": [
+   "1 large bunch of broccoli (about 1 ½ pounds), florets removed and sliced into bite-sized pieces",
+   "1 red bell pepper, sliced into 1-inch squares",
+   "1 tablespoon olive oil",
+   "Salt",
+   "8 ounces linguine or spaghetti (whole wheat if desired)",
+   "2 tablespoons olive oil",
+   "1 shallot bulb, sliced very thin (about ½ cup, sliced)",
+   "¼ teaspoon salt",
+   "¼ teaspoon red pepper flakes",
+   "2 cloves garlic, pressed or minced",
+   "12 ounces baby spinach",
+   "2 tablespoons balsamic vinegar",
+   "1 tablespoon lemon juice",
+   "1 tablespoon butter or olive oil",
+   "Optional: 1 ounce finely grated Parmesan cheese* (about ¾ cup, grated), plus extra for garnishing",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "40 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/spinach-pasta-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the roasted vegetables (optional, skip for a more simple spinach pasta): Preheat oven to 400 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper for easy cleanup. Transfer the sliced broccoli florets and bell pepper to the prepared baking sheet, drizzle with 1 tablespoon olive oil and toss until the vegetables are lightly coated in oil (add a little more olive oil if necessary). Sprinkle with salt, arrange the vegetables in an even layer and bake until the broccoli is tender and caramelized on the edges, tossing halfway, about 25 minutes."
+   },
+   {
+    "title": null,
+    "text": "Once the vegetables are in the oven, bring a large pot of salted water to boil. Cook the pasta just until al dente, according to package directions. Before draining, carefully reserve about 1 cup of the pasta water. Drain and return the pasta to the pot."
+   },
+   {
+    "title": null,
+    "text": "To prepare the balsamic spinach, in a large Dutch oven (my 5.5-quart Le Creuset is perfect here) or large sauté pan over medium heat, warm 2 tablespoons olive oil until shimmering. Add the sliced shallot, ¼ teaspoon salt and ¼ teaspoon red pepper flakes. Cook, stirring frequently, until the shallot is translucent, about 3 to 5 minutes. Add the garlic and cook, stirring constantly, until fragrant, about 20 seconds. While stirring constantly, add several big handfuls of spinach at a time until they have wilted, then repeat until all of the spinach is in the pot. Once the spinach has reduced a bit but is still bright green in parts (this happens quickly!), pour in the balsamic vinegar and remove the pot from heat."
+   },
+   {
+    "title": null,
+    "text": "In your Dutch oven or in a large serving bowl, combine the roasted vegetables and cooked pasta with the spinach mixture. Add 1 tablespoon lemon juice, 1 tablespoon butter or olive oil and optional Parmesan. Drizzle in about ⅓ cup reserved pasta cooking water and gently toss to coat. Season to taste with additional salt (mine needed about ½ teaspoon more) and freshly ground black pepper. Divide into bowls and serve immediately, with extra grated Parmesan on top for bonus presentation points."
+   }
+  ],
+  "notes": [
+   "Change it up: Skip the roasted veggies for a simple weeknight pasta that’s full of greens, or change up the vegetables used.",
+   "Make it vegan/dairy free: Use olive oil instead of butter and omit the Parmesan. This pasta is great without the Parmesan, but you could add a light sprinkle of nutritional yeast for some cheesy flavor, if you’d like. Another option for extra savory flavor would be to add about ⅓ cup freshly toasted pine nuts or sliced almonds.",
+   "*A note on Parmesan: I always get a few comments on recipes that include Parmesan (“It’s not vegetarian!”) but Whole Foods actually makes a great animal rennet-free Parmesan. There’s plenty of flavor in here without the Parmesan, if you’d rather leave it out.",
+   "Make it gluten free: Choose a good gluten-free pasta (DeLallo makes one!)."
+  ],
+  "summary": "This healthy vegetarian pasta features loads of spinach and roasted vegetables tossed with light balsamic sauce! Feel free to change up the vegetables or skip them completely for a simple, hearty spinach pasta recipe. Recipe is easily vegan and gluten free (see notes). Serve with a green side salad for a complete meal. Recipe yields 4 large or 6 more modest portions.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted vegetables"
+   },
+   {
+    "at": 4,
+    "title": "Spinach pasta"
+   }
+  ]
+ }
 }

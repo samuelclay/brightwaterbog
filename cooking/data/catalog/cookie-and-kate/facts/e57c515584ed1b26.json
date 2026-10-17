@@ -26,7 +26,46 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/socca-pizza-with-summer-squash-and-feta/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a bowl, whisk together the chickpea flour, water, 2 tablespoons of the olive oil, garlic and salt. Let the mixture rest at room temperature for 1 hour."
+   },
+   {
+    "title": null,
+    "text": "Turn on the broiler with a rack positioned 8 inches from heat. Place a 10-inch ovenproof skillet (preferably cast iron) in the oven to preheat."
+   },
+   {
+    "title": null,
+    "text": "Once the skillet is hot, carefully remove it from the oven (it’s crazy hot, wear oven mitts!). Pour in 1 tablespoon olive oil and swirl the pan around so the oil is evenly distributed. Pour in the chickpea batter and return the skillet to the broiler. Cook for 5 to 8 minutes, until the socca is set and the edges are browning and pulling away from the sides of the pan. Remove from oven, turn off broiler and turn oven to 425 degrees Fahrenheit."
+   },
+   {
+    "title": null,
+    "text": "Spread the remaining 1 tablespoon olive oil on top of the socca (it will soak right in). Top the socca with mozzarella, then distribute the ribboned/julienned squash on top. Sprinkle olives and sun-dried tomatoes on top, then sprinkle feta over the pizza."
+   },
+   {
+    "title": null,
+    "text": "Return the skillet to the oven and bake for 8 to 10 minutes, until the cheese is browning and the socca is crisp. Remove from oven and sprinkle fresh thyme on top. Let the pizza cool for 2 to 3 minutes before slicing into 4 pieces and serving."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from The Homemade Flour Cookbook by Erin Alderson.",
+   "Make it vegan: Skip the cheese for veggie flatbread.",
+   "Leftover squash suggestions: Turn them into ribbons with a peeler and add them to a simple green salad.",
+   "Change it up: You can treat the socca pizza crust as though it were any basic pizza crust. Erin made a margherita pizza with her socca crust—she simply topped her pizza crust with sliced tomatoes and shredded mozzarella and sprinkled fresh basil on top once it came out of the oven."
+  ],
+  "summary": "A simple and delicious, gluten-free chickpea crust pizza. I topped mine with summer squash ribbons and other Greek flavors, including feta and fresh thyme. You can add any pizza toppings you’d like! Be sure to allow an hour for the chickpea flour to soak up water. The rest comes together quickly. Recipe as written yields one small (9- to 10-inch) pizza.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Socca pizza crust"
+   },
+   {
+    "at": 5,
+    "title": "Pizza toppings"
+   }
+  ]
  },
  "parser_version": 2
 }

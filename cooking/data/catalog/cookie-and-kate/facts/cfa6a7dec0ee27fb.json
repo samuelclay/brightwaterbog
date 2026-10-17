@@ -1,6 +1,78 @@
 {
  "url": "https://cookieandkate.com/thai-spiced-rice-bowls-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Thai-Spiced Rice Bowls",
+  "ingredients": [
+   "1 ½ cups uncooked rice",
+   "1 ½ tablespoons butter",
+   "½ teaspoon kosher salt (or ¼ teaspoon fine sea salt)",
+   "1 teaspoon olive oil",
+   "4 cloves garlic, pressed or minced",
+   "Thumb-tip of peeled fresh ginger, pressed or minced",
+   "1 tablespoon Thai red curry paste",
+   "¼ cup soy sauce",
+   "¼ cup natural peanut butter",
+   "4 cups (1 quart) vegetable broth",
+   "1 can (14 ounces) light coconut milk",
+   "Generous squeeze of honey",
+   "1 cup matchstick-cut carrots",
+   "1 red bell pepper, thinly sliced",
+   "½ English cucumber, halved lengthwise and thinly sliced",
+   "¼ cup chopped fresh cilantro",
+   "¼ cup chopped dry-roasted peanuts",
+   "2 tablespoons chopped fresh mint (optional)",
+   "2 green onions, thinly sliced",
+   "1 jalapeño, thinly sliced",
+   "1 lime, cut into wedges"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Soup"
+  ],
+  "cuisines": [
+   "Thai"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/thai-spiced-rice-bowls-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the rice: Cook the rice according to the package instructions, then stir in the butter and salt. (Here’s how I cook brown rice.)"
+   },
+   {
+    "title": null,
+    "text": "Make the broth: Heat a medium saucepan over medium heat. Once warm, add the oil. Add the garlic and ginger. Cook for 30 seconds, stirring constantly. Add the remaining broth ingredients. Bring the mixture to a boil, reduce the heat, and simmer for 10 minutes to develop the flavor."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, prepare the garnishes. To serve, divide the rice evenly among 6 serving bowls. Top each serving evenly with the broth. Garnish as desired."
+   }
+  ],
+  "notes": [
+   "Recipe barely adapted from The Minimalist Kitchen by Melissa Coleman.",
+   "Make it vegan: Omit the butter for the rice, or replace it with coconut oil, added to taste. Use maple syrup instead of honey to sweeten the broth.",
+   "Make it gluten free: Use gluten-free tamari instead of regular soy sauce.",
+   "Change it up: Melissa says you can add edamame or peas to this recipe."
+  ],
+  "summary": "This curried Thai peanut bowl recipe is warming, hearty and fresh! These delicious bowls are easy to make, too. Recipe yields 6 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Rice"
+   },
+   {
+    "at": 3,
+    "title": "Peanut Broth"
+   },
+   {
+    "at": 12,
+    "title": "Garnishes"
+   }
+  ]
+ }
 }

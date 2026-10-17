@@ -1,6 +1,46 @@
 {
  "url": "https://cookieandkate.com/pear-raspberry-and-goat-cheese-crostini/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Pear, Raspberry and Goat Cheese Crostini",
+  "ingredients": [
+   "1 whole grain baguette, or slices of whole wheat bread",
+   "Extra-virgin olive oil, for brushing",
+   "10 ounces goat cheese, at room temperature (a log of it, not goat cheese crumbles)",
+   "2 ripe pears, cut into ¼-inch thick slices",
+   "½ cup fresh raspberries",
+   "Honey, for drizzling",
+   "1 lemon, juiced",
+   "Freshly ground black pepper",
+   "Flaky or fine sea salt, optional (to taste)"
+  ],
+  "yield_text": "8 servings",
+  "cook_time": "12 minutes",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "N/A"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pear-raspberry-and-goat-cheese-crostini/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Slice the baguette into ½-inch rounds. Brush both sides of each round with olive oil and grill on medium heat until the bread is toasted and light grill marks appear. Alternatively, you could toast the crostini in an oven preheated to 400 degrees for about 4 to 7 minutes, turning halfway. Or just toss the bread in the toaster and then brush the toast with olive oil."
+   },
+   {
+    "title": null,
+    "text": "Top each crostini with a smear of goat cheese, then a slice of pear and two raspberries. Drizzle a bit of honey and a light sprinkle of lemon juice over the top. Finish it with a light sprinkle of freshly ground black pepper and sea salt."
+   }
+  ],
+  "notes": [
+   "I didn’t bother with exact quantities here, but I trust that you can figure them out to suit your needs."
+  ],
+  "summary": "These late summer appetizers are plenty decadent, like a long wedding weekend, but stacked with enough healthy ingredients to justify eating for dinner all on their own. To all my single ladies: feel free to plop a good piece of whole wheat bread in the toaster and top as directed. Dinner is served!",
+  "ingredient_groups": []
+ }
 }

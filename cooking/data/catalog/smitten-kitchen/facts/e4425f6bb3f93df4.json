@@ -28,7 +28,30 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2015/11/kale-and-caramelized-onion-stuffing/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 400°F. Slice crusts off bread (you can save them for breadcrumbs) and tear loaf into rough 1-ish-inch pieces. Place in a large bowl and drizzle with 4 tablespoons olive oil and toss well. Spread on a large rimmed baking sheet and toast in oven, tossing once or twice for even color, until golden brown and crisp on the outside but still a little tender inside, about 20 minutes. Let cool on sheet, then tip back into that large bowl."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, melt 1 tablespoon butter in 2 tablespoons oil in the bottom of a large saute pan over low heat. Add the onions, toss to coat them in oil and cover the pan and with the stove on the lowest heat possible, let them cook undisturbed for 15 minutes. (The steaming and wilting will help them caramelize much faster, yay.) Remove lid, raise heat to medium/medium-high, add sugar and 1 teaspoon salt and cook onions, stirring frequently, for another 15 to 20 minutes, until they’re a deep golden brown. Add 1 tablespoon sherry vinegar and use to scrape any stuck bits off bottom of pan, then cook off. Taste onions. If desired, add a second tablespoon of sherry vinegar and cook off in the same method. (I prefer them with 2 tablespoons.) Add onions to bowl with croutons."
+   },
+   {
+    "title": null,
+    "text": "Add 2 more tablespoons olive oil to pan and heat garlic for half a minute, before adding kale. Get kale coated with garlicky oil, then add 2 tablespoons broth. Cook kale until wilted and somewhat tender, seasoning well with salt and pepper, about 6 minutes. Add sherry to pan and cook until it almost disappears. Add remaining broth and last two tablespoons of butter and bring mixture to a simmer."
+   },
+   {
+    "title": null,
+    "text": "Pour kale-broth mixture over croutons and caramelized onions. Toss well to combine. Pour mixture into a 3-quart casserole dish and cover with foil. Bake for 15 minutes, then remove foil, and bake for another 15 to 20, until golden and crisp on top."
+   }
+  ],
+  "notes": [
+   "Do ahead: Each part of this (the croutons, the onions and the kale) can prepared up to 3 days in advance, and assembled and baked when needed. Keep the croutons at room temperature in a container or bag. Keep the onions in the fridge, as well as the kale and broth mixture."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

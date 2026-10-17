@@ -25,7 +25,31 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2023/08/corn-cacio-e-pepe/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Prepare the corn: Heat a large skillet (or the empty pot you will use to cook your pasta) on high heat for one minute. Once hot, add the olive oil, and let the oil heat for one minute. Add the corn kernels, and season them with salt and freshly ground black pepper, and stir them once or twice, just so they’re evenly coated in the oil and leave them be. Don’t stir again for 3 to 4 minutes, or until toasty brown underneath. Step back as they might crackle and pop, especially towards the end. Add butter and stir to combine, then scrape everything onto a bowl and set aside."
+   },
+   {
+    "title": null,
+    "text": "Cook the pasta: Bring a pot of well-salted water to a boil and cook linguine until about 30 seconds short of perfect. [We’re not going for a full al dente here because the pasta dish is finished off the heat, thus will not continue cooking.] Before you drain the pasta, reserve 1 cup of the pasta cooking water and set aside."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, make the sauce: Get your sauce ready before the pasta has finished cooking, as we want to add it to piping hot noodles. In a food processor or high-speed blender, blend pecorino and approximately 2 teaspoons of freshly ground black pepper until the cheese is in as fine pieces as it can get. Add 3 to 4 tablespoons cold water, one at a time, fully blending each addition before adding the next. You’re looking to take the cheese from a powdery to a creamy consistency, like frosting for a cake; blend the mixture as long as is needed (about 1 minute) to get it there. Taste the mixture: it should be very salty and peppery; add more pepper if needed (aged pecorino is usually very salty, but if you’re using something else, add salt here too)."
+   },
+   {
+    "title": null,
+    "text": "Assemble and eat: As soon as your pasta is drained, add it back to the empty pot along with the black pepper-pecorino sauce. The sauce will be too thick for the job, but do your best to distribute it evenly over the noodles. Then, begin adding the reserved pasta water, 1 to 2 tablespoons at a time, tossing the pasta the whole time. This will loosen the cheese mixture into a nice saucy consistency. Keep adding water, tossing the whole time, but not so much that the sauce “washes” off the noodles. Add reserved corn and toss to mix, then transfer everything to a serving bowl. Finish with more cheese and black pepper and eat right away."
+   }
+  ],
+  "notes": [
+   "Do ahead: This is not my favorite dish to reheat, but you can make the corn in advance (an hour or a day, just reheat it), and the cheese-pepper sauce (up to a week in the fridge), and have everything ready to go when the pasta is piping hot.",
+   "This recipe is adapted from my 2018 Foolproof Cacio e Pepe, which uses a technique from the chef of Flavio Al Velavevodetto in Rome, which I learned via tour guide Elizabeth Minchilli. To understand why starting with a cold sauce works, read the 2018 headnote. You can watch me make this without corn on YouTube. This recipe works best with cheese from a block, not pre-grated. The directions below are highly detailed (even for me!) because I want you to get this perfect, too."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

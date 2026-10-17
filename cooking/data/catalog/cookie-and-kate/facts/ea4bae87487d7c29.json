@@ -1,6 +1,69 @@
 {
  "url": "https://cookieandkate.com/pumpkin-pancakes-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Pumpkin Pancakes",
+  "ingredients": [
+   "1 cup whole wheat flour or all-purpose flour",
+   "1 tablespoon baking powder",
+   "½ teaspoon cinnamon (for stronger pumpkin spice flavor, use 1 teaspoon)",
+   "¼ teaspoon nutmeg",
+   "¼ teaspoon salt",
+   "1 cup milk of choice",
+   "⅓ cup pumpkin purée",
+   "1 egg",
+   "2 tablespoons maple syrup or brown sugar",
+   "½ teaspoon vanilla extract",
+   "2 tablespoons melted butter, avocado oil or coconut oil"
+  ],
+  "yield_text": "2 servings",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pumpkin-pancakes-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "If you’ll be using an electric skillet, preheat it to 350 degrees Fahrenheit. In a medium mixing bowl, combine the flour, baking powder, cinnamon, nutmeg and salt. Stir until blended."
+   },
+   {
+    "title": null,
+    "text": "In a separate bowl, combine the milk, pumpkin purée, egg, maple syrup, vanilla extract and melted butter. Whisk until thoroughly blended. Pour the wet ingredients into the dry, and stir until no big lumps remain. (If your butter or oil solidifies on contact with cold ingredients, just warm the mixture in the microwave for 15 to 30 seconds until it melts again, or let the mixture rest for a few minutes in a warm place)."
+   },
+   {
+    "title": null,
+    "text": "If you’re not using an electric griddle, heat a stainless steel or cast iron skillet over medium-low heat. You’re ready to start cooking your pancakes when the pan is hot enough that a drop of water sizzles on contact."
+   },
+   {
+    "title": null,
+    "text": "Lightly oil the cooking surface with additional oil or cooking spray (non-stick surfaces may not need any). Carefully wipe off the excess with a paper towel so it doesn’t burn."
+   },
+   {
+    "title": null,
+    "text": "Using a ⅓-cup measure, scoop the batter onto the warm skillet. Cook for 2 to 3 minutes, until small bubbles form on the surface of the pancakes. It’s ready to flip when about ½-inch of the perimeter is matte instead of glossy. Flip each pancake and cook on the opposite sides for 1 to 2 minutes, or until lightly golden brown."
+   },
+   {
+    "title": null,
+    "text": "Repeat the process with the remaining batter, greasing the skillet as needed. If necessary, dial the heat down to prevent burning the pancakes. Serve the pancakes immediately, or stack them and cover the plate with a tea towel to keep them warm."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Big Girls, Small Kitchen.",
+   "Leftover pancakes? Pancakes make great leftovers! Store them in the refrigerator for up to 5 days, or freeze them for months. To warm, wrap a short stack of pancakes loosely in a paper towel and gently reheat in the microwave until warmed through, flipping and re-wrapping the stack halfway through.",
+   "Make it vegan: Use non-dairy milk (like almond milk), omit the egg and replace the butter with coconut oil.",
+   "Make it dairy free: Use non-dairy milk and replace the butter with coconut oil.",
+   "Make it egg free: Just omit the egg (really).",
+   "Make it gluten-free: Bob’s Red Mill’s gluten-free all-purpose flour will work well here. Or, check out my pumpkin oat pancakes!"
+  ],
+  "summary": "These pumpkin pancakes are so fluffy and delicious. Gently spiced with cinnamon and topped as you wish, you’ll want to make a batch every fall. For healthier pancakes, make them with whole wheat flour—they’re naturally sweetened with maple syrup, too! Recipe yields 6 to 8 medium pancakes, enough to serve two to three people. Double the recipe for a larger crowd, or if you would like leftovers.",
+  "ingredient_groups": []
+ }
 }

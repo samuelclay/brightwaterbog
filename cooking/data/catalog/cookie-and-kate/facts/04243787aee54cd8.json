@@ -1,6 +1,47 @@
 {
  "url": "https://cookieandkate.com/cold-brew-coffee-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Cold Brew Coffee",
+  "ingredients": [
+   "3 ounces (85 grams) coarsely-ground coffee (that’s about ¾ cup whole coffee beans turned into about 1 ½ cups* coarsely-ground coffee)",
+   "3 cups water"
+  ],
+  "yield_text": "5 cups coffee",
+  "cook_time": "20 minutes (plus 12 hour resting time)",
+  "categories": [
+   "Drink"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cold-brew-coffee-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a 1-quart wide-mouth mason jar, combine the coffee and room-temperature water. Stir to combine. I like to let my mixture rest for about 5 minutes and stir it again; the coffee grounds seem to gain more water exposure this way."
+   },
+   {
+    "title": null,
+    "text": "Put a lid on your container and refrigerate it for 12 to 18 hours."
+   },
+   {
+    "title": null,
+    "text": "When you’re ready to strain your cold brew, place a thin paper coffee filter or a small, thin cotton napkin, cloth or handkerchief over a small fine-mesh sieve. Pour the concentrate through the prepared sieve into a liquid measuring cup or pitcher. Let it rest for a few minutes to let the last of the cold brew trickle down."
+   },
+   {
+    "title": null,
+    "text": "To serve, fill a glass with ice and fill it halfway with water. Then fill the rest of the glass with cold brew concentrate, and stir to combine. Cold brew concentrate will keep well in the refrigerator for up to 2 weeks, although I find that it has the best flavor within the first week."
+   }
+  ],
+  "notes": [
+   "*Measurement note: These are ounces by weight, not by volume. This is always the case with non-liquid measurements. “1 ½ cups coarsely-ground coffee” is the least exact measurement I can offer (the volume of the ground coffee depends on the exact coarseness of your grind)—but it will work. Just adjust the concentrate-to-water ratio to suit your liking as your pour your glass of cold brew and you’re all good."
+  ],
+  "summary": "Let’s make cold brew coffee! It’s easy to make, and it’s so nice to have coffee ready to go. This recipe is written for a 1-quart wide-mouth mason jar; you can scale it up or down using 1 ounce* (28 grams) coffee per 1 cup water. The quantities provided will produce about 2 ½ cups concentrate, which is enough for 5 cups of cold brew.",
+  "ingredient_groups": []
+ }
 }

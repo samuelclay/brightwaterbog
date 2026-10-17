@@ -22,7 +22,27 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/how-to-make-tzatziki/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Working with one big handful at a time, lightly squeeze the grated cucumber between your palms over the sink to remove excess moisture. Transfer the squeezed cucumber to a serving bowl, and repeat with the remaining cucumber."
+   },
+   {
+    "title": null,
+    "text": "Add the yogurt, olive oil, herbs, lemon juice, garlic, and salt to the bowl, and stir to blend. Let the mixture rest for 5 minutes to allow the flavors to meld. Taste and add additional chopped fresh herbs, lemon juice, and/or salt, if necessary (I thought this batch was just right as-is)."
+   },
+   {
+    "title": null,
+    "text": "Serve tzatziki immediately or chill for later. Leftover tzatziki keeps well, chilled, for about 4 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my cookbook, Love Real Food.",
+   "Make it dairy free/vegan: Substitute an equal amount of cashew sour cream for the yogurt, and thin the tzatziki with a small splash of water if necessary."
+  ],
+  "summary": "Learn how to make tzatziki, a traditional Greek yogurt and cucumber sauce with fresh herbs. Tzatziki is a refreshing sauce or dip, and it’s so easy to make! This basic recipe yields about 2 ½ cups; multiply if necessary.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

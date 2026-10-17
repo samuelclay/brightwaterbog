@@ -1,6 +1,40 @@
 {
  "url": "https://cookieandkate.com/breakfast-quinoa/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Basic Breakfast Quinoa Recipe",
+  "ingredients": [
+   "½ cup or more cooked quinoa, warmed",
+   "½ to 1 cup milk of choice (almond milk, coconut milk, cows milk)",
+   "⅓ cup or more fruit (berries, chopped apple or pear, tropical fruit)",
+   "Optional add-ons: toasted nuts, apple sauce, coconut flakes, balsamic vinegar, chopped dark chocolate, spices like cinnamon and nutmeg",
+   "Optional sweeteners: honey, real maple syrup, agave nectar, raw sugar, brown sugar"
+  ],
+  "yield_text": "1",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/breakfast-quinoa/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a bowl, combine the warmed quinoa and milk."
+   },
+   {
+    "title": null,
+    "text": "Top with fruit, add-ons and your sweetener of choice (if using). Good morning to you!"
+   }
+  ],
+  "notes": [],
+  "summary": "Start your day off right with breakfast quinoa—a quick, nutritious and filling meal. Enjoy endless variations of fruits, nuts and milks with nutty quinoa.",
+  "ingredient_groups": []
+ }
 }

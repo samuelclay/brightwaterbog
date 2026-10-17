@@ -1,6 +1,87 @@
 {
  "url": "https://cookieandkate.com/vanilla-bean-ice-cream/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Light Vanilla Bean Ice Cream",
+  "ingredients": [
+   "2 cups 2% milk",
+   "1 cup half-and-half",
+   "1 vanilla bean*",
+   "¾ cups turbinado (raw) sugar",
+   "dash of salt",
+   "2 large egg yolks",
+   "1 ½ teaspoons real vanilla extract"
+  ],
+  "yield_text": "about 3 cups",
+  "cook_time": "1 hour",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/vanilla-bean-ice-cream/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Combine milk and half-and-half in a medium sized, heavy sauce pan or Dutch oven."
+   },
+   {
+    "title": null,
+    "text": "Use a small paring knife to slice open the vanilla bean (lengthwise from top to bottom). Use a spoon to scrape out the insides. Add the insides and the rest of the vanilla bean to the pan."
+   },
+   {
+    "title": null,
+    "text": "Over medium-high heat, heat the mixture until tiny bubbles form around the edge (which should be about 180 degrees). Do not let it boil!"
+   },
+   {
+    "title": null,
+    "text": "Remove from heat, cover and let stand for ten minutes."
+   },
+   {
+    "title": null,
+    "text": "In a new bowl, combine sugar, salt and egg yolks. Whisk the mixture until it is pale."
+   },
+   {
+    "title": null,
+    "text": "Temper the milk mixture by gradually adding half of the milk mixture to the egg mixture, while stirring constantly with a whisk."
+   },
+   {
+    "title": null,
+    "text": "Pour the egg/milk mixture back into the pan with the rest of the milk."
+   },
+   {
+    "title": null,
+    "text": "Cook over medium-low heat for about two minutes (or to 160 degrees), stirring constantly."
+   },
+   {
+    "title": null,
+    "text": "Pour the mixture into a bowl. Stir in the vanilla extract."
+   },
+   {
+    "title": null,
+    "text": "Let the mixture cool to room temperature, stirring occasionally to speed the process. Place the bowl in the fridge overnight. That way the mixture will have time to cool completely, and more time to soak up the flavor from the vanilla bean. If you don’t have time to let it sit overnight, be sure that it is at least thoroughly and completely chilled before proceeding to the next step. The colder it is, the creamier it will be."
+   },
+   {
+    "title": null,
+    "text": "Use a spoon to scoop out the solid vanilla bean, and discard it."
+   },
+   {
+    "title": null,
+    "text": "Pour the mixture into your ice cream maker and follow the manufacturer’s instructions. In the meantime, chill your freezer-safe ice cream container in the freezer so the ice cream won’t melt when you transfer it."
+   },
+   {
+    "title": null,
+    "text": "Transfer the ice cream to your container and freeze it for a few hours. Enjoy perfectly scoopable, delicious vanilla bean ice cream!"
+   }
+  ],
+  "notes": [
+   "Adapted from my fresh mint ice cream, originally from Cooking Light (May 2010).",
+   "*If you don’t have vanilla bean: Increase the amount of vanilla extract to 1 tablespoon."
+  ],
+  "summary": "Delicious vanilla bean ice cream is the perfect topping for warm desserts or on its own. This lightened up recipe is made with 2% milk and half and half!",
+  "ingredient_groups": []
+ }
 }

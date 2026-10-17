@@ -1,6 +1,50 @@
 {
  "url": "https://cookieandkate.com/vegan-citrus-ceviche-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Avocado & Citrus “Ceviche”",
+  "ingredients": [
+   "1 large grapefruit (preferably Ruby Red or another sweet variety)",
+   "2 medium oranges",
+   "2 large avocados or 4 small avocados, diced",
+   "½ cup finely chopped red onion",
+   "½ cup chopped fresh cilantro",
+   "½ medium jalapeño, seeds and membranes removed, finely chopped",
+   "¼ cup lime juice (about about 2 limes), more to taste",
+   "½ teaspoon fine sea salt, to taste",
+   "Optional: Tortilla chips, for serving"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Peruvian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/vegan-citrus-ceviche-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the citrus: Peel the skin from the grapefruit and oranges. Then slice across the center lines to make ¼″ thick rounds (see photos). Gently tug the rounds apart to make little wedges of fruit, about 2 segments each."
+   },
+   {
+    "title": null,
+    "text": "In a medium serving bowl, combine the citrus wedges, avocado, onion, cilantro, jalapeño, lime juice and salt. Gently toss to combine. Adjust to taste—be generous with salt (it helps counteract the bitterness of the grapefruit) and add more lime juice if it needs more citrusy punch."
+   },
+   {
+    "title": null,
+    "text": "Serve promptly, with tortilla chips on the side if you’d like. This ceviche is best consumed within a few hours, but there’s enough citrus juice in there to keep the avocado relatively fresh for 1 to 2 days. Store leftovers in the refrigerator, in a Ziploc bag with the air squeezed out to minimize browning."
+   }
+  ],
+  "notes": [
+   "If you love this recipe: Don’t miss my best guacamole recipe and black bean salad recipe."
+  ],
+  "summary": "This seafood-free citrus “ceviche” with avocado makes a wonderful appetizer, side salad or party dip! This vegan ceviche is delicious, colorful and healthy. Recipe yields 6 appetizer or small side salad servings.",
+  "ingredient_groups": []
+ }
 }

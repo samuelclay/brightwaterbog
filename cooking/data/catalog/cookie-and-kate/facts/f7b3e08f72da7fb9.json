@@ -30,7 +30,52 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/breakfast-quesadillas-with-scrambled-eggs-spinach-and-black-beans/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the guacamole: Combine the guacamole ingredients in a small bowl. Mash with a fork until the mixture is well combined and mostly smooth. Set aside."
+   },
+   {
+    "title": null,
+    "text": "To prepare the eggs: Scramble the eggs in a small bowl. Season with a couple dashes of hot sauce and a dash of salt."
+   },
+   {
+    "title": null,
+    "text": "To cook the eggs: Heat 1 teaspoon of olive oil in a medium-sized skillet (either well-seasoned cast iron or nonstick) over medium heat until shimmering. Add the chopped spinach and cook, stirring often, until wilted, about 1 to 2 minutes. Add the black beans to the skillet. Pour in the scrambled eggs and cook, stirring often, until the eggs are just set, about 1 to 3 minutes. Transfer the mixture to a bowl to pause the cooking process (the eggs will finish cooking in the quesadilla)."
+   },
+   {
+    "title": null,
+    "text": "To cook the quesadilla (if desired, you can cook two quesadillas at once): In a large skillet (preferably cast iron, but nonstick also works), warm the tortilla over medium heat, flipping occasionally. Once the pan and tortilla are warm, sprinkle one half of the quesadilla with ¼ cup cheese. Top the cheese with scrambled eggs, then top the scrambled eggs with almost ¼ cup cheese, reserving about 1 tablespoon of cheese for later. Press the empty tortilla halve over the toppings."
+   },
+   {
+    "title": null,
+    "text": "Let the bottom side of the quesadilla cook for a minute, then carefully flip the quesadilla with a spatula. Immediately sprinkle the remaining tablespoon of cheese over the hot side of the quesadilla and let it melt as the other side cooks for a couple of minutes. Flip the quesadilla again, and let the cheese sizzle into the quesadilla for a couple of minutes. Use the spatula to get underneath the melty cheese side and flip again. Cook that side for a couple more minutes if necessary, until both sides are a nice, crisp golden brown."
+   },
+   {
+    "title": null,
+    "text": "Transfer the quesadilla to a cutting board to cool for a few minutes, then slice each quesadilla into 2 slices using a pizza cutter or a very sharp knife. Serve with guacamole."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Use gluten-free tortillas.",
+   "Storage suggestions: Quesadillas keep well in the fridge, covered, for a few days. Reheat in the microwave or, better yet, warm in the oven/toaster oven. To keep leftover guacamole fresh, mix in an extra squeeze of lime juice and press plastic wrap over the surface to help prevent browning.",
+   "Leftover guacamole? Use it as a dip for chips or veggies (carrots, bell peppers, etc.). You could even spread it on toast.",
+   "Change it up: This recipe is super versatile. Sauté vegetables like bell peppers or mushrooms before adding the greens and eggs. Change up the greens (arugula, chard or kale would be good) or skip them altogether. Serve with pico de gallo or sour cream instead of the guacamole.",
+   "Make it quick: Skip the onions and cilantro in the guacamole or serve with a fresh tasting, store-bought salsa instead of guacamole.",
+   "Recommended equipment: My beloved 12-inch cast iron skillet makes the best quesadillas."
+  ],
+  "summary": "This quick and healthy breakfast quesadillas recipe includes spinach and black beans. Extra crispy outsides and guacamole on the side make this scrambled egg quesadilla a totally irresistible breakfast (or lunch or dinner!).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Scrambled egg quesadillas (ingredients per quesadilla, multiply as necessary)"
+   },
+   {
+    "at": 8,
+    "title": "Guacamole (yields enough guac for 2 to 4 quesadillas)"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -27,7 +27,22 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2026/08/cucumber-salad-with-sesame-and-rice-vinegar/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Combine cucumbers and salt in a bowl. Set aside for as little as 10 to 15 minutes, or up to an hour or two. Transfer to the fridge to keep it cold and refreshing."
+   },
+   {
+    "title": null,
+    "text": "Drain any liquid from the cucumber bowl, then add rice vinegar, sesame oil, soy sauce, pepper, and additional salt, if needed. Stir to combine. Finish with chili oil and toasted sesame seeds."
+   }
+  ],
+  "notes": [
+   "Do ahead: Leftovers keep in the fridge for 2 to 3 days, and they’re amazing, becoming gently pickled."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

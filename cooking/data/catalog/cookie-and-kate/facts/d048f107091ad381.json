@@ -30,7 +30,53 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/raw-beet-salad-with-carrot-quinoa-spinach/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the quinoa: First, rinse the quinoa in a fine mesh colander under running water for a minute or two. In a medium-sized pot, combine the rinsed quinoa and 1 cup water. Bring the mixture to a gentle boil, then cover the pot, reduce heat to a simmer and cook for 15 minutes. Remove the quinoa from heat and let it rest, still covered, for 5 minutes. Uncover the pot, drain off any excess water and fluff the quinoa with a fork. Set it aside to cool."
+   },
+   {
+    "title": null,
+    "text": "To cook the edamame: Bring a pot of water to boil, then add the frozen edamame and cook just until the beans are warmed through, about 5 minutes. Drain and set aside."
+   },
+   {
+    "title": null,
+    "text": "To toast the almonds or pepitas: In a small skillet over medium heat, toast the almonds or pepitas, stirring frequently, until they are fragrant and starting to turn golden on the edges, about 5 minutes. Transfer to a large serving bowl to cool."
+   },
+   {
+    "title": null,
+    "text": "To prepare the beet(s) and/or carrot: First of all, feel free to just chop them as finely as possible using a sharp chef’s knife OR grate them on a box grater. If you have a spiralizer, you can spiralize them using blade C, then chop the ribbons into small pieces using a sharp chef’s knife. If you have a mandoline and julienne peeler (this is a pain), use the mandoline to julienne the beet and use a julienne peeler to julienne the carrot, then chop the ribbons into small pieces using a sharp chef’s knife."
+   },
+   {
+    "title": null,
+    "text": "To prepare the vinaigrette: Whisk together all of the ingredients until emulsified."
+   },
+   {
+    "title": null,
+    "text": "To assemble the salad: In your large serving bowl, combine the toasted almonds/pepitas, cooked edamame, prepared beet(s) and/or carrot, roughly chopped spinach/arugula (see note above about leftovers), cubed avocado and cooked quinoa."
+   },
+   {
+    "title": null,
+    "text": "Finally, drizzle dressing over the mixture (you might not need all of it) and gently toss to combine. You’ll end up with a pink salad if you toss it really well! Season to taste with salt (up to an additional ¼ teaspoon) and black pepper. Serve."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Inspiralized: Turn Vegetables into Healthy, Creative, Satisfying Meals by Ali Maffucci.",
+   "Make it vegan: Opt for maple syrup or agave nectar instead of honey.",
+   "Make it nut free: Opt for pepitas instead of almonds."
+  ],
+  "summary": "Reset with this healthy beet salad recipe featuring superfoods like carrot, quinoa, spinach, edamame and avocado. It’s as colorful as it is nutritious! Recipe yields two meal-sized salads or four side salads. If you plan on having leftovers, store the greens separately from the other prepared ingredients and toss just before serving.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 7,
+    "title": "Vinaigrette"
+   }
+  ]
  },
  "parser_version": 2
 }

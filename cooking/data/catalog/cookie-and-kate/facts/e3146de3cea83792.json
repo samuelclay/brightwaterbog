@@ -33,7 +33,37 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/vegetarian-italian-chopped-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large serving bowl, combine the chopped lettuce, radicchio, onion, celery, cherry tomatoes, peppers, sun-dried tomatoes, chickpeas and cheese (if using). Toss the ingredients together and set aside."
+   },
+   {
+    "title": null,
+    "text": "To prepare the dressing, combine all of the ingredients in a liquid measuring cup. Whisk until blended. Taste, and add more salt if the dressing doesn’t knock your socks off (I usually add one to two more pinches of salt)."
+   },
+   {
+    "title": null,
+    "text": "If you’ll be serving all of the salad at once, go ahead and drizzle enough dressing in to lightly coat the salad and toss to combine. I prefer to store the salad and dressing separately so I can enjoy salad for a few days. Just whisk the dressing again before drizzling (if the olive oil solidifies a bit in the refrigerator, don’t worry, that’s normal—just let it warm up for about 5 minutes at room temperature or microwave for 10 to 20 seconds)."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by the chopped salad at 1889 Pizza and created with reference to Smitten Kitchen and The Kitchn.",
+   "Make it dairy free/vegan: Omit the cheese! It’s still great without it. For a vegan dressing, substitute maple syrup for the honey.",
+   "*Romaine and radicchio notes: If you want to make this salad in a hurry, buy two bags of chopped romaine/radicchio mix, and chop it into even smaller, bite-sized pieces. Radicchio is very bitter and can be hard to find, but I thought it added something special to this salad. If you hate it/can’t find it, skip it. If you adore it, feel free to use the whole head."
+  ],
+  "summary": "Truly the best Italian chopped salad recipe, with chopped fresh greens and veggies in a simple Italian vinaigrette. This salad is vegetarian and easily vegan. Recipe yields 6 to 8 side servings or 3 to 4 meal-sized servings (a lot). If you store the salad separately from the vinaigrette, it will keep well for up to 4 days.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 9,
+    "title": "Italian vinaigrette"
+   }
+  ]
  },
  "parser_version": 2
 }

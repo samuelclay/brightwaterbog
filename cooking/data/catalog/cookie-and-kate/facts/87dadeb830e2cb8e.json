@@ -1,6 +1,81 @@
 {
  "url": "https://cookieandkate.com/blackberry-cobbler/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Blackberry Cobbler",
+  "ingredients": [
+   "2 pounds blackberries (32 ounces, or about 6 cups), fresh or frozen*",
+   "¼ cup maple syrup or honey",
+   "2 tablespoons arrowroot starch or cornstarch",
+   "2 tablespoons lemon juice (from 1 to 2 lemons)",
+   "¼ teaspoon ground cinnamon",
+   "2 ½ cups (225 grams) almond flour**",
+   "1 tablespoon baking powder",
+   "¼ teaspoon fine salt",
+   "3 tablespoons granulated sugar",
+   "Zest from 1 large lemon",
+   "5 tablespoons unsalted butter, just melted",
+   "2 tablespoons plain whole-milk Greek yogurt",
+   "1 large egg",
+   "Optional: 1 teaspoon turbinado sugar (raw sugar) for sprinkling on top",
+   "Vanilla ice cream or whipped cream, for serving"
+  ],
+  "yield_text": "9 servings",
+  "cook_time": "1 hour 5 minutes",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/blackberry-cobbler/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 375 degrees Fahrenheit. Rinse the blackberries well and remove any leaves or stems. Slice any particularly large blackberries (longer than 1 ¼ inches) in half lengthwise."
+   },
+   {
+    "title": null,
+    "text": "To make the filling: In a 9-inch square baking dish, mix together the blackberries, maple syrup, starch, lemon juice (remove the zest from 1 lemon before juicing it and save it for the filling), and cinnamon. Bake the filling for 20 to 25 minutes, until the mixture is bubbling around all four edges, while you prepare the topping."
+   },
+   {
+    "title": null,
+    "text": "To make the topping: In a mixing bowl, combine the almond flour, baking powder and salt. Whisk gently to combine, then set it aside."
+   },
+   {
+    "title": null,
+    "text": "In a small-to-medium bowl, combine the sugar and lemon zest. Use your fingers to rub the zest into the sugar (this extracts more flavor from the lemon). Then, pour the mixture into the other dry ingredients and whisk to combine. Keep the bowl handy for the egg mixture."
+   },
+   {
+    "title": null,
+    "text": "In the smaller bowl, combine the melted butter, yogurt and egg, and whisk until evenly combined. Pour the wet mixture into the dry mixture, and stir until well combined. It will look crumbly at first, but stir well until it comes together into a cohesive dough."
+   },
+   {
+    "title": null,
+    "text": "Dollop one large spoonful at a time over the hot filling, using the back of another spoon or your finger to help transfer each dollop. Sprinkle the sugar evenly over the dough, if desired."
+   },
+   {
+    "title": null,
+    "text": "Bake for 17 to 20 minutes, until the filling is actively bubbling around the edges and the top is lightly golden. Let the cobbler rest for 5 to 10 minutes before serving. Serve with vanilla ice cream or whipped cream."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Blueberry Cobbler with Almond Topping.",
+   "*How to use frozen blackberries: Defrost the fruit in the refrigerator for 8 to 10 hours (do not drain off the juices). Or, while the oven is preheating, place the frozen berries in your square baker. Warm them up in the oven, stirring every 10 minutes or so, until they have defrosted to the point that they are cool to the touch but no longer frozen. Then add the maple syrup and other ingredients, and proceed with the recipe as written.",
+   "**Almond flour notes: Not all almond flours are created equal. I tested this recipe with Bob’s Red Mill’s super-fine almond flour and Whole Foods 365’s almond flour with great results."
+  ],
+  "summary": "This cobbler features jammy baked blackberries under a perfectly golden and tender almond flour-based topping. Recipe yields one 9-inch square dessert, enough for 9 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Filling"
+   },
+   {
+    "at": 5,
+    "title": "Topping"
+   }
+  ]
+ }
 }

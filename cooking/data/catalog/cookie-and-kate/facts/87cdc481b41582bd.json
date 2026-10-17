@@ -18,7 +18,34 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/how-to-cook-spaghetti-squash/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the spaghetti squash, preheat the oven to 400 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper for easy clean-up."
+   },
+   {
+    "title": null,
+    "text": "Use a very sharp chef’s knife to cut off the tip-top and very bottom ends of the spaghetti squash. Stand the squash upright on a stable surface and carefully slice through it from top to bottom to divide it in half."
+   },
+   {
+    "title": null,
+    "text": "Use a large spoon to scoop out the spaghetti squash seeds and discard them. Drizzle the insides of each squash half with 1 teaspoon olive oil and rub it all over the inside, adding more oil if necessary. Sprinkle salt and pepper lightly over the interiors of the squash, then place them cut-side down on the prepared baking sheet."
+   },
+   {
+    "title": null,
+    "text": "Bake for 40 to 60 minutes, until the cut sides are turning golden and the interiors are easily pierced through with a fork. Small squash will be done sooner than large squash, naturally!"
+   },
+   {
+    "title": null,
+    "text": "Once the squash is done baking, fluff the interiors with a fork to make the insides spaghetti-like. Serve as desired."
+   }
+  ],
+  "notes": [
+   "Storage suggestions: Baked spaghetti squash will keep well in the refrigerator, covered, for up to 5 days. Just reheat before serving."
+  ],
+  "summary": "Here’s the best way to cook spaghetti squash! Cut it in half, scoop out the seeds, rub a little olive oil and salt on the inside, and roast in the oven cut-side down. No fuss, no mush, just tender and delicious spaghetti squash! Recipe as written yields 2 baked squash halves (1 squash total); you can easily bake 4 halves (2 squash) at a time on a large baking sheet.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

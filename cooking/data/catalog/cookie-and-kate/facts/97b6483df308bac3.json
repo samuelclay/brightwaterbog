@@ -1,6 +1,53 @@
 {
  "url": "https://cookieandkate.com/watermelon-mint-sorbet/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Watermelon Mint Sorbet",
+  "ingredients": [
+   "4 pounds of watermelon, seeded and scooped into big chunks",
+   "1 tablespoon + 1 teaspoon raw (turbinado) sugar",
+   "3 limes, juiced",
+   "3 tablespoons white rum",
+   "pinch sea salt",
+   "1 tablespoon + 1 teaspoon mint, chopped"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "4 hours 10 minutes",
+  "categories": [
+   "Frozen dessert"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/watermelon-mint-sorbet/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Toss watermelon chunks, sugar, lime juice and rum in a blender. Pulverize the watermelon (to pulverize sounds like more fun than to purée, right?)."
+   },
+   {
+    "title": null,
+    "text": "Add the mint and blend until the mint is chopped into large flecks."
+   },
+   {
+    "title": null,
+    "text": "Chill in refrigerator for 30 minutes."
+   },
+   {
+    "title": null,
+    "text": "Pour mixture into your ice cream maker and process according to the manufacturer’s instructions."
+   },
+   {
+    "title": null,
+    "text": "Transfer to an airtight container and freeze for a few hours, and serve. The sorbet will freeze hard if left in the freezer for more than a few hours. Just set it on the counter for about 20 minutes, or until it is scoopable."
+   }
+  ],
+  "notes": [
+   "Recipe mildly adapted from Cookin’ Canuck."
+  ],
+  "summary": "Homemade watermelon mint sorbet! Recipe yields about 3 cups.",
+  "ingredient_groups": []
+ }
 }

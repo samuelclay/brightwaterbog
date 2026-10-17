@@ -23,7 +23,24 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2012/05/warm-crisp-and-a-little-melty-salad-croutons/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Mash together cheeses in a bowl, mixing until combined. Form the mixture into four balls then smoosh each slightly into thick patties. Arrange three small dishes for dredging stations: Place the flour in the first one, beat the egg lightly in the second, and mix the breadcrumbs and salt in the last one. Heat a healthy slick of olive oil (the original recipe suggested 3 tablespoons; in a tiny skillet, I used closer to 2) in a small skillet over medium heat. Once hot, fry each patty until golden and crispy, about two minutes per side. It’s going to get melty (I’m not sorry) and seem pesky to flip once warm. I found using two forks made this easy-peasy. Briefly pause the crouton on paper towels to drain excess oil, before landing it on top of your salad of choice, then finish the whole thing with freshly ground black pepper. Repeat with remaining croutons. Eat at once."
+   },
+   {
+    "title": null,
+    "text": "* Gouda, a Dutch cheese, is traditionally made with cow’s milk. You can buy it young (smooth, semi-firm and mild flavored), or aged (harder, darker, stronger-flavored with crunchy flecks), smoked, light, and even more ways. However, if you can find the goat milk gouda suggested here, perfect for goat cheese-phobes, it’s really amazing in these croutons, absolutely worth swinging by a cheese shop or grocery store with a great cheese counter for. (It’s also sold online from a variety of stores.) If you cannot get it, you could replace the gouda with another semi-firm cheese good for grating and melting, like a young cow’s milk gouda, gruyere, etc."
+   },
+   {
+    "title": null,
+    "text": "** If you can’t find or don’t want to buy Panko, here’s how I fake it: Preheat oven to 350 degrees. Tear one to two slices of soft, crustless white bread into 1-inch pieces and pulse them in the food processor until coarsely ground. This will make a generous half cup. Transfer crumbs to a rimmed baking sheet and bake until just barely golden brown and dry, about 15 minutes, stirring occasionally. Cool. Use."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

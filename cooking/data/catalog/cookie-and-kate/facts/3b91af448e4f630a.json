@@ -29,7 +29,42 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/summertime-pasta-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a large pot of salted water to boil. Cook the pasta until al dente, according to package directions. Before draining, reserve about a cup of cooking water. Drain and return to pot. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Toast the pepitas in a small skillet over medium heat, stirring frequently, until they are making little popping noises and turning lightly golden on the edges. Set aside to cool a bit."
+   },
+   {
+    "title": null,
+    "text": "To make the pesto, combine the herbs, jalapeño, lemon, garlic and salt in a food processor. Pour in the pepitas. Pulse a few times and then run the machine while drizzling in the olive oil until the mixture is well blended, scraping down the bowl as necessary."
+   },
+   {
+    "title": null,
+    "text": "Pour enough pesto into the pasta to lightly coat it once tossed (you might not quite need all of it). Add a small splash of pasta cooking water and toss well. Transfer the pasta to a large serving bowl and add the drained black beans, sliced cherry tomatoes, fresh corn and feta or avocado. Stir until combined. This salad tastes best after it’s had a chance to marinate for about 30 minutes, but you can serve it right away if need be."
+   }
+  ],
+  "notes": [
+   "Make it vegan/dairy free: Omit the cheese and use diced avocado instead.",
+   "Make it gluten free: Use gluten-free pasta.",
+   "Make it nut free: Be sure to use pepitas, which are seeds, rather than almonds or another nut in the pesto.",
+   "Storage suggestions: This recipe keeps well for several days in the refrigerator, covered. Leftovers are great served warm or chilled. If you want to change it up/stretch it out, add some fresh, leafy greens and a drizzle of lemony dressing."
+  ],
+  "summary": "This healthy pasta salad features bold summer flavors, including tomatoes, corn and black beans tossed in spicy, fresh pesto! It’s a great vegetarian side dish for potlucks and barbecues. See paragraph above for variations and substitution suggestions! Recipe yields about 8 cups salad, which is enough for 4 main or 8 side servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Pasta salad"
+   },
+   {
+    "at": 5,
+    "title": "Jalapeño herb pesto"
+   }
+  ]
  },
  "parser_version": 2
 }

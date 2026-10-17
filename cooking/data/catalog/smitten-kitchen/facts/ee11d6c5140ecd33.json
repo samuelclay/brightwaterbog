@@ -27,7 +27,22 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2007/07/red-pepper-soup/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Put oil in large pot. Add onion when oil is hot. Cook onions until they begin to soften and take on color. Add garlic and cook another minute. Add wine and cook down quickly and on high heat, until only one tablespoon is left. Add peppers, stock, thyme and red pepper flakes. Season to taste with salt and pepper. Cover and simmer until peppers are tender, about 30 minutes. In food processor or with an immersion blender, puree mixture in until smooth (if a food processor, in batches). Adjust seasonings to taste."
+   },
+   {
+    "title": null,
+    "text": "Soup can be served warm or chilled. Serve in demitasse cups or soup bowls, topped with a dab of crème fraîche and a tiny sprig of thyme."
+   }
+  ],
+  "notes": [
+   "Do ahead: Cover and chill overnight or for as long as 2 days or freeze (whisk well before serving if thawed)."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

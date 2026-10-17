@@ -26,7 +26,45 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/broccoli-pesto-pasta-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a large pot of salted water to boil. Add the broccoli florets and cook for 1 minute. Using a slotted spoon, transfer the broccoli to a blender."
+   },
+   {
+    "title": null,
+    "text": "Bring the water back to a boil. Add the pasta and cook until al dente, 10 to 12 minutes, or according to package directions. Drain the pasta, reserving 1 cup of the pasta water."
+   },
+   {
+    "title": null,
+    "text": "Cook the pine nuts in a small saucepan set over medium heat, moving the nuts around, until fragrant and toasted, about 3 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the pine nuts to the broccoli in the blender, along with the olives, basil, garlic, Parmesan, pepper, and ½ cup of the reserved pasta cooking water. Pulse until combined, stopping to stir as necessary."
+   },
+   {
+    "title": null,
+    "text": "With the blender running, stream in the olive oil, stopping the blender and scraping down the sides as needed, until the pesto is pureed. Taste and season with salt and additional pepper."
+   },
+   {
+    "title": null,
+    "text": "In a large bowl, toss together the pasta with your desired amount of pesto (I used all of it), thinning it with additional reserved pasta water 2 tablespoons at a time if needed. Sprinkle with some additional grated Parmesan, if you’d like."
+   },
+   {
+    "title": null,
+    "text": "Serve warm, at room temperature or chilled. Serve in individual bowls, as-is or with dollops of ricotta, sprinkle of red pepper flakes or a light drizzle of olive oil. Leftover pesto pasta keeps well in the fridge, covered, for 4 days."
+   }
+  ],
+  "notes": [
+   "This recipe comes from The Secret Ingredient Cookbook by Kelly Senyei.",
+   "Make it dairy free/vegan: Omit the Parmesan and don’t add ricotta. You might like a sprinkle of Vegan Parmesan or Vegan Sour Cream in their place, but I bet it’s lovely with just an extra drizzle of olive oil.",
+   "Make it gluten free: Substitute your favorite sturdy gluten-free noodles, such as a corn and quinoa blend.",
+   "Kelly’s leftover pesto tip: Pour it into ice cube trays, then cover securely with plastic wrap and freeze. When ready to serve, pop out a pesto cube or two and defrost in the microwave or on the stovetop with your pasta of choice."
+  ],
+  "summary": "Make this broccoli pesto pasta for a fresh and veggie-packed dinner! This recipe features broccoli, toasted pine nuts, green olives and Parmesan. The green olives disguise the broccoli flavor and bring this dish to life. Recipe yields 4 to 6 servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

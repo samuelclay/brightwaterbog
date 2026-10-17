@@ -22,7 +22,31 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/roasted-potatoes-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit with a rack in the middle of the oven. Line a large, rimmed baking sheet with parchment paper to prevent the potatoes from sticking."
+   },
+   {
+    "title": null,
+    "text": "Slice the potatoes into 2-inch chunks (slice small potatoes in half, larger potatoes into quarters, and so on). Place them on the prepared baking sheet."
+   },
+   {
+    "title": null,
+    "text": "Drizzle the olive oil over the potatoes, then sprinkle on the garlic powder, salt, and rosemary, if using. Toss with your hands until the potatoes are evenly coated in the mixture (it might seem like you don’t have enough oil, but you do—keep going!). Arrange the potatoes in an even layer across the pan with their flat edges against the pan."
+   },
+   {
+    "title": null,
+    "text": "Roast the potatoes for 40 to 45 minutes, stirring halfway, until the potatoes are deeply golden (check the undersides) and easily pierced through by a fork. Stir in the parsley, if using, and season to taste with additional salt and some black pepper (careful, the potatoes are hot). Serve promptly."
+   }
+  ],
+  "notes": [
+   "Storage suggestions: Potatoes are best when freshly roasted, but will keep in the fridge for up to 4 days. Gently reheat in the oven or microwave.",
+   "How to scale: You can bake up to three pounds of potatoes on a half-sheet pan if you increase the other quantities by 50 percent (the potatoes) might not get quite as crisp and will likely need a few extra minutes in the oven). Do not uses over three pounds of potatoes per baking sheet, or the potatoes will steam rather than roast. You can, however, roast two pans at once by placing the racks in the upper and lower thirds of the oven. When you toss the potatoes halfway, swap the pans’ positions (the pan on the upper rack goes to the lower rack and vice versa). Keep an eye on them as one pan, typically on the upper rack, may finish baking a bit sooner than the other."
+  ],
+  "summary": "These golden roasted potatoes are the perfect side dish! The fresh herbs are optional, but quite nice. Recipe yields about 4 generous side servings (see note for multiplying the recipe).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

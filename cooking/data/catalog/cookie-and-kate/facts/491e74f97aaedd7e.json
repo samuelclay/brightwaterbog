@@ -22,7 +22,28 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/fresh-pineapple-salsa-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium serving bowl, combine the pineapple, bell pepper, onion, cilantro, and jalapeño. Add the lime juice and salt, and stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Season to taste with additional lime juice (for zing) and/or salt (for more overall flavor) if it doesn’t taste amazing just yet."
+   },
+   {
+    "title": null,
+    "text": "For best flavor, let the pico de gallo rest for 10 minutes or longer before serving. It’s best served fresh but keeps well, chilled, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Recipe originally published in my cookbook, Love Real Food.",
+   "*Spice level note: I would say that this salsa is well-balanced as written. If you’re worried about the spice level, though, use half of the jalapeño and be sure to remove the ribs and seeds. If you want spicier salsa, add up to two peppers, to taste.",
+   "Change it up: Pineapple alternatives include diced mango, strawberries, cucumber, melon, or, of course, tomatoes (the bell pepper is optional in those variations)."
+  ],
+  "summary": "This fresh pineapple salsa recipe will be a big hit at your next party! It’s a little sweet, a little spicy, and 100% delicious. It’s easy to make, too. Recipe yields 3 ½ cups; double it if you’re serving a crowd (1 extra-large pineapple should be just right).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

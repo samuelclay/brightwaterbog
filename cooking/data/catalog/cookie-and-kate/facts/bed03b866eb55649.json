@@ -1,6 +1,73 @@
 {
  "url": "https://cookieandkate.com/broccoli-arugula-lentil-salad-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Lemony Roasted Broccoli, Arugula and Lentil Salad",
+  "ingredients": [
+   "1 large bunch of broccoli",
+   "¾ pound Brussels sprouts (or more broccoli)",
+   "2 tablespoons extra-virgin olive oil",
+   "¼ teaspoon fine sea salt",
+   "½ cup black beluga lentils (or green/Puy lentils), picked through for debris and rinsed",
+   "1 ¼ cups water",
+   "4 big handfuls of arugula",
+   "½ cup freshly grated Parmesan cheese",
+   "2 tablespoons extra-virgin olive oil",
+   "1 tablespoon lemon juice, to taste",
+   "1 teaspoon honey",
+   "1 teaspoon Dijon mustard",
+   "1 clove garlic, pressed or minced",
+   "Pinch of red pepper flakes",
+   "¼ teaspoon fine sea salt",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "2 to 4",
+  "cook_time": "50 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/broccoli-arugula-lentil-salad-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 425 degrees Fahrenheit and line your largest rimmed baking sheet with parchment paper for easy-clean-up. Cut the broccoli florets into bite-sized pieces. Trim the ends off the sprouts; cut the small sprouts in two through the stem, and the large sprouts into quarters."
+   },
+   {
+    "title": null,
+    "text": "Toss the florets and sprouts in the olive oil so they are lightly coated, and sprinkle with the salt. Spread the florets and sprouts in a single layer on the baking sheet (be sure not to overcrowd). Bake for 24 to 28 minutes, tossing halfway, until the vegetables are crisp-tender and well caramelized on the edges."
+   },
+   {
+    "title": null,
+    "text": "In the meantime, bring the water to a boil in a medium saucepan. Stir in the lentils. Reduce the heat, cover and simmer for 20 to 25 minutes, until the lentils are tender but still retain their shape. Drain off any excess water."
+   },
+   {
+    "title": null,
+    "text": "Whisk together the vinaigrette ingredients while the roasted vegetables and lentils cool a bit."
+   },
+   {
+    "title": null,
+    "text": "In a large serving bowl, combine the roasted vegetables, cooked lentils and arugula. Drizzle with vinaigrette, sprinkle in the Parmesan and toss well. Taste and add more lemon juice (for more zing), salt (for more overall flavor), and/or pepper, if needed. This salad is best served immediately."
+   }
+  ],
+  "notes": [
+   "Storage suggestions: Salad is best served immediately, but you can store leftovers in the fridge, covered, and brighten them up with another squeeze of lemon when you’re ready to polish them off. For best results, store the dressing separately from the greens until you are ready to serve.",
+   "Make it dairy free/vegan: Substitute vegan Parmesan, to taste. Vegans, use maple syrup instead of honey in the salad dressing."
+  ],
+  "summary": "This healthy and delicious salad features tender roasted broccoli and Brussels sprouts, protein-rich lentils, fresh arugula, and grated Parmesan tossed in a simple lemon dressing. Recipe yields 2 quite large, entrée-sized salads or 4 medium side salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 8,
+    "title": "Lemon Dressing"
+   }
+  ]
+ }
 }

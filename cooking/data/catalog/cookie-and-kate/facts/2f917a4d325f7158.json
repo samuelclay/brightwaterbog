@@ -24,7 +24,49 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/gluten-free-apple-tart-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the crust: Preheat the oven to 350 degrees Fahrenheit and lightly grease a 9″ tart pan (even if your pan is non-stick). In a medium mixing bowl, combine the almond flour, oat flour and salt, and stir to combine. Drizzle in the butter and maple syrup, and stir until the mixture is moistened throughout."
+   },
+   {
+    "title": null,
+    "text": "Dump the mixture onto the prepared tart pan. Press the mixture evenly across the base, then use the heel of your palm to press it up the sides as well. Use your fingers to try to make the dough along the sides even in height and depth (see photo). Prick the base of the crust all over with a fork to prevent it from bubbling up. Bake for 10 to 12 minutes, until it’s lightly firm to the touch and just starting to turn golden at the edges. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, to prepare the filling: Peel the apples (or don’t, for more color) and cut them into slices ⅛″ thick. Transfer the slices to a medium mixing bowl and add just 1 tablespoon of the maple syrup, and the lemon juice and cinnamon. Toss until the mixture is evenly distributed."
+   },
+   {
+    "title": null,
+    "text": "Arrange the apple slices across the base however you’d like, overlapping them as much as possible (I tried to arrange mine like a rose and had a few apple slices left over). Reserve the maple syrup/lemon mixture at the bottom of the bowl for brushing the apples later."
+   },
+   {
+    "title": null,
+    "text": "Bake the tart for 25 minutes, then pull it out of the oven and gently brush the remaining maple syrup/lemon mixture over the apples (it’s fine if you push some of the slices down in the process). Return the tart to the oven and bake for another 15 to 20 minutes, until the apples are very tender and the crust is deeply golden around the edges. While the tart is still hot, gently brush the remaining 2 tablespoons maple syrup over the apples."
+   },
+   {
+    "title": null,
+    "text": "Let the tart cool for at least 15 minutes. If you’d like, sift or sprinkle a little extra cinnamon over the top. If you used a tart pan with a removable bottom, remove the sides. Use a sharp chef’s nice to slice the tart into even wedges and serve."
+   }
+  ],
+  "notes": [
+   "*How to make your own oat flour: Simply pour at least 1 cup old-fashioned or quick-cooking oats into a food processor or blender and blend until it is a very fine flour.",
+   "Make it dairy free and vegan: Use coconut oil instead of butter.",
+   "If you love this recipe: Check out my healthy apple muffins and homemade applesauce."
+  ],
+  "summary": "This delicious apple tart features an easy crust made with almond and oat flour. It’s gluten free and easily made vegan/dairy free, too (just use coconut oil instead of butter). Recipe yields one 9-inch tart, enough for 6 to 8 slices.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Almond-oat crust"
+   },
+   {
+    "at": 5,
+    "title": "Apple filling"
+   }
+  ]
  },
  "parser_version": 2
 }

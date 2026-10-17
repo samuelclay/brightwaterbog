@@ -1,6 +1,59 @@
 {
  "url": "https://cookieandkate.com/banana-nut-waffles/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Banana Nut Waffles",
+  "ingredients": [
+   "1 ½ cups white whole wheat flour or regular whole wheat flour",
+   "2 tablespoons sugar (cane sugar or brown sugar)",
+   "2 teaspoons aluminum-free baking powder",
+   "½ teaspoon sea salt",
+   "¼ teaspoon nutmeg",
+   "¾ cup chopped walnuts or pecans",
+   "⅓ cup melted coconut oil",
+   "¾ cup milk of choice, lukewarm",
+   "¾ cup overripe mashed bananas (about 2 small bananas), plus more for topping",
+   "1 large egg",
+   "½ teaspoon vanilla extract"
+  ],
+  "yield_text": "4",
+  "cook_time": "20 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/banana-nut-waffles/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat waffle iron on high heat, about one notch down from the highest setting. Preheat oven to 250 degrees Fahrenheit."
+   },
+   {
+    "title": null,
+    "text": "In a medium bowl, whisk together the flour, sugar, baking powder, sea salt and nutmeg. Stir in the chopped walnuts."
+   },
+   {
+    "title": null,
+    "text": "In a microwave-safe bowl, combine the melted coconut oil and milk. Microwave for 30 seconds, or until the mixture is lukewarm. Whisk in mashed banana, egg, and vanilla extract."
+   },
+   {
+    "title": null,
+    "text": "Add wet ingredients to dry ingredients and stir until just combined. Be careful not to overmix. Tiny lumps may remain. Pour batter onto the heated waffle iron, enough to cover the center and most of the central surface area. Once the iron has stopped steaming and the waffle is deeply golden, transfer it to a cooling rack or baking sheet. Don’t stack your waffles on top of each other, or they’ll lose crispness. Place in oven to keep warm. Repeat."
+   },
+   {
+    "title": null,
+    "text": "Top with sliced bananas and pure maple syrup, and serve. Save leftovers in the fridge and reheat by placing the waffle back in the griddle or in the toaster on a light setting."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from King Arthur’s whole wheat waffles.",
+   "Ingredient notes: I tried making this recipe using butter instead of coconut oil and replaced ½ cup whole wheat flour with ½ cup oat flour, but the resulting waffles were not as crisp. I liked the version typed above the best."
+  ],
+  "summary": "Light and crisp, whole wheat banana nut waffles. Recipe yields around 5 round, 7-inch Belgian waffles, or 8 small, square Belgian waffles (as shown here).",
+  "ingredient_groups": []
+ }
 }

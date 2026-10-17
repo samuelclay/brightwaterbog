@@ -22,7 +22,38 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/simple-breakfast-tostadas-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the crispy tortillas: Preheat the oven to 400 degrees Fahrenheit with two racks placed near the middle of the oven. Line two large rimmed baking sheets with parchment paper for easy cleanup, if you’d like."
+   },
+   {
+    "title": null,
+    "text": "On the baking sheets, brush both sides of each tortilla lightly with oil. Arrange 4 tortillas in a single layer across each pan. Bake for 10 to 12 minutes, turning halfway, until each tortilla is golden and lightly crisp. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, prepare the remaining components (refried beans, pico de gallo, and eggs, cooked to your liking)."
+   },
+   {
+    "title": null,
+    "text": "To assemble, spread warm refried beans over each tostada. Top with a sprinkle of cheese, cooked egg(s) and use a slotted spoon or serving fork to top the eggs with pico de gallo. Top with any optional garnishes you’d like, and serve promptly."
+   },
+   {
+    "title": null,
+    "text": "Tostadas are best enjoyed fresh, since the tortillas will lose their crispness with time. However, the leftovers are still good to me! They’ll keep for about 3 days in the refrigerator. If you have leftover refried beans and/or pico de gallo, they both make a great dip for tortilla chips or filling for quesadillas or burritos."
+   }
+  ],
+  "notes": [
+   "Make it quick: If you’re in a hurry, warmed store-bought refried beans will do. You could also replace the pico de gallo with store-bought salsa, gently warmed.",
+   "Prepare in advance: You can make the beans and pico de gallo in advance. Gently reheat the beans and let the pico de gallo come to room temperature while you’re working on the tortillas and eggs.",
+   "Make it gluten free: Use certified gluten-free corn tortillas.",
+   "Make it vegan/egg free: These tostadas are still quite filling without the eggs.",
+   "Make it dairy free: Don’t add cheese! My fried eggs are made without any dairy products."
+  ],
+  "summary": "These breakfast tostadas are perfect for weekend brunch or weekday dinners! They’re fresh and filling, but won’t weigh you down. Vegetarian and gluten free. Recipe yields 8 breakfast tostadas, enough for 4 hearty servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

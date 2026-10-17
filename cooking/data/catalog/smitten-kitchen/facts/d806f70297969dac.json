@@ -34,7 +34,31 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2007/07/pearl-couscous-with-olives-and-roasted-tomatoes/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Prepare tomatoes: Heat oven to 300°F. Halve tomatoes through stem ends and arrange, cut sides up, in 1 layer on a large baking sheet. Add garlic to pan and drizzle both tomatoes and garlic lightly with oil (about 1 tablespoon). Sprinkle with salt. Roast in middle of oven until tomatoes are slightly shriveled around edges, about 1 hour. Cool in pan on a rack 20 to 30 minutes."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, make couscous: Bring broth to a boil in a 3-quart heavy saucepan and stir in couscous, then simmer, uncovered, 6 minutes. Cover pan and remove from heat. Let stand 10 minutes. Spread couscous in one layer on a baking sheet or plate and cool 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "When tomatoes are done, make dressing: Peel garlic and puree with 1/4 cup oil, water, lemon juice, 1 teaspoon salt, 1/4 pepper, and 1/2 cup roasted tomatoes in a blender until dressing is very smooth. Adjust seasonings to taste."
+   },
+   {
+    "title": null,
+    "text": "Assemble and serve: Transfer cooled couscous to a bowl and stir in olives, roasted tomatoes, herbs, and dressing. Season to taste with more salt and pepper as needed."
+   }
+  ],
+  "notes": [
+   "Do ahead: Roasted tomatoes, dressing, and couscous can be made 1 day ahead and kept separately, covered and chilled. Bring to room temperature before proceeding.",
+   "This recipe was refreshed with new photos (and a certain hungry toddler interruption) in June 2017. My primary changes were to bump up the roasted temperature to get the tomatoes more cooked in the hour, to season the tomatoes and slightly rearrange the process to make it more logical. Still a potluck/picnic favorite!"
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

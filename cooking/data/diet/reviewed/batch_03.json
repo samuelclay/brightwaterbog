@@ -1,0 +1,242 @@
+{
+ "71990769036497": {
+  "vegan": true,
+  "why": "cheese marked omit to make vegan"
+ },
+ "165414554738732": {
+  "vegan": true,
+  "why": "butter or olive oil"
+ },
+ "124058822906003": {
+  "vegan": true,
+  "why": "only animal item is optional hard-boiled eggs; ciabatta vegan"
+ },
+ "105371992914251": {
+  "vegan": true,
+  "why": "honey or brown sugar"
+ },
+ "30683476176962": {
+  "vegan": true,
+  "why": "olive oil alternative to butter"
+ },
+ "104075967447407": {
+  "vegan": true,
+  "why": "honey or agave (agave offered)"
+ },
+ "166683901832603": {
+  "vegan": true,
+  "why": "parmesan is optional"
+ },
+ "169261532911001": {
+  "vegan": true,
+  "why": "parmesan is optional; dried pasta"
+ },
+ "158318352119496": {
+  "vegan": true,
+  "why": "honey or agave (agave offered)"
+ },
+ "240889808395207": {
+  "vegan": true,
+  "why": "pecorino/parmesan is optional"
+ },
+ "26441198741818": {
+  "vegan": true,
+  "why": "cheese optional, skip to keep vegan"
+ },
+ "89448837851036": {
+  "vegan": true,
+  "why": "honey or brown sugar"
+ },
+ "18572874965480": {
+  "vegan": true,
+  "why": "mayo or another dressing (plant option available)"
+ },
+ "221462681567014": {
+  "vegan": true,
+  "why": "cotija is optional"
+ },
+ "9930415065146": {
+  "vegan": true,
+  "why": "honey or maple syrup"
+ },
+ "52311868642911": {
+  "vegan": true,
+  "why": "butter or coconut oil"
+ },
+ "135491024799817": {
+  "vegan": true,
+  "why": "honey or maple syrup; rice paper wrappers"
+ },
+ "41869246270179": {
+  "vegan": true,
+  "why": "ice cream offered with dairy-free alternative"
+ },
+ "154808399012286": {
+  "vegan": true,
+  "why": "honey or maple syrup"
+ },
+ "171586077877054": {
+  "vegan": true,
+  "why": "feta optional; honey or maple syrup"
+ },
+ "42514301948690": {
+  "vegan": false,
+  "why": "butter, yogurt/sour cream, parmesan in crust and filling"
+ },
+ "176224846608082": {
+  "vegan": false,
+  "why": "parmesan or pecorino, not optional"
+ },
+ "165620098294531": {
+  "vegan": false,
+  "why": "unsalted butter required"
+ },
+ "112517618760046": {
+  "vegan": false,
+  "why": "feta required"
+ },
+ "141185626869476": {
+  "vegan": false,
+  "why": "butter required (brown butter crumbs)"
+ },
+ "147830321512918": {
+  "vegan": false,
+  "why": "feta/queso fresco/ricotta salata, all dairy"
+ },
+ "253555743740518": {
+  "vegan": false,
+  "why": "butter required (goat cheese garnish optional)"
+ },
+ "34280520288156": {
+  "vegan": false,
+  "why": "gruyere, pecorino, mozzarella"
+ },
+ "163081100654565": {
+  "vegan": false,
+  "why": "butter required"
+ },
+ "196134315285893": {
+  "vegan": false,
+  "why": "goat cheese, not optional"
+ },
+ "231400568787037": {
+  "vegan": false,
+  "why": "cheddar and butter"
+ },
+ "179610682954899": {
+  "vegan": false,
+  "why": "parmesan or pecorino, both dairy"
+ },
+ "53153887742583": {
+  "vegan": false,
+  "why": "mozzarella or bocconcini"
+ },
+ "262304372818460": {
+  "vegan": false,
+  "why": "parmesan, to taste, not optional"
+ },
+ "123796616854116": {
+  "vegan": false,
+  "why": "pecorino required"
+ },
+ "32839724828440": {
+  "vegan": false,
+  "why": "Pecorino or Parmesan, both dairy"
+ },
+ "206349373826770": {
+  "vegan": false,
+  "why": "parmesan or pecorino romano required"
+ },
+ "224751487599243": {
+  "vegan": false,
+  "why": "butter required (cheese optional)"
+ },
+ "229324878475507": {
+  "vegan": false,
+  "why": "butter, milk, parmesan"
+ },
+ "202146792983184": {
+  "vegan": false,
+  "why": "parmesan, to taste, not optional"
+ },
+ "179924799214930": {
+  "vegan": false,
+  "why": "ricotta salata required"
+ },
+ "214092324551485": {
+  "vegan": false,
+  "why": "cheddar required (also buttered bread)"
+ },
+ "154481909395247": {
+  "vegan": false,
+  "why": "provolone or pecorino cheese required"
+ },
+ "95184174422447": {
+  "vegan": false,
+  "why": "dried egg noodles"
+ },
+ "119049169743137": {
+  "vegan": false,
+  "why": "mozzarella and pecorino/parmesan"
+ },
+ "32198849070102": {
+  "vegan": false,
+  "why": "parmesan/pecorino and mozzarella"
+ },
+ "273898698792792": {
+  "vegan": false,
+  "why": "butter, cream/creme fraiche, parmesan"
+ },
+ "25592606391271": {
+  "vegan": false,
+  "why": "feta or ricotta salata required"
+ },
+ "234128394743877": {
+  "vegan": false,
+  "why": "heavy cream or yogurt dollops, not marked optional"
+ },
+ "50062138204526": {
+  "vegan": false,
+  "why": "store-bought dumpling wrappers contain egg"
+ },
+ "273736709944328": {
+  "vegan": false,
+  "why": "ricotta/goat cheese/feta/mascarpone, all dairy"
+ },
+ "20867523383122": {
+  "vegan": false,
+  "why": "ricotta salata required"
+ },
+ "191109484480238": {
+  "vegan": false,
+  "why": "Monterey Jack or cheddar required"
+ },
+ "240655505923850": {
+  "vegan": false,
+  "why": "parmesan or pecorino required"
+ },
+ "77050427919083": {
+  "vegan": false,
+  "why": "parmesan required"
+ },
+ "185144011116919": {
+  "vegan": false,
+  "why": "gruyere, fontina, parmesan cheeses"
+ },
+ "17492181944031": {
+  "vegan": false,
+  "why": "feta or goat cheese required"
+ },
+ "215444003409110": {
+  "vegan": false,
+  "why": "Parmesan required"
+ },
+ "118278831968011": {
+  "vegan": false,
+  "why": "cotija/queso fresco/feta required"
+ },
+ "43366002173426": {
+  "vegan": false,
+  "why": "ricotta salata or feta required"
+ }
+}

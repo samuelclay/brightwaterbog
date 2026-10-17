@@ -30,7 +30,41 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/herbed-quinoa-chickpea-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the quinoa: Combine the rinsed quinoa and the water in a medium saucepan. Bring the mixture to a boil over medium-high heat, then decrease the heat to maintain a gentle simmer. Cook until the quinoa has absorbed all of the water, about 15 minutes, reducing heat as time goes on to maintain a gentle simmer. Remove from heat, cover, and let the quinoa rest for 5 minutes, which gives it time to fluff up."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, toast the pepitas in a small skillet over medium heat, stirring frequently, until fragrant and making little popping noises, about 5 minutes. Transfer them to a large serving bowl to cool for a few minutes (we’ll add more to the bowl in a minute)."
+   },
+   {
+    "title": null,
+    "text": "To make the dressing: In a small bowl, combine the olive oil, 3 tablespoons lemon juice, tahini, garlic, salt and several twists of freshly ground pepper. Taste, and add up to 1 more tablespoon of lemon juice and/or more pepper, if necessary (I like my dressing pretty zippy for this salad, so I used the full 4 tablespoons)."
+   },
+   {
+    "title": null,
+    "text": "Once the quinoa is ready to use, add it to the large bowl. Add the chickpeas, spinach, parsley, cilantro, green onion, feta and toasted pepitas. Drizzle all of the dressing over the salad, and toss to combine. Serve immediately, or let it cool and refrigerate for later. This salad keeps well in the refrigerator, covered, for up to 3 days."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Omit the feta. You might like to add some thinly sliced Kalamata olives to make up for it.",
+   "Change it up: You could add shredded carrots and/or top with diced avocado.",
+   "If you love this recipe: You’ll also love my Greek Lentil Salad and Sun-Dried Tomato, Spinach and Quinoa Salad."
+  ],
+  "summary": "This fresh, herbed quinoa and chickpea salad makes a satisfying lunch. It’s also a great side dish for holidays and potlucks. Recipe yields 2 large, meal-sized portions or 4 side salads (you could easily double or triple this recipe).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 9,
+    "title": "Lemon-tahini dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

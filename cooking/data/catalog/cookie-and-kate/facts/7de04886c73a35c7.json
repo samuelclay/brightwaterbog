@@ -33,7 +33,78 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/best-vegetable-lasagna-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit."
+   },
+   {
+    "title": null,
+    "text": "To prepare the veggies: In a large skillet over medium heat, warm the olive oil. Once shimmering, add the carrots, bell pepper, zucchini, yellow onion, and salt. Cook, stirring every couple of minutes, until the veggies are golden on the edges, about 8 to 12 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add a few large handfuls of spinach. Cook, stirring frequently, until the spinach has wilted. Repeat with remaining spinach and cook until all of the spinach has wilted, about 3 minutes. Remove the skillet from the heat and set aside."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, to prepare the tomato sauce: Pour the tomatoes into a mesh sieve or fine colander and drain off the excess juice for a minute. Then, transfer the drained tomatoes to the bowl of a food processor. Add the basil, olive oil, garlic, salt, and red pepper flakes."
+   },
+   {
+    "title": null,
+    "text": "Pulse the mixture about 10 times, until the tomatoes have broken down to an easily spreadable consistency. Pour the mixture into a bowl for later (you should have a little over 2 cups sauce). Rinse out the food processor and return it to the machine."
+   },
+   {
+    "title": null,
+    "text": "Pour half of the cottage cheese (1 cup) into the processor and blend it until smooth, about 1 minute. Transfer the mixture to large mixing bowl. No need to rinse out the bowl of the food processor this time; just put it back onto the machine because you’ll need it later."
+   },
+   {
+    "title": null,
+    "text": "Transfer the cooked veggies and spinach mixture to the bowl of the food processor. Pulse until they are more finely chopped (but not puréed!), about 5 to 7 times, stopping to scrape down the sides as necessary. Transfer the mixture to the bowl of whipped cottage cheese. Top with the remaining cottage cheese, then add ¼ to ½ teaspoon salt (to taste) and lots of freshly ground black pepper. Stir to combine. Now it’s lasagna assembly time!"
+   },
+   {
+    "title": null,
+    "text": "Spread ½ cup tomato sauce evenly over the bottom of a 9” by 9” baking dish. Layer 3 lasagna noodles on top (snap off their ends to fit, and/or overlap their edges as necessary). Spread half of the cottage cheese mixture evenly over the noodles. Top with ¾ cup tomato sauce, then sprinkle ½ cup shredded cheese on top."
+   },
+   {
+    "title": null,
+    "text": "Top with 3 more noodles, followed by the remaining cottage cheese mixture (we’re skipping the tomato sauce in this layer.) Sprinkle ½ cup shredded cheese on top."
+   },
+   {
+    "title": null,
+    "text": "Top with 3 more noodles, then spread ¾ cup tomato sauce over the top (you may have a little sauce leftover) to evenly cover the noodles. Sprinkle evenly with 1 cup shredded cheese."
+   },
+   {
+    "title": null,
+    "text": "Wrap a sheet of parchment paper or foil around the top of the lasagna (don’t let it come into contact with the cheese). Bake, covered, for 18 minutes, then remove the cover, rotate the pan by 180° and continue cooking for about 10 to 15 more minutes, until the top is turning spotty brown."
+   },
+   {
+    "title": null,
+    "text": "Remove from oven and let the lasagna cool for 15 to 20 minutes, so it has time to set and cool down to a reasonable temperature. Sprinkle additional basil over the top, then slice and serve."
+   }
+  ],
+  "notes": [
+   "*Lasagna noodle recommendations: I like to use DeLallo’s or Whole Foods’ 365 No-Boil Lasagna Noodles. See below for gluten-free suggestions.",
+   "Change it up: Feel free to play around with the vegetables here. You’ll want to use about 3 cups chopped veggies total (excluding the onion). Mushrooms or butternut squash might be nice!",
+   "Make it gluten free: Substitute gluten-free lasagna noodles. Choose no-boil (oven ready) noodles if possible; if not, cook them according to package directions. (Fair warning, I tried using DeBoles brand of no-bake lasagna noodles and they weren’t done cooking in the time specified here. Reheated leftovers were ok, though.)",
+   "Make it dairy free/vegan: Double the recipe for my vegan sour cream (also available in my cookbook, page 217) and use 2 cups instead of the cottage cheese. Skip the step where you would blend the cottage cheese and just barely blend the spinach/veggies into the sour cream. Omit the mozzarella and use all of the tomato sauce for the final layer. Serve the lasagna with a dollop of additional sour cream on top or, better yet, my basil pesto."
+  ],
+  "summary": "Seriously the best veggie lasagna! This lasagna recipe is packed with bell pepper, zucchini and carrots, sautéed until golden and tender on the edges. Recipe yields one 9-inch lasagna, enough for 8 slices.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Veggies and spinach"
+   },
+   {
+    "at": 7,
+    "title": "Tomato sauce (or substitute 2 cups prepared marinara sauce)"
+   },
+   {
+    "at": 13,
+    "title": "Remaining ingredients"
+   }
+  ]
  },
  "parser_version": 2
 }

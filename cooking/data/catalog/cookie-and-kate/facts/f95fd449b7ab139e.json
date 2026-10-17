@@ -1,6 +1,56 @@
 {
  "url": "https://cookieandkate.com/gluten-free-buckwheat-waffles/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Gluten-Free Buckwheat Waffles",
+  "ingredients": [
+   "1 cup buckwheat flour",
+   "1 tablespoon sugar",
+   "1 ¼ teaspoons baking powder",
+   "1 teaspoon baking soda",
+   "¼ teaspoon salt",
+   "¼ teaspoon cinnamon",
+   "1 ¼ cups buttermilk, shaken (see notes to learn how to make your own with any kind of milk)",
+   "¼ cup (4 tablespoons) melted butter or coconut oil",
+   "1 large egg",
+   "Topping suggestions: maple syrup, almond butter and/or fresh banana slices"
+  ],
+  "yield_text": "5 small waffles",
+  "cook_time": "20 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/gluten-free-buckwheat-waffles/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat your waffle iron. If desired, preheat oven to 200 degrees Fahrenheit to keep waffles warm until you’re ready to serve."
+   },
+   {
+    "title": null,
+    "text": "In a medium-sized mixing bowl, whisk together the buckwheat flour, sugar, baking powder, baking soda, salt and cinnamon."
+   },
+   {
+    "title": null,
+    "text": "In a liquid measuring cup or another bowl, whisk together the buttermilk, melted butter and egg. Pour the wet mixture into the dry mixture and stir them together until there are only a few small lumps remaining. Give it a few more stirs if you see any liquid that hasn’t fully incorporated. Commenter Monisha says her waffles turn out lighter and more crispy if she lets the batter rest for 5 to 10 minutes, so you might want to give that a try."
+   },
+   {
+    "title": null,
+    "text": "Pour batter onto the hot waffle iron plates, close the waffle iron and cook until the waffles are barely letting off steam and they are lightly crisp to the touch (this might take longer than your waffle iron suggests). Carefully lift waffle out of the waffle iron and serve immediately or place in the oven to keep warm. Avoid stacking the waffles or they will lose their crispness. Repeat with remaining batter as necessary. Serve with maple syrup, almond butter and/or sliced banana on top."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my buckwheat pancakes.",
+   "How to make your own buttermilk: Measure 1 tablespoon + ¾ teaspoon vinegar into a 2-cup capacity liquid measuring cup. Pour in any variety of milk until you reach the 1 and ¼ cups line (regular cow’s milk, almond, soy, oat, rice, low-fat coconut milk should all work). Let the “buttermilk” rest for 5 minutes before using.",
+   "Make it dairy free: Make your own buttermilk with non-dairy milk and use coconut oil instead of butter.",
+   "Storage suggestions: These waffles freeze very well in sealed, freezer-safe bags. Just pop them in the toaster to warm them up."
+  ],
+  "summary": "This simple, 100 percent buckwheat flour recipe yields light and crisp waffles that are nice and fluffy on the inside! This recipe yields waffles for two to three people, so multiply the recipe as needed.",
+  "ingredient_groups": []
+ }
 }

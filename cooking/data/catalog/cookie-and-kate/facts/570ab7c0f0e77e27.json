@@ -33,7 +33,63 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/butternut-squash-wild-rice-stuffing-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper for easy clean-up, if desired."
+   },
+   {
+    "title": null,
+    "text": "Cook the wild rice: Bring a large pot of water to boil (or see Instant Pot option provided in notes). Add the rinsed rice and continue cooking, reducing heat as necessary to maintain a lively simmer, for 40 minutes to 55 minutes. It’s done when the rice is pleasantly tender but still offers a light resistance to the bite. Remove from heat, drain the rice and return the rice to the pot."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, roast the butternut: Place the cubed butternut squash on your rimmed baking sheet. Drizzle it with the olive oil and sprinkle with the salt. Toss until the cubes are lightly and evenly coated in oil. Arrange them in a single layer and roast for 35 to 50 minutes, tossing after 20 minutes, until they are starting to turn golden on the edges and tender when pierced through with a fork."
+   },
+   {
+    "title": null,
+    "text": "While the wild rice and butternut cook, prepare all of the remaining components. Chop the kale and green onion, remove the arils from the pomegranate, and whisk together all of the dressing ingredients in a small bowl."
+   },
+   {
+    "title": null,
+    "text": "To toast the pepitas, combine the pepitas, 1 teaspoon olive oil, ¼ teaspoon each salt and cinnamon in a small skillet. Stir to combine, and cook over medium heat until the pepitas are starting to turn golden on the edges and making little popping noises, about 3 to 5 minutes. Remove the skillet from the heat and set aside."
+   },
+   {
+    "title": null,
+    "text": "When the wild rice is finished cooking and still warm, stir in the kale, half of the green onions, and all of the ginger dressing. Spread the mixture over a large serving platter (or use a large serving bowl, if need be)."
+   },
+   {
+    "title": null,
+    "text": "Arrange the butternut squash over the wild rice mixture. Crumble the goat cheese on top with a fork. Top with the pomegranate arils, toasted pepitas, and the remaining green onions. Serve."
+   },
+   {
+    "title": null,
+    "text": "This salad is good warm or at room temperature. It will keep well in the refrigerator for up to 5 days. Gently reheat leftover servings in the microwave, if desired."
+   }
+  ],
+  "notes": [
+   "*Wild rice note: You’ll see a wild rice blend in my photos, but after further testing I recommend using regular wild rice instead. If you would like to go ahead and use wild rice blend anyway, cook it according to the package directions.",
+   "Make it quick: Instead of preparing the butternut squash and pomegranate yourself, buy pre-cut options instead. Use two 12-ounce bags of pre-sliced butternut and 1 cup pomegranate arils. Or, use dried cranberries instead of pomegranate. You can cook the wild rice more quickly if you have an Instant Pot (see below).",
+   "Instant Pot option: Add the wild rice and 2 ½ cups water to the Instant Pot. Secure the lid and move the steam release valve to Sealing. Select the Manual/Pressure Cook option and cook on high pressure for 22 minutes. When the cooking cycle is complete, let the pressure naturally release for 10 minutes, then move the steam release valve to Venting to release any remaining pressure. When the floating valve drops, remove the lid and give the rice a stir. Remove the pot from the heat, and stir in the ginger dressing, kale, and half of the green onion while the rice is still warm.",
+   "Change it up: Substitute sweet potato for the butternut, or 1 to 2 cloves garlic for the ginger. Any whole grain will work in place of the wild rice—farro would be good, or maybe quinoa. If you don’t like goat cheese, try feta. Don’t love kale? Omit it altogether or substitute a few handfuls of arugula instead. Love kale? I think you could use the full bunch, no problem. Instead of pepitas, you could use pistachios or pecans (toasted then chopped).",
+   "Make it dairy free/vegan: Simply omit the goat cheese (or serve it on the side if accommodating guests with different dietary restrictions/preferences). You might like to serve individual servings with a dollop of vegan sour cream to make up for goat cheese’s creamy, tangy qualities."
+  ],
+  "summary": "This vibrant vegetarian stuffing recipe features roasted butternut squash, kale, pomegranate and wild rice. It’s a beautiful dish for your holiday table! This recipe yields 6 to 12 servings (a lot!). You can cut this recipe in half, if desired.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Wild Rice* and Toppings"
+   },
+   {
+    "at": 9,
+    "title": "Roasted Butternut Squash"
+   },
+   {
+    "at": 12,
+    "title": "Ginger Dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

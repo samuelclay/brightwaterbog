@@ -1,6 +1,62 @@
 {
  "url": "https://cookieandkate.com/blood-orange-curd-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Honey-Sweetened Citrus Curd",
+  "ingredients": [
+   "4 tablespoons unsalted butter, cut into small pieces",
+   "⅓ cup honey",
+   "4 large egg yolks",
+   "2 large eggs",
+   "⅔ cup fresh blood orange or lemon juice (about 4-6 blood oranges or 6-8 lemons). Be sure to zest the citrus before juicing it!",
+   "1 tablespoon finely grated blood orange or lemon zest"
+  ],
+  "yield_text": "2 cups",
+  "cook_time": "12 minutes",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/blood-orange-curd-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium bowl, cream the butter and honey until fluffy."
+   },
+   {
+    "title": null,
+    "text": "Beat in the eggs slowly."
+   },
+   {
+    "title": null,
+    "text": "Pour in the fresh citrus juice, and pour the mixture into a medium-sized, non-reactive saucepan."
+   },
+   {
+    "title": null,
+    "text": "Cook over moderate (medium-low) heat, stirring constantly with a wooden spoon. Cook until the mixture has thickened and becomes jelly-like, which took about 5 to 7 minutes for me. This happens in a flash so pay attention! You really want to let it teeter on the edge of boiling, but pull the pan off the stove before it gets to a rolling boil. It’s done when your finger leaves a clear path on the back of a wooden spoon (be careful, it’s hot!)."
+   },
+   {
+    "title": null,
+    "text": "Immediately remove from heat and stir in the citrus zest. No straining required!"
+   },
+   {
+    "title": null,
+    "text": "Pour the curd into a glass jar(s) and let it cool completely before you screw on the lid(s). Store the curd in the refrigerator."
+   }
+  ],
+  "notes": [
+   "Adapted from Green Market Baking Book and Fine Cooking’s foolproof method for lemon curd.",
+   "Yields 2 cups of curd.",
+   "Since you’re using citrus zest, it really is best to buy organic citrus fruits. I also recommend buying fresh, organic eggs (always). They taste better!",
+   "Wondering what to do with those extra egg whites? These macaroons (my favorite cookies!) will use up three of them!",
+   "Fine Cooking says that curd freezes well, so you can save extra for later! They say that it does not freeze solid so it’s easy to scoop out what you need.",
+   "Suggested uses for citrus curds: Serve on honey or molasses bread, buttered toast, scones, pound cake, gingerbread, shortbread, or molasses cookies, either on its own or with a dollop of whipped cream, crème fraiche, cream cheese, vanilla ice cream or Greek yogurt (as shown). It also makes a great filling for tarts, crêpes, stuffed French toast and sandwich cookies! It would be a lovely addition to a berry parfait as well. The options are limitless!"
+  ],
+  "summary": "Easy recipes for luscious, honey-sweetened blood orange curd and Meyer lemon curd. No straining required!",
+  "ingredient_groups": []
+ }
 }

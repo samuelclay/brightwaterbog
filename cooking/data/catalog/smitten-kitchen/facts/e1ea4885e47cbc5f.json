@@ -14,7 +14,13 @@
    "10-inch flour tortillas",
    "1 cup shredded Mexican cheese blend of your choice",
    "Butter for frying quesadillas",
-   "Garnishes: Julienned radishes, crema or sour cream and/or salsa verde cruda (recipe below)"
+   "Garnishes: Julienned radishes, crema or sour cream and/or salsa verde cruda (recipe below)",
+   "10 tomatillos, husked and well washed, quartered",
+   "1/2 bunch of scallions, roots and green ends trimmed, cut into big segements",
+   "5 garlic cloves, smashed",
+   "2 jalapenos, roughly chopped",
+   "Pinch of allspice",
+   "Salt to taste"
   ],
   "yield_text": "",
   "cook_time": null,
@@ -29,7 +35,37 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2008/10/acorn-squash-quesadillas-tomatillo-salsa/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, roast the acorn squash. Preheat the oven to 400° and lightly oil a baking sheet. Halve the squash, scoop out the seeds (you can save them to toast later, if you wish) and cut each half into half-inch slices. Lay them on the baking sheet and roast for about 20 minutes, until soft but not cooked to mush. (You’ll finish it in the pan.)"
+   },
+   {
+    "title": null,
+    "text": "When cool enough to work with, use a paring knife or your hands to peel the skin off each slice. Lightly chop the squash and put it in a bowl."
+   },
+   {
+    "title": null,
+    "text": "Saute the onions, garlic and jalapeno in the oil until translucent. Add the poblano strips and cook for a couple minutes more. Add the squash and cook for another 5 or 10 minutes, until the squash is tender and the flavors have melded. Season with salt and pepper and take off heat."
+   },
+   {
+    "title": null,
+    "text": "Spread a few tablespoons of the cooked squash mixture onto one half of a 10-inch flour tortilla. Sprinkle with a couple tablespoons of the cheese. Fold over and place in a hot pan with melted butter, and fry until crispy. Cut the finished quesadilla into four triangles and top with your choice of garnishes. Eat while warm."
+   },
+   {
+    "title": "Tomatilla Salsa [Salsa Verde Cruda]",
+    "text": "Puree all ingredients together until very smooth either in a blender or food processor. Season with salt."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": [
+   {
+    "at": 11,
+    "title": "Tomatilla Salsa [Salsa Verde Cruda]"
+   }
+  ]
  },
  "parser_version": 4
 }

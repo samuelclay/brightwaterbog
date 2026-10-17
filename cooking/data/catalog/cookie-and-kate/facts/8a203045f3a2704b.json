@@ -1,6 +1,75 @@
 {
  "url": "https://cookieandkate.com/stuffed-tomatoes-with-quinoa/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Mediterranean Stuffed Tomatoes with Quinoa",
+  "ingredients": [
+   "1 cup cooked red or black quinoa",
+   "8 medium on-the-vine tomatoes",
+   "⅓ can quartered artichokes (about 4 ounces, or ½ cup), roughly chopped",
+   "½ cup full fat feta, plus a few tablespoons extra for topping",
+   "15 kalamata olives, sliced thin",
+   "1 tablespoon olive oil",
+   "2 cloves fresh garlic (minced or use a garlic press)",
+   "ground sea salt, to taste"
+  ],
+  "yield_text": "4",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/stuffed-tomatoes-with-quinoa/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cook your quinoa: Measure out ⅓ cup of quinoa, pour into a mesh colandar, and rinse the quinoa under running water for a minute. Pour the rinsed quinoa into a small pot and add ⅔ cup water (you’re going for a 1:2 ratio of quinoa and water). Bring to a boil, then cover and simmer for 15 to 18 minutes. Remove from heat, let sit for a few minutes, and fluff with a fork. ⅓ cup uncooked quinoa should yield a little over one cup cooked quinoa. I would use all of it in the filling."
+   },
+   {
+    "title": null,
+    "text": "Preheat oven to 375 degrees Fahrenheit"
+   },
+   {
+    "title": null,
+    "text": "Core the tomatoes by slicing off the top ⅛ inch of each tomato. Run a small knife vertically around the core. Be careful not to cut through the bottom. Use your finger to gently pull out the core and use the knife to clean out any excess left inside."
+   },
+   {
+    "title": null,
+    "text": "In a medium bowl, mix together the filling (cooked quinoa, feta, artichokes, olives, olive oil and garlic)."
+   },
+   {
+    "title": null,
+    "text": "Taste and add salt if necessary (feta and olives are salty to begin with, so you may not need any)."
+   },
+   {
+    "title": null,
+    "text": "Spray your dish with cooking oil and brush the tops of the cored tomatoes with olive oil."
+   },
+   {
+    "title": null,
+    "text": "Use a spoon to stuff the tomatoes with the quinoa mixture."
+   },
+   {
+    "title": null,
+    "text": "Top each tomato with extra feta."
+   },
+   {
+    "title": null,
+    "text": "Bake for 15-20 minutes, until the feta starts to turn golden."
+   },
+   {
+    "title": null,
+    "text": "Garnish each tomato with a small basil leaf."
+   }
+  ],
+  "notes": [
+   "Created with guidance from a stuffed tomato recipe in The America’s Test Kitchen Healthy Family Cookbook."
+  ],
+  "summary": "Mediterranean-inspired baked tomatoes, filled with quinoa, feta, artichokes and kalamata olives, make a beautiful, healthy side dish.",
+  "ingredient_groups": []
+ }
 }

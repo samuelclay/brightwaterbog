@@ -23,7 +23,26 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/pumpkin-pineapple-cocktail/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Pour all ingredients into a blender and blend well."
+   },
+   {
+    "title": null,
+    "text": "Fill two double old fashioned glasses with ice."
+   },
+   {
+    "title": null,
+    "text": "Pour the mixture over ice and garnish with a dash of cinnamon."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Pura Vida Restaurant in Cleveland, Ohio."
+  ],
+  "summary": "For a delicious pumpkin cocktail, blend together pumpkin purée, pineapple juice, dark rum and spices! It’s a surprising combination that tastes amazing. Recipe yields 2 drinks.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -29,7 +29,47 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/arugula-wild-rice-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the wild rice, bring a large pot of water to boil. Add the rinsed rice and continue boiling, reducing heat as necessary to prevent overflow, for 40 minutes to 55 minutes, until the rice is pleasantly tender but still offers a light resistance to the bite. Remove from heat, drain the rice and return the rice to pot. Cover and let the rice rest for 10 minutes, then remove the lid and let the rice cool."
+   },
+   {
+    "title": null,
+    "text": "To toast the almonds, warm one teaspoon olive oil in a small skillet over medium-low heat. Add the almonds and a pinch of salt and cook until they’re turning lightly golden and fragrant, about 4 to 5 minutes, stirring frequently. Set aside to cool."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl, whisk together the dressing ingredients until blended."
+   },
+   {
+    "title": null,
+    "text": "To assemble the salad, transfer the cooled rice to a large bowl. Add the arugula, chopped basil, almonds, sour cherries and feta. Pour in the dressing, toss well, and season to taste with additional salt (I usually add another pinch or two) and pepper. If the salad needs more fresh, bright flavor, add up to 1 tablespoon more lemon juice."
+   },
+   {
+    "title": null,
+    "text": "Set the salad aside for 10 minutes before serving, to give the rice time to soak up some of the dressing. This salad keeps well in the refrigerator, covered, for two to three days. You might need to wake up leftovers with an extra drizzle of olive oil and squeeze of lemon (the rice absorbs the dressing over time)."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Plenty More and my trip to Michigan to learn about tart cherries.",
+   "Make it vegan: Skip the feta cheese and substitute maple syrup for the honey.",
+   "Make it nut free: Substitute pepitas for the pecans.",
+   "Instant pot option: Add the wild rice and 1 ¼ cups water to the Instant Pot. Secure the lid and move the steam release valve to Sealing. Select the Manual/Pressure Cook option and cook on high pressure for 22 minutes. When the cooking cycle is complete, let the pressure naturally release for 10 minutes, then move the steam release valve to Venting to release any remaining pressure. When the floating valve drops, remove the lid and give the rice a stir. Let the rice cool for at least 10 minutes before tossing with the remaining ingredients.",
+   "Change it up: You can change up the whole grains (farro would be my top pick), almonds (pecans or pepitas would be lovely), feta (goat cheese would work just as well), and dried cherries (simply use dried cranberries). If you can’t find fresh basil this time of year, you can safely omit it."
+  ],
+  "summary": "This wild rice salad includes arugula, dried cherries, toasted almonds and feta, tossed in a zippy lemon dressing! It’s gluten free, filling and delicious. Recipe yields 4 medium salads, or 8 small side servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 7,
+    "title": "Lemon dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

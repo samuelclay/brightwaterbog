@@ -22,7 +22,23 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/easy-tapenade-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In the bowl of your food processor, combine all of the ingredients (pitted olives, parsley, capers, olive oil, garlic and lemon juice). Pulse briefly about 10 times, then scrape down the sides of the jar."
+   },
+   {
+    "title": null,
+    "text": "Pulse 5 to 10 more times until well chopped, but not pureed, or until you reach your desired texture. Serve as desired. Store leftovers in the refrigerator for up to 2 weeks."
+   }
+  ],
+  "notes": [
+   "*Safety note/how to pit olives: Even if buying pitted olives, check to ensure each olive has actually been pitted (sometimes they sneak through). To pit olives with ease, place several olives on a cutting board, then press a sturdy, large liquid measuring cup or jar down over them. The olives will break into pieces, making it easy to remove the pits.",
+   "No food processor? Finely chop the solid ingredients by hand, then stir all of the ingredients together in a bowl."
+  ],
+  "summary": "This tapenade recipe tastes so fresh and comes together so easily! Serve this French olive spread with crackers, crostini , cheese plates or on sandwiches. Recipe yields 1 ½ cups tapenade.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

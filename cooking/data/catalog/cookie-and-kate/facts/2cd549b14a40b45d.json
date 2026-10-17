@@ -1,6 +1,65 @@
 {
  "url": "https://cookieandkate.com/epic-vegetarian-tacos-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Epic Vegetarian Tacos",
+  "ingredients": [
+   "Quick-pickled onions",
+   "Creamy avocado dip",
+   "Easy refried beans",
+   "8 corn tortillas",
+   "Salsa verde",
+   "Shredded green cabbage (for extra crunch)",
+   "Crumbled Cotija or feta cheese",
+   "Chopped fresh cilantro",
+   "Lime wedges"
+  ],
+  "yield_text": "8 tacos",
+  "cook_time": "1 hour",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/epic-vegetarian-tacos-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Prepare the onions, avocado dip, and beans as directed, in that order."
+   },
+   {
+    "title": null,
+    "text": "Once they’re ready, warm the tortillas in a large skillet over medium heat in batches, flipping to warm each side. Alternatively, you can warm them directly over a low flame on a gas range. Stack the warmed tortillas on a plate and cover with a tea towel to keep warm."
+   },
+   {
+    "title": null,
+    "text": "To assemble the tacos, spread refried beans down the center of each tortilla. Top with avocado dip and onions (for reference, I used all of the beans and about half of the avocado dip and onions). Finish the tacos with garnishes of your choice, and serve immediately."
+   },
+   {
+    "title": null,
+    "text": "Leftover components are best served separately; reheat the tortillas and beans before serving. Leftover pickled onions and avocado dip are great on quesadillas, nachos or tortilla chips, sandwiches, etc."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Be sure to buy 100% corn/certified gluten-free tortillas.",
+   "Make it vegan: Skip the cheese.",
+   "Make it quick: You could, theoretically, substitute store-bought refried beans and guacamole for the avocado sauce. Or make the pickled onions and avocado dip in advance, so the tacos come together more quickly."
+  ],
+  "summary": "Truly amazing vegetarian tacos featuring easy-to-make refried beans, quick-pickled onions, and creamy avocado sauce! Your whole family will love these meatless tacos. Recipe yields 8 hearty tacos (about 4 servings).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Essential components"
+   },
+   {
+    "at": 4,
+    "title": "Recommended garnishes"
+   }
+  ]
+ }
 }

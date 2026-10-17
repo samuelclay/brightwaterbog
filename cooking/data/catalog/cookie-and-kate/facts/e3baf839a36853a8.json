@@ -24,7 +24,46 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/buckwheat-pancakes/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, mix together the flour(s), sugar, baking powder, baking soda and salt."
+   },
+   {
+    "title": null,
+    "text": "In a liquid measuring cup, measure out the buttermilk. Beat in the egg and vanilla extract."
+   },
+   {
+    "title": null,
+    "text": "All at once, add the wet ingredients to the dry ingredients and mix until just combined. The batter should have some small to medium lumps. Set aside while you warm the skillet or griddle."
+   },
+   {
+    "title": null,
+    "text": "Preheat your skillet or griddle over medium-low heat (if using an electric griddle, preheat it to 350 degrees Fahrenheit). Brush the cooking surface with 1 ½ teaspoons of butter."
+   },
+   {
+    "title": null,
+    "text": "Give the batter a light swirl with a spoon in case the buckwheat is starting to separate from the liquid. Using a ¼-cup measure, scoop the batter onto the warm skillet. Cook for 2 to 3 minutes until small bubbles form on the surface of the pancakes (you’ll know it’s ready to flip when about 1 inch of the perimeter is matte instead of glossy), and flip. Cook on the opposite sides for 1 to 2 minutes, or until golden brown."
+   },
+   {
+    "title": null,
+    "text": "Transfer the cooked pancakes to a cooling rack, or to a baking sheet in a preheated 200 degree Fahrenheit oven to keep warm."
+   },
+   {
+    "title": null,
+    "text": "Gently stir the batter before using again. Repeat the process with the remaining batter, brushing the skillet with additional butter as needed. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Pancakes by Adrianna Adarme of A Cozy Kitchen.",
+   "*Make your own buttermilk with dairy-free option: Combine 1 ¼ cups milk of choice (almond, soy, rice, low fat coconut) with 1 tablespoon + ¾ teaspoon vinegar and let it rest for 5 minutes before using.",
+   "Make it dairy free: See buttermilk alternative above, and lightly brush the skillet with melted coconut oil instead of butter.",
+   "Roasted strawberry topping option: (From original recipe.) Preheat the oven to 350 degrees Fahrenheit. Line a rimmed baking sheet with parchment paper. In a medium bowl, gently toss 1 pint strawberries (hulled and sliced into bite-sized quarters or halves) with 1 teaspoon sugar and 1 tablespoon maple syrup or honey. Arrange the strawberries in a single layer on the baking sheet. Roast for 30 minutes, stirring halfway, or long enough for the berry juices to thicken but not burn (watch the edges in particular).",
+   "Recipe edits 5/27/21: To make this recipe work even better with 100 percent buckwheat flour, I added an additional tablespoon of buckwheat flour and one additional egg."
+  ],
+  "summary": "Buckwheat gives these pancakes incredible flavor. This buckwheat pancake recipe yields deliciously light and thin pancakes. For pancakes that are even lighter in texture and flavor, use half all purpose flour (Adrianna’s suggestion) or whole wheat flour (my default). Recipe yields 12 medium pancakes, or enough for 2 to 4 servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

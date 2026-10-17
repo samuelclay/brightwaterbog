@@ -26,7 +26,45 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/spicy-watermelon-margarita-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the watermelon juice, scoop the watermelon flesh into your blender and blend until it has turned into a smooth juice. Depending on your watermelon, you may or may not need to strain out the pulp (if it’s too pulpy for your liking, pour it through a fine mesh strainer, pressing the liquid through with a big spoon)."
+   },
+   {
+    "title": null,
+    "text": "To prepare your margarita glasses: On a small, rimmed plate, mix together equal parts salt and chili powder. I like to use my fingers to rub the chili powder into the salt (be sure to wash your hands afterward). Run a wedge of lime around the top of each glass. Dip the top of the glass into the salt blend at a 45-degree angle and roll it from side to side to catch the salt. Add ice cubes to your glass and set it aside."
+   },
+   {
+    "title": null,
+    "text": "To make margaritas (feel free to make multiple margaritas at once): Fill a cocktail shaker with ice. Pour in the watermelon juice, tequila, lime juice, orange juice, agave nectar and top with a jalapeño slice."
+   },
+   {
+    "title": null,
+    "text": "Secure the lid to the shaker and shake for 30 seconds. Taste and add additional sweetener if necessary. Strain the liquid into your prepared glass(es). Cheers!"
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my fresh honeydew margaritas.",
+   "Leftover watermelon juice? Refrigerate it and drink it within a couple of days!",
+   "Make it gluten free: Be sure to use 100 percent agave tequila."
+  ],
+  "summary": "These watermelon margaritas are refreshing and have a kick! They’re easy to make and naturally sweetened. Skip the chili powder and jalapeño for a classic watermelon margarita.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Watermelon juice"
+   },
+   {
+    "at": 1,
+    "title": "Chili-salt rims"
+   },
+   {
+    "at": 4,
+    "title": "Ingredients per margarita"
+   }
+  ]
  },
  "parser_version": 2
 }

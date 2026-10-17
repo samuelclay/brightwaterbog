@@ -23,7 +23,30 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/spicy-quick-pickled-radishes/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the radishes: Slice off the tops and bottoms of the radishes, then use a sharp chef’s knife or mandoline to slice the radishes into very thin rounds. Pack the rounds into a pint-sized canning jar. Top the rounds with red pepper flakes and mustard seeds."
+   },
+   {
+    "title": null,
+    "text": "To prepare the brine: In a small saucepan, combine the vinegar, water, honey or maple syrup and salt. Bring the mixture to a boil, stirring occasionally, then pour the mixture over the radishes."
+   },
+   {
+    "title": null,
+    "text": "Let the mixture cool to room temperature. You can serve the pickles immediately or cover and refrigerate for later consumption. The pickles will keep well in the refrigerator for several weeks, although they are in their most fresh and crisp state for about 5 days after pickling."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from The First Mess and Bon Appetit.",
+   "Make it vegan: Substitute maple syrup or agave nectar for the honey.",
+   "Change it up: To the best of my knowledge, you can pickle any thinly sliced vegetables in this manner. Try carrot ribbons, cucumbers, red onions, cabbage and/or fennel! The thinner you slice the vegetables, the faster they absorb the vinegar solution and taste like pickles.",
+   "That jar, though! It’s a Weck jar.",
+   "Can I can it? No. This recipe is a “refrigerator pickle” recipe. It is not designed for canning in a water bath, and it has not been tested for canning safety. Please do not attempt! Follow a recipe specifically designed for canning instead."
+  ],
+  "summary": "Super simple, spicy pickled radishes that are ready to eat immediately! These pickled radishes are amazing on tacos, burgers, salads and more. Recipe as listed below yields about 1 ¼ cup pickles.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

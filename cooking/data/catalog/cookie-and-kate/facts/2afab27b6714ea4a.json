@@ -1,6 +1,76 @@
 {
  "url": "https://cookieandkate.com/vegetable-goat-cheese-polenta-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Goat Cheese Polenta with Roasted Vegetables",
+  "ingredients": [
+   "About 2 pounds mixed vegetables",
+   "2 tablespoons extra-virgin olive oil",
+   "Fine sea salt",
+   "Freshly ground black pepper",
+   "2 teaspoons extra-virgin olive oil",
+   "1 red bell pepper, chopped",
+   "½ teaspoon fine-grain sea salt, to taste",
+   "3 to 4 cups water, according to package directions",
+   "1 cup corn polenta (also called grits)*",
+   "1 tablespoon butter",
+   "1 to 3 tablespoons mild salsa verde (homemade or store-bought)",
+   "Freshly ground black pepper",
+   "2 ounces goat cheese, crumbled (about ½ cup crumbled)",
+   "4 cooked eggs (fried or scrambled)",
+   "Finely sliced green onion, for garnish",
+   "Additional salsa verde and/or hot sauce"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "1 hour",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Vegetarian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/vegetable-goat-cheese-polenta-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To roast the vegetables: Preheat the oven to 400°F. On a large, rimmed baking sheet, combine the vegetables with 2 tablespoons olive oil and a sprinkle of salt and pepper. Toss until they are lightly coated in oil, then arrange the vegetables in a single layer across the pan. Bake for 25 to 40 minutes (timing will depend on your choice of vegetables), tossing halfway, until the vegetables are tender and deeply golden on the edges."
+   },
+   {
+    "title": null,
+    "text": "To cook the polenta: In a medium saucepan, warm 2 teaspoons olive oil over medium heat until shimmering. Add the chopped bell pepper and ½ teaspoon salt. Cook, stirring occasionally, until the pepper is tender, about 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the amount of water specified on your package of polenta, crank up the heat and bring the mixture to a boil. Pour in the polenta, whisk to combine, and reduce heat to medium-low. Cook until thickened, which can take as little as 5 minutes depending on your polenta, whisking often to remove any clumps. Remove the pot from the heat, and stir in the butter, salsa verde and freshly ground black pepper, to taste. Add additional salt, if necessary. Gently fold in the crumbled goat cheese, just until combined. Cover and set aside."
+   },
+   {
+    "title": null,
+    "text": "Cook your eggs as desired. Divide the grits and eggs into 4 bowls. Divide the vegetables into the bowls and finish them with a light sprinkle of green onion. Serve with additional salsa verde and/or hot sauce on the side."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Be sure to use certified gluten-free grits.",
+   "Make it dairy free/vegan: You could replace the goat cheese with vegan sour cream and omit the butter, or stir in a teaspoon or two of olive oil in its place. For a vegan meal, omit the egg.",
+   "*Polenta note: I use and recommend Bob’s Red Mill brand of corn polenta/grits because they are free of additives and cook in just 5 minutes."
+  ],
+  "summary": "Creamy goat cheese polenta topped with a fried egg and roasted vegetables. This is a delicious, brunch-worthy recipe that you can serve for dinner, too! Recipe yields 4 servings (you might have some leftover roasted vegetables).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted vegetables"
+   },
+   {
+    "at": 4,
+    "title": "Goat cheese polenta"
+   },
+   {
+    "at": 13,
+    "title": "Eggs, etc."
+   }
+  ]
+ }
 }

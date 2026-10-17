@@ -25,7 +25,40 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/french-carrot-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the carrots: You can grate them on the large holes of a box grater, or use short strokes with a julienne peeler, or process them in a food processor fitted with a grating attachment. You’ll end up with about 3 cups grated carrots."
+   },
+   {
+    "title": null,
+    "text": "Place the carrots in a medium serving bowl. Add the chives, parsley and optional chickpeas to the bowl."
+   },
+   {
+    "title": null,
+    "text": "To make the dressing, whisk all of the ingredients together in a small bowl until completely blended."
+   },
+   {
+    "title": null,
+    "text": "Pour the dressing over the carrot mixture and stir until the mixture is evenly coated in dressing. For best flavor, allow the salad to marinate for 20 minutes before serving. Toss again before serving. This salad keeps well in the refrigerator, covered, for about 4 days."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by French Market in Kansas City.",
+   "Make it vegan: Substitute maple syrup for the honey."
+  ],
+  "summary": "This French carrot salad recipe is simple and fresh! You’ll need carrots, olive oil, lemon, honey, cumin, parsley and chives. Chickpeas are optional but recommended. Recipe yields 4 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Carrot salad"
+   },
+   {
+    "at": 4,
+    "title": "Dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

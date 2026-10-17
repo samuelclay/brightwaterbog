@@ -23,7 +23,30 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/broccolini-almond-pizza-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 500 degrees Fahrenheit with a rack in the upper third of the oven. If you’re using a baking stone or baking steel, place it in the oven on the top rack. Prepare dough through step 5."
+   },
+   {
+    "title": null,
+    "text": "Spread marinara sauce evenly over the two pizzas, or top with drained, crushed tomatoes (crush the tomatoes over the sink to release excess liquid). Divide the mozzarella, feta and almonds evenly over the pizzas."
+   },
+   {
+    "title": null,
+    "text": "To prepare the broccolini, fill a large saucepan with a few inches of water and bring the mixture to a boil. Trim off the tough ends of the broccolini. Cut any stems greater than about ¼″ in diameter in half. Once the water is boiling, toss in the broccolini, bring back to a boil, and cook for 1 minute. Drain the broccolini and pat dry on a lint-free tea towel. Then, toss the broccolini with about 1 teaspoon olive oil, until lightly coated."
+   },
+   {
+    "title": null,
+    "text": "Arrange the broccolini over the pizzas and sprinkle the almonds on top. Bake pizzas individually on the top rack until the crust is golden and the cheese is golden and bubbly, about 12 minutes (or significantly less, if you’re using a baking stone/steel—keep an eye on it). Transfer pizza to a cutting board and sprinkle with with red pepper flakes and fresh basil, if using. Slice and serve!"
+   }
+  ],
+  "notes": [
+   "Make it nut free: Skip the almonds!"
+  ],
+  "summary": "Homemade broccolini pizza with almonds (optional), mozzarella and red sauce! The trick to making awesome broccolini pizza is to blanch the broccolini first. I added sliced almonds for a savory little crunch. Recipe yields two 11-inch pizzas or about 4 to 6 servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

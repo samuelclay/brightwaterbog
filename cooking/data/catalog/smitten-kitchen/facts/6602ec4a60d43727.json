@@ -34,7 +34,41 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2018/11/cabbage-and-mushroom-lasagna/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 350 degrees."
+   },
+   {
+    "title": null,
+    "text": "In a large sauté pan over medium heat, melt 6 tablespoons of the butter. Add flour, stir for 3 minutes (do not allow to brown), then gradually whisk in milk, stirring until thickened, 5 to 8 minutes. Stir in nutmeg and season with salt and pepper to taste. Scrape sauce into a bowl, and reserve."
+   },
+   {
+    "title": null,
+    "text": "Wipe out sauté pan (rinse if needed) and melt 2 tablespoons of the remaining butter over medium heat. Add onion and garlic, and sauté until onions are translucent. Add mushrooms, sage and sliced cabbage, and sauté until fragrant and the cabbage is tender, 10 to 12 minutes. Add wine and sauté until it has evaporated. Add reserved sauce and simmer for 10 minutes. The mixture should be very thick. Season with salt and pepper to taste."
+   },
+   {
+    "title": null,
+    "text": "While the mushroom and cabbage mixture is simmering, pour 6 cups of water into a stock pot, and bring to a boil. Add whole cabbage leaves, and blanch for 2 minutes. Drain under cold water, and pat dry on towels."
+   },
+   {
+    "title": null,
+    "text": "Grease a 9-by-9-inch baking dish or a lasagna pan of your choice (I used this, which is 8-by-12-inch) with remaining 1 tablespoon of butter."
+   },
+   {
+    "title": null,
+    "text": "To assemble the lasagna, line the bottom of the dish with half the cabbage leaves, and top with half the potatoes, half the creamed mushrooms. Repeat the layering of cabbage, potatoes and mushrooms, and top with grated cheese. Cover snugly with foil, and bake for 30 minutes. Uncover, and bake until the top is golden brown and potatoes are tender, about 20 minutes but up to 10 minutes longer if needed. Allow to cool for 10 minutes, and serve."
+   }
+  ],
+  "notes": [
+   "Do ahead: I prepared the sauce and all of the vegetables and then ran out of time when I made this, stashing them in the fridge separately and baking it the next day, which works totally fine. You can also make the dish, chill it, and bake it when needed, and leftovers reheat well too. Finally, you could freeze the whole dish for a later date.",
+   "There are three key things to know going into this dish:Seasoning is really key here. It’s winter vegetables, butter, milk, and cheese; it will not naturally boom with flavor. Make sure every element is gets the necessary salt and pepper and it will add up to something wonderful.",
+   "I found mine got a little watery as it baked, because cabbage is watery. You can baste a little out, if you wish, or you can just let it go. As it cools, most will settle back around the vegetables and it shouldn’t seem too wet.",
+   "I almost didn’t share this recipe because it’s got a bunch of steps, and a lot of vegetables to chop (the dish is all vegetables, after all), and thought nobody would want to make it, but it’s too delicious not to. So do as I do, put on your headphones, queue up The Miseducation of Lauryn Hill, try to get your head around the fact that it’s now 20 years old, and you’ll be done before Mary J. Blige shows up."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

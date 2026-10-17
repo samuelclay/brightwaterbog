@@ -29,7 +29,44 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2023/06/sliced-egg-sandwich/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make sandwich spread: Combine mayo, dijon, wholegrain mustard, and horseradish in a small dish or jar. Season as needed with salt and pepper and, if you wish, a dash or two of hot sauce. This makes a bit more than you might need but it keeps for 1 to 2 weeks in the fridge, so feel free to double it, regardless."
+   },
+   {
+    "title": null,
+    "text": "Toast your bread: While you can toast it in a toaster, my favorite way to toast my sandwich rolls is to heat a pat of butter in a nonstick pan over medium heat. Place your rolls, cut-side down, in the pan. Cook until cut sides are golden-brown, about 1 to 2 minutes. Transfer to plate to cool slightly before assembling sandwiches."
+   },
+   {
+    "title": null,
+    "text": "Assemble: Generously coat both cut sides of first roll with sandwich spread. Arrange egg slices over the bottom half and season lightly with salt and pepper. Add pickles or any of the other alternates suggested below, a big handful of torn arugula, then press the top of the roll down, smooshing everything into place. Repeat with remaining sandwich."
+   },
+   {
+    "title": null,
+    "text": "Eat right away and repeat daily for as long as the fixation lasts. Personally, I’m walking into the kitchen to make another as soon as I hit publish."
+   },
+   {
+    "title": "Notes",
+    "text": "Eggs: Here’s my go-to method for hard-boiled eggs. For a sliced sandwich, I stop cooking them at 9 minutes 30 to 40 seconds, to keep the centers a dark, never dry, yellow. I love a solid egg slicer; I’ve had mine for over a decade."
+   },
+   {
+    "title": null,
+    "text": "Spread: Just for reference, I’m using Hellman’s mayo, Amora dijon mustard, Maille wholegrain mustard, and I make my own prepared horseradish over Passover and use it for months after. My current jar of Amora is jarringly sharp (almost like wasabi) and I love it but just a heads-up that you might need to adjust your ingredient levels or seasoning to get the punchiness I promised with other brands."
+   },
+   {
+    "title": null,
+    "text": "Rolls: Any storebought roll will work but, but I made rolls recently from my challah recipe, turning one of the two challahs it yields into 12 rolls. They bake in 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "Additional ingredients: As mentioned above, I tend to add to the sandwich a thin layer of whatever I have left in the fridge, from pickled to caramelized onions, thinly-sliced cucumber, celery, or fennel. Not one has tasted bad."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -36,7 +36,47 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2017/01/crusty-baked-cauliflower-and-farro/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cook farro: Rinse and drain farro. There are many, many ways to cook farro and any of them work here. You can follow the package directions on any farro you buy for best results."
+   },
+   {
+    "title": null,
+    "text": "On the stove: If you plan to cook this on the stove and want to save time, you can presoak the grains overnight in their 3 cups of liquid and they should then cook in only 10 minutes of simmering. Otherwise, simmer the farro in water or broth for about 30 minutes, until quite tender. Drain any excess liquid. Transfer farro to large bowl."
+   },
+   {
+    "title": null,
+    "text": "In a rice-cooker: I cook mine on the quick setting and have been very happy with the results. Drain any excess liquid once the farro is tender. Transfer farro to large bowl."
+   },
+   {
+    "title": "Meanwhile, parcook cauliflower",
+    "text": "In the oven: Heat oven to 425 degrees. Brush a large baking sheet with 2 tablespoons olive oil. Spread florets in one layer, drizzle with 1 more tablespoon olive oil and sprinkle with salt and freshly ground black pepper. Roast for 20 minutes until lightly browned and crisp-tender (they will finish baking with the farro). Reduce heat to 400 degrees."
+   },
+   {
+    "title": null,
+    "text": "One the stove: Heat 2 tablespoons olive oil in a large saute pan over medium-high heat. Add half the cauliflower and cook, tossing occasionally, until lightly browned and tender, about 6 to 7 minutes. Add to bowl with farro. Repeat with more olive oil and second half of cauliflower, then add to bowl. Heat oven to 400 degrees."
+   },
+   {
+    "title": null,
+    "text": "Assemble casserole: Add the sage, capers, garlic, lemon zest, red pepper flakes, 1 teaspoon salt and 1/2 teaspoon black pepper to cauliflower and farro and stir to combine. Stir in fontina. Transfer half of the mixture to an oiled 10-inch ovenproof frying pan or equivalent baking dish. Dollop rounded tablespoons of ricotta all over. Sprinkle remaining cauliflower and farro over the ricotta, leaving the pockets of it undisturbed."
+   },
+   {
+    "title": null,
+    "text": "In a small dish, combine panko with pecorino, parlsey and 1 tablespoon olive oil until evenly mixed. Sprinkle over cauliflower and farro."
+   },
+   {
+    "title": null,
+    "text": "Bake casserole: For 20 minutes, until browned and crusty on top. Dig in."
+   }
+  ],
+  "notes": [
+   "Do ahead: Farro can be cooked up to 3 days in advance, kept in an airtight container in fridge. Cauliflower can be cooked 2 days in advance. Casserole can be assembled and baked a day later, easily, although the crumbs might lose their crisp from absorbing the moisture below if not added right before baking. Casserole keeps for several days in fridge and longer in freezer.",
+   "The original recipe has you saute the cauliflower in 2 parts with 3 tablespoons of olive oil each for 5 to 6 minutes to get the florets lightly browned and tender. I got away with using less oil but it never really got tender and I’m fairly convinced that roasting would be more hands-off and get a better flavor, so I’m suggesting this as an alternative below. I’d be hesitant to boil or steam, although it is faster, because the extra liquid wouldn’t be welcome here."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

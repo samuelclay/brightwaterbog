@@ -1,6 +1,49 @@
 {
  "url": "https://cookieandkate.com/simple-arugula-salad-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Super Simple Arugula Salad",
+  "ingredients": [
+   "A couple handfuls of arugula (about 1 ½ cups)",
+   "Drizzle of extra-virgin olive oil",
+   "Lighter drizzle of thick balsamic vinegar or balsamic glaze*",
+   "Optional: Light sprinkle of finely grated aged cheese, such as Parmesan or even cheddar",
+   "Small pinch of flaky sea salt, kosher salt or fine salt",
+   "Freshly ground black pepper or pinch of red pepper flakes"
+  ],
+  "yield_text": "1 side salad",
+  "cook_time": "3 minutes",
+  "categories": [
+   "Salad",
+   "Side Dish"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/simple-arugula-salad-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Add a couple handfuls of arugula to a bowl or small plate. Drizzle lightly with olive oil, followed by a lighter drizzle of balsamic vinegar (the ratio is really up to you—balsamic is sweeter than most other vinegars, so you might enjoy equal parts vinegar and oil)."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle with cheese, if desired. Sprinkle with a small pinch of flaky sea salt, crushing it between your fingers as you sprinkle, or other salt (use a little more salt if not using cheese, which is salty)."
+   },
+   {
+    "title": null,
+    "text": "Finish the salad with a couple twists of freshly ground black pepper or a small pinch of red pepper flakes. Repeat for additional salads, if needed. Enjoy promptly, as the salad will wilt over time."
+   }
+  ],
+  "notes": [
+   "*Balsamic recommendations: The key to this salad is using quality balsamic vinegar that is thick instead of runny like most other vinegars. My favorite is Napa Valley Naturals Grand Reserve Balsamic Vinegar (be sure the bottle says “25 stars” on it). Or, use store-bought or homemade balsamic glaze (see post for how to make the glaze).",
+   "Make it dairy free/vegan: Simply don’t add the optional cheese. It’s still great without it."
+  ],
+  "summary": "Make this simple arugula salad recipe with balsamic vinegar and olive oil! It’s the quickest side salad recipe in my repertoire and I hope it becomes your go-to side salad, too. Make as many salads as you’d like with this basic formula.",
+  "ingredient_groups": []
+ }
 }

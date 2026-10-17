@@ -38,7 +38,35 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2021/10/winter-squash-and-spinach-pasta-bake/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 350°F (176°C). Line a 9-inch springform with 3-inch sides (see Note) with a sling of parchment paper, pressing it across the bottom and creasing the sides to get it to fit as best as possible. If the sides aren’t well covered, repeat with a second piece of parchment in the other direction."
+   },
+   {
+    "title": null,
+    "text": "Whisk egg and ricotta in a large bowl. Stir in half of the parmesan, fontina, water, 2 tablespoons of olive oil, salt, a few gratings of fresh nutmeg, lots of freshly ground black pepper, red pepper flakes, and garlic. Stir in squash, spinach, and sage or thyme, if using. Add dried noodles and stir until everything is coated."
+   },
+   {
+    "title": null,
+    "text": "Pour into prepared pan and press gently so everything is in as even of a layer as possible. Sprinkle with second half of parmesan. Gently fold any parchment that extends over the rim of the pan into the center and cover the pan tightly with foil. Bake on a sheet (for extra security against drips) for 1 hour, then remove foil, reopen the parchment folded over the top, and drizzle the dish with remaining 1 tablespoon olive oil. Return to the oven uncovered for 30 minutes. Pasta will be baked through and the top will be crisp. If it doesn’t have as much color as you’d like on top, you can finish it under the broiler for a minute or two."
+   },
+   {
+    "title": null,
+    "text": "Cool in pan on a rack for 30 minutes before removing the springform ring, sliding the pasta bake by its parchment onto a serving plate, and cut it into wedges."
+   }
+  ],
+  "notes": [
+   "Do ahead: This keeps in the fridge for up to 1 week. Rewarm uncovered in a 350-degree oven. I haven’t frozen it, but would expect it to freeze well, tightly wrapped.",
+   "* Structural note: Like a lasagna, this is more wet and messy when it first comes out of the oven. I recommend a 30-minute rest at minimum (what you see here in the loose slices) but it will be cleaner to cut and more set the longer it hangs out. It reheats fantastically and keeps up to a week in the fridge. Last night, we reheated wedges from 6 days ago and they were (still) perfection.",
+   "* Pan size: I only tested this in a 9-inch springform but would expect it to also fit in a 11 to 12-inch ovenproof skillet and also, less glamorously, a 9×13-inch baking dish. No need to line with parchment if you’re serving it from the pan or not worried about leakage.",
+   "* Pasta shape: I am using a ribbon-shaped pasta called mafaldine or reginette. You can find it from many brands with slight variations such as: Anna (what I used), Sfoglini, Garofalo, Eataly. Classic ruffle-edged lasagna noodles broken into pieces will work too.",
+   "* Adaptation notes: I used Ottolenghi’s recipe as general inspiration, but not a literal guide. I skipped the tomatoes, pine nuts, feta, basil, parsley, and even the fresh noodles, instead using dried ones and adding more liquid so they could fully cook. I add some fontina for richness, a bit more parmesan, more salt, and sage.",
+   "* Salt [an update]: There have been so many comments about the salt level, I’m adding the weight of the salt and more guidance. As originally noted, Diamond brand kosher salt is much lighter than other brands of kosher salt so if you’re not using it, it’s a good practice to use half of any other brand when reading a recipe. More about salts here."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

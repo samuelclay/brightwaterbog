@@ -1,6 +1,46 @@
 {
  "url": "https://cookieandkate.com/simple-beet-arugula-and-feta-salad-with-hilarys-balsamic-thyme-dressing/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Simple Beet, Arugula and Feta Salad with Balsamic Dressing",
+  "ingredients": [
+   "¼ cup raw pepitas (green pumpkin seeds)",
+   "2 medium red beets",
+   "3 cups arugula (3 ounces), roughly chopped",
+   "⅔ cup (2 ½ ounces) crumbled feta",
+   "Homemade balsamic vinaigrette, to taste (about ¼ cup)"
+  ],
+  "yield_text": "4 salads",
+  "cook_time": "20 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/simple-beet-arugula-and-feta-salad-with-hilarys-balsamic-thyme-dressing/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, toast the pepitas in a skillet over medium heat until fragrant and making little popping noises, about 4 to 5 minutes. Transfer them to a bowl to cool."
+   },
+   {
+    "title": null,
+    "text": "Peel the rough skin from the beets with a vegetable peeler, then slice off and discard the tip and rough end of the beet. If you have a mandoline, use it to slice the beets into thin matchsticks (watch your fingers!). If you don’t have a mandoline, place the larger flat side against the cutting board and slice the beet into super-thin pieces. Working in reasonable batches, stack a few slices on top of each other and cut them into long, thin matchsticks."
+   },
+   {
+    "title": null,
+    "text": "In a medium-sized serving bowl, combine the beets, arugula, crumbled feta and pepitas. Drizzle in just enough dressing to lightly coat the salad once tossed. Toss and serve. (If you intend to have leftovers, wait to dress individual servings when you’re ready to eat them—store the salad and dressing separately in the refrigerator, covered, for up to 4 days.)"
+   }
+  ],
+  "notes": [
+   "2025 recipe edits: I revised this recipe for clarity and adjusted the amounts for a balanced salad that yields 4 salads. I doubled the pepitas, tripled the arugula and more than doubled the feta.",
+   "Make it dairy free/vegan: Omit the feta. Substitute a large ripe diced avocado, and stir a tiny splash of olive oil and pinch of salt into the pepitas before using (or try sliced Kalamata olives to make up for feta’s saltiness).",
+   "*Beet notes: Raw beets are great and offer some crispness to the salad. If you’re skeptical, you could substitute thinly sliced roasted beets or store-bought cooked beets, such as Love Beets brand."
+  ],
+  "summary": "This simple salad features a few marvelously complementary flavors: earthy raw beets, bitter arugula, salty feta, savory pepitas and sweet and tangy balsamic dressing. Recipe yields 4 salads and is easy halved or doubled.",
+  "ingredient_groups": []
+ }
 }

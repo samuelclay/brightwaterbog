@@ -1,6 +1,48 @@
 {
  "url": "https://cookieandkate.com/chickpea-salad-recip/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Chickpea Salad Recipe",
+  "ingredients": [
+   "2 (14 ounce) cans of chickpeas, rinsed and drained",
+   "½ cup roasted red and/or yellow peppers, chopped",
+   "¼ cup sliced kalamata olives",
+   "⅓ cup sliced cherry tomatoes",
+   "Small bunch of parsley, chopped",
+   "3 scallions, chopped",
+   "2 cloves garlic, pressed or minced",
+   "1 lemon, juiced",
+   "Olive oil, to taste",
+   "Salt and pepper, to taste"
+  ],
+  "yield_text": "4 small salads",
+  "cook_time": "10 minutes",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/chickpea-salad-recip/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a good-sized bowl, simply combine all the ingredients."
+   },
+   {
+    "title": null,
+    "text": "Season with salt and pepper, drizzle with olive oil and squeeze a lemon over it all. Mix, and you’re done!"
+   }
+  ],
+  "notes": [
+   "Recipe inspired by 20 Something Cupcakes (blog no longer exists). Thanks, Sarah!",
+   "Make it tomato free: Simply omit the tomatoes."
+  ],
+  "summary": "A filling, healthy salad or side made with chickpeas, vegetables and parsley. This recipe makes a big bowl full of chickpea salad. Keep it to yourself or share at a potluck. Serve alone as a great side dish or salad, or on a bed of greens or grains for a more complete meal!",
+  "ingredient_groups": []
+ }
 }

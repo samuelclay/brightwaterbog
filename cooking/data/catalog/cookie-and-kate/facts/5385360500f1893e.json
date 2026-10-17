@@ -1,6 +1,57 @@
 {
  "url": "https://cookieandkate.com/sunshine-quinoa-slaw-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Sunshine Slaw with Quinoa",
+  "ingredients": [
+   "½ cup quinoa, rinsed in a fine-mesh colander (or 1 ½ cups leftover cooked quinoa)",
+   "1 cup water",
+   "½ cup raw pepitas (hulled pumpkin seeds) or sunflower seeds",
+   "8 cups mixed shredded vegetables (green or red cabbage, broccoli, cauliflower, kale, Brussels sprouts and/or carrots, or use about 20 ounces store-bought slaw mix)",
+   "1 small red onion, halved and thinly sliced (about 1 cup)",
+   "½ cup chopped fresh cilantro or parsley",
+   "1 cup Sunshine Salad Dressing, or more to taste",
+   "Salt, to taste"
+  ],
+  "yield_text": "6 side servings",
+  "cook_time": "40 minutes (plus 20 minute rest)",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/sunshine-quinoa-slaw-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the quinoa: Combine the rinsed quinoa and the water in a small saucepan. Bring the mixture to a boil over medium-high heat, then decrease the heat to maintain a gentle simmer. Cook until the quinoa has absorbed all of the water, about 12 to 15 minutes, reducing heat as time goes on to maintain a gentle simmer. Remove from heat, cover, and let the quinoa rest for 5 minutes, to give it time to fluff up."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, toast the pepitas in a small skillet over medium heat, stirring frequently, until fragrant and making little popping noises, about 5 minutes. Set aside to cool."
+   },
+   {
+    "title": null,
+    "text": "To make sure the onion flavor doesn’t overwhelm the salad, rinse the sliced onion under cool running water, then let it drain well."
+   },
+   {
+    "title": null,
+    "text": "In a large serving bowl (seriously, use your biggest bowl!), combine the shredded vegetables, drained onion and cilantro. Add the cooled quinoa and pepitas. Drizzle the dressing on top and toss to mix."
+   },
+   {
+    "title": null,
+    "text": "Let the slaw rest for 20 minutes before serving (this is key to great flavor), then season to taste with salt, and stir in more dressing if desired. This slaw is best the day it’s made, but it keeps well in the refrigerator, covered, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Make it dairy free: Use dairy-free yogurt when making the dressing."
+  ],
+  "summary": "This healthy quinoa slaw recipe is bursting with nutrients and fresh flavor! Yogurt-based honey-mustard dressing brings it all together. Recipe yields 6 generous side servings.",
+  "ingredient_groups": []
+ }
 }

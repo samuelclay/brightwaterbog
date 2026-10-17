@@ -23,7 +23,41 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/bold-teriyaki-sauce-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small saucepan, combine the soy sauce, water, honey, vinegar, ginger and garlic. Bring the mixture to a gentle simmer over medium heat, stirring occasionally. Keep an eye on it so it doesn’t overflow."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, in a small bowl, whisk together the cornstarch and water until smooth (we’re creating a slurry, which will thicken the sauce). Set aside."
+   },
+   {
+    "title": null,
+    "text": "Once the sauce is simmering, whisk the slurry once more and pour it all into the sauce. Continue cooking, while stirring continuously, until the sauce is thickened, about 30 seconds."
+   },
+   {
+    "title": null,
+    "text": "Remove the sauce from the heat and use as desired. To store for later, let it cool to room temperature before covering and refrigerating. Teriyaki sauce tastes best when it’s fresh, but will keep for 1 to 2 weeks in the fridge."
+   }
+  ],
+  "notes": [
+   "*Make it gluten free: Standard soy sauces contain gluten, so choose certified gluten-free tamari instead (I used San-J brand).",
+   "Make it vegan: Choose maple syrup instead of honey.",
+   "Serving suggestions: Use up leftover teriyaki sauce on a simple veggie stir-fry. Just cook up your leftover vegetables with some olive oil or avocado oil. Once they’re tender and caramelized on the edges, pour in some teriyaki sauce, stir a few times, and remove the skillet from the heat."
+  ],
+  "summary": "Make delicious teriyaki sauce with this simple recipe! Unlike store-bought teriyaki sauce, this recipe is naturally sweetened and easily gluten free. Recipe yields about 1 ¼ cups sauce.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Teriyaki Sauce"
+   },
+   {
+    "at": 6,
+    "title": "Slurry (to thicken sauce)"
+   }
+  ]
  },
  "parser_version": 2
 }

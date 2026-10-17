@@ -32,7 +32,54 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/farmers-market-bowl-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To roast the veggies: Preheat the oven to 425 degrees Fahrenheit with racks in the middle and upper third of the oven. Line two large, rimmed baking sheets with parchment paper for easy cleanup. On one of the sheets, combine all of the vegetables. Drizzle the olive oil on top and sprinkle with the salt and some pepper. Toss until the veggies are all lightly and evenly coated in oil and spices."
+   },
+   {
+    "title": null,
+    "text": "Transfer half of the veggies to the other prepared baking sheet. Arrange them all in an even layer across the pans. Roast on separate racks, tossing the veggies and switching the pans on the racks halfway, until the vegetables are tender throughout and golden on the edges, about 30 to 40 minutes."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, to cook the farro, combine the farro with enough water to cover by several inches in a large saucepan. Bring the mixture to a boil, then reduce the heat to a gentle simmer. Cook, stirring occasionally, until the grains are tender to the bite but still pleasantly chewy, 15 to 25 minutes for pearled farro or 25 to 40 minutes for unprocessed farro. Drain off the excess water and set aside."
+   },
+   {
+    "title": null,
+    "text": "To toast the pepitas, combine the pepitas, olive oil and a few dashes of salt in a medium skillet over medium heat. Cook, stirring often, until the pepitas are making little popping noises and turning golden on the edges, about 5 minutes. Set aside to cool."
+   },
+   {
+    "title": null,
+    "text": "To prepare the green goddess sauce: In a small food processor or blender, combine all of the ingredients and blend until smooth. Taste, and add additional lemon juice and/or salt if necessary. Set aside."
+   },
+   {
+    "title": null,
+    "text": "To prepare the bowls, spread a big spoonful of sauce across the bottom of 4 bowls. Divide the cooked farro into the bowls, then arrange radicchio, roasted veggies and chickpeas on top. Sprinkle pepitas over each bowl and serve with extra green goddess sauce on the side."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from the book BOWLS OF PLENTY by Carolynn Carreño. Copyright © 2017 by Carolynn Carreño. Reprinted with permission of Grand Central Life & Style. All rights reserved.",
+   "*Change it up: You could use any seasonal vegetables that roast well in this recipe (think cauliflower, broccoli, sweet potato, butternut, bell pepper, red onion…). Use a total of about 2 pounds vegetables, cut into even bite-sized pieces. For the record, I’ve tried using regular (not heirloom) carrots, and didn’t enjoy them nearly as much—so if you can’t find heirloom carrots, pick a different veggie option or roast extra Brussels or squash instead.",
+   "**Make it gluten free: Substitute wild rice, brown rice or quinoa, cooked accordingly. You’ll need about 4 cups cooked whole grains for this recipe.",
+   "Make it vegan: Make a blended tahini and herb dressing instead of the yogurt dressing. Blend the following in a small food processor: ⅓ cup tahini, ¼ cup lemon juice (from 1 ½ to 2 lemons), ½ cup mixed fresh leafy herbs (I like half flat leaf parsley and half basil or cilantro), 2 tablespoons water and ¼ teaspoon fine sea salt. The sauce should be nice and creamy, but drizzle easily off the back of a spoon—if not, blend in a bit more water. Taste and add more salt, if necessary."
+  ],
+  "summary": "These farmers’ market bowls feature roasted vegetables, warm whole grains, chickpeas and a creamy yogurt-based green goddess sauce. It’s a healthy, hearty vegetarian dinner option that is very flexible—see the notes for variations. Recipe yields 4 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted veggies*"
+   },
+   {
+    "at": 6,
+    "title": "Bowls"
+   },
+   {
+    "at": 12,
+    "title": "Green goddess yogurt sauce"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -1,6 +1,59 @@
 {
  "url": "https://cookieandkate.com/sauteed-zucchini/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Sauteed Zucchini",
+  "ingredients": [
+   "¼ cup sliced almonds",
+   "1 tablespoon olive oil",
+   "2 small-to-medium zucchinis (about 1 pound total), ends removed, halved lengthwise and cut into ½” wide segments",
+   "½ medium red onion, thinly sliced",
+   "Fine salt, to taste",
+   "Pinch of red pepper flakes (if desired, for heat)",
+   "Freshly ground black pepper, to taste",
+   "2 medium or 1 large garlic clove, pressed or minced",
+   "1 tablespoon lemon juice, more to taste"
+  ],
+  "yield_text": "4",
+  "cook_time": "15 minutes",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/sauteed-zucchini/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Toast the sliced almonds over medium-low heat in a large skillet for about 2 to 4 minutes, stirring often. Pour them onto a plate to cool, then return the skillet to the stovetop."
+   },
+   {
+    "title": null,
+    "text": "Over medium heat, add the olive oil, then use a spatula or big spoon to scoot the zucchini into the pan (beware oil splatters), arranging them in an even layer. Sprinkle the red onion on top, followed by ¼ teaspoon salt, a pinch of red pepper flakes (if using), and a few grinds of pepper."
+   },
+   {
+    "title": null,
+    "text": "Cook for 5 to 7 minutes, stirring and turning the zucchini over after 2 minutes, then every 1 minute after that. Cook until the zucchini is lightly browned, and the onions are soft but not burnt. The zucchini will continue to soften as it cools."
+   },
+   {
+    "title": null,
+    "text": "Remove the skillet from the heat, then add the garlic and toasted almonds. Cook for about 30 seconds over the residual heat, stirring constantly to prevent the garlic from burning. Stir in 1 tablespoon lemon juice, then let it cool for at least 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Taste, and add up to 1 more tablespoon lemon juice if it’s not nicely zingy. Add salt and pepper (I typically add a pinch or two of salt), to taste, then serve warm. Leftovers keep well in an airtight container in the refrigerator for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Change it up: Try roughly chopped roasted pistachios in place of the almonds, or a yellow or white onion instead of red.",
+   "Make it nut free: Omit the sliced almonds, or replace them with pine nuts (which are technically seeds), if they work for you."
+  ],
+  "summary": "This simple sautéed zucchini recipe is the best! It features tender, caramelized zucchini cooked with thinly sliced red onion, toasted almonds, lemon and garlic. Recipe yields 4 medium or 6 small side servings, and leftovers reheat well for future dinners.",
+  "ingredient_groups": []
+ }
 }

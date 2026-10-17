@@ -25,7 +25,44 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/chocolate-chip-blondies-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "With the oven rack in the middle position, preheat the oven to 350 degrees Fahrenheit. Grease a 9 by 13-inch baking dish and line it with parchment paper."
+   },
+   {
+    "title": null,
+    "text": "In a medium bowl, whisk together the flour and baking powder. Set aside."
+   },
+   {
+    "title": null,
+    "text": "In a medium saucepan over medium heat, combine the butter, coconut sugar and salt. Cook, stirring often, until the butter is completely melted and the mixture is hot but not simmering. Remove from the heat and stir in the coffee until well combined (if the mixture refuses to come together, let it cool for a minute or two and try again). Let the mixture cool to room temperature, about 15 to 20 minutes."
+   },
+   {
+    "title": null,
+    "text": "In the meantime, pour the pecans onto a small rimmed baking sheet and bake in the preheated oven for 5 to 8 minutes, until they’re nice and fragrant, stirring halfway. Set aside to cool."
+   },
+   {
+    "title": null,
+    "text": "Once the butter and sugar mixture has cooled to room temperature, add the egg and vanilla and whisk until combined. Transfer the mixture to a large bowl. Add the flour mixture and stir just until combined. Add the pecans and chocolate chips and stir gently to combine."
+   },
+   {
+    "title": null,
+    "text": "Using a spatula, spread the batter evenly into the prepared pan (this is a little tricky with the parchment paper, but you can do it, I promise). Bake for 18 to 24 minutes, until the blondies are set on the edges and the top is golden brown and just beginning to form cracks. A wooden skewer or toothpick inserted into the blondies should come out with just a couple of crumbs."
+   },
+   {
+    "title": null,
+    "text": "Transfer the pan to a wire rack and let it cool completely. Grab opposite corners of the parchment paper and gently lift the blondies from the pan onto a flat surface. Cut them into squares (big or small, up to you) and serve."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from The Vanilla Bean Baking Book by Sarah Kieffer.",
+   "Change it up: You can replace the pecans with other nuts or additional chocolate chips, or vice versa.",
+   "Make it vegan: I’m pretty sure that you can make these vegan with coconut oil and flax eggs. Please let me know if you try."
+  ],
+  "summary": "Crazy delicious chocolate chip blondies recipe with toasted pecans. Made with coconut sugar and whole wheat flour, so they’re healthier than most, too! Recipe yields 12 large or up to 24 small blondies, depending on how you slice them.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

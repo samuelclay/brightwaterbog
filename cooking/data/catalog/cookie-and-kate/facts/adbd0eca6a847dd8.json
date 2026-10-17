@@ -35,7 +35,59 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/mason-jar-chickpea-farro-and-greens-salad/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the farro: In a medium saucepan, combine the rinsed farro with at least three cups water (enough water to cover the farro by a couple of inches). Bring the water to a boil, then reduce heat to a gentle simmer, and cook until the farro is tender to the bite but still pleasantly chewy. (Pearled farro will take around 15 minutes, unprocessed farro will take 25 to 40 minutes.) Drain off the excess water and mix in the olive oil, garlic and salt. Set aside to cool."
+   },
+   {
+    "title": null,
+    "text": "Make the dressing: Whisk together all of the dressing ingredients until emulsified."
+   },
+   {
+    "title": null,
+    "text": "Make the chickpea and celery salad: In a serving bowl, toss together the chickpeas, prepared celery, red onion and parsley. Stir in enough dressing (or olive oil and lemon juice) to lightly coat the salad. Toss and set aside."
+   },
+   {
+    "title": null,
+    "text": "Toast the pepitas: In a skillet over medium-low heat, toast the pepitas for a few minutes, stirring frequently, until they smell fragrant and toasty. Transfer the pepitas to a bowl to cool."
+   },
+   {
+    "title": null,
+    "text": "To assemble your mason jar salads: In a quart-sized mason jar (32 ounce capacity), layer the chickpea salad at the bottom along with an additional tablespoon or two of dressing (enough to lightly coat the salad when you turn the jar upside down). Top with cooled farro, then greens (leave about an inch of room at the top). Finish with a sprinkle of any garnishes that you’d like."
+   },
+   {
+    "title": null,
+    "text": "Secure the lid and refrigerate for up to 5 days. To serve, flip the jar over and give it a few gentle shakes to distribute the dressing and the ingredients. Flip it back over, unscrew the lid and stick a fork in it!"
+   }
+  ],
+  "notes": [
+   "Salad inspired by my chickpea salad and Mediterranean Bean Salad.",
+   "Why buy organic? Conventionally grown celery and greens are usually high in pesticide exposure.",
+   "Make it vegan/dairy free: Just skip the feta. Add extra olives for a salty punch.",
+   "Quick farro tip: Trader Joe’s sells pre-cooked farro that only takes 10 minutes to cook. Look for it near the rice.",
+   "Storage suggestions: Feel free to prepare mason jar salads up to a few days in advance. Just store them upright so the dressing doesn’t get to the greens. You can also store the components separately and mix and match as desired. If the olive oil in the dressing solidifies when refrigerated, just let it sit at room temperature for a few minutes or give it a brief zap in the microwave, then whisk the dressing back together."
+  ],
+  "summary": "A mason jar salad made with components that you can mix and match! Amounts listed below should yield plenty for five mason jar salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Farro (feel free to substitute another grain and/or cook extra for later)"
+   },
+   {
+    "at": 4,
+    "title": "Greek dressing (this recipe is easily halved)"
+   },
+   {
+    "at": 12,
+    "title": "Chickpea and celery salad"
+   },
+   {
+    "at": 17,
+    "title": "Greens and optional garnishes"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -1,6 +1,76 @@
 {
  "url": "https://cookieandkate.com/healthy-maple-caramel-popcorn/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Cinnamon Maple Caramel Popcorn",
+  "ingredients": [
+   "⅓ cup popcorn kernels",
+   "1 tablespoon coconut oil or extra-virgin olive oil",
+   "6 cups popped popcorn",
+   "¾ cup sliced almonds or other nuts (optional)",
+   "½ cup real maple syrup",
+   "3 tablespoons almond butter or nut butter of choice (peanut butter and cashew butter work, too)",
+   "1 ½ teaspoons pure vanilla extract",
+   "¼ teaspoon sea salt",
+   "¼ teaspoon cinnamon, plus more for sprinkling"
+  ],
+  "yield_text": "6 cups",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Snack"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/healthy-maple-caramel-popcorn/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 350 degrees Fahrenheit. Line a rimmed baking sheet with parchment paper."
+   },
+   {
+    "title": null,
+    "text": "Toast the nuts: Once the oven has preheated, arrange the almonds (or other nuts) in a single layer on the parchment paper. Roast the nuts in the oven for 7 to 10 minutes, until fragrant. Keep an eye on them so they don’t burn. If you’re using whole nuts, chop the toasted nuts into small pieces on a cutting board."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, pop the popcorn: First, place a large mixing bowl near the stove. Pour the oil into a large, heavy-bottomed pan with a lid. Turn the heat up to medium, add 2 kernels of corn, and cover. Once the kernels pop, remove the lid and pour in the remaining popcorn kernels. Cover the pot and give the pot a little shimmy to distribute the kernels evenly."
+   },
+   {
+    "title": null,
+    "text": "Cook over medium heat, shaking the pot occasionally. Crack the lid just a smidge so the popcorn stays crisp, and cook until the popping sound slows to about one pop per every few seconds. Remove the pan from heat and dump the popcorn your bowl, taking care not to pour in any unpopped kernels at the bottom of the pot. If necessary, pick out any unpopped kernels that made it into the bowl with a spoon."
+   },
+   {
+    "title": null,
+    "text": "To make the caramel sauce: In a small, heavy bottomed pot, bring the maple syrup to a boil over medium heat. Keep a watchful eye on the syrup and continue boiling for 2 minutes and 30 seconds, reducing heat only if necessary to prevent overflow. Remove the pot from heat."
+   },
+   {
+    "title": null,
+    "text": "Add the nut butter, vanilla extract, salt and cinnamon to the pot of maple syrup. Whisk until well blended. Add the nuts to the popcorn, then drizzle the maple mixture over the popcorn and nuts. Toss with a rubber spatula or big spoon until well mixed. Pour the popcorn onto the parchment-covered baking sheet and arrange it in a single layer."
+   },
+   {
+    "title": null,
+    "text": "Bake the popcorn for 6 minutes, then rotate the pan and cook for another 2 minutes. Remove from oven and sprinkle with additional cinnamon and salt, to taste. The popcorn will continue to crisp up as it cools. Once it’s cool, break the popcorn into pieces (or leave them in chunks!) and serve."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from At Home in the Whole Food Kitchen by Amy Chaplin.",
+   "Make it nut free: I think sunflower butter would work in place of the almond butter, but I haven’t tried. You’ll also want to skip the toasted nuts or use toasted pepitas or sunflower seeds instead.",
+   "Storage suggestions: This popcorn is best when fresh, but it keeps well in a sealed plastic bag (squeeze out as much air as possible) for a few days.",
+   "Change it up: You can do so many things with this recipe! Use a different nut butter and different nuts. Toss in dried cranberries, tiny chocolate chips and/or toasted shredded/flaked coconut while the mixture is wet. Use different spices (I think spicy curry powder could be great!)"
+  ],
+  "summary": "Naturally sweetened caramel popcorn made with maple syrup and almond butter! This healthier, vegan caramel corn is really easy to make. Feel free to use any nut butter you’d like. Recipe yields about 6 cups caramel popcorn.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Popped popcorn, yields about 6 cups"
+   },
+   {
+    "at": 2,
+    "title": "Cinnamon maple caramel corn"
+   }
+  ]
+ }
 }

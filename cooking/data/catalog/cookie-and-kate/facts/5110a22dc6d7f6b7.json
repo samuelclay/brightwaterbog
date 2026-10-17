@@ -41,7 +41,51 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/heart-of-romaine-salad-with-pico-de-gallo-and-avocado-dressing/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the pico de gallo: in a medium bowl, toss together all of the ingredients and set aside to marinate."
+   },
+   {
+    "title": null,
+    "text": "Make the dressing: in a food processor or quality blender, combine the avocado flesh, lime juice, cilantro, red pepper flakes and salt. Blend while drizzling in the water and olive oil. Continue to blend until the dressing is smooth and creamy."
+   },
+   {
+    "title": null,
+    "text": "Warm the beans: in a large skillet, heat a drizzle of olive oil over medium heat. Sauté the onion and garlic for a couple of minutes, then add the cumin and sauté for another minute. Pour in one can of black beans with all of its cooking liquid, then drain the other can, reserving the juices for later if necessary. Pour the remaining beans into the pan and stir in the chili powder and cayenne pepper."
+   },
+   {
+    "title": null,
+    "text": "Turn up the heat to medium-high and simmer the beans for 7 to 10 minutes. Use a fork or the back of a wooden spoon to mash up about ½ of the beans. Reduce heat as necessary and add more of the cooking liquid if the mixture seems too dry. Remove the beans from heat and stir in the sherry vinegar and salt, to taste."
+   },
+   {
+    "title": null,
+    "text": "To serve, place a generous amount of beans on a salad plate, then top the beans with a romaine halve. Spread several spoonfuls of avocado sauce over the romaine and top it with lots of pico de gallo. Garnish with toasted pepitas or crumbled feta cheese, if you’d like."
+   }
+  ],
+  "notes": [
+   "Feel free to substitute fresh lime juice for either (or both) of the vinegars."
+  ],
+  "summary": "A “hearty” romaine salad served on a bed of spicy black beans with pico de gallo and creamy avocado dressing. This beautiful salad would be great to serve for company or a casual night at home.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Cherry tomato pico de gallo"
+   },
+   {
+    "at": 8,
+    "title": "Creamy avocado-cilantro dressing"
+   },
+   {
+    "at": 15,
+    "title": "Spicy black beans"
+   },
+   {
+    "at": 24,
+    "title": "Salad"
+   }
+  ]
  },
  "parser_version": 2
 }

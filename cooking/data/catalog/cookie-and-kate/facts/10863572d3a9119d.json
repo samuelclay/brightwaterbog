@@ -30,7 +30,57 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/pesto-squash-noodles-and-spaghetti-with-burst-cherry-tomatoes/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a large pot of salted water to boil. Cut off the tough ends of the squash and remove any discolored skin with a paring knife. Use a julienne peeler (or regular peeler) to slice the squash lengthwise, one side at a time. Stop once you get to the seeded part, then turn the squash to work on the next side."
+   },
+   {
+    "title": null,
+    "text": "Toast the pecans: In a large skillet over medium heat, toast the pecans, while stirring frequently, until they’re nice and fragrant, about 4 to 5 minutes. Transfer the pecans to a bowl to cool."
+   },
+   {
+    "title": null,
+    "text": "To make the pesto: In a food processor, combine the arugula/basil, cooled pecans, Parmesan, garlic and salt. Pulse while drizzling in the olive oil. Stir in the lemon juice and season to taste with freshly ground black pepper."
+   },
+   {
+    "title": null,
+    "text": "Once the water is boiling, cook the pasta until al dente, according to package directions. Before draining, reserve ½ cup pasta cooking water. Drain pasta and return to pot."
+   },
+   {
+    "title": null,
+    "text": "Cook the tomatoes: First, slice about 5 of the tomatoes into thin rounds and reserve them for later. In a Dutch oven or heavy-bottomed pot over medium heat, warm the olive oil and red pepper flakes (if using). Once the oil is shimmering, add the whole cherry tomatoes and a pinch of salt. Let the tomatoes cook, stirring occasionally, until they are blistered in spots and starting to pop, about 3 minutes. Continue to cook, lightly crushing the tomatoes with the back of a big spoon or silicone spatula, until they are beginning to break down, about 3 minutes. Remove the pot from the heat and stir in the sliced tomatoes."
+   },
+   {
+    "title": null,
+    "text": "To assemble the pasta: Combine the pasta and squash noodles in a serving bowl. Add most of the pesto and a couple tablespoons pasta water. Toss to combine, adding more pesto or pasta water until the noodles are sufficiently coated in pesto. Season to taste with salt and black pepper, if desired. Divide the noodles into individual bowls and top with cherry tomatoes. I finished mine with a sprinkle of Parmesan and another twist of freshly ground black pepper."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my arugula-almond pesto, cilantro-pepita pesto with squash ribbons and Bon Appetit’s linguine with burst tomatoes and chili peppers.",
+   "Make it vegan/dairy free: Omit the Parmesan altogether or add nutritional yeast, to taste, in its place.",
+   "Make it gluten free: Use your favorite gluten-free noodles or use only squash noodles (you would need about 5 to 6 squash in total).",
+   "Make it nut free: Substitute pepitas for the pecans or omit the nuts altogether for an herby olive oil sauce.",
+   "Storage suggestions: Pesto is best consumed immediately after making. It oxidizes with air exposure, so store it separately from other components, with plastic wrap pressed against the top.",
+   "Change it up: Use any pesto you like, whether homemade or store-bought. During cooler months, non-starchy roasted vegetables would be a great substitute for the tomatoes.",
+   "Recommended equipment: I love my Kuhn Rikon julienne peeler."
+  ],
+  "summary": "Homemade pesto tossed with raw squash noodles and spaghetti, topped with burst cherry tomatoes. This vegetarian recipe is easily made vegan and/or gluten free (see recipe notes). This recipe is saucy—you could stretch it to accommodate ½ pound spaghetti or an extra zucchini, if you’d like. Recipe yields 4 servings, which would be great served with big green salads!",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Pesto"
+   },
+   {
+    "at": 8,
+    "title": "Squash noodles and spaghetti"
+   },
+   {
+    "at": 11,
+    "title": "Burst tomatoes"
+   }
+  ]
  },
  "parser_version": 2
 }

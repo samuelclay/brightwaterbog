@@ -1,6 +1,74 @@
 {
  "url": "https://cookieandkate.com/quinoa-broccoli-slaw-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Quinoa Broccoli Slaw with Honey-Mustard Dressing",
+  "ingredients": [
+   "¾ cup uncooked quinoa",
+   "1 ½ cups water",
+   "½ cup slivered or sliced almonds",
+   "1 ½ pounds broccoli (about 2 large or 3 medium heads) or 16 ounces shredded broccoli slaw",
+   "⅓ cup chopped fresh basil",
+   "½ cup olive oil",
+   "2 tablespoons lemon juice",
+   "2 tablespoons smooth Dijon mustard",
+   "1 tablespoon apple cider vinegar or more lemon juice",
+   "1 tablespoon honey",
+   "2 medium cloves garlic, pressed or minced",
+   "½ teaspoon sea salt",
+   "Freshly ground pepper, to taste",
+   "Red pepper flakes, optional (for heat)"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "40 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/quinoa-broccoli-slaw-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the quinoa: First, rinse the quinoa in a fine mesh colander under running water. In a medium-sized pot, combine the rinsed quinoa and 1 ½ cups water. Bring the mixture to a gentle boil over medium heat, then reduce the heat to medium-low and gently simmer the quinoa until it has absorbed all of the water. Remove the quinoa from heat, cover the pot and let it rest for 5 minutes. Uncover the pot and fluff the quinoa with a fork. Set it aside to cool."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, toast the almonds: In a small skillet over medium heat, toast the almonds, stirring frequently, until they are fragrant and starting to turn golden on the edges, about 5 to 7 minutes. Transfer to a large serving bowl to cool."
+   },
+   {
+    "title": null,
+    "text": "To prepare the broccoli (if you’re not using prepared broccoli slaw), trim off any brown bits from the florets and stems, then slice the florets off the stems into manageable pieces. Use a paring knife to peel off the tough, woody perimeter of the broccoli stems and then discard those pieces. Now you can feed the broccoli florets through your food processor using the slicing blade, then switch to the grating blade to shred the stems. Alternatively, you can shred the broccoli with a mandoline or by hand with a sharp knife."
+   },
+   {
+    "title": null,
+    "text": "Combine all of the dressing ingredients in a liquid measuring cup and whisk until emulsified. The dressing should be pleasantly tangy and pack a punch. If it’s overwhelmingly acidic, add a little more honey to balance out the flavors. If it needs more kick, add a bit more mustard or lemon juice."
+   },
+   {
+    "title": null,
+    "text": "Add the shredded broccoli slaw, cooked quinoa and chopped basil to your large serving bowl. Pour the dressing over the mixture and toss until well mixed. Let the slaw rest for about 20 minutes to let the flavors meld."
+   }
+  ],
+  "notes": [
+   "Make it vegan: Substitute maple syrup for the honey.",
+   "Make it nut free: I bet sunflower seeds would be a great alternative to the almonds.",
+   "Storage suggestions: This salad keeps well overnight. Brighten up leftovers with a squeeze of lemon juice and maybe an extra drizzle of olive oil and dash of salt, too."
+  ],
+  "summary": "Mayo-free, healthy broccoli slaw recipe with quinoa, toasted almonds and basil tossed in a tangy honey-mustard dressing! This gluten-free slaw will be a hit at potlucks and packs well for lunch, too. For best flavor, plan on letting the slaw rest for 20 minutes or more before serving. Recipe yields about 4 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Slaw"
+   },
+   {
+    "at": 5,
+    "title": "Honey-mustard dressing"
+   }
+  ]
+ }
 }

@@ -19,7 +19,38 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/grilled-pizza-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the grill to about 400 to 500 degrees Fahrenheit (if your grill doesn’t have a temperature gauge, you’ve reached this temperature when you can comfortably hold your hand about 5 inches above the grate for just one second—be careful!)."
+   },
+   {
+    "title": null,
+    "text": "On a floured surface, prepare the dough through step 5. Lightly brush the top of the dough all over with olive oil. Scoop one round of dough onto a pizza peel (in a pinch, use a flat cookie sheet with no rim)."
+   },
+   {
+    "title": null,
+    "text": "Carefully flip the dough onto the preheated grill so that the oiled side is against the grate. Close the grill and cook until the dough is bubbling all over and lightly cooked through, about 2 to 3 minutes."
+   },
+   {
+    "title": null,
+    "text": "Scoop the pizza crust back onto your pizza peel, then place the pizza on a flat surface and add your toppings: divide half of the sauce over the pizza and spread it around, leaving about 1-inch bare along the edges, followed by half of the cheese, and any toppings you desire."
+   },
+   {
+    "title": null,
+    "text": "Return the pizza to the grill, cover the grill, and cook until the cheese is melted, about 2 to 4 minutes. Scoop the pizza back onto your pizza peel and transfer it to a flat cutting surface."
+   },
+   {
+    "title": null,
+    "text": "Add any remaining toppings (like arugula, balsamic reduction and red pepper flakes, as shown in photos). Repeat the process with the second pizza. Slice and serve! Leftover pizza will keep well in the fridge, covered, for up to 5 days."
+   }
+  ],
+  "notes": [
+   "*Toppings as shown: I used goat cheese and a handful of Kalamata olives (pitted and halved). Once the pizza was done, I added a handful of fresh arugula, a drizzle of balsamic reduction and a sprinkle of red pepper flakes."
+  ],
+  "summary": "Learn how to grill pizza with this simple recipe! My easy whole wheat pizza dough comes together in no time and grills beautifully, or you can use store-bought dough. Recipe yields two 11-inch pizzas (about 6 to 8 servings).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

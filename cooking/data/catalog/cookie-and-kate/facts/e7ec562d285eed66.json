@@ -1,6 +1,60 @@
 {
  "url": "https://cookieandkate.com/thumbprint-cookies-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Thumbprint Cookies",
+  "ingredients": [
+   "2 ¼ cups (190 grams) fine blanched almond flour, spooned and leveled",
+   "6 tablespoons (80 grams) unsalted butter, melted but not overly hot",
+   "¼ cup (80 grams) maple syrup",
+   "1 teaspoon vanilla extract",
+   "¼ teaspoon fine salt",
+   "2 tablespoons sugar, for rolling",
+   "3 tablespoons jam or preserves of choice (raspberry recommended), well stirred"
+  ],
+  "yield_text": "24 cookies",
+  "cook_time": "34 minutes",
+  "categories": [
+   "Cookie"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/thumbprint-cookies-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper to ensure that the cookies don’t stick to the pan."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, combine the almond flour, melted butter, maple syrup, vanilla extract, and salt. Stir until the dough is uniformly blended and smooth."
+   },
+   {
+    "title": null,
+    "text": "Pour the sugar into a small bowl and set it aside. Use a small cookie scoop (size 70 portioner) or scoop 2 teaspoons of the dough with measuring spoons. Gently roll the dough into a ball between your palms. Drop the ball into the bowl of sugar and roll it around until lightly coated all around. Gently roll it into a ball once more and place it on the cookie sheet. Repeat with the remaining dough, keeping the balls about 2 inches apart."
+   },
+   {
+    "title": null,
+    "text": "To make indentions for the jam, use the rounded back of a teaspoon or your thumb to gently press an indentation in the center of each cookie dough ball. If the dough cracks around the edges, take the time to gently smooth it back together. Fill each indentation with a level ½ teaspoon of jam (no more!). If the jam is too firm to work with, gently warm it in the microwave for a few seconds, just until it’s easy to stir."
+   },
+   {
+    "title": null,
+    "text": "Bake the cookies for 13 to 15 minutes, until they start to turn lightly golden around the edges."
+   },
+   {
+    "title": null,
+    "text": "Remove the cookies from the oven. Let the cookies cool on the pan for 10 minutes before transferring them to a rack to cool completely. Store these cookies in an airtight container at room temperature, ideally in a single layer, for up to 7 days. They become a little more tender as time goes on, so I wouldn’t suggest shipping these."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Replace the butter with an equal amount of just-melted coconut oil. Unrefined coconut flavor will impart some coconut flavor; use refined coconut oil if you don’t want to taste coconut. If you are following a vegan diet, be sure to choose vegan sugar and jam."
+  ],
+  "summary": "These thumbprint cookies offer classic shortbread flavor with dazzling jam centers. Almond flour makes them gluten free and extra delicious! Recipe yields 22 to 24 small cookies.",
+  "ingredient_groups": []
+ }
 }

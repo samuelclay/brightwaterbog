@@ -29,7 +29,32 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2010/10/cauliflower-and-parmesan-cake/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 350°F (180°C) degrees. Break cauliflower into medium florets (this will cause less mess than chopping it). Place floret in a pot with a teaspoon of salt, cover them with water and simmer for 15 to 20 minutes, until quite soft. Strain and let drip in the colander for a few minutes so they dry and cool."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, prepare the batter. Halve your red onion and cut a few thin rings off the end of one side; set them aside. Coarsely chop the remainder of your onion. Heat all of your olive oil in a saucepan (I won’t tell if you use the one where you cooked your cauliflower) and saute the chopped red onion and rosemary together until soft, about 8 minutes. Remove from heat and allow to cool."
+   },
+   {
+    "title": null,
+    "text": "Whisk eggs and olive oil and onion mixture together. Stir in basil. Whisk flour, baking powder, turmeric, cheese, 1 1/2 teaspoons salt (use 1 teaspoon if you are nervous about this amount) and many, many grinds of black pepper together in a separate bowl and add to egg mixture, whisking to remove lumps. Stir in cauliflower gently, so most pieces remain intact."
+   },
+   {
+    "title": null,
+    "text": "Line the bottom of a 9-inch (24cm) round springform pan with parchment paper. Butter the sides generously. Put the sesame seeds in the pan and toss them around so that they stick to the sides. Pour in the cauliflower batter, arrange the reserved onion rings on top and bake cake in the center of the oven for 45 minutes, until golden brown and set."
+   },
+   {
+    "title": null,
+    "text": "Serve warm or at room temperature. Before you serve the cake, be sure to run a knife around the pan. This was probably the first time in my life I forgot, and several parts of the seed-crusted sides tore off!"
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

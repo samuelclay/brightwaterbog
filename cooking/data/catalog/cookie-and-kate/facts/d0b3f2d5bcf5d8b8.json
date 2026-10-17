@@ -19,7 +19,43 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/cucumber-cocktails/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Place a fine mesh sieve over a large bowl or pitcher."
+   },
+   {
+    "title": null,
+    "text": "In a blender, puree the watermelon and cucumber chunks."
+   },
+   {
+    "title": null,
+    "text": "Pour mixture through the sieve into the bowl. Use the back of a big spoon or rubber spatula to squeeze all the juice into the bowl."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl, stir together lime juice and honey."
+   },
+   {
+    "title": null,
+    "text": "Pour the lime juice and honey mixture into the watermelon and cucumber juice, along with vodka. Adjust sweetness with more honey if desired."
+   },
+   {
+    "title": null,
+    "text": "To serve, fill two glasses with ice and top each with cocktail. Garnish with cucumber and lime slices."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Martha."
+  ],
+  "summary": "Refreshing, lightly sweetened and spiked watermelon and cucumber juice!",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Yields 2 cocktails"
+   }
+  ]
  },
  "parser_version": 2
 }

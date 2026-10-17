@@ -28,7 +28,42 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/pesto-pasta-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a large pot of salted water to boil for the pasta. Cook the pasta until al dente according to the package directions. Before draining, reserve about ½ cup pasta cooking water, then drain and immediately rinse the pasta under cool water to prevent the noodles from sticking together. Transfer the pasta to a large serving bowl."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, to prepare the pesto: In a small skillet, toast the pepitas over medium heat, stirring often, until they are fragrant and making little popping noises, about 4 to 5 minutes. Pour half of the pepitas into a bowl for later (we will use them as garnish)."
+   },
+   {
+    "title": null,
+    "text": "Pour the remaining pepitas into a food processor. Add the basil, parsley, lemon juice, garlic and salt. Process while slowly drizzling in the olive oil, stopping to scrape down the sides as necessary, until the pepitas have broken down to create a pretty smooth sauce."
+   },
+   {
+    "title": null,
+    "text": "To assemble the pasta salad, pour all of the pesto over the pasta and toss until the pasta is lightly and evenly coated, adding a tiny splash of reserved pasta cooking water if necessary to thin it out. Then add the cherry tomatoes, arugula, remaining toasted pepitas, and any optional add-ins (cheese, olives and/or chickpeas)."
+   },
+   {
+    "title": null,
+    "text": "Toss again to combine, then season to taste with pepper. If the pasta needs more flavor, add salt, to taste, or a splash of lemon juice. If the flavors are too bold, let it rest for a few minutes, and add a little splash of olive oil if necessary to tone down the rest. This recipe will keep well, covered and refrigerated, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Vegan Goodness by Jessica Prescott.",
+   "*Change it up: You can use pine nuts, walnuts or almonds in the pesto instead of pepitas (although the dish will no longer be nut-free, if that is relevant to you).",
+   "Make it gluten free: Use your favorite gluten-free pasta.",
+   "Make it dairy free/vegan: Just don’t add any cheese!"
+  ],
+  "summary": "This pesto pasta salad recipe is bursting with fresh flavor. It’s light, healthy and easy to make. Perfect for picnics and potlucks! Recipe yields 6 to 8 side servings.",
+  "ingredient_groups": [
+   {
+    "at": 6,
+    "title": "Pesto (or substitute ⅔ cup jarred pesto)"
+   }
+  ]
  },
  "parser_version": 2
 }

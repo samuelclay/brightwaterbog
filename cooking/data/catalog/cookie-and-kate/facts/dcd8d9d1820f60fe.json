@@ -1,6 +1,83 @@
 {
  "url": "https://cookieandkate.com/sweet-potato-burrito-smothered-in-avocado-salsa-verde/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Sweet Potato Burrito Smothered in Avocado Salsa Verde",
+  "ingredients": [
+   "2 medium sweet potatoes",
+   "2 red bell peppers",
+   "2 tablespoons extra-virgin olive oil",
+   "½ teaspoon ground cumin",
+   "½ teaspoon smoked paprika or chipotle powder",
+   "¼ teaspoon cayenne (omit if sensitive to spice)",
+   "Salt and black pepper, to taste",
+   "4 to 6 whole wheat tortillas",
+   "1 can (15 ounces) black beans, rinsed and drained",
+   "1 to 2 cups shredded Jack cheese or cheddar cheese",
+   "2 ripe avocados",
+   "1 cup mild salsa verde, homemade or jarred",
+   "2 garlic cloves, roughly chopped",
+   "1 lime, juiced",
+   "¼ cup packed cilantro leaves",
+   "Up to 2 tablespoons water, to thin as necessary",
+   "Salt, to taste",
+   "1 ½ cups chopped romaine lettuce",
+   "½ small red onion, finely chopped",
+   "Sour cream, optional"
+  ],
+  "yield_text": "4 burritos",
+  "cook_time": "1 hour",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/sweet-potato-burrito-smothered-in-avocado-salsa-verde/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper for easy clean-up. Scrub and peel the sweet potatoes (or leave the skin on to save time). Slice them into large, bite-sized chunks, about 1 to 1 ½-inches wide/long and ½-inch deep. Cut the bell pepper into 1-inch wide strips."
+   },
+   {
+    "title": null,
+    "text": "On the prepared baking sheet, toss the sweet potatoes and bell pepper with the olive oil, cumin, paprika, cayenne pepper (if using), and a sprinkle of salt and pepper. Arrange the veggies evenly across the pan. Bake for about 30 to 40 minutes, stirring halfway, until they are golden and caramelized around the edges."
+   },
+   {
+    "title": null,
+    "text": "Make the avocado sauce: Scoop the avocado into a food processor or blender. Add the salsa verde, garlic, and lime juice. Blend. Add the cilantro and blend again. Add water to thin out the sauce if desired; the sauce should glop easily off a spoon. Taste and blend in some salt or add another squeeze of lime if necessary. This sauce should taste like a real kick in the mouth; you’ll know you’re done when you can’t stop going in for another spoonful."
+   },
+   {
+    "title": null,
+    "text": "Make sure the oven is still on at 425 degrees Fahrenheit. Place your tortillas on another baking sheet lined with parchment paper. In the middle of each tortilla, put down a few strips of roasted red pepper, then pour ⅓ cup black beans down the center and top it all with ⅓ cup roasted sweet potato chunks. Sprinkle ¼ cup or more of cheese on top. Pull one edge of the tortilla over to the center of the burrito, then pull the opposite edge over to overlap a bit. Gently roll the burrito over. Repeat with remaining burritos."
+   },
+   {
+    "title": null,
+    "text": "Bake your burritos for about 5 to 7 minutes on the middle rack, until the cheese is melted and the tortillas are lightly crisp. Carefully transfer each burrito to a plate. Smother it in avocado sauce, sprinkle with ample romaine lettuce, some chopped red onion, and a dollop of sour cream if you’d like. Enjoy. Leftover burritos keep well with sauce stored separately in the fridge, covered, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Omit the cheese and optional sour cream, or substitute vegan sour cream.",
+   "Make it gluten free: Substitute gluten-free tortillas, like Siete brand. They will be more delicate, but I believe you will have good results."
+  ],
+  "summary": "Sweet potato burritos with black beans, smothered in a simple but flavorful avocado salsa verde sauce. Recipe yields 4 to 6 burritos, depending on the size of your tortillas and how full you stuff them.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Burritos"
+   },
+   {
+    "at": 10,
+    "title": "Avocado Salsa Verde"
+   },
+   {
+    "at": 17,
+    "title": "Toppings"
+   }
+  ]
+ }
 }

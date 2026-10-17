@@ -24,7 +24,40 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/veggie-teriyaki-stir-fry-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a pot of water to boil and cook the noodles until al dente, according to package directions. Drain and rinse well to remove any excess starch. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, warm a large skillet over medium heat. Add the oil, onion and salt. Cooking, stirring occasionally, until the onion is tender, about 4 to 6 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the remaining vegetables and cook until they are tender and caramelizing on the edges, stirring every minute or two. Given the volume of vegetables, this will take about 10 to 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "Once the vegetables are done, add the noodles and ½ cup teriyaki sauce to the pan. Stir to combine, and cook just until the ingredients are all warmed through, about 1 minute. Feel free to add more teriyaki sauce if you like your noodles extra-saucy."
+   },
+   {
+    "title": null,
+    "text": "Remove the skillet from the heat. Add toasted sesame oil, to taste (a little goes a long way/toss with tongs if you need help mixing the noodles into the veggies). Add the sesame seeds."
+   },
+   {
+    "title": null,
+    "text": "Serve the noodles in bowls with sliced green onion and a little sprinkle of sesame seeds on top. Leftovers keep well, covered and refrigerated, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "*Vegetable suggestions: Aim to slice your veggies into ¼-inch wide strips for even cooking. Use any combination of portobello or baby bella mushrooms, bell pepper, snap peas (halved vertically), cabbage, carrot (cut thin on the diagonal), or kale.",
+   "Make it vegan: Make or buy vegan teriyaki sauce. My teriyaki sauce recipe has a vegan option (simply use maple syrup instead of honey).",
+   "Make it gluten free: Be sure to use gluten-free teriyaki sauce (most aren’t gluten free, but my recipe has a gluten-free option). Also choose gluten-free noodles, such as brown rice noodles (available at Whole Foods) or spaghetti noodles (I’d probably use a corn and quinoa blend because they tend to retain their shape better than others)."
+  ],
+  "summary": "Make this quick and delicious vegetarian stir-fry with noodles for dinner tonight! It’s a healthier spin on take-out that is easily made vegan and/or gluten free (see notes). Recipe yields 4 main dish servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

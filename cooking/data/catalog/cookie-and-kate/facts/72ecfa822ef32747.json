@@ -1,6 +1,44 @@
 {
  "url": "https://cookieandkate.com/wassail-cocktail/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Homemade Wassail",
+  "ingredients": [
+   "4 cups apple cider (or unfiltered apple juice, doctored up with warm spices like cinnamon, nutmeg and allspice)",
+   "½ inch nub of fresh ginger, peeled and grated or finely minced",
+   "2 lemons, sliced",
+   "1 cinnamon stick",
+   "3 star anise (optional, but they’re pretty!)",
+   "½ vanilla bean, slit down the middle with the insides scooped out (or ¼ ounce vanilla extract)",
+   "Bourbon",
+   "Garnish options: cinnamon sticks, star anise, lemon slices and/or thinly sliced red apple"
+  ],
+  "yield_text": "4",
+  "cook_time": "40 minutes",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/wassail-cocktail/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium saucepan, combine all of the nonalcoholic ingredients and gently simmer for at least thirty minutes, preferably over an hour."
+   },
+   {
+    "title": null,
+    "text": "Measure bourbon into mugs, then pour in your hot spiced cider (3 ounces for a stiff drink, or more to mellow it). Garnish as desired, and serve warm."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from The Seasonal Cocktail Companion by Maggie Savarino.",
+   "Change it up: Substitute some of the cider for brown ale or real cranberry juice. Add other whole spices like cloves, allspice berries and/or white peppercorns. You can keep a big batch of cider warm in a crock pot!"
+  ],
+  "summary": "Learn how to make wassail cocktails with real apple cider, ginger, lemon, spices and, of course, bourbon. Wassails are perfect for warming up on cold days! Recipe yields 4 to 6 cocktails, depending on how much of the warm cider mixture you use per drink.",
+  "ingredient_groups": []
+ }
 }

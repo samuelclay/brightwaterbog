@@ -25,7 +25,53 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/citrus-olive-oil-cake-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit. Generously butter and flour an 8½ by 4¼-inch loaf pan. In a medium mixing bowl, whisk together the flour, baking powder and salt."
+   },
+   {
+    "title": null,
+    "text": "Pour the sugar into another medium-sized mixing bowl. Use a Microplane to grate 2 teaspoons zest from your fresh citrus fruits and add it to the bowl. Rub the zest into the sugar until the sugar takes on the color and fragrance of the citrus."
+   },
+   {
+    "title": null,
+    "text": "In a liquid measuring cup, measure out ¾ cup yogurt and squeeze in about ¼ cup citrus juice to yield 1 cup total liquid. Whisk the yogurt and juice, eggs and vanilla into the sugar mixture until well blended."
+   },
+   {
+    "title": null,
+    "text": "Gently whisk the dry ingredients into the wet ingredients, just until incorporated. Switch to a spatula and fold in the oil, making sure it’s all incorporated. The batter will be shiny. Pour the batter into the prepared loaf pan and smooth the top."
+   },
+   {
+    "title": null,
+    "text": "Bake the cake for 50 to 55 minutes, or until the top is golden and the sides start to pull away from the sides of the pan; a toothpick inserted into the center should come out clean."
+   },
+   {
+    "title": null,
+    "text": "Let the cake cool in the pan for 10 minutes, then run a knife between the cake and the sides of the pan to loosen. Unmold the cake by placing a large plate upside down over the loaf pan and carefully turning them over. Carefully flip the cake back over and let it cool to room temperature."
+   },
+   {
+    "title": null,
+    "text": "To make the glaze (optional): Measure the powdered sugar into a small bowl. Whisk in just enough blood orange juice to make a thick glaze that drizzles easily off your whisk when lifted. Drizzle the glaze back and forth over the cake. The glaze will need about 15 minutes to set, then it’s ready to slice and serve."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Orange Poppy Seed Pound Cake and Blueberry Lemon Yogurt Cake.",
+   "Make it vegan: Readers report that flax eggs work well in place of the eggs in this recipe, and non-dairy coconut yogurt should work. Please let me know if you give that a try!",
+   "Storage suggestions: This cake keeps well at room temperature for a couple of days, a few days longer in the refrigerator, or up to a few months in the freezer."
+  ],
+  "summary": "This tender olive oil cake recipe is infused with fresh citrus flavor. This cake is really easy to make (no mixer required). I used blood orange here, but feel free to use lemon, orange or any fresh citrus fruit you’d like (see tips on how to change up this recipe above). Recipe yields 1 loaf cake.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Cake"
+   },
+   {
+    "at": 10,
+    "title": "Glaze (optional, see other ideas above recipe)"
+   }
+  ]
  },
  "parser_version": 2
 }

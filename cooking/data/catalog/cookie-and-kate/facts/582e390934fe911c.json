@@ -22,7 +22,35 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/apple-steel-cut-oatmeal-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium Dutch oven or large saucepan (around 3.5 quarts), melt the butter over medium heat (if you’re not using butter, just warm the pan). Add the steel-cut oats and cook until fragrant, stirring often, about 2 minutes (this step enhances the flavor of the oats)."
+   },
+   {
+    "title": null,
+    "text": "Add the apple chunks, water and salt. Stir to combine, and raise the heat to high to bring the mixture to a simmer. Once simmering, reduce heat to medium-low and cook for about 35 minutes, until almost all of the liquid has been absorbed and the oats are nice and creamy. Stir every five minutes in the beginning, and more frequently as time goes on (you might need to dial down the heat as well)."
+   },
+   {
+    "title": null,
+    "text": "Remove from heat and let the oatmeal rest for 5 minutes before serving so it has more time to thicken up. Carefully taste (it’s hot!) and add maple syrup or honey if you’d like sweeter oatmeal (I used tart apples, so I added 1 tablespoon)."
+   },
+   {
+    "title": null,
+    "text": "Divide the mixture into individual bowls and serve with any toppings you’d like. If you’re saving extra portions for later, let them cool to room temperature, then cover and refrigerate for up to 4 days. Leftovers reheat well in the microwave, and would likely reheat well on the stove if you add some extra water to loosen them up."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by my perfect steel-cut oats and applesauce recipes.",
+   "Make it gluten free: Be sure to use certified gluten-free steel-cut oats.",
+   "Make it dairy free: Omit the butter and dry-toast the oats instead.",
+   "Make it vegan: Omit the butter and dry-toast the oats instead, and use maple syrup instead of honey.",
+   "Make it nut-free: Don’t top with nuts or nut butter! You might enjoy some toasted pepitas on top.",
+   "Slow cooker option: I haven’t tried this, but commenter Kathy says that she uses 1 cup oats to 4 cups water, adds apples and cooks on low overnight."
+  ],
+  "summary": "Meet my favorite fall breakfast! Apples and steel-cut oats cook together in the same pot until they are creamy, delicious perfection. It’s a hearty, healthy and delicious fall breakfast that reheats well for busy weekday mornings. Recipe yields 4 servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

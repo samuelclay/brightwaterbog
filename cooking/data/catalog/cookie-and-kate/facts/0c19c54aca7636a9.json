@@ -1,6 +1,55 @@
 {
  "url": "https://cookieandkate.com/pita-chips-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Homemade Pita Chips",
+  "ingredients": [
+   "4 pita breads (5 to 8 inches in diameter), whole wheat or regular",
+   "2 to 3 tablespoons olive oil, as needed",
+   "1 teaspoon flaky sea salt or kosher salt",
+   "Optional additional seasonings: za’atar, sesame seeds, dried oregano, dried minced onion or garlic"
+  ],
+  "yield_text": "6 to 8 cups",
+  "cook_time": null,
+  "categories": [
+   "Snack"
+  ],
+  "cuisines": [
+   "Middle Eastern-Inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pita-chips-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Adjust two oven racks to the middle and upper third positions. Preheat the oven to 350 degrees Fahrenheit. Line two large, rimmed baking sheets with parchment paper for easy clean-up."
+   },
+   {
+    "title": null,
+    "text": "Using kitchen shears, cut around the perimeter of each pita and separate each pito into two thin rounds. (If the pita doesn’t easily separate, gently use a serrated knife to cut between the layers.)"
+   },
+   {
+    "title": null,
+    "text": "Working with one round at a time, brush the smooth side lightly with oil all over. Flip it over and brush the rough side generously with oil, then sprinkle it lightly with salt and optional seasonings. (If you’re using flaky salt, crush it between your fingers as you sprinkle to break up any particularly large pieces.)"
+   },
+   {
+    "title": null,
+    "text": "Repeat with the remaining rounds, stacking them on top of each other as you go. Divide the stack into two for ease of cutting. Use a chef’s knife to cut each pita stack into 8 wedges. Spread the wedges, rough side up, in a single layer across the two prepared baking sheets."
+   },
+   {
+    "title": null,
+    "text": "Bake until the wedges are golden brown and crisp, about 10 to 12 minutes, rotating and switching the sheets halfway through baking. The pan on the top rack will likely finish first; you may need to leave the pan on the middle rack in the oven for a couple more minutes to achieve the same level of browning."
+   },
+   {
+    "title": null,
+    "text": "For maximum crisp and crunch, let the pita cool completely on the pans before serving. Pita chips can be stored in a sealed bag, with the excess air squeezed out, at room temperature for up to 2 weeks."
+   }
+  ],
+  "notes": [],
+  "summary": "Make the best homemade pita chips with this simple recipe! These crispy pita chips are baked, not fried. They’re golden and delicious. Recipe yields 6 to 8 cups, depending on the size of your pita bread.",
+  "ingredient_groups": []
+ }
 }

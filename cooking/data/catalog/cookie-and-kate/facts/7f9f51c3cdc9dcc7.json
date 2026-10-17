@@ -1,6 +1,62 @@
 {
  "url": "https://cookieandkate.com/lucilles-mashed-potatoes-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Lucille’s Mashed Potatoes",
+  "ingredients": [
+   "5 pounds Russet potatoes, preferably organic*",
+   "3 teaspoons salt, divided",
+   "6 ounces cream cheese (that’s ¾ of one brick)",
+   "1 cup (8 ounces) sour cream",
+   "2 tablespoons unsalted butter",
+   "¾ teaspoon onion powder",
+   "Optional garnishes: Finely sliced fresh chives, pat of butter, sprinkle of mild paprika (not the smoked kind) and/or freshly ground black pepper"
+  ],
+  "yield_text": "8 to 12 servings",
+  "cook_time": "35 minutes (plus optional 30-minute reheat time)",
+  "categories": [
+   "Side"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/lucilles-mashed-potatoes-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare your potatoes, you can either scrub them clean and leave them unpeeled (like I did) or rinse and peel them (for smooth, skin-free mashed potatoes). Then cut the potatoes into even chunks about 2” in size (see photos)."
+   },
+   {
+    "title": null,
+    "text": "Place the potato chunks in a large Dutch oven or soup pot. Add 1 teaspoon of the salt, and enough water to cover the potatoes by 1 to 2 inches."
+   },
+   {
+    "title": null,
+    "text": "Bring the mixture to a boil over high heat. Continue cooking, reducing the heat as necessary to prevent overflow, until the potatoes are easily pierced through by a fork, about 10 to 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "Carefully drain off all of the water and return the potatoes to the pot. Mash the potatoes until they reach your desired consistency (I like mine a little chunky, but you can mash them completely smooth if you prefer)."
+   },
+   {
+    "title": null,
+    "text": "Add the cream cheese, sour cream, butter, the remaining 2 teaspoons of salt and the onion powder. Stir until everything is mixed together evenly. You can serve the mashed potatoes immediately at this point, with garnishes of your choice."
+   },
+   {
+    "title": null,
+    "text": "If you’re making these mashed potatoes in advance, transfer them to a casserole dish with a lid (my Dutch oven is oven-safe so this was unnecessary). Smooth the top, cover, and store the mashed potatoes for up to 3 days in the refrigerator. To serve, preheat the oven to 350 degrees Fahrenheit. Bake the mashed potatoes, covered, until warmed through, about 30 to 35 minutes. Serve with garnishes of your choice."
+   }
+  ],
+  "notes": [
+   "Leftover mashed potatoes? They will keep well in the refrigerator, covered, for up to 4 days.",
+   "“Light” option: I used full-fat cream cheese and sour cream, but my mom uses reduced fat and I honestly can’t tell the difference.",
+   "Make it dairy free/vegan: I haven’t tried, but I think these mashed potatoes would be great with 1 ¾ cups vegan sour cream (see my cookbook, page 217) in place of the sour cream and cream cheese. You can omit the butter or stir in a tablespoon or two of extra-virgin olive oil in its place."
+  ],
+  "summary": "My family’s favorite mashed potatoes recipe! These mashed potatoes are creamy, rich and tangy, thanks to the cream cheese and sour cream. You can make these mashed potatoes ahead of time, too (see the final step for details). Recipe yields 8 large or 12 medium servings; I believe you could successfully halve the recipe for a smaller crowd.",
+  "ingredient_groups": []
+ }
 }

@@ -29,7 +29,28 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2015/07/green-beans-with-almond-pesto/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a large pot of salted water to boil. Trim green beans — I find using kitchen shears the quickest way — and cook beans in boiling water until crisp tender, about 3 to 4 minutes for regular green beans or 2 to 3 minutes for the skinnier “haricot vert” variety. Plunge in an ice water bath to fully cool. Drain and pat dry. (If you have no patience for the precision of ice water baths, take the green beans out a full minute early as they will continue cooking as they cool.)"
+   },
+   {
+    "title": null,
+    "text": "In food processor, grind almonds, cheese, garlic, thyme, pepper and salt to a coarse paste. Add vinegar, and pulse again. Stir in oil and adjust seasonings to taste."
+   },
+   {
+    "title": null,
+    "text": "Toss cooled green beans with almond pesto. Drizzling with extra olive oil for a fresh glisten. Dig in."
+   },
+   {
+    "title": null,
+    "text": "Serving suggestions: a mix of cherry tomatoes, grilled bread drizzled with olive oil and rubbed with a halved garlic clove or even grilled sausages."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -21,7 +21,31 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/clementine-sunshine-smoothie/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Use your fingers to peel the clementines and pull each one in half. Pull out any excess pith in the center and discard it."
+   },
+   {
+    "title": null,
+    "text": "Add the yogurt or almond milk to the blender, followed by the clementines, ice and a tiny dash of salt, which enhances the other flavors. Feel free to add any of the optional add-ins suggested above. Blend well, until the clementines have turned into juice and there are no chunks of ice left."
+   },
+   {
+    "title": null,
+    "text": "There will probably still be some bits of pith in the smoothie. If you don’t mind some texture, pour into a glass and enjoy immediately. For a perfectly smooth smoothie, pour it through a metal sieve into your glass."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Gimme Some Oven’s Orange Julius recipe."
+  ],
+  "summary": "Simple, delicious smoothie made with clementines and creamy yogurt or almond milk. This healthy, immunity-boosting smoothie offers around 240 percent of your daily value of vitamin C! Recipe yields one modestly-sized, 10-ounce smoothie.",
+  "ingredient_groups": [
+   {
+    "at": 4,
+    "title": "Totally optional add-in ideas (I prefer the smoothie as listed above)"
+   }
+  ]
  },
  "parser_version": 2
 }

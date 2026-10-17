@@ -19,7 +19,41 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/simple-goat-cheese-and-egg-toasts-with-peas-and-dill/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a small pot of water to boil for the peas. Toast your bread. Spread a generous amount of goat cheese on top (if your goat cheese isn’t spreading easily, transfer it to a heat-safe bowl and microwave for 10 seconds)."
+   },
+   {
+    "title": null,
+    "text": "Once the water is boiling, drop in the peas and cook until crisp-tender, about 90 seconds. Drain the peas and return them to the pot."
+   },
+   {
+    "title": null,
+    "text": "If you’re planning to fry your egg, sprinkle your cooked peas onto the goat cheese and gently press down on the peas so they stick."
+   },
+   {
+    "title": null,
+    "text": "Prepare your egg(s) as desired. If you’re scrambling the eggs, season the eggs with salt and pepper before cooking, and toss in a handful of peas before the eggs set."
+   },
+   {
+    "title": null,
+    "text": "Transfer the cooked egg(s) on top of your goat cheese-covered toast. Top with a slight sprinkle of chopped fresh herbs and salt."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by What Should I Eat for Breakfast Today.",
+   "Make it dairy free: Sub avocado, smashed with a sprinkle of salt, for the goat cheese.",
+   "Change it up: Peas are just a spring variation on this goat cheese and egg toast! In the summer, I’m going to top my toast with sliced heirloom tomatoes and a sprinkle of chopped basil. In the fall and winter, I’ll try it with roasted winter squash and fried sage."
+  ],
+  "summary": "Goat cheese slathered on whole grain toast, topped with an egg (fried or scrambled) and a sprinkling of fresh peas and herbs. An easy breakfast or any-time-of-day meal.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per toast"
+   }
+  ]
  },
  "parser_version": 2
 }

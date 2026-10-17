@@ -25,7 +25,38 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/green-goddess-hummus-sandwich/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the quick-pickled vegetables, first peel the carrots and then use a julienne peeler or regular vegetable peeler to slice the carrot into ribbons. Use a mandoline or a sharp chefs knife to carefully slice the onion into very thin rounds. Stuff the carrots into one pint-sized mason jar and the onions into another (if you mix the two, you’ll muddy the colors)."
+   },
+   {
+    "title": null,
+    "text": "In a medium-sized saucepan, combine the vinegar, water, sweetener, salt and optional red pepper flakes (for spicy pickles). Bring the mixture to a gentle boil, then pour half of the mixture into each mason jar. Use a spoon to gently press the onions and carrots into the liquid, then let the pickles cool to room temperature. Assuming that you sliced the onions and carrots very thin, they should be ready to eat within thirty minutes or less."
+   },
+   {
+    "title": null,
+    "text": "To assemble your sandwiches, spread a hearty layer of hummus onto each slice of toasted bread. Top one slice with a layer of cucumbers, followed by lettuce and some pickles. Place the second slice of bread hummus-side down on top of the pickles. Enjoy!"
+   }
+  ],
+  "notes": [
+   "Quick-pickled vegetables adapted from my quick-pickled radishes recipe.",
+   "Make it vegan: Substitute maple syrup or granulated vegan sugar for the honey.",
+   "*Pickling options: Feel free to play with the vegetables here. You should be able to substitute roughly equal amounts of thinly sliced vegetables (radishes, cabbage, fennel, shallots, beets…) for the carrots and onions. If you only want to make one variety of pickles, either double the amounts of carrots or onions for a big batch or halve the vinegar and remaining ingredients for a small batch.",
+   "*Pickle storage notes: You can serve the pickles immediately or cover and refrigerate for later consumption. The pickles will keep well in the refrigerator for several weeks, although they are in their most fresh and crisp state for about 1 week after pickling."
+  ],
+  "summary": "This healthy hummus sandwich recipe features crisp cucumbers, tangy quick-pickled red onions and carrots, lettuce and herbed hummus! I’m partial to the homemade hummus and pickle combination below, but feel free to substitute your favorite store-bought hummus and pickles for a quick and easy lunch.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per sandwich"
+   },
+   {
+    "at": 5,
+    "title": "Quick-pickled red onions and carrots*"
+   }
+  ]
  },
  "parser_version": 2
 }

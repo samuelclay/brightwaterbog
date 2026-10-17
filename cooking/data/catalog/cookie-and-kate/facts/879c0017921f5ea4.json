@@ -1,6 +1,70 @@
 {
  "url": "https://cookieandkate.com/baked-tostadas-with-tomatillo-black-bean-salsa/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Baked Tostadas with Tomatillo Black Bean Salsa",
+  "ingredients": [
+   "1 pound tomatillos, chopped (about two heaping cups of chopped tomatillos)",
+   "1 small shallot (an entire bulb), finely chopped",
+   "2 to 3 cloves garlic, minced",
+   "1 jalapeño, seeded and minced",
+   "½ cup cilantro, chopped",
+   "1 small lime, juiced",
+   "1 cup cooked black beans, rinsed and drained",
+   "Salt and black pepper, to taste",
+   "8 corn tortillas (make sure they’re 100% corn so they’ll get crispy)",
+   "Cooking spray or additional olive oil",
+   "1 tablespoon extra-virgin olive oil",
+   "2 cans (15 ounces each) black beans, or 3 cups cooked black beans, cooking liquid reserved",
+   "Hot sauce of your choice",
+   "Red pepper flakes (optional)",
+   "Toppings: crumbled feta cheese (highly recommended), diced avocado, sour cream or plain Greek yogurt, red pepper flakes and/or more cilantro."
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "40 minutes",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/baked-tostadas-with-tomatillo-black-bean-salsa/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the salsa: In a medium bowl, combine all of the prepared ingredients. Taste and adjust the seasoning if necessary (more lime juice, salt and pepper, etc.). Cover the salsa and let it rest for at least 30 minutes in order for the flavors to meld and the beans to soak up the surrounding flavors."
+   },
+   {
+    "title": null,
+    "text": "To make the tostadas: Preheat the oven to 450 degrees Fahrenheit. Spray each tortilla with cooking spray on both sides (I used organic olive oil spray) or brush them lightly with olive oil. Place them on a baking sheet in a single layer. Bake for 8 to 12 minutes, until golden and crispy."
+   },
+   {
+    "title": null,
+    "text": "In a skillet over medium heat, pour in the olive oil. Add black beans and their cooking liquid, and mix in some hot sauce and red pepper flakes. Mash the mixture with a potato masher for five minutes or longer, until the beans have reduced to your desired consistency."
+   },
+   {
+    "title": null,
+    "text": "Spread bean mixture evenly over each tortilla and top with tomatillo salsa. Finish with your selected toppings. Pick it up with your hands or be fancy and eat it with a fork and steak knife."
+   }
+  ],
+  "notes": [
+   "Salsa barely adapted from The Food Matters Cookbook by Mark Bittman. Tostadas roughly adapted from The America’s Test Kitchen Healthy Family Cookbook.",
+   "Change it up: Feel free to sub pico de gallo or any other fresh salsa for the tomatillo salsa. If you want the really lazy variation, just skip the black bean mixture altogether since the salsa already has beans in it. It’s like a big baked chip with salsa and cheese—you can’t go wrong!"
+  ],
+  "summary": "Fresh tomatillo and black bean salsa is a delicious twist on traditional pico de gallo. This salsa is great on tostadas (recipe included), burritos, salads and more! Recipe yields approximately 8 tostadas.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Tomatillo Black Bean Salsa"
+   },
+   {
+    "at": 8,
+    "title": "Tostadas"
+   }
+  ]
+ }
 }

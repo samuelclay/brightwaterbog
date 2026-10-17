@@ -1,6 +1,56 @@
 {
  "url": "https://cookieandkate.com/whole-wheat-coconut-waffles/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Whole Wheat Coconut Waffles",
+  "ingredients": [
+   "1 ½ cups white whole wheat flour or regular whole wheat flour",
+   "2 teaspoons baking powder",
+   "½ teaspoon salt",
+   "2 tablespoons turbinado (raw) sugar",
+   "1 large egg",
+   "1 ½ cups room temperature light coconut milk (or lukewarm milk)",
+   "⅓ cup melted virgin coconut oil or 5 tablespoons melted butter",
+   "½ teaspoon vanilla extract"
+  ],
+  "yield_text": "2 to 3 servings",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/whole-wheat-coconut-waffles/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat your waffle iron."
+   },
+   {
+    "title": null,
+    "text": "In a medium bowl, whisk together the dry ingredients (flour, baking powder, salt, and sugar)."
+   },
+   {
+    "title": null,
+    "text": "In a separate bowl, whisk together the wet ingredients (egg, coconut milk, coconut oil and vanilla extract)."
+   },
+   {
+    "title": null,
+    "text": "Pour the wet ingredients into the dry ingredients and mix just until combined. The batter will be a little lumpy, which is fine."
+   },
+   {
+    "title": null,
+    "text": "Cook the waffles as directed by the waffle iron manufacturer."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from King Arthur Flour’s recipe for whole wheat waffles.",
+   "Note on fat content: Since light coconut milk has a higher fat content than low fat cow’s milk, I suspect you could reduce the amount of coconut oil to ¼ cup. Remember, though, waffles need enough fat or they won’t get crispy (source: On Food and Cooking). Nobody likes a soggy waffle!"
+  ],
+  "summary": "Crispy coconut waffles made with 100% whole wheat flour. This delicious coconut waffle recipe is easy to make, too! Recipe yields about 3 ½ Belgian waffles.",
+  "ingredient_groups": []
+ }
 }

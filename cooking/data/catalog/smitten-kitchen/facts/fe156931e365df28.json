@@ -31,7 +31,51 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2025/05/challah-french-toast/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the berry sauce: Place berries, sugar, salt, and 3 tablespoons of the water in a small saucepan and bring to a boil. Lower heat to a simmer and cook, stirring occasionally, until berries defrost and become saucy, about 8 to 10 minutes. In a small dish, combine cornstarch and remaining 2 teaspoons of water then add to berry sauce, simmering another minute until slightly thickened. Off heat, squeeze in lemon juice to taste. Pour into a bowl for serving and set aside."
+   },
+   {
+    "title": null,
+    "text": "Make the whipped cottage cheese: In a food processor or high-speed blender, combine cottage cheese, sugar, and vanilla and blend until totally smooth and fluffy. This is a barely sweet topping; add more sugar to your taste. Spoon into a serving bowl and set aside."
+   },
+   {
+    "title": null,
+    "text": "Make the french toast: In a wide bowl or baking dish (for easier dipping), whisk eggs with vanilla until smooth, then pour in milk, whisking the whole time."
+   },
+   {
+    "title": null,
+    "text": "Place a large skillet over medium-low heat and let it warm for two minutes. A droplet of water flicked into the pan will bounce around when it’s properly heated. Add a tablespoon of butter and swirl it around. Dip first few slices of challah (as many as will fit in your skillet) in the egg-milk mixture, letting it soak for a moment, then flip it and soak it further. Add to pan and cook until browned underneath, 2 to 3 minutes. If it’s browning too slowly, increase the heat to medium. Flip each piece and cook until browned on the second side. Transfer to a serving plate and repeat with remaining slices, adding more butter to the skillet as needed."
+   },
+   {
+    "title": null,
+    "text": "To serve: Dust finished challah french toast with powdered sugar. Place two slices on a plate, dollop with whipped cottage cheese, and spoon over some berry sauce. Eat immediately."
+   },
+   {
+    "title": "Notes",
+    "text": "No challah? Use brioche bread."
+   },
+   {
+    "title": null,
+    "text": "I do not add sugar to the egg-milk mixture because challah is already sweet, and my kids will also be drowning it in maple syrup, but you can adjust it for more sweetness if you wish."
+   },
+   {
+    "title": null,
+    "text": "No worries if your challah is larger, as homemade ones often are; you should have enough egg/milk mixture and toppings to cover it. However, if needed, whisk in another egg + 1/2 cup milk."
+   },
+   {
+    "title": null,
+    "text": "Fresh challah needs only a quick dip before frying but older/firmer challah can benefit from a longer soak. For the latter, go ahead and nestle in as many slices as you can in the egg-milk mixture and flip them once while the pan heats and leave it there while the first ones cook."
+   }
+  ],
+  "notes": [
+   "Do ahead: Berry sauce is good warm or at room temperature and keeps in the fridge for 3 to 4 days. Whipped cottage cheese keeps in the fridge for 3 to 4 days. French toast can be kept warm until needed on a baking sheet in a 200°F oven. Leftover french toast keeps for 3 days in the fridge.",
+   "The challah makes an airy, rich, and gently sweet french toast with crisp edges and a custardy interior. The toppings make this cancel-your-brunch-reservations-and-stay-home worthy."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

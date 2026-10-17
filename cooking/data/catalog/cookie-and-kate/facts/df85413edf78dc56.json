@@ -22,7 +22,39 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/earl-grey-french-75/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the infused gin: Measure out the gin and submerge tea bags in the liquid. Cover the gin and let it seep for 1 hour. Then remove the tea bags, squeezing absorbed gin into the mixture before discarding the bags."
+   },
+   {
+    "title": null,
+    "text": "To make the honey simple syrup: Combine the honey and water in a small saucepan. Warm over medium heat, whisking occasionally, just until the honey has melted into the water. Remove from heat."
+   },
+   {
+    "title": null,
+    "text": "To make a cocktail (you can make multiple drinks at once): Fill a cocktail shaker with ice. Pour in Earl Grey-infused gin, lemon juice and simple syrup in the proportions listed above. Securely fasten the cap on the shaker and shake until well chilled, about 20 seconds. Strain the liquid into Champagne glasses and top with Champagne. Garnish with a twist of lemon."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Cafe Flora in Seattle."
+  ],
+  "summary": "Earl Grey-infused gin makes this French 75 brunch appropriate! This strong, sparkling, citrusy cocktail would be welcome any time of day, though. Amounts given below for infused gin and simple syrup yield 4 drinks, so scale up as necessary.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Earl Grey-infused gin"
+   },
+   {
+    "at": 2,
+    "title": "Honey simple syrup"
+   },
+   {
+    "at": 4,
+    "title": "Per cocktail"
+   }
+  ]
  },
  "parser_version": 2
 }

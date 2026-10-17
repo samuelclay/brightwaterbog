@@ -33,7 +33,34 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2016/01/swiss-chard-pancakes/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "To serve: Plain, thick yogurt mixed with a little lemon zest, lemon juice and salt, to taste"
+   },
+   {
+    "title": null,
+    "text": "If you’d like to keep your finished pancakes warm while you cook them: Heat oven to 250 degrees F and line a baking sheet with foil."
+   },
+   {
+    "title": null,
+    "text": "Make the batter: Put everything except the Swiss chard and oil in a blender or food processor and whirl until the batter is smooth. Scrape down sides. Add chard leaves and pulse machine until they’re chopped to your desired consistency."
+   },
+   {
+    "title": null,
+    "text": "Cook the pancakes: Heat a large skillet over medium-high heat and pour in a good puddle (1/4-inch deep) of oil. Once oil is hot enough that a droplet of batter hisses and sputters, spoon about 3 tablespoons batter in per pancake. It will spread quickly. Cook until browned underneath and (the edges will scallop, adorably), then flip, cooking on the other side until browned again. Transfer to a paper towel-lined plate, and then, if you’d like to keep them warm, to the foil-lined tray in the oven."
+   },
+   {
+    "title": null,
+    "text": "Repeat with remaining batter. Serve with lemony yogurt or another sauce of your choice."
+   }
+  ],
+  "notes": [
+   "Do ahead: Unused batter keeps in fridge for 3 days. Finished pancakes keep in fridge for a couple days, and will freeze much longer. Separate pancakes with pieces of waxed or parchment paper so they don’t glue together."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -20,7 +20,35 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/chia-seed-pudding-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small jar (these are perfect) or bowl, combine the milk, orange zest, and vanilla extract. Taste, and if you’d like a more pronounced vanilla flavor, add another ⅛ teaspoon vanilla extract. Be sure to measure out the extra vanilla extract rather than just pouring more in—it’s easy to go overboard."
+   },
+   {
+    "title": null,
+    "text": "Whisk in the chia seeds. Let the mixture rest for about 15 minutes, then whisk the mixture again to break up any clumps. Cover the bowl and refrigerate for at least 2 hours (or overnight), until the chia seeds have absorbed enough moisture to achieve a pudding-like state. If you think of it, give it a stir sometime along the way to break up any clumps of chia."
+   },
+   {
+    "title": null,
+    "text": "Before serving, stir once again to break up any clumps of chia seeds. Serve with a drizzle of honey or maple syrup on top and any additional toppings you might like. This pudding will keep well in the refrigerator, covered, for about 5 days."
+   }
+  ],
+  "notes": [
+   "Make it vegan: Drizzle maple syrup on top instead of honey.",
+   "Make it nut free: Use a nut-free milk, and don’t top with nuts.",
+   "Change it up: I haven’t tried yet, but I bet this recipe would also be tasty with other citrus zest varieties.",
+   "To make 4 servings at once: Combine 4 cups milk, 2 teaspoons orange zest and ½ teaspoon vanilla extract. Add up to ½ teaspoon more vanilla extract for a more pronounced vanilla flavor. Whisk in ¾ cup chia seeds, whisk again after about 15 to 20 minutes, and refrigerate overnight.",
+   "Recipe update 3/15/17: My recipe originally included orange juice for extra orange flavor, however, it’s come to my attention that the acidity level of orange juice can prevent chia seeds from plumping up—this depends on the pH of the orange juice and the other liquid involved. I’ve edited the recipe from the original ¾ cup milk, ¼ cup orange juice, and ¼ teaspoon orange zest to the recipe you see above. It’s just as good and more reliable! My sincere apologies to anyone who had trouble with it before—what you see up there now is actually how I’d been making the pudding in the first place, and I’ve verified that it works with all of the milk options provided above."
+  ],
+  "summary": "This creamy chia seed pudding recipe tastes like a creamsicle! You’re going to love this healthy gluten-free treat—enjoy as a snack, dessert or breakfast. Recipe yields 1 serving; multiply as necessary or see recipe notes for how to make 4 servings all together.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per serving"
+   }
+  ]
  },
  "parser_version": 2
 }

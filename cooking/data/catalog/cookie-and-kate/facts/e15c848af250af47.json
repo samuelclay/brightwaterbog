@@ -27,7 +27,48 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/mixed-berry-crisp-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit. Rinse and drain the berries and pick through to remove any stems still attached. If you’re using strawberries, slice them into ¼-inch thick pieces. If you’re using particularly large blackberries, slice them in half."
+   },
+   {
+    "title": null,
+    "text": "In a 9 by 9-inch baking dish, mix together the berries, honey, starch, citrus zest and juice. Set aside."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, stir together the oats, almond meal/flour, sliced almonds (if using), sugar and salt. Mix in the butter and yogurt. Stir until all of the flour is incorporated and the mixture is moistened throughout."
+   },
+   {
+    "title": null,
+    "text": "Dollop spoonfuls of the oat mixture over the filling and use your fingers to break up the mixture until it is evenly distributed (no need to pack it down)."
+   },
+   {
+    "title": null,
+    "text": "Bake for 40 to 50 minutes, or until the filling is actively bubbling around the edges and the top is lightly golden. Let the crisp rest for 5 to 10 minutes before serving. Serve with vanilla ice cream (I insist!)."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my blueberry almond crisp.",
+   "*How to use frozen berries: Defrost the berries in the refrigerator overnight or at room temperature for about 2 hours (no need to drain off excess juices). Or, while the oven is preheating, place the frozen berries in your square baker. Warm them up in the oven, stirring every 10 minutes or so, until they have defrosted to the point that they are cool to the touch but no longer frozen. (For frozen berries, no need to slice before using since they are so tender already.) Then add the honey, etc. and proceed with the recipe as written.",
+   "**Make it gluten free: Be sure to use certified gluten-free oats.",
+   "Make it nut free: Omit the sliced almonds and use ¾ cup whole wheat flour and ¾ cup oats instead of the almond meal and oats specified above. It will no longer be gluten free. If you want to keep it gluten free, I suspect that you could replace the almond meal with about ⅔ cup oat flour (haven’t tried that, please comment if you do!).",
+   "Make it vegan: I believe you could use melted coconut oil in place of the browned butter/yogurt (use 4 tablespoons coconut oil and add up to 3 more, until the topping mixture is moistened throughout) and maple syrup instead of the honey. I haven’t tried it, though.",
+   "What’s arrowroot starch? Arrowroot starch is a great thickener to use in place of corn starch, which is often genetically modified. It’s gluten free, too. Look for it in the baking section of well-stocked grocery stores or buy it online (affiliate link)."
+  ],
+  "summary": "Make this delightful berry crisp with any mix of strawberries, blueberries, raspberries or blackberries. It’s the perfect simple and fruity summertime dessert. Recipe yields one 9-inch crisp, about 8 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Mixed berry filling"
+   },
+   {
+    "at": 5,
+    "title": "Gluten-free oat and almond topping"
+   }
+  ]
  },
  "parser_version": 2
 }

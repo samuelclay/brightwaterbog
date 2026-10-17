@@ -33,7 +33,53 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/pumpkin-pecan-scones-with-maple-glaze/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 425 degrees Fahrenheit. Place the nuts in a single layer on a rimmed baking sheet lined with parchment paper. Toast the nuts in the oven until fragrant, about 3 minutes. Reserve the parchment paper for later, and chop the nuts into fine pieces."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, combine the flour, three-fourths of the chopped nuts (reserve the remaining nuts for topping), baking powder, sugar, spices, and salt in a bowl. Whisk to combine."
+   },
+   {
+    "title": null,
+    "text": "Use a pastry cutter to cut the coconut oil or butter into the dry ingredients. If you don’t have a pastry cutter, use a fork to cut the coconut oil into the flour, or use a knife to cut the butter into tiny pieces and mix it into the flour."
+   },
+   {
+    "title": null,
+    "text": "Stir in the pumpkin puree, milk, and vanilla extract. At first, it will seem like there isn’t enough liquid to wet the dough, but keep mixing until you have thoroughly incorporated the wet and dry ingredients. If you must, use your hands to knead the last of the flour into the dough."
+   },
+   {
+    "title": null,
+    "text": "Form the dough into a circle about an inch deep all around. Use a chef’s knife to cut the circle into 8 even slices."
+   },
+   {
+    "title": null,
+    "text": "Separate the slices and place them on the baking sheet covered with parchment paper. Bake for 15 to 17 minutes or until lightly golden brown."
+   },
+   {
+    "title": null,
+    "text": "While the scones are baking, whisk together the glaze ingredients in a small bowl until smooth and creamy. Let the scones cool until they are lightly warm to the touch. Drizzle the glaze generously over the scones (I preferred mine with a solid layer across the top). While the glaze is wet, sprinkle it with the remaining chopped nuts. Enjoy!"
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my blueberry scones . Glaze and chopped nut combination was inspired by Laura’s gorgeous baked maple doughnuts.",
+   "Change it up: You can modify this recipe by omitting the nuts altogether and/or adding chopped dark chocolate. If you want a heartier, less sugary topping option, try serving the scones with pecan butter and maple syrup instead of the glaze.",
+   "*Coconut oil note: The scones turn out their flaky best when you cut solid coconut oil (or cold butter) into the ingredients (melted oil would not have the same effect). Coconut oil hardens at temperatures under 77 degrees Fahrenheit, so I hope your oil is good to go. If it’s liquid, refrigerate the amount needed just until it turns opaque and solidifies, but not until it’s rock hard."
+  ],
+  "summary": "Vegan (or not), whole wheat pumpkin pecan scones topped with a delightful maple glaze. This healthy pumpkin scone recipe will be a hit with your family and friends!",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Pumpkin scones"
+   },
+   {
+    "at": 13,
+    "title": "Maple glaze"
+   }
+  ]
  },
  "parser_version": 2
 }

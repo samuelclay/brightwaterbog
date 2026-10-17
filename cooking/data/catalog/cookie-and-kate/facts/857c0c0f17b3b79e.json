@@ -29,7 +29,41 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/lemony-lentil-and-chickpea-salad-with-radish-and-herbs/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the lentils: Pick over the lentils to remove any bits of debris. Rinse the lentils under running water in a mesh colander. In a medium pot, combine the lentils, garlic, olive oil and 4 cups water. Bring the water to a boil, then reduce heat to a gentle simmer and cook until the lentils are cooked through and tender, which will take somewhere between 20 to 35 minutes. Drain the lentils and discard the garlic cloves."
+   },
+   {
+    "title": null,
+    "text": "To make the dressing: Whisk together the ingredients in a small bowl."
+   },
+   {
+    "title": null,
+    "text": "In a large serving bowl, combine the lentils, chickpeas, chopped radishes and herbs. Drizzle in the dressing and toss to combine. Season to taste with additional salt and pepper. Serve with avocado, crumbled cheese or fresh greens if you’d like."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Deb’s lentil and chickpea salad.",
+   "Make it vegan: Use maple syrup instead of the honey.",
+   "2024 edits: I reduced the amount of dried lentils to match the store-bought option, which yields a more balanced salad. I increased the olive oil and herbs as well."
+  ],
+  "summary": "A fresh and filling bean salad flavored with lemon and fresh mint and dill. Use steamed lentils and canned chickpeas for a meal ready in under 20 minutes. This salad keeps well for a few days in the fridge and packs great for lunch! Recipe yields about 5 ½ cups (4 to 6 servings).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Lentils (cook your own, using the ingredients below, or use one 17-ounce package of steamed French lentils instead)"
+   },
+   {
+    "at": 3,
+    "title": "Lemon dressing"
+   },
+   {
+    "at": 10,
+    "title": "Salad"
+   }
+  ]
  },
  "parser_version": 2
 }

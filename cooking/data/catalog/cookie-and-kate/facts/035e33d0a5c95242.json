@@ -14,7 +14,26 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/how-to-make-oat-flour/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "You can make oat flour on an as-needed basis, or make a larger batch to save for later. Fill your blender or food processor up to half-way with oats. Keep in mind that one cup old-fashioned or quick-cooking oats yields about one cup flour, whereas one cup steel-cut oats yields about two cups flour."
+   },
+   {
+    "title": null,
+    "text": "Blend until the oats have turned into a fine flour, about 20 seconds to 1 minute. (If you’re using a blender with a wide base and it’s not gaining enough traction to blend well, you’ll need to add more oats). The flour is done when it feels like powder with a very slight texture (it should not feel like sand). If you see any larger flecks of oats, blend longer."
+   },
+   {
+    "title": null,
+    "text": "Store extra flour in a labeled air-tight container for up to 3 months. Since whole grain flours contain good-for-you natural oils, they do not last as long as refined flours."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Be sure to use certified gluten-free oats."
+  ],
+  "summary": "Learn how to make oat flour! It’s so easy. You’ll need old-fashioned (rolled) oats, quick-cooking oats or steel-cut oats, plus a blender or food processor. One cup old-fashioned or quick-cooking oats yields about one cup flour, whereas one cup steel-cut oats yields about two cups flour.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -1,6 +1,50 @@
 {
  "url": "https://cookieandkate.com/cranberry-salsa-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Cranberry Salsa",
+  "ingredients": [
+   "12 ounces (3 ½ cups) fresh cranberries",
+   "½ cup roughly chopped red onion",
+   "½ cup fresh cilantro, mostly leaves but fine stems are ok",
+   "1 medium jalapeño, membranes and seeds removed, roughly chopped (omit for mild salsa)",
+   "Juice of 1 large orange (about ½ cup)",
+   "2 tablespoons fresh lime juice",
+   "1 teaspoon fine salt",
+   "1 to 2 tablespoons honey, to taste",
+   "For serving: Tortilla chips, optional Guacamole, Baked Goat Cheese or sour cream"
+  ],
+  "yield_text": "2 cups",
+  "cook_time": "10 minutes (plus 10 minutes resting time)",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Mexican-inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cranberry-salsa-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In the bowl of a food processor, combine everything including just 1 tablespoon of the honey. Process just until the ingredients are finely chopped—this happens quickly, in about 10 seconds in my food processor. Scrape down any larger pieces stuck to the sides of the bowl, and process for just a few more seconds to chop those up."
+   },
+   {
+    "title": null,
+    "text": "Scrape the mixture into a small serving bowl. Taste, and if the mixture is too sour or bitter, stir in additional honey by the teaspoon or add another squeeze of orange juice."
+   },
+   {
+    "title": null,
+    "text": "Let the mixture rest for 10 minutes before serving, or cover and refrigerate it for later. This salsa keeps in the refrigerator for up to 5 days."
+   }
+  ],
+  "notes": [
+   "Make it vegan: Substitute maple syrup for the honey."
+  ],
+  "summary": "This cranberry salsa recipe is bold, tangy and lightly sweetened with orange juice and honey. Add jalapeño for spicy or skip it for mild salsa. Recipe yields a generous 2 cups.",
+  "ingredient_groups": []
+ }
 }

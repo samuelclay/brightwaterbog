@@ -29,7 +29,26 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2022/04/simplest-mushroom-pasta/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a large pot of very well-salted water to a boil and cook pasta in it until 1 to 2 minutes shy of package suggestion. Reserve 1 cup pasta cooking water before you drain the pot."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, heat your largest sauté pan over high heat. Once hot, add the olive oil and butter. Once the butter has melted, add the mushrooms in as close to an even layer as possible and don’t move them for about 3 minutes, until they’re browned underneath. Sprinkle with garlic and a good amount of salt and pepper (seasoning is everything here) and give them a stir. Reduce heat to medium-high and cook, stirring, until the mushrooms are soft and tender and any liquid expelled has cooked off, about 5 minutes. Add the marsala and cook, stirring, until it disappears. Taste the mushroom mixture; you want it very well-seasoned at this point."
+   },
+   {
+    "title": null,
+    "text": "Add your drained pasta and half of the reserved pasta water and cook, stirring, until the pasta absorbs most of the liquid, adding more of the reserved pasta water if necessary to keep it a little saucy, 1 to 2 minutes. Remove the pan from the heat and stir in the crème fraîche. [If using heavy cream, because it’s thinner, I’d cook it it onto the pasta for 30 to 60 seconds on the stove.] Adjust seasoning, if needed, and finish with chives and cheese. Eat right away."
+   }
+  ],
+  "notes": [
+   "The recipe is shown here with 1 pound cremini mushrooms — the size bag I buy them in — but it’s actually really nice with 1.5 pounds too, if you’ve got it. Use any kind of mushrooms you like, or a mix, just slice them thin and season them well. I’m using a shape called fusilli pugliese here."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

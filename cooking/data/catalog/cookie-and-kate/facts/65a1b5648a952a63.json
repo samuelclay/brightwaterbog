@@ -23,7 +23,42 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/quick-quesadillas-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat a medium skillet over medium heat. Warm your tortilla for about 30 seconds, flipping halfway. Flip once more, then sprinkle one-half of the tortilla with about half of the cheese. Cover the cheese evenly with the remaining fillings: beans, bell pepper, onion and jalapeño (if using)."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle the remaining cheese over the fillings, and fold over the empty side of the tortilla to enclose the fillings. Quickly brush the top of the quesadilla with a light coating of oil, then carefully flip it with a spatula."
+   },
+   {
+    "title": null,
+    "text": "Let the quesadilla cook until golden and crispy on the bottom, about 1 to 2 minutes, reducing the heat if necessary to prevent burning the tortilla. Brush the top with a light coating of oil, then flip it and cook until the second side is golden and crispy."
+   },
+   {
+    "title": null,
+    "text": "Immediately remove the skillet from the heat and transfer the quesadilla to a cutting board. Let it cool for a minute to give the cheese time to set, then use a chef’s knife to slice it into 3 pieces. Serve promptly, with any sauces or garnishes that you’d like."
+   }
+  ],
+  "notes": [
+   "Change it up: Replace the fillings I used here with a handful of any of these options: raw or cooked chopped vegetables, sautéed greens, fresh leafy herbs, chopped olives or pepperoncini peppers, you name it.",
+   "Cheese notes: You can substitute any melty cheese (Monterey Jack, mozzarella, traditional Oaxaca—no need to grate the Oaxaca cheese) for the cheddar. You could also add crumbled feta or goat cheese, if you’d like.",
+   "Favorite tortilla brand: I love Stacey’s Organic, which doesn’t contain any crazy preservatives. I usually store them in the freezer so they last longer, and defrost individual tortillas as necessary.",
+   "Make a basic cheese quesadilla: Just skip all of the other fillings listed!",
+   "Make it gluten free: Use a certified gluten-free tortilla.",
+   "Make it vegan: Omit the cheese and spread ¼ cup cashew sour cream or hummus over the tortilla (check out these hummus quesadillas), and use oil instead of butter for brushing.",
+   "Storage suggestions: These quesadillas are at their crisp best right after making, but they will keep well for about 4 days in the refrigerator, covered. Gently reheat in the microwave or oven before serving, if desired.",
+   "If you love this recipe: I have more quesadilla recipes and Mexican recipes for you! Don’t miss the greens and beans quesadillas or everyday red salsa in Love Real Food—they are epic."
+  ],
+  "summary": "Quesadillas are the perfect quick meal. Enjoy this vegetarian quesadilla recipe in under 10 minutes! Recipe yields 1 quesadilla (3 slices), so multiply as necessary.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per quesadilla"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -35,7 +35,32 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2017/09/pizza-beans/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Prepare the beans and vegetables: Heat the oven to 475 degrees. In a 2 1/2-to-3-quart (ideally oven-safe) deep sauté pan, braiser, or shallow Dutch oven, heat the olive oil on medium-high. Add the onion, celery, and carrots."
+   },
+   {
+    "title": null,
+    "text": "Season well with salt and black or red pepper. Cook, sautéing, until the vegetables brown lightly, about 10 minutes. Add the garlic, and cook for 1 minute more. Add the wine, if using, to scrape up any stuck bits, then simmer until it disappears, 1 to 2 minutes. Add the kale, and cook for 1 to 2 minutes, until collapsed, then add the tomatoes and bring to a simmer. Add the beans, and, if the mixture looks too dry or thick (canned tomatoes range quite a bit in juiciness), add up to 3/4 cup broth, 1/4 cup at a time. Simmer the mixture together over medium for about 10 minutes, adjusting the seasonings as needed."
+   },
+   {
+    "title": null,
+    "text": "If your pan isn’t ovenproof, transfer the mixture to a 3-quart baking dish. If it is, well, carry on."
+   },
+   {
+    "title": null,
+    "text": "Bake: Sprinkle the beans first with the mozzarella, then the Parmesan, and bake for 10 to 15 minutes, until browned on top. If you’re impatient and want a deeper color, you can run it under the broiler. Finish with parsley, if desired."
+   }
+  ],
+  "notes": [
+   "I like to think of this as a vegetable-rich (but not overwhelming, should you be trying to entice the hesitant) baked ziti where the ziti is replaced by giant beans. I used Royal Corona beans from Rancho Gordo but you might find large white beans such as these sold as fagioli corona or gigante/gigandes bean at an Italian or Greek grocery store. Regular-sized white beans will work too, they just have a less distinctive and dramatic texture. While it’s good solo, we often serve this with garlic bread for extra luxury. It reheats well from the fridge or freezer.",
+   "For a meaty variation, brown some fresh sweet or spicy Italian sausages (about",
+   "3/4 pound or 340 grams) with the vegetables."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

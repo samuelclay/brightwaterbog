@@ -24,7 +24,26 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/red-pepper-martini/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, line the rims with black pepper and salt if desired. Sprinkle a small plate with pepper and salt, run a lime wedge around the rims of two martini glasses, and dip the edges in the salt and pepper mixture."
+   },
+   {
+    "title": null,
+    "text": "In a cocktail shaker, muddle the bell pepper, jalapeno, lime juice and garlic. You’re done when the peppers have no more crunch left in them."
+   },
+   {
+    "title": null,
+    "text": "Add the vodka, agave or simple syrup, hot sauce, a couple twists of freshly ground black pepper and a dash of salt. Fill the shaker with ice, top the shaker with its lid and shake it like crazy. Strain the mixture into the prepared glasses and serve immediately."
+   }
+  ],
+  "notes": [
+   "Cocktail inspired by the beautiful red bell cocktail at Manifesto (Kansas City) and the red pepper-infused vodka at The Thin Man (Denver)."
+  ],
+  "summary": "Sweet and spicy, peppery vodka martinis. Serve as a savory before-dinner cocktail, or as a light alternative to a bloody mary at brunch. Amounts given below yield two cocktails.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

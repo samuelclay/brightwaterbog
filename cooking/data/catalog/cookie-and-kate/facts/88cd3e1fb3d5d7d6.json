@@ -1,6 +1,82 @@
 {
  "url": "https://cookieandkate.com/easy-pumpkin-cheesecake-cups-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Easy Pumpkin Cheesecake Cups",
+  "ingredients": [
+   "⅓ cup pecan halves",
+   "2 graham crackers (1 sheet), broken into 1-inch pieces*",
+   "¼ teaspoon pumpkin spice blend",
+   "6 ounces cream cheese, at room temperature, cut into 1-inch cubes",
+   "½ cup plain Icelandic Skyr like Siggi’s or whole-milk Greek yogurt",
+   "¼ cup maple syrup or honey",
+   "1 teaspoon vanilla extract",
+   "1 can (15 ounces or 1 ⅞ cups) pumpkin purée",
+   "½ cup plain Icelandic Skyr like Siggi’s or whole-milk Greek yogurt",
+   "2 ounces cream cheese, at room temperature",
+   "¼ cup maple syrup or honey",
+   "1 tablespoon pumpkin spice blend",
+   "½ teaspoon vanilla extract",
+   "Pinch of salt"
+  ],
+  "yield_text": "8 cups",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/easy-pumpkin-cheesecake-cups-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, make the pecan and graham cracker topping: Toast the pecans in a small skillet over medium heat, stirring occasionally, until fragrant, about 3 to 6 minutes. Transfer the pecans to a food processor and add the broken graham crackers and pumpkin spice blend."
+   },
+   {
+    "title": null,
+    "text": "Process the mixture for about 10 seconds, until the pecans and grahams are broken into tiny pieces (you may need to break up a few persistent pieces between your fingers, to avoid turning the mixture into nut butter). Transfer the mixture to a bowl and wipe out the food processor with a clean tea towel for the next step."
+   },
+   {
+    "title": null,
+    "text": "To make the cheesecake mousse: In the food processor, combine the cream cheese (6 ounces of it), yogurt, maple syrup and vanilla extract. Blend until the mixture is completely smooth, scraping down the sides and bottom as necessary. Transfer the mixture to a bowl. It’s ok if a bit of it remains in the food processor for the next step."
+   },
+   {
+    "title": null,
+    "text": "To make the pumpkin mousse: In the food processor, combine the pumpkin purée, yogurt, the remaining 2 ounces of cream cheese, maple syrup, pumpkin spice blend, vanilla extract, and a pinch of salt. Blend until the mixture is completely smooth, scraping down the sides and bottom as necessary."
+   },
+   {
+    "title": null,
+    "text": "To assemble, transfer about 2 ounces (¼ cup) of the pumpkin purée to each of your 8 cups. Top each with about 1 ounce (2 tablespoons) of the cream cheese mixture—you might have a bit leftover; just divide it between the cups. Top each with about 1 tablespoon of the pecan and graham cracker topping."
+   },
+   {
+    "title": null,
+    "text": "Serve immediately, or better yet, cover and refrigerate for later (they’ll thicken up somewhat over time, which I like—they’ll keep for up to 2 days in the fridge)."
+   }
+  ],
+  "notes": [
+   "If you don’t have a food processor: No problem. Just chop up the pecans and graham cracker, transfer to a bowl, and stir in the pumpkin spice blend. You can whip together the cream cheese and pumpkin mixtures with a hand mixer or a whisk.",
+   "*Make it gluten free: Buy certified gluten-free graham crackers, or use ½ cup pecans and omit the graham crackers entirely. (This is also a good trick if you don’t want to buy a box of graham crackers just to use 1 sheet.)",
+   "Make it nut free: I think toasted pepitas (green pumpkin seeds) would be nice in place of the pecans. Or, omit the nuts and use 4 sheets of graham crackers instead."
+  ],
+  "summary": "This easy no-bake pumpkin dessert recipe will be a hit at your Thanksgiving table! It’s made with real pumpkin, Greek yogurt, cream cheese (1 block total), and maple syrup. Recipe yields 8 small desserts, and you will need 8 small glasses to contain them.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Pecan & Graham Cracker Topping"
+   },
+   {
+    "at": 3,
+    "title": "Cheesecake Mousse"
+   },
+   {
+    "at": 7,
+    "title": "Pumpkin Mousse"
+   }
+  ]
+ }
 }

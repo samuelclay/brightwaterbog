@@ -31,7 +31,44 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2015/12/potato-kugel/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 350°F."
+   },
+   {
+    "title": null,
+    "text": "By hand: Chop onions very finely and coarsely grate potatoes."
+   },
+   {
+    "title": null,
+    "text": "With a food processor: Blend onions in food processor with regular blade until finely ground. Switch to grating blade and grate potatoes — I like to do this one their sides, for the longest strands."
+   },
+   {
+    "title": null,
+    "text": "Both methods: Place onions and potatoes in a large bowl. Sprinkle salt, pepper and starch evenly over potatoes and toss together with two forks or, as I do it, your very clean hands, evenly coating strands. Break eggs right on top and again use forks or your fingers to work them into the strands, evenly coating the mixture."
+   },
+   {
+    "title": null,
+    "text": "Heat a 1/4 cup oil or fat in a 10-inch cast-iron skillet** over high heat until very hot. Pour potato-egg mixture into pan carefully (it’s going to splatter) and spread evenly in pan. I like to twist and tousle the top strands a little for a pretty final texture on top. Drizzle with last tablespoon of oil. Bake in heated oven for 75 to 80 minutes, until browned on top and tender in the middle. If top browns too quickly, before center is baked, cover with foil for all but the last two minutes of baking time, though this has never been necessary in my oven."
+   },
+   {
+    "title": null,
+    "text": "Serve in squares, either right from the skillet or unmolded onto a platter. Kugel reheats exceptionally well in a warm oven. It keeps in the fridge for up to 4 days, and much longer (months, even) in the freezer. I like to defrost it in the fridge before rewarming it in an oven."
+   },
+   {
+    "title": null,
+    "text": "* Cornstarch works too. As does flour. Matzo meal is traditional. I like potato starch because it’s the least distracting and lightest. I buy mine from Bob’s Red Mill; usually in a section with other BRM products at just about any store these days (hooray)."
+   },
+   {
+    "title": null,
+    "text": "** Without a cast-iron — Use a casserole baking dish. Just heat the oil first so it’s hot when the potato mixture lands in it. (You can do this in the oven, but it will take a good 5 minutes to get very hot. Might as well do it in 60 seconds on the stove.)"
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

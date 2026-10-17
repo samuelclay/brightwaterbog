@@ -29,7 +29,32 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2013/08/kale-salad-with-pecorino-and-walnuts/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Prepare walnuts: Heat oven to 350. Toast walnuts on a baking sheet for 10 minutes, tossing once. Let cool and coarsely chop."
+   },
+   {
+    "title": null,
+    "text": "Prepare raisins: In a small saucepan over low heat, simmer white wine vinegar, water and raisins for 5 minutes, until plump and soft. Set aside in liquid."
+   },
+   {
+    "title": null,
+    "text": "Prepare crumbs: Toast bread crumbs, garlic and 2 teaspoons of the olive oil in a skillet together with a pinch of salt until golden. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Prepare kale: Trim heavy stems off kale and remove ribs. I always find removing the ribs annoying with a knife, because the leaves want to roll in on the knife and make it hard to get a clean cut. Instead, I’ve taken to tearing the ribs off with my fingers, which is much easier for me. Stack sections of leaves and roll them into a tube, then cut them into very thin ribbons crosswise."
+   },
+   {
+    "title": null,
+    "text": "Assemble salad: Put kale in a large bowl. Add pecorino, walnuts and raisins (leaving any leftover vinegar mixture in dish), remaining 2 tablespoons olive oil and lemon juice and toss until all the kale ribbons are coated. Taste and adjust seasonings with salt, pepper and some of the reserved vinegar mixture from the raisins, if needed. Let sit for 10 minutes before serving, if you can, as it helps the ingredients come together. Just before serving, toss with breadcrumbs and, if needed, a final 1 teaspoon drizzle of olive oil."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

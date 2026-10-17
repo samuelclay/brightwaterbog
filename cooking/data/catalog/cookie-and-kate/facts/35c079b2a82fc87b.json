@@ -19,7 +19,28 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/tomato-and-goat-cheese-toast/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven or a toaster oven to 450 degrees with a rack in the top position."
+   },
+   {
+    "title": null,
+    "text": "Slice your bread, if necessary, and lightly brush each side with olive oil. Brush some minced garlic on the top, too."
+   },
+   {
+    "title": null,
+    "text": "Add a layer of goat cheese, topped with sliced tomato. Brush a little more olive oil and garlic on the tomatoes."
+   },
+   {
+    "title": null,
+    "text": "Bake for 7 to 10 minutes, until the bread is toasted and the goat cheese is melting and slightly golden. Enjoy!"
+   }
+  ],
+  "notes": [],
+  "summary": "Tomato and goat cheese on toast is an easy summer lunch or snack. It’s a meal you’ll wish will never end!",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

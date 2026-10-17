@@ -35,7 +35,32 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2016/06/charred-eggplant-and-walnut-pesto-pasta-salad/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cook pasta: In very well salted water until 1 to 2 minutes before doneness and drain."
+   },
+   {
+    "title": null,
+    "text": "Prepare eggplant: Trim eggplant and slice into 1/2-inch coins. Brush both sides with olive oil and sprinkle with salt and freshly ground black pepper. Heat grill to medium-high. Arrange eggplant in one layer and cook until charred underneath, about 8 minutes. (If it’s sticking to the grill, it wants to cook longer.) Flip pieces over and cook until charred on second side, about 5 to 8 minutes more. Set aside to cool slightly then chop into chunks."
+   },
+   {
+    "title": null,
+    "text": "No grill? Heat oven to 425. Trim eggplant and slice into 1/2-inch coins. Coat a baking sheet generously with olive oil, arrange eggplant on top and sprinkle with salt and pepper. Roast, without disturbing, for 15 to 20 minutes. Carefully flip each piece: the undersides should be blistery, dark and a bit puffy and should release easily; if they don’t want to, cook them a few minutes longer. Flip each piece, sprinkle again with salt and pepper, and roast on the second side for 10 to 12 minutes, or until charred underneath again."
+   },
+   {
+    "title": null,
+    "text": "Make dressing: In food processor, coarsely grind walnuts, cheese, garlic, thyme, salt and freshly ground black pepper and/or red pepper flakes. Stir in oil and tomatoes, then whisk in vinegar to taste."
+   },
+   {
+    "title": null,
+    "text": "Assemble salad: Toss cooked pasta with walnut dressing and additional vinegar and oil to loosen (I used about 1 tablespoon extra oil and 2 tablespoons extra vinegar in total). Chop eggplant into chunks, add to bowl and toss again. Adjust seasonings to taste, then stir in cheese and herbs."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

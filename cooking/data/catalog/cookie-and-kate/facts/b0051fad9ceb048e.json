@@ -22,7 +22,27 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/aji-verde-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a food processor or blender, combine all of the ingredients. Blend until the cilantro has broken into very tiny pieces and the sauce is green and mostly smooth (no matter how long you blend it, it will still have some texture to it)."
+   },
+   {
+    "title": null,
+    "text": "Taste, and adjust if necessary. This sauce is intentionally bold and spicy and I usually think it’s just right as written. However, if the flavor is too overwhelming, blend in 1 tablespoon of olive oil while running the food processor. If it’s not spicy enough, add some of the reserved jalapeño seeds and blend again. If it doesn’t have enough zip, add another tablespoon of lime juice and/or a pinch of salt."
+   },
+   {
+    "title": null,
+    "text": "Aji verde keeps well in the refrigerator, covered, for about 1 week."
+   }
+  ],
+  "notes": [
+   "Make it dairy free: Simply omit the Parmesan. To temper the flavor a bit, drizzle in 1 to 2 tablespoons olive oil while running the food processor.",
+   "Make it vegan: I think you could replace the mayonnaise with equal parts vegan sour cream, and omit the cheese. Or for a similarly creamy cilantro sauce, try my avocado dip. You can add extra jalapeño if you want it to be more spicy."
+  ],
+  "summary": "Learn how to make the best aji verde sauce! Aji verde is spicy Peruvian green sauce, made with cilantro, jalapeños, and a little mayonnaise and Parmesan. It is utterly irresistible drizzled onto tacos and more! Recipe yields about 1 ¼ cups.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

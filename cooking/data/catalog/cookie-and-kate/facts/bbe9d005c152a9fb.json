@@ -17,7 +17,35 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/pistachio-butter-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit. Spread the pistachios across a rimmed baking sheet and toast them until nicely fragrant, about 7 to 9 minutes, stirring halfway."
+   },
+   {
+    "title": null,
+    "text": "Let the pistachios cool until they’re just warm (not hot), about 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Transfer the pistachios to a food processor. Add a pinch of salt."
+   },
+   {
+    "title": null,
+    "text": "Blend until the mixture is completely smooth and creamy, pausing to scrape down the sides as necessary. The pistachios will go from flour-like clumps, to a ball against the side of the food processor, and finally, the mixture will turn creamy and glossy. If the mixture gets hot along the way or your machine seems tired, stop and let it cool for a few minutes before proceeding."
+   },
+   {
+    "title": null,
+    "text": "Taste, and blend in another pinch of salt if desired. Let the pistachio butter cool to room temperature, then transfer the mixture to a mason jar and screw on the lid. This nut butter keeps well at room temperature for 1 week or store it in the refrigerator for up to 1 month."
+   }
+  ],
+  "notes": [
+   "Change it up: Add ground cinnamon (for spice) and/or maple syrup (for sweetness) at the end of blending, to taste.",
+   "Make it crunchy: Reserve about ½ cup of the toasted pistachios, then blend the rest as directed. Add the reserved pistachios at the end, and process until you reach your desired consistency."
+  ],
+  "summary": "This homemade pistachio butter is made with freshly toasted pistachios and tastes like a dream! Make this creamy pistachio butter for your morning toast, or give it as a gift. For context, use 16 ounces (1 pound) pistachios to yield enough nut butter to fill a standard 16-ounce nut butter jar (about 2 cups).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

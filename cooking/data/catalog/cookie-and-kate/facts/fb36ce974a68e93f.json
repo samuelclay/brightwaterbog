@@ -1,6 +1,46 @@
 {
  "url": "https://cookieandkate.com/lemon-vinaigrette-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Lemon Vinaigrette",
+  "ingredients": [
+   "⅓ cup extra-virgin olive oil",
+   "⅓ cup lemon juice (from about 2 lemons)",
+   "2 tablespoons Dijon mustard",
+   "1 to 2 tablespoons honey or maple syrup, to taste",
+   "3 cloves garlic, pressed or minced",
+   "¼ teaspoon fine salt",
+   "Freshly ground black pepper, to taste",
+   "Pinch of red pepper flakes (optional, for heat)"
+  ],
+  "yield_text": "3/4 cup",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Salad dressing"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/lemon-vinaigrette-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Combine all of the ingredients and whisk until blended."
+   },
+   {
+    "title": null,
+    "text": "Season generously with black pepper and adjust to taste by adding more honey if the dressing tastes too tart. This dressing keeps well in the refrigerator, covered, for up to 10 days. (The olive oil tends to solidify in the refrigerator, which is normal. Let the dressing warm to room temperature for 5 minutes or microwave it for about 10 seconds before using.)"
+   }
+  ],
+  "notes": [
+   "Recipe adapted from the Liquid Gold salad dressing in my cookbook, Love Real Food.",
+   "Make it vegan: Use maple syrup, not honey."
+  ],
+  "summary": "Homemade lemon vinaigrette is far superior to store-bought salad dressings! Fresh lemon shines in this simple recipe using quality ingredients. Recipe yields ¾ cup.",
+  "ingredient_groups": []
+ }
 }

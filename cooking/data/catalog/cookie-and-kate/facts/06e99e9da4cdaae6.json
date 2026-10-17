@@ -22,7 +22,28 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/paloma-cocktail/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Fill a cocktail shaker with ice. Pour in the tequila, grapefruit juice, lime juice, simple syrup, the tiniest pinch of salt, and optional bitters. Shake well for 10 to 15 seconds, until the shaker is ice cold. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Fill a highball glass with ice. Strain the shaker mixture on top. Top with Topo Chico. Give the drink a gentle stir if the mixture does not appear evenly distributed."
+   },
+   {
+    "title": null,
+    "text": "Garnish the drink with a thin wedge of grapefruit. Enjoy."
+   }
+  ],
+  "notes": [
+   "Suggested tequila: I like Casamigas, Espolòn and Milagro. Blanco tequila is typical in palomas. Aged tequilas will dominate the citrus notes, so I don’t recommend them.",
+   "Measuring tips: You’ll need about ½ grapefruit and 1 small-to-medium lime per drink. If you don’t have a measuring jigger, 2 ounces is ¼ cup, 1 ½ ounces is 3 tablespoons, ¾ ounce is 1 ½ tablespoons, and ½ ounce is 1 tablespoon.",
+   "Change it up: If desired, line the rim of your glass with lime juice and salt. For a mellow drink, use 1 ½ ounces tequila. For stronger citrus flavor, add 1 to 2 dashes of Angostura orange bitters (not their regular bitters)."
+  ],
+  "summary": "This paloma recipe is bright, citrusy and refreshing (and not too sweet). Recipe yields 1 cocktail; you can multiply the ingredients and shake several cocktails at once.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

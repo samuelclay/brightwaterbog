@@ -1,6 +1,47 @@
 {
  "url": "https://cookieandkate.com/beautiful-red-bell-cocktail/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Beautiful Red Bell Cocktail",
+  "ingredients": [
+   "⅓ of a medium red bell pepper, sliced into two-inch long strips",
+   "5 to 6 fresh basil leaves",
+   "½ lime, juiced",
+   "1 ½ ounces gin",
+   "½ to 1 teaspoons agave nectar or simple syrup"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "5 mins",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/beautiful-red-bell-cocktail/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a cocktail shaker, combine red pepper, basil and lime juice. Muddle until the red pepper is thoroughly smashed (it shouldn’t have any crunch left)."
+   },
+   {
+    "title": null,
+    "text": "Add the gin, agave nectar and lots of ice. Put on the lid and shake like crazy."
+   },
+   {
+    "title": null,
+    "text": "Strain and pour into a chilled martini glass. Enjoy."
+   }
+  ],
+  "notes": [],
+  "summary": "This refreshing summer cocktail is made with red bell pepper, basil, gin and lime. This recipe was inspired by Manifesto in Kansas City, MO.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per cocktail"
+   }
+  ]
+ }
 }

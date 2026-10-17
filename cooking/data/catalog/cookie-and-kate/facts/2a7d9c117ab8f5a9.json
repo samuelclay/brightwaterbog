@@ -24,7 +24,44 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/baked-apples-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 375 degrees Fahrenheit."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, stir together the oats, sugar, pecans, cinnamon and salt. Mix in the melted butter. Stir until the mixture is well combined and moistened throughout. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Slice off the top of the apples below the stem line (about ¾ to 1-inch down the apple), reserving the tops. Then use a small spoon (a grapefruit spoon is ideal, otherwise be extra careful) to scoop out the centers, leaving ½-inch around the edges and along the bottom. Just make sure you don’t core through the bottom of the apple."
+   },
+   {
+    "title": null,
+    "text": "Place the apples upright into a medium-sized baking dish (large enough to accommodate the apples without them touching each other or the sides of the pan). If the apples wobble at all, slice off a small piece on the base to make them more flat and stable."
+   },
+   {
+    "title": null,
+    "text": "Divide the filling between the apples, then pile any remaining filling around the top of the holes before placing the apple tops back on."
+   },
+   {
+    "title": null,
+    "text": "Pour the water into the base of the dish to surround the apples. Bake the apples for 45 to 55 minutes, or until a skewer or small paring knife inserted through the side and down to the base meets only mild resistance. If you prefer softer apples, try baking them for the full 55 minutes."
+   },
+   {
+    "title": null,
+    "text": "Let the apples cool a bit before carefully transferring each to an individual plate. Serve as desired."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Use certified gluten-free oats.",
+   "Make it nut free: Skip the nuts.",
+   "Make it dairy free/vegan: Substitute vegan butter, such as Miyoko’s Creamery. I haven’t tested this, but it should work well."
+  ],
+  "summary": "These delightful baked apples turn out perfectly, every time! This baked apple recipe features tender apples stuffed with a buttery oat filling. It’s easy to make gluten free, dairy free/vegan and nut free—see the recipe notes for details. Recipe yields 4 baked apples.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

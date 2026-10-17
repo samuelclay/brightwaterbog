@@ -24,7 +24,32 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/edamame-hummus-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In the bowl of your food processor or high-powered blender (i.e. Vitamix or Blendtec), combine the tahini, lemon juice, olive oil, garlic and salt. Process for about 1½ minutes, pausing to scrape down the sides and base of the bowl as necessary, until the mixture is well blended."
+   },
+   {
+    "title": null,
+    "text": "Add the cilantro and process for about 1 minute, pausing to scrape down the bowl as necessary, until the herbs have blended into the mixture and the mixture is nice and smooth."
+   },
+   {
+    "title": null,
+    "text": "Add half of the edamame to the food processor, plus 2 tablespoons water, and process for 1 minute. Scrape down the bowl, then add the remaining edamame and process until the hummus is thick and quite smooth, about 1 to 2 minutes more. If your hummus is too thick or chunky, run the food processor while drizzling in 1 to 2 tablespoons more water, as necessary, until it reaches your desired consistency."
+   },
+   {
+    "title": null,
+    "text": "Taste and blend in additional salt if the hummus doesn’t taste awesome yet (I usually add another ¼ teaspoon). Scrape the hummus into a small serving bowl. Lightly drizzle olive oil over the top and sprinkle with some additional cilantro leaves and a few sesame seeds, if desired. Leftover hummus keeps well, chilled, for 4 to 6 days."
+   }
+  ],
+  "notes": [
+   "Recipe inspire by Blue Sushi. Adapted from my green goddess hummus, which is available on the blog and in my cookbook.",
+   "Tahini notes: Tahini varies quite a bit by brand. My current favorite is Trader Joe’s brand. I have also enjoyed Whole Foods 365 in the past.",
+   "*How to defrost edamame: Bring a pot of water to boil. Add the frozen edamame and simmer until warmed through (about 4 to 6 minutes). Drain well and let cool on a plate for at least 5 minutes before using."
+  ],
+  "summary": "Learn how to make edamame hummus with this easy recipe! Serve it with sliced crisp vegetables, crackers or pita bread for a delicious, healthy appetizer or snack. Recipe yields about 2 cups hummus.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

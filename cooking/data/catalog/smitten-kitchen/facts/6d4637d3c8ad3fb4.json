@@ -34,7 +34,26 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2024/11/halloumi-and-fall-vegetable-roast/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat your oven to 450°F. Coat one half-sheet or two quarter-sheet baking sheets lightly with olive oil."
+   },
+   {
+    "title": null,
+    "text": "In a large bowl, combine 4 tablespoons olive oil, garlic, thyme, salt, black and red pepper. Add vegetables and halloumi to marinade, stirring to evenly coat."
+   },
+   {
+    "title": null,
+    "text": "Spread mixture out on the roasting tray(s) in as even as a layer as possible, and roast for 20 to 30 minutes on the first side, until browned underneath, then flip and roast for 10 to 15 minutes more on the second, until the vegetables and halloumi are browned in spots and tender. While it roasts, whisk together balsamic and honey. As soon as the sheet pan leaves the oven, drizzle the balsamic and honey mixture over the vegetables. It should sizzle and the heat will soften some of the vinegar’s bite. Scoop onto plates and eat right away."
+   }
+  ],
+  "notes": [
+   "No halloumi? A sprinkle of feta at the end won’t have quite the same pillowy-crisp cheese effect, but will provide that salty, tangy flavor."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

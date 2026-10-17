@@ -19,7 +19,39 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/strawberry-smash-cocktail/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a mixing glass, thoroughly muddle strawberries with the basil."
+   },
+   {
+    "title": null,
+    "text": "Squeeze in the juice of one lemon and a drizzle of honey."
+   },
+   {
+    "title": null,
+    "text": "Stir in the vodka."
+   },
+   {
+    "title": null,
+    "text": "Fill a collins glass with ice and pour your mixture into the glass. Top it off with club soda."
+   },
+   {
+    "title": null,
+    "text": "Mix by pouring the drink back into your mixing glass, then back into your drinking glass. Garnish with lemon round and a strawberry."
+   }
+  ],
+  "notes": [
+   "Strained option: If you aren’t down with chunks of smashed strawberry floating in your drink, just pour the mixture through a strainer, into a glass filled with ice."
+  ],
+  "summary": "Summery cocktail made with strawberries, basil, vodka, club soda and a drizzle of honey. Cheers!",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per cocktail"
+   }
+  ]
  },
  "parser_version": 2
 }

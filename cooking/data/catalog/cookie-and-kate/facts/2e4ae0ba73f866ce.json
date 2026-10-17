@@ -31,7 +31,43 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/quick-vegan-chana-masala/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cook the rice (if you want to serve the chana masala on rice): Bring a large pot of water to boil on the stove and rinse the rice in a fine-mesh colander. Once boiling, pour in the rice and give it a stir. Boil the rice for 30 minutes, then turn off the heat and drain the rice. Return the rice to the pot and cover the pot. Let the rice steam for 10 minutes. Remove the lid, fluff the rice with a fork and season with sea salt to taste."
+   },
+   {
+    "title": null,
+    "text": "Cook the chana masala: In a medium Dutch oven or large saucepan, warm the oil over medium-low heat. Add the onion, serrano and salt. Cook until the onion is tender and turning translucent, about 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the garlic and ginger, and cook until fragrant, about 30 seconds to 1 minute. Stir in the garam masala, coriander, cumin, turmeric, salt and cayenne (if using), and cook for another minute, while stirring constantly."
+   },
+   {
+    "title": null,
+    "text": "Add the tomatoes and their juices. If using whole tomatoes, use the back of a wooden spoon to break the tomatoes apart (you can leave some chunks of tomato for texture)."
+   },
+   {
+    "title": null,
+    "text": "Raise the heat to medium-high and add the chickpeas. Bring the mixture to a simmer. Cook, reducing the heat as necessary to maintain a gentle simmer, for 10 minutes or longer to allow the flavors to develop. Season to taste with additional salt, if desired. If it’s not spicy enough for your liking, add another pinch of cayenne."
+   },
+   {
+    "title": null,
+    "text": "Serve over basmati rice, if desired, and garnish with a lemon wedge or two and a sprinkle of fresh cilantro leaves."
+   }
+  ],
+  "notes": [
+   "Recipe adapted with permission from The Oh She Glows Cookbook by Angela Liddon.",
+   "*Tame the heat: While chana masala is inherently full of spice, the serrano (or jalapeño) and cayenne pepper are what bring the heat. If you’re sensitive, reduce or omit them both. You can always stir in a pinch of cayenne pepper at the end of cooking if you want more.",
+   "**Spice blend note: Garam masala is traditional. If you don’t have it and want to get by without making another trip to the store, you could use tikka masala instead, or perhaps even 1 teaspoon yellow curry powder. Don’t have any of those? I suspect this dish would be nicely flavorful with an added pinch of clove and cardamom, or even nothing at all.",
+   "Storage suggestions: This recipe makes for great leftovers! Store the rice, chana masala and garnishes separately for best results. Warm the rice and chana masala together, then garnish with fresh lemon wedges and cilantro. Leftovers should keep well for up to 5 days. I believe you could also successfully freeze the chana masala and rice components for later.",
+   "Change it up: Though untraditional, I think this would taste great with a generous splash of coconut milk for some creaminess (it would also mellow the spices somewhat).",
+   "Update 3/18/20: The recipe originally called for cumin seeds (1 ½ teaspoons) instead of ground cumin. I made the switch because ground cumin is easier to find. The recipe called for cooking the cumin seeds in the oil before adding the onion, etc. (Cook for a minute or two, stirring frequently, until the seeds are golden and fragrant. Watch carefully to avoid burning the seeds.)"
+  ],
+  "summary": "Quick and easy chana masala recipe served over basmati rice. This spicy, hearty, chickpea-based Indian dish is vegan and gluten free. It makes great leftovers, too! Be sure to prep the ingredients in advance, as the recipe moves quickly. Recipe yields 4 bowls.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

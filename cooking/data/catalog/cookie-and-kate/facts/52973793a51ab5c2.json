@@ -1,6 +1,66 @@
 {
  "url": "https://cookieandkate.com/almond-flour-scones/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Almond Flour Scones (Gluten Free)",
+  "ingredients": [
+   "2 ½ cups blanched almond flour* (225 grams), spooned and leveled",
+   "1 tablespoon baking powder",
+   "¼ teaspoon fine salt",
+   "3 tablespoons granulated sugar",
+   "Zest from 1 large lemon (around 1 ½ teaspoons)",
+   "5 tablespoons unsalted butter, just melted",
+   "2 tablespoons plain whole-milk Greek yogurt",
+   "1 large egg",
+   "1 cup (4 ½ ounces) fresh blueberries",
+   "Optional: 1 teaspoon turbinado sugar (raw sugar) for sprinkling on top"
+  ],
+  "yield_text": "8",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/almond-flour-scones/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 375 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper."
+   },
+   {
+    "title": null,
+    "text": "In a mixing bowl, combine the almond flour, baking powder and salt. Whisk gently until combined."
+   },
+   {
+    "title": null,
+    "text": "In a small-to-medium bowl, combine the sugar and lemon zest. Use your fingers to rub the zest into the sugar (this extracts more flavor from the lemon). Then, pour the mixture into the other dry ingredients and whisk to combine."
+   },
+   {
+    "title": null,
+    "text": "In the smaller bowl, combine the butter, yogurt and egg, and whisk until evenly combined. Pour the wet mixture into the dry mixture, and stir to combine. Gently fold in the blueberries."
+   },
+   {
+    "title": null,
+    "text": "Dump the dough onto a clean work surface, gently fold it over onto itself a couple of times, then shape it into a circle about one inch deep all around. Sprinkle the turbinado sugar evenly over the dough, if using."
+   },
+   {
+    "title": null,
+    "text": "Use a sharp chef’s knife to slice the round into 8 even wedges. Separate the slices and place them on the prepared baking sheet (I like to use a pie server for transferring them), leaving several inches around each scone. If a scone falls apart, gently shape it back together and tuck in any stray blueberries."
+   },
+   {
+    "title": null,
+    "text": "Bake for 15 to 18 minutes, until the scones are turning golden brown on top. Enjoy them warm, or let them rest to allow the flavors to develop. Leftover scones keep well for up to 3 days at room temperature or up to 6 months in the freezer."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Blueberry Scones made with wheat flour.",
+   "*Almond flour notes: Not all almond flours are created equally. I tested this recipe with Bob’s Red Mill’s super-fine almond flour and Whole Foods 365’s almond flour with great results."
+  ],
+  "summary": "These scones are made with almond flour, yet they’re as good as conventional scones (if not better!). The recipe is gluten-free and easy to make. This recipe yields 8 blueberry lemon scones; you’ll find flavor variations within the post.",
+  "ingredient_groups": []
+ }
 }

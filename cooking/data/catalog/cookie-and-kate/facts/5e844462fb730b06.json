@@ -26,7 +26,64 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/healthier-strawberry-shortcake-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper and set it aside. Place a medium-sized glass or metal mixing bowl in the freezer to chill for the whipped cream."
+   },
+   {
+    "title": null,
+    "text": "To prepare the shortcake: In a medium mixing bowl, combine the flour, baking powder, salt and cinnamon. Stir to combine."
+   },
+   {
+    "title": null,
+    "text": "In a 2-cup liquid measuring cup or smaller mixing bowl, combine the coconut milk, honey and vanilla. Whisk to blend, then pour the wet mixture in to the dry."
+   },
+   {
+    "title": null,
+    "text": "Mix with a big spoon until you have a cohesive dough. If the dough is sticky and unmanageable, let it rest for a few minutes—if it’s still being difficult, add another tablespoon of flour and stir just until incorporated."
+   },
+   {
+    "title": null,
+    "text": "Lightly flour your work surface, and turn the dough over onto it. Knead the dough a few times, just enough to bring the dough together. Then, press the dough into a square shape about 1″ deep."
+   },
+   {
+    "title": null,
+    "text": "Use a sharp chef’s knife to slice the dough into 3 even columns and 3 even rows, to make 9 squares. Place the squares onto your prepared baking sheet, leaving a couple inches around each one. Brush the tops of the dough liberally with coconut milk, and sprinkle them with turbinado sugar, if using. Bake for 20 to 22 minutes, until they are firm to the touch."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, prepare the coconut whipped cream: Open the can of chilled coconut milk or coconut cream, and scoop the solid white portion into your chilled bowl, leaving the watery part behind. With an electric hand mixer, beat until smooth and relatively fluffy. Add the honey and vanilla extract and blend to combine. Refrigerate until you’re ready to serve."
+   },
+   {
+    "title": null,
+    "text": "To prepare the strawberries: Place half of the sliced strawberries in a medium mixing bowl and mash them with a potato masher (or pastry cutter or big fork) until juicy. Add the remaining sliced strawberries and honey and stir to combine. Set aside until ready to serve."
+   },
+   {
+    "title": null,
+    "text": "When you’re ready to serve, carefully slice the shortcakes in half lengthwise with a paring knife. Top the lower halve of each shortcake liberally with sliced strawberries, followed by whipped cream. Top with the upper halve of the shortcake. If you want to make them extra decadent, add one more dollop of whipped cream and maybe a small strawberry on top. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Recipe created with references to the New York Times and King Arthur Flour.",
+   "Make it vegan: Use maple syrup instead of honey."
+  ],
+  "summary": "Classic strawberry shortcake made healthier—this recipe is made with honey or maple syrup, whole grains and coconut milk. So delicious! It’s vegan if you use maple syrup instead of honey. Recipe yields 9 servings (so quite a bit—if you’re serving just 4 people, I’d probably prepare just 1 pound of strawberries, and enjoy leftover shortcakes as though they are sweet biscuits).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Shortcake"
+   },
+   {
+    "at": 8,
+    "title": "Coconut whipped cream – can be replaced with 2 cups regular whipped cream, if you prefer"
+   },
+   {
+    "at": 11,
+    "title": "Strawberries"
+   }
+  ]
  },
  "parser_version": 2
 }

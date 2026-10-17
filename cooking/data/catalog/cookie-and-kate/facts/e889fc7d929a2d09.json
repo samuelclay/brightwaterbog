@@ -26,7 +26,40 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/favorite-green-salad-with-apples-cranberries-and-pepitas/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Toast the pepitas: In a medium-sized skillet, toast the pepitas over medium heat, stirring frequently, until they are turning golden on the edges and making little popping noises (if using pecans instead, warm them just until they are fragrant). Transfer the pepitas to a small bowl to cool."
+   },
+   {
+    "title": null,
+    "text": "Make the dressing: In a cup or jar, whisk together the olive oil, vinegar, honey, mustard and salt until well blended. Season to taste with pepper."
+   },
+   {
+    "title": null,
+    "text": "Just before serving, chop the apple into thin, bite-sized pieces. Place your greens in a large serving bowl. Top with sliced apple, dried cranberries and toasted pepitas. Use a fork to crumble the goat cheese over the salad."
+   },
+   {
+    "title": null,
+    "text": "Drizzle the salad with just enough dressing to lightly coat the leaves once tossed (you probably won’t need all of it). Gently toss to mix all of the ingredients and serve!"
+   }
+  ],
+  "notes": [
+   "Make it vegan: Substitute maple syrup for the honey and omit the cheese.",
+   "Storage suggestions: Spring greens wilt quickly once they’ve been tossed with dressing, so store dressing separately from the greens. Apples oxidize quickly once they’re cut open, so I chop them just before serving the salad. For a salad with more longevity, swap chopped kale for the spring greens (like this). Bonus? The dressing will keep the chopped apples looking fresh."
+  ],
+  "summary": "My favorite fresh salad featuring healthy greens, sliced apple, toasted pepitas, dried cranberries and crumbled goat cheese. Toss with my simple apple cider vinaigrette (recipe below) or use balsamic dressing in a pinch. Recipe yields 2 full-sized salads or 4 to 6 side salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Green salad"
+   },
+   {
+    "at": 5,
+    "title": "Apple cider vinaigrette"
+   }
+  ]
  },
  "parser_version": 2
 }

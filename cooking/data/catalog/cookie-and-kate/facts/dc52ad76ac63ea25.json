@@ -1,6 +1,67 @@
 {
  "url": "https://cookieandkate.com/chickpea-tomato-soup-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Chickpea Tomato Soup",
+  "ingredients": [
+   "2 tablespoons extra-virgin olive oil",
+   "1 medium yellow onion, chopped",
+   "½ teaspoon fine salt",
+   "½ teaspoon curry powder",
+   "2 tablespoons tomato paste",
+   "1 large can (28 ounces) whole tomatoes*, with their liquid",
+   "2 cups vegetable broth",
+   "1 can (14 ounces) chickpeas, rinsed and drained, divided",
+   "2 tablespoons unsalted butter, cut into a few pieces",
+   "1 teaspoon coconut sugar or brown sugar, to taste",
+   "Freshly ground black pepper, to taste",
+   "Finely grated Parmesan cheese, for garnish"
+  ],
+  "yield_text": "4 bowls",
+  "cook_time": "55 minutes",
+  "categories": [
+   "Soup"
+  ],
+  "cuisines": [
+   "Italian-inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/chickpea-tomato-soup-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a Dutch oven or soup pot, warm the olive oil over medium heat until shimmering. Add the onion, salt and curry powder. Cook, stirring occasionally, until the onions are tender and turning translucent, 7 to 10 minutes. Add the tomato paste and cook, stirring constantly, until fragrant, about 30 seconds."
+   },
+   {
+    "title": null,
+    "text": "Add the tomatoes, vegetable broth, and just ¼ cup of the chickpeas. Stir to combine. Increase the heat to medium-high and bring the mixture to a simmer. Cook for 15 minutes, stirring occasionally and reducing the heat as necessary to maintain a gentle simmer."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from the heat and let it cool for a few minutes. Carefully transfer the remaining mixture to a blender, being sure not to fill past the maximum fill line (blend in batches if necessary). Add the butter, sugar, and several twists of black pepper. Securely fasten the lid and blend the soup until it’s completely smooth, being careful to avoid hot steam escaping from the lid."
+   },
+   {
+    "title": null,
+    "text": "Return the soup to the pot and stir in the remaining chickpeas. Bring the mixture back to a gentle simmer and cook, stirring occasionally, for 15 more minutes or until the chickpeas are tender enough for your liking (careful when tasting, the soup is very hot)."
+   },
+   {
+    "title": null,
+    "text": "Turn off the heat. Since canned tomatoes vary in flavor, I always end up tinkering with this soup a bit at the end. Taste and, if necessary, add a little more sugar (to balance out the acidity of the tomatoes), pepper, and salt (I usually add another ¼ to ½ teaspoon)."
+   },
+   {
+    "title": null,
+    "text": "Serve in bowls topped with a heavy sprinkling of grated Parmesan and perhaps a light sprinkle of black pepper. This soup keeps well in the refrigerator, covered, for up to four days. Or, you can freeze leftovers for up to 3 months."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Classic Tomato Soup (Lightened Up!).",
+   "*Tomato notes: Not all canned tomatoes are created equally. I like Muir Glen or Jovial brands. If you’re watching your sodium intake, choose no-salt-added tomatoes and add salt to taste.",
+   "Make it dairy-free/vegan: Replace the butter with 1 tablespoon of additional olive oil. Do not add cheese. You might like a dollop of vegan sour cream or a sprinkle of vegan Parmesan on top."
+  ],
+  "summary": "This recipe for tomato soup with chickpeas is hearty, rich and satisfying. It’s a healthy tomato soup with beans for protein and texture. Recipe yields 4 generous bowls.",
+  "ingredient_groups": []
+ }
 }

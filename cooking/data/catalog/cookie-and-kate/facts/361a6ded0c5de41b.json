@@ -17,7 +17,28 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/fresh-bellini-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, make peach purée: Peel your peaches, slice them in half, and remove the pits. Place the halved peaches in a blender or food processor, and blend until the purée is completely smooth. Peach purée is best served chilled, so place it in the refrigerator for at least 30 minutes to cool."
+   },
+   {
+    "title": null,
+    "text": "When you’re ready to serve, pour 2 ounces (¼ cup) chilled peach purée into a Champagne flute. Pour in some chilled Prosecco, being careful not to overflow the glass. Gently stir with a spoon to combine."
+   },
+   {
+    "title": null,
+    "text": "Top off the drink with another splash of Prosecco and garnish with a peach slice, if desired. Serve at once!"
+   }
+  ],
+  "notes": [
+   "Prepare in advance: You can make the purée in advance, and store it in the fridge until you’re ready to serve. Wait to add Prosecco until you’re ready to serve so your drinks are nice and bubbly.",
+   "Leftover peach purée: This recipe yields 2 cups purée, and it will keep in the refrigerator for about 5 days. If you have leftovers, you might enjoy it mixed with a splash of club soda and served over ice. Or, drizzle it over a scoop of vanilla ice cream or Greek yogurt.",
+   "Frozen peaches variation: Defrost 1 ½ pounds sliced peaches, either at room temperature (it will take 3 to 4 hours) or in the refrigerator overnight. Blend the defrosted peaches until completely smooth in a blender or food processor. Then, you’re ready to go!"
+  ],
+  "summary": "Bellini cocktails are perfect for summertime! For this simple and delicious recipe, you’ll only need ripe, juicy peaches and Prosecco. Recipe yields 5 bellinis; multiply for a crowd.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

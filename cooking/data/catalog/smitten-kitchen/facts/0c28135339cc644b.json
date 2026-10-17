@@ -30,7 +30,40 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2016/02/roasted-yams-and-chickpeas-with-yogurt/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 425 degrees F."
+   },
+   {
+    "title": null,
+    "text": "Line two baking sheets with foil, for minimal mess. Coat one, the one you’ll use for the yams, with 1 tablespoon olive oil."
+   },
+   {
+    "title": null,
+    "text": "Toss yams with honey, 1 tablespoon olive oil and 1/2 tablespoon of pepper flakes. Let sit in bowl for 5 to 10 minutes. Toss chickpeas with 1 tablespoon olive oil, smoked paprika and salt, to taste."
+   },
+   {
+    "title": null,
+    "text": "Spread yams out on olive oil-ed baking sheet in one layer. Season with salt and pepper. Roast for 30 minutes, until nicely toasted underneath. Flip/move wedges around and roast for 5 to 10 more minutes, until soft and singed. For extra color, run them under the broiler for a final minute."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, spread chickpeas on second uncoated baking sheet. Roast in oven for 20 minutes, rolling around once or twice so that they cook evenly, until lightly browned and crispy on the outside. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Whisk yogurt, remaining tablespoon olive oil and lime juice together in a small dish, then season with salt and pepper to taste."
+   },
+   {
+    "title": null,
+    "text": "Arrange yams on plate or platter, drizzle some of the yogurt over, then about half the chickpeas. Garnish with scallions and remaining pepper flakes, plus flaky sea salt, if you have any. Keep extra chickpeas and yogurt on the side. Dig in."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

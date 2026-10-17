@@ -36,12 +36,17 @@
   for meat, fish, fish sauce, bonito, and meat-based fats before adding them.
 - The NYT rows carry full recipe text and photos, and both the repo and the deployed
   site are public.
-- Smitten Kitchen and Cookie and Kate are linked catalogs (ingredients + link, no
-  directions) documented in `data/catalog/README.md`. `make smitten-kitchen
-  cookie-and-kate` imports, downloads each recipe's lead photo
-  (`tools/fetch_blog_images.py`), and rebuilds; every row should have one, so check
-  `without_photo` in each `report.json`. `make deploy` ships whatever is local, so run
-  it only after every import (NYT included) has finished.
+- Smitten Kitchen and Cookie and Kate recipes are complete in the cookbook
+  (ingredients, directions, notes, photo) so the site works offline; see
+  `data/catalog/README.md`. `make smitten-kitchen cookie-and-kate` imports, pulls
+  directions from the WordPress REST API, downloads lead photos
+  (`tools/fetch_blog_images.py`), and rebuilds. Every row should have both, so check
+  `without_photo` and `without_directions` in each `report.json`. `make deploy` ships
+  whatever is local, so run it only after every import (NYT included) has finished.
+- The Vegetarian / Vegan toggle reads `data/diet.js` from `tools/classify_diet.py`.
+  After adding recipes, settle its `pending review` list with subagents per
+  `data/diet/review_instructions.md` (README "Vegan or vegetarian"). New filter tags
+  belong in a section of `assets/tag-groups.js`, or they land under "Other".
 
 ## Website (website/)
 

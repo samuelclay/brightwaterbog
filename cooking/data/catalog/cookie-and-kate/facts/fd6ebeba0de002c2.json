@@ -23,7 +23,30 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/elote-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "While you’re grilling your corn, prepare the chili-mayo sauce and Cotija-cilantro blend. In a small bowl, combine the mayonnaise, lime juice, chili powder, optional cayenne, and salt. Stir until combined. In a separate bowl, mix together the cheese and cilantro. Set both bowls aside."
+   },
+   {
+    "title": null,
+    "text": "When your corn is ready to go, brush the mayonnaise mixture all over one ear of corn. Over a plate, sprinkle the Cotjia mixture liberally all over, turning the corn as necessary (it’s going to be a little messy, no way around it!). Place the finished cob on a separate serving plate. Repeat for the remaining corn, using the cheese in the bowl and the excess on the plate as needed."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle a pinch or two of additional chili powder lightly over the corn. Serve warm."
+   }
+  ],
+  "notes": [
+   "Change it up: Grilled corn offers extra flavor, but boiled or steamed corn on the cob works, too. Try using a fun variety of chili powder, like chipotle, ancho, guajillo or Tajín (a Mexican blend of chili powder and lime), as an alternative to basic chili powder. Some recipes use sour cream instead of mayonnaise (or a combination of the two), but I felt that the flavor was more muted with those variations. Still, it’s an option—even Greek yogurt would work for a lightened-up option. If you don’t like cilantro, simply omit it.",
+   "Esquite variation: Also known as elote en vaso (“corn cup”), or a less messy way to enjoy elote. Once the corn is cooked, carefully use a chef’s knife to slice off the kernels. Divide the kernels between 4 cups, then top each one with ¼th of the chili-mayo sauce, followed by ¼th of the Cotija-cilantro blend. Finish them with a light sprinkle of additional chili powder, and serve with spoons. Or follow my stovetop esquites recipe.",
+   "Make it dairy free: Try a sprinkle of vegan Parmesan in place of the Cotija (use less than called for in the recipe, since the Parm is more salty). Or, just omit the Cotija.",
+   "Make it vegan: Try my vegan sour cream in place of the mayo, and a sprinkle of vegan Parmesan in place of the Cotija (use less than called for in the recipe, since the Parm is more salty). Or, you could use a good vegan mayonnaise and omit the cheese.",
+   "*Where to find Cotija cheese: Look for Cotija in well-stocked grocery stores or Mexican specialty shops. I buy it at Whole Foods, near the goat cheese. If you can’t find it, try finely crumbled feta cheese or finely grated Parmesan instead."
+  ],
+  "summary": "Learn how to make elote with this simple recipe! We’ll top grilled corn on the cob with a tangy blend of mayonnaise, lime, chili powder, and finish it with a heavy sprinkle of Cotjia cheese and cilantro. Serve elote as a snack or appetizer, or as a side dish to any Mexican meal. Recipe yields 4 elotes; multiply as needed.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

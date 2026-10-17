@@ -19,7 +19,32 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/martini-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Chill your martini glass by filling it to the brim with ice and water. Set it aside while you prepare the cocktail."
+   },
+   {
+    "title": null,
+    "text": "Next, fill a mixing glass with ice. Pour in the gin and vermouth. If you’d like a dirty martini, start with 1 teaspoon olive brine."
+   },
+   {
+    "title": null,
+    "text": "Use a mixing spoon to stir the mixture in a circular motion until it’s ice cold, about 30 seconds (which will seem like a long time, but it’s worth it). If you’re making a dirty martini, taste and add more brine by the teaspoon if desired."
+   },
+   {
+    "title": null,
+    "text": "Discard the ice and water in your martini glass. Strain the cold martini mixture into the cold glass. Garnish with a lemon twist or olives. Enjoy!"
+   }
+  ],
+  "notes": [
+   "To make a dry martini: Decrease the amount of vermouth. Try ½ ounce for a balanced but dry cocktail.",
+   "Suggested ingredients: London-style gin, such as Beefeater’s, yields the most classic martini. For the vermouth, Dolin dry is excellent. Gin is the traditional choice, but you can use vodka if preferred—try Tito’s or Grey Goose.",
+   "Measurement tips: Two ounces is ¼ cup. One ounce is 2 tablespoons. I like to use this stainless steel jigger (affiliate link) for measuring small amounts of liquid."
+  ],
+  "summary": "Make a classic martini at home with this foolproof recipe. Whether you like your martini with a twist of lemon or dirty with olives, this recipe is for you. Yields 1 cocktail as written; you can mix several at once if you’d like.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

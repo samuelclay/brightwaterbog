@@ -25,7 +25,31 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/muesli-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper."
+   },
+   {
+    "title": null,
+    "text": "In a large mixing bowl, combine the oats, almonds, coconut, pepitas, cinnamon and salt. Pour in the maple syrup, if using, and vanilla extract. Stir until evenly combined."
+   },
+   {
+    "title": null,
+    "text": "Pour the mixture onto your baking sheet and bake until the oats and coconut flakes are lightly golden and fragrant, tossing halfway, about 13 to 15 minutes. Let the muesli cool to room temperature, then stir in the dried cranberries and hemp hearts."
+   },
+   {
+    "title": null,
+    "text": "Store cooled muesli in a freezer-safe bag with the air squeezed out. Stir before serving. Muesli will keep well at room temperature for about 1 month, but keeps best in the freezer for up to 6 months (no defrosting necessary; just let your bowl of frozen muesli and milk rest for a few minutes before eating)."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Be sure to buy certified gluten-free oats.",
+   "Change it up: See the post for your full list of options! Substitute another chopped nut (or seeds) for the almonds, omit the coconut if you don’t like it, choose other warming spices than cinnamon, substitute other chopped dried fruit (or omit), and skip the hemp seeds if you don’t have them."
+  ],
+  "summary": "This wholesome muesli recipe is quick, easy and delicious! Make a big batch and enjoy it for many breakfasts. Recipe yields 8 cups, enough for 16 servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

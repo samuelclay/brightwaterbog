@@ -1,6 +1,47 @@
 {
  "url": "https://cookieandkate.com/toasted-coconut-butter/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Toasted Coconut Butter",
+  "ingredients": [
+   "3 cups (12 ounces) unsweetened coconut flakes, divided",
+   "½ cup macadamia nuts (optional)",
+   "dash sea salt"
+  ],
+  "yield_text": "1.5 cups",
+  "cook_time": "28 minutes",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Vegan"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/toasted-coconut-butter/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large skillet over medium heat, toast 2 cups of the coconut flakes, stirring frequently, until golden and fragrant (about 3 minutes). Remove from heat and transfer the coconut to a bowl."
+   },
+   {
+    "title": null,
+    "text": "Again in a large skillet over medium heat, toast the macadamia nuts until lightly golden and fragrant (about 5 minutes). Transfer the toasted nuts to the bowl."
+   },
+   {
+    "title": null,
+    "text": "In a food processor or high-powered blender (like a Vitamix), combine the toasted coconut, 1 cup coconut flakes, toasted macadamia nuts and a dash of sea salt. Process the mixture, stopping occasionally to scrape down the sides, for about ten minutes or until the mixture is blended and as smooth as possible. Transfer to an air-tight, glass container (a pint-sized mason jar is perfect for this). Let the mixture cool to room temperature (the food processor warms the butter), screw on a lid and store at room temperature."
+   }
+  ],
+  "notes": [
+   "Preparation tips: Definitely use unsweetened coconut flakes, which you can find at health food stores. Sweetened coconut flakes will likely clump up in the food processor. If you’d like to sweeten the mixture, I suspect you could mix some agave nectar into the end product.",
+   "Storage suggestions: Coconut butter (like coconut oil) will solidify at temperatures below 76 degrees Fahrenheit, which is why you do not want to store the coconut butter in the refrigerator. My coconut butter stays liquid during the warmer months (I just stir it with a spoon before serving to incorporate the oil back into the butter), but hardens during colder months.",
+   "Make it nut free: Skimp on the macadamia nuts.",
+   "How to melt coconut butter: Try placing the jar in a saucepan of gently simmering water for a few minutes (stir often and be careful!) or placing the jar on an electric candle warmer for a bit. You should only try these methods if the coconut butter is in a heat-safe glass jar. Note that the coconut butter is liable to burn if you try to microwave it for too long. I have never had any luck microwaving coconut butter so I don’t recommend it."
+  ],
+  "summary": "Coconut butter is super simple to make in a food processor. You can make it with just unsweetened, raw coconut flakes and a pinch of sea salt, or toast some of the coconut and add nuts like I did for more toasty, nutty flavor. The addition of macadamia nuts also seems to help the mixture come together more quickly.",
+  "ingredient_groups": []
+ }
 }

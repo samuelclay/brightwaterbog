@@ -36,7 +36,31 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2018/05/pasta-salad-with-roasted-carrots-and-sunflower-seed-dressing/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cook carrots: Heat oven to 500 degrees. Cut the tops off the carrots (wash and reserve some green tops for dressing) and scrub or peel. Toss with oil, salt, and pepper and spread out in on layer on a large baking sheet. Roast for 15 minutes, tossing them around once, until charred in spots and a knife can easily pierce the carrots. Thicker carrots might need up to 5 more minutes."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, cook pasta: Bring a medium/large pot full of well-salted water to a boil and cook pasta for 1 to 2 minutes shy of package suggestion, until it is tender but still has a bite to it. Drain and cool in large bowl until needed."
+   },
+   {
+    "title": null,
+    "text": "Make dressing: In a food processor or strong blender, place sunflower seeds, greens, parmesan (if using), garlic, lemon zest, salt, pepper flakes, and black pepper in work bowl and pulse until chopped small but not finely ground. (You want this mixture to retain crunch.) Transfer to a bowl and stir in olive oil and lemon juice. You want this to be more aggressively seasoned than seems necessary; it has a lot of pasta and vegetables to wake up."
+   },
+   {
+    "title": null,
+    "text": "Assemble: Halve thinner carrots and quarter thicker carrots lengthwise, and then cut into 1 to 1.5″ segments, or whatever the length of the past you’re using is. Place in bowl with pasta. If dressing seems too thick, add a tablespoon of water (and up to 2) to loosen it and stir it into pasta and carrots. Taste and adjust seasoning as needed with more salt, pepper or pepper flakes, or lemon. Chop some extra carrot greens or kale for garnish. Eat now or later."
+   }
+  ],
+  "notes": [
+   "Do ahead: Salad keeps for 3 to 4 days in fridge. You’ll probably find that the pasta has “drank” the dressing and will want to toss it with a bit more lemon juice, oil, salt, and or pepper when you eat it again to revive it.",
+   "If your sunflower seeds are salted, just use less in the recipe. If they’re raw, toast them in the oven for 7 to 9 minutes at 350 degrees before using."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

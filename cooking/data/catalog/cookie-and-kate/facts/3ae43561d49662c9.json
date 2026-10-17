@@ -22,7 +22,32 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/best-guacamole-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Using a spoon, scoop the flesh of the avocados into a low serving bowl, discarding any bruised, browned areas."
+   },
+   {
+    "title": null,
+    "text": "Using a pastry cutter, potato masher, or fork, mash up the avocado until it reaches your desired texture (I like my guacamole to have some texture, so I stop mashing once there are just small chunks remaining)."
+   },
+   {
+    "title": null,
+    "text": "Promptly add the onion, cilantro, jalapeño, lime juice, coriander, and salt. Stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Taste and add additional salt (I often add up to ½ teaspoon more), until the flavors really sing. If it needs more zip, add a little more lime juice (or, if it tastes too limey already, don’t worry—it will mellow out after a brief rest)."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my cookbook, Love Real Food.",
+   "Change it up: This guacamole is perfect as is, but if tomatoes are in season, try adding in chopped ripe, red, seeded tomatoes. If you want to get crazy, try garnishing your guac with crumbled cotijah or feta cheese, chopped chipotle peppers in adobo sauce or sun-dried tomatoes, and/or toasted slivered almonds or pepitas.",
+   "How to store leftovers: Transfer the guacamole to a suitably sized container to reduce the surface area available for oxidizing (browning). Place a generous hunk or halve of onion on top (see photo) and cover the container with plastic wrap. Leftovers will keep well, refrigerated, for about 3 days. Just remove the onion before serving. If the top turns light brown, just scoop off the browned bits and you should find bright green guacamole underneath."
+  ],
+  "summary": "Learn how to make the best guacamole! This authentic guacamole recipe turns out perfectly every time thanks to a few simple tricks. It’s so easy! Recipe yields about 2 ½ to 3 cups guacamole, depending on your avocados (divide or multiply as necessary).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

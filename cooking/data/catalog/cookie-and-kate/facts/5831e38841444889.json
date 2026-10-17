@@ -22,7 +22,25 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/mai-tai-cocktail-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Fill a double old-fashioned glass with ice and set it aside to chill. In a cocktail shaker filled with ice, combine both rums, the honey syrup, orgeat syrup and lime juice."
+   },
+   {
+    "title": null,
+    "text": "Shake. Strain the cocktail into the ice-filled glass. Evenly spritz the top of the drink with bitters and garnish with a lime wheel before serving."
+   }
+  ],
+  "notes": [
+   "Recipe shared with permission from Aloha Kitchen: Recipes from Hawai’i by Alana Kysar.",
+   "*Honey simple syrup: Simple combine equal parts honey and water in a small saucepan and warm over low heat until you can thoroughly stir the honey into the water (or warm them together briefly in the microwave). It’s necessary to make simple syrup because straight honey doesn’t mix well into cold drinks.",
+   "**Bitters note: The recipe suggests using a small spray bottle or atomizer to spritz the bitters on top of the drink. It is lovely that way, but if you don’t have the equipment, just add a quick dash to the cocktail before shaking.",
+   "Garnish options: I made these drinks as written in the book and loved them. I often see mai tais garnished with mint sprigs and/or pineapple slices, so feel free to gussy yours up if you’d like."
+  ],
+  "summary": "Learn how to make classic mai tai cocktails with this simple recipe from the Aloha Kitchen cookbook. They’re strong and delicious, like mai tais should be! Recipe as written yields 1 cocktail; you can make 2 at once in a large shaker.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

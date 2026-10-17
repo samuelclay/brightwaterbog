@@ -29,7 +29,38 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2023/06/summer-pea-salad-with-unexpected-dressing/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the dressing: Chop the raisins into rough bits and place in a bowl with shallots. Pour vinegar over and stir to combine. Let sit, cool, and infuse while you prepare the remaining parts of the salad."
+   },
+   {
+    "title": null,
+    "text": "[Note: It is completely up to you whether you wish to cook sugar snaps and/or snow peas; both are delicious raw. For this salad, I cook the sugar snaps for 30 seconds to 1 minute but leave the snow peas raw.]"
+   },
+   {
+    "title": null,
+    "text": "Cook your peas: Bring a medium pot of salted water to a boil. Prepare a large bowl of ice water. If using favas or shelling peas, remove them from and discard their pods. Cook favas in the water for 3 minutes; shelling peas for 1 minute, and sugar snaps and/or snow peas for 30 seconds to 1 minute. Scoop each out immediately with a slotted spoon and drop in the ice bath. If you choose to not cook your sugar snaps or snow peas, skip the pot and put them directly in ice water for 10 minutes for the best juicy crunch."
+   },
+   {
+    "title": null,
+    "text": "One peas are fully cold, drain and pat dry on a large towel. If you’ve used favas, they have one final step of preparation: You’ll need to make a small slit with a sharp paring knife in the outer light green pod so that the inner dark green enjoyable part of the fava can slip out."
+   },
+   {
+    "title": null,
+    "text": "Finish the dressing: Add dijon, if using, 3 tablespoons olive oil, salt (about 1/2 teaspoon Diamond kosher), freshly ground black pepper, and red pepper flakes to dressing and whisk to combine, tasting for seasoning and adjusting as needed. If you’d like it less kicky, add remaining tablespoon olive oil."
+   },
+   {
+    "title": null,
+    "text": "Assemble and finish: Transfer peas to a bowl and toss with dressing to taste; you may not need it all. Add more seasoning, if needed. Add almonds, cheese, and mint and toss once again. Eat right away."
+   }
+  ],
+  "notes": [
+   "Do ahead: Vegetables and dressing can be prepared and kept cool, separately, up to a day in advance. Mix only before serving."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

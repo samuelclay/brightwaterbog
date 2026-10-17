@@ -1,6 +1,64 @@
 {
  "url": "https://cookieandkate.com/herbed-potato-salad-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Herbed Potato Salad",
+  "ingredients": [
+   "2 pounds small red potatoes, scrubbed and sliced into ¼-inch thick rounds",
+   "1 tablespoon fine sea salt",
+   "¼ cup olive oil",
+   "⅓ cup lightly packed fresh flat-leaf parsley, roughly chopped, plus about 2 tablespoons more for garnish",
+   "⅓ cup roughly chopped green onions, plus about 2 tablespoons thinly sliced for garnish",
+   "2 tablespoons fresh lemon juice",
+   "2 teaspoons Dijon mustard",
+   "2 cloves garlic, roughly chopped",
+   "Freshly ground black pepper, to taste",
+   "3 stalks celery, chopped"
+  ],
+  "yield_text": "6 side servings",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "French"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/herbed-potato-salad-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large saucepan or Dutch oven combine sliced potatoes and salt. Cover with room temperature water by 1 inch. Bring to a boil over high heat, then reduce heat to medium-low and cook until potatoes are easily pierced by a paring knife and pulled out with little resistance, about 5 to 6 minutes."
+   },
+   {
+    "title": null,
+    "text": "Reserve ¼ cup cooking water, then drain. Transfer the potatoes to a large mixing bowl."
+   },
+   {
+    "title": null,
+    "text": "In a small food processor or blender, combine the olive oil, ⅓ cup parsley, ⅓ cup green onions, lemon juice, Dijon mustard, garlic and freshly ground black pepper. Process until the herbs and garlic have been chopped into little pieces. Then, while running the food processor, pour in the reserved cooking water and process just until blended. (If you don’t have a food processor or blender, just finely chop the parsley and onions and whisk the dressing together until the oil is fully incorporated.)"
+   },
+   {
+    "title": null,
+    "text": "Drizzle the potatoes with the herbed olive oil mixture and gently mix to combine. (It will look like you’ve poured in too much dressing, but don’t worry, the potatoes will soak it up!) Let the potatoes rest for ten minutes, gently tossing every few minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the celery to the bowl, along with a couple tablespoons each of additional chopped parsley and green onions. Toss again. Season generously to taste with salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "Serve immediately, or cover and refrigerate until you’re ready to serve. This salad is best served within a few hours, but will keep in the refrigerator for about three days."
+   }
+  ],
+  "notes": [
+   "Recipe roughly adapted from America’s Test Kitchen’s The Complete Vegetarian Cookbook and The Sprouted Kitchen Bowl and Spoon.",
+   "Suggested equipment: I love my 11-cup Cuisinart food processor (affiliate link)."
+  ],
+  "summary": "This healthy potato salad recipe is full of fresh flavor. It’s mayo-free, easy to make, and sure to be a hit at your potluck! This salad is vegan, egg free and gluten free. Recipe yields 6 side servings.",
+  "ingredient_groups": []
+ }
 }

@@ -19,7 +19,30 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/farro-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Rinse the farro in a fine mesh sieve under cool running water (this step is important to remove any dust and excess starch)."
+   },
+   {
+    "title": null,
+    "text": "In a medium saucepan, combine the rinsed farro and at least 4 cups water, or enough to cover the farro by several inches. Add the salt. Bring the water to a boil over medium-high heat, then reduce the heat as necessary to maintain a gentle simmer."
+   },
+   {
+    "title": null,
+    "text": "Cook until the farro is tender to the bite but still pleasantly chewy. Pearled farro will take around 15 minutes; unprocessed farro will take 25 to 40 minutes. Drain well."
+   },
+   {
+    "title": null,
+    "text": "If desired, stir in the olive oil and garlic while the farro is still hot. Season with another pinch or two of salt, as needed. Serve as desired."
+   }
+  ],
+  "notes": [
+   "Storage suggestions: Leftover farro will keep well in the refrigerator, covered, for up to 4 days. Or, freeze farro in small portions for up to 6 months. I simply transfer frozen farro to a bowl and microwave until defrosted. Or you can gently drop the frozen farro into a pot of boiling water and cook just until warmed through, then drain well."
+  ],
+  "summary": "Learn how to cook perfect farro with this simple technique. One part raw farro yields twice as much cooked farro. As written, this recipe yields 2 cups cooked farro. Multiply as needed.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

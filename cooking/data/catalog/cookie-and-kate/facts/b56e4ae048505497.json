@@ -26,7 +26,51 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/brussels-sprouts-pizza-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 425 degrees Fahrenheit and place a pizza stone on the middle rack if you have one. Slice your onions into thin rounds (the thinner you slice them, the faster they will cook)."
+   },
+   {
+    "title": null,
+    "text": "Prepare the Brussels by slicing off the tough ends and discarding them. Use your fingers to pull off the individual leaves around the outside, then trim off the newly exposed tough end, and continue until you have broken the sprout into leaves. Repeat for about half of the Brussels sprouts, then slice the rest into thin slices from top to bottom. Drizzle the sprouts with 1 ½ teaspoons olive oil and toss well. Rub the oil into the sprout leaves so they’re all lightly coated in oil, adding another dash of oil if necessary. Toss with a pinch of salt and pepper and set aside."
+   },
+   {
+    "title": null,
+    "text": "To prepare the red onions, warm 1 tablespoon olive oil in a large skillet over medium heat. Add the onions, a pinch of red pepper flakes and salt. Toss to combine. Cover and cook, stirring occasionally, for 10 minutes, or until the onions are nice and soft. The thinner you sliced them, the sooner they will cook. Pour in the balsamic vinegar and stir to combine. Continue cooking, uncovered, for a few more minutes, until the balsamic vinegar has condensed and mostly absorbed into the onions. Remove from heat and set aside to cool."
+   },
+   {
+    "title": null,
+    "text": "Prepare the pizza dough as directed. If you’re using store-bought dough like me, I’d roll it out into one pizza. If you’re using my pizza dough recipe, I’d make two pizzas. I like to roll out the dough on pieces of parchment paper for easy transfer to the oven. For best results, roll the dough out as thin as reasonably possible while maintaining an even surface level."
+   },
+   {
+    "title": null,
+    "text": "Top the dough with an even layer of red onions, followed by mozzarella cheese. Sprinkle the Brussels on top, then finish with a sprinkling of Parmesan cheese."
+   },
+   {
+    "title": null,
+    "text": "Transfer one pizza to the oven at a time (if you don’t have a baking stone, bake your pizza on a cookie sheet). Bake until the crust is golden, the cheese is bubbly and the Brussels sprouts are crispy on the edges, about 10 to 14 minutes. Repeat with the remaining pizza, if you have one. Top the pizza(s) with a light sprinkle of freshly ground black pepper (trust me!) and red pepper flakes if you’d like, then slice and serve."
+   }
+  ],
+  "notes": [
+   "Make it vegan: Trish says this pizza turned out great even without the cheese."
+  ],
+  "summary": "Brussels sprouts pizza topped with balsamic caramelized onions (or opt for red sauce, just eyeball the amount) and mozzarella, baked to crispy, golden perfection! Recipe yields one large, 12-inch pizza (or two smaller, 9-inch pizzas).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Balsamic red onions"
+   },
+   {
+    "at": 5,
+    "title": "Brussels sprouts"
+   },
+   {
+    "at": 8,
+    "title": "Pizza"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Discover and import factual recipe catalogs. No directions are published; each row
-links to the original and shows its lead photo once fetch_blog_images.py has saved it.
+"""Discover and import recipe catalogs: ingredients, directions, notes and the lead photo
+(once fetch_blog_images.py has saved it), with each row linking to the original post.
 
 Run with: uv run --with beautifulsoup4 python tools/blog_catalog.py --source SOURCE
 Each source has its own manifest, cache, lock, records, report, JS, and OG output.
@@ -18,11 +18,14 @@ import tempfile
 import os
 import threading
 import time
+import urllib.parse
 import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
 
 from bs4 import BeautifulSoup
+
+from build_data import CUISINE_ALIAS, norm
 
 ROOT = Path(__file__).resolve().parents[1]
 PARSER_VERSIONS = {'smitten-kitchen': 4, 'cookie-and-kate': 2}
@@ -40,6 +43,11 @@ ANIMAL = re.compile(r'\b(?:chicken|beef|pork|bacon|pancetta|prosciutto|ham|lamb|
     r'fish|salmon|tuna|shrimp|prawns?|anchov(?:y|ies)|bonito|dashi|'
     r'gelatin|marshmallows?|lard|suet|oysters?|worcestershire|sausage|chorizo|scallops?|crab|lobster|'
     r'clams?|mussels?|squid|calamari|cod|halibut|tilapia|trout|haddock|caviar|sardines?)\b', re.I)
+# Publisher cuisine fields that are diets, labels or placeholders rather than cuisines.
+NOT_CUISINES = {'n/a', 'none', 'varies', 'various', 'vegetarian', 'vegan', 'gluten free',
+    'whole grain', 'travel', 'classic', 'international'}
+BLOG_CUISINE_ALIAS = {**CUISINE_ALIAS, 'asian fusion': 'Fusion', 'east asian': 'Fusion',
+    'north american': 'American', 'swedish': 'Scandinavian'}
 QUANTITY = re.compile(r'^(?:[\d¼½¾⅓⅔⅛⅜⅝⅞]|one\b|two\b|three\b|a\s+(?:pinch|handful|splash))', re.I)
 
 
@@ -130,6 +138,18 @@ def discover(source, fetcher, refresh=False):
     return list(dict.fromkeys([config['seed']] + urls))
 
 
+def slug(url):
+    return urllib.parse.urlparse(url).path.rstrip('/').rsplit('/', 1)[-1]
+
+
+def cuisines(values):
+    """Normalize publisher cuisines like the binder's: 'Japanese-inspired' is Japanese, and
+    diet labels such as 'Vegan' or placeholders such as 'N/A' are dropped."""
+    names = (re.sub(r'[\s-]+inspired$', '', value.strip(), flags=re.I) for value in values)
+    return sorted({norm(name, BLOG_CUISINE_ALIAS, title=True) for name in names
+        if name and name.lower() not in NOT_CUISINES})
+
+
 def find_recipe(data):
     if isinstance(data, list):
         for item in data:
@@ -153,6 +173,134 @@ def ingredient_lines(block):
     for br in block.find_all('br'): br.replace_with('\n')
     for li in block.find_all('li'): li.append('\n')
     return [clean(line) for line in block.get_text().split('\n') if clean(line)]
+
+
+DIRECTION_START = re.compile(r'^(?:Preheat|Heat the|Bring a|Stir the|Mix the|Place the)\b')
+YEARS_AGO = re.compile(r'\byears? ago:', re.I)
+YIELD_LINE = re.compile(r'^(?:serves|servings:|yield:)\s', re.I)
+NOTE_LINE = re.compile(r'^(?:do ahead|make ahead|notes?|tips?|storage)\b[^:]{0,20}:', re.I)
+HEADING = '##heading##'
+YIELD_ONLY = re.compile(r'^(?:makes|yield|yields|serves|servings)\b', re.I)
+
+
+def ingredient_block(block):
+    """An old-style post paragraph's leading ingredient lines plus the lines after them
+    (directions that share the paragraph), or None when it isn't an ingredient list."""
+    lines = [line for line in ingredient_lines(block) if not YIELD_LINE.match(line)]
+    cut = next((i for i, line in enumerate(lines) if len(line) >= 350 or DIRECTION_START.match(line)), len(lines))
+    part = lines[:cut]
+    quantity_lines = sum(bool(QUANTITY.match(t)) for t in part)
+    if len(part) >= 2 and quantity_lines >= max(1, len(part) * .2): return part, lines[cut:]
+    return None
+
+
+def step_lines(element):
+    """Text lines of a directions block, one per paragraph, list item or line break. A short
+    all-bold or heading line comes back prefixed with HEADING."""
+    soup = BeautifulSoup(str(element), 'html5lib')
+    for el in soup.find_all(['p', 'li', 'h2', 'h3', 'h4', 'h5', 'h6']):
+        text = clean(el.get_text())
+        bold = clean(' '.join(b.get_text() for b in el.find_all(['strong', 'b'])))
+        if text and len(text) <= 70 and (el.name[0] == 'h' or bold == text) and not el.find(['p', 'li']):
+            el.replace_with(soup.new_string('\n' + HEADING + text + '\n'))
+    for br in soup.find_all('br'): br.replace_with('\n')
+    for el in soup.find_all(['p', 'li', 'div', 'ul', 'ol']): el.append('\n')
+    return [clean(line) for line in soup.get_text().split('\n') if clean(line)]
+
+
+def to_steps(lines):
+    steps, title = [], None
+    for line in lines:
+        if line.startswith(HEADING): title = line[len(HEADING):].rstrip(':'); continue
+        steps.append({'title': title, 'text': line})
+        title = None
+    return steps
+
+
+def old_post_recipe(content):
+    """Ingredients, group headings and direction lines of a pre-card Smitten Kitchen post.
+    These interleave components: ingredients and their directions, then a short title
+    ('Cumin-Lime Crema'), its ingredients and directions, and so on to the footer. An
+    untitled ingredient block after the directions starts an unrelated recipe."""
+    # Yield-only lines ('Makes about 30 pastries') can sit between a title and its ingredients.
+    blocks = [b for b in content.find_all(['p', 'ul', 'ol', 'h2', 'h3', 'h4'], recursive=False)
+        if ingredient_lines(b) and not (len(ingredient_lines(b)) == 1 and YIELD_ONLY.match(ingredient_lines(b)[0]))]
+    found = [ingredient_block(b) if b.name in ('p', 'ul') else None for b in blocks]
+    ingredients, groups, lines, title, last = [], [], [], None, None
+    for i, block in enumerate(blocks):
+        text = ingredient_lines(block)
+        if any(YEARS_AGO.search(line) or re.match(r'see also:', line, re.I) for line in text):
+            if ingredients: break
+            continue
+        if found[i]:
+            if last == 'steps' and not title: break
+            if ingredients and title:
+                groups.append({'at': len(ingredients), 'title': title})
+                lines.append(HEADING + title)  # titles the component's first step
+            ingredients += found[i][0]
+            lines += found[i][1]
+            title, last = None, 'ingredients'
+            continue
+        if not ingredients: continue
+        if len(text) == 1 and len(text[0]) <= 80 and not text[0].endswith('.') and i + 1 < len(blocks) and found[i + 1]:
+            title = text[0].rstrip(':')
+            continue
+        if last == 'ingredients' and len(text) >= 3 and all(len(t) < 120 and not t.endswith('.') for t in text[1:]):
+            # An unquantified list right after the ingredients ('Fixings', 'For serving').
+            groups.append({'at': len(ingredients), 'title': text[0].rstrip(':')})
+            ingredients += text[1:]
+            continue
+        lines += [line for line in step_lines(block) if not YIELD_LINE.match(line)]
+        last = 'steps'
+    return ingredients, groups, lines
+
+
+def directions(body, facts, source):
+    """Directions, notes, summary and ingredient-group headings from a post body (REST API
+    content). html5lib reads the malformed markup the way a browser does: Smitten Kitchen's
+    Jetpack cards close their directions div with a stray </p>, which html.parser stops at."""
+    soup = BeautifulSoup(body, 'html5lib')
+    found = {'steps': [], 'notes': [], 'summary': None, 'ingredient_groups': []}
+    tasty = soup.select_one('.tasty-recipes')
+    jetpack = soup.select_one('.jetpack-recipe')
+    if tasty:
+        def block(selector): return tasty.select_one(selector)
+        if block('.tasty-recipes-instructions-body'): found['steps'] = to_steps(step_lines(block('.tasty-recipes-instructions-body')))
+        if block('.tasty-recipes-notes-body'): found['notes'] = [l for l in step_lines(block('.tasty-recipes-notes-body')) if not l.startswith(HEADING)]
+        if block('.tasty-recipes-description'): found['summary'] = clean(block('.tasty-recipes-description').get_text(' ')) or None
+        count, groups = 0, []
+        for el in (block('.tasty-recipes-ingredients-body') or soup.new_tag('div')).find_all(True):
+            if el.name == 'li': count += 1
+            elif el.name in ('p', 'div', 'h3', 'h4', 'h5') and not el.find(['li', 'p', 'div']) and not el.find_parent('li'):
+                title = clean(el.get_text()).rstrip(':')
+                if title: groups.append({'at': count, 'title': title})
+        if count == len(facts['ingredients']): found['ingredient_groups'] = [g for g in groups if g['at'] < count]
+    elif jetpack and soup.select_one('.jetpack-recipe-directions'):
+        # The first card's directions; malformed nesting can leave them outside its element.
+        lines = step_lines(soup.select_one('.jetpack-recipe-directions'))
+        if not lines:
+            # Some cards leave the div empty, with the steps loose before or after it: take
+            # everything from the end of the ingredient list to the end of the card.
+            start = body.find('<div class="jetpack-recipe-directions')
+            end = body.find('</div></div>', start)
+            lines = step_lines(body[body.rfind('</ul></div>', 0, start) + len('</ul></div>'):end if end > 0 else None])
+        found['notes'] = [line for line in lines if NOTE_LINE.match(line)]
+        found['steps'] = to_steps([line for line in lines if not NOTE_LINE.match(line)])
+        # A loose "Notes:" block after a filled directions div, before the card closes.
+        start = body.find('<div class="jetpack-recipe-directions')
+        trailing = step_lines(body[body.find('</div>', start):body.find('</div></div>', start)])
+        if trailing and NOTE_LINE.match(trailing[0]) and trailing[0][:60] not in ' '.join(found['notes']):
+            found['notes'] += [line.replace(HEADING, '') for line in trailing]
+        if soup.select_one('.jetpack-recipe-notes'): found['notes'] += [l.replace(HEADING, '') for l in step_lines(soup.select_one('.jetpack-recipe-notes'))]
+    elif source == 'smitten-kitchen':
+        ingredients, groups, lines = old_post_recipe(BeautifulSoup(body, 'html.parser'))
+        if ingredients:
+            found['ingredients'] = [strip_personal_notes(line) for line in ingredients]
+            found['ingredient_groups'] = groups
+        found['notes'] = [line for line in lines if NOTE_LINE.match(line)]
+        found['steps'] = to_steps([line for line in lines if not NOTE_LINE.match(line)])
+    found['notes'] = [line for line in dict.fromkeys(found['notes']) if not re.fullmatch(r'notes?:?', line, re.I)]
+    return found
 
 
 def parse_page(page, url, source):
@@ -187,22 +335,7 @@ def parse_page(page, url, source):
                 if element: facts[key] = re.sub(r'^(Servings|Time):\s*', '', clean(element.get_text(' ', strip=True)))
             if not facts['ingredients']:
                 # Older posts store ingredient blocks as paragraphs separated by br.
-                for block in content.find_all(['p', 'ul'], recursive=False):
-                    lines = ingredient_lines(block)
-                    if any(re.search(r'\byears? ago:', line, re.I) for line in lines): continue
-                    lines = [line for line in lines if not re.match(r'^(?:serves|servings:|yield:)\s', line, re.I)]
-                    ingredient_part = []
-                    for line in lines:
-                        if len(line) >= 350 or re.match(r'^(?:Preheat|Heat the|Bring a|Stir the|Mix the|Place the)\b', line): break
-                        ingredient_part.append(line)
-                    lines = ingredient_part
-                    quantity_lines = sum(bool(QUANTITY.match(t)) for t in lines)
-                    if len(lines) >= 2 and quantity_lines >= max(1, len(lines) * .2) and all(len(t) < 350 for t in lines):
-                        facts['ingredients'].extend(lines)
-                    elif facts['ingredients'] and block.get_text(' ', strip=True):
-                        # Stop at the first directions paragraph. Some old posts
-                        # contain a second, unrelated recipe below the primary one.
-                        break
+                facts['ingredients'], facts['ingredient_groups'], _ = old_post_recipe(content)
                 for block in content.find_all('p', recursive=False):
                     for text in ingredient_lines(block):
                         if not facts['yield_text'] and re.fullmatch(r'(?:Yield:?\s*|Makes\s+|Serves\s+|Servings:\s*)(.{1,100})', text, re.I):
@@ -212,6 +345,18 @@ def parse_page(page, url, source):
             facts['categories'] = [a.get_text(' ',strip=True) for a in soup.select('.cat-links a')]
             facts['cuisines'] = [a.get_text(' ',strip=True) for a in soup.select('.cat-links a') if '/cuisine/' in a.get('href','')]
             facts['author'] = 'Deb Perelman'
+    elif source == 'cookie-and-kate' and soup.select_one('.tasty-recipes'):
+        # A REST API post body: the Tasty Recipes card without the page's JSON-LD.
+        card = soup.select_one('.tasty-recipes')
+        def text(selector):
+            element = card.select_one(selector)
+            return clean(element.get_text()) if element else ''
+        facts.update(title=text('.tasty-recipes-title'),
+            ingredients=[clean(li.get_text()) for li in card.select('.tasty-recipes-ingredients-body li')],
+            yield_text=text('.tasty-recipes-yield'), cook_time=text('.tasty-recipes-total-time') or None,
+            # The pages' JSON-LD credits the site rather than the card's author line.
+            author=SOURCES[source]['name'],
+            categories=text('.tasty-recipes-category'), cuisines=text('.tasty-recipes-cuisine'))
     else:
         return None
     if not facts['ingredients']: return None
@@ -243,13 +388,16 @@ def apply_choices(facts, choices):
     choice = choices.get(facts['url'])
     if not choice: return facts
     ingredients = list(facts['ingredients'])
+    groups = facts.get('ingredient_groups') or []
     for original, selected in choice['replacements'].items():
         if original not in ingredients:
             raise ValueError(f"Vegetarian choice needs review after ingredient changes: {facts['url']}")
         index = ingredients.index(original)
-        if selected is None: ingredients.pop(index)
+        if selected is None:
+            ingredients.pop(index)
+            groups = [{**g, 'at': g['at'] - (g['at'] > index)} for g in groups]
         else: ingredients[index] = selected
-    return {**facts, 'ingredients':ingredients, 'selection_note':choice['note']}
+    return {**facts, 'ingredients':ingredients, 'ingredient_groups':groups, 'selection_note':choice['note']}
 
 
 def vocabulary():
@@ -297,17 +445,63 @@ def row_from_facts(facts, vocab):
         parts = re.fullmatch(r'PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?', duration)
         if parts:
             duration = ' '.join(f'{n} {unit if int(n)!=1 else unit[:-1]}' for n, unit in zip(parts.groups(), ['hours','minutes','seconds']) if n)
-    main = tags['ingredient_tags'][:3]
-    description = ('Featuring ' + ', '.join(main) + '.') if main else None
     return {'pair': 10_000_000_000 + int(hashlib.sha256(facts['url'].encode()).hexdigest()[:12], 16),
         'title': title, 'source': facts['source'], 'publisher': SOURCES[facts['source']]['name'],
         'url': facts['url'], 'author': facts.get('author'), 'linked': True,
         'servings': servings, 'yield_text': yield_text, 'yield_count': count,
-        'cook_time': duration, 'ingredients': ingredients, 'steps': [], 'front': None, 'back': None, 'hero': None,
-        'description': description, 'subtitle': None, 'cuisine_tags': facts['cuisines'],
-        'tips': [facts['selection_note']] if facts.get('selection_note') else [],
+        'cook_time': duration, 'ingredients': ingredients,
+        'ingredient_groups': facts.get('ingredient_groups') or [],
+        'steps': [{'n': n, 'title': step['title'], 'text': step['text']} for n, step in enumerate(facts.get('steps') or [], 1)],
+        'front': None, 'back': None, 'hero': None,
+        'description': facts.get('summary'), 'subtitle': None, 'cuisine_tags': cuisines(facts['cuisines']),
+        'tips': (facts.get('notes') or []) + ([facts['selection_note']] if facts.get('selection_note') else []),
         'keywords': ['vegetarian'] + (['Edna May', 'Edna Mae'] if facts['url'] == SOURCES['smitten-kitchen']['seed'] else []),
         'course_tags': courses, **tags}
+
+
+def fact_path(facts_dir, url):
+    return facts_dir / (hashlib.sha256(url.encode()).hexdigest()[:16] + '.json')
+
+
+def post_bodies(source, fetcher, urls):
+    """Rendered post bodies from the WordPress REST API, 25 slugs per cached request."""
+    by_slug = {slug(url): url for url in urls}
+    names = sorted(by_slug)
+    for start in range(0, len(names), 25):
+        query = urllib.parse.urlencode({'slug': ','.join(names[start:start + 25]), 'per_page': 100,
+            '_fields': 'slug,content'})
+        for post in json.loads(fetcher.fetch(f"https://{SOURCES[source]['host']}/wp-json/wp/v2/posts?{query}")):
+            if post['slug'] in by_slug: yield by_slug[post['slug']], post['content']['rendered']
+        print(f'{source}: post bodies {min(start + 25, len(names))}/{len(names)}', flush=True)
+
+
+def recover_blocked(source, fetcher, results, facts_dir):
+    """Cookie and Kate's Cloudflare check blocks many post pages, but its WordPress REST API
+    serves the same rendered posts. Re-extract blocked pages from there."""
+    blocked = {r['url']: r for r in results if r['status'] in ('access-check', 'failed')}
+    try:
+        for url, body in post_bodies(source, fetcher, blocked):
+            facts = parse_page(body, url, source)
+            if facts: facts.update(directions(body, facts, source))
+            result = blocked[url]
+            result.clear()
+            result.update({'url':url, 'status':'parsed' if facts else 'no-recipe-data', 'via':'wp-json',
+                'parser_version':PARSER_VERSIONS[source], **({'facts':facts} if facts else {})})
+            write_json(fact_path(facts_dir, url), result)
+    except Exception as error:
+        print(f'{source}: REST recovery stopped: {error}', flush=True)
+
+
+def add_directions(source, fetcher, results, facts_dir):
+    """Fill in directions, notes and summaries for recipes extracted before they were kept."""
+    missing = {r['url']: r for r in results if r['status'] == 'parsed' and 'steps' not in r['facts']}
+    try:
+        for url, body in post_bodies(source, fetcher, missing):
+            result = missing[url]
+            result['facts'].update(directions(body, result['facts'], source))
+            write_json(fact_path(facts_dir, url), result)
+    except Exception as error:
+        print(f'{source}: directions stopped: {error}', flush=True)
 
 
 def run(source, refresh=False, build_only=False):
@@ -355,6 +549,9 @@ def run(source, refresh=False, build_only=False):
                 results.append(future.result())
                 if len(results) % 25 == 0 or len(results) == len(urls):
                     print(f'{source}: {len(results)}/{len(urls)} checked', flush=True)
+        if not build_only:
+            if source == 'cookie-and-kate': recover_blocked(source, fetcher, results, facts_dir)
+            add_directions(source, fetcher, results, facts_dir)
         by_url = {r['url']:r for r in results}
         included, held, skipped = [], [], []
         vocab = vocabulary()
@@ -374,7 +571,8 @@ def run(source, refresh=False, build_only=False):
         ids = [r['pair'] for r in included]
         if len(set(ids)) != len(ids): raise ValueError('Recipe identity collision')
         write_json(directory / 'report.json', {'source':source, 'candidates':len(urls), 'included':len(included),
-            'without_photo':[r['url'] for r in included if not r['front']], 'held':held, 'skipped':skipped})
+            'without_photo':[r['url'] for r in included if not r['front']],
+            'without_directions':[r['url'] for r in included if not r['steps']], 'held':held, 'skipped':skipped})
         atomic(ROOT / 'data' / (config['file'] + '_recipes.js'), f"window.{config['variable']} = " + json.dumps(included,ensure_ascii=False,separators=(',',':')) + ';\n')
         write_json(ROOT / 'data' / (config['file'] + '_og.json'), {str(r['pair']):{'t':r['title'],'d':r['publisher'],
             'i':f"card/{r['front']}" if r['front'] else 'og-cover.jpg'} for r in included})

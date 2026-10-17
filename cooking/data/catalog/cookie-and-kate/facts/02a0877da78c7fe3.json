@@ -22,7 +22,35 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/egg-and-potato-breakfast-scramble/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Combine the potatoes, water, oil and salt in a 10-inch skillet. The author suggested a non-stick skillet but in my opinion there’s nothing a well-seasoned cast iron skillet can’t do."
+   },
+   {
+    "title": null,
+    "text": "Cover and bring to a boil over high heat. Cook for about five minutes, until the water has evaporated and the potatoes start to sauté."
+   },
+   {
+    "title": null,
+    "text": "Uncover the potatoes and loosen them from the bottom of the skillet with a wooden spoon until lightly browned, about five minutes later. If you’re using dried spices or herbs, add them now."
+   },
+   {
+    "title": null,
+    "text": "In a bowl, scramble the eggs with a dash of milk. Pour the eggs into the skillet, toss in the scallions and scramble until the eggs are just set. Remove the skillet from heat."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle with grated cheese and fresh herbs (optional). Give it a minute to let the cheese melt, then dig in!"
+   }
+  ],
+  "notes": [
+   "Adapted from Cook without a Book by Pam Anderson.",
+   "Variations to try: Extra-sharp cheddar with fresh dill, feta or goat cheese with oregano (add diced roasted red pepper), pepper jack and cilantro (perhaps add black beans and a side of salsa), or Swiss cheese and paprika."
+  ],
+  "summary": "You’ll love this breakfast scramble! It’s an easy, versatile, one-skillet breakfast filled with scrambled eggs, home fries, herbs and cheese. It’s like all my favorite things about breakfast in one skillet.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

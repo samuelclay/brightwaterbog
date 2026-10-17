@@ -19,7 +19,30 @@
   "cuisines": [],
   "author": "Kathryne Taylor",
   "url": "https://cookieandkate.com/chocolate-chia-pudding/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small jar or bowl, combine the milk, chia seeds, cocoa powder, maple syrup and optional chopped chocolate. Whisk until the cocoa powder is fully incorporated into the mixture."
+   },
+   {
+    "title": null,
+    "text": "Let the mixture rest for about 15 minutes, then whisk the mixture again to break up any clumps (this is important, as they’re much more difficult to break up later on). Cover the bowl and refrigerate for at least 2 hours (or overnight) until the chia seeds have absorbed enough moisture to reach a pudding-like consistency. If you think of it, give it a stir sometime along the way to break up any clumps of chia."
+   },
+   {
+    "title": null,
+    "text": "Before serving, stir once again to break up any clumps of chia seeds. Taste, and if the mixture isn’t sweet enough to delight, stir in up to 3 more teaspoons of maple syrup. Divide the mixture between two small bowls and garnish as desired. This pudding will keep well in the refrigerator, covered, for about 5 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my favorite chia seed pudding.",
+   "*Milk options: I like to use cashew milk, almond milk or coconut milk. Cow’s milk would work, too.",
+   "**Sweetener options: Instead of maple syrup, you can also use honey (which is a little sweeter, and imparts some honey flavor, whereas the maple syrup is less prominent), or regular sugar or coconut sugar (whisked extra well to help it dissolve).",
+   "Make it nut free: Use a nut-free milk, and don’t top with nuts.",
+   "Blended variation: Once the pudding has set, transfer it to a blender and blend on high just long enough that the mixture is creamy and smooth. You can serve it right away or chill it for later."
+  ],
+  "summary": "This chocolate chia pudding recipe tastes like a treat! It’s easy to make with healthy ingredients. No cooking required; allow 2 hours in the refrigerator for the chia seeds to plump up. Recipe yields a scant 1 ½ cups, enough for 2 small servings. Multiply if desired.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

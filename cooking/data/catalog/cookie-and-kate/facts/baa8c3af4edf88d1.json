@@ -29,7 +29,59 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/gluten-free-almond-cake-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 325 degrees Fahrenheit. Generously grease a 9-inch springform pan* and dust it with almond meal to prevent sticking."
+   },
+   {
+    "title": null,
+    "text": "To make the cake: In a large bowl, combine 2 cups of the almond meal, the baking powder, baking soda, salt, and cinnamon. Whisk to blend."
+   },
+   {
+    "title": null,
+    "text": "Crack the eggs into a medium bowl and beat with a whisk until the yolks and egg whites have blended together. Add the maple syrup, olive oil, and lemon zest and whisk to blend. Pour the wet ingredients into the almond meal mixture and stir until there are just a few clumps remaining."
+   },
+   {
+    "title": null,
+    "text": "Scrape the batter into the prepared pan (it will be runny; don’t worry). Bake for 40 to 45 minutes, or until the cake is golden brown and the center is firm to the touch."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, to make the glaze: In a small bowl, whisk together the lemon juice and 1 tablespoon maple syrup until blended. (If you’re using honey instead and having a hard time blending it into the lemon juice, place the bowl on top of your stove to warm it up while the cake bakes, or warm it briefly in the microwave until you can whisk them together.)"
+   },
+   {
+    "title": null,
+    "text": "Once the cake is out of the oven, place the cake, pan and all, on a cooling rack. While the cake is warm, use a pastry brush to brush the glaze over the top of the cake. It should soak right in."
+   },
+   {
+    "title": null,
+    "text": "Let the cake cool for at least 30 minutes. Carefully remove the outer piece from your springform pan."
+   },
+   {
+    "title": null,
+    "text": "Spread yogurt evenly on top, then place strawberries and blueberries on top. Sprinkle with some additional lemon zest, then slice the cake with a sharp knife and serve! Store any remaining cake in the refrigerator, covered, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from the lemony almond-blueberry cake in my cookbook, and my almond cake with roasted strawberries and rhubarb on top.",
+   "*Springform note: You are going to have a much easier time getting the cake out of a springform pan, so I recommend using one. That said, you might be able to make this work in a 9-inch cake pan. Generously grease the pan (bottom and sides), and then cut a round of parchment paper to neatly fit inside the bottom. Place it inside, pour the batter on top, and bake/glaze/cool as directed. Use a knife to loosen the outer edges of the cake before carefully inverting it onto a plate. Remove the paper, top with yogurt and berries, and serve.",
+   "Change it up: Top this cake with any fresh fruit you’d like! You can also change the flavor by choosing honey instead of maple syrup, or using a different citrus fruit for the zest and glaze (orange is very nice). See additional topping options below.",
+   "Make it dairy free: Use coconut whipped cream or almond butter instead of Greek yogurt. Or, you can make a simple glaze by whisking lemon juice into powdered sugar until it has a drizzly consistency. Generously drizzle it over the cake, then top with berries and generously drizzle over the berries to help keep them in place.",
+   "Egg note (for vegans/allergies): I’m sorry, the eggs are absolutely essential to this cake. Do not attempt with flax eggs, unless you want gross almond pudding!"
+  ],
+  "summary": "This delicious gluten-free almond cake recipe is easy to make and naturally sweetened. Top with yogurt and fresh berries for a party-worthy cake! Recipe yields one 9-inch cake, enough for 8 slices.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Cake"
+   },
+   {
+    "at": 9,
+    "title": "Glaze and topping"
+   }
+  ]
  },
  "parser_version": 2
 }

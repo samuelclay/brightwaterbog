@@ -29,7 +29,37 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/mediterranean-sweet-potato-farro-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. To cook the farro: Bring a large pot of salted water to boil over high heat. Add the farro, then reduce heat to maintain a simmer. Cook, stirring occasionally, until the farro is tender to the bite but still pleasantly chewy (pearled farro will take as little as 15 minutes; unprocessed farro will take 25 to 40 minutes). Drain off the excess water and return the farro to the pot. Set aside."
+   },
+   {
+    "title": null,
+    "text": "To roast the sweet potatoes: Line a large, rimmed baking sheet with parchment paper for easy cleanup. Place the cubed sweet potato on the pan and drizzle with enough olive oil to lightly coat the sweet potatoes. Sprinkle the sumac over the sweet potatoes, followed by salt and pepper, then toss until the sweet potatoes are thoroughly coated in oil and spices. Arrange the sweet potatoes in a single layer and roast for 20 to 30 minutes, tossing halfway, until they are caramelized on the edges and tender when pierced with a fork."
+   },
+   {
+    "title": null,
+    "text": "To pickle the onion: In a small pan or medium pot, combine the onion, vinegar, sugar and ½ cup water. Cook over medium heat, occasionally swirling the pan, for 4 to 8 minutes, or until the sugar has dissolved and the liquid is slightly reduced in volume. Remove from heat and set aside."
+   },
+   {
+    "title": null,
+    "text": "Once the farro is done cooking, add the chopped kale to the pot. Drizzle with olive oil, then stir to combine. Season with salt (I added ¼ teaspoon) and pepper, to taste."
+   },
+   {
+    "title": null,
+    "text": "To assemble the salad: Drain the excess liquid from the pickled onions, then add the onions to the pot of farro and kale. Add the roasted sweet potatoes and squeeze an entire lemon’s worth of juice into the pot. Stir to combine and season generously with salt and pepper, to taste. Divide the salad into individual bowls and top each one with mint leaves, chopped hazelnuts and crumbled cheese."
+   }
+  ],
+  "notes": [
+   "Recipe courtesy of Blue Apron.",
+   "Make it dairy free/vegan: Skip the cheese. Vegans, use either sugar or maple syrup for the pickled onions.",
+   "Make it gluten free: I think ¾ cup cooked wild rice or wild rice blend would be a great substitute for the farro.",
+   "Make it nut free: Substitute toasted pepitas for the hazelnuts."
+  ],
+  "summary": "This hearty roasted sweet potato and farro salad has delicious a Middle Eastern spin to it, thanks to the sumac, lemon, mint and ricotta salata. Recipe yields 2 large servings or 3 to 4 more modest servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

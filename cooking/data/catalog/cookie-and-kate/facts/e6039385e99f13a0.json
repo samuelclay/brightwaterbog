@@ -1,6 +1,76 @@
 {
  "url": "https://cookieandkate.com/spiced-oatmeal-cookies-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Spiced Oatmeal Cookies",
+  "ingredients": [
+   "½ cup (1 stick/8 tablespoons) unsalted butter, softened*",
+   "½ cup packed coconut sugar",
+   "2 tablespoons sugar",
+   "1 large egg",
+   "1 ½ teaspoons vanilla extract",
+   "1 teaspoon ground cinnamon",
+   "½ teaspoon ground nutmeg",
+   "½ teaspoon baking soda",
+   "¼ teaspoon baking powder",
+   "¼ teaspoon fine sea salt",
+   "1 ¾ cup old-fashioned oats",
+   "⅓ cup oat flour**",
+   "⅓ cup white whole wheat flour or regular whole wheat flour***"
+  ],
+  "yield_text": "24 cookies",
+  "cook_time": "27 minutes",
+  "categories": [
+   "Cookie"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/spiced-oatmeal-cookies-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 325°F. Line two cookie sheets with parchment paper, or lightly grease them."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, combine the butter, coconut sugar and cane sugar. With a hand-held electric mixer or by hand, beat them together until they are fully incorporated and lighter in color."
+   },
+   {
+    "title": null,
+    "text": "Add the egg and vanilla and beat well, until the mixture is light and fluffy. Add the cinnamon, nutmeg, baking soda, baking powder and salt, and blend until combined."
+   },
+   {
+    "title": null,
+    "text": "Lastly, add the oats, oat flour and whole wheat flour. Blend on low speed until combined. Scrape the sides and bottom of the bowl with a spatula, and mix briefly to be sure it’s evenly blended."
+   },
+   {
+    "title": null,
+    "text": "With a cookie dough scoop or two spoons, scoop about 1 tablespoon of dough at a time onto the prepared baking sheets, leaving at least 2 inches of space around each cookie."
+   },
+   {
+    "title": null,
+    "text": "Bake the cookies for 12 to 13 minutes, until they’re a light golden brown with slightly darker edges. Their middles may still look a tiny bit shiny; that’s OK, they’ll continue to bake as they cool on the pan."
+   },
+   {
+    "title": null,
+    "text": "Remove the cookies from the oven, place the pan on a cooling rack, and let the cookies cool completely on the pan before handling (these cookies are delicate when warm). Repeat with any remaining cookies."
+   }
+  ],
+  "notes": [
+   "Recipe created with reference to The Kitchn’s chewy oatmeal cookies and Serious Eats’ ultimate chocolate chip cookie guide.",
+   "*How to soften butter: I just microwaved mine in a bowl for 20 to 30 seconds. Or, let it soften on your stovetop while you preheat the oven until it’s soft and slightly melty.",
+   "**How to make your own oat flour: In a blender or food processor, blend up about ½ cup old-fashioned oats until you have a fine flour. You will have some extra flour left over (it stores well, so I always make extra for future baking projects).",
+   "***Flour alternatives: You can also use gluten-free all-purpose flour or regular all-purpose flour.",
+   "Make it gluten free: Use gluten-free all-purpose flour instead of whole wheat. Be sure to use certified gluten-free oats and oat flour (or make your own out of certified gluten-free oats).",
+   "Make it dairy free: Replace the softened butter with room temperature coconut oil.",
+   "If you want to add mix-ins: You can fold in up to 1 ½ cups chocolate chips, dried cranberries, and/or chopped nuts at the end, just before you scoop the dough. You might need to bake the cookies a minute or two longer, given the increase in volume."
+  ],
+  "summary": "These oatmeal cookies are truly the best. They’re soft and fluffy in the middle, with crisper edges and lovely flavor, thanks to warming spices and oat flour. Recipe yields about 2 dozen cookies.",
+  "ingredient_groups": []
+ }
 }

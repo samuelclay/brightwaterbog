@@ -1,6 +1,68 @@
 {
  "url": "https://cookieandkate.com/blueberry-lemon-yogurt-pancakes/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Blueberry Lemon Yogurt Pancakes",
+  "ingredients": [
+   "⅔ cup plain yogurt*",
+   "2 tablespoons butter, melted",
+   "½ teaspoon lemon zest",
+   "1 tablespoon lemon juice (from 1 small lemon)",
+   "2 tablespoons maple syrup or honey",
+   "2 eggs",
+   "1 cup oat flour**",
+   "½ teaspoon baking soda",
+   "¼ teaspoon fine salt",
+   "⅛ teaspoon ground cinnamon",
+   "1 cup blueberries"
+  ],
+  "yield_text": "10 pancakes",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/blueberry-lemon-yogurt-pancakes/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small mixing bowl, stir together the yogurt, butter, lemon zest, lemon juice and maple syrup. Beat in the eggs."
+   },
+   {
+    "title": null,
+    "text": "In a medium bowl, whisk together the oat flour, baking soda, salt and cinnamon."
+   },
+   {
+    "title": null,
+    "text": "Form a well in the center of the dry ingredients and pour in the wet ingredients. With a big spoon, stir just until the dry ingredients are thoroughly moistened. Do not overmix or you’ll run the risk of getting tough pancakes! Fold in the blueberries."
+   },
+   {
+    "title": null,
+    "text": "Let the batter sit for 10 minutes to give it time to thicken. Heat a large stainless steel or nonstick skillet over medium-low heat. If necessary, lightly oil the surface with butter or cooking spray, wiping off the excess with a paper towel."
+   },
+   {
+    "title": null,
+    "text": "Once the pan’s surface is hot enough that a drop of water sizzles on it, pour ¼ cup of batter onto the pan. Let the pancake cook for about 3 to 4 minutes, until the top perimeter is more matte than shiny and the underside is golden."
+   },
+   {
+    "title": null,
+    "text": "Once the bottom side has cooked sufficiently, flip it with a spatula and cook for another 90 seconds or so, until golden brown on both sides. You may need to dial the heat down at this point. Repeat with remaining pancakes, oiling the pan and reducing the heat as necessary."
+   },
+   {
+    "title": null,
+    "text": "Serve the pancakes immediately or keep warm in a 200-degree Fahrenheit oven."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my banana oat pancakes recipe. Recipe adjusted in August of 2024—I increased the maple syrup from 1 teaspoon to 2 tablespoons to reduce the risk of the pancakes burning against the pan.",
+   "*Yogurt options: I’ve successfully used plain, low-fat yogurt and whole-milk Greek yogurt.",
+   "**Make it gluten free: Be sure to use certified gluten-free oat flour or oats. To make oat flour out of old-fashioned oats, pour one cup of oats into a food processor and process until it is very finely ground. One cup before and after grinding measures about the same, believe it or not!"
+  ],
+  "summary": "Sweet and tangy blueberry lemon yogurt pancakes made with oat flour, so they are gluten free. Recipe y ields about 10 pancakes.",
+  "ingredient_groups": []
+ }
 }

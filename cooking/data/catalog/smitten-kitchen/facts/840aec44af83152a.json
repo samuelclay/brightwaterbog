@@ -31,7 +31,28 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2014/04/avocado-cup-salads-two-ways/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Mix black beans, pepper, onion and jalapeno in a medium bowl. In a small dish, whisk olive oil, lime juice, salt, cumin and hot sauce or cayenne. Adjust dressing seasonings to taste. Halve avocados and remove pits. Score avocado halves with a knife, cutting lines in both directions to form a grid, but being careful not to through the skin."
+   },
+   {
+    "title": null,
+    "text": "If you’re serving all four avocados right away, go ahead and mix the dressing and salad ingredients together, then heap each avocado half with salad and dressing and garnish with cilantro. If you’d like to stretch this over several days of lunches or the like, keep the mixed salad ingredients and dressing in separate dishes. When you’re ready to eat, cut and score your avocado, dot a little dressing directly on each half, heap with salad filling and drizzle with more dressing. Garnish with cilantro."
+   },
+   {
+    "title": null,
+    "text": "Eat with a spoon."
+   },
+   {
+    "title": "Avocado Cup Salads with Cucumbers, Radishes and Ginger-Miso Dressing",
+    "text": "You could bulk this up further with cooked edamame. This carrot-ginger dressing would also be excellent here, but I didn’t want to make a simple recipe too complicated. My 4 year-old, who has peculiar tastes, thinks that dried seaweed snacks would also be good crumbled on top. Proceed at your own risk."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

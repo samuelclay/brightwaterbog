@@ -1,6 +1,70 @@
 {
  "url": "https://cookieandkate.com/peanut-butter-banana-honey-oat-chocolate-chip-cookies/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Peanut Butter, Banana, Honey & Oat Chocolate Chip Cookies!",
+  "ingredients": [
+   "½ cup honey or real maple syrup",
+   "½ cup natural unsalted peanut butter*",
+   "⅓ cup mashed overripe banana (about 1 medium banana)",
+   "4 tablespoons (2 ounces) unsalted butter, melted, or ¼ cup melted coconut oil",
+   "1 large egg",
+   "1 teaspoon vanilla extract",
+   "½ teaspoon baking soda",
+   "½ teaspoon baking powder",
+   "¾ teaspoon fine salt",
+   "½ teaspoon ground cinnamon",
+   "1 ½ cups old-fashioned rolled oats, ground for 30 seconds in a food processor or blender",
+   "1 ½ cups old-fashioned rolled oats",
+   "1 ½ cups semi-sweet chocolate chips",
+   "Optional: 2 tablespoons sprinkles, plus more for sprinkling on top",
+   "Optional: Flaky sea salt, for sprinkling on top"
+  ],
+  "yield_text": "36 cookies",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Cookies"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/peanut-butter-banana-honey-oat-chocolate-chip-cookies/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 325 degrees Fahrenheit with two racks near the middle. Line two baking sheets with parchment paper (if you don’t have parchment paper, lightly grease the baking sheets)."
+   },
+   {
+    "title": null,
+    "text": "Measure out the honey and peanut butter—I found this easiest to do in a small liquid measuring cup. Add honey to the ½ cup line, then add peanut butter until you reach the 1 cup total liquid line."
+   },
+   {
+    "title": null,
+    "text": "Pour the honey and peanut butter mixture into a mixing bowl. Add the mashed banana and melted butter and whisk until the mixture is well blended. Use your whisk to beat in the egg, scraping down the side of the bowl once it’s incorporated. Whisk in the vanilla, baking soda, baking powder, salt and cinnamon."
+   },
+   {
+    "title": null,
+    "text": "Switch to a big spoon and stir in the ground oats, rolled oats, chocolate chips and sprinkles until they are evenly combined. Drop the dough by the heaping tablespoon (a small cookie scoop is perfect for this) onto your prepared baking sheets. I added a few extra sprinkles on top for good measure."
+   },
+   {
+    "title": null,
+    "text": "Bake the cookies, reversing the pans midway through (swap the cookies on the top rack with the cookies on the lower rack) until they’re barely set and just beginning to turn golden around the edges, about 16 minutes. Remove the cookies from the oven and let them cool completely on the pans. If desired, sprinkle lightly with flaky sea salt now."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my maple-sweetened peanut butter chocolate chip cookies.",
+   "*If your peanut butter is salted: Reduce salt in recipe to ½ teaspoon.",
+   "Make it nut free: I suspect that sunflower seed butter would work (sunbutter), although the end result will vary in flavor (for sure) and potentially in texture.",
+   "Make it gluten free: Be sure to use certified gluten-free oats and oat flour.",
+   "Make it dairy free: Substitute coconut oil for butter and use non-dairy chocolate chips, such as Enjoy Life brand.",
+   "Make it egg free: Substitute a flax egg for the regular egg.",
+   "Make it vegan: Substitute a flax egg for the regular egg, coconut oil for the butter, and make sure to use non-dairy chocolate chips, such as Enjoy Life brand."
+  ],
+  "summary": "Healthy gluten-free, honey-sweetened, oat-based cookies made with peanut butter, banana and chocolate chips! Recipe yields about 36 small cookies.",
+  "ingredient_groups": []
+ }
 }

@@ -37,7 +37,28 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2015/08/takeout-style-sesame-noodles-with-cucumber/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cook noodles according to package directions and rinse with cold water to cool. Drain well. Drizzle with a tiny splash of toasted sesame oil to keep them from sticking until dressed."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, whisk sesame paste and peanut butter in the bottom of a small bowl, then whisk in soy sauce, rice vinegar, remaining 2 tablespoons sesame oil, sugar, ginger, garlic and chile-garlic paste to taste until smooth. Adjust flavors to taste. It might seem a bit salty from the bowl, but should be just right when tossed with noodles."
+   },
+   {
+    "title": null,
+    "text": "Toss sauce with cold noodles."
+   },
+   {
+    "title": null,
+    "text": "Place a medium-sized knot of dressed noodles in each bowl, followed by a pile of cucumber. Garnish generously with peanuts and herbs. Serve with extra chile-garlic paste on the side."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

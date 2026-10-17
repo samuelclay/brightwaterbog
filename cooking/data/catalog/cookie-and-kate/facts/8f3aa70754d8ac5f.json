@@ -1,6 +1,99 @@
 {
  "url": "https://cookieandkate.com/thai-mango-cabbage-wraps/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Thai Mango Cabbage Wraps with Crispy Tofu and Peanut Sauce",
+  "ingredients": [
+   "1 (15 ounce) block of organic extra-firm tofu",
+   "1 tablespoon olive oil",
+   "1 tablespoon reduced-sodium tamari or soy sauce",
+   "2 teaspoons arrowroot starch or cornstarch",
+   "⅓ cup creamy peanut butter",
+   "2 tablespoons white wine vinegar or apple cider vinegar",
+   "2 tablespoons reduced-sodium tamari or soy sauce",
+   "2 tablespoons honey or agave nectar or maple syrup",
+   "2 teaspoons toasted sesame oil",
+   "½ lime, juiced",
+   "2 garlic cloves, pressed or minced",
+   "2 ripe mangos, diced",
+   "1 medium red bell pepper, chopped",
+   "½ bunch (about 4) green onions, chopped",
+   "⅓ cup packed fresh cilantro leaves, chopped",
+   "1 jalapeño, minced",
+   "½ lime, juiced",
+   "¼ teaspoon salt",
+   "1 small head of green cabbage (the smaller, the better) or bibb lettuce",
+   "2 tablespoons large, unsweetened coconut flakes* (optional)",
+   "2 tablespoons chopped peanuts (optional)"
+  ],
+  "yield_text": "4 to 8",
+  "cook_time": "1 hour",
+  "categories": [
+   "Appetizer or Entree"
+  ],
+  "cuisines": [
+   "Thai"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/thai-mango-cabbage-wraps/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the tofu: Preheat oven to 400 degrees Fahrenheit and line a rimmed baking sheet with parchment paper. Drain the tofu and use your palms to gently squeeze out some of the water. Slice the tofu into thirds so you have three ½-inch slabs. Transfer the tofu to a plate lined with a lint-free tea towel or paper towels. Fold the towel over one tofu slab, then place the other slab on top, then repeat with the last slab. Top with more towel and place something heavy on top (like a cast iron skillet) to help press the water out of the tofu."
+   },
+   {
+    "title": null,
+    "text": "While the tofu drains, make the peanut sauce: Simply whisk together all of the sauce ingredients until well blended. If the flavor seems too bold or the sauce is too thick, thin it with a tablespoon or two of water. Set aside."
+   },
+   {
+    "title": null,
+    "text": "To bake the tofu: Transfer the drained tofu to a cutting board. Slice each slab into four columns and four rows. Whisk together 1 tablespoon olive oil and tamari, then drizzle it over the tofu and toss to coat. Sprinkle 1 teaspoon arrowroot starch over the tofu, then toss the tofu until the starch is evenly incorporated. Repeat with 1 more teaspoon arrowroot starch. Arrange the tofu in an even layer on the baking sheet. Bake for 30 to 35 minutes, tossing halfway, until the tofu is crisp and deeply golden."
+   },
+   {
+    "title": null,
+    "text": "To make the mango salsa: Combine ingredients in a small serving bowl and toss. Taste, and add additional salt and/or a little splash of white wine vinegar if necessary. Set aside."
+   },
+   {
+    "title": null,
+    "text": "To prepare the cabbage/lettuce: Slice off the thick stem and bottom ¼th of the head of cabbage/lettuce. Gently pull off one leaf at a time. Repeat until you have 6 to 8 cabbage leaves."
+   },
+   {
+    "title": null,
+    "text": "If you want to go the extra mile with the tofu: Once the tofu has finished baking, toast the coconut flakes and chopped peanuts in a medium skillet over medium heat, stirring frequently, until the coconut is golden on the edges. Add the tofu to the pan. Pour in ⅔rds of the peanut sauce and toss to coat. Cook, stirring frequently, until the tofu has absorbed the sauce and has turned golden on the edges. Transfer to a plate to cool."
+   },
+   {
+    "title": null,
+    "text": "To assemble the cabbage wraps: Divide the salsa amongst the salad wraps. Top with tofu and additional peanut sauce. Serve! These wraps keep well in the fridge, covered, overnight. Sauce keeps well for up to a week in the fridge, covered."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Ali of Gimme Some Oven (check out her Thai tacos and Thai salad). Baked tofu from my brussels sprouts dish. Skillet tofu technique adapted from Minimalist Baker.",
+   "Make it vegan: Use either of the other two suggested natural sweeteners instead of honey",
+   "Make it gluten free: Use certified gluten-free tamari instead of soy sauce.Change it up: See suggestions in post. I’m pretty sure pineapple/peach would be great substitutes for the mango. You can substitute almond butter for the peanut butter if you’d like.",
+   "Prepare in advance: The baked tofu, salsa and peanut sauce can all be made in advance for easy assembly.",
+   "*Where to buy coconut flakes: Look for them in the baking section at Whole Foods, health food stores or well-stocked grocery stores. The brands I see most often are “Let’s Do Organic” (green package) and Bob’s Red Mill."
+  ],
+  "summary": "Mango salsa, crispy baked tofu and an irresistible peanut sauce on cabbage leaves. These salad wraps are light and delicious! Recipe yields 6 to 8 salad wraps. See notes to learn how to make it vegan and/or gluten free.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Crispy baked tofu"
+   },
+   {
+    "at": 4,
+    "title": "Peanut sauce"
+   },
+   {
+    "at": 11,
+    "title": "Mango pico"
+   },
+   {
+    "at": 18,
+    "title": "Everything else"
+   }
+  ]
+ }
 }

@@ -34,7 +34,47 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/broccoli-rabe-and-black-bean-quesadillas/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, prepare the broccoli rabe so it can marinate while you prepare the rest. Pull the broccoli rabe leaves from the stems and discard the stems. Wash and spin dry the leaves. Tear any large leaves into small, bite-sized pieces, then transfer the leaves to a large serving bowl, along with the chopped cilantro."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl, combine the olive oil, lime juice, garlic, salt and red pepper flakes. Whisk until blended. Pour the dressing over the leaves and gently massage the dressing into the leaves until they are all lightly coated. Take a little bite, and add more lime juice and salt if you find it too bitter."
+   },
+   {
+    "title": null,
+    "text": "To cook the refried beans: In a medium saucepan over medium heat, warm the olive oil until shimmering. Add the shallot and salt. Cook, stirring often, until the shallot is tender and turning translucent, about 4 to 5 minutes. Add the garlic, cumin and chili powder and cook, while stirring constantly, until fragrant, about 30 seconds. Add the drained beans and water. Let the mixture come to a simmer and cook for 10 minutes, stirring often, and reducing heat as necessary to maintain a gentle simmer. Remove from heat and mash the beans with a potato masher, pastry cutter or fork until the mixture is thick and spreadable."
+   },
+   {
+    "title": null,
+    "text": "To cook the quesadillas: Spread the bean mixture evenly over each tortilla. Warm a medium-to-large skillet over medium heat. Transfer one tortilla to the warmed skillet and sprinkle about one-fourth of the cheese over the bean mixture. Spread a handful of marinated broccoli rabe leaves over one-half of the tortilla, leaving any large buds in the bowl. Once the cheese is melting, fold the cheesy side over the broccoli rabe. Brush the top of the quesadilla lightly with oil. Once the cheese is fully melted, flip the quesadilla, and brush the top with oil. Let each side cook until golden and crisp, flipping as necessary. Transfer the cooked quesadilla to a plate, and repeat for remaining quesadillas."
+   },
+   {
+    "title": null,
+    "text": "Let the cooked quesadillas rest for a few minutes to set the cheese, then use a pizza cutter or sharp chef’s knife to slice each quesadilla into three wedges. Serve with any remaining marinated broccoli rabe or beans on the side, as well as salsa verde and/or guacamole for dipping."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Use gluten-free tortillas!"
+  ],
+  "summary": "These hearty quesadillas are stuffed with garlicky, lime-marinated broccoli rabe and refried black beans, so they are lighter than most. If you have any extra marinated broccoli rabe and beans, they are great accompaniments, as are guacamole and salsa verde. Recipe yields 4 quesadillas (each made from 1 tortilla folded in half, for a visual).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Marinated broccoli rabe"
+   },
+   {
+    "at": 7,
+    "title": "Refried black beans"
+   },
+   {
+    "at": 15,
+    "title": "Remaining ingredients"
+   }
+  ]
  },
  "parser_version": 2
 }

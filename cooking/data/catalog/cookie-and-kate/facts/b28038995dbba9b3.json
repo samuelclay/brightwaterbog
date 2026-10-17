@@ -21,7 +21,25 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/fresh-margaritas/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Pour a layer of salt onto a small plate (preferably one just slightly larger than the top of your margarita glass). Slice off a small piece of lime and run the wet edge of the slice along half of the rim of your glass. Dip the top of the glass into the salt at a 45-degree angle and roll it from side to side to catch the salt. Add ice cubes to your glass and set it aside."
+   },
+   {
+    "title": null,
+    "text": "Fill a small cocktail shaker with ice. Pour in the tequila, freshly squeezed lime and orange juice and agave nectar. Put on the lid and shake for 30 seconds. Strain the liquid into your glass and garnish with a slice of lime."
+   }
+  ],
+  "notes": [
+   "Recommended tequila: Use 100% agave tequila labeled white, silver or blanco. I recommend Milagro, Hornitos or Espolón.",
+   "Salted rim considerations: Consider lining the rim of just half your glass with salt so you can control how much salt you taste with each sip (that’s a great tip I picked up from a recent issue of Bon Appetit). If you’d prefer a light sprinkling of salt all around the rim, just pour a very thin layer of salt onto your plate and run the lime slice around the entire rim of the margarita glass. The nutrition information below does not include the salt on the rim because the amount consumed is highly variable (and the salt is optional).",
+   "Juicing tips: I’ve found that the easiest way to juice limes is with this hand-held juicer (the yellow one). Citrus at room temperature is easier to juice than cold citrus, so take your limes and oranges out of the fridge an hour in advance. Here’s another tip, from Brenda, a reader: Before you slice the citrus, roll it back and forth on cutting board, pressing slightly. Then cut it in half lengthwise, not across! You will get up to ⅓ more juice that way.",
+   "Want to make a pitcher of margaritas? For 10 drinks (about 45 ounces, or 5 ½ cups), combine 2 ½ cups silver tequila, generous 1 ¾ cup fresh lime juice (around 15 limes), 1 ¼ cup fresh orange juice (about 5 medium oranges) and 3 tablespoons plus 1 teaspoon light agave nectar. Mix well, and add ice. Don’t forget to garnish your rims with lime rounds and coarse salt."
+  ],
+  "summary": "Super fresh, skinny margaritas made with fresh lime juice, orange juice and agave nectar. The best margarita you’ll ever have!",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -27,7 +27,41 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/veggie-breakfast-sandwich-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare your sandwiches, spread the mayonnaise over the lower half of your toasted muffin. Spread the mashed avocado over the other half, and sprinkle it with a few dashes of salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "Heat a medium non-stick skillet or well-seasoned cast iron skillet over medium-high heat. In a bowl, scramble the egg with the water and a few dashes of salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "Once the skillet is hot, add a pat of butter and swirl the pan to coat the bottom. Pour in the scrambled egg and immediately swirl the egg in the bottom of the pan to make an even layer."
+   },
+   {
+    "title": null,
+    "text": "Immediately place your cheese in the center of the egg mixture as shown. Once the egg is set enough to fold over onto itself with a spatula (this could take 30 seconds to 1 minute), fold one side over the middle, then the opposite side over the middle. Repeat with the other two sides so you have a cute little egg and cheese envelope. Let it cook for another 15 to 30 seconds, until it’s set enough that you can transfer it to a plate."
+   },
+   {
+    "title": null,
+    "text": "Place the cooked egg on the mayo-covered bun. Top with a slice of tomato, if using. Add with several slices of red onion, a few dashes of hot sauce, and a little handful of arugula. Top it with the remaining bun, avocado side down."
+   },
+   {
+    "title": null,
+    "text": "To slice it in half, insert a sharp knife into the center of the sandwich, and slice across to one edge. Repeat in the opposite direction. Serve warm! If you’re making more sandwiches, reduce the stove temperature from medium-high to medium, as the pan only gets hotter the longer it’s on the stove."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Deb’s recipe for The Best Egg Sandwich You’ll Ever Have, via A Cup of Jo.",
+   "Make it dairy free: Simply skip the cheese.",
+   "Make it gluten free: Use gluten-free English muffins or slices of toasted gluten-free bread.",
+   "Change it up: You can replace the mayonnaise with additional mashed avocado, if preferred. An alternative flavor combination that would be good? Try feta cheese, spinach instead of arugula, and a slice of roasted red pepper."
+  ],
+  "summary": "The best breakfast sandwich you’ll ever have, seriously. These quick egg sandwiches are great for lunch and dinner, too. Feel free to change up the toppings. Recipe yields 1 sandwich; cook one egg at a time and assemble sandwiches as needed.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

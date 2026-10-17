@@ -21,7 +21,24 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2008/08/marinated-eggplant-with-capers-and-mint/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat broiler. Arrange eggplant in 1 layer on a large baking sheet and brush both sides with 2 tablespoons oil (total). Broil about 4 inches from heat, turning once, until golden, 8 to 12 minutes total."
+   },
+   {
+    "title": null,
+    "text": "Stir together vinegar, mint, capers, 1/4 teaspoon salt, 1/2 teaspoon pepper, and remaining 3 tablespoons oil and toss with warm eggplant. Marinate at least 20 minutes."
+   },
+   {
+    "title": null,
+    "text": "Marinated eggplant can be made 1 day ahead and chilled. Bring to room temperature before serving."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

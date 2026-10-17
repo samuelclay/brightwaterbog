@@ -25,7 +25,43 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/blueberry-lemon-yogurt-cake-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit. Generously butter and flour a 8½ by 4¼ by 2½-inch loaf pan."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, whisk together the flour, baking powder, and salt."
+   },
+   {
+    "title": null,
+    "text": "Pour the sugar into a separate medium-sized mixing bowl. Grate all the zest from the lemons. Rub the zest into the sugar until the sugar is yellow and fragrant. Add the yogurt, eggs and vanilla to the sugar mixture. Whisk well, until the ingredients are combined."
+   },
+   {
+    "title": null,
+    "text": "When the mixture is well blended, gently whisk in the dry ingredients, just until incorporated. Switch to a spatula and fold in the oil, making sure it’s all incorporated. The batter will be shiny. In a separate bowl, toss the blueberries with about one teaspoon flour (this will help prevent them from sinking while the cake bakes.) Gently fold the blueberries into the batter."
+   },
+   {
+    "title": null,
+    "text": "Pour the batter into the prepared loaf pan and smooth the top. Bake the cake for 50 to 55 minutes, or until the top is golden and the sides just start to pull away from the sides of the pan. A toothpick inserted into the center should come out clean."
+   },
+   {
+    "title": null,
+    "text": "Let the cake cool in the pan for 30 minutes. Meanwhile, warm 2 tablespoons lemon juice and two teaspoons honey just long enough for you to whisk the honey into the juice. You can do this in your smallest saucepan over medium-low heat or in brief bursts in the microwave. Once the honey is mixed in, taste it—it should be pleasantly tart. If it’s too sour, mix in more honey. Using a pastry brush, brush the lemon-honey glaze on top of the warm cake. Repeat until you have no more liquid left."
+   },
+   {
+    "title": null,
+    "text": "Run a knife between the cake and the sides of the pan to loosen. Unmold the cake by placing a large plate or cutting board upside down over the loaf pan and carefully turning it over. Turn the cake back onto a flat surface to cool completely. Then slice and serve!"
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my orange poppy seed pound cake.",
+   "Change it up: Feel free to skip the blueberries altogether (just reduce the baking time by 5 minutes). Or you can substitute raspberries, blackberries or sliced strawberries for the blueberries."
+  ],
+  "summary": "This delicious, lemony yogurt cake is studded with blueberries. It’s made with healthy whole wheat flour, olive oil and yogurt and tastes amazing, I promise! This cake takes cues from traditional French yogurt cake and tastes like a lightened-up pound cake. Recipe yields one loaf.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

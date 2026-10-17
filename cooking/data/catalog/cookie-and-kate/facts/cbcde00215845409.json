@@ -23,7 +23,37 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/best-green-beans-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large skillet over medium-low heat, melt the butter. Once it’s completely melted, add the almonds. Cook, stirring constantly with a heatproof spatula or wooden spoon, until the butter has browned and the almonds are beginning to brown, about 7 to 8 minutes. (Your patience will pay off, I promise!)"
+   },
+   {
+    "title": null,
+    "text": "Add the shallot and cook, while stirring constantly, for 1 minute. Stir in the lemon juice and 1 tablespoon water. While stirring, cook until the liquid thickens enough that your spatula leaves an open trail on the pan behind it, about 1 more minute."
+   },
+   {
+    "title": null,
+    "text": "Use your spatula to scoop all the mixture into a bowl, and set it aside for now. Return the empty skillet to the stovetop, and add the green beans, ½ cup water and ½ teaspoon salt. Cover and cook over medium heat, stirring occasionally, until the beans are nearly tender, about 9 to 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the lid and cook over medium-high heat until the liquid evaporates, about 2 to 4 minutes."
+   },
+   {
+    "title": null,
+    "text": "Off the heat, add the reserved almond mixture to the skillet and toss to combine. Season with salt and pepper, to taste, and serve. Leftover green beans will keep the fridge, covered, for about 4 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Green Bean Salad with Toasted Almonds & Feta and Cooking Light’s Green Beans Amandine.",
+   "Make it dairy free/vegan: Replace the butter with extra-virgin olive oil (my preference) or vegan butter (I successfully tested with Miyoko’s Creamery).",
+   "Make it nut free: I think this dish would be nice with pepitas (green pumpkin seeds) instead of almonds, but haven’t tried. Or, omit the nuts and cook the butter until it has browned in step 1.",
+   "Prepare in advance: This recipe really comes together seamlessly as directed, and keeps well at room temperature for a couple of hours. Or, store it in the fridge and gently reheat the dish in the oven."
+  ],
+  "summary": "This green bean recipe will become your new favorite side dish. Inspired by a classic French recipe (haricots verts amandine), these green beans feature buttery toasted almonds, tender shallot and a squeeze of lemon. Recipe yields 4 generous side servings; you can double the recipe by cooking it in a large Dutch oven.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

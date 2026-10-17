@@ -1,6 +1,47 @@
 {
  "url": "https://cookieandkate.com/rosemary-roasted-nuts/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Buttered Nuts with Rosemary",
+  "ingredients": [
+   "1 ½ cups whole unblanched almonds",
+   "1 ½ cups raw cashews",
+   "1 ½ cups walnuts and/or pecans",
+   "1 cup raw pumpkin seeds (pepitas)",
+   "2 tablespoons finely chopped or snipped fresh rosemary",
+   "2 teaspoons packed brown sugar",
+   "1 teaspoon fine salt, plus more for sprinkling",
+   "½ teaspoon cayenne pepper (optional, for spice)",
+   "2 tablespoons unsalted butter, melted"
+  ],
+  "yield_text": "5 1/2 cups nuts",
+  "cook_time": "17 minutes",
+  "categories": [
+   "Snacks"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/rosemary-roasted-nuts/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 350 degrees Fahrenheit. On a rimmed baking sheet (if you’d like, line it with parchment paper for easier cleanup), mix together all of the nuts. Bake about 12 minutes or until fragrant and toasted, stirring halfway."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl, combine the chopped rosemary, brown sugar, salt, and cayenne pepper. Stir the melted butter into the bowl. Pour the mixture over the roasted nuts, tossing gently to coat. Season with salt, to taste. Serve warm or cooled to room temperature. Store in an airtight container for up to 3 days."
+   }
+  ],
+  "notes": [
+   "This recipe was formerly titled Rosemary Roasted Nuts.",
+   "Make it dairy free/vegan: Substitute extra-virgin olive oil for the butter."
+  ],
+  "summary": "These party nuts are a little spicy, sweet and herbed. You can’t go wrong with these! Recipe yields 5 ½ cups.",
+  "ingredient_groups": []
+ }
 }

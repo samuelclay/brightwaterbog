@@ -21,7 +21,28 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2009/04/simple-potato-gratin/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350°F and grease a 9- by 12-inch gratin dish with the pat of butter. Slice the potatoes as thinly as you can (a mandoline works great for this) and arrange them in a layer, overlapping the edges slightly like shingles. Sprinkle the potatoes with salt and freshly ground pepper and don’t be stingy — this is where the bulk of your flavor comes from and a third of the cheese before before repeating this process with your remaining potato slices. (If you are using a sauteed vegetable filling, this is where you’d want to add half of it.) Depending on how thinly sliced your potatoes are, you should end up with approximately three layers, with a third of the cheese between each layer. Reserve the last third of your cheese for later."
+   },
+   {
+    "title": null,
+    "text": "Carefully pour the milk over the potatoes. It should come up to the bottom of the top layer of potatoes; add more if this was not enough. Dot the top of the gratin with the three tablespoons of butter and bake it for 60 minutes. Halfway through the baking time, take the gratin dish out of the oven and gently press the potatoes flat with a spatula to keep the top moist, then return to the oven for the rest of the hour. After 1 hour, sprinkle the remaining cheese on top of the gratin and bake for a final 15 minutes. The gratin is done when the potatoes are soft and the top is golden brown. For more color, you can run the gratin under your broiler."
+   },
+   {
+    "title": null,
+    "text": "More gratin ideas: Use duck fat instead of butter. Swap celery root, parsnips or turnip slices for half the potatoes. Add chopped herbs such as parsley, thyme, chives or chervil between the layers. Sauté mushrooms, sorrel, spinach or leeks, with or without a finely-chopped shallot, and layer them between the potato slices."
+   },
+   {
+    "title": null,
+    "text": "* Yukon Golds and other waxy, yellow-fleshed potatoes work best in gratins, keeping their texture without getting floury and falling apart as Russets do."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

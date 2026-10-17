@@ -24,7 +24,24 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/strawberry-salsa-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large bowl, whisk together the lime juice and zest, honey and salt. Stir in the strawberries, jalapeño, onion and cilantro. Add pepper, to taste, and mix well. Adjust the seasonings if need be (you might like a little more lime for acidity, honey for sweetness, or salt if it’s just not quite right yet)."
+   },
+   {
+    "title": null,
+    "text": "If your strawberries are nice and juicy, you can serve immediately, with chips. My salsa needed some time to marinate before it was juicy and awesome (about 30 minutes should do it). Store leftovers in an airtight container in the fridge for up to 3 days."
+   }
+  ],
+  "notes": [
+   "Recipe minimally adapted, with permission, from Dishing Up the Dirt by Andrea Bemis.",
+   "Make it vegan: Use maple syrup instead of honey.",
+   "Andrea’s tip: “When chopping fresh herbs like cilantro, dill and parsley, there’s no need to separate the leaves from the tender stems—chop everything! The stems offer a lot of flavor and texture. If the herb has a woody stem, like rosemary or thyme, gently remove the leaves before chopping.”"
+  ],
+  "summary": "This strawberry salsa recipe is delicious, colorful and easy to make! It’s the perfect spring or summer party appetizer. Recipe yields enough salsa for about 4 to 6 snacking portions, although I managed to polish it all off myself in under 24 hours.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

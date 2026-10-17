@@ -27,7 +27,28 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2015/04/artichoke-gratin-toasts/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cook frozen artichokes on the stove in simmering water until firm-tender, which took 4 to 5 minutes for the brand I used. Drain well in a colander, then spread out on layers of paper towels and do your best to press all of the water out. You can keep them on towels while you prepare the other ingredients."
+   },
+   {
+    "title": null,
+    "text": "Cover diced potatoes with in inch of cold water and a few pinches of salt (using the same pot as the artichokes, because doing dishes is the worst) and set a timer for 8 minutes. Bring to a simmer and cook until potatoes are tender but not falling apart, usually about the allotted 8 minutes but go by texture, not timer. Drain potatoes, wipe out pot, and put cream, garlic, lemon zest, salt and pepper back in. Bring to a simmer and cook for one minute, stirring because this will be a tiny amount in a bigger pot. Add drained potatoes and cook together for 1 to 2 minutes more."
+   },
+   {
+    "title": null,
+    "text": "Chop drained and patted dry artichokes into bite-sized (about 1/2-inch) chunks and place in a large bowl. Season with salt and lemon juice to taste. Add potato-cream mixture and 3/4 cup grated cheese and stir to combine. Taste for seasoning and adjust salt and pepper if needed (will probably be needed). Add up to 2 extra tablespoons heavy cream if the mixture seems a little dry."
+   },
+   {
+    "title": null,
+    "text": "Heat the broiler on your oven, or simply your oven itself to 450°F. Arrange slices of bread on a foil-lined tray (for easy clean up) and heap artichoke-potato mixture evenly over slices. Sprinkle with reserved cheese, and bake or broil until browned and melty, anywhere from 5 minutes under a good broiler to 10 to 15 minutes in a less-intense oven. Eat hot and repeat again tomorrow."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

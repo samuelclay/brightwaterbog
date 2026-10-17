@@ -1,6 +1,67 @@
 {
  "url": "https://cookieandkate.com/lemony-roasted-potatoes-broccoli-rabe-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Lemony Roasted Broccoli Rabe and Potatoes",
+  "ingredients": [
+   "1 ½ pounds Yukon Gold potatoes, scrubbed",
+   "3 tablespoons extra-virgin olive oil, divided",
+   "¾ pound broccoli rabe (about 1 bunch)",
+   "¼ cup grated Parmesan",
+   "Pinch red pepper flakes",
+   "Salt and freshly ground black pepper",
+   "1 tablespoon fresh lemon juice (about ½ lemon, juiced)",
+   "1 teaspoon Dijon mustard",
+   "1 garlic clove, pressed or minced"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "45 minutes",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/lemony-roasted-potatoes-broccoli-rabe-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 425 degrees Fahrenheit with racks in the middle of the oven and upper third of the oven. Slice the potatoes into ¾-inch pieces. On a large, rimmed baking sheet, toss the potatoes with 2 tablespoons olive oil and a sprinkle of salt and pepper. Bake for 30 minutes, turning halfway."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, prepare the broccoli rabe by rinsing it and spinning it dry in a salad spinner or patting it dry. Slice off the tough lower ends and any stems that are greater than ¼-inch in diameter and discard those pieces. Roughly chop the remaining broccoli rabe into 2- to 3-inch pieces."
+   },
+   {
+    "title": null,
+    "text": "On a separate large baking sheet, combine the broccoli rabe with 1 tablespoon olive oil, the Parmesan, a pinch of red pepper flakes and a sprinkle of salt and pepper. Use your hands to rub the ingredients into the broccoli rabe, so it’s lightly but thoroughly coated in oil. Arrange the broccoli rabe in a single layer. Once the potatoes have only 8 minutes baking time remaining, place the baking sheet on the upper rack in the oven."
+   },
+   {
+    "title": null,
+    "text": "While the potatoes and broccoli rabe finish cooking, whisk together the dressing ingredients. Once the timer goes off, the broccoli rabe should be tender and turning crispy in places, and the potatoes should be golden and tender throughout. If not, bake leave one or both pans in the oven a couple more minutes."
+   },
+   {
+    "title": null,
+    "text": "Transfer the contents of both pans to a bowl and drizzle the dressing into the bowl. Toss to mix well, then season to taste with salt and pepper. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Skip the Parmesan!"
+  ],
+  "summary": "This delicious side dish features golden roasted potatoes and tender, roasted broccoli rabe with Parmesan cheese melted into it. This recipe would also make a great breakfast—just serve with eggs! (Fried, poached, scrambled or hard boiled.) Recipe yields 4 side servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted broccoli rabe and potatoes"
+   },
+   {
+    "at": 6,
+    "title": "Dressing"
+   }
+  ]
+ }
 }

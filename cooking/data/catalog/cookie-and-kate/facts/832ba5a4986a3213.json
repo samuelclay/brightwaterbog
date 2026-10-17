@@ -1,6 +1,44 @@
 {
  "url": "https://cookieandkate.com/pecan-butter-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Homemade Pecan Butter",
+  "ingredients": [
+   "8 ounces (about 2 cups) high quality pecans, either whole or in pieces",
+   "Salt, to taste",
+   "Pinch of ground cinnamon (optional)"
+  ],
+  "yield_text": "1 cup",
+  "cook_time": "15 minutes",
+  "categories": [
+   "Condiment"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pecan-butter-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Pour the pecans into a large skillet and toast, stirring often, over medium heat until fragrant (don’t let them burn!). This will take about 4 to 8 minutes."
+   },
+   {
+    "title": null,
+    "text": "Pour the toasted pecans into a food processor or high-speed blender and let them cool for several minutes. Then blend the pecans, pausing to scrape down the sides with a spatula often. The mixture will be crumbly at first, but will eventually blend into super-creamy goodness. Be careful not to let the mixture get too hot, which seems to cause oil separation. You might have to stop and let the mixture/machine cool down for a bit just to be safe. The amount of blending time required depends on your machine—my old food processor took ten to fifteen minutes to turn the pecans into pecan butter, but my Vitamix blender can do it in a minute or two."
+   },
+   {
+    "title": null,
+    "text": "Add a pinch of salt and cinnamon (if using). Blend again, taste, and add more salt or cinnamon if needed. Pour the mixture into a small jar, and seal it with a lid. Store it at room temperature for up to 1 month or in the refrigerator for several months."
+   }
+  ],
+  "notes": [
+   "Tip: This pecan butter is only as good as the pecans you put it in it. Seek out fresh pecans from a store with high turnover."
+  ],
+  "summary": "Pecan butter is easy to make and tastes absolutely incredible! Feel free to to double or maybe even triple the amount of pecans in order to make a bigger batch (you may find it easier to toast the pecans in the oven at that point). Recipe yields 1 cup as written.",
+  "ingredient_groups": []
+ }
 }

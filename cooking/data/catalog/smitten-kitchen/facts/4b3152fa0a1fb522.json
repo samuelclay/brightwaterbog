@@ -28,7 +28,32 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2011/06/roasted-peppers-with-capers-and-mozzarella/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Roast the peppers: Preheat the oven to 400 degrees. Line peppers on a large baking sheet and roast them for 45 minutes to 1 hour, using tongs to rotate them 1/4 of the way, rotisserie-style, every 15 minutes. It’s safer to extend the cooking time than shorten it, as the skins will only come off easily if they’re fully cooked."
+   },
+   {
+    "title": null,
+    "text": "Once they’re fully roasted, cover the pepper tray with another piece of foil and let the peppers cool. When they’re cool enough to handle, remove the skins. Remove seeds and slice sections of pepper into 1/4-inch wide strips."
+   },
+   {
+    "title": null,
+    "text": "Toss peppers with red wine vinegar, garlic and a few pinches of salt. Cover and let marinate for an hour or overnight (and up to 4 days) in the fridge."
+   },
+   {
+    "title": null,
+    "text": "To serve, arrange peppers on a plate. Adjust seasonings, adding salt, freshly ground black pepper or additional vinegar, to taste. Drizzle with olive oil, sprinkle with capers and parsley and arrange mozzarella over salad."
+   },
+   {
+    "title": null,
+    "text": "Eat with some crusty bread and a glass of wine, preferably al fresco."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

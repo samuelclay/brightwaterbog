@@ -1,6 +1,50 @@
 {
  "url": "https://cookieandkate.com/no-bake-cookie-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Chocolate & Coffee No-Bake Cookies",
+  "ingredients": [
+   "2 cups turbinado (raw) sugar",
+   "½ cup milk of choice",
+   "¼ cup + 1 tablespoon unsweetened cocoa powder",
+   "4 tablespoons unsalted butter, cut into ½-inch wide slices",
+   "½ cup creamy or crunchy peanut butter",
+   "2 ½ cups old-fashioned rolled oats or quick-cooking oats*",
+   "1 teaspoon vanilla extract",
+   "Optional: 1 packet Starbucks Columbia VIA or 1 teaspoon espresso powder or instant coffee"
+  ],
+  "yield_text": "24-30 cookies",
+  "cook_time": "10 minutes (plus 30 minutes resting time)",
+  "categories": [
+   "Cookie"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/no-bake-cookie-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Combine sugar, milk, cocoa powder and butter in a medium, heavy-bottomed saucepan. Bring the mixture to a rolling boil over medium-high heat, stirring often. Once it reaches a rolling boil, set a timer for 1 minute and 30 seconds and let it continue boiling, stirring often."
+   },
+   {
+    "title": null,
+    "text": "When the timer’s up, remove the pot from the heat and quickly stir in the remaining ingredients."
+   },
+   {
+    "title": null,
+    "text": "Drop spoonfuls (about 1 heaping tablespoon each) onto wax paper or parchment paper. Cookies will firm up in 30 to 40 minutes at room temperature. Once solidified, store for up to 5 days at room temperature."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from The Muffin Lady Cookbook.",
+   "*Make it gluten-free: Be sure to use certified gluten-free oats. Old-fashioned oats will yield a more chewy texture, while quick-cooking oats will be less noticeable."
+  ],
+  "summary": "Rich no-bake cookies intensified with espresso powder. Recipe yields 24-30 cookies.",
+  "ingredient_groups": []
+ }
 }

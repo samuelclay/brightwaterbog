@@ -1,6 +1,54 @@
 {
  "url": "https://cookieandkate.com/how-to-make-applesauce/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Homemade Applesauce",
+  "ingredients": [
+   "1 ½ pounds Gala apples (or any other variety of sweet red apple, about 4 medium)",
+   "1 ½ pounds Granny Smith apples (or Golden Delicious, about 4 medium)",
+   "⅓ cup water",
+   "2 tablespoons maple syrup or honey, more to taste",
+   "2 teaspoons ground cinnamon",
+   "2 teaspoons apple cider vinegar or 1 tablespoon lemon juice"
+  ],
+  "yield_text": "4 cups",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Side"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/how-to-make-applesauce/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Peel, core and chop the apples into 2″ chunks. In a medium Dutch oven or large stainless steel saucepan, combine the apple chunks, water, maple syrup and cinnamon. Cover and bring the mixture to a simmer over medium heat. Continue simmering, stirring occasionally, until the apples are tender and falling apart, about 15 to 20 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from the heat. For chunky applesauce, use a potato masher or the back of a sturdy spatula or wooden spoon to break it up to your desired consistency. For smooth applesauce, blend it in your food processor."
+   },
+   {
+    "title": null,
+    "text": "Stir in the vinegar. Adjust to taste as necessary—for sweeter applesauce, stir in more maple syrup (I usually add 2 tablespoons); for more spice, add more cinnamon; for more complexity, add another teaspoon of vinegar."
+   },
+   {
+    "title": null,
+    "text": "Serve warm or chilled; let it cool to room temperature before covering leftover applesauce and storing it in the fridge. Leftover applesauce will keep well in the refrigerator for about 1 week, or for months in the freezer."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from the applesauce in my cookbook’s apple crisp breakfast parfaits.",
+   "Make it vegan: Use maple syrup, not honey.",
+   "Make it sugar free: Just omit the maple syrup for unsweetened applesauce.",
+   "Canning applesauce: From what I’ve read, applesauce is inherently safe to can in a water bath due to apple’s high acidity and sugar content. That said, this recipe has not been validated for safety. Here’s a canned applesauce recipe and applesauce FAQ’s from my friend Marisa."
+  ],
+  "summary": "Learn how to make delicious homemade applesauce! This easy applesauce recipe can be chunky or smooth. It’s also naturally sweetened with maple syrup or honey, to taste. Recipe yields about 4 cups.",
+  "ingredient_groups": []
+ }
 }

@@ -1,6 +1,52 @@
 {
  "url": "https://cookieandkate.com/horchata/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Homemade Horchata",
+  "ingredients": [
+   "⅔ cup long grain brown* or white rice (dry/uncooked)",
+   "1 ¼ cup blanched almonds**",
+   "3-inch piece of cinnamon stick",
+   "4 ½ cups water, divided",
+   "⅓ to ½ cup light agave nectar, to taste"
+  ],
+  "yield_text": "4 cups",
+  "cook_time": "15 minutes (plus overnight soak)",
+  "categories": [
+   "Drinks"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/horchata/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium bowl, combine the rice, almonds, cinnamon stick and 2 ½ cups hot water. Allow the mixture to cool, then cover and refrigerate overnight."
+   },
+   {
+    "title": null,
+    "text": "Pour the mixture into a blender, add agave (start with ⅓ cup, you can add more later) and blend on high for several minutes, until the mixture is as smooth as possible. Add one cup of cold water and blend for 10 seconds."
+   },
+   {
+    "title": null,
+    "text": "Place a large metal sieve over a large bowl. Line the sieve with cheesecloth (or use a nut milk bag or clean paint straining bag, found at hardware stores). Pour the mixture through slowly, stirring as you pour."
+   },
+   {
+    "title": null,
+    "text": "Press on the solids with a spoon to extract as much liquid as possible. Lift the cheesecloth/bag and squeeze the rest of the liquid out. Discard the remaining dryish pulp. Pour the mixture into a pitcher and stir in the last cup of water. Pour into glasses filled with ice and serve."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Rick Bayless.",
+   "*Rice selection: I made my horchata with brown rice because The Kitchn told me I could.",
+   "**Almond notes: You can either buy pre-blanched almonds or blanch your own. Just pour 1 ¼ cup whole almonds into a bowl and pour boiling water over them. Let the almonds sit for a minute, then drain them in a colander and rinse with cold water. Use your hands to slide the skins off and proceed with the recipe as directed."
+  ],
+  "summary": "Horchata is a sweet, cinnamon-infused almond and rice milk served in Latin America. I sweeten my horchata with agave and turn it into a cocktail by adding rum! Note that the ingredients require an overnight soak. Recipe yields about 4 cups horchata.",
+  "ingredient_groups": []
+ }
 }

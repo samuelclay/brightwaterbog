@@ -1,6 +1,88 @@
 {
  "url": "https://cookieandkate.com/roasted-butternut-squash-tacos-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Roasted Butternut Squash Tacos",
+  "ingredients": [
+   "1 medium butternut squash, peeled and sliced into ¾-inch cubes",
+   "2 tablespoons olive oil",
+   "1 teaspoon chili powder",
+   "Salt and freshly ground pepper",
+   "2 cups purple cabbage, thinly sliced and roughly chopped into 2-inch long pieces",
+   "2 cans black beans (15 ounces each), rinsed and drained, or 3 cups cooked black beans",
+   "⅓ cup chopped green onions, both green and white parts",
+   "⅓ cup chopped fresh cilantro",
+   "2 to 3 tablespoons fresh lime juice, to taste",
+   "1 teaspoon olive oil",
+   "¼ teaspoon salt, more to taste",
+   "1 large avocado, diced",
+   "1 tablespoon lime juice",
+   "¼ teaspoon ground coriander (optional)",
+   "Pinch of salt, more to taste",
+   "8 corn tortillas (certified gluten free if necessary)",
+   "Optional garnishes: additional chopped cilantro, hot sauce, toasted pepitas, crumbled feta cheese (omit for vegan tacos)"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "50 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-butternut-squash-tacos-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 425 degrees Fahrenheit. Line one large, rimmed baking sheet with parchment paper for easier cleanup."
+   },
+   {
+    "title": null,
+    "text": "To roast the squash: On your prepared baking sheet, toss the cubed butternut in enough olive oil to lightly coat all sides, about 2 tablespoons. Sprinkle with 1 teaspoon chili pepper and a pinch of salt and pepper. Arrange the butternut in a single layer. Bake until the butternut is tender throughout and caramelized on the edges, about 30 to 35 minutes, tossing halfway."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, to assemble the slaw: In a medium mixing bowl, combine the cabbage, black beans, green onion, cilantro, lime juice, olive oil and salt. Toss to combine, then taste and add additional lime juice and/or salt if necessary. Set aside to marinate."
+   },
+   {
+    "title": null,
+    "text": "To prepare the guacamole: In a small bowl, combine the diced avocado, lime juice, coriander and salt. Mash with a pastry cutter, potato masher or fork until the mixture is blended and no longer chunky. Taste and add additional salt if necessary."
+   },
+   {
+    "title": null,
+    "text": "To warm the tortillas: In a small skillet over medium heat, warm each tortilla on both sides before transferring to a plate and covering with a lint-free towel to keep warm. Repeat with each tortilla, stacking each warmed tortilla on the last."
+   },
+   {
+    "title": null,
+    "text": "To assemble the tacos, spoon an ample amount of slaw down the center of your taco, top with roasted butternut and spread a spoonful of guacamole down the side. Top with garnishes of your choice and serve immediately."
+   }
+  ],
+  "notes": [
+   "Change it up: Sweet potatoes would be an awesome substitute for the butternut.",
+   "Storage suggestions: Store individual components separately for best results. Store leftover guacamole in a small bowl with plastic wrap pressed against the top to prevent oxidation."
+  ],
+  "summary": "Colorful butternut squash tacos with crisp slaw, black beans and guacamole! These tacos are a simple weeknight meal and a great option for vegan and gluten-free eaters. Recipe yields about 8 tacos (4 servings).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted butternut squash"
+   },
+   {
+    "at": 4,
+    "title": "Cabbage and black bean slaw"
+   },
+   {
+    "at": 11,
+    "title": "Simple guacamole (double if you love guac!)"
+   },
+   {
+    "at": 15,
+    "title": "Everything else"
+   }
+  ]
+ }
 }

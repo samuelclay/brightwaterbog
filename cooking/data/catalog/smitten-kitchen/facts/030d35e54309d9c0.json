@@ -31,7 +31,28 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2006/11/cream-of-tomato-soup-classic-grilled-cheese/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 450°F. Lined rimmed baking sheet with foil. Place a strainer over a large bowl, and open first can of tomatoes into it. With fingers, carefully open whole tomatoes and push out seeds, allowing juices to fall through strainer into bowl. Spread seeded tomatoes in single layer on foil. Repeat with second can of tomatoes. Sprinkle tomatoes on roasting pan evenly with brown sugar. Bake until all liquid has evaporated and tomatoes begin to color (although I usually get just a hint of color, at most), about 30 minutes. Let tomatoes cool slightly while you work on the rest of the soup."
+   },
+   {
+    "title": null,
+    "text": "Heat butter over medium heat in large saucepan until foaming. Add shallots, tomato paste and allspice. Reduce heat to low, cover, and cook, stirring occasionally, until shallots are softened, 7 to 10 minutes. Add flour and cook, stirring constantly, until thoroughly combined, about 30 seconds. Gradually add vegetable or chicken stock, whisking constantly to combine; stir in reserved tomato juice. Gently peel roasted tomatoes from foil and add them to the pot. Cover, increase heat to medium, and bring to a boil. Reduce heat to low and simmer, stirring occasionally, to blend flavors, about 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Off the heat, use an immersion blender to puree soup until smooth. Add cream — I often start with just 1/4 cup, adding the last 1/4 cup, if we wish, drizzled over serving bowls — warm over low heat until hot, about 3 minutes. Off heat, stir in brandy and season with salt and cayenne. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Do ahead: Soup can be refrigerated in an airtight container for up to 2 days. Warm over low heat until hot; do not boil.",
+   "This is a classic tomato soup, reminiscent the canned tomato soup so famous, Andy Warhol turned it into iconic American art, but so much better. The tomato-roasted step will seem bizarre, but adds a depth and complexity to canned tomatoes that makes this soup incredible.",
+   "[Note: In 2019, this recipe got a little refresh and new photos. The recipe has been simplified a bit.]"
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

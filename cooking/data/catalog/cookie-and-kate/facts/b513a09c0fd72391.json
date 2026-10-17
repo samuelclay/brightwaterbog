@@ -1,6 +1,58 @@
 {
  "url": "https://cookieandkate.com/crispy-falafel-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Crispy Falafel",
+  "ingredients": [
+   "¼ cup + 1 tablespoon extra-virgin olive oil",
+   "1 cup dried (uncooked/raw) chickpeas, rinsed, picked over and soaked for at least 4 hours and up to 24 hours in the refrigerator",
+   "½ cup roughly chopped red onion (about ½ small red onion)",
+   "½ cup packed fresh parsley (mostly leaves but small stems are ok)",
+   "½ cup packed fresh cilantro (mostly leaves but small stems are ok)",
+   "4 cloves garlic, quartered",
+   "1 teaspoon fine sea salt",
+   "½ teaspoon (about 25 twists) freshly ground black pepper",
+   "½ teaspoon ground cumin",
+   "¼ teaspoon ground cinnamon"
+  ],
+  "yield_text": "12 falafels",
+  "cook_time": "50 minutes (plus 4-hour soaking time)",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Middle Eastern"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/crispy-falafel-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "With an oven rack in the middle position, preheat oven to 375 degrees Fahrenheit. Pour ¼ cup of the olive oil into a large, rimmed baking sheet and turn until the pan is evenly coated."
+   },
+   {
+    "title": null,
+    "text": "In a food processor, combine the soaked and drained chickpeas, onion, parsley, cilantro, garlic, salt, pepper, cumin, cinnamon, and the remaining 1 tablespoon of olive oil. Process until smooth, about 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Using your hands, scoop out about 2 tablespoons of the mixture at a time. Shape the falafel into small patties, about 2 inches wide and ½ inch thick. Place each falafel on your oiled pan."
+   },
+   {
+    "title": null,
+    "text": "Bake for 25 to 30 minutes, carefully flipping the falafels halfway through baking, until the falafels are deeply golden on both sides. These falafels keep well in the refrigerator for up to 4 days, or in the freezer for several months."
+   }
+  ],
+  "notes": [
+   "Adapted from The America’s Test Kitchen Healthy Family Cookbook.",
+   "Make-ahead option: I haven’t tried this, but the original recipe notes that the uncooked falafel patties can be refrigerated on a parchment-lined baking sheet, wrapped tightly in plastic wrap, for up to 2 hours before baking.",
+   "How to double this recipe: Preheat the oven with two oven racks near the center of the oven. Double all of the ingredients. If you have a large food processor (guessing 11+ cup capacity), you can mix all of the ingredients at once. Use two baking sheets, and swap their positions (top to bottom, bottom to top) when you flip the falafel halfway through baking.",
+   "Recommended equipment: I love my 11-cup food processor (affiliate link)."
+  ],
+  "summary": "This homemade falafel recipe is absolutely delicious, and remarkably crispy! Be sure to allow 4 hours soaking time for the chickpeas, preferably overnight. Then, the falafel mixture is super easy to make in a food processor. Recipe yields 12 to 13 falafels (see notes on how to double).",
+  "ingredient_groups": []
+ }
 }

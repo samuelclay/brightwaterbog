@@ -19,7 +19,34 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/cauliflower-steak-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit with a rack in the upper third of the oven. Line a large, rimmed baking sheet with parchment paper to prevent the cauliflower from sticking."
+   },
+   {
+    "title": null,
+    "text": "Carefully remove any green leaves surrounding the cauliflower. Using your sharpest chef’s knife, gently slice off the protruding base of the cauliflower to create a more flat surface. Place the cauliflower on a cutting board, flat side down."
+   },
+   {
+    "title": null,
+    "text": "Now we’ll use the chef’s knife to create 1-inch parallel slabs of cauliflower. To create your first slab, gently saw back and forth about 1-inch away from an outer edge (these florets will likely fall apart, and that’s ok). Continue slicing 1-inch slabs until you have worked your way through the cauliflower."
+   },
+   {
+    "title": null,
+    "text": "Gently brush both sides of the slabs (and all over the florets) with the olive oil and place them on the prepared baking sheet. Sprinkle the salt on top, followed by several twists of black pepper."
+   },
+   {
+    "title": null,
+    "text": "Roast until the top sides of the cauliflower are turning golden on the edges and the undersides are deeply golden, about 30 to 35 minutes. Let the cauliflower cool for a few minutes, then use a spatula to serve the cauliflower as desired."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Parmesan-Crusted Cauliflower Steaks with Marinara."
+  ],
+  "summary": "Follow this foolproof recipe for beautifully caramelized cauliflower steaks! Serve your cauliflower steak as a side dish or meal component. Recipe yields about 3 “steaks” plus several smaller pieces of roasted cauliflower (yield will vary depending on the size of your cauliflower).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

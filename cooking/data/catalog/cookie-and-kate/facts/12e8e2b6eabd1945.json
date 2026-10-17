@@ -29,7 +29,45 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/spinach-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Prepare the vinaigrette by whisking together all of the ingredients in a small bowl."
+   },
+   {
+    "title": null,
+    "text": "Toast the pecan halves in a medium skillet over medium-low heat, stirring often, until they are warm and smell fragrant, about 3 to 4 minutes. Set aside."
+   },
+   {
+    "title": null,
+    "text": "To assemble the salad, place the spinach and sliced onion in a large serving bowl. Drizzle in all of the dressing, and gently toss until the spinach is lightly coated."
+   },
+   {
+    "title": null,
+    "text": "Top the salad with the goat cheese, toasted pecans, and raspberries. Sprinkle a few twists of black pepper on top, then drizzle the balsamic vinegar over the top."
+   },
+   {
+    "title": null,
+    "text": "Serve promptly. Leftovers keep well for a couple of days, covered and refrigerated."
+   }
+  ],
+  "notes": [
+   "Raspberry alternatives: Thinly sliced apple, pear, peach or nectarine, strawberries, or roasted root vegetables, such as beets, carrots, or sweet potatoes.",
+   "Make it dairy free/vegan: Omit the goat cheese.",
+   "*Balsamic vinegar note: For a beautiful drizzle and impactful flavor, you must use high-quality, thick balsamic vinegar (like Napa Valley Naturals’ Grand Reserve Vinegar—make sure you get the bottle with “25 stars” on it) or balsamic glaze/reduction (DeLallo and Alessi make them). Or, make your own balsamic reduction with regular runny balsamic!"
+  ],
+  "summary": "Make this delicious spinach salad recipe to serve with your main dish! It features fresh spinach, creamy goat cheese and seasonal fruit. Recipe yields 6 side salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 7,
+    "title": "Vinaigrette"
+   }
+  ]
  },
  "parser_version": 2
 }

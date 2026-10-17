@@ -1,6 +1,66 @@
 {
  "url": "https://cookieandkate.com/gluten-free-banana-muffins/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Gluten-Free Banana Muffins",
+  "ingredients": [
+   "2 cups (180 grams) blanched almond flour",
+   "1 teaspoon baking powder",
+   "1 teaspoon ground cinnamon (optional)",
+   "½ teaspoon baking soda",
+   "½ teaspoon fine salt",
+   "3 large eggs",
+   "1 cup mashed overripe bananas (about 3 bananas)",
+   "3 to 5 tablespoons* maple syrup",
+   "4 tablespoons melted unsalted butter",
+   "1 teaspoon pure vanilla extract",
+   "Up to ½ cup mix-ins, like chocolate chips, toasted and chopped pecans or walnuts, or a mix"
+  ],
+  "yield_text": "12 muffins",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Muffins"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/gluten-free-banana-muffins/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit and line all 12 muffin cups with paper liners."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, combine the almond flour, baking powder, cinnamon, baking soda, and salt. Whisk to combine, then set the bowl aside."
+   },
+   {
+    "title": null,
+    "text": "In a smaller mixing bowl, whisk the eggs to break them up. Add the mashed banana, maple syrup, melted butter, and vanilla. Whisk until the mixture is fully blended."
+   },
+   {
+    "title": null,
+    "text": "Pour the wet mixture into the dry ingredients, and stir with a big spoon until the mixture is evenly combined. If you’re adding mix-ins, gently stir them in now."
+   },
+   {
+    "title": null,
+    "text": "Fill the muffin cups halfway and divide any remaining batter evenly between the cups. Bake for 23 to 25 minutes, until the muffins are turning golden around the edges and a toothpick inserted in the center comes out clean."
+   },
+   {
+    "title": null,
+    "text": "Let the muffins cool in the pan for about 5 minutes, then transfer them to a wire rack to finish cooling. Muffins will keep at room temperature for up to 3 days, in the refrigerator for up to 1 week, or in the freezer for up to 3 months."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my healthy banana muffins, gluten-free banana bread and gluten-free pumpkin muffins.",
+   "*Sweetness level: Use less maple syrup if your bananas are overripe (spotty brown) and/or you prefer less sweet muffins. Use more maple syrup if your bananas are solid yellow and/or you prefer sweeter muffins.",
+   "Make it dairy free: Substitute coconut oil for the butter."
+  ],
+  "summary": "These gluten-free banana muffins are made with almond flour! This easy recipe uses simple ingredients and comes together by hand. Recipe yields 1 dozen muffins.",
+  "ingredient_groups": []
+ }
 }

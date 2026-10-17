@@ -27,7 +27,42 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/herbed-quinoa-and-pomegranate-salad/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the quinoa: First, rinse the quinoa in a fine mesh colander under running water for a minute or two. In a medium-sized pot, combine the rinsed quinoa and 2 cups water. Bring the mixture to a gentle boil, then cover the pot, reduce heat to a simmer and cook for 15 minutes. Remove the quinoa from heat and let it rest, still covered, for 5 minutes. Uncover the pot, drain off any excess water and fluff the quinoa with a fork. Set it aside to cool."
+   },
+   {
+    "title": null,
+    "text": "To toast the almonds: In a small skillet, heat the almonds over medium-low heat, stirring frequently, until they are fragrant and turning golden on the edges. Don’t let them burn! Transfer toasted almonds to your serving bowl to cool."
+   },
+   {
+    "title": null,
+    "text": "To prepare the dressing: Whisk together the olive oil, lemon juice, salt, cinnamon and a generous amount of freshly ground black pepper."
+   },
+   {
+    "title": null,
+    "text": "Final assembly: In your serving bowl, in addition to the almonds, combine the quinoa, chopped mint and parsley, pomegranate, cranberries and olives or cheese. Drizzle the dressing over the salad and toss to coat. Taste and mix in additional salt, pepper and/or olive oil if necessary. Serve right away or refrigerate for later."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Jessa’s quarter cup salad recipe (given to me verbally) and my experience in Israel.",
+   "Keep it vegan/dairy free: Don’t add cheese.",
+   "Make it nut free: Substitute pepitas (pumpkin seeds) for the almonds.",
+   "Storage suggestions: This salad will keep well in the refrigerator, covered, for a few days."
+  ],
+  "summary": "A healthy, light salad or side dish featuring quinoa, mint and parsley, pomegranate, almonds and lemon. This gluten-free dish would be a great addition to your holiday table! Recipe yields 4 medium servings or up to 8 small, side dish servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 7,
+    "title": "Dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

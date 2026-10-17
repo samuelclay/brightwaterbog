@@ -22,7 +22,26 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/mango-pineapple-green-smoothie/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Blend the spinach, coconut water and orange until smooth."
+   },
+   {
+    "title": null,
+    "text": "Add the mango, pineapple, lime juice and salt and blend again. Taste, and add more lime juice if desired (I like mine to have some kick)."
+   },
+   {
+    "title": null,
+    "text": "Pour the smoothie into two glasses and garnish each with a slice of lime."
+   }
+  ],
+  "notes": [
+   "Recipe just barely adapted from Simple Green Smoothies by Jen Hansard and Jadah Sellner."
+  ],
+  "summary": "This refreshing green smoothie recipe features frozen mango and pineapple and fresh orange and lime. You can’t taste the spinach, but it’s good for you! Recipe yields 2 smoothies.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

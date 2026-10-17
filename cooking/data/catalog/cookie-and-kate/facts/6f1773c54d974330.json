@@ -23,7 +23,36 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/apple-oatmeal-pancakes-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Place all the ingredients except for the grated apple in your blender. Blend until the batter is completely smooth (as in, you shouldn’t see any remaining bits of oats or hear oats hitting the blades), pausing to scrape down the sides as necessary. Stir in the grated apple but do NOT blend again."
+   },
+   {
+    "title": null,
+    "text": "Heat a heavy cast iron skillet/non-stick pan over medium-low heat, or heat an electric griddle to 350 degrees Fahrenheit. Lightly oil the surface of your pan with coconut oil, butter or cooking spray. If you’re using a non-stick electric griddle like mine, you might not need any oil at all."
+   },
+   {
+    "title": null,
+    "text": "Once the surface of the pan is hot enough that a drop of water sizzles on it, pour about ⅓ cup of batter onto the pan. This batter is thick, but your pancakes won’t cook through if they’re thicker than ½-inch, so you might need to help spread the batter out with a spatula. Let the pancake cook for about 3 minutes, until bubbles are popping up and the edges are more matte than shiny. (Be patient, these pancakes need to cook a little lower and slower than most.)"
+   },
+   {
+    "title": null,
+    "text": "Once the underside is lightly golden, flip it with a spatula and cook for another 90 seconds or so, until golden brown on both sides. You may need to adjust the heat up or down at this point to avoid burning the outsides before the insides are cooked. Repeat with remaining pancakes."
+   },
+   {
+    "title": null,
+    "text": "Serve the pancakes immediately or keep warm in a 200 degree Fahrenheit oven."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my gluten-free peach pancakes and vegan pancakes, with reference to Kelly’s banana blender pancakes and Deb’s apple pancakes.",
+   "Applesauce substitutions: If you can’t find applesauce, use plain yogurt instead (I know this works with regular plain yogurt, but suspect that Greek yogurt will be too thick). For the yogurt version, increase the amount of maple syrup or honey to at least 1 tablespoon. Milk will not work.",
+   "Storage suggestions: These will keep well, covered and refrigerated, for several days. I bet they will freeze well, too!"
+  ],
+  "summary": "Fluffy apple pancakes that you can make in your blender! These healthy pancakes are gluten free, too (no flour required, just oats!). Recipe yields 6 medium pancakes about 4 inches in diameter. FAIR WARNING: For reasons that I have not been able to deduce, these pancakes haven’t turned out well for everyone like they did for me (I’ve made them six times and they always turned out well!). Oat flour is always a little finicky but I don’t know why these pancakes have been particularly problematic. These pancakes are the reason why my cookbook’s pancakes aren’t oat flour based.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

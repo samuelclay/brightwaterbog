@@ -1,6 +1,81 @@
 {
  "url": "https://cookieandkate.com/peanut-soba-noodle-slaw-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Peanut-Sesame Slaw with Soba Noodles",
+  "ingredients": [
+   "4 ounces soba noodles or whole wheat spaghetti",
+   "1 very small purple or green cabbage, sliced into quarters and core removed (about 16 ounces/6 cups shredded)",
+   "½ pound (about 12) Brussels sprouts, nubby ends removed, or additional cabbage (about 2 cups shredded)",
+   "4 carrots, peeled",
+   "1 bunch of green onions, trimmed and sliced into thin rounds",
+   "½ cup peanut butter",
+   "3 tablespoons white wine vinegar or rice vinegar",
+   "3 tablespoons toasted sesame oil",
+   "3 tablespoons reduced-sodium tamari or other soy sauce",
+   "2 tablespoons honey or maple syrup",
+   "1 tablespoon finely grated fresh ginger",
+   "2 garlic cloves, pressed or minced",
+   "Sprinkle of coarsely chopped peanuts",
+   "Handful of cilantro, coarsely torn",
+   "1 lime, sliced into wedges",
+   "Optional, for spice lovers: sriracha or chili-garlic sauce"
+  ],
+  "yield_text": "4 to 8",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Asian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/peanut-soba-noodle-slaw-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cook the soba noodles: Bring a large pot of water to boil and cook the noodles according to package directions. Drain and rinse with cold water before returning to pot."
+   },
+   {
+    "title": null,
+    "text": "Prepare the vegetables: This is easier in a food processor than by hand. If using a food processor, shred the cabbage and sprouts with the slicing disk, then grate the carrots using the grating disk. Or use a chef’s knife to chop the cabbage and sprouts into thin strips, then coarsely grate the carrots."
+   },
+   {
+    "title": null,
+    "text": "Prepare the dressing: In a 2-cup liquid measuring cup or medium bowl, whisk together the dressing ingredients until smooth. If the mixture should be thick but drizzly; if it’s too thick, whisk in water in 1 tablespoon increments until it is (at which point you might need to add a little salt, to taste, since the flavors have been diluted.)"
+   },
+   {
+    "title": null,
+    "text": "In a large serving bowl, combine the cooked soba noodles, shredded cabbage and sprouts, grated carrots, and chopped green onions. Pour dressing over the vegetables and toss to coat (you may or may not need all of the dressing). For best flavor, let the slaw marinate for 20 minutes before serving."
+   },
+   {
+    "title": null,
+    "text": "Serve slaw with a sprinkling of chopped peanuts, torn cilantro and a lime wedge. Serve with sriracha on the side, if you’d like a spicy kick. This slaw keeps very well for a few days (covered and refrigerated). Before serving, wake up the flavors with a dash of lime juice or vinegar and more fresh cilantro."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from River Cottage Veg.",
+   "Make it gluten free: Either omit the noodles or buy certified gluten-free soba noodles. You might also have good results with a firm gluten-free spaghetti, like a corn and quinoa variety. Be sure to use tamari (check the label to make sure it’s gluten free) instead of regular soy sauce, which is not gluten free.",
+   "Make it vegan: Use maple syrup instead of honey.",
+   "Halve it: This makes a whole lot of slaw! Feel free to halve the recipe by buying about 4 cups prepared slaw mix and roughly halving the dressing ingredients."
+  ],
+  "summary": "Healthy Asian slaw made with cabbage, carrots and soba noodles, tossed in a bold peanut-sesame sauce. This slaw recipe is very flexible—feel free to omit the noodles and/or brussels sprouts and buy pre-shredded slaw mix for easier preparation (you’ll need about 8 cups slaw mix). Recipe yields 4 generous servings or 8 side servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Slaw"
+   },
+   {
+    "at": 5,
+    "title": "Peanut-sesame dressing"
+   },
+   {
+    "at": 12,
+    "title": "Garnish"
+   }
+  ]
+ }
 }

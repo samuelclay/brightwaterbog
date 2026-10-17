@@ -28,7 +28,32 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/simple-kale-and-black-bean-burritos/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a bowl, combine the kale, cilantro, jalapeño, lime juice, olive oil, cumin, chili powder and sea salt. Mix well and set the bowl aside to marinate."
+   },
+   {
+    "title": null,
+    "text": "Warm the beans and minced garlic with a couple of tablespoons of water. You can do this in your smallest sauce pan on the stove over medium-low heat (sauté the garlic in a drizzle of olive oil before adding the beans) or in a bowl in the microwave. Add little splashes of water as necessary. Use a fork to mash up the beans a little and add salt to taste, if necessary."
+   },
+   {
+    "title": null,
+    "text": "Warm the tortilla in a skillet or in the microwave for a few seconds. Top the tortilla with the black bean mixture, sliced avocado and marinated kale (you may end up with more kale than will fit in your burrito, which you can serve on the side as a salad). Top with red onion and feta."
+   },
+   {
+    "title": null,
+    "text": "Roll up the burrito by first folding the tortilla over from the bottom to partially cover the beans and greens, then fold in the 2 sides; finish rolling and put the burrito seam side down on a plate. Slice in half, if desired, and serve with sour cream or plain Greek yogurt on the side if you’d like."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Mark Bittman’s beans ‘n greens burrito in The Food Matters Cookbook and Ashley’s jalapeno and lime marinated kale tostada.",
+   "Make it vegan: Omit the feta.",
+   "Make it gluten free: Use a gluten-free tortilla."
+  ],
+  "summary": "This simple burrito recipe is filled with cooked black beans and lime-marinated greens. It’s healthy and packed with flavor! You’re going to love it.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

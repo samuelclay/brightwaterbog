@@ -1,6 +1,58 @@
 {
  "url": "https://cookieandkate.com/egg-bites/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Egg Bites",
+  "ingredients": [
+   "8 large eggs",
+   "1 cup (8 ounces) cottage cheese (4% milkfat or higher, made with whole milk)",
+   "1 ½ cups (6 ounces) shredded Monterey Jack, divided",
+   "¼ teaspoon fine salt",
+   "10 twists of freshly ground black pepper",
+   "2 teaspoons unsalted butter",
+   "¼ cup chopped green onion or 2 tablespoons chopped chives",
+   "1 ½ cups finely chopped spinach",
+   "½ cup finely chopped roasted red peppers (jarred is fine*)",
+   "Several dashes of hot sauce (optional)"
+  ],
+  "yield_text": "12",
+  "cook_time": "40 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/egg-bites/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 325 degrees Fahrenheit, and line all twelve muffin cups with paper liners. In a kettle or medium saucepan, bring 3 cups of water to a boil and maintain a simmer until it’s needed."
+   },
+   {
+    "title": null,
+    "text": "In a blender, combine the eggs, cottage cheese, 1 cup of the shredded cheese, and the salt and pepper. Blend on high for 8 to 10 seconds, just until the mixture is smooth and frothy (no longer!). Set it aside."
+   },
+   {
+    "title": null,
+    "text": "Melt the butter in a large skillet over medium heat. Add the green onion and a pinch of salt, and stir to combine. Add the spinach and roasted red pepper, and cook just until the spinach is wilted, about 1 to 2 minutes. Remove the mixture from the heat and let it cool for a couple of minutes, then stir it into the blender mixture."
+   },
+   {
+    "title": null,
+    "text": "Place the prepared muffin pan on a large, rimmed baking sheet. Carefully pour the egg mixture into the muffin cups, filling each cup about three-fourths full. Divide the remaining ½ cup of shredded cheese over the egg bites, then transfer the stacked pans to the oven. Carefully pour the hot water into the sheet pan, just enough to submerge the bottom of the muffin cups."
+   },
+   {
+    "title": null,
+    "text": "Bake for 26 to 30 minutes, until the egg bites have set. Remove the muffin pan from the sheet pan of water in the oven, let the bites rest for 5 minutes, then transfer the bites to a cooling rack. Egg bites will keep in the fridge, covered, for up to 4 days, or in the freezer for up to 3 months. Remove the paper liners before reheating them in a microwave or on a rimmed baking sheet in a 300-degree oven until warmed through (they will release some moisture while reheating, which you can discard; the paper liners will trap it, so remove those beforehand)."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Starbucks’ Egg White & Roasted Red Pepper Egg Bites, adapted from The New York Times’ Cottage Cheese Egg Bites with insights from AllRecipes.",
+   "*Roasted red pepper recommendations: Some jarred peppers taste better than others. My favorite brands are Divina and Whole Foods 365."
+  ],
+  "summary": "These egg bites are cheesy, tender, fluffy and delicious! Inspired by Starbucks, this recipe is easy to make at home. Egg bites are the perfect grab-and-go breakfast or protein-rich snack. They freeze well and defrost quickly in the microwave! Recipe yields 1 dozen egg bites.",
+  "ingredient_groups": []
+ }
 }

@@ -46,7 +46,36 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2013/01/carrot-soup-with-tahini-and-crisped-chickpeas/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat two tablespoons olive oil in heavy large pot over medium heat. Add carrots, onion, garlic, coriander, cumin, salt and pepper flakes and sauté until they begin to brown, about 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, heat your oven to 425 degrees F. Toss chickpeas with one tablespoon olive oil, salt and cumin until they’re all coated. Spread them on a baking sheet or pan and roast them in the oven until they’re browned and crisp. This can take anywhere from 10 to 20 minutes, depending on the size and firmness of your chickpeas. Toss them occasionally to make sure they’re toasting evenly."
+   },
+   {
+    "title": null,
+    "text": "Once vegetables have begun to brown, add broth, using it to scrape up any bits stuck to the bottom of the pot. Cover pot with lid and simmer until carrots are tender, stirring occasionally, about 30 minutes."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, in a small dish, whisk together tahini, lemon juice, salt and water until smooth with a yogurt-like consistency. If more liquid is needed to thin it, you can add more lemon juice or water, a spoonful at a time, until you get your desired consistency."
+   },
+   {
+    "title": null,
+    "text": "Spread pita wedges on a second baking sheet and brush lightly with olive oil. Sprinkle with za’atar or a combination of sea salt and sesame seeds and toast in oven with chickpeas until brown at edges, about 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Puree soup in a blender or with an immersion blender until smooth. Ladle into bowls. Dollop each with lemon-tahini, sprinkle with crisped chickpeas and garnish with chopped parsley. Serve with pita wedges. Forget January, you’d eat this anytime. Right?"
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -1,6 +1,45 @@
 {
  "url": "https://cookieandkate.com/perfect-quinoa/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Perfect Quinoa",
+  "ingredients": [
+   "1 part uncooked quinoa",
+   "2 parts water (e.g. 2 cups water)",
+   "Salt, to taste (around ¼ teaspoon salt per cup of dry quinoa)"
+  ],
+  "yield_text": "3 cups",
+  "cook_time": "22 minutes",
+  "categories": [
+   "Staple"
+  ],
+  "cuisines": [
+   "Peruvian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/perfect-quinoa/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Rinse the quinoa: Pour the quinoa into a fine mesh colander and rinse under running water for at least 30 seconds. Drain well. This step removes any bitterness on the outside of the quinoa (caused by naturally occurring saponins)."
+   },
+   {
+    "title": null,
+    "text": "Combine the rinsed quinoa and water in a saucepan. Bring the mixture to a boil over medium-high heat, then decrease the heat a bit to maintain a gentle simmer. Cook until the quinoa has absorbed all of the water, about 10 to 20 minutes (small amounts of quinoa will be ready closer to 10 minutes; larger amounts between 15 to 20). Reduce heat as time goes on to maintain a gentle simmer."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from heat, cover, and let the quinoa steam for 5 minutes. This step gives the quinoa time to pop open into little curlicues, so it’s nice and fluffy. Remove the lid and fluff the quinoa with a fork. Season with salt, to taste, unless you’re proceeding with another recipe as written."
+   }
+  ],
+  "notes": [
+   "Serving suggestions: I love to stir a drizzle of olive oil and clove of garlic into warm quinoa for extra flavor. Other options include chopped fresh spinach or arugula, or massaged kale. Fresh herbs and/or dried spices are nice, as well as grated or crumbled cheese, sun-dried tomatoes, pitted and sliced olives, etc.",
+   "Storage suggestions: Leftover quinoa keeps well, refrigerated, for 4 to 5 days. Make sure it has cooled to room temperature before covering and chilling."
+  ],
+  "summary": "Learn how to cook perfect quinoa, every time. I’ve tried all the other quinoa cooking methods and this one works best. It’s easy to cook fluffy quinoa when you know the right way to do it!",
+  "ingredient_groups": []
+ }
 }

@@ -16,7 +16,30 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/baked-sweet-potato-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 450 degrees Fahrenheit with a rack in the middle and another rack directly below it. Line the interior of a large, rimmed baking sheet with parchment paper to catch any sweet potato drippings."
+   },
+   {
+    "title": null,
+    "text": "To prepare the sweet potatoes, scrub them clean with a vegetable brush under running water. Using a fork, prick the sweet potatoes about 6 to 8 times each, about ¼ inch deep."
+   },
+   {
+    "title": null,
+    "text": "Place the sweet potatoes directly on the middle rack, and place the prepared baking sheet on the rack below to catch any drippings."
+   },
+   {
+    "title": null,
+    "text": "Bake for 45 to 65 minutes, until the sweet potatoes yield to a gentle squeeze (if the potatoes are starting to drip from their pierced holes, that’s a good sign to start checking them for doneness). Serve as desired."
+   }
+  ],
+  "notes": [
+   "Optional: For improved sweet potato skin (in both texture and flavor), rub each sweet potato very lightly with extra-virgin olive oil before baking."
+  ],
+  "summary": "Make the perfect baked sweet potato with this simple recipe! These baked sweet potatoes are perfectly tender throughout and silky smooth. Bake up just one sweet potato or several in the oven at once, then top as desired.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

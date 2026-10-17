@@ -31,7 +31,41 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/anything-goes-kale-salad-with-green-tahini-dressing/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the kale (skip this step if you’re using any other kind of fresh green), first use a sharp chef’s knife to remove the center ribs from the kale, then discard the ribs. Chop the kale into small, bite-sized pieces. Then, sprinkle the kale lightly with salt, and massage the kale by scrunching handfuls at a time until the kale is darker in color and fragrant. This step reduces the bitterness in the kale and improves its texture."
+   },
+   {
+    "title": null,
+    "text": "In a bowl, combine the prepared kale, leftover grains (I like to warm mine a bit in the microwave first), carrot, radishes, toasted pepitas, and/or your toppings of choice."
+   },
+   {
+    "title": null,
+    "text": "To make the dressing: Combine all of the ingredients in a blender or food processor and blend until smooth, pausing to scrape down the sides as necessary. Taste, and blend in additional salt if the dressing needs a little more oomph. If you’d like spicier dressing, blend in a pinch of red pepper flakes. If the dressing is too bold for your liking, dilute it with a little more olive oil and blend again."
+   },
+   {
+    "title": null,
+    "text": "Drizzle the green tahini dressing generously over the salad (you’ll still have plenty leftover) and enjoy."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Be sure to use a gluten-free option like rice or quinoa.",
+   "Make it vegan: Use maple syrup instead of honey.",
+   "Storage suggestions: This dressing keeps well, refrigerated, for about 1 week."
+  ],
+  "summary": "This super versatile kale salad features an amazing tahini dressing. Just add massaged kale, leftover cooked grains and veggies from your crisper drawer. Recipe yields 1 hearty meal-sized salad, so multiply as necessary.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per salad"
+   },
+   {
+    "at": 6,
+    "title": "Green tahini dressing (yields about ¾ cup, so you’ll have plenty for future salads)"
+   }
+  ]
  },
  "parser_version": 2
 }

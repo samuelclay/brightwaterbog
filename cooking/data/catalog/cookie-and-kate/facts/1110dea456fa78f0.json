@@ -19,7 +19,26 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/blistered-shishito-peppers-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Rinse and pat the peppers dry on a clean tea towel. Transfer the peppers to a medium bowl, drizzle in the oil, and toss until the peppers are evenly coated. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Preheat a medium skillet over medium heat until it’s hot enough that a drop of water sizzles and evaporates quickly on contact. Add the peppers and let them cook, stirring every minute or so (not too often), until they are tender with charred spots, about 8 to 12 minutes."
+   },
+   {
+    "title": null,
+    "text": "Transfer the peppers to a serving plate. Spritz with a lemon wedge, if desired. Sprinkle with salt, to taste (don’t skimp). Serve with a little bowl on the side for the pepper stems."
+   }
+  ],
+  "notes": [
+   "Pepper options: This recipe will also work with Padrón peppers and guindilla peppers."
+  ],
+  "summary": "Blistered shishitos are easy to make and totally irresistible! You’ll just need shishitos, olive oil, a skillet, and this simple recipe. Recipe yields 4 appetizer servings; you can double the recipe in a large skillet.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

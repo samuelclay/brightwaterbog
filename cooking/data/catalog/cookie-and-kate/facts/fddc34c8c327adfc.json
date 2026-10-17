@@ -22,7 +22,31 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/roasted-vegetables-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper for easy clean-up."
+   },
+   {
+    "title": null,
+    "text": "On the baking sheet, gently toss the vegetables with the olive oil and salt. Arrange them evenly across the baking sheet."
+   },
+   {
+    "title": null,
+    "text": "Bake for 25 to 30 minutes, stirring halfway, until the edges are turning nicely golden and the vegetables are easily pierced through by a fork. If desired, toss with the butter and vinegar immediately after baking."
+   },
+   {
+    "title": null,
+    "text": "Serve while warm. Leftover roasted vegetables will keep well in the refrigerator for up to five days."
+   }
+  ],
+  "notes": [
+   "Make it vegan/dairy free: Don’t add butter or substitute vegan butter.",
+   "Change it up: Try 8 ounces Brussels sprouts (about 2 generous handfuls—using both hands), halved, in place of the broccoli florets. You could probably substitute a couple handfuls of cherry tomatoes for any the options written. Other vinegar options include red wine vinegar, sherry vinegar, apple cider vinegar or balsamic vinegar. You could also try lemon or lime juice."
+  ],
+  "summary": "Broccoli, bell pepper, red onion and carrots roast to golden perfection on one sheet pan. This mixed roasted vegetable recipe is the perfect side dish for everyday dinners and it’s festive enough for holidays. Recipe yields 4 generous servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

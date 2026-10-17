@@ -1,6 +1,6 @@
 {
  "url": "https://cookieandkate.com/18-light-summer-dinner-recipes/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
+ "status": "no-recipe-data",
+ "via": "wp-json",
  "parser_version": 2
 }

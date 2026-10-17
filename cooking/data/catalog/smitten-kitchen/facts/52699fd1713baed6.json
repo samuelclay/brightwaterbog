@@ -33,7 +33,16 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2026/07/spaghetti-aglio-e-olio/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "In well-salted water, boil your spaghetti until it’s 1 to 2 minutes shy of done. Before draining it, set aside 1 cup of pasta cooking water, then drain the rest. In your empty pan, combine olive oil, garlic, and pepper flakes and then turn the heat to medium. [Starting the mixture cold is how I keep the garlic from cooking too fast.] Cook, stirring, until the garlic begins to take on a golden color. Add the drained pasta and half the reserved cooking water and heat together, stirring vigorously, until the pasta water and garlic oil combine to make a glossy coating for the spaghetti. Add more of the reserved pasta water as needed to keep it loose — I almost always use the second half-cup. Toss in parsley, any additional seasoning, if needed, and serve right away with an extra drizzle of olive oil on top. Parmesan on top is not traditional, but your house, your rules, okay?"
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

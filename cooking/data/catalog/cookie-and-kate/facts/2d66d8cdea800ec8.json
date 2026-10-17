@@ -28,7 +28,44 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/arugula-and-cremini-quiche-with-gluten-free-almond-meal-crust/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 400 degrees Fahrenheit. Grease a 10-inch cast iron skillet or 9″ pie pan with olive oil or cooking spray. In a mixing bowl, stir together the almond meal, garlic, thyme, salt and pepper. Pour in the olive oil and water and stir until the mixture is thoroughly combined."
+   },
+   {
+    "title": null,
+    "text": "Press the dough into your prepared skillet/pan until it is evenly dispersed across the bottom and at least 1 ¼ inch up the sides. Bake until the crust is lightly golden and firm to the touch, about 15 to 20 minutes."
+   },
+   {
+    "title": null,
+    "text": "In a large skillet over medium heat, warm enough olive oil to lightly coat the pan. Cook the mushrooms with a dash of salt, stirring often, until tender. Toss in the arugula and let it wilt, while stirring, about 30 seconds. Transfer the mixture to a plate to cool."
+   },
+   {
+    "title": null,
+    "text": "In a mixing bowl, whisk together the eggs, milk, salt and red pepper. Stir in the goat cheese and the slightly cooled mushroom and arugula mixture."
+   },
+   {
+    "title": null,
+    "text": "Once the crust is done baking, pour in the egg mixture and bake for 30 minutes, or until the center is firm to the touch and cooked through. Let the quiche cool for 5 to 10 minutes before slicing with a sharp knife. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Crust adapted from Roost’s Rainbow Chard Tartlets. Thyme/goat cheese/mushroom/arugula flavor combination inspired by What to Drink with What You Eat.",
+   "Yields 6 large slices."
+  ],
+  "summary": "Arugula, Cremini mushrooms and goat cheese quiche in a gluten-free thyme and almond meal crust. A simple, gourmet recipe for breakfast, brunch or dinner!",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Gluten-free almond meal crust"
+   },
+   {
+    "at": 7,
+    "title": "Arugula, Cremini mushroom and goat cheese filling"
+   }
+  ]
  },
  "parser_version": 2
 }

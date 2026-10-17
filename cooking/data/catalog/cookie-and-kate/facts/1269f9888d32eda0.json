@@ -25,7 +25,40 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/avocado-pesto-toast-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To toast the pepitas, pour them into a small skillet. Cook over medium heat, stirring frequently, until they are making little popping noises and starting to make little popping noises. Transfer to a bowl to cool."
+   },
+   {
+    "title": null,
+    "text": "To make the pesto, pit and halve the avocados and scoop the insides into the bowl of a food processor. Add the garlic, lemon juice, and salt. Blend until smooth, pausing to scrape down the sides as necessary."
+   },
+   {
+    "title": null,
+    "text": "Add the toasted pepitas and basil leaves and pulse until the pepitas and basil are broken down into very small pieces and the mixture is well-blended. Taste, mix in more salt if the mixture doesn’t taste totally awesome yet."
+   },
+   {
+    "title": null,
+    "text": "Toast the bread, then spread a generous amount of avocado pesto over each slice. Serve as is, or with eggs and/or tomatoes. Sprinkle lightly with freshly ground black pepper, red pepper flakes (for heat) and/or flaky sea salt, if desired. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Make it vegan: Skip the eggs!",
+   "Storage suggestions: The spread yields about 1 ½ cups, so you might have some extra. Leftover spread will keep in a small bowl with plastic wrap pressed against the top in the refrigerator for two to three days; scoop off the top layer before serving if turns brown."
+  ],
+  "summary": "This avocado pesto toast recipe is fantastic for breakfast, brunch or any time of day, really! Serve it as-is or add eggs and tomatoes for a complete meal. Recipe yields enough for 4 toasts, or 2 to 4 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Toasts"
+   },
+   {
+    "at": 7,
+    "title": "Optional accompaniments"
+   }
+  ]
  },
  "parser_version": 2
 }

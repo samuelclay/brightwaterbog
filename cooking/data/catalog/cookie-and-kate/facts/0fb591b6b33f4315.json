@@ -1,6 +1,55 @@
 {
  "url": "https://cookieandkate.com/easy-dukkah-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Easy Dukkah",
+  "ingredients": [
+   "½ cup walnuts",
+   "⅓ cup almonds or hazelnuts",
+   "2 tablespoons sesame seeds",
+   "1 teaspoon ground coriander",
+   "1 teaspoon ground cumin",
+   "⅛ teaspoon ground allspice",
+   "½ teaspoon fine sea salt",
+   "About 20 twists of freshly ground black pepper"
+  ],
+  "yield_text": "1 cup",
+  "cook_time": "8 minutes",
+  "categories": [
+   "Condiment"
+  ],
+  "cuisines": [
+   "Egyptian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/easy-dukkah-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large skillet over medium heat, combine the walnuts and almonds. Cook, stirring often, until the nuts are starting to smell fragrant, about 3 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the sesame seeds to the pan and continue cooking, stirring often, until the sesame seeds are turning lightly golden on the edges. Remove the pan from the heat, and transfer the nut and seed mixture to a food processor."
+   },
+   {
+    "title": null,
+    "text": "Add the coriander, cumin, allspice, salt and pepper. Run the food processor for about 10 seconds, or until the nuts are broken into a coarse, sand-like texture (don’t overdo it!)."
+   },
+   {
+    "title": null,
+    "text": "Transfer the dukkah to a bowl for serving, or store it in an air-tight container for 1 to 2 weeks."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Zaitoun by Yasmin Khan.",
+   "If you’d like to use whole spices: Substitute 1 tablespoon each whole coriander and cumin, and add them to the skillet when you add the sesame seeds.",
+   "Make it nut free: This is a stretch, but you could substitute raw sunflower seeds and pepitas for the nuts. Use ⅓ cup each."
+  ],
+  "summary": "This dukkah recipe is so easy to make! Dukkah is a nut and spice blend from Egypt—sprinkle it over bread dipped in olive oil, vegetables, hummus and more. Recipe yields 1 scant cup.",
+  "ingredient_groups": []
+ }
 }

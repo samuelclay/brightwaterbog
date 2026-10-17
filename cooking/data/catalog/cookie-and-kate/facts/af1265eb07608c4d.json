@@ -30,7 +30,43 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/raw-kale-asian-salad/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, make the dressing. Simply blend all dressing ingredients thoroughly in a food processor or blender."
+   },
+   {
+    "title": null,
+    "text": "Pull the kale leaves off from the tough stem, and break into small, bite sized pieces. Sprinkle with sea salt and massage the leaves for a couple of minutes, meaning that you should scrunch handfuls of kale in your hands, release, repeat. The kale will become darker in color and more fragrant. This step improves the taste of raw kale."
+   },
+   {
+    "title": null,
+    "text": "Throw the kale into a bowl, drizzle in the salad dressing (don’t skimp), and toss thoroughly."
+   },
+   {
+    "title": null,
+    "text": "Add the avocado, carrots, cabbage and red onion."
+   },
+   {
+    "title": null,
+    "text": "Top with cilantro and a big sprinkle of sesame seeds. Enjoy!"
+   }
+  ],
+  "notes": [
+   "This dressing keeps well for about four days in the fridge. I actually think it tastes better after refrigerating overnight. The dressed salad should keep well for a couple of days in the refrigerator, covered. For best results, top with avocado just before serving."
+  ],
+  "summary": "A beautiful raw kale salad tossed in a zippy red pepper and ginger dressing. Note that this recipe yields enough dressing for four medium-sized salads. The salad ingredients yield one medium-sized salad, so multiply by up to four if you’re feeding friends or family.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Raw Red Pepper and Ginger Salad Dressing"
+   },
+   {
+    "at": 9,
+    "title": "1 medium salad"
+   }
+  ]
  },
  "parser_version": 2
 }

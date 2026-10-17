@@ -1,6 +1,42 @@
 {
  "url": "https://cookieandkate.com/best-moscow-mule-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Moscow Mule Cocktail",
+  "ingredients": [
+   "2 ounces vodka",
+   "½ ounce fresh lime juice (about ½ medium lime)",
+   "4 ounces ginger beer",
+   "Lime wedge, for garnish"
+  ],
+  "yield_text": "1 drink",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-moscow-mule-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Fill a copper mug or similarly sized glass with ice. Pour in the vodka and lime juice. Fill the glass with ginger beer and gently stir it with a spoon once to mix."
+   },
+   {
+    "title": null,
+    "text": "Garnish with a lime wedge, and enjoy!"
+   }
+  ],
+  "notes": [
+   "Change it up: Garnish your Moscow Mule with a sprig of fresh mint for a drink reminiscent of a mint julep.",
+   "Recommended equipment: I love this citrus juicer for squeezing limes and lemons, and this stainless steel jigger for measuring small amounts of liquid. (Those are affiliate links.)"
+  ],
+  "summary": "Learn how to make the best Moscow Mule cocktail! They are so easy to make. Recipe yields 1 cocktail.",
+  "ingredient_groups": []
+ }
 }

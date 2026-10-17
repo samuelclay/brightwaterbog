@@ -47,7 +47,22 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2017/07/hummus-heaped-with-tomatoes-and-cucumbers/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Spread hummus on a large plate with the back of a spoon, creating swirls and cavities. Drizzle it lightly with olive oil, just to freshen it up."
+   },
+   {
+    "title": null,
+    "text": "Mix tomatoes, cucumbers, onion, lemon, about 1 1/2 tablespoons olive oil, plus salt and pepper to taste in a bowl. If you have sumac, add about 1/4 teaspoon. Stir in herbs. Heap salad on hummus, arrange pita wedges all around. Finish with additional za’atar, sumac, and/or fresh herbs."
+   }
+  ],
+  "notes": [
+   "This is so simple to make, it’s almost a non-recipe, but after sharing the cooking of this on Instagram last night, I received such a happy swarm of recipe requests, and I know it can help to have things in detail, I wanted to write it up. Salads like this are very flexible; I sometimes add bell pepper, other times radishes, and when I can get them, pomegranate arils. The key thing is that you want to chop everything very small; it should be scoopable. For a more fall-ish salad, I’d use this. If you’re looking for more protein (and of course are not trying to keep this vegan), hard boiled eggs are a popular hummus topping. If you’re looking to add meat, it’s not uncommon; I’d start with this lamb-lentil mixture."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -25,7 +25,22 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2008/05/green-bean-and-cherry-tomato-salad/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Prepare the vegetables: Top and tail the beans and cut them into large segments. Parboil the beans in salted water until just tender, about four to five minutes. Drain and immediately spread them out to cool. Stem the cherry tomatoes and cut them in half."
+   },
+   {
+    "title": null,
+    "text": "Make the vinaigrette: Peel and mince the shallot and put it in a bowl with the vinegar and salt and pepper. Whisk in the olive oil. Taste and adjust the balance with more vinegar, oil, or salt, as needed. Toss the cherry tomatoes in with the vinaigrette; this can sit for a while. Do not add the green beans until just before serving or they will discolor from the acid in the vinaigrette. For variety, the salad can be garnished with basil or some other fresh herb such as parsley, chervil or hyssop."
+   }
+  ],
+  "notes": [
+   "Do ahead: Beans and vegetables can be prepared ahead of time. Simply toss with the dressing only at the last minute, as it can discolor the green beans after several hours."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

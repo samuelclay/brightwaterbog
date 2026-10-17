@@ -29,7 +29,28 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2010/04/avocado-salad-with-carrot-ginger-dressing/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the dressing: Whiz the carrots, shallot and ginger in a blender or food processor until finely chopped. Scrape down the sides, then add the miso, vinegar and sesame oil. While the machine running, slowly drizzle in the grape seed oil and the water."
+   },
+   {
+    "title": null,
+    "text": "Assemble salad: Trim and chop lettuce into small wedges. Arrange on a platter. Scatter onion and avocado on top.* If you’d like, and I do, sprinkle some flaky sea salt and black pepper over the salad at this point. Dollop with plenty of dressing and serve with remaining dressing on the side."
+   },
+   {
+    "title": null,
+    "text": "I also added a few strips of purple and yellow carrot on top that had been cut with a juleinne peeler, plus some snipped chives. Toasted black and white sesame seeds would also make a pretty garnish here."
+   }
+  ],
+  "notes": [
+   "Note: This recipe was refreshed with new, less awful, photos in May 2017.",
+   "This recipe yields 1 to 1 1/4 cups dressing.",
+   "The major changes I made to the recipe were to increase the miso and sesame oil because I like it when their flavors are noticeable. This recipe has a real bite to it from the fresh ginger and the shallot. The original recipe suggested a large one, I suggest a more thimble-like small one. If you don’t want as loud of a ginger bite, use one tablespoon instead of two. This will make a lot but I like salads best with a heavy helping of this. You’ll go through it faster than you’d expect."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

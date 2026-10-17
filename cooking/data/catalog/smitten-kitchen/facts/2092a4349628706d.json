@@ -27,7 +27,38 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2007/06/dilled-potato-and-pickled-cucumber-salad/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "The day before, make pickles: Pour vinegar and 4 teaspoon salt into gallon-size resealable plastic bag and swish around to combine. Add cucumbers and dill branches; turn several times to coat with mixture. Refrigerate overnight. If and when you pop into the fridge, turn the bag to keep things well mixed."
+   },
+   {
+    "title": null,
+    "text": "Cook your potatoes: Although you don’t have to, I also like to boil my potatoes the day before, because I like them very cold, and it seems easier to get it out of the way. Boil them in a large pot salted water until tender, about 30 minutes. Drain, then cool completely. I leave them in the fridge overnight."
+   },
+   {
+    "title": null,
+    "text": "The next day: Drain cucumber mixture in a colander; if you’ve got an hour, you can drain it that long, but I never do. Discard brine and dill."
+   },
+   {
+    "title": null,
+    "text": "Assemble your salad: The original directions called for peeling your cold potatoes but I never do. Cut potatoes crosswise into 1/2-inch-thick slices. Place potatoes in large bowl; sprinkle generously with coarse salt and pepper. Add drained cucumbers, onion, sliced radishes, and remaining 3 tablespoons dill; toss to blend."
+   },
+   {
+    "title": null,
+    "text": "1 to 2 hours before serving: Stir mayonnaise into salad to taste. Season with additional salt and pepper. Serve cold or at room temperature."
+   }
+  ],
+  "notes": [
+   "Do ahead: Salad keeps dressed for a day. Salad keeps without mayo for a few days; I add mayo before serving. In both cases, keep it covered in the fridge.",
+   "This recipe was refreshed and slightly streamlined, with new photos added, in June 2017.",
+   "One of our favorite things about this salad is that it is as much vegetables — crunchy, delicious ones, half of which are lightly pickled — as it is potatoes, so it feels like something you might eat with dinner in warmer weather, and not only as a grilling side dish.",
+   "My preference is to assemble potato salads just an hour or two before eating it, so I mix everything and keep the mayo separate until needed. I actually found upon revisiting this recipe that I only needed half the mayo amount to get the salad as dressed as I want it (as dressed as you see here) but as this recipe has been on the site for 10 years and few have complained, I’m leaving it as written.",
+   "This makes a lot of salad. It absolutely feeds a crowd."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

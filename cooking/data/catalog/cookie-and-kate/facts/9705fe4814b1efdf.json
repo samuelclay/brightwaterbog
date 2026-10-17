@@ -31,7 +31,58 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/healthy-gingerbread-cookies/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 350 degrees Fahrenheit with racks in the middle and upper third of the oven. Line two large baking sheets with parchment paper. In a medium mixing bowl, combine the flour, ginger, cinnamon, salt, cloves, pepper, baking soda and baking powder. Whisk until blended."
+   },
+   {
+    "title": null,
+    "text": "In a small mixing bowl, combine the coconut oil and molasses and whisk until combined. Add the coconut sugar and whisk until blended. (If the sugar is gloppy and won’t incorporate into the mixture, warm the mixture for about 20 seconds in the microwave or over low heat on the stove, just until you can whisk it all together.) Add the egg and whisk until the mixture is thoroughly blended."
+   },
+   {
+    "title": null,
+    "text": "Pour the liquid mixture into the dry and mix just until combined. (If it seems like you don’t have enough liquid, just keep mixing!) Divide the dough in half. Shape each half into a round disc about 1 inch thick."
+   },
+   {
+    "title": null,
+    "text": "Lightly flour your working surface and roll out one of your discs until it’s ¼ inch thick. Use cookie cutters to cut out cookie shapes and place each cookie on a parchment-lined baking sheet, leaving about ½ inch of space around each one (this dough just barely expands during baking)."
+   },
+   {
+    "title": null,
+    "text": "Combine your dough scraps into a ball and roll them out again, repeating until you have used up all of your dough. Repeat with the remaining disc. (If you’d like to decorate the cookies with granulated sugar like turbinado or extra coconut sugar, sprinkle it onto the cookies now.)"
+   },
+   {
+    "title": null,
+    "text": "Place baking sheets in the oven, one on the middle rack and one on the upper. Bake for 8 to 11 minutes; for softer cookies, pull them out around 8 minutes and for more crisp cookies, bake for up to 11 minutes. The cookies will further crisp as they cool. Place the baking sheets on cooling racks to cool."
+   },
+   {
+    "title": null,
+    "text": "If you’d like to ice the cookies and/or sprinkle them with powdered sugar, wait until they have completely cooled to do so. To make the icing, in a small bowl, combine the powdered sugar, optional lemon zest and the lemon juice. Whisk until thoroughly blended. Transfer the icing into a small Ziploc bag, squeeze out any excess air and seal the bag. Cut off a tiny piece of one of the lower corners and squeeze icing through the hole to decorate the cookies as desired. The frosting will harden eventually, but it won’t ever be as indestructible as royal icing."
+   },
+   {
+    "title": null,
+    "text": "If you’d like to sift powdered sugar over the cookies, do it now. Wait until the icing has firmed up (about 1 hour) before carefully stacking the cookies in a storage container. Cookies will keep for up to 1 week at room temperature."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Martha Stewart, on Smitten Kitchen’s recommendation. Recipe updated in December 2018 to remove whole wheat flour as an option—it doesn’t work well. My sincere apologies to anyone who was disappointed by their cookies.",
+   "*Flour notes: This recipe works great with whole wheat pastry flour. You can generally find whole wheat pastry flour at well-stocked grocery stores, as well as health food stores. All-purpose flour will also work. The dough tends to be hard and crumbly when made with regular whole wheat flour so I don’t recommend it.",
+   "Make it vegan/egg free: A couple of readers have reported that the cookies turn out well with a flax egg.",
+   "2025 recipe update: After retesting this recipe, I realized that the chilling step is unnecessary, so this recipe has become even easier! I removed the following from the recipe: Wrap the discs in plastic wrap. Place both discs in the refrigerator and chill until cold—about 1 hour, or up to overnight. If the dough is very hard or crumbly, just roll it as best you can and then let it rest for a few minutes to warm up. Repeat until you’ve successfully rolled the dough to ¼ inch thickness."
+  ],
+  "summary": "Here’s a healthy version of your favorite classic gingerbread cookies! This gingerbread cookie recipe is healthier because of a few simple substitutions—I substituted whole wheat pastry flour for all purpose flour, coconut oil for butter and coconut sugar for brown sugar. See notes provided in the paragraphs above for tips and suggestions on choosing your molasses and decorations. Recipe yields around 32 cookies, depending on their size.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Cookies"
+   },
+   {
+    "at": 13,
+    "title": "Lemon icing (optional)"
+   }
+  ]
  },
  "parser_version": 2
 }

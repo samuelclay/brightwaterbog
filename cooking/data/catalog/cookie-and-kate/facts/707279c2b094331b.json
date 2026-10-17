@@ -1,6 +1,49 @@
 {
  "url": "https://cookieandkate.com/crispy-mushroom-spinach-and-avocado-quesadillas/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Crispy Mushroom, Spinach and Avocado Quesadillas",
+  "ingredients": [
+   "1 tablespoon olive oil",
+   "½ red onion, chopped",
+   "salt",
+   "8 to 10 ounces cremini mushrooms (AKA baby bellas), thinly sliced",
+   "6 ounces baby spinach, roughly chopped",
+   "½ small lime, juiced",
+   "2 ½ cups shredded raw Jack or cheddar cheese, divided",
+   "2 avocados from Mexico, cut into thin slices",
+   "4 medium whole wheat tortillas",
+   "jarred red salsa"
+  ],
+  "yield_text": "4",
+  "cook_time": "20 minutes",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/crispy-mushroom-spinach-and-avocado-quesadillas/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large skillet over medium heat, heat oil until shimmering. Add chopped red onion and a dash of salt, stirring occasionally, until the onions are turning translucent. Add sliced mushrooms and cook, stirring occasionally, until tender and turning golden, about 6 minutes. Add half of the spinach mixture, let it wilt a little, and then add the second. Cook until spinach is wilted and the mixture is dry, 2 to 3 minutes or longer. Season with salt and pepper and a splash of lime juice. Remove from heat."
+   },
+   {
+    "title": null,
+    "text": "Divide 1 cup shredded cheese between the 4 quesadillas, covering only half of each tortilla with cheese. Divide the spinach and mushroom mixture evenly on top of the cheese on each quesadilla, then top with avocado slices. Top all of that with 1 cup shredded cheese, divided equally between the 4 quesadillas. Press the empty tortilla halve over the toppings."
+   },
+   {
+    "title": null,
+    "text": "Heat a medium to large skillet (preferably cast iron) on the stove over medium heat. Place one quesadilla (or two, if they fit) into the pan. Cook for a few minutes, then flip carefully with a spatula. Immediately sprinkle some of the remaining cheese over the hot sides of the quesadillas, and let it melt as the other side cooks for a few minutes. Flip each quesadilla, and let the cheese sizzle into the quesadilla for a couple of minutes. Flip and cook the other side for a couple more minutes if necessary, until both sides are a nice, crisp golden brown. Let the quesadillas cool on a cutting board for a few minutes, then slice each quesadilla into three slices using a pizza cutter or a very sharp knife. Serve with salsa."
+   }
+  ],
+  "notes": [],
+  "summary": "Delicious, filling vegetarian quesadillas stuffed with mushrooms, spinach and creamy avocado. These quesadillas feature irresistibly crispy sides.",
+  "ingredient_groups": []
+ }
 }

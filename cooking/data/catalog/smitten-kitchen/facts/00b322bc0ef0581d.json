@@ -35,7 +35,42 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2007/10/butternut-squash-and-caramelized-onion-galette/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make pastry: Whisk together the flour and salt in a large bowl. Sprinkle bits of butter over dough and using a pastry blender or your fingertips, work the butter into the flour mixture until the mixture resembles coarse meal, with the biggest pieces of butter the size of tiny peas. Add sour cream, lemon juice and water and stir into butter-flour mixture with a wooden spoon or spatula until large lumps form. Tip the mixture out onto a large piece of parchment paper or plastic wrap and gather the lumpy dough into a slightly flattened ball, kneading once or twice to bring it together. Chill in the fridge until firm, about 1 to 2 hours."
+   },
+   {
+    "title": null,
+    "text": "Prepare squash: Heat your oven to 375°F.. Peel squash, then halve and scoop out seeds. Cut into a 1/2-inch dice. Toss pieces with olive oil and a half-teaspoon of the salt and roast on foil lined (for neatness sake) sheet for 30 minutes or until pieces are tender, turning it midway if your oven bakes unevenly. Set aside to cool slightly."
+   },
+   {
+    "title": null,
+    "text": "Caramelize onions: While squash is roasting, melt butter in a heavy skillet and cook onion over low heat with the remaining 1/2 teaspoon salt and pinch of sugar, stirring occasionally, until soft and lightly golden brown, about 20 minutes. Stir in cayenne."
+   },
+   {
+    "title": null,
+    "text": "Mix squash, caramelized onions, cheese and herbs together on a large plate, and let cool to room temperature."
+   },
+   {
+    "title": null,
+    "text": "Increase oven temperature to 400°F."
+   },
+   {
+    "title": null,
+    "text": "Assemble galette: On a floured work surface, roll the dough out into a 12-inch round. Transfer to parchment-lined baking sheet. Spread squash, onions, cheese and herb mixture over the dough, leaving a 1 1/2-inch border. Fold the border over the squash, onion and cheese mixture, pleating the edge to make it fit. The center will be open."
+   },
+   {
+    "title": null,
+    "text": "Bake: The galette until golden brown, 30 to 40 minutes. Remove from the oven, let stand for 5 minutes, then slide the galette onto a serving plate. Cut into wedges and serve hot, warm or at room temperature."
+   }
+  ],
+  "notes": [
+   "For a little extra shine on the crust, as shown in these photos, you can brush it with an egg wash (just one egg, beaten until evenly mixed) before baking it."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

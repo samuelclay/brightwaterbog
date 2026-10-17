@@ -21,7 +21,27 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/classic-pico-de-gallo-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium serving bowl, combine the chopped onion, jalapeño, lime juice and salt. Let it marinate for about 5 minutes while you chop the tomatoes and cilantro."
+   },
+   {
+    "title": null,
+    "text": "Add the chopped tomatoes and cilantro to the bowl and stir to combine. Taste, and add more salt if the flavors don’t quite sing."
+   },
+   {
+    "title": null,
+    "text": "For the best flavor, let the mixture marinate for 15 minutes or several hours in the refrigerator. Serve as a dip, or with a slotted spoon or large serving fork to avoid transferring too much watery tomato juice with your pico. Pico de gallo keeps well in the refrigerator, covered, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Change it up: Add a diced avocado to the mixture, or see my list provided above the recipe for alternatives to tomatoes.",
+   "Cilantro haters: You can significantly decrease the amount of cilantro used, or omit it completely if you insist! I don’t recommend substituting parsley here."
+  ],
+  "summary": "This pico de gallo recipe is fresh, delicious and easy to make! You’ll need only 5 ingredients to make this classic Mexican dip—tomato, onion, cilantro, jalapeño and lime. Recipe yields about 4 cups (about 8 servings).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

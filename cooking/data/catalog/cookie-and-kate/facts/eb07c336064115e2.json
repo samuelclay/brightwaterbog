@@ -32,7 +32,41 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/spring-panzanella-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 375 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper. On the baking sheet, toss the cubed bread with the olive oil, salt and pepper. Bake for 12 to 14 minutes, until crisp."
+   },
+   {
+    "title": null,
+    "text": "In a large serving bowl, combine the roughly chopped greens, sliced fennel, fresh peas (yep, they’re raw!), pea shoots and sunflower seeds."
+   },
+   {
+    "title": null,
+    "text": "Whisk together the dressing ingredients until emulsified. Drizzle the dressing over the salad mixture and toss to combine. Once the croutons have had a few minutes to cool down, toss those in as well and serve."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from The Easy Vegetarian Kitchen by Erin Alderson.",
+   "Make it vegan: Simply use maple syrup or agave nectar instead of honey.",
+   "Make it gluten free: Use some great gluten-free bread in place of the whole grain bread."
+  ],
+  "summary": "Fresh panzanella recipe for springtime! Panzanella is a traditional Tuscan salad. This spring green version features fresh peas, pea shoots and fennel. If you intend to have leftovers, I suggest storing the greens and croutons separately from the rest and tossing it all together just before serving. Recipe yields 2 generous portions or 4 side salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Homemade croutons"
+   },
+   {
+    "at": 4,
+    "title": "Salad"
+   },
+   {
+    "at": 9,
+    "title": "Dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

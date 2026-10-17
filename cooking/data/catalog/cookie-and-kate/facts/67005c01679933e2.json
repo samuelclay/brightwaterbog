@@ -1,6 +1,60 @@
 {
  "url": "https://cookieandkate.com/creamy-scrambled-eggs-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Spinach Scrambled Eggs with Goat Cheese",
+  "ingredients": [
+   "8 large eggs",
+   "⅓ cup whole milk or milk of choice",
+   "Pinch of fine salt",
+   "Freshly ground black pepper",
+   "1 tablespoon unsalted butter",
+   "3 cups baby spinach, roughly chopped",
+   "4 ounces goat cheese, crumbled (about 1 cup)",
+   "½ cup chopped green onion, mostly green parts",
+   "⅓ cup oil-packed sun-dried tomatoes, rinsed and roughly chopped",
+   "Optional, for serving: flaky sea salt for sprinkling on top, toasted whole-grain bread"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Vegetarian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/creamy-scrambled-eggs-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Crack the eggs into a large bowl. Add the milk, salt and about 10 twists of black pepper. Whisk until the mixture is thoroughly combined and pure yellow. Be sure to have your remaining ingredients prepped and ready, because this recipe comes together quickly once you start cooking."
+   },
+   {
+    "title": null,
+    "text": "Warm a medium skillet over medium heat. Add the butter and let it melt."
+   },
+   {
+    "title": null,
+    "text": "Add the spinach and cook, stirring with a silicone or rubber spatula, until the spinach is wilted and bright green, about 1 to 2 minutes."
+   },
+   {
+    "title": null,
+    "text": "Pour the eggs into the skillet and reduce the heat to medium-low. Use your spatula to gently stir and push the eggs around the skillet until the eggs are clumpy but still slightly wet, about 3 to 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the skillet from the heat. Add the goat cheese, green onion and sun-dried tomatoes, and gently stir to combine. Divide the mixture into bowls. Sprinkle lightly with optional flaky sea salt, and serve with toast if you’d like. Serve promptly."
+   }
+  ],
+  "notes": [
+   "Storage suggestions: These scrambled eggs are best enjoyed immediately, but will keep in the refrigerator, covered, for up to 3 days. Gently reheat in the microwave before serving (don’t overdo it).",
+   "Change it up: The goat cheese is essential, but you can easily omit the other mix-ins (spinach, green onion and sun-dried tomatoes) for more simple eggs. You could replace the spinach with baby arugula, or fold in any prepared vegetables at the end. Fresh, leafy herbs would be nice here, such as basil, dill, parsley or cilantro."
+  ],
+  "summary": "Make outrageously creamy scrambled eggs with goat cheese, spinach and sun-dried tomatoes. Cook these eggs for breakfast, brunch or dinner. Recipe yields 2 large or 4 smaller servings (this recipe is easily halved).",
+  "ingredient_groups": []
+ }
 }

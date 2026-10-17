@@ -1,6 +1,71 @@
 {
  "url": "https://cookieandkate.com/pesto-pizza/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Pesto Pizza",
+  "ingredients": [
+   "1 batch Easiest Whole Wheat Pizza Dough or 1 pound store-bought pizza dough",
+   "12 ounces ciliegine mini fresh mozzarella balls or large fresh mozzarella balls or shredded part-skim mozzarella",
+   "10 cherry or grape tomatoes, quartered lengthwise",
+   "Optional garnishes: Reserved fresh basil, finely grated Parmesan or red pepper flakes",
+   "2 cups packed fresh basil leaves (about 3 ounces or 2 large bunches)",
+   "⅓ cup raw pine nuts, almonds, walnuts, pecans or pepitas",
+   "¼ cup grated Parmesan cheese",
+   "1 tablespoon lemon juice",
+   "2 cloves garlic, roughly chopped",
+   "¾ teaspoon fine salt",
+   "½ cup extra-virgin olive oil"
+  ],
+  "yield_text": "2 pizzas",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Main Dish"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pesto-pizza/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 500°F with a rack in the upper third of the oven. (Or, if you’re using a pizza stone, make sure it’s in the oven on the appropriate rack. Consult the manufacturer’s directions.) Prepare the pizza dough as directed, rolling the dough as thinly as possible, but don’t brush the edges with oil (you don’t need it for this recipe, given the pesto’s oil content). Wipe the food processor bowl clean and return it to the machine."
+   },
+   {
+    "title": null,
+    "text": "To make the pesto: In the food processor, combine the basil (reserve a small handful of the prettiest smaller leaves for garnish), nuts, Parmesan, lemon juice, garlic, and salt. With the machine running, drizzle in the olive oil. Continue processing until the mixture is well blended, pausing to scrape down the sides as necessary."
+   },
+   {
+    "title": null,
+    "text": "To top the pizzas: Spread each pizza with half of the pesto, leaving about 1 inch of empty dough around the edges. If you’re using fresh mozzarella, drain it well and lightly pat it dry on a clean tea towel or paper towels (if you’re using larger mozzarella balls, tear them into 1-inch pieces). Evenly distribute half of the mozzarella and sliced tomatoes over each pizza."
+   },
+   {
+    "title": null,
+    "text": "Transfer one pizza (parchment paper and all) onto a baking sheet and into the oven. Bake until the crust is golden and the cheese on top is bubbling, 8 to 12 minutes (or as few as 5 minutes if using a pizza stone)."
+   },
+   {
+    "title": null,
+    "text": "Repeat with the remaining pizza. Top each pizza with the reserved basil leaves and a light sprinkle of Parmesan and red pepper flakes, if desired. Slice and serve."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Basil Pesto and Arugula-Almond Pesto Pizza.",
+   "Change it up: Substitute arugula for the basil. You can omit the fresh tomatoes or use other tender veggies, like sliced bell pepper, or you could add sliced Kalamata olives or sun-dried tomatoes.",
+   "Make it dairy free/vegan: Follow the substitutions provided with the pizza dough recipe. Omit the mozzarella and Parmesan in this recipe. Substitute a generous drizzle of Vegan Sour Cream for the mozzarella and sprinkle Easy Vegan Parmesan Cheese on the pizza before serving."
+  ],
+  "summary": "This classic pesto pizza recipe features basil pesto, mozzarella and tomato! It’s easy to make from scratch. Store-bought components work well, too. Recipe yields two medium pizzas.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Dough and toppings"
+   },
+   {
+    "at": 4,
+    "title": "Pesto (or substitute 1 cup store-bought)"
+   }
+  ]
+ }
 }

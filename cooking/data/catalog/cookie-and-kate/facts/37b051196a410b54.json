@@ -23,7 +23,27 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/creamy-tahini-dressing-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a liquid measuring cup or jar, combine the olive oil, tahini, 2 tablespoons lemon juice, mustard, maple syrup, salt, and several twists of black pepper. Whisk until thoroughly blended."
+   },
+   {
+    "title": null,
+    "text": "Add the cold water, and whisk again. The dressing should become remarkably creamy. Taste, and add more lemon juice (for zing) and pepper, if desired. If your dressing is too thick to drizzle, whisk in more cold water, 1 tablespoon at a time. Serve!"
+   },
+   {
+    "title": null,
+    "text": "This dressing will keep well in the refrigerator, covered, for about 1 week. It may thicken with time; simply thin it with a little more cool water as needed."
+   }
+  ],
+  "notes": [
+   "Make it vegan: Use maple syrup instead of honey.",
+   "Change it up: You can stir in a couple of tablespoons of finely chopped fresh herbs (dill, basil, mint, cilantro or parsley) for an herbed tahini dressing. For full-blown green goddess flavor, see the herbs and amounts suggested here."
+  ],
+  "summary": "You’re going to love this delicious creamy tahini dressing recipe! It’s simple to make, full of nutritious ingredients and goes with everything. Recipe yields about ¾ cup.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

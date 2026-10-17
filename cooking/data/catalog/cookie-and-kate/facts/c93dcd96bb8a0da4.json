@@ -1,6 +1,71 @@
 {
  "url": "https://cookieandkate.com/butternut-squash-frittata-with-fried-sage/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Butternut Squash Frittata with Fried Sage",
+  "ingredients": [
+   "8 large eggs",
+   "½ cup milk",
+   "2 cloves garlic, pressed or minced",
+   "¾ teaspoon fine salt, divided",
+   "1 cup freshly grated Parmesan or Pecorino Romano cheese, divided",
+   "1 tablespoon extra-virgin olive oil",
+   "¾ to 1 pound butternut squash (about 1 small or half of a medium butternut), peeled and chopped into ⅓-inch cubes",
+   "¾ cup chopped yellow onion",
+   "Freshly ground black pepper",
+   "1 to 2 tablespoons extra-virgin olive oil",
+   "16 fresh sage leaves (roughly ¼ cup), chopped"
+  ],
+  "yield_text": "6 to 8 slices",
+  "cook_time": "45 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/butternut-squash-frittata-with-fried-sage/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. In a large bowl, whisk together the eggs, milk, garlic, ¼ teaspoon of the salt, and several twists of freshly ground black pepper. Then whisk in about half of the cheese."
+   },
+   {
+    "title": null,
+    "text": "In a 10-inch, well-seasoned cast iron skillet or oven-safe sauté pan, warm 1 tablespoon olive oil over medium heat. Add the chopped onion and stir to coat. Cook for a few minutes, until the onions are starting to turn translucent. Add the squash and the remaining ½ teaspoon salt and stir. Cover the pan and reduce heat slightly to avoid burning the contents. Cook until the butternut is tender and cooked through, stirring occasionally, about 8 minutes."
+   },
+   {
+    "title": null,
+    "text": "Uncover the pan, raise the heat back to medium and cook until the excess moisture has evaporated and the butternut squash is starting to turn golden on the edges, about 5 to 10 minutes (add another little splash of olive oil if the squash starts sticking to the pan)."
+   },
+   {
+    "title": null,
+    "text": "Turn the heat down to low. Arrange the butternut in an even layer in the bottom of the skillet. Whisk the egg mixture one last time and pour it into the pan. Sprinkle the frittata with the remaining cheese. Once the outside edge of the frittata turns lighter in color (about 30 seconds to 1 minute), carefully transfer the frittata to the oven. Bake for 8 to 15 minutes (keep an eye on it), until the eggs are puffed and appear cooked, and the center of the frittata jiggles just a bit when you give it a gentle shimmy."
+   },
+   {
+    "title": null,
+    "text": "While the frittata is baking, fry the sage: Heat oil in a large skillet over medium heat. Once the oil is shimmering, add the sage and toss to coat. Let the sage get crispy (but not brown) before transferring it to a plate covered with a paper towel. Sprinkle the fried sage lightly with salt and set it aside."
+   },
+   {
+    "title": null,
+    "text": "Once the frittata is done, sprinkle fried sage on top and let the frittata rest for a few minutes before slicing it into 6 large or 8 smaller wedges. Serve! Leftover frittata keeps well in a storage container for up to 5 days in the refrigerator. Gently reheat in the microwave or a low oven before serving, if desired."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Tasty n Alder in Portland and adapted from my Caramelized Sweet Potato, Red Pepper and Feta Frittata."
+  ],
+  "summary": "This sweet and savory frittata is made with butternut squash, onion, Parmesan and fried sage. It’s a gluten-free, meatless recipe that’s perfect for brunch or dinner. Recipe yields one 10-inch frittata, enough for 8 modest or 6 large slices.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Butternut frittata"
+   },
+   {
+    "at": 9,
+    "title": "Fried sage"
+   }
+  ]
+ }
 }

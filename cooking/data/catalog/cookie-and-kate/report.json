@@ -1,8 +1,9 @@
 {
  "source": "cookie-and-kate",
  "candidates": 930,
- "included": 552,
+ "included": 856,
  "without_photo": [],
+ "without_directions": [],
  "held": [],
  "skipped": [
   {
@@ -76,93 +77,15 @@
    "parser_version": 2
   },
   {
-   "url": "https://cookieandkate.com/vegetable-goat-cheese-polenta-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/fajita-veggie-halloumi-bowls/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/lentil-couscous-stuffed-peppers-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
    "url": "https://cookieandkate.com/love-real-food-cover-vote/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/29-best-vegetarian-recipes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/crispy-falafel-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/foolproof-shakshuka-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/best-tabbouleh-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/epic-baba-ganoush-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/mujaddara-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/zaatar-spice-blend-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/easy-dukkah-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/fattoush-salad-recipe-with-mint-dressing/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/healthy-carrot-muffins-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/healthy-raspberry-muffins-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
@@ -171,507 +94,21 @@
    "parser_version": 2
   },
   {
-   "url": "https://cookieandkate.com/easy-romesco-sauce-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/honey-butter-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/balsamic-glaze-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/simple-marinara-sauce-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/how-to-make-applesauce/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/lemony-roasted-potatoes-broccoli-rabe-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/turmeric-whole-roasted-cauliflower-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/perfect-quinoa/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/cilantro-lime-brown-rice-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/chimichurri-chickpeas-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/cowboy-caviar-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/lucilles-mashed-potatoes-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/creamed-spinach-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/kale-colcannon-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/honey-butter-cornbread-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/crispy-baked-potato-wedges-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/baked-tostones-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/peanut-soba-noodle-slaw-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/sunshine-quinoa-slaw-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/coconut-slaw-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/quinoa-broccoli-slaw-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/simple-healthy-coleslaw-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/homemade-larabars-apricot-almond-bars/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/healthy-maple-caramel-popcorn/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/roasted-party-nuts-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/sesame-caramel-popcorn-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/coconut-curried-kale-and-sweet-potato-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/vegetarian-tortilla-soup/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/pea-and-asparagus-risotto-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/peach-honey-popsicles-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/pineapple-mint-popsicles-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/roasted-butternut-squash-tacos-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/sweet-potato-black-bean-tostadas-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/bean-tostadas-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/sweet-potato-black-bean-tacos/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/roasted-cauliflower-and-lentil-tacos/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/epic-vegetarian-tacos-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/thai-pineapple-fried-rice-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/thai-panang-curry-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/thai-spiced-rice-bowls-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/thai-green-curry-with-spring-vegetables/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/thai-mango-cabbage-wraps/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/thai-red-curry-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/naturally-sweetened-cranberry-sauce-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/how-to-make-coconut-bacon/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/how-to-make-crispy-baked-tofu/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/easy-vegan-parmesan-cheese-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/creamy-vegan-butternut-squash-linguine-with-fried-sage/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/vegan-spaghetti-alla-puttanesca/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/best-vegan-lasagna-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/vegan-queso-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/vegan-sour-cream-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/banana-nut-waffles/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/gluten-free-buckwheat-waffles/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/easy-gluten-free-oat-waffles/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/gluten-free-pumpkin-spice-waffles/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/ranch-water-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/americano-cocktail/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/lemon-vinaigrette-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/coconut-rice-with-brussels-sprouts-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/spinach-pasta-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/lentil-chickpea-veggie-burgers-with-avocado-green-harissa/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/iced-matcha-latte-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/vegan-citrus-ceviche-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/peanut-butter-banana-honey-oat-chocolate-chip-cookies/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/spiced-oatmeal-cookies-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/monster-cookies-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/thumbprint-cookies-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/peanut-butter-oatmeal-cookies-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/7-layer-dip-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/toasted-muesli-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/best-frittata-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/chilaquiles-verdes-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/vegetarian-halloumi-tacos-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/hummus-quesadillas-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/cilantro-lime-dressing-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/pickled-jalapenos/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/vegetarian-chili-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/cashew-milk-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
    "url": "https://cookieandkate.com/hello-my-name-is-_______________/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/arrabbiata-sauce-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/heirloom-blt-salad-with-coconut-bacon/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/15-favorite-recipes-from-love-real-food/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/12-affordable-meatless-meals/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
@@ -681,8 +118,8 @@
   },
   {
    "url": "https://cookieandkate.com/10-fresh-spring-recipes-from-love-real-food/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
@@ -691,345 +128,21 @@
    "parser_version": 2
   },
   {
-   "url": "https://cookieandkate.com/avocado-peach-salsa-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/apple-cider-hot-toddy/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/buckwheat-and-spelt-crepes-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/broiled-grapefruit-with-honey-yogurt-and-granola/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/blueberry-maple-tea-cake/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/blood-orange-margaritas/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/blood-orange-french-75/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/blood-orange-curd-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/black-bean-sweet-potato-enchiladas/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/baked-tostadas-with-tomatillo-black-bean-salsa/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/baked-frittata/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/crispy-mushroom-spinach-and-avocado-quesadillas/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/coconut-pancakes-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/chickpea-salad-recip/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
    "url": "https://cookieandkate.com/food-storage-tips/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/egg-enchiladas-with-roasted-poblano-sauce/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/healthy-cherry-chocolate-cake/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/healthy-blueberry-muffins-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/light-mint-ice-cream-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/kale-clementine-feta-salad-honey-lime-dressing/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/horchata/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/no-bake-cookie-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/my-perfect-whole-grain-chocolate-chip-cookies/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/morning-glory-oatmeal/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/pineapple-cilantro-serrano-cocktail/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/pear-raspberry-and-goat-cheese-crostini/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/peanut-soba-noodle-bowl/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/roasted-carrot-and-potato-lentils-and-miso-parsley-sauce/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/spicy-molasses-cookies/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/simple-greek-avocado-sandwich/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/scrambled-huevos-rancheros/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/summer-rolls-with-spicy-peanut-sauce/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/stuffed-tomatoes-with-quinoa/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/strawberry-infused-bourbon-and-mint-julep/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/strawberry-basil-and-goat-cheese-panini/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/toasted-coconut-butter/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/sweet-corn-salad-wraps/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/whole-wheat-molasses-bread/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/whole-wheat-coconut-waffles/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/watermelon-mint-sorbet/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/watermelon-juice/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/watercress-wild-rice-salad/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/wassail-cocktail/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/vegan-tomato-and-lentil-curry/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/vanilla-bean-ice-cream/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/zucchini-noodles-with-arrabiata-chickpeas/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/simple-arugula-salad-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/gluten-free-pumpkin-muffins/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/black-bean-enchiladas-with-roasted-red-pepper-sauce/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/baked-pumpkin-dip-with-goat-cheese/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/swiss-chard-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/love-real-food-cover-reveal/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/spinach-artichoke-lasagna-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/espresso-martini-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/mashed-cauliflower-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/pickle-dip-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/how-to-measure-flour/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
@@ -1038,45 +151,9 @@
    "parser_version": 2
   },
   {
-   "url": "https://cookieandkate.com/mini-peanut-butter-cups-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/cinnamon-tea/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/basil-pesto-vinaigrette-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/roasted-cauliflower-steaks-with-marinara-spaghetti/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/strawberry-basil-and-balsamic-pizza/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/cranberry-salsa-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
    "url": "https://cookieandkate.com/27-healthy-vegetarian-soup-recipes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
@@ -1085,141 +162,9 @@
    "parser_version": 2
   },
   {
-   "url": "https://cookieandkate.com/peppermint-bark-popcorn/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/negroni-sbagliato-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/chickpea-tomato-soup-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/roasted-brussels-sprouts-and-crispy-baked-tofu-with-honey-sesame-glaze/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/gluten-free-banana-muffins/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/peanut-butter-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/best-blueberry-smoothie-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/refried-black-beans-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/butternut-ribbon-goat-cheese-pizza-with-arugula-pepita-pesto/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/cheesecake-tart-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/cauliflower-salad/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/arugula-pesto/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/lentil-salad/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
    "url": "https://cookieandkate.com/12-vegetarian-pasta-recipes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/honey-almond-granola/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/baked-asparagus-frittata/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/huevos-rancheros-avocado-salsa-verde/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/blueberry-scones/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/greek-broccoli-salad-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/migas-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/pear-date-walnut-salad-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/berry-spinach-salad-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/arugula-and-goat-cheese-pasta-salad/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
@@ -1229,38 +174,38 @@
   },
   {
    "url": "https://cookieandkate.com/healthy-summer-party-recipes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/vegetarian-date-night-recipes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/18-light-summer-dinner-recipes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/20-summer-potluck-recipes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/17-easy-healthy-side-dish-recipes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/24-meatless-recipes-that-carnivores-love/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
@@ -1270,266 +215,50 @@
   },
   {
    "url": "https://cookieandkate.com/20-gluten-free-vegetarian-dinner-recipes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/15-recipes-for-leftover-vegetables/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/45-vegetarian-lunch-recipes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/healthy-barbecue-salads-and-sides/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/cucumber-tomato-salad-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/how-to-cut-a-mango/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/fresh-mango-salsa-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/how-to-make-basil-pesto/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/chocolate-peanut-butter-swirl-fudge-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/thai-peanut-dressing/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/thai-mango-salad-with-peanut-dressing/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/blackened-green-bean-and-quinoa-salad/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/roasted-cauliflower-freekeh-tahini-sauce/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/chai-coconut-ice-cream/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/gimlet-cocktail/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/cucumber-elderflower-gimlet/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/easy-appetizers/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/holiday-cocktail-pear-and-resposado-tequila/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/breakfast-quinoa/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/chimichurri-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/best-grilled-corn-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/toasted-everything-bagel-seasoning-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/toasted-sesame-hummus-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/kale-black-bean-and-avocado-burrito-bowl/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/mango-burrito-bowls-with-crispy-tofu/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/flax-egg-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/amazing-chocolate-chip-cookies/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/buddha-bowl-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/gluten-free-pancakes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/roasted-berry-and-honey-yogurt-popsicles/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/summer-dessert-recipes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/blueberry-honey-bran-muffins/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/25-summer-cocktails/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/avocado-pesto/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/beautiful-red-bell-cocktail/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/watermelon-popsicles/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/roasted-green-beans-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/summer-salads/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/gluten-free-plum-crisp/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/perfect-roasted-asparagus-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/healthy-banana-pancakes-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/best-moscow-mule-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/cold-brew-coffee-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/pina-vocado-smoothie/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
@@ -1538,87 +267,9 @@
    "parser_version": 2
   },
   {
-   "url": "https://cookieandkate.com/pistachio-milk/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/banana-almond-smoothie/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/pesto-pasta/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/thai-style-lettuce-wraps/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
    "url": "https://cookieandkate.com/25-fresh-summer-recipes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/pita-chips-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/gluten-free-peach-pancakes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/blueberry-lemon-yogurt-pancakes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/herbed-potato-salad-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/clafoutis/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/buttermilk-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/roasted-tomatoes-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/ranch-dressing-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/margherita-pizza-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
@@ -1627,80 +278,8 @@
    "parser_version": 2
   },
   {
-   "url": "https://cookieandkate.com/pesto-pizza/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/chocolate-chip-muffins/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/spicy-sun-dried-tomato-and-broccoli-pasta/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/apple-oatmeal-muffins/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/homemade-ketchup/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/lentil-burgers/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/easy-pumpkin-cheesecake-cups-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/pumpkin-oat-pancakes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/best-old-fashioned-cocktail/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/homemade-pumpkin-chai-latte/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/roasted-pumpkin-seeds-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
    "url": "https://cookieandkate.com/16-healthy-kid-friendly-recipes/",
    "status": "no-recipe-data",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/sofritas/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
    "parser_version": 2
   },
   {
@@ -1709,147 +288,33 @@
    "parser_version": 2
   },
   {
-   "url": "https://cookieandkate.com/butternut-tabbouleh-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
    "url": "https://cookieandkate.com/16-healthy-thanksgiving-side-dishes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/debs-kale-salad-with-apple-cranberries-and-pecans/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/roasted-delicata-squash-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/roasted-delicata-squash-pomegranate-arugula-salad/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/honey-mustard-brussels-sprout-slaw/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/spicy-sweet-potato-hummus/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/balsamic-roasted-brussels-sprouts-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/vegetarian-thanksgiving-recipes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/what-to-cook-this-december/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/pecan-butter-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/cranberry-orange-granola-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/cranberry-orange-granola-bars/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/holiday-cocktail-recipes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/pear-cranberry-crisp/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/cranberry-maple-skillet-cornbread/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/roasted-cranberries-and-brussels-sprouts-over-wild-rice/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/rosemary-roasted-nuts/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/butternut-squash-frittata-with-fried-sage/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/what-to-cook-this-january/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/naturally-sweetened-candied-pecans-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/raw-kale-and-brussels-sprouts-salad-with-tahini-maple-dressing/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/cabbage-vegetable-soup/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/fajita-veggies/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
@@ -1858,81 +323,15 @@
    "parser_version": 2
   },
   {
-   "url": "https://cookieandkate.com/lemon-collard-greens-pasta/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/maple-new-york-sour/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/simple-beet-arugula-and-feta-salad-with-hilarys-balsamic-thyme-dressing/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
    "url": "https://cookieandkate.com/29-healthy-comfort-food-recipes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/banana-coconut-muffins/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/what-to-cook-this-march/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/easy-black-bean-tacos-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/creamy-scrambled-eggs-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/egg-bites/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/energy-balls/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/arugula-carrot-and-chickpea-salad-with-wheat-berries/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/blue-cheese-dressing/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/spinach-artichoke-enchiladas/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
@@ -1941,105 +340,27 @@
    "parser_version": 2
   },
   {
-   "url": "https://cookieandkate.com/broccoli-arugula-lentil-salad-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/basil-pesto-party-almonds/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/fluffy-beer-biscuits-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
    "url": "https://cookieandkate.com/what-to-cook-this-april/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/50-vegetarian-easter-recipes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/chocolate-easter-egg-nests/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/socca/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/strawberry-rhubarb-almond-cake/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/cilantro-pepita-pesto-with-squash-ribbons-and-fettuccine/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/pizza-beans/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/25-vegetarian-mothers-day-recipes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/picnic-recipes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/burrata-with-tomatoes-basil/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/vegetable-stir-fry/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/mediterranean-couscous-salad-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/almond-flour-scones/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/best-queso-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
@@ -2048,56 +369,8 @@
    "parser_version": 2
   },
   {
-   "url": "https://cookieandkate.com/cold-brew-iced-tea/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/sauteed-zucchini/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/tahini-date-shake/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
    "url": "https://cookieandkate.com/12-recipes-with-pesto/",
    "status": "no-recipe-data",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/zucchini-noodles-with-pesto-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/spicy-red-pepper-feta-dip-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/sun-dried-tomato-pesto-pasta-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/peach-and-burrata-salad/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/creamy-basil-sauce/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
    "parser_version": 2
   },
   {
@@ -2106,117 +379,27 @@
    "parser_version": 2
   },
   {
-   "url": "https://cookieandkate.com/how-to-make-bread-crumbs/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/grain-free-granola/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
    "url": "https://cookieandkate.com/pbsc-donation/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/cilantro-lime-sauce/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/what-to-cook-this-august/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/celery-salad-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/vegetable-lettuce-wraps-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/cherry-couscous-arugula-salad-in-balsamic-vinaigrette/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/almond-flour-blueberry-muffins/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/hemp-milk/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/stuffed-poblano-peppers/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/what-to-cook-this-september/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/blackberry-cobbler/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/mediterranean-quinoa-salad-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/chipotle-sauce/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/sweet-potato-burrito-smothered-in-avocado-salsa-verde/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/baby-spinach-frittata-with-sweet-potato-hash-crust/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/what-to-cook-this-october/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/pumpkin-pancakes-recipe/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
@@ -2226,20 +409,14 @@
   },
   {
    "url": "https://cookieandkate.com/20-simple-vegetarian-dinners/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   },
   {
    "url": "https://cookieandkate.com/29-vegan-dinner-recipes/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
-   "parser_version": 2
-  },
-  {
-   "url": "https://cookieandkate.com/lentil-curry/",
-   "status": "access-check",
-   "error": "Publisher returned a Cloudflare access check; not bypassed",
+   "status": "no-recipe-data",
+   "via": "wp-json",
    "parser_version": 2
   }
  ]

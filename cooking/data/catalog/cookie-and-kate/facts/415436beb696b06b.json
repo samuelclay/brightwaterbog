@@ -1,6 +1,74 @@
 {
  "url": "https://cookieandkate.com/energy-balls/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Energy Balls",
+  "ingredients": [
+   "1 ½ cups old-fashioned oats",
+   "1 teaspoon ground cinnamon",
+   "½ teaspoon fine salt",
+   "¾ cup pecans or walnuts",
+   "½ cup almonds",
+   "½ cup pepitas (green pumpkin seeds)",
+   "¼ cup flaxseeds or chia seeds",
+   "16 ounces creamy peanut butter or almond butter",
+   "½ cup honey or maple syrup"
+  ],
+  "yield_text": "36 balls",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Snack"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/energy-balls/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Place the oats in a large mixing bowl. Add the cinnamon and salt, and stir to combine. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Toast the nuts: Warm the pecans and almonds in a large skillet over medium-low heat, stirring often, until they smell nicely fragrant, about 3 to 4 minutes."
+   },
+   {
+    "title": null,
+    "text": "Transfer them to the bowl of a food processor (if you don’t have a food processor, pour them onto a cutting board), then return the skillet to the heat and add the pepitas. Warm the pepitas until they are fragrant and beginning to make little popping noises, about 1 to 2 minutes."
+   },
+   {
+    "title": null,
+    "text": "Lastly, add the flax and cook for about 30 seconds while stirring constantly, then transfer the mixture to the food processor."
+   },
+   {
+    "title": null,
+    "text": "Blitz the mix-ins briefly in the food processor (or chop them by hand). Run the machine until the ingredients are all broken up into pieces smaller than your pinky fingernail. Pour the mix-ins into the bowl of oats."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, combine the peanut butter and honey. Stir until well blended. Pour the liquid ingredients into the dry ingredients. Use a big spoon to mix them together until the two are evenly combined and no dry oats remain. This takes some arm muscles, but you can do it!"
+   },
+   {
+    "title": null,
+    "text": "Use a medium cookie scoop or measure a heaping tablespoon of the mixture, then roll it into a ball and place it in an airtight container. Repeat until you have used up the oat mixture."
+   },
+   {
+    "title": null,
+    "text": "The bites keep well for up to 10 days at room temperature, up to 3 weeks in the fridge, or several months in a freezer-safe bag in the freezer for best flavor (let them defrost for 30 minutes before serving). They retain more moisture when chilled, and become more dry at room temperature–I love them either way."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Easy No-Bake Granola Bars.",
+   "Mix-in options: This recipe calls for 1 ¾ cups of nuts and seeds, excluding the flax or chia seeds that absorb moisture. You can change the mix-ins by substituting other nuts (cashews, hazelnuts, macadamia nuts) or seeds, such as sunflower seeds. Or, you can replace some of the nuts/seeds with chocolate chips or roughly chopped chocolate, shredded coconut, or dried cranberries or cherries.",
+   "Change it up: These balls can be sweetened (mostly) with Medjool dates, if you’d like to increase the fiber content. Soak 12 dates in piping hot water for 10 minutes, then tear them in half and remove their pits. Place them in a food processor with 2 tablespoons maple syrup or honey and blend until completely smooth. Use this mixture in place of the ½ cup honey or maple syrup.",
+   "Make it gluten free: Be sure to use certified gluten-free oats.",
+   "Make it nut free: Do not use nuts (pepitas and sunflower seeds are good options) and replace the nut butter with sunflower butter.",
+   "Make it vegan: Use maple syrup instead of honey.",
+   "March 2026 recipe edits: I tested this recipe to verify that chia seeds are a suitable alternative to flaxseeds and updated the recipe and post with this information."
+  ],
+  "summary": "These energy balls are the perfect wholesome snack! Each one is packed with whole grains, nuts and seeds, and offers a healthy amount of protein and fiber. Recipe yields about 36 balls.",
+  "ingredient_groups": []
+ }
 }

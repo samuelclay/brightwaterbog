@@ -1,6 +1,71 @@
 {
  "url": "https://cookieandkate.com/kale-clementine-feta-salad-honey-lime-dressing/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Kale, Clementine and Feta Salad with Honey-Lime Dressing",
+  "ingredients": [
+   "1 bunch kale",
+   "1 avocado, diced",
+   "1 medium pomegranate, arils removed, or a handful of dried cranberries",
+   "4 clementines, peeled and sliced into rounds or small strips",
+   "4 small radishes, sliced into thin rounds and then into skinny strips",
+   "Handful fresh cilantro, chopped",
+   "⅓ cup crumbled feta",
+   "¼ cup pepitas (AKA pumpkin seeds) or sunflower seeds",
+   "3 tablespoons fresh lime juice (about 2 small limes)",
+   "3 tablespoons olive oil",
+   "1 medium jalapeño, membranes and seeds removed, finely chopped",
+   "2 teaspoons honey or maple syrup",
+   "1 teaspoon Dijon mustard",
+   "¼ teaspoon chili powder",
+   "⅛ teaspoon fine salt"
+  ],
+  "yield_text": "4 salads",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Vegetarian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/kale-clementine-feta-salad-honey-lime-dressing/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, make the dressing by whisking together all of the ingredients in a small bowl."
+   },
+   {
+    "title": null,
+    "text": "Prepare the kale by slicing out the stems and chopping out the leaves into small, bite-sized pieces. Transfer the kale to a big salad bowl. Sprinkle a small pinch of sea salt over the kale and massage the leaves with your hands by lightly scrunching big handfuls at a time, until the leaves are darker in color and fragrant."
+   },
+   {
+    "title": null,
+    "text": "Drizzle salad dressing over the kale (you might not need all of the dressing) and toss well so the kale is lightly coated with dressing. Add the prepared avocado, pomegranate (or dried cranberries), clementines, radishes, cilantro and feta to the bowl."
+   },
+   {
+    "title": null,
+    "text": "Toast the pepitas in a skillet over medium-low heat for a few minutes, stirring frequently, until they smell fragrant and toasty. Transfer the pepitas to the salad bowl. Toss the salad to combine and serve."
+   }
+  ],
+  "notes": [
+   "This salad takes cues from my recipe for Deb’s kale salad with apple, cranberries and pecans.",
+   "Storage suggestions: This salad should keep well in the refrigerator, covered, for a couple of days. For best results, add avocado just before serving.",
+   "Make it vegan: Skip the feta and use maple syrup for the dressing."
+  ],
+  "summary": "Colorful raw kale salad made with clementines, radish, avocado and pepitas, tossed in a honey, lime and jalapeño dressing. This salad is gluten free and easily made vegan by omitting the feta and substituting agave nectar for the honey.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Kale salad"
+   },
+   {
+    "at": 8,
+    "title": "Honey-Lime Dressing"
+   }
+  ]
+ }
 }

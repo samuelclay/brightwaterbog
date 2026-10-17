@@ -18,7 +18,26 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/rosemary-gin-fizz/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small drinking glass, muddle the fresh rosemary, lemon juice and honey."
+   },
+   {
+    "title": null,
+    "text": "Fill the glass with ice, then pour in the gin and top with club soda."
+   },
+   {
+    "title": null,
+    "text": "Give it a little swirl with a spoon. That’s it!"
+   }
+  ],
+  "notes": [
+   "September 2024: I revised the recipe to increase the honey from ½ teaspoon to 1 teaspoon for more balanced flavor."
+  ],
+  "summary": "This sparkly little drink only takes a few minutes to make. This recipe yields 1 cocktail.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

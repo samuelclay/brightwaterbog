@@ -28,7 +28,34 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2009/05/broccoli-slaw/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make dressing: Whisk all dressing ingredients together, starting with the lower amount of sugar, and adding more to taste. Season with kosher salt and many grinds of black pepper. Dressing keeps in fridge for up to 5 days."
+   },
+   {
+    "title": null,
+    "text": "Prepare the broccoli: I always use broccoli stems here, and not just the florets. Trim any large knots off the stems with a knife and then use a vegetable peeler to remove the outer skin, which can be tougher to eat. The broccoli stem within is juicy and crisp. Trim broccoli head/florets into large chunks. From here, you can either feed the florets and trimmed stem through a food processor’s slicing blade, slice it thinly on a mandoline, or just use your knife to cut it into thin slices or small pieces."
+   },
+   {
+    "title": null,
+    "text": "Assemble and serve: Place prepared broccoli in a large bowl with the almonds, cranberries, and onion. Pour about two-thirds of the dressing over to start and toss to evenly combine. Season the whole slaw well with salt and pepper. Add remaining dressing to taste. Because the dressing is on the thin side, however, I find it hard to overdress this slaw, as extra dressing mostly runs off vs. sticking to the broccoli."
+   },
+   {
+    "title": "Notes",
+    "text": "Please, toast your almonds. It makes a huge difference."
+   },
+   {
+    "title": null,
+    "text": "Don’t like raw onion? You can quick pickle it for 10 to 15 minutes before adding it to the salad. Toss the onion with a 2 to 3 tablespoons of red wine or cider vinegar, 1 tablespoon water, 1/2 teaspoon each of kosher salt and granulated sugar or honey in a small bowl and set it aside until needed."
+   }
+  ],
+  "notes": [
+   "Do ahead: This slaw keeps for 5 days in the fridge, if you don’t have any pregnant women nearby."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

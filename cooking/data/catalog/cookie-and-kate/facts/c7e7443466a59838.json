@@ -1,6 +1,57 @@
 {
  "url": "https://cookieandkate.com/whole-wheat-molasses-bread/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Quick Whole Wheat Molasses (or honey or maple!) Bread",
+  "ingredients": [
+   "Oil or butter for greasing pan",
+   "1 ½ cups milk of choice and 2 tablespoons apple cider vinegar (or 1 ⅔ cups buttermilk or plain yogurt*)",
+   "2 ½ cups white whole wheat flour or regular whole wheat flour",
+   "½ cup cornmeal",
+   "1 teaspoon salt",
+   "1 teaspoon baking soda",
+   "½ cup molasses (or honey or maple syrup, see notes on blackstrap molasses above)"
+  ],
+  "yield_text": "1 loaf",
+  "cook_time": "55 minutes",
+  "categories": [
+   "Quick bread"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/whole-wheat-molasses-bread/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 325 degrees. Grease an 8-by-4-inch or 9-by 5-inch loaf pan (Bittman recommends a non-stick loaf pan but I prefer my stoneware loaf pan)."
+   },
+   {
+    "title": null,
+    "text": "If using buttermilk or yogurt, ignore this step. Make soured milk: gently warm the milk gently (1 minute in the microwave will suffice) and add vinegar. Set the soured milk aside."
+   },
+   {
+    "title": null,
+    "text": "Mix together the dry ingredients. Stir molasses (or honey or maple syrup) into the soured milk, buttermilk or yogurt. Pour the liquid ingredients into the dry ingredients and stir with a big spoon, just until combined. Pour the batter into a greased loaf pan."
+   },
+   {
+    "title": null,
+    "text": "Bake until firm and a toothpick inserted into center comes out clean, 45 minutes to 1 hour. Allow the bread to cool in the loaf pan for 15 minutes, then carefully invert the bread onto a wire rack."
+   },
+   {
+    "title": null,
+    "text": "If you can stand it, let the bread rest for a day. I’ve found that whole wheat quick breads taste better the next day, when the flavors have had more time to develop. This bread freezes wonderfully. I slice it beforehand so I can pull out a slice of bread any time. Defrost it and boom—breakfast is served."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Mark Bittman via Joy the Baker.",
+   "*Milk vs. yogurt: I have tried using both milk and yogurt and didn’t notice a big difference in texture either way. I use milk most often because it’s less expensive.",
+   "Make it vegan: This bread is already eggless, so just substitute your preferred non-dairy milk for the dairy milk.",
+   "Serving suggestions: Molasses bread is great with almond butter, cream cheese or homemade citrus curd with Greek yogurt!"
+  ],
+  "summary": "Super simple, whole grain, naturally sweetened quick bread. This recipe yields 1 loaf.",
+  "ingredient_groups": []
+ }
 }

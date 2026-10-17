@@ -1,6 +1,82 @@
 {
  "url": "https://cookieandkate.com/chilaquiles-verdes-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Chilaquiles Verdes with Baked Tortilla Chips",
+  "ingredients": [
+   "16 corn tortillas",
+   "2 tablespoons extra-virgin olive oil",
+   "½ teaspoon fine-grain sea salt or 1 teaspoon flaky sea salt",
+   "2 teaspoons extra-virgin olive oil",
+   "3 cups (24 ounces) salsa verde—either homemade** or store-bought***",
+   "2 tablespoons chopped fresh cilantro",
+   "4 fried eggs (optional)",
+   "1 avocado, diced",
+   "⅓ cup crumbled Cotija, queso fresco or feta cheese",
+   "3 tablespoons chopped red onion or green onion",
+   "2 tablespoons chopped cilantro"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "55 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/chilaquiles-verdes-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To bake the chips: Preheat the oven to 400 degrees Fahrenheit with racks in the upper-middle and lower-middle positions. Line two large baking sheets with parchment paper for easy clean-up."
+   },
+   {
+    "title": null,
+    "text": "Brush both sides of each tortilla lightly with oil. Stack the tortillas, 4 at once, and slice them into 8 wedges. Repeat with remaining tortillas. Divide the wedges between the two baking sheets and arrange them evenly across the pans (it’s ok if the chips overlap; they’ll shrink significantly as they bake). Sprinkle half the salt over one pan and half over the other."
+   },
+   {
+    "title": null,
+    "text": "Bake, swapping the pans on their racks every 5 minutes, until the chips are curling up at the edges and some are starting to turn golden on the edges. This could take as little as 10 minutes. Keep an eye on the top rack especially, as those tend to finish baking first. Once you see the chips on the top rack turn golden on the edges, remove that pan and move the pan on the lower rack up to the top. Bake until those chips start turning golden on the edges, then remove from the oven."
+   },
+   {
+    "title": null,
+    "text": "Once the chips are out of the oven, warm 2 teaspoons of the olive oil in a large, non-reactive (stainless steel, enameled cast iron or non-stick) skillet or Dutch oven over medium heat. Once it’s shimmering, add the salsa verde, being careful to avoid splatters."
+   },
+   {
+    "title": null,
+    "text": "Raise the heat to medium-high and bring the mixture to a simmer, then remove the skillet from the heat. Stir in the tortilla chips and cilantro until all of the chips are lightly coated, then cover and let the mixture rest (off the heat) until the chips have softened slightly, about 2 to 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Uncover the pot and add the toppings of your choice, then divide the chilaquiles onto individual plates. The chips will continue softening with time, so chilaquiles are best served promptly (do not re-cover the pan to preserve heat; the chips will get far too soggy)."
+   }
+  ],
+  "notes": [
+   "*Store-bought tortilla chips alternative: Use 4 generous handfuls of chips instead of these baked chips. You might want to choose a no-salt or lightly salted variety to ensure that your dish isn’t too salty. The only store-bought chips I’ve enjoyed in chilaquiles is Late July’s chia quinoa variety.",
+   "**Homemade salsa verde note: My salsa verde recipe yields 2 ½ cups salsa. To make it yield 3 cups as needed for this recipe, increase the tomatillos to 1 ¾ pounds.",
+   "***Store-bought salsa verde note: If your jarred salsa tastes dull, liven it up with a squeeze of lime juice and possibly some more chopped fresh cilantro.",
+   "Make it gluten free: Use certified gluten-free tortillas or chips.",
+   "Make it dairy free: Omit the cheese.",
+   "Make it vegan: Omit the eggs and cheese. To make the recipe more hearty, you could serve the chilaquiles on a spread of refried black beans or with black bean salad on top or on the side."
+  ],
+  "summary": "This delicious Mexican chilaquiles verdes recipe is made lighter with freshly baked tortilla chips! Add salsa verde, fried eggs (optional), and fresh garnishes for an epic breakfast, brunch or dinner. Recipe yields 4 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Baked Tortilla Chips*"
+   },
+   {
+    "at": 3,
+    "title": "Salsa verde"
+   },
+   {
+    "at": 6,
+    "title": "Toppings"
+   }
+  ]
+ }
 }

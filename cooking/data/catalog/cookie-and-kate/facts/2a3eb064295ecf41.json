@@ -1,6 +1,81 @@
 {
  "url": "https://cookieandkate.com/turmeric-whole-roasted-cauliflower-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Turmeric-Spiced Whole Roasted Cauliflower",
+  "ingredients": [
+   "1 medium cauliflower (2 pounds)",
+   "3 tablespoons extra-virgin olive oil, divided, plus more for drizzling",
+   "2 tablespoons fresh lemon juice, plus more to taste",
+   "4 cups mixed spring greens",
+   "½ cup chopped mixed fresh herbs (any combination of cilantro, mint and/or parsley)",
+   "¼ cup toasted pine nuts or slivered almonds",
+   "Fine sea salt and freshly ground black pepper",
+   "½ cup whole milk Greek yogurt",
+   "2 tablespoons extra-virgin olive oil",
+   "2 tablespoons fresh lemon juice",
+   "1 garlic clove, minced",
+   "¼ teaspoon ground cumin",
+   "¼ teaspoon ground coriander",
+   "¼ teaspoon turmeric",
+   "¼ teaspoon maple syrup or honey",
+   "½ teaspoon fine sea salt",
+   "Pinch of cayenne pepper"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "1 hour 40 minutes",
+  "categories": [
+   "Main Dish"
+  ],
+  "cuisines": [
+   "Vegetarian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/turmeric-whole-roasted-cauliflower-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 400 degrees Fahrenheit and loosely line a baking sheet with aluminum foil."
+   },
+   {
+    "title": null,
+    "text": "Slice the bottom of the core off the cauliflower so that it sits evenly on the baking sheet. Drizzle 1½ tablespoons of the olive oil over the cauliflower and use your hands to coat it evenly. Sprinkle with salt and pepper and roast for 45 minutes."
+   },
+   {
+    "title": null,
+    "text": "To make the sauce: In a small bowl, combine the yogurt, olive oil, lemon juice, garlic, cumin, coriander, turmeric, maple syrup, salt, and cayenne."
+   },
+   {
+    "title": null,
+    "text": "Remove the cauliflower from the oven and use a fork to gently start to pull apart the crevices of the cauliflower. Pour another 1½ tablespoons of olive oil and the lemon juice over the cauliflower, especially into the crevices. Return the cauliflower to the oven and roast for another 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the cauliflower from the oven and spread ¼ of the yogurt sauce all over. Roast for another 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "In a large bowl, toss the spring greens with a drizzle of olive oil, a squeeze of lemon, and a pinch of salt. Set aside for now."
+   },
+   {
+    "title": null,
+    "text": "Remove the cauliflower from the oven. It should be tender outside and fork-tender inside. Top the cauliflower with more sauce and sprinkle with the herbs and toasted pine nuts. Slice into quarters and serve with the salad and the remaining sauce on the side."
+   }
+  ],
+  "notes": [
+   "Reprinted from Love & Lemons Every Day by arrangement with Avery, a member of Penguin Group (USA) LLC, A Penguin Random House Company. Copyright © 2019, Jeanine Donofrio.",
+   "Make it nut free: Technically, pine nuts are seeds, but they can be problematic for those with nut allergies. To be safe, substitute pepitas (green pumpkin seeds) for the pine nuts or almonds.",
+   "Make it dairy free/vegan: I haven’t tried, but I suspect that you could use plain vegan yogurt in place of the Greek yogurt. Please leave a comment if you try it!"
+  ],
+  "summary": "This whole roasted cauliflower is slathered with the most delicious turmeric-spiced yogurt! You’re going to love it. Recipe yields 4 servings.",
+  "ingredient_groups": [
+   {
+    "at": 7,
+    "title": "Spiced Turmeric Sauce"
+   }
+  ]
+ }
 }

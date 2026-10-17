@@ -22,7 +22,16 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2008/04/fork-crushed-purple-potatoes/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large pot, cook potatoes with skins on in heavily salted boiling water until tender, approximately 15 minutes. Remove potatoes from pot, and peel them while still warm. Place potatoes in a large bowl and, using a fork, gently smash them, maintaining a fairly chunky consistency. Fold in minced shallots, lemon juice, olive oil, fleur de sel, and white pepper. Finish with parsley."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -19,7 +19,28 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/fresh-ginger-tea-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Combine the sliced ginger and water in a saucepan over high heat. If you’re adding a cinnamon stick, fresh turmeric, or fresh mint, add it now. Bring the mixture to a simmer, then reduce the heat as necessary to maintain a gentle simmer for 5 minutes (for extra-strong ginger flavor, simmer for up to 10 minutes)."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from the heat. Carefully pour the mixture through a mesh sieve into a heat-safe liquid measuring cup, or directly into a mug."
+   },
+   {
+    "title": null,
+    "text": "If desired, serve with a lemon round and/or a drizzle of honey or maple syrup, to taste. Serve hot."
+   }
+  ],
+  "notes": [
+   "Make it vegan: Be sure to use maple syrup, not honey.",
+   "Prepare in advance: Multiply the recipe as desired to make a big batch. Let leftovers cool to room temperature, then cover and refrigerate for up to 4 days. Drink chilled or reheat for hot tea.",
+   "Leftover ginger? You can freeze ginger for future use. If you intend to use the ginger for tea later on, you might as well cut it into thin slices before freezing. Otherwise, freeze it whole for greater versatility."
+  ],
+  "summary": "Learn how to make fresh ginger tea at home! It’s so easy to make with this simple recipe. Ginger tea is warming, relaxing and soothing for upset stomachs. Recipe yields 1 cup; multiply as necessary.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

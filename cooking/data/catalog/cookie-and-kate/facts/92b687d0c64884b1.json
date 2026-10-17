@@ -1,6 +1,61 @@
 {
  "url": "https://cookieandkate.com/pesto-pasta/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Pesto Pasta",
+  "ingredients": [
+   "8 ounces spaghetti, angel hair, rotini or fusilli, or farfalle",
+   "¼ cup raw pine nuts, almonds, walnuts, pecans or pepitas",
+   "1 ¾ cups lightly packed fresh basil leaves (about 2.25 ounces or 2 bunches), plus small basil leaves for garnish",
+   "¼ cup grated Parmesan cheese (about 0.5 ounce), plus more for garnish",
+   "2 teaspoons lemon juice",
+   "2 small-to-medium cloves garlic, roughly chopped",
+   "½ teaspoon fine salt",
+   "⅓ cup extra-virgin olive oil"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Main dish"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pesto-pasta/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a large pot of salted water to boil for the pasta (it should taste salty). Cook the pasta until al dente, according to the package instructions."
+   },
+   {
+    "title": null,
+    "text": "Optional, toast the nuts or seeds for extra flavor: In a medium skillet, toast the nuts over medium heat, stirring frequently (don’t let them burn!), until nice and fragrant, about 3 to 5 minutes. Pour them into a bowl to cool for a few minutes."
+   },
+   {
+    "title": null,
+    "text": "To make the pesto: Combine the basil, cooled nuts, Parmesan, lemon juice, garlic and salt in a food processor or blender. With the machine running, slowly drizzle in the olive oil. Continue processing until the mixture is well blended but still has some texture, pausing to scrape down the sides as necessary."
+   },
+   {
+    "title": null,
+    "text": "Before you drain your pasta, place a liquid measuring cup in the sink. Then, pour about 1 cup of the pasta cooking water into the measuring cup before you drain off the rest of the water. Drain the pasta and return it to the cooking pot."
+   },
+   {
+    "title": null,
+    "text": "Off the heat, toss pasta, pesto and small splashes of pasta cooking water together until you’re satisfied with the consistency (I typically use about ¼ to ⅓ cup of the reserved water). Taste, and season to taste with additional salt or grated Parmesan, if desired. Serve while warm; leftovers will keep well in the refrigerator in an airtight container for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from How to Make Pesto.",
+   "Make it gluten free: Substitute sturdy gluten-free noodles, such as a corn and quinoa blend.",
+   "Make it nut free: Use pepitas (green pumpkin seeds) instead of nuts.",
+   "Make it vegan/dairy free: Omit the Parmesan. You might like to finish your bowls with a sprinkle of Easy Vegan Parmesan Cheese.",
+   "Change it up: Basil pesto is the classic choice, but you could also use Arugula Pesto, Avocado Pesto, or Kale Pecan Pesto. You’ll need about ¾ cup pesto for 8 ounces of pasta."
+  ],
+  "summary": "Make pesto pasta for a quick and easy dinner! These saucy pesto noodles are made with homemade pesto, which comes together quickly in the food processor. This pesto yields ¾ cup, which will generously coat 8 ounces of pasta once cooked (you can stretch this amount of pesto to coat up to 12 ounces of pasta, or easily double the recipe to use an entire 16-ounce package of pasta).",
+  "ingredient_groups": []
+ }
 }

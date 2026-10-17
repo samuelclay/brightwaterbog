@@ -28,7 +28,35 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2020/11/potato-and-leek-gratin/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 350 degrees F. Generously butter an 8×12-inch or 3-quart baking dish."
+   },
+   {
+    "title": null,
+    "text": "Arrange small stacks of sliced potatoes on an angle, slightly fanned, in different directions filling the pan loosely. Tuck leeks, halved side up, between potatoes around the pan. In a medium saucepan, bring cream, 2 teaspoons kosher salt, many grinds of black pepper, garlic, and thyme to a simmer, stirring to ensure the salt dissolves. Pour hot cream mixture evenly over the pan, trying to get every potato and leek coated. Cover pan tightly with foil, place on a baking sheet to catch any drips, and bake for 30 minutes."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, melt 2 remaining tablespoons butter. Add breadcrumbs, salt, and pepper to taste and mix to evenly coat."
+   },
+   {
+    "title": null,
+    "text": "At 30 minutes, briefly remove pan from oven and remove foil. Sprinkle top evenly with cheese, then scatter with buttered breadcrumbs. Return to the oven without foil for 45 minutes, until potatoes are totally tender, the top is browned, and the edges are bubbly. [Insert a knife or skewer into potatoes to feel for crunch or resistance. Return to the oven if needed.]"
+   },
+   {
+    "title": null,
+    "text": "Let cool for 10 minutes before serving hot."
+   }
+  ],
+  "notes": [
+   "Do ahead: Gratin can be assembled the day before and baked before a big meal. It can also be baked for 30 minutes (the foil-on portion) and cooled, finishing the baking time the next day. Gratin reheats well in a 350-degree oven. Leftovers keep in the fridge for 4 to 5 days.",
+   "Note: You can watch an Instagram Story demo of this recipe over here."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

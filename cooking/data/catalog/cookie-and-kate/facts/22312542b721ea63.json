@@ -1,6 +1,60 @@
 {
  "url": "https://cookieandkate.com/strawberry-basil-and-balsamic-pizza/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Strawberry, Basil and Balsamic Pizza",
+  "ingredients": [
+   "16 ounces prepared whole wheat pizza dough",
+   "1 ½ cups (6 ounces) shredded mozzarella",
+   "5 ounces goat cheese",
+   "1 ½ cups (about ½ pound) chopped strawberries, leafy ends removed and sliced into ¼-inch thick rounds",
+   "1 tablespoon fresh basil, chiffonade into short little strips",
+   "freshly ground black pepper",
+   "½ cup balsamic vinegar",
+   "2 tablespoons honey"
+  ],
+  "yield_text": "8 slices",
+  "cook_time": "50 minutes",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/strawberry-basil-and-balsamic-pizza/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat your oven to 350 degrees Fahrenheit.* Roll out your pizza dough into a 12 to 14-inch round on a floured surface. Top the pizza dough with the shredded mozzarella, big crumbles of goat cheese, and strawberries. Bake on a lightly oiled baking sheet (or on a pizza stone, if you have one) until the cheese is bubbling and golden and the crust is crisp underneath, about 35 to 40 minutes."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, make the balsamic reduction. In a small saucepan, combine the vinegar and honey. Gently simmer the mixture on medium-low heat until it is reduced in volume by half (this should take about 10 to 15 minutes) and set aside."
+   },
+   {
+    "title": null,
+    "text": "Once the pizza is done baking, top it with a sprinkle of basil and freshly ground black pepper. Slice it and use a spoon to lightly drizzle balsamic vinegar on top, as shown in pictures. Serve!"
+   }
+  ],
+  "notes": [
+   "You’ll end up with lots of extra balsamic reduction, which you can use in salad dressings, on crostini, yogurt, ice cream, tomatoes…",
+   "The instructions for my pizza specified to bake at 350 degrees, which I know is low for pizzas. I went ahead and baked at 350 until the cheese was bubbling all over and the crust was crisp throughout and the strawberries were juicy and roasted and I don’t think it could have turned out any better. If you want to crank up the heat and keep an eye on your pizza, though, go for it.",
+   "If you don’t like goat cheese, add extra mozzarella. Feta may also be good."
+  ],
+  "summary": "Strawberries roasted on top a mozzarella and goat cheese pizza, topped with fresh basil and a drizzle of balsamic reduction. This pizza is outrageously good. Trust me.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Pizza"
+   },
+   {
+    "at": 6,
+    "title": "Balsamic reduction"
+   }
+  ]
+ }
 }

@@ -31,7 +31,45 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/greek-wedge-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the salads: Halve the heads of romaine lengthwise, all the way through their bases so the halves stay intact. Set aside."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, combine the tomatoes, cucumber, celery, olives, shallot, lemon juice, and a pinch of salt. Toss to combine and set aside to marinate."
+   },
+   {
+    "title": null,
+    "text": "To prepare the dressing: In a liquid measuring cup or small bowl, combine all of the ingredients, starting with the lower amounts of lemon juice and garlic. Whisk to blend. Taste, and add more lemon juice if it tastes bitter or needs more zip, and more garlic if it could pack more of a punch (I like my dressing on the garlicky side). Season generously with pepper, whisk again, and set aside."
+   },
+   {
+    "title": null,
+    "text": "To assemble: Place each romaine halve on its own dinner plate. Top each one generously with the tomato salad mixture. With a spoon, drizzle the dressing rather liberally over the salads, then finish them with a sprinkle of feta (if using) and chopped herbs. Serve immediately, with sharp butter or steak knives to aid slicing."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by The Mixx in Kansas City.",
+   "Make it vegan: Skip the feta. You might like to make up for it by adding more olives.",
+   "To make this salad a full meal: I think you could mix a can of drained and rinsed chickpeas into the tomato salad. And/or serve the salads on a layer of cooked quinoa, which I can confirm is tasty. I’d cook up about 1 cup of dried quinoa. Here’s how to cook quinoa."
+  ],
+  "summary": "Beautiful Greek salad made with wedges of romaine lettuce, fresh tomatoes and olives piled on top, and a lemon tahini dressing. These salads don’t store well for later, so they are best served immediately (or you can store leftover lettuce, toppings, and dressing separately, and assemble them just before serving). Recipe yields 4 rather large green salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 8,
+    "title": "Lemon-tahini dressing"
+   },
+   {
+    "at": 14,
+    "title": "Garnishes"
+   }
+  ]
  },
  "parser_version": 2
 }

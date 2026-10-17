@@ -1,6 +1,69 @@
 {
  "url": "https://cookieandkate.com/gluten-free-pancakes/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Gluten-Free Pancakes",
+  "ingredients": [
+   "⅔ cup plain yogurt*",
+   "2 tablespoons unsalted butter, melted",
+   "2 tablespoons maple syrup",
+   "2 large eggs",
+   "1 cup certified gluten-free oat flour**",
+   "½ teaspoon baking soda",
+   "¼ teaspoon fine salt",
+   "¼ teaspoon ground cinnamon (optional)",
+   "Optional: up to 1 cup mix-ins***",
+   "Avocado oil or unsalted butter, for greasing the pan",
+   "Optional: up to ¼ cup milk of choice, for thinning the mixture"
+  ],
+  "yield_text": "10",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/gluten-free-pancakes/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small mixing bowl, stir together the yogurt, butter and maple syrup. Crack the eggs into the bowl and whisk until the mixture is well combined."
+   },
+   {
+    "title": null,
+    "text": "In a medium bowl, combine the oat flour, baking soda, salt and cinnamon. Use a large spoon to stir until the ingredients are well combined."
+   },
+   {
+    "title": null,
+    "text": "Pour the wet ingredients into the bowl of dry ingredients. Stir just until the mixture is combined (don’t overmix, or you’ll lose the air bubbles that make these pancakes nice and fluffy). If you’re adding any mix-ins, gently fold them in now."
+   },
+   {
+    "title": null,
+    "text": "Let the batter rest for 10 minutes to thicken. In the last minute or two, heat a large stainless steel or nonstick skillet over medium-low heat. (Or preheat an electric griddle to 325 degrees Fahrenheit)."
+   },
+   {
+    "title": null,
+    "text": "Once the pan’s surface is hot enough that a drop of water sizzles on it, lightly oil or butter the skillet, wiping out the excess with a paper towel. Pour ¼ cup of batter onto the pan. Let the pancake cook for about 3 to 4 minutes, until the perimeter is more matte than shiny and the underside is golden. (If your batter is so thick that you have to help spread the pancake out, thin the mixture with milk as necessary.)"
+   },
+   {
+    "title": null,
+    "text": "Once the bottom side has cooked sufficiently, flip it with a spatula and cook for another 90 seconds or so, until golden brown on both sides. You may need to dial the heat down at this point. Repeat with remaining pancakes, oiling the pan and reducing the heat as necessary."
+   },
+   {
+    "title": null,
+    "text": "Serve the pancakes immediately or keep them warm in a 200-degree Fahrenheit oven. Leftover pancakes keep well in the refrigerator in an airtight container for up to 5 days or in the freezer for up to 6 months. Gently reheat before serving."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Blueberry Lemon Yogurt Pancakes and Caramelized Peach and Oat Pancakes.",
+   "*Yogurt options: I’ve successfully used plain, low-fat yogurt and whole-milk Greek yogurt.",
+   "**Make your own flour: Be sure to use certified gluten-free oat flour or oats. To make oat flour from old-fashioned oats, pour one cup of oats into a food processor and process until they’re finely ground, like the texture of fine sand. See how this process works here.",
+   "***Change it up: Add up to 1 cup mix-ins like toasted chopped nuts, fresh blueberries or chocolate chips."
+  ],
+  "summary": "This gluten-free pancake recipe is made with oat flour, and yields pancakes that are fluffy, golden and delicious. They’re easy to make with basic ingredients. Recipe yields about 10 pancakes.",
+  "ingredient_groups": []
+ }
 }

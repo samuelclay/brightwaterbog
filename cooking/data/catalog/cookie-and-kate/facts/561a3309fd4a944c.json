@@ -1,6 +1,40 @@
 {
  "url": "https://cookieandkate.com/pineapple-mint-popsicles-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Easy Pineapple Mint Popsicles",
+  "ingredients": [
+   "1 pound frozen pineapple chunks, defrosted completely in the refrigerator",
+   "1 tablespoon lightly packed fresh mint leaves, to taste"
+  ],
+  "yield_text": "5 popsicles",
+  "cook_time": "5 minutes (plus thawing/freezing time)",
+  "categories": [
+   "Frozen dessert"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pineapple-mint-popsicles-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a blender, combine the thawed pineapple and mint. Blend until completely smooth. Taste, and add a few more mint leaves if you’d prefer more minty flavor. Blend again."
+   },
+   {
+    "title": null,
+    "text": "Pour the mixture into your popsicle molds, insert popsicle sticks. Freeze until frozen solid. Enjoy!"
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Las Paletas in Nashville, which has since closed.",
+   "Pineapple note: I recommend frozen pineapple here because it’s frozen at the peak of freshness, it’s more affordable, and we’re freezing it again anyway. You could use fresh pineapple if it’s ripe and juicy!"
+  ],
+  "summary": "Craving a refreshing summer treat? Make these simple pineapple-mint popsicles! You’ll need only two ingredients to make these all-natural ice pops. Popsicle molds vary in volume; this recipe yields 16 ounces total, so multiply if necessary.",
+  "ingredient_groups": []
+ }
 }

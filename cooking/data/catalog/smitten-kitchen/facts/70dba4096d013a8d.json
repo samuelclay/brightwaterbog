@@ -27,7 +27,24 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2007/05/the-new-recipe-smell/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cook barley in medium saucepan of boiling salted water until tender, about 30 to 40 minutes. Drain; cool. Transfer to large bowl."
+   },
+   {
+    "title": null,
+    "text": "Cook haricot vert in large pot of boiling salted water until crisp-tender, about 3 minutes. Don’t drain water. Transfer beans to bowl of ice water to cool. Drain well. Transfer to bowl with barley. Add corn to boiling water and cook for 2 to 3 minutes, then also plunge in ice water. Dry and cut kernels from cob, then add to salad bowl. Coarsely chop washed and dried arugula; add to bowl with barley mixture."
+   },
+   {
+    "title": null,
+    "text": "Whisk olive oil, vinegar, shallots, thyme and Dijon mustard in small bowl to blend. Pour enough dressing over barley mixture to coat. Season salad to taste with salt and pepper. Sprinkle with goat cheese and serve alongside any remaining dressing."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

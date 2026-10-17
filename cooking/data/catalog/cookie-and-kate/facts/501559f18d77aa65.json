@@ -1,6 +1,66 @@
 {
  "url": "https://cookieandkate.com/spicy-sun-dried-tomato-and-broccoli-pasta/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Sun-Dried Tomato Pasta with Broccoli",
+  "ingredients": [
+   "½ pound dried whole wheat bow-tie or spiral-shaped pasta",
+   "5 tablespoons extra-virgin olive oil, divided, plus more if necessary",
+   "1 tablespoon pressed or minced fresh garlic (about 5 to 6 garlic cloves)",
+   "Optional, for spice: ¼ teaspoon crushed red pepper flakes",
+   "1 ½ pounds broccoli (about 4 medium, tightly packed crowns), chopped into small, bite-sized pieces",
+   "Fine salt or kosher salt",
+   "½ cup oil-packed sun-dried tomatoes, drained and chopped",
+   "2 to 3 ounces goat cheese, crumbled while still cold (around ½ cup)",
+   "⅓ cup coarsely grated Parmigiano-Reggiano or Parmesan cheese",
+   "½ small lemon, juiced (1 to 2 tablespoons lemon juice)",
+   "Optional add-ins: 15 pitted Kalamata olives, chopped, 1 can chickpeas, drained and rinsed, and/or a couple handfuls of baby arugula (great with leftovers)"
+  ],
+  "yield_text": "4",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Pasta"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/spicy-sun-dried-tomato-and-broccoli-pasta/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a large pot of salted water to a boil. Place a colander in the sink with a glass liquid measuring cup or heat-safe bowl next to it. Add the pasta to the boiling water and cook until al dente, as directed on the package instructions. Remove the pot from heat and ladle/pour about 1 cup of the pasta water in the glass measuring cup. Drain the pasta in the colander and let it rest, covered loosely with a pot lid or plate."
+   },
+   {
+    "title": null,
+    "text": "Place a small, heat-safe bowl near the stove. In a large cast-iron or non-stick skillet, heat 3 tablespoons of olive oil over medium-low heat. When the oil is hot, add the red pepper flakes (if using) and garlic and cook, stirring constantly, until the garlic begins to sizzle. Cook for about 30 seconds more to infuse the oil with spicy, garlicky flavor, but do not let the garlic brown. Pour and scrape the seasoned oil into the heatproof bowl and set aside. Wipe out the pan with a clean kitchen rag or paper towel."
+   },
+   {
+    "title": null,
+    "text": "Return the pan to the stove. Add 2 tablespoons of the olive oil and heat over medium-low until shimmering. Add the broccoli and sprinkle with 1 teaspoon salt. Cook, stirring occasionally, until the broccoli has shrunk to a single layer in the pan and turned bright green, and most have some browning on them (about 7 to 10 minutes). Don’t quit cooking prematurely here; you want the broccoli to be nice and toasty."
+   },
+   {
+    "title": null,
+    "text": "Get out the pan’s lid or a cookie sheet and keep it handy. Add the sun-dried tomatoes to the pan. Measure out ⅓ cup pasta water (keep the rest for later) and pour it into the pan. Cover the pan with your lid or cookie sheet and continue cooking until the water has simmered down to almost nothing, about 15 to 30 seconds. Uncover and remove the pan from the heat."
+   },
+   {
+    "title": null,
+    "text": "Add the drained pasta to the pan and drizzle in all of the infused oil. Stir it all together, then add the goat cheese and most of the Parmigiano. Stir until everything is well distributed. Add another 1 to 2 tablespoons of the pasta water and the lemon juice, and stir until the goat cheese loosens up and turns creamy. Season to taste with salt and add a tablespoon more pasta water if you’d like it to be more creamy. If the mixture seems dry at all, add a little splash of olive oil and mix well. Mix in the olives, chickpeas and/or arugula, if using."
+   },
+   {
+    "title": null,
+    "text": "Serve right away, garnished with the remaining Parmigiano. This pasta keeps well in the fridge for up to 4 days. Gently reheat the leftovers or serve them cold like pasta salad, perhaps with a handful of arugula and an extra squeeze of lemon juice."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from The Fresh & Green Table by Susie Middleton.",
+   "Make it dairy free/vegan: Omit the cheese, but include the olives to make up for the cheese’s saltiness. Stir in some vegan sour cream to make the dish creamy. Finish the dish with a sprinkle of vegan Parmesan cheese, if you’d like.",
+   "Make it gluten free: Substitute sturdy gluten-free noodles, like a corn and quinoa blend, cooked according to package directions."
+  ],
+  "summary": "Simple and flavorful, this vegetarian pasta recipe is made with sun-dried tomatoes, sautéed broccoli, creamy goat cheese and garlicky olive oil. Recipe yields 4 main dish servings.",
+  "ingredient_groups": []
+ }
 }

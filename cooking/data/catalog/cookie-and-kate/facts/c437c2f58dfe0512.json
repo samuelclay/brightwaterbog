@@ -30,7 +30,51 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/broccoli-chickpea-pita-sandwiches/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the broccoli chickpea salad: In a medium mixing bowl, combine all of the ingredients as listed. Toss to combine."
+   },
+   {
+    "title": null,
+    "text": "To prepare the lemon dressing: In a small liquid measuring cup or bowl, combine the ingredients as listed. Whisk the ingredients together until emulsified. Taste, and add additional salt if necessary. The dressing should be a little tart, but if it’s too tart, add a little more sweetener to balance the flavors. If it’s not tart enough for your liking, add a little more lemon juice."
+   },
+   {
+    "title": null,
+    "text": "Pour the dressing over the broccoli chickpea salad and toss to combine. Set the bowl aside to marinate while you work on the rest."
+   },
+   {
+    "title": null,
+    "text": "To make the mashed avocado, halve and pit the avocados, then scoop the flesh of the avocados into a bowl. Mash them with a pastry cutter or a fork until they are mostly mashed, and spreadable. Season with a pinch of salt, and add more to taste."
+   },
+   {
+    "title": null,
+    "text": "To prepare the pita breads, warm them for a few minutes in the oven, or in a toaster oven, or even in the microwave. (If you’re using slices of bread, pop them in the toaster until golden.)"
+   },
+   {
+    "title": null,
+    "text": "Spread mashed avocado (or hummus) over one-half of the top surface of each pita round, and cover the other half with a few generous spoonfuls of broccoli chickpea salad. (If you’re serving on toast, spread avocado over the top surface of each slice, and spoon broccoli chickpea salad on top.) Serve immediately."
+   }
+  ],
+  "notes": [
+   "Make it vegan: Use Kalamata olives instead of feta, and maple syrup instead of honey."
+  ],
+  "summary": "These simple broccoli, chickpea and avocado pita sandwiches are a fresh lunch or dinner option. If you would like to have leftovers, store individual components separately, with plastic wrap pressed against the top surface of the mashed avocado to prevent oxidation (or, use hummus instead). Recipe yields 4 pita sandwiches, or 4 large toasts.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Broccoli chickpea salad"
+   },
+   {
+    "at": 5,
+    "title": "Lemon dressing"
+   },
+   {
+    "at": 12,
+    "title": "Everything else"
+   }
+  ]
  },
  "parser_version": 2
 }

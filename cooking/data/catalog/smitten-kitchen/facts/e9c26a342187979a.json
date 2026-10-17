@@ -27,7 +27,42 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2012/10/spaghetti-with-broccoli-cream-pesto/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a large pot of salted water to boil for your pasta."
+   },
+   {
+    "title": null,
+    "text": "Remove broccoli florets from stems and chop into medium florets. Peel stems with a vegetable peeler (I do this so that they cook quickly, plus, I prefer their taste without the tough stem skin.) and slice them into 1/2-inch segments."
+   },
+   {
+    "title": null,
+    "text": "Use your pot of future pasta water to steam (by suspending a mesh strainer over your pasta pot and covering it with a lid for 5 to 6 minutes)) or par-boil (for 3 to 5 minutes) your broccoli florets and stems until just tender, then drain if needed and set them aside."
+   },
+   {
+    "title": null,
+    "text": "Add pasta to water and cook until al dente, or about one minute less than fully cooked. Before draining pasta, reserve a cup of pasta cooking water and set it aside. Drain pasta."
+   },
+   {
+    "title": null,
+    "text": "Wipe out pot so that you can use it again. In the bottom of pot, melt butter and olive oil together over medium heat. Add onion and reduce to medium-low, sauteing it until tender, about 7 minutes. Add garlic and cook for another two minutes. Add steamed broccoli, salt and red or black pepper and turn the heat back up to medium-high, cooking it with the onion and garlic for a few additional minutes. Pour cream over mixture and let cook for 30 seconds."
+   },
+   {
+    "title": null,
+    "text": "Transfer broccoli mixture and all of its creamy bits at the bottom of the pan to a blender or food processor and blend in short bursts until it’s finely chopped and a little sauce. Don’t worry if it looks dry; that reserved pasta water will give it the sauciness it needs in a minute. (Theoretically, one could also use an immersion blender here inside their pot to make the broccoli sauce, but it might be a bit messy with all of the chunks and small bits.)"
+   },
+   {
+    "title": null,
+    "text": "Add the broccoli sauce back to the pot with the drained spaghetti and a splash or two of the reserved pasta water. Cook over medium-high for 1 to 2 minutes, tossing the mixture so that it evenly coats. Add more pasta water as needed to loosen the sauce. Adjust seasonings to taste, adding more salt or pepper, and scoop into a serving bowl. Shower spaghetti with grated parmesan and dig in."
+   }
+  ],
+  "notes": [
+   "Do ahead: I make a large batch of the sauce and keep it in the fridge for several days, boiling a little pasta each day for lunch when I make it for Jacob."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -30,7 +30,39 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2026/01/simple-crispy-pan-pizza/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the dough: In a large bowl, whisk together the flour, yeast, and salt. Add the water and 1 tablespoon olive oil and use a spoon or dough whisk to bring it together, stirring the mixture a few times to ensure there are no unmixed pockets of flour. Cover the bowl with plastic wrap and let it rise until it doubles and moves a lot when jiggled, about 1 1/2 to 2 hours at room temperature. If you won’t need the dough until later, you can transfer it to the fridge a little while before it’s fully doubled and let it finish there for a few hours or overnight."
+   },
+   {
+    "title": null,
+    "text": "Assemble the pizza: Heat your oven to 450°F (230°C). Coat a 12-inch (30-cm) round cast-iron skillet with 3 tablespoons olive oil. Scrape dough into the pan, then turn it over once so it’s oiled on both sides. Dip your fingers in the oil to coat them and dimple the dough out to the edges as best as you can; it’s okay if it doesn’t fully stretch at this point. Set it aside, loosely covered, for 30 minutes to finish proofing."
+   },
+   {
+    "title": null,
+    "text": "To assemble: Spoon the sauce generously over the dough, covering it all the way to the edges of the pan. Sprinkle with mozzarella, then pecorino or parmesan. Season as you wish with salt, pepper flakes, and oregano, then drizzle a final tablespoon of oil over the top before transferring it to the oven."
+   },
+   {
+    "title": null,
+    "text": "Bake the pizza: For 30 minutes, until deeply golden brown at the edges and toasty on top. Yes, this baking time and temperature is correct. It sounds very long but I’ve made a hundred of these pizzas and always regret when I take it out before 30 minutes, as the edges have a less satisfying crunch."
+   },
+   {
+    "title": null,
+    "text": "To serve: Scatter with fresh basil. You can serve it right in the pan, but I prefer to protect my knives. Loosen the pizza from the pan and slide it onto a cutting board before cutting it into wedges."
+   },
+   {
+    "title": null,
+    "text": "Seen here: I’ve had this cast-iron skillet for 20 years! You can also use your Staub x Smitten Kitchen Braiser. I use this dough whisk. And I’m obsessssssed with this stunning olive wood board I bought myself recently from Etsy. I want every size. While you can bake this in any old 9×13-inch baking pan too, I bought this one just because I wanted the cast iron edges to be as good as they are in a skillet. Pizza like this is such an easy win when kids’ friends come over, I might buy a second one soon."
+   }
+  ],
+  "notes": [
+   "Do ahead: Leftovers reheat fantastically. I heat leftover slices on a foil-covered sheet pan at 350°F or 375°F for 5 to 10 minutes.",
+   "No big ovenproof skillet? We regularly make this in a 9×13-inch pan: same baking time, same servings."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

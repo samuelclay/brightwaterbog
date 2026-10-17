@@ -1,6 +1,45 @@
 {
  "url": "https://cookieandkate.com/cold-brew-iced-tea/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Cold Brew Iced Tea",
+  "ingredients": [
+   "1 tea bag (or 1 teaspoon loose-leaf tea) per 6 to 8 ounces of water, depending on desired strength",
+   "Optional add-ins: sliced lemon, fresh mint leaves, sliced cucumber, simple syrup or sweetener of choice"
+  ],
+  "yield_text": "Varies",
+  "cook_time": "5 mins (plus 6 to 12 hours chilling time)",
+  "categories": [
+   "Drink"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cold-brew-iced-tea/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "For the best flavor, if you’re using tea bags, snip off the corners and dump the loose tea into your pitcher. Or, just put the whole bags in the pitcher for tea that is *almost* as awesome and way easier to make. Pour in room temperature or cold water."
+   },
+   {
+    "title": null,
+    "text": "Cover the pitcher and refrigerate. Steep white or green tea for 6 to 8 hours; steep black or oolong tea for 8 to 12 hours."
+   },
+   {
+    "title": null,
+    "text": "Once your time is up, strain the loose-leaf tea out of the pitcher by pouring the tea through a fine mesh sieve (for best results, cover the sieve with a cheesecloth or paint-straining bag used exclusively for food products), or just pull out the tea bags. Discard the tea or tea bags."
+   },
+   {
+    "title": null,
+    "text": "Serve tea chilled or over ice, with any add-ins of your choice. Tea will keep well, covered and refrigerated, for up to 5 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Bon Appetit May 2015."
+  ],
+  "summary": "This cold brew iced tea tastes so smooth and refreshing! It’s free of the tannic, bitter flavors found in regular brewed iced tea. It tastes fresh for 5 days, so keep a big batch in the refrigerator.",
+  "ingredient_groups": []
+ }
 }

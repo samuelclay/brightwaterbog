@@ -23,7 +23,32 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/blood-orange-avocado-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Fill a medium-sized bowl with ice and water, and soak the onions for 10 to 20 minutes. This step makes the onions crisp and softens their flavor intensity."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, on a large serving plate, layer the orange and avocado slices."
+   },
+   {
+    "title": null,
+    "text": "Drain the onion well and tuck pieces in between and on top of the orange and avocado. Drizzle the salad with the lime juice and sprinkle generously with salt."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle the seeds and cilantro on top, then drizzle the olive oil all over it. Serve promptly."
+   }
+  ],
+  "notes": [
+   "Recipe adapted just a little from Dining In by Alison Roman.",
+   "*Where to buy: You might be able to find black sesame seeds next to the Asian ingredients in well-stocked grocery stores.",
+   "On leftovers: Given the fresh avocado component of this salad, it’s really best served immediately. It might keep for a day in the fridge if you gently toss it so that the avocado is coated in citrus juice."
+  ],
+  "summary": "This beautiful blood orange and avocado salad brightens up dreary winter days! It’s loaded with delicious fresh, seasonal flavors and makes a statement on the dinner table. Recipe yields 4 servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

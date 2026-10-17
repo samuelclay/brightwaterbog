@@ -1,6 +1,61 @@
 {
  "url": "https://cookieandkate.com/roasted-cranberries-and-brussels-sprouts-over-wild-rice/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Roasted Cranberries and Brussels Sprouts over Wild Rice",
+  "ingredients": [
+   "½ cup wild rice blend",
+   "1 pound Brussels sprouts, tips cut off, discolored leaves removed and sliced in half (smaller sprouts are better than large sprouts)",
+   "1 cup fresh cranberries (or ⅓ cup dried cranberries, roughly chopped)",
+   "1 tablespoon extra-virgin olive oil",
+   "¼ teaspoon fine salt",
+   "½ cup pecan halves, roughly chopped",
+   "⅓ cup crumbled goat cheese or feta cheese",
+   "1 tablespoon maple syrup, or more to taste",
+   "1 tablespoon balsamic vinegar, or more to taste",
+   "Flaky salt, for finishing (optional)"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "40 minutes",
+  "categories": [
+   "Main or side dish"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-cranberries-and-brussels-sprouts-over-wild-rice/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper."
+   },
+   {
+    "title": null,
+    "text": "Cook the wild rice according to package directions. Once it’s done, cover the pot with a lid to keep it warm."
+   },
+   {
+    "title": null,
+    "text": "On the prepared baking sheet, combine the Brussels sprouts, cranberries, oil and salt. Gently toss until everything is lightly coated in oil. Spread the mixture in an even layer across the baking sheet, then arrange all of the sprouts with their flat sides facing down. Roast until the Brussels are tender and deeply caramelized on the bottoms, about 18 to 25 minutes depending on their size."
+   },
+   {
+    "title": null,
+    "text": "When they’re nearly done (about 3 to 5 minutes to go), add the pecans to the pan and return them to the oven (this is an easy way to toast the pecans)."
+   },
+   {
+    "title": null,
+    "text": "Toss the warm cooked rice, sprouts, cranberries, cheese and pecans in a bowl and drizzle with balsamic vinegar and maple syrup. Season with salt (flaky salt if you have it), divide into smaller bowls, and enjoy! Leftovers will keep in the refrigerator, covered, for up to 4 days. You might like to wake up the leftovers with another little splash of vinegar."
+   }
+  ],
+  "notes": [
+   "Adapted from an old, now-deleted recipe titled Roasted Brussels Sprouts and Cranberries with Barley (here’s a PDF).",
+   "Whole grain options: Wild rice blend, wild rice, farro, or barley would all work well for this recipe. You’ll need 1 ½ cups cooked whole grains.",
+   "Change it up: Omit the whole grains to simplify the dish to a vegetable side. You might prefer less maple syrup and balsamic vinegar without the rice. Add it by the teaspoon, to taste.",
+   "Make it dairy free/vegan: Omit the cheese. It’s very good without it.",
+   "Make it nut free: Omit the pecans."
+  ],
+  "summary": "Crisp, roasted Brussels sprouts meet burst fresh cranberries, toasted pecans, and creamy goat cheese over a tender wild rice blend. This delicious winter meal would also make a lovely side dish or vegetarian main dish at your Thanksgiving or Christmas supper. Recipe yields 4 medium servings.",
+  "ingredient_groups": []
+ }
 }

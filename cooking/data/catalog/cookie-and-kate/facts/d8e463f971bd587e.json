@@ -1,6 +1,51 @@
 {
  "url": "https://cookieandkate.com/how-to-make-coconut-bacon/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "How to Make Coconut Bacon",
+  "ingredients": [
+   "3 cups large, unsweetened coconut flakes (not regular shredded coconut!)",
+   "3 tablespoons reduced-sodium tamari (or other soy sauce)",
+   "2 ½ tablespoons liquid smoke (any flavor, choose your favorite)",
+   "1 ½ tablespoons maple syrup"
+  ],
+  "yield_text": "3 Cups",
+  "cook_time": "15 minutes",
+  "categories": [
+   "Condiment"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/how-to-make-coconut-bacon/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 350 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper (optional)."
+   },
+   {
+    "title": null,
+    "text": "Measure the coconut flakes out onto the baking sheet. Drizzle the coconut flakes with tamari, liquid smoke and maple syrup. Mix well. Spread the flakes into an even layer on the parchment paper."
+   },
+   {
+    "title": null,
+    "text": "Bake on the middle rack for 12 to 14 minutes, flipping halfway, until flakes are mostly dry and turning golden on the edges. (Keep an eye on the coconut as it can go from golden brown to deep burnt brown fairly quickly. For softer bacon, you’ll probably only need to bake for 12 minutes. For crispy bacon, aim for 14.) The coconut flakes will further crisp up as they cool."
+   },
+   {
+    "title": null,
+    "text": "Let the coconut bacon cool, then use it immediately or transfer to a freezer-safe bag. Coconut bacon keeps well in the freezer for several months. No need to defrost!"
+   }
+  ],
+  "notes": [
+   "Recipe originally seen on my heirloom BLT salad (looove that salad!).",
+   "Make it gluten free: This dish is gluten free as long as you use gluten-free tamari, which is a variety of soy sauce that is usually (but not always, check the label) gluten free. I always use tamari instead of soy sauce because I prefer the flavor of it!",
+   "Where to buy: Look for coconut flakes in the baking aisle or health food section at well-stocked grocery stores. Look for tamari next to the soy sauce in the Asian ingredients aisle. Look for liquid smoke near the barbecue sauce."
+  ],
+  "summary": "Fake bacon that tastes like the real thing. Use it in salads, BLTs, or anywhere else that you would add bacon. This coconut bacon is vegan and gluten free, as long as you use gluten-free soy sauce (like tamari). Recipe yields 3 cups coconut bacon.",
+  "ingredient_groups": []
+ }
 }

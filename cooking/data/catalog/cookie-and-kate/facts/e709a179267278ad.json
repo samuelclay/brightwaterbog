@@ -29,7 +29,55 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/lentil-baked-ziti-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the lentils: In a large saucepan over medium heat, warm the olive oil until shimmering. Add the onion and salt. Cook, stirring occasionally, until the onion is turning translucent, about 4 to 5 minutes. Add the garlic and cook until fragrant, about 30 seconds. Add the lentils and water, and stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Raise the heat to high and bring the mixture to a simmer, then reduce heat to medium-low and gently simmer until the lentils are tender and cooked through, about 30 to 40 minutes. Drain the mixture well in a fine-mesh sieve and return the lentils to their pot. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, preheat the oven to 350 degrees Fahrenheit and bring a large pot of salted water to boil. Cook the pasta just until al dente, according to package directions. Drain and return the pasta to the pot."
+   },
+   {
+    "title": null,
+    "text": "Add the lentils to the pasta. Add ½ cup of the cheese, reserving the rest for later. Season to taste with salt (I usually add ¼ to ½ teaspoon), freshly ground black pepper and red pepper flakes (if using)."
+   },
+   {
+    "title": null,
+    "text": "Pour 1 cup of the marinara sauce into a 13×9-inch baking dish. Spread the sauce around with a spatula so the base of the baker is evenly coated. Pour the lentil and pasta mixture into the baker and spread it so it’s evenly distributed. Using a spoon, dollop cottage cheese in big spoonfuls over the pasta, then just lightly swirl the mixture a bit so the cottage cheese is still concentrated in those areas."
+   },
+   {
+    "title": null,
+    "text": "Drizzle the rest of the sauce evenly over the dish (adding extra sauce if you’d like) and gently spread it over the pasta. Sprinkle the remaining mozzarella evenly over the dish. Cover the baker tightly with aluminum foil—don’t let it touch the cheese—or stick a few wooden toothpicks down the center and place a generously sized piece of parchment paper, folded in the middle to make a “tent” over the baker."
+   },
+   {
+    "title": null,
+    "text": "Bake for 30 minutes, then remove the covering, increase the heat to 450, and continue baking until the cheese on top is golden and spotty, 3 to 9 more minutes. Remove the baker from the oven and let it cool for 10 minutes before serving (trust me). Sprinkle freshly torn basil on top, slice and serve."
+   }
+  ],
+  "notes": [
+   "*Lentil notes: If you want to use pre-cooked lentils to save a step (they won’t be as flavorful), you’ll need about 17 ounces or 3 ½ cups cooked lentils.",
+   "**Cottage cheese vs. ricotta: I genuinely prefer cottage cheese to ricotta here, even though I can’t stand cottage cheese on its own. Ricotta tends to get gummy when heated, which bothers me, whereas cottage cheese turns magically more creamy and delicious. Use whichever one you prefer in lasagna recipes.",
+   "Make it gluten free: Substitute sturdy gluten-free pasta (such as a corn and quinoa blend).",
+   "Change it up: You can add cooked bite-sized veggies or sautéed greens to the lentil and pasta mixture, if you’d like!",
+   "Advance preparation: I believe you could make the lentils and pasta ahead of time, refrigerate, and assemble just before baking. Matter of fact, you could probably assemble the whole thing and refrigerate until baking. It’s probably a good candidate for freezing before baking, too. Please let me know if you try."
+  ],
+  "summary": "This healthy vegetarian baked ziti recipe includes lentils for protein. It’s a delicious dinner that makes great leftovers. Be sure to serve it with a big green side salad; my Italian chopped salad or a pared-down version of it would be perfect. Recipe yields 6 to 8 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Lentils*"
+   },
+   {
+    "at": 6,
+    "title": "Pasta and everything else"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -22,7 +22,39 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/classic-french-75-cocktail-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the simple syrup: Combine the honey (or sugar) and water in a small saucepan. Warm over medium heat, whisking occasionally, just until the honey or sugar has disappeared into the water. Remove the pot from the heat and let it cool."
+   },
+   {
+    "title": null,
+    "text": "To make a cocktail (you can make multiple drinks at once): Fill a cocktail shaker with ice. Pour in the gin, lemon juice and simple syrup. Securely fasten the cap on the shaker and shake until well chilled, about 20 seconds. Strain the liquid into Champagne glasses and top with Champagne."
+   },
+   {
+    "title": null,
+    "text": "Twist your lemon peel and hold it for a few seconds to retain the shape. Garnish your glass with the lemon twist, and enjoy this drink while it’s cold!"
+   }
+  ],
+  "notes": [
+   "Measurement tips: 1 ½ ounces is 3 tablespoons, and ¾ ounce is 1 ½ tablespoons.",
+   "Make it vegan: Use vegan sugar instead of honey.",
+   "Make it gluten free: I found Hendrick’s on a list of gluten-free gins, but you might double-check to be sure.",
+   "Change it up: Any fresh citrus juice will work here. Clementine or blood orange juice is fun. You could also use St. Germain elderflower liqueur in place of the simple syrup (in which case, I’d stick with lemon as the citrus).",
+   "Recommended equipment: I love this citrus juicer for squeezing limes and lemons, and this stainless steel jigger for measuring small amounts of liquid. (Those are affiliate links.)"
+  ],
+  "summary": "Classic French 75 cocktails are easy to make at home with this recipe! The French 75 is a refreshing and citrusy, sparkling gin cocktail that packs a punch.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per cocktail"
+   },
+   {
+    "at": 5,
+    "title": "Simple syrup (yields enough for 5 cocktails, scale as necessary)"
+   }
+  ]
  },
  "parser_version": 2
 }

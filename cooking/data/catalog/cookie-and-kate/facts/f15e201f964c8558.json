@@ -29,7 +29,41 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/orange-orzo-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a large pot of salted water to boil. Add the orzo and cook until al dente, according to package directions. Before draining, reserve roughly ½ cup pasta cooking water. Drain, and immediately rinse the orzo under cold running water until the orzo is no longer warm. Drain well."
+   },
+   {
+    "title": null,
+    "text": "Toast the almonds in a medium skillet over medium heat, stirring frequently, until fragrant and turning golden on the edges, about 5 minutes. Transfer the almonds to a cutting board and chop them."
+   },
+   {
+    "title": null,
+    "text": "In a large serving bowl, combine the cooked orzo, chopped almonds, parsley, olives, green onion, raisins, and feta (if using)."
+   },
+   {
+    "title": null,
+    "text": "In a liquid measuring cup or small bowl, combine the orange zest, orange juice, olive oil, vinegar, garlic and salt. Add ¼ cup of the reserved pasta cooking water, and whisk until blended."
+   },
+   {
+    "title": null,
+    "text": "Pour the dressing over the salad and toss to combine. It might seem like too much dressing at first, but don’t worry. Season with pepper, to taste."
+   },
+   {
+    "title": null,
+    "text": "Let the orzo salad rest for at least 10 minutes (or up to several hours in the refrigerator) so it has time to soak up the dressing. Season to taste with additional salt, if necessary, and serve. Leftovers will keep well in the refrigerator for up to four days."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by a salad offered at Hen House grocery stores.",
+   "Make it gluten free: Substitute small gluten-free pasta noodles for the orzo.",
+   "Make it vegan/dairy free: Simply omit the feta cheese. You might want to add a few extra olives to make up for feta’s saltiness.",
+   "Make it nut free: Omit the almonds, or try using pepitas instead."
+  ],
+  "summary": "The best orzo salad recipe, featuring bright, fresh Mediterranean flavors! This healthy salad includes whole grain orzo, fresh parsley, toasted almonds, crumbled feta, green onion and Kalamata olives. Recipe yields 6 side servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

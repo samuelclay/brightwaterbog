@@ -33,7 +33,57 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/tangy-lentil-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the lentils: Fill a medium-to-large saucepan with water, leaving several inches of room at the top. Bring it to a boil over high heat."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, sort through your lentils for debris, then rinse your lentils in a fine-mesh sieve under running water until the water runs clear. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Once the water is boiling, add the rinsed lentils. Add the bay leaf and salt. Set the timer for 16 minutes. Reduce the heat as necessary to prevent overflow and to maintain a lively simmer."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, make the dressing in a food processor: Combine the olive oil, lemon juice, dill, tahini, garlic, salt, red pepper flakes and several twists of black pepper. Blend until smooth, pausing to scrape down the sides and the bottom of the bowl as necessary. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Once your timer has gone off, use a fork to scoop out a few lentils and test for doneness (careful, they’re hot). Your lentils are done when they are pleasantly tender throughout (not mushy or falling apart) and taste nicely earthy (undercooked lentils tend to taste somewhat metallic). If your lentils aren’t fully cooked yet, retest every 1 to 2 minutes until they are. Once cooked, strain off all the excess water."
+   },
+   {
+    "title": null,
+    "text": "Pour the lentils into a medium serving bowl, and discard the bay leaf. Pour in all of the dressing, and stir to combine. Add the grated carrots, parsley, the remaining dill, celery, green onion, and pepperoncini peppers. Wait to add the optional cheese until the lentils are just warm (not hot enough to melt the cheese)."
+   },
+   {
+    "title": null,
+    "text": "Stir to combine. Season to taste with additional salt (for overall flavor), red pepper flakes (for heat) and/or black pepper. If the salad isn’t tangy enough for your liking, you could add a tablespoon more lemon juice or chopped pepperoncinis."
+   },
+   {
+    "title": null,
+    "text": "This salad is ready to serve, though it tastes even better after a 20-minute rest. It keeps well in the refrigerator, covered, for about 4 days."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Don’t add cheese.",
+   "Serving suggestions: This salad is great on its own, but you can make it more of a complete meal by topping it with a fried egg, roasted cauliflower or cauliflower “steaks.”",
+   "Change it up: You could omit the bay leaf and tahini if you don’t have them on hand, though they do offer some nice flavor. If you hate dill, skip it—you might like some extra parsley to make up for it."
+  ],
+  "summary": "This lentil salad recipe features bold dill, tahini and pepperoncini pepper flavors! It’s tangy, crisp-tender, and delicious. Recipe yields about 6 to 8 side servings and keeps well for up to 4 days.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 10,
+    "title": "Tahini-dill dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

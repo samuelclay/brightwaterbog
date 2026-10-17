@@ -28,7 +28,36 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2012/08/leek-chard-and-corn-flatbread/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Trim the ends off your leeks and halve them lengthwise. Cut them crosswise into 1/2-inch half-rings. Fill a medium bowl with very cold water and drop in sliced leeks. Swish them around with your fingers, letting any sandy dirt fall to the bottom. Scoop out the leeks and drain them briefly on a towel, but no need to get them fully dry. Do the same with your chard ribbons, but you can leave the leaves on towels until they’re nearly fully dry, while you cook the leeks."
+   },
+   {
+    "title": null,
+    "text": "Heat your oven to 450 degrees."
+   },
+   {
+    "title": null,
+    "text": "Heat a large, heavy skillet over medium heat. Once hot, add butter and oil and once they’re fully melted and a bit sizzly, add the leek slices. Reduce heat to low, cover with a lid and cook leek for 10 to 13 minutes, stirring occasionally. Raise heat back to medium, add the chard ribbons and cook until they wilt, about 4 minutes. Season mixture with salt and freshly ground black pepper, adding more if needed. Finally, add your corn kernels, cooking them with the leeks and chard for just another minute."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle two baking sheets with cornmeal. If you have pesky old baking trays like I do, and your breads really like to stick to them, I find things will release more reliably if you first lightly spray them with an oil before sprinkling on the cornmeal. Roll or stretch half your dough into a rectangular-ish shape (flatbreads are prettiest when they’re irregularly shaped, in my humble opinion) and arrange it on the prepared sheet. Spread half the leek-corn-chard mixture on it. Sprinkle it with half the log of goat cheese, crumbled into small bits."
+   },
+   {
+    "title": null,
+    "text": "Bake flatbread in oven for 10 to 15 minutes, until the edges of the bread begin to brown slightly (they might brown more deeply in a better oven than they did in my lousy one). Repeat with remaining dough, filling and goat cheese."
+   },
+   {
+    "title": null,
+    "text": "To serve, slide each flatbread onto a cutting board and cut into 8 rectangles. Serve immediately."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

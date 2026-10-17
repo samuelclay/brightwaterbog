@@ -23,7 +23,22 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/watermelon-white-sangria-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large pitcher, combine the prepared watermelon, nectarine, raspberries and lime. Pour in the St. Germain, followed by the entire bottle of sauvignon blanc. Gently stir with a big spoon to combine. Let the mixture chill in the refrigerator for 2 to 4 hours (the longer, the better)."
+   },
+   {
+    "title": null,
+    "text": "Taste and stir in some agave nectar if the sangria isn’t quite sweet enough for you. Serve sangria in individual glasses, over ice."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from/inspired by Vibrant Food by Kimberley Hasselbrink."
+  ],
+  "summary": "The best white sangria recipe, featuring watermelon, summer fruit and St. Germain liqueur! This sangria is absolutely perfect for summertime sipping.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

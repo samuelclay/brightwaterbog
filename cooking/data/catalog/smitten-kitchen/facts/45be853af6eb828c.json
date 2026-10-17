@@ -23,7 +23,24 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2009/06/spanakopita-triangles-then-some/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Melt one tablespoon butter in a large heavy skillet over moderate heat, add onions and garlic and saute for a minute, then cook spinach, stirring, until wilted and tender, an additional 4 to 8 minutes (less for baby spinach, more for grown-up spinach). Remove from heat and cool, about 10 minutes. Press mixture in mesh colander (or wring in cheesecloth) to remove as much liquid as possible (I find this more necessary with baby spinach than the heartier stuff, which left almost no excess liquid), then coarsely chop. Transfer to a bowl and stir in feta and lemon juice. Season with salt and pepper to taste. Let filling cool and follow instructions for phyllo triangles (below)."
+   },
+   {
+    "title": null,
+    "text": "Wild Mushroom and Blue Cheese Triangles"
+   },
+   {
+    "title": null,
+    "text": "Inspired by this galette"
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

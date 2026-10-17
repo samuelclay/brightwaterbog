@@ -25,7 +25,24 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2011/05/leeks-toasts-with-blue-cheese/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Fill a large bowl with cold water. Add leeks and use your hands to pump them up and down in the water a bit, separating the rings and letting the dirt and grit fall to the bottom. Transfer to a dish or plate for a minute; no need to dry them."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, heat a large, heavy skillet over medium. Once hot, add butter and olive oil and once they’re fully melted and a bit sizzly, add the leek slices, still wet. Sprinkle with 1/2 teaspoon coarse salt and a few grinds of black pepper. Reduce heat to low, cover with a lid and cook leeks for 25 minutes, stirring them occasionally. Adjust seasoning to taste."
+   },
+   {
+    "title": null,
+    "text": "While leeks cook, brush bread slices with olive oil and sprinkle with coarse salt. Run under broiler until lightly toasted. You may either spread the cheese you’re using on now, while the toasts are hot, or sprinkle it on at the end. Divide leeks among toasts. Sprinkle with cheese, if you haven’t spread it underneath. Add a few drops of lemon juice, if desired. Eat at once or gently rewarm a bit later."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

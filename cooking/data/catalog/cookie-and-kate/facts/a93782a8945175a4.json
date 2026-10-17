@@ -17,7 +17,29 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/chocolate-peppermint-cups-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small bowl, stir together the honey and peppermint extract until combined. Arrange mini cupcake liners on plate(s) or fill a mini cupcake pan with the liners, if you have one."
+   },
+   {
+    "title": null,
+    "text": "Melt the chocolate (I did this in the microwave in 30-second bursts, stirring after each one, or you can use a double boiler on the stove). Fill the bottom of each cup with 1 teaspoon of the melted chocolate. Add a small dollop of the honey mixture in the center, then top it with another teaspoon of the chocolate."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle a little sea salt over the cups (note: if you want the salt to stay visible on top like mine, wait until the cups have chilled for about 5 minutes to sprinkle with salt). Freeze the candies until firm, about 30 minutes, then they will be ready to eat! For maximum longevity, store them in the refrigerator in a sealed bag."
+   }
+  ],
+  "notes": [
+   "Recipe adapted just a teeny bit from ONE PART PLANT. Copyright © 2017 by Jessica Murnane.",
+   "Change it up: To make other flavors of chocolate cups, Jessica notes that you can use any oil or extract that would pair well with chocolate, in place of the peppermint. She offered rose, almond, or anise as examples.",
+   "Make it dairy free: Use dairy-free chocolate. See below for recommended brands.",
+   "Make it soy free: Make sure your chocolate is free of soy derivatives like soy lecithin. Check out Enjoy Life and Pascha brands."
+  ],
+  "summary": "Delicious honey-sweetened chocolate peppermint cups! These dark chocolate treats are fun and easy to make. Recipe yields 12 to 15 mini peppermint cups; multiply if necessary (you’ll need that many mini cupcake liners—look for them in the baking aisle).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

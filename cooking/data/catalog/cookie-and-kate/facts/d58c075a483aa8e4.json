@@ -29,7 +29,37 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/thai-curried-butternut-squash-soup/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oil in a large Dutch oven or heavy-bottomed pot over medium heat. Once the oil is shimmering, add squash, onion, garlic, curry paste, coriander, cumin, salt and red pepper flakes to skillet. Stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Cook, stirring occasionally, until onion is translucent, about 8 to 10 minutes. Add broth. Bring the mixture to a boil, then reduce heat and simmer until squash is soft, about 15 to 20 minutes."
+   },
+   {
+    "title": null,
+    "text": "While the soup is cooking, toast the coconut flakes in a medium skillet over medium-low heat, stirring frequently, until fragrant and golden on the edges. Keep an eye on them so they don’t burn. Transfer coconut flakes to a bowl to cool."
+   },
+   {
+    "title": null,
+    "text": "Once the squash mixture is done cooking, taste and add a little more Thai red curry paste if it’s not quite flavorful enough for you. Remove the soup from heat and let it cool slightly. Working in batches, transfer the contents to a blender (do not fill your blender past the maximum fill line and be careful with the hot soup!). Securely fasten the lid and use a kitchen towel to protect your hand from steam escaping from the top of the blender as you purée the mixture until smooth. Transfer puréed soup to a serving bowl and repeat with remaining batches."
+   },
+   {
+    "title": null,
+    "text": "Stir the lime juice into the blended soup. Taste and season with additional salt if necessary. Ladle soup into individual bowls. Use a spoon to drizzle coconut milk over each bowl, then lightly swirl the spoon through the topmost layer for a pretty design. Top the soup with toasted coconut flakes and a sprinkle of chopped fresh cilantro."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my creamy (vegan!) butternut squash linguine, How Sweet Eats’ similar soup and Simply Recipes.",
+   "*Where to buy Thai red curry paste: Look for it in the Asian section of the grocery store. I like Thai Kitchen brand, which is vegan (many others are not).",
+   "**Where to buy coconut flakes: Look for them in the baking section at Whole Foods, health food stores or well-stocked grocery stores. The brands I see most often are “Let’s Do Organic” (green package) and Bob’s Red Mill.",
+   "Make it vegetarian/vegan: Choose your curry paste carefully to avoid animal products. Thai Kitchen is vegan."
+  ],
+  "summary": "Light and creamy, vegan butternut squash soup recipe. This simple butternut bisque is seasoned with Thai red curry paste and swirled with coconut milk. Recipe yields about 6 cups (48 ounces) soup.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

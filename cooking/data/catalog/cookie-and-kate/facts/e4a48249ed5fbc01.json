@@ -1,6 +1,56 @@
 {
  "url": "https://cookieandkate.com/refried-black-beans-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Refried Black Beans",
+  "ingredients": [
+   "1 tablespoon extra-virgin olive oil",
+   "½ cup finely chopped red, yellow or white onion (about ½ small onion)",
+   "½ cup chopped roasted red pepper (jarred is fine) or 1 small red bell pepper, finely chopped",
+   "¼ teaspoon fine salt, to taste",
+   "2 cloves garlic, pressed or minced",
+   "½ teaspoon ground cumin",
+   "2 cans (15 ounces each) black beans, rinsed and drained, or 3 cups cooked black beans",
+   "½ cup water",
+   "Freshly ground black pepper, to taste",
+   "2 tablespoons chopped fresh cilantro",
+   "1 tablespoon lime juice or 1 teaspoon red wine vinegar, to taste"
+  ],
+  "yield_text": "5 servings",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Side dish"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/refried-black-beans-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium saucepan over medium heat, warm the olive oil until shimmering. Add the onion, bell pepper and salt. Cook, stirring occasionally, until the onions have softened and are turning translucent, about 4 to 7 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the garlic and cumin. Cook, stirring constantly, until fragrant, about 30 seconds. Pour in the drained beans and water. Stir, cover and cook for 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Reduce the heat to low and remove the lid. Use a potato masher or the back of a fork to mash up about at least half of the beans, until you reach your desired consistency. Continue to cook the beans, uncovered, stirring often, for about 5 more minutes, until the beans are nicely tender and thickened."
+   },
+   {
+    "title": null,
+    "text": "Remove the saucepan from the heat. Stir in black pepper, to taste, and the cilantro and lime juice. Taste, and adjust if necessary—add another pinch of salt for overall flavor or another squeeze of lime juice for zing. If the beans seem dry, add a very small splash of water and stir to combine. Cover until you’re ready to serve. Leftovers will keep well in the refrigerator, covered, for up to 5 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Easy Refried Beans."
+  ],
+  "summary": "This refried black beans recipe is so fresh and satisfying! It’s the perfect hearty side dish for Mexican meals. Recipe yields about 2 ½ cups, or five servings.",
+  "ingredient_groups": []
+ }
 }

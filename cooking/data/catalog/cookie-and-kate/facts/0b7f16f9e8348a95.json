@@ -1,6 +1,92 @@
 {
  "url": "https://cookieandkate.com/lentil-burgers/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Lentil Veggie Burgers",
+  "ingredients": [
+   "2 ½ cups cooked regular green lentils*",
+   "½ medium yellow or white onion",
+   "3 cloves garlic, peeled",
+   "2 large eggs (optional*)",
+   "½ cup old-fashioned oats",
+   "⅓ cup fresh cilantro or parsley leaves",
+   "1 teaspoon chili powder",
+   "1 teaspoon ground cumin",
+   "1 teaspoon fine salt",
+   "¼ teaspoon freshly ground black pepper",
+   "1 medium carrot, peeled and grated on a box grater",
+   "Up to ½ cup flour of choice, if needed (oat flour, all-purpose, etc.)",
+   "Avocado oil or extra-virgin olive oil, for brushing",
+   "8 buns of choice (hamburger buns, English muffins or flatbread), toasted",
+   "Sauce: Guacamole, Avocado Pesto, Avocado Dip, Green Goddess Tahini Dip, ketchup, mayonnaise or mustard",
+   "Greens: Lettuce, arugula or spinach",
+   "Add some crunch: Dill pickles, quick-pickled red onions, or thinly sliced radishes or cucumbers",
+   "Tomato slices"
+  ],
+  "yield_text": "8",
+  "cook_time": "1 hour",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/lentil-burgers/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 400 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper for easy clean-up."
+   },
+   {
+    "title": null,
+    "text": "Drain the lentils very well in a colander, then measure 2 ½ cups and spread them across a lint-free tea towel or paper towels to help dry them (if you have extra lentils, reserve them for another use)."
+   },
+   {
+    "title": null,
+    "text": "To make the burgers: Cut the halved onion into a few slices before adding the onion and garlic cloves to the food processor. Pulse until the onions are roughly chopped, but no more."
+   },
+   {
+    "title": null,
+    "text": "Add to the food processor: towel-dried lentils, eggs, oats, handful of herbs (optional), chili powder and cumin, salt and black pepper. Process until the mixture has the consistency of chunky hummus (err on the side of caution here). Stir in the grated carrot by hand."
+   },
+   {
+    "title": null,
+    "text": "To prepare the burgers: Divide the lentil mixture into 8 equal portions using about ½ cup each. Shape them into patties about 1-inch thick. (If your mixture is unmanageably wet to shape, stir in a couple of tablespoons of your flour of choice, or more as needed.)"
+   },
+   {
+    "title": null,
+    "text": "Brush both sides of each patty generously with oil and place them on the lined baking sheet, leaving a few inches of space around each one. Bake until the patties are deeply golden on the outside, about 35 minutes, flipping halfway."
+   },
+   {
+    "title": null,
+    "text": "To assemble the burgers: Toast your buns if you’d like. Top the lower bun with lettuce, if using, then a veggie burger patty, then spread a generous amount of guacamole or sauce on top. Top with crunchy condiments and tomato, and enjoy!"
+   },
+   {
+    "title": null,
+    "text": "Leftover burgers keep well, refrigerated, for 4 days. Or, freeze them in a freezer bag for up to 3 months (thaw in the microwave for about 1 minute or in a 400 degree oven for 12 to 15 minutes, until warmed all the way through)."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Lentil-Chickpea Veggie Burgers with Avocado Green Harissa.",
+   "*To cook the lentils: Fill a medium-to-large saucepan with water, leaving several inches of room at the top. Bring it to a boil over high heat. Sift through 1 cup lentils for debris, then rinse them well. Add the lentils and ½ teaspoon salt to the boiling water and set the timer for 13 minutes. Reduce the heat as necessary to prevent overflow but maintain a lively simmer. Once your timer has gone off, use a fork to scoop out a few lentils and test for doneness (careful, they’re hot). Your lentils are done when they are pleasantly tender throughout. If your lentils aren’t fully cooked yet, retest every 1 to 2 minutes until they are. Once cooked, immediately strain off all the excess water.",
+   "To cook the burgers on the stove: Heat a thin layer of avocado oil in a large skillet over medium heat. Once the oil is shimmering, cook the veggie burgers in batches. Cook until the burgers are crispy on the bottom and the mixture holds together, about 3 to 5 minutes. Flip the burgers carefully with a spatula and continue cooking until the second sides are firm and brown, about 3 to 5 more minutes. Transfer the burgers to a plate, then add more oil to the pan and repeat with the remaining burgers until they are all cooked through.",
+   "Make it gluten free: Use certified gluten-free oats and oat flour or gluten-free all-purpose flour (if needed).",
+   "*Make it egg free/vegan: Omit the eggs. It will be a little more challenging to achieve a hummus-like texture, but the burgers will come together!"
+  ],
+  "summary": "These meatless lentil burgers are hearty, tasty and hold their shape well. They come together easily in the food processor. Bake them to golden perfection, and freeze the leftovers for later. Recipe yields 8 veggie burgers.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Lentil Burgers"
+   },
+   {
+    "at": 13,
+    "title": "Burger assembly suggestions"
+   }
+  ]
+ }
 }

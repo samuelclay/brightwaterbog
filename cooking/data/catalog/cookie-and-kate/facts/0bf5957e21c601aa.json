@@ -22,7 +22,24 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/seaweed-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Rinse the arame well in a fine sieve, then place it in a generously sized bowl. Fill the bowl with cool water and let it soak for 5 to 10 minutes, until nicely pliable. Drain the arame in the sieve, and gently squeeze out any excess water. Transfer the arame back to your empty bowl, which we will use as a mixing bowl."
+   },
+   {
+    "title": null,
+    "text": "Add the cabbage, bell pepper, green onion and cilantro. Whisk the dressing once more, and pour it all over the salad. Gently toss until the salad is evenly coated in the dressing."
+   },
+   {
+    "title": null,
+    "text": "When it’s time to serve, divide the seaweed into bowls and top with diced avocado. The salad will keep well in the refrigerator, covered, for up to 4 days (add the avocado just before serving)."
+   }
+  ],
+  "notes": [],
+  "summary": "This seaweed salad recipe is colorful, delicious and boldly flavored with sesame dressing. The arame needs to soak for 5 to 10 minutes before using, so you can prepare the vegetables and dressing during that time. Recipe yields 4 servings (1 ½ cups per serving for 6 cups total).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

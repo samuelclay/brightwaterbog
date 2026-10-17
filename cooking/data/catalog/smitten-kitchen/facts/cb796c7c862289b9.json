@@ -43,7 +43,20 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2010/02/chana-masala/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oil in a large skillet. Add onion, garlic, ginger and pepper and sauté over medium heat until browned, about 5 minutes. Turn heat down to medium-low and add the coriander, cumin, cayenne, turmeric, cumin seeds, amchoor (if using it), paprika and garam masala. Cook onion mixture with spiced for a minute or two, then add the tomatoes and any accumulated juices, scraping up any bits that have stuck to the pan. Add the water and chickpeas. Simmer uncovered for 10 minutes, then stir in salt and lemon juice."
+   },
+   {
+    "title": null,
+    "text": "Eat up or put a lid on it and reheat it when needed. Curries such as this reheat very well, later or or in the days that follow, should it last that long."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

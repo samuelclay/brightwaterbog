@@ -25,7 +25,32 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/best-pimento-cheese-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large mixing bowl or the bowl of your stand mixer, combine the cheddar, cream cheese, pimento peppers, mayonnaise, garlic powder, onion powder, cayenne pepper and jalapeño (if using), and several twists of black pepper."
+   },
+   {
+    "title": null,
+    "text": "Beat the mixture together with a hand mixer, your stand mixer, or by hand with a sturdy wooden spoon or spatula. Beat until the mixture is thoroughly combined."
+   },
+   {
+    "title": null,
+    "text": "Taste, and add more black pepper if desired, and/or salt for more overall flavor (I usually add a pinch of two). If you’d like your pimento cheese to have more of a kick, add another pinch of cayenne. Blend again."
+   },
+   {
+    "title": null,
+    "text": "Transfer the mixture to a smaller serving bowl. Serve your pimento cheese immediately, or chill it in the refrigerator for up to 1 week. Pimento cheese hardens as it cools; let it rest for 30 minutes at room temperature to soften."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from AllRecipes and the Lee brothers via The New York Times.",
+   "*Cream cheese tip: If you, like me, always forget to pull the cream cheese out of the fridge in advance, simply cube it into a microwave-safe mixing bowl. Warm it in the microwave for 15 to 30 seconds, just until it’s more pliable. We only need it warm enough to mix into the other ingredients, but not warm enough to melt the cheese.",
+   "**Where to find pimento peppers: You’ll find pimento peppers in well-stocked grocery stores, typically near the roasted red peppers. If you can’t find them, substitute a scant ½ cup chopped roasted red pepper. You’ll hardly tell a difference."
+  ],
+  "summary": "This pimento cheese is the best! It’s cheesy, tangy, peppery (spicy if you wish), and spreadable. Recipe yields 2 cups.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

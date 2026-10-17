@@ -1,6 +1,40 @@
 {
  "url": "https://cookieandkate.com/balsamic-glaze-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Balsamic Glaze (Balsamic Reduction)",
+  "ingredients": [
+   "1 cup (or more) runny balsamic vinegar"
+  ],
+  "yield_text": "1/2 cup",
+  "cook_time": "13 minutes",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/balsamic-glaze-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring the vinegar to a boil in a small, thick bottomed saucepan over medium heat."
+   },
+   {
+    "title": null,
+    "text": "Reduce the heat to maintain a gentle simmer and cook, stirring often, until the vinegar is reduced by half, about 10 to 15 minutes (or considerably longer if starting with more than 1 cup vinegar). You will likely need to dial down the heat over time."
+   },
+   {
+    "title": null,
+    "text": "Allow the reduction to cool. Drizzle as desired! Transfer leftover glaze to an air-tight jar and store in the pantry for up to 6 months."
+   }
+  ],
+  "notes": [],
+  "summary": "Make your own balsamic glaze, also known as balsamic reduction, with this simple recipe! It’s easy to make with regular balsamic vinegar. Use a minimum of 1 cup vinegar for this recipe—it will yield half as much balsamic glaze (if you start with 1 cup vinegar, this recipe will yield ½ cup balsamic glaze).",
+  "ingredient_groups": []
+ }
 }

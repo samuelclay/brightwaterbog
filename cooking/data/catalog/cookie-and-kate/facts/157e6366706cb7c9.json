@@ -25,7 +25,38 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/gingerbread-granola/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit and line a half-sheet pan with parchment paper. In a large mixing bowl, combine the oats, nuts, salt, cinnamon and ground ginger. Stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Stir in the oil, maple syrup, molasses and vanilla. Turn the granola out onto your prepared pan and use a large spoon to spread it in an even layer. Bake for 10 minutes, then remove from the oven and top with coconut flakes (if using). Stir up the mixture to make sure the granola cooks evenly."
+   },
+   {
+    "title": null,
+    "text": "Return the pan to the oven for 8 to 11 more minutes, or until the granola is lightly golden on top. It will continue to crisp up as it cools."
+   },
+   {
+    "title": null,
+    "text": "Top the granola with the chopped cranberries and candied ginger. Let the granola cool before breaking it into pieces and enjoying."
+   },
+   {
+    "title": null,
+    "text": "Store the granola in an airtight container. It should stay fresh for 1 to 2 weeks. Store in the refrigerator for longer shelf life."
+   }
+  ],
+  "notes": [
+   "Recipe roughly based on master granola maker Megan Gordan’s base granola recipe, via The Kitchn.",
+   "Serving suggestions: I like to serve this granola with yogurt or milk and sweet winter fruit, such as broiled grapefruit, orange slices or pomegranate arils.",
+   "Nut details: Raw nuts are preferable, but if you want to use pre-roasted nuts in this granola, mix them in after baking the granola. (They are liable to burn if you bake them along with the other ingredients.)",
+   "*Where to buy coconut flakes: Look for them in the baking section at Whole Foods, health food stores or well-stocked grocery stores. The brands I see most often are “Let’s Do Organic” (green package) and Bob’s Red Mill.",
+   "Make it gluten free: Use certified gluten-free oats."
+  ],
+  "summary": "Irresistible spiced granola with the flavors of gingerbread, including molasses, ginger and cinnamon. Sweetened with maple syrup and dried cranberries, this granola is gluten free as long as you use gluten-free oats. Recipe yields 8 cups granola.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -1,6 +1,57 @@
 {
  "url": "https://cookieandkate.com/baked-tostones-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Crispy Baked Tostones",
+  "ingredients": [
+   "3 large unripe (solid green) plantains (about 2 ¼ pounds)",
+   "4 tablespoons avocado oil or other quality cooking oil, divided",
+   "Flaky sea salt or kosher salt*, to taste",
+   "Recommended dipping sauce: Aji Verde or Creamy Chipotle Sauce"
+  ],
+  "yield_text": "4 to 6 servings",
+  "cook_time": "45 minutes",
+  "categories": [
+   "Snack or Side"
+  ],
+  "cuisines": [
+   "Caribbean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/baked-tostones-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper to prevent sticking."
+   },
+   {
+    "title": null,
+    "text": "To prepare the plantains: Here’s a helpful video. Slice off both ends of each plantain. Use the tip of a paring knife to cut through the skin of a plantain from top to bottom, following the curve of the plantain as you go. You want to slice just deep enough to cut through the skin (less than ¼ inch deep)—you’ll get the feel of it as you go. Repeat twice more on the plantain so you have three evenly-spaced slits. Use your fingers or a spoon, angled downward, to pry off each section. Discard the skins and repeat for the remaining plantains. Slice the plantains into 1-inch thick rounds, then set aside."
+   },
+   {
+    "title": null,
+    "text": "On the prepared baking sheet, toss the sliced plantains with 2 tablespoons of the oil. Disperse them evenly across the pan, flat sides down. Bake for 15 minutes, then place the pan on a heat-safe surface."
+   },
+   {
+    "title": null,
+    "text": "Using the bottom of a glass liquid measuring cup (or mason jar or other sturdy glass), gently press straight down on one round to achieve about ¼-inch thickness. Repeat for each round."
+   },
+   {
+    "title": null,
+    "text": "Brush the tops of each round with oil, making sure to get into all the nooks and crannies. Flip them and brush the other sides (you may need to use just a bit more than 2 tablespoons oil here). Sprinkle the salt over the rounds."
+   },
+   {
+    "title": null,
+    "text": "Return the pan to the oven and bake for 14 to 17 minutes, until nicely golden and sizzling. Season with additional salt, to taste. Serve warm with dipping sauce, if desired."
+   }
+  ],
+  "notes": [
+   "*Salt note: If you don’t have either of the recommended salts, use ¼ teaspoon fine salt."
+  ],
+  "summary": "Learn how to make crispy tostones (baked, not fried) with this foolproof recipe! Tostones, which are made with unripe green plantains, are deliciously savory and salty. Recipe yields 4 to 6 servings; you could likely double the recipe by using two baking sheets in the upper and lower thirds of the oven.",
+  "ingredient_groups": []
+ }
 }

@@ -34,7 +34,34 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2018/07/grilled-zucchini-ribbons-with-pesto-and-white-beans/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Prepare the zucchini: Trim ends and cut zucchini the long way into 1/4-inch strips. I use a mandoline for this (I have this one but will soon replace it with this) but a knife works too. Spread out strips on a large tray and brush lightly with olive oil and season well with salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "On a grill (I use the full heat, but have a dinky, small grill; you might find a more moderate heat better here) or a grill pan, grill zucchini in a single layer until grill marks appear underneath, then flip over and repeat the same on the other side. Transfer zucchini back to platter and squeeze lemon juice over it."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, in a food processor or blender, combine basil and garlic with a few good pinches of salt and a few grinds of black pepper until chopped. Drizzle in olive oil until it blends smoothly; you’ll want about 4, sometimes 5, tablespoons. Add 1 tablespoon vinegar and blend until well-mixed; taste and add more vinegar, up to 1 more tablespoon, to taste. Season to taste."
+   },
+   {
+    "title": null,
+    "text": "Combine beans with about 2/3 of the dressing in a small bowl. In a larger bowl or serving platter, pour half of dressed beans in the bottom. Arrange grilled zucchini on top, twisting and turning it so that it looks extra ribbony. Spoon remaining beans in the spaces. Drizzle the remaining dressing over the platter, to taste."
+   },
+   {
+    "title": null,
+    "text": "Finish with a light blanket of parmesan and eat whenever you’re ready. As assembled, it keeps well at room temperature for an hour, giving you time to do everything else."
+   }
+  ],
+  "notes": [
+   "This is a very loose recipe. Sure, I made it with zucchini ribbons, but there’s no reason you cannot use smaller or angled slices. Sure, I grilled it but if you don’t have a grill outside or an indoor grill pan, you could roast or broil it instead. It will taste essentially the same, which is to say, I hope, awesome. You could eat this with grilled bread for a light summer meal. You could crack open a ball of burrata over it for extra luxury (you may find the parmesan unnecessary in this case). You could finish it with toasted pine nuts for extra crunch. You could build it into a larger meal for a small crowd with grilled sausages and a caprese salad too."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

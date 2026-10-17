@@ -29,7 +29,39 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/healthy-apple-muffins-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 425 degrees Fahrenheit. If necessary, grease all 12 cups on your muffin tin with butter or non-stick cooking spray (my pan is non-stick and doesn’t require any grease)."
+   },
+   {
+    "title": null,
+    "text": "In a large mixing bowl, combine the flour, baking powder, cinnamon, baking soda and salt. Blend well with a whisk. Add the grated apple (if it is dripping wet, gently squeeze it over the sink to release some extra moisture) and chopped apple. Stir to combine."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, combine the oil and maple syrup and beat together with a whisk. Add the eggs and beat well, then add the yogurt, applesauce and vanilla and mix well. (If the coconut oil solidifies in contact with cold ingredients, gently warm the mixture in the microwave in 30 second bursts.)"
+   },
+   {
+    "title": null,
+    "text": "Pour the wet ingredients into the dry and mix with a big spoon, just until combined (a few lumps are ok). The batter will be thick, but don’t worry! Divide the batter evenly between the 12 muffin cups. Sprinkle the tops of the muffins with turbinado sugar. Bake muffins for 13 to 16 minutes, or until the muffins are golden on top and a toothpick inserted into a muffin comes out clean."
+   },
+   {
+    "title": null,
+    "text": "Place the muffin tin on a cooling rack to cool. If you have leftover muffins, store them, covered, at room temperature for up to 2 days, or in the refrigerator for up to 4 days. Freeze leftover muffins for up to 3 months."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my healthy carrot muffins.",
+   "*If you are baking with honey: Honey tends to brown quickly, so to avoid overdone muffins, bake muffins at 325 degrees Fahrenheit until a toothpick inserted in the center comes out clean, about 23 to 25 minutes.",
+   "Make it vegan: Replace the eggs with flax eggs and replace the yogurt with vegan buttermilk—try mixing 1 ½ teaspoons vinegar with a scant ½ cup non-dairy milk. Let it rest for 5 minutes before adding it to the other liquid ingredients. (You could also try using more applesauce in place of the yogurt but I’m not sure it’s acidic enough to counteract the bitter taste of the baking soda.)",
+   "Make it dairy free: See “buttermilk” option above.",
+   "Make it egg free: Use flax eggs instead of regular eggs.",
+   "Make it gluten free: Bob’s Red Mill or King Arthur Flour make gluten-free all-purpose blends that work well."
+  ],
+  "summary": "Amazing, healthy apple muffins made with maple syrup and whole wheat flour! No one will guess that this simple cinnamon apple muffin recipe is good for you, too. Recipe yields 12 muffins.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

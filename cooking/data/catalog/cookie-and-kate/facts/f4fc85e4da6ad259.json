@@ -19,7 +19,34 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/simple-fruit-compote-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the fruit: If you’re using fresh strawberries or peaches, cut them into thin slices. If you’re using small berries like blueberries or raspberries, you can use them whole. If you’re using frozen fruit, no need to defrost or slice them before using."
+   },
+   {
+    "title": null,
+    "text": "In a medium saucepan, combine your fruit of choice, sweetener of choice and dash of salt. Bring the mixture to a boil over medium-high heat, stirring occasionally. This will take about 5 minutes for fresh fruit or 10 minutes for frozen fruit."
+   },
+   {
+    "title": null,
+    "text": "Once boiling, reduce the heat to medium. If you’re using chunky fruit or prefer a smoother consistency, mash the fruit with a potato masher or serving fork until it reaches your desired consistency. Continue simmering, stirring often, until the compote has condensed to about half of its original volume, about 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the compote from the heat. I’m generally satisfied with my compote at this point, but if the compote isn’t sweet enough for your liking, you can stir in a more sweetener, to taste. If you’d like it to be more smooth, mash it some more."
+   },
+   {
+    "title": null,
+    "text": "Let the compote cool for a few minutes before serving. Allow leftover compote to cool completely before covering and refrigerating for up to 10 days."
+   }
+  ],
+  "notes": [
+   "Make it vegan: Use maple syrup instead of honey, and serve with vegan accompaniments."
+  ],
+  "summary": "Learn how to make fruit compote with this easy recipe! You can make compote with fresh or frozen fruit. It’s delicious on ice cream, yogurt, toast, pancakes, waffles and more! Recipe yields about 2 cups compote.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

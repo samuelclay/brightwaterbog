@@ -34,7 +34,24 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2012/09/baked-orzo-with-eggplant-and-mozzarella/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Sprinkle your eggplant generously with salt and let it drain in a colander for 30 minutes. I used this time to get the rest of my ingredients ready. After 30 minutes, rinse it well and pat it dry on towels."
+   },
+   {
+    "title": null,
+    "text": "Preheat your oven to 350°F. Heat a large frying pan over medium-high heat. Once hot, add the oil and once the oil is shimmering, add the eggplant. Fry for 8 minutes, stirring pieces occasionally. Using a slotted spoon or spatula, transfer them to paper towels to drain. Add celery and carrots to remaining oil and cook for 3 minutes before adding onion and garlic. Cook together for 5 more minutes on medium heat. Stir in the orzo and tomato paste and cook for two minutes more. Off the heat, add the oregano, mozzarella, parmesan, tomatoes, fried eggplant, lemon zest, 1 teaspoon table salt, many grinds of black pepper and the stock and mix well."
+   },
+   {
+    "title": null,
+    "text": "Transfer mixture to an 8×11-inch (about 2 quarts) ovenproof baking dish. Cover with foil and bake 20 minutes, then bake 20 minutes without the foil. (You can increase the ratio of foil-on to foil-off time if you don’t like a crunchy pasta lid.) Let rest for 5 minutes before serving."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

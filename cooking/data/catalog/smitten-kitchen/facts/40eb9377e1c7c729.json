@@ -37,7 +37,34 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2011/05/spring-salad-with-new-potatoes/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Place potatoes in a medium saucepan and cover with one inch of water. Bring to a boil and cook for about 15 minutes, or until the tip of a knife easily pierces through a potato. Drain the potatoes and let them cool until they’re almost room temperature. You can hasten this by covering them with cold water, and replacing the water a few times as it warms up."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, pickle your spring onions. Whisk vinegar, water, salt and sugar together in the bottom of a small container with a lid until the salt and sugar dissolve. Slice the bulbs and paler green parts into very thin coins and submerge them in the vinegar mixture. Cover and put in fridge until you’re ready to use them; if you can put them aside for an hour or even overnight, even better. Reserve the onion greens."
+   },
+   {
+    "title": null,
+    "text": "Refill the saucepan you used for the potatoes (here’s to fewer dishes!) with salted water and bring it to a boil. Prepare an ice bath, a large bowl with ice and water in it. Trim the tough ends off the asparagus. Once the water is boiling, add the asparagus. One minute later, add the sugar snap peas. Two minutes later, drain both together then dump them in the ice bath until chilled. Drain the vegetables and spread them out on towel to absorb excess water."
+   },
+   {
+    "title": null,
+    "text": "Slice the cooked asparagus spears and sugar snaps into 1/2-inch segments and place them in a large bowl. Chop potatoes into moderate-sized chunks and add them to the bowl. Cut the radishes as thinly as possible, with a mandoline if you have one. If they’re especially big (mine were), you can first quarter them lengthwise. Cut some of the reserved onion greens into thin slivers (no need to use all of them, as the onion flavor might take over) and add them to the bowl."
+   },
+   {
+    "title": null,
+    "text": "When you’re ready to serve the salad, or an hour or two in advance, whisk the dressing ingredients and toss it with the vegetables, to taste. (You may find you don’t want to use all of it.) Stir in as many pickled onion coins as you please, save the rest for anything and everything. Season with salt and freshly ground black pepper, to taste. Eat and enjoy!."
+   }
+  ],
+  "notes": [
+   "Do ahead: Pickles can be started in the day or days before. Potatoes can be boiled and chilled in fridge overnight, as can other vegetables. Vinaigrette can be made in advance as well, but I might wait until the last minute to toss it with the vegetables as the vinegar, over a long sitting time, can ever-so-slightly discolor the cut edges of the asparagus and beans."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

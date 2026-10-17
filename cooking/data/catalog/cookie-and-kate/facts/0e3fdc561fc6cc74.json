@@ -30,7 +30,55 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/double-tomato-pesto-spaghetti-with-zucchini-noodles/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a large pot of salted water to boil for the spaghetti. Cook the pasta until al dente, according to package directions. Drain and transfer to a large serving bowl. Spiralize the zucchini with a spiralizer, or turn the zucchini into noodles with a julienne peeler, or grate the zucchini the long way on a large box grater."
+   },
+   {
+    "title": null,
+    "text": "Toast the walnuts: In a medium skillet over medium heat, cook the walnuts, stirring occasionally, until they smell nice and fragrant, about 7 minutes. Set aside to cool."
+   },
+   {
+    "title": null,
+    "text": "Cook the cherry tomatoes: In a large saucepan over medium-high heat, combine the cherry tomatoes, olive oil and a pinch of salt. Cover the pot and cook, stirring occasionally, until the tomatoes have burst open and they are cooking in their own juices, about 7 to 8 minutes. Set aside."
+   },
+   {
+    "title": null,
+    "text": "In a food processor, combine the walnuts, half of the cooked tomatoes, sun-dried tomatoes, garlic, lemon zest, 1 tablespoon lemon juice, red pepper flakes, ¼ teaspoon salt and several twists of freshly ground black pepper. Blend until the mixture is pretty smooth, then season to taste with additional lemon juice, salt and/or pepper until the flavors really sing (if that doesn’t do the trick, add some more sun-dried tomatoes). Blend again."
+   },
+   {
+    "title": null,
+    "text": "Pour the pesto over the spaghetti and toss to combine. If you’ll be consuming this dish in one sitting, go ahead and toss in all of the zucchini noodles now, too. (If you plan on having leftovers, store the zucchini noodles separately from the rest, as they leach water when they’re exposed to salt—I just pile the noodles on top of my individual bowls and wait to stir them in when I’m ready to eat. Hope that makes sense.)"
+   },
+   {
+    "title": null,
+    "text": "Pour the rest of the cherry tomatoes on top of the dish, and sprinkle the basil over them. Toss gently, and divide the mixture into bowls. Top individual bowls with Parmesan or nutritional yeast, if you’d like, and a light drizzle of olive oil. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Bon Appetit’s spaghetti with tomato and walnut pesto.",
+   "Make it dairy free/vegan: Either omit the Parmesan, or replace it with a sprinkle of vegan Parm or nutritional yeast. The sun-dried tomatoes make it plenty savory.",
+   "Make it gluten free: Use your favorite gluten-free pasta, or serve entirely with zucchini noodles.",
+   "Make it nut free: Technically pine nuts are seeds, so if those work for you, try about ⅓ cup pine nuts instead of walnuts. I often use pepitas in pestos, but I’m not sure they’d work well with the tomatoes here. You would still get a really tasty tomato sauce without any nuts/seeds at all.",
+   "Change it up: You could make this with all zucchini noodles instead of spaghetti (I think you’d need about 3 large zucchini) or all spaghetti (you’d need a full 12 ounces)."
+  ],
+  "summary": "This fresh summer recipe features burst cherry tomatoes, cherry tomato and sun-dried tomato pesto, zucchini noodles and spaghetti! It’s light and delicious. Recipe yields 4 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Pasta and zucchini noodles (see notes for alternatives)"
+   },
+   {
+    "at": 2,
+    "title": "Pesto"
+   },
+   {
+    "at": 12,
+    "title": "Garnishes"
+   }
+  ]
  },
  "parser_version": 2
 }

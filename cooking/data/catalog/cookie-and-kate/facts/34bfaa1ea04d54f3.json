@@ -1,6 +1,58 @@
 {
  "url": "https://cookieandkate.com/homemade-larabars-apricot-almond-bars/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Homemade Larabars: Apricot Almond Bars",
+  "ingredients": [
+   "1 ½ cup almonds (or other nuts, raw or roasted but definitely unsalted)",
+   "1 generous cup Medjool dates, pitted",
+   "1 cup dried apricots (or other dried fruit like cherries, cranberries or dehydrated apples)",
+   "pinch sea salt",
+   "(optional add-ins: small amounts of lemon zest, lime zest, nut butter or cocoa powder)"
+  ],
+  "yield_text": "16",
+  "cook_time": "45 minutes",
+  "categories": [
+   "Snack"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/homemade-larabars-apricot-almond-bars/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Line an 8- or 9-inch square baking dish with parchment paper or wax paper. In a food processor, pulse the almonds until they are chopped (stop before they start turning into nut butter). Pour them into a bowl."
+   },
+   {
+    "title": null,
+    "text": "Process the pitted dates, dried apricots and sea salt until the dried fruits are mashed into a paste. They may try to ball up in the processor, in which case you’ll want to stop and break up the mixture with a spoon before continuing."
+   },
+   {
+    "title": null,
+    "text": "Break up the fruit mixture and add the nuts to the food processor. Process until the chopped nuts are incorporated evenly into the fruit mixture. Transfer the mixture to the baking dish, and use your hands to press it into an even layer."
+   },
+   {
+    "title": null,
+    "text": "Chill the baking dish in the freezer for at least 30 minutes, then use a sharp knife to cut the fruit-and-nut blend into squares or bars (I cut mine into 16 squares)."
+   },
+   {
+    "title": null,
+    "text": "Wrap each bar tightly for individual servings (see notes). These bars should last for a couple weeks at room temperature, but store them in the refrigerator or freezer for prolonged shelf life."
+   }
+  ],
+  "notes": [
+   "Recipe created with guidance from The Kitchn and Damy Health.",
+   "For more flavor ideas, check out Larabars’ official flavors.",
+   "My parchment paper wrappers didn’t stick together well, but looked really cute when wrapped with brightly colored washi tape. Plastic wrap or plastic bags would be easier.",
+   "If you want to change up the shape, try rolling the fruit-and-nut mixture into balls.",
+   "Sorry, I don’t know how to make these without a food processor. This affordable Cuisinart food processor is a worthy investment."
+  ],
+  "summary": "Homemade Larabars made simply with dried apricots, almonds and dates. These are easy to make and cost less than store-bought Larabars. Recipe yields 16 squares.",
+  "ingredient_groups": []
+ }
 }

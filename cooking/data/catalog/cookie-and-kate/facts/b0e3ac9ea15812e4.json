@@ -1,6 +1,61 @@
 {
  "url": "https://cookieandkate.com/fluffy-beer-biscuits-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Fluffy Beer Biscuits",
+  "ingredients": [
+   "1 ½ cups whole wheat flour",
+   "1 ½ cups whole wheat pastry flour",
+   "1 tablespoon baking powder",
+   "1 teaspoon fine sea salt",
+   "1 cup grated cheddar cheese (optional)",
+   "¼ cup honey",
+   "4 tablespoons butter, melted",
+   "12 ounces beer"
+  ],
+  "yield_text": "12 biscuits",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Baked Good"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/fluffy-beer-biscuits-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 375 degrees Fahrenheit. If necessary, lightly grease the cups of your muffin tin or line them with paper liners (my pan is non-stick, so I didn’t grease mine)."
+   },
+   {
+    "title": null,
+    "text": "In a large mixing bowl, combine both flours, the baking powder and salt. Stir to combine. Stir in the cheese, if using."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl or liquid measuring cup, combine the honey and melted butter. Whisk to combine, to loosen up the honey. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Gently pour the beer and the honey-butter mixture into the flour mixture. Using a big spoon, stir just until combined. Divide the batter evenly between 12 muffin cups."
+   },
+   {
+    "title": null,
+    "text": "Bake until the tops are golden brown, about 25 to 28 minutes. Let the muffins cool for a few minutes in the pan, then transfer to a cooling rack to continue cooling (or serve immediately)."
+   }
+  ],
+  "notes": [
+   "Flour notes: I used a combination of regular whole wheat flour and whole wheat pastry flour to achieve fluffy, 100% whole wheat biscuits. For even less of a “wheaty” flavor, use white or “ivory” whole wheat flour. You can substitute all-purpose flour for either or both of the flours if you prefer.",
+   "Beer notes: I like to use lighter beers in beer bread, so that beer is more of an undertone than the most dominant flavor. A wheat beer/hefeweizen seems to have the lightest flavor. Light lagers work well, too. If you want a strong beer flavor, try a stout or your favorite beer!",
+   "Make it dairy free: Omit the cheese. You can omit the butter as well. I tried substituting olive oil for the butter, but didn’t love the resulting flavor.",
+   "Make it vegan: Omit the cheese and butter. Use maple syrup or sugar instead of the honey.",
+   "Make it gluten free: I haven’t tried this, but I just glanced at some gluten-free beer bread recipes and it looks like they generally use a gluten-free all-purpose blend plus three eggs. Might be worth a shot, but remember that you’ll need to use gluten-free beer if you’re sensitive to beer.",
+   "Change it up: For basic honey-butter biscuits, omit the cheese. Or, play with the flavors—feta cheese is nice in these, and so are fresh or dried herbs. For an extra savory note, stir a few twists of freshly ground black pepper into the batter, and/or sprinkle it on top of the baked biscuits.",
+   "Serving suggestions: These biscuits would be awesome with my homemade vegetarian chili or butternut chili."
+  ],
+  "summary": "These easy beer biscuits are fluffy, delicious and made with 100% whole wheat flour. Check the recipe notes below for ingredient details and variations. Recipe yields 12 biscuits.",
+  "ingredient_groups": []
+ }
 }

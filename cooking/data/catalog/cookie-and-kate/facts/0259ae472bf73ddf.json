@@ -1,6 +1,68 @@
 {
  "url": "https://cookieandkate.com/gluten-free-pumpkin-muffins/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Gluten-Free Pumpkin Muffins",
+  "ingredients": [
+   "2 cups (170 grams) blanched almond flour",
+   "2 teaspoons ground cinnamon",
+   "1 teaspoon baking powder",
+   "½ teaspoon baking soda",
+   "½ teaspoon fine salt",
+   "½ teaspoon ground ginger",
+   "½ teaspoon ground nutmeg",
+   "½ teaspoon ground allspice or cloves",
+   "3 large eggs",
+   "1 cup pumpkin purée",
+   "⅓ cup pure maple syrup",
+   "4 tablespoons melted unsalted butter",
+   "1 teaspoon pure vanilla extract",
+   "Up to ½ cup mix-ins, like chocolate chips, toasted and chopped pecans or walnuts, or a mix"
+  ],
+  "yield_text": "12 muffins",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Muffins"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/gluten-free-pumpkin-muffins/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit and line all 12 muffin cups with paper liners."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, combine the almond flour, cinnamon, baking powder, baking soda, salt, ginger, nutmeg and allspice. Whisk to combine, then set the bowl aside."
+   },
+   {
+    "title": null,
+    "text": "In a smaller mixing bowl, whisk the eggs to break them up. Add the pumpkin, maple syrup, melted butter, and vanilla. Whisk until the mixture is fully blended."
+   },
+   {
+    "title": null,
+    "text": "Pour the wet mixture into the dry ingredients, and stir with a big spoon until the mixture is evenly combined. If you’re adding mix-ins, gently stir them in now."
+   },
+   {
+    "title": null,
+    "text": "Fill the muffin cups halfway and divide any remaining batter evenly between the cups. Bake for 23 to 25 minutes, until the muffins are turning golden around the edges and a toothpick inserted in the center comes out clean."
+   },
+   {
+    "title": null,
+    "text": "Let the muffins cool in the pan for about 5 minutes, then transfer them to a wire rack to finish cooling. Muffins will keep at room temperature for up to 3 days, in the refrigerator for up to 1 week, or in the freezer for up to 3 months."
+   }
+  ],
+  "notes": [
+   "Make it dairy free: Substitute coconut oil for the butter.",
+   "Leftover pumpkin? Make pumpkin chai lattes or store the rest in a freezer bag for up to 6 months."
+  ],
+  "summary": "These gluten-free pumpkin muffins are made with almond flour! This simple recipe uses just one wholesome flour and other basic ingredients, including maple syrup as the sweetener. Recipe yields 1 dozen muffins.",
+  "ingredient_groups": []
+ }
 }

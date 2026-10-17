@@ -19,7 +19,26 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2013/10/frico-grilled-cheese-sandwiches/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Spread butter on one side of each slice of bread, the one that will be on the outside of the sandwich. Scatter all but 2 tablespoons of the cheese on the unbuttered side of one slice. Top with the second slice, so that the buttered side faces out. Heat skillet — I like to use a well-seasoned cast iron frying pan here — over low-to-moderate heat. Sprinkle 1 tablespoon cheese roughly in the center of the skillet. Place the sandwich on top. Cook sandwich until golden underneath and cheese browns and crisps, about 2 to 4 minutes. Carefully lift melted (frico-ed) cheese and bread onto spatula, sprinkle remaining spoonful of cheese back in skillet, then flip sandwich over on top of it. Cook on the second side until golden and crisp as well, pressing down on it with the spatula to encourage it to all come together."
+   },
+   {
+    "title": null,
+    "text": "Transfer to a plate, cut in half if desired, and dig in."
+   },
+   {
+    "title": null,
+    "text": "Alternate riffs: Are you a purist or do you like to put other things on your grilled cheese? I’m a sucker for sweet and sour red onions with a baby Swiss or gruyere cheese (this recipe in the book). But when I’m using classic cheddar, I either like a thin slice of tomato inside my sandwich, or sometimes, like the day I made these, the thinnest schmear of smooth Dijon and a dash of onion powder."
+   }
+  ],
+  "notes": [
+   "A more tone-aware food writer would ask you to forgive them for the simplicity of this recipe. Grilled cheese? You think we need a recipe for cheese + bread + butter in a frying pan? But I won’t because making it this way changes everything. You can’t be convinced by the aroma of buttery, toasting, crisping cheese in a hot skillet because you haven’t made it yet, but I think that once you experience it — I mean, take a deep drag off the kitchen air and be so happy that you’re home again — it will be what keeps you from making grilled cheese any other way again."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

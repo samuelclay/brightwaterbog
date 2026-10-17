@@ -28,7 +28,31 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2017/05/a-really-great-pot-of-chickpeas/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "One day or several hours before: Place dried chickpeas in a large bowl and cover with 8 cups water and 1 tablespoon kosher salt, and let soak for as much time as you have, ideally at least 4 hours and up to even a day or two in the fridge. The benefits are simple: The longer you soak them, the less time they take to cook."
+   },
+   {
+    "title": null,
+    "text": "To cook: Drain chickpeas and add them to a large (ideally 5 quart) heavy pot with 12 fresh cups of water. Add another tablespoon (or more, you can taste the liquid to get it right) of kosher salt, sage, garlic, and peppercorns and bring mixture to a full boil over high heat. Skim any foam on top; with chickpeas, it’s significant and dramatic. Boil for 2 minutes then reduce heat to a low simmer, cover partially, and cook until chickpeas are firm-tender, as little as 25 to 30 minutes (what mine took after almost 30 hours of soaking, although I found this unusual) and up to 1 1/2 hours. Let cool in their broth. I usually fish out the garlic, sage, and peppercorns so they don’t get in the way but you can leave them in for extra-infusion."
+   },
+   {
+    "title": null,
+    "text": "To use: See any of the ideas above, and use as many as you’d like in combination. A little tomato sauce and greens over grilled bread, perhaps? A little brothy with pasta, a swirl of olive oil and parmesan? Salsa verde and burrata? You have so much deliciousness ahead."
+   },
+   {
+    "title": null,
+    "text": "To store: Store chickpeas in their cooking liquid in the fridge for up to one week."
+   }
+  ],
+  "notes": [
+   "Skip the parmesan rind if feeding strict vegetarians.",
+   "I didn’t get to test this recipe in a slow-cooker, pressure-cooker, and/or InstaPot because I am just one human, heh, but you can absolutely make beans in all of the above. I’ll fill in specific cooking times as I try it out each way, or point to them if commenters are kind enough to let us know how long this takes in any of the above."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

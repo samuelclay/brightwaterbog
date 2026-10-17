@@ -31,7 +31,26 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2020/03/carrot-and-white-bean-burgers/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat 1 tablespoon olive oil in a large skillet over low heat. Add the panko and cook, stirring often, until lightly browned and crisp, 3 to 5 minutes. Transfer crumbs to a large bowl, then return the pan to the heat."
+   },
+   {
+    "title": null,
+    "text": "Add 2 tablespoons olive oil to the skillet, followed by the shallot or onion. Cook until softened and lightly golden, 8 to 10 minutes. Stir in the tomato paste, salt, and carrots and stir frequently until the carrots are soft and a bit blistered, another 8 to 10 minutes. Add the vinegar, scraping up all the browned bits until the pan is dry. Remove from heat and add the bowl with the toasted panko. Add beans and use a wooden spoon or spatula to very coarsely mash the mixture until a bit pasty and the mixture coheres in places—there should still be plenty of beans intact. Add pepper, and more salt if needed, to aste. Stir in the egg. Shape into 6 patties (I used a 1/2 cup measure as a scoop) for the size burger you see here; 4 patties for really large burgers (to warn, I found this size a little unwieldy), or 8 to 10 for slider-size."
+   },
+   {
+    "title": null,
+    "text": "To cook the veggie burgers, heat a thin layer of olive oil in a wide skillet over medium heat and carefully cook until browned and slightly firm to the touch, 3 to 4 minutes per side. It may be necessary to cook in batches. Serve hot or at room temperature, with whatever you like on or with veggie burgers."
+   }
+  ],
+  "notes": [
+   "We put this on homemade sandwich bread (these are my go-tos, although this was a white bread I haven’t published) with smashed avocado, lettuce, and hot sauce. Next time, I’ll also pickle red onions — thinly slice one red onion and cover with 2 tablespoons each red wine vinegar and water + 1/2 teaspoon kosher salt + 1/4 teaspoon of sugar and set it aside for as long as you’ve got, swirling it occasionally, or up to a week in the fridge)"
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -1,6 +1,83 @@
 {
  "url": "https://cookieandkate.com/spicy-molasses-cookies/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Spicy Molasses Cookies",
+  "ingredients": [
+   "4 tablespoons raw (turbinado) sugar, divided",
+   "¾ cup whole wheat pastry flour*",
+   "⅓ cup whole wheat flour",
+   "½ teaspoon baking soda",
+   "⅛ teaspoon salt",
+   "6 tablespoons (¾ stick) unsalted butter",
+   "¾ teaspoon cinnamon",
+   "¾ teaspoon ground ginger",
+   "¼ teaspoon ground cloves",
+   "⅛ teaspoon ground allspice",
+   "⅛ teaspoon ground pepper (a couple of twists’ worth)",
+   "¼ cup light or dark molasses",
+   "3 tablespoons dark brown sugar or Muscovado sugar",
+   "1 large egg yolk",
+   "½ teaspoon vanilla extract"
+  ],
+  "yield_text": "16 cookies",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/spicy-molasses-cookies/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "With an oven rack in the middle position, preheat the oven to 375 degrees. Line a large baking sheet with parchment paper."
+   },
+   {
+    "title": null,
+    "text": "Pour 1 tablespoon of raw sugar into a small, shallow dish for rolling."
+   },
+   {
+    "title": null,
+    "text": "In a medium bowl, whisk together the flours, baking soda and salt."
+   },
+   {
+    "title": null,
+    "text": "In a small saucepan, melt the butter over medium heat. Stir in the cinnamon, ginger, cloves, allspice and pepper. Cook until fragrant, about 1 to 2 minutes."
+   },
+   {
+    "title": null,
+    "text": "Transfer the butter mixture to a large bowl and let cool slightly."
+   },
+   {
+    "title": null,
+    "text": "Whisk the remaining 3 tablespoons raw sugar, brown sugar, egg yolk, vanilla and molasses into the melted butter mixture. Stir in the flour mixture until combined."
+   },
+   {
+    "title": null,
+    "text": "Use a cookie dough scoop or spoons to scoop out about one tablespoon of dough at a time. Lightly shape into a ball and dunk half the cookie into the small bowl of raw sugar. Place each cookie on the baking sheet, sugar side up, leaving a couple of inches around each cookie."
+   },
+   {
+    "title": null,
+    "text": "Bake the cookies until the edges are set but the centers are still soft, puffy and underdone, which will take 9 to 12 minutes."
+   },
+   {
+    "title": null,
+    "text": "Let the cookies cool on the baking sheet for ten minutes, then serve warm or transfer to a cooling rack."
+   }
+  ],
+  "notes": [
+   "Adapted from The America’s Test Kitchen Healthy Family Cookbook.",
+   "Note that you can temper the intensity of the molasses by choosing a lighter molasses and going with light brown sugar; the darker the better, in my opinion.",
+   "*You can find whole wheat pastry flour in well-stocked grocery stores or in health food stores. If you don’t, the best substitute texture-wise would be all-purpose flour. Or substitute white whole wheat flour or regular whole wheat flour for less tender cookies.",
+   "For flatter, less puffy cookies, use 1 cup + 2 teaspoons white whole wheat (or regular whole wheat) flour in place of the whole wheat pastry/whole wheat flours indicated in the recipe."
+  ],
+  "summary": "These 100% whole wheat molasses cookies deliver a seriously spicy kick of flavor and that elusive crisp on the outside, soft on the inside texture.",
+  "ingredient_groups": []
+ }
 }

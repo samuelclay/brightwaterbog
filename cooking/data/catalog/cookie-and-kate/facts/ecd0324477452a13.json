@@ -32,7 +32,52 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/vegetarian-stuffed-peppers-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To roast the peppers: Preheat the oven to 425 degrees Fahrenheit. Place the halved peppers in a large 9 by 13-inch baking dish, or on a rimmed baking sheet lined with parchment paper. Drizzle 1 tablespoon olive oil over the peppers and sprinkle them with salt and pepper. Use your hands to rub the oil all over both sides of the peppers, then arrange them with the cut sides facing up. Bake for 20 to 25 minutes, until the peppers are a little blistered around the edges and easily pierced through by a fork. Set aside. Leave the oven on for baking the peppers."
+   },
+   {
+    "title": null,
+    "text": "In the meantime, cook the rice: Bring a large pot of water to boil. Rinse the rice in a fine-mesh colander until the water runs clear. Add the rice to the boiling water and continue boiling, uncovered, for 30 minutes (reduce the heat as necessary to prevent overflow). Drain off the remaining cooking water and return the rice to the pot. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Prepare the filling: In a large skillet over medium heat, warm 2 tablespoons olive oil until shimmering. Add the onion and ½ teaspoon of the salt. Cook, stirring often, until the onion is tender, about 5 minutes. Add the tomatoes and cook until they’re lightly squishy, another 5 minutes or so."
+   },
+   {
+    "title": null,
+    "text": "Add the cilantro, garlic, chili powder and cumin. While stirring, cook until the garlic is fragrant, about 30 to 60 seconds."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from the heat and add the rice, beans, lime juice and about 10 twists of black pepper. Stir to combine, then season with additional salt (I usually add ¼ teaspoon) and black pepper, to taste."
+   },
+   {
+    "title": null,
+    "text": "To stuff the peppers, first pour off any excess juice pooled within the peppers. Then stuff each pepper generously with the rice mixture (if the peppers were truly large, you should have just the right amount of filling—if you have extra, save it to serve as a side dish). Top the peppers with the cheese."
+   },
+   {
+    "title": null,
+    "text": "Bake at 425 for 12 to 13 minutes, until the cheese is golden in spots. Serve warm with fresh cilantro leaves on top or any other garnishes of your choice. Leftovers keep well in the fridge, covered, for up to 4 days. I believe they would freeze well for several months, but haven’t tried to be sure."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Omit the cheese, and cover the baking dish during its final stint in the oven. I recommend topping the finished peppers with something creamy or saucy, like guacamole, cilantro-hemp pesto or vegan sour cream.",
+   "Prepare in advance: This dish is a bit time consuming, though it’s not difficult. You could make the rice in advance, and/or prep the peppers so they are ready to pop in the oven later. You could even assemble the peppers completely and refrigerate, covered, until you’re ready to bake (they will likely need a few extra minutes in the oven to warm through)."
+  ],
+  "summary": "These vegetarian stuffed peppers are inspired by my favorite Mexican dishes! This recipe features roasted bell peppers filled with a flavorful combination of pinto beans, brown rice and fresh veggies, topped with melted cheese (optional). This recipe yields 8 stuffed peppers, enough for 4 main dish servings or 8 sides.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted peppers"
+   },
+   {
+    "at": 3,
+    "title": "Filling and topping"
+   }
+  ]
  },
  "parser_version": 2
 }

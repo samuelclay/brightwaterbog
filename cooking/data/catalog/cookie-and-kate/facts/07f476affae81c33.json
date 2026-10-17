@@ -27,7 +27,47 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/strawberry-oat-muffins-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 400 degrees Fahrenheit. If necessary, grease all 12 cups on your muffin tin with butter or cooking spray (my pan is non-stick and doesn’t require any grease)."
+   },
+   {
+    "title": null,
+    "text": "In a large mixing bowl, combine the flour, ⅓ cup oats, baking powder, baking soda and salt. Stir with a whisk to blend."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, combine the oil, maple syrup and eggs. Beat together with a whisk. Add the yogurt and vanilla, and mix well."
+   },
+   {
+    "title": null,
+    "text": "Pour the wet ingredients into the dry and mix with a big spoon, just until combined (a few lumps are ok). Gently fold the strawberries into the batter. The mixture will be thick, but don’t worry."
+   },
+   {
+    "title": null,
+    "text": "Divide the batter evenly between the 12 muffin cups (I used an ice cream scoop with a wire level, which worked perfectly). They will be quite full!"
+   },
+   {
+    "title": null,
+    "text": "Sprinkle the tops of the muffins with the remaining 2 tablespoons of oats, followed by the turbinado sugar. Bake the muffins for 19 to 22 minutes, or until the muffins are golden on top and a toothpick inserted into a muffin comes out clean."
+   },
+   {
+    "title": null,
+    "text": "Place the muffin tin on a cooling rack to cool. You might need to run a butter knife along the outer edge of the muffins to loosen them from the pan."
+   }
+  ],
+  "notes": [
+   "Storage suggestions: Store leftover muffins at room temperature, covered, for 2 days, or in the refrigerator for up to 5 days. Freeze leftover muffins for up to 3 months.",
+   "*Greek yogurt note: I’ve used a variety of fat percentages and the muffins have always turned out well. Higher fat yogurt will yield a somewhat richer muffin.",
+   "Make it vegan: You can replace the eggs with flax eggs. Replace the yogurt with a smaller amount of vegan buttermilk—just mix ⅔ cup non-dairy milk with 2 teaspoons vinegar. Let it rest for 5 minutes before adding it to the other liquid ingredients.",
+   "Make it dairy free: See vegan buttermilk option above.",
+   "Make it egg free: Substitute flax eggs for the regular eggs.",
+   "Make it gluten free: Substitute an all-purpose gluten-free flour blend for the whole wheat flour."
+  ],
+  "summary": "These wholesome strawberry muffins are fluffy and full of fresh strawberry flavor! Plus, they’re made with whole grains. Recipe yields 12 muffins.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

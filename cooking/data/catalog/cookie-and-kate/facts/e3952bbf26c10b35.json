@@ -1,6 +1,41 @@
 {
  "url": "https://cookieandkate.com/negroni-sbagliato-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Negroni Sbagliato Cocktail",
+  "ingredients": [
+   "1 ounce Campari",
+   "1 ounce sweet vermouth, such as Dolin or Carpano Antica",
+   "1 ounce (or more) prosecco",
+   "Garnish: Generous strip of orange peel or an orange wedge"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/negroni-sbagliato-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Fill a rocks glass with ice (or a wine glass halfway with ice). Pour in the Campari and sweet vermouth. With a spoon, stir the mixture in a circular motion until it’s quite cold, about 10 seconds."
+   },
+   {
+    "title": null,
+    "text": "Top with prosecco (equal parts of each ingredient is traditional, though I like extra prosecco). Twist an orange peel directly over the drink to release the oils, then drop it in. Enjoy."
+   }
+  ],
+  "notes": [
+   "Measurement tips: One ounce is two tablespoons."
+  ],
+  "summary": "The Negroni sbagliato is bittersweet, lightly fizzy, and citrusy. It’s the perfect aperitivo. Recipe yields 1 cocktail; pour as many as you’d like.",
+  "ingredient_groups": []
+ }
 }

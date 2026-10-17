@@ -1,6 +1,99 @@
 {
  "url": "https://cookieandkate.com/best-vegan-lasagna-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Best Vegan Lasagna",
+  "ingredients": [
+   "2 cups raw cashews, soaked for at least 4 hours if you do not have a high-powered blender",
+   "1 cup water",
+   "2 tablespoons lemon juice",
+   "2 teaspoons apple cider vinegar",
+   "¾ teaspoon fine sea salt",
+   "½ teaspoon Dijon mustard",
+   "2 tablespoons extra-virgin olive oil",
+   "1 medium-to-large yellow onion, chopped",
+   "2 large or 3 medium carrots, chopped (about 1 cup)",
+   "8 ounces Baby Bella mushrooms, cleaned and chopped",
+   "½ teaspoon fine sea salt, to taste",
+   "Freshly ground black pepper, to taste",
+   "5 to 6 ounces baby spinach, roughly chopped",
+   "2 cloves garlic, pressed or minced",
+   "2 ½ cups marinara sauce, homemade* or store-bought",
+   "9 no-boil lasagna noodles**",
+   "Suggested garnishes: vegan Parmesan (or a light sprinkle of nutritional yeast) and fresh basil"
+  ],
+  "yield_text": "9 servings",
+  "cook_time": "1 hour 5 minutes",
+  "categories": [
+   "Main Dish"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-vegan-lasagna-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. If you soaked your cashews, drain and rinse them until the water runs clear."
+   },
+   {
+    "title": null,
+    "text": "In a blender, combine the cashews, water, lemon juice, vinegar, salt, and mustard. Blend until the mixture is smooth and creamy, stopping to scrape down the sides as necessary. If you’re having trouble blending the mixture, slowly blend in up to ½ cup additional water, using only as much as necessary. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Then, we’ll prepare the vegetables: In a large skillet over medium heat, warm the olive oil. Once shimmering, add the onion, carrots, mushrooms, salt and several twists of black pepper. Cook, stirring every couple of minutes, until most of the moisture is gone and the vegetables are tender and turning golden on the edges, about 8 to 10 minutes. Add another splash of olive oil if necessary to prevent them from sticking to the bottom of the pan."
+   },
+   {
+    "title": null,
+    "text": "Add a few large handfuls of spinach to the skillet. Cook, stirring frequently, until the spinach has wilted. Repeat with remaining spinach and cook until all of the spinach has wilted, about 3 minutes. Add the garlic and cook until fragrant, stirring constantly, about 30 seconds. Remove the skillet from the heat and season to taste with salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "Spread ¾ cup tomato sauce evenly over the bottom of a 9-inch square baking dish. Layer 3 lasagna noodles on top (snap off their ends to fit, and/or overlap their edges as necessary). Spread 1 cup of the cashew cream evenly over the noodles. Top with half of the veggies. Top with ¾ cup tomato sauce."
+   },
+   {
+    "title": null,
+    "text": "Top with 3 more noodles, followed by another 1 cup cashew cream (save the leftover cream). Then add the remaining veggies."
+   },
+   {
+    "title": null,
+    "text": "Top with 3 more noodles, then spread ¾ cup tomato sauce over the top to evenly cover the noodles."
+   },
+   {
+    "title": null,
+    "text": "Wrap a sheet of parchment paper or aluminum foil around the top of the lasagna, making sure it’s taut so it doesn’t touch the top. Bake, covered, for 25 minutes, then remove the cover, rotate the pan by 180° and continue cooking for about 5 to 10 more minutes, until it’s steaming and lightly bubbling at the corners."
+   },
+   {
+    "title": null,
+    "text": "Remove the pan from the oven and let the lasagna cool for 15 to 20 minutes, so it has time to set and cool down to a reasonable temperature. Drizzle leftover cashew cream on top (if it’s too thick to drizzle, thin it out with a small amount of water first). Sprinkle vegan Parmesan and fresh basil on top, if using, then slice and serve."
+   }
+  ],
+  "notes": [
+   "*Homemade marinara sauce note: You’ll need to double my marinara recipe to yield enough for this recipe, and then you’ll have extra. If you don’t think you’ll use it up within a few days, you can freeze it for later.",
+   "**Lasagna noodle recommendations: I like to use DeLallo’s or Whole Foods’ 365 No-Boil Lasagna Noodles. See below for gluten-free suggestions.",
+   "Make it gluten free: Substitute gluten-free lasagna noodles. Choose no-boil (oven ready) noodles if possible; if not, cook them according to package directions. (Fair warning, I tried using DeBoles brand of no-bake lasagna noodles and they weren’t quite done cooking in the time specified here. Reheated leftovers were ok, though.)",
+   "Change it up: Feel free to play around with the vegetables here. You’ll want to use about 3 cups chopped veggies total (excluding the onion). Butternut squash might be nice, or try one zucchini and one red bell pepper in place of the mushrooms.",
+   "Storage suggestions: Leftovers will keep well in the refrigerator, covered, for about 4 days. Gently reheat individual servings in the microwave or oven as needed. Or, freeze it for later—it’s generally easier to reheat single servings than to defrost a big block of lasagna!"
+  ],
+  "summary": "Who knew vegan lasagna could be so delicious? This dairy-free lasagna recipe is easy to make with simple ingredients and tastes amazing. It’s the best! Recipe yields 8 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Cashew cream"
+   },
+   {
+    "at": 6,
+    "title": "Vegetables"
+   },
+   {
+    "at": 14,
+    "title": "Everything else"
+   }
+  ]
+ }
 }

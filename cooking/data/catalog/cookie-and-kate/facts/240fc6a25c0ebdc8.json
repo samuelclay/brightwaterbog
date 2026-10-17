@@ -27,7 +27,42 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/better-broccoli-casserole-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 400 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper for easy cleanup."
+   },
+   {
+    "title": null,
+    "text": "To cook the quinoa: Bring the vegetable broth or water to boil in a heavy-bottomed, medium-sized pot. Add the quinoa, reduce heat to low and simmer, uncovered, for 17 to 20 minutes, or until all of the liquid is absorbed. Cover and set aside to steam for 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "To roast the broccoli: Slice any large broccoli florets in half to make bite-sized pieces. Transfer the broccoli to your prepared baking sheet and toss with 2 tablespoons olive oil, until lightly coated on all sides. Sprinkle with salt and arrange in a single layer. Bake for about 20 minutes, until the broccoli is tender and starting to caramelize on the edges."
+   },
+   {
+    "title": null,
+    "text": "To make the breadcrumbs: Tear your piece of bread into bite-sized pieces and toss them into a food processor or blender. Process until the bread has broken into small crumbs. In a small pan over medium heat, melt the butter. Add the garlic and cook just until fragrant, stirring often. Add the bread crumbs and cook for 2 to 3 minutes, until slightly browned and crisp. Set aside to cool. (If you cooked your bread crumbs in a cast iron skillet, transfer them to a bowl to prevent them from burning.)"
+   },
+   {
+    "title": null,
+    "text": "Reduce the oven heat to 350 degrees. Add the salt, pepper and red pepper flakes to the pot of quinoa, and stir to combine. Set aside ¾ cup of the cheese for later, then add the rest of the cheese to the pot. Pour in the milk and stir until the cheese and milk are evenly incorporated in the quinoa."
+   },
+   {
+    "title": null,
+    "text": "Pour the cheesy quinoa into a 9-inch square baking dish and top with the roasted broccoli. Stir until the broccoli is evenly mixed in with the quinoa. Sprinkle the surface of the casserole with the reserved ¾ cup cheese, then sprinkle the breadcrumbs on top."
+   },
+   {
+    "title": null,
+    "text": "Bake, uncovered, for 25 minutes, until the top is golden. Allow to cool for 10 minutes before serving. Leftovers keep well in the refrigerator, covered, for up to 4 days. Gently reheat in the oven or microwave before serving."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my creamy roasted Brussels sprout and quinoa gratin, which was originally adapted from The High-Protein Vegetarian Cookbook by Katie Parker of Veggie and the Beast."
+  ],
+  "summary": "Broccoli casserole made better with roasted fresh broccoli, cheddar cheese, creamy quinoa and irresistible, garlicky whole grain bread crumbs. This healthy casserole is easy to make and tastes amazing! Recipe yields 6 to 8 servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

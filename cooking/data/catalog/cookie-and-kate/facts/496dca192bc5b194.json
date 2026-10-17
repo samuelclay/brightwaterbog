@@ -20,7 +20,38 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/favorite-grilled-cheese-sandwich-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Spread Dijon mustard lightly across one side of one slice of bread. You’re aiming for a very thin layer. Stir the green onion into the grated cheese, and set aside."
+   },
+   {
+    "title": null,
+    "text": "Melt a pat of butter (about 1 teaspoon) in a medium non-stick skillet over medium heat (or a large skillet, if you’re planning on making two sandwiches at once). Once melted, place the mustardy slice of bread into the skillet, with the mustard side facing up."
+   },
+   {
+    "title": null,
+    "text": "Top the slice with the oniony cheese (aim for about a ¾-inch layer of cheese). Then place the remaining slice of bread on top. Cover the skillet with a lid, and cook for several minutes, or until the underside of the bread is golden."
+   },
+   {
+    "title": null,
+    "text": "Remove the sandwich from the skillet with a spatula, and add another pat of butter to the skillet. Once melted, carefully flip the other side of the sandwich against the buttered pan. Cover and cook until the underside of the bread is nice and golden, and the cheese is all melted. If the bread is browning before the cheese has melted, dial down the heat as necessary."
+   },
+   {
+    "title": null,
+    "text": "Optional, if you want a cheesy crust on the outside of the sandwich and you’re working with a truly non-stick skillet: Remove the nearly-finished sandwich with a spatula. Sprinkle a bit more grated cheese into the pan in a toast-sized shape, and flip the sandwich back over onto the cheese. Let it cook until you no longer hear any sizzle, and then a few seconds longer."
+   },
+   {
+    "title": null,
+    "text": "Remove the sandwich with your spatula. Place it onto a cutting board and let it cool for a minute or two. Gently cut it in half down the middle using a serrated knife, and serve warm."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Use your favorite gluten-free bread."
+  ],
+  "summary": "This gourmet grilled cheese sandwich recipe is so easy to make at home! Make it when the craving strikes, and it will become your new favorite. Recipe yields 1 sandwich; multiply as necessary. You can make two at once in large skillet, if you’re careful when you flip them.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

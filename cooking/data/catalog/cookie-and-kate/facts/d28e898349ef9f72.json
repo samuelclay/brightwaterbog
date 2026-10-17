@@ -1,6 +1,93 @@
 {
  "url": "https://cookieandkate.com/kale-black-bean-and-avocado-burrito-bowl/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Kale and Black Bean Burrito Bowl",
+  "ingredients": [
+   "1 cup brown rice, rinsed (short grain/arborio or long grain/basmati recommended)",
+   "¼ teaspoon fine salt",
+   "1 medium bunch curly kale, ribs removed and chopped into small, bite-sized pieces",
+   "¼ cup lime juice",
+   "2 tablespoons olive oil",
+   "½ jalapeño pepper, seeded and finely chopped (omit if sensitive to spice)",
+   "½ teaspoon ground cumin",
+   "¼ teaspoon fine salt",
+   "1 avocado, pitted and sliced into big chunks",
+   "½ cup mild salsa verde (any good green salsa will do)",
+   "½ cup fresh cilantro leaves (a few stems are ok)",
+   "2 tablespoons lime juice",
+   "1 tablespoon olive oil",
+   "1 shallot, finely chopped or ⅓ cup chopped red onion",
+   "3 cloves garlic, pressed or minced",
+   "2 cans black beans (15 ounces each), rinsed and drained, or 3 cups cooked black beans",
+   "¼ teaspoon chili powder",
+   "¼ teaspoon cayenne pepper (optional, for spice)",
+   "Cherry tomatoes, sliced into thin rounds",
+   "Crumbled feta cheese",
+   "Toasted pepitas (green pumpkin seeds)",
+   "Hot sauce, such as Cholula"
+  ],
+  "yield_text": "4",
+  "cook_time": "50 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/kale-black-bean-and-avocado-burrito-bowl/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cook the rice: Bring a big pot of water to a boil, pour in the rinsed brown rice and boil, uncovered, for 30 minutes. Turn off the heat, drain the rice and return it to the pot. Cover and let the rice steam in the pot for 10 minutes, then fluff the rice with a fork and season with ¼ teaspoon salt, or more to taste."
+   },
+   {
+    "title": null,
+    "text": "Make the kale salad: Place the chopped kale in a big mixing bowl. Massage the leaves with your hands by scrunching up big handfuls at a time until the leaves are darker in color and fragrant. Whisk together the lime juice, olive oil, chopped jalapeño, cumin and salt, then pour the dressing into the bowl and stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Make the avocado salsa verde: In a food processor or blender, combine the avocado, salsa verde, cilantro and lime juice. Blend until the mixture is smooth and creamy."
+   },
+   {
+    "title": null,
+    "text": "Warm the beans: In a medium saucepan, warm the olive oil over medium-low heat. Sauté the shallot and garlic until fragrant and tender, about 2 to 3 minutes, then add the beans, chili powder and cayenne pepper. Cook until the beans are warmed through and softened, stirring often, about 5 to 7 minutes. If the beans seem dry at any point, stir in a small splash of water."
+   },
+   {
+    "title": null,
+    "text": "To serve, spoon generous portions of rice, beans and kale salad into individual bowls. Top with a couple of spoonfuls of avocado salsa verde and garnish as desired. Each component of this recipe keeps well in the refrigerator for up to 4 days. For leftovers, reheat the beans and rice and serve alongside marinated kale and salsa verde. To ensure the salsa verde stays bright green, store it in a bowl with plastic wrap pressed against the sauce."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Not Without Salt’s jalapeño and lime marinated kale tostada. Recipe updated in 2024 to include massaging the kale for an improved texture, plus additional garnish suggestions.",
+   "Make it vegan/dairy free: Don’t add cheese."
+  ],
+  "summary": "This vegetarian burrito bowl features super flavorful components—lime-marinated kale, seasoned black beans, brown rice and avocado salsa verde. This recipe is gluten free, vegetarian and vegan/dairy free if you skip the feta cheese. Recipe yields 4 burrito bowls.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Brown rice"
+   },
+   {
+    "at": 2,
+    "title": "Lime-marinated kale"
+   },
+   {
+    "at": 8,
+    "title": "Avocado salsa verde"
+   },
+   {
+    "at": 12,
+    "title": "Seasoned black beans"
+   },
+   {
+    "at": 18,
+    "title": "Optional garnishes"
+   }
+  ]
+ }
 }

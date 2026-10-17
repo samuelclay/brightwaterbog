@@ -1,6 +1,83 @@
 {
  "url": "https://cookieandkate.com/coconut-curried-kale-and-sweet-potato-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Coconut Curried Kale and Sweet Potato",
+  "ingredients": [
+   "1 ½ cups brown basmati rice, rinsed well",
+   "Salt, to taste",
+   "3 tablespoons extra-virgin olive oil, divided",
+   "1 medium yellow onion, chopped",
+   "1 teaspoon fine salt, divided, more to taste",
+   "2 pounds sweet potato (about 3 medium) or 1 butternut squash, peeled and sliced into ½-inch cubes",
+   "3 large garlic cloves, pressed or minced",
+   "2 teaspoons finely grated fresh ginger",
+   "1 teaspoon curry powder",
+   "1 large bunch of kale (about 8 ounces), stems removed and chopped",
+   "2 cups vegetable broth or water",
+   "1 can (14 ounces) full-fat coconut milk, divided",
+   "1 tablespoon lime juice",
+   "⅓ cup pepitas (green pumpkin seeds)",
+   "Freshly ground black pepper, to taste",
+   "Red pepper flakes (optional), to taste"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "1 hour 5 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Indian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/coconut-curried-kale-and-sweet-potato-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the rice, bring a large pot of water to boil. Add the rinsed rice and continue simmering for 30 minutes, reducing the heat as necessary to prevent overflow. Turn off the heat, drain the rice, and return the rice to the pot. Cover and let the rice rest for 10 minutes or longer, until you’re ready to serve."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, warm 2 tablespoons olive oil in a Dutch oven over medium heat until shimmering. Add the onion and ½ teaspoon of the salt. Cook, stirring frequently, until softened, about 5 minutes. Add the sweet potato, cover, and cook, stirring occasionally, until the sweet potato is bright orange (or until the butternut is just beginning to brown), about 8 minutes. Transfer the mixture to a bowl for now."
+   },
+   {
+    "title": null,
+    "text": "Add 1 tablespoon olive oil to the pot and raise the heat to medium-high. Add the garlic, ginger and curry powder and cook, stirring constantly, until fragrant, about 30 seconds. Add the kale, broth, all but ½ cup coconut milk, and ½ teaspoon of the salt. Stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Cover the pot, reduce the heat to medium-low, and cook, stirring occasionally, until the kale is wilted, about 7 to 10 minutes. Add the sweet potato mixture, cover, and continue to cook until the kale and sweet potato are tender, 10 to 20 minutes."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, toast the pepitas in a medium skillet over medium-low heat, stirring frequently, until they’re fragrant and making little popping noises, about 3 to 5 minutes. Transfer to a bowl to cool."
+   },
+   {
+    "title": null,
+    "text": "Once the kale and sweet potato are tender, uncover the pot and increase the heat to medium-high. Cook, stirring occasionally, until the sauce has thickened, about 2 to 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from the heat and stir in the remaining coconut milk. Add the lime juice and season with salt, pepper and optional red pepper flakes, to taste. Divide rice into bowls, then top with kale mixture and a generous sprinkling of pepitas before serving. This recipe keeps well in the refrigerator, covered, for up to 4 days (or freeze portions up to 6 months)."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from The Complete Vegetarian Cookbook by America’s Test Kitchen.",
+   "Recipe edits: In 2025, I tweaked this recipe to improve the overall flavor and texture. I increased the amount of broth, layered in more salt, reduced the amount of kale, and edited the recipe for clarity."
+  ],
+  "summary": "Hearty braised and curried kale with sweet potato makes a delicious wintertime meal! This healthy dish is vegan, dairy-free, and gluten-free. Be sure to have your ingredients prepped before you start cooking. Recipe yields 6 generous servings—I also like it as a stew without the rice.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Rice"
+   },
+   {
+    "at": 2,
+    "title": "Braised kale and sweet potato"
+   }
+  ]
+ }
 }

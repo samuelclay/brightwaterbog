@@ -1,6 +1,85 @@
 {
  "url": "https://cookieandkate.com/lentil-couscous-stuffed-peppers-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Lentil & Couscous Stuffed Peppers",
+  "ingredients": [
+   "4 large red bell peppers, halved vertically, seeded and membranes removed",
+   "2 tablespoons olive oil, or more as needed",
+   "Salt and pepper",
+   "½ cup French green lentils, sorted through for debris and rinsed",
+   "1 ¼ cups vegetable broth or water",
+   "1 bay leaf",
+   "1 tablespoon olive oil",
+   "1 small yellow onion, chopped (to yield 1 cup chopped onion)",
+   "2 garlic cloves, pressed or minced",
+   "1 large tomato, chopped",
+   "½ cup whole wheat couscous",
+   "½ cup vegetable broth or water",
+   "½ cup crumbled feta",
+   "1 tablespoon olive oil",
+   "1 tablespoon lemon juice",
+   "¼ cup chopped fresh basil, plus extra for garnishing",
+   "¼ teaspoon salt",
+   "⅛ teaspoon red pepper flakes"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "40 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/lentil-couscous-stuffed-peppers-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 400 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper. Place the prepared peppers on the sheet and drizzle with 2 tablespoons olive oil. Use your hands to rub the oil all over both sides of the peppers, then arrange them with the cut side up and sprinkle them with salt and pepper. Bake for 20 to 25 minutes, until the peppers are tender and a little blistered around the edges."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, combine the lentils, broth or water and bay leaf in a small pot. Bring to a boil over medium-high heat, then reduce heat to maintain a gentle simmer and cook until the lentils are tender, about 23 to 25 minutes. (Add another splash of water if necessary to prevent the lentils from scorching.) Drain off the excess water and return the lentils to the pot. Discard the bay leaf."
+   },
+   {
+    "title": null,
+    "text": "While the lentils cook, warm 1 tablespoon olive oil in a heavy-bottomed, medium pot over medium heat. Add the chopped onion and a sprinkle of salt. Cook, stirring occasionally, until the onions have softened and are turning golden on the edges, about 10 to 12 minutes. Add the garlic and tomato and cook until fragrant, about 30 seconds. Remove from heat and pour in the couscous and ½ cup broth or water. Cover and set aside for 5 minutes, then remove the lid and fluff the mixture with a fork."
+   },
+   {
+    "title": null,
+    "text": "In a medium serving bowl, combine the cooked lentils and couscous. Add the crumbled feta, 1 tablespoon olive oil, 1 tablespoon lemon juice, chopped basil, ¼ teaspoon salt and red pepper flakes. Stir to combine and season to taste with additional salt, pepper and lemon juice, if necessary."
+   },
+   {
+    "title": null,
+    "text": "Spoon a generous amount of filling into each roasted pepper halve and sprinkle with a little more chopped basil. Serve these with a fork and a knife, for slicing!"
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Omit the feta. You might try adding some thinly sliced Kalamata olives to make up for the feta’s salty punch.",
+   "Make it gluten free: Substitute quinoa for the couscous (add the water and quinoa at the same time, stir, cover and simmer for 15 minutes, then remove from heat and let it steam for 5 minutes, then fluff with a fork and carry on.)"
+  ],
+  "summary": "These healthy vegetarian stuffed peppers are full of lentils, couscous, basil and feta! They’re simple to make and go great with a side salad. Recipe yields 8 stuffed peppers (which I’d say is 4 servings, since these are light!).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted peppers"
+   },
+   {
+    "at": 3,
+    "title": "Lentils"
+   },
+   {
+    "at": 6,
+    "title": "Couscous"
+   },
+   {
+    "at": 12,
+    "title": "Everything else"
+   }
+  ]
+ }
 }

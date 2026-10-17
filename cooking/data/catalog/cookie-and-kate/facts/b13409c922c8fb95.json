@@ -1,6 +1,76 @@
 {
  "url": "https://cookieandkate.com/coconut-rice-with-brussels-sprouts-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Jeanine’s Coconut Rice with Brussels Sprouts",
+  "ingredients": [
+   "1 cup brown jasmine rice or regular jasmine rice*, rinsed",
+   "1 ¼ cups canned light coconut milk",
+   "2 teaspoons coconut oil",
+   "2 cups halved Brussels sprouts",
+   "Pinch of salt",
+   "¼ cup chopped green onions",
+   "¼ cup torn fresh basil",
+   "¼ cup torn fresh mint",
+   "1 small avocado, pitted and diced",
+   "1 tablespoon sesame seeds",
+   "Sriracha and lime wedges, for serving",
+   "1 tablespoon tamari or soy sauce",
+   "2 small garlic cloves, pressed or minced",
+   "2 teaspoons lime juice",
+   "2 teaspoons rice vinegar",
+   "1 tablespoons coconut sugar or cane sugar",
+   "2 tablespoons water",
+   "2 Thai chilies, diced, or ½ teaspoon red pepper flakes"
+  ],
+  "yield_text": "2 to 4 servings",
+  "cook_time": "55 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Thai"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/coconut-rice-with-brussels-sprouts-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cook the rice (see notes for white rice instructions): If you’re using brown rice like me, combine the coconut milk and 2 cups water in a medium pot. Bring it to boil over medium-high heat, but stay nearby because it likes to bubble over. Add the rice, stir, and reduce heat as necessary to prevent it from boiling over. Let the rice simmer away, uncovered, for 30 minutes, then strain off any excess liquid and return the rice to the pot. Cover the pot and let it rest for 10 minutes, then fluff with a fork and cover again to keep warm."
+   },
+   {
+    "title": null,
+    "text": "Make the sauce: In a small bowl, whisk together the tamari, garlic, lime juice, vinegar, sugar, water and chilies. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Cook the sprouts: Heat the coconut oil in a large skillet over medium heat until shimmering. Add the sprouts, cut side down, along with a pinch of salt. Let them sear until the cut side becomes golden brown, 2 to 3 minutes. Toss and continue cooking for an additional 7 to 10 minutes, or until tender. Add the green onions during the last 2 minutes of cooking, then remove the pan from heat."
+   },
+   {
+    "title": null,
+    "text": "Divide the rice into bowls and top with Brussels sprouts, sauce, basil, mint, avocado and sesame seeds. Serve with sriracha and lime wedges on the side."
+   }
+  ],
+  "notes": [
+   "Recipe minimally adapted from The Love & Lemons Cookbook by arrangement with Avery Books, a member of Penguin Group (USA) LLC, A Penguin Random House Company. Copyright © 2016, Jeanine Donofrio.",
+   "*If you’re using white jasmine rice, here are Jeanine’s instructions: Combine the rinsed rice and coconut milk in a pot and bring to a boil. Cover, reduce the heat, and simmer for 15 minutes. Remove from heat and let it sit, covered, for 10 more minutes, then fluff with a fork. Alternatively, cook the rice in a rice cooker according to the manufacturer’s directions for white rice, but use coconut milk in place of water.",
+   "Make it gluten free: Be sure to use a certified gluten-free tamari, not regular soy sauce.",
+   "Make it soy free: You might be able to use coconut aminos in place of the tamari.",
+   "Change it up: Jeanine suggests that asparagus, broccoli, shiitake mushrooms, red bell peppers and roasted butternut squash are all great in this dish."
+  ],
+  "summary": "Delicious Brussels sprouts with coconut rice recipe, featuring fresh basil, mint, avocado and a spicy Thai-inspired soy sauce. It’s a quick and easy dinner or lunch! Find this recipe and more like it in the Love and Lemons Cookbook . Recipe yields 2 to 4 servings, depending on how hungry you are.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Coconut rice and Brussels sprouts"
+   },
+   {
+    "at": 11,
+    "title": "Sauce"
+   }
+  ]
+ }
 }

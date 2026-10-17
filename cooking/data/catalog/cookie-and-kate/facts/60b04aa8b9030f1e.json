@@ -31,7 +31,31 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/chopped-kale-salad-with-edamame-carrot-and-avocado/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Use a chef’s knife to remove the tough ribs from the kale, then discard them. Chop the kale leaves into small, bite-sized pieces and transfer them to a mixing bowl. Sprinkle the kale with a dash of sea salt and use your hands to massage the kale by scrunching up the leaves in your hands and releasing until the kale is a darker green and fragrant. Toss the remaining salad dressing ingredients with the kale."
+   },
+   {
+    "title": null,
+    "text": "To make the vinaigrette, whisk together all the ingredients until emulsified. Toss the dressing with the salad and serve. Leftovers will keep well in the fridge for up to 3 days."
+   }
+  ],
+  "notes": [
+   "*Make it gluten free: Tamari is a gluten-free Japanese soy sauce that has a flavor I love and is readily available at stores. If you want your salad to be gluten-free, be sure to pick a gluten-free soy sauce."
+  ],
+  "summary": "A colorful chopped kale salad bursting with Asian flavors, including ginger, cilantro, Thai basil and soy. This salad is vegan and gluten free, so it would make a great potluck dish. Recipe yields 4 medium salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 10,
+    "title": "Tamari-Ginger Vinaigrette"
+   }
+  ]
  },
  "parser_version": 2
 }

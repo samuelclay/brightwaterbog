@@ -31,7 +31,42 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2020/08/corn-coconut-soup/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make corn stock: Thinly slice one of the onions and set aside. Cut the second onion into quarters. Place onion quarters, water, corn cobs, and ginger in a large pot. Bring to a boil over high heat; reduce to medium, and simmer 1 hour — uncovered, to encourage it to reduce and concentrate. Pour stock through a strainer into a heatproof bowl; discard solids. Season with 2 teaspoons salt."
+   },
+   {
+    "title": null,
+    "text": "Make soup: Heat 2 tablespoons oil in a large pot over medium. Add corn kernels, sliced onion, garlic and 1/2 teaspoon salt. Cook, stirring occasionally, until onion is translucent and soft, about 15 minutes. Add 4 cups of the reserved corn stock; bring to a boil over high. Reduce heat to medium, and simmer 20 minutes. Add coconut milk and lime juice. Remove from heat."
+   },
+   {
+    "title": null,
+    "text": "Working in batches, pour mixture into a blender. Secure lid but remove the center piece to allow steam to escape. Or, you can use an immersion blender in the pot, as I did. Process until very smooth. Pour soup through a strainer into a pot — I didn’t do this but wished I had — and discard solids."
+   },
+   {
+    "title": null,
+    "text": "Serve: Ladle into bowls. Top with garnishes of your choice."
+   },
+   {
+    "title": "Garnishes",
+    "text": "To make a tiny batch of chile oil: Place 2 tablespoons crushed red pepper in a small heatproof bowl. Heat 1/4 cup neutral oil in a small skillet over medium-high until shimmering, then pour over red pepper. Let stand 10 minutes and pour through a fine-mesh strainer, discarding the pepper flakes. Dot over soup with caution."
+   },
+   {
+    "title": null,
+    "text": "To pickle shallots: Thinly slice two large shallots. Add to a bowl with 2 tablespoons red wine vinegar, 2 tablespoons cold water, 1/2 teaspoon sugar, and a slightly heaped 1/4 teaspoon kosher salt. Set in fridge until needed. Shallots will be very lightly pickled by the time you’re done making the soup, but if you can give it 1 to 2 hours in the fridge, they’ll be more so."
+   },
+   {
+    "title": null,
+    "text": "To make crispy shallots: Thinly slice two large shallots. In a small skillet, heat 1/2-inch of oil over medium heat. Once the oil is hot, add the shallots to the skillet, breaking them into rings as you place them in. Cook until deeply golden, watching them carefully, stirring occasionally, and then transfer them to a paper towel-lined plate. Sprinkle immediately with salt. They will continue to darken after being removed from the skillet."
+   }
+  ],
+  "notes": [
+   "If you’re in doubt about the size of your corn cobs, round up. If you’re going through a lot of corn this summer, I’d make an extra batch or two of this stock and freeze it — it would be wonderful in risottos, soups, and anywhere you’d use a vegetable broth."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

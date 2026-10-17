@@ -37,7 +37,24 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2015/05/pasta-salad-with-roasted-tomatoes/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Roast tomatoes: Heat oven to 300°F (150°C). Cover 1 to 2 baking sheets with parchment paper or a nonstick baking mat. Cut each small tomato in half lengthwise and arrange cut side up in a single layer on prepared sheets. Drizzle lightly with olive oil and sprinkle with salt. Bake in oven for approximately 90 minutes, until somewhat shriveled and dry to the touch, but not fully dehydrated. Set aside until needed, letting them cool. [Note, if your pine nuts are not yet toasted, you can place them in the oven for the last 10 minutes, shaking them once or twice for even coloring. Let cool as well before using.]"
+   },
+   {
+    "title": null,
+    "text": "Make dressing: Roughly chop the garlic on a cutting board, then add oregano, salt and a few grinds of black pepper. Mince the mixture with your knife until it’s a grainy herb paste. Transfer to a small bowl, whisk in lemon juice and vinegar, then slowly drizzle in oil, whisking the whole time. Taste and adjust as needed; you might need more salt or vinegar. You want a strongly flavored dressing that won’t get lost in that big bowl of ingredients."
+   },
+   {
+    "title": null,
+    "text": "Assemble salad: In a giant bowl, place drained pasta, roasted tomatoes, cheese, pine nuts and olives and toss gently to combine. Add dressing to taste, along with any extra salt and pepper needed. Finish with basil. Salad can be eaten right away, but will keep in the fridge up to 3 days. This is also perfect for picnics and potlucks, as it can handle being out in the sun without going south."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

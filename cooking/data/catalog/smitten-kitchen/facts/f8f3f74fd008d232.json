@@ -30,7 +30,30 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2014/10/squash-toasts-with-ricotta-and-cider-vinegar/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 450. Line large baking sheet with parchment paper. No need to peel your squash (as shown above), just halved, seed and cut your squash into 1/4-inch thick slices. Toss with 3 tablespoons olive oil, 1 to 2 teaspoons salt (Vongerichten recommends 2 teaspoons; I used a bit less) and chile flakes until evenly coated. Transfer mixture to prepared sheet and roast until tender and slightly colored, anywhere from 15 to 30 minutes (depending on the density of the squash you use), flipping once about 2/3 of the way through. Once tender, you can cut the flesh from the skin and discard it. Leave roasted squash on the tray."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, heat 3 tablespoons olive oil in large skillet over medium-high heat. Add the onions and 1 teaspoon salt and cook, stirring frequently, until onions are softened and beginning to brown, about 10 to 15 minutes. Add vinegar and syrup and reduce heat to medium. Cook, stirring, until onions are jammy and broken down, another 10 to 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "Pile onions on top of roasted squash, still on their baking sheet. Use a fork to gently half-mash the mixture; I like this best when the mixture is not uniformly combined. Taste and adjust seasonings if needed."
+   },
+   {
+    "title": null,
+    "text": "Heat a large skillet over medium-high heat. Add 1 tablespoon olive oil per slice of bread, and cook bread until just golden brown on both sides. Drain on paper towels. Spread cheese on toasts, heap with the squash-onion mixture, sprinkle with coarse salt and garnish with mint."
+   }
+  ],
+  "notes": [
+   "Do ahead: Now that we’ve finished lunch, I can note with great confidence that these reheat wonderfully, even fully assembled, with none of the sog you’d expect from day-old stuff on bread. (It helps if you use a sturdy bread, of course.) Reheat on a baking sheet in a 300 degree oven for 15 minutes."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

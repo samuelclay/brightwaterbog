@@ -1,6 +1,85 @@
 {
  "url": "https://cookieandkate.com/strawberry-rhubarb-almond-cake/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Almond Cake with Roasted Strawberries & Rhubarb on Top",
+  "ingredients": [
+   "2 ½ cups (225 grams) fine blanched almond flour, spooned and leveled",
+   "1 teaspoon baking powder",
+   "½ teaspoon baking soda",
+   "½ teaspoon fine salt",
+   "¼ teaspoon ground cinnamon",
+   "4 eggs, beaten",
+   "⅔ cup maple syrup or honey",
+   "¼ cup extra-virgin olive oil",
+   "1 orange, zested, preferably organic",
+   "1 pound strawberries, hulled and sliced into thin pieces",
+   "½ pound (about 2 stalks) rhubarb, sliced vertically into ½-inch wide strips, then sliced crosswise into small pieces, about ¼-inch by ½-inch",
+   "¼ cup maple syrup or honey",
+   "Optional, for serving: Whipped cream or plain Greek yogurt"
+  ],
+  "yield_text": "1 cake",
+  "cook_time": "55 minutes",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/strawberry-rhubarb-almond-cake/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 325 degrees Fahrenheit with a rack in the middle and a rack in the upper third of the oven. Generously grease a 9-inch springform pan* and dust it with almond meal to prevent sticking. Line a large, rimmed baking sheet with parchment paper for easy clean-up."
+   },
+   {
+    "title": null,
+    "text": "In a large mixing bowl, whisk together the almond meal, baking powder, baking soda, salt and cinnamon."
+   },
+   {
+    "title": null,
+    "text": "In another bowl, combine the beaten eggs, maple syrup or honey, olive oil and the zest of your orange. Use a whisk to mix well. Pour the wet ingredients into the dry. Stir just until there are a few clumps remaining, then pour the mixture into your prepared 9-inch pan."
+   },
+   {
+    "title": null,
+    "text": "Combine the strawberries and rhubarb on your prepared baking sheet. Drizzle with ¼ cup maple syrup or honey and mix well. Arrange the mixture in an even layer on the sheet."
+   },
+   {
+    "title": null,
+    "text": "Place the cake on the middle rack and the strawberry-rhubarb mixture on the upper rack. Bake for about 40 to 45 minutes, until the cake is golden brown and the center is firm to the touch (it shouldn’t jiggle when you shimmy the pan). Toss the strawberry-rhubarb mixture every 15 minutes or so, and keep an eye on it in the last 10 minutes of baking—it’s done when the strawberry and rhubarb are cooked through, tender and jammy. (If you used honey, watch the edges especially and pull the pan before they burn.)"
+   },
+   {
+    "title": null,
+    "text": "Place the cake on a wire rack to cool. Slice your orange in half and squeeze the juice of half the orange over the strawberry-rhubarb mixture. (You’ll have half an orange left to use as you please!) Stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Once the cake has cooled for ten minutes, you can release it from the springform pan by popping off the side piece. If you used a cake pan, you might want to wait longer before turning the cake onto a large plate just to be safe, or serve it right from the pan."
+   },
+   {
+    "title": null,
+    "text": "Use a large spoon to top the cake with the roasted strawberry-rhubarb mixture and all of its juices. Use a sharp knife to slice into 8 pieces. Serve each slice with a dollop of whipped cream, if desired."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Kimberley’s almond cake and my roasted strawberry rhubarb and yogurt parfaits.",
+   "*Springform note: You’ll have a much easier time removing the cake from a springform pan, so I recommend using one. That said, you might be able to make this work in a 9-inch cake pan. Generously grease the pan (bottom and sides), and then cut a round of parchment paper to neatly fit inside the bottom. Place it inside, pour the batter on top, and bake/glaze/cool as directed. Use a knife to loosen the outer edges of the cake before carefully inverting it onto a plate. Remove the paper, add the topping and serve.",
+   "Change it up: In place of the strawberries and rhubarb, you could probably use 1 ½ pounds berries, peaches, plums, apples, pears…",
+   "Update January 2018: The recipe originally specified 3 eggs. I’ve learned through trial and error that this cake rises more uniformly across the middle and slices better when made with 4 eggs, so I’ve adjusted the recipe accordingly.",
+   "Update April 2026: The amount of flour is unchanged, but I’ve rewritten it to reduce confusion. The measurement was originally 2 cups (8 ounces or 225 grams) almond flour or almond meal, firmly packed into measuring cups. If you measure it by spooning and leveling the flour instead of packing it, you’ll use 2 ½ cups."
+  ],
+  "summary": "This gluten-free almond cake topped with roasted strawberries and rhubarb is a beautiful springtime dessert! It’s entirely naturally sweetened with maple syrup or honey. Recipe yields one 9-inch cake, enough for 8 slices.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Cake"
+   },
+   {
+    "at": 9,
+    "title": "Topping"
+   }
+  ]
+ }
 }

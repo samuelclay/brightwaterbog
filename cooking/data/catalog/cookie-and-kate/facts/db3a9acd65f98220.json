@@ -23,7 +23,39 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/massaged-broccoli-rabe-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Pull the broccoli rabe leaves from the stems and discard the stems. Wash and spin dry the leaves. Tear any large leaves into small, bite-sized pieces, then transfer the leaves to a large serving bowl."
+   },
+   {
+    "title": null,
+    "text": "In a medium skillet over medium heat, toast the sunflower seeds until they are fragrant and starting to turn lightly golden on the edges, about 5 minutes. Remove from heat and set aside."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl, whisk together the olive oil, lemon juice, mustard, garlic and salt until emulsified. Pour the dressing over the leaves and gently massage the dressing into the leaves until they are lightly coated and the salad has almost halved in size. Taste, and add one to two more teaspoons lemon juice if it needs more zip."
+   },
+   {
+    "title": null,
+    "text": "Add the chopped celery, grated Parmesan, toasted sunflower seeds and dried cranberries to the serving bowl. Toss again and serve immediately."
+   }
+  ],
+  "notes": [
+   "Make it vegan: Omit the Parmesan for a vegan salad. You might want to add some nutritional yeast, to taste, to make up for it."
+  ],
+  "summary": "Raw broccoli rabe, once massaged with a lemony, garlicky dressing, transforms into a delicious salad green. Be prepared to get your hands dirty for this one—for best results, use your fingers to tear the leaves apart and rub the dressing into the leaves. Then, just toss in crisp celery, salty Parmesan, toasted sunflower seeds and sweet dried cranberries. Recipe yields 4 side salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 5,
+    "title": "Lemony dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

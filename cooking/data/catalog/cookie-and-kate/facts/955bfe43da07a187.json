@@ -19,7 +19,31 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/simple-tortilla-pizzas/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit."
+   },
+   {
+    "title": null,
+    "text": "Place the tortilla in a 12-inch cast iron pan or baking sheet (max crispiness option: place the tortilla on a stainless steel, oven-safe cooling rack, and place that on the baking sheet)."
+   },
+   {
+    "title": null,
+    "text": "Spread sauce evenly across the tortilla, leaving ½ inch around the edges. Sprinkle with cheese and toppings."
+   },
+   {
+    "title": null,
+    "text": "Bake until the cheese is golden and bubbling (no sooner!) and the edges of the tortilla are lightly browned, about 10 to 14 minutes. Let the pizza cool for a few minutes before slicing."
+   }
+  ],
+  "notes": [
+   "Toaster oven option: Bake the pizza directly on the rack of your toaster oven at 400 degrees for 8 to 11 minutes.",
+   "Tortilla note: Make sure to check the ingredients list on the whole wheat tortillas. It should list about 5 ingredients, not 25. I buy mine at health food stores and store them in the fridge or freezer and they almost never go bad."
+  ],
+  "summary": "So easy. So good. Everyone needs this tortilla pizza recipe.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -18,7 +18,24 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/balsamic-stone-fruit-sundae/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit. Prepare the fruit: peel, pit and slice peaches/nectarines, pit and slice plums, and pit and halve cherries."
+   },
+   {
+    "title": null,
+    "text": "Line a rimmed baking sheet with parchment paper. Toss the stone fruit with sugar and balsamic vinegar and spread into a single layer. Bake for about 30 minutes, tossing halfway. Serve warm, with ice cream."
+   }
+  ],
+  "notes": [
+   "Recipe yields enough for 4 modestly sized sundaes. Plan on 1 cup prepared fruit per person.",
+   "Leftover roasted fruit is great with yogurt and granola for breakfast.",
+   "I didn’t halve the cherries in this batch, but I suggest you do so they cook at the same rate as the other fruit."
+  ],
+  "summary": "A super simple summer dessert featuring balsamic roasted stone fruit (peaches, plums and cherries) and vanilla ice cream. Feel free to wing the amounts—my friend just tossed the fruit with sugar and balsamic vinegar until they seemed “pretty well coated.”",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -30,7 +30,24 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2008/04/cauliflower-bean-and-feta-salad/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 400°F. Toss cauliflower florets with 3 tablespoons olive oil and season well with salt and pepper. Spread on a baking sheet and roast until edges are dark and caramelized, about 20 to 25 minutes, stirring once or twice."
+   },
+   {
+    "title": null,
+    "text": "While cauliflower is roasting, combine remaining 1/3 cup olive oil and rosemary in small saucepan. Stir over medium heat just until fragrant, about 1 minute. Cool."
+   },
+   {
+    "title": null,
+    "text": "Whisk lemon juice, vinegar, lemon peel, salt, and pepper in small bowl. Combine roasted, still warm cauliflower, beans, endive, chives, parsley, walnuts and rosemary oil in medium bowl; toss. Mix in cheese. Add lemon juice mixture and toss to coat. Season salad with salt and pepper."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

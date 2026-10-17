@@ -22,7 +22,36 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/arugula-watermelon-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To assemble the salad: In a medium serving bowl, combine the arugula, cubed watermelon, feta and olives."
+   },
+   {
+    "title": null,
+    "text": "To prepare the vinaigrette: In a small liquid measuring cup or bowl, combine all of the vinaigrette ingredients and whisk until blended. Taste, and add more salt and pepper if necessary, keeping in mind that the salad contains some salty ingredients."
+   },
+   {
+    "title": null,
+    "text": "Wait until you’re ready to serve to dress the salad, since the arugula will start wilting once it comes into contact with the vinaigrette. Whisk the vinaigrette one more time, then drizzle about half of the vinaigrette over the salad. Gently toss to combine. Add more vinaigrette if necessary to lightly coat the arugula (I only needed about half of mine and saved the rest for a future salad). Serve immediately."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Blvd Tavern in Kansas City.",
+   "Make it dairy free/vegan: You could probably replace the feta with additional olives."
+  ],
+  "summary": "Delicious watermelon salad recipe with fresh arugula, feta, olives and sherry vinaigrette. This surprising, sweet and savory salad is perfect for summer! Recipe yields 2 large salads (as shown) or 4 side salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 4,
+    "title": "Vinaigrette"
+   }
+  ]
  },
  "parser_version": 2
 }

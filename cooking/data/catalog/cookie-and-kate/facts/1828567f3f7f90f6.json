@@ -1,6 +1,101 @@
 {
  "url": "https://cookieandkate.com/lentil-chickpea-veggie-burgers-with-avocado-green-harissa/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Lentil-Chickpea Veggie Burgers with Avocado Green Harissa",
+  "ingredients": [
+   "1 carrot, peeled",
+   "½ medium yellow or white onion",
+   "3 garlic cloves",
+   "2 cups cooked green or brown lentils",
+   "½ cup cooked chickpeas",
+   "2 large eggs",
+   "½ cup old-fashioned rolled oats",
+   "Handful fresh cilantro or parsley leaves, optional (not shown in pictures)",
+   "1 teaspoon chili powder",
+   "1 teaspoon smoked paprika",
+   "1 teaspoon garlic chili sauce, sriracha or other hot sauce",
+   "½ teaspoon fine salt",
+   "¼ teaspoon freshly ground black pepper",
+   "*Oat flour (can be easily made from oats, see step 1) or flour of choice, for dusting",
+   "Avocado oil or extra-virgin olive oil, for the pan",
+   "1 medium to large avocado, pitted and sliced",
+   "1 cup lightly packed mint leaves (or parsley)",
+   "1 cup lightly packed cilantro leaves and stems (or parsley)",
+   "1 to 3 small jalapeños, seeds removed and coarsely chopped",
+   "2 tablespoons fresh lemon juice (about 1 small lemon)",
+   "1 garlic clove",
+   "½ teaspoon ground cumin",
+   "½ teaspoon ground coriander",
+   "½ teaspoon fine salt",
+   "3 to 4 tablespoons extra-virgin olive oil",
+   "6 buns of choice (English muffins, hamburger buns, or flatbread), toasted",
+   "Add some crunch: dill pickles, quick-pickled red onions, or thinly sliced radishes or cucumbers",
+   "Greens, like arugula or spinach, optional",
+   "Tomato slices, optional",
+   "Whatever else strikes your fancy"
+  ],
+  "yield_text": "6",
+  "cook_time": "40 minutes",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/lentil-chickpea-veggie-burgers-with-avocado-green-harissa/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "*Before you get started, will you need oat flour? If so, blend up some oats in your food processor using the S-blade. Blend until the oats have a fine, flour-like texture. Transfer the oats to a bowl for later."
+   },
+   {
+    "title": null,
+    "text": "To make the burgers: Use your food processor’s grating blade to coarsely grate the carrot. Transfer the shredded carrot to a bowl for now. Remove the grating blade and switch to the S-blade. Cut the halved onion into a few slices before adding the onion and garlic cloves to the food processor. Pulse until the onions are roughly chopped, but no more."
+   },
+   {
+    "title": null,
+    "text": "Add to the food processor: towel-dried lentils and chickpeas, eggs, oats, handful of herbs (optional), all of the spices, salt and black pepper. Process only until the mixture has the consistency of a chunky hummus (err on the conservative side here). Stir in the grated carrot."
+   },
+   {
+    "title": null,
+    "text": "To prepare the burgers: Divide the lentil mixture into 6 portions and shape them into patties about 1-inch thick (if your mixture is unmanageably wet, stir in a couple tablespoons of oat flour first). Dust the patties lightly with flour on both sides."
+   },
+   {
+    "title": null,
+    "text": "To cook the burgers: Heat a thin layer of oil in a large skillet, preferably cast iron, over medium heat. Once the oil is shimmering, cook the veggie burgers in batches. Cook until the burgers are crispy on the bottoms and the mixture holds together, about 4 ½ to 5 minutes. Flip the burgers carefully with a spatula and continue cooking until the second sides are firm and brown, about 4 ½ to 5 more minutes. Transfer the burgers to a plate, then add more oil to the pan and repeat with the remaining burgers until they are all cooked through."
+   },
+   {
+    "title": null,
+    "text": "To make the avocado green harissa: First, clean out the bowl of your food processor. Then add all of the harissa ingredients to the food processor except for the olive oil. Turn on the food processor and drizzle in the olive oil while it’s running."
+   },
+   {
+    "title": null,
+    "text": "To assemble the burgers: Toast your buns, if you’d like. Top the lower bun with a veggie burger patty, then spread a generous amount of avocado green harissa on top. Top with crunchy condiments, greens, etc. and eat!"
+   }
+  ],
+  "notes": [
+   "Veggie burgers adapted from Feast: Generous Vegetarian Meals for Any Eater and Every Appetite by Sarah Copeland. Green harissa adapted from Ashley Rodriguez via Food and Wine.",
+   "Make it gluten free: Be sure to use certified gluten-free oats/oat flour.",
+   "Storage suggestions: Sarah says to let the cooked burgers cool completely, then transfer to an air-tight container with a layer of parchment paper in between each burger. Freeze for up to a month. The harissa is best served fresh, but if you have leftover sauce, store it in a small bowl and press plastic wrap against the top to prevent oxidation. The harissa will keep for a day or two.",
+   "A note on grilling: Sarah suggests that these burgers can be grilled IF you cook them in a pan first (I think the raw patties would fall right through the grates). Once the burgers are cooked, preheat your gas/charcoal/stovetop grill on medium-high. Rub the grill plates or pan with olive oil, then grill the cooked burgers until the outsides are deeply brown, about 5 minutes. Don’t move the burgers other than flipping halfway though cooking. If you want to melt cheese on top of the burgers, add it during the last two minutes of cooking, then close the lid to help the cheese melt."
+  ],
+  "summary": "Gluten free and vegetarian lentil burgers made with chickpeas, carrots and oats. The avocado green harissa is a spicy herb mix blended with avocado! To make this recipe extra easy, use canned chickpeas and pre-steamed lentils. Just be sure to rub excess moisture off of the chickpeas and lentils with paper towels before adding them to the food processor. Recipe yields 6 burgers.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Veggie burgers"
+   },
+   {
+    "at": 15,
+    "title": "Avocado green harissa"
+   },
+   {
+    "at": 25,
+    "title": "Burger assembly"
+   }
+  ]
+ }
 }

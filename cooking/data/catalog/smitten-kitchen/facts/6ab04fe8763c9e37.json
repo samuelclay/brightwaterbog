@@ -34,7 +34,36 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2010/04/leek-bread-pudding/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Swish your leeks in a large bowl of cold water to loosen any sand or dirt; it will fall to the bottom. Scoop out and drain in a colander, then spread on a kitchen towel to pat off excess water. Place a medium sauté pan over medium-high heat and add leeks to the pan. Season with salt, and sauté until leeks begin to soften, about 5 minutes, then reduce heat to medium-low. Stir in butter. Cover and cook, stirring occasionally, until leeks are very soft, about 20 minutes. Adjust salt and pepper to taste."
+   },
+   {
+    "title": null,
+    "text": "Heat oven to 350°F. While leeks are cooking, spread bread cubes on a baking sheet and bake until dry and pale gold, about 15 minutes (my already-stale brioche took less time to brown), flipping the bread about halfway through. Transfer to a large bowl, leaving the oven on."
+   },
+   {
+    "title": null,
+    "text": "Add leeks, chives and thyme to the bowl of bread; toss well. In another large bowl, lightly whisk the egg and egg yolks, then whisk in milk or cream, 1/2 teaspoon salt, many grinds of black pepper and a few gratings of fresh nutmeg."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle 2 tablespoons shredded cheese in bottom of a buttered 9-by-5-inch loaf pan. Spread 1/2 of bread mixture in pan, and sprinkle with another 2 tablespoons cheese. Spread remaining bread mixture in pan, and sprinkle with another 1/4 cup cheese. Pour in enough milk mixture to cover bread, and gently press on bread so milk soaks in. Let rest 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add remaining milk mixture, letting some bread cubes protrude. Sprinkle with additional salt. Bake until pudding is set and top is brown and bubbling, about 55 to 65 minutes. Serve hot or cold (because I’m weird and enjoy bread pudding cold)."
+   }
+  ],
+  "notes": [
+   "I got to eat at Ad Hoc shortly after it opened when I was out in San Francisco a couple years ago and I loved it. That kind of stepped-up home cooking speaks to me, as I have a hard time summoning the effort to make something unless it’s going to taste a little better than we might expect from the dish. This recipe perfectly embodies this: caramelized leeks, layered with toasted bread, cheese and custard that could be breakfast, lunch or dinner. It’s my kind of dish.",
+   "The flavors here are subtle, but they work. Nonetheless, there’s definitely potential to increase the amount of leeks you use and increase the amount of cheese. You might also add another sautéed vegetables or some sharp parmesan as well. This is a flexible recipe.",
+   "Makes one loaf. Double the recipe to fit in a 9×13 baking dish."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

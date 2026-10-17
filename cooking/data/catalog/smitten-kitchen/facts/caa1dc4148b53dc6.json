@@ -25,7 +25,38 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2023/04/hash-brown-patties/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cook your potatoes: Place potato chunks in a pot of cold, salted water and turn the heat to high. Set your timer for 15 minutes. At the 15-minute mark, even if the water hasn’t boiled for long, check a chunk of potato. We’re looking for it to be tender enough for knife or skewer should go through it but it shouldn’t be mushy; add another minute or two if needed. Drain the potatoes and transfer to a large cutting board. Spread to cool slightly in a single layer, about 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Form the hash brown mixture: Chop the potatoes into small bits, about the size of peas. In a bowl, combine with starch and season to taste — I call for salt but you can add pepper or any other seasonings you like in your hash browns at this point."
+   },
+   {
+    "title": null,
+    "text": "Shape the patties: Transfer back to the counter and knead in on the cutting board a few times until you can shape it into a big, thick round. Divide it into 4 wedges for the generously-sized patties you see here, or 6 for smaller ones. Use your hands to form each wedge into a round, and then flatten it about 1/2-inch-thick and form shape you want against the board — either a round patty or you can nudge it into more of a rounded rectangle, as I do here. Repeat with remaining wedges."
+   },
+   {
+    "title": null,
+    "text": "Fry the patties: Heat a medium-sized, heavy frying pan over high heat with enough oil to go most of the way up the sides of the patties. [In my photo, I’ve fully submerged them in oil, i.e. deep-frying them, but shallow-frying will work too.] When the oil reaches 350°F to 360°F, or a crumble of potato immediately sizzles and begins to darkens in the pan, use a thin spatula to transfer the first patty from the board, lowering it slowly in the oil. Fry until medium brown underneath, 1 to 2 minutes, spooning oil over the top of the patty for even color. Carefully turn it over and fry until the second side of the patty is also nicely browned, another 1 to 2 minutes. Lift out of the oil, shaking excess droplets back into the pan, and transfer to paper towels to drain. Sprinkle immediately with salt."
+   },
+   {
+    "title": null,
+    "text": "Repeat with remaining patties. If your pan is big enough, go ahead and fry two at a time. [I use a smaller one so I need less oil.]"
+   },
+   {
+    "title": null,
+    "text": "To finish: Eat right away, as is, or topped with a fried egg or salad-y avocado toast and a soft-cooked egg, as shown above. Leftover patties can be frozen. From the freezer, reheat on a tray in a 400-degree oven for 20 minutes, flipping once. From the fridge, 10 to 15 minutes should be sufficient."
+   }
+  ],
+  "notes": [
+   "[Shown in these photos is a 1.5-pound batch, making 6 large patties. This recipe is easily scaled up and down, as needed.]"
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

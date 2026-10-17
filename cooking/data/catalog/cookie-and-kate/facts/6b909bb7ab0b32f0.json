@@ -33,7 +33,58 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/best-red-chilaquiles-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the sauce: Measure the flour, chili powder, cumin, garlic powder, oregano, salt and cinnamon into a small bowl. Place the bowl near the stove with the tomato paste and broth."
+   },
+   {
+    "title": null,
+    "text": "In a large skillet over medium heat, warm the oil until it’s it’s hot enough that a light sprinkle of the flour/spice mixture sizzles on contact. This might take a couple of minutes. Keep an eye on it."
+   },
+   {
+    "title": null,
+    "text": "Once it’s ready, pour in the flour and spice mixture. While whisking constantly, cook until fragrant and slightly deepened in color, about 1 minute. Whisk the tomato paste into the mixture, then slowly pour in the broth while whisking constantly to remove any lumps."
+   },
+   {
+    "title": null,
+    "text": "Raise heat to medium-high and bring the mixture to a simmer, then reduce heat as necessary to maintain a gentle simmer. Cook, whisking often, for about 5 to 7 minutes, until the sauce has thickened a bit and your spoon encounters some resistance as you stir it."
+   },
+   {
+    "title": null,
+    "text": "Reduce the heat to the lowest possible setting. Whisk in the cilantro and vinegar and season to taste with additional salt, if necessary (I usually add another pinch or two)."
+   },
+   {
+    "title": null,
+    "text": "To make the chilaquiles: Add the tortilla chips to the skillet. Using a flexible spatula, gently toss until all of the chips are coated in sauce. It might seem like they never will be, but keep stirring!"
+   },
+   {
+    "title": null,
+    "text": "Once coated, remove the skillet from the heat. Test a chip to see if it has softened to your liking (this is really a matter of personal preference—I like my chips lightly tender). If the chips are not sufficiently softened, cover the skillet for 1 to 4 minutes, until you’re happy with their texture."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle the chilaquiles generously with crumbled cheese, radish and cilantro leaves. Scoop servings onto individual plates, add a few slices of avocado, a fried egg if desired, and a wedge of lime. The chips will continue softening with time, so chilaquiles are best served promptly (do not re-cover the pan to preserve heat; the chips will get far too soggy)."
+   }
+  ],
+  "notes": [
+   "On leftovers: Chilaquiles are best enjoyed shortly after making, since the chips continue to soften with time. So, I wouldn’t plan to have leftovers. You can cut the recipe in half to yield 2 servings, if desired (use a 10″ skillet).",
+   "Make it gluten free: Be sure to choose certified gluten-free tortilla chips, or make your own chips with gluten-free corn tortillas. Use gluten-free all-purpose flour in the sauce.",
+   "Make it dairy free: Easy! Omit the cheese, and top servings with a generous dollop of cashew sour cream.",
+   "Make it vegan: Omit the cheese, and top servings with a generous dollop of cashew sour cream. Don’t top your chilaquiles with eggs. For extra protein, serve with refried beans on the side."
+  ],
+  "summary": "Make the best red chilaquiles with this foolproof recipe! Chilaquiles are a classic Mexican dish of tortilla chips soaked in flavorful sauce—in this case, red sauce. This recipe comes together quickly and is best served hot, so be sure to have every ingredient ready before you start cooking. Recipe yields 4 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Red Sauce (yields 2 cups)"
+   },
+   {
+    "at": 12,
+    "title": "Everything Else"
+   }
+  ]
  },
  "parser_version": 2
 }

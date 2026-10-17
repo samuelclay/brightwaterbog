@@ -1,6 +1,60 @@
 {
  "url": "https://cookieandkate.com/coconut-pancakes-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Coconut Pancakes",
+  "ingredients": [
+   "1 cup whole wheat pastry flour or whole wheat flour",
+   "2 tablespoons unsweetened shredded coconut",
+   "1 tablespoon sugar",
+   "2 teaspoons baking powder",
+   "¼ teaspoon salt",
+   "1 cup light coconut milk or 1 cup fresh coconut water from a mature coconut",
+   "1 egg",
+   "1 ½ tablespoons melted coconut oil or butter"
+  ],
+  "yield_text": "2",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/coconut-pancakes-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, mix together the dry ingredients (flour, shredded coconut, sugar, baking powder and salt)."
+   },
+   {
+    "title": null,
+    "text": "In a separate bowl, whisk together the liquid ingredients (coconut milk, egg and oil). If the coconut oil solidifies in contact with cold ingredients, let it warm up to room temperature for a few minutes, or microwave briefly in 30-second intervals until it melts and you can whisk it into the rest."
+   },
+   {
+    "title": null,
+    "text": "Pour the wet ingredients into the dry and stir until combined (a few lumps are ok). If you’ll be using an electric skillet, heat it to 350 degrees Fahrenheit. Otherwise, heat a heavy cast iron skillet or nonstick griddle over medium-low heat. You’re ready to start cooking your pancakes once the surface of the pan is hot enough that a drop of water sizzles on contact."
+   },
+   {
+    "title": null,
+    "text": "If necessary, lightly oil the cooking surface with additional oil or cooking spray (I don’t oil the surface of my non-stick griddle and my pancakes turned out great)."
+   },
+   {
+    "title": null,
+    "text": "Using a ¼-cup measure, scoop the batter onto the warm skillet. Cook for 2 to 3 minutes until small bubbles form on the surface of the pancakes (you’ll know it’s ready to flip when about ½-inch of the perimeter is matte instead of glossy), and flip. Cook on the opposite sides for 1 to 2 minutes, or until lightly golden brown."
+   },
+   {
+    "title": null,
+    "text": "Repeat the process with the remaining batter, adding more oil as needed. You may need to adjust the heat up or down at this point. Serve the pancakes immediately or keep warm in a 200 degree Fahrenheit oven."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from À La Graham.",
+   "Suggested toppings: Real maple syrup, or a spoonful of fruit compote would be lovely as well. I used regular honey, but it overpowered the coconut flavor. If you have extra coconut milk, try Tonya’s suggestion and mix it with honey in a one-to-one ratio with honey to make coconut honey. Sprinkle extra coconut flakes and top with fresh fruit for a stunning presentation."
+  ],
+  "summary": "This wholesome coconut pancakes recipe is made with whole wheat flour, coconut milk or fresh coconut water, and unsweetened coconut flakes. Recipe serves 2 hungry people (makes about eight 4-inch wide pancakes).",
+  "ingredient_groups": []
+ }
 }

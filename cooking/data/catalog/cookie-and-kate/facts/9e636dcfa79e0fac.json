@@ -1,6 +1,56 @@
 {
  "url": "https://cookieandkate.com/arrabbiata-sauce-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Arrabbiata Sauce",
+  "ingredients": [
+   "1 large can (28 ounces) whole peeled tomatoes*",
+   "4 large cloves garlic, peeled but left whole",
+   "2 tablespoons extra-virgin olive oil",
+   "¼ teaspoon red pepper flakes, more to taste, or 2 small red chili peppers**, seeds and ribs removed and finely chopped",
+   "Salt, to taste (if necessary)",
+   "For garnish, optional: Chopped fresh flat-leaf parsley and grated pecorino romano or Parmesan cheese"
+  ],
+  "yield_text": "2 cups",
+  "cook_time": "50 minutes",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/arrabbiata-sauce-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium, heavy-bottomed saucepan, combine the tomatoes (with their juices), garlic cloves, olive oil and red pepper flakes."
+   },
+   {
+    "title": null,
+    "text": "Bring the sauce to a simmer over medium-high heat, then lower the heat to keep it at a slow, steady simmer for about 45 minutes or until droplets of oil float free of the tomatoes. Stir occasionally, and use a sturdy wooden spoon to crush the tomatoes against the side of the pot after the sauce has cooked for about 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from the heat. Smash the garlic cloves against the side of the pot with a fork, then stir the smashed garlic into the sauce. Use the wooden spoon to crush the tomatoes to your liking (you can blend this sauce smooth with an immersion blender or stand blender, if desired)."
+   },
+   {
+    "title": null,
+    "text": "Add salt, to taste (the tomatoes are already pretty salty, so you might just need a tiny pinch). If you’d prefer spicier sauce, add more pepper flakes, to taste (keep in mind that the sauce will become more spicy with time)."
+   },
+   {
+    "title": null,
+    "text": "Stir into hot, cooked pasta. If desired, garnish bowls with an extra sprinkle of pepper flakes. This sauce keeps well covered and refrigerated for up to 5 days. Freeze it for up to 6 months."
+   }
+  ],
+  "notes": [
+   "*Tomato recommendation: San Marzana tomatoes or Muir Glen brand yield the best sauce.",
+   "**Fresh chili pepper options: Traditional Italian recipes use peperone friariello peppers, which I’ve not been able to find locally. While untraditional, Fresno peppers work well and taste very fresh. Jarred calabrian peppers work, too, and lend a slightly smoky undertone."
+  ],
+  "summary": "This arrabbiata sauce tastes like spicy marinara sauce and offers authentic Italian flavor. Serve it over penne or similarly shaped pasta. Recipe yields 2 cups sauce (enough for 8 to 16 ounces cooked pasta, depending on how saucy you like it); double if desired.",
+  "ingredient_groups": []
+ }
 }

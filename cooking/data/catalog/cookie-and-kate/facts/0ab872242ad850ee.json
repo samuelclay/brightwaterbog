@@ -26,7 +26,54 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/whole-wheat-pancakes-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a 2-cup liquid measuring cup, combine the milk and vinegar. Stir to combine and let this homemade “buttermilk” mixture rest until it is lightly curdled, at least 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "In a medium bowl, whisk together the flour, baking powder, baking soda, salt and cinnamon."
+   },
+   {
+    "title": null,
+    "text": "To the buttermilk mixture, add the egg, melted butter, maple syrup, and vanilla. Whisk until thoroughly blended."
+   },
+   {
+    "title": null,
+    "text": "Pour the liquid mixture into the flour mixture. Stir just until combined (a few small lumps are okay). Let the batter rest for 5 minutes so your pancakes will be nice and fluffy."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, if you are using an electric skillet, preheat it to 375 degrees Fahrenheit. Otherwise, heat a heavy cast iron skillet or nonstick griddle over medium-low heat. You’re ready to start cooking pancakes once a drop of water sizzles on contact with the hot surface. If necessary, lightly oil the cooking surface with additional butter, oil, or cooking spray (nonstick surfaces likely won’t require any oil)."
+   },
+   {
+    "title": null,
+    "text": "Gently stir the batter one last time, in case the liquid has separated. Using a ⅓-cup measuring cup, scoop batter onto the warm skillet, leaving a couple of inches around each pancake for expansion."
+   },
+   {
+    "title": null,
+    "text": "Cook until small bubbles form on the surface of the pancakes, 2 to 3 minutes (you’ll know it’s ready to flip when about ½-inch of the perimeter is matte instead of glossy). Flip the pancakes, then cook until lightly golden on both sides, 1 to 2 minutes more."
+   },
+   {
+    "title": null,
+    "text": "Repeat the process with the remaining batter, adding more oil and adjusting the heat as necessary. Serve the pancakes immediately with toppings of your choosing, or keep them warm in a 200 degree Fahrenheit oven."
+   },
+   {
+    "title": null,
+    "text": "Leftover pancakes can be stored in the refrigerator for up to 3 days, or frozen* for up to 2 months. To reheat, stack leftover pancakes and wrap them in a paper towel before gently reheating in the microwave."
+   }
+  ],
+  "notes": [
+   "*To thaw frozen pancakes: The microwave works best. Stack up to 4 pancakes on top of each other, wrap in a paper towel, and microwave just until they are heated through the middle, 1 to 2 minutes. Don’t overdo it, or you’ll end up with tough pancakes.",
+   "Make it gluten free: Substitute certified gluten-free oat flour for the wheat flour and let the batter rest for 5 extra minutes.",
+   "Make it dairy free: Use nondairy milk and olive oil instead of butter.",
+   "Make it vegan: Use nondairy milk, replace the egg with 1 tablespoon ground flaxseed, and use olive oil instead of butter.",
+   "Make it egg free: Replace the egg with 1 tablespoon ground flaxseed."
+  ],
+  "summary": "These whole wheat pancakes are delicious and fluffy, with a hint of cinnamon. They’re naturally sweetened with maple syrup instead of sugar. I like to serve mine with almond butter and sliced bananas on top. This recipe yields 6 to 7 medium pancakes, enough for 2 to 3 servings (multiply as necessary).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

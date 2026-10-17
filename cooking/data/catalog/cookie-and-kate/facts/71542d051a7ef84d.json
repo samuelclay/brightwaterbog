@@ -1,6 +1,75 @@
 {
  "url": "https://cookieandkate.com/pear-cranberry-crisp/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Pear Crisp",
+  "ingredients": [
+   "4 large Bartlett pears (about 2 pounds), peeled, cored and sliced into small bite-sized pieces",
+   "1 cup fresh or frozen cranberries (optional)",
+   "⅓ cup honey",
+   "3 tablespoons arrowroot starch or cornstarch",
+   "1 tablespoon lemon juice",
+   "½ teaspoon ground ginger",
+   "¼ teaspoon cinnamon",
+   "1 cup old-fashioned oats (certified gluten-free if necessary)",
+   "½ cup packed almond flour",
+   "½ cup chopped walnuts or pecans",
+   "⅓ cup packed coconut sugar or brown sugar",
+   "¼ teaspoon fine salt",
+   "4 tablespoons butter",
+   "3 tablespoons plain yogurt (Greek or regular)"
+  ],
+  "yield_text": "6 to 8",
+  "cook_time": "1 hour 10 minutes",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pear-cranberry-crisp/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit. In a 9-inch square baking dish, mix together the pears, cranberries (if using), honey, starch, lemon juice, ginger and cinnamon."
+   },
+   {
+    "title": null,
+    "text": "Optional: Brown the butter for a more complex flavor. Melt the butter in a small saucepan over medium heat. Swirl the pan by the handle often so the butter doesn’t splatter. Continue to heat the butter, swirling frequently, until you see little brown flecks in the bottom of the pan (this will take about three minutes)."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, stir together the oats, almond meal or flour, walnuts, brown sugar and salt. Mix in the Greek yogurt and browned butter (or melted butter). Stir until all of the flour is incorporated and the mixture is moistened throughout."
+   },
+   {
+    "title": null,
+    "text": "Dollop spoonfuls of the oat mixture over the filling and use your fingers to break up the mixture until it is evenly distributed (no need to pack it down)."
+   },
+   {
+    "title": null,
+    "text": "Bake until the filling is bubbling around the edges, the top is turning lightly golden and most of the cranberries have burst, 40 to 45 minutes. Let the crisp rest for 5 to 10 minutes before serving. Serve with vanilla ice cream, I insist."
+   }
+  ],
+  "notes": [
+   "Adapted from Minimalist Baker’s gluten-free strawberry nectarine crisp and my strawberry rhubarb crisp.",
+   "Make it nut free: Omit the walnuts and use ¾ cup whole wheat flour and ¾ cup oats instead of the almond meal and oats specified above. It will no longer be gluten free. If you want to keep it gluten free, I suspect that you could replace the almond meal with oat flour or more oats (haven’t tried that, please comment if you do!).",
+   "Make it dairy free/vegan: You could use melted coconut oil in place of the browned butter/yogurt (use 4 tablespoons coconut oil and add up to 3 more, until the topping mixture is moistened throughout) and maple syrup instead of the honey.",
+   "What’s arrowroot starch? Arrowroot starch is a great thickener to use in place of corn starch, which is often genetically modified. It’s gluten free, too. Look for it in the baking section of well-stocked grocery stores or buy it online."
+  ],
+  "summary": "This recipe features honey-sweetened pears and cranberries with a gluten-free oat and almond meal topping. Omit the cranberries for a lovely pear crisp. This simple dessert is perfect for Thanksgiving, Christmas, or any cold day!",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Pear cranberry filling"
+   },
+   {
+    "at": 7,
+    "title": "Gluten-free walnut, oat and almond meal topping"
+   }
+  ]
+ }
 }

@@ -1,6 +1,68 @@
 {
  "url": "https://cookieandkate.com/best-queso-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "The Best Queso",
+  "ingredients": [
+   "2 tablespoons unsalted butter",
+   "1 medium jalapeño or 2 tablespoons drained jarred jalapeños (both optional)",
+   "1 small-to-medium red onion, chopped",
+   "½ teaspoon fine salt, divided",
+   "3 cloves garlic, pressed or minced",
+   "¾ cup whole milk, more to thin if desired",
+   "8 ounces cream cheese, cut into 1-inch cubes",
+   "8 ounces mild cheddar cheese, shredded (about 2 cups)",
+   "8 ounces Monterey Jack or pepper jack cheese, shredded (about 2 cups)",
+   "1 cup quartered cherry tomatoes, diced ripe tomatoes or canned drained diced tomatoes",
+   "Several dashes of your favorite hot sauce, such as Cholula",
+   "2 tablespoons chopped cilantro",
+   "Tortilla chips or warmed tortillas, for serving"
+  ],
+  "yield_text": "8 servings",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Dip"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-queso-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Before you get started, be sure that all of your ingredients are prepared and ready to go near the stove. The optional jalapeño adds some flavor and some heat. If using a fresh pepper, remove the seeds and ribs, then finely chop. For jarred jalapeños, just finely chop them."
+   },
+   {
+    "title": null,
+    "text": "Melt the butter in a small-to-medium Dutch oven or large, deep skillet. Add the onion, jalapeño (if using), and ¼ teaspoon of the salt. Cook, while stirring often, until the onions are tender and translucent, about 4 to 5 minutes. Add the garlic and cook until fragrant while stirring, about 30 seconds."
+   },
+   {
+    "title": null,
+    "text": "Add the milk and cream cheese to the pot. Stir until the cream cheese has melted into the mixture (it should be mostly smooth), about 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Reduce the heat to low and start adding the cheese in medium handfuls, stirring after each one. Once the cheese has melted completely into the mixture, add the next handful, and so on until you have added all of the cheese."
+   },
+   {
+    "title": null,
+    "text": "Stir in the tomatoes, hot sauce, cilantro, and remaining ¼ teaspoon salt. Gently stir until the mixture is combined and the dip is smooth and creamy (if the mixture seems gloppy at all, you may actually need to increase the heat a bit here). If desired, thin the queso with up to ½ cup additional milk in ¼-cup increments, stirring after each until it is fully incorporated."
+   },
+   {
+    "title": null,
+    "text": "Promptly remove the mixture from the heat (don’t leave the queso on the stove, or it may overcook). Serve while hot. Garnishes are optional, but I like to add some additional cilantro leaves and a scattering of additional tomatoes."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Isabel Eats.",
+   "Serving and storage suggestions: The queso will develop a bit of a “skin” over time, with minimal impact to the overall texture. You can gently reheat queso on the stove or in the microwave as needed, being careful not to overheat it. Leftovers keep well in the refrigerator, covered, for up to 5 days. Gently reheat before serving.",
+   "Dairy note: Sorry, this queso cannot be made dairy free (try my Creamy Vegan Queso instead!). You can, however, reduce the dairy products somewhat by using a thick, plain, unsweetened non-dairy milk. I’ve successfully made this recipe with Forager’s brand cashew milk."
+  ],
+  "summary": "Make this queso recipe! This Mexican dip is cheesy, creamy and full of fresh flavor. It’s surprisingly easy to make and utterly irresistible. Recipe yields about 4 ½ cups, enough for 8 servings (the recipe is easily halved).",
+  "ingredient_groups": []
+ }
 }

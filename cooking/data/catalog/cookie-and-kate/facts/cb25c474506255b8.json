@@ -21,7 +21,32 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/shredded-brussels-sprouts-arugula-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the Brussels sprouts, first cut off the nubby ends and discard any discolored outer leaves. Then, carefully shred the sprouts with a sharp knife by hand, then roughly chop them for good measure. Or shred them in your food processor using the slicing disk. Place the arugula and shredded Brussels in a large serving bowl, and set it aside."
+   },
+   {
+    "title": null,
+    "text": "Toast the pecans in a large skillet over medium heat, stirring often, until they’re fragrant and starting to toast on the edges, about 4 to 6 minutes. If using pecan halves, transfer them to a cutting board and chop before adding them to the bowl."
+   },
+   {
+    "title": null,
+    "text": "Add the chopped cherries and goat cheese to the bowl. If you’ll be serving the salad promptly, drizzle about two-thirds of it over the salad. Toss gently to combine. You might want to add a little more, but I’ll leave that up to you."
+   },
+   {
+    "title": null,
+    "text": "Once dressed, this salad will keep well in the refrigerator, covered, for about two days. For more longevity, store the salad dressing separately and toss individual salads with dressing just before serving (the salad will keep for about 5 days that way)."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by salads offered at The Mixx and Parkway in Kansas City.",
+   "Make it dairy free/vegan: I haven’t tried this, but I believe this salad would be awesome with my creamy tahini dressing. Skip the goat cheese.",
+   "Make it nut free: Replace the pecans with toasted sunflower seeds or pepitas."
+  ],
+  "summary": "This shredded Brussels sprout and arugula salad is crisp, refreshing and filling. Enjoy this simple recipe for dinner, pack it for lunch tomorrow, make it for the holidays! Recipe yields 4 large portions or 6 to 8 side salads.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

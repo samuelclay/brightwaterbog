@@ -1,6 +1,47 @@
 {
  "url": "https://cookieandkate.com/simple-greek-avocado-sandwich/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Simple Greek Avocado Sandwich",
+  "ingredients": [
+   "2 slices soft whole wheat bread",
+   "½ avocado",
+   "1 tablespoon basil pesto",
+   "roasted red bell pepper (jarred is fine)",
+   "cucumber, sliced into thin rounds",
+   "thinly sliced red onion",
+   "6 pitted kalamata olives, thinly sliced",
+   "handful spring mix",
+   "balsamic reduction or regular balsamic vinegar"
+  ],
+  "yield_text": "1",
+  "cook_time": "10 minutes",
+  "categories": [
+   "Sandwich"
+  ],
+  "cuisines": [
+   "Greek"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/simple-greek-avocado-sandwich/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Pit and peel the avocado half and mash it with a fork. Use a butter knife to spread avocado on one slice of bread. Spread a layer of pesto on the other slice of bread."
+   },
+   {
+    "title": null,
+    "text": "Top the avocado bread with a single layer of roasted red bell pepper. Then add a layer of cucumber slices, red onion, olives and spring mix. Use a spoon to sprinkle some balsamic reduction over the lettuce. Place the pesto slice on top, pesto side down."
+   }
+  ],
+  "notes": [
+   "Make it vegan: See basil pesto recipe notes on how to make the pesto vegan. This recipe is otherwise vegan.",
+   "Make it gluten free: Use your favorite gluten-free sandwich bread."
+  ],
+  "summary": "My favorite Greek salad ingredients sandwiched between layers of bread smothered with avocado and pesto. A quick, satisfying vegetarian lunch (vegan if you use cheese-free pesto). Recipe yields 1 sandwich so multiply as necessary.",
+  "ingredient_groups": []
+ }
 }

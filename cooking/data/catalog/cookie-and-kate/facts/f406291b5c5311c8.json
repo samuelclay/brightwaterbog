@@ -1,6 +1,70 @@
 {
  "url": "https://cookieandkate.com/blueberry-scones/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Blueberry Scones",
+  "ingredients": [
+   "2 cups (240 grams) white whole wheat flour, regular whole wheat flour or all-purpose flour",
+   "1 tablespoon baking powder",
+   "¼ teaspoon fine salt",
+   "¼ cup granulated sugar",
+   "Zest from 1 large lemon (about 1 tablespoon + 1 teaspoon)",
+   "8 tablespoons cold unsalted butter",
+   "1 ½ cups blueberries (7.5 ounces fresh or frozen)",
+   "½ cup plain whole-milk Greek yogurt",
+   "¼ cup milk of choice or half-and-half",
+   "Optional: 1 teaspoon turbinado sugar (raw sugar) for sprinkling on top"
+  ],
+  "yield_text": "8 to 16",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/blueberry-scones/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 375 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper."
+   },
+   {
+    "title": null,
+    "text": "In a mixing bowl, combine the flour, baking powder and salt. Whisk gently until combined."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl, combine the sugar and lemon zest. Use your fingers to rub the zest into the sugar (this extracts more flavor from the lemon). Then, pour the mixture into the other dry ingredients and whisk to combine."
+   },
+   {
+    "title": null,
+    "text": "Slice the butter into ¼-inch thick pieces and gently drop them into the dry ingredients, stirring occasionally so the butter doesn’t stick to itself. If you have a pastry cutter, cut the butter into the flour until the butter is pea-sized or smaller. If you don’t have a pastry cutter, grate the butter on the large holes of a cheese grater and stir it into the flour, stirring as you grate so the butter doesn’t clump."
+   },
+   {
+    "title": null,
+    "text": "Add the blueberries and gently stir to combine. (You can use frozen blueberries; no thawing is necessary, but stir in 1 teaspoon additional flour to help prevent their color from streaking into the dough)."
+   },
+   {
+    "title": null,
+    "text": "Gently mix in the yogurt and milk. The mixture will look dry, but that’s ok! Dump the dough onto a clean work surface and gently knead in the last of the flour."
+   },
+   {
+    "title": null,
+    "text": "For full-sized scones, form the dough into a circle about an inch deep all around. For mini scones, divide the dough in half and shape each half into rounds about one inch deep all around. Sprinkle the sugar evenly over the dough. Use a sharp chef’s knife to slice the round(s) into 8 even wedges. Separate the slices and place them on the prepared baking sheet, leaving several inches around each scone."
+   },
+   {
+    "title": null,
+    "text": "For full-sized scones, bake for 21 to 24 minutes or until light brown. For mini scones, bake for 18 to 20 minutes or until light brown. Enjoy them warm, or let them rest to allow the flavors to develop. Leftover scones keep well for up to 3 days at room temperature or up to 6 months in the freezer."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my older recipe called Blueberry Lemon Scones, which I’ve deleted since this one is superior. Here is a PDF of the old recipe.",
+   "Change it up: You can omit the lemon zest if you don’t appreciate lemon flavor. Or, try a different variety of citrus, like orange would be lovely. You can substitute other berries, like raspberries or sliced strawberries, or omit the berries altogether for a base scone recipe."
+  ],
+  "summary": "These blueberry scones are the best! They’re wonderfully tender, studded with fresh blueberries, and lightly sprinkled with crunchy sugar. Recipe yields 8 standard scones or 16 mini scones.",
+  "ingredient_groups": []
+ }
 }

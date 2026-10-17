@@ -19,7 +19,27 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/cucumber-mojito-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a tall, sturdy glass, muddle the cucumber, mint and sugar until the cucumber offers no more resistance."
+   },
+   {
+    "title": null,
+    "text": "Fill the glass with ice, then pour in the lime juice and rum. Top off with club soda and stir. Serve with a thick straw."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my cucumber mint gimlet and Rainier cherry mojito."
+  ],
+  "summary": "Learn how to make a super refreshing mojito with muddled cucumber! You’ll love this light summer cocktail made with mint, cucumber, rum, club soda and lime.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per mojito"
+   }
+  ]
  },
  "parser_version": 2
 }

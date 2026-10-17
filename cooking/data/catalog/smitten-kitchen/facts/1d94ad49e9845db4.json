@@ -15,7 +15,10 @@
    "Asparagus",
    "1 tablespoon olive oil",
    "1 pounds asparagus spears, tough ends trimmed or peeled",
-   "Salt and freshly ground black pepper"
+   "Salt and freshly ground black pepper",
+   "Squeeze of lemon juice",
+   "Drizzle of olive oil",
+   "Coarse sea salt"
   ],
   "yield_text": "",
   "cook_time": null,
@@ -29,7 +32,41 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2012/06/asparagus-with-almonds-and-yogurt-dressing/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Hard-boil your eggs according to your favorite method. I like to put my eggs cold in a pot of water and bring it to a boil over high heat. Once it comes to a boil, I set the timer for 10 minutes and reduce the heat to a moderate simmer. When the timer goes off, I drain them and plunge them in ice water for a quick cooling. While they cool, toast your almonds. [If you have time, cook the eggs 24 hours or more in advance. Older hard-boiled eggs peel more cleanly.]"
+   },
+   {
+    "title": null,
+    "text": "In a 12-inch heavy skillet, toast your almonds over medium heat, tossing them frequently until they’re lightly bronzed. [Marcona almonds often come already toasted and in a bit of olive oil. If you’re happy with their color, use them as is. If not, you can put the almonds and oil in the skillet to toast them more deeply, as I did.] Let cool."
+   },
+   {
+    "title": null,
+    "text": "Once eggs and almonds are cool, coarsely chop both and set aside."
+   },
+   {
+    "title": null,
+    "text": "Make your yogurt dressing, whisking all of the ingredients in a small bowl. Adjust seasonings to taste. Spread 1/2 cup dressing in a thin layer over serving dish and set aside."
+   },
+   {
+    "title": null,
+    "text": "Reheat heavy 12-inch skillet over medium high heat. Add oil, and once the oil is fully heated, add your trimmed asparagus spears — placing half in one direction and half in the other allows them to fit better. They won’t fit flat in a single layer, but you should try to spread them as evenly as possible. Cover the skillet with a lid (foil if you don’t have one that fits) and let skinny spears cook for 3 minutes and fatter ones for 5. Remove the lid, increase the heat to high, season the asparagus with salt and black pepper, and use tongs to cook the spears until they’re crisp-tender and well-browned along a side or two, about 5 minutes more for skinny spears or 7 minutes for thicker ones."
+   },
+   {
+    "title": null,
+    "text": "Transfer asparagus to dressing-coated serving dish. Sprinkle spears with an additional squeeze of lemon juice, if desired, a tiny drizzle of olive oil, chopped almonds, eggs and a bit of coarse sea salt. Dollop with additional yogurt dressing. Then dig in."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": [
+   {
+    "at": 12,
+    "title": "To serve"
+   }
+  ]
  },
  "parser_version": 4
 }

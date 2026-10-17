@@ -35,7 +35,36 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2014/08/smoky-eggplant-dip/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 375°F. Brush a baking sheet or roasting pan with 1 tablespoon olive oil, and sprinkle with 1 teaspoon salt. Prick eggplants a few times with a fork or tip of a knife. Over a gas flame, grill or under a broiler, evenly char the skin of your eggplants. I like mine quite smoky and like to leave no purple visible. Transfer to a cutting board, and when cool enough to handle, trim off stem and cut lengthwise. Place cut side down on prepared baking sheet and roast for 30 to 35 minutes, until very, very tender when pressed. Let cool to room temperature."
+   },
+   {
+    "title": null,
+    "text": "In a blender or food processor: Scrape eggplant flesh from skin and into the work bowl. Add tahini, garlic, lemon, cayenne, cumin and 1 tablespoon parsley. Blend in short bursts (pulses) until combined but still coarsely chopped."
+   },
+   {
+    "title": null,
+    "text": "By hand: Scrape eggplant flesh from skin and onto a cutting board. Finely chop the eggplant, leaving some bits closer to pea-sized. In a bowl, whisk together tahini, garlic, lemon, cayenne, cumin and half the parsley. Add chopped eggplant and stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Both methods: Taste and adjust ingredients if needed. I usually need more salt and lemon."
+   },
+   {
+    "title": null,
+    "text": "To serve: Spoon into a bowl and drizzle with remaining tablespoon of olive oil. Scatter with second tablespoon of parsley, and some toasted sesame seeds or za’atar, if desired. Serve with pita wedges."
+   },
+   {
+    "title": null,
+    "text": "For a big delicious summer meal, you could serve this with a tomato-cucumber salad, ethereally smooth hummus and pita wedges. If you’d like to be fancy, grilled or pan-roasted lamb chops are wonderful here too. (I use this method, but just season them with salt, pepper, lemon zest and dried oregano these days. I finish them with a squeeze of lemon juice.)"
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

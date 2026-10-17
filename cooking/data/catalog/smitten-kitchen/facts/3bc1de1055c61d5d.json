@@ -34,7 +34,28 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2018/01/split-pea-soup/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "On the stove: Heat a 4 to 5-quart heavy pot over medium. Add oil, or oil and butter, and once warm, add leeks, carrots and celery. Season with salt and pepper and cook until softened and beginning to get slightly brown at edges, about 10 minutes. Add garlic and cook two minutes more. Add the dried peas and stir to coat with the vegetables, then add the vegetable stock or broth, thyme, if using, and bay leaf. Increase the heat to bring the mixture to a simmer, then reduce to a low simmer and cook, partially covered, until peas have softened, 50 to 60 minutes. Remove thyme sprigs (most of the leaves will have fallen off) and bay leaf and season very well with salt and black pepper."
+   },
+   {
+    "title": null,
+    "text": "In an InstantPot or electric pressure cooker: Set your pot to sauté and cook the vegetables as written above. Once you’ve added the stock, dried peas, and herbs, cook the mixture under high pressure for 15 minutes and then let it naturally release for at least 5 minutes manually releasing it the rest of the way. Remove thyme sprigs (most of the leaves will have fallen off) and bay leaf and season very well with salt and black pepper."
+   },
+   {
+    "title": null,
+    "text": "Both methods: I do not puree this soup, but you can at this point with an immersion blender, either all or just halfway. Ladle soup into bowls and finish with garnishes of your choice."
+   }
+  ],
+  "notes": [
+   "Do ahead: Split pea soup keeps fantastically in the fridge or freezer but, just to warn you, it looks crazy thick once it has chilled. It should loosen as you rewarm it, but if it doesn’t enough to your liking, add another splash of broth or water as needed.",
+   "If you miss the ham, you can add about 1 to 2 cups of diced cooked ham in the beginning and brown it up with vegetables.",
+   "I make a quick and hasty herb sauce by blending 1 large or 2 small, peeled garlic clove(s) and a couple handfuls of fresh flat-leaf parsley leaves (or a mix of herbs, such as mint and/or cilantro, that you’d like here) with the finely grated zest of half a lemon, salt, and red pepper flakes until well chopped and then drizzling in olive oil with the machine running until the mixture becomes saucy. Season with more salt and pepper. This sauce keeps in the fridge for a week and is also great on roasted potatoes, squash or even fried eggs."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

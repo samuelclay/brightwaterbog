@@ -1,6 +1,56 @@
 {
  "url": "https://cookieandkate.com/watermelon-popsicles/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Watermelon Popsicles",
+  "ingredients": [
+   "1 medium seedless watermelon",
+   "Optional, for serving: wedges of lime and/or chili-lime seasoning"
+  ],
+  "yield_text": "Varies",
+  "cook_time": "15 minutes (plus 4 hours freezing time)",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "N/A"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/watermelon-popsicles/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Using a sharp chef’s knife, cut off the stem end and the opposite end. Turn the watermelon so that it stands upright on a flat side. Cut it in half down the middle. Place one half against the cutting board with the flat side facing down."
+   },
+   {
+    "title": null,
+    "text": "For cookie-cutter shapes, slice across the watermelon to make ½-inch thick slabs. Press the cookie cutter down to create shapes. Repeat with the remaining watermelon half. Insert popsicle sticks about ¾-inch into the center of the base of each shape."
+   },
+   {
+    "title": null,
+    "text": "For wedges, slice lengthwise down the middle for large wedges or make smaller wedges by slicing lengthwise one-third of the way from each side, meeting in the center. Then cut across the watermelon repeatedly to make ½-inch wide wedges. Repeat with the remaining watermelon half."
+   },
+   {
+    "title": null,
+    "text": "For long strips, slice lengthwise along the watermelon to make about 4 to 5 even segments, then slice across those segments to make ½-inch wide strips."
+   },
+   {
+    "title": null,
+    "text": "Find a tray or baking dish that will fit in your freezer. Line it with parchment paper and arrange the watermelon in a single layer, leaving space between each so they don’t stick together. If you need more room, add another layer of parchment paper on top to make a new layer. Freeze until solid, about 4 hours."
+   },
+   {
+    "title": null,
+    "text": "Transfer the popsicles to a freezer bag to store in the freezer for up to 3 months (the bag helps prevent freezer burn). Enjoy your popsicles straight from the freezer, or you might prefer to let them warm for a few minutes at room temperature so they aren’t too solid or icy (sometimes I microwave mine for 10 seconds instead). If desired, try squeezing a lime or sprinkling chili-lime seasoning on your popsicle before serving."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by a glimpse of frozen watermelon on Yummy Toddler Food’s Instagram post. She has a post on her watermelon popsicle method here.",
+   "Make traditional watermelon popsicles: Start by making watermelon juice, sweeten it with sugar or honey if desired, and pour it into popsicles molds. Freeze until solid."
+  ],
+  "summary": "Frozen watermelon is the perfect cold summer treat! Make these watermelon popsicles and enjoy them all summer long. The yield depends on the size of your watermelon; make as many or as few popsicles as you’d like.",
+  "ingredient_groups": []
+ }
 }

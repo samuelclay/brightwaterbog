@@ -23,7 +23,32 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/chipotle-salsa-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Drain off about half of the tomato juice from the can (about ⅓ cup) and discard it."
+   },
+   {
+    "title": null,
+    "text": "In a food processor, pulse the garlic to chop it more finely. Add the tomatoes and all of the remaining juice from the can. Add the onion, cilantro, jalapeño, 1 chipotle pepper, lime juice, and salt."
+   },
+   {
+    "title": null,
+    "text": "Process the mixture until it is mostly smooth and no big chunks of tomato or onion remain, scraping down the sides as necessary. Taste, and add another chipotle pepper or 2 if you prefer spicier salsa. Season to taste with additional lime juice and salt, if necessary."
+   },
+   {
+    "title": null,
+    "text": "Serve the salsa immediately or store it for later. This salsa keeps well in the refrigerator, covered, for about 10 days."
+   }
+  ],
+  "notes": [
+   "*Tomato notes: I like Muir Glen brand fire-roasted tomatoes for reliably great flavor. You can use regular diced tomatoes, but your salsa won’t have the same depth of flavor.",
+   "Can I can this salsa? This recipe has not been validated for canning safety. Please do not can this salsa.",
+   "Leftover chipotle peppers? Transfer the peppers and some of the adobo sauce to a small freezer bag. Squeeze out the air, seal it fully, and flatten the peppers in the bag. Place the bag flat in the freezer. Whenever you need chipotle peppers, tear off what you need!"
+  ],
+  "summary": "This chipotle salsa recipe is fresh and delicious, with extra depth from smoky chipotle peppers. It’s easy to make with mostly pantry ingredients! Recipe yields 2 cups; double the recipe for a big crowd.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -30,7 +30,45 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/vegan-chipotle-carrot-queso/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Warm the olive oil in a medium-sized pot over medium heat. Add the chopped carrots, onions and garlic and a dash of salt. Cook, stirring often, until the onions are translucent and the carrots are tender, around 7 to 10 minutes. Remove from heat."
+   },
+   {
+    "title": null,
+    "text": "In a blender, combine the cashews, vegetable broth and carrot-onion mixture. Add 3 tablespoons nutritional yeast, 1 tablespoon adobo sauce, ½ teaspoon cumin and ½ teaspoon salt. Puree the mixture until it is completely smooth."
+   },
+   {
+    "title": null,
+    "text": "Taste and adjust as necessary—add more nutritional yeast for more cheesy flavor and/or more adobo sauce for more heat. (I find that the heat mellows out with a short rest and that it tastes less intense on a corn chip than by the spoonful.) Season to taste with salt and black pepper and blend again."
+   },
+   {
+    "title": null,
+    "text": "Next, warm the queso, either by using the soup function on your fancy-pants blender until it’s sufficiently heated or by pouring the queso back into the pot and warming it over medium heat, stirring frequently, until warmed through."
+   },
+   {
+    "title": null,
+    "text": "Stir the drained green chilis and optional chopped jalapeños into the mixture. Pour it into a serving bowl and top with chopped cherry tomatoes, cilantro and more jalapeños, if you’d like. Dig in!"
+   }
+  ],
+  "notes": [
+   "Recipe roughly inspired by/adapted from Inspiralized: Turn Vegetables into Healthy, Creative, Satisfying Meals by Ali Maffucci.",
+   "Where to buy chipotle peppers in adobo sauce: Look for small cans of chipotle peppers in the Mexican aisle of well-stocked grocery stores or specialty Mexican groceries. (You can freeze the leftovers of the can in a small freezer-safe bag for later!) If you can’t find canned chipotles, try seasoning the queso to taste with ground chipotle powder or a smoky/roasted/chipotle-flavored hot sauce.",
+   "About those cashews: Soaking the cashews makes them easier to blend and to digest, so that’s a good option albeit a time-consuming one. My Vitamix had no trouble blending the raw cashews as-is. If you don’t have time to soak the cashews and don’t have a fancy-pants blender, try this instead: Heat the broth on the stove until it’s pretty hot and pulse the dried cashews in the blender until they resemble a fine powder (stop before they turn into cashew butter). Then, pour the broth into the blender and blend until smooth (beware of hot steam escaping from the top of the blender). Proceed by adding the carrot mixture and spices as directed."
+  ],
+  "summary": "This dairy-free, vegan queso recipe gets its authentic yellow hue and slight sweetness from carrots, its “cheesy” flavor from nutritional yeast and smoky spiciness from chipotle peppers. You can serve this queso with chips as a dip or drizzle the mixture over nachos, burritos, enchiladas or any other Mexican dish with complementary flavors! This queso turns out best in a high-powered blender, so if you’re not sure your blender is up for the job, be sure to either soak the cashews or use an alternative method (available in the recipe notes). Recipe yields 3 cups queso.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Queso"
+   },
+   {
+    "at": 11,
+    "title": "Recommended mix-ins and garnishes"
+   }
+  ]
  },
  "parser_version": 2
 }

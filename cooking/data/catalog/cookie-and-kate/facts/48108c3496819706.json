@@ -31,7 +31,61 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/roasted-cauliflower-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper for easy cleanup."
+   },
+   {
+    "title": null,
+    "text": "To prepare the cauliflower, use a chef’s knife to slice off the nubby base, then quarter it into four even wedges. Slice off just the inner core areas, leaving the rest intact (see photo). Cut across each piece to make ½″ wide slices, then use your fingers to break apart any florets that are stuck together."
+   },
+   {
+    "title": null,
+    "text": "Place the cauliflower on the prepared baking sheet, drizzle with 2 tablespoons olive oil, and sprinkle with the salt and some pepper. Toss until the ingredients are evenly distributed and the cauliflower is lightly coated in oil, adding another drizzle of oil only if necessary."
+   },
+   {
+    "title": null,
+    "text": "If you’re making basic roasted cauliflower, arrange the cauliflower in an even layer and bake until it’s deeply golden on the edges, tossing halfway, about 25 to 35 minutes."
+   },
+   {
+    "title": null,
+    "text": "If you’re making the Italian version, arrange the cauliflower in an even layer and bake for 15 minutes. Remove from the oven, toss, and then sprinkle the Parmesan over the cauliflower (try to concentrate the cheese on the actual florets, more than on the pan). Return to the oven and bake until the cauliflower is deeply golden on the edges, about 10 to 20 more minutes. Sprinkle the cauliflower with parsley, lemon zest, and red pepper flakes (if using)."
+   },
+   {
+    "title": null,
+    "text": "If you’re making the Mexican version, sprinkle the cauliflower with cumin and chili powder and toss until well blended. Arrange the cauliflower in an even layer and bake for 15 minutes. Remove from the oven, toss, and sprinkle the pepitas over the center area of the pan (if you sprinkle them too close to the edges, they might burn). Return to the oven and bake until the cauliflower is deeply golden on the edges, about 10 to 15 more minutes. Sprinkle the cauliflower with cilantro and lemon zest."
+   },
+   {
+    "title": null,
+    "text": "If you’re making the Indian version, sprinkle the cauliflower with curry powder and toss until well blended. Arrange the cauliflower in an even layer and bake until it’s deeply golden on the edges, tossing halfway, about 25 to 35 minutes. Sprinkle the cauliflower with cilantro and red pepper flakes (if using)."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Bon Appetit and my curried coconut quinoa with roasted cauliflower.",
+   "Make it dairy free/vegan: For the Italian version, omit the Parmesan or sprinkle on vegan Parmesan after baking. All the other variations are dairy free as written.",
+   "Recommended equipment: A Microplane (affiliate link) is the perfect tool for finely grating Parmesan and removing the zest from lemons and limes."
+  ],
+  "summary": "Learn how to roast cauliflower, plus three delicious variations! You’ll find Italian, Mexican and Indian-inspired versions within this roasted cauliflower recipe. Recipe yields 4 side servings of roasted cauliflower.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Basic roasted cauliflower"
+   },
+   {
+    "at": 4,
+    "title": "For the Italian version, you’ll also need"
+   },
+   {
+    "at": 8,
+    "title": "For the Mexican version, you’ll also need"
+   },
+   {
+    "at": 13,
+    "title": "For the Indian version, you’ll also need"
+   }
+  ]
  },
  "parser_version": 2
 }

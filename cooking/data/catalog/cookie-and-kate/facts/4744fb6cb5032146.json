@@ -1,6 +1,75 @@
 {
  "url": "https://cookieandkate.com/chocolate-chip-muffins/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Chocolate Chip Muffins",
+  "ingredients": [
+   "1 ¾ cups (215 grams) whole wheat pastry flour or white whole wheat flour or regular whole wheat flour or all-purpose flour",
+   "1 teaspoon baking powder",
+   "½ teaspoon baking soda",
+   "½ teaspoon fine salt",
+   "⅓ cup melted coconut oil or extra-virgin olive oil",
+   "½ cup runny honey",
+   "2 eggs, preferably at room temperature",
+   "1 cup plain Greek yogurt*",
+   "2 teaspoons vanilla extract",
+   "1 cup chocolate chips",
+   "1 teaspoon ground cinnamon",
+   "Optional: 1 tablespoon turbinado sugar (also called raw sugar), for sprinkling on top"
+  ],
+  "yield_text": "12 muffins",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Baked good"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/chocolate-chip-muffins/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 375 degrees Fahrenheit. Line the muffin cups with liners or grease them with butter, coconut oil or cooking spray."
+   },
+   {
+    "title": null,
+    "text": "In a large mixing bowl, combine the flour, baking powder, baking soda, and salt. Whisk them together."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, combine the oil and honey and beat them together with a whisk. Add the eggs and beat well, then add the yogurt and vanilla. Mix well. (If the coconut oil solidifies upon contact with the cold ingredients, gently warm the mixture in the microwave in 30-second bursts.)"
+   },
+   {
+    "title": null,
+    "text": "Pour the wet ingredients into the dry and mix with a big spoon until mostly combined (you should still see a few streaks of flour and lumps)."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl, stir the chocolate chips and cinnamon together (this prevents the chips from sinking to the bottom). Gently fold them into the batter (do not overmix, or your muffins will be tough)."
+   },
+   {
+    "title": null,
+    "text": "Divide the batter evenly between the 12 muffin cups (they will be pretty full, which is fine). Sprinkle the tops of the muffins with turbinado sugar, if using. Bake the muffins for 16 to 18 minutes, or until they are golden on top and a toothpick inserted into a muffin comes out clean, with no crumbs (streaks of chocolate are ok)."
+   },
+   {
+    "title": null,
+    "text": "Place the muffin tin on a cooling rack to cool. If you have leftover muffins, store them, covered, at room temperature for up to 3 days or in the refrigerator for up to 5 days. Freeze leftover muffins for up to 3 months."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Healthy Blueberry Muffins.",
+   "*Note on Greek yogurt: I’ve tried a variety of fat percentages, and the muffins have always turned out well. Higher fat yogurt, like whole milk yogurt, will yield a somewhat richer muffin. I’m hesitant to suggest using plain (not Greek) yogurt, because the chocolate chips might sink and your muffins might not rise as well.",
+   "Make it vegan: Use non-dairy chocolate chips such as Enjoy Life brand. Replace the yogurt with a smaller amount of homemade buttermilk—mix ⅔ cup non-dairy milk with 2 teaspoons vinegar. Let it rest for 5 minutes before adding it to the other liquid ingredients. Or, use 1 cup vegan yogurt. Replace the eggs with flax “eggs.”",
+   "Make it dairy free: See chocolate chip and buttermilk options above.",
+   "Make it egg free: Substitute flax eggs for the regular eggs.",
+   "Make it gluten free: Substitute an all-purpose gluten-free flour blend for the whole wheat flour. Bob’s Red Mill makes a gluten-free blend that works well.",
+   "Change it up: Substitute other flavored chips such as white chocolate or buttermilk, or use coated chocolate candies like M&M’s for more color."
+  ],
+  "summary": "These chocolate chip muffins are fluffy with amazing flavor! This muffin recipe is fully loaded with chocolate chips and easy to make by hand. Recipe yields 1 dozen muffins.",
+  "ingredient_groups": []
+ }
 }

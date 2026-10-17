@@ -37,7 +37,26 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2014/05/carrot-salad-with-tahini-and-crisped-chickpeas/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Roast chickpeas: Heat oven to 425 degrees F. Toss chickpeas with one tablespoon olive oil, salt and cumin until they’re all coated. Spread them on a baking sheet or pan and roast them in the oven until they’re browned and crisp. This can take anywhere from 15 to 20 minutes, depending on the size and firmness of your chickpeas. Toss them occasionally to make sure they’re toasting evenly. Set aside until needed."
+   },
+   {
+    "title": null,
+    "text": "Make dressing: Whisk all ingredients together until smooth, adding more water if needed to thin the dressing slightly. Taste and adjust seasoning; don’t worry if it tastes a little sharp on the lemon, it will marry perfectly with the sweet grated carrots."
+   },
+   {
+    "title": null,
+    "text": "Assemble salad: Place grated carrots in large bowl and toss with parsley. Mix in 2/3 of the dressing, adding more if desired. Add more salt and pepper if needed. Sprinkle with a large handful of chickpeas (you’ll have extra and if you’re like us, won’t regret it) and pistachios and dig in."
+   }
+  ],
+  "notes": [
+   "Do ahead: Salad keeps well in the fridge for two days, however, I’d add the chickpeas and pistachios right before serving, so they don’t get soft."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

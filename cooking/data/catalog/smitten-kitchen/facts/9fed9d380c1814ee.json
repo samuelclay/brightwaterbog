@@ -27,7 +27,32 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2012/08/mediterranean-baked-feta-with-tomatoes/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a bowl, mix the tomatoes, olives, onion, garlic, 1 tablespoon of the parsley, oregano, olive oil and a few grinds of pepper."
+   },
+   {
+    "title": null,
+    "text": "On a grill: Heat your grill to medium-high. Set the feta block in the middle of a piece of foil. Pile the tomato mixture on top of the feta. Fold up the edges of the foil so that it will hold in any liquid as it cooks. Place the packet straight on a grill for 15 minutes to warm it through. Remove from grill and transfer to plate or serving dish."
+   },
+   {
+    "title": null,
+    "text": "In the oven: Heat oven to 400°F. Check to see that your dish is oven-proof. (I didn’t!) Place the block of feta in the middle of your dish. Pile the tomato mixture on top of the feta. Bake for 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "Both methods: The feta will not melt, just warm and soften. Garnish with parsley and serve with crackers; eat immediately. As it cools, the feta will firm up again. We found that the dish could be returned to the oven to soften it again. We did this with leftovers, too."
+   },
+   {
+    "title": null,
+    "text": "* I made these. These days, I’ve been running a pizza wheel over the rolled-out pieces to pre-cut it into rough rectangles before baking it, like so."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -1,6 +1,44 @@
 {
  "url": "https://cookieandkate.com/cashew-milk-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Cashew Milk",
+  "ingredients": [
+   "1 cup raw cashews",
+   "4 cups water, divided*",
+   "1 to 2 tablespoons maple syrup or honey or agave nectar",
+   "2 teaspoons vanilla extract",
+   "Dash of sea salt",
+   "Pinch of cinnamon (optional)"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Beverages"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cashew-milk-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Soak the cashews in water at least 4 hours, or overnight in the refrigerator. Drain the cashews and rinse until the water runs clear. Add the cashews and two cups water to a blender. Start on a low setting and increase the speed until the cashews are totally pulverized. This could take 2 minutes in a high-powered blender or longer in a regular blender."
+   },
+   {
+    "title": null,
+    "text": "Blend in 2 cups more water*, your sweetener of choice, vanilla extract, sea salt and cinnamon (optional). If your blender can’t totally break down the cashews, strain the milk through a fine mesh strainer or cheese cloth. Store the milk in a covered container in the refrigerator for up to 4 days—stir before using."
+   }
+  ],
+  "notes": [
+   "*Water ratio: The ratio of water to cashews (4 to 1) in this recipe yields milk that is somewhere between 2% and whole milk in terms of creaminess. I think it’s just right as-is, but you can use less water for even creamier results.",
+   "Make it vegan: Use maple syrup or agave nectar, not honey."
+  ],
+  "summary": "Cashew milk is creamy and refreshing, nutritious and easy to make. You shouldn’t need to strain the mixture after blending if you have a decent blender. That means less hassle and less waste! Recipe yields about 5 cups cashew milk.",
+  "ingredient_groups": []
+ }
 }

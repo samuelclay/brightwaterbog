@@ -1,6 +1,60 @@
 {
  "url": "https://cookieandkate.com/cabbage-vegetable-soup/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Cabbage Vegetable Soup",
+  "ingredients": [
+   "¼ cup extra-virgin olive oil",
+   "1 large yellow onion, chopped (about 1 ¾ cups)",
+   "2 large carrots, chopped (about 1 ½ cups)",
+   "3 celery stalks, diced (about 1 ¼ cups)",
+   "½ teaspoon fine salt, divided",
+   "3 garlic cloves, pressed or minced",
+   "1 teaspoon dried oregano",
+   "1 small or ½ medium green cabbage, chopped (about 6 cups)",
+   "15 ounces crushed or diced tomatoes",
+   "4 cups water, more as needed",
+   "¼ cup chopped fresh flat-leaf parsley or dill",
+   "1 to 2 tablespoons lemon juice or apple cider vinegar, to taste",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "6 bowls",
+  "cook_time": "40 minutes",
+  "categories": [
+   "Soup"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cabbage-vegetable-soup/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Warm the oil in a large pot over medium heat. Add the onion, carrot, celery and ¼ teaspoon of the salt. Cook until the veggies are tender, stirring often, about 5 to 8 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the garlic, oregano, and another ¼ teaspoon salt. Cook until fragrant while stirring constantly, about 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Increase the heat to medium-high and add the cabbage. Cook for 5 minutes, while stirring frequently."
+   },
+   {
+    "title": null,
+    "text": "Pour in the water and tomatoes (add 1 more cup of water if you want a more brothy soup). Bring the mixture to a simmer and cook, uncovered, until the veggies are nicely tender, about 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from the heat and stir in the fresh herbs, 1 tablespoon lemon juice or vinegar, and about 10 twists of freshly ground pepper. Taste, and adjust as necessary—add up to 1 more tablespoon lemon juice or vinegar for more zing, another ¼ teaspoon salt for more overall flavor, or more black pepper. Serve in bowls. Leftovers keep well in the refrigerator for up to 5 days, or in the freezer for up to 6 months."
+   }
+  ],
+  "notes": [],
+  "summary": "This flavorful cabbage soup recipe is full of vegetables. Serve it as a healthy side dish on cold days. Recipe yields 6 bowls of soup.",
+  "ingredient_groups": []
+ }
 }

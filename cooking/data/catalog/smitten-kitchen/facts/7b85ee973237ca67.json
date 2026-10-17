@@ -31,7 +31,28 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2007/01/hibernation-fare/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Ingredients you might add, if you are not me: Peppers or ground beef (with the onions), fresh cilantro (stirred in at the very end)"
+   },
+   {
+    "title": null,
+    "text": "Heat vegetable oil in a large pot, adding diced onion and sauteing until browned. Add beans, tomatoes, water or stock and spices, including cocoa, all at once, letting mixture simmer for about 30 minutes, stirring occasionally. Adjust seasonings to taste."
+   },
+   {
+    "title": null,
+    "text": "Corn Bread with Cheddar, Jalapeno and Green Onions"
+   },
+   {
+    "title": null,
+    "text": "Adapted from Mark Bittman"
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

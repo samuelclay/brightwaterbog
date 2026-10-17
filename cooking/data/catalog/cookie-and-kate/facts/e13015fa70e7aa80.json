@@ -21,7 +21,34 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/lemon-rosemary-olive-oil-shortbread/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 325 degrees Fahrenheit. In a medium-sized mixing bowl, whisk together the flour, sugar, salt, rosemary and lemon zest. Pour in the olive oil and stir until all of the dry mixture is incorporated."
+   },
+   {
+    "title": null,
+    "text": "Transfer the dough to a 9-inch square baker (my porcelain one didn’t require greasing, but you might want to grease your pan first to be safe). Use your fingers to squish the dough into an even layer. Prick the surface of the dough all over with a fork (a diagonal pattern looks nice)."
+   },
+   {
+    "title": null,
+    "text": "Bake until the surface feels firm to the touch and is lightly golden around the edges (keep an eye on it), about 45 to 55 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove from oven and let the pan cool for 20 minutes (no sooner and no later!). Then, using a very sharp knife, slice the shortbread into 8 even columns and 4 even rows (cookies will be roughly 1 inch wide by 2 ½ inches long). Try to let the cookies cool some more before using a small spatula to remove them from the pan, or serve them directly from the pan."
+   }
+  ],
+  "notes": [
+   "Recipe adapted, through trial and error, from Joy of Cooking and Wendy Paul Creations.",
+   "Yields about 32 cookies.",
+   "I think a gluten-free flour blend would work well here. If you want to try using oat flour, you’ll need to use at least 3 ½ cups (or more) since oat flour weighs less by volume than whole wheat flour.",
+   "*Make your own powdered sugar: pour 1 cup sugar into a blender or food processor and blend until fine and fluffy. I used fine grain organic cane sugar.",
+   "Recipe updated 12/22: temperature reduced by 25 degrees and baking time extended to reduce browning of the olive oil. Many, many apologies to anyone whose shortbread got too toasty around the edges. 350 degrees works great if you chill the dough before baking, but 325 is best for room temperature dough."
+  ],
+  "summary": "Light and crisp, sweet and savory shortbread made with olive oil instead of butter.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

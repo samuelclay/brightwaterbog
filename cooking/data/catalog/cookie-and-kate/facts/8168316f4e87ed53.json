@@ -1,6 +1,53 @@
 {
  "url": "https://cookieandkate.com/socca/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Socca",
+  "ingredients": [
+   "1 cup (120 grams) chickpea flour",
+   "1 ¼ cups water",
+   "3 tablespoons extra-virgin olive oil, divided",
+   "1 teaspoon fine salt",
+   "10 twists of freshly ground black pepper",
+   "⅛ teaspoon ground cumin"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "French"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/socca/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Place a large, 12-inch* cast iron or stainless steel skillet on the middle rack in the oven. Preheat the oven to 475 degrees Fahrenheit."
+   },
+   {
+    "title": null,
+    "text": "While the oven preheats, make the batter. In a bowl, whisk together the chickpea flour, water, 2 tablespoons of the olive oil, salt, pepper and cumin. Set it aside until the oven is ready."
+   },
+   {
+    "title": null,
+    "text": "Carefully remove the hot skillet from the oven (wear oven mitts!). Pour the remaining tablespoon oil into the skillet, and swirl the pan to distribute it evenly. Pour in all of the batter, then return the skillet to the oven."
+   },
+   {
+    "title": null,
+    "text": "Bake for 17 to 19 minutes, until the edges are toasted and pulling away from the skillet, and the underside is golden and lacy brown. Serve the socca warm or at room temperature. Leftovers keep well in the refrigerator for up to 5 days or in the freezer for several months."
+   }
+  ],
+  "notes": [
+   "Recipe created with trial and error, with reference to David Leibovitz, The Daring Gourmet, and Pinch of Yum.",
+   "Medium skillet option: If you prefer smaller soccas or only have a 10-inch skillet, you can divide the batter in half and cook it in two batches. Use ½ tablespoon olive oil in the skillet for each batch, and bake for 12 to 15 minutes.",
+   "Creamy basil sauce: To make the herbed sauce shown in my photos, cut 1 medium clove garlic into several pieces and finely chop it in a food processor. Add 1 cup mayonnaise, 1 cup lightly packed fresh basil leaves, a scant ½ teaspoon fine salt, and plenty of freshly ground black pepper. Process until smooth."
+  ],
+  "summary": "This homemade socca turns out beautifully golden, crisp and chewy, with no waiting time required. Recipe yields one 12-inch flatbread or two thinner 10-inch flatbreads (see note).",
+  "ingredient_groups": []
+ }
 }

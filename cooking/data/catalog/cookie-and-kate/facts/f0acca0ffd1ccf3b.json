@@ -28,7 +28,51 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/sweet-potato-casserole-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper to catch the sweet potato drippings. Grease a 9-inch square baker (or any other 2-quart baker) with butter or cooking spray. Remember to leave the butter at room temperature so it has time to soften."
+   },
+   {
+    "title": null,
+    "text": "To prepare the filling: Prick each sweet potato with a fork about 5 times so steam can escape. Place the whole sweet potatoes on the prepared baking sheet and bake until they yield easily to a gentle squeeze (use oven mitts!), somewhere between 45 minutes to 1 hour 15 minutes, depending on their size. Set them aside to cool for a few minutes."
+   },
+   {
+    "title": null,
+    "text": "Reduce the oven temperature to 350 degrees. Once the potatoes are cool enough to safely handle, slice each one in half. Use a big spoon to scoop the insides into a large mixing bowl, then discard the skins."
+   },
+   {
+    "title": null,
+    "text": "Add the melted butter, milk, maple syrup, vanilla, nutmeg and salt to the bowl. Use a hand mixer to whip the ingredients together until they’re smooth and creamy (alternately, use a potato masher or stir by hand). Scoop the mixture into the prepared baker and spread it in an even layer."
+   },
+   {
+    "title": null,
+    "text": "To prepare the topping: In a medium bowl, combine the softened butter (if it’s not soft enough to stir yet, microwave it in 6 to 8 second intervals), sugar, pecans, optional rosemary, cinnamon and salt. Stir until the mixture is evenly incorporated. Dollop small forkfuls evenly all over the sweet potato filling."
+   },
+   {
+    "title": null,
+    "text": "Bake for 30 minutes, until the pecans are golden and fragrant, and the filling is sizzling around the edges and warmed all the way through. Serve. Leftovers will keep well in the refrigerator, covered, for 4 to 5 days."
+   }
+  ],
+  "notes": [
+   "Recipe roughly adapted from Marian Burros of The New York Times and The Food Network.",
+   "Make it dairy free/vegan: Use dairy-free milk, such as almond. Replace the butter with coconut oil.",
+   "Make it nut free: While I haven’t tried, I think that pepitas (green pumpkin seeds) would be nice in place of the pecans. Blitz them in a food processor until they’re finely chopped and proceed as directed. Be sure to use a nut-free milk, and let me know how this turns out in the comments if you give it a try!",
+   "Prepare in advance: You can roast the sweet potatoes in advance and chill them for later. Or, prepare the whole dish up to 3 days in advance and refrigerate until you’re ready to bake. Your dish will likely need an additional 5 minutes or so in the oven since it’s starting off cold.",
+   "Freeze it: Prepare the dish as directed through the assembly in step 5. To minimize freezer burn, refrigerate the dish until fully chilled. Then, wrap or cover well and freeze for up to 6 months. Defrost in the fridge overnight then bake as directed, allowing some extra time in the oven since it started off cold."
+  ],
+  "summary": "Make this sweet potato casserole recipe for the holidays! Topped with buttery pecans, this creamy sweet potato casserole will be a BIG hit. Recipe yields 8 to 10 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Sweet Potato Filling"
+   },
+   {
+    "at": 7,
+    "title": "Pecan Topping"
+   }
+  ]
  },
  "parser_version": 2
 }

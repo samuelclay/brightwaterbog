@@ -44,7 +44,30 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2017/08/corn-chowder-with-chile-lime-and-cotija/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the soup: With a sharp knife, cut kernels from 8 ears corn (you should have about 6 cups); transfer half to a bowl. Chop the other half into pulpy bits on a cutting board or blend them in a food processor until half-pureed. Add to bowl. Firmly scrape any pulp remaining on cobs with back of knife into bowl with corn, unless you’re me and had weirdly dry stalks, yielding no corn “milk.” Set corn aside."
+   },
+   {
+    "title": null,
+    "text": "In a large (5 quarts is ideal) heavy pot, heat olive oil and butter over medium. Add onion and cook until tender and beginning to brown at the edges, about 6 to 8 minutes. Add garlic, jalapeño and chili powder and cook together for 2 minutes more. Add flour and stir into onion-garlic mixture until it disappears. Stirring constantly, gradually add stock. Add beans, corn, and 1 cup milk and bring to a simmer. Simmer, stirring occasionally, for 10 to 13 minutes, until corn is tender. Add salt (I used about 1 tablespoon Diamond kosher salt total here) and freshly ground black pepper or cayenne to taste. Add cream to taste (we found 1/2 cup sufficient, but it will be less creamy than traditional) and cook for 3 minutes more."
+   },
+   {
+    "title": null,
+    "text": "To finish: Combine mayonnaise, sour cream or crema, cheese, and juice of half a lime in a bowl; stir to combine. Cut second half of lime into wedges."
+   },
+   {
+    "title": null,
+    "text": "Ladle soup into bowls and dollop in center with 1 tablespoon (or more to taste) of mayo-cheese mixture. Squeeze lime juice over to taste, sprinkle with chili powder and chopped cilantro and serve, baked tortilla chips on the side if you wish."
+   }
+  ],
+  "notes": [
+   "The finishing mixture is mostly from Serious Eat’s Elotes recipe, although I nixed the garlic and keep the cilantro and chili powder separate. If you use only 1 tablespoon of it per serving, you will probably have extra but I wanted to give you the option to use more if you wish."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -21,7 +21,54 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/almond-coconut-granola-bars/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Line a 9-inch square baker with two strips of criss-crossed parchment paper, cut to fit neatly against the base and up the sides. The parchment paper will make it easy for you to slice the bars later."
+   },
+   {
+    "title": null,
+    "text": "Toast the almonds for maximum flavor (you can skip this step, but your bars won’t be quite as awesome): In a medium skillet over medium heat, toast the almonds, stirring frequently, until they are fragrant and starting to turn lightly golden on the edges, about 5 minutes. Transfer them to a medium mixing bowl."
+   },
+   {
+    "title": null,
+    "text": "To the mixing bowl, add the oats, coconut flakes, cinnamon and salt. Stir until blended."
+   },
+   {
+    "title": null,
+    "text": "In a 2-cup liquid measuring cup, measure out 1 cup almond butter. Top with ½ cup honey, followed by the vanilla extract. Whisk until well blended. (If you must, you can gently warm the liquid mixture in the microwave or on the stovetop.)"
+   },
+   {
+    "title": null,
+    "text": "Pour the liquid ingredients into the dry ingredients. Use a big spoon to mix them together until the two are evenly combined and no dry oats remain. The drier the mixture, the more firm the bars will be, so stir in extra oats if the mixture seems wet. Conversely, if you used a super thick almond butter (cough, Justin’s), you might need to drizzle in another tablespoon of honey to help it all stick together."
+   },
+   {
+    "title": null,
+    "text": "Transfer the mixture to the prepared square baker. Use your spoon to arrange the mixture fairly evenly in the baker, then use the bottom of a flat, round surface (like a short, sturdy drinking glass) to pack the mixture down as firmly and evenly as possible. (If the mixture keeps sticking to the glass, cover the base of the glass with a small square of parchment paper.)"
+   },
+   {
+    "title": null,
+    "text": "Cover the baker and refrigerate for at least one hour, or overnight. This gives the oats time to absorb moisture so the granola bars can set."
+   },
+   {
+    "title": null,
+    "text": "When you’re ready to slice, lift the bars out of the baker by grabbing both pieces of parchment paper on opposite corners. Use a sharp chef’s knife to slice the mixture into 4 even rows and 4 even columns (these “bars” stick together better in a square shape)."
+   },
+   {
+    "title": null,
+    "text": "For portability, you can wrap individual bars in plastic wrap or parchment paper. Bars keep well for a couple of days at room temperature, but I recommend storing individually wrapped bars in a freezer-safe bag in the freezer for best flavor. They’ll keep for several months in the freezer."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my almond chocolate chip granola bars.",
+   "Make it vegan: Use maple syrup instead of honey.",
+   "Make it gluten free: Use certified gluten-free oats.",
+   "Make it nut free: I think you could use sunbutter instead of almond butter, and replace the almonds with pepitas. The end result will taste different, of course, but I think it will still be delicious.",
+   "Change it up: Virtually any combination of chopped nuts, seeds, coconut, and/or dried fruit (chopped if larger than a raisin) would work in this recipe. You’ll just need about 2 cups total to replace the 1 cup of almonds and 1 cup of coconut used here."
+  ],
+  "summary": "These homemade granola bars are a healthy and delicious snack! Made simply with almonds, coconut, oats, almond or peanut butter, and honey or maple syrup. These bars require about 15 minutes of prep time, then an hour-long rest in the refrigerator to set. Recipe yields 16 granola bars.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

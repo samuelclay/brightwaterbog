@@ -1,6 +1,65 @@
 {
  "url": "https://cookieandkate.com/blueberry-honey-bran-muffins/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Healthy Blueberry Bran Muffins",
+  "ingredients": [
+   "1 cup buttermilk*",
+   "⅓ cup mild extra-virgin olive oil or melted coconut oil",
+   "⅓ cup honey",
+   "1 large egg",
+   "Zest of 1 lemon",
+   "1 ½ cups wheat bran",
+   "1 cup white whole wheat flour or regular whole wheat flour",
+   "1 ½ teaspoons baking powder",
+   "1 ½ teaspoons baking soda",
+   "¼ teaspoon fine salt",
+   "1 cup (6 ounces) fresh or frozen blueberries",
+   "2 teaspoons turbinado sugar, AKA raw sugar"
+  ],
+  "yield_text": "12",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Muffin"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/blueberry-honey-bran-muffins/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat the oven to 325 degrees Fahrenheit and coat a 12-cup muffin tin with cooking spray or line it with paper liners."
+   },
+   {
+    "title": null,
+    "text": "In a small mixing bowl, whisk together the buttermilk, oil, honey, egg and zest. In a large mixing bowl, whisk together the bran, flour, baking powder, baking soda and salt."
+   },
+   {
+    "title": null,
+    "text": "Pour the wet mixture into the dry mixture and mix until just combined (a few remaining streaks of flour are fine). Gently fold in the berries (if you’re using frozen blueberries, toss them in an extra teaspoon or two of flour beforehand to help prevent their juices from running into the batter)."
+   },
+   {
+    "title": null,
+    "text": "Working quickly, divide the batter between the 12 muffin cups. Sprinkle each muffin top with turbinado sugar."
+   },
+   {
+    "title": null,
+    "text": "Bake the muffins for about 20 minutes, rotating the pan halfway through baking for even browning, until a toothpick inserted into the center of the muffins comes out with just a few crumbs attached."
+   },
+   {
+    "title": null,
+    "text": "Let muffins cool in pan on a wire rack for 10 minutes before removing them from the tin. Leftover muffins will keep at room temperature for 2 days, up to 5 days in the refrigerator, or up to 4 months in the freezer."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Smitten Kitchen’s blue sky bran muffins.",
+   "*Make your own buttermilk (with dairy-free option): Pour 1 tablespoon vinegar or lemon juice into a liquid measuring cup. Pour in your milk of choice (nut milk would be fine) until you reach the 1-cup line. Let the “buttermilk” rest for 5 to 10 minutes and then use as directed. See photos of the process.",
+   "Change it up: Deb says you can use any fruit in these muffins, other than pineapple or citrus chunks. Fresh raspberries or sliced strawberries would be nice. You could substitute orange zest for the lemon zest if you prefer."
+  ],
+  "summary": "These honey sweetened, 100% whole grain blueberry bran muffins are light, fluffy and delicious! Add blueberries or substitute any other fruit you’d like. This recipe is flexible and yields 12 muffins.",
+  "ingredient_groups": []
+ }
 }

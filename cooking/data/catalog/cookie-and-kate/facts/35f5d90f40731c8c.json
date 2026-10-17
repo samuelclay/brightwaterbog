@@ -33,7 +33,37 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/curried-coconut-quinoa-greens-roasted-cauliflower/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Roast the cauliflower: Preheat oven to 425 degrees Fahrenheit. Toss the cauliflower florets with coconut oil, cayenne pepper and a light sprinkle of sea salt. Roast for 25 to 30 minutes on the middle rack, turning halfway, until the cauliflower is tender and golden on the edges."
+   },
+   {
+    "title": null,
+    "text": "Cook the quinoa: In a large pot with a lid, warm the coconut oil over medium heat. Add the onion and cook until it is turning translucent, stirring often, about 5 minutes. Add the ginger, turmeric, curry powder and cardamom and stir until fragrant, about 30 seconds. Pour in the coconut milk, water, rinsed quinoa and raisins. Bring the mixture to a boil, then cover and reduce heat to a simmer. Cook for 15 minutes, then remove the pot from the heat and let it rest, covered, for 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Fluff the quinoa with a fork. Stir in the salt, vinegar and greens (if you intend to eat this dish as leftovers, I recommend storing leafy greens separate from the quinoa, as the greens don’t reheat well). Divide the quinoa into bowls and top with roasted cauliflower. Garnish with green onions and red pepper flakes if you’d like."
+   }
+  ],
+  "notes": [
+   "Loosely inspired by the sweet potato wrap at The Mixx in Kansas City.",
+   "*Greens options: I’m pretty sure chopped spinach or chard would work great in this recipe. If you’d like to try kale, remove the ribs first. To soften the chopped kale, you might want to sauté it in a little coconut oil or massage it first, like you would for a raw kale salad.",
+   "Change it up: For added protein, mix in some cooked chickpeas or pre-steamed lentils. For what it’s worth, though, I find this dish to be very filling as is."
+  ],
+  "summary": "Quinoa cooked in coconut milk with spicy Indian flavors, mixed with greens and topped with roasted cauliflower. A simple, vegan and gluten-free meal.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted Cauliflower"
+   },
+   {
+    "at": 4,
+    "title": "Curried coconut quinoa with greens"
+   }
+  ]
  },
  "parser_version": 2
 }

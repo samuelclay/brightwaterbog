@@ -37,7 +37,30 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2016/05/roasted-carrots-with-avocado-and-yogurt/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat your oven to 400 degrees F. Cover 1 large (half-sheet) or 2 smaller (quarter-sheet) roasting pans with foil for easy cleanup. Pour 1/4 cup water in bottom of pan (or divide between both)."
+   },
+   {
+    "title": null,
+    "text": "Make your spice paste by either pounding the cumin, coriander, thyme, salt and peppers in a mortar and pestle until roughly ground, using an electric spice grinder (i.e. a coffee grinder you don’t mind smelling like spices) or small food processor to do the same, or, if using ground spices, just combining them in the bottom of the large bowl you’re about to use. In the bottom of a very large bowl, combine prepared spices, salt and pepper, garlic, vinegar and 1/4 cup olive oil and whisk to blend. Add carrots and toss to coat."
+   },
+   {
+    "title": null,
+    "text": "Spread carrots, drizzling with any extra marinade, in prepared pans and cover tightly with foil. Roast for 25 minutes covered then remove the foil and roast for 35 minutes more, until the carrots are lightly browned and tender but not falling apart."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, combine 2 tablespoons olive oil, orange and lemon juices in a small dish with salt and pepper. When carrots are done, scatter with avocado and sprouts then drizzle with this citrus dressing all over. Dollop yogurt over the top and sprinkle with seeds. Dig in."
+   }
+  ],
+  "notes": [
+   "Adapted from April Bloomfield and Jean-Georges Vongrichten"
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

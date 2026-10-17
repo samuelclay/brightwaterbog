@@ -1,6 +1,50 @@
 {
  "url": "https://cookieandkate.com/banana-almond-smoothie/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Almond Banana Smoothie",
+  "ingredients": [
+   "½ cup almond milk or milk of choice",
+   "1 medium-to-large frozen banana (break your bananas into one-inch chunks before freezing)",
+   "1 ½ tablespoons flax seed",
+   "2 tablespoons almond butter",
+   "Optional: ¼ to 1 teaspoon maple syrup",
+   "⅛ teaspoon almond extract, to taste (or vanilla extract, but the almond extract makes the smoothie taste almost like candy!)"
+  ],
+  "yield_text": "1 cup",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Smoothie"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/banana-almond-smoothie/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Toss all the ingredients into a blender, in the order listed."
+   },
+   {
+    "title": null,
+    "text": "Blend on low until the blender gains traction, then ramp up to the highest speed as soon as possible (or if your blender has a smoothie function, that will work well)."
+   },
+   {
+    "title": null,
+    "text": "Taste, and if you would like stronger almond flavor, add up to ⅛ teaspoon more almond extract and blend again. Enjoy while cold."
+   }
+  ],
+  "notes": [
+   "Adapted from the New York Times Recipes for Health. Ingredients and method edited in 2025 for superior results.",
+   "Peanut butter variation: Substitute peanut butter for the almond butter and vanilla extract for the almond extract.",
+   "Change it up: For more protein, add 1 scoop of vanilla protein powder (I used Natural Force Vanilla Whey). For a caffeinated smoothie, add ¼ cup cold brew concentrate.",
+   "Lighten it up: Use just 1 tablespoon almond butter for 100 fewer calories and a thinner consistency."
+  ],
+  "summary": "This creamy banana smoothie recipe is flavored with almonds. It’s a rich and delicious treat! See notes on how to make a peanut butter banana smoothie variation. Recipe yields 1 cup; you can multiply the recipe and make two or three smoothies in your blender at once.",
+  "ingredient_groups": []
+ }
 }

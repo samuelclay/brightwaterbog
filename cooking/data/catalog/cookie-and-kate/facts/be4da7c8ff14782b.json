@@ -1,6 +1,68 @@
 {
  "url": "https://cookieandkate.com/chai-coconut-ice-cream/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Chai Coconut Ice Cream",
+  "ingredients": [
+   "4 bags Assam black tea or regular black tea",
+   "2 cans (28 ounces) full fat coconut milk",
+   "¾ cup honey (use ⅔ cup for slightly less sweet ice cream)",
+   "1 teaspoon pure vanilla extract",
+   "¾ teaspoon ground ginger",
+   "¾ teaspoon cinnamon",
+   "¼ teaspoon cardamom",
+   "¼ teaspoon cloves",
+   "¼ teaspoon allspice",
+   "Pinch of fine salt",
+   "1 ½ teaspoons arrowroot starch whisked with a few tablespoons of the coconut milk mixture (optional, see note)"
+  ],
+  "yield_text": "6",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "Indian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/chai-coconut-ice-cream/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a liquid measuring cup, pour one cup boiling water over the tea bags. Let steep for 4 minutes, then remove the bags (squeeze out some of the water they have absorbed)."
+   },
+   {
+    "title": null,
+    "text": "Shake up your cans of coconut milk before opening in case the coconut cream has separated from the coconut water. In a Dutch oven or a big, heavy-bottomed pot, whisk together the coconut milk, tea, honey, vanilla, spices and salt until thoroughly blended."
+   },
+   {
+    "title": null,
+    "text": "If you are NOT adding arrowroot starch, you can go ahead and chill the mixture (if the coconut milk cream is still floating around in bits, first heat the mixture over medium heat for a few minutes while whisking until it the cream is incorporated, then cool)."
+   },
+   {
+    "title": null,
+    "text": "If you ARE adding arrowroot starch, heat the mixture over medium heat. In a small bowl, whisk the arrowroot starch with a few tablespoons of the coconut milk mixture until thoroughly blended. Pour the arrowroot mixture into the warm coconut milk mixture and bring it to a gentle boil, stirring frequently for one minute."
+   },
+   {
+    "title": null,
+    "text": "Remove from heat, let cool to room temperature, then place the bowl in the refrigerator until the mixture is completely and thoroughly chilled. While you’re at it, place your future ice cream container in the freezer to chill."
+   },
+   {
+    "title": null,
+    "text": "If you used arrowroot starch, scoop off the thickened top layer with a spoon and discard it. Whisk together the chilled mixture one last time, then pour it into your ice cream maker. Freeze according to your manufacturer’s instructions, then transfer it to your chilled container and freeze for several hours in the freezer (let it defrost for five minutes before serving). Or eat immediately for soft serve texture."
+   }
+  ],
+  "notes": [
+   "Recipe created with guidance from Oh, Ladycakes and A Couple Cooks.",
+   "Make it vegan: Substitute maple syrup or agave nectar for the honey. You’ll end up with ice cream that freezes harder than ice cream made with honey—let it sit at room temperature for 5 to 10 minutes before serving.",
+   "Arrowroot starch is a natural root starch that helps absorb the ice crystals. It’s optional here; you can also help the ice crystals go away if you let the ice cream sit for five minutes before serving. Look for arrowroot in the baking section of well-stocked grocery stores.",
+   "Change it up: The girls added a few chocolate chips to their bowls of ice cream. I think finely chopped dark chocolate incorporated near the end of the freezing cycle would be a very good idea.",
+   "A note on ice cream makers: I love-love-love my 2-quart Cuisinart. If you don’t have an ice cream maker and don’t want to buy one, here are a couple of methods that might work for this ice cream (I haven’t tried them): how to make ice cream with a food processor (tips from Jeni Britton) and how to make ice cream without a machine (by David Lebovitz)."
+  ],
+  "summary": "This dairy-free, egg-free Chai ice cream is made with coconut milk, honey and spices. It is perfectly scoopable from the freezer, but the texture is better if you let it rest at room temperature for five minutes before serving. Recipe yields a little over 1.5 quarts.",
+  "ingredient_groups": []
+ }
 }

@@ -21,7 +21,36 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/baked-eggs-on-roasted-cherry-tomatoes/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 400 degrees Fahrenheit."
+   },
+   {
+    "title": null,
+    "text": "Arrange the halved tomatoes in an even layer in a medium-sized baking dish (mine was a 9-inch by 9-inch square) or oven-proof skillet. Bake the tomatoes for 12 minutes, then remove the dish. (Erin suggests that if a lot of juice has cooked out of the tomatoes, carefully pour off a little liquid. I didn’t need to.)"
+   },
+   {
+    "title": null,
+    "text": "Top the tomatoes with all of the Parmesan, drizzle on the olive oil, sprinkle with 2 tablespoons basil and season with salt and pepper. Stir the garlic into the mixture, if using. Gently crack an egg over the tomatoes, keeping the yolk intact. Repeat with the remaining eggs, dispersing them somewhat evenly over the dish."
+   },
+   {
+    "title": null,
+    "text": "Return the dish to the oven and bake for 8 to 10 minutes. Check at 8 minutes—you’re done when the egg whites have set but the yolks are still soft. They should still jiggle in the centers when you shimmy the pan. (Keep in mind that they’ll continue cooking after you pull the dish out of the oven.) Sprinkle the cooked eggs with salt, pepper and the remaining 1 teaspoon basil."
+   },
+   {
+    "title": null,
+    "text": "Serve right away in shallow bowls with toast."
+   }
+  ],
+  "notes": [
+   "Recipe barely adapted from Yummy Supper: 100 Fresh, Luscious & Honest Recipes from a Gluten-Free Omnivore by Erin Scott.",
+   "Make it vegan/dairy free/egg free: Skip the Parmesan and eggs for baked basil tomatoes, which would be great on garlic-rubbed toast.",
+   "A note on gluten free: This dish is gluten free as written, just serve it with gluten-free toast or another gluten-free accompaniment."
+  ],
+  "summary": "Eggs baked on top of tiny halved tomatoes, topped with a sprinkle of Parmesan and basil, make a simple, delicious summertime breakfast or quick dinner. Recipe as written yields 4 medium servings. I highly recommend serving this with toasted bread (goat cheese on whole grain toast is perfect!) or something similar (Erin suggests polenta fries, yum.)",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

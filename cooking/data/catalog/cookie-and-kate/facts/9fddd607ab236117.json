@@ -1,6 +1,101 @@
 {
  "url": "https://cookieandkate.com/fajita-veggie-halloumi-bowls/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Fajita Veggie and Halloumi Bowls",
+  "ingredients": [
+   "3 bell peppers (red, orange or yellow)",
+   "1 medium red onion",
+   "2 tablespoons olive oil",
+   "1 teaspoon chili powder",
+   "½ teaspoon cumin",
+   "½ teaspoon garlic powder",
+   "¼ teaspoon fine salt",
+   "10 twists of freshly ground black pepper",
+   "2 tablespoons lime juice",
+   "½ pound or more* halloumi cheese",
+   "½ tablespoon olive oil",
+   "¼ teaspoon chipotle powder or smoked paprika (optional, for heat)",
+   "1 cup long-grain brown rice or brown basmati rice, rinsed well",
+   "2 tablespoons chopped fresh cilantro",
+   "2 tablespoons lime juice",
+   "½ teaspoon fine salt",
+   "1 can (15 ounces) black beans, rinsed and drained, or 1 ½ cups cooked black beans",
+   "Topping suggestions: Fresh cilantro, sliced avocado or dollops of guacamole, halved cherry tomatoes, sour cream"
+  ],
+  "yield_text": "4 bowls",
+  "cook_time": "1 hour",
+  "categories": [
+   "Dinner"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/fajita-veggie-halloumi-bowls/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. Line two large, rimmed baking sheets with parchment paper. Bring a large pot of water to boil over high heat for the rice."
+   },
+   {
+    "title": null,
+    "text": "Slice the peppers and onion into ½-inch wide long strips, keeping the chunks of onion intact as best you can."
+   },
+   {
+    "title": null,
+    "text": "Place the peppers and onion on one prepared baking sheet. Drizzle them with the olive oil, chili powder, cumin, garlic powder, salt and pepper (save the lime juice for later). Toss until all of the ingredients are lightly coated, then arrange them in an even layer across the pan. Rearrange any single onion pieces from the outer edges to the interior of the pan, as they tend to burn otherwise. Bake the peppers and onions on the middle rack for 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "Once the pot of water is boiling, pour in the rice. Give the mixture a brief stir and let it boil for 30 minutes, reducing the heat if necessary to prevent overflow. Drain the rice, return it to the pot, cover, and let it rest for 10 minutes off the heat."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, lightly pat the halloumi dry. Slice the halloumi lengthwise into pieces ¼ to ½ inch thick, then cut or tear the slabs into small, bite-sized pieces about 1-inch long. On the remaining baking sheet, drizzle the halloumi with ½ tablespoon olive oil and sprinkle all over with the optional chipotle powder. Toss until lightly coated, and arrange them in an even layer."
+   },
+   {
+    "title": null,
+    "text": "Once the timer goes off for the peppers, remove them from the oven, stir and redistribute. Again move any single onion pieces to the middle, then return the baking sheet to the oven. When you do that, place the pan of halloumi on the top rack."
+   },
+   {
+    "title": null,
+    "text": "After 10 minutes, stir and flip the cheese, moving any browning pieces more toward the middle. Return it to the oven for up to 5 more minutes, keeping a close eye on it as the cheese tends to brown quickly toward the end. Continue baking the pepper mixture until the peppers and onions are tender and deeply caramelized. They are typically done around the time that the halloumi is finished."
+   },
+   {
+    "title": null,
+    "text": "While the peppers are hot out of the oven, drizzle the lime juice on top and stir to combine. Season to taste with additional salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "To finish the rice, fluff it with a fork, then stir in the cilantro, lime juice, and salt. Add the black beans and gently stir to combine. Cover until you’re ready to serve."
+   },
+   {
+    "title": null,
+    "text": "To assemble, divide the rice between four bowls, followed by the pepper mixture and cheese. Finish with any desired toppings, and enjoy warm. Leftovers keep well in the refrigerator, covered, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "*Halloumi quantity: The halloumi I buy is typically sold in sealed packages that are roughly ½ pound in weight. If possible, find one that’s on the upper end closer to 0.6 pounds (10-ish ounces) so you have plenty of cheese.",
+   "Make it dairy free/vegan: You could omit the halloumi and double the beans for more protein. Or, while it’s definitely not the same thing, you would likely enjoy my baked tofu in place of the halloumi. Add chipotle powder or smoked paprika (see recipe for quantities) for some spice. For a different dairy-free option, replace the cheese with crispy fried eggs."
+  ],
+  "summary": "These hearty bowls feature roasted fajita veggies and halloumi cheese over beans and rice. This recipe is an amazing vegetarian dinner! Recipe yields 4 hearty bowls or 6 medium bowls.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Bell peppers and onion"
+   },
+   {
+    "at": 9,
+    "title": "Halloumi"
+   },
+   {
+    "at": 12,
+    "title": "Rice, beans, and toppings"
+   }
+  ]
+ }
 }

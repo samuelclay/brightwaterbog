@@ -27,7 +27,39 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/whole-wheat-gingerbread-pancakes/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "If you’re using an electric griddle, go ahead and preheat it to 350 degrees Fahrenheit. In a medium mixing bowl, whisk together the dry ingredients: the flour, baking powder, ginger, cinnamon, nutmeg and salt."
+   },
+   {
+    "title": null,
+    "text": "In a smaller bowl, combine the milk, egg, molasses, maple syrup, butter and vanilla extract (if you’re using coconut oil and it solidifies on contact with cold ingredients, just warm the mixture in the microwave for 15 to 30 seconds, until it melts again, or let the mixture rest for a few minutes in a warm place). Whisk until the mixture is thoroughly combined. Pour into the flour mixture and stir just until the mixture is incorporated and no big lumps of flour remain."
+   },
+   {
+    "title": null,
+    "text": "If you’re not using an electric griddle, heat a stovetop griddle, cast-iron pan or non-stick pan over medium-low heat. It’s hot enough when a drop of water sizzles against the pan. If necessary, grease the pan with a pat of butter or non-stick cooking spray (my griddle is non-stick so I didn’t use any)."
+   },
+   {
+    "title": null,
+    "text": "Give the bowl one more stir and pour ⅓ cup batter into the pan (if at any point the batter becomes too thick, just stir in a tiny splash of milk). Wait until the outer ½″ of the pancake is no longer shiny, then flip it with a spatula. Cook on the opposite sides for 1 to 2 minutes, or until golden brown."
+   },
+   {
+    "title": null,
+    "text": "Serve the cooked pancake immediately or keep warm in an oven set to 200 degrees Fahrenheit. Repeat with remaining pancakes, adjusting heat as necessary to achieve pancakes that are cooked through and golden brown on both sides."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my pumpkin pancakes recipe.",
+   "*Orange cream cheese topping option: This recipe was originally published with orange cream cheese on top and it is delicious. To make it, just whisk together around 3 ounces of softened cream cheese with ¼ to ½ teaspoon orange zest and a tiny splash of orange juice, to taste.",
+   "Make it dairy free: Use your favorite non-dairy milk and coconut oil instead of butter.",
+   "Make it egg free: I’m pretty certain that you can just omit the egg, since this recipe is so similar to my simple vegan pancakes recipe. Please let me know if you try!",
+   "Make it vegan: Use your favorite non-dairy milk, coconut oil instead of butter and skip the egg.",
+   "Make it gluten free: I think you can successfully use all-purpose gluten-free flour here. Please let me know if you try!"
+  ],
+  "summary": "Fluffy, comforting whole wheat pancakes flavored with ginger and molasses. I love to top mine with maple syrup and a dollop of almond butter or, if I’m feeling decadent, a dollop of orange cream cheese*. Yields 8 medium pancakes, enough to feed 2 to 4.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

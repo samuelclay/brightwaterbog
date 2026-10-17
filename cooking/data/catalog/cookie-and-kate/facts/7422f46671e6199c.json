@@ -28,7 +28,40 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/baked-spinach-artichoke-dip-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 400 degrees Fahrenheit."
+   },
+   {
+    "title": null,
+    "text": "In a large skillet over medium heat, warm the olive oil until shimmering. Add the onion, bell pepper, garlic, and a pinch of salt. Cook, stirring occasionally, until the onion and bell pepper are nice and tender, about 5 to 7 minutes. Meanwhile, squeeze as much moisture out of the thawed spinach as possible."
+   },
+   {
+    "title": null,
+    "text": "Add the spinach and artichoke to the pan and cook for 1 minute, using your spatula to break up any hunks of spinach."
+   },
+   {
+    "title": null,
+    "text": "Remove the skillet from the heat and add the sour cream, feta and two-thirds of the mozzarella (about 1 cup). Stir until the ingredients are all mixed together. Season to taste with additional salt, some black pepper, and a few dashes of hot sauce (more if you want more of a kick)."
+   },
+   {
+    "title": null,
+    "text": "Transfer the mixture to a small casserole dish (about 1-quart capacity) and spread it evenly into the pan. Sprinkle the remaining mozzarella over the contents. Bake until the top is golden brown, about 18 to 25 minutes."
+   },
+   {
+    "title": null,
+    "text": "Let the dip cool for a few minutes (it’s crazy hot) and serve with your dipping vehicle of choice. This dip keeps well for up to 4 days in the refrigerator, covered."
+   }
+  ],
+  "notes": [
+   "Recipe roughly adapted from Cooking Light.",
+   "How to thaw frozen spinach: This is easiest in the microwave. Place the frozen spinach in a microwave-safe bowl and cook until it has defrosted, stirring occasionally, about 3 to 5 minutes. You could probably also let it thaw overnight in the refrigerator.",
+   "Dairy free/vegan note: This is not a great candidate to be made dairy free. I recommend that you make the creamy avocado spinach dip in my cookbook instead!"
+  ],
+  "summary": "The best cheesy baked spinach artichoke dip recipe, lightened up with extra veggies and no mayonnaise! Everyone will love this delicious appetizer recipe; it’s great served hot or even at room temperature. Recipe yields 8 appetizer servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

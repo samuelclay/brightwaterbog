@@ -23,7 +23,23 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/chunky-avocado-salsa-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large serving bowl, combine all of the ingredients as listed. Gently toss to combine (don’t over-mix, or the avocados will turn everything green!). Taste, and add more salt if it doesn’t taste quite spectacular enough."
+   },
+   {
+    "title": null,
+    "text": "Serve promptly, as the avocado will brown over time. To store leftovers, try to minimize the amount of oxygen by using a container that’s just the right size, or press plastic wrap directly against the avocado. It will keep in the refrigerator this way for 1 to 2 days."
+   }
+  ],
+  "notes": [
+   "*Coriander note: I love adding a bit of ground coriander to my Mexican avocado recipes. Coriander is simply ground cilantro seeds, and it adds a subtle layer of flavor. That said, you can omit it if you don’t have it or don’t like it.",
+   "Prepare in advance: If you want to be sure your avocado doesn’t brown before the party, I think you could prepare everything but the avocado, toss it all together in a serving bowl, and refrigerate until you’re about ready to serve. Then dice the avocado and gently stir it in."
+  ],
+  "summary": "This avocado salsa recipe is fresh, hearty and delicious! Serve it as party dip, taco filling or more. You’re going to love this easy avocado salsa. Recipe yields about 6 cups.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

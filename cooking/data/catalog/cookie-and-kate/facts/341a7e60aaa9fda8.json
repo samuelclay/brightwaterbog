@@ -21,7 +21,28 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/simple-peach-basil-and-ricotta-flatbread/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. Place the flatbread in a cast iron pan or baking sheet."
+   },
+   {
+    "title": null,
+    "text": "Spread ricotta evenly across the flatbread, leaving ½ inch around the edges. Place slices of peach on the ricotta."
+   },
+   {
+    "title": null,
+    "text": "Bake for 10 to 12 minutes. Sprinkle with chopped basil, sea salt and freshly ground black pepper. Slice, then drizzle with balsamic reduction before serving."
+   }
+  ],
+  "notes": [
+   "Yields 2 flatbreads.",
+   "Feel free to substitute ripe tomatoes for the peaches.",
+   "To make your own balsamic reduction, bring one cup (or more) balsamic vinegar to a boil in a small, thick bottomed saucepan over medium heat. Reduce the heat to a simmer and cook, stirring often, until the vinegar is reduced by half or more. Allow the reduction to cool, then transfer to an airtight jar and store in the pantry. Balsamic vinegar is great on everything from pizza to ice cream, caprese salads and so much more."
+  ],
+  "summary": "Simple peach, basil and ricotta flatbreads drizzled with balsamic reduction. A gourmet summer dinner ready in fifteen minutes!",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

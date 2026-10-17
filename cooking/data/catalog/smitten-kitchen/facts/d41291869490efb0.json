@@ -41,7 +41,43 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2021/08/baked-farro-with-summer-vegetables/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "If you have an ovenproof 11-inch or 4-quart pan with a lid, use it here. If not, use a large (11- to 12-inch) sauté pan for the stove portion and transfer it to a 3- to 4-quart baking dish for the oven part."
+   },
+   {
+    "title": null,
+    "text": "On the stove, heat pan to medium-high. Once hot, add 2 tablespoons olive oil. Let the oil warm and add corn. Season with 1/2 teaspoon salt and many grinds of black pepper and cook, stirring occasionally, until the corn is lightly golden, about 5 minutes. Tip corn into a large bowl."
+   },
+   {
+    "title": null,
+    "text": "Return the pan to medium-high heat and warm 2 more tablespoons olive oil. Add half of zucchini and 1/4 teaspoon salt, black pepper to taste, and cook, stirring occasionally, until the zucchini is tender and golden brown, about 6 minutes. Add to bowl with corn and repeat with more olive oil, salt, pepper, and second half of zucchini. This is a good time to…"
+   },
+   {
+    "title": null,
+    "text": "Heat your oven to 375°F."
+   },
+   {
+    "title": null,
+    "text": "Reduce heat to medium and add another drizzle of olive oil. Add onion, 1 teaspoon salt, red pepper flakes, and cook until the onion is translucent, about 2 minutes. Stir in the tomatoes, garlic, and oregano and cook, stirring occasionally, until the tomatoes soften and begin to form a sauce, about 5 minutes. Stir in the tomato paste and cook for 1 minute. Add the wine, if using, and cook until the wine has reduced and the sauce is fairly thick, about 3 minutes more. Return the corn and zucchini to pan the and cook with the sauce for 2 minutes. Add basil and stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Add farro, water, and 1 more teaspoon of salt and stir to combine. If you need to transfer this to an ovenproof dish, do it now. Stir in diced mozzarella and half of parmesan. Sprinkle remaining parmesan on top, and cover with a lid or tightly with foil and bake for 30 to 40 minutes, until farro is cooked. Cooked farro should be tender but a little chewy. If the pan is dry and your farro still seems undercooked, add another 1/4 to 1/2 cup water and return it to the oven until it reaches the right texture."
+   },
+   {
+    "title": null,
+    "text": "Transfer dish to your broiler, or to the hottest part of your oven (and crank the heat) and cook until browned and crisp on top, about 3 to 5 minutes under a broiler or 5 to 7 in the oven. Serve warm."
+   }
+  ],
+  "notes": [
+   "Do ahead: Leftovers will keep for 5 to 7 days in the fridge. Rewarm in a 350-degree oven. This dish should also freeze well.",
+   "Farro cooking times can vary. Written here is for what’s most common in stores near me, semi-pearled. The package should give you an indication of cooking time, which roughly matches the time in the oven, plus another 10 minutes. I.e. a package that says it will take 30 minutes to cook will take 30 to 40 to bake. If yours says 45 or 50 minutes, expect the oven portion to take longer here. If you’re using 5-minute farro, you might find you need less water and, of course, less cooking time. In some cases, the farro needs more water to cook; I give you an indicator in the recipe just in case."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

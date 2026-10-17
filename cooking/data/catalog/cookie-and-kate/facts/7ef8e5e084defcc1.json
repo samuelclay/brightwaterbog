@@ -1,6 +1,55 @@
 {
  "url": "https://cookieandkate.com/margherita-pizza-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Margherita Pizza",
+  "ingredients": [
+   "1 batch easy whole wheat pizza dough or 1 pound store-bought pizza dough",
+   "1 large can (28 ounces) whole San Marzano tomatoes",
+   "12 ounces (dry weight) ovoline-type mozzarella or other fresh mozzarella balls, ideally water-packed",
+   "Handful of fresh basil, thinly sliced plus small leaves",
+   "Additional garnishes: Drizzle of extra-virgin olive oil, flaky sea salt or kosher salt and optional red pepper flakes"
+  ],
+  "yield_text": "2 pizzas",
+  "cook_time": "45 minutes",
+  "categories": [
+   "Main Dish"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/margherita-pizza-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 500 degrees Fahrenheit with a rack in the upper third of the oven. If you’re using a baking stone or baking steel, place it on the upper rack. Prepare dough through step 5."
+   },
+   {
+    "title": null,
+    "text": "Place a medium mixing bowl in the sink and pour the canned tomatoes into the bowl, juices and all. Crush the tomatoes by hand. Spread about ¾ cup of the tomato sauce evenly over each pizza, leaving about 1 inch bare around the edges."
+   },
+   {
+    "title": null,
+    "text": "If your mozzarella is packed in water, drain off the water and gently pat the mozzarella dry on a clean tea towel or paper towels. If you’re working with large mozzarella balls, tear them into smaller 1-inch balls. Distribute the mozzarella over the pizza, concentrating it a bit more in the center of the pizza, as it will melt toward the edges."
+   },
+   {
+    "title": null,
+    "text": "Bake pizzas individually on the top rack until the crust is golden and the cheese is just turning golden, about 10 to 12 minutes (or significantly less, if you’re using a baking stone/steel—keep an eye on it)."
+   },
+   {
+    "title": null,
+    "text": "Top each pizza generously with fresh basil, followed by a light back-and-forth drizzle of olive oil, a sprinkling of salt, and red pepper flakes, if you wish. Slice and enjoy. Leftover pizza will keep well in the refrigerator for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: While untraditional, this pizza would be good with vegan sour cream drizzled across the pizza both before and after baking. Simply omit the Parmesan in the pizza crust recipe.",
+   "Make it gluten free: Substitute your favorite homemade or store-bought pizza dough."
+  ],
+  "summary": "Make classic margherita pizza at home with this simple recipe! This Neapolitan pizza is fresh, delicious and easy to make. Recipe yields 2 medium (11-inch diameter) pizzas.",
+  "ingredient_groups": []
+ }
 }

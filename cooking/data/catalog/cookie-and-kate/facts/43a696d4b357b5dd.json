@@ -1,6 +1,74 @@
 {
  "url": "https://cookieandkate.com/blueberry-maple-tea-cake/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Blueberry Maple Tea Cake",
+  "ingredients": [
+   "¾ cup plus 2 tablespoons whole wheat pastry flour or whole wheat flour",
+   "¾ cup whole wheat flour",
+   "1 ½ teaspoons baking powder",
+   "¼ teaspoon baking soda",
+   "¼ teaspoon kosher salt",
+   "⅛ teaspoon ground cinnamon",
+   "⅔ cup real maple syrup",
+   "1 large egg, lightly beaten",
+   "½ cup milk",
+   "6 tablespoons (¾ stick) unsalted butter, melted",
+   "1 cup fresh blueberries",
+   "3 tablespoons unsalted butter",
+   "3 tablespoons real maple syrup",
+   "Pinch sea salt",
+   "¼ cup powdered sugar*"
+  ],
+  "yield_text": "9 servings",
+  "cook_time": "33 minutes",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/blueberry-maple-tea-cake/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 400 degrees Fahrenheit. Lightly grease an 8-inch square pan."
+   },
+   {
+    "title": null,
+    "text": "In a large bowl, whisk together the flours, baking powder, baking soda, salt and cinnamon."
+   },
+   {
+    "title": null,
+    "text": "In a medium bowl, whisk together the maple syrup, egg, milk and melted butter. Pour the wet mixture into the dry mixture and mix just until combined. Gently fold in the blueberries. Pour the battered into your prepared pan and bake for about 23 to 26 minutes, until the cake is golden brown and a toothpick inserted into the middle comes out clean."
+   },
+   {
+    "title": null,
+    "text": "While the cake is cooling, make the glaze. In a small saucepan over medium heat, melt the butter. Add the maple syrup and salt, then stir in the powdered sugar. Cook until the sugar is completely dissolved, stirring constantly. Resist the urge to taste test, it’s crazy hot! Pour the warm glaze over the cake and use a pastry brush to distribute the glaze evenly."
+   },
+   {
+    "title": null,
+    "text": "Let the cake cool completely, slice and serve. This cake should last at room temperature for up to 48 hours. Store in the fridge if you will not be able to eat it sooner. I learned the hard way that those jammy pockets will go bad when left in a warm kitchen for a few days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Cook This Now by Melissa Clark.",
+   "Baking time/pan notes: The original recipe specified to bake the cake in an 8-inch loaf pan for 50 to 60 minutes, I chose to use my pretty square baker instead.",
+   "*To make your own powdered sugar: Blend sugar in a blender or food processor until it is a fine powder. I used organic cane sugar but turbinado sugar works, too.",
+   "Change it up: Raspberries or peaches would be great substitutes for the blueberries in the summer. I can’t wait to try this cake with fresh cranberries in the winter!"
+  ],
+  "summary": "Delicious maple-sweetened, whole-grain blueberry cake with maple glaze! This is a great summer dessert. Recipe yields 9 slices of cake.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Cake"
+   },
+   {
+    "at": 11,
+    "title": "Maple Glaze"
+   }
+  ]
+ }
 }

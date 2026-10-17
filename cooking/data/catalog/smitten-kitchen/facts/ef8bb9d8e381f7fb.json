@@ -28,7 +28,24 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2006/10/queens-and-contessas/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat the oil in a large saucepan. Add the onions and the carrots and cook over medium-low heat for 8 to 10 minutes, until the onions start to brown. Stir occasionally with a wooden spoon. Add the garlic and cook for one minute more."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, place the canned plum tomatoes, including the juice, in the bowl of a food processor fitted with a steel blade and pulse several times until the tomatoes are coarsely chopped. Rinse and pick over the lentils to make sure there are no stones in the package."
+   },
+   {
+    "title": null,
+    "text": "Add the tomatoes, lentils, broth, curry powder, thyme, salt and pepper to the pan. Raise the heat to bring to a boil, then lower the heat and simmer covered for about 40 minutes, until the lentils are tender. Check occasionally to be sure the liquid is still simmering. Remove from the heat and allow the lentils to sit covered for another 10 minutes. Add the vinegar, season to taste and serve hot."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

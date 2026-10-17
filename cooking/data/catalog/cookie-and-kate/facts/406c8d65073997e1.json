@@ -22,7 +22,27 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/ginger-salad-dressing-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a jar or small bowl, whisk together all of the ingredients until fully blended. Sometimes, if your mustard is cold, it will need a few minutes to warm up before it fully incorporates."
+   },
+   {
+    "title": null,
+    "text": "Taste, and adjust if necessary—for more tartness, add another teaspoon of apple cider vinegar, or for more sweetness/balance, add another teaspoon or two of maple syrup (I usually add one)."
+   },
+   {
+    "title": null,
+    "text": "This salad dressing will keep well in the refrigerator for up to 10 days. Real olive oil can solidify slightly when cold; if that happens, simple let it warm to room temperature for a few minutes or microwave it in a microwave-safe jar for no more than 15 to 30 seconds."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my basic vinaigrette, crossed with the “liquid gold” salad dressing in my cookbook, Love Real Food.",
+   "Make it vegan: Be sure to use maple syrup instead of honey."
+  ],
+  "summary": "Love ginger? You’ll love this homemade salad dressing recipe! It’s full of fresh ginger flavor, balanced by a touch of maple syrup and apple cider vinegar. Recipe yields ¾ cup dressing.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

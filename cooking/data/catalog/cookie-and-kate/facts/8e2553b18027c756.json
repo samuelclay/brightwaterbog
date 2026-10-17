@@ -1,6 +1,61 @@
 {
  "url": "https://cookieandkate.com/almond-flour-blueberry-muffins/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Almond Flour Blueberry Muffins (Gluten-Free)",
+  "ingredients": [
+   "3 cups (270 grams) blanched almond flour, spooned and leveled",
+   "1 teaspoon baking powder",
+   "½ teaspoon baking soda",
+   "½ teaspoon fine salt",
+   "½ cup maple syrup or honey",
+   "¼ cup extra-virgin olive oil or melted unsalted butter",
+   "2 tablespoons lemon juice",
+   "4 eggs",
+   "1 cup blueberries (4 ½ ounces), fresh or frozen**",
+   "¾ teaspoon ground cinnamon"
+  ],
+  "yield_text": "12",
+  "cook_time": "40 minutes",
+  "categories": [
+   "Muffins"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/almond-flour-blueberry-muffins/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 325 degrees Fahrenheit. Line a muffin tin with paper liners."
+   },
+   {
+    "title": null,
+    "text": "In a large bowl, combine the almond flour, baking powder, baking soda, and salt. Whisk to blend."
+   },
+   {
+    "title": null,
+    "text": "In a 2-cup liquid measuring cup or medium mixing bowl, combine the maple syrup, olive oil and lemon juice, and whisk until they’re well blended. Crack the eggs into the bowl and beat with a whisk until the mixture is uniformly colored. Pour the wet ingredients into the dry mixture and stir until only a few clumps remain."
+   },
+   {
+    "title": null,
+    "text": "In a smaller bowl, stir together the blueberries with the ground cinnamon (this helps prevent the blueberries from sinking to the bottom of the cake). Leave any excess cinnamon in the bowl (or include it all for a more graham cracker-like flavor), and gently fold the blueberries into the batter, being careful not to over-stir so the cinnamon stays attached."
+   },
+   {
+    "title": null,
+    "text": "Divide the batter evenly between the muffin cups. They’ll be quite full, but that’s ok. Bake until the muffins are golden brown, the center is firm to the touch, and a toothpick inserted into the center comes out clean, about 24 to 27 minutes for fresh blueberries or 27 to 30 minutes for frozen. Leftover muffins will keep at room temperature for 1 to 2 days, in the refrigerator for up to 5 days, or in the freezer for up to 3 months."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from the Lemony Almond-Blueberry Cake in my cookbook, Love Real Food (page 197).",
+   "*Almond flour notes: Not all almond flours are created equally. I recommend Bob’s Red Mill’s super-fine almond flour and Whole Foods 365’s almond flour.",
+   "**Frozen berries: Do not defrost them first—use them straight from the freezer."
+  ],
+  "summary": "These gluten-free blueberry muffins are made with one simple flour, almond flour! They’re golden, fluffy and so delicious. Recipe yields 1 dozen muffins.",
+  "ingredient_groups": []
+ }
 }

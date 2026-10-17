@@ -1,6 +1,61 @@
 {
  "url": "https://cookieandkate.com/iced-matcha-latte-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Minty Iced Matcha Latte",
+  "ingredients": [
+   "1 cup raw cashews, soaked for at least 4 hours if you do not have a high-powered blender (see step 1)",
+   "2 to 4 tablespoons honey or maple syrup",
+   "Handful of fresh mint leaves (plus a few more sprigs for garnish) or ½ teaspoon peppermint extract",
+   "2 tablespoons matcha green tea",
+   "1 tablespoon vanilla extract",
+   "Dash of salt",
+   "4 cups water, divided"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "10 minutes",
+  "categories": [
+   "Drink"
+  ],
+  "cuisines": [
+   "Japanese"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/iced-matcha-latte-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "For ease in blending, soak the cashews in water at least 4 hours, or overnight in the refrigerator. If you have a high-powered blender such as a Vitamix or Blendtec, you can skip this step. (I am lazy and let my Vitamix do the work, but I should mention that soaked cashews may be easier to digest.)"
+   },
+   {
+    "title": null,
+    "text": "If you soaked your cashews, drain them and rinse until the water runs clear. Place the cashews in your blender bowl. Add 2 tablespoons honey or maple syrup, followed by the mint, matcha, vanilla, and a dash of salt."
+   },
+   {
+    "title": null,
+    "text": "Add 2 cups of water (you’ll add the rest later), and securely fasten the lid. Start blending on the lowest setting and increase the speed until the cashews are totally pulverized. This could take 2 minutes in a high-powered blender or longer in a regular blender."
+   },
+   {
+    "title": null,
+    "text": "Pour in the remaining 2 cups water. Secure the lid and blend again. Taste, and blend in an additional tablespoon or 2 of sweetener if it doesn’t taste amazing yet. If your blender can’t blend the cashews into creamy oblivion no matter how long you blend, strain the milk through a fine mesh strainer."
+   },
+   {
+    "title": null,
+    "text": "Fill a drinking glass with ice and pour the mixture over it. Garnish with a sprig of mint, if you have one."
+   },
+   {
+    "title": null,
+    "text": "Store leftover matcha latte in a covered container (a mason jar is perfect) in the refrigerator for up to 4 days. It settles over time, so you’ll need to shake the jar or thoroughly whisk the contents again before serving."
+   }
+  ],
+  "notes": [
+   "Change it up: For warm tea, warm the tea using your blender’s soup function, or in a saucepan on the stove over medium-high heat, stirring frequently, just until the mixture comes to a simmer.",
+   "Make it vegan: Use maple syrup instead of honey."
+  ],
+  "summary": "Learn how to make creamy iced matcha lattes! This recipe is naturally sweetened and dairy free. I add mint to make them extra refreshing, but you can skip it if you’d prefer a more traditional matcha latte. Recipe yields 5 cups, or 4 servings of 1 ¼ cups each.",
+  "ingredient_groups": []
+ }
 }

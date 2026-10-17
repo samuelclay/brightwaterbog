@@ -29,7 +29,68 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/vegetarian-enchilada-casserole-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To roast the veggies (this can be done up to 2 days in advance): Preheat the oven to 400 degrees Fahrenheit with racks in the middle and upper third of the oven. Line two large, rimmed baking sheets with parchment paper to prevent the vegetables from sticking."
+   },
+   {
+    "title": null,
+    "text": "On one pan, combine the cauliflower and sweet potato. On the other pan, combine the bell peppers and onion. Drizzle half of the olive oil over one pan, and the other half over the other pan. Same with the cumin."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle both pans lightly with salt and pepper, then toss each one until the vegetables are lightly coated in oil and spices, adding another light drizzle of olive oil if necessary. Arrange the vegetables in an even layer across each pan. Bake until the vegetables are tender and caramelized on the edges, about 30 to 35 minutes, tossing the veggies and swapping the pans halfway."
+   },
+   {
+    "title": null,
+    "text": "When you’re ready to assemble, reduce the oven heat to 350 degrees Fahrenheit and lightly grease a 9″ square baker. Stir the cilantro into the salsa."
+   },
+   {
+    "title": null,
+    "text": "To assemble, spread ½ cup salsa evenly over the bottom of the baking pan. Add a single layer of halved tortilla pieces, arranging them so they completely cover the salsa."
+   },
+   {
+    "title": null,
+    "text": "Top with ½ of the beans, ⅓ of the vegetables, ½ of the of spinach, and ⅓ of the cheese."
+   },
+   {
+    "title": null,
+    "text": "Make a second layer of tortillas (I pressed down on the mixture a little here to make room for the next layers). Top with ½ of the remaining salsa, all of the remaining beans, ½ of the remaining vegetables, all of the remaining spinach, and ½ of the remaining cheese."
+   },
+   {
+    "title": null,
+    "text": "Make a third layer of tortillas (again, I pressed down to make more room). Top with the remaining salsa, vegetables, and cheese."
+   },
+   {
+    "title": null,
+    "text": "Cover the pan with parchment paper (I tent mine in the middle and wrap the edges around the handles) or aluminum foil. Bake for 20 minutes, then remove the parchment paper or aluminum foil and bake for 10 more minutes, or until heated through."
+   },
+   {
+    "title": null,
+    "text": "Let the casserole cool for 10 minutes, to give it time to set and reach a palatable temperature. Before serving, sprinkle the top lightly with additional chopped cilantro."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Perry’s Plate.",
+   "*Salsa suggestions: I recommend a mild to medium salsa here, depending on your heat preferences. I used Trader Joe’s basic “Salsa Authentica” option here, which I don’t love on its own, but it was great mixed with cilantro and the other ingredients. My mom loves Target’s medium roasted tomato and chipotle salsa (Archer Farms brand), which lends a smoky note. Or, make your own salsa—here’s my favorite salsa recipe—and you can really minimize the sodium content by choosing low-sodium tomatoes and keeping the salt low.",
+   "Make it dairy free/vegan: I haven’t tried (let me know if you do), but I’m confident that you could replace the cheese with cashew sour cream. If the end result is a little dry, just top individual servings with a little more salsa.",
+   "**Make it gluten free: Be sure to use 100% corn/certified gluten-free tortillas.",
+   "Storage suggestions: This casserole keeps well, covered in the refrigerator, for up to 4 days.",
+   "Change it up: You can change the vegetables used here as long as you use about the same volume. You could also add another can of beans to increase the protein content."
+  ],
+  "summary": "This roasted veggie enchilada casserole recipe is a hearty, vegetable-packed dinner loaded with fresh Mexican flavors! It’s a great gluten-free main dish. Recipe yields 6 to 8 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted veggies"
+   },
+   {
+    "at": 8,
+    "title": "Remaining ingredients"
+   }
+  ]
  },
  "parser_version": 2
 }

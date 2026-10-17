@@ -29,7 +29,31 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/carrot-ginger-dressing-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a blender, combine all of the salad dressing ingredients as listed. Bend until completely smooth. Taste, and add additional salt if the dressing doesn’t make your eyes light up. If it’s too sour (it should have some zing to it), blend in a bit more honey."
+   },
+   {
+    "title": null,
+    "text": "Serve over greens and any other ingredients you’d like (I offered a few more suggestions in the post). Recipe keeps well in the refrigerator, covered, for 1 to 2 weeks."
+   }
+  ],
+  "notes": [
+   "Make it vegan: Substitute maple syrup or agave nectar for the honey."
+  ],
+  "summary": "This salad dressing tastes remarkably fresh, creamy and light. It would pair nicely with other recipes with Asian flavors. Recipe yields about 1 ⅓ cups salad dressing.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Dressing"
+   },
+   {
+    "at": 8,
+    "title": "Suggested side salad components"
+   }
+  ]
  },
  "parser_version": 2
 }

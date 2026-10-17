@@ -19,7 +19,27 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/cantaloupe-tequila-cocktail/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Use a big spoon to scoop the flesh of the cantaloupe from the skin. Place everything but the ice in the blender and blend until smooth. Add the ice and blend thoroughly."
+   },
+   {
+    "title": null,
+    "text": "Pour into a chilled martini glass and garnish with a lime round."
+   }
+  ],
+  "notes": [
+   "I salted the rim of my glass, but I felt like the saltiest sips overwhelmed the delicate taste of cantaloupe. Also, I recommend using 100% agave tequila, always!"
+  ],
+  "summary": "An amazing blended tequila and cantaloupe cocktail drink—once you try one, you’ll be ready to blend up another! To keep your cocktail cold, place freezer-safe cocktail glasses in the freezer to chill in advance, or just plop an ice cube or two in the finished drink.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per cocktail"
+   }
+  ]
  },
  "parser_version": 2
 }

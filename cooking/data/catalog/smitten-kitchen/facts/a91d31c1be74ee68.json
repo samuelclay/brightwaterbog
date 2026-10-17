@@ -22,7 +22,28 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2009/08/grilled-eggplant-and-olive-pizza/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make this pizza on a grill, or in a grill pan: Stir together garlic and oil. Brush some of garlic oil on both sides of eggplant and season with 3/4 teaspoon salt and 1/2 teaspoon pepper. Grill over direct medium heat, covered, turning once, until tender, 6 to 8 minutes total. Cut into roughly one-inch pieces and set aside."
+   },
+   {
+    "title": null,
+    "text": "Stretch dough into about a 12- by 10-inch rectangle (or into the shape of your grill pan, which in my case, was square) on a large baking sheet or your counter and lightly brush with garlic oil. Oil grill rack, then put dough, oiled side down, on grill. Brush top with more garlic oil. Grill, covered, until underside is golden-brown, about 2 to 3 minutes."
+   },
+   {
+    "title": null,
+    "text": "Using tongs, return crust, grilled side up, to baking sheet. Scatter eggplant, cheese, olives, and parsley (whoops, forgot mine) over crust. Slide pizza from sheet onto grill and grill, covered, until underside is golden-brown and cheese is melted, about 3 to 5 minutes. (If you’re using an oven-safe grill pan, you can slide the pan into a preheated 500 degree oven at this point, as we did, which gets the toppings that much more blistered.) Season to taste with salt, pepper and a red pepper flakes."
+   },
+   {
+    "title": null,
+    "text": "To make this pizza in the oven: You can either fry or roast the eggplant slices, brushed with garlic oil, until tender. Prepare the pizza as you would any other, rolling or stretching out the dough, mounding on the toppings and sliding it onto a baking sheet or pizza stone in an oven that has been preheated to its top temperature. It will be ready in about 10 minutes."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

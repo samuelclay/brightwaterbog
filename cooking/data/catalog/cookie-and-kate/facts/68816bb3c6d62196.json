@@ -31,7 +31,47 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/sweet-potato-red-pepper-feta-frittata/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. In a large bowl, whisk together the eggs, milk, cilantro, garlic, ¼ teaspoon salt and several twists of freshly ground black pepper."
+   },
+   {
+    "title": null,
+    "text": "In a 10-inch oven-safe sauté pan or well-seasoned cast iron skillet, warm the olive oil over medium heat. Add the chopped sweet potatoes and red pepper and toss to coat, then sprinkle with cumin, smoked paprika and ½ teaspoon salt and stir. Once the pan is sizzling, cover the pan and reduce heat slightly to avoid burning the contents. Cook until the sweet potato is tender and cooked through, stirring occasionally, about 8 minutes."
+   },
+   {
+    "title": null,
+    "text": "Uncover the pan, raise the heat back to medium and cook until the excess moisture has evaporated and the sweet potatoes are caramelizing on the edges, about 5 to 10 minutes (add another little splash of olive oil if the potatoes start sticking to the pan)."
+   },
+   {
+    "title": null,
+    "text": "Turn the heat down to low. Arrange the sweet potatoes and peppers in an even layer in the bottom of the skillet. Sprinkle black beans over the vegetables in an even layer. Whisk the egg mixture one last time and pour it into the pan. Crumble the feta with your fingers or a fork over the top of the frittata. Put the pan in the oven and bake until you can shake the pan (wear oven mitts!) and see that the middle is just barely set, about 12 to 18 minutes."
+   },
+   {
+    "title": null,
+    "text": "Set the frittata aside for a few minutes before slicing it. Transfer individual slices to plates and top with diced avocado, salsa verde and chopped cilantro. Serve with hot sauce and pickled jalapeños on the side."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by The Fauxmartha and adapted from this sweet potato, spinach and goat cheese frittata and sweet potato breakfast burritos.",
+   "Make it tomato free: Skip the salsa and choose a tomato-free hot sauce.",
+   "Storage suggestions: This frittata should keep well for a couple of days in the refrigerator, covered.",
+   "Change it up: I think butternut squash would be a delicious substitute for the sweet potato. If you don’t love cilantro but still want some green in there, try spinach or arugula. Let the greens wilt slightly before pouring the egg mixture on top, like I did in my other sweet potato frittata (see link above).",
+   "Prepare in advance: You can whisk up the egg mixture in advance and store it in the fridge. You can also cook the sweet potato and red pepper in advance—just rewarm them in the pan so the pan and the contents are hot when you pour in the egg mixture."
+  ],
+  "summary": "This delicious frittata would be great for breakfast, brunch or any time! It’s full of caramelized sweet potatoes, red bell pepper, black beans, feta and optional-but-recommended cilantro. This frittata yields 6 medium slices of frittata (as shown), or 4 large or 8 small.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Frittata"
+   },
+   {
+    "at": 13,
+    "title": "Garnishes"
+   }
+  ]
  },
  "parser_version": 2
 }

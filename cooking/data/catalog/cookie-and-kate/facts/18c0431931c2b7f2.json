@@ -1,6 +1,65 @@
 {
  "url": "https://cookieandkate.com/greek-broccoli-salad-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Greek Broccoli Salad",
+  "ingredients": [
+   "1 large bunch of broccoli (about 1 ¼ pounds), florets removed and sliced into small, bite-sized pieces",
+   "⅓ cup roughly chopped sun-dried tomatoes*",
+   "¼ cup chopped shallot or red onion",
+   "¼ cup crumbled feta cheese or thinly sliced kalamata olives",
+   "¼ cup sliced almonds",
+   "¼ cup olive oil",
+   "2 tablespoons lemon juice",
+   "1 teaspoon honey or maple syrup or agave nectar",
+   "1 clove garlic, pressed or minced",
+   "½ teaspoon dried oregano",
+   "½ teaspoon Dijon mustard",
+   "¼ teaspoon salt, more to taste",
+   "Pinch red pepper flakes"
+  ],
+  "yield_text": "4 side servings",
+  "cook_time": "15 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Greek"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/greek-broccoli-salad-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium-sized serving bowl, toss together the broccoli, sun-dried tomatoes, shallot or red onion, feta or olives and almonds."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl, whisk together all of the dressing ingredients until emulsified. Drizzle the dressing over the salad and toss well."
+   },
+   {
+    "title": null,
+    "text": "For best flavor, let the salad rest for 30 minutes before serving so the broccoli has a chance to marinate in the bold, lemony dressing. (It’s great right away, too, though!)"
+   }
+  ],
+  "notes": [
+   "*Sun-dried tomatoes note: I’m partial to Trader Joe’s sun-dried tomatoes that come in a bag because they aren’t oily but they’re soft enough to eat right out of the bag. You could also use oil-packed sun-dried tomatoes, rinsed and patted dry. If you’re using tough, dried tomatoes, you’ll need to soak them in boiling water until they’re pliable, then pat them dry and chop them up.",
+   "Make it vegan: Use olives instead of feta and maple syrup or agave instead of honey.",
+   "Make it nut-free: Omit the almonds entirely or replace them with raw or roasted, shelled sunflower seeds."
+  ],
+  "summary": "This healthy broccoli salad recipe is packed with my favorite Greek flavors, including sun-dried tomatoes, feta or olives, garlic and lemon. It’s really easy to prepare and holds up well in the refrigerator, so it’s a great make-ahead side dish or potluck dish. Recipe yields about 4 side servings, so multiply if you’re feeding a crowd.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Broccoli salad"
+   },
+   {
+    "at": 5,
+    "title": "Dressing"
+   }
+  ]
+ }
 }

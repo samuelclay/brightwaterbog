@@ -27,7 +27,36 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/easy-tomato-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, fill a small bowl with ice water and add the chopped red onion (soaking the onion will tame its intense flavor and make it more crisp). Set aside as you prep the remaining ingredients."
+   },
+   {
+    "title": null,
+    "text": "To assemble the salad, spread the tomato wedges over a large serving platter. Drain the onions well, and layer about one-third of the onions on top. Add half of the cherry tomatoes, followed by a layer of any optional additions, followed by another one-third of the onions. Finish with the remaining cherry tomatoes, followed by the remaining onions, and sprinkle the basil all over."
+   },
+   {
+    "title": null,
+    "text": "Drizzle the olive oil over the salad, followed by the balsamic vinegar. Sprinkle the salt and several twists of black pepper on top. Serve promptly. This salad is best consumed within a couple of hours, but leftover salad will keep in the refrigerator, covered, for 3 days."
+   }
+  ],
+  "notes": [
+   "Change it up: Add any of the optional additions. Use any combination of tomatoes (you’ll need about 1 ¾ pounds total), cut into wedges or even large slices. You could also substitute ripe sliced peaches for some of the tomatoes.",
+   "*Balsamic vinegar note: For a beautiful drizzle, use high-quality, thick balsamic vinegar (I love Napa Valley Naturals’ Grand Reserve Vinegar—it’s about $10 at Natural Grocers or other well-stocked grocery stores—make sure you get the bottle with “25 stars” on it) or store-bought balsamic glaze/reduction (DeLallo and Alessi make them). Or, make your own balsamic reduction."
+  ],
+  "summary": "Extra tomatoes? Make this simple tomato salad recipe! It’s delicious, versatile and easy to make. This recipe features ripe tomatoes, fresh basil, soaked red onion, balsamic vinegar and olive oil. Recipe yields 4 to 6 side salads using 1 ¾ pound tomatoes; you can cut the recipe in half by using either the cherry tomatoes or the pound of regular tomatoes.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Tomato Salad"
+   },
+   {
+    "at": 8,
+    "title": "Optional Additions"
+   }
+  ]
  },
  "parser_version": 2
 }

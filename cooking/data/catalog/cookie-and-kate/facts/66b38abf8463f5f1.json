@@ -1,6 +1,45 @@
 {
  "url": "https://cookieandkate.com/fresh-mango-salsa-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Fresh Mango Salsa",
+  "ingredients": [
+   "3 ripe mangos, diced (how to cut a mango)",
+   "1 medium red bell pepper, chopped",
+   "½ cup chopped red onion",
+   "¼ cup packed fresh cilantro leaves, chopped",
+   "1 jalapeño, seeded and minced",
+   "1 large lime, juiced (about ¼ cup lime juice)",
+   "⅛ to ¼ teaspoon salt, to taste"
+  ],
+  "yield_text": "3 cups",
+  "cook_time": "15 minutes",
+  "categories": [
+   "Salsa"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/fresh-mango-salsa-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a serving bowl, combine the prepared mango, bell pepper, onion, cilantro and jalapeño. Drizzle with the juice of one lime."
+   },
+   {
+    "title": null,
+    "text": "Using a large spoon, stir the ingredients together. Season to taste with salt, and stir again. For the best flavor, let the salsa rest for 10 minutes or longer."
+   }
+  ],
+  "notes": [
+   "Mango salsa adapted from the mango pico in my Thai mango cabbage wraps.",
+   "Storage suggestions: Honestly, I’ll be amazed if you have any salsa leftovers! You can store the salsa in the refrigerator, covered, for several days. It will be best fresh, though."
+  ],
+  "summary": "This simple and colorful mango salsa is super easy to make! It’s sweet, spicy and absolutely delicious. Serve this fresh mango salsa with chips, on tacos or salads, or as a salad itself. It’s that good. Recipe yields about 3 cups salsa.",
+  "ingredient_groups": []
+ }
 }

@@ -28,7 +28,32 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2009/11/moroccan-spiced-spaghetti-squash/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the squash in a microwave: Pierce squash (about an inch deep) all over with a small sharp knife to prevent bursting. Cook in an 800-watt microwave oven on high power (100 percent) for 6 to 7 minutes. Turn squash over and microwave until squash feels slightly soft when pressed, 8 to 10 minutes more. Cool squash for 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "To roast the squash, two methods: If you’d like to roast the squash whole, pierce it all over with a small sharp knife to prevent bursting and bake it in a 375°F oven for one hour. If you are good with a big, sharp kinfe, you can save some time by cutting the squash in half lengthwise, scooping out the seeds and roasting the halves face-down in an oiled baking pan for about 40 minutes in a 375°F oven."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, melt the butter in a small saucepan over medium heat. Add the garlic and cook, stirring, until it is barely golden. Stir in spices and salt and remove from heat."
+   },
+   {
+    "title": null,
+    "text": "If you have microwaved or roasted your squash whole, carefully halve it lengthwise (it will give off a lot of steam) and remove the seeds."
+   },
+   {
+    "title": null,
+    "text": "Carefully halve squash lengthwise (it will give off steam) and remove and discard seeds. Working over a bowl, scrape squash flesh with a fork, loosening and separating strands as you remove it from skin. Toss with the spiced butter and cilantro."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -1,6 +1,49 @@
 {
  "url": "https://cookieandkate.com/zaatar-spice-blend-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Za’atar Spice Blend",
+  "ingredients": [
+   "2 tablespoons dried oregano, preferably Greek or Turkish",
+   "2 tablespoons sumac",
+   "2 tablespoons sesame seeds",
+   "1 tablespoon dried marjoram or additional oregano",
+   "1 tablespoon dried thyme",
+   "1 teaspoon fine sea salt"
+  ],
+  "yield_text": "1/2 cup",
+  "cook_time": "8 minutes",
+  "categories": [
+   "Condiment"
+  ],
+  "cuisines": [
+   "Middle Eastern"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/zaatar-spice-blend-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Simply combine all of the ingredients in a bowl or jar, and stir to combine."
+   },
+   {
+    "title": null,
+    "text": "For enhanced flavor, warm the spices together in a medium skillet over medium heat, until fragrant and the sesame seeds are starting to turn golden. Remove from the heat and transfer to a bowl to cool. (Skip this step if you will be baking your za’atar on pita bread, which essentially does the same thing.)"
+   },
+   {
+    "title": null,
+    "text": "Store za’atar in an air-tight container at room temperature for up to 1 month."
+   }
+  ],
+  "notes": [
+   "Recipe roughly adapted from Zaitoun by Yasmin Khan.",
+   "Serving suggestions: Mix za’atar with olive oil and spread it over pita bread (or pita dough) before baking. Or dip bread into olive oil, followed by a dunk into the za’atar blend. Mix za’atar with olive oil and drizzle it over labneh, Greek yogurt or hummus. Roll extra-thick rounds of labneh or a log of goat cheese in the dry spice mixture. Use the olive oil mixture as a marinade, or the plain spice blend as a dry rub.",
+   "Olive oil ratio: Two parts za’atar to one part olive oil will yield a thick, spreadable consistency. Equal parts yields a drizzly sauce."
+  ],
+  "summary": "Learn how to make za’atar, the classic Middle Eastern seasoning, with this simple recipe. You’ll need dried oregano, sumac, sesame seeds, marjoram (optional) and thyme. Recipe yields ½ cup and keeps for up to 1 month.",
+  "ingredient_groups": []
+ }
 }

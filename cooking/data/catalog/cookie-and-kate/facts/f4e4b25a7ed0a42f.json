@@ -30,7 +30,22 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/black-bean-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large serving bowl, combine all of the ingredients and toss to combine. Taste, and adjust as necessary until the flavors really pop—I usually add another teaspoon or two of vinegar (you can use lime juice instead, for more mild flavor) and another ¼ teaspoon salt."
+   },
+   {
+    "title": null,
+    "text": "Cover and chill to enhance the flavors—preferably for at least 2 hours, or overnight. Serve in individual bowls as is, or with any of the garnishes listed. Leftovers keep well for up to 4 days or so; you might want to wake up the flavors with an extra squeeze of lime juice or tiny splash of vinegar."
+   }
+  ],
+  "notes": [
+   "Change it up: Serve this recipe as black bean salsa (you can omit the oil) with tortilla chips. If you don’t like corn, omit it and add an extra cup of quartered cherry tomatoes."
+  ],
+  "summary": "This Southwestern black bean salad recipe is healthy and delicious! This fresh black bean salad is perfect for potlucks, parties and busy weeks. Recipe yields 4 large or up to 8 side servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

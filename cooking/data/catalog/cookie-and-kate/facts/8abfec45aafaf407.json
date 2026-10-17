@@ -1,6 +1,48 @@
 {
  "url": "https://cookieandkate.com/roasted-delicata-squash-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Perfect Roasted Delicata Squash",
+  "ingredients": [
+   "2 medium delicata squash (about 2 pounds total)",
+   "1 tablespoon extra virgin olive oil",
+   "¼ teaspoon fine salt"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-delicata-squash-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper for easy clean-up."
+   },
+   {
+    "title": null,
+    "text": "To prepare the squash, slice off the stem end and discard. Decide if you want half-moon shapes or rings. For half moons, slice the squash lengthwise down the middle and scoop out the seeds with a spoon. Then place the cut sides down and slice across the ridges to make ½″ thick pieces. For rings, slice the squash into ½″ thick rounds and use a spoon to scoop the seeds out of each round."
+   },
+   {
+    "title": null,
+    "text": "Place the sliced delicata squash on your rimmed baking sheet. Drizzle the olive oil and sprinkle the salt on top. Toss until the squash is lightly and evenly coated in oil (add another splash if the squash seems dry), then arrange them in a single layer."
+   },
+   {
+    "title": null,
+    "text": "Bake for about 25 to 35 minutes or until the squash is tender and golden, flipping halfway. Serve as desired."
+   }
+  ],
+  "notes": [
+   "Note on seeds: You can roast the seeds if you’d like to separate them from the pulp. Refer to my roasted pumpkin seeds recipe for details."
+  ],
+  "summary": "Follow this simple recipe, and your roasted delicata squash will turn out tender on the inside and caramelized on the outside. Recipe yields 4 servings.",
+  "ingredient_groups": []
+ }
 }

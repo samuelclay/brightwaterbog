@@ -28,7 +28,50 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/roasted-cherry-tomato-arugula-and-sorghum-salad/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, cook the sorghum: Combine rinsed sorghum and three cups water in a small pot. Bring to a boil, then cover and reduce heat to medium-low. Cook until the sorghum is pleasantly tender but still has some chew to it, about 55 to 65 minutes. You can wait until the sorghum is halfway cooked before proceeding with the next steps."
+   },
+   {
+    "title": null,
+    "text": "To roast the cherry tomatoes: Preheat oven to 400 degrees Fahrenheit. Line a small, rimmed baking sheet with parchment paper for easy cleanup. Toss the whole cherry tomatoes with one tablespoon olive oil and a sprinkle of salt. Roast until the tomatoes are soft, plump and starting to burst open, about 18 minutes."
+   },
+   {
+    "title": null,
+    "text": "To make the dressing: Whisk together the olive oil, lemon juice, garlic, red pepper flakes, salt and pepper until emulsified."
+   },
+   {
+    "title": null,
+    "text": "Once the sorghum is done cooking: Drain off any excess water and pour the cooked sorghum into a serving bowl. Pour in all of the dressing, all of the cherry tomatoes and their juices, the arugula*, feta, Parmesan and chickpeas (optional). Toss well and serve."
+   }
+  ],
+  "notes": [
+   "Make it vegan/dairy free: Omit the cheese.",
+   "*Storage suggestions: If you won’t be serving all of the salad in one sitting, store the arugula separately from the rest of the salad and mix the arugula into the sorghum salad just when you’re ready to serve. The sorghum salad should keep well, covered and refrigerated with the arugula stored separately, for a couple of days. Serve cold or reheat the sorghum before tossing in the arugula.",
+   "Change it up: Feel free to substitute cooked pasta (penne, spirals or pearl couscous would be good) or another whole grain for the sorghum (farro, wheat berries, quinoa, millet).",
+   "Prepare in advance: You can pre-cook the sorghum and reheat it just before adding the roasted cherry tomatoes and everything else. I bet that extra sorghum would freeze well, if you want to make extra for later."
+  ],
+  "summary": "A light and healthy sorghum salad featuring roasted cherry tomatoes, arugula and feta (optional) tossed in a lemony dressing. This salad is gluten free and vegan, if you skip the cheese. If you’d like to turn this salad into a full meal, add chickpeas for protein.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Sorghum"
+   },
+   {
+    "at": 2,
+    "title": "Roasted cherry tomatoes"
+   },
+   {
+    "at": 5,
+    "title": "Lemony dressing"
+   },
+   {
+    "at": 11,
+    "title": "Everything else"
+   }
+  ]
  },
  "parser_version": 2
 }

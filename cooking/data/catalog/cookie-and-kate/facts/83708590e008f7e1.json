@@ -30,7 +30,47 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/roasted-cauliflower-and-farro-salad-with-feta-and-avocado/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To roast the cauliflower: Preheat the oven to 425 degrees Fahrenheit. Toss the cauliflower florets with the olive oil, red pepper flakes and salt, and arrange it in an even layer across the pan. Roast for 25 to 35 minutes, tossing halfway, until the cauliflower is tender and deeply golden on the edges."
+   },
+   {
+    "title": null,
+    "text": "To cook the farro: In a medium saucepan, combine the rinsed farro with at least three cups water (enough water to cover the farro by a couple of inches). Bring the water to a boil, then reduce the heat to a gentle simmer, and cook until the farro is tender to the bite but still pleasantly chewy. (Pearled farro will take around 15 minutes; unprocessed farro will take 25 to 40 minutes.) Drain off the excess water and mix in the olive oil, garlic and salt. Set aside."
+   },
+   {
+    "title": null,
+    "text": "In a large serving bowl, toss together the roasted cauliflower, cooked farro, olives, sun-dried tomatoes, feta and lemon juice. Taste and season with additional salt and pepper if necessary."
+   },
+   {
+    "title": null,
+    "text": "Divide the avocado and greens between four dinner plates. Top with a generous amount of the cauliflower and farro salad. Finish the plates with an extra squeeze of lemon juice or drizzle of olive oil, if desired. Serve promptly."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by George’s at the Cove in La Jolla.",
+   "Storage suggestions: Leftovers should keep well for several days. Store greens separately and slice the avocado just before serving.",
+   "Change it up: If you can’t find farro, spelt berries or wheat berries would be great substitutions. You might have to cook those grains longer.",
+   "Make it gluten free: I think this would be good with cooked short-grain brown rice or quinoa instead of farro.",
+   "Make it vegan: Skip the feta. You might want to add some extra olives to make up for it."
+  ],
+  "summary": "This satisfying vegetarian salad recipe features warm whole grains, roasted cauliflower, fresh greens and bold Mediterranean flavors. It packs well for lunch, too! Recipe yields 4 hearty salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted cauliflower"
+   },
+   {
+    "at": 4,
+    "title": "Garlicky farro"
+   },
+   {
+    "at": 8,
+    "title": "Everything else"
+   }
+  ]
  },
  "parser_version": 2
 }

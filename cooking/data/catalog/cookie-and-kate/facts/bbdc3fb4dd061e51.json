@@ -1,6 +1,46 @@
 {
  "url": "https://cookieandkate.com/peanut-butter-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Homemade Peanut Butter",
+  "ingredients": [
+   "16 ounces (3 cups) unsalted dry roasted peanuts",
+   "Up to ¼ teaspoon fine salt",
+   "Optional flavorings: 2 to 3 teaspoons honey or maple syrup, ½ teaspoon ground cinnamon"
+  ],
+  "yield_text": "16 ounces",
+  "cook_time": "15 minutes",
+  "categories": [
+   "Nut Butter"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/peanut-butter-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Transfer the peanuts to a food processor. Blend until the mixture is completely smooth and creamy, pausing to scrape down the sides as necessary, about 10 minutes. The peanuts will go from flour-like clumps to a ball against the side of the food processor, and finally, the mixture will turn lusciously creamy. If the mixture gets hot along the way or your machine seems tired, stop and let it cool for a few minutes."
+   },
+   {
+    "title": null,
+    "text": "If desired, add a pinch or two of salt, honey and/or cinnamon. Blend until well mixed, about 30 seconds, then taste and add more if desired."
+   },
+   {
+    "title": null,
+    "text": "Let the peanut butter cool to room temperature, then transfer the mixture to a mason jar and screw on the lid. Store in the refrigerator for up to 1 month."
+   }
+  ],
+  "notes": [
+   "Raw peanut option: To roast your own peanuts, preheat the oven to 350 degrees Fahrenheit. Spread shelled peanuts across a large, rimmed baking sheet and toast the peanuts for 10 to 20 minutes, until nicely fragrant, stirring every 5 minutes. Let the peanuts cool until they’re just warm to the touch (not hot) before blending.",
+   "Crunchy peanut butter: Reserve about ¾ cup of the peanuts. Blend the rest as directed, then add the reserved peanuts back to the processor and process just until they are broken into small bits.",
+   "Make it vegan: Don’t add honey. Sweeten with maple syrup, if desired."
+  ],
+  "summary": "This peanut butter recipe is so easy to make in a food processor. Homemade peanut butter tastes fresh, creamy, and irresistibly peanutty. You’re going to love it! Recipe yields 16 ounces peanut butter (about 2 cups).",
+  "ingredient_groups": []
+ }
 }

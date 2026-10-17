@@ -1,6 +1,88 @@
 {
  "url": "https://cookieandkate.com/summer-rolls-with-spicy-peanut-sauce/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Summer Rolls with Spicy Peanut Sauce",
+  "ingredients": [
+   "½ cup roasted peanuts (unsalted or lightly salted)",
+   "½ cup light coconut milk",
+   "2 tablespoons lime juice (the juice of less than 1 lime)",
+   "1 tablespoon agave nectar",
+   "1 tablespoon reduced sodium tamari (or other soy sauce)",
+   "about 5 cloves garlic (to taste)",
+   "pinch of red pepper flakes",
+   "1 package (14 ounces) extra-firm tofu",
+   "1+ tablespoon sesame seeds",
+   "2 heaping cups arugula, roughly chopped",
+   "3 big carrots, cut into matchsticks",
+   "4 Persian cucumbers, cut into matchsticks (or about 2 regular cucumbers)",
+   "2 red or orange bell peppers, top and bottom removed and sliced into thin strips",
+   "1 jalapeño, cut into matchsticks (optional)",
+   "3 green onions, sliced into thin rounds",
+   "⅓ cup chopped fresh cilantro",
+   "⅓ cup chopped fresh mint",
+   "8 sheets rice paper (8 to 10 inches in diameter)",
+   "Sriracha hot sauce, for serving with assembled spring rolls (optional)"
+  ],
+  "yield_text": "4",
+  "cook_time": "45 minutes",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Thai"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/summer-rolls-with-spicy-peanut-sauce/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a food processor, process all of the dipping sauce ingredients for a couple of minutes, until fairly smooth. Transfer to a small bowl or divide into individual ramekins. (You can make the dipping sauce a day ahead, just cover and store in the refrigerator until ready to serve.)"
+   },
+   {
+    "title": null,
+    "text": "Drain the water from the tofu and very gently squish some of the water out of the tofu. Slice the tofu into two slabs by cutting lengthwise through the center. Wrap the slabs in a clean tea towel or paper towels. Stack the slabs on top of each other and place a heavy saucepan or a plate and cans on top to help press out more of the moisture."
+   },
+   {
+    "title": null,
+    "text": "Prepare the arugula, herbs and vegetables as directed in the ingredients list above. Set them out on your work surface, with a clean tea towel on the side."
+   },
+   {
+    "title": null,
+    "text": "Remove the towels from the tofu and slice each slab into about 7 equal-sized strips (less than ½-inch in width). Sprinkle sesame seeds onto a plate or cutting board and gently roll the tofu strips to coat."
+   },
+   {
+    "title": null,
+    "text": "Fill a bowl or baking pan with warm water. Place one rice paper in the water and let it rest for about twenty seconds. You’ll learn to go by feel here—the sheet should be pliable enough to give to touch but not super floppy. Lay it on the towel."
+   },
+   {
+    "title": null,
+    "text": "Top the rice paper in a lengthwise orientation (as shown) with a big sprinkle of arugula, one strip of tofu, a few strips of carrot, cucumber, bell pepper and jalapeño (if using). Sprinkle with some chopped green onion, cilantro and mint."
+   },
+   {
+    "title": null,
+    "text": "Fold over one long side to enclose the filling, then fold over the short sides like you would a burrito, and lastly, roll it up, stretching the remaining long side around the the roll to seal it. Serve the rolls whole or cut in half, with dipping sauce on the side."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from The Food Matters Cookbook by Mark Bittman and The Sprouted Kitchen by Sara Forte.",
+   "Preparation tips: If you like to smother your spring rolls in sauce, you might want to double the sauce recipe.",
+   "Make it gluten free: Use tamari instead of soy sauce.",
+   "Change it up: Arugula might seem to be a strange choice of greens here, but I really loved the spicy flavor and preferred it to watercress. You could also try leaves of butter lettuce for some crunch."
+  ],
+  "summary": "Spring rolls stuffed arugula, sesame seed-sprinkled tofu and crisp summer vegetables. Served with spicy peanut sauce, these rolls are a great appetizer or light main course. Bonus: they don’t require the stove or the oven! Amounts for stuffing ingredients listed above are approximate, adjust them to suit your tastes and needs.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Spicy Peanut Dipping Sauce"
+   },
+   {
+    "at": 7,
+    "title": "Summer Rolls"
+   }
+  ]
+ }
 }

@@ -46,7 +46,38 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2020/06/smashed-potatoes-with-sweet-corn-relish/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the Sweet Corn Relish: Bring a large pot of water to a boil over high heat. Prepare a bowl with ice water and set aside. Add the corn, bring the water back to a boil, and blanche for 1 minute. Drain the corn in a colander and immediately transfer to the ice water bath for 5 minutes. Drain the corn and slice the kernels from the ears. Place the corn kernels, tomatoes, onion, bell pepper, jalapeño, and garlic in a 1-quart jar, or divide between 2 1-pint jars, and set aside. In the same pot you used for the corn, combine the vinegar, 1/4 cup water, sugar, mustard and cumin seeds, salt, peppercorns, and turmeric and bring to a simmer over medium-high heat. Cook until the liquid is hot to the touch and the sugar has completely dissolved, about 3 minutes. Pour the liquid over the corn mixture and let cool. Refrigerate the relish for at least one day to develop the flavor, or up to 1 year."
+   },
+   {
+    "title": null,
+    "text": "Make the Spicy Spring Pea Sauce: Remove your peas from their pods. In a medium pot or saucepan, bring 1 quart water to boil over high heat. Add 2 teaspoons of the salt and gently pour the peas into the pot. Blanch until just tender, about 3 minutes, or up to 4 minutes if they were frozen. Drain the peas in a colander and rinse with cold water. Transfer the peas to a blender. Add 1/4 water to start, the remaining 1/4 teaspoon salt, the jalapeño, and the lemon juice and puree until smooth, adding remaining 1/4 cup water, 1 tablespoon at a time, if necessary (the mixture should be viscous but pour fairly easily from the blender). Pour the pureed peas into a serving bowl. Season more salt, white pepper, and lemon juice to taste."
+   },
+   {
+    "title": null,
+    "text": "Make the Smashed Potatoes and Caramelized Onion Rings: Fit a large pot with a steamer insert and fill with 2 inches of water. Put the potatoes and in the steamer, cover, and cook over medium heat until fork-tender, about 35 to 45 minutes, adding more water to the pot if necessary. Remove the potatoes from the steam and let cool for 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "While the potatoes are steaming, warm 1/4 cup of the oil in a large skillet over medium heat until shimmering. Reduce the heat to low and add the onion slices, keeping them intact. Cook, gently stirring and flipping as needed for even cooking, until just starting to caramelize, about 30 minutes. Season with salt and set aside. Leave any extra oil behind in the pan."
+   },
+   {
+    "title": null,
+    "text": "On a clean work surface, gently press each potato with the palm of your hand to flatten it to about 1/2-inch-thick. Set aside. Line a baking sheet with paper towels. In the same large skillet where you cooked the onion slices, add the remaining 1/4 cup oil over medium-high heat. Add half the potatoes in a single layer and cook until crispy and browning, about 5 minutes. Salt the potatoes, gently flip them, and fry for 4 to 5 minutes more. Salt the second side and transfer to the prepared baking sheet. Repeat with the remaining potatoes."
+   },
+   {
+    "title": null,
+    "text": "To serve: arrange the potatoes on a serving platter, top with the onions and sweet corn relish, and season with pepper. Put the pea sauce in a medium bowl and serve it alongside the potatoes."
+   }
+  ],
+  "notes": [
+   "Terry’s recipe calls for 1/4 cup sugar in the corn relish but I used only 1 tablespoon, as I prefer a less sweet relish. I also increased the salt from 1/2 to 1 teaspoon, due to personal tastes. I ended up making the potatoes with large red ones which are definitely more awkward but not impossible to smash and fry."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

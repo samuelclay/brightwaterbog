@@ -18,7 +18,27 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/perfect-wild-rice-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a large pot of water to boil, using at least 6 cups water per 1 cup rice (or see Instant Pot option provided in notes). Thoroughly rinse the rice in a fine mesh colander under running water."
+   },
+   {
+    "title": null,
+    "text": "Add the rinsed rice and continue cooking, reducing heat as necessary to maintain an active simmer, for 40 minutes to 55 minutes. It’s done when the rice is pleasantly tender but still offers a light resistance to the bite. If you see any grains bursting open down the center seam (like a hot dog bun), it’s likely done."
+   },
+   {
+    "title": null,
+    "text": "Drain the rice and return the rice to the pot (off the heat). Stir in any seasonings you’d like to add. If you have the time, place a tea towel over the pot, cover, and let it rest for 10 minutes (this absorbs any excess moisture). Use as desired."
+   }
+  ],
+  "notes": [
+   "Instant Pot option: Add 1 cup well-rinsed wild rice and 1 ¼ cups water to the Instant Pot. Secure the lid and move the steam release valve to Sealing. Select the Manual/Pressure Cook option and cook on high pressure for 22 minutes. When the cooking cycle is complete, let the pressure naturally release for 10 minutes, then move the steam release valve to Venting to release any remaining pressure. When the floating valve drops, remove the lid and give the rice a stir. Season as desired. This method is courtesy of The Fresh & Healthy Instant Pot Cookbook by Megan Gilmore.",
+   "Storage suggestions: Wild rice will keep well in the refrigerator, covered, for up to 5 days. Or, freeze it for several months. Gently defrost in the microwave before serving."
+  ],
+  "summary": "Learn how to cook perfect wild rice in this simple recipe! Wild rice is a nutritious and delicious whole grain. It’s a great addition to salads and sides. Scale this recipe as needed (just be sure to use plenty of water). One cup uncooked wild rice yields just over 3 cups cooked.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

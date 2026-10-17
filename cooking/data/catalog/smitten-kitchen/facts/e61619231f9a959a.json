@@ -26,7 +26,38 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2024/04/steamed-artichokes/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Trim artichokes: Cut the bottom inch of thorny leaves off each artichoke. Remove any small, discolored leaves around the sides and closer to the stem; they’re not going to taste good. Use a vegetable peeler to remove the outer layer of the stem. Cut each artichoke in half through the stem, heart, and leaves. If you’d like, you can rub the cut parts of each artichoke with one lemon half to limit browning."
+   },
+   {
+    "title": null,
+    "text": "Steam artichokes: Bring a couple inches of water to boil in a large pot with a lid and place a steamer basket [mine looks like this] in the bottom. Add artichokes — don’t worry about whether they’re standing or flopped over. Squeeze the juice of half a lemon over and nestle the empty lemon half in the middle, just for flavor. Cover with a lid and steam artichokes over moderate heat for 25 to 30 minutes, until the tip of a knife inserts easily into the thickest part where the leaves meet the stem."
+   },
+   {
+    "title": null,
+    "text": "Use tongs to transfer artichokes to a cutting board, and use a spoon or paring knife to remove and discard the fuzzy choke. Your artichokes are now ready to eat, but if you’d like a fancy finish:"
+   },
+   {
+    "title": null,
+    "text": "For a sizzled finish: Heat a large skillet over medium-high heat and add butter and garlic. Once hot, place cut sides of one artichoke in pan and cook until browned and crisp underneath, then transfer to serving platter. Repeat with remaining artichokes. Pour any butter left in pan and the garlic over your artichokes. Season with salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "To make my favorite artichoke dip: Place a spoonful of mayo (about 1 to 2 tablespoons, start with less) in a bowl and squeeze the juice of half a lemon over. Stir to combine and season well with freshly ground black pepper and a pinch or two of salt. If it needs more lemon — I like it very lemony — squeeze more in. If you’d prefer it creamier, add more mayo."
+   },
+   {
+    "title": null,
+    "text": "Leftover artichoke halves keep in the fridge for a few days and can be rewarmed in the microwave or the oven, covered so they don’t dry out."
+   }
+  ],
+  "notes": [
+   "Each of the preparation steps is shown in the photos above so please check them for visual guidance."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

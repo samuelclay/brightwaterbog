@@ -34,7 +34,59 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/carrot-cake-pancakes/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare, spoon the cream cheese into a bowl and leave it out at room temperature to soften. Soften the carrots by placing them in a microwave-safe bowl, such as a glass liquid measuring cup. Lightly dampen a paper towel and use it to cover the bowl. Microwave the bowl on high for 2 minutes, then let the carrots cool (be careful; the bowl will be hot). If desired, preheat the oven to 200 degrees Fahrenheit to keep the pancakes warm before serving."
+   },
+   {
+    "title": null,
+    "text": "In a large bowl, whisk together the flour, baking powder, baking soda, salt, cinnamon, nutmeg and ginger."
+   },
+   {
+    "title": null,
+    "text": "In a smaller bowl, whisk together the egg, sugar, buttermilk and vanilla. Stir in the cooled carrots, then pour the wet mixture into the dry mixture. Stir just until incorporated. Let the mixture rest for 5 minutes while you make the cream cheese topping and preheat your griddle/skillet."
+   },
+   {
+    "title": null,
+    "text": "Whisk the cream cheese in a small bowl until it is soft and pliable, with no lumps. If your cream cheese is not soft enough to do this, try zapping it in the microwave for just a few seconds at a time. Whisk in the maple syrup, milk, vanilla and cinnamon. Feel free to sweeten with more syrup or further thin it out further with more milk. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Heat a large skillet (stainless steel or nonstick) over medium-low heat (if using an electric griddle, heat it to 350 degrees Fahrenheit). You’re ready to start cooking pancakes once a drop of water sizzles on contact with the hot surface. Lightly oil the cooking surface with a pat of oil or butter, then carefully wipe up the excess with a paper towel (nonstick surfaces likely won’t require any oil)."
+   },
+   {
+    "title": null,
+    "text": "Scoop ¼ cup of batter onto the hot skillet, leaving a couple of inches around each pancake for expansion. Cook until the bottom side is lightly golden and firm enough to flip, 2 to 3 minutes."
+   },
+   {
+    "title": null,
+    "text": "Flip the pancakes, then cook for 1 to 2 minutes more, until they are lightly golden on both sides. Repeat the process with the remaining batter, lightly oiling the skillet and dialing down the heat if the pancakes turn dark on the outside before they are cooked through on the inside. If desired, place the pancakes on an ovenproof plate and keep them in the oven while you cook the remaining pancakes."
+   },
+   {
+    "title": null,
+    "text": "To serve, top with maple cream cheese and an optional sprinkle of nuts. Serve with extra maple syrup on the side. Leftover pancakes will keep well in the refrigerator for 4 days or in the freezer for up to 6 months."
+   }
+  ],
+  "notes": [
+   "Adapted from the Joy the Baker Cookbook.",
+   "*If you have a food processor: Roughly chop the carrots, then pulse them in the processor until they are finely grated but not mush.",
+   "**Make your own buttermilk: Combine 1 cup milk with 1 tablespoon lemon juice or vinegar. Let it rest for 5 minutes, then proceed as directed.",
+   "Make it dairy free: Substitute plain dairy-free milk like almond milk for the buttermilk option provided above. Use oil instead of butter for greasing the pan. Use dairy-free cream cheese and more dairy-free milk for the topping.",
+   "Recipe edits: In 2025, I retested the recipe and tweaked it for clarity. I added more baking powder for loft and steamed the carrots for a nicer texture."
+  ],
+  "summary": "These carrot cake pancakes are decadent and delicious. Make them with whole wheat flour or all-purpose if you prefer. Recipe y ields 11 to 12 medium pancakes.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Pancakes"
+   },
+   {
+    "at": 13,
+    "title": "Maple cream cheese topping"
+   }
+  ]
  },
  "parser_version": 2
 }

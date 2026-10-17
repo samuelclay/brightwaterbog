@@ -23,7 +23,35 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/barbecue-pineapple-jalapeno-and-feta-pizza/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 500 degrees Fahrenheit with a rack in the upper third of the oven. If you’re using a baking stone or baking steel, place it in the oven on the top rack."
+   },
+   {
+    "title": null,
+    "text": "Prepare dough through step 5 (my only suggested change is to season the flour mixture generously with freshly ground pepper before turning on the food processor)."
+   },
+   {
+    "title": null,
+    "text": "Evenly spread ¼ cup barbecue sauce over each pizza. Divide toppings evenly over the two pizzas, beginning with grated mozzarella, followed by sliced pineapple, pickled jalapeños, crumbled feta and chopped onion."
+   },
+   {
+    "title": null,
+    "text": "Bake pizzas individually on the top rack until the crust is golden and the cheese is golden and bubbly, about 12 minutes (or significantly less, if you’re using a baking stone/steel—keep an eye on it). Transfer pizza to a cutting board, slice and serve with desired garnishes on the side."
+   }
+  ],
+  "notes": [
+   "Pizza dough preparation tips: This crust turns out especially golden and bubbly if you bake it on a hot pizza stone or pizza steel instead of a baking sheet. I roll out the pizza on parchment paper, cut to size, then scoot it onto the pizza steel using a cookie sheet. The pizza will bake much faster on a hot surface, so keep an eye on it and reduce the baking time accordingly. I hear this dough works great on the grill, too!"
+  ],
+  "summary": "Vegetarian barbecue pizza topped with sweet pineapple, spicy jalapeño and salty feta! This pizza is totally irresistible and really easy to make at home. Recipe yields two 11-inch pizzas.",
+  "ingredient_groups": [
+   {
+    "at": 7,
+    "title": "Optional garnishes"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -34,7 +34,32 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2010/02/ginger-fried-rice/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large skillet, heat 1/4 cup oil over medium heat. Add garlic and ginger and cook, stirring occasionally, until crisp and brown. With a slotted spoon, transfer to paper towels and salt lightly."
+   },
+   {
+    "title": null,
+    "text": "[It hadn’t been clear to me whether I was supposed to remove the old oil and bits of garlic I didn’t get out and wipe out the pan before proceeding. I didn’t. Everything worked out fine.] Reduce heat under skillet to medium-low and add 2 tablespoons oil and leeks. Cook about 10 minutes, stirring occasionally, until very tender but not browned. Season lightly with salt."
+   },
+   {
+    "title": null,
+    "text": "Raise heat to medium and add rice. Cook, stirring well, until heated through. [I cooked this slightly longer because I wanted my rice to pick up a little more color and crunch.] Season to taste with salt."
+   },
+   {
+    "title": null,
+    "text": "In a nonstick skillet (it just makes it easier) fry eggs in remaining oil, sunny-side-up, until edges are set but yolk is still runny."
+   },
+   {
+    "title": null,
+    "text": "Divide rice among four dishes. Top each with an egg and drizzle with 1/2 teaspoon sesame oil and 1 teaspoon soy sauce. Sprinkle crisped garlic and ginger over everything and serve."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

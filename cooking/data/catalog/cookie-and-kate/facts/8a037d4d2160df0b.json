@@ -18,7 +18,26 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/perfect-roasted-broccoli-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. Line a large, rimmed baking sheet for easy clean-up, if desired."
+   },
+   {
+    "title": null,
+    "text": "On the prepared baking sheet, toss the broccoli with the oil until all of the florets are lightly coated. Arrange them in an even layer across the pan, then sprinkle salt and pepper on top."
+   },
+   {
+    "title": null,
+    "text": "Bake for 18 to 22 minutes, tossing halfway, or until the florets are turning deeply golden on the edges. Season to taste with additional salt and pepper, if necessary, and serve warm."
+   }
+  ],
+  "notes": [
+   "Change it up: Your garnishes can offer extra flavor. I love finishing the broccoli with a light drizzle of thick balsamic vinegar or balsamic reduction, or a squeeze of fresh lemon juice (bonus points for adding lemon zest, too). Grated Parmesan is a good idea, especially if you’re serving your broccoli with Italian main dishes. You can’t go wrong with a light sprinkle of red pepper flakes. For an Asian spin, top with sesame seeds (white or black), and a light drizzle of toasted sesame oil."
+  ],
+  "summary": "Roasted broccoli is truly irresistible, and so easy to make! It will become your new favorite side dish. Find the basic recipe here, plus fun variations in the recipe notes. Recipe yields 4 side servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

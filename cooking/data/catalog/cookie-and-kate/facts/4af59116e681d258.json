@@ -19,7 +19,26 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/avocado-toast-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Toast your slice of bread until golden and firm."
+   },
+   {
+    "title": null,
+    "text": "Remove the pit from your avocado. Use a big spoon to scoop out the flesh. Put it in a bowl and mash it up with a fork until it’s as smooth as you like it. Mix in a pinch of salt (about ⅛ teaspoon) and add more to taste, if desired."
+   },
+   {
+    "title": null,
+    "text": "Spread avocado on top of your toast. Enjoy as-is or top with any extras offered in this post (I highly recommend a light sprinkle of flaky sea salt, if you have it)."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Use gluten-free bread. My assistant Megan recommends Canyon Bakehouse 7-Grain Bread, which she buys at Natural Grocers."
+  ],
+  "summary": "Avocado toast is creamy, crisp and so satisfying. It’s a delicious and simple breakfast, snack or light meal! It’s best consumed immediately, since the avocado browns over time. Recipe as written yields 1 slice of basic avocado toast; multiply as necessary.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

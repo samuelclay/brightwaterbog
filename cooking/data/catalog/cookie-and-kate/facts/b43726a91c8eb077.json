@@ -23,7 +23,43 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/orange-poppy-seed-pound-cake/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees F. Generously butter a 8 ½ by 4 ¼ by 2 ½-inch loaf pan. (Ina suggests lining the bottom of the pan with parchment paper cut to fit. I didn’t do this but the cake did stick to the bottom a little bit.)"
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, whisk together the flour, poppy seeds, baking powder, and salt."
+   },
+   {
+    "title": null,
+    "text": "Pour the sugar into a medium-sized mixing bowl. Grate all the zest from the orange (should yield about 2 teaspoons zest). Rub the zest into the sugar until the sugar is orange and fragrant."
+   },
+   {
+    "title": null,
+    "text": "Slice the orange in half for juicing. In a liquid measuring cup, measure out ¾ cup yogurt and squeeze in about ¼ cup orange juice to yield 1 cup total liquid. Whisk the yogurt and orange juice, eggs and vanilla into the sugar mixture."
+   },
+   {
+    "title": null,
+    "text": "When the mixture is well blended, gently whisk in the dry ingredients, just until incorporated. Switch to a spatula and fold in the oil, making sure it’s all incorporated. The batter will be shiny. Pour the batter into the prepared loaf pan and smooth the top."
+   },
+   {
+    "title": null,
+    "text": "Bake the cake for 50 to 55 minutes, or until the top is golden and the sides start to pull away from the sides of the pan; a toothpick inserted into the center should come out clean."
+   },
+   {
+    "title": null,
+    "text": "Let the cake cool in the pan for 10 minutes, then run a knife between the cake and the sides of the pan to loosen. Unmold the cake by placing a large plate upside down over the loaf pan and carefully turning them over. Let the cake cool to room temperature right-side up."
+   }
+  ],
+  "notes": [
+   "Adapted from Ina Garten’s Lemon Yogurt Cake, Dorie Greenspan’s EVO and Yogurt Loaf Cake, Melissa Clark’s Blood Orange Olive Oil Cake (found in In the Kitchen with A Good Appetite, available online at Smitten Kitchen) and Deb Perelman’s Lemon Yogurt Anything Cake. Whew.",
+   "Zesting citrus is super easy with a Microplane zester/grater. Love that thing."
+  ],
+  "summary": "Lightened-up orange poppy seed pound cake cheers up chilly days. Made with whole wheat pastry flour, olive oil and yogurt, this pound cake is healthier than most. Serve slices as is, or add a scoop of ice cream for dessert or yogurt for breakfast.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

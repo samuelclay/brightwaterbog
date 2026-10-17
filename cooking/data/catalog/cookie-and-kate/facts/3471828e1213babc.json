@@ -26,7 +26,44 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/blender-oatmeal-pancakes-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "If you’re using an electric skillet, preheat it to 375 degrees Fahrenheit now (if not, carry on and you’ll find a stovetop alternative in step 3)."
+   },
+   {
+    "title": null,
+    "text": "In a blender, combine all of the ingredients as listed. Blend at medium-to-high speed until smooth, about 30 to 60 seconds. Set aside."
+   },
+   {
+    "title": null,
+    "text": "If you are not using an electric skillet, heat a skillet (ideally cast iron) or griddle over medium heat. You’re ready to start cooking pancakes once a drop of water sizzles on contact with the hot surface. If your surface is not non-stick, lightly brush the cooking surface with melted butter."
+   },
+   {
+    "title": null,
+    "text": "Using a ⅓-cup measuring cup, scoop the batter onto the hot surface, leaving a couple of inches around each pancake for expansion. Cook until small bubbles form on the surface of the pancakes, 2 to 3 minutes (you’ll know it’s ready to flip when about ½-inch of the perimeter is matte instead of glossy)."
+   },
+   {
+    "title": null,
+    "text": "Flip the pancakes, then cook until lightly golden on both sides, 1 to 2 minutes more. Repeat the process with the remaining batter, brushing with more butter and adjusting the heat as necessary (if your pancakes are browning too deeply, dial down the heat to medium-low)."
+   },
+   {
+    "title": null,
+    "text": "Serve immediately or keep warm in a 200 degree Fahrenheit oven. Serve as desired."
+   },
+   {
+    "title": null,
+    "text": "Leftover pancakes can be stored in the refrigerator for up to 3 days, or frozen for up to 3 months. To reheat, stack leftover pancakes and wrap them in a paper towel before gently reheating in the microwave."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Two Peas & Their Pod and Ambitious Kitchen.",
+   "Make it gluten free: Be sure to use certified gluten-free oats.",
+   "Make it dairy free: Substitute melted coconut oil for the melted butter."
+  ],
+  "summary": "This oatmeal pancake recipe is super easy to make in the blender! These healthy pancakes are perfect for busy mornings. They’re whole grain and gluten-free. Recipe yields 12 pancakes, enough for 4 servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -39,7 +39,36 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2016/03/sesame-soba-and-ribboned-omelet-salad/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the dressing: Put the toasted sesame seeds into a blender or food processor and run the machine until the seeds look like wet sand — it will take a couple minutes. Add the water, soy sauce, tahini, rice vinegar, sesame oil, sugar, salt and chili sesame oil and blend until combined. Taste and adjust ingredients to your preferences."
+   },
+   {
+    "title": null,
+    "text": "Make the omelet ribbons: Whisk eggs with water, sugar and salt until well-blended and even in color. Heat a 10-inch skillet (I really like using a nonstick here and for other crepe-like things) over medium and coat very lightly with cooking oil. Pour in 1/3 of mixture, which will be enough to coat the pan very thinly. (If your pan is bigger or smaller, use less or more accordingly per batch, the goal is to keep the egg very thin.) Cook for 1 to 2 minutes, until the egg has set and the edges look dry. Carefully flip* the omelet and cook for 20 to 30 seconds on second side. Flip egg out onto paper towel to blot oil and repeat 2 more times."
+   },
+   {
+    "title": null,
+    "text": "Stack the three omelets together and roll them into a log. Use a sharp knife to slice the roll into very thin ribbons, thinner even than you see in my photos."
+   },
+   {
+    "title": null,
+    "text": "Cook the noodles: In well-salted water until tender but firm for the time recommended on your package of noodles, usually 4 to 5 minutes. Drain noodles and run cold water over them to cool. Drain again, shaking out excess water."
+   },
+   {
+    "title": null,
+    "text": "To serve: My favorite way for a family meal is to put everything out in separate dishes and let each of us assemble to taste. (Or, if you’re this one, grab the bowl of egg ribbons and help yourself.) Or, you can toss the noodles with about half the sauce, then arrange it in a bowl with the omelet ribbons on top, followed by your vegetables. Garnish with extra sesame seeds and serve with additional sauce on the side."
+   },
+   {
+    "title": null,
+    "text": "* One day, when I have video on this site, I will demonstrate my crepe-flipping “method” for you but hopefully this will help until then: I use two thin spatulas (such as offset icing spatulas or a flexible fish spatula). The first smaller one goes under the edge and lifts the omelet/crepe enough that I can hold the second larger spatula in my other hand and slide it under enough that it goes past the center of the omelet/crepe. From here, it’s easier to flip without tearing."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

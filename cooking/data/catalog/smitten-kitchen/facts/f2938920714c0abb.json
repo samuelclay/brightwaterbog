@@ -25,7 +25,20 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2010/08/eggplant-salad-toasts/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 425 degrees. Lightly oil a baking sheet or roasting pan. Toss eggplant, 2 tablespoons olive oil, salt and a generous amount of black pepper together in a medium bowl until evenly coated. Spread on prepared baking sheet and roast for about 25 minutes, moving pieces around occasional so they evenly brown. For a cold salad, let the eggplant cool a bit before mixing it with red wine vinegar, feta and scallion. For a warm salad where the feta glues itself to the eggplant a bit, toss the vinegar, feta and scallion together when the eggplant just comes out of the oven. You’ll want to eat the warm salad quickly."
+   },
+   {
+    "title": null,
+    "text": "Broil or toast baguette slices then rub them with a garlic clove before heaping on eggplant salad."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

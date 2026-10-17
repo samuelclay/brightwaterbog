@@ -20,7 +20,23 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/tropical-fruit-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium serving bowl, combine the diced cantaloupe, watermelon, pineapple and lime juice. Toss to combine. For best flavor, cover and refrigerate for at least 20 minutes before serving."
+   },
+   {
+    "title": null,
+    "text": "This fruit salad is best when freshly prepared but keeps well in the refrigerator, covered, for up to 3 days."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Tabacon in Costa Rica.",
+   "Change it up: This recipe is beyond flexible. Substitute any fresh, seedless, tropical fruit you’d like, or add to taste."
+  ],
+  "summary": "Serve this simple tropical fruit salad as-is or over yogurt! It’s made with equal parts watermelon, cantaloupe (or honeydew), and pineapple, with a splash of lime. The trick is to dice your fruit into very small pieces. Recipe yields about 12 servings (12 cups); it’s easily doubled.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

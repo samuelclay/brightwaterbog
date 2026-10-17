@@ -1,6 +1,46 @@
 {
  "url": "https://cookieandkate.com/roasted-tomatoes-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Roasted Tomatoes",
+  "ingredients": [
+   "2 pints (4 cups) cherry or grape tomatoes or other plum tomatoes, halved lengthwise",
+   "2 teaspoons extra-virgin olive oil",
+   "¼ teaspoon fine salt"
+  ],
+  "yield_text": "2 cups",
+  "cook_time": "2 hours",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-tomatoes-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 250 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper to prevent the tomatoes from sticking. If you’re tomatoes larger than the cherry variety and you can gently squeeze or scoop out some of their seeds and excess juice, go ahead and do so."
+   },
+   {
+    "title": null,
+    "text": "Toss the tomatoes with the oil and salt on the parchment paper, then arrange the tomatoes so the cut sides are all facing up."
+   },
+   {
+    "title": null,
+    "text": "Bake for 1 hour 45 minutes to 2 ½ hours, until the tomatoes are shrunken and shriveled and not too wet or squishy. Exact timing will depend on their size and your preferences."
+   },
+   {
+    "title": null,
+    "text": "Let the tomatoes cool, then use as desired. Leftover tomatoes will keep well in the refrigerator, covered, for 1 week or longer. Or, freeze them for up to 6 months."
+   }
+  ],
+  "notes": [],
+  "summary": "These slow-roasted cherry tomatoes are completely irresistible on salads, pizzas, eggs, toasts and more. Make this simple recipe with your surplus tomatoes! Recipe yields about 2 cups roasted tomatoes.",
+  "ingredient_groups": []
+ }
 }

@@ -29,7 +29,20 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2007/07/israeli-salad-pita-chips/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "You can either toss all of the vegetables in one large bowl, and pour over it the parsley, lemon juice, olive oil and sumac mixture you whisked separately in a small bowl, or if you’re in a hurry just toss everything all at once."
+   },
+   {
+    "title": null,
+    "text": "Other additions: 1/2 to 1 cup crumbled or cubed feta, 1 bell pepper, cut into cubes, 1 15-ounce can of chickpeas, rinsed and drained, 1/2 to 1 cup coarsely chopped olives, 1 to 2 tablespoons finely minced mint or dill or pita chips (see below). You could also whisk a couple tablespoons of tahini into the dressing for a thicker, sesame-coated flavor."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

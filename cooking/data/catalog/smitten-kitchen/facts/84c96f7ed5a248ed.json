@@ -27,7 +27,26 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2016/11/roasted-cauliflower-with-pumpkin-seeds-brown-butter-and-lime/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 450°F. Coat a large rimmed baking sheet with just over 1 tablespoon of the olive oil. Sprinkle the sheet with salt and pepper. Trim cauliflower and cut into 1/2-inch slices. Arrange in a single layer on baking sheet, then drizzle with remaining scant 1 tablespoon olive oil and sprinkle with more salt and pepper. Roast for 15 to 20 minutes, until underside is deeply browned. Carefully flip pieces and roast until dark brown and crisp on second side, about 15 to 20 minutes longer."
+   },
+   {
+    "title": null,
+    "text": "While cauliflower roasts, in a small skillet over medium heat, melt butter, then reduce heat to medium-low and add pumpkin seeds. Stirring the whole time, cook until butter becomes light brown and smells toasty, about 4 to 6 minutes. Let cool for 10 minutes, then add lime juice and season with salt, black pepper and red pepper flakes to taste."
+   },
+   {
+    "title": null,
+    "text": "Arrange cauliflower on a serving platter and drizzle with dressing. Serve topped with herbs."
+   }
+  ],
+  "notes": [
+   "This recipe was almost perfect from Bon Appetit, but I found each step needed less cooking time and included my own roasting tweaks; I added weights. The original calls for 1/2 teaspoon pepper flakes, that’s a good punch if you like heat, otherwise, adjust to your taste. The original recipe specifies raw unsalted pumpkin seeds (pepitas, or pumpkin seeds with the outer hull removed) but I had no problems with my already toasted, salted pumpkin seeds burning and still needed to add a little salt to get the seasoning level right."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

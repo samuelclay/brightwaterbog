@@ -34,7 +34,47 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/quinoa-black-bean-tacos-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the filling, warm the olive oil in a medium-sized pot over medium heat. Sauté the onion and garlic with a dash of salt for 4 to 5 minutes, until the onions are softened and turning translucent. Add the tomato paste, cumin and chili powder and sauté for another minute, stirring constantly."
+   },
+   {
+    "title": null,
+    "text": "Add the rinsed quinoa and 1 cup broth. Bring the mixture to a gentle boil, then cover the pot, reduce heat to a simmer and cook for 15 minutes. Remove the quinoa from heat and let it rest, still covered, for 5 minutes. Uncover the pot, drain off any excess liquid and fluff the quinoa with a fork. Stir in the drained black beans and add salt and pepper, to taste. Cover and set aside for a couple of minutes to warm up the beans."
+   },
+   {
+    "title": null,
+    "text": "To make the avocado sauce: Simply combine the ingredients as listed in a food processor or blender, starting with the juice of 1 lime. Blend well. Season with salt, to taste, and add another tablespoon or 2 of lime juice if desired."
+   },
+   {
+    "title": null,
+    "text": "In a large skillet over medium heat, warm the tortillas in a single layer, flipping halfway. Wrap the warmed tortillas with a lint-free tea towel until ready to serve. To assemble the tacos, spread quinoa and black bean filling down the center of the tortilla, then top with a generous drizzle of avocado crema, a handful of chopped romaine and any additional garnishes you’d like to add. Eat up!"
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Picasso Cafe in Oklahoma City and adapted from my roasted cauliflower and lentil tacos and southwestern kale power salad.",
+   "Make it vegan/dairy free: Just don’t add cheese!",
+   "Make it gluten free: Be sure to use certified gluten-free corn tortillas.",
+   "Make it tomato free: Skip the tomato paste.",
+   "Storage suggestions: Store individual components separately. Press plastic wrap against the surface of the avocado sauce to prevent oxidation. Warm the tortillas and filling just before serving, then top with avocado sauce and chopped romaine."
+  ],
+  "summary": "These quinoa and black bean tacos with dairy-free avocado crema are a simple and delicious weeknight dinner! They’re vegan and gluten free, too. Recipe yields about 6 hearty tacos.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Quinoa and black bean filling"
+   },
+   {
+    "at": 11,
+    "title": "Avocado sauce"
+   },
+   {
+    "at": 16,
+    "title": "Everything else"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -30,7 +30,43 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/greek-lentil-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the lentils: First, pick through the lentils and remove any debris (like tiny rocks). Pour the lentils into a fine-mesh colander and rinse under running water, then dump the lentils into a medium saucepan. Add the water and bring the mixture to a boil over medium-high heat."
+   },
+   {
+    "title": null,
+    "text": "Reduce heat to maintain a gentle simmer and cook, stirring occasionally, until the lentils are tender, about 25 to 35 minutes. Then, drain the lentils and return them to the pot to cool for about 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, in a medium serving bowl, combine the spinach, red onion, sun-dried tomatoes, olives and basil. Set aside."
+   },
+   {
+    "title": null,
+    "text": "To prepare the dressing, combine all of the ingredients and whisk until thoroughly blended."
+   },
+   {
+    "title": null,
+    "text": "Once the lentils have cooled for about 5 minutes, add them to the serving bowl. Pour all of the dressing over the salad and toss until blended. Taste, and add more salt and pepper if necessary. Serve in individual bowls with a sprinkle of feta cheese on top, if desired."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Skip the feta cheese."
+  ],
+  "summary": "This simple lentil salad is loaded with Greek flavors and health benefits. You can prepare all of the ingredients while the lentils cook. This salad makes great leftovers—just store the spinach separately from the rest so it doesn’t completely wilt. Recipe yields 4 mid-sized servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 8,
+    "title": "Greek dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

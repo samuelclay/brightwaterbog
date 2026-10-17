@@ -20,7 +20,30 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/easy-aioli-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small, shallow bowl, combine the pressed garlic and lemon juice. Stir to combine and spread it into an even layer so the juice can work its magic. Sprinkle lightly with salt. Let the mixture rest for 10 minutes, so the lemon juice can absorb the garlic’s flavor."
+   },
+   {
+    "title": null,
+    "text": "Place a fine mesh strainer over another bowl. Using a silicone or rubber spatula, scoop the contents of the bowl into the strainer, then press on the garlic with the spatula to get as much juice out as possible. Discard the garlic."
+   },
+   {
+    "title": null,
+    "text": "Stir the mayo into the garlicky lemon juice until combined. Taste, and adjust only if necessary—if the garlic flavor is overwhelming, stir in more mayonnaise by the tablespoon. If you want it to taste a little more interesting, add the Dijon mustard. For more tang, add another little squeeze of lemon juice."
+   },
+   {
+    "title": null,
+    "text": "Aioli will keep well in the refrigerator, covered, for up to 10 days. It will thicken up more as it chills."
+   }
+  ],
+  "notes": [
+   "Make it egg free/vegan: I don’t like to recommend vegan mayonnaise since it usually contains strange processed ingredients, but it would hypothetically work here. Or, you could make my vegan sour cream with garlic-infused lemon juice (see step 1)."
+  ],
+  "summary": "Learn how to make creamy, tangy, garlicky aioli at home with this easy recipe! You’ll just need good mayonnaise, lemon juice and garlic. Recipe yields ½ cup aioli; multiply as necessary.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

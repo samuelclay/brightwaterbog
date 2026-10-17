@@ -23,7 +23,27 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/easy-pizza-sauce-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Measure the tomato paste into a small mixing bowl. Add a big splash of the crushed tomatoes and whisk until the tomato paste is fully incorporated."
+   },
+   {
+    "title": null,
+    "text": "Pour in the rest of the tomatoes, then add the olive oil, garlic, vinegar, oregano and salt. Whisk to blend."
+   },
+   {
+    "title": null,
+    "text": "Taste, and if the mixture is too acidic (tomatoes vary in flavor from can to can), stir in a little sugar to balance it out. Use as desired. Leftover pizza sauce will keep in the refrigerator for up to 5 days, or you can freeze it for several months."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Crispy Kale Pizza with Marinara Sauce (page 168) in my cookbook, Love Real Food.",
+   "*Tomato options: You can also use canned whole tomatoes or diced tomatoes. Just blitz them in a blender or food processor until they resemble the crushed tomato consistency shown in the photos."
+  ],
+  "summary": "Make this rich, red pizza sauce with basic pantry ingredients! This pizza sauce recipe is so delicious and ready in about 5 minutes. Recipe yields about 1 ¾ cups, enough for about 2 large pizzas.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

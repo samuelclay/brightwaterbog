@@ -20,7 +20,34 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/croutons-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 400 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper for easy clean-up. Line a plate with a paper towel and set it aside (we’ll use it to absorb excess oil from the baked croutons later on)."
+   },
+   {
+    "title": null,
+    "text": "To prepare your bread, use a serrated knife to gently slice the bread into ¾-inch cubes (or if it’s easier, use your fingers to gently tear the bread into pieces about that size). For reference, you should end up with about 3 cups of cubed bread."
+   },
+   {
+    "title": null,
+    "text": "Place the cubed bread on the prepared baking sheet. Drizzle with the olive oil and sprinkle with the salt, garlic powder, and several twists of black pepper. Gently toss the bread with your hands until it’s lightly coated in oil, then arrange the bread evenly across the baking sheet."
+   },
+   {
+    "title": null,
+    "text": "Bake, tossing every 5 minutes, for about 10 to 12 minutes, until the croutons are turning golden brown but still offer a bit of chew in the center."
+   },
+   {
+    "title": null,
+    "text": "Remove the croutons from the oven and transfer them to the lined plate to absorb excess oil. Once cool, season to taste with additional salt and pepper, if desired. Croutons are best enjoyed within a few hours of baking, as they can become a bit tough over time, but will keep in a sealed bag for several days at room temperature."
+   }
+  ],
+  "notes": [
+   "To multiply this recipe: Don’t crowd the baking sheet, or your bread won’t crisp as nicely. Divide the ingredients across two pans on racks near the center of the oven, swapping their positions when you toss the croutons."
+  ],
+  "summary": "Make your own croutons and take your salads to the next level! This crouton recipe is easy to make with bread, olive oil and basic seasonings. Recipe yields enough croutons for 4 to 6 side salads.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

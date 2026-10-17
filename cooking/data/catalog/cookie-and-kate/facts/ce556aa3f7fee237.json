@@ -1,6 +1,70 @@
 {
  "url": "https://cookieandkate.com/cilantro-pepita-pesto-with-squash-ribbons-and-fettuccine/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Cilantro Pesto Pasta with Squash Ribbons",
+  "ingredients": [
+   "⅓ cup raw pepitas (green pumpkin seeds)",
+   "1 cup packed cilantro (mostly leaves, about 1 medium bunch)",
+   "2 teaspoons seeded and roughly chopped jalapeño",
+   "2 cloves garlic, roughly chopped",
+   "1 lime, juiced (about 2 tablespoons)",
+   "½ teaspoon fine salt",
+   "⅓ cup extra virgin olive oil",
+   "8 ounces (½ pound) whole grain fettuccine or linguine",
+   "2 small zucchini (about 10 ounces each)",
+   "1 yellow squash (about 10 ounces)"
+  ],
+  "yield_text": "4",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cilantro-pepita-pesto-with-squash-ribbons-and-fettuccine/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a large pot of salted water to a boil (it should taste salty), and cook fettuccine until al dente, according to the package’s instructions. Drain and set aside."
+   },
+   {
+    "title": null,
+    "text": "To make the pesto: Lightly toast the pepitas in a small pan over medium-low heat for a few minutes, tossing frequently, until fragrant. Transfer the pepitas to a bowl to cool a bit."
+   },
+   {
+    "title": null,
+    "text": "In a food processor, combine the cilantro, jalapeño, garlic, lime juice, salt and cooled pepitas. While running the food processor, drizzle in the olive oil. Stop processing once the pesto is well blended."
+   },
+   {
+    "title": null,
+    "text": "To prepare the squash and pasta: Remove any discolored skin from the squash with a paring knife. Use a julienne peeler (or a regular peeler) to repeatedly peel the squash lengthwise, one side at a time (stop once you reach the seeded part, then turn the squash to work on the next side)."
+   },
+   {
+    "title": null,
+    "text": "Toss the cooked pasta and ribboned squash with the pesto and serve. Leftovers will keep in the fridge for a few days. Expect the squash to lose a little moisture, but the leftovers will still be very good. Serve chilled, or at room temperature, or gently reheated… It’s all good."
+   }
+  ],
+  "notes": [
+   "Pesto recipe based on Shutterbean’s pepita pesto pasta with roasted squash.",
+   "Squash options: If you don’t have a julienne peeler, you can use a regular vegetable peeler to make larger squash ribbons, or slice the squash into super-thin rounds with a sharp knife (in which case, you might prefer rotini or penne pasta instead of fettuccine/linguine).",
+   "Make it gluten free: Substitute a long, sturdy gluten-free noodle, like a corn and quinoa blend."
+  ],
+  "summary": "Super flavorful cilantro-pepita pesto tossed with fettuccine and julienned summer squash makes a light and simple meal. You could double the squash and omit the pasta altogether for a lighter meal, but I like the pasta-squash combination best. Recipe yields 4 generous servings or 6 medium.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Cilantro pesto"
+   },
+   {
+    "at": 7,
+    "title": "Pasta and squash ribbons"
+   }
+  ]
+ }
 }

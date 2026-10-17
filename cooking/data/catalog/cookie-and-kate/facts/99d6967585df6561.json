@@ -1,6 +1,73 @@
 {
  "url": "https://cookieandkate.com/sesame-caramel-popcorn-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Sesame Caramel Corn",
+  "ingredients": [
+   "⅓ cup popcorn kernels",
+   "1 tablespoon coconut oil or extra-virgin olive oil",
+   "6 cups popped popcorn",
+   "½ cup real maple syrup",
+   "3 tablespoons tahini",
+   "1 ½ teaspoons vanilla extract",
+   "¼ teaspoon fine sea salt",
+   "¼ teaspoon cinnamon, plus more for sprinkling",
+   "2 tablespoons sesame seeds"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Snack"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/sesame-caramel-popcorn-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 350 degrees Fahrenheit. Line a rimmed baking sheet with parchment paper."
+   },
+   {
+    "title": null,
+    "text": "Pop the popcorn: First, place a large mixing bowl near the stove. Pour the oil into a large, heavy-bottomed pan with a lid. Turn the heat up to medium, add 2 kernels of corn, and cover. Once the kernels pop, remove the lid and pour in the remaining popcorn kernels. Cover the pot and give the pot a little shimmy to distribute the kernels evenly."
+   },
+   {
+    "title": null,
+    "text": "Cook over medium heat, shaking the pot occasionally. Crack the lid just a smidge so the popcorn stays crisp, and cook until the popping sound slows to about one pop per every few seconds. Remove the pan from heat and dump the popcorn your bowl, taking care not to pour in any unpopped kernels at the bottom of the pot. If necessary, pick out any unpopped kernels that made it into the bowl with a spoon."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, to make the sauce: In a small, heavy-bottomed saucepan, bring the maple syrup to a boil over medium heat. Keep a watchful eye on the syrup and continue boiling for 2 minutes and 30 seconds, reducing heat only if necessary to prevent overflow. Remove the pot from heat."
+   },
+   {
+    "title": null,
+    "text": "Add the tahini, vanilla extract, salt and cinnamon to the pot of maple syrup. Whisk until well blended, then drizzle the maple mixture over the popcorn. Gently toss with a rubber spatula or big spoon until well mixed. Pour the popcorn onto the parchment-covered baking sheet and arrange it in a single layer. Evenly sprinkle sesame seeds over the popcorn."
+   },
+   {
+    "title": null,
+    "text": "Bake the popcorn for 6 minutes, then rotate the pan and cook for another 2 minutes. Remove from oven and sprinkle with additional cinnamon and salt, to taste. The popcorn will continue to crisp up as it cools. Once it’s cool, break the popcorn into pieces (or leave them in chunks!) and serve."
+   },
+   {
+    "title": null,
+    "text": "This popcorn stays crisp for up to 3 days in an air-tight container."
+   }
+  ],
+  "notes": [
+   "Change it up: Any nut butter can be substituted for the tahini (peanut butter, almond butter, cashew butter, etc.). You can also omit or replace the sesame seeds with chopped nuts of your choice."
+  ],
+  "summary": "This naturally sweetened caramel popcorn recipe is incredible! It’s made with tahini, sesame seeds and maple syrup, and tastes a little like halva. This recipe is conveniently vegan and nut free, and yields about 6 cups.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Popped popcorn, yields about 6 cups"
+   },
+   {
+    "at": 2,
+    "title": "Tahini caramel corn"
+   }
+  ]
+ }
 }

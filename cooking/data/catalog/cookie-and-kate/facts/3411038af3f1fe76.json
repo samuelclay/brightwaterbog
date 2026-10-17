@@ -1,6 +1,43 @@
 {
  "url": "https://cookieandkate.com/buttermilk-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "How to Make Buttermilk",
+  "ingredients": [
+   "1 tablespoon vinegar* or lemon juice",
+   "1 cup milk of choice**"
+  ],
+  "yield_text": "1 cup",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Baking basics"
+  ],
+  "cuisines": [
+   "N/A"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/buttermilk-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Measure the vinegar or lemon juice into a liquid measuring cup."
+   },
+   {
+    "title": null,
+    "text": "Fill the measuring cup to the 1-cup mark with milk. Stir and let the mixture rest for at least 5 to 10 minutes. You will see some light separation in the milk (curdling). Use as instructed."
+   }
+  ],
+  "notes": [
+   "*Vinegar options: Choose from a clear or almost clear vinegar, such as plain distilled white vinegar, apple cider vinegar, rice vinegar or Champagne vinegar. They are all similar enough in acidity levels to work well, and I can’t discern a difference in the final flavor of the baked good depending on which is used.",
+   "**Milk options: Choose from cow’s milk, nut milk like almond milk, coconut milk, soy milk, oat milk—any neutral-flavored milk will do!",
+   "Make it dairy free/vegan: Choose your favorite non-dairy/vegan milk.",
+   "Make it nut free: Be sure to use a milk that is nut free.",
+   "Make it soy free: Be sure to use a milk that is soy free."
+  ],
+  "summary": "Make buttermilk for your baked goods with this 5-minute recipe. Simply combine your milk of choice and vinegar or lemon juice. You can easily make this buttermilk vegan/dairy free/nut free depending on your choice of milk. Recipe as written yields 1 cup buttermilk. The basic ratio is 1 tablespoon vinegar to 1 cup milk; see post for alternate yields.",
+  "ingredient_groups": []
+ }
 }

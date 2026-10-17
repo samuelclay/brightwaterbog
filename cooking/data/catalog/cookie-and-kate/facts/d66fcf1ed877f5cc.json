@@ -1,6 +1,47 @@
 {
  "url": "https://cookieandkate.com/how-to-make-bread-crumbs/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Bread Crumbs",
+  "ingredients": [
+   "4 medium-to-large slices of bread* (6 to 9 ounces)",
+   "2 tablespoons unsalted butter",
+   "Optional seasonings: ½ teaspoon garlic powder, ½ teaspoon dried oregano, pinch of red pepper flakes",
+   "Fine salt, to taste"
+  ],
+  "yield_text": "1 1/4 cups",
+  "cook_time": "10 minutes",
+  "categories": [
+   "Basics"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/how-to-make-bread-crumbs/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the breadcrumbs: Tear your bread into 2-inch pieces and toss them into a food processor or blender. If desired, add the garlic powder, oregano and red pepper flakes. Process until the bread has broken into very small crumbs. If in doubt, process longer!"
+   },
+   {
+    "title": null,
+    "text": "Place a large plate near the stove for later. In a large stainless steel or cast iron skillet over medium heat, melt the butter until the foam is nearly gone, swirling the pan a couple of times for even distribution. Test to make sure that the pan is hot enough by dropping in a few bread crumbs—if they sizzle upon impact, it’s ready to go."
+   },
+   {
+    "title": null,
+    "text": "Add the bread crumbs. Increase the heat to medium-high and cook for about 3 minutes to 5 minutes, stirring constantly and breaking up any clumps as you go, until the crumbs are turning crisp and deeply golden in places."
+   },
+   {
+    "title": null,
+    "text": "Transfer the bread crumbs to the plate and spread them in an even layer to cool. The crumbs will further crisp as they cool. Season to taste with salt before using. Once completely cooled, transfer any leftovers to a storage bag, gently squeeze out any excess air and seal. Store bread crumbs at room temperature for up to 3 months (look them over and taste before using to ensure quality)."
+   }
+  ],
+  "notes": [
+   "*Types of bread: Use sourdough, baguettes or sandwich bread (regular or whole wheat)."
+  ],
+  "summary": "These toasted, golden bread crumbs are the perfect finishing touch! They taste so much better than store-bought bread crumbs. If your recipe calls for seasoned bread crumbs, be sure to add the optional seasonings, or leave them unseasoned for maximum versatility. Recipe yields around 1 ¼ cups and stores well for several months.",
+  "ingredient_groups": []
+ }
 }

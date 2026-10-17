@@ -1,6 +1,46 @@
 {
  "url": "https://cookieandkate.com/avocado-peach-salsa-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Avocado Peach Salsa",
+  "ingredients": [
+   "1 ripe peach, diced",
+   "1 avocado, diced",
+   "1 jalapeño, minced",
+   "½ medium red bell pepper, chopped",
+   "¼ cup packed cilantro, chopped",
+   "½ small red onion, finely chopped",
+   "½ lime, juiced",
+   "Drizzle of white wine vinegar",
+   "Salt, to taste"
+  ],
+  "yield_text": "6",
+  "cook_time": "10 minutes",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/avocado-peach-salsa-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Toss all of the chopped ingredients together in a bowl. Squeeze the lime and a drizzle of vinegar over the top."
+   },
+   {
+    "title": null,
+    "text": "Toss and add salt to taste. Cover and refrigerate if you will not be serving immediately. Since peaches and avocado brown over time, this salsa is best consumed within a day or so."
+   }
+  ],
+  "notes": [
+   "Feel free to adjust the ingredients to taste. The second time I made the salsa, I used two small peaches and an extra jalapeño because it just wasn’t spicy enough. Double the recipe for a crowd!"
+  ],
+  "summary": "This sweet and spicy summer salsa features ripe peaches and avocado!",
+  "ingredient_groups": []
+ }
 }

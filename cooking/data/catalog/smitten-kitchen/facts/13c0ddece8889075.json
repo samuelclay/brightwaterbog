@@ -26,7 +26,20 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2008/09/braised-romano-beans/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "1. Heat oil in a deep skillet or a shallow three-quart saucepan. Add celery, carrot and onion and cook over medium heat, stirring occasionally, until vegetables barely begin to brown, about 25 minutes. Add garlic and rosemary and cook until fragrant, a few minutes. Stir in tomato paste and tomatoes. Bring to a simmer. Season with salt and pepper. Simmer until mixture is well combined, about 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "2. Add beans, setting them in pan all in one direction. Add 1/2 cup water. Bring to a simmer. Baste beans, season with salt, reduce heat to low. Cook gently, partly covered, turning beans in sauce from time to time, until beans are very tender, about 40 minutes. Adjust seasoning and serve hot or at room temperature."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

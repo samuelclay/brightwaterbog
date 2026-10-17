@@ -29,7 +29,16 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2015/04/obsessively-good-avocado-cucumber-salad/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Combine cucumber, scallions and avocado in a bowl. Whisk together 1 tablespoon mayo, lime and seasonings, adjusting levels to taste. Add second tablespoon of mayo if you’d like the dressing creamier. Drizzle salad with dressing and garnish with cilantro or parsley. Repeat again tomorrow."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

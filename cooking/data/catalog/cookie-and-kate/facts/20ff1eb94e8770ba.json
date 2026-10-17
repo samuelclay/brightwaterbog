@@ -18,7 +18,26 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/gremolata-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the parsley, wash and pat it dry with a clean tea towel (wet parsley will make your gremolata clumpy)."
+   },
+   {
+    "title": null,
+    "text": "Using a sharp chef’s knife, slice off the thick parsley stems and discard them. Finely chop the parsley (thin stems are fine to include). Transfer the chopped parsley to a small serving bowl."
+   },
+   {
+    "title": null,
+    "text": "Add the lemon zest and garlic clove. Stir to combine. Gremolata is best served fresh. It will keep well in the refrigerator, covered, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Change it up: So many options! Substitute another variety of citrus, such as orange or lime. Try turning it into a sauce by mixing in olive oil and salt, to taste. Add toasted pine nuts or grated Parmesan, if desired. While unconventional, I bet a cilantro and lime combination would be very good with Mexican meals."
+  ],
+  "summary": "Make classic Italian gremolata with this super simple recipe! Chopped parsley, lemon zest and garlic combine to make the perfect fresh garnish. Recipe yields about ¾ cup gremolata.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

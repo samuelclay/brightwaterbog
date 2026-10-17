@@ -1,6 +1,48 @@
 {
  "url": "https://cookieandkate.com/pistachio-milk/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Pistachio Milk",
+  "ingredients": [
+   "1 cup unsalted, raw shelled pistachios",
+   "4 cups water, divided",
+   "Up to 1 tablespoon maple syrup, honey, or sugar, optional",
+   "½ teaspoon vanilla extract"
+  ],
+  "yield_text": "4.5 cups",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Drink"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pistachio-milk/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "If you do not have a high-speed blender or you want to maximize nutrition, soak the pistachios in water for at least 4 hours, or overnight in the refrigerator. Drain the pistachios and rinse until the water runs clear."
+   },
+   {
+    "title": null,
+    "text": "Add the pistachios and two cups of the water to a blender. Start on a low setting and quickly increase the speed all the way to the highest setting until the pistachios are totally pulverized. This could take 2 minutes in a high-powered blender or longer in a regular blender."
+   },
+   {
+    "title": null,
+    "text": "Add 2 cups more water*, your sweetener of choice (if desired), and vanilla extract. Blend on high until well blended."
+   },
+   {
+    "title": null,
+    "text": "Strain the milk through a fine mesh strainer or cheesecloth. Store the milk in a covered container in the refrigerator for up to 4 days. Stir well before serving, and enjoy it chilled."
+   }
+  ],
+  "notes": [
+   "Water ratio: The ratio of water to pistachios (4 to 1) in this recipe yields milk that is about as creamy as whole milk. I think it’s just right as-is, but you can use less water for even richer results.",
+   "Make it vegan: If you’re sweetening your milk, use maple syrup or vegan sugar, not honey."
+  ],
+  "summary": "Pistachio milk is cold, creamy and full of delicious pistachio flavor. Make your own pistachio milk at home by following this simple recipe. Recipe yields about 4 ½ cups.",
+  "ingredient_groups": []
+ }
 }

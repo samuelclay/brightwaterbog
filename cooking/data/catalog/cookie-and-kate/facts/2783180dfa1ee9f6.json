@@ -1,6 +1,75 @@
 {
  "url": "https://cookieandkate.com/perfect-roasted-asparagus-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Perfect Roasted Asparagus",
+  "ingredients": [
+   "1 large bunch (about 1 pound) fresh asparagus",
+   "1 to 2 teaspoons olive oil",
+   "Salt, to taste",
+   "Freshly ground black pepper, to taste",
+   "Zest and juice of ½ medium lemon, preferably organic",
+   "Lemon wedges, from the remaining ½ lemon",
+   "Sprinkle of finely grated Parmesan cheese",
+   "Small handful of fresh mint or parsley, finely chopped",
+   "Light sprinkle of red pepper flakes",
+   "Pat or two of butter",
+   "Light drizzle of balsamic reduction or thick balsamic vinegar",
+   "Toasted sliced almonds"
+  ],
+  "yield_text": "2 to 4 servings",
+  "cook_time": "15 minutes",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/perfect-roasted-asparagus-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper for easy cleanup. Snap off the woody ends of the asparagus (if you sharply bend the asparagus near the base, it will snap in the right place). Discard the ends."
+   },
+   {
+    "title": null,
+    "text": "Place the asparagus on the sheet and drizzle with 1 to 2 teaspoons olive oil, just enough to lightly coat the asparagus. Sprinkle salt and pepper over the asparagus, and toss until the spears are lightly coated in oil. Arrange the spears in a single layer on the pan."
+   },
+   {
+    "title": null,
+    "text": "Bake just until the base of the asparagus is easily pierced through by a fork. Very thin asparagus, like the kind shown here, will take as little as 9 to 12 minutes, whereas thicker asparagus will need 15 to 20 minutes."
+   },
+   {
+    "title": null,
+    "text": "Transfer the roasted asparagus to a serving platter and season however you’d like. You could keep it simple with a squeeze of lemon juice, or a sprinkle of Parmesan, or add a pat of butter or drizzle of balsamic vinegar."
+   },
+   {
+    "title": null,
+    "text": "Roasted asparagus is best served when it’s fresh out of the oven, but it will keep at room temperature for up to 1 hour or up to 4 days in an airtight container in the refrigerator (gently reheat before serving)."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Don’t add Parmesan or butter.",
+   "Make it nut free: Don’t add almonds."
+  ],
+  "summary": "Learn how to make perfectly roasted asparagus here! This roasted asparagus recipe is a fantastic springtime side dish that everyone will love. You can season it however you’d like. You’ll find my seasoning suggestions below. Recipe yields 2 large or 4 modest side servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Basic roasted asparagus"
+   },
+   {
+    "at": 4,
+    "title": "My seasonings (use one or all, like I did)"
+   },
+   {
+    "at": 9,
+    "title": "Other options"
+   }
+  ]
+ }
 }

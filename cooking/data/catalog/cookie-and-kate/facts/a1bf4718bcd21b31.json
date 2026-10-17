@@ -26,7 +26,43 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/strawberry-rhubarb-crisp/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit. In a 9-inch square baking dish, mix together the strawberries, rhubarb, honey, arrowroot and lemon juice."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, stir together the oats, almond flour, sugar and salt. Mix in the butter and yogurt. Stir until all of the flour is incorporated and the mixture is moistened throughout."
+   },
+   {
+    "title": null,
+    "text": "Dollop spoonfuls of the oat mixture over the filling and use your fingers to break up the mixture until it is evenly distributed (no need to pack it down)."
+   },
+   {
+    "title": null,
+    "text": "Bake for 40 to 45 minutes, or until the filling is actively bubbling around the edges and the top is lightly golden. Let the crisp rest for 10 minutes before serving. Serve with vanilla ice cream (I insist!). Leftovers will keep in the refrigerator, covered, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "*Sweetness level note: The sweetness level of this crisp will depend on your fruit. Since rhubarb gets sweeter during the baking process, you can’t really adjust for your desired sweetness before baking. My first crisp was just right with ⅓ cup honey and my second crisp was more tart. If you know you want your crisp to be on the sweet side, go with ½ cup honey. If your baked crisp is sour, keep in mind that serving with ice cream will temper the tartness. Add a drizzle of honey to the finished product if necessary. It will probably taste sweeter the next day.",
+   "Make it nut free: Use ¾ cup whole wheat flour and ¾ cup oats instead of the oats and almond meal specified above. It will no longer be gluten free.",
+   "Edits: On May 20, 2024, I replaced the topping with my favorite gluten-free topping. See the original provided in the nut-free note above. I also added lemon juice to the filling and increased the amount of arrowroot by one tablespoon.",
+   "Wait, what’s arrowroot starch? Arrowroot starch is a great thickener to use in place of corn starch, which is often genetically modified. It’s gluten free, too. Look for it in the baking section of well-stocked grocery stores.",
+   "Rhubarb substitute: If you can’t find rhubarb, you can substitute another pound of strawberries (though the flavor is not as interesting). Better yet, make my Mixed Berry Crisp (Gluten Free) or Blueberry Almond Crisp."
+  ],
+  "summary": "This simple crisp recipe is bursting with sweet, juicy strawberries and tart rhubarb. Made with honey, oats and yogurt, this crisp is more healthy than most. That said, please serve it with vanilla ice cream for dessert (or yogurt for breakfast)!",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Strawberry-Rhubarb Filling"
+   },
+   {
+    "at": 5,
+    "title": "Gluten-free oat and almond topping"
+   }
+  ]
  },
  "parser_version": 2
 }

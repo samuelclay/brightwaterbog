@@ -25,7 +25,51 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/kung-pao-brussels-sprouts-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the Brussels sprouts: Preheat oven to 400 degrees Fahrenheit. Trim the nubby ends and any discolored leaves off the Brussels sprouts, then cut the sprouts in half lengthwise."
+   },
+   {
+    "title": null,
+    "text": "Transfer the sprouts to a large, rimmed baking sheet (I covered mine in parchment paper first for easy cleanup), then toss them with about 2 tablespoons olive oil, until they are coated with a light, even layer of oil. Arrange the sprouts in an even layer, flat sides down, and roast for 25 to 30 minutes, tossing halfway, until they are tender and deeply caramelized on the edges."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, to prepare the sauce: In your smallest saucepan, add the tamari or soy sauce, honey or maple syrup, rice vinegar, sesame oil, ½ teaspoon sriracha and garlic. Whisk until combined, then taste and add more sriracha if you’d like (mine was just right with 1 ½ teaspoons sriracha, but I love spicy food)."
+   },
+   {
+    "title": null,
+    "text": "Bring the mixture to a boil over medium-high heat, stirring occasionally. Reduce heat to medium and cook, stirring often, until the sauce has thickened, about 4 to 5 minutes. It’s done when, if you take it off heat long enough for it to stop bubbling and carefully tilt the pan back and forth, the sauce will slide down the pan rather than slosh."
+   },
+   {
+    "title": null,
+    "text": "Let the roasted sprouts cool for a few minutes, then transfer them to a medium serving bowl. Pour the sauce over the sprouts and toss to coat. Add the peanuts, green onion and optional cilantro and toss again. Serve immediately, with red pepper flakes sprinkled on top if you’d like a little extra heat (and color)."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Bon Appetit and adapted from my roasted Brussels sprouts and crispy baked tofu with honey-sesame glaze.",
+   "*Make it gluten free: This dish is gluten free as long as you use gluten-free tamari, which is a variety of soy sauce that is usually (but not always, check the label) gluten free. I always use tamari instead of soy sauce because I prefer the flavor of it! Look for tamari next to the soy sauce in the Asian aisle of the grocery store.",
+   "Make it vegan: Simply swap maple syrup for the honey instead when making the sesame glaze.",
+   "Make it peanut-free: Just omit the peanuts. You might like a sprinkle of sesame seeds instead.",
+   "Change it up: Broccoli would be a fantastic substitute for the sprouts, and probably cheaper, too!"
+  ],
+  "summary": "Roasted Brussels sprouts tossed with spicy Kung Pao sauce! This is a delicious vegetarian appetizer or side dish inspired by a popular Chinese dish. Recipe yields 4 side servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted Brussels sprouts"
+   },
+   {
+    "at": 2,
+    "title": "Kung Pao sauce"
+   },
+   {
+    "at": 8,
+    "title": "Garnishes"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -21,7 +21,37 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/best-oatmeal-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Melt the butter in a medium-to-large saucepan over medium heat. Once melted, add the oats and stir to coat. Cook, stirring occasionally, until the oats smell toasty and some are starting to turn lightly golden, about 4 to 6 minutes."
+   },
+   {
+    "title": null,
+    "text": "Pour the water and milk into the pot, being careful to avoid splatters. Add the salt and cinnamon, if desired. Stir to evenly incorporate the oats, then watch the pot until the mixture is bubbling rapidly around the edges. Continue cooking until the bubbles expand a couple of inches toward the center of the pot, about 3 minutes in total."
+   },
+   {
+    "title": null,
+    "text": "Cover the pot and turn off the heat. If using an electric cooktop, move the pot to a cool burner. If using a gas cooktop, leave it be. Either way, let the covered pot rest for 7 minutes."
+   },
+   {
+    "title": null,
+    "text": "When the timer’s up, remove the lid to check on the oats. The oats are done when they appear slightly dry and separated on top, with very little moisture remaining at the bottom of the pot. If it’s still too wet, recover the pot and let it rest for 1 to 2 minutes more. Serve as desired."
+   },
+   {
+    "title": null,
+    "text": "Leftover oatmeal will keep for about 4 days. Let the oats cool to room temperature, then cover and refrigerate."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Megan Gordan’s cookbook, Whole-Grain Mornings, also featured in my recipe for Toasted Oatmeal with Strawberry Chia Jam and Coconut Whipped Cream.",
+   "Change it up: This recipe is very flexible. You can reduce or omit the butter, if desired (just toast the oats in the dry pot). Use all water and no milk, if you prefer. Omit the cinnamon or play with your own spices, to taste. Pumpkin pie spice blend would be nice, or ground ginger.",
+   "Make it gluten free: Be sure to buy certified gluten-free oats.",
+   "Make it dairy free/vegan: Use coconut oil or vegan butter (or omit and toast the oats in a dry pot). Choose a dairy-free milk or use water instead."
+  ],
+  "summary": "The trick to making the best oatmeal? Toast it in the pot first. This oatmeal is flavorful, fluffy and truly delicious! Recipe yields 4 bowls of oatmeal and leftovers keep well for about 4 days.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

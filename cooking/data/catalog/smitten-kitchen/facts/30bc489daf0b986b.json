@@ -36,7 +36,30 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2021/02/rigatoni-alla-vodka/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cook pasta in well-salted water to al dente, about 1 minute shy of doneness. Scoop out 1 1/2 cups of pasta water and set aside. Drain pasta."
+   },
+   {
+    "title": null,
+    "text": "In your empty pasta pot, heat olive oil and butter over medium heat. Add shallots, garlic, and pepper flakes (1/2 teaspoon for a moderate kick), and cook until shallots are softened but not brown, about 3 to 4 minutes. Add vodka and cook, stirring up anything stuck, until vodka disappears. Add tomato paste and cook, stirring, for 3 to 4 minutes, until the tomato paste is one shade darker. Add 1 cup of the reserved pasta water, scraping up any stuck tomato paste, stirring until the mixture becomes a sauce. Season it now — I add just about 2 teaspoons kosher salt and many grinds of black pepper — simmer for 2 minutes. Add cream; I begin with 1/2 cup and then add more, a splash at a time, until I get the shade of orange/pink that I am craving."
+   },
+   {
+    "title": null,
+    "text": "Add drained pasta to sauce and toss to coat and adding last 1/2 cup of reserved pasta water, a splash at a time, as needed to loosen the sauce. Cook pasta and sauce together for 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle with basil and scoop into bowls, garnishing each with parmesan or pecorino and extra red pepper flakes, to taste. Eat immediately."
+   }
+  ],
+  "notes": [
+   "Note: 1/2 cup tomato paste is 2/3 of a 6-ounce can or all of a 4.5-ounce tube. I’ve added a few Q&A about the vodka at the end."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

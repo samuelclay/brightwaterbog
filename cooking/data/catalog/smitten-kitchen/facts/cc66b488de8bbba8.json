@@ -29,7 +29,20 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2016/04/perfect-garlic-bread/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat your oven’s broiler. Line a large baking sheet with foil to limit the mess you make. Cut baguette lengthwise and arrange pieces cut side up in pan. Put butter, garlic, pepper flakes and salt in a small saucepan and melt over medium-high heat, stirring, until garlic is sizzling in the butter (but not browning). Remove from heat and stir in oregano, if using. Spoon evenly over bread. Sprinkle bread with parmesan, if using, and broil — keeping a close watch on it and turning it as needed for even coloring — for 2 to 3 minutes. Seriously, watch it like a hawk. Nothing’s sadder than under- or over-cooked garlic bread."
+   },
+   {
+    "title": null,
+    "text": "Remove from oven, sprinkle with parsley and chives, if using, and cut into segments. We keep extras in foil in the fridge and rewarm them in the oven, but you know it’s always best on the first day."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

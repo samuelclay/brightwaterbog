@@ -18,7 +18,30 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/watermelon-mimosas/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, make watermelon juice: If your watermelon is not seedless, remove all of the black seeds first. Then, scoop all of the pink watermelon flesh into your blender, leaving the sour green part around the perimeter behind."
+   },
+   {
+    "title": null,
+    "text": "Secure the lid on the blender and blend until it is completely smooth. Pour the watermelon juice through a fine-mesh strainer into a liquid measuring cup or bowl. Use a spoon to stir and press all of the juice through the strainer, then discard the solids."
+   },
+   {
+    "title": null,
+    "text": "To prepare the mimosas: Fill each Champagne flute about halfway up with Champagne (you may need to do this just a little bit at a time to avoid overflow). Then, carefully fill each glass with watermelon juice, leaving about an inch of room at the top."
+   },
+   {
+    "title": null,
+    "text": "Taste, and if you’d like it to be a little sweeter, add a tiny splash of simple syrup or St. Germain—this will really depend on the sweetness of the watermelon and your taste buds. Serve immediately!"
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my watermelon juice."
+  ],
+  "summary": "These watermelon mimosas are a refreshing summer brunch cocktail. They’re great any time of day, really! Recipe yields enough watermelon juice to make one Champagne bottle’s worth of mimosas (that’s 6 to 8 mimosas, depending on how boozy you like them).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

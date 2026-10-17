@@ -22,7 +22,24 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2014/11/crispy-sweet-potato-roast/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 375°F (190°C). Heat butter and oil together until butter has melted. Pour 2 tablespoons of the mixture in the bottom of a 2-quart baking dish. (Mine is 9.5-by-12-inches, if that helps.) Sprinkle butter/oil puddle with some salt and pepper. Arrange your potato slices vertically in the dish. Add a sliver of shallot between every few slices of potato, if desired. Brush tops of potatoes with remaining butter/oil and season generously with more salt and pepper. Cover dish with foil and bake for 45 to 50 minutes, until potatoes are tender and almost fully cooked. Increase oven heat to 450æF (230°C), remove foil and let roast another 10 to 20 minutes, until tops of potatoes are nicely browned."
+   },
+   {
+    "title": null,
+    "text": "If you’d like to finish this with the Thanksgiving Salsa Verde I show here, or at least serve it on the side, place 1 scant cup of parsley leaves, 1 tablespoon fresh rosemary, 1 generous teaspoon of fresh thyme and sage leaves, 1 small garlic clove, the zest of 1/2 a lemon and 2 teaspoons capers (rinsed and drained if salted) in a food processor or blender and blend until finely chopped. Drizzle in 7 tablespoons olive oil with the machine running, or enough the mixture is loose and somewhat pourable. Season well with salt and pepper flakes."
+   },
+   {
+    "title": null,
+    "text": "[For more finishing suggestions, see last paragraph of post above.]"
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

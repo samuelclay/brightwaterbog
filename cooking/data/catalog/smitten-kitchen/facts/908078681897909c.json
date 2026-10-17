@@ -33,7 +33,34 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2024/02/crispy-potatoes-with-mushrooms/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "To roast the potatoes: [Frying directions at the end.] Heat oven to 400 degrees. Line a large baking sheet with parchment paper, for ease. Toss potatoes with a generous amount of olive oil, salt, and freshly ground pepper and spread them out on the prepared sheet in one layer. Roast for 30 minutes on the first side and 10 minutes on the second, until golden all over."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, make the mushrooms and onions: Heat a large skillet over medium-high heat. Once hot, add 1 tablespoon butter and 1 tablespoon olive oil. Once hot, add onions and season with salt and pepper. Cook, stirring, until onions are soft and deeply golden throughout, about 7 to 10 minutes. Reduce heat if they’re browning much faster. Scoop onions from the pan and set aside in a bowl."
+   },
+   {
+    "title": null,
+    "text": "Rewarm the empty pan (bumping back to medium-high if you reduced the heat) and once the pan is very hot, add 1 more tablespoon of butter. Once melted, add mushrooms in as flat of a layer as you can. Don’t move them for 2 to 3 minutes, until browned underneath. Stir, spread flat again, and repeat the process once or twice. Then, add the minced garlic and season with salt and freshly ground black pepper, and continue to cook, cooking off any liquid that’s been expelled from the mushrooms, until mushrooms are tender and delicious, a few minutes more. Add reserved onions and last tablespoon of butter and stir to combine, rewarming the mushrooms and melting the butter."
+   },
+   {
+    "title": null,
+    "text": "Assemble: Arrange potatoes on a platter and heap with mushrooms and onions. Sprinkle with dill and serve with a generous dollop of sour cream."
+   },
+   {
+    "title": null,
+    "text": "To fry your potatoes: Place potatoes in a skillet deep enough to hold them with an inch on top and pour a high-heat oil (peanut or vegetable oil work great) to just barely cover them. Turn heat to high, yes high, and bring it to a boil. Without moving the potatoes, cook for 20 to 25 minutes, until they’re crisp and golden, adding another 5 minutes if needed. Only if necessary for even cooking, you can stir them in the last 5 to 8 minutes. Drain (the oil can be strained and reused) and spread on paper towels to blot, and season immediately with salt and pepper. Serve with the mushrooms from above."
+   }
+  ],
+  "notes": [
+   "I’m using fingerlings and cremini mushrooms from the Union Square Greenmarket, lucky me, but I usually make this with yukon gold potatoes and any mix of mushrooms that looks good at the store."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

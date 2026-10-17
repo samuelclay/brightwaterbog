@@ -31,7 +31,53 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/roasted-butternut-squash-apple-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the wheat berries (if you’re using another grain, cook according to package directions): Combine the rinsed wheat berries with 3 ½ cups water in a medium pot. Bring to a rolling boil over high heat, then cover, reduce heat and simmer for 1 hour, or until the wheat berries are pleasantly tender but still have some chew to them. Drain off excess water, return the wheat berries to the pot and stir in ¼ teaspoon salt. Set aside to cool."
+   },
+   {
+    "title": null,
+    "text": "To roast the apples: Preheat oven to 425 degrees Fahrenheit. Line one small and one large baking sheet with parchment paper. On the small sheet, arrange the apple wedges in a single layer. Bake the apple slices on the middle rack for 10 minutes, until they are starting to collapse on themselves but before they have burst open. Let the apple slices cool on the pan before removing."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, to prepare the squash: Slice off the top and bottom ends of the squash, then slice it in half vertically. Use a spoon to scoop out the seeds and discard them. Slice the squash into ½″ wide half-moon shapes. Transfer the squash to the large baking sheet and drizzle with 1 tablespoon olive oil. Toss until the squash is lightly coated in oil and sprinkle with salt. Arrange the squash in a single layer and roast for 30 minutes, tossing halfway, until the squash is tender and caramelized on the edges. Set aside to cool."
+   },
+   {
+    "title": null,
+    "text": "To prepare the pecans: In a medium skillet over medium heat, toast the pecans until they are fragrant, stirring frequently, about 4 minutes. Add the maple syrup and a generous pinch of cinnamon and salt and cook, while stirring constantly, until the syrup has condensed and mostly evaporated, about 2 more minutes. Transfer to a plate to cool."
+   },
+   {
+    "title": null,
+    "text": "To prepare the dressing: In a small bowl, combine the olive oil, lemon juice, ginger, maple syrup, mustard and salt. Whisk until thoroughly blended and season to taste with freshly ground black pepper."
+   },
+   {
+    "title": null,
+    "text": "To assemble the salad: In a large serving bowl, add the arugula, cooled wheat berries and apple slices. Before you add the butternut, you might want to slice the larger half-moons in half, so they’re more bite-sized, like I did. Add the butternut, dried cranberries and pecans, then drizzle with dressing (you might not need quite all of it). Toss to lightly coat. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by The Mixx‘s abruzzo squash salad.",
+   "Make it nut free: Substitute pepitas for the pecans.",
+   "Storage suggestions: This salad is best served immediately, but leftovers should keep well, refrigerated, for a couple of days."
+  ],
+  "summary": "This hearty fall through winter salad recipe features roasted butternut squash and apples, wheat berries (or your cooked whole grain of choice), arugula and maple-cinnamon pecans, all tossed in an irresistible gingery dressing! This salad is vegan as written and easily made gluten free. Recipe yields 4 main dish servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 7,
+    "title": "Cinnamon-maple pecans"
+   },
+   {
+    "at": 11,
+    "title": "Ginger Dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

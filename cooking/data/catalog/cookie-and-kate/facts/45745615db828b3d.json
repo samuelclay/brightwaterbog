@@ -1,6 +1,60 @@
 {
  "url": "https://cookieandkate.com/lemon-collard-greens-pasta/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Lemony Collard Greens Pasta",
+  "ingredients": [
+   "1 bunch of fresh collard greens (about 8 to 10 ounces or 10 big leaves)",
+   "5 to 8 ounces thin spaghetti or “spaghettini” (whole wheat or gluten-free if desired)",
+   "3 tablespoons pine nuts",
+   "1 tablespoon olive oil",
+   "2 small cloves garlic, pressed or minced",
+   "Pinch of red pepper flakes (omit if sensitive to spice)",
+   "Fine salt, as needed",
+   "Freshly ground black pepper",
+   "1 ounce Parmesan cheese, shaved with a vegetable peeler",
+   "½ or more of a lemon, cut into wedges"
+  ],
+  "yield_text": "2 servings",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Pasta"
+  ],
+  "cuisines": [
+   "Vegetarian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/lemon-collard-greens-pasta/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a big pot of salted water to a boil and cook the pasta according to directions. Reserve about ½ cup pasta cooking water, then drain the noodles and return them to the pot."
+   },
+   {
+    "title": null,
+    "text": "Cut out the center rib of each collard green. Stack a few greens at a time and roll them up into a cigar-like shape. Slice across the roll as thinly as possible (⅛ to ¼ inch). Shake up the greens and give them a few chops so the strands aren’t so long."
+   },
+   {
+    "title": null,
+    "text": "Heat a heavy-bottomed 12-inch skillet over medium-low heat and toast the pine nuts until they turn golden and fragrant, stirring frequently, about 3 to 5 minutes (don’t step away from the stove, as they burn quickly). Pour them out of the skillet and save for later. Let the skillet cool for a few minutes off the heat."
+   },
+   {
+    "title": null,
+    "text": "Return the skillet to medium heat and pour in the olive oil. Sprinkle in a pinch of red pepper flakes (if using) and the garlic and stir. Once the oil is hot enough to shimmer, toss in all of your collard greens. Sprinkle the greens with a pinch of salt. Stirring often (try not to let them clump), sauté the greens until they’re wilted and dark green, about 3 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the pan from the heat. Scoop the greens into the pasta pot and toss with another drizzle of olive oil, adding just a splash of pasta cooking water if necessary to loosen the mixture. Taste, and add more salt for extra flavor, plus some black pepper. Divide onto plates, top with pine nuts and Parmesan shavings and serve with two big lemon wedges per person."
+   }
+  ],
+  "notes": [
+   "Change it up: Try chopped walnuts instead of pine nuts, or kale instead of collards.",
+   "Make it dairy free/vegan: Omit the cheese."
+  ],
+  "summary": "This super quick pasta dish is tossed with thinly sliced and sautéed collard greens, lemon juice and pine nuts. It’s bold, bright and delicious. Recipe yields 2 generous servings or 4 medium servings (you can stretch the servings by using the full amount of spaghetti).",
+  "ingredient_groups": []
+ }
 }

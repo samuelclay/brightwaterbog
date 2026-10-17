@@ -26,7 +26,38 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/apple-carrot-muffins-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit. Line a 12-cup standard muffin tin with paper muffin cups (I didn’t because I have full faith in my muffin pan, but use them if you’re uncertain)."
+   },
+   {
+    "title": null,
+    "text": "In a large bowl, combine the almond meal, oats, cinnamon, baking soda, salt, and optional mix-ins, if using."
+   },
+   {
+    "title": null,
+    "text": "In a separate bowl, whisk together the honey, eggs and butter. Whisk in the grated apple and carrots. Pour the mixture into the dry ingredients, mixing until just combined."
+   },
+   {
+    "title": null,
+    "text": "Spoon the batter into the muffin cups, filling each to the brim. Bake until the muffins are nicely browned on top and a knife inserted in the center of a muffin comes out clean, 25 to 30 minutes. Allow muffins to cool completely before storing."
+   },
+   {
+    "title": null,
+    "text": "Store leftover muffins in an airtight container in the fridge or freezer. If you like them warm, reheat them on low power in the microwave."
+   }
+  ],
+  "notes": [
+   "Recipe from the Run Fast. Cook Fast. Eat Slow. cookbook by Shalane Flanagan and Elyse Kopecky.",
+   "Make them nut free: (The muffins will no longer be gluten free with this variation, which was provided by the recipe author.) Whole wheat pastry flour or whole wheat flour can be used as an alternative to the almond meal. Increase the butter to 8 tablespoons (1 stick), since wheat flour is much drier, and reduce the oats to 1 cup.",
+   "Whole wheat flour option: See above!",
+   "Make them dairy free: I haven’t tried, but I’m confident you could substitute coconut oil for the butter. Please report back if you give that a try!",
+   "Egg substitution note: I don’t think you can successfully replace the eggs with any substitutes here. I tried with a similar almond meal-based recipe, and it was an epic fail. However, you can use flax eggs in my carrot muffin recipe (and you could even use half grated apple, half carrots to make those muffins more similar to this recipe)."
+  ],
+  "summary": "This apple carrot muffin recipe is naturally sweetened and gluten free! These hearty apple-carrot muffins make a great grab-and-go breakfast or snack. Recipe yields 12 muffins.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

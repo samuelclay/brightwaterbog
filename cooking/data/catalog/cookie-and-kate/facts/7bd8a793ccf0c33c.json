@@ -33,7 +33,50 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/kale-apple-salad-with-granola-croutons/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the granola: Preheat the oven to 350 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper for easy clean-up. In a medium bowl, stir together the oats, pecans, pepitas, sunflower seeds, salt, cinnamon and cayenne pepper. Stir in the beaten egg white, oil, and maple syrup until well blended. Transfer the mixture to the prepared baking sheet and bake until golden, gently stirring the granola halfway, about 15 to 17 minutes. Let the granola cool on the baking sheet."
+   },
+   {
+    "title": null,
+    "text": "To make the dressing: In a small bowl, combine the olive oil, lemon juice, mustard, maple syrup and salt. Season with a generous amount of freshly ground black pepper and whisk until blended. The dressing should be zippy, but if it’s overwhelmingly tart, stir in another teaspoon of sweetener. Or, if it needs some extra oomph, stir in another pinch of salt."
+   },
+   {
+    "title": null,
+    "text": "To prepare the kale, use a chef’s knife to remove the tough ribs from the kale, then discard the ribs (or feed them to your dog!). Chop the kale leaves into small, bite-sized pieces. Transfer the chopped kale to a big salad bowl. Sprinkle a small pinch of sea salt over the kale and massage the leaves with your hands by lightly scrunching big handfuls at a time, until the leaves are darker in color and fragrant."
+   },
+   {
+    "title": null,
+    "text": "To assemble the salad, drizzle all of the dressing over the kale and toss well. Add the chopped apple, crumbled goat cheese, cranberries, and about half of the granola. Gently toss to combine, and serve. This salad will keep well, covered and refrigerated, for up to 4 days."
+   },
+   {
+    "title": null,
+    "text": "Save the leftover granola for a snack or another salad. Store it in an air-tight bag with the air squeezed out for up to 2 weeks at room temperature, or several months in the freezer."
+   }
+  ],
+  "notes": [
+   "Make it egg free: Omit the egg white (your granola may be done a couple of minutes early, and won’t clump together quite as much).",
+   "Make it vegan: Omit the egg white and omit the goat cheese or replace it with a diced avocado.",
+   "Make it dairy free: Omit the goat cheese or replace it with a diced avocado.",
+   "Make it gluten free: Use certified gluten-free oats."
+  ],
+  "summary": "Nutty granola croutons complete this salad made with massaged raw kale, crisp chopped apple, and crumbled goat cheese tossed in a tangy lemon dressing. This recipe yields 4 medium salads, and twice as much granola as you’ll need—it stores well for future salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Granola “croutons”"
+   },
+   {
+    "at": 10,
+    "title": "Lemony maple mustard dressing"
+   },
+   {
+    "at": 16,
+    "title": "Kale salad"
+   }
+  ]
  },
  "parser_version": 2
 }

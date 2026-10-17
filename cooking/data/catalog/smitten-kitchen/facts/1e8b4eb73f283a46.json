@@ -29,7 +29,19 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2016/08/chile-lime-melon-salad/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Place melon in a wide bowl or on a platter. Squeeze half lime juice over, adding second half to taste, then sprinkle with salt and chili powder. Scatter with cheese, pepitas and cilantro and dig in."
+   }
+  ],
+  "notes": [
+   "Do ahead: I’d expected this salad not to keep at all but we found it just fine (with no watery run-off) after 2 hours in the fridge. I wouldn’t keep it assembled too much longer, though. You don’t want the salt to draw the juices out of the fruit before you eat it, and it’s quick enough to put together at the last minute.",
+   "I used a mix of watermelon, cantaloupe and honeydew here but you could use all of one or a mix of two. You might also use mango and pineapple or other stone fruits (peaches, apricots and plums). Even vegetables (cucumber and jicama, maybe with avocado too) will taste good with this treatment. I used a melon baller to cut the melon but chunks and/or slices will work just as well (and be less wasteful). I used cotija cheese but if you can’t get it, ricotta salata is a close swap, followed by feta, but look for a very firm one. Finally, this salad more than all others needs to be made to taste; I jotted down the proportions I used but you might want more or less salt, cheese, lime, heat herbs and then some, so adjust it accordingly."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

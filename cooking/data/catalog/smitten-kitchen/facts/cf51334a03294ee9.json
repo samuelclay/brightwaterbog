@@ -39,7 +39,28 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2010/04/shakshuka/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the sauce: Heat oil in a deep 11- to 12-inch skillet over medium-high heat. Add chiles and onions and cook, stirring occasionally, until soft and golden brown, about 6 minutes. Add garlic, cumin, and paprika, and cook, stirring frequently, until garlic is soft, about 2 more minutes."
+   },
+   {
+    "title": null,
+    "text": "Pour liquid from the can of tomatoes into the skillet and add the tomatoes, one at a time, crushing them in your hands before you do. Add 1/2 cup water, reduce the heat to medium, and simmer the sauce, stirring occasionally, until thickened slightly, about 15 minutes. Season with salt."
+   },
+   {
+    "title": null,
+    "text": "10 minutes before serving, add the eggs: Use the back of a spoon to make some divots in the sauce and crack an egg into each, evenly distributing them across the pan. Cover skillet and cook until the yolks are just set, about 5 minutes. [* See tips below.] Use a spoon to baste the whites of the eggs with tomato mixture, being careful not to disturb the yolk. Sprinkle shakshuka with feta and parsley and serve directly from the pan with pitas, for dipping."
+   },
+   {
+    "title": null,
+    "text": "* Note: The trickiest part of any baked egg dish is getting the eggs exactly right, neither undercooked or hard-boiled. First, peek in on the eggs often and rotate the pan a few times to avoid a hot spot ruining a single egg. Most importantly, ask yourself: Am I eating this the second it comes off the stove or 10 minutes later? If so, remove the pan from the heat when the whites are still a little, because they’ll continue to cook as the pan rests. Don’t add the eggs any more than 10 minutes before serving or they’ll all end up hard-cooked."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -26,7 +26,34 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/esquites-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Melt the butter in a large skillet, preferably cast iron, over medium heat. Once melted, add the corn and the salt (if using frozen corn, no need to defrost first). Cook, stirring just every minute or so, until the corn is warmed through and turning golden on the edges, about 5 to 8 minutes (turn the heat down to low if the corn starts jumping out of the pan)."
+   },
+   {
+    "title": null,
+    "text": "Add the garlic and cook until fragrant, about 30 seconds, then remove the skillet from the heat. Let the corn cool for a few minutes, then transfer it to a medium mixing bowl."
+   },
+   {
+    "title": null,
+    "text": "Add the remaining ingredients to the bowl (the mayonnaise, optional jalapeño, lime juice, chili powder, optional cayenne, cheese and cilantro). Stir to combine. Season to taste with additional salt, if needed."
+   },
+   {
+    "title": null,
+    "text": "To serve, divide the mixture between small cups and garnish individual servings with a wedge of lime, perhaps a sprinkle of additional cheese and chili powder. Leftovers keep well, refrigerated, for about 4 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my elote recipe.",
+   "*Mayonnaise alternatives: Mayonnaise yields the best flavor. If you prefer an alternative, sour cream or plain Greek yogurt will do.",
+   "**Where to find Cotija cheese: Look for Cotija in well-stocked grocery stores or Mexican specialty shops. I buy it at Whole Foods, near the goat cheese. If you can’t find it, try finely crumbled feta cheese or finely grated Parmesan instead.",
+   "Make it dairy free: Use olive oil instead of butter. Try a sprinkle of vegan Parmesan in place of the Cotija (use less than called for in the recipe, since the Parm is more salty). Or, just omit the Cotija.",
+   "Make it vegan: Use olive oil instead of butter. Try my vegan sour cream in place of the mayo, and a sprinkle of vegan Parmesan in place of the Cotija (use less than called for in the recipe, since the Parm is more salty). Or, you could use a good vegan mayonnaise and omit the cheese."
+  ],
+  "summary": "This esquites recipe yields a deliciously creamy, tangy and spicy Mexican corn salad. Serve it in a bowl or small individual cups, as it’s typically served in Mexico. Esquites are also called elote en vaso . Recipe yields 4 small side servings and is easily doubled for a crowd; if doubling, give the corn extra time in the pan to turn nicely golden.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -26,7 +26,43 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/tomato-jam-and-mozzarella-panini/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the jam: In a medium-sized pot (around 2 ½ quarts) over medium-high heat, combine the halved tomatoes, honey, vinegar, 2 tablespoons water, salt and pepper. Bring the mixture to a simmer and cook, stirring occasionally and reducing heat as necessary to avoid scorching as the jam condenses."
+   },
+   {
+    "title": null,
+    "text": "Simmer until the mixture is completely broken down, reduced and thickened enough that you can scoop it on top of itself and it stays there, which will take somewhere between 30 to 50 minutes. Use the jam immediately or let it cool and store it, covered, for up to 1 month in the refrigerator."
+   },
+   {
+    "title": null,
+    "text": "To make the sandwiches: If you’re making panini, brush olive oil or melted butter on one side of each slice of bread. Place the oiled sides down on a plate. Mix the mozzarella and Parmesan cheese together. Working in pairs, spread a generous layer of jam on one piece of bread and top the other with a generous handful of cheese, spread evenly down the bread (use a little more than you think you probably should). Top the cheese with a sprinkle of torn basil and press the other slice of bread, tomato jam-side down against the cheese to make a sandwich. Repeat for remaining sandwiches."
+   },
+   {
+    "title": null,
+    "text": "Grill the sandwich in a panini press, electric grill or in a pan on the stovetop until both sides are crispy and turning golden brown on the edges. (I used an electric grill set to 400 degrees Fahrenheit, but here’s a stovetop method that has worked for me… feel free to just make a grilled cheese here.) Repeat for remaining sandwiches."
+   },
+   {
+    "title": null,
+    "text": "Slice the sandwich in half and serve!"
+   }
+  ],
+  "notes": [
+   "Tomato jam adapted from Modern Mediterranean by Melia Marden."
+  ],
+  "summary": "Homemade cherry tomato jam, shredded mozzarella and basil grilled to perfection! You can make this panini recipe as a grilled cheese, too. I’d suggest making the jam as directed, then eyeballing the amount of cheese you’ll need for the sandwiches.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Cherry tomato jam (yields about 1 cup)"
+   },
+   {
+    "at": 5,
+    "title": "Panini or grilled cheese (enough for 4 large sandwiches)"
+   }
+  ]
  },
  "parser_version": 2
 }

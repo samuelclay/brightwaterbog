@@ -24,7 +24,49 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/french-toast-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cut your bread into ¾-inch thick slices, to yield about 8 large or 12 medium slices of bread. If your bread is stale, move onto the next step. If your bread is fresh and soft, preheat the oven to 300 degrees Fahrenheit. Place the sliced bread onto a large, rimmed baking sheet lined with an oven-safe cooling rack (if you have one) and bake for 8 minutes. If the bread still feels soft and squishy on the bottom sides, flip them and bake for an additional 4 to 8 minutes. We’re aiming for “stale bread” texture, not crispy toast. Set aside to cool."
+   },
+   {
+    "title": null,
+    "text": "Gently warm the milk in the microwave or in a saucepan on the stovetop, just until it’s warmer than room temperature (otherwise, the melted butter will clump on impact). Set aside."
+   },
+   {
+    "title": null,
+    "text": "Separate the yolks from three eggs, reserving the whites for another use if desired. In a medium mixing bowl, whisk the egg yolks until well blended. Add the warmed milk, melted butter, maple syrup, vanilla, cinnamon and salt, and whisk until blended. Pour the mixture into a 9 by 13-inch baking dish."
+   },
+   {
+    "title": null,
+    "text": "If you’re using an electric skillet, preheat it to 350 degrees Fahrenheit now. Place the sliced bread in the egg mixture, working with one side at a time. Once the bottom sides have absorbed egg mixture to a depth of about ¼-inch, flip each slice and repeat for the other side. Transfer the soaked slices to your prepared baking sheet."
+   },
+   {
+    "title": null,
+    "text": "Whisk the egg mixture once again to redistribute the cinnamon. Repeat with the remaining slices, whisking the mixture between batches."
+   },
+   {
+    "title": null,
+    "text": "If you are not using an electric skillet, heat a skillet (ideally cast iron) or griddle over medium-low heat. You’re ready to start cooking the bread once a drop of water sizzles on contact with the hot surface. Note that we will not be using any butter or cooking spray to cook the toast—there’s enough butter in the batter already."
+   },
+   {
+    "title": null,
+    "text": "Once your cooking surface is sufficiently preheated, start cooking! Gently transfer a slice(s) to the skillet and cook until the underside is nicely golden, about 3 to 4 minutes. Flip and repeat with the other side, then transfer the toast to a clean cooling rack or serving platter. As time goes on, dial the heat down if your toast becomes too golden on the outside before the inside cooks through. Repeat with remaining French toast (if you have extra bread and batter left, you could cook a few extra slices)."
+   },
+   {
+    "title": null,
+    "text": "Serve French toast on plates with desired garnishes. Enjoy!"
+   }
+  ],
+  "notes": [
+   "Recipe adapted from America’s Test Kitchen and Cook’s Illustrated.",
+   "*Bread suggestions: I love to use fluffy whole grain sourdough, which offers some light nutty flavor. Challah, brioche or a wide loaf of French bread or even sandwich bread (ideally thick cut) will all work well.",
+   "**Milk options: Whole milk is ideal. You could use 2 percent milk for less rich results. Or try a thick non-dairy milk, like homemade cashew milk or Forager’s brand cashew milk.",
+   "Make it dairy free: Use a thick non-dairy milk, like homemade cashew milk or Forager’s brand cashew milk. Though I haven’t tried, I believe you could successfully replace the butter with melted coconut oil or vegan butter."
+  ],
+  "summary": "Learn how to make the best French toast at home! This foolproof recipe yields French toast that’s fluffy, tender, lightly sweet and golden brown. This recipe yields 8 large or 12 medium slices of French toast (4 servings).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

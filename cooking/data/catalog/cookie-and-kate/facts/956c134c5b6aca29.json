@@ -19,7 +19,28 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/maple-mint-julep-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Place the mint leaves in the bottom of a sturdy old-fashioned or rocks glass. Muddle them until the leaves are dark, fragrant and broken down, about 30 seconds."
+   },
+   {
+    "title": null,
+    "text": "Add the maple syrup and bourbon. Fill the glass with crushed ice and stir the drink for a few seconds."
+   },
+   {
+    "title": null,
+    "text": "To garnish, gently clap the mint sprig in between your palms (this releases the fragrant mint oils). Place it in your glass and serve immediately."
+   }
+  ],
+  "notes": [
+   "Recipe roughly adapted from Alton Brown.",
+   "Recommended equipment: I like this muddler and these old-fashioned glasses (affiliate links).",
+   "Recommend bourbon: Old Overholt or Bulleit bourbon."
+  ],
+  "summary": "These mint juleps are refreshing, boozy and so easy to make! You’ll just need fresh mint, bourbon, maple syrup and ice. Using maple syrup instead of simple syrup saves a step. Amounts given below yield 1 cocktail; make as many as you’d like in individual glasses.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

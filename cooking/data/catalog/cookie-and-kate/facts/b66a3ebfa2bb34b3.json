@@ -27,7 +27,41 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/mexican-brown-rice-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 375 degrees Fahrenheit. In a food processor or blender, combine the tomatoes, onion and garlic, and blend until smooth. In a liquid measuring cup, measure out 2 cups of the tomato mixture and discard the rest."
+   },
+   {
+    "title": null,
+    "text": "Warm the olive oil in a medium Dutch oven* over medium heat until shimmering. Add the rice and jalapeño and cook, stirring occasionally, for about 2 to 3 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the vegetable broth (watch out for splatters), tomato mixture, tomato paste (add a little extra if you’re using fresh tomatoes that aren’t super flavorful), and salt. Stir to combine, then increase the heat to medium-high and bring the mixture to a boil."
+   },
+   {
+    "title": null,
+    "text": "Cover the pot with the lid and carefully transfer it to the oven. Bake until the liquid is absorbed (the rice will look dry when you take off the lid, but don’t worry) and the rice is tender, about 1 hour 15 minutes to 1 hour 30 minutes, stirring halfway through cooking."
+   },
+   {
+    "title": null,
+    "text": "Stir in the cilantro and season to taste with additional salt, if necessary (I often add another ¼ to ½ teaspoon). If you’d like spicier rice, add a pinch of red pepper flakes and stir again. Serve with lime wedges on the side."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from America’s Test Kitchen.",
+   "*Equipment notes: I used a medium Dutch oven for this recipe, which worked great. America’s Test Kitchen suggests that a large, straight-sided sauté pan or 12″ oven-safe pot will work; you’ll need an oven-safe, snug-fitting lid for either one.",
+   "Rice substitutions: I think you could use medium-grain brown rice here without any changes. If you want to use white rice, reduce the oven temperature to 350, reduce the broth to 2 cups, and reduce the baking time to 30 to 35 minutes.",
+   "Shortcut: You can replace the blended tomato/onion/garlic mixture with 2 cups mild red salsa (opt for regular salsa, as opposed to thick and chunky). When I use this trick, I reduce the amount of salt added to the pot by half and then add more to taste at the end, since salsas are already pretty salty.",
+   "Protein booster: After the rice is done cooking, you can stir in one or two cans of rinsed and well-drained black beans (or up to 3 cups drained home-cooked black beans). I also like this rice with chickpeas, but those don’t exactly jive with the Mexican theme.",
+   "Slow cooker note: I tried making this rice in a slow cooker (about 4 hours on high), and it didn’t turn out nearly as well (really mushy).",
+   "Freeze the leftovers: Laurie says she freezes her leftovers in a large freezer bag (be sure to let it cool completely before bagging). When she wants more, she breaks off a piece or two, heats it slowly and it’s good to go.",
+   "Recipe update 7/21/17: There’s nothing worse than sharing a recipe that has worked successfully several times, only to have it start acting up on you! I (and several commenters) encountered rice stayed crunchy/al dente no matter how long we cooked it. I’ve finally figured out that rinsing the rice causes it to stay crunchy no matter how long you cook it. My recipe last suggested 60 to 75 minutes, but I found that the rice requires 75 to 90 minutes to fully cook. I’m so sorry to anyone who ended up with too-firm rice!"
+  ],
+  "summary": "Healthy Mexican rice that tastes amazing! This recipe is made with brown rice, which is perfectly fluffy after baking in the oven. This isn’t a quick recipe, but it does clear the stovetop for use. Check the recipe notes for a shortcut, etc. Recipe yields 6 to 8 side servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

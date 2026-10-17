@@ -1,6 +1,53 @@
 {
  "url": "https://cookieandkate.com/honey-almond-granola/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Honey Almond Granola",
+  "ingredients": [
+   "4 cups old-fashioned rolled oats (use certified gluten-free oats for gluten-free granola)",
+   "1 ½ cups raw slivered almonds (or other nuts*)",
+   "1 teaspoon fine-grain sea salt",
+   "¼ teaspoon cinnamon",
+   "¼ teaspoon ground ginger",
+   "½ cup melted coconut oil or olive oil",
+   "½ cup + 1 tablespoon honey or maple syrup",
+   "¾ teaspoon vanilla",
+   "½ cup chopped dried apricots (preferably the Blenheim variety)",
+   "¼ cup chopped dried cherries, cranberries, raisins or currants"
+  ],
+  "yield_text": "8 cups",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/honey-almond-granola/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit and line a half-sheet pan with parchment paper. In a large mixing bowl, combine the oats, nuts, salt, cinnamon and ground ginger. Stir thoroughly to combine."
+   },
+   {
+    "title": null,
+    "text": "Stir in the oil, honey and vanilla. Turn the granola out onto your prepared pan and use a large spoon to spread it in an even layer. Bake for 22 to 26 minutes, stirring halfway. The granola should be turning lightly golden (keep an eye on it as honey tends to brown). The granola will crisp up as it cools."
+   },
+   {
+    "title": null,
+    "text": "Let the granola cool before stirring in the chopped fruit. Store the granola in an airtight container at room temperature for 1 to 2 weeks, or keep it in the freezer for longer shelf life."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my gingerbread granola.",
+   "*Preparation tips: If you are using large, whole nuts (pecans, walnuts, etc.) follow instructions as directed. If you are using small nuts or seeds (sunflower seeds, pepitas, etc.), wait to stir them into the granola until you remove it from the oven halfway through cooking.",
+   "Make it vegan: Instead of honey, use maple syrup as your sweetener."
+  ],
+  "summary": "A simple recipe for granola made with honey, almonds, coconut oil and spices. This granola is great for breakfast or a snack. Recipe yields 8 to 9 cups of granola.",
+  "ingredient_groups": []
+ }
 }

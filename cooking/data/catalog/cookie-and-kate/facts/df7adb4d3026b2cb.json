@@ -1,6 +1,74 @@
 {
  "url": "https://cookieandkate.com/zucchini-noodles-with-arrabiata-chickpeas/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Zucchini Noodles with Arrabiata Chickpea Sauce",
+  "ingredients": [
+   "1 small onion, chopped",
+   "2 cloves garlic, finely chopped",
+   "2 teaspoons extra virgin olive oil",
+   "½ tsp dried red pepper flakes",
+   "1 red bell pepper, chopped",
+   "3 or 4 diced tomatoes, seeded, with juice",
+   "2 tablespoons chopped fresh basil",
+   "1 can chickpeas, rinsed and drained",
+   "2 to 3 zucchinis",
+   "olive oil",
+   "sea salt",
+   "black pepper"
+  ],
+  "yield_text": "2 to 3 servings",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/zucchini-noodles-with-arrabiata-chickpeas/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 400 degrees Fahrenheit. In a medium saucepan, heat the oil over medium heat. Add the onions and garlic and sauté until the onion starts to caramelize, which will take about 10 minutes. Add the pepper flakes and red pepper and cook until the pepper softens, about 2 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the tomatoes and heat until the sauce begins to simmer. Lower heat and cook (uncovered) until thickened, about 15 minutes. Stir frequently."
+   },
+   {
+    "title": null,
+    "text": "Slice the ends off two to three zucchinis. Use a vegetable peeler to shave off strips of zucchini. It’s easier than you think it’ll be."
+   },
+   {
+    "title": null,
+    "text": "On a baking sheet, layer the zucchini a few layers deep, and drizzle with olive oil. Sprinkle some freshly ground black pepper on top."
+   },
+   {
+    "title": null,
+    "text": "Bake for about 10 minutes, until the zucchini has lost its crunch."
+   },
+   {
+    "title": null,
+    "text": "Back to the sauce: stir in the basil and chickpeas. Add salt and pepper, to taste. Cook about 5 more minutes, until everything is heated through. Serve generous portions of zucchini pasta topped with arrabiata sauce!"
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Diet, Dessert and Dogs and Stonesoup."
+  ],
+  "summary": "A light but filling vegan meal with zucchini “noodles,” spicy homemade arrabiata sauce and chickpeas. Recipe yields 2 to 3 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Arrabiata sauce"
+   },
+   {
+    "at": 8,
+    "title": "Zucchini pasta"
+   }
+  ]
+ }
 }

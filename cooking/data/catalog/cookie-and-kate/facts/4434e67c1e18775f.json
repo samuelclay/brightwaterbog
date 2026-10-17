@@ -22,7 +22,28 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/balsamic-vinaigrette-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a liquid measuring cup or bowl, combine everything but the oil (the vinegar, mustard, maple syrup, garlic, salt and several twists of black pepper)."
+   },
+   {
+    "title": null,
+    "text": "Stir the mixture well with a small whisk or a fork until the ingredients are completely mixed together. While whisking, drizzle in the oil until it’s thoroughly combined."
+   },
+   {
+    "title": null,
+    "text": "Taste, and adjust as necessary. If the mixture is too acidic, thin it out with a bit more olive oil or balance the flavors with a little more maple syrup or honey. If the mixture is a little blah, add another pinch or two of salt. If it doesn’t have enough zing, add vinegar by the teaspoon."
+   },
+   {
+    "title": null,
+    "text": "Serve immediately, or cover and refrigerate for future use. Homemade vinaigrette keeps well for 7 to 10 days. If your vinaigrette solidifies somewhat in the fridge, don’t worry about it—real olive oil tends to do that. Simply let it rest at room temperature for 5 to 10 minutes or microwave very briefly (about 20 seconds) to liquify the olive oil again. Whisk to blend and serve."
+   }
+  ],
+  "notes": [],
+  "summary": "Balsamic vinaigrette is the perfect dressing for almost every salad. This balsamic vinaigrette recipe is easy to make and strikes the perfect balance between tangy and sweet. Recipe yields just over ¾ cup.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

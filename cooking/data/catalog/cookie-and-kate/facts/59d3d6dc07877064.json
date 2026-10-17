@@ -28,7 +28,49 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/blueberry-cake-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 400 degrees Fahrenheit. Line the base of a 9-inch springform pan with parchment paper cut to fit inside. Butter the sides of the pan to prevent the cake from sticking."
+   },
+   {
+    "title": null,
+    "text": "In a large mixing bowl, combine 1 ¾ cups of the flour with the baking powder, baking soda, salt and cinnamon. Stir them together with a whisk."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, combine the maple syrup and butter and beat together with a whisk. Add the eggs and beat well, then add the buttermilk and vanilla. Mix well. (If the butter solidifies in contact with cold ingredients, gently warm the mixture in the microwave in 30 second bursts, then stir again.)"
+   },
+   {
+    "title": null,
+    "text": "Pour the wet ingredients into the dry and mix with a big spoon, just until combined (a few lumps are ok). In a small bowl, toss 2 cups of the blueberries with the remaining 1 teaspoon flour (this helps prevent the blueberries from sinking to the bottom). Gently fold the blueberries into the batter. The mixture will be thick, but don’t worry."
+   },
+   {
+    "title": null,
+    "text": "Pour the batter into the prepared pan. Distribute the remaining blueberries on top, focusing them more toward the center of the cake. Sprinkle the top of the blueberries with the turbinado sugar."
+   },
+   {
+    "title": null,
+    "text": "Bake for 34 to 38 minutes, until the cake is golden on top and a toothpick inserted into the center comes out clean (blueberry bits aside). Place the cake on a cooling rack to cool. Before releasing the springform sides, you might need to run a butter knife along the outer edge of the cake to loosen it from the pan."
+   },
+   {
+    "title": null,
+    "text": "Serve as desired. Store leftover cake covered, at room temperature for 2 days, or in the refrigerator for up to 5 days. Or, freeze leftover cake for up to 3 months."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Healthy Blueberry Muffins.",
+   "*How to make buttermilk: Combine 2 teaspoons vinegar with ⅔ cup milk of choice (any milk will do). Let the mixture rest for 5 to 10 minutes before adding it to the other liquid ingredients.",
+   "Flour options: All-purpose flour and gluten-free all-purpose blends also work well here. I bet that you could use 2 ½ cups oat flour instead, but haven’t tried to be sure.",
+   "Change it up: Know that the cinnamon and turbinado sugar are technically optional. You could try this cake with raspberries or sliced strawberries in place of the blueberries. Instead of buttermilk, you could use 1 cup plain Greek yogurt or sour cream. For lemony cake, whisk the zest of 1 medium lemon (about ½ teaspoon), preferably organic, into the liquid ingredients.",
+   "Make it dairy free: Make your own buttermilk from your non-dairy milk of choice. Replace the butter with ⅓ cup melted coconut oil or mildly flavored extra-virgin olive oil, like California Olive Ranch.",
+   "Make it vegan: Follow dairy-free guidance above and substitute flax eggs for the regular eggs.",
+   "Make it egg free: Substitute flax eggs for the regular eggs.",
+   "Make it gluten-free: Substitute an all-purpose gluten-free flour blend for the whole wheat flour. Bob’s Red Mill makes a gluten-free blend that works well."
+  ],
+  "summary": "Make this simple blueberry cake recipe! This blueberry cake is tender and delicious, loaded with blueberries, and not too sweet. It’s naturally sweetened and whole grain as written, too (check recipe notes for more flour options). Recipe yields one 9-inch round cake, enough for 8 slices.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

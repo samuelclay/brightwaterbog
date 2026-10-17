@@ -27,7 +27,42 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/peach-avocado-green-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the salad: Place the red onion in a small bowl and cover with water. Let it rest while you prepare the rest of the salad. (This will keep the flavor of the onion but remove some of the harsh after-bite.) Place the arugula in a large serving bowl."
+   },
+   {
+    "title": null,
+    "text": "To toast the almonds, place them in a small skillet over medium-low heat. Cook, stirring frequently (careful, they can burn), until the almonds are fragrant and starting to turn golden on the edges, about 4 to 5 minutes. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Make the dressing: In a small bowl or large liquid measuring cup, whisk together the dressing ingredients (the oil, lemon juice, mustard, garlic, salt, and pepper)."
+   },
+   {
+    "title": null,
+    "text": "Drizzle half of the dressing over the greens, then toss to coat. Drain the red onion, then scatter it over the arugula. Top with the peaches, avocados, almonds and cheese. Just before serving, drizzle on a bit more dressing and give it a final, gentle toss to combine. Enjoy, with additional dressing as desired."
+   }
+  ],
+  "notes": [
+   "This recipe comes from The Well Plated Cookbook by Erin Clarke, with permission.",
+   "*Blue cheese alternative: If you don’t enjoy blue cheese, I think your next best bet would be goat cheese. Feta might be nice, too.",
+   "Change it up: Erin says, “This salad is a delightful base for seasonal swaps. In the fall and winter, replace the peaches and almonds with thinly sliced apples and walnuts. In the spring and early summer, try a mix of sliced strawberries and pecans.”",
+   "Storage suggestions: This salad tastes best the day it is made. Erin says that if you don’t mind slightly wilted arugula, it can be stored in the refrigerator for 1 to 2 additional days. Wake up the leftovers with an extra squeeze of lemon juice."
+  ],
+  "summary": "This summer salad recipe from The Well Plated Cookbook features ripe peaches and avocado over fresh arugula. It’s healthy and delicious! Recipe yields a very large salad (enough for 8 side salads or 3 to 4 main salads); cut the recipe in half for a smaller crowd.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Green Salad"
+   },
+   {
+    "at": 6,
+    "title": "Lemon Dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

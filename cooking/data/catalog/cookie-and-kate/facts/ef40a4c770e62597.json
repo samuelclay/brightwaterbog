@@ -1,6 +1,47 @@
 {
  "url": "https://cookieandkate.com/homemade-ketchup/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Homemade Ketchup",
+  "ingredients": [
+   "6 ounces tomato paste",
+   "1 teaspoon fine salt",
+   "½ teaspoon garlic powder (not granules)",
+   "½ teaspoon mustard powder (optional)",
+   "⅛ teaspoon ground cinnamon",
+   "Finely ground black pepper, to taste",
+   "2 tablespoons runny balsamic vinegar or white balsamic vinegar",
+   "¼ cup water, more if needed"
+  ],
+  "yield_text": "1 cup",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Condiment"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/homemade-ketchup/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Place the tomato paste in a 2-cup liquid measuring cup or glass jar. Add the salt, garlic powder, mustard powder (if using), cinnamon, and about 5 twists of black pepper. Use a small whisk to stir the ingredients together until they’re evenly combined."
+   },
+   {
+    "title": null,
+    "text": "Add the vinegar, and whisk until combined. Add the water, and whisk again until you have a smooth, even mixture. Season to taste with additional pepper, if desired. If you’d prefer a thinner ketchup, add more water by the teaspoon until you reach your desired consistency."
+   },
+   {
+    "title": null,
+    "text": "For the best flavor, cover and refrigerate the mixture for at least 1 hour before serving. This homemade ketchup will keep in an airtight jar in the refrigerator for up to 2 weeks."
+   }
+  ],
+  "notes": [],
+  "summary": "Make your own ketchup with this easy recipe made from pantry ingredients! It offers classic ketchup flavor with a thick texture, perfect for dunking. Recipe yields just over 1 cup.",
+  "ingredient_groups": []
+ }
 }

@@ -28,7 +28,36 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2006/09/silky-cauliflower-soup/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Remove the leaves and thick core from the cauliflower, coarsely chop, and reserve."
+   },
+   {
+    "title": null,
+    "text": "Heat the olive oil in a large saucepan or soup pot over medium heat and add the onion and garlic. Cook until softened, but not browned, about 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the cauliflower and stock and bring to a boil. Reduce the heat to a simmer, cover, and cook until the cauliflower is very soft and falling apart, about 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove from heat and, using a hand held immersion blender, puree the soup, or puree in small batches in a blender and return it to the pot."
+   },
+   {
+    "title": null,
+    "text": "Add the Parmesan and stir until smooth."
+   },
+   {
+    "title": null,
+    "text": "Season, to taste, with salt and black pepper. Keep warm until ready to serve."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

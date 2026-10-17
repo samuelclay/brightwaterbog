@@ -19,7 +19,39 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/roasted-strawberry-rhubarb-and-yogurt-parfaits/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit. Line a rimmed baking sheet with parchment paper."
+   },
+   {
+    "title": null,
+    "text": "On the baking sheet, toss the strawberry and rhubarb with the honey and spread the fruit into a single layer. Bake for about 20 to 25 minutes, tossing halfway, until fruit is tender and juicy. Watch the fruit on the edges of the pan, as the honey can burn quickly."
+   },
+   {
+    "title": null,
+    "text": "Transfer the fruit and the juices to a bowl. Stir in the lemon juice. Serve warm over ice cream or cheesecake or let it cool and swirl it into a milkshake, etc."
+   },
+   {
+    "title": null,
+    "text": "If you want to make parfaits: in small glasses or bowls, layer yogurt, strawberry-rhubarb sauce and granola to your liking."
+   }
+  ],
+  "notes": [
+   "Adapted from my balsamic roasted stone fruit sundae and strawberry rhubarb crisp."
+  ],
+  "summary": "Roasted, honey-sweetened strawberries and rhubarb yield a delightfully sweet and tart sauce. You swirl the sauce into yogurt, oatmeal and milkshakes. The warm sauce would be a killer topping for ice cream, cheesecake or toast. This recipe yields enough sauce to flavor about 8 (½ cup) servings of yogurt.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Strawberry-rhubarb sauce"
+   },
+   {
+    "at": 4,
+    "title": "Parfait ingredients"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -20,7 +20,25 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/aguas-frescas-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In your blender container, combine the fruit, water, lime juice, sweetener and optional mint leaves. Purée until smooth using the smoothie feature. Taste and, if necessary, add more lime and/or sweetener, then blend briefly again."
+   },
+   {
+    "title": null,
+    "text": "Serve immediately, over ice."
+   }
+  ],
+  "notes": [],
+  "summary": "These agua frescas are incredibly refreshing, unfiltered fruit juices that are perfect for summertime.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Ingredients per serving, multiply as necessary"
+   }
+  ]
  },
  "parser_version": 2
 }

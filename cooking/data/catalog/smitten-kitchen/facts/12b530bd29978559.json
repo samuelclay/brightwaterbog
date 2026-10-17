@@ -26,7 +26,40 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2015/07/tomato-and-fried-provolone-sandwich/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Toast your bread, if you wish. (See Note at end.) Spread each slice of bread with mayonnaise. Arrange tomato slices on a cutting board and season with flaky salt and freshly ground black pepper."
+   },
+   {
+    "title": null,
+    "text": "Heat a skillet, preferably nonstick, over medium heat and coat with a very thin layer of olive oil. Add first 1 to 2 slices of provolone to the skillet and cook until crusty and gently browned underneath. If you are like me, you might panic when the cheese turns into a puddle that spills towards the edges of the pan, but trust the process: it will begin to brown underneath. Once crispy and golden underneath, use a thin spatula (this is my go-to; everyone needs one) to flip each slice of cheese and cook on the second side for another 10 to 20 seconds."
+   },
+   {
+    "title": null,
+    "text": "[Another tip: Sometimes I use two spatulas to flip the cheese. The first one, something like a small offset spatula, just to lift the edge. Then, once lifted, I find it easier to slide the second spatula underneath and flip with ease.]"
+   },
+   {
+    "title": null,
+    "text": "Transfer these discs of crispy cheese heaven out of the pan and onto your prepared bread. Repeat with remaining cheese, covering each slice of bread."
+   },
+   {
+    "title": null,
+    "text": "Shingle slices of tomatoes, halving if needed so they fit better, over the fried provolone. Sprinkle the tomatoes with extra salt and pepper if they seem like they need it, and eat with one hand, making a drippy mess of yourself, while calming an irate newborn with the other (if you’re me) or with two hands, from a plate, sitting down with a napkin on your lap, you civilized thing (could never be me, clearly)."
+   },
+   {
+    "title": "Notes",
+    "text": "I rarely find decent provolone that’s not pre-sliced, i.e. inexpensive and packaged for sandwiches, so I was determined to make it work with what I could get and am delighted to tell you when refreshing this recipe in the year 2024 and not concurrently taking care of a 15-day old infant (unlike when I first shared this in 2015) it totally does. So, go ahead and use the cheap stuff."
+   },
+   {
+    "title": null,
+    "text": "No need to toast your bread for this, but if you’re going to, I vote for doing so by frying it in olive oil in the same pan. Want to go one step extra? Once toasted and still hot, rub lightly with a clove of garlic."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

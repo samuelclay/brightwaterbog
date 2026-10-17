@@ -1,6 +1,46 @@
 {
  "url": "https://cookieandkate.com/holiday-cocktail-pear-and-resposado-tequila/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Pear Nectar and Reposado Tequila Cocktail",
+  "ingredients": [
+   "1 ½ oz reposado tequila",
+   "3–4 ounces pear nectar",
+   "Tiny dash of cinnamon",
+   "One drop vanilla extract",
+   "Light drizzle of honey simple syrup*",
+   "Half of a lemon, juiced",
+   "Cinnamon stick, to garnish (optional)"
+  ],
+  "yield_text": "1",
+  "cook_time": "3 minutes",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/holiday-cocktail-pear-and-resposado-tequila/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Fill a double old-fashioned or high ball glass with ice."
+   },
+   {
+    "title": null,
+    "text": "Pour in the tequila and pear nectar. Add the cinnamon, vanilla and honey to the glass. Squeeze in half a lemon’s worth of juice."
+   },
+   {
+    "title": null,
+    "text": "Mix by pouring into a cocktail shaker or another glass, give it a shake or stir well, then pour it back into the original glass. Garnish with a cinnamon stick."
+   }
+  ],
+  "notes": [
+   "*How to make honey simple syrup: Pure honey doesn’t mix well with ice-cold drinks, so we’ll turn it into simple syrup. Simply mix small, equal parts of honey and water in a heat-safe bowl or your smallest saucepan. Warm in the microwave or on the stovetop, stirring often, just until the honey dissolves into the water."
+  ],
+  "summary": "This cocktail is a delicious fall/holiday drink. It’s easy to mix up—just combine reposado tequila, pear nectar, honey, cinnamon and lemon. Sip and enjoy!",
+  "ingredient_groups": []
+ }
 }

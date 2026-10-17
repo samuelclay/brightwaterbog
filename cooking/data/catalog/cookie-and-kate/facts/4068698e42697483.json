@@ -1,6 +1,76 @@
 {
  "url": "https://cookieandkate.com/gluten-free-plum-crisp/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Gluten-Free Plum Crisp with Pistachio, Oat and Almond Topping",
+  "ingredients": [
+   "2 pounds plums",
+   "⅓ cup honey or maple syrup",
+   "3 tablespoons arrowroot starch or cornstarch",
+   "½ teaspoon ground cinnamon",
+   "1 cup old-fashioned oats (certified gluten free if necessary)",
+   "½ cup packed almond flour",
+   "⅓ cup chopped pistachios, almonds or walnuts",
+   "⅓ cup lightly packed coconut sugar or brown sugar",
+   "1 teaspoon ground ginger",
+   "¼ teaspoon fine salt",
+   "4 tablespoons butter, melted",
+   "3 tablespoons plain yogurt (regular or Greek)",
+   "Vanilla ice cream, whipped cream or yogurt"
+  ],
+  "yield_text": "8",
+  "cook_time": "1 hour 15 minutes",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/gluten-free-plum-crisp/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit. To prepare the plums, you don’t need to peel them. Cut them in half, discard the pits, and slice the flesh into ½-inch wide wedges."
+   },
+   {
+    "title": null,
+    "text": "In a 9-inch square baking dish, mix together the sliced plums (leave the excess juice on the cutting board), honey, starch and cinnamon."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, stir together the oats, almond flour, pistachios, sugar, ginger and salt. Mix in the melted butter and yogurt. Stir until the mixture is moistened throughout."
+   },
+   {
+    "title": null,
+    "text": "Dollop spoonfuls of the oat mixture over the filling and use your fingers to break up the mixture until it is evenly distributed (no need to pack it down)."
+   },
+   {
+    "title": null,
+    "text": "Bake for 40 to 50 minutes, or until the filling is bubbling around the edges and the top is lightly golden. Let the crisp rest for 5 to 10 minutes before serving. Serve with vanilla ice cream or plain yogurt, I insist. Store this crisp in the refrigerator, covered, for up to 5 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my pear and cranberry crisp.",
+   "Make it nut free: Omit the sliced almonds and use ¾ cup whole wheat flour and ¾ cup oats instead of the almond meal and oats specified above. It will no longer be gluten free. If you want to keep it gluten free, I suspect that you could replace the almond meal with about ⅔ cup oat flour (haven’t tried that, please comment if you do!).",
+   "Make it vegan: Use melted coconut oil in place of the melted butter and yogurt (use 4 tablespoons coconut oil and add up to 3 more, until the topping mixture is moistened throughout) and maple syrup instead of the honey.",
+   "Change it up: Substitute any variety of stone fruit for some or all of the plums, including peaches, apricots, nectarines or cherries."
+  ],
+  "summary": "This simple plum crisp recipe features honey-sweetened summer plums and a gluten-free oat and almond meal topping! Ginger and pistachios send it over the top (but you can substitute another nut for the pistachios). Recipe yields 8 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Plum filling"
+   },
+   {
+    "at": 4,
+    "title": "Gluten-free topping"
+   },
+   {
+    "at": 12,
+    "title": "For serving"
+   }
+  ]
+ }
 }

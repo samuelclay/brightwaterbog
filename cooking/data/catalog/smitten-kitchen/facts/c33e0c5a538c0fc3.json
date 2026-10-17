@@ -27,7 +27,24 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2011/10/cumin-seed-roasted-cauliflower-with-yogurt/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 425°F. Brush a large baking sheet or roasting pan with 1 tablespoon of the olive oil."
+   },
+   {
+    "title": null,
+    "text": "Cut your cauliflower into bite-size florets but no need to make them all evenly sized. The smaller ones get more blistery, the bigger ones retain more texture and they’ll all be happy mingled together. Toss florets with remaining olive oil, cumin seeds, salt and pepper and spread out on prepared tray. Roast for 20 to 30 minutes, until cauliflower is tender and its edges are toasty."
+   },
+   {
+    "title": null,
+    "text": "Either whisk a pinch of salt into your yogurt or to make feta-yogurt sauce blend 3/4 cup yogurt with feta in a food processor until smooth. Dollop on cauliflower then sprinkle dish with mint and pomegranate seeds. Eat immediately and vow to seriously make more effort in the lunch department if it can be this easy."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -25,7 +25,36 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/spaghetti-with-fresh-tomato-sauce/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Core and coarsely chop two-thirds of the tomatoes. Halve the remaining tomatoes down the middle and discard the tough top part where the tomatoes met the stem, if it exists. Rub the cut sides of the tomatoes against the large holes of a box grater set in a large bowl. Leave the tomato pulp in the bowl and discard the skin."
+   },
+   {
+    "title": null,
+    "text": "Add the chopped tomatoes, olive oil, lemon juice, salt, sugar, several twists of freshly ground black pepper and the pressed garlic to the bowl. Mix well. Let the mixture marinate while you cook the pasta."
+   },
+   {
+    "title": null,
+    "text": "Bring a large pot of salted water to boil and then cook the pasta just until al dente, according to package directions. Reserve about a cup of the pasta cooking water before draining the pasta."
+   },
+   {
+    "title": null,
+    "text": "Drain the pasta, then immediately return it to the pot. Pour in all of the tomato sauce and a small splash (about ¼ cup) of the pasta cooking water. Cook over medium-low heat for about 1 to 2 minutes, tossing often (gentle now!), just long enough for the tomatoes to soften a bit and for the starchy tomato water to coat the pasta."
+   },
+   {
+    "title": null,
+    "text": "Remove from heat and toss with (optional) Parmesan and (mandatory) basil. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Gourmet and The Complete Vegetarian Cookbook.",
+   "Make it dairy free/vegan: Skip the Parmesan cheese. You can make up for some of the cheesy flavor with a light sprinkle of nutritional yeast or, better yet, vegan Parmesan.",
+   "Make it gluten free: Use a firm gluten-free pasta, like a corn and quinoa blend."
+  ],
+  "summary": "The freshest of tomato sauce recipes, made with barely cooked tomatoes, basil and seasonings. This simple weeknight meal comes together in no time! Recipe yields 2 large (as in, restaurant-sized) portions or 4 more reasonable servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -28,7 +28,34 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/pumpkin-fettuccine-alfredo/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a big pot of salted water to a boil and cook pasta until al dente (consult directions on package). Drain and set aside."
+   },
+   {
+    "title": null,
+    "text": "Heat a 10 to 12-inch saucepan over medium heat and add butter. Once sizzling, whisk in flour and stir to create a roux, until bubbly and golden, about 3 minutes. Add garlic and cook for 30 seconds. Add in milk, rosemary and red pepper flakes. Stir constantly and increase the heat a little bit, if necessary, until the mixture begins to bubble and thicken, about 5-6 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add in goat cheese, pumpkin, cinnamon, salt and pepper, whisking until smooth and thickened into a sauce. Season generously with additional salt (don’t be shy) and pepper to taste. Add cooked pasta to pan and toss to combine. Remove from heat and serve immediately; top each serving with a sprinkle of finely chopped rosemary (necessary), red pepper flakes (optional, if you like spice like me) and Parmesan shavings."
+   },
+   {
+    "title": null,
+    "text": "Leftovers will keep well for up to 4 days. Gently reheat leftovers with a splash of milk."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from How Sweet It Is.",
+   "*Whole wheat note: Whole wheat noodles work particularly well here because they retain more of a bite and lend texture to a dish that might otherwise end up mushy. I used Mara’s Pasta fettuccine, which I like, but any brand will do.",
+   "If you don’t like goat cheese: Let me first say that I don’t understand you even though I used to be one of you… but I still love you. Try substituting mascarpone cheese or cream cheese or any melty cheese (fontina would be good) for the goat cheese.",
+   "**To make your own pumpkin puree: Preheat the oven to 400 degrees Fahrenheit. Use a sharp chef’s knife to cut off the top-most part of the pumpkin where it meets the stem. Slice the pumpkin into two, from the top through the bottom. Use a large metal spoon to scoop out the seeds, reserving them for roasted pumpkin seeds if you’d like. Line a baking sheet with parchment paper. Brush the flesh of the pumpkin halves with a light coating of olive oil and place facedown on the baking sheet. Roast until the skin is easily pierced with a fork, about 45 to 55 minutes. Turn the halves over and let them rest until cool enough to handle. Use a large spoon to scoop the flesh into a food processor or high-powered blender (I found that I could just pull the skin off). Blend well. Measure out one cup for this recipe. Once the rest has cooled down, store it in the fridge, covered, for a few days or in an air-tight bag in the freezer for up to a few months.",
+   "Make it gluten free: Substitute a sturdy gluten-free noodle, such as a corn and quinoa blend. Use a gluten-free all-purpose flour blend."
+  ],
+  "summary": "Fettuccine tossed with a creamy and comforting, alfredo-like pumpkin sauce, rosemary, Parmesan and spices. You can make your own pumpkin purée (see notes for instructions) or, for a quick meal, use canned pumpkin purée. It’s great both ways! Recipe s erves two generously or three to four with sides.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

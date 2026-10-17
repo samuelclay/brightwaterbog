@@ -30,7 +30,28 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2011/02/spaghetti-with-lemon-and-olive-oil-al-limone/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cook linguine or spaghetti in well-salted water to your al dente tastes in a large, wide-bottomed pot. (You’ll have fewer dishes to wash if you use this pot to assemble the dish as well.)"
+   },
+   {
+    "title": null,
+    "text": "While pasta is cooking, zest lemons until you have a little shy of a tablespoon of zest. Juice lemons — you’ll have anywhere from 1/3 to 1/2 cup lemon juice."
+   },
+   {
+    "title": null,
+    "text": "Drain pasta, reserving 1 1/2 cups of pasta cooking water. Dry out your pot, then boil the olive oil, cream, zest and 1 cup of the reserved pasta water together for two minutes over high heat. Return pasta to pot and stir until coated. Add the cheese and 1/4 cup lemon juice and toss, toss, toss everything together. Add more pasta water, 1/4 cup at a time, if you’d like your dish a little looser. Quickly taste a strand of pasta and see if you want to add the remaining lemon juice (we did). Stir in basil or arugula and season generously with salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "Serve immediately, drizzling individual portions with a bit of extra olive oil and sprinkling with extra Parmesan cheese."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

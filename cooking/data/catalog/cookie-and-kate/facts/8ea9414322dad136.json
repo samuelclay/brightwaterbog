@@ -26,7 +26,48 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/gluten-free-honey-almond-cake/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 325 degrees Fahrenheit. Grease a 9-inch springform pan** with butter and dust it with almond flour."
+   },
+   {
+    "title": null,
+    "text": "In a large mixing bowl, whisk together the almond meal, baking powder, baking soda, cardamom, ginger and sea salt."
+   },
+   {
+    "title": null,
+    "text": "In another bowl, combine the beaten eggs, honey, olive oil and the zest of your orange. Use a whisk to mix well. Pour the wet ingredients into the dry. Stir just until there are a few clumps remaining, then gently fold in the raspberries. Pour the mixture into your prepared pan."
+   },
+   {
+    "title": null,
+    "text": "Bake for 40 to 45 minutes, until the cake is golden brown and the center is firm to the touch. Place the cake on a wire rack to cool to room temperature."
+   },
+   {
+    "title": null,
+    "text": "Once the cake is out of the oven, slice your orange in half and squeeze out ¼ cup juice. Combine the juice with 1 teaspoon honey in a small saucepan. Warm over medium heat, while stirring, just until the honey is blended into the juice. Brush the orange-honey glaze over the warm cake. It should soak right in."
+   },
+   {
+    "title": null,
+    "text": "Once the cake is cool, use a sharp knife to slice into 8 pieces. Transfer each piece to a plate, sprinkle with powdered sugar (optional) and finish with a sprinkle of chopped pistachios."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Vibrant Food: Celebrating the Ingredients, Recipes, and Colors of Each Season by Kimberly Hasselbrink.",
+   "*Egg update: The original recipe called for 3 eggs. After more experience baking almond flour-based cakes with this formula, I recommend using 4 eggs for a more consistent rise through the center, and an easier time slicing the cake.",
+   "**Springform note: You’ll have a much easier time removing the cake from a springform pan, so I recommend using one. That said, you might be able to make this work in a 9-inch cake pan. Generously grease the pan (bottom and sides), and then cut a round of parchment paper to neatly fit inside the bottom. Place it inside, pour the batter on top, and bake/glaze/cool as directed. Use a knife to loosen the outer edges of the cake before carefully inverting it onto a plate. Remove the paper and serve.",
+   "Why buy organic? Conventionally grown raspberries and the zest of conventionally grown oranges are typically pretty high in pesticides.",
+   "Storage suggestions: Store this cake in the refrigerator, covered, for longevity. Those juicy berries make this cake liable to spoil at room temperature.",
+   "Change it up: Substitute an equal amount of other berries or fresh fruit for the raspberries and/or trade lemon or lime zest for the orange zest and/or garnish with fruit instead of powdered sugar and pistachios. If you omit the fruit completely, the cake will be done somewhere around 35-40 minutes. If you add additional fruit, you’ll need to bake it longer."
+  ],
+  "summary": "This almond flour and honey cake it super simple, moist and delicious! This cake is gluten-free and paleo-friendly. Feel free to change up the flavors (see notes on how to do so). I think a lemon blueberry version would be delicious.",
+  "ingredient_groups": [
+   {
+    "at": 11,
+    "title": "Garnish"
+   }
+  ]
  },
  "parser_version": 2
 }

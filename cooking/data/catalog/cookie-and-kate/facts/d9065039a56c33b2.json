@@ -1,6 +1,58 @@
 {
  "url": "https://cookieandkate.com/cranberry-maple-skillet-cornbread/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Cranberry Cornbread",
+  "ingredients": [
+   "½ cup (1 stick) unsalted butter",
+   "1 ½ cups medium grind cornmeal, preferably stone ground",
+   "1 ½ cups white whole wheat flour or regular whole wheat flour",
+   "1 tablespoon kosher salt or 2 teaspoons regular salt",
+   "2 teaspoons baking powder",
+   "½ teaspoon baking soda",
+   "dash cinnamon",
+   "1 ½ cups buttermilk, at room temperature",
+   "3 large eggs, at room temperature",
+   "½ cup maple syrup (preferably grade B)",
+   "1 ½ cups fresh cranberries"
+  ],
+  "yield_text": "8 to 12",
+  "cook_time": "45 minutes",
+  "categories": [
+   "Quick bread"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cranberry-maple-skillet-cornbread/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat the oven to 375 degrees Fahrenheit with a rack in the middle of the oven. Place the stick of butter in a 10 to 12-inch cast iron skillet or 9-inch square baking dish and place in the oven to melt for 5 to 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "In a large bowl, whisk together the cornmeal, flour, salt, baking powder, baking soda and cinnamon. In a medium bowl, whisk together the milk, eggs and syrup until smooth. Stir the wet ingredients into the dry ingredients until moistened through."
+   },
+   {
+    "title": null,
+    "text": "When the butter is melted and golden brown but not burnt, carefully remove the sizzling skillet from the oven and swirl to coat with butter. Pour the melted butter into the batter, add the cranberries and stir just until incorporated."
+   },
+   {
+    "title": null,
+    "text": "Pour the batter into the hot skillet or baking pan. Return the skillet to the oven and bake until the bread is brown around the edges, springy to the touch and a toothpick inserted in the center comes out clean with just a few crumbs, 25 to 35 minutes. Invert the bread onto a wire rack to cool. Slice into squares or wedges and serve."
+   }
+  ],
+  "notes": [
+   "Adapted from Keys to the Kitchen: The Essential Reference for Becoming a More Accomplished, Adventurous Cook by Aida Mollenkamp.",
+   "Aida’s original recipe called for ⅔ cup maple syrup, so you could increase the amount of liquid sweetener to up to ⅔ cup for sweeter results. Aida notes that you can substitute agave nectar, honey or brown sugar for the maple syrup, but I haven’t tried.",
+   "Make your own buttermilk by adding 1 ½ tablespoons lemon juice or vinegar to 1 ½ cups low-fat milk."
+  ],
+  "summary": "This buttery, maple-sweetened, cranberry-studded whole grain cornbread develops an irresistibly crisp crust when baked in a cast iron skillet. You can also bake it in a 9-inch square baking dish for delicious results, albeit a slightly less crisp crust.",
+  "ingredient_groups": []
+ }
 }

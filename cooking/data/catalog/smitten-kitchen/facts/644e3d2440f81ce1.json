@@ -29,7 +29,32 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2021/02/baked-feta-with-tomatoes-and-chickpeas/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 400°F."
+   },
+   {
+    "title": null,
+    "text": "Place feta in the middle of a 9×13-inch or other 3-quart baking dish. Pour olive oil over it and around the pan. Add tomatoes to the olive oil. Sprinkle tomatoes with garlic, 1/2 teaspoon kosher salt, and a few grinds of black pepper and toss to coat with oil. Scatter chili pepper over feta."
+   },
+   {
+    "title": null,
+    "text": "Roast for 15 minutes, until tomatoes begin to release some juices. Add chickpeas to tomatoes around the feta, plus more salt and pepper, stirring to coat them with the oil. Return pan to the oven and roast for another 10 minutes or until tomatoes are as juicy as you’d like them to be."
+   },
+   {
+    "title": null,
+    "text": "Transfer the dish to the broiler part of your oven, or crank the oven heat as high as it goes. Broil for about 5 to 8 minutes, until the tomatoes and feta take on a little color."
+   },
+   {
+    "title": null,
+    "text": "To serve/eat, you can stir the softened feta into the tomato-chickpea mixture or you can do as I did, and leave it intact in the center, spooning some with each serving of the chickpeas and tomatoes. Scatter with herbs."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

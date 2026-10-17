@@ -23,7 +23,20 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/asian-chopped-green-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large serving bowl, combine everything but the dressing. Toss to combine."
+   },
+   {
+    "title": null,
+    "text": "When you’re ready to serve, toss in enough dressing to lightly coat all of the ingredients—or, if you intend to have leftovers, store the salad separately from the dressing, and toss individual servings with dressing just before serving. The salad will keep well this way for 3 to 4 days."
+   }
+  ],
+  "notes": [],
+  "summary": "This healthy green salad features crisp lettuce, edamame, chopped cabbage, bell pepper and broccoli in homemade carrot-ginger salad dressing. So delicious! Recipe yields 4 medium-sized salads.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

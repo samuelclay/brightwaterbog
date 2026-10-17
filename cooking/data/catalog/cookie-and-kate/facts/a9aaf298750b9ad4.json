@@ -1,6 +1,73 @@
 {
  "url": "https://cookieandkate.com/cauliflower-salad/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Cauliflower Salad",
+  "ingredients": [
+   "1 large cauliflower (about 2 ½ pounds)",
+   "⅓ cup roughly chopped almonds or sliced almonds",
+   "⅓ cup chopped fresh flat-leaf parsley",
+   "⅓ cup chopped fresh basil or additional parsley",
+   "⅓ cup roughly chopped tender sun-dried tomatoes",
+   "⅓ cup chopped red onion",
+   "⅓ cup crumbled feta cheese or roughly chopped Kalamata olives",
+   "¼ cup extra-virgin olive oil",
+   "2 tablespoons red wine vinegar or 3 tablespoons lemon juice",
+   "1 clove garlic, pressed or minced",
+   "½ teaspoon dried oregano",
+   "½ teaspoon Dijon mustard",
+   "½ teaspoon fine salt",
+   "Pinch of red pepper flakes"
+  ],
+  "yield_text": "6 side servings",
+  "cook_time": "20 minutes (plus 30-minute rest)",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Mediterranean-inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cauliflower-salad/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the cauliflower, use a chef’s knife to quarter it, then remove the core. Slice it as thinly as possible, then roughly chop the slices so they’re all bite-sized. Transfer the cauliflower to a medium serving bowl."
+   },
+   {
+    "title": null,
+    "text": "To toast the almonds, warm them in a skillet over medium-low heat, stirring frequently and keeping a close eye on them until they’re fragrant and turning golden on the edges. Pour them into the bowl of cauliflower to cool."
+   },
+   {
+    "title": null,
+    "text": "To the bowl, add the parsley, basil, sun-dried tomatoes, onion and feta."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl, whisk together all of the dressing ingredients until well blended. Drizzle the dressing over the salad and toss well."
+   },
+   {
+    "title": null,
+    "text": "Let the salad rest for 30 minutes before serving so the cauliflower can marinate in the dressing. Taste, and adjust if necessary—add a splash of olive oil for more richness, or a teaspoon of additional vinegar for acidity, or a pinch of salt for more overall flavor. This salad keeps very well in the refrigerator, covered, for up to 5 days."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Use olives instead of feta.",
+   "Make it nut free: Substitute toasted pepitas or sunflower seeds for the almonds."
+  ],
+  "summary": "This cauliflower salad recipe features Mediterranean flavors and fresh herbs. It’s crisp, satisfying, and delicious, and it keeps well for days! Be sure to buy a large cauliflower for this recipe. Depending on the serving size, the recipe yields 4 to 6 side salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Cauliflower salad"
+   },
+   {
+    "at": 7,
+    "title": "Dressing"
+   }
+  ]
+ }
 }

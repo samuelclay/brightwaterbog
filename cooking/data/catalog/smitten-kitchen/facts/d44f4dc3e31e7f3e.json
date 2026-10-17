@@ -26,7 +26,32 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2025/09/cabbage-and-halloumi-skewers/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make herb sauce: In a food processor or high-speed blender, pulse herbs, capers, finely grated zest of your lemon, salt, and pepper together until the herbs are finely chopped. Drizzle in 6 tablespoons of the olive oil with the machine running. Taste for seasoning and adjust to taste."
+   },
+   {
+    "title": null,
+    "text": "Assemble skewers: Cut halloumi block into 1/4-inch slices, then cut each slice in approximately 1-inch flat squares. If your halloumi is breaking a lot, you can soak the block in warm water for 5 to 10 minutes to soften it slightly, making it easier to slice."
+   },
+   {
+    "title": null,
+    "text": "Thread chunks of cabbage and halloumi slices onto skewers, alternating the two for the length of the skewer. Brush skewers lightly with remaining 2 tablespoons olive oil. Halve your zested lemon."
+   },
+   {
+    "title": null,
+    "text": "Grill the skewers: Heat your grill to a high temperature. Arrange the skewers across the grill and cook until lightly charred underneath, then turn the skewers to char the next side. Brush the just-grilled parts with the herb oil, continuing to turn the skewers until they’re charred on all sides and you’ve used all of the oil. You can put the lemon halves on the grill as well to grill them. Squeeze the lemon halves over the skewers and enjoy them as soon as possible."
+   },
+   {
+    "title": null,
+    "text": "No grill? You can arrange the skewers on a baking sheet and run them under your oven’s broiler, turning and brushing them as you would on the grill."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

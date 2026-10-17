@@ -1,6 +1,53 @@
 {
  "url": "https://cookieandkate.com/simple-marinara-sauce-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Super Simple Marinara Sauce",
+  "ingredients": [
+   "1 large can (28 ounces) whole peeled tomatoes*",
+   "1 medium yellow onion, peeled and halved",
+   "2 large cloves garlic, peeled but left whole",
+   "2 tablespoons extra-virgin olive oil",
+   "1 teaspoon dried oregano",
+   "Pinch of red pepper flakes (optional, omit if sensitive to spice)",
+   "Salt, to taste (if necessary)",
+   "Optional, for serving: Cooked pasta, grated Parmesan cheese or vegan Parmesan, chopped fresh basil, additional olive oil"
+  ],
+  "yield_text": "2 cups",
+  "cook_time": "50 minutes",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/simple-marinara-sauce-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium, heavy-bottomed saucepan, combine the tomatoes (with their juices), halved onion, garlic cloves, olive oil, oregano and red pepper flakes (if using)."
+   },
+   {
+    "title": null,
+    "text": "Bring the sauce to a simmer over medium-high heat, then lower the heat to keep the sauce at a slow, steady simmer for about 45 minutes, or until droplets of oil float free of the tomatoes. Stir occasionally, and use a sturdy wooden spoon to crush the tomatoes against the side of the pot after the sauce has cooked for about 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from the heat and discard the onion. Smash the garlic cloves against the side of the pot with a fork, then stir the smashed garlic into the sauce. Do the same with any tiny onion pieces you might find. Use the wooden spoon to crush the tomatoes to your liking (you can blend this sauce smooth with an immersion blender or stand blender, if desired)."
+   },
+   {
+    "title": null,
+    "text": "Add salt, to taste (the tomatoes are already pretty salty, so you might just need a pinch). Serve warm. This sauce keeps well, covered and refrigerated, for up to 4 days. Freeze it for up to 6 months."
+   }
+  ],
+  "notes": [
+   "*Tomato note: Using high quality tomatoes is key here. I recommend Muir Glen tomatoes. They’re organic and the cans are BPA-free."
+  ],
+  "summary": "This marinara sauce recipe is the best! You’ll only need 5 basic ingredients, and it’s so easy to make. No chopping required! Recipe yields 2 cups sauce ( enough for 8 to 16 ounces pasta, depending on how saucy you like it ); double if desired.",
+  "ingredient_groups": []
+ }
 }

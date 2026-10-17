@@ -31,7 +31,48 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/caesar-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 400 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper for easy clean-up. Line a plate with a paper towel and set it aside."
+   },
+   {
+    "title": null,
+    "text": "To prepare the croutons: Use a serrated knife to gently slice the bread into ¾-inch cubes (or if it’s easier, use your fingers to gently tear the bread into pieces about that size). Place the cubed bread on the prepared baking sheet. Drizzle with the olive oil and sprinkle with the salt, garlic powder, and several twists of black pepper. Gently toss the bread with your hands until it’s lightly coated in oil, then arrange the bread evenly across the baking sheet."
+   },
+   {
+    "title": null,
+    "text": "Bake, tossing every 5 minutes, for about 10 to 12 minutes, until the croutons are turning golden brown but still offer a bit of chew in the center. Remove the croutons from the oven and transfer them to the lined plate to absorb excess oil. Once cool, season to taste with additional salt and pepper, if desired."
+   },
+   {
+    "title": null,
+    "text": "To prepare the salad dressing: In a liquid measuring cup or bowl, combine the mayonnaise, garlic, lemon juice, Dijon, and Worcestershire sauce, and salt. Stir to combine. Stir in the Parmesan, followed by the water. Season generously with black pepper, to taste."
+   },
+   {
+    "title": null,
+    "text": "When you are ready to serve, assemble the salad: Place the prepared romaine in a large salad bowl. Top with the croutons. Drizzle the dressing over the salad, then sprinkle most of the Parmesan on top. Toss gently to lightly coat the lettuce in dressing, then garnish with the remaining cheese. Serve promptly, as the lettuce and croutons will soften with time."
+   }
+  ],
+  "notes": [
+   "Make it ahead: Store the components separately until you are ready to serve. Croutons are best enjoyed within a few hours of baking, as they can become a bit tough over time, but will keep in a sealed bag for several days at room temperature.",
+   "*Worcestershire note: To ensure that this salad dressing is vegetarian/fish-free, choose your Worcestershire sauce carefully, as most contain anchovies. I like Annie’s, The Wizards or Whole Foods 365 brands (note that some anchovy-free Worcestershire sauces contain soy)."
+  ],
+  "summary": "Make the best homemade Caesar salad with this foolproof recipe! This Caesar salad recipe is the perfect side salad for special meals and holidays (or any time you get the craving). Recipe yields 4 generous side salads or 6 small.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Homemade croutons"
+   },
+   {
+    "at": 5,
+    "title": "Caesar salad dressing"
+   },
+   {
+    "at": 14,
+    "title": "Everything else"
+   }
+  ]
  },
  "parser_version": 2
 }

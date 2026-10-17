@@ -1,6 +1,52 @@
 {
  "url": "https://cookieandkate.com/grain-free-granola/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Grain-Free Granola",
+  "ingredients": [
+   "1 ½ cups chopped pecans, walnuts or hazelnuts",
+   "1 ½ cups unsweetened shredded or flaked coconut",
+   "1 cup sliced almonds",
+   "1 cup pepitas (green pumpkin seeds) or other nuts",
+   "2 tablespoons chia seeds or flax seeds (optional)",
+   "2 teaspoons ground cinnamon",
+   "½ teaspoon fine salt",
+   "¼ cup extra-virgin olive oil or melted coconut oil",
+   "2 tablespoons maple syrup or honey",
+   "1 teaspoon pure vanilla extract"
+  ],
+  "yield_text": "5 cups",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Breakfast",
+   "Snack"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/grain-free-granola/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 275 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper to prevent the granola from sticking."
+   },
+   {
+    "title": null,
+    "text": "Combine the dry ingredients in a medium mixing bowl (the chopped nuts, coconut, almonds, pepitas, chia seeds, cinnamon and salt). Stir to combine, then pour in the oil, honey, and vanilla, and stir until the mixture is evenly coated. Spread the mixture evenly across the prepared baking sheet."
+   },
+   {
+    "title": null,
+    "text": "Bake for 24 to 28 minutes, until the granola is golden and fragrant (don’t overbake, or it will taste too toasty). Let it cool completely on a cooling rack without disturbing the mixture; the granola will crisp more as it cools. Store the mixture in an airtight container for up to 1 month at room temperature or for up to 6 months in the freezer."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Real Food for Pregnancy by Lily Nichols.",
+   "Make it nut free: Though I haven’t tried, I’m confident that you could replace the nuts with additional pepitas or unsalted raw shelled sunflower seeds.",
+   "Make it vegan: Choose maple syrup instead of honey."
+  ],
+  "summary": "This grain-free granola is light, crisp, nutty and irresistible, despite being oat-free and minimally sweetened! Sprinkle some over Greek yogurt for an extra boost of flavor, fiber and plant-based protein. Recipe yields about 5 cups.",
+  "ingredient_groups": []
+ }
 }

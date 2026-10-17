@@ -29,7 +29,60 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/vegan-banana-nut-scones/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 425 degrees Fahrenheit. Place the nuts in a single layer on a rimmed baking sheet lined with parchment paper. Toast the nuts in the oven until fragrant, about 3 minutes. Chop the nuts into very fine pieces."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, combine the flour, ¾ths of the chopped nuts, baking powder, cinnamon, ginger and salt in a bowl and whisk together."
+   },
+   {
+    "title": null,
+    "text": "Use a pastry cutter to cut the coconut oil or butter into the dry ingredients. If you don’t have a pastry cutter, use a fork to cut the coconut oil into the flour, or use a knife to cut the butter into tiny pieces and mix it into the flour."
+   },
+   {
+    "title": null,
+    "text": "In a liquid measuring cup, measure ¾ cup mashed banana. Add milk until you have a total of 1 cup liquid. Pour in the maple syrup and vanilla extract, and mix well."
+   },
+   {
+    "title": null,
+    "text": "Pour the banana mixture into the dry mixture and combine with a big spoon. At first it will seem like there isn’t enough liquid to wet the dough, but keep mixing until you have thoroughly incorporated the wet and dry ingredients. If you must, use your hands to knead the last of the flour into the dough."
+   },
+   {
+    "title": null,
+    "text": "On a flat surface (like a cutting board), form dough into a circle that’s about an inch deep all around. Use a chef’s knife to cut the circle into 8 even slices."
+   },
+   {
+    "title": null,
+    "text": "Separate slices and place on the baking sheet covered with parchment paper. Bake for 15 minutes to 17 or until lightly golden brown."
+   },
+   {
+    "title": null,
+    "text": "While the scones are baking, whisk together the glaze ingredients in a small bowl until smooth and creamy. (If you’re using coconut oil and it solidifies on contact with cold syrup, gently warm the glaze in the microwave or on the stove, then mix again.) Let the scones cool for a few minutes, then drizzle the glaze generously over the scones. While the glaze is wet, sprinkle it with the remaining chopped nuts. These scones keep well, covered, for a couple of days at room temperature. They also freeze well for longer-term storage."
+   }
+  ],
+  "notes": [
+   "Scones adapted from my pumpkin pecan scones.",
+   "*To make your own powdered sugar: Blend sugar in a blender or food processor until it is a fine powder (see how here). I used organic cane sugar but I have read that turbinado sugar works, too.",
+   "Change it up: For a less sugary topping, spread homemade pecan butter and a light drizzle of maple syrup just before serving.",
+   "Make it gluten-free: Claire commented to say that her scones turned out great when she substituted one cup brown rice flour and one cup almond meal/flour for the two cups of whole wheat flour.",
+   "Make it vegan: Be sure to stick to maple syrup instead of the honey when making the scones.",
+   "Make it nut-free: Skip the nuts!"
+  ],
+  "summary": "Hearty banana pecan scones made with coconut oil and whole wheat flour.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Scones"
+   },
+   {
+    "at": 11,
+    "title": "Maple glaze"
+   }
+  ]
  },
  "parser_version": 2
 }

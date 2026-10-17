@@ -22,7 +22,40 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/vegan-blt-sandwich-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Be sure to make the coconut bacon before you get started on the sandwich (it’s easy to make, and you’ll have lots of leftovers, which freeze well)."
+   },
+   {
+    "title": null,
+    "text": "When you’re ready to make sandwich(es), first toast the bread to your desired doneness."
+   },
+   {
+    "title": null,
+    "text": "Halve and pit the avocado, and scoop the avocado flesh into a bowl. Add a pinch of salt, and use a fork to mash the avocado until it’s pretty smooth and easily spreadable. Taste, and add more salt if necessary."
+   },
+   {
+    "title": null,
+    "text": "Spread avocado on top of both slices of bread. Spread coconut bacon heavily on one piece of toast, and lightly press it into the avocado to help it stick."
+   },
+   {
+    "title": null,
+    "text": "Slice the tomato into ½″ thick slices. Top the bacon-covered toast with 2 to 3 slices of tomato, and sprinkle it with black pepper. Top the tomato with lettuce, and place the remaining slice of bread on top, avocado side down. If you prefer, carefully slice the sandwich in half with a serrated knife."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Use gluten-free bread and double-check that your coconut bacon ingredients are gluten free.",
+   "Change it up: Mayo lovers, feel free to add mayo or substitute it for the avocado. Use vegan mayo to keep the sandwich vegan."
+  ],
+  "summary": "This vegetarian/vegan riff on the classic BLT sandwich features coconut bacon, lettuce, tomato and avocado! This BLT makes a delicious, simple lunch or dinner.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per sandwich"
+   }
+  ]
  },
  "parser_version": 2
 }

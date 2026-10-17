@@ -24,7 +24,36 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/frozen-blueberry-margaritas/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, prepare your glasses: Pour the salt and optional chili powder onto a very small plate. Run a small wedge of orange around the upper outer rim of your glasses (I prefer to only salt half of the rim). Roll the dampened rim into the salt mixture."
+   },
+   {
+    "title": null,
+    "text": "In a blender, combine the tequila, orange juice, lime juice, agave nectar or simple syrup, blueberries and ice cubes. Blend until smooth."
+   },
+   {
+    "title": null,
+    "text": "Taste and add more a bit more agave nectar if the mixture tastes harsh or just doesn’t quite sing, then blend again. Pour the mixture into your prepared glasses. Carefully drop one big ice cube or a few smaller ice cubes into the drinks to keep them cold. Serve immediately!"
+   }
+  ],
+  "notes": [
+   "Recipe inspired by The Mont in Norman, Oklahoma and adapted from my skinny margarita recipe.",
+   "Tequila recommendations: My favorite brands are Espolón and Milagro."
+  ],
+  "summary": "These cold, refreshing blended blueberry margaritas are made with all natural ingredients! You can make multiple drinks in your blender at once; just don’t fill the blender past the maximum fill line (trust me!).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per margarita, multiply as necessary"
+   },
+   {
+    "at": 6,
+    "title": "Garnish"
+   }
+  ]
  },
  "parser_version": 2
 }

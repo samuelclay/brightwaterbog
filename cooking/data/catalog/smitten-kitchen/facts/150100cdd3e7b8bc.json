@@ -27,7 +27,23 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2026/06/snow-pea-salad-with-avocado/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Soak snow peas in a large bowl of ice water for 10 to 20 minutes (longer is fine too). Drain and pat dry with a towel. Gather the peas in small stacks at a time and cut them lengthwise into thin ribbons."
+   },
+   {
+    "title": null,
+    "text": "Chop walnuts into rubble-sized pieces and place in a large bowl. Add olive oil, lemon juice, ½ to 1 teaspoon kosher salt (to taste), many grinds of black pepper, and pepper flakes to taste (I use ½ teaspoon). Whisk to combine. Add snow peas and toss until the vegetables are coated. Add avocado and gently toss until combined. Eat right away."
+   }
+  ],
+  "notes": [
+   "Do ahead: The lemon juice in the dressing discolors the snow peas a little over time, so if planning ahead, I add the walnut dressing right before serving.",
+   "All nuts, but walnuts especially, are 100% better in a salad if toasted first. I put mine on a small sheet pan in a 350°F oven for 6 to 10 minutes, until slightly darker and fragrant. Let them cool while prepping the snow peas."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

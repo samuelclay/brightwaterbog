@@ -22,7 +22,26 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/mezcalita-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare your glasses: Pour some Tajín (or mix your salt/chili powder) on a small, rimmed plate. Run a wedge of lime around the top of each glass. Dip the top of the glass into the salt blend at a 45-degree angle and roll it from side to side to catch the salt. Add ice cubes to your glass and set it aside."
+   },
+   {
+    "title": null,
+    "text": "Fill a cocktail shaker with ice. Add the mezcal, orange juice, lime juice, orange bitters (if using) and optional sweetener (I usually prefer mine without—you can always add to taste after shaking). Securely fasten the lid and shake well."
+   },
+   {
+    "title": null,
+    "text": "Pour the mixture into your prepared glass and garnish with a lime wedge. Enjoy!"
+   }
+  ],
+  "notes": [
+   "Recipe roughly adapted from my skinny margarita recipe."
+  ],
+  "summary": "This fresh mezcalita recipe is made with orange juice, lime juice, and of course, mezcal! It wouldn’t be complete without the spicy, salted rim. Recipe as written below yields 1 cocktail, but you can make two to three at a time in your cocktail shaker.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -24,7 +24,26 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/healthy-honey-mustard-dressing-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a 2-cup liquid measuring cup or bowl, combine all of the ingredients as listed. Whisk until blended. Taste, and season with additional pepper if necessary."
+   },
+   {
+    "title": null,
+    "text": "This dressing is intentionally bold, but if it tastes too tart for your liking, whisk in another tablespoon of honey."
+   },
+   {
+    "title": null,
+    "text": "Store leftover salad dressing in the refrigerator, covered, for 10 to 14 days."
+   }
+  ],
+  "notes": [
+   "Make it dairy free: If you have a favorite unsweetened dairy-free plain yogurt, it should work well here."
+  ],
+  "summary": "This creamy honey-mustard salad dressing recipe is lightened up with Greek yogurt. No mayo here! It’s so easy to whisk this dressing together. Recipe yields almost 1 ½ cups and keeps well for 10 to 14 days.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

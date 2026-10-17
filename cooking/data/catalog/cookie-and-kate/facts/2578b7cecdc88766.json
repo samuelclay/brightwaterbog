@@ -1,6 +1,38 @@
 {
  "url": "https://cookieandkate.com/cinnamon-tea/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Cinnamon Tea",
+  "ingredients": [
+   "1 cup water",
+   "1 cinnamon stick (3 inches long, preferably Ceylon)",
+   "Optional: Creamer and/or sweetener of choice"
+  ],
+  "yield_text": "1 drink",
+  "cook_time": "20 minutes",
+  "categories": [
+   "Drink"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cinnamon-tea/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small saucepan, combine the water and cinnamon stick. Cover the pan and bring the mixture to a hearty simmer over medium heat."
+   },
+   {
+    "title": null,
+    "text": "Reduce the heat to low and gently simmer for 10 minutes, covered. Remove the pot from the heat and let it steep for 10 minutes, then pour the mixture through a mesh strainer into your mug. Enjoy while warm, or chill it for up to 4 days (reheat or enjoy it cold)."
+   }
+  ],
+  "notes": [
+   "Shortcut option: This method uses 2 cinnamon sticks per cup of water, but it’s quicker and easier. Place 2 cinnamon sticks in a mug. Bring 1 cup water to a boil, then pour it over the cinnamon sticks in the mug. Let it steep for 10 minutes before sipping or adding cream. You could carefully remove the cinnamon sticks at this point, but I don’t bother."
+  ],
+  "summary": "Make the best cinnamon tea with this simple recipe! It’s warming and spiced and makes your home smell amazing. Enjoy this hot, caffeine-free beverage any time of day. Multiply the recipe as needed, and don’t miss the shortcut option in the notes.",
+  "ingredient_groups": []
+ }
 }

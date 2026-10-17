@@ -1,6 +1,74 @@
 {
  "url": "https://cookieandkate.com/pumpkin-oat-pancakes/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Gluten-Free Pumpkin Oat Pancakes",
+  "ingredients": [
+   "1 cup pumpkin puree",
+   "½ cup milk of choice",
+   "2 tablespoons unsalted butter or coconut oil, melted",
+   "2 tablespoons maple syrup",
+   "1 tablespoon lemon juice",
+   "1 teaspoon vanilla extract",
+   "2 eggs",
+   "1 cup oat flour (see notes for how to make your own from old-fashioned oats)",
+   "2 teaspoons pumpkin spice blend (or 1 teaspoon ground cinnamon, ½ teaspoon ground ginger, ¼ teaspoon ground nutmeg, and ¼ teaspoon ground allspice or cloves)",
+   "½ teaspoon baking soda",
+   "½ teaspoon fine salt",
+   "Avocado oil or vegetable oil, for greasing the pan"
+  ],
+  "yield_text": "8 to 10",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pumpkin-oat-pancakes/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small mixing bowl, stir together the pumpkin puree, milk, butter, maple syrup, lemon juice, and vanilla. Beat in the eggs. (If your butter or oil goes back to its solid state like mine did at this point, warm the mixture for short 20-second bursts in the microwave, stirring between each, until it is melted again.)"
+   },
+   {
+    "title": null,
+    "text": "In a medium bowl, whisk together the oat flour, pumpkin spice, baking soda, and salt. Form a well in the center of the dry ingredients and pour in the wet ingredients. With a big spoon, stir just until the dry ingredients are thoroughly moistened. Do not overmix, or your pancakes will become too dense!"
+   },
+   {
+    "title": null,
+    "text": "Let the batter rest for 10 minutes. If you’re using an electric griddle, heat it to 350 degrees Fahrenheit. Otherwise, you can wait a few minutes before heating your skillet."
+   },
+   {
+    "title": null,
+    "text": "Warm a large skillet (stainless steel or nonstick) over medium-low heat. You’re ready to start cooking pancakes once a drop of water sizzles on contact with the hot surface. If necessary, lightly oil the cooking surface and wipe off the excess with a paper towel (nonstick surfaces likely won’t require any oil)."
+   },
+   {
+    "title": null,
+    "text": "Scoop ¼ cup batter onto the hot skillet, leaving a couple of inches around the pancake for expansion. Cook until small bubbles form on the surface of the pancake and the underside is golden, 2 to 3 minutes."
+   },
+   {
+    "title": null,
+    "text": "Flip the pancake, then cook until lightly golden on both sides, 1 to 2 minutes more. Repeat the process with the remaining batter, adding more butter and dialing down the heat if the pancakes turn dark on the outside before they’re cooked through on the inside."
+   },
+   {
+    "title": null,
+    "text": "Serve the pancakes immediately or keep them warm in a 200 degree Fahrenheit oven. Leftover pancakes can be stored in the refrigerator for up to 4 days, or frozen for up to 3 months. To reheat, stack leftover pancakes and wrap them in a paper towel before gently reheating in the microwave."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my banana oat pancakes recipe.",
+   "Make it gluten free: Be sure to purchase certified gluten-free oat flour or certified gluten-free old-fashioned oats.",
+   "How to make your own oat flour: To make oat flour out of old-fashioned oats, simply pour one cup of oats into a food processor and process until it looks like fine sand. See pictures here.",
+   "Make it dairy free: Use non-dairy milk like almond milk and coconut oil instead of butter.",
+   "Make it egg free: Replace the eggs with flax eggs (I’ve heard this works well from other commenters, but haven’t had a chance to try myself).",
+   "Update September 2024: I’ve improved this recipe, adding ¼ cup more milk to thin the batter, increasing the maple syrup from 1 teaspoon to 2 tablespoons to help prevent burning against the pan, and increasing the amount of spice for more autumnal flavor."
+  ],
+  "summary": "These healthy pumpkin oatmeal pancakes are made with hearty oats and warming spices. Since they’re made with oat flour, they’re gluten free! Note that these pancakes should be cooked low and slow—use a lower temperature than you would with other pancakes so that the insides of the thick batter get nice and fluffy, but the outsides don’t get overdone. Recipe yields 8 to 10 medium-sized pancakes.",
+  "ingredient_groups": []
+ }
 }

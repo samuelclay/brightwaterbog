@@ -22,7 +22,32 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/cauliflower-rice-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "If you’re working with a head of cauliflower (if using store-bought, skip to the next step), cut it into medium chunks (see photo) and discard the core. Working in batches, pulse the chunks in a food processor with the S-blade until they’re broken into tiny pieces, just bigger than couscous. (See recipe notes if you don’t have a food processor.)"
+   },
+   {
+    "title": null,
+    "text": "Wrap the cauliflower rice in a clean tea towel or paper towels, twist, and squeeze as much water as possible from the rice—you might be surprised by how much water you can wring out, or you might not be. Cauliflower varies quite a bit in its moisture level, and this step ensures that it cooks well."
+   },
+   {
+    "title": null,
+    "text": "Warm the skillet over medium heat. Add the olive oil, followed by the garlic. Cook while stirring just until the garlic is fragrant, about 10 to 20 seconds. Add the cauliflower rice and salt, and stir to combine. Cook, stirring just every minute or so, until the cauliflower rice is hot and turning golden in places, about 6 to 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the skillet from the heat. Stir in the chopped fresh herbs and citrus, if using. Season to taste with salt and pepper, and serve warm. Leftover cauliflower rice will keep well in the fridge for up to 4 days. Gently reheat in the microwave or on the stovetop before serving."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Mediterranean Cauliflower Rice.",
+   "*Store-bought cauliflower rice: Fresh or frozen cauliflower rice will work well for this recipe. If frozen, let the rice defrost in the refrigerator for several hours in advance. Or, you may be able to defrost the frozen rice more quickly in a fine-mesh sieve under cool running water. Be sure to squeeze out excess water as indicated in step two.",
+   "If you don’t have a food processor: Slice the cauliflower into even quarters. Grate one quarter at a time on the medium holes of a cheese grater."
+  ],
+  "summary": "Make perfect cauliflower rice with this recipe! This light side dish is low carb, vegan and gluten free, too. Recipe yields 4 side servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

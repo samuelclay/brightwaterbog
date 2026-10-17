@@ -23,7 +23,31 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/greek-salad-dressing-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a liquid measuring cup or small bowl, combine the vinegar, garlic, honey, oregano, salt, several twists of black pepper, and a pinch of red pepper flakes (if desired). Whisk until blended."
+   },
+   {
+    "title": null,
+    "text": "Slowly drizzle in the olive oil while whisking. Stir until the mixture is fully blended."
+   },
+   {
+    "title": null,
+    "text": "Taste, and adjust as needed—add another teaspoon of honey if the mixture tastes too acidic, or another ¼ teaspoon oregano for more herbal flavor. If the mixture is overall too bold for your liking, dilute it with a splash of olive oil, or if it’s just not quite right yet, add more salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "Store leftover dressing in the refrigerator, covered, for up to 1 week. It will separate over time, so just whisk it back together before serving (if the olive oil solidifies a bit in the refrigerator, don’t worry, that’s normal—just let it warm up for about 5 minutes at room temperature or microwave for 10 to 20 seconds)."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Chopped Greek Salad.",
+   "Make it vegan: Use maple syrup instead of honey."
+  ],
+  "summary": "Make your own Greek dressing with this simple recipe. It’s healthy and delicious. Drizzle this bold Greek vinaigrette on your homemade salads—it will keep in the fridge for one week! Recipe yields about ¾ cup.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

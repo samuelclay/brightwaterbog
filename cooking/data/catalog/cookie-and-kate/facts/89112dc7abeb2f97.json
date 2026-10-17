@@ -1,6 +1,54 @@
 {
  "url": "https://cookieandkate.com/peach-honey-popsicles-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Creamy Peach & Honey Popsicles",
+  "ingredients": [
+   "1 pound ripe peaches (about 3 medium), peeled and sliced into ½-inch wide wedges",
+   "6 tablespoons honey, divided",
+   "Dash sea salt",
+   "2 cups full fat/whole milk plain yogurt (regular or Greek)",
+   "1 tablespoon lemon juice (about 1 small lemon, juiced)",
+   "½ teaspoon vanilla extract"
+  ],
+  "yield_text": "8 popsicles (24 ounces total)",
+  "cook_time": "40 minutes",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/peach-honey-popsicles-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 350 degrees Fahrenheit. Line a rimmed baking sheet with parchment paper. Transfer sliced peaches to the baking sheet and gently toss with 2 tablespoons honey and a dash of salt. Arrange the peaches in a single layer. Roast for 30 to 40 minutes, stirring halfway, or until the peaches are soft and juicy (watch the edges in particular)."
+   },
+   {
+    "title": null,
+    "text": "While the fruit is roasting, blend together the yogurt, ¼ cup honey, lemon juice and vanilla extract in a medium bowl. Feel free to add more honey or vanilla extract to suit your taste buds. Place the mixture in the refrigerator so it stays cool."
+   },
+   {
+    "title": null,
+    "text": "Let the peaches cool, then scrape the peaches and all of their juices into the bowl of yogurt. Use a big spoon to gently fold the mixture together."
+   },
+   {
+    "title": null,
+    "text": "Use the spoon to transfer the yogurt blend into the popsicle mould. You might have to push the peaches down into the molds, but they shouldn’t put up too much of a fight. Insert popsicle sticks and freeze for at least four hours."
+   },
+   {
+    "title": null,
+    "text": "When you’re ready to pop out the popsicles, run warm water around the outsides of the moulds for about ten seconds and gently remove the popsicles. Enjoy immediately."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my roasted berry and honey popsicles.",
+   "Recommended popsicle mold: I love this ice pop mold. If you don’t want to buy a mold, I think you could use Dixie cups or the like."
+  ],
+  "summary": "Honey-sweetened peach popsicles made with yogurt and roasted peaches! These cold, creamy treats are perfect for summertime. They’re healthy, too. Recipe yields eight 3-ounce popsicles.",
+  "ingredient_groups": []
+ }
 }

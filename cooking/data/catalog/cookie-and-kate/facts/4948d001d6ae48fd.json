@@ -22,7 +22,41 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/creamy-chia-pudding-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a liquid measuring cup, combine the water and chia seeds. Set aside until the mixture forms a gel, about 20 minutes."
+   },
+   {
+    "title": null,
+    "text": "If your dates aren’t soft and plump, place them in a bowl and pour hot water over them. Set aside for up to 20 minutes, or until the chia seeds are ready. Drain."
+   },
+   {
+    "title": null,
+    "text": "Pit the dates. In a blender, combine the pitted dates with the cashews, cinnamon, vanilla and salt. Pour in half or more of the chia gel (I prefer chia seeds in their blended state, so I poured in almost all of mine). Puree until smooth. If your pudding gets warm in the process, you’ll need to chill it until cool."
+   },
+   {
+    "title": null,
+    "text": "Serve individual portions of pudding with any remaining chia gel swirled in. Top with any garnishes you’d like. Store leftovers in the refrigerator."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Eating Clean, © 2016 by Amie Valpone. Reproduced by permission of Houghton Mifflin Harcourt. All rights reserved.",
+   "*Make it less sweet: For the regular version (not chocolate), you could make it less sweet using 4 dates. I found it a bit sweet for my liking.",
+   "Chocolate pudding option: Stir in cocoa powder, to taste (I like 3 tablespoons for the whole batch). Add some mini chocolate chips or finely chopped chocolate if you want to go all in!"
+  ],
+  "summary": "Creamy chia seed pudding made with cashews, dates and vanilla! This treat is much healthier than traditional pudding. Find a chocolate pudding option, too. Recipe yields 4 small servings (4 ounces each).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Chia seed pudding"
+   },
+   {
+    "at": 7,
+    "title": "Optional toppings"
+   }
+  ]
  },
  "parser_version": 2
 }

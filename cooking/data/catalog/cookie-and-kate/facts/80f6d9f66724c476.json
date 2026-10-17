@@ -1,6 +1,52 @@
 {
  "url": "https://cookieandkate.com/blood-orange-french-75/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Blood Orange French 75",
+  "ingredients": [
+   "1 ½ ounces gin",
+   "1 small blood orange (about the size of a lemon), juiced",
+   "½ small lemon, juiced",
+   "Agave nectar or simple syrup (optional), to taste",
+   "3 ounces Champagne or sparkling wine",
+   "Ice"
+  ],
+  "yield_text": "1",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "French"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/blood-orange-french-75/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Fill a Champagne flute or comparably sized glass less than halfway with crushed ice (optional)."
+   },
+   {
+    "title": null,
+    "text": "Fill a small cocktail shaker with ice. Pour in the gin and the blood orange and lemon juice. Shake well. Taste and add agave nectar or simple syrup if necessary, to taste."
+   },
+   {
+    "title": null,
+    "text": "Strain the gin mixture into the glass. Top with Champagne. Garnish with a blood orange twist (you’ll see in the pictures that I played around with garnishes but the twist is more traditional)."
+   }
+  ],
+  "notes": [
+   "Adapted from Imbibe Magazine’s French 75 Recipe."
+  ],
+  "summary": "Celebrate with a sparkling, pink French 75 made with blood oranges, gin and Champagne.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per cocktail"
+   }
+  ]
+ }
 }

@@ -28,7 +28,40 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/whole-wheat-pumpkin-bread/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 325 degrees Fahrenheit (165 degrees Celsius) and grease a 9×5 inch loaf pan."
+   },
+   {
+    "title": null,
+    "text": "In a large bowl, beat oil and honey together. Add eggs, and beat well."
+   },
+   {
+    "title": null,
+    "text": "Stir in pumpkin purée and vanilla, then the salt, cinnamon, ginger, nutmeg and allspice. Stir in flour, just until combined. If you’re adding millet, stir that in as well."
+   },
+   {
+    "title": null,
+    "text": "Add baking soda to hot water, stir to mix, and then mix briefly into batter until it is evenly distributed. Spread batter into the greased loaf pan."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle with cinnamon, and swirl with the tip of a table knife for a pretty marbled effect. Sprinkle a big pinch of turbinado sugar on top for a light, sweet crunch."
+   },
+   {
+    "title": null,
+    "text": "Bake for 55 to 65 minutes. Be sure to check that the bread is done baking by inserting a toothpick in the top. It should come out clean. If the top of the bread jiggles when you pull it out of the oven, it’s NOT done! Let the bread cool in the loaf pan for 5 minutes, then transfer it to a wire rack to cool for 30 minutes before slicing."
+   }
+  ],
+  "notes": [
+   "Adapted from my Honey Whole Wheat Banana Bread.",
+   "Loaf pan recommendations: I recommend a metal loaf pan or stoneware. I love my turquoise Fiesta stoneware loaf pan, which is non-toxic, heats evenly and cleans easily. Highly recommended!",
+   "*Update: After several years of being baffled by the hot water/baking soda trick, I can now definitively report that it’s an unnecessary step. If you prefer, you can just stir in ¼ cup water or milk (any kind) into the oil/honey/eggs and whisk the baking soda in with the spices."
+  ],
+  "summary": "Whole wheat, honey-sweetened pumpkin bread that only requires one bowl to make. You don’t have to tell anyone it’s healthy!",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

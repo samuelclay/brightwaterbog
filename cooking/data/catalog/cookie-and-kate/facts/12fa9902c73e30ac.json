@@ -1,6 +1,77 @@
 {
  "url": "https://cookieandkate.com/butternut-ribbon-goat-cheese-pizza-with-arugula-pepita-pesto/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Butternut Squash Pizza with Arugula-Pepita Pesto",
+  "ingredients": [
+   "3 cups lightly packed fresh arugula, tough stems removed",
+   "¾ cup pepitas (green pumpkin seeds) or pecans",
+   "½ to ¾ cup freshly grated Parmesan cheese, to taste",
+   "2 medium garlic cloves, peeled and roughly chopped",
+   "1 tablespoon fresh lemon juice",
+   "½ teaspoon fine salt",
+   "½ cup extra virgin olive oil",
+   "Freshly ground black pepper, to taste",
+   "1 batch easy whole wheat pizza dough",
+   "5 ounces chilled goat cheese",
+   "1 small butternut squash (1 pound squash is more than plenty)",
+   "Garnishes: More pepitas, arugula and some red pepper flakes for sprinkling on top"
+  ],
+  "yield_text": "2 pizzas",
+  "cook_time": "45 minutes",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/butternut-ribbon-goat-cheese-pizza-with-arugula-pepita-pesto/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 500 degrees Fahrenheit with a rack in the upper third of the oven. Or, if you’re using a pizza stone, make sure it’s in the oven on the appropriate rack (consult manufacturer’s directions)."
+   },
+   {
+    "title": null,
+    "text": "Using a vegetable peeler (a Y-shaped peeler works best), peel the outside of your butternut, then slice off the top portion with the stem and the very bottom. Slice the butternut in half vertically, scoop out the seeds with a spoon and discard them. Slice one of your halves in half vertically again so you have made quarters. Using your vegetable peeler, peel long ribbons of butternut, enough to generously top two 11-inch pizzas. Toss butternut ribbons with a light drizzle of olive oil, salt and pepper so that the ribbons are lightly coated in olive oil."
+   },
+   {
+    "title": null,
+    "text": "To make the pesto: In a food processor, combine the arugula, pepitas, Parmesan, garlic, lemon juice and salt. Pulse while drizzling in the olive oil. Season to taste with freshly ground black pepper."
+   },
+   {
+    "title": null,
+    "text": "Prepare the pizza dough as directed. I like to roll out the dough on pieces of parchment paper for easy transfer to the oven. For best results, roll the dough out as thin as reasonably possible while maintaining an even surface level."
+   },
+   {
+    "title": null,
+    "text": "Lightly oil the outer edge of the pizza with olive oil. Spread each pizza with half of the pesto. Then crumble half of the goat cheese over each pizza using a fork. Arrange the butternut ribbons on top—it’s best to let them curl and wave rather than lie flat against the pizza. You want to put about as much butternut as you reasonably can on top without covering up all of the pesto and goat cheese (refer to photos). Top each pizza with a sprinkling of pepitas."
+   },
+   {
+    "title": null,
+    "text": "Transfer one pizza to the oven (I baked mine on a cookie sheet). Bake until the crust is golden and the butternut ribbons are caramelizing on the edges (about 10 on a baking sheet, or as few as 5 minutes on a baking stone). Repeat with remaining pizza. Top each pizza with a light sprinkle of fresh arugula and, if desired, a dash of red pepper flakes. Slice and serve."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Food and Wine’s focaccia with butternut squash and adapted from my arugula-almond pesto pizza with summer squash.",
+   "Preparation tips: This recipe is designed for immediate consumption! The dough is best baked immediately after making, and the pesto will oxidize over time.",
+   "Change it up: Feel free to trade other greens (like kale) for the arugula or nuts for the pepitas. Top the pizza with whatever’s in season!",
+   "Make it quick: You can certainly buy pre-made pizza dough or pre-cooked flatbread instead of making your own dough. Just adjust toppings and baking time as necessary."
+  ],
+  "summary": "Gourmet homemade pizza made with roasted butternut squash ribbons, homemade arugula-pepita pesto, goat cheese, and a whole grain crust. You can make the pesto and the dough in your food processor, so this pizza is pretty easy to whip up! Recipe yields two pizzas.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Arugula-Pepita Pesto"
+   },
+   {
+    "at": 8,
+    "title": "Everything else"
+   }
+  ]
+ }
 }

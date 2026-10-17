@@ -1,6 +1,56 @@
 {
  "url": "https://cookieandkate.com/best-grilled-corn-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Grilled Corn on the Cob",
+  "ingredients": [
+   "Corn on the cob (the fresher, the better)",
+   "For serving: Butter and salt, or other desired toppings"
+  ],
+  "yield_text": "As desired",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-grilled-corn-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the grill to medium-high heat (ideally about 400 degrees Fahrenheit). You’ll know it’s ready when you can hold your hand about 4 to 5 inches above the grates for just 4 to 5 seconds without needing to pull back—obviously be careful doing this!"
+   },
+   {
+    "title": null,
+    "text": "Using a pair of scissors, trim off the silks at the end of each cob, and trim away any leaves that are jutting sideways off the husk. Otherwise, they may catch fire in the grill."
+   },
+   {
+    "title": null,
+    "text": "When the grill is sufficiently heated, use tongs to place each ear of corn on the grill, running in the direction of the grates so they don’t roll around. Leave a couple of inches around each one."
+   },
+   {
+    "title": null,
+    "text": "Close the grill. Cook for 15 minutes. Use tongs to rotate the corn by about one-third turn every 5 minutes before closing the grill again. Transfer the hot corn to a large serving platter."
+   },
+   {
+    "title": null,
+    "text": "Turn the grill to high heat (ideally about 500 degrees Fahrenheit, or hot enough that you can only hold your hands above the grates for 1 to 2 seconds). In the meantime, let the corn cool until it’s safe to handle, about 5 minutes. Remove all of the husks and the silks from the cobs and discard those pieces (if the corn is still quite warm, wrap a clean tea towel around the base of the cob as you work)."
+   },
+   {
+    "title": null,
+    "text": "Using tongs, place the corn cobs back on the grill. Close the grill and cook for about 5 minutes, rotating the corn halfway to achieve some grill marks on each side. Remove the corn from the grill, slather with butter and sprinkle with salt (or use toppings of your choice), and serve."
+   }
+  ],
+  "notes": [
+   "Change it up: If you prefer steamed corn on the cob without grill marks, you can grill the corn as instructed through step 4, but rotate the corn by a quarter turn each time and add an extra 5 minutes cooking time (total of 20 minutes).",
+   "Make it dairy free/vegan: Choose a vegan butter, such as Miyoko’s Creamery, or get creative with your toppings. I think Cilantro Hemp Pesto would be nice."
+  ],
+  "summary": "Learn how to grill the BEST corn on the cob! With this grilled corn recipe, you’ll achieve perfectly tender and flavorful corn with just the right amount of char. Make as much grilled corn as you’d like, leaving a couple of inches around each cob (my grill can fit up to 8 at once).",
+  "ingredient_groups": []
+ }
 }

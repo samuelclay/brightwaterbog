@@ -1,6 +1,69 @@
 {
  "url": "https://cookieandkate.com/huevos-rancheros-avocado-salsa-verde/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Huevos Rancheros with Avocado Salsa Verde",
+  "ingredients": [
+   "1 cup mild salsa verde from a jar",
+   "1 ripe avocado, pitted and sliced",
+   "Big handful cilantro (some stems are ok)",
+   "1 medium jalapeño, deseeded and roughly chopped (save ½ of jalapeño for garnish)",
+   "1 garlic clove, roughly chopped",
+   "½ lime, halved",
+   "1 batch Refried Black Beans, or 1 can store-bought (warmed)",
+   "4+ corn tortillas",
+   "4+ eggs",
+   "½ cup feta, crumbled",
+   "Small handful cilantro, roughly chopped",
+   "4 radishes, sliced into very thin pieces",
+   "½ jalapeño, seeds and membranes removed, finely chopped",
+   "Hot sauce"
+  ],
+  "yield_text": "4",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/huevos-rancheros-avocado-salsa-verde/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the avocado salsa verde: In a food processor, combine the salsa verde, avocado, cilantro, ½ of the jalapeño, garlic clove and the juice of ½ lime. Purée the salsa until it is super creamy, stopping to scrape down the sides as necessary. Transfer the salsa verde to a small saucepan and gently warm it over medium-low heat, stirring often (or transfer the salsa to a bowl and warm it in the microwave). Don’t overheat this stuff! Cover the salsa until you’re ready to serve."
+   },
+   {
+    "title": null,
+    "text": "Cook the eggs: However you’d like ’em. I fried mine but I won’t judge if you scramble yours. Top with a light sprinkle of salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "Warm the tortillas: Directly over a medium-low gas burner flame or in a pan, flipping until warmed through."
+   },
+   {
+    "title": null,
+    "text": "Assemble the huevos rancheros: On each plate, top tortilla(s) with black beans, avocado sauce and egg(s). Garnish with crumbled feta, cilantro, chopped radishes and jalapeño. Serve with a bottle of hot sauce on the side."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Use certified gluten-free/100 percent corn tortillas for a gluten-free meal.",
+   "Make it dairy free: Omit the feta and substitute pickled jalapeño for the fresh to make up for feta’s salty punch."
+  ],
+  "summary": "This huevos rancheros recipe features spicy black beans and fresh, creamy avocado salsa verde. It’s a delicious, hearty and healthy breakfast that makes a great dinner, too! This is a meatless recipe that vegetarians and meat eaters can agree on.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Avocado Salsa Verde"
+   },
+   {
+    "at": 6,
+    "title": "Assembly"
+   }
+  ]
+ }
 }

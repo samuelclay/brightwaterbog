@@ -24,7 +24,27 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/italian-dressing-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the dressing, combine all of the ingredients in a liquid measuring cup. Whisk until blended."
+   },
+   {
+    "title": null,
+    "text": "Taste, and adjust as needed—add another teaspoon of honey if the mixture tastes too acidic. If the mixture is overall too bold for your liking, dilute it with a couple more tablespoons of olive oil at a time, or if it’s just not quite fantastic yet, add more salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "Use as desired. Store leftover dressing in the refrigerator, covered, for up to 1 week. It will separate over time, so just whisk it back together before serving (if the olive oil solidifies a bit in the refrigerator, don’t worry, that’s normal—just let it warm up for about 5 minutes at room temperature or microwave for 10 to 20 seconds)."
+   }
+  ],
+  "notes": [
+   "Make it vegan: Substitute maple syrup for the honey.",
+   "Change it up: Add ⅓ cup finely grated Parmesan cheese before adjusting the mixture to taste."
+  ],
+  "summary": "Serve this Italian dressing on salad with any Italian meal! This homemade dressing is boldly flavored and delicious—if it’s too zesty as written, simply whisk in more olive oil until it’s just right for your taste buds. Recipe yields 1 scant cup.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

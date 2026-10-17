@@ -34,7 +34,46 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/pasta-e-fagioli-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large Dutch oven or soup pot over medium heat, warm 3 tablespoons of the olive oil until shimmering. Add the chopped onion, carrot, celery, ½ teaspoon of the salt, and about 10 twists of black pepper. Cook, stirring often, until the vegetables have softened and the onions are turning translucent, about 6 to 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the garlic and cook, stirring constantly, until fragrant, about 30 seconds. Add the tomatoes, stir, and cook until the tomatoes are bubbling all over. Add the broth, water, bay leaves, oregano, and red pepper flakes."
+   },
+   {
+    "title": null,
+    "text": "Raise the heat to medium-high and bring the mixture to a simmer. Cook for 10 minutes, stirring occasionally, and reducing the heat as necessary to maintain a gentle simmer."
+   },
+   {
+    "title": null,
+    "text": "Use a heat-safe measuring cup to transfer about 1 ½ cups of the soup (avoiding the bay leaves) to a blender. Add about ¾ cup of the drained beans. Securely fasten the lid and blend until completely smooth, being careful to avoid hot steam escaping from the lid. Pour the blended mixture back into the soup."
+   },
+   {
+    "title": null,
+    "text": "Add the remaining beans, pasta, kale and parsley to the simmering soup. Continue cooking, stirring often to prevent the pasta from sticking to the bottom of the pot, for about 20 minutes, or until the pasta and greens are pleasantly tender."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from the heat, then remove and discard the bay leaves. Stir in the lemon juice, the remaining tablespoon of olive oil, and remaining ¼ teaspoon salt. Taste and season with more salt (I usually add another ¼ teaspoon) and pepper until the flavors really sing. Garnish bowls of soup as desired, and serve."
+   },
+   {
+    "title": null,
+    "text": "Leftovers taste even better the next day. Allow leftover soup to cool to room temperature, then cover and refrigerate for up to 5 days. Or, freeze leftover soup in individual portions and defrost as necessary."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my minestrone recipe, with reference to Bon Appétit (and their comments section!).",
+   "*Tomato recommendation: I always use Muir Glen tomatoes, and used their fire-roasted crushed tomatoes since they don’t offer plain.",
+   "Make it gluten free: Use a small, sturdy, gluten-free noodle, such as a corn and quinoa blend.",
+   "Make it dairy free/vegan: Don’t add cheese. Simple as that.",
+   "If you don’t have a stand blender: You can use an immersion blender to blend (carefully) a portion of the liquid with the beans in a separate (heat-safe) container. Or, skip this step altogether. Your soup will be a little more chunky and less creamy, but still very good."
+  ],
+  "summary": "Pasta e fagioli means “pasta and beans” in Italian—this recipe is much more than that! This hearty vegetarian stew is full of irresistible fresh flavor. It’s vegan, too, as long as you don’t top it with cheese. Recipe yields 6 bowls or 8 cups of soup.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

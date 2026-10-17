@@ -30,7 +30,54 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/best-veggie-burger-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 400 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper for easy clean-up."
+   },
+   {
+    "title": null,
+    "text": "Roast the sweet potatoes: Slice the sweet potatoes down the center lengthwise. Place the sweet potatoes, cut side down, on the prepared baking sheet. Roast until they yield to a gentle squeeze, 30 to 40 minutes or longer. Set aside for now. (If you’ll be baking the burgers, reserve the parchment-lined pan and leave the oven on.)"
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, in a small saucepan, combine the quinoa and water. Bring the mixture to a boil over medium-high heat, then reduce the heat as necessary to maintain a gentle simmer. Simmer, uncovered, until all of the water is absorbed, 11 to 14 minutes. Remove the pan from the heat, cover, and let the quinoa steam for 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Once the sweet potatoes are cool enough to handle, remove and discard the skin (it should pull off easily) and roughly chop the insides. In a large mixing bowl or the bowl of your electric mixer, combine the cooled sweet potatoes and quinoa, black beans, onion, cilantro, garlic, adobo sauce, cumin, chili powder, and salt. Use a potato masher, pastry cutter, large spoon or the paddle attachment of your mixer to mix really well. It’s ok if the black beans get smashed in the process."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle the oats over the mixture and mix well with a large spoon until the mixture holds together when you shape a portion into a patty. If you won’t be making the burgers immediately, cover the mixture and refrigerate for later."
+   },
+   {
+    "title": null,
+    "text": "When you’re ready to cook, shape the burgers: Use a measuring cup to measure out ½ cup of the mixture. Gently shape it into a patty about 3 ½ to 4 inches in diameter. Use your hands to gently flatten the burgers and smooth out any jagged edges. Repeat the process for each patty; you should end up with 8."
+   },
+   {
+    "title": null,
+    "text": "If you’re baking the burgers (see recipe notes for alternate options), brush both sides of each patty generously with olive oil and place them on the lined baking sheet, leaving a few inches of space around each one. Bake at 400 degrees Fahrenheit until the patties are deeply golden on the outside, about 35 minutes, flipping halfway."
+   },
+   {
+    "title": null,
+    "text": "Serve burgers as desired. Leftover burgers keep well, refrigerated, for 4 days. Or, freeze them in a freezer bag for up to 3 months (thaw in the microwave for about 1 minute or in a 400 degree oven for 12 to 15 minutes, until warmed all the way through)."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from the Cafe Flora Cookbook. Cafe Flora is a wonderful vegetarian restaurant in Seattle with an ever-changing seasonal menu—check it out if you’re nearby.",
+   "*Adobo sauce note: Buy canned or jarred chipotle peppers in adobo and use the sauce. You’ll usually find this ingredient in the international or Hispanic aisle of the grocery store. You can transfer leftover peppers and their sauce to a freezer bag, squeeze out any remaining air, and freeze for later use.",
+   "**Oats note: You can use old-fashioned oats instead, if you briefly blend them in a food processor or blender until broken into smaller pieces (not as fine as flour).",
+   "Stovetop cooking method: Heat 1 tablespoon avocado oil (or other high heat oil) in a large skillet over medium heat. When it’s hot, place several burgers in the pan, leaving enough room to flip them. Cook each patty until browned and heated through, about 3 to 4 minutes per side. Add 1 tablespoon oil to the skillet for each pan of burgers you fry, and dial down the heat as necessary to prevent burning.",
+   "Grilling method: Ideally, let the mixture chill in the fridge for a couple of hours before shaping the burgers and grilling. No need to coat the burgers in oil, which might burn on the grill. Shape the burgers as instructed in step 6, and cook on a grill over medium heat, turning once the undersides have turned golden and developed some grill marks. Repeat on the other side.",
+   "Make it gluten free: Use certified gluten-free oats and choose your accompaniments carefully. As an alternative to buns, try butter lettuce leaves!",
+   "Prepare in advance: Prepare the burger mixture and let it chill in the refrigerator (you can let it chill overnight or up to a couple of days if you’d like). Then assemble the burgers and cook as directed.",
+   "Serving suggestions: These veggie burgers don’t have to be served as traditional burgers. The patties are good on their own with toppings like guacamole and pico de gallo, or in a salad with Southwestern flavors. Try serving them with corn on the cob in the summer.",
+   "Recipe notes 8/18/20: The original version of this recipe called for ⅓ cup millet cooked with 1 cup water (yielding 1 cup cooked millet) and 1 cup old-fashioned oats, lightly ground in a food processor or blender until the flakes are broken up, but not as fine as flour."
+  ],
+  "summary": "These sweet and spicy veggie burgers are both vegan and gluten free. You can bake them, grill them, or cook them on the stovetop! For best results when choosing the grill or stovetop method, prepare the burger mixture in advance and let it chill in the refrigerator (you can let it chill overnight or longer if you’d like). Recipe yields 8 patties.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

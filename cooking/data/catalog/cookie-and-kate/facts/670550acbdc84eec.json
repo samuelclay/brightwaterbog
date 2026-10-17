@@ -28,7 +28,36 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/best-quinoa-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the quinoa: Combine the rinsed quinoa and the water in a medium saucepan. Bring the mixture to a boil over medium-high heat, then decrease the heat to maintain a gentle simmer. Cook, uncovered, until the quinoa has absorbed all of the water, about 15 minutes, reducing heat as time goes on to maintain a gentle simmer. Remove from heat, cover, and let the quinoa rest for 5 minutes, to give it time to fluff up."
+   },
+   {
+    "title": null,
+    "text": "In a large serving bowl, combine the chickpeas, cucumber, bell pepper, onion and parsley. Set aside."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl, combine the olive oil, lemon juice, vinegar, garlic and salt. Whisk until blended, then set aside."
+   },
+   {
+    "title": null,
+    "text": "Once the quinoa is mostly cool, add it to the serving bowl, and drizzle the dressing on top. Toss until the mixture is thoroughly combined. Season with black pepper, to taste, and add an extra pinch of salt if necessary. For best flavor, let the salad rest for 5 to 10 minutes before serving."
+   },
+   {
+    "title": null,
+    "text": "This salad keeps well in the refrigerator, covered, for about 4 days. Serve chilled or at room temperature."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by the outrageous herbaceous chickpea salad in my cookbook (page 71) and my quinoa tabbouli.",
+   "*Quinoa note: If you happen to have 3 cups of leftover cooked quinoa, you can use it instead of cooking more.",
+   "Change it up: This salad is awesome as written. You can serve it on fresh greens with an extra drizzle of olive oil and squeeze of lemon juice for dressing. Feel free to top it with crumbled feta cheese or a dollop of cashew sour cream (recipe in my cookbook, page 217)."
+  ],
+  "summary": "This quinoa salad recipe is the best! Everyone loves this healthy quinoa salad made with quinoa, chickpeas, red bell pepper, cucumber, parsley and lemon. It’s vegan and gluten free, too! Recipe yields 4 medium salads or 8 side salads.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

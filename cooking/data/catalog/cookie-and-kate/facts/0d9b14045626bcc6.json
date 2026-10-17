@@ -1,6 +1,40 @@
 {
  "url": "https://cookieandkate.com/cucumber-elderflower-gimlet/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Cucumber Elderflower Gimlet",
+  "ingredients": [
+   "1 ½ ounces Hendrick’s gin*",
+   "1 ounce St-Germain liqueur",
+   "1 ounce lime juice",
+   "One 2-inch piece of peeled cucumber, quartered lengthwise and cut crosswise into ¼-inch thick pieces (see photos), plus a thinly sliced cucumber round for garnish"
+  ],
+  "yield_text": "1 drink",
+  "cook_time": "10 minutes",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cucumber-elderflower-gimlet/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Fill a cocktail shaker with ice. Pour in the gin, St-Germain and lime juice. Add the cucumber pieces, securely fasten the lid, and shake like crazy for about 30 seconds."
+   },
+   {
+    "title": null,
+    "text": "Strain the cocktail into a martini glass and garnish with a slice of cucumber. Enjoy!"
+   }
+  ],
+  "notes": [
+   "*Gin notes: Hendrick’s is perfect for this cocktail since it has notes of cucumber and rose petal. I don’t recommend using a classic dry gin for this drink, unless you really love it.",
+   "Recommended equipment: (Affiliate links) I love this stainless steel jigger for measuring small amounts of liquids. This citrus juicer is my favorite."
+  ],
+  "summary": "This refreshing cucumber elderflower gimlet recipe is made with Hendrick’s gin, St. Germain liqueur, fresh cucumber and lime! Recipe as written below yields 1 cocktail. You can multiply the ingredients and make as many as 3 drinks at once in a large cocktail shaker.",
+  "ingredient_groups": []
+ }
 }

@@ -34,7 +34,30 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2013/07/one-pan-farro-with-tomatoes/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Place water and farro in a medium saucepan to presoak (I find just 5 to 10 minutes sufficient) while you prepare the other ingredients. Adding each ingredient to the pot as you finish preparing it, cut onion in half again, and thinly slice it into quarter-moons. Thinly slice garlic cloves as well. Halve or quarter tomatoes. Add salt, pepper flakes (to taste) and 1 tablespoon olive oil to the pan, and set a timer for 30 minutes. Bring uncovered pan (no lid necessary) up to a boil, then reduce to a gentle simmer, stirring occasionally. When the timer rings, the farro should be perfectly cooked — tender but with a meaty chew — seasoned and the cooking water should be almost completely absorbed. If needed, though I’ve never found it necessary, cook it for 5 additional minutes, until farro is more tender."
+   },
+   {
+    "title": null,
+    "text": "Transfer to a wide serving bowl. If there’s enough leftover cooking liquid to be bothersome, simply use a slotted spoon to leave the amount you wish to leave behind. Drizzle farro lightly with additional olive oil, scatter with basil and parmesan. Eat immediately. Repeat tomorrow."
+   },
+   {
+    "title": "Notes",
+    "text": "→ On a Farro 101 note, the trickiest thing in writing this recipe was considering the different types of farro (from an Italian wheat strain known as emmer) available — as well as misconceptions, such as the notion that it can be used interchangeably with spelt. (It cannot, as spelt can take hours.). Farro comes whole/unpearled, semi-pearled (semi-perlato) and pearled (perlato); pearling describes how much of the exterior bran is removed, but packages are not always labeled. If your package says it will cook in less than 15 minutes, it’s probably pearled; if it takes around 30 minutes, it’s probably semi-pearled. And if it takes 60 to 80 minutes, it is whole or unpearled. [To make it even more confusing, I’ve been using the Rustichella d’Abruzzo brand, which labels it as “whole farro” but it is indeed semi-pearled, which is why cooking times are the best way to decipher which kind you have.]"
+   },
+   {
+    "title": null,
+    "text": "→ However, all you need to know is that this recipe will work for all three kinds of farro (there are multiple comments below noting results for each, as well as quinoa, couscous, and even rice, just do a word search [Cntrl + f] to find the grain you’re looking to swap) but I’ve defaulted to semi-pearled below, which I find most frequently in stores. In all cases, if your package gives you a different cooking time than the 30 minutes suggested below, default to it instead. Questions? Ask away and I will, as always, heh, do my best to feign expertise."
+   }
+  ],
+  "notes": [
+   "In case I have not gasped about my new favorite dish enough, here, let me continue: It cooks in one pot and tastes like you worked all day on it. When you put the ingredients in, you will surely think, “This is too much onion!” because it looks that way. Trust me that in 30 minutes of simmering time, that onion becomes the foundation of a dreamy loose tomato sauce whose flavors root deeply into each farro bite. Finished with a swirl of olive oil, scattering of basil and sprinkling of parmesan, if you’re like us, you’ll barely be into your second bite before plotting to make it again tomorrow."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

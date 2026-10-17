@@ -30,7 +30,43 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/pinto-posole-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cut off the stem ends of the chilis and shake/flick the chilis to remove as many seeds as possible (it’s ok if some remain). Rinse them and pat them dry."
+   },
+   {
+    "title": null,
+    "text": "Heat an empty Dutch oven or soup pot over medium heat until a few drops of water evaporate quickly from the pan. Toast the chilis in the dry pan, pressing them flat with a spatula for a few seconds until fragrant, then flip them over and press them again for a few seconds. Remove the toasted chilis and set them aside for now."
+   },
+   {
+    "title": null,
+    "text": "In the same pot (still over medium heat), warm the olive oil until shimmering. Add the onion and a pinch of salt. Cook, stirring often, until the onions are tender and translucent, about 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the garlic and cumin and cook until fragrant while stirring, about 1 minute. Add the tomato paste and cook, while stirring, for 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Add the toasted chili peppers, bay leaf, hominy, beans, vegetable broth and water to the pot. Stir in ½ teaspoon salt and raise the heat to medium-high. Bring the mixture to a simmer, then reduce heat as necessary to maintain a gentle simmer, stirring occasionally, and cook for 25 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the chili peppers and bay leaf from the soup and discard them. Stir the cilantro and juice of ½ lime into the soup. Taste, and add more salt (I usually add at least ¼ teaspoon more) and/or lime juice if necessary. For extra richness, add a little splash of olive oil and stir it in."
+   },
+   {
+    "title": null,
+    "text": "Cut the remaining lime into small wedges. Divide the soup into bowls and garnish with lime wedges and other garnishes of your choice."
+   }
+  ],
+  "notes": [
+   "*Pepper note: Use 2 peppers for mild soup and 4 for spicy soup (I like my soup spicy). If you want extra-spicy soup, you could even reserve the pepper seeds to add after the soup is cooked, to taste. If you can’t find guajillo chili peppers, dried ancho chili peppers are a good alternative. Or, use 1 tablespoon mild chili powder instead—start the recipe with step 3 and add the chili powder with the garlic and cumin.",
+   "Change it up: For more color and textural variation, substitute one can of black beans for one can of pinto beans. For extra pepper flavor and color, sauté a chopped red bell pepper and/or jalapeño with the onion."
+  ],
+  "summary": "This hearty vegan posole is made with pinto beans instead of pork! This easy Mexican posole recipe is healthy, spicy and delicious. Leftovers taste even better the next day. Recipe yields 4 bowls.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

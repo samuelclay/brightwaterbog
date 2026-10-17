@@ -33,7 +33,32 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2009/01/mushroom-bourguignon/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat the one tablespoon of the olive oil and one tablespoon of butter in a medium Dutch oven or heavy sauce pan over high heat. Sear the mushrooms until they begin to darken, but not yet release any liquid — about three or four minutes. Remove them from pan."
+   },
+   {
+    "title": null,
+    "text": "Lower the flame to medium and add the second tablespoon of olive oil. Toss the carrots, onions, thyme, a few good pinches of salt and a several grinds of black pepper into the pan and cook for 10, stirring occasionally, until the onions are lightly browned. Add the garlic and cook for just one more minute."
+   },
+   {
+    "title": null,
+    "text": "Add the wine to the pot, scraping any stuck bits off the bottom, then turn the heat all the way up and reduce it by half. Stir in the tomato paste and the broth. Add back the mushrooms with any juices that have collected and once the liquid has boiled, reduce the temperature so it simmers for 20 minutes, or until mushrooms are very tender. Add the pearl onions and simmer for five minutes more."
+   },
+   {
+    "title": null,
+    "text": "Combine remaining butter and the flour with a fork until combined; stir it into the stew. Lower the heat and simmer for 10 more minutes. If the sauce is too thin, boil it down to reduce to the right consistency. Season to taste."
+   },
+   {
+    "title": null,
+    "text": "To serve, spoon the stew over a bowl of egg noodles, dollop with sour cream (optional) and sprinkle with chives or parsley."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

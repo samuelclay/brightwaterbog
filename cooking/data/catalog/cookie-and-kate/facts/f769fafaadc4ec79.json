@@ -1,6 +1,44 @@
 {
  "url": "https://cookieandkate.com/watermelon-juice/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Watermelon Juice Recipe",
+  "ingredients": [
+   "1 small sweet watermelon (a 6 pounder will do)",
+   "1 small lime, juiced (optional)"
+  ],
+  "yield_text": "4",
+  "cook_time": "10 minutes",
+  "categories": [
+   "Drink"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/watermelon-juice/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Slice the watermelon in half. Using a big spoon, scoop chunks of sweet watermelon into the blender. Discard the rind."
+   },
+   {
+    "title": null,
+    "text": "Blend the watermelon until it is totally pulverized. This shouldn’t take more than a minute. For extra flavor, squeeze the juice of one small lime into the blender and blend for a few seconds."
+   },
+   {
+    "title": null,
+    "text": "If your watermelon is notably pulpy or seeded, pour the mixture through a fine mesh strainer into a pitcher. If not, you can pour it directly into glasses filled with ice. Watermelon juice will keep in the refrigerator, covered, for up to 4 days. The juice will separate over time; stir it with a spoon to recombine."
+   }
+  ],
+  "notes": [
+   "Watermelon selection: Your juice will only be as good as your watermelon, so find a good one at a farmer’s market or health store. Look for a watermelon that is heavy for its size, round, dark and dull (versus shiny) with a yellow field spot.",
+   "Change it up: You can make cantaloupe juice using the same method! You can also turn your watermelon juice into popsicles by pouring the juice into a popsicle mold and freezing until solid (check out my Watermelon Popsicles for an even easier option)."
+  ],
+  "summary": "Refreshing, naturally sweet watermelon juice couldn’t be easier to make in a blender. Yield will vary based on the size of your watermelon, but my 6.5-pound watermelon yielded about 5 cups of juice.",
+  "ingredient_groups": []
+ }
 }

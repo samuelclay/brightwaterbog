@@ -24,7 +24,23 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/caesar-dressing-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a liquid measuring cup or bowl, combine the mayonnaise, garlic, lemon juice, Dijon, and Worcestershire sauce, and salt. Stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Stir in the Parmesan, followed by the water. Season generously with black pepper, to taste. I usually think the dressing tastes just right, but if you’d prefer a more bold dressing, add another ¼ teaspoon Worcestershire sauce, or for more zippy dressing, add up to 1 teaspoon additional lemon juice. Serve as desired."
+   }
+  ],
+  "notes": [
+   "Storage suggestions: Leftover dressing will keep well in the refrigerator, covered, for up to 5 days.",
+   "*Worcestershire note: To ensure that this salad dressing is vegetarian/fish-free, choose your Worcestershire sauce carefully, as most contain anchovies. I like Annie’s, The Wizards or Whole Foods 365 brands (note that some anchovy-free Worcestershire sauces contain soy)."
+  ],
+  "summary": "This easy Caesar dressing recipe yields classic Caesar flavor. This simple mayonnaise-based recipe is anchovy-free as long as you choose your Worcestershire sauce carefully (see recipe note). Recipe yields about ¾ cup, enough for 6 side salads (use 10 ounces romaine lettuce).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

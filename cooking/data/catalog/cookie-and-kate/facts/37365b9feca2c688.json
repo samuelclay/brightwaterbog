@@ -35,7 +35,67 @@
   ],
   "author": "Kate",
   "url": "https://cookieandkate.com/huevos-rancheros-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the pico de gallo: In a medium bowl, combine the tomatoes, onion, cilantro, lime juice, and salt. Stir to combine, then set the bowl aside for later."
+   },
+   {
+    "title": null,
+    "text": "To cook the beans: In a small saucepan over medium heat, warm the olive oil until shimmering. Add the onions and salt. Cook, stirring occasionally, until the onions have softened and are turning translucent, about 3 to 6 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the cumin and cook, stirring constantly, until fragrant, about 30 seconds. Pour in the drained beans and water. Stir, cover and cook for 5 minutes. Reduce the heat to low, then remove the lid and use a potato masher or the back of a fork to mash up about at least half of the beans. Continue to cook the beans, uncovered, stirring often, for 2 to 3 more minutes, until thickened."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from the heat and stir in the pepper and lime juice. Taste and add more salt, pepper or lime juice if necessary. If the beans seem dry, add a very small splash of water and stir to combine. Cover until you’re ready to serve."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, warm the salsa. Pour the salsa into a medium saucepan over medium heat. Bring the salsa to a simmer, stirring occasionally, and then reduce the heat to low until you’re ready to serve. (Or, warm the salsa in a bowl in the microwave—it won’t condense as much but it’ll work!)"
+   },
+   {
+    "title": null,
+    "text": "In a small skillet over medium heat, warm each tortilla individually, flipping as necessary. Spread the black bean mixture over each tortilla and place each tortilla on an individual plate. If using Jack cheese, sprinkle it over the tortillas. Set aside."
+   },
+   {
+    "title": null,
+    "text": "To fry the eggs: In the same skillet over medium heat, pour in 1 teaspoon olive oil and wait until it’s shimmering. Carefully crack an egg and pour it into the skillet without breaking the yolk. Fry the egg, lifting and tilting the pan occasionally to redistribute the oil, until the whites are set and the yolk is cooked to your preferred level of doneness. Place the fried egg on top of a prepared tortilla and repeat with the remaining eggs."
+   },
+   {
+    "title": null,
+    "text": "Spoon about one-fourth of the warmed salsa across each dish, avoiding the egg yolk. Use a slotted spoon or fork to do the same with the pico de gallo, leaving the messy tomato juices behind. Sprinkle with freshly ground black pepper and add any additional garnishes you might like."
+   },
+   {
+    "title": null,
+    "text": "Serve immediately. If you don’t use up all of your beans, leftovers are a great dip for tortilla chips."
+   }
+  ],
+  "notes": [
+   "*If tomatoes aren’t in season: You might want to skip the pico de gallo, and top your dish with some chopped cilantro and avocado slices instead.",
+   "Leftovers tip: If you won’t be consuming all four servings of this dish right away, store the individual components separately and fry your tortilla and egg just before serving.",
+   "Change it up: Try salsa verde and sliced avocado instead of red salsa and pico de gallo.",
+   "Make it gluten free: Be sure to use certified gluten-free corn tortillas.",
+   "Make it dairy free: Omit the cheese!"
+  ],
+  "summary": "This classic huevos rancheros recipe features fresh pico de gallo on top. Huevos rancheros is a vegetarian Mexican breakfast with eggs, tortillas and salsa. Recipe yields 4 hearty but modest servings of one tortilla and egg each, so multiply the recipe if necessary.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Pico de gallo*"
+   },
+   {
+    "at": 5,
+    "title": "Refried beans"
+   },
+   {
+    "at": 13,
+    "title": "Everything else"
+   }
+  ]
  },
  "parser_version": 2
 }

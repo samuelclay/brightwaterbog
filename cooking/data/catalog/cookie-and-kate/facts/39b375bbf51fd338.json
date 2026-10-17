@@ -1,6 +1,69 @@
 {
  "url": "https://cookieandkate.com/fattoush-salad-recipe-with-mint-dressing/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Fattoush Salad with Mint Dressing",
+  "ingredients": [
+   "2 whole grain pitas (7” diameter), torn into bite-sized pieces",
+   "2 tablespoons extra-virgin olive oil",
+   "Pinch of fine sea salt",
+   "½ batch fresh mint dressing",
+   "8 to 10 ounces fresh romaine lettuce, chopped (about 1 medium head of lettuce)",
+   "1 large tomato, chopped, or 1 cup quartered cherry tomatoes",
+   "1 cup quartered and thinly sliced Persian or English cucumber",
+   "1 cup chopped red onion (about 1 small onion)",
+   "½ cup chopped radish (about 3 medium)",
+   "½ cup torn fresh mint leaves",
+   "½ cup crumbled feta (optional)",
+   "Ground sumac, for sprinkling on top"
+  ],
+  "yield_text": "4 salads",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Lebanese"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/fattoush-salad-recipe-with-mint-dressing/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To toast the pita: Preheat your oven to 400 degrees Fahrenheit. On a large, rimmed baking sheet, toss the torn pita with 2 tablespoons olive oil until lightly coated. Sprinkle with salt and bake in the oven until the pieces are very golden and crispy, tossing halfway, 8 to 12 minutes. Set the baking sheet aside to cool."
+   },
+   {
+    "title": null,
+    "text": "To prepare the salad: Make the salad dressing as directed and set aside. In a large serving bowl, combine the chopped lettuce, tomatoes, cucumber, onion, radish, mint, optional parsley and feta, and toasted pita."
+   },
+   {
+    "title": null,
+    "text": "Wait until you’re ready to serve to drizzle up to ½ cup dressing over the salad. Gently toss until all of the ingredients are lightly coated in dressing. Serve promptly, and sprinkle individual servings generously with sumac."
+   },
+   {
+    "title": null,
+    "text": "This salad is best consumed soon after making, since the dressing will wilt the lettuce and soften the pita with time. If you intend to have leftovers, store the dressing separately in an airtight jar and the toasted pita in a sealed bag. Then, toss the individual salads together before serving. The salad will keep this way, covered and refrigerated, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Recipe created with reference to Wikipedia.",
+   "Make it gluten free: Substitute gluten-free pita bread.",
+   "Make it dairy free/vegan: Don’t add feta. Vegans, use maple syrup instead of honey when making the dressing.",
+   "Change it up: Add falafel or cooked, drained chickpeas or lentils to make the salad a full meal."
+  ],
+  "summary": "This classic fattoush salad recipe will become your new favorite salad! It’s a versatile salad, and the perfect way to use up those random leftover raw vegetables (the amounts given here are flexible and you can add/substitute any veggies you’d like). Recipe yields 4 large or 6 to 8 side salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Toasted pita"
+   },
+   {
+    "at": 3,
+    "title": "Salad"
+   }
+  ]
+ }
 }

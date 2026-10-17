@@ -28,7 +28,24 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2021/06/zucchini-butter-spaghetti/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Boil your spaghetti in well-salted water until it’s 1 minute shy of fully cooked. Before you drain it, reserve 1 cup of the pasta cooking water and set it aside."
+   },
+   {
+    "title": null,
+    "text": "Melt butter in your empty pan over medium-high heat and add the garlic, stirring it into the butter for one minute before adding the zucchini, salt, and red pepper. Cook the zucchini, stirring from time to time, for 13 to 15 minutes. It will first let off a puddle liquid, the liquid will cook off, and the zucchini will become soft and concentrated. If the zucchini begins to brown, reduce the heat slightly. Stir frequently for 2 more minutes, chopping it down into smaller bits with the edge of your spoon or spatula, until it reaches an almost spreadable consistency."
+   },
+   {
+    "title": null,
+    "text": "Pour in 1/2 cup of the reserved pasta water and stir up anything stuck, then add drained pasta, and cook together for 2 minutes. Use tongs or two forks to pull up the zucchini butter sauce into the pasta strands, tossing frequently, and adding some or all of the remaining pasta water as needed to loosen. Toss in half of the parmesan and basil and mix, then transfer to a serving bowl. Finish with remaining parmesan and basil."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

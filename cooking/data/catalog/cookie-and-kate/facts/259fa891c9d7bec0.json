@@ -33,7 +33,45 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/mediterranean-spaghetti-squash-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the spaghetti squash, preheat the oven to 400 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper for easy clean-up. Use a very sharp chef’s knife to cut off the tip-top and very bottom ends of each spaghetti squash. Stand the squash upright on a stable surface and slice through it from top to bottom to divide it in half. Repeat with the other squash."
+   },
+   {
+    "title": null,
+    "text": "Use a large spoon to scoop out the spaghetti squash seeds and discard them. Drizzle each squash half with 1 teaspoon olive oil and rub it all over the inside and outside of the squash, adding more oil if necessary. Sprinkle salt and pepper lightly over the interiors of the squash, then place them cut-side down on the prepared baking sheet. Bake for 40 to 60 minutes, until the interiors are easily pierced through with a fork."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, to prepare the chickpea salad, combine the chickpeas, bell pepper, onion, olives, chopped basil and/or parsley, garlic, lemon juice, remaining 1 tablespoon olive oil and salt. Stir to combine. Taste, and add more lemon juice and/or salt if necessary. Set aside."
+   },
+   {
+    "title": null,
+    "text": "To prepare the pesto: In a small skillet, toast the pepitas over medium heat, stirring often, until they are fragrant and making little popping noises, about 5 minutes. Pour the pepitas into a food processor and let them cool for a few minutes. Then, add the basil, parsley, lemon juice, water and salt. Process while slowly drizzling in the olive oil, stopping to scrape down the sides as necessary, until the pepitas have broken down to create a pretty smooth sauce. Transfer the pesto to a small bowl for serving."
+   },
+   {
+    "title": null,
+    "text": "To assemble, use a fork to fluff up the squash and make it easier to eat. Then divide the chickpea salad between the squash “bowls” and top each one with a generous drizzle of pesto. Finish with a sprinkle of chopped herbs and cheese, if desired. Serve immediately. Leftovers keep well for about 3 days; if you plan to have leftovers, store the pesto separately and top the squash with it just before serving."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my spaghetti squash burrito bowls.",
+   "*Change it up: You can use walnuts or almonds in the pesto instead of pepitas (although the dish will no longer be nut-free, if that matters).",
+   "Make it dairy free/vegan: Just don’t add any cheese!"
+  ],
+  "summary": "Roasted spaghetti squash topped with your favorite Mediterranean ingredients and pesto! This healthy vegetarian dinner recipe will make everyone happy. Recipe yields 4 servings (4 stuffed spaghetti squash halves).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Spaghetti squash and filling"
+   },
+   {
+    "at": 11,
+    "title": "Parsley-basil pesto"
+   }
+  ]
  },
  "parser_version": 2
 }

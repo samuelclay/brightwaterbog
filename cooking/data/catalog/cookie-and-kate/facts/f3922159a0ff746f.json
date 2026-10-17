@@ -28,7 +28,55 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/vegetarian-sushi-bowl-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the rice: Bring a large pot of water to boil. Once the water is boiling, pour in the rinsed rice and give it a stir. Boil the rice for 30 minutes, then turn off the heat and drain the rice. Return the rice to the pot and cover the pot. Let the rice steam for 10 minutes. Remove the lid and fluff the rice with a fork."
+   },
+   {
+    "title": null,
+    "text": "To prepare the rice seasoning: In a small saucepan over medium heat, combine the rice vinegar, tamari, sugar and salt. Warm the mixture, stirring often, until the sugar dissolves. Remove from heat and toss with rice once it’s done steaming."
+   },
+   {
+    "title": null,
+    "text": "To toast the nori: In a large skillet over medium-low heat, warm the sheet of nori until it’s become crisp enough to crumble easily, flipping halfway, about 5 minutes. Remove from heat and tear it into quarters. Crumble each piece into very small pieces in your hands over the rice and drop it into the pot. Stir the nori into the rice and set the rice aside to cool."
+   },
+   {
+    "title": null,
+    "text": "To cook the edamame: Bring a pot of water to boil, then add the frozen edamame and simmer just until the beans are warmed through, about 5 minutes. Drain and set aside."
+   },
+   {
+    "title": null,
+    "text": "To prepare the spicy mayo sauce, whisk together the mayonnaise and sriracha in a small bowl until well blended. Add more sriracha if you’d like a spicier sauce."
+   },
+   {
+    "title": null,
+    "text": "To prepare the cucumber, slice it in half lengthwise. Use a spoon to scoop out the seeds and discard them. Then slice the halves into 2-inch long pieces and slice them into matchsticks."
+   },
+   {
+    "title": null,
+    "text": "Divide the rice between four bowls. Top with edamame, carrots, avocado and cucumber. Drizzle chili-mayo sauce on top, sprinkle with sesame seeds and serve with pickled ginger on the side."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Be sure to use gluten-free soy sauce (tamari is typically gluten free, but check the label to be sure)."
+  ],
+  "summary": "This recipe tastes like vegetarian sushi rolls, but in simplified bowl form! The spicy mayo sauce really takes it to another level. Feel free to play with the toppings to make this bowl taste like your favorite roll. There are a few steps involved, but each one is super simple. Recipe yields 4 sushi bowls, which keep well for leftovers (for best results, slice the avocado just before serving).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Rice and seasonings"
+   },
+   {
+    "at": 6,
+    "title": "Spicy mayo sauce"
+   },
+   {
+    "at": 8,
+    "title": "Everything else"
+   }
+  ]
  },
  "parser_version": 2
 }

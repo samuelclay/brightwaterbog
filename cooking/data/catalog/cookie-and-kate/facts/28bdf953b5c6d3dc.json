@@ -21,7 +21,28 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/favorite-hot-chocolate-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium saucepan, whisk together the cocoa powder and 1 tablespoon maple syrup until the cocoa powder is mostly incorporated. Whisk in the milk."
+   },
+   {
+    "title": null,
+    "text": "Warm the mixture over medium heat, stirring frequently, until it comes to a gentle simmer, about 4 to 7 minutes (don’t let it come to a rolling boil)."
+   },
+   {
+    "title": null,
+    "text": "Remove the hot chocolate from the heat and stir in the chopped chocolate and vanilla extract until well blended. Taste (careful, it’s hot), and add more maple syrup if you’d like a sweeter cup. Pour the hot chocolate into two mugs, top with any desired garnishes, and serve while hot."
+   }
+  ],
+  "notes": [
+   "*Milk suggestions: Thicker, richer milks produce better hot chocolate. Whole milk is fantastic. Good plant-based options include homemade cashew milk or store-bought cashew milk (I like Forager brand). Three Trees and Malk make creamy almond milk. Light coconut milk would be nice. Homemade oat milk thickens too much when heated, so I don’t recommend it.",
+   "Cocoa powder notes: Regular or Dutch-processed cocoa powder will work well. Dutch-processed offers less acidic chocolate flavor, so if you have them both to choose from, I’d pick Dutch.",
+   "Make it dairy free/vegan: Use plant-based milk (see suggestions above) and choose dairy-free/vegan-friendly toppings."
+  ],
+  "summary": "Warm up with this delicious hot chocolate recipe! It’s made with cocoa powder, real chocolate, your milk of choice and a drizzle of maple syrup. Recipe yields 2 cups; divide or multiply as desired.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

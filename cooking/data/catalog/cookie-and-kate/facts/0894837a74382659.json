@@ -1,6 +1,42 @@
 {
  "url": "https://cookieandkate.com/ranch-water-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Ranch Water Cocktail",
+  "ingredients": [
+   "1 ½ ounces silver (blanco) tequila",
+   "1 ounce fresh lime juice, plus lime wedges for serving",
+   "Teeny tiny pinch of fine salt",
+   "Sparkling water, preferably Topo Chico or Mineragua"
+  ],
+  "yield_text": "1 drink",
+  "cook_time": "3 minutes",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "Texan"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/ranch-water-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Fill a tall glass to the brim with ice. Pour in the tequila and lime juice. Add a tiny sprinkle of salt to bring out the flavors."
+   },
+   {
+    "title": null,
+    "text": "Fill the rest of the glass with sparkling water. Gently stir once with a spoon to mix. Add a lime wedge and serve at once."
+   }
+  ],
+  "notes": [
+   "Suggested tequila: I like Casamigas, Espalon and Milagro. Blanco tequila is standard in ranch waters and it’s my personal preference as well.",
+   "Measuring tips: 1 ½ ounces is 3 tablespoons and 1 ounce is 2 tablespoons. You’ll need about 1 medium lime per drink."
+  ],
+  "summary": "Make the ultimate ranch water cocktail at home with this recipe! You’ll need good tequila, fresh lime, and Topo Chico or sparkling water.",
+  "ingredient_groups": []
+ }
 }

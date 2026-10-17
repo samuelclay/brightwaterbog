@@ -1,6 +1,67 @@
 {
  "url": "https://cookieandkate.com/chocolate-peanut-butter-swirl-fudge-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Chocolate Peanut Butter Swirl Fudge",
+  "ingredients": [
+   "1 ½ cups (packed) peanut butter (or almond butter, for paleo/peanut-free version)",
+   "⅓ cup melted coconut oil",
+   "¼ cup maple syrup or honey",
+   "¼ teaspoon salt",
+   "½ cup reserved peanut butter fudge",
+   "¼ cup cocoa powder",
+   "1 tablespoon melted coconut oil",
+   "1 tablespoon maple syrup or honey",
+   "Dash of salt"
+  ],
+  "yield_text": "32 pieces of fudge",
+  "cook_time": "10 minutes",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/chocolate-peanut-butter-swirl-fudge-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, line the base of a 9 by 5-inch pan with one long piece of parchment paper, cut to fit neatly across the base but long enough to run up the short sides by about 1 inch."
+   },
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, combine 1 ½ cups peanut butter, ⅓ cup melted coconut oil, ¼ cup maple syrup or honey and ¼ teaspoon salt. Whisk until thoroughly blended. Reserve about ½ cup of the mixture, then pour the remaining mixture into the prepared pan. Use a spatula to distribute it evenly over the parchment paper."
+   },
+   {
+    "title": null,
+    "text": "Transfer the reserved ½ cup peanut butter mixture back into the mixing bowl. Add ¼ cup cocoa powder, 1 tablespoon coconut oil, 1 tablespoon maple syrup or honey and a dash of salt. Whisk until thoroughly blended."
+   },
+   {
+    "title": null,
+    "text": "Use a spoon to dollop chocolate fudge onto the peanut butter fudge in the pan. Repeat until all of the chocolate mixture is in the pan, then drag the tip of a butter knife through the pan in a curving zig-zig pattern to make pretty swirls. Cover the top of the pan with plastic wrap and place in the freezer to firm up for at least 1 hour."
+   },
+   {
+    "title": null,
+    "text": "Use a sharp knife to slice the fudge into small, 1″ pieces. Serve the fudge chilled or straight from the freezer, as these will melt quickly at room temperature. Store pieces of fudge in an airtight container in the refrigerator for up to two weeks or the freezer for up to two months."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from two lovely ladies’ freezer fudge—Megan Gilmore‘s almond butter freezer fudge in her cookbook, Everyday Detox, and Angela Liddon’s chocolate-drizzled variation of Megan’s fudge at Oh She Glows.",
+   "Change it up: You can substitute butter (which is not vegan!) for the coconut oil, or substitute almond butter for the peanut butter. I’m sorry, I’m not sure how to make this recipe entirely nut free.",
+   "Make it vegan: Use maple syrup, not honey."
+  ],
+  "summary": "Easy chocolate peanut butter freezer fudge! The beautiful swirled pattern on top makes this healthier, naturally sweetened fudge look amazing. Keep in mind that this fudge needs to stay cold to retain its shape, so serve it right from the freezer. Since the recipe uses coconut oil instead of butter, it’s vegan as well as gluten free and paleo friendly. Recipe yields one 9 by 5-inch pan of fudge. I sliced mine into 1-inch square shapes (yielding about 32 pieces), since a little piece of this fudge goes a long way!",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Peanut butter fudge"
+   },
+   {
+    "at": 4,
+    "title": "Chocolate swirl"
+   }
+  ]
+ }
 }

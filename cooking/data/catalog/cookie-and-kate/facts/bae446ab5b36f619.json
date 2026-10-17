@@ -25,7 +25,59 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/easy-whole-wheat-pizza-dough/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 500 degrees Fahrenheit with a rack in the upper third of the oven."
+   },
+   {
+    "title": null,
+    "text": "Whisk water, oil, honey and yeast in a liquid measuring cup or small bowl. Allow yeast to proof for 5 minutes. It should puff up some by then."
+   },
+   {
+    "title": null,
+    "text": "Pulse flour, Parmesan, and salt in food processor until combined. While running the food processor, slowly pour in the water mixture and process until a shaggy ball forms, about 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Dump the dough onto a floured work surface and quickly knead dough a few times until it comes together. Halve the dough."
+   },
+   {
+    "title": null,
+    "text": "On a floured surface, use a rolling pin to roll dough into two rounds about 11 inches in diameter. For best results, roll the dough out about as thin as reasonably possible. Aim for even thickness rather than a perfectly round shape."
+   },
+   {
+    "title": null,
+    "text": "Carefully lift and transfer one of the rounds onto a baking sheet lined with parchment paper. Brush the outer 1-inch of the dough with a light coating of olive oil. Add half of the pizza sauce or crushed tomatoes (crush the tomatoes over the sink to get out as much liquid as possible). Sprinkle with half of the cheese and any other toppings you’d like to add."
+   },
+   {
+    "title": null,
+    "text": "Bake on the top rack until the crust and cheese are lightly golden, about 10 minutes for cheese pizza and 12 minutes for pizza with additional toppings. Repeat with the remaining dough, then slice and serve. Leftover pizza will keep well in the refrigerator for about 4 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from The Fauxmartha’s no-rise pizza crust and Cook’s Country’s quick grilled pizza dough.",
+   "Troubleshooting: In the unlikely event that the dough clings to your fingers and doesn’t hold its shape, add more flour, just 1 tablespoon at a time. Process briefly to blend again (or stir again, if making by hand).",
+   "Make it vegan: Omit the cheese. Use maple syrup or vegan sugar instead of honey.",
+   "Flour options: All-purpose flour will work well here, too (same amount). Do not use whole wheat pastry flour. I have not tried this recipe with any gluten-free flour blends; I’m not sure it will work with those.",
+   "Cheese options: The Parmesan is in this recipe for flavor. Whole Foods 365 and BelGioioso brands offer vegetarian Parmesan cheese. You can substitute mozzarella or cheddar if you’re out. The recipe will even work without cheese.",
+   "Pizza stone option: This crust turns out especially great when baked on a hot pizza stone or pizza steel instead of a baking sheet. I have always had good luck sliding the pizza with the parchment paper underneath onto the baking stone. The pizza will bake much faster on a hot surface, so keep an eye on it and reduce the cooking time accordingly.",
+   "Grill option: This dough works great on the grill. Lay it carefully on the grates and avoid touching it for the first minute of cooking.",
+   "Individual pizzas: Divide this dough into quarters (instead of halves) to make 4 “personal pan” pizzas, each about 6 inches in diameter. Bake about 7 to 10 minutes (or less, if using a pizza stone), until the crust and cheese are lightly golden.",
+   "No food processor? Combine the flour, Parmesan, and salt in a large bowl. Whisk to combine, then drizzle the yeast and water mixture into the bowl while stirring with a large spoon. Stir until all of the flour has been incorporated and the dough comes together, then proceed with the next step."
+  ],
+  "summary": "Whip up this 100% whole wheat pizza dough recipe in your food processor. It hardly needs kneading or rising time. You can make this pizza in less than the amount of time it would take for pizza delivery. Dinner is ready! Yields two medium (11″ diameter) pizzas.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Whole wheat pizza dough"
+   },
+   {
+    "at": 7,
+    "title": "Toppings"
+   }
+  ]
  },
  "parser_version": 2
 }

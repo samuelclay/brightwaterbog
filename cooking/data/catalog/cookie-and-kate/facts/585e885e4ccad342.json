@@ -26,7 +26,36 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/simple-breakfast-quesadillas-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the eggs: In a bowl, whisk the eggs with the hot sauce and salt until they are well blended. Add the beans and set aside."
+   },
+   {
+    "title": null,
+    "text": "To cook the eggs: Melt the butter in a medium-sized skillet (either well-seasoned cast iron or nonstick) over medium heat until it’s bubbling. Pour in the egg mixture and cook, stirring often, until the eggs are just set, about 1 to 3 minutes. Transfer the mixture to a bowl to pause the cooking process (the eggs will finish cooking in the quesadilla). Stir in the green onion, cilantro and jalapeño."
+   },
+   {
+    "title": null,
+    "text": "To cook the quesadilla: In a separate, large skillet, warm the tortilla over medium heat, flipping occasionally. Once the pan and tortilla are warm, sprinkle one-half of the cheese over one-half of the tortilla. Top the cheese with scrambled eggs, then top the scrambled eggs with the remaining cheese."
+   },
+   {
+    "title": null,
+    "text": "Press the empty tortilla halve over the toppings. Let the quesadilla cook until golden and crispy on the bottom (don’t stop cooking too soon!), about 1 to 2 minutes, reducing the heat if necessary to prevent burning the tortilla. Flip it and cook until the second side is golden and crispy."
+   },
+   {
+    "title": null,
+    "text": "Immediately remove the skillet from the heat and transfer the quesadilla to a cutting board. Let it cool for a few minutes to give it time to set, then slice each quesadilla into 2 slices with a very sharp knife. Serve immediately, with your favorite salsa and/or hot sauce on the side."
+   }
+  ],
+  "notes": [
+   "Make it dairy free: Use olive oil instead of butter and omit the cheese.",
+   "Make it gluten free: Use gluten-free tortillas.",
+   "Tortilla recommendation: My favorite brand is Stacey’s Organic, which is available at Whole Foods, Natural Grocer’s and my local health food store (I store them in the refrigerator or freeze them if I know I won’t be able to eat them within a couple of weeks)."
+  ],
+  "summary": "This easy breakfast quesadilla recipe is so delicious! Serve these protein-rich quesadillas stuffed with scrambled eggs, beans and herbs for breakfast, brunch or dinner. Recipe as written yields 1 folded quesadilla; multiply as necessary. You can make 2 at once in a large skillet.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

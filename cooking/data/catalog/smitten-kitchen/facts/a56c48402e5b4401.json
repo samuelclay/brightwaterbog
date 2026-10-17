@@ -34,7 +34,43 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2021/04/spring-asparagus-galette/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the crust: Combine the flour and salt in a large bowl. Sprinkle butter over dough and using a pastry blender or your fingertips, work it into the flour until the mixture resembles small peas. Sprinkle sour cream and 3 tablespoons of water over the mixture and stir/mash it together to combine; it should form large clumps; add last tablespoon water if it does not. Use your hands to bring it together into a single mass. Transfer dough to a large square of parchment paper, patting it into a flatter packet, and wrap it tightly. Chilling it in the fridge until firm, 1 to 2 hours or up to 4 days. You can hasten the firming process along in the freezer, for about 20 minutes."
+   },
+   {
+    "title": null,
+    "text": "Make the filling: Hold the asparagus by the tough end (no need to snap it off) and cut the tips into 1-inch segments and the rest of the spears into very thin slices on a sharp angle. In a large bowl, toss with 1 teaspoon kosher salt and set aside for 30 minutes."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl, combine ricotta, gruyere, parmesan, garlic, a pinch of salt, and pepper to taste and set aside."
+   },
+   {
+    "title": null,
+    "text": "Drain asparagus in a colander and pat it dry on paper towels. Return it to the empty bowl and toss with olive oil, lemon zest, and pepper to taste. (No need to salt because it will be well-seasoned from the salting step.)"
+   },
+   {
+    "title": null,
+    "text": "Assemble galette: Heat oven to 400°F. Unwrap firm crust dough and line a large baking sheet with the parchment paper that it was wrapped in. On a floured counter, roll the dough out into a large round-ish shape, about 14 inches across. Gently transfer it to the parchment paper in the pan. Spread ricotta mixture over center, leaving a 3-inch border bare. Spoon asparagus over ricotta layer. Fold the border over the filling, pleating the edge to make it fit. The center will be open."
+   },
+   {
+    "title": null,
+    "text": "For a darker, glossier crust, beat an egg or just a yolk with 1 teaspoon of water and brush it over the crust."
+   },
+   {
+    "title": null,
+    "text": "Bake galette: For 30 to 35 minutes, until the crust is deeply golden. Serve warm, in wedges."
+   }
+  ],
+  "notes": [
+   "Do ahead: This galette keeps in the fridge for up to one week. It’s good at room temperature but even better warm, so the cheese is all stretchy again.",
+   "Of course you can use a storebought pie crust instead — the unroll and bake ones are the way to go here — but I promise this dough is so easy, you’ll be glad you tried it. Puffed pastry can work too, but won’t hold pleats so you’ll want to make more of a flat tart. I replace 1/2 cup of the all-purpose flour here with whole wheat flour."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

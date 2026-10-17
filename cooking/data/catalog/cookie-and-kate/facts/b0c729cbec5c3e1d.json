@@ -1,6 +1,42 @@
 {
  "url": "https://cookieandkate.com/espresso-martini-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Homemade Espresso Martini",
+  "ingredients": [
+   "2 ounces vodka",
+   "1 ounce cold brew concentrate or ¾ ounce freshly-brewed espresso",
+   "¾ ounce Kahlúa or coffee liqueur",
+   "Optional maple syrup or simple syrup",
+   "If using fresh espresso, garnish with 3 whole coffee beans"
+  ],
+  "yield_text": "1",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/espresso-martini-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Chill your martini glass or coupe glass by filling it to the brim with ice and water. Set your glass aside."
+   },
+   {
+    "title": null,
+    "text": "Fill a cocktail shaker with ice. Pour in the vodka, coffee and Kahlúa (don’t add sweetener yet). Securely fasten the lid and shake the mixture for about 20 seconds, or until the outside of the shaker is absolutely ice cold. Taste a little sip, and if you would like the mixture to be sweeter, add maple syrup or simple syrup in ¼ to ½ teaspoon increments, then gently shake again."
+   },
+   {
+    "title": null,
+    "text": "Discard the ice water in your glass and gently shake out any stubborn water droplets. Strain the mixture into your prepared glass. If you used fresh espresso, you can gently top the drink with 3 coffee beans for good luck (they don’t float on the cold brew version). Enjoy promptly."
+   }
+  ],
+  "notes": [],
+  "summary": "Make the best espresso martini with this recipe! Use cold brew concentrate for ease and amazing flavor, or fresh espresso for a luxuriously foamy top. Recipe makes 1 cocktail; you can multiply the ingredients by 2 or 3 and make them all at once in a large cocktail shaker.",
+  "ingredient_groups": []
+ }
 }

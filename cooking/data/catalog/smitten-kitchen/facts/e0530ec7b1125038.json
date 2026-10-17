@@ -24,7 +24,50 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2008/06/zucchini-strand-spaghetti/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a large pot of water to a boil and add salt. Add the pasta and cook until al dente, about 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "While the water comes to a boil and the pasta cooks, cut the zucchini with the fine French-fry cutter on a mandoline. If you do not have one, cut by hand into the longest, finest julienne you can manage. Season with salt and pepper. If your zucchini is very finely cut, it does not need to be cooked. Otherwise, place in a colander, suspend over the pasta pot, cover the pot, and steam the zucchini until still slightly crunchy, about 2 minutes."
+   },
+   {
+    "title": null,
+    "text": "Heat 1/4 cup of the olive oil in a small skillet over medium-high heat until hot. Add the garlic and saute briefly until light brown. Turn on the exhaust fan and add the red pepper flakes. Quickly mix in the basil and remove from the heat. When the pasta is al dente, drain through a colander, reserving about 1/2 cup of the pasta cooking water."
+   },
+   {
+    "title": null,
+    "text": "Pour the pasta into a warm serving bowl; add the zucchini, basil oil (optional, recipe below), the garlic mixture, and 1/2 cup of the cheese. Toss well, adding cooking water as needed to make a smooth sauce. Taste for seasoning and add salt and pepper, as needed. Grate about 2 tablespoons Parmesan over the top and serve at once."
+   },
+   {
+    "title": null,
+    "text": "Basil Oil (or any other herb-flavored olive oil)"
+   },
+   {
+    "title": null,
+    "text": "For soft herbs, such as basil, parsley, cilantro or tarragon: Use 4 cups packed leaves to 2 cups pure olive oil."
+   },
+   {
+    "title": null,
+    "text": "For woody herbs, such as rosemary, sage, thyme, oregano or lemon verbena: Use 1 cup packed leaves to 2 cups pure olive oil."
+   },
+   {
+    "title": null,
+    "text": "In a blender, puree the herbs and oil until completely smooth. Put the mixture in a saucepan and bring it to a simmer over moderate heat. Simmer for 45 seconds, then pour through a fine-mesh strainer into a bowl. Don’t press on the mixture, but you can tap the strainer against your hand to get the oil to drip through faster."
+   },
+   {
+    "title": null,
+    "text": "[Chirello has steps here to strain again through a coffee filter and let it settle for a few hours but I skipped all this and still had a gorgeous, delicious, unbelievably potent basil oil.]"
+   }
+  ],
+  "notes": [
+   "Note: Fresh herb oils are better to toss into pasta at the end rather than cook with, so the oil keeps its fresh, uncooked taste."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

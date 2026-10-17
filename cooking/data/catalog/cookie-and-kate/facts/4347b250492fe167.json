@@ -1,6 +1,58 @@
 {
  "url": "https://cookieandkate.com/celery-salad-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Celery Salad with Dates, Almonds and Parmesan",
+  "ingredients": [
+   "8 long celery stalks, leaves separated and reserved, tough fibers peeled off with a vegetable peeler, sliced on an angle into ¼-inch thick pieces",
+   "½ cup raw almonds",
+   "4 Medjool dates, pitted and roughly chopped",
+   "3 tablespoons fresh lemon juice (from about 1 ½ lemons)",
+   "¼ teaspoon red pepper flakes",
+   "Sea salt, to taste",
+   "Freshly ground black pepper, to taste",
+   "2 ounces Parmigiano-Reggiano cheese, shaved into shards with a vegetable peeler (to yield about ⅓ cup)",
+   "¼ cup extra-virgin olive oil"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/celery-salad-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Place the celery in a bowl of ice water and soak for about 20 minutes to heighten the crispness. Drain the celery and pat it dry with a tea towel, then pile the celery into a medium serving bowl."
+   },
+   {
+    "title": null,
+    "text": "To toast the almonds, warm them in a medium skillet over medium heat, stirring often, until fragrant and toasted, about 5 to 7 minutes. Transfer to a cutting board and chop with a chef’s knife."
+   },
+   {
+    "title": null,
+    "text": "To the bowl of drained celery, add the celery leaves, chopped almonds, dates, lemon juice, and red pepper flakes. Season generously with salt (I started with ¼ teaspoon) and pepper, and toss to combine. Add the cheese and olive oil and toss gently. Taste and add more salt, pepper and/or red pepper flakes until you reach an irresistible balance of salty, spicy, tart and sweet."
+   },
+   {
+    "title": null,
+    "text": "Serve at room temperature or chilled. This salad keeps well, covered and chilled, for about 3 days (before serving, toss again and pour off some of the excess liquid)."
+   }
+  ],
+  "notes": [
+   "Recipe minimally adapted from Six Seasons by Joshua McFadden and Martha Holmberg.",
+   "*Parmesan note: Most Parmesans are not technically vegetarian (they contain animal rennet), but Whole Foods 365 and BelGioioso brands offer vegetarian Parmesans.",
+   "Change it up: I haven’t tried, but I imagine dried cherries, cranberries or chopped apricots would be nice instead of the dates. I bet walnuts would be good in place of the almonds, too.",
+   "Make it nut free: Try substituting freshly toasted sunflower seeds in place of the almonds.",
+   "Make it dairy free/vegan: The Parmesan rounds out the salad’s flavor, but it’s also nice without the cheese. You might finish the salad with some flaky sea salt (Maldon brand) instead."
+  ],
+  "summary": "This celery salad recipe will surprise you! Crisp celery, toasted almonds, dates and Parmesan combine to create an irresistibly fresh salad. Prepare the celery and place it in the ice bath (step 1) before you start working on the remaining ingredients. Recipe yields 4 side salad portions.",
+  "ingredient_groups": []
+ }
 }

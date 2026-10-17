@@ -27,7 +27,42 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/caprese-sandwich-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 400 degrees Fahrenheit. Slice the bread in half lengthwise, then stack it back together and slice it down the middle to form two large sandwiches, or again to make 4 small. Place the sliced bread on a baking sheet with the cut sides facing up. Bake for 5 minutes, or until warmed through and turning lightly golden around the edges."
+   },
+   {
+    "title": null,
+    "text": "In the meantime, prepare the creamy basil sauce*: In a food processor, blitz the roughly chopped garlic to chop it more finely. Scrape down the sides, then add the mayo, basil, salt and pepper. Blend until smooth, then set aside."
+   },
+   {
+    "title": null,
+    "text": "To assemble the sandwiches, lightly drizzle balsamic and olive oil over half of the cut sides of bread. Layer some arugula on top, then weigh it down with rounds of mozzarella. Top with the sliced tomato, then sprinkle the tomato lightly with flaky salt."
+   },
+   {
+    "title": null,
+    "text": "Spread the basil sauce generously over the cut side of the remaining slices of bread. Place them face down over the tomatoes. Enjoy. These sandwiches are best served promptly, but they keep well in the refrigerator for a day (or you can store the components separately for up to 4 days and assemble sandwiches as needed)."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by French Market, a wonderful café in Kansas City.",
+   "*Balsamic note: I love Napa Valley Naturals’ Grand Reserve Balsamic Vinegar—make sure you get the bottle with “25 stars” on it. It’s under $10 and typically available at Natural Grocers and other well-stocked grocery stores. Or, buy balsamic glaze (DeLallo makes one) or make your own balsamic glaze by gently simmering runny vinegar on the stovetop until it is reduced by half.",
+   "**Basil sauce notes: The ingredients as written yield the bare minimum (¾ cup) that I can make in my 11-cup food processor. You may need to double the recipe for a larger food processor. Or, make it by hand—finely chop the basil, press or mince the garlic, and whisk together the ingredients in a bowl. Leftovers make a stellar veggie dip, and they’re also nice on eggs or avocado toast.",
+   "Storage suggestions: To transport these sandwiches in a cute, picnicky fashion, wrap them in parchment paper and tie them around the middle with twine."
+  ],
+  "summary": "This Caprese sandwich recipe is perfect for picnics! This vegetarian sandwich features tomatoes, fresh mozzarella and creamy basil sauce. Recipe yields 2 large (as shown) or 4 medium sandwiches.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Two large or 4 smaller sandwiches"
+   },
+   {
+    "at": 7,
+    "title": "Creamy basil sauce (this makes extra**)"
+   }
+  ]
  },
  "parser_version": 2
 }

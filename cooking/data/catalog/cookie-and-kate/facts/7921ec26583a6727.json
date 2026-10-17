@@ -1,6 +1,82 @@
 {
  "url": "https://cookieandkate.com/my-perfect-whole-grain-chocolate-chip-cookies/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Maple Oat Chocolate Chip Cookies",
+  "ingredients": [
+   "2 ½ cups whole wheat pastry flour",
+   "1 cup whole spelt flour (or an additional cup of whole wheat pastry flour)",
+   "1 teaspoon baking soda",
+   "1 teaspoon baking powder",
+   "¾ teaspoon fine salt",
+   "¾ teaspoon ground cinnamon",
+   "1 cup (2 sticks) unsalted butter, room temperature",
+   "1 ½ cups raw (turbinado) sugar",
+   "⅓ cup real maple syrup",
+   "3 large eggs",
+   "1 tablespoon pure vanilla extract",
+   "1 cup rolled oats",
+   "2 cups semisweet chocolate chips (60% or higher)",
+   "Maldon salt (optional), for sprinkling"
+  ],
+  "yield_text": "36 big cookies",
+  "cook_time": "55 minutes",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/my-perfect-whole-grain-chocolate-chip-cookies/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 375 degrees and line a baking sheet with parchment paper."
+   },
+   {
+    "title": null,
+    "text": "In a medium bowl, whisk together the flours, baking soda, baking powder, salt and cinnamon."
+   },
+   {
+    "title": null,
+    "text": "In a large bowl or stand mixer, beat the butter until light and fluffy, then beat in the sugar."
+   },
+   {
+    "title": null,
+    "text": "Beat in the eggs one at a time."
+   },
+   {
+    "title": null,
+    "text": "Whisk in the vanilla extract and maple syrup."
+   },
+   {
+    "title": null,
+    "text": "Add the dry ingredients in 3 increments, stirring between each addition. Once you’re done mixing in the last of the dry ingredients, you should have a moist, uniformly brown dough."
+   },
+   {
+    "title": null,
+    "text": "Stir in the chocolate chips and oats by hand until they are evenly distributed. Put some muscle into it!"
+   },
+   {
+    "title": null,
+    "text": "Drop about two tablespoon of dough per cookie onto the baking sheet, leaving about two inches of space around each cookie."
+   },
+   {
+    "title": null,
+    "text": "Bake for 10 minutes, until the tops are just golden. Err on the side of underbaking."
+   },
+   {
+    "title": null,
+    "text": "Allow the cookies to set on the baking sheet for about a minute and transfer them to a cooling rack. If desired, sprinkle with a pinch of Maldon salt. Serve with a glass of milk, of course!"
+   }
+  ],
+  "notes": [
+   "Based on Heidi Swanson‘s recipe for mesquite chocolate chip cookies in Super Natural Cooking.",
+   "Yields 3 dozen big cookies (about 3 ½ to 4 inches in diameter)"
+  ],
+  "summary": "These are my ideal whole wheat chocolate chip cookie—crisp on the outside, and as fluffy as their all-purpose counterparts on the inside. Maple syrup, cinnamon and a slight sprinkling of Maldon salt make them extra special.",
+  "ingredient_groups": []
+ }
 }

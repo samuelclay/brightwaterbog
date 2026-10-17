@@ -1,6 +1,72 @@
 {
  "url": "https://cookieandkate.com/vegetarian-chili-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Homemade Vegetarian Chili",
+  "ingredients": [
+   "2 tablespoons extra-virgin olive oil",
+   "1 medium red onion, chopped",
+   "1 large red bell pepper, chopped",
+   "2 medium carrots, chopped",
+   "2 ribs celery, chopped",
+   "½ teaspoon salt, divided",
+   "4 cloves garlic, pressed or minced",
+   "2 tablespoons chili powder*",
+   "2 teaspoons ground cumin",
+   "1 ½ teaspoons smoked paprika*",
+   "1 teaspoon dried oregano",
+   "1 large can (28 ounces) or 2 small cans (15 ounces each) diced tomatoes**, with their juices",
+   "2 cans (15 ounces each) black beans, rinsed and drained",
+   "1 can (15 ounces) pinto beans, rinsed and drained",
+   "2 cups vegetable broth or water",
+   "1 bay leaf",
+   "2 tablespoons chopped fresh cilantro, plus more for garnishing",
+   "1 to 2 teaspoons sherry vinegar or red wine vinegar or lime juice, to taste",
+   "Garnishes: chopped cilantro, sliced avocado, tortilla chips, sour cream or crème fraîche, grated cheddar cheese, etc."
+  ],
+  "yield_text": "4 to 6 servings",
+  "cook_time": "1 hour",
+  "categories": [
+   "Chili"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/vegetarian-chili-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large Dutch oven or heavy-bottomed pot over medium heat, warm the olive oil until shimmering. Add the chopped onion, bell pepper, carrot, celery and ¼ teaspoon of the salt. Stir to combine and cook, stirring occasionally, until the vegetables are tender and the onion is translucent, about 7 to 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the garlic, chili powder, cumin, smoked paprika and oregano. Cook until fragrant while stirring constantly, about 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Add the diced tomatoes and their juices, the drained black beans and pinto beans, vegetable broth and bay leaf. Stir to combine and let the mixture come to a simmer. Continue cooking, stirring occasionally and reducing heat as necessary to maintain a gentle simmer, for 30 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the chili from the heat and discard the bay leaf. For the best texture and flavor, transfer 1 ½ cups of the chili to a blender, making sure to get some of the liquid portion. Securely fasten the lid and blend until smooth (watch out for hot steam), then pour the blended mixture back into the pot. (Or, you can blend the chili briefly with an immersion blender, or mash the chili with a potato masher until it reaches a thicker, more chili-like consistency.)"
+   },
+   {
+    "title": null,
+    "text": "Add the chopped cilantro, stir to combine, and then mix in the vinegar, to taste. Add salt to taste, too—I added ¼ teaspoon more at this point. Divide the mixture into individual bowls and serve with garnishes of your choice. This chili will keep well in the refrigerator for about 4 days or you can freeze it for longer-term storage."
+   }
+  ],
+  "notes": [
+   "Recipes consulted during the making of this recipe: vegetarian chili with winter vegetables (The New York Times), vegetarian chili (Saveur) and winter vegetable chili (Food and Wine).",
+   "Make it vegan/dairy free: This chili recipe is vegan as written. Just be sure to choose vegan/dairy free toppings, such as avocado and tortilla chips.",
+   "If you love this recipe: You’ll also love my butternut squash chipotle chili and sweet potato chili. You might also enjoy my hearty lentil soup and black bean soup.",
+   "*Spice note: If you are sensitive to spice or using particularly potent spices (I hear that chili powder purchased outside of the U.S. can be very hot), you might want to scale back on the spice here. Start with half of the amounts listed and add more to taste. That said, I enjoy spicy food and found this chili to be well-balanced as written.",
+   "**Canned tomatoes note: I recommend Muir Glen brand—they have the best flavor and their cans are BPA-free!"
+  ],
+  "summary": "The smoky, complex flavor of this simple vegetarian chili comes from basic pantry ingredients, vegetables and spices! It makes great leftovers, too. Recipe yields 4 large or 6 moderate servings of chili.",
+  "ingredient_groups": []
+ }
 }

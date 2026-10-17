@@ -24,7 +24,52 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/perfect-roasted-carrots-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 400 degrees Fahrenheit. Line a large rimmed baking sheet with parchment paper for easy cleanup, if desired."
+   },
+   {
+    "title": null,
+    "text": "To prepare your carrots, peel them and then cut them on the diagonal so each piece is about ½″ thick at the widest part (see photos)."
+   },
+   {
+    "title": null,
+    "text": "Place the carrots on the baking sheet. Add the olive oil, salt and a few twists of pepper.*"
+   },
+   {
+    "title": null,
+    "text": "Toss until the carrots are lightly coated in oil and seasonings. Arrange them in a single layer. Roast the carrots until they’re caramelized on the edges and easily pierced through by a fork, 25 to 40 minutes, tossing halfway.** (Heirloom carrot varieties will roast in as little as 25 minutes, but regular carrots are more dense and typically require 35 to 40 minutes.)"
+   },
+   {
+    "title": null,
+    "text": "Sprinkle fresh herbs over the roasted carrots, if using. Serve the carrots warm, straight from the sheet pan or from a serving dish. Leftover carrots will keep well, covered and refrigerated, for 3 to 4 days. Gently reheat before serving."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my cookbook, Love Real Food.",
+   "*If you’re making the spiced version: Add the chili powder and cinnamon with the olive oil and salt.",
+   "**If you’re making the honey butter version: When the carrots are nearly done baking, melt the butter in your smallest saucepan over medium heat. Once melted, cover the pan to avoid splatters and continue cooking, swirling the pan occasionally, just until you start seeing golden flecks at the bottom, about 2 minutes. Remove the pan from the heat and stir in the honey. Once the carrots are done, drizzle the mixture over them and toss to coat.",
+   "Make it dairy free/vegan: Simply make the basic or spiced versions.",
+   "Prepare in advance: You can peel and slice the carrots in advance. For maximum freshness, store them in a bowl of water in the refrigerator until you’re ready to roast them. Drain and pat dry before proceeding.",
+   "Double it: You can roast two pans of carrots in the oven at once. Just position two racks near the center of the oven before you preheat it. When you toss the carrots halfway through cooking, swap the pans on their rack positions (from top to bottom, and bottom to top)."
+  ],
+  "summary": "Who knew carrots could be SO good?! Roasted carrots are an easy, healthy and affordable side dish. This is the only roasted carrot recipe you’ll ever need! Recipe yields 4 to 6 side servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Basic roasted carrots"
+   },
+   {
+    "at": 5,
+    "title": "For the spiced version, you’ll also need*"
+   },
+   {
+    "at": 7,
+    "title": "For the honey butter version, you’ll also need**"
+   }
+  ]
  },
  "parser_version": 2
 }

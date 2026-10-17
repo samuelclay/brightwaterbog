@@ -30,7 +30,30 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2021/04/lemon-potatoes/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 475°F."
+   },
+   {
+    "title": null,
+    "text": "In a 9×13-inch rimmed sheet pan or deeper baking dish (ideally stainless steel, coated, or stoneware, not glass*) toss potatoes with olive oil, oregano, salt, zest, and pepper evenly to coat. If using butter, dot it over. Roast for 15 to 20 minutes, until potatoes are well-browned underneath. Use a thin spatula** to turn potatoes over, sprinkle in garlic cloves, and return to the oven for another 10 to 15 minutes, until mostly browned underneath on the second side. Pour in broth and lemon juice all over and return to the oven a final time for 15 minutes, or until potatoes and garlic cloves are tender and liquids have reduced to a very thin puddle. Let rest for 5 minutes before serving (any remaining liquid will absorb), sprinkle with herbs, and serve with additional lemon wedges."
+   },
+   {
+    "title": null,
+    "text": "As a few, sadly, have learned the hard way, glass can break when faced with a big temperature change, such as pouring the cold broth and lemon juice into the very hot pan near the end. If you only have glass to roast in, warm the broth before pouring it in, then, once it’s in, cold or room temperature lemon juice is fine to add next."
+   },
+   {
+    "title": null,
+    "text": "this spatula is my forever go-to"
+   }
+  ],
+  "notes": [
+   "Listen, it wouldn’t be a Smitten Kitchen recipe without at least one dose of do-as-I-say-not-as-I-show in these photos, but today, as a treat, there are two: I tested these with different potatoes including the more traditional Russets (shown here) and while they’re all great, I vastly prefer these with creamier Yukon gold potatoes. Use what you’ve got, but if you can get golden, waxier potatoes, these are even better. I also prefer to roast them in a metal, not white or stoneware, baking dish or rimmed baking sheet — it goes faster, gets more crisp, and sticks less. Regardless, use what you’ve got and you’re in for a treat."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

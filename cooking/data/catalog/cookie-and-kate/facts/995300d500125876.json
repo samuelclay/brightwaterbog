@@ -1,6 +1,70 @@
 {
  "url": "https://cookieandkate.com/pizza-beans/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Pizza Beans",
+  "ingredients": [
+   "2 cans (15 ounces each) chickpeas, cannellini or Great Northern beans, drained and rinsed",
+   "¼ cup extra-virgin olive oil",
+   "1 medium yellow onion, halved and very thinly sliced",
+   "½ teaspoon fine salt, divided",
+   "3 large cloves garlic, thinly sliced",
+   "¼ teaspoon red pepper flakes (optional, for heat)",
+   "1 jar (6 to 7 ounces) tomato paste",
+   "5 ounces baby spinach (optional)",
+   "⅔ cup water",
+   "4 ounces (1 packed cup) freshly grated low-moisture, part-skim mozzarella cheese",
+   "Torn fresh basil leaves, for serving (optional)"
+  ],
+  "yield_text": "4",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Main Dish"
+  ],
+  "cuisines": [
+   "Italian-inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pizza-beans/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 450 degrees Fahrenheit. Roughly mash about ½ cup of the drained beans with a fork in a bowl, then set it aside (this step is optional but yields a nicer, thickened texture)."
+   },
+   {
+    "title": null,
+    "text": "Heat the olive oil over medium-high in a medium (10-inch) stainless steel or oven-safe skillet. Add the onion and ¼ teaspoon of the salt. Cook, stirring often, until the onions are tender, about 3 to 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the garlic and red pepper flakes (if using). Cook until the garlic edges turn golden, stirring constantly, about 30 seconds."
+   },
+   {
+    "title": null,
+    "text": "Stir in the tomato paste (watch out for oil splatters), scraping down the browned bits and cook for 30 seconds, reducing the heat as needed to prevent the garlic from burning."
+   },
+   {
+    "title": null,
+    "text": "If using the spinach, add about half of it first, then stir until its bright green and shrunken, about 20 seconds. Repeat with the remaining spinach."
+   },
+   {
+    "title": null,
+    "text": "Add the beans (including the mashed beans), water and the remaining ¼ teaspoon salt. Stir to combine, and use your spatula to scrape any browned bits in the pan into the mixture. Bring the mixture to a simmer on the stovetop. Sprinkle the cheese evenly over the top, then bake until the cheese is nicely melted, about 7 to 9 minutes."
+   },
+   {
+    "title": null,
+    "text": "Let the skillet cool for at least 5 minutes, then top with basil, if using, and serve warm. (Remember that the skillet handle is still very hot!) Leftovers keep well in an airtight container in the refrigerator for up to 5 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Gaby’s Skillet Cheesy Chickpeas, The Kitchn’s Pizza Beans and Ali Slagle’s Cheesy White Bean-Tomato Bake.",
+   "Make it vegan: Omit the mozzarella, and add dollops of Vegan Sour Cream instead.",
+   "Change it up: Treat this dish like a pizza, and add more toppings on top of the cheese!"
+  ],
+  "summary": "This easy weeknight meal features flavorful white beans simmered in homemade red sauce, topped with bubbling mozzarella! It’s a pantry-friendly recipe that’s even more satisfying than take-out. Recipe yields 4 hearty servings.",
+  "ingredient_groups": []
+ }
 }

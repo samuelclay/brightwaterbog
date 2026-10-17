@@ -1,6 +1,57 @@
 {
  "url": "https://cookieandkate.com/cranberry-orange-granola-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Cranberry Orange Granola",
+  "ingredients": [
+   "Zest of 1 large orange, preferably organic",
+   "2 tablespoons granulated sugar of choice",
+   "4 cups old-fashioned rolled oats (use certified gluten-free oats for gluten-free granola)",
+   "1 ½ cups raw pecans (or other nuts or seeds*)",
+   "1 teaspoon fine sea salt",
+   "½ teaspoon cinnamon",
+   "½ cup melted coconut oil (or olive oil)",
+   "½ cup maple syrup or honey",
+   "1 cup dried cranberries"
+  ],
+  "yield_text": "6 cups",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cranberry-orange-granola-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 350 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl, combine the orange zest and sugar. Use your fingers to rub the zest into the sugar until it’s bright orange and fragrant. This step will ensure that your granola is infused with orange flavor."
+   },
+   {
+    "title": null,
+    "text": "In a large mixing bowl, combine the oats, pecans, salt, cinnamon and orange sugar. Stir to combine. Pour in the coconut oil and maple syrup. Mix well."
+   },
+   {
+    "title": null,
+    "text": "Pour the granola onto your prepared baking sheet. Spread the granola into an even layer. Bake for 24 to 28 minutes (if you used honey instead of maple syrup, check at 22 minutes), stirring halfway, until the granola is turning lightly golden in color. The granola will crisp up as it cools."
+   },
+   {
+    "title": null,
+    "text": "Let the granola cool before stirring in the dried cranberries. Store the granola in an airtight container at room temperature for 1 to 2 weeks, or keep it in the freezer for longer shelf life."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my honey almond granola.",
+   "*Nut and seed substitutions: If you are using large, whole nuts (pecans, walnuts, etc.) follow instructions as directed. If you are using small nuts or seeds, like pepitas, or large coconut flakes, wait to stir them into the granola until you remove it from the oven halfway through cooking."
+  ],
+  "summary": "Simple and healthy, maple-sweetened granola with orange zest and dried cranberries. This granola just happens to be gluten free and vegan, too! This recipe yields about six cups of granola.",
+  "ingredient_groups": []
+ }
 }

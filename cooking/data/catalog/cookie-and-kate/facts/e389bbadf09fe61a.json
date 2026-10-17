@@ -29,7 +29,35 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/miso-noodle-soup/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large saucepan or soup pot, bring the broth and water to a boil over high heat. Add the spaghetti and let the mixture return to a hearty simmer. Cook for 3 minutes, stirring occasionally."
+   },
+   {
+    "title": null,
+    "text": "Stir in the tofu, bell pepper, onions, ginger, and red pepper flakes (if using). Bring the mixture back to a hearty simmer, then set the timer for 3 minutes."
+   },
+   {
+    "title": null,
+    "text": "Stir in the halved snow peas and carrot ribbons. Simmer for 1 minute more or until the peas are crisp-tender and the noodles are cooked through. Reduce the heat to low."
+   },
+   {
+    "title": null,
+    "text": "Transfer about ½ cup of broth to a small bowl and stir in the miso. Once the mixture is smooth, stir it back into the soup. Stir in 1 tablespoon each of the sesame oil and tamari. Taste, and if it needs more saltiness or overall flavor, add another tablespoon of tamari. For more sesame flavor, stir in up to 1 more tablespoon of sesame oil."
+   },
+   {
+    "title": null,
+    "text": "Remove the soup from the heat. Ladle soup into bowls and garnish with additional red pepper flakes and/or a light drizzle of sriracha, if desired."
+   }
+  ],
+  "notes": [
+   "Recipe edits 2025: I revised this recipe significantly. I increased the amount of water, switched from soba to spaghetti noodles, reduced the ginger, quadrupled the miso, and added sesame oil and tamari.",
+   "Make it gluten-free: This requires a careful review of ingredient labels. Choose a sturdy gluten-free noodle, like a corn and quinoa blend. Verify that your miso and tamari are gluten-free."
+  ],
+  "summary": "This miso soup recipe features noodles, vegetables and tofu. It’s fresh and restorative and a very abstract interpretation of Japanese restaurant-style miso soup. Recipe yields 6 bowls of soup.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

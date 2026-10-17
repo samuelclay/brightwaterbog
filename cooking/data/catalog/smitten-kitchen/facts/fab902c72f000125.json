@@ -28,7 +28,40 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2014/09/herbed-tomato-and-roasted-garlic-tart/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Roast garlic: Heat oven to 350°F. Cut head of garlic in half crosswise; drizzle cut ends with a few drops of olive oil, then wrap in tightly foil and bake, directly on oven rack, for 45 minutes, until garlic cloves are completely soft. Set aside. [Note: Heads of garlic can also be roasted whole, but I find it easier to remove the cloves without getting any stuck in the skin when it’s halved. Garlic can be roasted up to two days in advance; just keep in the fridge until needed. It will smell exactly like a toasted everything bagel.]"
+   },
+   {
+    "title": null,
+    "text": "Prepare crust: Increase oven temperature to 375°F. 9″x13″-inch baking sheet (or quarter-sheet pan) with parchment paper. Fit pastry sheet into pan, pressing it against the bottom and sides. Trim pastry hanging over sides of pan, if there is any. Prick bottom of pastry all over with a fork. Lay parchment paper over crust and fill with pie weights, which can be storebought, or you can use dried beans, rice or even pennies. Bake until edges of tart are golden, 25 minutes. Carefully remove weights and parchment. If any parts have bubbled up, poke them with a knife point and they should deflate."
+   },
+   {
+    "title": null,
+    "text": "Squeeze roasted garlic cloves out into a bowl and mash with a fork until smooth. Spread over baked par-baked crust with a knife, as if you were buttering bread. Sprinkle with Parmesan, salt and pepper. Return to oven bake until tart shell is golden all over, 12 to 15 minutes. Set aside on a cooling rack."
+   },
+   {
+    "title": null,
+    "text": "Heat broiler. In a large bowl, mix tomatoes, capers, olive oil, salt and pepper. Transfer to a baking sheet and broil, shaking pan once or twice, until tomatoes are blistered and have begun to release their juices, 12 to 14 minutes. This may seem a pesky step but getting the juiciness out of the tomatoes will keep the tart crust from getting soggy."
+   },
+   {
+    "title": null,
+    "text": "Increase oven heat to 425°F. Use a slotted spoon to transfer the tomato mixture to the prepared tart shell; distribute tomatoes evenly, in one layer. Sprinkle with the three herbs. Return the tart to the oven and bake it until hot, about 15 minutes. Let cool slightly before cutting into it."
+   },
+   {
+    "title": null,
+    "text": "Tart can be served hot or closer to room temperature. Store leftovers in fridge. Reheat in 325°F oven for 5 to 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "* My favorite frozen puffed pastry is DuFour — definitely not cheap, but absolutely delicious, made only with butter, flour, salt and a little lemon juice. 1 14-ounce package unfolds to just about 9″x13″, which means I just pressed/stretched it a tiny bit with my fingertips to fit it in the pan — no rolling required (yay). You can also reuse the parchment it comes wrapped into line your crust as you par-bake it."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

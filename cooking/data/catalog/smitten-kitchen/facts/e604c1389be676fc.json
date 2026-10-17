@@ -28,7 +28,34 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2018/03/melting-potatoes/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 500 degrees F."
+   },
+   {
+    "title": null,
+    "text": "[This is really, crazy hot. If you’re really nervous, I suppose that 450 degrees or 475 will also work, but I made it both times at 500 without problems.]"
+   },
+   {
+    "title": null,
+    "text": "Place melted butter in the bottom of a large bowl. Stir in herbs, if using, salt, and pepper. Add potato slices and mix to evenly coat them. Spread potato slices and all of the good stuff at the bottom of the bowl in a 9×13 (quarter-sheet) metal (a glass baking dish shouldn’t be used at this high of a temperature) baking pan."
+   },
+   {
+    "title": null,
+    "text": "Roast potatoes for 15 minutes. Use a thin spatula (you all know by now how much I love a flexible fish spatula, especially here) to loosen potatoes and turn them over. Roast for a second 15 minutes, then carefully pour stock or broth into pan and add the garlic cloves. Roast for 15 minutes more, until potatoes are fully tender."
+   },
+   {
+    "title": null,
+    "text": "Remove from oven. Transfer to a serving platter along with any remaining liquid in pan and serve warm to very lucky people."
+   }
+  ],
+  "notes": [
+   "I made these with, and most often see recipes call for, Yukon Gold potatoes, which on the waxy/smooth end of the potato spectrum, and almost sweet when you roast them. But I’m reading here that floury/mealy potatoes (such as Russets) are often called for too. I haven’t tested it with them, so if you try them, let us know. I imagine they’d absorbed the broth even more luxuriously. I used all butter but I have read that olive oil with a little butter to finish, and/or clarified butter are equally popular, and less prone to burning. But I don’t think you should skimp on the fat. If you do, you’re going to eat roasted potatoes with broth, basically, and not roasted potatoes in a reduction of deeply browned butter and concentrated stock infused with herbs and garlic and I don’t know how you’re still reading this. Go! Make these now!"
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -23,7 +23,23 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/fresh-mint-dressing-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a food processor, combine all of the ingredients and blend until smooth. Taste, and add more salt and/or pepper if necessary. Use as desired!"
+   },
+   {
+    "title": null,
+    "text": "This dressing will keep well, covered and refrigerated, for up to 1 week."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by The Mixx in Kansas City, and adapted from dressing recipes in my cookbook, Love Real Food.",
+   "Make it vegan: Use maple syrup instead of honey."
+  ],
+  "summary": "This mint salad dressing recipe is refreshing, delicious and easy to make! You’ll need fresh mint, lemon juice, olive oil, Dijon mustard, and honey or maple syrup. Recipe yields a little over 1 cup.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

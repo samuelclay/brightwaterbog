@@ -27,7 +27,43 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/spiced-apple-margaritas/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, prepare the honey simple syrup by combining the water and honey in a small saucepan. Warm over medium heat, stirring frequently, just until the honey is dissolved in the water. Remove pan from heat and set aside."
+   },
+   {
+    "title": null,
+    "text": "On a small plate, use a fork to blend the sugar, salt and cinnamon. Run a wedge of lime around the top of each drinking glass, then turn the glass down at a 45-degree angle and roll the top of the glass through the cinnamon, sugar and salt blend. Fill the glasses with ice and set them aside."
+   },
+   {
+    "title": null,
+    "text": "Fill a cocktail shaker with ice. Feel free to make 2 to 3 drinks at once. Pour in the tequila, apple juice or cider, lime juice, honey simple syrup and cinnamon. Put on the lid and shake the cocktail for about 20 seconds. Strain the cocktail into the prepared glass(es) and add a star of anise if you’d like. Cheers!"
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Marb and adapted from my fresh margarita recipe.",
+   "Change it up: I’m pretty sure this cocktail would be great with whiskey/bourbon in place of the tequila, in which case I would use lemon juice instead of lime.",
+   "Make it vegan: Use agave nectar in place of the honey mixture.",
+   "Make it gluten free: Be sure to use 100% agave tequila.",
+   "Honey simple syrup storage: This simple syrup will keep well in an air-tight container in the fridge for a couple of weeks."
+  ],
+  "summary": "Simple apple margaritas with spiced sugar and salt rims! These cocktails would go over great at holiday parties and Mexican-themed dinners.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Spiced apple margarita (per cocktail)"
+   },
+   {
+    "at": 5,
+    "title": "Honey simple syrup"
+   },
+   {
+    "at": 7,
+    "title": "Cinnamon/sugar/salt rim blend and garnish"
+   }
+  ]
  },
  "parser_version": 2
 }

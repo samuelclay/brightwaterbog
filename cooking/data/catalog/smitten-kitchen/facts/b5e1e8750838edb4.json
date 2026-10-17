@@ -35,7 +35,36 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2013/08/rice-stuffed-tomatoes/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 350 degrees. Lightly coat an ovenproof baking dish with olive oil."
+   },
+   {
+    "title": null,
+    "text": "Prepare tomatoes: Cut the tops off the tomatoes and scoop out tomato juices, seeds and flesh into a non-reactive (i.e. just about anything but aluminum) bowl. I like to use a grapefruit knife to make the first cuts, then a spoon to remove the rest, but you can use anything you have around, being careful not to pierce the bottom of the tomatoes. Salt the cavities of the tomatoes and turn them upside down on a plate to drain."
+   },
+   {
+    "title": null,
+    "text": "Prepare reserve: Run scooped-out tomato flesh and juices through a food mill or pulse in a blender until coarsely pureed. Heat a large skillet over medium heat, then add 2 tablespoons olive oil, heating it too. Once hot, add onion, garlic and red pepper flakes, cooking them together for 2 minutes, or until onion begins to soften. Add rice and cook them together for about 3 minutes, or until rice toasts a little. Add tomato puree and bring to a simmer, then reduce heat to medium-low. Season with 3/4 teaspoon salt, then cover skillet with a lid, and let simmer for 10 to 15 minutes, stirring occasionally, until rice is par-cooked. Adjust seasoning if needed."
+   },
+   {
+    "title": null,
+    "text": "[If using the potatoes, as mentioned in the Notes up top, prepare them while the rice simmers.]"
+   },
+   {
+    "title": null,
+    "text": "Reassemble tomatoes: Stir fresh herbs into tomato-rice mixture. Arrange tomatoes right-side-up in baking pan then spoon mixture into tomatoes, filling them just 7/8 of the way to leave room for the rice to finish expanding. Coat with breadcrumbs that you can drizzle lightly with olive oil, if using, or you can replace the tomato lid on each (though, do not spend 10 minutes trying to match them back up, as I did last summer. It’s pointless.)"
+   },
+   {
+    "title": null,
+    "text": "Bake: Uncovered for 30 minutes, until tomato walls are soft and the rice inside has finished cooking. Serve hot. Repeat again tomorrow."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

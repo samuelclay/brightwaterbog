@@ -32,7 +32,22 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2014/09/corn-cheddar-and-scallion-strata/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Generously butter a 3-quart baking dish (a lasagna or 9×13-inch pan works well here too). Toss corn and scallions together in a medium bowl. Combine cheeses in another bowl. In a large bowl, gently beat eggs and mayo together, then whisk in milk, salt and lots (or, if measuring, 1/2 teaspoon) of freshly ground black pepper. Spread one-third of bread cubes in prepared baking dish — it will not fully cover bottom of dish; this is fine. Add one-third of corn, then cheese mixture. Repeat layering twice with remaining bread, corn and cheese. Pour egg mixture evenly over strata. Cover with plastic wrap and refrigerate for at least 8 hours or up to 1 day."
+   },
+   {
+    "title": null,
+    "text": "When ready to bake, heat oven to 350 degrees F. Bake strata, uncovered, until puffed, golden brown and cooked through, about 45 to 55 minutes. Let stand 5 minutes before serving."
+   }
+  ],
+  "notes": [
+   "Do ahead: Strata keeps baked in the fridge for 4 days or longer in the freezer, wrapped well. It reheats wonderfully, either from the fridge or freezer and holds up well in lunch boxes."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

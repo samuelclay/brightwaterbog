@@ -1,6 +1,66 @@
 {
  "url": "https://cookieandkate.com/epic-baba-ganoush-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Epic Baba Ganoush",
+  "ingredients": [
+   "2 pounds Italian eggplants (about 2 small-to-medium eggplants*)",
+   "2 medium cloves of garlic, pressed or minced",
+   "2 tablespoons lemon juice, more if necessary",
+   "¼ cup tahini",
+   "⅓ cup extra-virgin olive oil, plus more for brushing the eggplant and garnish",
+   "2 tablespoons chopped fresh flat-leaf parsley, plus extra for garnish",
+   "¾ teaspoon salt, to taste",
+   "¼ teaspoon ground cumin",
+   "Pinch of smoked paprika, for garnish",
+   "Serving suggestions: warmed or toasted pita wedges, carrot sticks, bell pepper strips, cucumber slices, etc."
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "55 minutes",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Lebanese"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/epic-baba-ganoush-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 450 degrees Fahrenheit with a rack in the upper third of the oven. Line a large, rimmed baking sheet with parchment paper to prevent the eggplant from sticking to the pan. Halve the eggplants lengthwise and brush the cut sides lightly with olive oil. Place them in the prepared pan with the halved sides down."
+   },
+   {
+    "title": null,
+    "text": "Roast the eggplant until the interior is very tender throughout and the skin is collapsing, about 35 to 40 minutes (this might take longer if you are using 1 large eggplant). Set the eggplant aside to cool for a few minutes. Flip the eggplants over and scoop out the flesh with a large spoon, leaving the skin behind."
+   },
+   {
+    "title": null,
+    "text": "Place a mesh strainer over a mixing bowl, then transfer the flesh to the strainer and discard the skins. Pick out any stray bits of eggplant skin and discard. You want to remove as much moisture from the eggplant here as possible, so let the eggplant rest for a few minutes and shake/stir the eggplant to release some more moisture."
+   },
+   {
+    "title": null,
+    "text": "Discard all of the eggplant drippings, drain and wipe out the bowl, and dump the eggplant into the bowl. Add the garlic and lemon juice to the eggplant and stir vigorously with a fork until eggplant breaks down. Add the tahini to the bowl and stir until it’s incorporated. While stirring, slowly drizzle in the olive oil. Continue stirring until the mixture is pale and creamy, and use your fork to break up any particularly long strings of eggplant."
+   },
+   {
+    "title": null,
+    "text": "Stir in the parsley, salt and cumin. Season to taste with more salt (I usually add another ¼ teaspoon) and more lemon juice, if you’d like a more tart flavor."
+   },
+   {
+    "title": null,
+    "text": "Transfer the baba ganoush to a serving bowl and lightly drizzle olive oil on top. Lastly, sprinkle parsley and smoked paprika on top. Serve with accompaniments of your choice. It’s also great on sandwiches!"
+   }
+  ],
+  "notes": [
+   "Recipe roughly adapted from Serious Eats and Tori Avey.",
+   "*Eggplant selection: Large eggplants tend to contain more seeds, which can produce a bothersome texture. So, it’s better to use 2 small eggplants that weigh about 2 pounds total, rather than 1 large. Choose eggplants that are shiny and smooth (no mushy parts), and feel heavy for their size. Turn your eggplant into baba ganoush promptly, since overripe eggplant tastes more bitter.",
+   "Storage suggestions: Leftover baba ganoush can be stored in an airtight container in the refrigerator for about 4 days (I think it’s best served fresh, but some say it tastes better after a day or two). I like to let my leftover baba ganoush warm to room temperature before serving, but others prefer it chilled, so I’ll leave this up to you.",
+   "For a lighter dip: You can reduce the olive oil to as little as 2 to 3 tablespoons. Your dip won’t be as rich and creamy, but it will still be very good!"
+  ],
+  "summary": "This baba ganoush recipe is the best! It’s easy to make, too (no food processor required). You’ll need eggplant, tahini, olive oil, lemon juice, garlic and spices. Recipe yields about 1 ¾ cups (enough to serve 4 to 6 as an appetizer).",
+  "ingredient_groups": []
+ }
 }

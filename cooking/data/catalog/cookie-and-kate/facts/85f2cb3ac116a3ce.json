@@ -1,6 +1,52 @@
 {
  "url": "https://cookieandkate.com/vegan-sour-cream-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Vegan Sour Cream",
+  "ingredients": [
+   "1 cup raw cashews, soaked for at least 4 hours if you do not have a high-powered blender*",
+   "½ cup water",
+   "1 tablespoon lemon juice, or more if needed",
+   "1 teaspoon apple cider vinegar",
+   "Heaping ¼ teaspoon fine sea salt",
+   "¼ teaspoon Dijon mustard"
+  ],
+  "yield_text": "1 cup",
+  "cook_time": "10 minutes (plus 4 hours soaking time if needed)",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Vegan"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/vegan-sour-cream-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "If you soaked your cashews, drain and rinse them until the water runs clear."
+   },
+   {
+    "title": null,
+    "text": "In a blender, combine the cashews, water, lemon juice, vinegar, salt, and mustard. Blend until the mixture is smooth and creamy, stopping to scrape down the sides as necessary. If you’re having trouble blending the mixture, or would prefer a thinner consistency, slowly blend in up to ½ cup additional water, as needed."
+   },
+   {
+    "title": null,
+    "text": "Taste and add an additional teaspoon of lemon juice if you would like more tang, or additional salt if a more intense flavor is desired. Serve immediately or chill the sour cream for later."
+   },
+   {
+    "title": null,
+    "text": "Leftovers keep well, chilled, for about 5 days. The sour cream will thicken up a bit more as it rests; you can thin it by whisking in a small amount of water later, if necessary."
+   }
+  ],
+  "notes": [
+   "Change it up: Add 1 tablespoon nutritional yeast to give the cashew cream a more cheese-like flavor.",
+   "*Vitamix note: If you are using the newer wide-base blender container, you’ll need to double this recipe to gain enough traction."
+  ],
+  "summary": "This vegan sour cream recipe is the best! This creamy dairy-free sauce can also replace goat cheese, ricotta and even mozzarella. It’s easy to make, too. Recipe yields about 1 cup.",
+  "ingredient_groups": []
+ }
 }

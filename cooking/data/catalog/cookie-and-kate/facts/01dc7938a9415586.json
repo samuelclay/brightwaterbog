@@ -29,7 +29,32 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/veggie-sesame-noodles-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cook the soba noodles according to the package directions. Once they’re done cooking, drain them in a colander and rinse them well under cool water. Transfer the drained noodles to a large serving bowl and set aside."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, toast the sesame seeds in a small skillet over medium heat, stirring often (keep an eye on them, as they can burn quickly). Once they’re fragrant and turning golden, transfer them to a small bowl so they don’t burn. Set aside."
+   },
+   {
+    "title": null,
+    "text": "In another bowl, combine the tamari, sesame oil, lime juice, ginger, garlic and red pepper flakes. Whisk until blended. Set aside."
+   },
+   {
+    "title": null,
+    "text": "To assemble, add the cabbage, carrots, bell pepper, green onions, cilantro and optional edamame to your bowl with the noodles. Drizzle in the dressing. Add all of the sesame seeds, and use tongs to toss until the mixture is fully combined. Serve immediately, or refrigerate for later. This salad is best consumed within a couple of days, but it will keep for up to 5 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Last Minute Sesame Noodles on Aggie’s Kitchen, originally from Eatingwell.com",
+   "*Make it gluten free: If you are sensitive to gluten, seek out 100% buckwheat soba noodles (I like Eden Foods’ brand) or substitute your favorite sturdy gluten-free spaghetti.",
+   "Change it up: Try adding a tablespoon or two of peanut butter to the dressing. Or, play around with the vegetables used here—you’ll just need about 5 cups total. For additional protein, include the optional edamame or serve with crispy baked tofu on top, or add a fried egg or scrambled eggs."
+  ],
+  "summary": "This riff on sesame noodles features tons of colorful vegetables. This recipe is healthy and easy to prepare—perfect for bringing to get-togethers! It’s vegetarian/vegan and easily gluten free. Recipe yields 6 side servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

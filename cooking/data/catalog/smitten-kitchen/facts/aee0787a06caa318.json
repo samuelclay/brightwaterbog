@@ -34,7 +34,34 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2024/07/braised-chickpeas-with-zucchini-and-pesto/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Place chickpeas and 1 1/2 cups broth in a large braiser or saucepan. Scatter garlic, onion, pepper flakes, salt, and zucchini on top and drizzle olive oil over. No need to stir."
+   },
+   {
+    "title": null,
+    "text": "Bring the ingredients to a simmer and cover with a lid to cook for 45 minutes total. However, at the 15-minute mark, remove the lid (but still, no need to stir yet). At the 30-minute mark, stir ingredients to evenly combine. If all of the liquid is gone from the pan or the chickpeas are sticking to the bottom, add remaining 1/2 cup broth."
+   },
+   {
+    "title": null,
+    "text": "Remove pan from heat and stir in pesto in dollops. Make divots for the burrata, using your fingers to tear it into chunks before nudging them into the pan. Finish with some parmesan and extra pepper flakes. Ladle into low bowls and serve with grilled bread."
+   },
+   {
+    "title": "Notes",
+    "text": "To keep this gluten-free, you’ll need to use a gluten-free bread for serving."
+   },
+   {
+    "title": null,
+    "text": "If the layering of onion, garlic, and vegetables sounds a bit like my One-Pan Farro with Tomatoes, it is not accidental. This dish started as a zucchini riff on it, which came out absolutely deliciously but didn’t feel “new” enough to warrant a new recipe on the site. Plus, we loved the chickpea version even more. If you’d like to make it at home, however, simply add the zucchini here instead of the tomatoes in the original recipe and finish it with the pesto, burrata, and parmesan as written here."
+   }
+  ],
+  "notes": [
+   "Do ahead: Leftovers keep for 4-5 days in the fridge. If you’re planning ahead, I’d wait to add the finishes (burrata and parmesan) until the chickpeas have reheated."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

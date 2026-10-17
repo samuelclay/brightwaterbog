@@ -16,7 +16,7 @@ from pathlib import Path
 from PIL import Image, ImageOps
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from blog_catalog import SOURCES, write_json
+from blog_catalog import SOURCES, slug, write_json
 
 ROOT = Path(__file__).resolve().parents[1]
 FULL, CARD = ROOT / 'images/full', ROOT / 'images/card'
@@ -45,10 +45,6 @@ def direct(url):
     upload instead; Smitten Kitchen's featured URLs also carry a stray 'uploads//'."""
     found = re.match(r'https://i\d\.wp\.com/([^?]+)', url)
     return 'https://' + re.sub(r'/{2,}', '/', found[1]) if found else url
-
-
-def slug(url):
-    return urllib.parse.urlparse(url).path.rstrip('/').rsplit('/', 1)[-1]
 
 
 def pick(post):

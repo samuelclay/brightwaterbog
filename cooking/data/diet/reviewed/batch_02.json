@@ -1,0 +1,242 @@
+{
+ "1021902": {
+  "vegan": false,
+  "why": "Parmesan or Pecorino, plus more for serving (all animal)"
+ },
+ "1025243": {
+  "vegan": false,
+  "why": "shredded cheese required"
+ },
+ "1024574": {
+  "vegan": false,
+  "why": "halloumi required"
+ },
+ "1022683": {
+  "vegan": false,
+  "why": "butter and butterscotch chips required"
+ },
+ "1020395": {
+  "vegan": false,
+  "why": "mascarpone, creme fraiche or cream cheese (all dairy)"
+ },
+ "1025454": {
+  "vegan": false,
+  "why": "feta required (only the brine is optional)"
+ },
+ "1026918": {
+  "vegan": false,
+  "why": "shredded cheese required"
+ },
+ "1025658": {
+  "vegan": false,
+  "why": "full-fat Greek or Indian yogurt required"
+ },
+ "1026109": {
+  "vegan": false,
+  "why": "egg noodles required"
+ },
+ "759848026": {
+  "vegan": false,
+  "why": "block feta is the main ingredient"
+ },
+ "1020997": {
+  "vegan": false,
+  "why": "Pecorino or Parmesan (all animal)"
+ },
+ "1019938": {
+  "vegan": false,
+  "why": "sour cream or Greek yogurt (all dairy)"
+ },
+ "1901": {
+  "vegan": false,
+  "why": "Parmigiano-Reggiano required"
+ },
+ "1023962": {
+  "vegan": false,
+  "why": "goat cheese required"
+ },
+ "759511730": {
+  "vegan": false,
+  "why": "goat cheese or feta (all animal)"
+ },
+ "770062509": {
+  "vegan": false,
+  "why": "kimchi (fish sauce) required"
+ },
+ "789657892": {
+  "vegan": false,
+  "why": "whole milk yogurt or creme fraiche (all dairy)"
+ },
+ "165950395320777": {
+  "vegan": false,
+  "why": "ricotta salata or Parmigiano to serve, not optional"
+ },
+ "51791073547345": {
+  "vegan": false,
+  "why": "sharp cheddar required"
+ },
+ "144690998550269": {
+  "vegan": false,
+  "why": "heavy cream and Asiago required"
+ },
+ "113578203170294": {
+  "vegan": false,
+  "why": "crema, creme fraiche, sour cream or yogurt (all dairy)"
+ },
+ "46542759669978": {
+  "vegan": false,
+  "why": "ricotta and pecorino/parmesan required"
+ },
+ "12304283525284": {
+  "vegan": false,
+  "why": "pecorino romano required"
+ },
+ "164324678472540": {
+  "vegan": false,
+  "why": "honey required (no alternative)"
+ },
+ "141977509242250": {
+  "vegan": false,
+  "why": "burrata required"
+ },
+ "1012844": {
+  "vegan": true,
+  "why": "feta topping is optional"
+ },
+ "1024120": {
+  "vegan": true,
+  "why": "coconut condensed milk alternative given"
+ },
+ "1019772": {
+  "vegan": true,
+  "why": "yogurt optional"
+ },
+ "1024671": {
+  "vegan": true,
+  "why": "eggs, cheese, feta only optional serving"
+ },
+ "1012904": {
+  "vegan": true,
+  "why": "only chocolate chips (vegan)"
+ },
+ "12602": {
+  "vegan": true,
+  "why": "ghee or vegetable oil"
+ },
+ "1023476": {
+  "vegan": true,
+  "why": "kimchi optional"
+ },
+ "1026143": {
+  "vegan": true,
+  "why": "fish sauce optional; vegetable stock option"
+ },
+ "1025369": {
+  "vegan": true,
+  "why": "honey or sugar"
+ },
+ "1025151": {
+  "vegan": true,
+  "why": "yogurt optional; olive oil alternative to clarified butter"
+ },
+ "1025017": {
+  "vegan": true,
+  "why": "coconut yogurt alternative"
+ },
+ "1026900": {
+  "vegan": true,
+  "why": "mayonnaise, vegan if desired"
+ },
+ "1026706": {
+  "vegan": true,
+  "why": "maple syrup or honey"
+ },
+ "1026926": {
+  "vegan": true,
+  "why": "serving toppings include plant options (avocado, chips); no required dairy"
+ },
+ "1026964": {
+  "vegan": true,
+  "why": "ghee or vegetable oil"
+ },
+ "1025450": {
+  "vegan": true,
+  "why": "Parmesan optional"
+ },
+ "1026776": {
+  "vegan": true,
+  "why": "Parmesan optional"
+ },
+ "1027119": {
+  "vegan": true,
+  "why": "Greek yogurt or lemon wedges, optional"
+ },
+ "1027344": {
+  "vegan": true,
+  "why": "coconut yogurt alternative"
+ },
+ "1027428": {
+  "vegan": true,
+  "why": "Parmesan optional"
+ },
+ "762801795": {
+  "vegan": true,
+  "why": "gingersnaps assumed vegan; keyworded vegan"
+ },
+ "1026017": {
+  "vegan": true,
+  "why": "honey or maple syrup"
+ },
+ "1027522": {
+  "vegan": true,
+  "why": "pesto has no animal ingredients listed; keyworded vegan"
+ },
+ "1024095": {
+  "vegan": true,
+  "why": "ghee, coconut oil or neutral oil"
+ },
+ "1024921": {
+  "vegan": true,
+  "why": "cabbage pesto lists no cheese"
+ },
+ "1023940": {
+  "vegan": true,
+  "why": "fish sauce optional"
+ },
+ "773768354": {
+  "vegan": true,
+  "why": "no animal ingredients"
+ },
+ "1024398": {
+  "vegan": true,
+  "why": "vegan or regular butter"
+ },
+ "780934238": {
+  "vegan": true,
+  "why": "spaghetti or linguine alternative to egg noodles"
+ },
+ "1013681": {
+  "vegan": true,
+  "why": "mirin alternative to honey"
+ },
+ "1024251": {
+  "vegan": true,
+  "why": "sour cream and milk have vegan substitutes"
+ },
+ "5540011166378": {
+  "vegan": true,
+  "why": "parmesan rind optional"
+ },
+ "248259248021415": {
+  "vegan": true,
+  "why": "vegan butter alternative"
+ },
+ "82065064331519": {
+  "vegan": true,
+  "why": "ricotta salata/feta optional"
+ },
+ "21729077939336": {
+  "vegan": true,
+  "why": "no animal ingredients"
+ }
+}

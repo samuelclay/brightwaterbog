@@ -25,7 +25,32 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/golden-milk-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Whether soaked or not, rinse the cashews until the water runs clear. In your blender, combine the cashews with 2 cups of the water. Add all of the remaining ingredients (turmeric, cinnamon, ginger, cardamom, pepper, salt, honey and vanilla)."
+   },
+   {
+    "title": null,
+    "text": "Start on a low setting and increase the speed until the cashews are blended into creamy oblivion. This could take 2 minutes in a high-powered blender or longer in a regular blender."
+   },
+   {
+    "title": null,
+    "text": "Blend in 2 cups more water until creamy. Taste, and if the mixture tastes too fiery, you can blend in a bit more sweetener (though the flavors seem to mellow a bit with time)."
+   },
+   {
+    "title": null,
+    "text": "To serve cold, fill a drinking glass with ice and pour the golden milk on top. Or to serve warm, gently heat your desired quantity in a saucepan on the stove over medium-low heat until steaming, stirring often (don’t overdo it, or the texture won’t be as nice). Store leftover golden milk in the refrigerator for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Make it vegan: Simply use maple syrup or dates (details below) instead of honey.",
+   "Make it nut free: Instead of the cashews and water, whisk or blend the remaining ingredients into coconut milk or whole milk.",
+   "Change it up: Instead of honey or maple syrup, you can use 4 Medjool dates, soaked in hot water for 10 minutes and pitted. Instead of dried turmeric and ginger, you can use 3 times the amount of fresh (so 3 tablespoons fresh turmeric and 1 tablespoon fresh ginger). Peel and chop or grate the turmeric and ginger before using."
+  ],
+  "summary": "This creamy golden milk recipe features turmeric and other warming spices blended with cashews, so it’s dairy free and easily vegan. Enjoy hot or cold! Recipe yields 5 cups, enough for 5 drinks.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

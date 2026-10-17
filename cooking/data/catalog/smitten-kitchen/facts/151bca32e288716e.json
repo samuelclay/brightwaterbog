@@ -18,7 +18,20 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2010/03/baked-kale-chips/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 300°F. Rinse and dry the kale, then remove the stems and tough center ribs. Cut into large pieces, toss with olive oil in a bowl then sprinkle with salt. Arrange leaves in a single layer on a large baking sheet (I needed two because mine are tiny; I also lined mine with parchment for easy clean-up but there’s no reason that you must). Bake for 20 minutes, or until crisp. Place baking sheet on a rack to cool."
+   },
+   {
+    "title": null,
+    "text": "Kale-Dusted Popcorn If you’re making the chips with the intention to grind them up for popcorn, I’d use less oil — perhaps half — so they grind without the “powder” clumping. I ground a handful of my chips (about half) in a mortar and pestle (well, actually the “pestle” was MIA so I used the handle of an OXO reamer, not that anyone asked) and sprinkled it over popcorn (1/4 cup popcorn kernels I’d cooked in a covered pot with 1 1/2 tablespoons oil over medium heat, shaking it about with potholders frequently). I seasoned the popcorn with salt. I liked this snack, but I think Parmesan and Kale-Dusted Popcorn would be even more delicious. Next time!"
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

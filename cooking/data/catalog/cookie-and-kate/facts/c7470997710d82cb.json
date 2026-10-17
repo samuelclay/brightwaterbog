@@ -29,7 +29,41 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/tomato-olive-and-chickpea-quesadilla-with-dill-yogurt-dip/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the dip: In a food processor or blender, combine all of the dip ingredients. Blend well, and transfer to a bowl(s) for dipping."
+   },
+   {
+    "title": null,
+    "text": "Make the quesadilla(s) one at a time: Heat a 10-inch skillet over medium heat. Warm one tortilla for about 30 seconds, flipping halfway. Flip once more, and sprinkle one-half of the tortilla with about half of the shredded cheese. Cover the cheese with chickpeas, tomatoes, olives, and red onion. Sprinkle the remaining cheese over the other fillings and fold over the empty side of the tortilla to enclose the fillings."
+   },
+   {
+    "title": null,
+    "text": "Quickly brush the topside of the quesadilla with a light coating of olive oil, and gently flip it with a spatula. Let the underside of the quesadilla cook until golden and crispy, about a minute or two. Brush the topside with a light coating of olive oil, flip it and cook until the underside is golden and crispy. Flip it once more and immediately transfer it to a cutting board."
+   },
+   {
+    "title": null,
+    "text": "Let the quesadilla cool for a couple minutes, then slice it into three even wedges using a sharp pizza cutter or chef’s knife. Serve immediately, with a side of yogurt dipping sauce."
+   }
+  ],
+  "notes": [
+   "Serve leftover yogurt dip with veggies like carrot sticks, celery sticks, or bell pepper.",
+   "For a full meal, serve the quesadilla with a Little Green Salad.",
+   "Reheat leftover quesadilla slices in the oven. They will get soggy in the microwave."
+  ],
+  "summary": "A crisp quesadilla stuffed with Greek flavors, including tomatoes, olives, chickpeas and red onion. Serve with dill-mint yogurt dip (optional) for a terrific quick meal, snack or appetizer.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per quesadilla, multiply as necessary"
+   },
+   {
+    "at": 7,
+    "title": "Dill-mint yogurt dip (enough for at least 4 quesadillas)"
+   }
+  ]
  },
  "parser_version": 2
 }

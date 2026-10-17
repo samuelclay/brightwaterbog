@@ -1,6 +1,56 @@
 {
  "url": "https://cookieandkate.com/creamed-spinach-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Fresh Creamed Spinach",
+  "ingredients": [
+   "2 tablespoons unsalted butter",
+   "1 medium yellow onion, finely chopped",
+   "½ teaspoon fine salt",
+   "Freshly ground black pepper",
+   "Tiny pinch of cayenne pepper (optional, for subtle heat)",
+   "16 ounces baby spinach",
+   "4 cloves garlic, pressed or minced",
+   "4 ounces cream cheese, cut into 1-inch chunks",
+   "¼ cup freshly grated Parmesan cheese"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/creamed-spinach-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium Dutch oven over medium heat, melt the butter. Add the onion, salt, pepper and optional cayenne. Cook until the onion is soft, about 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the spinach in big handfuls, stirring after each one. Cook until all of the spinach is wilted, about 3 to 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add garlic and cook until fragrant, about 1 more minute."
+   },
+   {
+    "title": null,
+    "text": "Add the cream cheese to the pot. Continue cooking and stirring until the cream cheese has completely melted and the mixture is creamy. Add the Parmesan and stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from the heat. Carefully taste, and season with additional salt and pepper, if you’d like. Serve warm."
+   }
+  ],
+  "notes": [],
+  "summary": "This creamed spinach recipe is made with fresh baby spinach and cream cheese. It’s deliciously rich and creamy, but not over the top. Recipe yields 4 to 6 side servings.",
+  "ingredient_groups": []
+ }
 }

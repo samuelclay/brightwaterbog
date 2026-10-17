@@ -26,7 +26,24 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2008/08/grilled-eggplant-with-caponata-salsa/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Mix tomatoes, celery, onion, olives, chopped oregano, capers, garlic, and crushed red pepper in medium bowl. Whisk red wine vinegar and 1 tablespoon extra-virgin olive oil in small bowl; pour over tomato mixture and toss to coat. Season caponata to taste with salt and pepper. (Caponata can be prepared 2 hours ahead. Let stand at room temperature.)"
+   },
+   {
+    "title": null,
+    "text": "Prepare barbecue (medium-high heat). Peel eggplant lengthwise to create alternating 2-inch-wide intervals of peeled and unpeeled skin. Cut eggplant crosswise into 6 slices, each about 1 inch thick. Brush eggplant slices with oil; sprinkle with salt and pepper. Grill eggplant slices until slightly charred and very tender when pierced with knife, about 8 minutes per side."
+   },
+   {
+    "title": null,
+    "text": "Place one grilled eggplant slice on each of six plates. Spoon caponata over, garnish with oregano sprigs, and serve warm or at room temperature."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

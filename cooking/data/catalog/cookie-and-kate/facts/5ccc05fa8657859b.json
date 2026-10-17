@@ -1,6 +1,80 @@
 {
  "url": "https://cookieandkate.com/sun-dried-tomato-pesto-pasta-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Sun-Dried Tomato Pesto Pasta with Roasted Vegetables",
+  "ingredients": [
+   "One 6.7-ounce jar sun-dried tomatoes, packed in oil*",
+   "1 cup packed fresh basil leaves (about 1 ½ ounces), plus extra for garnishing",
+   "¼ cup slivered almonds",
+   "3 to 4 cloves garlic, to taste",
+   "1 tablespoon fresh lemon juice",
+   "¼ to ½ teaspoon salt, to taste",
+   "Pinch red pepper flakes",
+   "¼ cup extra-virgin olive oil",
+   "Optional: ½ cup freshly grated Parmesan or nutritional yeast to taste",
+   "8 ounces whole grain pasta (gemelli, rotini or penne)",
+   "1 medium zucchini, diced",
+   "1 medium yellow squash, diced",
+   "1 medium red bell pepper (or orange or yellow), diced",
+   "1 medium yellow or white onion, diced",
+   "2 tablespoons olive oil",
+   "2 tablespoons balsamic vinegar",
+   "Salt",
+   "Freshly ground black pepper"
+  ],
+  "yield_text": "4 to 6 servings",
+  "cook_time": "45 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/sun-dried-tomato-pesto-pasta-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To roast the vegetables: Preheat oven to 425 degrees Fahrenheit. Whisk together the olive oil and balsamic vinegar. On a half-sheet pan or other large, rimmed baking sheet, combine the diced zucchini, yellow squash, bell pepper and onion. Drizzle the olive oil mixture over the vegetables, sprinkle with salt and pepper and toss with your hands until the vegetables are evenly coated. Arrange the vegetables in a single layer. Bake for about 30 to 40 minutes, tossing halfway, until they are cooked through and golden."
+   },
+   {
+    "title": null,
+    "text": "To cook the pasta: Bring a large post of salted water to boil. Cook pasta until al dente, according to package directions. Before draining, reserve about 1 cup pasta cooking water. Transfer the cooked pasta to a large serving bowl."
+   },
+   {
+    "title": null,
+    "text": "To make the pesto: First, toast the almonds in a small skillet over medium-low heat, stirring frequently, until fragrant and starting to turn golden on the edges, about 4 minutes. In the bowl of your food processor (a blender might work, too), combine the sun-dried tomatoes and their oil, the basil, toasted almonds, garlic, lemon juice, ¼ teaspoon salt and a pinch of red pepper flakes."
+   },
+   {
+    "title": null,
+    "text": "Blend, scraping down the sides as necessary, until the contents are mixed together and roughly uniform. Drizzle in the olive oil while running the machine and blend until you’ve reached a relatively smooth, pesto-like consistency. If you’d like to add Parmesan, stir it into the pesto now. Taste and stir in additional salt and pepper, if necessary. The pesto will be thick, but we’ll thin it out with cooking water soon."
+   },
+   {
+    "title": null,
+    "text": "Pour the pesto into the warm pasta and drizzle in ¼ cup reserved cooking water. Toss to combine, adding more splashes of cooking water to thin as necessary. Toss in the roasted vegetables. Sprinkle with some chopped fresh basil and serve. This recipe keeps well in the refrigerator, covered, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Recipes referenced during the making of this recipe: Giada’s penne with sun-dried tomato pesto, Minimalist Baker’s sun-dried tomato pesto pasta and my spicy roasted ratatouille spaghetti.",
+   "*Sun-dried tomato notes: My jar amounted to about 1 cup sun-dried tomatoes and ¼ cup olive oil.",
+   "Make it vegan/dairy free: Don’t add Parmesan. Feel free to mix in some nutritional yeast for some cheese-like flavor, but the sun-dried tomatoes and toasted almonds are pretty rich in umami as it is.",
+   "Make it gluten free: Use gluten-free pasta.",
+   "Make it nut free: Skip the almonds altogether."
+  ],
+  "summary": "This sun-dried tomato pesto with pasta and roasted vegetables is an easy weeknight dinner! You can make it gluten-free and/or vegan with slight adjustments (see notes). Recipe yields 4 to 6 main servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Sun-Dried Tomato Pesto"
+   },
+   {
+    "at": 9,
+    "title": "Pasta and roasted vegetables"
+   }
+  ]
+ }
 }

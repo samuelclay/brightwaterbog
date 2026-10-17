@@ -31,7 +31,26 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2019/07/corn-salad-with-chile-and-lime/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Combine red onion, red wine vinegar, 2 tablespoons cold water, salt, and sugar in a bowl or jar. Set in fridge until needed. Onions will be very lightly pickled by the time you’re done assembling the salad, but if you can give it 1 to 2 hours in the fridge, they’ll be moreso."
+   },
+   {
+    "title": null,
+    "text": "Heat a grill to medium-high. Lightly oil grill grates and place corn cobs directly on them. Cook corn until charred in spots all over, turning as often as needed. Transfer them to a cutting board to cool slightly. Don’t have a grill? I have often charred corn directly over the gas flame on my stove (be careful; it will crackle and spatter a little). You oven’s broiler, should it be more robust than mine, might also work for the task."
+   },
+   {
+    "title": null,
+    "text": "While you’re grilling your corn, combine sour cream, mayo, and cotija cheese. Spread on the bottom of your serving plate. Cut corn corn from cobs with a sharp knife and heap it over the cheese spread on the platter. Squeeze the juice of half a lime all over, then scatter the corn with pickled onion rings from the fridge. Generously shake Tajín or chile powder all over; if you’re using plain chile powder, season with salt and an extra squeeze of lime, too. Top with cilantro leaves. Cut remaining lime half into wedges and serve alongside. Eat right away — while the dressing is cold and the corn is hot."
+   }
+  ],
+  "notes": [
+   "If you cannot find cotija, use queso fresco, ricotta salata, feta, or another crumbly sharp cheese. Most cotija is salty and a little funky; I didn’t need any salt in my sauce below the corn, but with a milder cheese, you probably will."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

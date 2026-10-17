@@ -1,6 +1,64 @@
 {
  "url": "https://cookieandkate.com/best-tabbouleh-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Best Tabbouleh",
+  "ingredients": [
+   "½ cup bulgur",
+   "1 cup diced cucumber (1 small-to-medium)",
+   "1 cup diced tomato* (1 large)",
+   "1 teaspoon fine salt, divided",
+   "3 medium bunches curly parsley",
+   "⅓ cup (⅔ ounce) chopped fresh mint",
+   "⅓ cup thinly sliced green onion",
+   "⅓ cup extra-virgin olive oil",
+   "3 to 4 tablespoons lemon juice, to taste",
+   "1 medium clove garlic, pressed or minced"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Lebanese"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-tabbouleh-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cook or soak the bulgur until tender according to package directions. Drain off any excess water, and set aside to cool."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, combine the diced cucumber and tomato in a medium bowl with ½ teaspoon of the salt. Stir, and let the mixture rest for at least 10 minutes or until you’re ready to mix the salad."
+   },
+   {
+    "title": null,
+    "text": "To prepare the parsley, cut off the thick stems. Then, finely chop the parsley and remaining stems—you can do this by hand, but it’s much easier in a food processor with the standard “S” blade. Process 1 bunch at a time (each should yield about 1 cup chopped), transferring the chopped parsley to a large serving bowl before proceeding with the next."
+   },
+   {
+    "title": null,
+    "text": "Add the cooled bulgur, chopped fresh mint (if using) and green onion to the bowl of parsley. Strain off and discard the cucumber and tomato juice that has accumulated in the bottom of the bowl (this ensures that your tabbouleh isn’t too watery). Add the strained cucumber and tomato to the bowl."
+   },
+   {
+    "title": null,
+    "text": "In a small measuring cup or bowl, whisk together the olive oil, 3 tablespoons lemon juice, garlic, and remaining ½ teaspoon salt. Pour it into the salad and stir to combine. Taste, and adjust if necessary—add another tablespoon of lemon juice for zing, or salt for more overall flavor."
+   },
+   {
+    "title": null,
+    "text": "If you have the time, let the salad rest for 15 minutes before serving to let the flavors mingle. Otherwise, you can serve it immediately or chill it for later. Tabbouleh will keep well in the refrigerator, covered, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Bulgur is not gluten-free since it’s cracked wheat. Substitute quinoa for an untraditional gluten-free option—here’s my Quinoa Tabbouleh recipe.",
+   "*Tomato note: Use the most ripe and red tomatoes you can find! If you’re making this salad when tomatoes aren’t in season, cherry tomatoes might be your best bet."
+  ],
+  "summary": "Learn how to make delicious, authentic tabbouleh at home! This tabbouleh (also spelled tabouli) is even better than your favorite Lebanese restaurant’s. Recipe yields 6 servings (a little over 1 cup each).",
+  "ingredient_groups": []
+ }
 }

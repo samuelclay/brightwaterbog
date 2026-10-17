@@ -31,7 +31,20 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2010/05/carrot-salad-with-harissa-feta-and-mint/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small sauté pan, cook the garlic, caraway, cumin, paprika, harissa and sugar in the oil until fragrant, about one to two minutes. Remove from heat and add the lemon juice and a pinch of salt. Pour over the carrots and mix. Add the herbs and mix. Leave to infuse for an hour and add the feta before eating. With a fork."
+   },
+   {
+    "title": null,
+    "text": "Harissa: Is a North African chile paste that has become so popular, we were tickled to find it all over tables in Paris two years ago, right next to the Dijon mustard. There is almost nothing it doesn’t make more delicious: eggs, potatoes, stews, couscous, sandwiches and more, and there are almost as many recipes as there are people who consume it. Most boil down to hot chiles ground with garlic, cumin, coriander, caraway and olive oil, often with a smidge of sundried tomatoes. You can make your own (I’ve been eying this recipe for some time) or you can buy some (I brought home this brand, which we love). The adavantage of making your own, as always, is that you can adjust the recipe to suit your tastes and desired level of heat."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

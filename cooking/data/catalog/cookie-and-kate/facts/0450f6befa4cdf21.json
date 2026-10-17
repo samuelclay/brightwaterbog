@@ -30,7 +30,35 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/succotash-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large skillet over medium-high heat, warm the olive oil until it’s starting to shimmer. Add the corn and ½ teaspoon of the salt. Cook, stirring every minute or so, until the corn is turning golden on the edges, about 5 to 7 minutes (be careful, sometimes it hops out of the pan when it’s hot)."
+   },
+   {
+    "title": null,
+    "text": "Turn the heat down to medium-low. Add the onion, poblano, bell pepper, jalapeño (if using) and the remaining ½ teaspoon salt. Stir to combine, scraping up any browned bits on the bottom of the pan as best you can. Cook, stirring often, until the onion is tender and turning translucent, about 5 to 8 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the garlic to the pan, stir to combine, and cook until fragrant, about 30 seconds. Add the lima beans and cook until they’re warmed through, about 2 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the butter to the skillet and stir until it’s mostly melted. Remove the skillet from the heat. Let it cool for a few minutes. Taste, and season with freshly ground black pepper. Add a tiny pinch of cayenne pepper if you’d like it to have more of a spicy kick. Stir in about half of the basil, reserving the rest for garnish."
+   },
+   {
+    "title": null,
+    "text": "Transfer the succotash to a serving plate, if desired. Top with the remaining basil and all of the green onion. Add a few more pats of butter and sprinkle it lightly with some flaky salt or kosher salt. Serve soon. This dish is best enjoyed within a couple of hours after making, but it will keep well in the refrigerator, covered, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Use dairy-free butter, such as Miyoko’s Creamery. Or, omit the butter and enjoy individual servings with dollops of vegan sour cream.",
+   "*Lima bean note: I’ve found lima beans in the freezer section at Whole Foods lately. I have not tried canned lima beans—you would want to rinse and drain them well before using. Though unconventional, you could use shelled edamame instead of lima beans (they are fairly similar in color and texture)."
+  ],
+  "summary": "Succotash is a side dish with Native American roots. This lively succotash recipe features corn and lima beans (fresh or frozen), peppers, basil and butter. It’s best enjoyed soon after cooking. Recipe yields 6 side servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

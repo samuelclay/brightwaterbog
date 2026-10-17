@@ -1,6 +1,59 @@
 {
  "url": "https://cookieandkate.com/avocado-pesto/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Avocado Pesto",
+  "ingredients": [
+   "Optional: 8 to 16 ounces pasta (spaghetti or fusilli)*",
+   "¼ cup pepitas (green pumpkin seeds) or pine nuts",
+   "2 large ripe avocados",
+   "2 ounces (¾ cup) finely-grated Parmesan cheese",
+   "2 medium cloves garlic, sliced into a few pieces",
+   "3 tablespoons lemon juice",
+   "¼ teaspoon fine salt, to taste",
+   "⅔ cup (1 ounce) lightly packed fresh basil leaves"
+  ],
+  "yield_text": "1 1/2 cups",
+  "cook_time": "10 minutes",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Italian-inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/avocado-pesto/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "If you’re using this avocado pesto on pasta, bring a large pot of salted water to a boil and cook the pasta according to package directions."
+   },
+   {
+    "title": null,
+    "text": "Toast the pepitas or pine nuts to bring out their best flavor. Pour them into a small skillet and cook over medium-low heat, stirring frequently (don’t step away, or they might burn), until they are fragrant and turning lightly golden on the edges, about 3 to 4 minutes. Transfer them to a bowl to cool."
+   },
+   {
+    "title": null,
+    "text": "To make the pesto, pit and halve the avocados and scoop the insides into the bowl of a food processor. Add the Parmesan, garlic, lemon juice, and salt. Blend until smooth, pausing to scrape down the sides as necessary."
+   },
+   {
+    "title": null,
+    "text": "Add the toasted pepitas and basil, and pulse until they are broken down into tiny pieces and the mixture is well-blended. Taste, and mix in more salt if the mixture doesn’t taste awesome yet. This pesto is best used immediately, but it will store well for up to 3 days in the refrigerator (try to press out any air bubbles in the mixture, as they will brown more than the rest)."
+   },
+   {
+    "title": null,
+    "text": "To toss it with pasta: Reserve some of the pasta’s starchy cooking water before draining, then return the pasta to the pot. Add splashes of the reserved water with the pesto to help loosen it up and coat the noodles (I used about ¼ cup pasta cooking water on 8 ounces pasta). If you intend to have leftovers, store the pesto and pasta separately for optimal results, since the color starts browning fairly quickly once it’s exposed to air and heat."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Avocado Pesto Toast.",
+   "Make it dairy free/vegan: Omit the Parmesan cheese. You might like to top your dish with vegan Parmesan.",
+   "*Pasta quantity: I like well-sauced pasta, so I recommend using this pesto on 8 ounces pasta, but it can lightly coat up to 16 ounces pasta."
+  ],
+  "summary": "Make your pesto extra creamy and rich by adding ripe avocado! This fresh basil and avocado pesto recipe is lovely on pasta, sandwiches, vegetables and more. Recipe yields about 1 ½ cups.",
+  "ingredient_groups": []
+ }
 }

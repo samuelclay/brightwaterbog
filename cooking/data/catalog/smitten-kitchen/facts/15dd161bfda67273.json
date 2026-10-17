@@ -27,7 +27,32 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2014/04/asparagus-stuffed-eggs/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Hard-boil eggs using whichever method you prefer. I cover mine with cold water, bring it to a boil, then set a timer for 9 1/2 minutes. When it rings, drain the eggs, and plunge them in ice water until they’re fully cool. Eggs can be cooked ahead of time and stored in the fridge for up to 4 days."
+   },
+   {
+    "title": null,
+    "text": "Cook asparagus spears in salted simmering water until full tender, about 4 to 5 minutes. Drain and plunge in cold water. Drain and again and spread on towels to dry out as much as possible. Cut 1/2-inch off the tips of each spears and cut these tips lengthwise (they’ll be your garnish). Puree remaining asparagus — I found that my food processor didn’t do a great job due to the small volume, but yours might. A food mill with a fine disc works well here."
+   },
+   {
+    "title": null,
+    "text": "You’ll want to remove the excess water from your puree; I did so by spreading it for a minute on a few paper towel layers. If you don’t, the filling will be soggy and damp, or in Julia’s words, “a disappointing texture and flavor.”"
+   },
+   {
+    "title": null,
+    "text": "Peel your eggs. Dip your knife in water before cutting each in half lengthwise for a cleaner cut. Shave a thin strip off the bottom of each so that it will not rock about in its dish. Remove the yolks and press them through a fine-mesh strainer to sieve them. Add asparagus puree, shallot or chives, mayonnaise or cream, Dijon or lemon zest (if using) and combine mixture until smooth. Season carefully with salt and freshly ground black pepper."
+   },
+   {
+    "title": null,
+    "text": "You can spoon the mixture into each egg half, or use a piping bag with a star tip for a fancier presentation. Decorate each stuffed egg with a reserved asparagus tip (you’ll be a little short of what you need), and the remaining with the extra shallot, scallion or chives. Wrap tray in plastic and keep in fridge until ready to serve."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

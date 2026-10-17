@@ -27,7 +27,32 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/creamy-cherry-tomato-summer-squash-pasta/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 400 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper for easy cleanup. On the baking sheet, toss the whole cherry tomatoes and sliced zucchini and squash with 2 tablespoons olive oil. Sprinkle with salt and pepper and arrange in a single layer (or as close to a single layer as possible). Roast for about 25 minutes, tossing halfway, until the cherry tomatoes have burst and the squash is tender."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, bring a pot of salted water to boil and cook the pasta until al dente, according to package directions. Before draining the pasta, reserve about 1 cup of the pasta cooking water. Drain the pasta and return it to the pot."
+   },
+   {
+    "title": null,
+    "text": "While the pasta is hot, add the lemon juice, butter, goat cheese, garlic and red pepper flakes to the pot. Add about ¼ cup of the reserved pasta cooking water and gently toss the pasta until the ingredients are evenly mixed together and the pasta is coated in a light sauce (add more reserved cooking water if the pasta seems dry)."
+   },
+   {
+    "title": null,
+    "text": "Once the tomatoes and squash are out of the oven, add them to the pot along with all of the tomato juices. Gently toss once again to combine. Season to taste with salt (I added more than ½ teaspoon) and freshly ground pepper, then sprinkle chopped basil over the pasta and divide into individual serving bowls. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Substitute gluten-free pasta for the whole grain pasta.",
+   "Make it dairy free/vegan: Substitute olive oil for the butter and skip the goat cheese. The starchy pasta water is pretty creamy in itself, so I think it’ll still be nice and saucy without the goat cheese. You might want to add some nutritional yeast, to taste, for cheesy flavor.",
+   "Storage suggestions: This recipe keeps well, refrigerated and covered, for about three days. Serve leftovers as a chilled pasta salad or gently reheat."
+  ],
+  "summary": "Simple summer pasta recipe featuring roasted cherry tomatoes, zucchini and yellow squash with rotini and a light goat cheese sauce. Recipe yields 4 servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

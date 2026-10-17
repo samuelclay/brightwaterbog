@@ -20,7 +20,29 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/classic-aperol-spritz-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Add ice to a wine glass until it is nearly full. Pour in the Aperol (I usually eyeball this and pour until I’ve filled about one-third of the glass)."
+   },
+   {
+    "title": null,
+    "text": "Pour in an equal amount of Prosecco. Top your drink off with a splash of club soda and add a slice of orange. Enjoy!"
+   }
+  ],
+  "notes": [
+   "Make it less bitter: Use less Aperol and more Prosecco.",
+   "Make it less boozy: Use more club soda, and less Aperol and Prosecco.",
+   "Recommended equipment: I really love the stemless wine glasses (affiliate link) shown in these photos. They are my everyday wine drinking glass, and I almost never break them."
+  ],
+  "summary": "Learn how to make a classic Aperol spritz! These bubbly Italian cocktails are refreshing and so easy to make. Aperol spritzes are best made one by one, so the recipe is written to yield one cocktail and you can make more as necessary. Cheers!",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per cocktail"
+   }
+  ]
  },
  "parser_version": 2
 }

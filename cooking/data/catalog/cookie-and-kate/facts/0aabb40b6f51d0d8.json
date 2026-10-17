@@ -29,7 +29,38 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/vegetarian-grilled-summer-salad-with-corn-peppers-and-chili-lime-dressing/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, preheat your grill (if you’re using an electric grill, heat to 400 degrees Fahrenheit). Toss the prepared bell pepper, corn and onion with enough olive oil to lightly coat all surfaces (I used about 1 teaspoon). Sprinkle with salt and pepper. Grill the vegetables, turning occasionally, until they have grill marks and the peppers and onions have softened a bit. You might find that the corn takes longer than the pepper and onions. Transfer the cooked vegetables to a cutting board to cool."
+   },
+   {
+    "title": null,
+    "text": "While the vegetables are on the grill, whisk together all of the dressing ingredients until emulsified. Taste and adjust seasoning (more spice, honey or salt) if desired."
+   },
+   {
+    "title": null,
+    "text": "Roughly chopped the bell peppers and onions. Slice the kernels from the cob. In a large serving bowl, combine the greens, bell pepper, onion, corn, drained beans, cilantro, avocado, feta and coconut bacon (if using). Drizzle on enough dressing to lightly coat the greens when tossed (you’ll probably end up with extra). Toss, add salt and pepper to taste, and serve (if you’re adding tortilla strips or chips, add them as garnishes just before serving)."
+   }
+  ],
+  "notes": [
+   "Make it vegan/dairy free: Skip the feta. Definitely add some salty, crispy tortillas to make up for the saltiness of the feta.",
+   "Make it soy free: Skip the coconut bacon in lieu of tortilla strips.",
+   "Storage suggestions: Everything but the arugula and avocado keeps well for a few days. If you know you’ll be eating leftovers, store the greens and avocados separately and toss just before serving.",
+   "Prepare in advance: If you’re already firing up the grill for another recipe, you might as well throw on extra peppers, onions and corn for tomorrow’s salad."
+  ],
+  "summary": "This sweet and spicy salad features grilled corn, bell peppers and red onions, arugula, feta, black beans and avocado! It can serve as a main dish (yields enough for 4 servings) or side salad (yields about 8 side salads).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 10,
+    "title": "Chili-lime dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

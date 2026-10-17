@@ -27,7 +27,26 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/mediterranean-bean-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a serving bowl, combine the prepared kidney beans, chickpeas, onion, celery, cucumber, parsley and dill."
+   },
+   {
+    "title": null,
+    "text": "Make the lemon dressing: In a small bowl, whisk together the olive oil, lemon juice, garlic, salt and pepper flakes until well blended. Pour the dressing over the salad and stir until combined."
+   },
+   {
+    "title": null,
+    "text": "Serve immediately for the most flavor, or let it marinate in the refrigerator, covered, for a couple of hours or longer. Leftovers will keep well, covered and refrigerated, for up to 4 days. If necessary, wake up leftovers with a little sprinkle of salt or drizzle of lemon juice."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Ethnic Cuisine: How to Create the Authentic Flavors of Over 30 International Cuisines by Elisabeth Rozin."
+  ],
+  "summary": "This Mediterranean-style bean salad recipe is delightfully crisp and satisfying. Its fresh flavors include kidney beans, chickpeas, lemon, garlic and leafy herbs. This healthy salad is vegan and gluten free, but mostly just delicious! Recipe yields about six 1-cup servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

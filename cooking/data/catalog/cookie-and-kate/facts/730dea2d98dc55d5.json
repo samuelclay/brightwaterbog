@@ -1,6 +1,84 @@
 {
  "url": "https://cookieandkate.com/bean-tostadas-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Crispy Bean Tostadas with Smashed Avocado and Jicama-Cilantro Slaw",
+  "ingredients": [
+   "½ medium red onion, thinly sliced",
+   "Juice of 1 lime",
+   "1 tablespoon white vinegar",
+   "Pinch of salt",
+   "2 cups shredded green cabbage",
+   "½ cup fresh cilantro leaves",
+   "½ cup ¼-inch-thick slices peeled jicama, or additional shredded cabbage",
+   "Juice of 1 lime",
+   "½ teaspoon ground cumin",
+   "½ teaspoon chili powder",
+   "Salt and freshly ground black pepper, to taste",
+   "6 corn tortillas",
+   "Extra-virgin olive oil or cooking spray",
+   "Salt, to taste",
+   "2 cans (16 ounces each) vegetarian refried beans, or 1 batch homemade refried beans",
+   "3 large ripe avocados, pitted and peeled",
+   "Juice of 1 lime",
+   "½ cup halved grape tomatoes",
+   "½ cup crumbled queso fresco or feta cheese"
+  ],
+  "yield_text": "3 to 6 servings",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Main Dish"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/bean-tostadas-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the pickled onions: In a medium bowl, combine the sliced onions with the lime juice, vinegar and salt and stir until the onions are well coated. Let the onions sit while you make the slaw and tostadas. The pickled onions can be stored in a jar in the fridge for up to 1 week."
+   },
+   {
+    "title": null,
+    "text": "Make the slaw: In a large bowl, combine the cabbage, cilantro, jicama, lime juice, cumin and chili powder. Season with salt and pepper to taste, and set aside."
+   },
+   {
+    "title": null,
+    "text": "Assemble the tostadas: Preheat the oven to 425 degrees Fahrenheit. Brush or spray both sides of each tortilla generously with olive oil or cooking spray, season with salt, and arrange in a single layer on a large baking sheet. Bake for 4 minutes, then flip and bake for 4 to 8 more minutes, until the tortillas are crispy."
+   },
+   {
+    "title": null,
+    "text": "Gently heat the refried beans in the microwave or on the stovetop. In a large bowl, mash the avocados with a fork or potato masher. Stir in the lime juice and season with salt, to taste."
+   },
+   {
+    "title": null,
+    "text": "Spread refried beans evenly over each tortilla. Add a layer of smashed avocado and top with the slaw, pickled onions, tomatoes and queso fresco. Serve immediately."
+   }
+  ],
+  "notes": [
+   "This recipe comes from Two Peas & Their Pod Cookbook by Maria Lichty.",
+   "Make it dairy free/vegan: Omit the cheese.",
+   "Make it gluten free: Be sure to buy 100% corn certified gluten-free tortillas.",
+   "Make it tomato free: Skip ’em!"
+  ],
+  "summary": "These Mexican tostadas feature refried beans, avocado and cabbage slaw on crisp, baked corn tortillas. This tostada recipe is easy, filling and meatless! Recipe yields 6 hearty tostadas, enough for 3 to 6 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Pickled red onions"
+   },
+   {
+    "at": 4,
+    "title": "Jicama-Cilantro Slaw"
+   },
+   {
+    "at": 11,
+    "title": "Tostadas"
+   }
+  ]
+ }
 }

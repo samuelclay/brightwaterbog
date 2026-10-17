@@ -41,7 +41,26 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2007/11/curried-lentils-and-sweet-potatoes/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "In large saucepan, heat oil over medium heat. Add onion and saute until translucent, 5 to 7 minutes. Add garlic, ginger, garam masala, curry powder and jalapeno. Cook, stirring, for 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Stir in 4 cups broth, sweet potatoes (see Note up top), lentils and bay leaf. Increase heat to high and bring to a simmer; reduce heat to medium, partially cover, and simmer for 25 minutes. (If lentils seem dry, add up to 1 cup stock, as needed.) Stir in chard and salt and pepper, and continue cooking until lentils are tender and chard is cooked, about 30 to 45 minutes total."
+   },
+   {
+    "title": null,
+    "text": "Just before serving, stir in cilantro, lime zest and juice (see Note). Spoon into a large, shallow serving dish. Garnish with almonds, if desired, and scallions."
+   }
+  ],
+  "notes": [
+   "I dusted this recipe off for the first time in a while in early 2020 and wanted to add a few things I noticed: First, it can be very easy for the sweet potatoes to overcook and lose their shape in the time that the lentils need to cook; these days, I’d recommend adding the lentils 10 minutes sooner than the sweet potatoes. Second, I adore greens but this is … a lot of greens! I could barely fit mine in the pot. Using half would be just fine. Third, I am much more loose with measurements than the recipe suggests — I do measure the lentils but never the cilantro or scallions (a “handful” of each will suffice). Finally, I love all the garnishes but I don’t think the dish needs each of them. I wouldn’t dare skip the lime. But, you might not find that you need almonds and cilantro and scallions with so many other flavors going on. I am loathe to change this recipe in any significant way in 2020, however, as it’s been a popular recipe here for so long so I’m leaving my notes up top and will point to them throughout the recipe."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

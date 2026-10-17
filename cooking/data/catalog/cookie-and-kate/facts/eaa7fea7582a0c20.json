@@ -23,7 +23,36 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/frozen-strawberry-margaritas-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, prepare your glass(es): Pour the salt onto a very small plate. Run a small wedge of lime around the upper outer rim of your glasses (I usually only salt half of the rim, so I can control how much salt I get in each sip). Roll the dampened rim into the salt mixture. Set the glass aside and repeat as necessary."
+   },
+   {
+    "title": null,
+    "text": "In a blender, combine the tequila, lime juice, orange juice, agave nectar or simple syrup, strawberries and ice cubes. Blend until smooth."
+   },
+   {
+    "title": null,
+    "text": "Taste and add more a bit more agave nectar if the mixture tastes harsh or just doesn’t quite sing, then blend again. Pour the mixture into your prepared glasses. Feel free to add a few ice cubes to your glasses to keep your drink cold. Serve immediately!"
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my frozen blueberry margaritas and skinny margarita recipe.",
+   "*Tequila recommendations: You definitely want a 100% agave tequila, to avoid any unnecessary additives (also, 100% agave tequila is gluten free, whereas others may not be). My favorite brands are Espolón and Milagro."
+  ],
+  "summary": "Frozen strawberry margaritas are so refreshing! This margarita recipe is made with all-natural ingredients, and it’s ready in under 10 minutes. Recipe as written below yields 1 cocktail, so multiply as necessary. Just don’t fill the blender past the maximum fill line (trust me!).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per margarita, multiply as necessary"
+   },
+   {
+    "at": 6,
+    "title": "For salting the rims of your glasses"
+   }
+  ]
  },
  "parser_version": 2
 }

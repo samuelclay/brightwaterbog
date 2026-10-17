@@ -1,6 +1,67 @@
 {
  "url": "https://cookieandkate.com/mediterranean-couscous-salad-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Mediterranean Couscous Salad",
+  "ingredients": [
+   "1 ⅓ cup Israeli couscous",
+   "⅓ cup pine nuts",
+   "⅓ cup extra-virgin olive oil",
+   "2 to 4 tablespoons lemon juice, to taste (from 1 to 2 lemons)",
+   "1 large shallot, finely chopped (about ½ cup)",
+   "2 cloves garlic, pressed or minced",
+   "½ teaspoon fine sea salt, to taste",
+   "Freshly ground black pepper, to taste",
+   "1 can (15 ounces) chickpeas, rinsed and drained, or 1 ½ cups cooked chickpeas",
+   "1 pint grape or cherry tomatoes, quartered",
+   "4 ounces feta cheese, crumbled (about 1 cup)",
+   "⅓ cup pitted and thinly sliced Kalamata olives",
+   "1 medium zucchini, sliced into super thin rounds",
+   "1 small yellow squash, sliced into super thin rounds",
+   "⅓ cup (⅔ ounce) chopped fresh basil or flat-leaf parsley"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/mediterranean-couscous-salad-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cook the couscous until al dente, according to package directions. Drain off any excess water."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, toast the pine nuts: In a large skillet over medium-low heat, warm the pine nuts until they’re turning lightly golden on the sides and fragrant (be careful not to let them burn). Transfer them to a bowl to cool."
+   },
+   {
+    "title": null,
+    "text": "In a large serving bowl, whisk together the olive oil, lemon juice, shallot, garlic, salt and several twists of black pepper until combined."
+   },
+   {
+    "title": null,
+    "text": "Add the couscous to the bowl and toss to coat with the dressing. Top the couscous with the toasted pine nuts, chickpeas, tomatoes, feta, olives, zucchini and squash, and basil. Stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Season with salt and pepper to taste, and add an extra tablespoon or two of lemon juice if it needs more brightness. For the best flavor, refrigerate for 30 minutes before serving. This salad will keep well, covered and refrigerated, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Change it up: I used whole wheat Israeli couscous for my salad, but any small whole wheat pasta shape will do. Orzo, small shells and farfalle (bow-tie pasta) are all great options. Just cook the pasta in salted water according to the package’s directions and proceed with the recipe. Instead of zucchini and squash, you could use cucumber.",
+   "Make it gluten free: Substitute your favorite small gluten-free pasta for the couscous.",
+   "Make it vegan: If you choose to make the salad vegan by omitting the cheese, you might want to add a few more sliced olives to make up for the salty punch of feta.",
+   "Make it nut free: Technically pine nuts are seeds, but you can omit them if they don’t work for you or if you’re concerned about cross-contamination."
+  ],
+  "summary": "This couscous salad with raw squash and bold Mediterranean flavors is a simple summer side dish. Pack up a bowlful for a weekday lunch or serve with a glass of chilled Pinot Grigio or Sauvignan Blanc for dinner. Recipe yields 6 side servings.",
+  "ingredient_groups": []
+ }
 }

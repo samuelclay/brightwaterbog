@@ -1,6 +1,73 @@
 {
  "url": "https://cookieandkate.com/healthy-blueberry-muffins-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Blueberry Lemon Muffins",
+  "ingredients": [
+   "5 tablespoons unsalted butter, softened",
+   "½ cup sugar",
+   "1 large egg",
+   "¾ cup plain Greek yogurt",
+   "½ teaspoon grated lemon zest",
+   "1 ½ cups whole wheat pastry flour",
+   "1 ½ teaspoon baking powder",
+   "¼ teaspoon baking soda",
+   "¼ teaspoon salt",
+   "¾ cup blueberries, fresh or frozen (if frozen, don’t bother defrosting). I suspect any muffin-friendly fruit would be great!"
+  ],
+  "yield_text": "10 muffins",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Muffins"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/healthy-blueberry-muffins-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 375°F."
+   },
+   {
+    "title": null,
+    "text": "Line a muffin tin with paper liners or spray with nonstick cooking spray."
+   },
+   {
+    "title": null,
+    "text": "If you have an electric mixer, use it to beat the butter and sugar until light and fluffy (that’s how Deb did it). I mixed the ingredients by hand, with a whisk, since I don’t have an electric mixer."
+   },
+   {
+    "title": null,
+    "text": "Add egg and beat well, then yogurt and zest."
+   },
+   {
+    "title": null,
+    "text": "If you have a sifter, sift together flour, baking powder, baking soda and salt and sift half of dry ingredients over batter. I don’t have a sifter, so I mixed the dry ingredients together in a separate bowl and added it to the bowl of liquid ingredients."
+   },
+   {
+    "title": null,
+    "text": "Mix until combined."
+   },
+   {
+    "title": null,
+    "text": "Sift (or add) remaining dry ingredients into batter and mix just until the flour disappears."
+   },
+   {
+    "title": null,
+    "text": "Gently fold in your blueberries (or whatever fruit you’re using)."
+   },
+   {
+    "title": null,
+    "text": "Bake for 25 to 30 minutes, until the tops are golden. Enjoy!"
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Smitten Kitchen, which was adapted from Cooks Illustrated."
+  ],
+  "summary": "These blueberry muffins are made with whole wheat flour and Greek yogurt. So delicious, no one will guess they’re wholesome, too! Recipe yields 9 to 10 standard muffins.",
+  "ingredient_groups": []
+ }
 }

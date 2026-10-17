@@ -32,7 +32,36 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2026/09/tomato-risotto-with-frizzled-red-onions/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven: To 350°F."
+   },
+   {
+    "title": null,
+    "text": "Prepare the risotto: Grate halved tomatoes, the cut side pressing against the large holes of a box grater, pressing the tomato flesh and juices through and reserving as much as you can of the outer skin. Discard it. You should have about 2 1/2 to 3 cups of tomato pulp."
+   },
+   {
+    "title": null,
+    "text": "In a 4-quart Dutch oven [I’m using this] or deep, oven-safe saucepan with a lid, heat 3 to 4 tablespoons olive oil on medium-high heat. Add red onion and cook, stirring, until it softens, then continue to cook until the pieces become deeply golden brown and mostly crisp, about 8 to 10 minutes. Transfer half to a paper towel-lined plate and season with salt. Set it aside."
+   },
+   {
+    "title": null,
+    "text": "Add garlic to onions left in the pan and cook, stirring, for one minute. Season with salt and freshly ground black pepper, plus a pinch or two of red pepper flakes. Add uncooked rice and toast gently in the onion and garlic for 3 minutes. Add wine and cook, stirring, until it disappears. Pour in your grated tomato pulp, then 2 cups of water. Season it well — I add 2 teaspoons kosher salt to start, then more to taste, plus many grinds of black pepper. Bring mixture to a simmer, then turn heat off."
+   },
+   {
+    "title": null,
+    "text": "Place lid on pot and transfer to the oven. Bake risotto for 25 to 30 minutes, or until most of the liquid is absorbed, but it looks a tiny bit watery. I like to check in halfway just to make sure all of the liquid isn’t absorbed. If it looks low, add another 1/2 cup water."
+   },
+   {
+    "title": null,
+    "text": "To finish: Transfer pan to a trivet or cooling rack on your counter. Remove the lid and stir mixture for 2 minutes, or until it looks more creamy and risotto-like. Taste and adjust seasonings, adding more salt and pepper to your taste. Add 2 to 3 tablespoons of butter (or olive oil) to finish, stirring it in. Scatter with toppings of your choice, such as parmesan and torn basil. Finish with reserved frizzled onions and serve."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -18,7 +18,22 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/kir-royale-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Pour the Chambord into a Champagne flute. While holding the glass at a 45-degree angle (this helps preserve the bubbles), gently pour in the Champagne."
+   },
+   {
+    "title": null,
+    "text": "Garnish with a raspberry, if you’d like. Serve immediately."
+   }
+  ],
+  "notes": [
+   "*How to scale this recipe: One bottle of Champage will yield about 5 drinks. One small (375 mL) bottle of Chambord is enough for 25 drinks. So, you’ll need five times as much Champagne as Chambord."
+  ],
+  "summary": "Learn how to make a classic Kir Royale with this simple recipe! You’ll only need two ingredients—Champagne and Chambord (or crème de cassis). Feel free to use a little more or less liqueur to suit your taste buds. Recipe as written yields 1 drink.*",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

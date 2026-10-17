@@ -22,7 +22,22 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/best-cucumber-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium bowl, whisk together the olive oil, balsamic vinegar and garlic until blended. Season with salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "Add the avocado and cucumbers to the bowl and toss to combine. Season with additional salt and pepper if necessary. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Recipe adapted just a tiny bit from What’s Gaby Cooking by Gaby Dalkin."
+  ],
+  "summary": "Gaby’s cucumber salad recipe is the best cucumber salad I’ve ever had! It’s made with crisp cucumber and creamy avocado tossed in a simple balsamic vinegar dressing. Recipe yields 4 servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

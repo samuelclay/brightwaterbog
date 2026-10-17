@@ -23,7 +23,37 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/savory-steel-cut-oatmeal-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large saucepan, combine the water and milk. Bring the mixture to a simmer over medium heat. In the meantime, melt the butter or warm the olive oil in a 12-inch skillet over medium heat. Once the butter is sizzling or the oil is shimmering, add the oats and cook, stirring occasionally, until golden and fragrant, around 2 minutes. This toasting step greatly enhances the flavor of the oats."
+   },
+   {
+    "title": null,
+    "text": "Stir the oats into the simmering water/milk mixture. Reduce the heat to medium low and simmer gently for about 20 to 25 minutes, stirring occasionally, until the mixture is very thick."
+   },
+   {
+    "title": null,
+    "text": "Stir in the salt. Continue to simmer the mixture, stirring occasionally and reducing heat as necessary to prevent scorching on the bottom, until almost all of the liquid is absorbed, about 10 minutes. (If you have doubled the recipe, your oatmeal might need an extra 5 minutes cooking time here.) The oatmeal will be very creamy when it’s done."
+   },
+   {
+    "title": null,
+    "text": "Remove from heat and let the oatmeal rest for 5 minutes before serving so it has more time to thicken up and cool down a palatable temperature. Season to taste with additional salt (I added another ¼ teaspoon), pepper and optional spices. Stir in any mix-ins that you’d like now."
+   },
+   {
+    "title": null,
+    "text": "Portion oatmeal into bowls and add any toppings you’d like. Let any extra oatmeal cool completely before covering and refrigerating."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my perfect steel-cut oats recipe.",
+   "Make it dairy free/vegan: Use olive oil instead of butter, non-dairy milk (or water) and don’t add cheese. Sun-dried tomatoes or sautéed mushrooms would add some umami, and nutritional yeast could add some cheesy flavor. Don’t add eggs if you’re vegan.",
+   "Make it gluten free: Use certified gluten-free steel cut oats (Bob’s Red Mill makes some) and make sure your toppings are gluten free (all of the ideas listed above are gluten free).",
+   "Make it egg/nut/soy free: Don’t add anything with eggs, nuts or soy. :)"
+  ],
+  "summary": "Savory oats are a great clean-out-the-produce-drawer weeknight dinner recipe. You can make them for breakfast and brunch, too, of course. Recipe yields 4 modest servings (about ¾ cup each), so I’d double it if you’re feeding 3 or more people, or want leftover oats for later.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

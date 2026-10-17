@@ -36,7 +36,32 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2016/11/root-vegetable-gratin/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat your oven to 350°F. Butter a 13×9-inch deep baking dish."
+   },
+   {
+    "title": null,
+    "text": "Heat 2 tablespoons olive oil in a large deep (ideally 12-inch) saute pan over medium heat and add the onions and fennel. Cooking, tossing occasionally, until lightly browned and tender, about 10 minutes. Add the garlic and cook for one minute more."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, in the largest bowl you own, combine the onion mixture with remaining vegetables, cream, stock, cheese, thyme, 1 tablespoon kosher salt and 1 1/2 teaspoons black pepper. Pour mixture into prepared dish and spread until even. Mix breadcrumbs and butter until evenly coated and distribute evenly over top of dish."
+   },
+   {
+    "title": null,
+    "text": "Bake 1 1/2 hours uncovered, or until vegetables are very tender when tested with a small knife and the top is browned and bubbly. Allow to set for 15 minutes at room temperature and serve hot."
+   }
+  ],
+  "notes": [
+   "Once I realized how much this made, I divided it between two pans, one 3-quart baking dish and one 1-quart, freezing the larger one until I need it.",
+   "Garten’s original recipe calls for 1/2 cup chicken broth and 2 1/2 cups heavy cream. I do not like gratins to be this rich and find much less cream goes a long way to impart richness, but not the kind that muffles flavors, so I used 2 cups broth and 1 cup cream. I also love mascarpone and/or creme fraiche in a gratin; you could use 1 cup of either here with an extra glug of milk or broth.",
+   "To make this ahead of time, you have many options but since a dish like this doesn’t need to be baked a la minute to taste good, I’d go ahead and assemble and bake it as soon as you can. If just 1 to 3 days out, keep it in the fridge. 3 or more, freeze it. Make sure it spends a day in the fridge defrosting and then an hour on the counter shaking off its final chill before going in the oven (the last part mostly about protecting your stoneware, should it not be a friend to big temperature changes)."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

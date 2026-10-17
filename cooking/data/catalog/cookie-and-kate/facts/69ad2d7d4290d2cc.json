@@ -1,6 +1,58 @@
 {
  "url": "https://cookieandkate.com/healthy-banana-pancakes-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "3-Ingredient Banana Pancakes",
+  "ingredients": [
+   "2 medium-to-large ripe bananas",
+   "4 large eggs",
+   "½ cup whole wheat flour or buckwheat flour or ⅔ cup oat flour",
+   "Optional flavor/nutrition boosters: ½ teaspoon ground cinnamon, up to 2 tablespoons hemp hearts and/or ground flaxseed, up to ¼ teaspoon salt",
+   "Butter, avocado oil or ghee, for cooking"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "20 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/healthy-banana-pancakes-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, mash the banana with a large fork until it’s shiny and mostly smooth. Add the eggs and whisk until the eggs are evenly incorporated into the banana."
+   },
+   {
+    "title": null,
+    "text": "Add the flour and any optional boosters. Gently stir until combined. Set aside while you preheat the skillet (the batter can rest for up to 1 hour if need be)."
+   },
+   {
+    "title": null,
+    "text": "Heat a large skillet (stainless steel, cast iron or nonstick) over medium-low heat (if using an electric griddle, heat it to 350 degrees Fahrenheit). You’re ready to start cooking pancakes once a drop of water sizzles on contact with the hot surface. If necessary, lightly oil the cooking surface with a pat of butter or oil, carefully wiping up excess with a paper towel (nonstick surfaces likely won’t require any oil)."
+   },
+   {
+    "title": null,
+    "text": "Scoop ¼ cup batter onto the hot skillet, leaving a couple of inches around each pancake for expansion. Cook until small bubbles form on the surface of the pancakes, 2 to 3 minutes."
+   },
+   {
+    "title": null,
+    "text": "Flip the pancakes, then cook until lightly golden on both sides, 1 to 2 minutes more. Repeat the process with the remaining batter, adding more butter and dialing down the heat if the pancakes are turning dark on the outside before they are cooked through on the inside."
+   },
+   {
+    "title": null,
+    "text": "Serve immediately or keep warm in a 200 degree Fahrenheit oven. Leftover pancakes can be stored in the refrigerator for up to 3 days, or frozen in a freezer bag for up to 3 months. To reheat, stack leftover pancakes and wrap them in a paper towel before gently reheating in the microwave."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Use certified gluten-free oat flour or buckwheat flour."
+  ],
+  "summary": "These 3-ingredient banana pancakes are healthy and so easy to make. This recipe is family friendly as well—babies, kids and adults alike love these pancakes. Yields 8 pancakes (each about 4 inches in diameter, enough for 2 to 4 servings).",
+  "ingredient_groups": []
+ }
 }

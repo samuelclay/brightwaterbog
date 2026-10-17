@@ -1,6 +1,69 @@
 {
  "url": "https://cookieandkate.com/thai-mango-salad-with-peanut-dressing/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Thai Mango Salad with Peanut Dressing",
+  "ingredients": [
+   "One head (about 7 ounces) butter leaf lettuce or your greens of choice, chopped into bite-sized pieces",
+   "1 red bell pepper, thinly sliced and then sliced across to make 1-inch long pieces",
+   "3 ripe Ataulfo mangos (also known as honey or champagne mangos) or 2 larger mangos, diced",
+   "½ cup thinly sliced green onion (both green and white parts)",
+   "⅓ cup roughly chopped roasted peanuts",
+   "¼ cup chopped fresh cilantro",
+   "1 medium jalapeño, seeds and membranes removed, finely chopped (optional, for spice)",
+   "¼ cup creamy peanut butter",
+   "1 tablespoon tamari or soy sauce",
+   "1 tablespoon + 1 teaspoon maple syrup or honey",
+   "2 cloves garlic, pressed or minced",
+   "Pinch of red pepper flakes",
+   "¼ cup lime juice (about 2 to 3 limes)"
+  ],
+  "yield_text": "4 side salads",
+  "cook_time": "20 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Thai"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/thai-mango-salad-with-peanut-dressing/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To assemble the salad, simply combine all of the salad ingredients in a large serving bowl."
+   },
+   {
+    "title": null,
+    "text": "To prepare the dressing, combine the peanut butter, tamari, maple syrup, garlic and optional red pepper flakes (everything but the lime juice) in a liquid measuring cup or small bowl. Use a small whisk or fork to stir until blended."
+   },
+   {
+    "title": null,
+    "text": "Whisk in about half of the lime juice until creamy, then whisk in the rest. Continue whisking until the mixture is fully blended and nicely creamy. Taste, and if it tastes too tart, add another teaspoon or so of maple syrup."
+   },
+   {
+    "title": null,
+    "text": "When you’re ready to serve, drizzle the dressing over the salad, and toss to combine. Serve immediately. Leftovers will keep well in the refrigerator, dressing stored separately, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Use certified gluten-free tamari, not soy sauce.",
+   "Make it vegan: Use maple syrup, not honey.",
+   "2025 recipes edits: I revisited this recipe and lightly revised the dressing by omitting 1 tablespoon apple cider vinegar and 1 teaspoon toasted sesame oil. I prefer maple syrup in the dressing, which is less sweet than honey, so I increased it by 1 teaspoon."
+  ],
+  "summary": "This green salad is bursting with fresh Thai flavors and bright colors. It’s great on its own, or as an accompaniment to Thai main dishes. Recipe yields 2 large salads or 4 side salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Thai mango salad"
+   },
+   {
+    "at": 7,
+    "title": "Peanut dressing"
+   }
+  ]
+ }
 }

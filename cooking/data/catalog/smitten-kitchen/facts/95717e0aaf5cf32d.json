@@ -36,7 +36,26 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2016/11/brussels-sprouts-apple-and-pomegranate-salad/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the sumac-pickled onions: Combine red onion, wine vinegar, sumac and 1/4 teaspoon kosher salt in a small dish and set aside while you prepare the other ingredients, or ideally at least 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "Combine all salad ingredients, including red onions and their pickling liquid, in a medium bowl and season to taste with salt and red pepper. Taste and adjust ingredients as desired — I’ve seen versions of the recipe with more honey, olive oil and lemon; I didn’t need them but you might find you do."
+   },
+   {
+    "title": null,
+    "text": "This salad can be prepped ahead, but I’d keep the dressing off of it until at most an hour before serving so it doesn’t discolor the sprouts."
+   }
+  ],
+  "notes": [
+   "This is a crunchy, bright abundantly November-ish salad that hails from Michael Solomonov’s Zahav cookbook. In the book, he calls it tabbouleh and explains that while in the U.S., tabbouleh is usually made with bulgur wheat, parsley and chopped tomatoes, in Israel, you’re unlikely to find it made the same way twice, and I’d say the same for Solomonov’s versions too. In the book, he’s swapped kale for parsley but I’ve also seen him do the same with shredded brussels. He says he enjoys swapping quinoa for the bulgur, and adding pomegranate when it is in season. In the fall, he said he enjoys adding apples and walnuts, and will sometimes even replace the grain entirely with walnuts. And it from here that we’ve ended up with a dish I won’t even call tabbouleh, so not to confuse anyone, but a salad, and an excellent one at that. Between his book and the various outlets that have published versions of this salad, I found almost no two recipes alike so I instead set out all the ingredients and added them at the levels I liked most. You, too, can and should adjust the flavors to taste."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

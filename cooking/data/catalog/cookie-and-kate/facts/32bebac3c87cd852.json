@@ -18,7 +18,30 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/turmeric-tea-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the turmeric, slice it into thin rounds (no wider than ¼-inch). Combine the sliced turmeric and water in a saucepan over high heat."
+   },
+   {
+    "title": null,
+    "text": "Bring the mixture to a simmer, then reduce the heat as necessary to maintain a gentle simmer for 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from the heat. Carefully pour the mixture through a mesh sieve into a heat-safe liquid measuring cup, or directly into a mug."
+   },
+   {
+    "title": null,
+    "text": "If desired, serve with a lemon or orange round and/or a light drizzle of honey or maple syrup, to taste. Serve hot."
+   }
+  ],
+  "notes": [
+   "Change it up: Choose just one optional flavoring—1 cinnamon stick, several twists of coarsely ground black pepper, 1-inch piece of fresh ginger (cut into thin slices, same as the ginger), or several sprigs of fresh mint. Combine with the turmeric and water before warming the mixture."
+  ],
+  "summary": "Learn how to make fresh turmeric tea (plus flavor variations, see notes) with this simple recipe. Turmeric tea is soothing and potentially anti-inflammatory. Recipe written for 1 cup of tea; multiply as desired.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

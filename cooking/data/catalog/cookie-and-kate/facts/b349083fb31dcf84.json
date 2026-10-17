@@ -20,7 +20,38 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/whiskey-sour-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": "Egg white option (Boston Sour served up)",
+    "text": "Chill your coupe glass by filling it to the brim with ice and water. Set your glass aside."
+   },
+   {
+    "title": null,
+    "text": "Pour the bourbon, lemon juice, syrup and egg white into an empty cocktail shaker. Now we’ll do a dry shake—either shake the mixture well for 30 seconds or for maximum foam, blend it with an immersion blender on high for 30 seconds."
+   },
+   {
+    "title": null,
+    "text": "Add a big scoop of ice to the shaker and shake for about 10 to 15 seconds, until the outside of the shaker is absolutely ice cold."
+   },
+   {
+    "title": null,
+    "text": "Discard the ice water in your glass and gently shake out any stubborn water droplets. Strain the mixture into your prepared glass. Garnish with an orange wedge and a cocktail cherry on a cocktail skewer. Serve at once."
+   },
+   {
+    "title": "No egg white (Whiskey Sour on the rocks)",
+    "text": "Fill a cocktail shaker with ice. Pour in the bourbon, lemon juice and syrup. Shake the mixture for about 10 to 15 seconds, until the outside of the shaker is absolutely ice cold."
+   },
+   {
+    "title": null,
+    "text": "Fill a rocks glass with ice. Strain the mixture into your prepared glass. Garnish with an orange wedge and a cocktail cherry. Serve at once."
+   }
+  ],
+  "notes": [
+   "Measurement tips: Two ounces is ¼ cup, one ounce is 2 tablespoons, and ½ ounce is 1 tablespoon. I like to use this stainless steel jigger (affiliate link) for measuring small amounts of liquid."
+  ],
+  "summary": "Make the best whiskey sour with this recipe! Fresh lemon juice is key. Serve your whiskey sour up with foamy egg white or on the rocks—the recipe includes instructions for either option. Recipe yields 1 cocktail.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -1,6 +1,61 @@
 {
  "url": "https://cookieandkate.com/sofritas/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Sofritas (Chipotle-Style)",
+  "ingredients": [
+   "3 tablespoons extra-virgin olive oil, divided",
+   "14 ounces extra-firm tofu, excess water squeezed out, crumbled with a fork into ½-inch bite-sized pieces",
+   "1 medium white onion, finely chopped",
+   "1 small-to-medium red bell pepper, finely chopped",
+   "¼ teaspoon fine salt, plus more to taste",
+   "2 tablespoons tomato paste",
+   "1 tablespoon red wine vinegar",
+   "1 tablespoon adobo sauce or chopped chipotle peppers (from a can of chipotle peppers), more to taste",
+   "2 cloves garlic, pressed or minced",
+   "1 teaspoon ground cumin",
+   "½ teaspoon smoked paprika",
+   "½ teaspoon dried oregano",
+   "1 can (15 ounces) diced tomatoes",
+   "Fresh cilantro, for garnish"
+  ],
+  "yield_text": "4 to 6",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Side"
+  ],
+  "cuisines": [
+   "Latin American-inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/sofritas/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Warm 2 tablespoons of the olive oil in a large skillet over medium-high heat until shimmering. Add the tofu and cook, stirring every couple of minutes, until it’s lightly golden brown on the edges, about 10 minutes. Transfer the tofu to a bowl and set it aside. Carefully wipe the skillet mostly clean with a towel, then return the skillet to the heat."
+   },
+   {
+    "title": null,
+    "text": "Warm the remaining 1 tablespoon olive oil. Add the onion, bell pepper, and ¼ teaspoon salt. Cook, stirring occasionally, until the onion is translucent, about 3 to 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the tomato paste, vinegar, adobo sauce and garlic, and stir to combine. Cook until the mixture is fragrant and the tomato paste has deepened in color, about 1 minute. Add the cumin, paprika and dried oregano and tomatoes and cook until fragrant, about 30 seconds."
+   },
+   {
+    "title": null,
+    "text": "Add the diced tomatoes and cook until the bell peppers are tender enough to easily pierce through with a fork, about 2 to 3 minutes. Stir the tofu back into the skillet and cook until the mixture is combined, stirring often, and some of the sauce has soaked into the tofu, about 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Remove the skillet from the heat and adjust to taste. If it’s not spicy enough for your liking, add more adobo sauce by the teaspoon until it is (I’ve added up to 3). Season with salt (up to ¼ teaspoon), to taste. Garnish with fresh cilantro leaves and serve as desired."
+   }
+  ],
+  "notes": [],
+  "summary": "This sofritas recipe was inspired by Chipotle’s. It’s hearty and well-spiced, and adds plant-based protein and veggies to a variety of meals. Recipe yields 4 to 6 servings, depending on your portion size.",
+  "ingredient_groups": []
+ }
 }

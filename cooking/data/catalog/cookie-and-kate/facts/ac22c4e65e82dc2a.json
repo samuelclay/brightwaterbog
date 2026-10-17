@@ -1,6 +1,51 @@
 {
  "url": "https://cookieandkate.com/pina-vocado-smoothie/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Pineapple Avocado Smoothie",
+  "ingredients": [
+   "1 medium orange, peeled and seeds removed and torn into several pieces, or ½ cup orange juice",
+   "½ medium ripe avocado",
+   "½ cup frozen pineapple",
+   "½ frozen banana, frozen in 1-inch chunks",
+   "¼ cup ice-cold water (optional; omit for a thicker texture)",
+   "1 to 2 tablespoons lime juice, to taste",
+   "2 tablespoons unsweetened shredded coconut",
+   "Small pinch of fine salt",
+   "Optional garnishes: 1 lime wedge and shredded unsweetened coconut"
+  ],
+  "yield_text": "2",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Smoothie"
+  ],
+  "cuisines": [
+   "Tropical"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pina-vocado-smoothie/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Combine all of the ingredients in a blender in the order listed, starting with the lesser amount of lime juice. Blend on low until the blender gains traction, then ramp up to the highest speed as soon as possible (or use your blender’s smoothie function, if it has one). Blend until the mixture is completely smooth and creamy."
+   },
+   {
+    "title": null,
+    "text": "Taste, then add another squeeze of lime juice if you would like more zing, and blend again."
+   },
+   {
+    "title": null,
+    "text": "Pour into a glass and enjoy promptly. If you want to make it look cute like the pictures, garnish with a lime wedge and a sprinkle of shredded unsweetened coconut."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Happy Healthy Life’s Piña-Vocado Smoothie.",
+   "Change it up: You could add a handful of fresh spinach for some added nutrition without significantly impacting the flavor."
+  ],
+  "summary": "This super creamy avocado smoothie offers bright, tropical flavors, including pineapple, orange, banana and coconut. This recipe yields 2 small smoothies (1 scant cup each) or 1 large; multiply as necessary.",
+  "ingredient_groups": []
+ }
 }

@@ -17,7 +17,22 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/best-mimosa-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "While holding your Champagne flute at a slight tilt, fill the glass about halfway with sparkling wine."
+   },
+   {
+    "title": null,
+    "text": "Fill the rest of the glass with orange juice, and serve promptly. Feel free to adjust the ratio of sparkling wine to orange juice to suit your preferences (I like my mimosas with more sparkling wine than orange juice)."
+   }
+  ],
+  "notes": [
+   "Recommended equipment: Here are my Champagne flutes. Since they’re stemless, they’re not so easy to break."
+  ],
+  "summary": "Learn how to make classic orange mimosas with this recipe, plus find tips on how to make them your own! Mimosas are super easy to make once you know the basics. Recipe yields about 8 mimosas.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

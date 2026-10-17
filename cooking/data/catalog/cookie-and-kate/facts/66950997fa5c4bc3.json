@@ -1,6 +1,69 @@
 {
  "url": "https://cookieandkate.com/crispy-baked-potato-wedges-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Ultra Crispy Baked Potato Wedges",
+  "ingredients": [
+   "2 pounds Russet potatoes (6 smallish or 4 medium), scrubbed clean",
+   "3 tablespoons olive oil",
+   "2 teaspoons garlic powder",
+   "2 teaspoons onion powder",
+   "1 teaspoon fine sea salt",
+   "Freshly ground black pepper",
+   "2 tablespoons finely chopped fresh parsley, optional"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "1 hour 20 minutes",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/crispy-baked-potato-wedges-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 400 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper for easy clean-up."
+   },
+   {
+    "title": null,
+    "text": "Cut each potato in half lengthways, then in half lengthways again to make quarters, and then cut each half in half lengthways on the diagonal to make two wedges (you’ll end up with 8 wedges per potato; make sure they are about the same thickness and size)."
+   },
+   {
+    "title": null,
+    "text": "Place the sliced potatoes into a large bowl and cover them with hot water (I used hot water from the tap, but others have suggested that pipes can leach impurities into hot water, so it may be best to use cool tap water that has been heated on the stove). Let them soak for 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Drain the potatoes and lightly pat them dry with a lint-free tea towel. Place the potato wedges on the prepared pan and drizzle them with the olive oil. Sprinkle the garlic powder, onion powder, salt and a generous amount of pepper on top."
+   },
+   {
+    "title": null,
+    "text": "Toss until the potatoes are evenly coated in oil and spices, then arrange them in even columns across the pan so each wedge has a cut side against the pan. (If they don’t all fit in an even layer across your pan, you’ll need to use two pans for this recipe—divide them evenly across both pans, and rotate the pans when you flip the potatoes halfway through baking. They may be done baking earlier than specified below so keep an eye on them toward the end.)"
+   },
+   {
+    "title": null,
+    "text": "Bake for 30 minutes, then flip the wedges over (use a spatula and you should be able to flip several at a time). Arrange them in an even layer and return the pan to the oven."
+   },
+   {
+    "title": null,
+    "text": "Bake until the wedges are deeply golden, crisp and easily pierced through by a fork, about 25 to 30 more minutes (the fries near the outside of my pan were done at 25, so I removed them and put the pan back in the oven for 5 more minutes to finish off the rest)."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle with parsley, if desired, and serve while hot."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my crispy baked French fries.",
+   "Change it up: These potato wedges make great cheese fries, too. Once they’re done baking, sprinkle generously with shredded cheddar cheese. Return them to the oven and bake for 5 to 10 minutes, until golden and bubbly on top. I like to sprinkle them with thinly sliced green onion before serving."
+  ],
+  "summary": "Everyone loves these ultra crispy baked potato wedges! This recipe is easy and turns out perfectly every time. Make these potato wedges whenever the French fry craving strikes! Recipe yields 6 servings.",
+  "ingredient_groups": []
+ }
 }

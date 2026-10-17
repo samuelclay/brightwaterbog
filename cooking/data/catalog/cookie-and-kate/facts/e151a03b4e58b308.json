@@ -25,7 +25,27 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/fresh-corn-salsa-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium serving bowl, combine all of the ingredients. Stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Adjust to taste, if necessary: For more zing, add about 1 teaspoon more vinegar or 1 tablespoon more lime juice. For more flavor overall, add another pinch of salt. For more spice, add more jalapeño."
+   },
+   {
+    "title": null,
+    "text": "For best flavor, allow the salsa to marinate for 20 minutes before serving. This salsa keeps well in the refrigerator, covered, for 3 to 4 days."
+   }
+  ],
+  "notes": [
+   "Recipe roughly adapted from my black bean salad.",
+   "Corn options: I love raw sweet corn here, but you could also use frozen corn, defrosted and drained. Want more smoky flavor? Grill your corn before making this salsa!"
+  ],
+  "summary": "This fresh corn salsa recipe is the perfect summer appetizer! It’s made simply with sweet corn, onion, jalapeño, cilantro, lime and a dash of chili powder (avocado is optional). Recipe yields about 4 cups salsa.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

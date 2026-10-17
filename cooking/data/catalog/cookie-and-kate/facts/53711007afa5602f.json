@@ -39,7 +39,42 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/mexican-green-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, toast the pepitas: combine the pepitas, olive oil, chili powder and a pinch of salt in a medium skillet over medium heat. Toast the pepitas, stirring frequently (don’t let them burn), until they are turning golden on the edges and making little popping noises, about 4 to 7 minutes. Set the skillet aside to cool."
+   },
+   {
+    "title": null,
+    "text": "In a large salad bowl, combine the spring mix, chopped romaine, cauliflower, cabbage, cherry tomatoes, cucumber, onion, feta cheese, and toasted pepitas. Gently toss, then set aside."
+   },
+   {
+    "title": null,
+    "text": "To make the dressing: Combine all of the ingredients but the red pepper flakes in a blender. Blend until smooth. Taste, and add extra salt if it needs some extra oomph, and or a pinch of red pepper flakes if you’d like more heat. Blend again, then transfer to a small jar with a spout, for serving."
+   },
+   {
+    "title": null,
+    "text": "Divide the salad into individual bowls, top with slices of avocado, and drizzle dressing just before serving. If you intend to have leftovers, store the salad separately from the dressing, and toss individual servings with dressing just before serving. The salad will keep well this way for about 4 to 5 days."
+   }
+  ],
+  "notes": [
+   "Make it dairy free: Omit the feta cheese. You might want to add a dollop of cashew sour cream in its place.",
+   "Make it vegan: See dairy-free instructions above, and use maple syrup instead of honey.",
+   "Change it up: Hate cilantro? Omit it! For a lighter salad, choose either the feta or avocado, instead of both. To make it extra crunchy and savory, add a small handful of crushed tortilla chips.",
+   "Recommended equipment: I used a mandoline to shred the cabbage and cauliflower. Mandolines are dangerous; watch your fingers at all times!"
+  ],
+  "summary": "This healthy Mexican green salad recipe is the perfect fresh side for your favorite Mexican meals! It’s also a delicious, light meal on its own. Recipe yields 4 large salad servings, 6 medium or 8 side salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 13,
+    "title": "Jalapeño-Cilantro Dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

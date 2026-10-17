@@ -24,7 +24,47 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/summer-squash-salad-with-lemon-citronette/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Use a vegetable peeler to shave the squashes into paper-thin ribbons, starting on one side and making quarter turns until you reach the seedy core. Spread the ribbons on a cutting board, sprinkle liberally with salt, and let them sit for 20 minutes."
+   },
+   {
+    "title": null,
+    "text": "In a small skillet over medium-low heat, toast the nuts until they are turning golden and fragrant, stirring frequently."
+   },
+   {
+    "title": null,
+    "text": "Make the citronette: In a small bowl, whisk together the lemon zest and juice, garlic, thyme, mint and parsley. While whisking, drizzle in the olive oil until the dressing is well blended. Set aside until you’re ready to serve."
+   },
+   {
+    "title": null,
+    "text": "Rinse the squash and gently pat dry with a clean tea towel or paper towels. Place in a serving bowl (if you are not serving the salad immediately, refrigerate the squash until later)."
+   },
+   {
+    "title": null,
+    "text": "Right before serving, whisk the citronette last time. Toss the squash with the feta, pine nuts and citronette. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Small Gatherings: Seasonal Menus for Cozy Dinners by Jessica Strand.",
+   "Storage suggestions: Leftover salad will keep well in the refrigerator for a day or two.",
+   "Change it up: Feel free to change up the fresh herbs; you’ll need about one tablespoon chopped herbs in total.",
+   "Make it vegan: Omit the feta and make up for it with sliced kalamata olives or capers.",
+   "Make it nut free: Simply use sunflower seeds for the salad base instead of pine nuts."
+  ],
+  "summary": "Raw, ribboned yellow and green squash tossed with an herbed lemon vinaigrette, pine nuts and feta cheese. Buy the freshest, smallest squash you can find (local/organic will have the best flavor). Salting the squash helps draw out excess moisture, so allow 20 minutes for that step (unless you’re really pinched for time, in which case, skip it).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 4,
+    "title": "Citronette"
+   }
+  ]
  },
  "parser_version": 2
 }

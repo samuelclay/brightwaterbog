@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <base href="/">
 <!--og--><title>The Cooking Book</title>
-<meta name="description" content="The family's Purple Carrot and NYT Cooking collection, plus vegetarian recipe links from Smitten Kitchen and Cookie and Kate — searchable ingredients, servings, and cooking times.">
+<meta name="description" content="The family's Purple Carrot and NYT Cooking collection, plus vegetarian recipes from Smitten Kitchen and Cookie and Kate — full ingredients, steps, and photos, searchable and filterable by vegan or vegetarian.">
 <link rel="canonical" href="https://cooking.samuelclay.com/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="The Cooking Book">
 <meta property="og:title" content="The Cooking Book">
-<meta property="og:description" content="The family's Purple Carrot and NYT Cooking collection, plus vegetarian recipe links from Smitten Kitchen and Cookie and Kate — searchable ingredients, servings, and cooking times.">
+<meta property="og:description" content="The family's Purple Carrot and NYT Cooking collection, plus vegetarian recipes from Smitten Kitchen and Cookie and Kate — full ingredients, steps, and photos, searchable and filterable by vegan or vegetarian.">
 <meta property="og:url" content="https://cooking.samuelclay.com/">
 <meta property="og:image" content="https://cooking.samuelclay.com/images/og-cover.jpg">
 <meta property="og:image:width" content="1200">
@@ -166,6 +166,16 @@ header.site{
 }
 .chip[aria-pressed="true"] .n{color:#C9B8DA}
 .chip.more-toggle{border-style:dashed;color:var(--ink-soft);font-weight:600}
+/* segmented toggles: Vegetarian / Vegan in the bar, Most used / A–Z in the tag panels */
+.seg{display:inline-flex;flex:0 0 auto;border:1.5px solid var(--hairline);border-radius:999px;overflow:hidden;background:var(--card)}
+.seg button{padding:.4rem .8rem;font-size:.88rem;font-weight:700;color:var(--aubergine);white-space:nowrap}
+.seg button+button{border-left:1.5px solid var(--hairline)}
+.seg button[aria-pressed="true"]{background:var(--aubergine);color:#fff}
+.sort-bar{display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft)}
+.sort-bar .seg button{padding:.15rem .7rem;font-size:.78rem;font-weight:600;letter-spacing:0;text-transform:none}
+.tag-sections{columns:250px;column-gap:1.6rem}
+.tag-section{break-inside:avoid;margin-bottom:1rem}
+.tag-section h3{margin:0 0 .4rem;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--carrot-deep)}
 .chip.hidden{display:none}
 
 /* ---------- grid ---------- */
@@ -194,11 +204,6 @@ main{max-width:1200px;margin:0 auto;padding:1.6rem 1.5rem 4rem}
   color:var(--aubergine-deep);
 }
 .card-sub{font-size:.84rem;color:var(--ink-soft);line-height:1.35}
-.card-meta{
-  margin-top:auto;padding-top:.5rem;font-size:.74rem;font-weight:600;
-  letter-spacing:.05em;text-transform:uppercase;color:var(--carrot-deep);
-  display:flex;gap:.8rem;flex-wrap:wrap;
-}
 .card-tags{display:flex;flex-wrap:wrap;gap:.25rem;padding-top:.35rem}
 .mini-tag{
   font-size:.7rem;font-weight:600;color:var(--aubergine);
@@ -499,6 +504,9 @@ footer.site{
       <svg viewBox="0 0 24 24" fill="none" stroke-width="2.4"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
       <input type="search" id="search" placeholder="Search" aria-label="Search recipes">
     </div>
+    <div class="seg diet" role="group" aria-label="Diet">
+      <button data-diet="vegetarian" aria-pressed="true">Vegetarian</button><button data-diet="vegan" aria-pressed="false">Vegan</button>
+    </div>
     <button class="pill" data-group="cuisine" aria-expanded="false">
       Cuisine <span class="badge"></span><span class="pill-x" role="button" aria-label="Clear cuisine filters">×</span><span class="caret">▾</span>
     </button>
@@ -519,11 +527,11 @@ footer.site{
   </div>
   <div class="drop-panel" id="dropPanel">
     <div class="drop-panel-inner">
-      <div class="group-box" data-group="cuisine"><div class="chips" data-group="cuisine"></div></div>
-      <div class="group-box" data-group="ingredient"><div class="chips" data-group="ingredient"></div></div>
-      <div class="group-box" data-group="item"><div class="chips" data-group="item"></div></div>
-      <div class="group-box" data-group="course"><div class="chips" data-group="course"></div></div>
-      <div class="group-box" data-group="source"><div class="chips" data-group="source"></div></div>
+      <div class="group-box" data-group="cuisine"></div>
+      <div class="group-box" data-group="ingredient"></div>
+      <div class="group-box" data-group="item"></div>
+      <div class="group-box" data-group="course"></div>
+      <div class="group-box" data-group="source"></div>
     </div>
   </div>
 </div>
@@ -555,6 +563,8 @@ footer.site{
 <script src="assets/nyt-collections.js"></script>
 <script src="data/smitten_kitchen_recipes.js"></script>
 <script src="data/cookie_and_kate_recipes.js"></script>
+<script src="data/diet.js"></script>
+<script src="assets/tag-groups.js"></script>
 <script>
 (function(){
   // Binder cards first, then the recipes saved from NYT Cooking (data/nyt_recipes.js and
@@ -566,62 +576,127 @@ footer.site{
     ...(window.SMITTEN_KITCHEN_RECIPES || []), ...(window.COOKIE_AND_KATE_RECIPES || [])];
   const BLOG_SOURCES = {'smitten-kitchen':'Smitten Kitchen','cookie-and-kate':'Cookie and Kate'};
   const srcChip = r => r.source_tags.map(name => `<span class="mini-tag src-${r.source==='nyt'?'nyt':BLOG_SOURCES[r.source]?r.source:'pc'}">${esc(name)}</span>`).join('');
+  const VEGAN = new Set(window.VEGAN_PAIRS || []);
   R.forEach(r => {
+    r.vegan = VEGAN.has(r.pair);
     r.source_tags = r.source==='nyt'
       ? r.collections.map(id => window.NYT_COLLECTION_NAMES[id]).filter(Boolean)
       : [BLOG_SOURCES[r.source] || 'Purple Carrot'];
     r.course_tags = r.course_tags || ['Dinner'];   // every binder card is a dinner kit
   });
   const grid = document.getElementById('grid');
-  const state = {cuisine:new Set(), ingredient:new Set(), item:new Set(), course:new Set(), source:new Set(), q:''};
+  const state = {cuisine:new Set(), ingredient:new Set(), item:new Set(), course:new Set(), source:new Set(), q:'', diet:'vegetarian'};
   let openPair = null;
 
   // ---------- tag inventories ----------
   const GROUPS = ['cuisine','ingredient','item','course','source'];
   const KEY = {cuisine:'cuisine_tags', ingredient:'ingredient_tags', item:'item_tags', course:'course_tags', source:'source_tags'};
-  const SHOW_N = {cuisine:99, ingredient:18, item:18, course:99, source:99};
+  const GROUPED = ['cuisine','ingredient','item'];   // panels split into window.TAG_GROUPS sections
+  const SECTION_N = 8;                               // tags per section before "+ more" when sorted by use
+  const fmt = n => Number(n).toLocaleString('en-US');
+  const inDiet = r => state.diet!=='vegan' || r.vegan;
+  const expanded = new Set();                        // `${group}:${section}` opened past SECTION_N
+  let tagSort = 'count';
+  try{ if(localStorage.getItem('tagSort')==='alpha') tagSort = 'alpha'; }catch(e){}
 
+  // Counts follow the diet toggle; a selected tag stays listed even if nothing matches it.
   function tagCounts(group){
     const m = new Map();
-    R.forEach(r => (r[KEY[group]]||[]).forEach(t => m.set(t,(m.get(t)||0)+1)));
-    return [...m.entries()].sort((a,b)=> b[1]-a[1] || a[0].localeCompare(b[0]));
+    R.forEach(r => inDiet(r) && (r[KEY[group]]||[]).forEach(t => m.set(t,(m.get(t)||0)+1)));
+    state[group].forEach(t => m.has(t) || m.set(t,0));
+    return m;
+  }
+  const byCount = (counts,tags) => [...tags].sort((a,b)=> counts.get(b)-counts.get(a) || a.localeCompare(b));
+
+  // [[section name, tags]] in TAG_GROUPS order, then "Other" for anything not placed.
+  function sections(group, counts){
+    const placed = new Set();
+    const out = Object.entries(window.TAG_GROUPS[group]).map(([name,tags])=>{
+      const here = tags.filter(t=>counts.has(t));
+      here.forEach(t=>placed.add(t));
+      return [name, here];
+    }).filter(([,tags])=>tags.length);
+    const rest = [...counts.keys()].filter(t=>!placed.has(t));
+    if(rest.length) out.push(['Other', rest]);
+    return out;
   }
 
-  function buildChips(){
-    GROUPS.forEach(group=>{
-      const holder = document.querySelector(`.chips[data-group="${group}"]`);
-      const counts = tagCounts(group);
-      const frag = document.createDocumentFragment();
-      counts.forEach(([tag,n],i)=>{
-        const b = document.createElement('button');
-        b.className = 'chip' + (i>=SHOW_N[group] ? ' hidden overflow' : '');
-        b.setAttribute('aria-pressed','false');
-        b.dataset.tag = tag;
-        b.innerHTML = `${esc(tag)} <span class="n">${n}</span>`;
-        b.addEventListener('click',()=>toggleTag(group,tag,b));
-        frag.appendChild(b);
-      });
-      holder.appendChild(frag);
-      if(counts.length > SHOW_N[group]){
+  function chip(group, tag, n){
+    const b = document.createElement('button');
+    b.className = 'chip';
+    b.setAttribute('aria-pressed', state[group].has(tag) ? 'true':'false');
+    b.dataset.tag = tag;
+    b.innerHTML = `${esc(tag)} <span class="n">${fmt(n)}</span>`;
+    b.addEventListener('click',()=>toggleTag(group,tag));
+    return b;
+  }
+
+  function renderGroup(group){
+    const box = document.querySelector(`.group-box[data-group="${group}"]`);
+    const counts = tagCounts(group);
+    box.textContent = '';
+    if(!GROUPED.includes(group) || !window.TAG_GROUPS){   // course, source: one short list
+      const chips = document.createElement('div');
+      chips.className = 'chips';
+      byCount(counts, counts.keys()).forEach(t=>chips.appendChild(chip(group,t,counts.get(t))));
+      box.appendChild(chips);
+      return;
+    }
+    const bar = document.createElement('div');
+    bar.className = 'sort-bar';
+    bar.innerHTML = 'Sort <span class="seg" role="group" aria-label="Sort tags">' +
+      [['count','Most used'],['alpha','A–Z']].map(([v,label])=>`<button data-sort="${v}" aria-pressed="${tagSort===v}">${label}</button>`).join('') + '</span>';
+    bar.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{
+      tagSort = b.dataset.sort;
+      try{ localStorage.setItem('tagSort', tagSort); }catch(e){}
+      GROUPED.forEach(renderGroup);
+    }));
+    box.appendChild(bar);
+    const wrap = document.createElement('div');
+    wrap.className = 'tag-sections';
+    sections(group, counts).forEach(([name,tags])=>{
+      // Most used: each section's top tags (plus any selected) until expanded. A–Z: everything.
+      const key = group+':'+name;
+      const open = tagSort==='alpha' || expanded.has(key);
+      const top = new Set(byCount(counts, tags).slice(0, SECTION_N));
+      const order = tagSort==='alpha' ? [...tags].sort((a,b)=>a.localeCompare(b)) : byCount(counts, tags);
+      const shown = order.filter(t=>open || top.has(t) || state[group].has(t));
+      const sec = document.createElement('section');
+      sec.className = 'tag-section';
+      sec.innerHTML = `<h3>${esc(name)}</h3>`;
+      const chips = document.createElement('div');
+      chips.className = 'chips';
+      shown.forEach(t=>chips.appendChild(chip(group,t,counts.get(t))));
+      if(tagSort==='count' && (expanded.has(key) || shown.length<tags.length)){
         const more = document.createElement('button');
         more.className = 'chip more-toggle';
-        more.textContent = `+ ${counts.length-SHOW_N[group]} more`;
-        more.addEventListener('click',()=>{
-          const collapsed = holder.querySelector('.overflow').classList.contains('hidden');
-          holder.querySelectorAll('.overflow').forEach(c=>c.classList.toggle('hidden',!collapsed));
-          more.textContent = collapsed ? 'show fewer' : `+ ${counts.length-SHOW_N[group]} more`;
-        });
-        holder.appendChild(more);
+        more.textContent = expanded.has(key) ? 'show fewer' : `+ ${fmt(tags.length-shown.length)} more`;
+        more.addEventListener('click',()=>{ expanded.has(key) ? expanded.delete(key) : expanded.add(key); renderGroup(group); });
+        chips.appendChild(more);
       }
+      sec.appendChild(chips);
+      wrap.appendChild(sec);
     });
+    box.appendChild(wrap);
   }
+  const buildChips = () => GROUPS.forEach(renderGroup);
 
-  function toggleTag(group,tag,btn){
+  function toggleTag(group,tag){
     const s = state[group];
     s.has(tag) ? s.delete(tag) : s.add(tag);
-    btn.setAttribute('aria-pressed', s.has(tag) ? 'true':'false');
+    // a tag can sit in more than one section
+    document.querySelectorAll(`.group-box[data-group="${group}"] .chip[data-tag]`).forEach(c=>{
+      if(c.dataset.tag===tag) c.setAttribute('aria-pressed', s.has(tag) ? 'true':'false');
+    });
     applyFilters();
   }
+
+  document.querySelectorAll('.diet button').forEach(b=>b.addEventListener('click',()=>{
+    state.diet = b.dataset.diet;
+    document.querySelectorAll('.diet button').forEach(o=>o.setAttribute('aria-pressed', o===b ? 'true':'false'));
+    buildChips();
+    applyFilters();
+  }));
 
   // ---------- filter pills / drop-down panel ----------
   const panel = document.getElementById('dropPanel');
@@ -655,8 +730,7 @@ footer.site{
     p.addEventListener('click',e=>{
       if(e.target.classList.contains('pill-x')){
         state[g].clear();
-        panel.querySelectorAll(`.group-box[data-group="${g}"] .chip[aria-pressed="true"]`)
-          .forEach(c=>c.setAttribute('aria-pressed','false'));
+        renderGroup(g);
         applyFilters();
         e.stopPropagation();
         return;
@@ -665,11 +739,12 @@ footer.site{
     });
   });
   document.addEventListener('click',e=>{
-    if(openGroup && !e.target.closest('.filterbar')) closePanel();
+    if(openGroup && !e.composedPath().includes(document.getElementById('filterbar'))) closePanel();
   });
 
   // ---------- filtering ----------
   function matches(r){
+    if(!inDiet(r)) return false;
     for(const g of GROUPS){
       const sel = state[g];
       if(sel.size){
@@ -692,8 +767,9 @@ footer.site{
       if(!ok && openPair===r.pair) closeDetail('replace');
       if(ok) shown++;
     });
+    const scope = R.filter(inDiet).length;
     document.getElementById('count').textContent =
-      shown===R.length ? `${R.length} recipes` : `${shown} of ${R.length} recipes`;
+      shown===scope ? `${fmt(scope)} recipes` : `${fmt(shown)} of ${fmt(scope)} recipes`;
     const any = GROUPS.some(g=>state[g].size) || state.q;
     document.getElementById('clearAll').classList.toggle('visible',!!any);
     updatePills();
@@ -713,7 +789,7 @@ footer.site{
     GROUPS.forEach(g=>state[g].clear());
     state.q='';
     document.getElementById('search').value='';
-    document.querySelectorAll('.chip[aria-pressed="true"]').forEach(c=>c.setAttribute('aria-pressed','false'));
+    buildChips();
     applyFilters();
   });
 
@@ -733,19 +809,13 @@ footer.site{
       art.id = 'r'+r.pair;
       const cover = r.hero ? `images/hero/${r.hero}` : r.front ? `images/card/${r.front}` : null;
       const sub = r.subtitle || (r.author ? 'by '+r.author : '');
-      const serves = r.servings ? `serves ${esc(r.servings)}` : (r.yield_text ? esc(r.yield_text) : '');
       art.innerHTML = `
         <button class="card-btn" aria-expanded="false">
           <span class="cover-wrap">${cover?`<img${r.linked?' class="linked"':''} src="${cover}" alt="${esc(r.title)} — recipe photo" loading="${idx<16?'eager':'lazy'}">`:r.linked?`<span class="linked-cover ${esc(r.source)}"><span class="publisher">${esc(r.publisher)}</span><span class="dish">${esc((r.ingredient_tags||[]).slice(0,3).join(' · ') || (r.course_tags||[])[0] || 'For your table')}</span><span class="visit">Recipe collection ↗</span></span>`:`<span class="no-photo">no photo</span>`}</span>
           <span class="card-body">
             <h2>${esc(r.title)}</h2>
             ${sub?`<span class="card-sub">${esc(sub)}</span>`:''}
-            <span class="card-tags">${srcChip(r)}${(r.cuisine_tags||[]).map(t=>`<span class="mini-tag">${esc(t)}</span>`).join('')}</span>
-            <span class="card-meta">
-              ${r.cook_time?`<span>⏱ ${esc(r.cook_time)}</span>`:''}
-              ${serves?`<span>${serves}</span>`:''}
-              ${r.rating&&r.rating.count?`<span>★ ${esc(r.rating.value)} · ${Number(r.rating.count).toLocaleString()}</span>`:''}
-            </span>
+            <span class="card-tags">${srcChip(r)}${(r.cuisine_tags||[]).slice(0,1).map(t=>`<span class="mini-tag">${esc(t)}</span>`).join('')}</span>
           </span>
         </button>`;
       art.querySelector('.card-btn').addEventListener('click',()=>toggleDetail(r));
@@ -928,8 +998,9 @@ footer.site{
   function renderDetail(r){
     const rx = boldRegex(r);
     const d = document.createElement('section');
+    const offsite = r.linked && !(r.steps||[]).length;
     d.className = 'detail' + (r.linked?' linked':'') + (r.front?'':' no-photo');
-    d.setAttribute('aria-label', r.title + (r.linked?' — recipe details':' — full recipe'));
+    d.setAttribute('aria-label', r.title + (offsite?' — recipe details':' — full recipe'));
     const base = baseServings(r);
     const nut = r.nutrition||{};
     const nutRow = ['calories','fat','carbohydrates','protein']
@@ -952,7 +1023,7 @@ footer.site{
           </div>
           <h2>${esc(r.title)}</h2>
           ${r.subtitle?`<p class="subtitle">${esc(r.subtitle)}</p>`:''}
-          ${r.source==='nyt'?`<p class="subtitle byline">by ${esc(r.author||'NYT Cooking')} · <a href="${esc(r.url)}" target="_blank" rel="noopener">NYT Cooking ↗</a>${r.rating&&r.rating.count?` · ★ ${esc(r.rating.value)} <span class="rating-n">(${Number(r.rating.count).toLocaleString()} ratings)</span>`:''}</p>`:''}
+          ${r.source==='nyt'?`<p class="subtitle byline">by ${esc(r.author||'NYT Cooking')} · <a href="${esc(r.url)}" target="_blank" rel="noopener">NYT Cooking ↗</a>${r.rating&&r.rating.count?` · ★ ${esc(r.rating.value)} <span class="rating-n">(${fmt(r.rating.count)} ratings)</span>`:''}</p>`:''}
           ${r.linked?`<p class="subtitle byline">${r.author?`by ${esc(r.author)} · `:''}<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.publisher)} ↗</a></p>`:''}
           ${r.description?`<p class="desc">${esc(r.description)}</p>`:''}
           <div class="detail-tags">
@@ -969,7 +1040,7 @@ footer.site{
             <div class="section-label">Tools</div>
             <ul class="plain-list">${r.tools.map(i=>`<li>${esc(i)}</li>`).join('')}</ul>`:''}
           <div class="section-label">Directions</div>
-          ${r.linked?`<a class="original-recipe" href="${esc(r.url)}" target="_blank" rel="noopener">Cook this recipe at ${esc(r.publisher)} ↗<small>Open the full instructions, photos, and recipe notes.</small></a>`:''}
+          ${offsite?`<a class="original-recipe" href="${esc(r.url)}" target="_blank" rel="noopener">Cook this recipe at ${esc(r.publisher)} ↗<small>Open the full instructions, photos, and recipe notes.</small></a>`:''}
           <ol class="steps">
             ${(r.steps||[]).map(s=>`<li${s.img?' class="has-photo"':''}>
               <div class="step-body">${s.title?`<span class="step-title">${esc(s.title)}</span>`:''}${rich(s.text, rx)}</div>
@@ -1099,7 +1170,7 @@ footer.site{
   // ---------- boot ----------
   const nytN = R.filter(r=>r.source==='nyt').length;
   const blogN = R.filter(r=>r.linked).length;
-  document.getElementById('nytNote').textContent = (nytN?` · plus ${nytN} recipes saved from NYT Cooking`:'') + (blogN?` · ${blogN} linked recipes from Smitten Kitchen and Cookie and Kate`:'');
+  document.getElementById('nytNote').textContent = (nytN?` · plus ${fmt(nytN)} recipes saved from NYT Cooking`:'') + (blogN?` · ${fmt(blogN)} from Smitten Kitchen and Cookie and Kate`:'');
   buildCards();
   buildChips();
   applyFilters();

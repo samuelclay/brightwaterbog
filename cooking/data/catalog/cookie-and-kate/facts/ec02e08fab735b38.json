@@ -24,7 +24,29 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/homemade-bircher-muesli-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a jar or bowl (a 14-ounce working jar or 1-pint mason jar is perfect), combine the oats, raisins, cinnamon, nut butter and applesauce. Stir to combine. Then add the milk and stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Grate half of the apple, then stir the grated apple into the oatmeal (if you’re making multiple jars, just use 1 grated apple for 2 jars, and so on)."
+   },
+   {
+    "title": null,
+    "text": "Place the lid on the jar and refrigerate for at least 30 minutes, or up to 5 days. When you’re ready to serve, chop the remaining ½ apple into matchsticks. Top the oatmeal with the fresh apple, a splash of milk and/or a drizzle of honey (both optional). Enjoy chilled."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Use certified gluten-free oats.",
+   "Make it vegan: Choose one of the dairy-free milk options listed above. If adding additional sweetener, use maple syrup instead of honey.",
+   "Make it nut free: Omit the nut butter or replace it with sunbutter. Omit the nuts on top, or use sunflower seeds or pepitas instead.",
+   "Warm it up: Overnight oats are typically served chilled. However, if you prefer warm oats, you can heat them in the microwave before topping with fresh apple. Just use a microwave-safe jar and stir frequently while you’re warming them up. Since the oats are so thick, I’m not sure this would work well on the stovetop, but you could give it a try."
+  ],
+  "summary": "This bircher muesli recipe is so delicious! It’s a healthy way to start the day. Recipe yields 1 serving; I recommend making these oats in multiples of 2 in order to use up 1 apple while making and then 1 more apple for serving.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

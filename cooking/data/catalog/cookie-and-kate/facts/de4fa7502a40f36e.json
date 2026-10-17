@@ -1,6 +1,53 @@
 {
  "url": "https://cookieandkate.com/buckwheat-and-spelt-crepes-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Buckwheat and Spelt Crêpes",
+  "ingredients": [
+   "½ cup whole spelt flour*",
+   "¼ cup buckwheat flour",
+   "2 teaspoons sugar (up to 1 ½ tablespoons for sweeter crepes)",
+   "¼ teaspoon salt",
+   "¾ cup plus 2 tablespoons milk",
+   "2 large eggs",
+   "1 tablespoon unsalted butter, melted (plus more for greasing the pan)"
+  ],
+  "yield_text": "8",
+  "cook_time": "22 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/buckwheat-and-spelt-crepes-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a food processor, blender or big bowl, combine the flours, sugar and salt. Pulse it a few times or whisk it to combine."
+   },
+   {
+    "title": null,
+    "text": "Pour the milk into a liquid measuring cup and add the eggs and melted butter. Pour the liquid ingredients into the food processor, blender or bowl and process or whisk until the batter is well blended. Scrape down the sides once during the mixing process."
+   },
+   {
+    "title": null,
+    "text": "Heat a medium-sized pan** over medium heat. Once the pan is hot, pour in a bit of melted butter. Use a clean rag or paper towel to spread the butter evenly, you don’t need a ton in there."
+   },
+   {
+    "title": null,
+    "text": "Use a ¼ cup measuring cup to ladle batter into the pan. Quickly pick up the pan and swirl the batter around in so it evenly covers the entire surface of the base. Cook the crepe until the bottom is firm and speckled with brown spots, less than 1 minute. Loosen the edges and flip the crepe to cook on the other side (I used a large silicone spatula for this step). Once the crepe is speckled and golden on both sides, slide it onto a plate. Repeat until you have used up the batter (keep stacking the crepes on the plate to keep them warm)."
+   }
+  ],
+  "notes": [
+   "Adapted from King Arthur Flour Whole Grain Baking.",
+   "The original recipe called for 2 tablespoons brandy, which I did not have, so I replaced it with 2 extra tablespoons of milk. I’d be interested to know how brandy affects the flavor, especially since I enjoyed the crepes so much without it.",
+   "*For gluten-free crepes, use all buckwheat flour.",
+   "**I used a 10-inch well-seasoned cast iron pan here, which worked fine and yielded 8 crepes (5 of which were perfectly round, the rest were broken or misshapen… that may have had more to do with me than the pan!). An 8-inch crêpe maker or non-stick pan would also work. The original recipe says it will yield 10 to 12 8-inch crepes."
+  ],
+  "summary": "These crepes are easy to whip up in a food processor, blender or by hand, and don’t take long to cook. They have a nice nutty flavor and speckled texture thanks to the buckwheat. Buckwheat crepes are great with savory eggs, nut butters and sweet, fruity fillings. The King Arthur people suggest caramelized apples and whipped cream, which I’ll try to remember for next fall, and I think peaches and cream would be lovely this summer. I don’t think there’s a crepe in the whole world that isn’t great with Nutella. Serve with savory fillings or sweet, for breakfast, dinner or dessert!",
+  "ingredient_groups": []
+ }
 }

@@ -39,7 +39,44 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2012/03/potato-knish-two-ways/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make dough: Stir together your dry ingredients in the bottom of a medium/large bowl. In a small bowl, whisk together the egg, oil, vinegar and water. Pour it over the dry ingredients and stir them to combine. Once the mixture is a craggy, uneven mass, knead it until smooth, about a minute. Place the dough back in the bowl and cover it with plastic wrap. Set it aside for an hour (or in the fridge, up to 3 days) until needed."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, prepare filling: Put potatoes into a large pot, cover with cold water, and bring to a boil over high heat. Reduce heat to medium and cook until potatoes can be pierced easily with a knife, about 20 minutes. Drain, then transfer to a large bowl to cool."
+   },
+   {
+    "title": null,
+    "text": "Heat a large, heavy skillet over medium heat. Once hot, add butter and oil and once they’re fully melted and a bit sizzly, add onions and reduce to medium-low. Cook, stirring frequently, until deeply caramelized, which will take about 45 minutes. Can you do this in less time? Of course. But the flavor won’t be as intense. Transfer to bowl with potatoes and mash together until almost smooth. (A few lumps make it taste more “traditional,” IMHO.) Stir in salt and many grinds of black pepper and set the filling aside."
+   },
+   {
+    "title": null,
+    "text": "Assemble knish: Line a large baking sheet with parchment paper and preheat your oven to 375 degrees."
+   },
+   {
+    "title": null,
+    "text": "If your dough has sweated some beads of oil while it rested, fear not, you can just knead it back into an even mass. Divide the dough in half. On a well-floured surface, roll the first half of the dough into a very thin sheet, roughly in the shape of a 1-foot square, but really, no need to be rigid about it. For moderate size knish (smaller than the traditional “doorstops” but still hefty, about 3 inches across), create a 2-inch thick log from half your potato filling across the bottom of your dough. Roll the filling up in the dough like you were rolling a cigarette (which, of course, we would never), but not too tight. A tiny amount of slack will keep the dough from opening in the oven. Keep rolling until the log has been wrapped twice in dough. Trim any unrolled length and add it to the second half of the dough; it can be used again. Repeat the process with the second half of your dough and second half of filling; you might have a small amount of dough leftover."
+   },
+   {
+    "title": null,
+    "text": "Trim the ends of the dough so that they’re even with the potato filling. Then, make indentations on the log every 3 to 3 1/2 inches (you’ll have about 3, if your log was 1 foot long) and twist the dough at these points, as if you were making sausage links. Snip the dough at each twist, then pinch one of the ends of each segment together to form a sealed knish base. Use the palm of your hand to flatten the knish a bit into a squat shape and from here, you can take one of two approaches to the top: You can pinch together the tops as you did the bottom to seal them; indenting them with a small dimple will help keep them from opening in the oven. You can gently press the dough over the filling but leave it mostly open, like the knish you would get on Houston Street. Or, you can half-ass it (okay, that’s a third option, and watch your language, Deb), like I did, closing them but not sealing them well because you are indecisive. But why would you want to do a thing like that?"
+   },
+   {
+    "title": null,
+    "text": "Bake knish: Arrange knish on prepared baking sheet so that they don’t touch. Whisk egg yolk and water together to form a glaze and brush it over the knish dough. Bake knish for about 45 minutes, rotating your tray if needed for them to bake into an even golden brown color. I have burnt my mouth on every knish I have ever taken a bite of because that potato filling, it packs heat. Don’t do as I always do and let them cool a little bit before digging in. Spicy mustard is a traditional accompaniment, but I like a dollop of sour cream too. I won’t tell if you don’t."
+   },
+   {
+    "title": "Red Potato Knish with Kale, Leeks and Cream Cheese",
+    "text": "Follow the dough and assembly directions above, but replace the Russet and caramelized onion filling with this one. You might never go back to tradition once you do."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

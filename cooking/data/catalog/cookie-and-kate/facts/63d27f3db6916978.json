@@ -22,7 +22,25 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/crispy-apple-kohlrabi-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large serving bowl, combine the kohlrabi and apple matchsticks. Add the cheese, if using, and the tarragon leaves and sunflower seeds. Shave lemon zest liberally over the bowl (I probably used about half of a small lemon’s worth or more)."
+   },
+   {
+    "title": null,
+    "text": "Drizzle in 1 tablespoon olive oil and 1 tablespoon lemon juice, then sprinkle lightly with salt and black pepper. Use your hands to gently toss the salad, then add another drizzle of olive oil and lemon juice if the salad seems dry. Finish with another light sprinkle of salt and pepper and serve immediately."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Cooking with Seeds by Charlyne Mattox, with permission.",
+   "*How to toast your own sunflower seeds: If you only have raw, unsalted sunflower seeds at home (like me), toast them in a small skillet over medium heat with a pinch of salt. Cook, stirring frequently, until they’re turning lightly golden on the edges, about 5 minutes.",
+   "Storage suggestions: This salad keeps well for a day or two, provided that you use enough lemon juice to prevent oxidation (I used closer to 2 tablespoons and day-old leftovers were still great).",
+   "Make it dairy free/vegan: Skip the optional cheese."
+  ],
+  "summary": "This super simple kohlrabi salad features honeycrisp apple, lemon, tarragon and olive oil! It’s a delicious and unique fall side salad. You’ll love it! Recipe yields 4 side servings or 2 large.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

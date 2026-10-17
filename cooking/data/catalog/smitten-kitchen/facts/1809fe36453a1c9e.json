@@ -33,7 +33,40 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2008/01/rigatoni-with-eggplant-puree/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 400 degrees F. Line a large baking sheet with parchment paper. Add eggplant, tomatoes, garlic, 3 tablespoons of the olive oil, 1 teaspoon kosher salt, many grinds of black pepper, and red pepper flakes (to taste) to the baking sheet and use your hands to toss to combine. Spread the vegetables out in an even layer on the baking sheet. Roast in the oven until the vegetables are tender and the eggplant is golden, about 35 minutes."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, bring a large pot of salted water to a boil over high heat. Add the pasta and cook until tender but a full minute shy of done. Before you drain the pasta, reserve 1 1/2 cups of the pasta cooking water."
+   },
+   {
+    "title": null,
+    "text": "Transfer the roasted vegetables — I use the parchment paper as a sling — to a food processor or blender. Add the torn mint or basil leaves (if using; save a few for garnish), an additional 3 tablespoons olive oil, and a few splashes of the pasta cooking water and blend until the sauce is smooth. Taste for seasoning and add more salt and pepper as needed."
+   },
+   {
+    "title": null,
+    "text": "Return the pasta to the cooking pot, pour the eggplant sauce over it, and a big splash of the reserved pasta cooking water and cook together over medium-high heat for 1 to 2 minutes, adding more cooking water if needed to loosen the sauce."
+   },
+   {
+    "title": null,
+    "text": "Transfer to a serving bowl; finish with another drizzle of olive oil. Garnish with pine nuts, reserved herbs (if using), and cheese (if using) and serve."
+   },
+   {
+    "title": "Notes",
+    "text": "September 2017 note: The first time I made this (in 2008), I found my out-of-season, underwhelming eggplant to be a total sponge; I had to keep adding pasta water to get it saucy. But in the times since, I’ve not had this experience repeated, possibly helped by the fact that I now just make it in the late summer when I can get eggplants and cherry tomatoes in season. These days, I like to cook the pasta with the sauce for a minute or two so it better adheres (and so you don’t make an Italian nonna cry) and while it’s still excellent with parmesan, I like it even more with ricotta salata grated on top. I also use basil instead of mint; both work, so just use what you prefer."
+   },
+   {
+    "title": null,
+    "text": "August 2024 note: Last week I made this on a whim and didn’t have fresh basil and found, to my surprise, that I might like it even better without and the color is more vibrant. I noticed that the sauce blends more smoothly if you add the reserved pasta water as you blend it, and have updated this to note it. I absolutely do not toss the ingredients in a bowl, just on the sheet pan, and have updated the recipe accordingly. This pasta sauce is also vegan if you skip the cheese at the end, which we often do. If skipping the cheese, an extra drizzle or two of olive oil at the end is lovely."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

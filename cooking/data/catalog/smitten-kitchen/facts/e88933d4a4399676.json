@@ -30,7 +30,30 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2016/07/eggplant-with-yogurt-and-tomato-relish/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 425 degrees. Trim eggplants and cut in half lengthwise; season cut sides with salt and pepper. Coat a large roasting pan with olive oil (1 to 2 tablespoons). Arrange eggplants cut side down; sprinkle with more salt and pepper. Roast for 25 minutes on the first side, or until brown underneath then flip and roast 5 to 10 minutes more. Remove from oven and let cool slightly."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, make couscous, if using it. Bring 3/4 cup water and a few pinches of salt to a simmer then pour it over dried couscous in a bowl. Cover with a lid or foil and let side for 5 minutes to absorb, then fluff with a fork."
+   },
+   {
+    "title": null,
+    "text": "Make tomato relish by pulsing garlic and parsley in a blender or food processor until finely chopped, then add tomatoes and pulse until they’re well chopped. Add 1 tablespoon olive oil, vinegar, salt, freshly ground black pepper or a pinch or two of red pepper flakes and pulse to combine. No food process or blender? Not a problem at all; just mince the garlic and parsley well and finely chop the tomatoes; stir this together with the remaining ingredients. Both methods: taste for seasoning. We like this extra sharp and almost always add 1 more teaspoon vinegar and more salt. The longer it sits, the more potent it gets."
+   },
+   {
+    "title": null,
+    "text": "To assemble, schmear each eggplant half with a little yogurt. If you’re using couscous, sprinkle a little on top. Spoon tomato relish over and serve the rest of all the above on the side."
+   }
+  ],
+  "notes": [
+   "Traditional ikri (Russian eggplant caviar) uses red peppers and dill, too, but not the one I know so I skip it too. I made a little plain couscous to sprinkle on this so it felt more hearty; it’s tasty here but completely non-essential. You could also serve this over the couscous, or skip it entirely."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

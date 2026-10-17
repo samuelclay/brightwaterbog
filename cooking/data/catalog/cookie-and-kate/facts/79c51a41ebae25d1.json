@@ -26,7 +26,48 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/tropical-mango-spring-rolls/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Fill a shallow pan larger than your spring roll wrappers (a pie plate works great) with warm water. Fold a lint-free tea towel in half and place it next to the dish. Place your prepared spring roll fillings within reach."
+   },
+   {
+    "title": null,
+    "text": "Place one rice paper in the water and let it rest for about twenty seconds. You’ll learn to go by feel here—wait until the sheet is pliable but not super floppy. Carefully lay it flat on the towel."
+   },
+   {
+    "title": null,
+    "text": "Leaving about an inch of open rice paper around the edge, cover the lower third of the paper with about ½ cup chopped arugula. Top with four slices of mango down the length of the greens, followed by several slices of bell pepper and jalapeño, and finally, a sprinkle of green onions."
+   },
+   {
+    "title": null,
+    "text": "Fold over one long side to enclose the filling, then fold over the short sides like you would a burrito, and lastly, roll it up, stretching the remaining long side around the the roll to seal it. Repeat with remaining ingredients."
+   },
+   {
+    "title": null,
+    "text": "To make your avocado sauce, combine the avocado, lime juice, water, cilantro and salt in a small food processor or blender. Purée until smooth and transfer to a small serving bowl. If you won’t be serving the rolls immediately, press plastic wrap against the surface of the dip to prevent oxidation."
+   },
+   {
+    "title": null,
+    "text": "Slice the rolls in half on the diagonal with a sharp chef’s knife or serve whole, with avocado dipping sauce on the side."
+   }
+  ],
+  "notes": [
+   "Recipe roughly adapted from my summer rolls with spicy peanut sauce and Thai mango cabbage wraps.",
+   "Storage suggestions: Rolls are best served right away, but they were still in pretty good shape one day later. Just store the rolls in the refrigerator, covered. Press plastic wrap against the surface of the avocado dip to prevent oxidation before chilling."
+  ],
+  "summary": "These bold, fresh, mango spring rolls make a perfect spring/summer appetizer. They’re gluten free and vegan for all to enjoy. Spring rolls might seem tricky if you haven’t made them before, but you’ll get the hang of them quickly! Feel free to make these spring rolls a few hours ahead and chill them until you’re ready to serve. Recipe yields 6 to 7 rolls, which I served halved.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Spring rolls"
+   },
+   {
+    "at": 6,
+    "title": "Creamy avocado-cilantro dipping sauce"
+   }
+  ]
  },
  "parser_version": 2
 }

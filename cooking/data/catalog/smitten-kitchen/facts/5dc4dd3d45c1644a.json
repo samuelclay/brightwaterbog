@@ -30,7 +30,24 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2023/04/baby-wedge-salad-with-avocado-and-pickled-onions/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Pickle your onions: Combine red wine vinegar, water, 1/2 teaspoon kosher salt, and sugar or honey in a jar. Add onion and shake to combine. You can let this pickle and soften in the fridge for 1 hour and up to 5 days, but it’s not bad at all in 10 to 15 minutes. To hurry the pickling along, you can actually microwave this (lid off, obviously) for about 20 seconds, and then let it hang out in the fridge until you’re ready."
+   },
+   {
+    "title": null,
+    "text": "Crisp your pepitas: Combine pepitas with 3 tablespoons olive oil in a small skillet and warm over medium heat. Let pepitas sizzle in oil for 1 to 2 minutes but keep a close eye on them; raw ones may be able to handle more time but already toasted ones will need less to get one shade darker. Remove from heat, season with salt and pepper and let cool for few minutes before using."
+   },
+   {
+    "title": null,
+    "text": "Assemble your salad: Cut your iceberg into halves, then each half into 4 wedges. Cut the wedges down into smaller triangles, keeping the little pyramids intact as best you can for the baby wedge appearance. Transfer them to your serving plate. Scatter iceberg with avocado, then spoon pepitas and their oil over everything. Scatter with rings of pickled onion, and spoon the vinegar brine left behind over the lettuce. Garnish with cotija cheese and radishes. Season the whole platter with salt and pepper and eat right away."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

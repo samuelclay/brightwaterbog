@@ -1,6 +1,71 @@
 {
  "url": "https://cookieandkate.com/toasted-muesli-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Toasted Muesli with Almonds, Coconut and Dark Chocolate",
+  "ingredients": [
+   "4 cups old-fashioned oats",
+   "1 ½ cups sliced almonds",
+   "1 ½ cups large, unsweetened coconut flakes",
+   "Scant 1 teaspoon fine salt",
+   "½ teaspoon cinnamon",
+   "3 tablespoons maple syrup",
+   "2 tablespoons melted coconut oil",
+   "2 teaspoons vanilla extract",
+   "½ cup mini dark chocolate chips",
+   "Milk of choice or plain yogurt",
+   "Sliced bananas, berries or fruit of choice"
+  ],
+  "yield_text": "7 cups",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/toasted-muesli-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 350 degrees Fahrenheit. For easy cleanup, line a large, rimmed baking sheet with parchment paper (I was out, so I did not and it was fine)."
+   },
+   {
+    "title": null,
+    "text": "In a large mixing bowl, combine the oats, almonds, coconut, salt and cinnamon. Mix well. Pour in the maple syrup, coconut oil and vanilla extract and mix well. Do NOT add the chocolate chips; we’re saving those for later."
+   },
+   {
+    "title": null,
+    "text": "Pour the mixture onto your baking sheet and bake until the oats and coconut flakes are lightly golden and fragrant, tossing halfway, about 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "Let the muesli cool completely before mixing in the chocolate chips (if you add them too soon, the chips will melt and you’ll have a delicious mess of chocolatey muesli). Serve individual portions in bowls with almond milk or yogurt. I like to let my muesli rest for a few minutes so the oats soften up a bit. Enjoy!"
+   },
+   {
+    "title": null,
+    "text": "Store cooled muesli in a freezer-safe bag with the air squeezed out. It keeps best in the freezer (no defrosting time required)."
+   }
+  ],
+  "notes": [
+   "Recipe roughly adapted from my cranberry orange granola.",
+   "Make it vegan/dairy free: Be sure to use dairy-free chocolate chips and non-dairy milk, like almond milk.",
+   "Make it gluten free: Be sure to use certified gluten-free oats."
+  ],
+  "summary": "Simple and delicious toasted muesli with almonds, coconut and dark chocolate. This muesli is a healthy, homemade breakfast. Feel free to change up the mix-ins; just replace the almonds, coconut and chocolate with about 3 cups nuts and/or dried fruit (add the dried fruit after the muesil has cooled, like you do with the chocolate in the recipe below). Recipe yields approximately 7 cups muesli.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Muesli"
+   },
+   {
+    "at": 9,
+    "title": "Serving suggestions"
+   }
+  ]
+ }
 }

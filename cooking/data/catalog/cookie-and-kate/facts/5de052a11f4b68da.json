@@ -19,7 +19,43 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/blueberry-lavender-lemonade/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "If you are using fresh lavender (which is easier): In a mixing glass, thoroughly muddle the sprigs of lavender with the blueberries. Squeeze in the juice of two lemons, add agave nectar and vodka."
+   },
+   {
+    "title": null,
+    "text": "Add up to ⅔ cup cold water (more or less to taste). Use a fork to whisk the agave nectar into the rest of the liquid."
+   },
+   {
+    "title": null,
+    "text": "Fill your glass with ice, and stir with a spoon."
+   },
+   {
+    "title": null,
+    "text": "To make tea instead: Add one to two teaspoons of dried lavender per cup of hot water. Let steep for about five minutes, and strain out the lavender. Let cool."
+   },
+   {
+    "title": null,
+    "text": "In a mixing glass, muddle 15 blueberries. Squeeze in the juice of two lemons, add agave nectar and vodka. Use a fork to whisk the agave nectar into the rest of the liquid."
+   },
+   {
+    "title": null,
+    "text": "Add up to ¾ cup of tea to your drink. Taste it as you go and feel free to dilute it with water if you find it the lavender taste is too strong. Fill your glass with ice, and stir up your lemonade with a spoon."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by the blueberry lavender mojito in Market-Fresh Mixology and a lavender lemonade we made at the vegan restaurant I worked at this summer."
+  ],
+  "summary": "Blueberry lavender lemonade with vodka is the perfect cocktail for summer evenings. This purple drink is sweetened with agave nectar and real blueberries. There are two ways to make this, with fresh rosemary sprigs or by making rosemary tea with dried lavender (if you are using dried lavender, you’ll need to make your lavender tea in advance so it has time to cool). Please taste your lemonade as you go and adjust accordingly. I prefer tart to sweet, so ½ teaspoon of agave was plenty for me, but feel free to add more. Enjoy!",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per cocktail"
+   }
+  ]
  },
  "parser_version": 2
 }

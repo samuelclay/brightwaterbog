@@ -1,6 +1,53 @@
 {
  "url": "https://cookieandkate.com/naturally-sweetened-cranberry-sauce-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Naturally Sweetened Cranberry Sauce",
+  "ingredients": [
+   "12 ounces (1 bag) fresh cranberries",
+   "½ cup honey or maple syrup",
+   "½ cup water",
+   "Zest of 1 medium orange*, preferably organic (about 1 teaspoon)",
+   "Truly optional add-ins: ½ teaspoon ground cinnamon and/or ¼ cup fresh orange juice"
+  ],
+  "yield_text": "2 cups",
+  "cook_time": "10 minutes",
+  "categories": [
+   "Condiment"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/naturally-sweetened-cranberry-sauce-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, rinse the cranberries well and drain off excess water. Pick through the cranberries and discard any squishy ones."
+   },
+   {
+    "title": null,
+    "text": "In a medium saucepan, combine the cranberries, honey and water. Bring the mixture to a boil over medium-high heat, then reduce heat to medium-low and cook, stirring occasionally, until the cranberries have popped and the mixture has thickened to your liking, about 5 to 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from heat and stir in the orange zest. If you’d like to add cinnamon or orange juice, add it now. Taste and, if the mixture is too tart (keeping in mind that cranberry sauce is supposed to be a little tart!), add more orange juice, honey or maple syrup to taste."
+   },
+   {
+    "title": null,
+    "text": "The sauce will continue to thicken as it cools. It will keep in the refrigerator, covered, for up to 2 weeks."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my cranberry crostini.",
+   "Make it vegan: Use maple syrup instead of honey.",
+   "Prepare in advance: You can make this sauce up to 2 days in advance. Cover and refrigerate, then let it warm to room temperature before serving.",
+   "*How to remove zest: I use a Microplane grater (affiliate link), which easily removes the zest. You could also use the fine holes of your box grater. If you want to simplify, skip the zest and stir in ¼ cup orange juice instead."
+  ],
+  "summary": "This naturally sweetened cranberry sauce recipe is made simply with fresh cranberries, honey or maple syrup and orange zest! It’s easy to make and tastes amazing, too. Recipe yields about 2 cups cranberry sauce.",
+  "ingredient_groups": []
+ }
 }

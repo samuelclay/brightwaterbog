@@ -26,7 +26,36 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/classic-tomato-soup-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a Dutch oven or soup pot, warm the olive oil over medium heat until shimmering. Add the onion and salt and cook, stirring occasionally, until the onions are tender and turning translucent, 7 to 10 minutes. Add the tomato paste and cook, stirring constantly, until fragrant, about 30 seconds."
+   },
+   {
+    "title": null,
+    "text": "Add the tomatoes and vegetable broth and stir to combine. Increase the heat to medium-high, and bring the mixture to a simmer. Cook for 30 minutes, reducing the heat as necessary to maintain a gentle simmer, and stirring occasionally."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from the heat and let it cool for a few minutes. Carefully transfer the mixture to a blender, being sure not to fill past the maximum fill line (blend in batches if necessary). Add the beans, butter, sugar, and several twists of black pepper. Securely fasten the lid and blend the soup until smooth, being careful to avoid hot steam escaping from the lid."
+   },
+   {
+    "title": null,
+    "text": "Since canned tomatoes vary in flavor, I always end up tinkering with this soup a bit at the end. Taste and, if necessary, add a little more sugar (to balance out the acidity of the tomatoes), pepper, and salt (I usually add another ¼ to ½ teaspoon)."
+   },
+   {
+    "title": null,
+    "text": "If you’re adding basil, add it now. Briefly blend again, and serve hot. This soup keeps well for up to four days or so. You can freeze leftovers for up to 3 months."
+   }
+  ],
+  "notes": [
+   "This recipe comes from my cookbook, Love Real Food.",
+   "My favorite canned tomatoes: I always recommend Muir Glen tomatoes for their superior flavor. Plus, they’re organic.",
+   "Make it dairy free/vegan: Replace the butter with 1 tablespoon additional extra-virgin olive oil."
+  ],
+  "summary": "You’re going to love this classic tomato soup recipe! It’s super creamy, yet light and magically cream-less. Make this easy recipe tonight! Recipe yields 4 modest bowls; if you are serving a crowd or want leftovers, simply double the recipe.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

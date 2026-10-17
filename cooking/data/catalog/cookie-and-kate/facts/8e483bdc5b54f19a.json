@@ -1,6 +1,75 @@
 {
  "url": "https://cookieandkate.com/vegetarian-tortilla-soup/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Vegetarian Tortilla Soup",
+  "ingredients": [
+   "2 mild dried chili peppers* or 1 to 1 ½ teaspoons chili powder, to taste",
+   "1 can (15 ounces) diced or crushed tomatoes, fire-roasted if possible",
+   "2 tablespoons plus 2 teaspoons extra-virgin olive oil",
+   "1 large yellow or red onion, chopped",
+   "1 medium red bell pepper, chopped",
+   "¼ teaspoon fine salt, more to taste",
+   "4 cloves garlic, pressed or minced",
+   "2 teaspoons ground cumin",
+   "2 cans (15 ounces each) black beans, rinsed and drained, or 3 cups cooked black beans",
+   "4 cups (32 ounces) vegetable broth",
+   "4 corn tortillas, cut into 2-inch long, ¼-inch-wide strips",
+   "¼ cup chopped fresh cilantro, divided",
+   "1 to 2 tablespoons lime juice, to taste",
+   "Freshly ground black pepper, to taste",
+   "Garnish options: Thinly sliced and roughly chopped radish, diced ripe avocado, crumbled feta cheese or drizzle of sour cream"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "1 hour",
+  "categories": [
+   "Soup"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/vegetarian-tortilla-soup/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "If using dried chili peppers, toast them in a dry skillet over medium heat or directly over a gas flame with tongs, turning as needed. Toast until fragrant and turning darker all over—this can happen quickly, in just a minute or two. Set aside until the peppers are cool enough to handle, then roughly chop them, discarding the seeds and stem. Combine the canned tomatoes (along with their juices) and chopped peppers in the blender, and blend until smooth. Set aside."
+   },
+   {
+    "title": null,
+    "text": "In a medium Dutch oven or soup pot, warm 2 tablespoons olive oil over medium heat. Add the onion, bell pepper, and salt. Cook, stirring occasionally, until the onion is tender and turning translucent, about 5 to 7 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the garlic and cumin (and chili powder, if using) and cook until fragrant, about 30 seconds to 1 minute. Add the tomato-chili pepper blend (or just plain tomatoes, if going the chili powder route) and cook for a minute, while stirring, to bring out its best flavor."
+   },
+   {
+    "title": null,
+    "text": "Add the beans and broth, and stir to combine. Raise the mixture to medium-high and bring the mixture to a simmer, then reduce the heat as necessary to maintain a gentle simmer. Simmer for 30 minutes."
+   },
+   {
+    "title": null,
+    "text": "In the meantime, preheat the oven to 400 degrees Fahrenheit to make the crispy tortilla strips. Line a large, rimmed baking sheet with parchment paper for easy cleanup. On the baking sheet, toss the tortilla strips with the remaining 2 teaspoons olive oil and a sprinkle of salt until lightly and evenly coated. Bake until the strips are crisp and starting to turn golden, about 8 to 12 minutes, tossing halfway. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Stir most of the cilantro into the soup, reserving a bit for garnish. Stir in 1 tablespoon lime juice. Carefully taste the soup, and add more salt if the flavors don’t quite sing (I often add up to ¼ teaspoon salt). Add more lime juice if you’d like a little more zing."
+   },
+   {
+    "title": null,
+    "text": "Divide the soup into bowls. Top with crispy tortilla strips, the reserved cilantro and any additional garnishes of your choice. Leftovers will keep well for up to 5 days; rewarm individual servings and top with garnishes when serving. Or freeze individual portions for several months and add toppings after reheating."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from the Black Bean Tortilla Soup with Sweet Potatoes from my cookbook, Love Real Food.",
+   "Make it gluten free: Use certified gluten-free corn tortillas or tortilla chips.",
+   "Make it dairy free/vegan: Don’t top with cheese or sour cream.",
+   "Dried chili pepper options: Any mild chili pepper will do. Choose from pasilla peppers, ancho peppers, Anaheim (California) peppers, or New Mexico peppers (Chiles del Norte). I have tried this soup with Anaheim and New Mexican chilis and both were quite mild."
+  ],
+  "summary": "Warm up with a bowl of vegetarian tortilla soup, made with black beans instead of chicken. This soup recipe is so fresh and satisfying! Recipe yields 4 servings.",
+  "ingredient_groups": []
+ }
 }

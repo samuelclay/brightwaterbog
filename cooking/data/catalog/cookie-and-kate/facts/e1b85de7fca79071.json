@@ -1,6 +1,71 @@
 {
  "url": "https://cookieandkate.com/watercress-wild-rice-salad/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Watercress and Forbidden Rice Salad with Ginger Vinaigrette",
+  "ingredients": [
+   "1 inch nub of ginger, grated or finely chopped",
+   "3 cloves garlic, pressed",
+   "2 tablespoons rice wine vinegar",
+   "¼ cup quality peanut oil, olive oil or vegetable oil",
+   "2 teaspoons toasted sesame oil",
+   "2 ½ teaspoons reduced-sodium tamari or soy sauce",
+   "½ teaspoon agave nectar",
+   "big pinch red pepper flakes",
+   "1 big bunch watercress, very roughly chopped",
+   "1 yellow or orange bell pepper, chopped",
+   "2 to 3 stalks of celery, thinly sliced and roughly chopped",
+   "¼ cup green onion, chopped (include both white and green parts)",
+   "1 ½ cups shelled edamame",
+   "1 ½ cups cooked forbidden rice or wild rice (use ¾ cup rice to 1 ½ cup water)"
+  ],
+  "yield_text": "3-4 large salads",
+  "cook_time": "50 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/watercress-wild-rice-salad/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the dressing by whisking the ingredients together well, and set it aside. Make the dressing in advance (preferably an hour or more, but at least as soon as you start cooking your rice) in order to give the garlic and ginger time to bloom."
+   },
+   {
+    "title": null,
+    "text": "Rinse the rice in a mesh colander and then cook it in a rice cooker, according to your manufacturer’s instructions and the volumes given above. Alternatively, you can cook it on the stove. Pour 1 ½ cups of water into a pot and bring it a boil over high heat. Rinse the rice, then add it to the pan. Reduce heat to a simmer, cover and let it cook until all water is absorbed (35-40 minutes). If it gets too dry, add a splash or more of water as necessary. Fluff with a fork and allow to cool for 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Cook the edamame. Bring a pot of water to a boil and pour in frozen edamame. Reduce heat to a simmer and cook until the edamame is warmed through, about 4 to 5 minutes. Drain, and set the edamame aside to cool."
+   },
+   {
+    "title": null,
+    "text": "Toss all of the prepared produce in a big bowl. Once the edamame and rice have cooled, add them to the bowl and toss. Whisk your dressing one more time and pour into the bowl, and toss well. Serve at room temperature or chilled."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Chef Bill Forster’s cooking class.",
+   "Serving suggestions: Serves 3 to 4 as a light main dish or 6 as a side.",
+   "Make it gluten free: Use tamari instead of regular soy sauce.",
+   "Make it nut free: Use either olive oil or vegetable oil rather than the peanut oil.",
+   "Storage suggestions: Stored in the refrigerator, this salad will last for one to two days.",
+   "I erroneously called the rice I used wild rice. It’s actually forbidden rice, but I think wild rice would be lovely as well."
+  ],
+  "summary": "Beautiful Asian inspired, healthy green salad tossed in a simple ginger vinaigrette. Edamame and forbidden rice make it a great side dish or light main course.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Ginger Vinaigrette"
+   },
+   {
+    "at": 8,
+    "title": "Salad"
+   }
+  ]
+ }
 }

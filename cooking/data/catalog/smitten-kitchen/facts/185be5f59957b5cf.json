@@ -24,7 +24,32 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2010/05/shaved-asparagus-pizza/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat your oven to the hottest temperature it goes, or about 500 in most cases. If you use a pizza stone, have it in there."
+   },
+   {
+    "title": null,
+    "text": "Prepare asparagus: No need to snap off ends; they can be your “handles” as you peel the asparagus. Holding a single asparagus spear by its tough end, lay it flat on a cutting board and using a vegetable peeler (a Y-shaped peeler works best here, but I only had a standard, old and pretty dull peeler and it still worked; a mandolin would also work, in theory, but I found it more difficult to do it that way), create long shavings of asparagus by drawing the peeler from the base to the top of the stalk. Repeat with remaining stalks and don’t fret some pieces are unevenly thick (such as the end of the stalk, which might be too thin to peel); the mixed textures give a great character to the pizza. Discard tough ends. Toss peelings with olive oil, salt and pepper in a bowl and be sure to try one — I bet you can hardly believe how good raw asparagus can taste."
+   },
+   {
+    "title": null,
+    "text": "Assemble and bake pizza: Roll or stretch out your pizza dough to a 12-inch round. Either transfer to a floured or cornmeal-dusted pizza peel (if using a pizza stone in the oven) or to a floured or cornmeal-dusted tray to bake it on. Sprinkle pizza dough with Parmesan, then mozzarella. Pile asparagus on top. Bake pizza for 10 to 15 minutes, or until edges are browned, the cheese is bubbly and the asparagus might be lightly charred. Remove from the oven and immediately sprinkle with scallions, then slice and eat."
+   },
+   {
+    "title": null,
+    "text": "More ways to tweak this: Pinch of red pepper flakes (toss with asparagus), squeeze of lemon juice (over the asparagus, after you remove it from the oven), sprinkle of truffle salt or few drops of truffle oil (if you’ve got it; also at end) or up to 3 eggs (bake pizza for 8 minutes, break eggs on top, then finish cooking pizza and eggs together)"
+   },
+   {
+    "title": null,
+    "text": "Finally, if you’ve got a grill going, this pizza seems almost destined for it. When I grill pizza, I throw the whole dough down on an oiled grill and let it cook for a few minutes on the underside. I pull it off with tongs, flip it out onto a plate and pile the toppings on the grilled side, before sliding the raw side back onto the grill. Grill the pizza with the lid down for a few minutes, or until everything is bubbly and brown."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

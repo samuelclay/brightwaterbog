@@ -1,6 +1,44 @@
 {
  "url": "https://cookieandkate.com/chimichurri-chickpeas-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Chimichurri Chickpeas",
+  "ingredients": [
+   "2 cans (15 ounces each) chickpeas or 3 cups cooked chickpeas",
+   "1 cup homemade chimichurri sauce",
+   "¾ cup crumbled feta cheese"
+  ],
+  "yield_text": "4 cups",
+  "cook_time": "15 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/chimichurri-chickpeas-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Rinse and drain the chickpeas, and set them aside in a colander to continue draining. Prepare the chimichurri sauce as directed."
+   },
+   {
+    "title": null,
+    "text": "Place the drained chickpeas in a small serving bowl. Pour in 1 cup of the chimichurri sauce, and refrigerate the rest for another use. Add the feta cheese, reserving a small amount for garnish. Stir to combine."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle the remaining feta cheese on top. Serve immediately, or cover and refrigerate for later. This chickpea salad keeps well in the refrigerator for up to 5 days."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Omit the feta. You might enjoy a dollop of vegan sour cream, or a few chopped Kalamata olives, or a sprinkle of vegan Parmesan on top."
+  ],
+  "summary": "This hearty chickpea salad recipe features the bold, fresh flavors of chimichurri sauce and crumbled feta cheese. Keep it in the fridge for healthy snacking, packed lunches, and ready-to-go side dishes. Recipe yields about 6 side servings.",
+  "ingredient_groups": []
+ }
 }

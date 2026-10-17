@@ -1,6 +1,72 @@
 {
  "url": "https://cookieandkate.com/thai-red-curry-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Thai Red Curry with Vegetables",
+  "ingredients": [
+   "1 ¼ cups brown jasmine rice or long-grain brown rice, rinsed",
+   "1 tablespoon coconut oil or olive oil",
+   "1 small white onion, chopped (about 1 cup)",
+   "Pinch of salt, more to taste",
+   "1 tablespoon finely grated fresh ginger (about a 1-inch nub of ginger)",
+   "2 cloves garlic, pressed or minced",
+   "1 red bell pepper, sliced into thin 2-inch long strips",
+   "1 yellow, orange or green bell pepper, sliced into thin 2-inch long strips",
+   "3 carrots, peeled and sliced on the diagonal into ¼-inch thick rounds (about 1 cup)",
+   "2 tablespoons Thai red curry paste*",
+   "1 can (14 ounces) regular coconut milk**",
+   "½ cup water",
+   "1 ½ cups packed thinly sliced kale (tough ribs removed first), preferably the Tuscan/lacinato/dinosaur variety",
+   "1 ½ teaspoons coconut sugar or turbinado (raw) sugar or brown sugar",
+   "1 tablespoon tamari or soy sauce***",
+   "2 teaspoons rice vinegar or fresh lime juice",
+   "Garnishes/sides: handful of chopped fresh basil or cilantro, optional red pepper flakes, optional sriracha or chili garlic sauce"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "40 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Thai"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/thai-red-curry-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the rice, bring a large pot of water to boil. Add the rinsed rice and continue boiling for 30 minutes, reducing heat as necessary to prevent overflow. Remove from heat, drain the rice and return the rice to pot. Cover and let the rice rest for 10 minutes or longer, until you’re ready to serve. Just before serving, season the rice to taste with salt and fluff it with a fork."
+   },
+   {
+    "title": null,
+    "text": "To make the curry, warm a large skillet with deep sides over medium heat. Once it’s hot, add the oil. Add the onion and a sprinkle of salt and cook, stirring often, until the onion has softened and is turning translucent, about 5 minutes. Add the ginger and garlic and cook until fragrant, about 30 seconds, while stirring continuously."
+   },
+   {
+    "title": null,
+    "text": "Add the bell peppers and carrots. Cook until the bell peppers are fork-tender, 3 to 5 more minutes, stirring occasionally. Then add the curry paste and cook, stirring often, for 2 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the coconut milk, water, kale and sugar, and stir to combine. Bring the mixture to a simmer over medium heat. Reduce heat as necessary to maintain a gentle simmer and cook until the peppers, carrots and kale have softened to your liking, about 5 to 10 minutes, stirring occasionally."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from the heat and season with tamari and rice vinegar. Add salt (I added ¼ teaspoon for optimal flavor), to taste. If the curry needs a little more punch, add ½ teaspoon more tamari, or for more acidity, add ½ teaspoon more rice vinegar. Divide rice and curry into bowls and garnish with chopped cilantro and a sprinkle of red pepper flakes, if you’d like. If you love spicy curries, serve with sriracha or chili garlic sauce on the side."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Thai green curry recipe.",
+   "*Red Thai curry paste: Look for it in the Asian section of the grocery store. I like Thai Kitchen brand, which is vegetarian. Not all brands are (they can contain fish sauce and/or shrimp paste).",
+   "**Coconut milk: For rich and creamy curry, you need to use regular (not light/reduced fat) coconut milk that contains guar gum. My favorite is Native Forest Classic. The varieties without guar gum (which are becoming more widely available) aren’t nearly as creamy, even though their fat content is the same.",
+   "***Make it gluten free: Be sure to use gluten-free tamari instead of regular soy sauce.",
+   "If you want to add tofu: I’d suggest baking it first and adding it with the coconut milk in step 4. If you add raw tofu, it will soak up too much of the liquid, and baking it greatly improves the texture, anyway.",
+   "Update 8/10/2016: I tweaked this recipe a tiny bit to make it richer and more flavorful (decreased water from ¾ cup to ½ cup, and increased tamari to 1 tablespoon and vinegar to 2 teaspoons). I also updated the post with better photos!",
+   "If you love this recipe: Be sure to check out my other Thai-inspired recipes here! Don’t miss the Thai pineapple fried rice."
+  ],
+  "summary": "This Thai red curry recipe is so easy to make at home! It’s much tastier than takeout and healthier, too. Feel free to change up the vegetables (you’ll need about 3 cups total) and skip the kale if you want a more traditional Thai curry. This recipe is vegetarian, vegan and gluten free for all to enjoy. Recipe yields 4 servings.",
+  "ingredient_groups": []
+ }
 }

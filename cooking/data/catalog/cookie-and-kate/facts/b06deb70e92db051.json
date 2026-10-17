@@ -1,6 +1,60 @@
 {
  "url": "https://cookieandkate.com/strawberry-basil-and-goat-cheese-panini/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Strawberry, Basil and Goat Cheese Panini",
+  "ingredients": [
+   "2 slices of whole wheat levain bread, thinly sliced",
+   "1.5 ounces goat cheese",
+   "3 to 4 strawberries",
+   "a few basil leaves, whole or roughly chopped",
+   "black pepper, freshly ground",
+   "1 tablespoon butter, or less",
+   "⅔ cup balsamic vinegar",
+   "⅓ cup honey"
+  ],
+  "yield_text": "1",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Sandwich"
+  ],
+  "cuisines": [
+   "N/A"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/strawberry-basil-and-goat-cheese-panini/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Spread a layer of goat cheese over both slices of bread. Slice your strawberries relatively thinly by cutting off slices from the outside of the strawberries, leaving the center behind. Spread strawberries over one slice of bread, and basil on the other. Sprinkle both sides with black pepper, and lay the basil slice face down on top of the strawberry slice."
+   },
+   {
+    "title": null,
+    "text": "Heat a small to medium skillet (cast iron is best) over medium heat. Melt one to two teaspoons of butter in the skillet, then add the sandwich. Cover it with a plate or appropriately sized dish and weigh it down with something heavy, like canned beans or a cast iron skillet. Cook until the bottom of the bread is lightly browned, about two to three minutes, then lift the sandwich from the pan, add another pat of butter, let it melt, and return the sandwich to repeat on the other side. Slice each sandwich in half and serve warm."
+   },
+   {
+    "title": null,
+    "text": "To make the balsamic honey sauce, combine the balsamic vinegar and honey in a small saucepan over medium-low heat. Simmer, stirring constantly, until the liquid is reduced by about half (15 minutes or more). Pour the liquid into a small bowl to cool."
+   }
+  ],
+  "notes": [
+   "Panini adapted from The Food Matters Cookbook by Mark Bittman. Balsamic honey sauce from Sinfully Easy Delicious Desserts by Alice Medrich.",
+   "Preparation tip: I recommend making the balsamic honey sauce first. Save leftovers for drizzling over Greek yogurt, vanilla ice cream, pizza, peaches and berries.",
+   "Scale this recipe: If you’d like to make multiple sandwiches at once, you might try Bittman’s other cooking method: preheat the oven to 400 degrees Fahrenheit and butter your slices of bread on one side. Place the bread, butter side down, on a baking sheet and spread the topsides with goat cheese. Add fillings as directed below, and top with another slice of bread, spread with goat cheese on the underside and butter on the topside. Cover the sandwiches with another baking sheet and weigh the sheet down with something heavy, like a cast-iron skillet or canned goods, and let it sit for 5 minutes. Remove the weight and the top baking sheet and bake the sandwiches until the bottom of the bread is lightly browned, about 5 minutes, and then repeat on the other side."
+  ],
+  "summary": "A simple grilled sandwich with gourmet flavor, served with a side of balsamic honey sauce. No panini press required!",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Panini"
+   },
+   {
+    "at": 6,
+    "title": "Balsamic Honey Sauce"
+   }
+  ]
+ }
 }

@@ -1,6 +1,50 @@
 {
  "url": "https://cookieandkate.com/pickled-jalapenos/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Pickled Jalapeños",
+  "ingredients": [
+   "8 ounces fresh jalapeños (about 5 large or 1 ¾ cup sliced—choose larger jalapeños for less spicy pickles)",
+   "½ cup distilled white vinegar",
+   "½ cup water",
+   "1 clove garlic, peeled and smashed (optional)",
+   "½ teaspoon fine salt"
+  ],
+  "yield_text": "1 pint",
+  "cook_time": "15 minutes (plus 4 hour chill time)",
+  "categories": [
+   "Condiment"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pickled-jalapenos/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, prepare your peppers: You may want to wear gloves to protect your fingers from feeling burned. Slice off the stem ends of each jalapeño. For less spicy pickles, use a grapefruit spoon or small spoon to release the membranes where they attach to the inside of the pepper. Gently scoop or tap until the membranes and seeds fall out of the pepper, then discard those pieces. Slice the jalapeños into thin rounds with a mandoline or chef’s knife."
+   },
+   {
+    "title": null,
+    "text": "To test the spice level of your jalapeños, sample tiny bites from several peppers. If they’re much too spicy, place the sliced jalapenos into a bowl and fill it with cool water. Let the jalapenos soak for 30 minutes, then drain them well. (You could even sample again at this point and soak for another 30 minutes if they’re still terribly spicy.)"
+   },
+   {
+    "title": null,
+    "text": "Pour the vinegar, water, garlic (if using), and salt into a medium-sized glass jar. Stir to combine. Add the jalapenos to the jar, securely fasten the lid, and give the jar a gentle shake. It may seem like you don’t have enough liquid, but the jalapenos sink over time."
+   },
+   {
+    "title": null,
+    "text": "Refrigerate for at least 4 hours for fully pickled peppers. If you think of it during that time, give the peppers another gentle shimmy to help distribute them into the liquid. Pickled jalapeños will keep for up to 1 month in the refrigerator."
+   }
+  ],
+  "notes": [
+   "Quicker pickles: Warm the vinegar, water and salt in a small saucepan until it comes to a simmer. Pour it over the peppers, tuck in the smashed garlic (if using), and let the mixture come to room temperature, about 30 minutes. At that point, the peppers should taste pretty well pickled. Refrigerate for later."
+  ],
+  "summary": "Learn how to make the best pickled jalapeños with this recipe! Enjoy pickled jalapeños that are fresh, crisp and spicy—but not too spicy. Recipe yields about 1 pint.",
+  "ingredient_groups": []
+ }
 }

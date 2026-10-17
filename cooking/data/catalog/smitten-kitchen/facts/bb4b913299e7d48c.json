@@ -27,7 +27,58 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2008/11/mushroom-and-barley-pie/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make filling:"
+   },
+   {
+    "title": null,
+    "text": "If using farro, cover it with cold water in a bowl and soak 30 minutes, then drain in a colander, discarding soaking water. Bring farro, water (3 cups), and 1/4 teaspoon salt to a boil in a medium saucepan, then reduce heat and simmer, uncovered, until tender, 15 to 20 minutes. Drain."
+   },
+   {
+    "title": null,
+    "text": "If using barley, no need to soak it. Simmer unsoaked barley in 6 cups water with 1/4 teaspoon salt for 45 minutes. Drain."
+   },
+   {
+    "title": null,
+    "text": "While barley or farro cooks, melt butter with oil in a 12-inch heavy skillet over medium-high heat, then cook garlic and half of scallions, stirring frequently, 2 to 3 minutes. Add mushrooms, 1 teaspoon salt, and 1/2 teaspoon pepper and cook, stirring occasionally, until just softened, about 5 minutes. Add Madeira and simmer 1 minute. Transfer to a bowl and stir in barley or farro, then cool completely."
+   },
+   {
+    "title": null,
+    "text": "Stir in ricotta, remaining scallions, and salt and pepper to taste."
+   },
+   {
+    "title": null,
+    "text": "Roll out pastry while filling cools:"
+   },
+   {
+    "title": null,
+    "text": "If pastry is in 1 piece, cut into 2 equal pieces. Roll out each piece on a lightly floured surface into an 11-inch square. Stack squares on a parchment-paper-lined baking sheet with a second sheet of parchment between them, then cover with plastic wrap and chill at least 30 minutes."
+   },
+   {
+    "title": null,
+    "text": "Assemble and bake pie:"
+   },
+   {
+    "title": null,
+    "text": "Put a large baking sheet on rack in middle of oven and preheat oven to 400°F."
+   },
+   {
+    "title": null,
+    "text": "Set aside top square of pastry on parchment. Spread cooled filling evenly over pastry on baking sheet, leaving a 1-inch border. Brush border with some of egg wash, and, using parchment, invert second square on top, lightly pressing to seal border. Brush top with remaining egg wash, then crimp border with a fork and trim with a pizza wheel or sharp knife."
+   },
+   {
+    "title": null,
+    "text": "Cut a few small steam vents in top of pie and decoratively score pastry. Slide pie on parchment onto preheated baking sheet in oven and bake until puffed and deep golden brown, about 45 minutes."
+   }
+  ],
+  "notes": [
+   "Do ahead: The filling can be made and pastry rolled out 1 day ahead and chilled. Or, you can assemble the pie up to three hours ahead of time and chill it uncovered until you’re ready to bake it."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

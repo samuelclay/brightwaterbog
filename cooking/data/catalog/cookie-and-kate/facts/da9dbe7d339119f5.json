@@ -33,7 +33,42 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/veggie-breakfast-tacos/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the veggie filling: In a large skillet over medium heat, heat 2 teaspoons olive until shimmering. Add onions and a dash of salt. Cook, stirring occasionally, until the onions are softened and turning translucent, about 5 minutes. Add the garlic and a pinch of red pepper flakes, stir, and cook for another 30 seconds. Add the zucchini, yellow squash and bell pepper. Cook, stirring often, until the squash is softened and cooked through but not mushy, about 7 minutes. Remove the pan from heat and squeeze the juice of ½ of a lime over the veggies. Season to taste with salt, stir to combine, then set the pan aside."
+   },
+   {
+    "title": null,
+    "text": "To scramble the eggs: Scramble the eggs in a bowl with a few dashes of hot sauce, a sprinkling of black pepper and a pinch of salt. Scramble over medium-low heat until the eggs are lightly set. Fold in the tomatoes and transfer the scrambled mixture to a bowl."
+   },
+   {
+    "title": null,
+    "text": "To prepare the tacos: Warm each corn tortilla in a pan over medium heat, flipping occasionally. Transfer warmed tortillas to a plate and cover with a tea towel to keep them warm. Top each tortilla with scrambled eggs, followed by veggies, and garnish with a sprinkle of jalapeño, feta and cilantro. Finish with a few dashes of your favorite hot sauce and/or salsa."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Use certified gluten-free/100% corn tortillas.",
+   "Make it tomato free: Omit the tomatoes and add sliced avocado instead.",
+   "Storage suggestions: Individual components (veggie mixture and scrambled eggs) keep well in the fridge for a few days. Just reheat and assemble tacos before eating.",
+   "Change it up: Substitute seasonal veggies for those you see listed here."
+  ],
+  "summary": "Simple, healthy vegetarian breakfast tacos that are full of fresh flavor! You can make these “breakfast” tacos any time of day. I scrambled the eggs, but feel free to fry your eggs if you prefer. Recipe below yields around 6 tacos, depending on how much filling you put in each one.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Veggie filling"
+   },
+   {
+    "at": 9,
+    "title": "Scrambled eggs"
+   },
+   {
+    "at": 13,
+    "title": "Suggested garnishes, etc."
+   }
+  ]
  },
  "parser_version": 2
 }

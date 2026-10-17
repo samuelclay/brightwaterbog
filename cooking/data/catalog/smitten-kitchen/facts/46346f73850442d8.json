@@ -30,7 +30,30 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2022/08/corn-butter-farro/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat a medium saucepan (3 quarts) over medium-high heat for a minute. Once it’s hot, add 1 tablespoon of the butter and 1 tablespoon olive oil and warm. Add corn and 1 teaspoon salt and sauté for 4 to 5 minutes, just until the corn softens a bit. Scoop half of corn into the work bowl of a food processor or blender and set aside. Add onion, garlic, farro, black pepper and red pepper flakes to corn in pot and cook, stirring, for 1 to 2 minutes, just to start softening the ingredients. Add water, another 1 teaspoon salt, more pepper, and bring to a boil. Reduce heat to a low simmer, cover, and cook for 30 minutes [or whatever cooking time the package of farro suggests], until the farro is tender with a slight chew and the water has mostly absorbed."
+   },
+   {
+    "title": null,
+    "text": "[If you’re getting a lead on dinner, this is a great time to pause the recipe. Just let it sit with the lid on for an hour or two, until needed. Rewarm before continuing.]"
+   },
+   {
+    "title": null,
+    "text": "Add remaining 2 to 3 tablespoons of butter — the correct amount is whatever is in your heart that day; both levels work — to the food processor and blend with the corn until absolutely smooth. Taste and add more salt (I usually add another 1/2 teaspoon here), blending to mix it."
+   },
+   {
+    "title": null,
+    "text": "When the farro is tender, taste the mixture for seasoning, adjusting as needed with more salt, black pepper, or red pepper flakes. If you have a lot of leftover cooking liquid, use a slotted spoon to hold back the grains and pour or ladle some off. With the pan off the heat, stir in the blended corn butter. Transfer to a serving bowl and finish with scallions or chives and parmesan, if you wish."
+   }
+  ],
+  "notes": [
+   "The single thing I need you to promise me is that you will season this well at each stage with salt, black pepper, and red pepper flakes too if you’d like more of a kick. When an ingredient list is short, the correct level of seasoning will make an even bigger impact. If you’d like to use broth instead of water, you absolutely can but I just used water each time and didn’t feel that I was missing any flavor. Farro cooking times can vary between brands; when in doubt, default to the cooking time listed on the package (be it 10-minute or 60-minute farro)."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

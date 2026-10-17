@@ -25,7 +25,16 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2014/07/three-ingredient-summertime-salsa/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Salsas made with fresh, instead of canned, tomatoes have a complexity of flavor unmatched by anything in a jar. You can char these under your oven’s broiler or even on a grill. Although this is wonderful with just the three core ingredients, I like to add a halved white onion to the tray for charring, and blend it in, and finish the salsa with lime juice. A spoonful of chipotle from a can (more or less to taste) would also be delicious here, or a handful of fresh cilantro. Don’t forget to season the salsa well. Since jalapeños can range wildly in heat level, I recommend cutting the tiniest bevel off the end of each and trying it to get an idea of how hot that pepper will be. If it’s very strong, you might find you only need one here. Or five, if you’re my husband."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

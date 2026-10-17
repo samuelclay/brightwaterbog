@@ -34,7 +34,40 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/quick-dal-makhani-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large pot or Dutch oven over medium-high heat, warm the oil until shimmering. Add the onion, garlic, ginger and jalapeño, and cook until softened, stirring occasionally, about 4 to 6 minutes."
+   },
+   {
+    "title": null,
+    "text": "Stir in the garam masala, cumin, coriander and salt. Season generously with black pepper. Cook, while stirring, for 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Add the tomatoes and cook for 1 more minute, while stirring. Add the lentils, kidney beans, water and bay leaf. Raise the heat to medium-high and bring the mixture to a simmer. Reduce the heat to medium-low and simmer until the lentils are nice and tender, stirring occasionally, about 35 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the bay leaf. Transfer 2 cups of the mixture (make sure to get some liquid with the lentils) to a blender. Securely fasten the lid. Blend until smooth, about 1 minute, being careful to avoid the hot steam rising from the blender lid."
+   },
+   {
+    "title": null,
+    "text": "Transfer the blended mixture back to the pot and stir to combine. Add the lime juice and season to taste with salt (I usually add ½ teaspoon) and pepper. If you would like to temper the flavor and make the mixture even more creamy, stir in a splash of half-and-half or coconut milk, to taste."
+   },
+   {
+    "title": null,
+    "text": "Serve in bowls, with chopped cilantro and a lime wedge on top. If desired, serve rice or naan on the side. Leftovers keep well, refrigerated, for up to 5 days."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Use coconut milk instead of half-and-half, or use none at all.",
+   "*Change it up: While untraditional, I also love this recipe with regular curry powder instead of garam masala.",
+   "**Lentil note: This recipe is not designed for traditional urad dal (whole black gram lentils), which take forever to cook. Standard lentils (the brownish/greenish kind) will work in place of the black lentils. Just keep an eye on them, since they may be done cooking about 5 to 10 minutes sooner."
+  ],
+  "summary": "This dal makhani is rich, creamy and loaded with flavor. It’s also lighter and quicker to make than other recipes! Recipe yields 4 servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -18,7 +18,30 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/roasted-acorn-squash-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 400 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper for easy clean-up."
+   },
+   {
+    "title": null,
+    "text": "To prepare the squash, use a sharp chef’s knife to slice through it from the tip to the stem. I find it easiest to pierce the squash in the center along a depression line, then cut through the tip, and finish by slicing through the top portion just next to the stem. Use a large spoon to scoop out the seeds and stringy bits inside, and discard those pieces."
+   },
+   {
+    "title": null,
+    "text": "Place the squash halves cut side up on the parchment-lined pan. Drizzle the olive oil over the squash, and sprinkle with the salt. Rub the oil into the cut sides of the squash, then turn them over so the cut sides are against the pan."
+   },
+   {
+    "title": null,
+    "text": "Bake until the squash flesh is very easily pierced through by a fork, about 30 to 45 minutes depending on the size of your squash. Add any desired toppings, and serve warm."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Vegetarian Stuffed Acorn Squash."
+  ],
+  "summary": "Learn how to roast acorn squash with this simple recipe! When prepared properly, acorn squash can be so delicious. Recipe yields 4 side servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

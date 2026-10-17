@@ -1,6 +1,79 @@
 {
  "url": "https://cookieandkate.com/heirloom-blt-salad-with-coconut-bacon/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Heirloom BLT Salad (with Coconut Bacon!)",
+  "ingredients": [
+   "1 bunch kale",
+   "2 or more large heirloom tomatoes, cored and sliced into wedges",
+   "2 cups worth of whole grain bread, sliced or torn into bite-sized pieces",
+   "1 tablespoon olive oil",
+   "sea salt",
+   "3 cups large, unsweetened coconut flakes (not regular shredded coconut!)",
+   "3 tablespoons reduced sodium tamari soy sauce",
+   "2 ½ tablespoons Liquid Smoke",
+   "1 ½ tablespoons maple syrup",
+   "¼ cup tahini",
+   "1 small lemon, juiced",
+   "1 tablespoon white miso (optional)",
+   "1 to 2 garlic cloves, pressed or minced",
+   "1 ½ teaspoons maple syrup",
+   "Dash of salt",
+   "⅓ cup water"
+  ],
+  "yield_text": "2 to 4",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/heirloom-blt-salad-with-coconut-bacon/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit with racks in the top and middle positions. Make the coconut bacon: line a half sheet pan or large rimmed baking sheet with parchment paper. Drizzle the coconut flakes with tamari, Liquid Smoke and maple syrup and mix well. Spread the flakes into an even layer on the parchment paper. Bake on the middle rack for 12 to 14 minutes, flipping halfway, until flakes are mostly dry. They will continue to crisp up as they cool."
+   },
+   {
+    "title": null,
+    "text": "Make the croutons: toss the bread pieces with 1 tablespoon olive oil and a sprinkle of salt. Spread in a single layer on a lined baking baking sheet and bake on the top rack for up to 15 minutes, tossing halfway, until the croutons are crisp and turning golden on the edges."
+   },
+   {
+    "title": null,
+    "text": "Make the dressing: whisk together the tahini, lemon juice, miso, garlic, maple syrup and a dash of sea salt. Then whisk in ⅓ cup water."
+   },
+   {
+    "title": null,
+    "text": "Prepare the kale: use a chef’s knife to remove the tough ribs from the kale, then discard them. Chop the kale leaves into small, bite-sized pieces and transfer them to a mixing bowl. Sprinkle the kale with a dash of sea salt and use your hands to massage the kale by scrunching up the leaves in your hands and releasing until the kale is a darker green and fragrant."
+   },
+   {
+    "title": null,
+    "text": "Drizzle the kale with enough dressing to lightly coat the greens and toss well. Add the sliced tomatoes, croutons, and a couple handfuls of coconut bacon. Toss and serve."
+   }
+  ],
+  "notes": [
+   "Coconut bacon recipe adapted from VegWeb.",
+   "Yields 2 large salads or 4 side salads.",
+   "Leftover salad components are best stored separately, as the croutons will get soggy under the dressing and the tomatoes will get mealy in the refrigerator.",
+   "Store leftover coconut bacon in a freezer-safe bag in the freezer. It should keep for several months!"
+  ],
+  "summary": "Raw kale salad with heirloom tomatoes, homemade coconut bacon and whole grain croutons, tossed in a garlicky lemon tahini dressing. This salad is vegan (and gluten free, if you skip the croutons).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 5,
+    "title": "Coconut bacon"
+   },
+   {
+    "at": 9,
+    "title": "Lemon-tahini dressing"
+   }
+  ]
+ }
 }

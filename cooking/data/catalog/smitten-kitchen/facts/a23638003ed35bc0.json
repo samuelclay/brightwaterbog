@@ -25,7 +25,36 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2009/12/creamed-mushrooms-on-chive-butter-toast/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Clean excess dirt from mushrooms. Slice mushrooms in half lengthwise and brush away any grit; chop into 1/4-inch pieces."
+   },
+   {
+    "title": null,
+    "text": "Melt butter in a large skillet over medium-high heat. Add shallots and sauté until very limp, about three minutes. Add mushrooms and cook, stirring, for about five minutes. Add wine, reduce heat to medium, cover, and cook for about five minutes more. (There are a lot of “abouts” on the cooking times because I found that mine took less time at each step; however, I also may have chopped my mushrooms and shallots smaller than the recommended size.)"
+   },
+   {
+    "title": null,
+    "text": "Uncover pot and continue cooking, stirring occasionally, until most of the liquid has evaporated, about two minutes. Stir in cream; simmer until slightly thickened, two minutes longer. Season with salt and pepper to taste."
+   },
+   {
+    "title": null,
+    "text": "Toast bread and spread with butter. (Clark recommended four slices of brioche, to make eight toasts, but I had enough mushrooms for almost triple that.) Cut each slice in half diagonally and sprinkle lightly with chives. Top each toast triangle with some mushroom mixture. Sprinkle with additional chives, garnish with sea salt, and serve."
+   },
+   {
+    "title": null,
+    "text": "Other uses for these mushrooms: I’d imagine they’d make a wonderful simple pasta sauce or, of course, something delicious to prop a poached egg upon, toast and all."
+   },
+   {
+    "title": null,
+    "text": "[Update: Thanks to the six (!) people who have noted that the theory that mushrooms absorb too much water to be washed has been rejected over time. They do absorb water, but not enough that they should throw off a dish. Wash away!]"
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

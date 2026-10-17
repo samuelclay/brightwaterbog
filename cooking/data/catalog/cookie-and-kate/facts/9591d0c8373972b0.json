@@ -29,7 +29,46 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/fresh-herbed-avocado-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Since avocados start browning once they’re cut, we’re going to prepare everything else first. Toast the pepitas in a large skillet over medium heat, stirring often (don’t let them burn!), until they’re starting to turn golden on the edges and make little popping noises, about 3 to 5 minutes. Remove the skillet from the heat and stir in the chili powder, olive oil and pinch of salt. Set aside to cool."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, combine the chopped radish, green onion, herbs and jalapeño in a bowl, and set aside."
+   },
+   {
+    "title": null,
+    "text": "To prepare the dressing, whisk together the lime juice, olive oil, honey and salt in a small bowl. Set aside."
+   },
+   {
+    "title": null,
+    "text": "You can slice or dice the avocados however you’d like, but for the prettiest slices (like mine), first cut the avocados in half and remove the pits. Then cut the halves in half again to make long quarters. Peel the avocado skin off each quarter and carefully slice it into long strips."
+   },
+   {
+    "title": null,
+    "text": "To assemble, place the avocado in a medium serving bowl or platter. Drizzle the dressing all over them. Stir the toasted pepitas into the herb mix, then spoon it over the avocados. Finish the salad with optional flaky salt and/or lime zest."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Melissa Clark’s avocado salad with herbs and capers.",
+   "Make it vegan: Use maple syrup instead of honey.",
+   "Storage suggestions: This salad is best consumed within an hour or two. However, if you have leftovers, you can press plastic wrap against the top and store it in the fridge for a day or so (the avocado will likely brown a bit but it won’t affect the flavor much).",
+   "Change it up: You might really enjoy crumbled feta or Cotija cheese on this salad."
+  ],
+  "summary": "This salad is for avocado lovers! Sliced avocado, tossed in a lime-honey dressing, covered in a super fresh mix of herbs, radishes and toasted pepitas. Recipe yields 4 generous or 6 smaller servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Herb-pepita mix"
+   },
+   {
+    "at": 8,
+    "title": "Everything else"
+   }
+  ]
  },
  "parser_version": 2
 }

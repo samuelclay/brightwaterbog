@@ -22,7 +22,37 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/ruby-red-grapefruit-and-rosemary-honey-cocktail/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, juice the grapefruits and make the honey simple syrup. Pour the honey and water into a small saucepan and warm over medium heat. Use a whisk to blend the honey into the water and remove from heat (there is no need to bring the mixture to a simmer, this process should only take a couple of minutes)."
+   },
+   {
+    "title": null,
+    "text": "Fill a small cocktail shaker with ice. Pour in the grapefruit juice, vodka, lemon juice and honey simple syrup. Top with a sprig of rosemary and a dash of salt. Put on the lid and shake until the mixture is thoroughly chilled, about 20 seconds. Strain into a martini glass and garnish with a small sprig of rosemary. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Gin would also be lovely in this cocktail.",
+   "Leftover honey simple syrup should keep well, refrigerated and covered, for several weeks.",
+   "You can use store-bought grapefruit juice if you’d like, but freshly squeezed juice tastes better."
+  ],
+  "summary": "A beautiful and light winter cocktail made with fresh grapefruit juice, vodka, lemon, rosemary and honey.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Honey simple syrup"
+   },
+   {
+    "at": 2,
+    "title": "Ingredients per drink"
+   },
+   {
+    "at": 8,
+    "title": "Garnish, per drink"
+   }
+  ]
  },
  "parser_version": 2
 }

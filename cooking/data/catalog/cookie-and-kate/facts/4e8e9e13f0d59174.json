@@ -25,7 +25,30 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/easy-refried-beans-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium saucepan over medium heat, warm the olive oil until shimmering. Add the onions and salt. Cook, stirring occasionally, until the onions have softened and are turning translucent, about 5 to 8 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the garlic, chili powder and cumin. Cook, stirring constantly, until fragrant, about 30 seconds. Pour in the drained beans and water. Stir, cover and cook for 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Reduce the heat to low and remove the lid. Use a potato masher or the back of a fork to mash up about at least half of the beans, until you reach your desired consistency. Continue to cook the beans, uncovered, stirring often, for 3 more minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the saucepan from the heat and stir in the cilantro and lime juice. Taste, and add more salt and lime juice if necessary. If the beans seem dry, add a very small splash of water and stir to combine. Cover until you’re ready to serve."
+   }
+  ],
+  "notes": [
+   "Change it up: Substitute black beans for the pinto beans."
+  ],
+  "summary": "These refried beans are delicious and so easy to make. This refried bean recipe is quick, too—use canned beans and they’re ready in 25 minutes! Plus, these beans are healthy, vegan and gluten free. Recipe yields 2 ½ cups refried beans (21 ounces), enough for 5 servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

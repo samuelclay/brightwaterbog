@@ -22,7 +22,22 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/summertime-fruit-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium serving bowl, combine the strawberries, peaches, blueberries and basil. Drizzle the lemon juice, maple syrup and balsamic vinegar on top. Gently toss to combine."
+   },
+   {
+    "title": null,
+    "text": "Serve immediately, or chill for later. This salad is best enjoyed promptly, but will keep well for about 2 days in the refrigerator (pour off excess juices if necessary)."
+   }
+  ],
+  "notes": [
+   "Make it vegan: Be sure to use maple syrup, not honey."
+  ],
+  "summary": "This simple fruit salad recipe is fresh and healthy! It features strawberries, peaches and blueberries with a little balsamic vinegar and basil. It’s a delicious side dish or dessert (for dessert, you can serve it as is or add some whipped cream to make it more decadent). Recipe yields 6 side servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

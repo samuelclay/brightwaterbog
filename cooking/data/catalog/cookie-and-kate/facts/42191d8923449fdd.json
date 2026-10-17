@@ -21,7 +21,26 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/sweet-potato-hash/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper so the vegetables don’t stick."
+   },
+   {
+    "title": null,
+    "text": "Combine the prepared potatoes, bell pepper and onion. Drizzle the olive oil over the vegetables, then sprinkle the garlic powder, optional chili powder, salt, and several twists of freshly ground black pepper over them. Toss until they are evenly coated in olive oil, and no powdery spots from the garlic powder remain. Arrange them in an even layer on the sheet (it’s fine if the veggies are snug but if the veggies are on top of one another, you’ll need to split them across two pans, both lined with parchment paper)."
+   },
+   {
+    "title": null,
+    "text": "Bake until the vegetables are tender and deeply golden on the edges, about 55 to 65 minutes, stirring every fifteen minutes for even browning. Discard any overly dark onion pieces, then serve as desired. Leftovers will keep for up to 5 days in the refrigerator. Gently warm in the microwave or oven before serving."
+   }
+  ],
+  "notes": [
+   "*Onion note: If your onion is closer to size medium or large, reserve a relative portion of the onion for another use (and use it promptly, as cut onions lose their flavor promptly). Too much onion here can crowd the baking sheet."
+  ],
+  "summary": "This sweet potato hash recipe is roasted in the oven! It’s a hearty side dish or breakfast component. Serve it with eggs and so much more. Recipe yields 4 to 6 servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

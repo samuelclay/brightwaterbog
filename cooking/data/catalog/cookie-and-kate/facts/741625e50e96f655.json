@@ -1,6 +1,72 @@
 {
  "url": "https://cookieandkate.com/gluten-free-peach-pancakes/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Caramelized Peach and Oat Pancakes",
+  "ingredients": [
+   "⅔ cup plain yogurt",
+   "2 tablespoons butter or coconut oil, melted",
+   "1 tablespoon lemon juice (about 1 small lemon, juiced)",
+   "1 tablespoon honey or maple syrup",
+   "2 teaspoons vanilla extract",
+   "2 eggs",
+   "1 cup oat flour*",
+   "½ teaspoon baking soda",
+   "Slightly heaping ¼ teaspoon salt",
+   "½ teaspoon ground ginger",
+   "¼ teaspoon ground cinnamon",
+   "1 peach, halved, pitted and very thinly sliced (into about ⅛-inch slices)"
+  ],
+  "yield_text": "2 to 4",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/gluten-free-peach-pancakes/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small-ish bowl, stir together the yogurt, butter, lemon juice, honey and vanilla extract. Beat in the eggs."
+   },
+   {
+    "title": null,
+    "text": "In a medium bowl, whisk together the oat flour, baking soda, salt, ginger and cinnamon."
+   },
+   {
+    "title": null,
+    "text": "Form a well in the center of the dry ingredients and pour in the wet ingredients. With a big spoon, stir just until the dry ingredients are thoroughly moistened. Do not overmix or you’ll run the risk of getting tough pancakes! Let the batter sit for 10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Heat a heavy cast iron skillet or nonstick griddle over medium-low heat. If you’re using an electric skillet, preheat it to 350 degrees Fahrenheit."
+   },
+   {
+    "title": null,
+    "text": "You’re ready to start cooking your pancakes once the surface of the pan is hot enough that a drop of water sizzles on contact. If necessary, lightly oil the cooking surface with butter or cooking spray (I don’t oil the surface of my non-stick griddle and my pancakes turned out great). Give the batter one gentle stir, then scoop a scant ¼ cup batter onto the pan. Place two to 3 peach slices on top of the pancake. Let the pancake cook until the top edges of the pancakes are more matte than shiny and the underside is golden, about 3 to 4 minutes."
+   },
+   {
+    "title": null,
+    "text": "Once the bottom side has cooked sufficiently, flip it with a spatula and cook for another couple of minutes or so, until golden brown on both sides. You may need to adjust the heat up or down at this point."
+   },
+   {
+    "title": null,
+    "text": "Serve the pancakes immediately or keep warm in a 200 degree Fahrenheit oven. Leftover pancakes keep well in the fridge, covered, for several days. Freeze them for up to 3 months."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my blueberry lemon yogurt pancakes.",
+   "Make it gluten free: If you want gluten-free pancakes, make sure your oat flour is certified gluten free.",
+   "Change it up: I think nectarines would work great in place of the peaches. I also want to try these pancakes with apples and pears this fall!",
+   "*How to make oat flour: Pour one cup of oats (old-fashioned or quick-cooking) into a food processor and process until it is ground well. One cup before and after grinding measures just about the same, believe it or not! Learn more here."
+  ],
+  "summary": "Thinly sliced peaches caramelize as they cook in these delicious, gluten-free, oat and yogurt pancakes. They’re peach upside-down pancakes! No need to peel your peaches, unless you want to. Recipe yields about 8 pancakes.",
+  "ingredient_groups": []
+ }
 }

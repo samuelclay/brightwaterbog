@@ -29,7 +29,44 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/roasted-mushrooms-with-herbed-quinoa/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the mushrooms: Preheat the oven to 425°F. Line a large rimmed baking sheet with parchment paper for easy cleanup (the rim is important, as the mushrooms release a lot of juices while roasting—use a large baking dish if you don’t have a rimmed baking sheet)."
+   },
+   {
+    "title": null,
+    "text": "Quarter the large mushrooms, halve the medium mushrooms, leave small mushrooms whole, and place them all onto the prepared baking sheet. Drizzle the olive oil over them and sprinkle the salt on top. Toss until the mushrooms are evenly coated in oil. Roast until the mushrooms are tender and somewhat condensed in size, about 15 to 18 minutes, tossing halfway."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, to cook the quinoa: Combine the rinsed quinoa and water in a saucepan. Bring the mixture to a boil over medium-high heat, then decrease the heat a bit to maintain a gentle simmer. Cook until the quinoa has absorbed all of the water, about 15 to 20 minutes. Reduce heat as time goes on to maintain a gentle simmer."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from heat, cover, and let the quinoa steam for 5 minutes. Then, remove the lid and fluff the quinoa with a fork. Add the Parmesan, most of the parsley (reserve about 1 tablespoon for garnish), green onions, garlic, salt and olive oil. Stir to combine, then add 2 to 3 teaspoons lemon juice to the mixture and black pepper, both to taste."
+   },
+   {
+    "title": null,
+    "text": "To assemble, pour the quinoa into a small serving platter or medium serving bowl. Top with the roasted mushrooms and their extra juices, then sprinkle pepitas and the remaining parsley on top. Finally, finish the dish with a light drizzle of olive oil over the mushrooms. This dish is best when fresh, but leftovers keep well in the refrigerator, covered, for up to 3 days."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Omit the Parmesan cheese. You might appreciate a light drizzle of balsamic vinegar or even soy sauce for extra flavor in its place.",
+   "Change it up: For even more depth, roast the mushrooms with 1 tablespoon balsamic vinegar tossed in. Finish the dish with a light drizzle of balsamic vinegar instead of lemon juice."
+  ],
+  "summary": "Delicious side dish or light meal of roasted mushrooms on herbed quinoa, topped with toasted pepitas and olive oil! Recipe yields 4 generous side servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted Mushrooms"
+   },
+   {
+    "at": 3,
+    "title": "Herbed Quinoa;"
+   }
+  ]
  },
  "parser_version": 2
 }

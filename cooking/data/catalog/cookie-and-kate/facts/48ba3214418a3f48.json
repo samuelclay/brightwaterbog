@@ -32,7 +32,44 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/sweet-corn-and-black-bean-tacos/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the corn salad: Use a sharp chef’s knife to slice the kernels off all four sides of the corn cobs. Transfer the kernels to a medium-sized mixing bowl and add the chopped cilantro, radishes, lime zest and juice, jalapeño (if using), olive oil and sea salt. Mix well. Stir in ½ cup crumbled feta, taste, and add a little more if you’d like. Set the bowl aside to marinate while your prepare the beans."
+   },
+   {
+    "title": null,
+    "text": "To prepare the black beans: Warm the olive oil in a large saucepan over medium heat. Add the onions and a sprinkle of salt. Cook, stirring occasionally, until the onions have softened and are turning translucent, about 5 to 8 minutes. Add the cumin and cook for about 30 seconds while stirring. Pour in the beans and ⅓ cup water. Stir, cover and reduce heat to simmer. Cook for 5 minutes, then remove the lid and use the back of a fork to mash up at least half of the beans. Remove from heat, season generously with salt and pepper, to taste, and cover until you’re ready to serve."
+   },
+   {
+    "title": null,
+    "text": "To warm the tortillas: Heat a cast iron or non-stick skillet over medium heat and warm each tortilla individually, flipping occasionally. Alternatively, you can warm them directly over a low flame on a gas range. Fold a tea towel over the warmed tortillas to keep them warm."
+   },
+   {
+    "title": null,
+    "text": "Put it all together: Spread black beans down the middle of each tortilla. Top the beans with corn salad. Place a slice of avocado to the side of the beans and serve with optional pickled jalapeños, salsa or hot sauce on the side."
+   }
+  ],
+  "notes": [
+   "Corn salad adapted from Sprouted Kitchen’s sweet corn ceviche.",
+   "Make it vegan/dairy free: Skip the feta and add pickled jalapeños or pickled radishes to make up for the feta’s salty punch."
+  ],
+  "summary": "These hearty summer tacos feature lime-marinated fresh corn, jalapeño and radishes on top of warm black beans. Feta and avocado make these complete! Recipe yields 10 tacos (a lot!).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Corn and feta salad"
+   },
+   {
+    "at": 8,
+    "title": "Black beans"
+   },
+   {
+    "at": 14,
+    "title": "Everything else"
+   }
+  ]
  },
  "parser_version": 2
 }

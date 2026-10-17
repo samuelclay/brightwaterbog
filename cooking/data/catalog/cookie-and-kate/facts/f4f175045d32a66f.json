@@ -26,7 +26,51 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/almond-flour-pancakes-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium mixing bowl, combine the dry ingredients and gently whisk until combined."
+   },
+   {
+    "title": null,
+    "text": "In a separate smaller bowl, whisk together the eggs. Add the remaining wet ingredients and whisk until combined. If the butter solidifies upon contact with cold ingredients, let it warm for a few minutes at room temperature or microwave it in 10-second increments."
+   },
+   {
+    "title": null,
+    "text": "Pour the wet ingredients into the dry, and stir until combined. Warm a large skillet over medium-low heat (or preheat an electric griddle to 325 degrees Fahrenheit). It’s warm enough when a few drops of water immediately sizzle upon contact and promptly evaporate."
+   },
+   {
+    "title": null,
+    "text": "Check the batter’s consistency; you may need to stir in more milk (2 tablespoons at a time) to achieve the desired consistency (see photos). The batter should not be runny or so thick that it’s difficult to stir. It’s just right when you can pour some batter into a pan to make a nice round shape without helping it spread out."
+   },
+   {
+    "title": null,
+    "text": "Lightly oil the skillet and wipe out any excess with a paper towel (or evenly distribute about ½ teaspoon oil with a silicone brush). Scoop a scant ¼ cup batter into the skillet. Wait until the perimeter is turning matte and you see bubbles forming all over, then gently flip the pancake and cook until the other side is lightly browned."
+   },
+   {
+    "title": null,
+    "text": "Repeat with the remaining batter, lightly oiling between each round. Reduce the heat as necessary if the pancakes are becoming too dark before cooking through (almond flour pancakes brown more quickly than regular pancakes, and I am constantly turning down the heat as I cook these pancakes in a skillet)."
+   },
+   {
+    "title": null,
+    "text": "Transfer the cooked pancakes to a plate or keep them warm in a 200-degree oven. Serve warm. Leftovers will keep in the refrigerator for up to 5 days or up to 4 months in the freezer."
+   }
+  ],
+  "notes": [
+   "Make it dairy free: Choose dairy-free milk, such as almond milk, and use coconut oil instead of butter."
+  ],
+  "summary": "These almond flour pancakes are tender, hearty and delicious. Plus, they’re gluten-free and lower in carbohydrates than most. The recipe yields about 12 pancakes (it can be easily halved, but extra pancakes freeze well, so I suggest making the full batch).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Dry ingredients"
+   },
+   {
+    "at": 4,
+    "title": "Wet ingredients"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -20,7 +20,24 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/frozen-mint-lemonade-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a blender, combine the lemon juice, water, mint and sugar. Blend until the sugar has completely dissolved into the liquid."
+   },
+   {
+    "title": null,
+    "text": "Add the ice. Blend on low speed to break up the ice, then increase the speed and blend until you’ve reached a uniformly slushy texture. (If the mixture is too thick to blend, let it rest for 5 minutes, stir by hand, and try again.) Pour into glasses and place a sprig of mint in each. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Cafe Clock in Fez, Morocco.",
+   "*Sweetener notes: You can use honey as the sweetener if you’d like. It will add a prominent honey flavor. I also tried maple syrup, but I didn’t love how it tasted. I prefer sugar since it’s more neutral and tastes like the drink that I enjoyed in Morocco.",
+   "Change it up: I imagine that this drink would also taste amazing with lime instead of lemon. You could omit the mint for a basic frozen lemonade. And, if you want to add a splash or two of vodka, gin or bourbon to your drink, I can vouch that it’s a good idea."
+  ],
+  "summary": "This frozen mint lemonade recipe is ultra refreshing and easy to whip up in a blender! This drink is called Limonana in the Middle East. Recipe yields 4 small servings, about 1 cup each.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

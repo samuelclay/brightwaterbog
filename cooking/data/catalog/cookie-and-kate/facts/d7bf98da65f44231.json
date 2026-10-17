@@ -26,7 +26,46 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/whole-wheat-banana-pancakes-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "If you’re using an electric skillet, preheat it to 350 degrees Fahrenheit now. In a medium bowl, combine the flour, baking powder, cinnamon and salt. Whisk to blend."
+   },
+   {
+    "title": null,
+    "text": "In a smaller bowl, combine the milk, mashed banana, egg, maple syrup, butter and vanilla. Whisk until blended. Pour the liquid mixture into the flour mixture and mix just until combined."
+   },
+   {
+    "title": null,
+    "text": "If you are not using an electric skillet, heat a heavy cast iron skillet or nonstick griddle over medium-low heat. You’re ready to start cooking pancakes once a drop of water sizzles on contact with the hot surface. If necessary, lightly oil the cooking surface with additional butter or coconut oil, carefully wiping up excess with a paper towel (nonstick surfaces likely won’t require any oil)."
+   },
+   {
+    "title": null,
+    "text": "Using a ⅓-cup measuring cup, scoop the batter onto the hot skillet, leaving a couple of inches around each pancake for expansion. Cook until small bubbles form on the surface of the pancakes, 2 to 3 minutes (you’ll know it’s ready to flip when about ½-inch of the perimeter is matte instead of glossy)."
+   },
+   {
+    "title": null,
+    "text": "Flip the pancakes, then cook until lightly golden on both sides, 1 to 2 minutes more. Repeat the process with the remaining batter, adding more butter or oil and adjusting the heat as necessary."
+   },
+   {
+    "title": null,
+    "text": "Serve immediately or keep warm in a 200 degree Fahrenheit oven. If desired, top individual servings with a spread of peanut or almond butter and/or sliced bananas, and serve with more maple syrup or honey on the side."
+   },
+   {
+    "title": null,
+    "text": "Leftover pancakes can be stored in the refrigerator for up to 3 days, or frozen for up to 3 months. To reheat, stack leftover pancakes and wrap them in a paper towel before gently reheating in the microwave."
+   }
+  ],
+  "notes": [
+   "*Milk options: This recipe will work with cow’s milk, nut milk (almond milk, cashew milk, macadamia milk), soy milk or coconut milk.",
+   "Make it dairy free: Use non-dairy milk (see list above for a suitable alternative) and coconut oil instead of butter.",
+   "Make it vegan: See above, omit the egg, and use maple syrup instead of honey.",
+   "Make it egg free: Simply omit the egg!",
+   "Make it gluten free: Use gluten-free all-purpose flour blend instead of whole wheat flour."
+  ],
+  "summary": "These banana pancakes are so fluffy, no one will guess they’re made with whole wheat flour! Top these whole wheat pancakes with peanut butter and sliced bananas for extra protein and fiber. Recipe yields 6 to 7 pancakes (enough for 2 to 3 people); double the amounts for a family or more leftovers.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

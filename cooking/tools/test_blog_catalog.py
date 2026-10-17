@@ -1,5 +1,6 @@
 import unittest
-from blog_catalog import parse_page, row_from_facts, dietary_flags, apply_choices, SOURCES
+from blog_catalog import parse_page, row_from_facts, dietary_flags, apply_choices, directions, SOURCES
+from classify_diet import screen
 from fetch_blog_images import pick, direct
 
 
@@ -84,6 +85,64 @@ class CatalogTests(unittest.TestCase):
             'https://smittenkitchen.com/wp-content/uploads/2017/05/chickpeas.jpg')
         self.assertEqual(direct('https://cookieandkate.com/images/2026/10/lentil-curry-scaled.jpg'),
             'https://cookieandkate.com/images/2026/10/lentil-curry-scaled.jpg')
+
+    def test_jetpack_directions_survive_a_stray_closing_paragraph(self):
+        # Smitten Kitchen cards close the directions div with </p>; html.parser stopped at step 1.
+        body = ('<div class="jetpack-recipe"><div class="jetpack-recipe-directions">Melt the butter.</p>'
+            '<p>Add the broccoli.</p><p>Serve hot.</div></p></div>')
+        found = directions(body, {'ingredients': []}, 'smitten-kitchen')
+        self.assertEqual([s['text'] for s in found['steps']], ['Melt the butter.', 'Add the broccoli.', 'Serve hot.'])
+
+    def test_jetpack_steps_outside_an_empty_directions_div(self):
+        body = ('<div class="jetpack-recipe"><div class="jetpack-recipe-ingredients"><ul><li class="jetpack-recipe-ingredient">1 pound rigatoni</li></ul></div>'
+            '<div class="jetpack-recipe-directions"></p><p></div><br/>Cook the pasta.</p><p>Do ahead: Sauce keeps 3 days.<br/></div></div>')
+        found = directions(body, {'ingredients': ['1 pound rigatoni']}, 'smitten-kitchen')
+        self.assertEqual([s['text'] for s in found['steps']], ['Cook the pasta.'])
+        self.assertEqual(found['notes'], ['Do ahead: Sauce keeps 3 days.'])
+
+    def test_old_post_keeps_titled_components_with_their_steps(self):
+        body = ('<p>2 poblano chiles<br>1 head cauliflower<br>6 tortillas</p><p>Char the peppers.</p>'
+            '<p><b>Cumin-Lime Crema</b></p><p>1/2 cup sour cream<br>1 tablespoon lime juice</p><p>Combine and serve.</p>'
+            '<p>One year ago: Something else</p>')
+        facts = parse_page('<h1>Quesadillas</h1><div class="entry-content">' + body + '</div>', 'https://smittenkitchen.com/2000/01/test/', 'smitten-kitchen')
+        self.assertEqual(facts['ingredients'][-2:], ['1/2 cup sour cream', '1 tablespoon lime juice'])
+        self.assertEqual(facts['ingredient_groups'], [{'at': 3, 'title': 'Cumin-Lime Crema'}])
+        found = directions(body, facts, 'smitten-kitchen')
+        self.assertEqual([(s['title'], s['text']) for s in found['steps']],
+            [(None, 'Char the peppers.'), ('Cumin-Lime Crema', 'Combine and serve.')])
+
+    def test_tasty_card_directions_notes_summary_and_groups(self):
+        body = ('<div class="tasty-recipes"><div class="tasty-recipes-description"><p>Smoky rice.</p></div>'
+            '<div class="tasty-recipes-ingredients-body"><p><strong>Rice</strong></p><ul><li>2 cups rice</li></ul>'
+            '<p><strong>Topping</strong></p><ul><li>1 lemon</li><li>Parsley</li></ul></div>'
+            '<div class="tasty-recipes-instructions-body"><ol><li>Toast the rice.</li><li>Bake.</li></ol></div>'
+            '<div class="tasty-recipes-notes-body"><p>Make it ahead: chill overnight.</p></div></div>')
+        found = directions(body, {'ingredients': ['2 cups rice', '1 lemon', 'Parsley']}, 'cookie-and-kate')
+        self.assertEqual([s['text'] for s in found['steps']], ['Toast the rice.', 'Bake.'])
+        self.assertEqual(found['notes'], ['Make it ahead: chill overnight.'])
+        self.assertEqual(found['summary'], 'Smoky rice.')
+        self.assertEqual(found['ingredient_groups'], [{'at': 0, 'title': 'Rice'}, {'at': 1, 'title': 'Topping'}])
+
+
+class DietScreenTests(unittest.TestCase):
+    def check(self, *ingredients, title='Test'):
+        return screen({'_kind': 'blog', 'title': title, 'ingredients': list(ingredients)})[0]
+
+    def test_plant_look_alikes_are_vegan(self):
+        self.assertEqual(self.check('2 tablespoons peanut butter', '1 can coconut milk', '1 eggplant',
+            '1 can butter beans', '¼ teaspoon cream of tartar', '1 cup vegan mozzarella', 'Swiss chard'), 'vegan')
+
+    def test_required_dairy_egg_or_honey_is_not_vegan(self):
+        for line in ('2 large eggs', '1 tablespoon honey', 'Grated Parmesan, for serving', '½ cup sour cream'):
+            self.assertEqual(self.check('1 onion', line), 'not-vegan', line)
+
+    def test_optional_or_alternative_animal_items_go_to_review(self):
+        for line in ('Feta (optional)', '2 tablespoons butter or olive oil', '1 cup milk of choice',
+                     '1 cup vegan mayo or regular mayonnaise'):
+            self.assertEqual(self.check('1 onion', line), 'review', line)
+
+    def test_a_recipe_titled_vegan_is_vegan(self):
+        self.assertEqual(self.check('1 cup graham cracker crumbs', title='Vegan Lime Bars'), 'vegan')
 
 
 if __name__ == '__main__': unittest.main()

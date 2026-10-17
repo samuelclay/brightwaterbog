@@ -1,6 +1,42 @@
 {
  "url": "https://cookieandkate.com/americano-cocktail/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Americano Cocktail",
+  "ingredients": [
+   "1 ½ ounces Campari",
+   "1 ½ ounces sweet vermouth, like Dolin",
+   "2 ounces club soda*",
+   "1 slice of orange, for garnish"
+  ],
+  "yield_text": "1 drink",
+  "cook_time": "3 minutes",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/americano-cocktail/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Fill a tall glass with ice. Pour in the Campari and sweet vermouth, then gently pour the club soda into the glass at a 45-degree angle to preserve the bubbles."
+   },
+   {
+    "title": null,
+    "text": "Gently stir with a spoon, and garnish with a slice of orange. Serve at once."
+   }
+  ],
+  "notes": [
+   "Make it lighter: For a lower-alcohol drink with a lighter flavor, use 1 ounce or less each of the Campari and vermouth.",
+   "Club soda recommendations: James Bond insists on Perrier, but I prefer Fever Tree or Topo Chico for the plentiful bubbles."
+  ],
+  "summary": "The Americano cocktail is a fizzy, bittersweet drink with Italian origins. It’s the perfect aperitivo before dinner or a refreshing sipper on a warm day. Recipe yields 1 drink.",
+  "ingredient_groups": []
+ }
 }

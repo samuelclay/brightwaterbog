@@ -32,7 +32,41 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/greek-farro-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the farro: In a medium saucepan, combine the rinsed farro with at least three cups water (enough water to cover the farro by a couple of inches). Bring the water to a boil, then reduce heat to a gentle simmer. Cook, stirring occasionally, until the farro is tender to the bite but still pleasantly chewy (pearled farro will take around 15 minutes; unprocessed farro will take 25 to 40 minutes). Drain off the excess water and return the farro to the pot. Stir in ¼ teaspoon salt and a little splash of the dressing. Set aside to cool for at least 10 minutes (if it’s too warm, it will melt the feta and wilt the arugula)."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, in a large serving bowl, combine the arugula, chickpeas, cucumber, peppers, olives, parsley and feta."
+   },
+   {
+    "title": null,
+    "text": "In a liquid measuring cup or small bowl, whisk together the olive oil, lemon juice, honey, garlic, oregano, salt, red pepper flakes and pepper until well blended."
+   },
+   {
+    "title": null,
+    "text": "Add the farro to the serving bowl and drizzle in the dressing (if you intend to have leftovers, though, dress only the amount needed). Toss to combine, then season to taste with additional salt and pepper. Leftovers will keep well in an airtight container in the refrigerator for 3 to 4 days with the dressing stored separately."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Arugula, Carrot and Chickpea Salad with Wheat Berries.",
+   "Make it dairy free/vegan: Omit the feta. You might want to add more olives to make up for the feta’s salty punch. Vegans, use maple syrup or agave nectar instead of the honey.",
+   "Make it gluten free: Cook up 1 cup quinoa instead of the wheat berries (here’s how to cook it)."
+  ],
+  "summary": "This fresh and healthy farro salad is full of bold Greek flavors! You’ll have plenty of time to prepare the ingredients while the farro cooks. Recipe yields 4 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 9,
+    "title": "Dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

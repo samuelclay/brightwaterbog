@@ -22,7 +22,23 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/simple-caprese-skewers-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Thread the following onto each skewer, leaving a bit of breathing room between each ingredient: one cherry tomato, one small basil leaf or half of a larger leaf (gently fold the leaf to keep it bite-sized if necessary), one ciliegine, another basil leaf (torn and folded if necessary), and one last tomato."
+   },
+   {
+    "title": null,
+    "text": "Arrange the skewers onto a serving platter or plate. When you’re ready to serve, drizzle them lightly with the olive oil, then the balsamic reduction, and sprinkle flaky salt lightly all over them. Caprese skewers are best served immediately, but leftovers will keep well in the refrigerator for up to 3 days."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by Legends in Norman, Oklahoma. Recipe revised in 2025 to use a drizzle of balsamic vinegar and olive oil instead of a balsamic dipping sauce—the drizzle is less messy, which makes for a better serving experience.",
+   "Change it up: Substitute ripe peach for some or all of the tomatoes, pitted and cut into bite-sized pieces (you’ll need 1 peach to replace some of the tomatoes, or 2 large peaches to replace all of them)."
+  ],
+  "summary": "These caprese skewers are made with cherry tomatoes, basil and baby mozzarella balls with a balsamic vinegar and olive oil drizzle. They’re the perfect summertime party appetizer. Your guests will love this recipe! This recipe yields about 20 little skewers.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

@@ -1,6 +1,55 @@
 {
  "url": "https://cookieandkate.com/how-to-make-basil-pesto/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Basil Pesto",
+  "ingredients": [
+   "⅓ cup raw pine nuts, almonds, walnuts, pecans or pepitas",
+   "2 cups packed fresh basil leaves (about 3 ounces or 2 large bunches)",
+   "¼ cup grated Parmesan cheese",
+   "1 tablespoon lemon juice",
+   "2 cloves garlic, roughly chopped",
+   "½ teaspoon fine sea salt",
+   "½ cup extra-virgin olive oil"
+  ],
+  "yield_text": "1 cup",
+  "cook_time": "15 minutes",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/how-to-make-basil-pesto/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Optional: Toast the nuts or seeds for extra flavor. In a medium skillet, toast the nuts/seeds over medium heat, stirring frequently (don’t let them burn!), until nice and fragrant, 3 to 5 minutes. Pour them into a bowl to cool for a few minutes."
+   },
+   {
+    "title": null,
+    "text": "To make the pesto, combine the basil, cooled nuts/seeds, Parmesan, lemon juice, garlic and salt in a food processor or blender. With the machine running, slowly drizzle in the olive oil. Continue processing until the mixture is well blended but still has some texture, pausing to scrape down the sides as necessary."
+   },
+   {
+    "title": null,
+    "text": "Taste, and adjust if necessary. Add a pinch of salt if the basil tastes too bitter or the pesto needs more zing. Add more Parmesan if you’d like a creamier/cheesier pesto. If desired, you can thin out the pesto with more olive oil. (Consider, however, that if you’re serving the pesto on pasta, you can thin it with small splashes of reserved pasta cooking water to bring it all together. See notes for details.)"
+   },
+   {
+    "title": null,
+    "text": "Use pesto as desired; there’s no need to cook it. Store leftover pesto in the refrigerator, covered, for up to 1 week. You can also freeze pesto—my favorite way is in an ice cube tray. Once frozen, transfer to a freezer bag, then you can thaw only as much as you need later."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Replace the Parmesan with 1 tablespoon nutritional yeast.",
+   "Make it nut free: Use pine nuts, pepitas or sunflower seeds. (Pine nuts are technically seeds, but if you’re allergic to nuts, there’s a chance you’ll be allergic to pine nuts, too.)",
+   "Parmesan note: Most Parmesans are not technically vegetarian (they contain animal rennet), but Whole Foods 365 and BelGioioso brands offer vegetarian Parmesan cheese.",
+   "How to toss pesto with pasta: Before you drain your pasta, place a liquid measuring cup in the sink. Then, pour about 1 cup of the pasta cooking water into the measuring cup before you drain off the rest of the water. That pasta cooking water is pure gold—it contains starches that create a creamy emulsion and help attach the sauce to the pasta. Off the heat, toss pasta, pesto and small splashes of pasta cooking water together until you’re satisfied with the consistency (I used roughly ⅓ cup reserved pasta cooking water for ½ pound of spaghetti)."
+  ],
+  "summary": "Homemade basil pesto is so easy to make! Learn how to make basil pesto with this recipe, plus learn how to properly toss it with pasta, and freeze leftovers. Recipe yields 1 cup pesto, which is enough to toss with about 12 ounces of pasta.",
+  "ingredient_groups": []
+ }
 }

@@ -30,7 +30,48 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/mega-crunchy-romaine-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the quinoa: Combine the quinoa and water in a medium saucepan. Bring the mixture to a boil over medium-high heat, then decrease the heat a bit to maintain a gentle simmer. Cook until the quinoa has absorbed all of the water, about 10 to 15 minutes. Reduce heat as time goes on to maintain a gentle simmer."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from heat, cover, and let the quinoa steam for 5 minutes. Fluff with a fork, and set aside to cool."
+   },
+   {
+    "title": null,
+    "text": "To toast the sunflower seeds: Combine the sunflower seeds and olive oil in a medium skillet. Cook over medium heat, stirring frequently (careful, they’ll burn), until the seeds are fragrant and starting to turn lightly golden on the edges. Remove from heat and set aside to cool."
+   },
+   {
+    "title": null,
+    "text": "In a large serving bowl, combine the prepared romaine, carrots, cabbage, radishes and cranberries. Once the quinoa and sunflower seeds have cooled, add them to the bowl as well."
+   },
+   {
+    "title": null,
+    "text": "To prepare the dressing: In a blender or small food processor, combine all of the ingredients and blend well, pausing to scrape down the sides as necessary. Taste, and adjust as necessary—it should be zippy, but if it’s overwhelmingly tart, add a bit more honey. If you’d like a little more kick, add another ¼ teaspoon chili powder."
+   },
+   {
+    "title": null,
+    "text": "If you’ll be serving the salad all at once, drizzle in enough dressing to lightly coat the salad once tossed (you might not use all of it), and toss to combine. If you intend to have leftovers, store the salad separately from the dressing, and toss just before serving."
+   }
+  ],
+  "notes": [
+   "Make it vegan: Use maple syrup instead of honey.",
+   "Change it up: This salad is really flexible. You could use your greens of choice instead of romaine (if using kale, which will hold up better to the dressing, be sure to remove the tough ribs and massage it before adding it to the bowl). You can also change up the chopped veggie components—you need about 2 ½ cups total."
+  ],
+  "summary": "This irresistible salad is modeled after Trader Joe’s “Mega Crunchy Salad with a Bite.” It’s light but filling, healthy, and bursting with fresh flavors. This salad packs great for later; just store the dressing separately and toss just before serving. Recipe yields 4 medium-sized salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 9,
+    "title": "Zippy cilantro dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

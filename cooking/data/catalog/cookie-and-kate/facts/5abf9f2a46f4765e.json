@@ -21,7 +21,31 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/creamy-avocado-dip-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Using a spoon, scoop the flesh of the avocados into a food processor or blender. Add the cilantro, lime juice, jalapeño, water, and salt."
+   },
+   {
+    "title": null,
+    "text": "Process, stopping to scrape down the sides as necessary, until the sauce is smooth and creamy. (If the mixture refuses to blend, add additional water in 1-tablespoon increments, as necessary.)"
+   },
+   {
+    "title": null,
+    "text": "If you would like a thinner, more drizzly sauce, add water in 1-tablespoon increments until it reaches your desired consistency. Taste, and add more salt if it’s not quite flavorful enough."
+   },
+   {
+    "title": null,
+    "text": "Transfer the avocado sauce to a small serving bowl. This sauce keeps well in the refrigerator, covered, for about 4 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my cookbook, Love Real Food.",
+   "Recommended equipment: I love my 11-cup Cuisinart food processor, since it handles small and large quantities like a champ (affiliate link)."
+  ],
+  "summary": "This Mexican avocado dip recipe is an easy alternative to guacamole! Just whip up four basic ingredients in your food processor or blender. Serve this avocado dip as a party dip with vegetables or chips, or on tacos, nachos, quesadillas and more. Recipe yields about 1 ½ cups; double if necessary.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

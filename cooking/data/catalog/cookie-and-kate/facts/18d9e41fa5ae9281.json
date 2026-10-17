@@ -31,7 +31,57 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/raspberry-hand-pies-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To prepare the dough: In a medium mixing bowl, combine both flours and the salt, then whisk to blend. Slice one stick of butter down the center lengthwise, then rotate the butter a quarter turn and slice it down the center lengthwise again, so you have quartered the butter. Slice across the butter to make even cubes. Repeat with the remaining stick of butter. Toss about half of the cubed butter into the bowl."
+   },
+   {
+    "title": null,
+    "text": "Working quickly, squish each piece of butter between your fingers under the flour so it turns into a flat, irregularly shaped disc. Continue with remaining cubes, then add the rest and repeat. Grab handfuls of buttery flour in your palms and press to break up the butter just a bit more. Drizzle 4 tablespoons ice water over the mixture and stir to combine. Repeat with an additional 2 tablespoons ice water, stirring to combine, and again with another 2 tablespoons. Mix with a spoon until it starts coming together into a workable dough. The mixture should be moist enough that you can squeeze it between your palms and it will stick together; if it won’t, try adding another two tablespoons of water or more, just until the mixture sticks together. Divide the mixture into two equally sized halves."
+   },
+   {
+    "title": null,
+    "text": "Place two square pieces of plastic wrap nearby, then shape each pie dough into a round disc about 5” in diameter and wrap it tightly in plastic wrap. Refrigerate for at least 1 hour or up to 3 days (this is necessary because cold butter is the key to a flaky crust!)."
+   },
+   {
+    "title": null,
+    "text": "To prepare the filling: In a medium mixing bowl, combine the maple syrup, starch, vanilla extract, orange zest and cinnamon. Whisk until there are no clumps of starch remaining. Add the raspberries and gently toss with a spoon to coat the berries in a light, even layer. Place the bowl in the refrigerator to chill for now."
+   },
+   {
+    "title": null,
+    "text": "To prepare the hand pies: Preheat the oven to 375 degrees Fahrenheit and line a large baking sheet with parchment paper. On a floured surface, use a rolling pin to roll half of the chilled pie dough into a circle about 12-inches across and between ⅛” to ¼” thick. Use the top of a drinking glass 3 ½” in diameter (a working glass is perfect) to cut 12 circles. Re-roll the scraps if necessary. Carefully transfer each round to your prepared baking sheet. Repeat with the remaining pie dough."
+   },
+   {
+    "title": null,
+    "text": "Brush half of the rounds with egg wash, then top each of those rounds with a heaping tablespoon of raspberry filling (about 7 raspberries per hand pie). Place another round on top of each raspberry-covered round. With a fork, gently press down on the outer ¼” of the rounds to seal the hand pies, working your way around until they are completely sealed. Gently poke a few holes on the top of each hand pie with the tines of your fork, then brush egg wash on top of each hand pie. Bake for 25 to 30 minutes, until the hand pies are deeply golden brown. Transfer the baking sheet to a cooling rack and let the hand pies cool for at least 30 minutes before glazing."
+   },
+   {
+    "title": null,
+    "text": "To prepare the glaze: In a small bowl, combine the powdered sugar, orange juice, maple syrup, orange zest, cinnamon and salt. Whisk until the mixture is well blended and completely smooth. It should be thick but pourable (if it’s too thick to drizzle, mix in a bit more orange juice). Use a spoon to drizzle a striped pattern back and forth over the cooled hand pies. Wait for 5 to 10 minutes for the glaze to set and then serve! Leftover hand pies are best stored covered and refrigerated for up to 3 days."
+   }
+  ],
+  "notes": [],
+  "summary": "These handheld raspberry-orange treats feature delicious maple flavor and a touch of warming cinnamon. The whole grain dough is remarkably crisp and flaky. You can use it to make full-sized pies, too!",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Pie Dough"
+   },
+   {
+    "at": 5,
+    "title": "Raspberry Filling"
+   },
+   {
+    "at": 11,
+    "title": "Egg Wash"
+   },
+   {
+    "at": 12,
+    "title": "Orange Glaze"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -26,7 +26,54 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/farro-kale-goat-cheese-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the farro, in a medium saucepan, combine the rinsed farro with at least three cups water (enough water to cover the farro by a couple of inches). Add the salt, bring the water to a boil, then reduce the heat to maintain a gentle simmer. Cook until the farro is tender to the bite but still pleasantly chewy. (Pearled farro will take around 15 minutes; unprocessed farro will take 25 to 40 minutes.) Drain off the excess water and set aside."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, place the chopped kale in a large serving bowl. Sprinkle it with a few dashes of salt and massage it with your hands by scrunching up large handfuls at a time until it’s darker and more fragrant (this makes the kale taste less bitter and makes it easier to eat). Set aside."
+   },
+   {
+    "title": null,
+    "text": "To toast the almonds, pour them into a small skillet. Cook over medium heat, stirring frequently (careful, they can burn), until the almonds are fragrant and starting to turn golden on the edges, about 4 to 5 minutes. Pour the almonds into the bowl of massaged kale."
+   },
+   {
+    "title": null,
+    "text": "To prepare the vinaigrette, simply whisk the ingredients together in a liquid measuring cup or small bowl. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Once the farro has been cooked and drained, stir in the chopped dried cherries (so they have a chance to plump up a bit) and vinaigrette (the heat will temper the garlic a bit)."
+   },
+   {
+    "title": null,
+    "text": "Once the farro has cooled down to room temperature or close to it, stir it into the kale mixture. Gently crumble most of the goat cheese into the salad and lightly stir. Taste, and if the salad doesn’t taste amazing yet, stir in more vinegar by the teaspoon until it does."
+   },
+   {
+    "title": null,
+    "text": "Crumble the remaining goat cheese on top of the salad. Serve promptly, or refrigerate for later. This salad keeps well for four to five days in the refrigerator, covered."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by the winter farro salad at French Market in Prairie Village, Kansas.",
+   "Make it gluten free: Substitute wild rice (cooked according to package directions) for the farro. Long-grain brown rice would be ok, too.",
+   "Make it dairy free/vegan: Omit the goat cheese. If you really want a creamy element, you could drizzle a little bit of my vegan sour cream over individual servings.",
+   "Make it nut free: Replace the almonds with pepitas (green pumpkin seeds) or sunflower seeds."
+  ],
+  "summary": "You’re going to love this delicious and nutritious kale and farro salad recipe! It’s full of hearty greens and chewy whole grains, plus flavorful toasted almonds, crumbled goat cheese, dried cherries and tangy vinaigrette. Recipe yields 4 large salads or up to 8 side salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 6,
+    "title": "Vinaigrette"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -33,7 +33,44 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/masala-lentil-salad-with-cumin-roasted-carrots/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the salad, preheat the oven to 400 degrees Fahrenheit (200°C) and line a rimmed baking sheet with parchment paper. Put the carrots in a large bowl. Drizzle with the oil and maple syrup, sprinkle with the cumin, and toss until evenly coated. Transfer to the lined baking sheet, spreading them in a single layer. Season generously with coarse salt and pepper. Bake for about 30 to 40 minutes, until the carrots are fork-tender and browning."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, put the lentils in a pot and add water to cover by 3 to 4 inches. Bring the mixture to a boil, then lower the heat and simmer until tender, about 20-30 minutes. Drain, rinse under cold running water, then let drain completely. (If you’re using canned lentils, you can skip this step.)"
+   },
+   {
+    "title": null,
+    "text": "Put the carrots and lentils in a large bowl and let them cool for 10 minutes. Add the onion, arugula, and mint."
+   },
+   {
+    "title": null,
+    "text": "To make the dressing, combine all the ingredients in a small bowl or measuring cup and whisk until evenly combined."
+   },
+   {
+    "title": null,
+    "text": "Pour the dressing over the salad and toss gently until evenly combined. Taste and adjust the seasonings if desired. Drizzle with about 1 tablespoon pomegranate molasses, if using, and offer toasted seeds on the side."
+   }
+  ],
+  "notes": [
+   "Reprinted with permission from Power Plates, copyright © 2018 by Gena Hamshaw. Published by Ten Speed Press, an imprint of Penguin Random House LLC.",
+   "Storage suggestions: This salad keeps well, covered and refrigerated, for up to 3 days."
+  ],
+  "summary": "This striking salad combines tender roasted carrots, protein-rich lentils and fresh greens and mint with a garam masala-infused vinaigrette. This delicious, healthy vegan salad will fill you up! Recipe yields 4 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 10,
+    "title": "Masala Dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

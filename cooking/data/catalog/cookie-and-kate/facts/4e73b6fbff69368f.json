@@ -1,6 +1,60 @@
 {
  "url": "https://cookieandkate.com/broiled-grapefruit-with-honey-yogurt-and-granola/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Broiled Grapefruit with Honey Yogurt and Granola",
+  "ingredients": [
+   "3 grapefruits",
+   "6 tablespoons regular cane sugar or Turbinado (raw) sugar, or a half-and-half combination of the two",
+   "Pinch of ground ginger",
+   "Pinch of ground cinnamon",
+   "Pinch of fine salt",
+   "Greek yogurt or thick goat’s yogurt",
+   "Honey, for drizzling (optional)",
+   "Granola (a few handfuls)"
+  ],
+  "yield_text": "6",
+  "cook_time": "20 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/broiled-grapefruit-with-honey-yogurt-and-granola/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the broiler to high or your oven to 525 degrees Fahrenheit with the top rack in the highest position (about 4 inches from the heat source)."
+   },
+   {
+    "title": null,
+    "text": "To make the bases of your grapefruit halves flat so they don’t wiggle around, slice off about ¼-inch of the peel on the base end and the stem end of each grapefruit. Slice each grapefruit in half, parallel to your initial cuts. If you won’t be serving these with grapefruit spoons, go ahead and loosen each grapefruit segment using a small, pointed serrated knife—cut between the fruit and the peel, then along each side of the segment to loosen it from the membrane, but leave the fruit in place."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl, mix together the sugar, ginger, cinnamon and salt. Place the grapefruit halves, face up, on a 9 by 13-inch glass baker or rimmed baking sheet (do not use parchment paper—it will burn). Sprinkle each halve liberally with the sugar mixture, using about 1 tablespoon per halve."
+   },
+   {
+    "title": null,
+    "text": "Broil for 3 to 6 minutes, until the sugar is glossy (you might still see a few granules), bubbling all over the top, and turning a darker shade. Let the grapefruits cool for at least a few minutes; serve warm or at room temperature with a big dollop of yogurt (swirl in honey if you’d like) and a handful of granola."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Bon Appetit and influenced by Joy the Baker. For a crackly, caramelized brûlée topping, use a culinary torch (see Bon Appetit for the method)."
+  ],
+  "summary": "Simply prepared grapefruits, broiled with a sprinkling of sugar, are a beautiful, light brunch option. Serve with honey-sweetened yogurt and a handful of granola for substance.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Broiled Grapefruits"
+   },
+   {
+    "at": 5,
+    "title": "For Serving"
+   }
+  ]
+ }
 }

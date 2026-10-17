@@ -28,7 +28,47 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/gluten-free-peach-crisp-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit."
+   },
+   {
+    "title": null,
+    "text": "To prepare the filling: In a 9 by 9-inch baking dish, mix together the sliced peaches, honey, arrowroot starch, vanilla and cinnamon."
+   },
+   {
+    "title": null,
+    "text": "To prepare the topping: In a medium mixing bowl, stir together the oats, almond meal, sliced almonds, coconut sugar, ginger and salt. Mix in the melted butter and yogurt. Stir until the mixture is moistened throughout, adding up to 1 more tablespoon of yogurt if it seems dry."
+   },
+   {
+    "title": null,
+    "text": "Dollop spoonfuls of the oat mixture over the filling and use your fingers to break up the mixture until it is evenly distributed (no need to pack it down). Bake for about 30 minutes, or until the filling is bubbling around the edges and the top is lightly golden."
+   },
+   {
+    "title": null,
+    "text": "Let the crisp rest for 5 to 10 minutes before serving. Serve with a scoop of vanilla ice cream or plain yogurt."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my plum crisp with pistachios.",
+   "Make it vegan: I believe you could use melted coconut oil or olive oil in place of the butter and yogurt (use 4 tablespoons oil and add up to 3 more, until the topping mixture is moistened throughout) and maple syrup instead of the honey.",
+   "Make it nut free: Omit the sliced almonds and use ¾ cup whole wheat flour and ¾ cup oats instead of the almond meal and oats specified above. It will no longer be gluten free. If you want to keep it gluten free, I suspect that you could replace the almond meal with oat flour or more oats (haven’t tried that, please comment if you do!).",
+   "Storage suggestions: Store this crisp in the refrigerator, covered. It will be good for 4 days or so.",
+   "Change it up: Substitute any variety of stone fruit or berries for the peaches, by weight. Cherries, plums, sliced strawberries, blackberries or blueberries would be lovely."
+  ],
+  "summary": "This healthier peach crisp features juicy summer peaches and a delicious oat and almond topping, which happens to be gluten free. See recipe notes for special diet adjustments. Recipe yields 6 to 8 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Peach Filling"
+   },
+   {
+    "at": 5,
+    "title": "Crisp topping"
+   }
+  ]
  },
  "parser_version": 2
 }

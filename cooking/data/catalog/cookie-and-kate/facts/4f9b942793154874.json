@@ -26,7 +26,46 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/favorite-broccoli-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Toast the sunflower seeds: Pour the sunflower seeds into a medium skillet over medium heat. Cook, stirring frequently (careful, they’ll burn!), until the seeds are turning golden on the sides, about 5 minutes. Pour the toasted seeds into a large serving bowl."
+   },
+   {
+    "title": null,
+    "text": "Add the chopped broccoli, onion, cheese and cranberries to the serving bowl. Set aside."
+   },
+   {
+    "title": null,
+    "text": "In a 1-cup liquid measuring cup or small bowl, combine all of the dressing ingredients (olive oil, vinegar, mustard, honey, garlic and salt). Whisk until the mixture is well blended."
+   },
+   {
+    "title": null,
+    "text": "Pour the dressing over the salad and stir until all of the broccoli is lightly coated in dressing. I highly recommend letting the salad marinate for at least 20 minutes, or even overnight in the refrigerator."
+   },
+   {
+    "title": null,
+    "text": "Divide the salad into individual bowls and serve. Leftovers will keep well for 3 to 4 days in the fridge, covered."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my honey mustard Brussels sprout slaw.",
+   "Make it vegan: Omit the cheese, and use maple syrup instead of honey.",
+   "Make it dairy free: Omit the cheese.",
+   "Make it nut free: Be sure to use sunflower seeds instead of almonds."
+  ],
+  "summary": "This broccoli salad recipe is the best! It’s healthy, too, thanks to the delicious honey-mustard vinaigrette (no mayo). This broccoli salad packs great for lunch and potlucks. Recipe yields 6 side servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 5,
+    "title": "Honey mustard dressing"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -1,6 +1,102 @@
 {
  "url": "https://cookieandkate.com/sweet-potato-black-bean-tacos/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Sweet Potato and Black Bean Tacos",
+  "ingredients": [
+   "2 pounds sweet potatoes (3 to 4 medium sweet potatoes), peeled and sliced into 1-inch chunks",
+   "2 tablespoons olive oil",
+   "¼ teaspoon cayenne pepper (omit if sensitive to spice)",
+   "¼ teaspoon fine salt",
+   "1 tablespoon olive oil",
+   "1 small yellow or white onion, finely chopped",
+   "Fine salt",
+   "2 teaspoons ground cumin",
+   "¼ teaspoon chili powder",
+   "2 cans black beans, rinsed and drained (or 3 cups cooked black beans)",
+   "⅓ cup water",
+   "1 teaspoon sherry vinegar or lime juice",
+   "Freshly ground black pepper, to taste",
+   "2 avocados, pitted",
+   "1 cup lightly packed fresh cilantro (mostly leaves, some small stems are ok)",
+   "½ cup pepitas",
+   "1 small jalapeño, seeded and roughly chopped, or ¼ teaspoon red pepper flakes (go easy if sensitive to spice)",
+   "2 cloves garlic, roughly chopped",
+   "2 tablespoons lime juice (about 1 medium lime) or 1 tablespoon sherry vinegar",
+   "2 tablespoons water",
+   "½ teaspoon fine salt",
+   "Freshly ground black pepper, to taste",
+   "8 to 10 small corn tortillas",
+   "Crumbled feta",
+   "Suggested garnishes: Pickled jalapeños or pickled radishes or pickled red onions, torn cilantro, hot sauce, etc."
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "1 hour",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/sweet-potato-black-bean-tacos/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Roast the sweet potatoes: Preheat the oven to 425 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper for easy clean-up. Toss the prepared sweet potatoes with the olive oil, cayenne pepper (if using) and salt. Arrange in a single layer and bake for 30 to 40 minutes, tossing halfway, until the sweet potatoes are tender and caramelizing at the edges."
+   },
+   {
+    "title": null,
+    "text": "Prepare the black beans: Warm the olive oil in a large saucepan over medium heat. Add the onions and a sprinkle of salt. Cook, stirring occasionally, until the onions have softened and are turning translucent, about 5 to 8 minutes. Add the cumin and chili powder and cook for about 30 seconds while stirring. Pour in the beans and water. Stir, cover and reduce heat to maintain a gentle simmer."
+   },
+   {
+    "title": null,
+    "text": "Cook for 5 minutes, then remove the lid and use a potato masher or a fork to mash up at least half of the beans. Remove from heat, stir in the vinegar, season with salt (I added over ¼ teaspoon) and pepper, and cover until you’re ready to serve."
+   },
+   {
+    "title": null,
+    "text": "Make the avocado dip: First, toast the pepitas in a skillet over medium heat, stirring often, until they are fragrant and starting to make little popping noises, about 5 minutes. Transfer to a bowl and set aside."
+   },
+   {
+    "title": null,
+    "text": "Scoop the avocado flesh into a food processor or blender. Add the cilantro, jalapeño, garlic, lime juice, water and salt. Blend until smooth, scraping down the sides of the processor/blender as necessary. Add almost all of the pepitas (reserve a few tablespoons for garnish) and process just until the pepitas are chopped into small pieces (some remaining texture is desirable). Taste, and add more salt if necessary. Transfer the dip to a small bowl for serving."
+   },
+   {
+    "title": null,
+    "text": "To warm the tortillas, heat a large skillet over medium heat and warm the tortillas in batches, flipping to warm each side. Alternatively, you can warm them directly over a low flame on a gas range. Stack the warmed tortillas on a plate and cover with a tea towel to keep warm."
+   },
+   {
+    "title": null,
+    "text": "To assemble the tacos, spread black beans down the middle of each tortilla, then top with some sweet potatoes and avocado-pepita dip. Garnish with feta, pepitas, and anything else that strikes your fancy. Repeat with remaining tortillas and serve."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Skip the feta, and definitely add something pickled to make up for it.",
+   "Make it gluten free: Make sure your tortillas are 100 percent corn/certified gluten free.",
+   "Serving suggestions: These tacos would be awesome with a side of simple seedy slaw (which you could also pile onto your tacos for some more crunch). If you’d like to serve a simple green salad with these tacos, try topping this lime-marinated kale with feta and pepitas.",
+   "Storage suggestions: Leftover taco components should keep well for a few days. Store them individually in the fridge, covered. Press plastic wrap against the surface of the avocado-pepita sauce to help prevent oxidation. Add a splash of water to the beans if they dry out during reheating."
+  ],
+  "summary": "These roasted sweet potato tacos feature spicy black beans and avocado-pepita dip. So delicious! This taco recipe is vegetarian (easily vegan) and gluten-free (see recipe notes for details). Recipe yields 8 to 10 hearty tacos, enough for at least 4 servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted sweet potatoes"
+   },
+   {
+    "at": 4,
+    "title": "Spicy black beans"
+   },
+   {
+    "at": 13,
+    "title": "Avocado-pepita dip"
+   },
+   {
+    "at": 22,
+    "title": "Everything else"
+   }
+  ]
+ }
 }

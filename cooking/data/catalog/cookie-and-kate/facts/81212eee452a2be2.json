@@ -24,7 +24,36 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/spicy-grapefruit-margarita-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, prepare your glasses. Mix together the salt and chili on a small, rimmed plate. Run a lime wedge around the outer top edge of your glasses, then roll the edges in the chili-salt so it sticks. Place one big ice cube or a few smaller ice cubes in each glass."
+   },
+   {
+    "title": null,
+    "text": "In a cocktail shaker or mason jar, add the lime juice, agave nectar and jalapeño slice. Use a muddler to crush the jalapeño. Pour in the grapefruit juice and tequila, then top off the shaker with ice. Fasten the lid on securely and shake well."
+   },
+   {
+    "title": null,
+    "text": "Strain the mixture into your prepared glasses. If you want to be cute about it, garnish the drinks with a small wedge of grapefruit, sliced halfway through the middle so it rests on your glass. Cheers!"
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my skinny margarita recipe.",
+   "Tequila recommendations: My favorite brands are Espolón and Milagro."
+  ],
+  "summary": "These sweet and spicy grapefruit margaritas are so refreshing! You can leave out the jalapeño if you want a basic, fresh grapefruit margarita, but I love the kick that the pepper provides. Recipe below yields one drink, so multiply as necessary.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Per margarita"
+   },
+   {
+    "at": 5,
+    "title": "Chili-salt rims and garnish"
+   }
+  ]
  },
  "parser_version": 2
 }

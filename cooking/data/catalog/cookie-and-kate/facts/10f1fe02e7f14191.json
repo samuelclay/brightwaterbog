@@ -32,7 +32,48 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/spaghetti-squash-burrito-bowl-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To roast the spaghetti squash: Preheat the oven to 400 degrees Fahrenheit and line a large baking sheet with parchment paper for easy clean-up. On the baking sheet, drizzle the halved spaghetti squash with olive oil. Rub the olive oil all over each of the halves, adding more if necessary."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle the insides of the squash with freshly ground black pepper and salt. Turn them over so the insides are facing down. Roast for 40 to 60 minutes, until the flesh is easily pierced through with a fork."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, to assemble the slaw: In a medium mixing bowl, combine the cabbage, black beans, bell pepper, green onion, cilantro, lime juice, olive oil and salt. Toss to combine and set aside to marinate."
+   },
+   {
+    "title": null,
+    "text": "To make the salsa verde: In the bowl of a blender or food processor, combine the avocado, salsa verde, cilantro, lime juice and garlic. Blend until smooth, pausing to scrape down the sides as necessary."
+   },
+   {
+    "title": null,
+    "text": "To assemble, first use a fork to separate and fluff up the flesh of the spaghetti squash. Then divide the slaw into each of the spaghetti squash “bowls,” and add a big dollop of avocado salsa verde. Finish the bowls with another sprinkle of pepper, cilantro and optional crumbled feta or pepitas."
+   }
+  ],
+  "notes": [
+   "Serving suggestions: I think these bowls would go great with my favorite green salad.",
+   "Storage suggestions: Store burrito bowls, covered, for up to 3 days. There should be enough lime in the avocado salsa verde to keep it from oxidizing, but if you want to be sure, store it separately in a small bowl with plastic wrap pressed against the surface."
+  ],
+  "summary": "This spaghetti squash burrito bowl recipe is easy to make and so good for you, too! These beautiful vegetarian burrito bowls are also vegan and gluten free, but above all, delicious. Recipe yields 4 burrito bowls.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted spaghetti squash"
+   },
+   {
+    "at": 3,
+    "title": "Cabbage and black bean slaw"
+   },
+   {
+    "at": 11,
+    "title": "Avocado salsa verde"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -1,6 +1,77 @@
 {
  "url": "https://cookieandkate.com/stuffed-poblano-peppers/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Stuffed Poblano Peppers",
+  "ingredients": [
+   "1 tablespoon ground cumin",
+   "1 tablespoon ground coriander",
+   "2 cans (15 ounces each) black beans, reserve ¼ cup cooking liquid, then drain but do not rinse",
+   "1 chipotle chili in adobo sauce, plus 1 teaspoon adobo sauce",
+   "2 tablespoons lime juice",
+   "¼ teaspoon fine salt",
+   "½ cup fresh cilantro, plus more for garnish",
+   "2 cups (16 ounces) red salsa",
+   "6 poblano chiles",
+   "1 tablespoon olive oil, for brushing, plus more for greasing the pan",
+   "1 ½ cups (6 ounces) shredded Monterey Jack cheese",
+   "½ cup (2 ounces) crumbled Cotija or feta cheese",
+   "1 tablespoon lime juice",
+   "For serving: cooked brown rice (optional), sour cream, cilantro lime sauce or guacamole"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "1 hour",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Mexican-inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/stuffed-poblano-peppers/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 425 degrees Fahrenheit. Lightly grease a 9 by 13-inch pan with olive oil or cooking spray."
+   },
+   {
+    "title": null,
+    "text": "To make the black bean puree: In a small skillet over medium heat, toast the cumin and coriander, stirring often until fragrant, about 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Transfer the spices to a food processor. Add the beans and reserved liquid, chipotle chili and adobo sauce, lime juice, and salt. Process until smooth, scraping the bowl as needed. Add the cilantro and blend for a few seconds, until it’s broken up into tiny bits. Set it aside for now."
+   },
+   {
+    "title": null,
+    "text": "Pour about ⅔ cup of the salsa into the prepared baking dish, and tilt it from side to side until the bottom of the dish is evenly coated. Cut a slit down the length of each poblano. Use your fingers and a paring knife to remove (and then discard) the membranes and seeds from each pepper. Arrange the peppers in the baking dish with the cut side facing up, and brush them all over with oil."
+   },
+   {
+    "title": null,
+    "text": "In a bowl, combine the shredded cheese, crumbled cheese and lime juice. Stir to combine. Use a spoon to fill most of each pepper with the pureed beans, then stuff a handful of cheese inside. Drizzle the remaining salsa back and forth over the peppers."
+   },
+   {
+    "title": null,
+    "text": "Bake for 40 to 45 minutes, until the tops are roasted and golden and the pepper is tender all around. Serve peppers warm, with a dollop of sour cream and a sprinkle of cilantro on top. Leftover peppers keep well in the refrigerator, covered, for up to 4 days—gently reheat them in the microwave or at 350 degrees Fahrenheit until warmed through."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Beer Bean-Stuffed Poblano Peppers (I like this recipe much more!), with the black bean puree adapted from Milk Street’s Tlayudas.",
+   "Make it dairy free/vegan: Though I haven’t tried, I think these peppers would be great with 1 batch of vegan sour cream in place of the cheeses. You could double the sour cream recipe to have extra to replace the sour cream garnish, or substitute dollops of avocado dip or guacamole instead."
+  ],
+  "summary": "These stuffed poblano peppers are hearty and delicious! This protein-rich recipe is vegetarian and gluten-free, so everyone can enjoy it. Recipe yields 6 stuffed peppers.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Black bean puree"
+   },
+   {
+    "at": 7,
+    "title": "Peppers"
+   }
+  ]
+ }
 }

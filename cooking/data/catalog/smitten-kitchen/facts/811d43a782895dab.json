@@ -38,7 +38,22 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2017/03/punjabi-style-black-lentil-dal/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Make the dal: Heat oil (or oil and butter) over medium. Once hot, add onion and cumin seeds and cook, stirring occasionally, until onion browned in spots. Add garlic and ginger, cook for 1 minute more, then the rest of the spices and tomato and cook for 3 minutes more, scraping up any stuck bits. Add water and salt, then lentils. Bring to simmer, then reduce to low and cover and cook until lentils are tender, between 35 and 45 minutes, stirring occasionally. For a looser dal, you can add more water. Adjust spices and seasonings to taste."
+   },
+   {
+    "title": null,
+    "text": "To finish as shown: Ladle into four bowls. Place a 1-teaspoon pat of butter in the center of each, letting it begin to melt before swirling in 1 1/2 teaspoons cream and finishing with cilantro."
+   }
+  ],
+  "notes": [
+   "Black lentils, if you haven’t bought them before, are wonderful: tiny, pretty and they stay perfectly intact when you cook them, meaning they also scatter well over salads. Also called beluga lentils, I like to think of them as luxurious as caviar without the price. [Note: This dish was previously named “Black Lentil Dal.”]"
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

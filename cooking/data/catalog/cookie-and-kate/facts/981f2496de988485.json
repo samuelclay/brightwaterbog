@@ -24,7 +24,43 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/lemon-kale-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small bowl, combine all of the dressing ingredients (use just 1 tablespoon lemon juice) and whisk to combine. Set aside."
+   },
+   {
+    "title": null,
+    "text": "To prepare the kale, fold the leaf so the larger rib side is out and pull the tough rib out from the kale to make each leaf into two separate halves. Stack a few leaves at a time and roll them up, from one short end to the other. Using a sharp chef’s knife, slice them as thinly as possible across the roll. Then use a chop or two to cut all of the rounds in half."
+   },
+   {
+    "title": null,
+    "text": "Transfer the chopped kale to a medium serving bowl and sprinkle it with the salt. Massage the leaves with your hands by lightly scrunching big handfuls at a time, over and over until the leaves are darker in color and fragrant."
+   },
+   {
+    "title": null,
+    "text": "Drizzle in all of the dressing, add all of the cheese and gently toss until thoroughly combined. Taste, and add more lemon juice if desired—it should taste pleasantly lemony and a little tart (the tartness helps cut the bitterness of the kale)."
+   },
+   {
+    "title": null,
+    "text": "Ideally, let the salad rest for 10 minutes or more before serving. This salad will keep well, covered and refrigerated, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Substitute Easy Vegan Parmesan Cheese, to taste."
+  ],
+  "summary": "Make this lemony kale salad! It’s a simple kale salad recipe featuring a bright lemon dressing and freshly-grated Pecorino Romano or Parmesan cheese. This boldly flavored kale salad is the perfect side salad to complement your meal. Recipe yields 4 to 6 side salads, and is easily doubled.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Lemon dressing"
+   },
+   {
+    "at": 6,
+    "title": "Kale salad"
+   }
+  ]
  },
  "parser_version": 2
 }

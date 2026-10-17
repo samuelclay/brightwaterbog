@@ -24,7 +24,43 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/blood-orange-fennel-and-avocado-salad-with-lemon-citronette/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Lightly toast the almonds: In a small skillet over medium heat, toast the almonds for a few minutes, stirring frequently so they don’t burn. Once the almonds are fragrant and starting to turn golden, remove from heat and transfer to a plate."
+   },
+   {
+    "title": null,
+    "text": "In a large serving bowl, combine the greens, segmented blood oranges, sliced fennel, diced avocado, goat cheese and warm almonds. If the fennel’s feathery fronds (say that five times fast) are in good shape, chop up a handful’s worth and toss them into the salad."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl, whisk together the dressing ingredients until well blended. Whisk in more olive oil if the dressing tastes too tart. The final result should be pleasantly tangy."
+   },
+   {
+    "title": null,
+    "text": "Once you’re ready to serve, drizzle citronette over the salad (you might not need all of it) and toss. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Recipe yields 2 large salads or 4 side salads.",
+   "Storage suggestions: If you intend to have leftovers, store the salad and dressing separately until you’re ready to serve.",
+   "If you can’t find blood oranges, any tasty member of the orange family will do.",
+   "Make it vegan: omit the goat cheese and substitute agave nectar or sugar for the honey.",
+   "Make it nut free: If you want, try subbing the sliced almonds with a type of seed, such as pumpkin or sunflower."
+  ],
+  "summary": "This refreshing salad features winter citrus, fennel, creamy goat cheese and avocado, tossed with greens and a simple lemon dressing.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 6,
+    "title": "Citronette"
+   }
+  ]
  },
  "parser_version": 2
 }

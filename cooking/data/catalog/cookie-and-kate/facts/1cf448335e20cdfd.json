@@ -24,7 +24,35 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/maple-sweetened-peanut-butter-chocolate-chip-oatmeal-cookies/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350 degrees Fahrenheit with two racks in the middle. Line two baking sheets with parchment paper (if you don’t have parchment paper, lightly grease the baking sheets)."
+   },
+   {
+    "title": null,
+    "text": "Measure out the peanut butter and maple syrup—I found this easiest to do in a 2-cup liquid measuring cup. Add peanut butter to the ⅔ cup line, then pour in maple syrup until you reach the 1 ⅓ cup total liquid line."
+   },
+   {
+    "title": null,
+    "text": "Pour the peanut butter and maple syrup mixture into a mixing bowl. Add the melted butter and whisk until the mixture is well blended. Use your whisk to beat in the egg, scraping down the side of the bowl once it’s incorporated, then whisk in the vanilla, baking soda, baking powder and salt. Switch to a big spoon and stir in the ground oats, rolled oats and chocolate chips until they are evenly combined. Drop the dough by the tablespoon onto your prepared baking sheets."
+   },
+   {
+    "title": null,
+    "text": "Bake the cookies, reversing the pans midway through (swap the cookies on the top rack with the cookies on the lower rack) until they’re barely set and just beginning to turn golden around the edges, about 12 minutes. Remove the cookies from the oven and let them cool completely on the pans."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from King Arthur Flour Whole Grain Baking‘s Nutty for Oats Cookies and Salted Plains’ Peanut Butter Maple Cookies with Dark Chocolate and Sea Salt.",
+   "Make it gluten free: Be sure to use certified gluten-free oats.",
+   "Make it dairy free: Readers report that coconut oil and olive oil works in place of the butter in this recipe (I haven’t tried). Use dairy-free/vegan chocolate chips, such as Enjoy Life brand.",
+   "Make it vegan: Substitute a flax egg for the regular egg, coconut oil for the butter, and make sure to use non-dairy chocolate chips, such as Enjoy Life brand.",
+   "Storage suggestions: These cookies keep well in an air-tight plastic bag for a couple of days. Freeze for longer-term storage.",
+   "Change it up: These cookies should be totally adaptable! Use only 1 cup oats, ground, for flatter cookies. Try substituting some chopped pecans or walnuts for some of the chocolate chips, and/or stir in the unsweetened coconut flakes. If you do both, you can call these cookies flourless cowboy cookies!"
+  ],
+  "summary": "Delicious flourless, maple-sweetened cookies full of peanut butter, chocolate chips and oats! These gluten-free cookies are pretty healthy, as far as cookies go. They’re also very easy to make (no mixer required)!",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

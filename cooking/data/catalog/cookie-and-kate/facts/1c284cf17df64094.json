@@ -1,6 +1,44 @@
 {
  "url": "https://cookieandkate.com/chipotle-sauce/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Chipotle Sauce",
+  "ingredients": [
+   "½ cup sour cream",
+   "2 to 4 tablespoons chipotle peppers in adobo sauce* or chipotle hot sauce, to taste",
+   "2 tablespoons mayonnaise",
+   "¼ teaspoon garlic granules",
+   "⅛ teaspoon fine salt",
+   "5 twists of freshly ground black pepper, to taste"
+  ],
+  "yield_text": "3/4 cup",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Mexican-inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/chipotle-sauce/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Combine all of the ingredients in a food processor or a bowl (if you’re mixing it with an immersion blender or by hand). Blend or whisk well."
+   },
+   {
+    "title": null,
+    "text": "Taste, and if you prefer a spicier sauce, blend in more chipotle peppers in adobo sauce, one tablespoon at a time. Use as desired. Leftover chipotle sauce will keep in an airtight container in the refrigerator for up to 10 days."
+   }
+  ],
+  "notes": [
+   "*Ingredient note: If you buy a can of chipotle peppers in adobo sauce, you can use the adobo sauce here or a combination of the peppers and adobo sauce, if you run out of the sauce. Or, use Tobasco brand of chipotle hot sauce instead.",
+   "Make it dairy free/vegan: Replace the sour cream with vegan sour cream. You might be happy with the texture without mayonnaise, or you can substitute vegan mayonnaise if you prefer a more silky-smooth texture."
+  ],
+  "summary": "This creamy chipotle sauce is spicy, bold and irresistible! It’s easy to make and packs a punch. Use it on tacos and so much more. This recipe yields ¾ cup and is easily doubled.",
+  "ingredient_groups": []
+ }
 }

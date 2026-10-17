@@ -28,7 +28,22 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2015/11/date-feta-and-red-cabbage-salad/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Toss cabbage with olive oil and first tablespoons of lime juice, plus salt and pepper, coating leaves evenly. Taste and add more lime juice, salt and pepper to taste. I do this a few times, making sure I really get this base well seasoned because it will be hard to do it as well later."
+   },
+   {
+    "title": null,
+    "text": "Toss dressed cabbage gently with half of dates and feta. Sprinkle with remaining dates, then feta, then parsley and sesame seeds. Dig in."
+   }
+  ],
+  "notes": [
+   "Do ahead: The whole salad can sit assembled for at least an hour, if not longer in the fridge. Mine is going strong on the second day. You can also prepare the parts separately (feta, chopped dates, sliced cabbage) to assemble right before serving, if you’re planning ahead for Thanksgiving or a dinner party."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

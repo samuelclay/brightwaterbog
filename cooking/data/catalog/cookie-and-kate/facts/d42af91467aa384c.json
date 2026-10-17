@@ -27,7 +27,43 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/quinoa-tabbouleh/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Rinse the quinoa: Pour the quinoa into a fine-mesh colander and rinse under running water for at least 30 seconds. Drain well. Combine the rinsed quinoa and water in a saucepan. Bring the mixture to a boil over medium-high heat, then reduce the heat as necessary to maintain a gentle simmer. Cook until the quinoa has absorbed all of the water, about 13 to 17 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from heat, cover, and let the quinoa steam for 5 minutes. Remove the lid and fluff the quinoa with a fork."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, combine the diced cucumber and tomato in a medium bowl with ½ teaspoon of the salt. Stir, and let the mixture rest for at least 10 minutes, or until you’re ready to mix the salad."
+   },
+   {
+    "title": null,
+    "text": "To prepare the parsley, cut off the thick stems. Then, finely chop the parsley and remaining stems—you can do this by hand, but it’s much easier in a food processor with the standard “S” blade. Process 1 bunch at a time, transferring the chopped parsley to a large serving bowl before proceeding with the next."
+   },
+   {
+    "title": null,
+    "text": "Add the cooled quinoa, chopped fresh mint (if using) and green onion to the bowl of parsley. Strain off and discard the cucumber and tomato juice that has accumulated in the bottom of the bowl (this ensures that your tabbouleh isn’t too watery). Add the strained cucumber and tomato to the bowl."
+   },
+   {
+    "title": null,
+    "text": "In a small measuring cup or bowl, whisk together the olive oil, 3 tablespoons lemon juice, garlic, and remaining ½ teaspoon salt. Pour it into the salad and stir to combine. If using the chickpeas or feta, add it now. Taste, and adjust if necessary—add another tablespoon of lemon juice for zing, or salt for more overall flavor."
+   },
+   {
+    "title": null,
+    "text": "If you have the time, let the salad rest for 15 minutes before serving to let the flavors mingle. Otherwise, you can serve it immediately or chill it for later. The tabbouleh will keep well in the refrigerator, covered, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Best Tabbouleh.",
+   "Make it dairy free/vegan: Omit the optional feta."
+  ],
+  "summary": "This tabbouleh recipe uses quinoa instead of bulgur, so it’s gluten-free while retaining the classic Middle Eastern salad’s distinctive taste. Chickpeas and feta are optional additions that make the dish more hearty. Recipe yields 6 servings (about 7 ½ cups salad).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

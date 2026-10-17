@@ -30,7 +30,20 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2008/11/chickpea-salad-with-roasted-red-peppers/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Cut the peppers into half-inch wide strips and put them in a large bowl together with the chickpeas, herbs and the capers. In a smaller bowl, whisk together the lemon juice, salt, garlic and oil. Pour over the chickpea mixture and combine.Serve immediately, or refrigerate it for a day to get the flavors to mingle fantastically."
+   },
+   {
+    "title": null,
+    "text": "This is a great make-ahead dish for weekday lunches. It would also be wonderful on a pile of torn lettuce, served with toasted pita wedges."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -37,7 +37,34 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2021/04/sheet-pan-chow-mein/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 425°F. On a large baking sheet, toss the pepper, carrot, and broccoli with a splash of olive oil and season with salt. Roast for 10 minutes, until the vegetables start to soften."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, make the noodles: Bring a large saucepan of salted water to the boil. Add the egg noodles, and cook according to the packet instructions, or al dente, about four to five minutes. Drain and cool under cold running water. Drain well again and pat dry with a clean tea towel."
+   },
+   {
+    "title": null,
+    "text": "Combine the soy seasoning ingredients in a small bowl."
+   },
+   {
+    "title": null,
+    "text": "Remove the baking sheet and push the vegetables to the side. Add the noodles, corn and asparagus. Drizzle the noodles with sesame oil, season with more salt and toss well to coat. Return the tray to the oven and bake for another 15 to 18 minutes, until the noodles are crispy on the top and bottom. We are looking for a combination of crispy and non-crispy noodles."
+   },
+   {
+    "title": null,
+    "text": "Remove the tray from the oven, drizzle over the soy seasoning and toss well. Scatter over the shallot and sesame seeds and serve."
+   }
+  ],
+  "notes": [
+   "Below are the vegetables I used, but feel free to use what you have for all or some. Chinese broccoli or other greens would be great here, or shredded cabbage. Thinly sliced mushrooms, too. Dried (or fresh) thin egg noodles will crisp up best for chow mein, but if you’re okay with it being less crisp, use whatever noodles you have on hand, including rice noodles, if wheat is an issue."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

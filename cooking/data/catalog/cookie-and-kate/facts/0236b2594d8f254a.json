@@ -31,7 +31,57 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/sweet-potato-arugula-wild-rice-salad-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To cook the wild rice: Bring a large pot of water to boil (or see Instant Pot option provided in notes). Add the rinsed rice and continue boiling, reducing heat as necessary to prevent overflow, for 40 minutes to 55 minutes, until the rice is pleasantly tender but still offers a light resistance to the bite. Remove from heat, drain the rice and return the rice to pot. Cover and let the rice rest for 10 minutes, then remove the lid, stir in ¼ teaspoon of the salt, and set aside."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, to roast the sweet potatoes: Preheat the oven to 425 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper for easy cleanup. Place the cubed sweet potato on the pan, drizzle with the olive oil and sprinkle with ¼ teaspoon of the salt. Toss until the sweet potatoes are lightly and evenly coated in oil. Arrange the sweet potatoes in a single layer and roast for 25 to 30 minutes, tossing halfway, until they are caramelized on the edges and tender when pierced through with a fork. Leave the oven on and let the sweet potatoes cool for a few minutes."
+   },
+   {
+    "title": null,
+    "text": "To make the dressing, simply combine all of the ingredients in a small bowl and whisk until thoroughly combined. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Combine the arugula, wild rice and roasted sweet potatoes (keep the parchment paper) in a large serving bowl or platter."
+   },
+   {
+    "title": null,
+    "text": "Spread the seeds and/or chopped nuts on your parchment-covered baking sheet. Bake for 3 to 4 minutes, until lightly golden and fragrant (be sure to set a timer; we’re toasting at high heat here)."
+   },
+   {
+    "title": null,
+    "text": "Spread the toasted seeds/nuts over the salad. Top with the crumbled feta, green onion and dried cranberries."
+   },
+   {
+    "title": null,
+    "text": "If you’re serving the salad immediately, go ahead and drizzle most of the dressing on top (you probably won’t use it all). Gently toss to combine, and let the salad rest for a few minutes so the rice has time to absorb some of the dressing. Serve."
+   },
+   {
+    "title": null,
+    "text": "If you’re planning to have leftovers, divide the salad into portions and store the dressing separately. The salad and dressing will keep well, each covered in the refrigerator, for up to 5 days. Leftover dressing is great to keep on hand for future salads!"
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Omit the feta. For a vegan salad, be sure to use maple syrup instead of honey.",
+   "Make it nut free: Use pepitas and/or sunflower seeds in place of the nuts.",
+   "Instant pot option: Add the wild rice and 1 ¼ cups water to the Instant Pot. Secure the lid and move the steam release valve to Sealing. Select the Manual/Pressure Cook option and cook on high pressure for 22 minutes. When the cooking cycle is complete, let the pressure naturally release for 10 minutes, then move the steam release valve to Venting to release any remaining pressure. When the floating valve drops, remove the lid and give the rice a stir. Let the rice cool for at least 10 minutes before tossing with the remaining ingredients."
+  ],
+  "summary": "This delicious salad recipe features roasted sweet potato, wild rice and arugula. It’s fresh, filling and nutritious! Enjoy this salad all week long. This recipe yields a lot of salad (6 generous servings) and is easily halved.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 9,
+    "title": "Ginger dressing (this makes extra)"
+   }
+  ]
  },
  "parser_version": 2
 }

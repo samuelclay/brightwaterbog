@@ -1,6 +1,50 @@
 {
  "url": "https://cookieandkate.com/pineapple-cilantro-serrano-cocktail/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Pineapple Cilantro Serrano Cocktail",
+  "ingredients": [
+   "1 tablespoon fresh cilantro",
+   "½ small lime, juiced",
+   "1 small, round slice of serrano pepper (⅛th to ¼th-inch thick)",
+   "1 ½ ounces silver tequila",
+   "3 ounces quality pineapple juice",
+   "agave nectar (optional), to taste"
+  ],
+  "yield_text": "1 drink",
+  "cook_time": "5 minutes",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pineapple-cilantro-serrano-cocktail/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a cocktail shaker or glass, muddle the cilantro, lime juice and slice of serrano."
+   },
+   {
+    "title": null,
+    "text": "Fill the shaker with ice and pour in the tequila, pineapple juice and a light drizzle of agave nectar (optional). Shake well, and strain the mixture over ice in a cocktail glass."
+   },
+   {
+    "title": null,
+    "text": "Garnish minimally with a lime round, or get fancy with a slice of pineapple and sprig on cilantro on a cocktail pick."
+   }
+  ],
+  "notes": [
+   "Feel free to skip the serrano if you’re sensitive to spice.",
+   "I didn’t feel the need to add any agave nectar to my drink, but I’ll let your taste buds decide if you need it.",
+   "I tried muddling up fresh chunks of pineapple, but they didn’t yield enough juice to merit the effort or the wasted pulp. I much prefer R.W. Knudsen’s organic pineapple juice to the canned stuff.",
+   "If you feel lost in the tequila aisle, I like Milagro’s 100% agave tequila, which comes in a cool bottle. Milagro spoiled me by sending me a few bottles to try, but I only mention it here because it is damn good stuff!"
+  ],
+  "summary": "This refreshing cocktail is made with pineapple juice, tequila, cilantro and serrano pepper. It’s bold, spicy, sweet and herbal all at once. Delicious!",
+  "ingredient_groups": []
+ }
 }

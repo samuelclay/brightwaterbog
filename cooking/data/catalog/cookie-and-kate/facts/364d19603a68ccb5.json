@@ -1,6 +1,63 @@
 {
  "url": "https://cookieandkate.com/clafoutis/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Clafoutis",
+  "ingredients": [
+   "12 ounces fresh raspberries, blueberries, blackberries or sliced strawberries or 1 pound dark cherries, pitted and halved (about 3 cups whole)",
+   "2 tablespoons unsalted butter, for the pan",
+   "1 cup plain unsweetened plain almond milk or cow’s milk*",
+   "¼ cup heavy cream*",
+   "⅓ cup plus 1 tablespoon granulated sugar, divided",
+   "3 eggs",
+   "1 tablespoon vanilla extract",
+   "½ teaspoon almond extract",
+   "¼ teaspoon fine salt",
+   "½ cup (62 grams) all-purpose flour or whole wheat pastry flour**",
+   "Whipped cream or vanilla ice cream, for serving"
+  ],
+  "yield_text": "8",
+  "cook_time": "55 minutes",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "French"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/clafoutis/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 375 degrees Fahrenheit."
+   },
+   {
+    "title": null,
+    "text": "Melt the butter in a 10-inch cast iron skillet over medium heat (or pour melted butter into a 9.5-inch glass pie plate). Gently swirl the skillet or pie plate so the butter coats the sides of the pan. Remove the skillet from the heat and place the fruit in an even layer across the base of the pan (watch out for hot butter splatters). Set it aside."
+   },
+   {
+    "title": null,
+    "text": "In a blender, combine the milk, cream, ⅓ cup sugar, eggs, vanilla extract, almond extract, salt, and flour. Blend at medium speed until smooth and frothy, about 30 seconds, pausing to scrape down the sides if necessary."
+   },
+   {
+    "title": null,
+    "text": "Pour the batter over the fruit. Sprinkle the remaining 1 tablespoon sugar on top."
+   },
+   {
+    "title": null,
+    "text": "Bake for about 45 to 50 minutes (I usually bake for 45 minutes in cast iron or closer to 50 minutes in a pie plate), until the top is golden and puffed. Let it cool to a safe temperature before serving—it’s lovely warm, though I like it even more at room temperature (expect it to deflate as it cools), or even chilled. Serve with whipped cream or ice cream, if desired. Leftovers will keep well in the refrigerator for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Recipe created with references to David Lebovitz, Once Upon a Chef and The New York Times.",
+   "*Milk notes: Any milk will do in place of almond milk. You can substitute whole milk for the milk and heavy cream (use 1 ¼ cup total) for a similar fat content, but if you plan to make whipped cream, you’ll need the heavy cream anyway.",
+   "**Flour notes: I generally try to bake with whole grain flours, but this recipe doesn’t call for much, and I prefer the texture and flavor of the all-purpose here since it lets the other flavors shine. Whole wheat pastry flour worked fine with the berries, but the cherries sunk into the batter rather than floating on top when I used it. I haven’t tried this recipe with a gluten-free all-purpose flour blend, but suspect it would work well.",
+   "Make it dairy free: Substitute mild extra-virgin olive oil or vegan butter and use more almond milk in place of the cream. I’ve tested this variation with olive oil and almond milk and loved the result!"
+  ],
+  "summary": "This clafoutis recipe is simply the best! You can make it with berries (my favorite), cherries (my daughter’s favorite), or any of the fruity variations provided in the post. Recipe yields one 10-inch clafoutis, enough for 8 slices.",
+  "ingredient_groups": []
+ }
 }

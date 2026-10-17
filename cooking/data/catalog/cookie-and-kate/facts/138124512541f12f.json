@@ -1,6 +1,68 @@
 {
  "url": "https://cookieandkate.com/honey-butter-cornbread-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Honey Butter Cornbread",
+  "ingredients": [
+   "½ cup (1 stick) unsalted butter",
+   "1 ½ cups cornmeal, medium-grind or finer*",
+   "1 ½ cups white whole wheat flour, regular whole wheat flour or all-purpose flour",
+   "1 ½ teaspoons fine sea salt",
+   "2 teaspoons baking powder",
+   "½ teaspoon baking soda",
+   "3 large eggs, at room temperature**",
+   "⅔ cup honey or maple syrup",
+   "1 ½ cups milk of choice (regular cow’s milk, almond or oat milk, etc.), at room temperature",
+   "Optional serving suggestions: additional butter, honey or jam"
+  ],
+  "yield_text": "16 slices",
+  "cook_time": "45 minutes",
+  "categories": [
+   "Baked goods"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/honey-butter-cornbread-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 375 degrees Fahrenheit. Place the butter in a large (12-inch) cast iron skillet and place the skillet in the oven to melt the butter, about 5 to 13 minutes (keep an extra eye on it as time goes on—we want it to get bubbly and lightly browned, but not burnt)."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, in a large bowl, combine the cornmeal, flour, salt, baking powder and baking soda. Stir to combine, and set aside. In a medium bowl, whisk together the eggs and honey until fully blended. Add the milk and whisk until evenly combined."
+   },
+   {
+    "title": null,
+    "text": "Pour the liquid into the dry mixture, and stir just until moistened through (we’ll stir it more soon). When the butter is melted and golden, use oven mitts (the skillet is crazy hot!) to remove the skillet from the oven, and give it a gentle swirl to lightly coat about an inch up the sides."
+   },
+   {
+    "title": null,
+    "text": "Pour the melted butter into the batter and stir just until incorporated. Pour the batter back into the hot skillet, using a spatula to scrape all of the batter from the bowl into the skillet."
+   },
+   {
+    "title": null,
+    "text": "Carefully return the skillet to the oven and bake until the bread is brown around the edge, springy to the touch, and a toothpick inserted in the center comes out clean with just a few crumbs, 25 to 30 minutes. Carefully (with oven mitts), place the skillet on a cooling rack. Let it cool for at least 5 minutes before slicing and serving—perhaps with extra butter, honey or jam on the side."
+   },
+   {
+    "title": null,
+    "text": "This cornbread will keep at room temperature in a sealed container for up to 3 days, or up to a week in the refrigerator. You can also freeze it for up to 3 months. Gently reheat before serving."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Keys to the Kitchen by Aida Mollenkamp, one of my favorite cookbooks.",
+   "*Cornmeal suggestions: I used Braggadocio “popcorn cornmeal” for the batch shown here and loved it (bought it at Whole Foods in Kansas City). I’ve also successfully used Bob’s Red Mill’s medium-grind cornmeal with success—since it is not ground as finely as the other, you’ll notice a bit more texture in the end product (“rustic” and very good). Stone-ground varieties, like the two mentioned here, will offer a bit more nutritive value than more refined options.",
+   "**Temperature note: If you, like me, always forget to pull ingredients out of the fridge in advance, just place the eggs in a bowl of warm water while you melt the butter. You can very briefly warm the milk in the microwave to raise its temperature.",
+   "Baking vessel options: Instead of a cast iron skillet, you can bake this cornbread in an 8-inch square baking dish with tall sides, or a 10-inch square baking dish, or a 9 by 13-inch baking dish. I believe you could also turn this bread into muffins by dividing the batter between a 12-cup muffin tin (I have not tried to be sure). For any of these variations, bake at the temperature specified above, until the cornbread achieves the visual cues provided, which could take more or less time depending on the size difference (muffins would be done much faster; the 9 by 13-inch option would likely be done a little sooner).",
+   "Make it gluten free: I believe that a one-for-one gluten-free baking blend should work pretty well. Please report back in the comments if you give it a try.",
+   "Change it up: Lots of options here. For cheesy cornbread, stir in ½ to 1 cup shredded Jack or cheddar cheese. For more fresh/savory cornbread, add any of the following to the hot butter and stir it around before proceeding: 1 large corn on the cob, shucked (or ¾ cup defrosted frozen corn kernels), and/or 1 finely chopped red or orange bell pepper, and/or 2 medium jalapeños, ribs removed and finely chopped. Or, add up to 1 ½ cups fresh blueberries, roughly chopped cherries, or whole fresh cranberries."
+  ],
+  "summary": "Make the best homemade cornbread with this easy recipe! It’s fluffy on the inside, crisp around the edges, and full of delicious honey-butter flavor. Recipe yields one large skillet of cornbread (see recipe notes for alternate baking vessel options).",
+  "ingredient_groups": []
+ }
 }

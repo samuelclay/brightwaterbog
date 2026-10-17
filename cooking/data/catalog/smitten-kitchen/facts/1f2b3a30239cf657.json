@@ -24,7 +24,28 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2018/10/crispy-spinach-pizza/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat your oven to 500°F (or as hot as it goes) with a rack in the center."
+   },
+   {
+    "title": null,
+    "text": "Coat either 1 13×18-inch rimmed half-sheet pan or 2 12-inch round pizza pans lightly with olive oil. Sprinkle lightly with cornmeal. Use your fingers to stretch dough to the edges of the pan(s). If it puts up a lot of resistance, let it rest for 5 to 10 minutes, and resume working the dough to the sides."
+   },
+   {
+    "title": null,
+    "text": "Top dough(s) with cheeses, a few grinds of black pepper, and garlic. Heap spinach all over; season with salt. Bake pizza until spinach is wilted and slightly browned, about 10 minutes. Remove pizza from oven and drizzle with olive oil. Cut and serve immediately."
+   }
+  ],
+  "notes": [
+   "Have you heard me mention this 2012 book before? It’s a Top 10 for me, for sure. Even if you think you’re not a pizza person (gasp), I find his treatment of vegetables as toppings, such as this (and also his mushroom pizza, and also this astounding summer squash one) innovative and fantastic.",
+   "No matter how much spinach it looks like when you put it on, I promise, it’s not too much. We all know the jokes about spinach, right? You’ll be glad you heaped it all the way to the toppling over point.",
+   "This makes two 12-inch round or one 13×18 (half-sheet) thin-crusted pizza"
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

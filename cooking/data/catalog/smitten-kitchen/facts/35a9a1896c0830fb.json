@@ -35,7 +35,38 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2024/10/roasted-carrots-with-lentils-and-yogurt/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Roast the carrots: Heat your oven to 450°F (230°C). Place carrots and water on a sheet pan and cover tightly with foil. Steam in the oven for 30 minutes, or until carrots are tender when pierced with the tip of a knife. Carefully remove foil (steam burns! and I always forget), drain any water left in pan, and drizzle carrots with a few tablespoons of olive oil, kosher salt, and freshly ground black pepper and roll them around in it, making sure there are no stuck parts. Return to the oven uncovered and roast until carrots are browned, about another 20 to 25 minutes. [See note up top.]"
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, cook your lentils: Cook dried lentils in salted water according to the package directions, then drain and set aside."
+   },
+   {
+    "title": null,
+    "text": "Make the vinaigrette: Combine dressing ingredients in a jar and shake well to combine. Taste and adjust seasoning as needed. I’m aiming for a sharp, lemony vinaigrette here that will wake up the cooked lentils."
+   },
+   {
+    "title": null,
+    "text": "Assemble right before eating: Pour all but last two tablespoons of vinaigrette over lentils and mix. Season to taste with additional salt and pepper, if needed. Stir in all but last two tablespoons of parsley. Spoon yogurt directly onto a serving plate and use the back of a spoon to swirl it to coat the bottom. Spoon 3/4 of lentil salad over yogurt. When carrots come out of the oven, pour remaining dressing over carrots in the pan, rolling them in it, and then lay the cooked carrots on top of the lentils. Spoon remaining lentils around the carrots and sprinkle platter with remaining parsley."
+   },
+   {
+    "title": null,
+    "text": "Eat right away."
+   }
+  ],
+  "notes": [
+   "Do ahead: I’d keep the elements separate until serving so each element tastes distinct. However, for unglamorous leftovers, everything mixed in a container is surprisingly delicious.",
+   "If you’re buying carrots with the greens on top, buy extra as the greens on top carry a lot of weight.",
+   "Carrots are going to vary in thickness, which will affect their cooking times; you might need more or less time to get them tender in the steam. Thin ones might brown faster.",
+   "My favorite lentil product is Trader Joe’s vacuum-packed steamed lentils from the fridge case. They’re utterly perfectly cooked and even seasoned. I’ve also kept unopened packages in the fridge for, uh, months and lived to tell about it but please do not take my risk aversion as a food safety recommendation.",
+   "My favorite dried lentils are Sabarot French Green Lentils."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

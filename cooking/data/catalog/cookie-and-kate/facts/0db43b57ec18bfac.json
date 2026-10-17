@@ -1,6 +1,40 @@
 {
  "url": "https://cookieandkate.com/easy-vegan-parmesan-cheese-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Easy Vegan Parmesan Cheese",
+  "ingredients": [
+   "½ cup hemp seeds",
+   "¼ cup nutritional yeast",
+   "½ teaspoon garlic powder",
+   "½ teaspoon onion powder",
+   "¼ teaspoon fine sea salt, to taste"
+  ],
+  "yield_text": "3/4 cup",
+  "cook_time": "3 minutes",
+  "categories": [
+   "Condiment"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/easy-vegan-parmesan-cheese-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Simply stir together the ingredients in a bowl or jar until they are evenly dispersed. Taste, and add more salt for more intense flavor (I usually add another pinch or so). You’re done!"
+   },
+   {
+    "title": null,
+    "text": "Store this vegan Parmesan cheese in an airtight container at room temperature for up to 3 months."
+   }
+  ],
+  "notes": [],
+  "summary": "Make this simple vegan Parmesan cheese recipe and sprinkle it over your favorite Italian recipes! This vegan Parm is made with hemp seeds, so it’s nut free. No food processor required—just stir together the ingredients and you’re done. Recipe yields about ¾ cup.",
+  "ingredient_groups": []
+ }
 }

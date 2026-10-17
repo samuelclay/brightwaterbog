@@ -19,7 +19,29 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/chocolate-smoothie/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a blender, combine the milk, banana, chocolate chips, cocoa powder and 1 tablespoon of the nut butter. Securely fasten the lid."
+   },
+   {
+    "title": null,
+    "text": "Blend on low until the blender gains traction, then ramp up to the highest speed as soon as possible. Blend until the mixture is creamy and super smooth (or if your blender has a smoothie function, use that)."
+   },
+   {
+    "title": null,
+    "text": "Taste, and add another tablespoon of nut butter for a creamier texture, or maple syrup for more sweetness, then blend again. Enjoy while it’s cold."
+   }
+  ],
+  "notes": [
+   "Make it a protein smoothie: Add up to 1 scoop of vanilla or chocolate protein powder.",
+   "Make it dairy free/vegan: Use your favorite non-dairy milk and non-dairy chocolate chips. Vegans, if you add sweetener, make it maple syrup.",
+   "Make it spicy: Add ¼ teaspoon ground cinnamon and a dash of cayenne pepper, if you love spice.",
+   "2025 recipe edits: I revisited this recipe and removed the spices, which you’ll find in the “make it spicy” variation. I increased the amount of cocoa powder by 1 teaspoon to make it more chocolatey and added nut butter for a creamier and richer texture."
+  ],
+  "summary": "This chocolate banana smoothie recipe tastes like a treat. Slice peeled ripe bananas into 1-inch chunks and keep them in the freezer so you can make this smoothie whenever your sweet tooth craves it. Recipe yields about 1 ⅓ cups ; you can multiply the recipe to make two to three at once, depending on the size of your blender.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

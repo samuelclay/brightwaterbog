@@ -27,7 +27,28 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/marinated-chickpeas-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium serving bowl, combine the chickpeas, red peppers, feta and basil."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl, whisk together the olive oil, vinegar, honey, garlic, oregano, salt, pepper and red pepper flakes."
+   },
+   {
+    "title": null,
+    "text": "Pour the dressing over the chickpeas and stir. Cover the bowl and stick it in the fridge for at least 30 minutes, for best flavor. The salad keeps for up to 5 days in the refrigerator."
+   }
+  ],
+  "notes": [
+   "Recipe from The Pretty Dish by Jessica Merchant. I doubled it.",
+   "Make it dairy free: I think you could replace the feta with sliced Kalamata olives and/or sliced pepperoncini peppers, to taste. They won’t make up for the creaminess of the feta, though.",
+   "Change it up: Jessica suggests that you can substitute cannellini or great Northern beans for the chickpeas."
+  ],
+  "summary": "These marinated chickpeas are a little spicy, a little sweet, and totally irresistible. This recipe as great on its own as a light meal or appetizer, or served on salads or inside pitas. Recipe yields about 6 side servings.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

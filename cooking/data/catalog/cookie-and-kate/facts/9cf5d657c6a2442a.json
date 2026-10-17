@@ -21,7 +21,22 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/lemon-basil-mojito/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a sturdy glass, muddle fresh basil and mint leaves with sugar. Add rum and lemon juice."
+   },
+   {
+    "title": null,
+    "text": "Fill the glass with ice, top it off with club soda and stir it with a spoon. Enjoy."
+   }
+  ],
+  "notes": [
+   "Recipe minimally adapted from The Forest Feast by Erin Gleeson."
+  ],
+  "summary": "Light, herbal, refreshing mojitos for summer days! This is a simple twist on a classic mojito made with basil and lemon. Erin suggests freezing ice cubes with mint, basil and lemon slices, which would be a nice touch. Ingredients listed yield one cocktail.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

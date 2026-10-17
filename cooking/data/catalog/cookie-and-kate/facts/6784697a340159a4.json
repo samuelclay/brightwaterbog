@@ -1,6 +1,77 @@
 {
  "url": "https://cookieandkate.com/cherry-couscous-arugula-salad-in-balsamic-vinaigrette/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Cherry Salad with Arugula and Couscous",
+  "ingredients": [
+   "¾ cup fine couscous, whole wheat if desired",
+   "2 tablespoons olive oil",
+   "¼ teaspoon sea salt",
+   "Several twists of freshly ground black pepper",
+   "¼ cup olive oil",
+   "2 tablespoons lemon juice",
+   "2 tablespoons balsamic vinegar",
+   "2 teaspoons Dijon mustard",
+   "2 teaspoons honey or maple syrup",
+   "Generous amount of freshly ground black pepper",
+   "⅛ teaspoon fine salt",
+   "5 ounces arugula",
+   "½ pound cherries (about 2 big handfuls), pitted, halved and quartered",
+   "2 to 3 stalks celery, chopped (1 heaping cup)",
+   "4 ounces goat cheese, crumbled (about ¾ cup)",
+   "½ cup shelled pistachios or almonds"
+  ],
+  "yield_text": "6",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cherry-couscous-arugula-salad-in-balsamic-vinaigrette/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the couscous: Bring ¾ cup water to boil in a small saucepan. Once it’s boiling, remove the pan from heat and pour in the couscous, olive oil, sea salt and a few twists of freshly ground black pepper. Stir, cover and let rest for 5 minutes. Remove the lid, fluff the couscous with a fork and set it aside for later."
+   },
+   {
+    "title": null,
+    "text": "To make the dressing: Whisk together all of the vinaigrette ingredients in a small bowl until emulsified."
+   },
+   {
+    "title": null,
+    "text": "To toast the nuts (skip this step if they’re already roasted): In a skillet over medium-low heat, toast the nuts, tossing frequently, until fragrant, about 3 to 6 minutes. Remove from heat and use a chef’s knife to chop the nuts into small pieces."
+   },
+   {
+    "title": null,
+    "text": "To compose the salad: In a large serving bowl, combine the arugula, cooled couscous, sliced cherries, chopped celery, crumbled goat cheese and chopped nuts. When you’re ready to serve, drizzle it with enough vinaigrette to lightly coat the greens (you might have some leftover) and toss to combine. Serve immediately. If you store the dressing separately from the rest, it will keep well in the refrigerator for up to 4 days."
+   }
+  ],
+  "notes": [
+   "Why buy organic? Conventionally grown celery, cherries and leafy greens are notoriously high in pesticide residues.",
+   "Make it vegan: Skip the goat cheese and substitute maple syrup for the honey in the dressing.",
+   "Make it gluten free: Substitute cooked quinoa for the couscous (here’s how to cook quinoa).",
+   "Change it up: Substitute sliced peaches, plums or nectarines for the cherries. You can also use spinach in place of the arugula.",
+   "Prepare in advance: You can cook the grains and whisk together the dressing. Store them in the refrigerator, covered, until you’re ready to serve.",
+   "2026 recipe edits: I retested and tweaked the quantities of arugula and goat cheese to use the full packages, plus increased the nuts accordingly, which makes the salad slightly bigger."
+  ],
+  "summary": "This delightful summer salad features fresh cherries, arugula, pistachios and goat cheese tossed in a simple balsamic vinaigrette. Feel free to substitute pearl couscous for the fine couscous shown here, or quinoa to make the salad gluten free. Recipe yields 6 medium salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Couscous"
+   },
+   {
+    "at": 4,
+    "title": "Balsamic vinaigrette (this makes extra)"
+   },
+   {
+    "at": 11,
+    "title": "Salad"
+   }
+  ]
+ }
 }

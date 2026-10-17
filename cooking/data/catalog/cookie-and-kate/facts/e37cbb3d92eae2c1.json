@@ -1,6 +1,69 @@
 {
  "url": "https://cookieandkate.com/roasted-cauliflower-steaks-with-marinara-spaghetti/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Parmesan Cauliflower Steaks with Marinara",
+  "ingredients": [
+   "1 large head of cauliflower",
+   "2 to 3 tablespoons olive oil",
+   "1 ounce finely grated Parmesan (about ¾ cup)",
+   "Salt and freshly ground black pepper",
+   "8 ounces whole grain spaghetti",
+   "25 ounces marinara sauce",
+   "Optional garnishes: more grated Parmesan, more pepper and/or pinch red pepper flakes"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "50 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-cauliflower-steaks-with-marinara-spaghetti/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 425 degrees Fahrenheit and line a large baking sheet with parchment paper. Turn the cauliflower on its side and slice off the protruding end of the stem. Place the cauliflower on a cutting board with the floret side up and use a sharp knife to slice it into 1-inch thick slices. Don’t worry if some of your slices fall apart."
+   },
+   {
+    "title": null,
+    "text": "Transfer the cauliflower to your prepared baking sheet. Drizzle on two tablespoons of olive oil and gently toss to coat. Rub the oil onto all sides of the cauliflower until all pieces are lightly coated, adding more oil if necessary. Sprinkle the cauliflower with salt and pepper. Arrange it in a single layer and roast for 20 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the cauliflower from the oven and carefully flip the cauliflower. Sprinkle the Parmesan over the cauliflower and return it to the oven for another 18 to 20 minutes, until the Parmesan is golden and the cauliflower is tender and caramelized on the edges."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, bring a large, salted pot of water to boil. Add the spaghetti and cook until al dente, according to package directions. Drain and toss with a light drizzle of olive oil to prevent sticking."
+   },
+   {
+    "title": null,
+    "text": "Warm the sauce in a medium saucepan on the stove. Cover and maintain a gentle simmer until you’re ready to serve."
+   },
+   {
+    "title": null,
+    "text": "Divide the spaghetti into individual bowls or plates, top with ample marinara sauce and roasted cauliflower. If you’d like, add a sprinkle of additional Parmesan, pepper and/or red pepper flakes."
+   }
+  ],
+  "notes": [
+   "Make it gluten free: Substitute your favorite gluten-free pasta for the spaghetti."
+  ],
+  "summary": "Simple, healthy weeknight dinner featuring roasted cauliflower steaks with marinara sauce and whole grain spaghetti. Recipe yields 4 portions.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Cauliflower “steaks”"
+   },
+   {
+    "at": 4,
+    "title": "Everything else"
+   }
+  ]
+ }
 }

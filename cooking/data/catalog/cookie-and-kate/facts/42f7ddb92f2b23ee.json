@@ -25,7 +25,39 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/double-lemon-poppy-seed-muffins/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 375 degrees Fahrenheit. Line your muffin tin with paper liners, or grease your muffin pan using butter or non-stick cooking spray. (Pro tip: grease only the bottoms and halfway up the cups so your muffin tops don’t flatten out while baking.)"
+   },
+   {
+    "title": null,
+    "text": "Combine the sugar and lemon zest in a medium mixing bowl. Use your fingers to rub the zest into the sugar until it is fragrant and pale yellow. Whisk in the flour, poppy seeds, baking powder, baking soda, and salt."
+   },
+   {
+    "title": null,
+    "text": "In a separate, smaller mixing bowl, combine the butter, yogurt, eggs, vanilla and the juice of one of your bald lemons. Whisk until combined."
+   },
+   {
+    "title": null,
+    "text": "Pour the liquid ingredients into the dry ingredients. Use a large spoon to mix the two together, just until combined (a few lumps are ok—do not overmix, or your muffins will become tough)."
+   },
+   {
+    "title": null,
+    "text": "Divide the batter evenly between the 12 muffin cups. The batter will be thick, but don’t worry; your muffins will turn out great. Sprinkle the muffins with turbinado sugar (if using) and wipe off any sugar that lands between the muffin cups."
+   },
+   {
+    "title": null,
+    "text": "Bake for 16 to 19 minutes, until tops are golden and a toothpick inserted in the center of a muffin comes out clean. Let the muffins cool for 5 minutes in the muffin pan, then carefully transfer the muffins to a baking rack to cool completely."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my blueberry lemon muffins, with references to The Fauxmartha and Two Peas and their Pod.",
+   "2025 edits: I retested this recipe and lightly tweaked the amounts of poppy seeds, baking soda (for more browning), flour, butter and yogurt. The current recipe yields lighter, fluffier and more delicious muffins."
+  ],
+  "summary": "These delightful muffins are bursting with lemon flavor and poppy seeds. These healthy muffins are made with whole wheat flour and yogurt. Serve with yogurt for a quick and filling breakfast. Recipe yields 1 dozen muffins.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

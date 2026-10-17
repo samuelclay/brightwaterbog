@@ -18,7 +18,28 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/crostini-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven (or a gas grill*) to 450 degrees Fahrenheit. Line a large, rimmed baking sheet with parchment paper for easy clean-up, if desired. If your baking sheet is smaller than mine, you may need to make the toast in two batches."
+   },
+   {
+    "title": null,
+    "text": "Slice your baguette on the diagonal into pieces no wider than ½-inch. I can usually fit 20 to 24 slices on my large baking sheet; you might have some bread left over. Lightly brush both sides of each slice with olive oil (this will require about 2 to 3 tablespoons oil)."
+   },
+   {
+    "title": null,
+    "text": "Place the slices in a single layer on your prepared baking sheet and bake them on the middle rack for 6 to 9 minutes, until they’re crisp and nicely golden on top. Sprinkle the toasts lightly with salt. Transfer the toasts to a serving platter, if desired, and use as desired."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Tomato Bruschetta and crostini-based appetizers in my cookbook, Love Real Food.",
+   "*How to grill crostini: Simply brush the slices with olive oil as directed and place them directly on the grill grates with tongs. Cover and let the bread toast for about 3 minutes. When the undersides are golden, with nice grill marks, carefully flip them with tongs and repeat on the other side. Transfer to a large serving platter and top as desired.",
+   "Alternate baking temps and timing: Sometimes, you’ll want to bake crostini on an available oven rack while roasting something else. If baking at 350 degrees Fahrenheit, your crostini will be ready in 10 to 12 minutes. If baking at 400, they’ll be done in 8 to 10 minutes."
+  ],
+  "summary": "Learn how to make golden, toasted crostini in this simple recipe! They’re easy to make in the oven (or on the grill, see note). Crostini are the perfect base for your party appetizers or a fun light meal with accompaniments. Recipe yields 16 to 24 little toasts, depending on the baguette length (demi or full size).",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

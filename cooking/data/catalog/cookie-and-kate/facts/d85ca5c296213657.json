@@ -21,7 +21,26 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/cilantro-hemp-pesto-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a food processor, combine everything but the olive oil (the cilantro, hemp seeds, optional jalapeño, garlic and salt). Process until the ingredients are very finely chopped, pausing to scrape down the bowl if necessary."
+   },
+   {
+    "title": null,
+    "text": "While running the machine, drizzle in the olive oil. Continue processing until the mixture is well combined and almost creamy in texture. I designed this sauce to be quite thick; if you’d prefer a thinner sauce, drizzle in a bit more olive oil while running the machine."
+   },
+   {
+    "title": null,
+    "text": "Use immediately or store in an air-tight jar in the refrigerator for up to 5 days (I believe it would freeze well for up to 3 months, but I haven’t tried). This sauce will turn a bit darker on top during storage, but it’s perfectly edible."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by the cilantro pesto at True Food Kitchen."
+  ],
+  "summary": "This cilantro pesto recipe is made with hemp seeds! It’s a fresh and healthy sauce that livens up a variety of dishes. It’s really great with Mexican flavors. Recipe yields ⅔ cup—it’s so good that you might as well double it.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

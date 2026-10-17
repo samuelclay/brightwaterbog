@@ -1,6 +1,56 @@
 {
  "url": "https://cookieandkate.com/scrambled-huevos-rancheros/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Scrambled Huevos Rancheros",
+  "ingredients": [
+   "1 corn tortilla",
+   "1 egg, scrambled",
+   "Dash of milk",
+   "¼ cup shredded cheese (Monterey Jack, cheddar and mozzarella are all good)",
+   "Toppings of your choice (see suggestions below)"
+  ],
+  "yield_text": "1 serving",
+  "cook_time": "8 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/scrambled-huevos-rancheros/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small bowl, scramble your egg with a dash of milk."
+   },
+   {
+    "title": null,
+    "text": "Heat a small pan (I use an 8-inch cast iron skillet) over medium heat. Butter the skillet or spray it with cooking spray."
+   },
+   {
+    "title": null,
+    "text": "Place the tortilla in the pan. Let it warm up on one side, and then flip it. Repeat if you want an extra crispy tortilla."
+   },
+   {
+    "title": null,
+    "text": "Once both sides are hot, sprinkle cheese onto the tortilla. I like to leave the center alone and cover the perimeter with cheese."
+   },
+   {
+    "title": null,
+    "text": "Once the cheese has melted, slowly pour the egg mixture onto the center of the tortilla. It will overflow onto the pan, which is fine. At this point, you’re going to treat it sort of like an omelet, so use a wooden spoon to push the eggs around the perimeter of the pan. Scoot the set pieces to the center of the tortilla."
+   },
+   {
+    "title": null,
+    "text": "Once you’ve redistributed all of the eggs to the tortilla, use a big spatula to flip it over and cook for about twenty seconds. Flip it back onto your plate and top it with whatever your heart desires!"
+   }
+  ],
+  "notes": [],
+  "summary": "Looking for a light, filling, fresh recipe? Look no further than scrambled huevos rancheros, which are perfect any time of the day! Recipe as written below yields 1 serving; multiply as necessary.",
+  "ingredient_groups": []
+ }
 }

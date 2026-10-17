@@ -25,7 +25,20 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2010/07/scalloped-tomatoes-with-croutons/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 350°F. Heat olive oil in a large sauté pan over medium-high. Add the bread cubes and stir so that they are evenly coated with oil. Cook cubes, tossing frequently, until toasty on all sides, about 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, combine tomatoes, garlic, sugar, salt and pepper in a large bowl. When the bread cubes are toasted, add the tomato mixture and cook them together, stirring frequently, for 5 minutes. Remove from heat, and stir in the basil. Pour into a shallow (6 to 8 cup) baking dish and top with Parmesan cheese. Bake 35 to 40 minutes until the top is browned and the tomatoes are bubbly. Serve hot or warm with a big green salad, a bean salad and/or a poached egg."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

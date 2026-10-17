@@ -1,6 +1,96 @@
 {
  "url": "https://cookieandkate.com/migas-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Tex-Mex Migas",
+  "ingredients": [
+   "10 eggs",
+   "3 tablespoons cream, half-and-half or plain milk of choice",
+   "¼ teaspoon fine salt",
+   "Freshly ground black pepper",
+   "1 tablespoon unsalted butter",
+   "1 cup (3 ¼ ounces) grated mild-to-medium cheddar cheese",
+   "¾ cup roughly crumbled tortilla chips",
+   "2 teaspoons olive oil",
+   "1 small-to-medium red onion, chopped finely (up to 2 cups chopped)",
+   "1 red or orange bell pepper, membranes and seeds removed, chopped finely (about 1 heaping cup)",
+   "1 small jalapeño (optional, for spice), membranes and seeds removed, chopped finely",
+   "¼ teaspoon ground cumin",
+   "¼ teaspoon fine salt",
+   "Red salsa, served with a fork to avoid excess juice",
+   "Sour cream (so good!)",
+   "Chopped cilantro",
+   "Sliced avocado or guacamole",
+   "Hot sauce of choice",
+   "Lime wedges",
+   "For taco variation: 8 to 12 small corn or flour tortillas, warmed"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/migas-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a bowl, combine the eggs, cream, salt and a few twists of freshly ground black pepper. Use a small whisk or a fork to mix the eggs until they are uniformly yellow. Set the eggs aside for later."
+   },
+   {
+    "title": null,
+    "text": "Cook the peppers and onions: Warm the olive oil in a large stainless steel skillet over medium heat. Add the chopped onion, bell pepper, jalapeño (if using), cumin and salt. Cook, stirring often, until the onions are translucent and the peppers are tender, about 5 to 7 minutes."
+   },
+   {
+    "title": null,
+    "text": "Transfer the peppers to a bowl. Let the skillet cool for a few minutes, then wash it before the next step (or grab a new large skillet)."
+   },
+   {
+    "title": null,
+    "text": "Return the skillet to the stove over medium heat. Let the pan preheat until it’s so hot that when you flick a few drops of water at an angle onto the pan, they dance or hop across the surface and then evaporate almost immediately. If they splatter and bubble upon contact, it’s not hot enough. Once you see a drop dance, move to the next step immediately."
+   },
+   {
+    "title": null,
+    "text": "Add the butter and swirl it around the pan a couple of times. Once the butter foams up and mostly settles down, pour in the eggs. (If the butter has significantly browned during this time, your pan is too hot—start over.)"
+   },
+   {
+    "title": null,
+    "text": "Let the eggs rest until a white rim forms around the pan, about 10 to 15 seconds. Stir the eggs with the spatula, making sure to stir from the base of the pan."
+   },
+   {
+    "title": null,
+    "text": "Let the eggs rest for another 10 to 15 seconds, then stir again, tilting the pan to help the runny eggs reach the skillet. Repeat, stirring more often as the eggs get hotter, until the eggs are still shiny but mostly set, about 1 ½ to 2 minutes in total. Fold in the cooked pepper mixture, crispy tortilla chips and cheese, and remove the skillet from the heat."
+   },
+   {
+    "title": null,
+    "text": "Promptly divide the mixture onto plates. Serve with toppings of your choice. Migas are best made fresh, when the tortillas still retain some crunch, but will keep well in the refrigerator for up to 4 days. Gently warm them in the microwave and add toppings just before serving."
+   }
+  ],
+  "notes": [
+   "Recipe inspired by the migas tacos at Veracruz All Natural in Austin, Texas, and adapted from my since-deleted recipe for Austin-Style Migas with Black Beans.",
+   "Make it gluten free: This recipe is gluten-free as long as your tortilla chips and optional corn tortillas are gluten-free.",
+   "Make it dairy free: Use non-dairy milk, like plain almond milk, and omit the cheese. Top your bowls with avocado for extra creaminess."
+  ],
+  "summary": "This Tex-Mex migas recipe features cheesy scrambled eggs mixed with crumbled tortilla chips, sautéed peppers and onion, and toppings of your choice! Enjoy a taste of Austin, Texas with these delicious homemade migas. Recipe yields 4 bowls (or 8 to 12 migas tacos).",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Scrambled eggs"
+   },
+   {
+    "at": 7,
+    "title": "Pepper mixture"
+   },
+   {
+    "at": 13,
+    "title": "Optional garnishes (take your pick)"
+   }
+  ]
+ }
 }

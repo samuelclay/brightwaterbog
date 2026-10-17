@@ -20,7 +20,34 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/clementine-french-75-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the honey simple syrup: You’ll need to warm the honey so it will mix it into the water. In a tiny saucepan on the stove, combine honey and water. Warm over medium heat, whisking occasionally, just until the honey has melted into the water. Remove from heat."
+   },
+   {
+    "title": null,
+    "text": "To make a cocktail (you can make multiple drinks at once): Fill a cocktail shaker with ice. Pour in the gin, clementine juice and simple syrup in the proportions listed above. Securely fasten the cap on the shaker and shake until well chilled, about 20 seconds. Strain the liquid into Champagne glasses and top with Champagne. Garnish with a twist or wedge of clementine and serve immediately."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Earl Grey French 75.",
+   "*Make it vegan: Either use ¼ ounce agave nectar or substitute regular simple syrup for the honey simple syrup. You can just combine equal parts fine [vegan] sugar and water in a jar and shake it until the sugar disappears into the water.",
+   "Make it gluten free: I found Hendrick’s on a list of gluten-free gins, but you might double-check to be sure.",
+   "Change it up: Any fresh citrus juice will work here. If you’re using something really tart, like lemon or lime, scale back to ¾ ounce juice."
+  ],
+  "summary": "Sunny clementine French 75 cocktails are a perfect brunch or happy hour drink!",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "*Honey simple syrup (yields enough for 4 drinks, scale as necessary)"
+   },
+   {
+    "at": 2,
+    "title": "Per cocktail"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -31,7 +31,30 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2025/04/charred-salt-and-vinegar-cabbage/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat your oven to 475°F (245°C)."
+   },
+   {
+    "title": null,
+    "text": "On a rimmed 9-by-13-inch baking sheet, toss the cabbage with the olive oil, salt, and pepper to coat evenly, but leaving any chunks intact-that is, there’s no need to separate the leafy layers. Dot the butter over the top — it will melt in the oven. Roast for 15 minutes, until the cabbage is black in spots."
+   },
+   {
+    "title": null,
+    "text": "Use a spatula to turn the cabbage over and scatter the garlic cloves in the pan."
+   },
+   {
+    "title": null,
+    "text": "Return to the oven and roast for another 15 minutes, until the cabbage looks worrisomely charred (but it will be perfect, I promise). Pour the broth and vinegar carefully into the pan, and return it to the oven a final time, to roast for yet another 15 minutes, or until the garlic cloves are tender and the liquids have been reduced to a thin (or nonexistent) puddle. Finish with a sprinkling of sea salt, and good luck not eating the crunchy bits right from the pan."
+   }
+  ],
+  "notes": [
+   "Note: Delightfully (to me and perhaps to you, too), this works best with green cabbage, that inexpensive, sturdy workhorse you can find everywhere and often in the back of my fridge, neglected. This recipe was originally published in my third cookbook, Smitten Kitchen Keepers, a sort of odd man out recipe I didn’t expect anyone but me to love, and was delighted to be proven wrong."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -1,6 +1,48 @@
 {
  "url": "https://cookieandkate.com/fajita-veggies/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Fajita Veggies",
+  "ingredients": [
+   "2 teaspoons extra-virgin olive oil",
+   "2 medium-to-large bell peppers, sliced into long strips about ¼-inch wide",
+   "1 medium red onion, sliced into long strips about ¼-inch wide",
+   "½ teaspoon dried oregano",
+   "½ teaspoon chili powder",
+   "¼ teaspoon dried cumin",
+   "¼ teaspoon fine salt, more to taste",
+   "2 tablespoons water",
+   "2 teaspoons fresh lime juice"
+  ],
+  "yield_text": "4 side servings",
+  "cook_time": "20 minutes",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Tex-Mex"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/fajita-veggies/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Warm the olive oil in a 10-inch cast iron or stainless steel skillet over medium-low heat until shimmering. Add the peppers, onion, oregano, chili powder, cumin and salt, and toss to combine."
+   },
+   {
+    "title": null,
+    "text": "Add the water, then immediately cover and cook, stirring only every couple of minutes until softened to your liking and lightly charred along the edges, about 10 to 12 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the skillet from the heat. Stir in the lime juice and season to taste with salt, if desired (I usually add another pinch of salt). Leftovers keep well in the refrigerator for up to 4 days; gently reheat them in the microwave before serving."
+   }
+  ],
+  "notes": [],
+  "summary": "These bold fajita vegetables are tender, caramelized and delicious! This easy recipe tastes like Chipotle’s fajita veggies, but better. Recipe yields 4 servings.",
+  "ingredient_groups": []
+ }
 }

@@ -30,7 +30,28 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/sweet-potato-chili-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a 4-to-6 quart Dutch oven or stockpot over medium heat, warm the olive oil until shimmering. Add the chopped vegetables (onion, peppers and sweet potatoes) and a sprinkle of salt and pepper. Cook, stirring occasionally, until the onions start turning translucent, about 3 to 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Reduce the heat to medium-low. Add the garlic and spices (chili powder, cumin, cayenne, cocoa powder, cinnamon, and another dash of salt and pepper) and liquid ingredients (tomatoes, beans and broth), and stir. Bring the mixture to a gentle simmer. Cover and cook, stirring occasionally and reducing heat as necessary to maintain a gentle simmer, until the sweet potatoes are tender and the chili has reduced to a heartier consistency, about 45 minutes to 1 hour."
+   },
+   {
+    "title": null,
+    "text": "If you would like an even thicker consistency, use a potato masher to mash the chili until the texture suits your preferences. Season chili with salt and pepper to taste. Divide the chili into individual bowls, garnish as desired and serve."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Real Simple.",
+   "*A note on canned tomatoes: I’m concerned about the BPA levels in canned tomato goods and avoid canned tomato products as best I can. I recommend using Muir Glen canned tomatoes because their cans are BPA-free.",
+   "Slow cooker/Crockpot option: This chili should turn out well after cooking on low for 7 to 8 hours, or on high for 4 to 5 hours."
+  ],
+  "summary": "Extraordinary vegetarian chili containing sweet potatoes, black and kidney beans, peppers and cocoa powder. A wonderfully delicious, hearty & healthy vegan meal. Recipe yields 6 bowls.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

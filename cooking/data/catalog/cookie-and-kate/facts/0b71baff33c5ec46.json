@@ -28,7 +28,41 @@
   "cuisines": [],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/the-little-green-salad/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To toast the nuts or seeds, cook them in a medium skillet over medium-low heat, stirring often, until they’re fragrant and starting to turn golden, about 3 to 5 minutes. Set them aside to cool."
+   },
+   {
+    "title": null,
+    "text": "To make the dressing, combine all of the ingredients and whisk until blended. Season generously with black pepper and adjust to taste by adding more honey if the dressing tastes too tart."
+   },
+   {
+    "title": null,
+    "text": "In a mixing bowl, combine the greens, nuts and cheese. Add most of the dressing and toss until the salad is lightly coated throughout (you might have some leftover dressing). If desired, toss in the suggested add-ins. Serve promptly. Leftover salad dressing will keep in the fridge for up to 10 days."
+   }
+  ],
+  "notes": [
+   "Make it nut free: Use sunflower seeds or pepitas (green pumpkin seeds) instead of nuts.",
+   "Make it dairy free/vegan: Omit the cheese. You might like a sprinkle of vegan Parmesan instead, although it’s good without. To make it vegan, use maple syrup instead of honey.",
+   "2026 recipe edits: I made the dressing match the proportions and ingredients in my lemon vinaigrette, since I prefer the more complex flavor that it offers. I also added more flavor variations."
+  ],
+  "summary": "This simple green side salad is made with Parmesan and toasted nuts, tossed in lemon dressing. It’s wonderful in its simplest form, but you can add my suggested seasonal variations or put your own spin on it. Recipe yields 6 to 8 side salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Salad"
+   },
+   {
+    "at": 3,
+    "title": "Lemon vinaigrette"
+   },
+   {
+    "at": 10,
+    "title": "Suggested variations"
+   }
+  ]
  },
  "parser_version": 2
 }

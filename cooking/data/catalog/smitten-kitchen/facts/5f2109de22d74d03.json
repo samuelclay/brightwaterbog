@@ -28,7 +28,47 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2020/11/corn-pudding/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Heat oven to 350°F. Coat a 5- to 6-cup baking dish (I’m using this ruffly 10″ quiche pan) with butter or nonstick cooking spray."
+   },
+   {
+    "title": null,
+    "text": "In a food processor or high-powered blender, blend half — I just eyeball it — the corn until finely chopped."
+   },
+   {
+    "title": null,
+    "text": "Slice the butter into a few pieces. In a large sauté pan over medium heat, melt the butter and continue to cook it, stirring frequently, after it has melted — in a few minutes, light brown flecks will appear in the pan and it will smell toasty and wonderful. Briefly remove the pan from the heat; it will continue to cook to a nutty brown color just from the existing heat in the pan."
+   },
+   {
+    "title": null,
+    "text": "Pour off 2 tablespoons of the brown butter into a small dish and set aside. [See alt brown butter hot honey drizzle suggestion at the end.]"
+   },
+   {
+    "title": null,
+    "text": "Add whole corn kernels, blended corn, salt, and cayenne to the brown butter in the pan and cook over medium-high heat, stirring, for 4 to 5 minutes, until the corn is tender and brighter yellow. Scrape the corn and every single fleck of brown butter into a large bowl and whisk in sour cream. If the mixture still feels piping hot, let it cool for 5 minutes. If the sour cream cooled it to warm, no need to."
+   },
+   {
+    "title": null,
+    "text": "Whisk in eggs until well-combined. Sprinkle sugar and baking powder over batter surface and whisk thoroughly to ensure it’s well-distributed through the batter. Add flour and cornmeal and mix until just combined. Scrape batter into prepared dish."
+   },
+   {
+    "title": null,
+    "text": "Bake for 15 to 20 minutes, until a toothpick inserted into the center comes out batter-free. Immediately drizzle reserved brown butter over batter. Add a few flakes of sea salt too, if you wish. Eat warm"
+   },
+   {
+    "title": null,
+    "text": "With a brown butter hot honey drizzle: Whisk 1 to 2 tablespoons, to taste, hot honey (both of these are great ones) into the reserved brown butter. Warm gently if the mixture is not runny/pourable before drizzling it over the finished corn pudding."
+   }
+  ],
+  "notes": [
+   "Do ahead: Corn pudding keeps fantastically; I’d limit it to just one day at room temperature or keep it in the fridge for 3 to 4 days. Rewarm in a low oven.",
+   "Note: If you prefer a softer/looser corn pudding, you could add an additional egg and a few minutes of baking time."
+  ],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -31,7 +31,16 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2012/06/chopped-salad-with-feta-lime-and-mint/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Mix the vegetables, feta, scallions, seeds and mint in a medium bowl. Whisk lime juice, olive oil, salt, spice and black pepper in a small dish and pour over vegetables, tossing to evenly coat. Adjust with more salt or pepper as needed. Garnish with mint and crunch-crunch-crunch away!"
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -1,6 +1,59 @@
 {
  "url": "https://cookieandkate.com/sweet-corn-salad-wraps/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Sweet Corn Salad Wraps",
+  "ingredients": [
+   "4 to 6 ears fresh corn, kernels removed (2 to 3 cups)",
+   "1 small red onion, chopped finely",
+   "½ red bell pepper, chopped",
+   "Handful of cherry tomatoes, sliced into thin rounds",
+   "½ cup finely chopped fresh cilantro",
+   "1 teaspoon ancho chile powder or regular chili powder",
+   "Pinch of cayenne pepper (optional)",
+   "2 to 3 small limes, juiced",
+   "Salt and black pepper, to taste",
+   "2 tablespoons olive oil, plus more for frying",
+   "1 head of green cabbage or butter lettuce (optional, see notes)",
+   "2 small corn tortillas, cut into little strips, or a handful of broken tortilla chips",
+   "1 avocado"
+  ],
+  "yield_text": "2 to 4",
+  "cook_time": "50 minutes",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/sweet-corn-salad-wraps/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium bowl, combine the raw corn kernels, onion, bell pepper, cherry tomatoes, cilantro, chili powder, cayenne pepper (if using) and the juice of two limes. Season with salt and pepper to taste and stir in the olive oil. If you would like more tang, add another tablespoon or two of lime juice. Set aside for thirty minutes, if you can swing it."
+   },
+   {
+    "title": null,
+    "text": "Remove 4 to 6 big cabbage/lettuce leaves (if using) from the head of cabbage/lettuce. I had trouble with this, I think it will be easier if you cut off the base first (head smack!). Place each leaf on its own small plate."
+   },
+   {
+    "title": null,
+    "text": "In a small skillet (preferably cast iron) on medium-high heat, pour in enough oil to form a thin film on the surface. Add the tortilla strips, sprinkle with some salt and fry until crisp, stirring occasionally. Remove tortilla strips from skillet and drain on a plate covered with a piece of paper towel."
+   },
+   {
+    "title": null,
+    "text": "Halve and pit the avocado and slice into small strips, leaving the skin behind. Spoon about ½ cup of the salsa mixture onto each leaf, then top with crispy tortilla strips and avocado. Serve immediately. The corn salsa should keep well in the fridge, covered, for two to three days."
+   }
+  ],
+  "notes": [
+   "Adapted from The Food Matters Cookbook by Mark Bittman. Influenced by Joy the Baker’s BLT Corn Salad Wraps, Sprouted Kitchen’s sweet corn ceviche and my black bean and corn salsa (fun fact: that was my first ever recipe post).",
+   "Serving suggestions: Wraps can be messy. Feel free to eat this salad on its own or on a bed of lettuce. Or treat is like salsa—serve it with tortilla chips, on tacos or tostadas, in burritos or burrito bowls or quesadillas. It’s especially great on top of a thin slice of avocado toast."
+  ],
+  "summary": "Simple, light sweet corn salad wraps for the height of summer. Whether you serve this raw corn salad on butter lettuce, cabbage or simply on its own, be sure to top it with slices of creamy avocado and crispy tortilla strips.",
+  "ingredient_groups": []
+ }
 }

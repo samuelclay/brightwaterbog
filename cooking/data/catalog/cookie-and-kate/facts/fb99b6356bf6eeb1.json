@@ -1,6 +1,65 @@
 {
  "url": "https://cookieandkate.com/simple-healthy-coleslaw-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Simple Healthy Slaw",
+  "ingredients": [
+   "2 cups finely sliced purple cabbage (one small cabbage will be more than plenty)",
+   "2 cups finely sliced green cabbage (one small cabbage will be more than plenty)",
+   "2 cups shredded carrots",
+   "¼ cup chopped fresh parsley",
+   "Up to ¾ cup mixed seeds",
+   "¼ cup olive oil",
+   "2 to 3 tablespoons lemon juice, to taste",
+   "1 clove garlic, pressed or minced",
+   "½ teaspoon ground cumin",
+   "½ teaspoon salt"
+  ],
+  "yield_text": "4 to 6 side servings",
+  "cook_time": "20 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/simple-healthy-coleslaw-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a medium serving bowl, combine the prepared purple and green cabbage, carrots and parsley. Set aside."
+   },
+   {
+    "title": null,
+    "text": "Measure out your seeds into a small skillet. Toast over medium heat, stirring frequently, until the seeds are fragrant and the pepitas are starting to make little popping noises. Pour the toasted seeds into the mixing bowl and toss to combine."
+   },
+   {
+    "title": null,
+    "text": "To make the dressing, in a small bowl, combine the olive oil with 2 tablespoons lemon juice. Add the garlic, cumin and salt and whisk until thoroughly blended."
+   },
+   {
+    "title": null,
+    "text": "Drizzle the dressing over the slaw and toss until all of the ingredients are lightly coated in dressing. Taste and add an additional tablespoon of lemon juice if the slaw needs a little more zip. Serve immediately or cover and refrigerate to marinate for up to several hours."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from The Adventurous Vegetarian Cookbook by Jane Hughes.",
+   "Storage suggestions: I like this slaw best the day it’s made, but it keeps well for several days, covered, in the refrigerator."
+  ],
+  "summary": "This healthy coleslaw recipe tastes amazing! It’s made with a simple lemon dressing and features toasted sunflower and pumpkin seeds. It’s gluten free and vegan, which means it’s a perfect potluck dish (you might want to double the ingredients if you’re serving a crowd). Recipe yields 4 to 6 side servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Coleslaw"
+   },
+   {
+    "at": 5,
+    "title": "Lemon dressing"
+   }
+  ]
+ }
 }

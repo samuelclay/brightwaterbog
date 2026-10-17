@@ -10,7 +10,12 @@
    "1 large egg yolk",
    "1/4 pound blue cheese, crumbled (about 3/4 cup)",
    "1 tablespoons finely chopped herb or herbs of your choice, such as a mixture of thyme and rosemary",
-   "Fine sea salt for sprinkling"
+   "Fine sea salt for sprinkling",
+   "1 1/4 (5 1/2 ounces) cups flour",
+   "1 tablespoon plus 2 teaspoons cornstarch",
+   "1/4 teaspoon salt",
+   "6 tablespoons (3 ounces) butter, diced",
+   "1 large egg"
   ],
   "yield_text": "",
   "cook_time": null,
@@ -22,7 +27,41 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2010/06/blue-cheese-and-red-potato-tart/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 350°F. In a medium saucepan, cover potato slices with water by two inches. Simmer, uncovered, until tender, about 10 minutes. Drain. If the potatoes don’t seem very dry, pat them dry with towels."
+   },
+   {
+    "title": null,
+    "text": "Arrange potato slices, overlapping slightly, in concentric circles around the tart pan. Sprinkle blue cheese over potatoes. Whisk cream and egg yolk together and pour into tart shell, then sprinkle tart with herbs of your choice and salt."
+   },
+   {
+    "title": null,
+    "text": "Bake tart on a baking sheet until bubbling and golden brown, about 45 to 50 minutes. Cool in pan on rack and serve warm or cold. With a big green salad, for balance."
+   },
+   {
+    "title": "Savory Tart Shell",
+    "text": "In a large bowl, combine the flour, cornstarch and salt. Cut the butter in with a pastry blender, fork or two knives until it is in very tiny bits. Add one egg and mix with a fork until a dough forms. If this does not happen easily, toss it out onto a counter and knead it together. This dough is rather tough but with a little elbow grease, it does come together nicely."
+   },
+   {
+    "title": null,
+    "text": "This dough can also be made a food processor, or in a stand mixer, though I’ve only tried it in a food processor."
+   },
+   {
+    "title": null,
+    "text": "On a lightly floured surface, roll the dough out to a 12-inch circle. Place the dough in a 9-inch pie plate or tart pan and press to remove any air bubbles. Level the edges, and refrigerate for 30 minutes. Proceed with a filling of your choice, no parbaking required."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": [
+   {
+    "at": 7,
+    "title": "Savory Tart Shell"
+   }
+  ]
  },
  "parser_version": 4
 }

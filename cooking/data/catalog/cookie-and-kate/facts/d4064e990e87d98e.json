@@ -30,7 +30,51 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/peach-cobbler/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 375 degrees Fahrenheit, then make the filling: In a 9-inch square baking dish, mix together the peaches, honey, starch, vanilla and cinnamon. Bake the filling for 20 to 25 minutes, until the mixture is bubbling around all four edges."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, prepare the topping: in a mixing bowl, combine the almond flour, baking powder and salt. Whisk gently until combined, and set it aside."
+   },
+   {
+    "title": null,
+    "text": "In a small-to-medium bowl, combine the sugar and lemon zest. Use your fingers to rub the zest into the sugar (this extracts more flavor from the lemon). Then, pour the mixture into the other dry ingredients and whisk to combine."
+   },
+   {
+    "title": null,
+    "text": "In a smaller bowl, combine the melted butter, yogurt and egg, and whisk until evenly combined. Pour the wet mixture into the dry mixture, and stir until well combined. It will look crumbly at first, but stir well until it comes together into a cohesive dough."
+   },
+   {
+    "title": null,
+    "text": "Dollop one spoonful at a time over the hot filling, using the back of another spoon or your finger to help transfer each dollop. Sprinkle the turbinado sugar evenly over the dough, if using."
+   },
+   {
+    "title": null,
+    "text": "Bake 17 to 20 minutes until the filling is actively bubbling around the edges and the top is lightly golden. Let the cobbler rest for 5 to 10 minutes before serving. Serve with vanilla ice cream or whipped cream, if desired."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from my Peach Crisp and Blueberry Scones.",
+   "*How to peel peaches: Technically, you don’t have to peel the peaches if you’re not bothered by some texture in your dessert (I didn’t mind it, but some might). To easily peel peaches, lightly score an “x” about two inches wide at the base of each peach, gently dunk them into a big pot of boiling water for 30 seconds to 1 minute, then transfer them to an ice bath. Peel off the skin starting from the cuts on the bottom, and it should come off easily in strips.",
+   "**Almond flour notes: Not all almond flours are created equally. I tested this recipe with Bob’s Red Mill’s super-fine almond flour and Whole Foods 365’s almond flour with great results.",
+   "Change it up: For an extra fruity and colorful variation, you could substitute a generous handful of fresh raspberries or blackberries for one of the peaches.",
+   "Recipe revision July 2026: I streamlined the recipe by calling for melted butter instead of grated butter. It actually turns out better with a more evenly moist yet flaky texture. The photos and video show the grating of the butter, but I wanted to update the recipe to produce a superior result."
+  ],
+  "summary": "This peach cobbler recipe features bubbly ripe peaches underneath a perfectly golden topping. The topping is made of almond flour, which offers lovely flavor and makes the recipe gluten free. Recipe yields about 9 modest servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Fresh peach filling"
+   },
+   {
+    "at": 5,
+    "title": "Topping"
+   }
+  ]
  },
  "parser_version": 2
 }

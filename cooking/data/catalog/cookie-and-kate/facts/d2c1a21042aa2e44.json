@@ -1,6 +1,87 @@
 {
  "url": "https://cookieandkate.com/roasted-cauliflower-freekeh-tahini-sauce/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Freekeh Pilaf with Roasted Cauliflower and Garlicky Tahini Sauce",
+  "ingredients": [
+   "1 large, tightly packed head of cauliflower, sliced into bite-sized florets",
+   "2 to 3 tablespoons extra-virgin olive oil",
+   "Salt and freshly ground black pepper",
+   "1 tablespoon extra-virgin olive oil",
+   "¼ cup slivered or sliced almonds",
+   "1 ¼ cups cracked freekeh*",
+   "2 cloves garlic, pressed or minced",
+   "½ teaspoon salt",
+   "¼ teaspoon cumin",
+   "¼ teaspoon coriander",
+   "3 cups plus 2 tablespoons (25 ounces) vegetable stock and/or water",
+   "⅓ cup tahini",
+   "3 tablespoons fresh lemon juice",
+   "2 cloves garlic, pressed or minced",
+   "Generous pinch of red pepper flakes",
+   "Scant ⅓ cup water",
+   "Salt and freshly ground black pepper, to taste",
+   "Handful fresh parsley and/or cilantro leaves, chopped",
+   "Crumbled feta (optional, omit for a vegan dish)",
+   "Small handful raisins",
+   "Sprinkling of sesame seeds"
+  ],
+  "yield_text": "2 to 4 servings",
+  "cook_time": "45 minutes",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [
+   "Middle Eastern"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-cauliflower-freekeh-tahini-sauce/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To roast the cauliflower: Preheat oven to 425 degrees Fahrenheit. Toss cauliflower florets with enough olive oil to cover them in a light, even layer of oil. Season with salt and pepper and arrange the florets in a single layer on a large, rimmed baking sheet. Roast for 30 to 35 minutes, tossing halfway, until the florets are deeply golden on the edges."
+   },
+   {
+    "title": null,
+    "text": "To cook the freekeh: Warm 1 tablespoon olive oil in a heavy-bottomed saucepan. Add the almonds and cook, stirring occasionally, until they’re fragrant and turning golden on the edges, about 3 minutes. Add the freekeh and sauté for 2 minutes, then add the garlic, cumin, coriander and salt, and sauté for 1 more minute. Add vegetable broth, raise the heat and bring the mixture a boil, then reduce heat to medium-low, cover and cook, stirring occasionally and reducing heat as necessary to maintain a gentle simmer, until freekeh is tender to the bite, 20 to 25 minutes. Drain off any excess liquid, cover and set aside for 5 minutes. Fluff with a fork and season with salt and pepper to taste."
+   },
+   {
+    "title": null,
+    "text": "To make the dressing: In a bowl, stir together the tahini, lemon juice, garlic and red pepper flakes. Whisk in the water until you have a smooth, blended tahini sauce. Season generously with salt (I added about ¼ teaspoon) and black pepper, to taste."
+   },
+   {
+    "title": null,
+    "text": "To assemble the individual dishes: Start with a bed of cooked freekeh and top with roasted cauliflower. Drizzle tahini sauce generously over the dish and then top with a sprinkling of chopped fresh herbs, crumbled feta (optional), raisins and sesame seeds. Serve immediately. Leftovers are best stored as individual components and assembled after reheating the freekeh and cauliflower."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Bob’s Red Mill’s freekeh pilaf (found on back of freekeh bag) and my tahini dressing.",
+   "Leftovers? Leftover tahini sauce makes a great dressing for greens. Actually, any leftover components would go great in a green salad.",
+   "*Freekeh substitutions If you can’t find freekeh, substitute your whole grain of choice for the freekeh, adjusting vegetable broth and cooking time as necessary. Farro, barley, whole wheat couscous or quinoa would make great substitutes for the freekeh.",
+   "Make it gluten free: Substitute quinoa for the freekeh, adjusting the amount of liquid (vegetable broth and/or water) and cooking time accordingly.",
+   "Make it vegan/dairy free: Skip the feta."
+  ],
+  "summary": "This healthy Middle Eastern-inspired meal features roasted cauliflower, cracked freekeh, garlicky tahini sauce, fresh parsley and raisins. It’s easily made vegan. Recipe yields two large servings or up to four smaller servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Roasted cauliflower"
+   },
+   {
+    "at": 3,
+    "title": "Freekeh pilaf"
+   },
+   {
+    "at": 11,
+    "title": "Garlicky tahini sauce"
+   },
+   {
+    "at": 17,
+    "title": "Garnishes"
+   }
+  ]
+ }
 }

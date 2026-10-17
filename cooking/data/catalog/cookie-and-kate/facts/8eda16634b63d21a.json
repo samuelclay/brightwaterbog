@@ -32,7 +32,53 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/gingerbread-cake-with-cream-cheese-frosting/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 400 degrees Fahrenheit. Lightly grease a 9-inch square pan."
+   },
+   {
+    "title": null,
+    "text": "In a large bowl, whisk together the flour, baking powder, cinnamon, ginger, salt, cloves, nutmeg and baking soda."
+   },
+   {
+    "title": null,
+    "text": "In a medium bowl, whisk the egg until lightly beaten. Add the honey and molasses and whisk until combined, then whisk in the milk and melted butter."
+   },
+   {
+    "title": null,
+    "text": "Pour the wet mixture into the dry mixture and mix just until combined. Pour the batter into your prepared pan and bake for about 21 to 25 minutes, until the cake is golden brown and a toothpick inserted into the middle comes out clean."
+   },
+   {
+    "title": null,
+    "text": "Place the cake on a cooling rack and let it cool completely. Wait to make the frosting until the cake has completely cooled."
+   },
+   {
+    "title": null,
+    "text": "To prepare the frosting: In a medium mixing bowl or the bowl of a stand mixer, combine the softened cream cheese and butter. Using a hand mixer or a stand mixer (or your own strength), beat the cream cheese and butter together until fluffy. Add the powdered sugar and vanilla and stir with a spoon until it is incorporated (or else powdered sugar will fly everywhere), then whip the frosting until it’s nice and fluffy."
+   },
+   {
+    "title": null,
+    "text": "Spread frosting evenly over the top of the cake. If desired, sift additional cinnamon on top. Then, slice it and serve. This cake is best stored in the refrigerator for up to 4 days."
+   }
+  ],
+  "notes": [
+   "*Molasses note: The strength of your molasses will determine how intensely flavored your cake is. I used regular (not blackstrap) molasses.",
+   "Make it gluten free: Based on similar cakes, I think you can substitute all-purpose gluten-free flour for the wheat flour.",
+   "Make cupcakes/muffins: I think you could make 1 dozen muffins out of this batter. Bake at 400 degrees Fahrenheit for around 14 to 18 minutes."
+  ],
+  "summary": "This wholesome gingerbread cake is topped with rich cream cheese frosting. It’s the perfect holiday treat. Recipe yields 9 slices of cake.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Cake"
+   },
+   {
+    "at": 13,
+    "title": "Cream cheese frosting"
+   }
+  ]
  },
  "parser_version": 2
 }

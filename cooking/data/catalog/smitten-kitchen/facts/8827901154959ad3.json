@@ -42,7 +42,40 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2014/10/fall-toush-salad/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Prepare vegetables: Heat oven to 400F. Coat two baking sheets with a tablespoon or so of olive oil each."
+   },
+   {
+    "title": null,
+    "text": "Cut ends off delicata squash and scrape out seeds with a spoon. [Did you know you can toast these like pumpkin seeds for a crispy garnish? You can!] Slice squash into 1/2-inch rings, then cut each ring into 1 to 2-inch chunks (I cut each ring into 1/6ths). Spread on first baking sheet in one layer; sprinkle with salt and pepper. Roast for 20 to 25 minutes, until bronzed underneath, then flip and roast for another 10 to 13 minutes, until browned at the edges and tender in the center. Set aside to cool slightly."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, trim ends and any discolored leaves from brussels sprouts and halve them lengthwise. Spread cut-side-down on second baking sheet; sprinkle with salt and pepper. Roast for 15 minutes, then flip sprouts and roast them for another 5 to 10 minutes, until toasty and crisp. Set aside to cool slightly."
+   },
+   {
+    "title": null,
+    "text": "Prepare pita chips: Split pita into two layers and cut or tear into large bite-sized chunks. Toss in a bowl with a little less than 1 remaining tablespoon olive oil and a couple pinches of salt. Spread on a baking sheet (I reused my brussels sheet, because they were done first) and toast in oven with vegetables for 5 to 8 minutes, until golden and crisp."
+   },
+   {
+    "title": null,
+    "text": "Make dressing: Soak sumac in water for 5 minutes, then whisk in remaining dressing ingredients. Adjust seasonings to taste; you may find you need more lemon juice or vinegar."
+   },
+   {
+    "title": null,
+    "text": "Assemble salad: In a medium-large bowl, combine warm roasted vegetables and scallions. Toss with 1/2 to 2/3 dressing, or to taste. Stir in chopped herbs, then pita chips; add more dressing and adjust salt and pepper levels if needed. Sprinkle with sumac to finish, and serve."
+   },
+   {
+    "title": null,
+    "text": "To do ahead: I’d keep the roasted vegetables separate from the pita chips so they don’t get soggy. I’d expect the roasted vegetables to hold up pretty well with the dressing (although it’s going to mostly absorb) but if you’re worried, you can keep that separate until serving, too."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

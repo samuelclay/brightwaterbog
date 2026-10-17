@@ -1,6 +1,43 @@
 {
  "url": "https://cookieandkate.com/blue-cheese-dressing/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Blue Cheese Dressing",
+  "ingredients": [
+   "½ cup (4 ounces) sour cream",
+   "¾ cup (3 ounces) crumbled blue cheese, such as Gorgonzola dolce",
+   "¼ cup buttermilk",
+   "2 tablespoons lemon juice",
+   "2 tablespoons thinly sliced chives or green onion (mostly green parts)",
+   "1 small clove garlic, pressed or minced",
+   "¼ teaspoon fine salt, to taste",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "1 1/2 cups",
+  "cook_time": "10 minutes",
+  "categories": [
+   "Salad dressing"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/blue-cheese-dressing/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a small bowl, combine all of the ingredients. Taste, and add another pinch of salt and/or several more twists of black pepper until it’s just right. For the best flavor, let the mixture chill for 30 minutes before serving."
+   },
+   {
+    "title": null,
+    "text": "Drizzle over your salad or cover and refrigerate for later. Leftovers will keep well in the refrigerator in an air-tight container for up to 1 week."
+   }
+  ],
+  "notes": [],
+  "summary": "Blue cheese dressing is a classic for good reason! Blue cheese adds some funk to this irresistibly creamy, tangy dressing, while chives keep it fresh. Recipe yields 1 ½ cups.",
+  "ingredient_groups": []
+ }
 }

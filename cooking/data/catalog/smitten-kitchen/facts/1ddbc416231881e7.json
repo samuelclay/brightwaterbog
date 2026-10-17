@@ -30,7 +30,24 @@
   ],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2010/09/linguine-with-tomato-almond-pesto/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large skillet, sauté the almonds in a little olive oil until toasted. Let cool, then blend them in a food processor or blender until they are in coarse pieces. (“The size of orzo,” the original recipe suggests.) Scoop them out of the processor and set them aside."
+   },
+   {
+    "title": null,
+    "text": "Put the basil, garlic and a few pinches of sea salt into the food processor and chop. Add the almonds back to the food processor (keeping them separate will keep them from getting too finely chopped as you get the basil and garlic to the right texture) with the tomatoes, cheese and olive oil and whirl briefly. Season it with freshly ground black pepper."
+   },
+   {
+    "title": null,
+    "text": "Cook your linguine until it is al dente and could use another minute of cooking time. Reserve one cup of pasta cooking water and drain the rest. Immediately toss the hot linguine with the pesto and mix quickly so that it drinks the sauce up a bit. Add more pasta water if needed. Serve this lukewarm, or at room temperature, with a glass of wine, after you get the baby to bed."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

@@ -30,7 +30,44 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/sun-dried-tomato-caesar-salad/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "First, a note on sun-dried tomatoes. I’m partial to Trader Joe’s sun-dried tomatoes that come in a bag because they aren’t oily but they’re soft enough to eat right out of the bag. You could also use oil-packed sun-dried tomatoes, rinsed and patted dry. If you’re using tough, dried tomatoes, you’ll need to soak them in boiling water until they’re pliable, then pat them dry and continue with the recipe."
+   },
+   {
+    "title": null,
+    "text": "To make the croutons, preheat the oven to 400 degrees with a rack in the top of the oven. Line a baking sheet with parchment paper. Mix the olive oil, Parmesan and salt in a large mixing bowl until a paste is formed. Add the cubed bread and mix well with a spatula, until all the bread is coated. Turn the bread onto the prepared baking sheet and arrange in a single layer. I couldn’t quite mix in all of my Parmesan mixture, so I sort of lumped the excess on top of the bread pieces. Bake for 10 minutes, then stir and put the croutons back into the oven until they are golden brown and crisp, up to 5 more minutes."
+   },
+   {
+    "title": null,
+    "text": "To make the dressing, combine the sun-dried tomatoes, Parmesan, lemon juice, water, garlic and a pinch of salt in a food processor or high-powered blender. Process for 1 minute, stopping to scrape down the sides if necessary. While running the machine, drizzle in the olive oil and blend for 10 more seconds. Don’t worry if it’s not perfectly smooth; it will still taste delicious! Taste and add more salt and some black pepper, if desired. Set aside."
+   },
+   {
+    "title": null,
+    "text": "To assemble the salad, drizzle the dressing over your halved romaine or toss with your chopped romaine. Finish with croutons and a sprinkle of Parmesan and sun-dried tomatoes. Serve immediately."
+   }
+  ],
+  "notes": [
+   "Recipe minimally adapted from Date Night In by Ashley Rodriguez.",
+   "Storage suggestions: Dressing will keep in the refrigerator for up to 1 week. If it separates, whisk vigorously before serving."
+  ],
+  "summary": "This vegetarian Caesar salad features a bold sun-dried tomato dressing and Parmesan croutons. It’s a beautiful spin on traditional Caesar salad. Perfect for date night at home or any meal with Italian flavors! Recipe yields two to four servings.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Parmesan-crusted croutons"
+   },
+   {
+    "at": 4,
+    "title": "Sun-dried tomato dressing (yields about 1 cup dressing)"
+   },
+   {
+    "at": 12,
+    "title": "Caesar salad"
+   }
+  ]
  },
  "parser_version": 2
 }

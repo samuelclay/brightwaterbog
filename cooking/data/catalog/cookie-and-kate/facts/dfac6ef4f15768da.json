@@ -39,7 +39,55 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/tex-mex-breakfast-bowl-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the pico de gallo: In a small mixing bowl, combine all of the ingredients. Stir to combine, and set the pico de gallo aside to marinate while you make the remaining components."
+   },
+   {
+    "title": null,
+    "text": "To cook the black beans: In a medium saucepan over medium heat, warm the olive oil until shimmering. Add the chopped onion and a sprinkle of salt. Cook, stirring occasionally, until the onion has softened and is turning translucent, about 5 to 8 minutes. Add the cumin and garlic. Cook, stirring constantly, until fragrant, about 30 seconds. Pour in the drained beans and water. Stir, cover and cook for 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Reduce the heat to low, remove the lid and use a potato masher or the back of a fork to mash up about at least half of the beans. Continue to cook the beans, uncovered, stirring often, for 3 more minutes. Remove the saucepan from the heat and stir in the salt, pepper and lime juice. Taste and add more salt, pepper, lime juice if necessary. If the beans seem dry, add a very small splash of water and stir to combine. Cover until you’re ready to serve."
+   },
+   {
+    "title": null,
+    "text": "To cook the eggs: In a medium mixing bowl, scramble the eggs with the cream or milk, salt, a few twists of freshly ground black pepper and a pinch of red pepper flakes. In a 10-inch non-stick or well-seasoned cast iron skillet, warm 2 teaspoons olive oil over medium heat until shimmering. Swirl the pan so it’s evenly coated with oil. Whisk your egg mixture one last time and pour it into the skillet."
+   },
+   {
+    "title": null,
+    "text": "Scramble the eggs by pushing the mixture around until it’s about 90 percent set. Remove the pan from the heat, and stir in the cheese, if using."
+   },
+   {
+    "title": null,
+    "text": "To assemble the bowls, divide the beans and scrambled eggs evenly into 4 bowls. Stir the pico de gallo again, and use a slotted spoon or fork to divide the pico de gallo into the bowls, leaving the watery tomato juice in the bowl. Top each bowl with a few slices of thinly sliced avocado, and serve with your favorite salsa, and optional roasted potatoes on the side."
+   }
+  ],
+  "notes": [
+   "Make it dairy free: Use neutral-flavored non-dairy milk (like unsweetened/unflavored almond milk) and skip the cheese."
+  ],
+  "summary": "Hearty breakfast bowls featuring your favorite Tex-Mex flavors, including fresh pico de gallo, black beans and avocado. This meal is great for dinner, too! Recipe yields 4 bowls.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Pico de gallo"
+   },
+   {
+    "at": 5,
+    "title": "Refried black beans"
+   },
+   {
+    "at": 14,
+    "title": "Scrambled eggs"
+   },
+   {
+    "at": 21,
+    "title": "Everything else"
+   }
+  ]
  },
  "parser_version": 2
 }

@@ -1,6 +1,49 @@
 {
  "url": "https://cookieandkate.com/spicy-red-pepper-feta-dip-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Tirokafteri (Greek Spicy Feta Dip)",
+  "ingredients": [
+   "One 8-ounce block of feta cheese, patted dry and cut into 1″ chunks or large crumbles (about 1 ⅔ cups)",
+   "½ cup roasted red peppers, patted dry and roughly chopped (1 to 1 ½ peppers)",
+   "¼ cup extra-virgin olive oil, plus additional for garnish",
+   "1 tablespoon lemon juice",
+   "¼ teaspoon cayenne pepper (omit if sensitive to spice)",
+   "Freshly ground black pepper, to taste",
+   "Crushed red pepper flakes, for garnishing (optional)"
+  ],
+  "yield_text": "1 1/2 cups",
+  "cook_time": "10 minutes",
+  "categories": [
+   "Dip"
+  ],
+  "cuisines": [
+   "Greek"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/spicy-red-pepper-feta-dip-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In the bowl of your food processor, combine the feta, bell pepper, olive oil, lemon juice, cayenne pepper, and about 10 twists of freshly ground black pepper."
+   },
+   {
+    "title": null,
+    "text": "Process until the mixture is orange, fairly smooth, and you no longer see any big chunks of feta. Don’t overdo it; small bits of feta are good and over-processing this dip will make it gritty. Taste, and add additional cayenne pepper (up to ¼ teaspoon more) if you want it to be extra spicy. Blend briefly to combine."
+   },
+   {
+    "title": null,
+    "text": "Transfer the mixture to a serving bowl. Smooth the top and create a few swooshes with a spoon. Lightly drizzle some olive oil on top, and sprinkle with red pepper flakes if desired. Serve immediately, or cover and refrigerate for later. This dip will keep well in the refrigerator for 7 to 10 days."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from The Complete Mediterranean Cookbook by America’s Test Kitchen.",
+   "Serving suggestions: I love this dip with slices of crisp raw vegetables (cucumber, carrot, celery or even bell pepper). It’s also great with olives and toasted pita wedges or crusty bread."
+  ],
+  "summary": "This bold and spicy roasted red pepper and feta dip is inspired by a traditional Greek recipe (tirokafteri, also known as htipiti). It’s so easy to make and guaranteed to be a hit! Recipe yields 1 ½ cups and is easily doubled.",
+  "ingredient_groups": []
+ }
 }

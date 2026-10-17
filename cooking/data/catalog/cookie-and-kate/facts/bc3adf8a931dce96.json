@@ -1,6 +1,73 @@
 {
  "url": "https://cookieandkate.com/vegan-queso-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Creamy Vegan Queso",
+  "ingredients": [
+   "2 tablespoons avocado oil or extra-virgin olive oil",
+   "1 medium yellow onion, chopped",
+   "1 cup peeled and grated russet potato (4 ounces, about 1 small or ½ medium potato), preferably organic",
+   "4 cloves garlic, pressed or minced",
+   "½ teaspoon smoked paprika",
+   "½ teaspoon ground chili powder",
+   "½ teaspoon ground cumin",
+   "½ teaspoon garlic powder",
+   "½ teaspoon onion powder",
+   "½ teaspoon salt, more to taste",
+   "1 cup (5 ounces) raw cashews*",
+   "1 ½ cups water, more as necessary",
+   "¼ cup nutritional yeast",
+   "1 tablespoon rinsed oil-packed sun-dried tomatoes",
+   "2 teaspoons hot sauce",
+   "1 teaspoon white wine vinegar or distilled white vinegar",
+   "⅔ cup well-drained fire-roasted tomatoes or chunky salsa",
+   "2 tablespoons chopped pickled jalapeños, optional",
+   "Optional toppings: additional fire-roasted tomatoes or salsa or chopped fresh tomatoes, chopped fresh cilantro, thinly sliced fresh jalapeños or pickled jalapeños, and/or finely chopped red onion"
+  ],
+  "yield_text": "3 1/2 cups",
+  "cook_time": "30 minutes",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/vegan-queso-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "In a large saucepan, warm the olive oil over medium heat. Add the onion and a pinch of salt and cook, stirring often, until the onion is tender and turning translucent, about 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the grated potato, garlic, paprika, chili powder, cumin, garlic powder, onion powder and salt. Stir to combine, and cook, stirring constantly, for 1 to 2 minutes to enhance their flavors."
+   },
+   {
+    "title": null,
+    "text": "Add the cashews and water, and stir to combine. Let the mixture come to a simmer. Continue simmering, stirring frequently and reducing heat as necessary to avoid a rapid boil, until the potatoes are completely tender and cooked through, about 5 to 8 minutes."
+   },
+   {
+    "title": null,
+    "text": "Carefully pour the mixture into a blender, but keep the pot handy for later. Add the nutritional yeast, sun-dried tomatoes, hot sauce and vinegar. Blend until the mixture is completely smooth, about 2 minutes, stopping to scrape down the sides if necessary. If the mixture won’t blend easily or if you would prefer a thinner consistency, add water in ¼ cup increments, blending after each one."
+   },
+   {
+    "title": null,
+    "text": "Taste, and blend in additional salt until the queso is utterly irresistible (I typically add about ½ teaspoon more). Pour the mixture back into the pot and add the tomatoes or salsa and jalapeños, if using. Cook over medium heat, stirring constantly, until the mixture is very warm."
+   },
+   {
+    "title": null,
+    "text": "To serve it as a dip, transfer to a serving bowl and top with any garnishes you’d like. Or to make nachos, drizzle it generously over a bed of tortilla chips and garnish as desired. Serve immediately. Leftovers taste even better the next day! Store cooled leftover queso in a bowl, covered, in the refrigerator for up to 5 days. Gently reheat on the stove or in the microwave, stirring frequently, until warmed throughout."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Serious Eats and my vegan chipotle carrot queso.",
+   "*Raw cashew notes: Most recipes like this suggest soaking the cashews for 4 hours in advance to make them easier to blend and to digest. I honestly never soak mine since I have a powerful Vitamix that blends them right up. The cashews in this recipe are cooked in hot liquid, so they’re softer and even easier to blend. However, if you don’t have a great blender or if you’re concerned about the digestibility factor, go ahead and soak them in advance."
+  ],
+  "summary": "The best vegan queso recipe—it’s incredibly creamy, yet made without any dairy or processed ingredients! This healthy dairy-free nacho cheese will satisfy the diehard cheese fans in your life, too. Recipe yields about 3 ½ cups queso.",
+  "ingredient_groups": []
+ }
 }

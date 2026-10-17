@@ -1,6 +1,75 @@
 {
  "url": "https://cookieandkate.com/thai-style-lettuce-wraps/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Thai-Style Lettuce Wraps",
+  "ingredients": [
+   "¼ cup tamari or soy sauce",
+   "1 ½ to 3 tablespoons honey, to taste",
+   "2 teaspoons raw apple cider vinegar",
+   "1 teaspoon minced fresh ginger",
+   "1 teaspoon minced garlic",
+   "2 cups diced carrot (about 3 large)",
+   "1 cup diced celery (about 3 stalks)",
+   "½ yellow onion, diced",
+   "1 cup raw pecan halves or unsalted peanuts, briefly pulsed in a food processor or chopped by hand",
+   "1 head butter lettuce**, individual leaves carefully removed",
+   "Optional spicy finishing sauce: 2 tablespoons mayonnaise and 2 tablespoons sriracha or chili-garlic sauce",
+   "Optional garnishes: Torn cilantro or mint leaves and red pepper flakes"
+  ],
+  "yield_text": "About 6 wraps",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Thai"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/thai-style-lettuce-wraps/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Prepare the sauce: In a small bowl, whisk together the tamari, the lesser amount of honey, vinegar, ginger and garlic until well blended. Taste, and add more honey if you would like a sweeter sauce."
+   },
+   {
+    "title": null,
+    "text": "Prepare the filling: In a large saucepan over medium heat, combine the carrot, celery, and onion and cover with the sauce. Bring the sauce to a simmer, then cover and allow the vegetables to cook until fork-tender, about 10 to 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the lid and increase the heat, bringing the sauce to a boil. Allow the sauce to boil until the liquid has condensed and almost evaporated, about 8 to 15 minutes, then remove the pot from the heat. Add the pulsed pecan pieces and stir well to coat. Let the mixture marinate for 5 minutes to soften the nuts and infuse them with flavor."
+   },
+   {
+    "title": null,
+    "text": "When you’re ready to serve, scoop generous spoonfuls of filling into butter lettuce leaves. If you’d like to include the spicy finishing sauce, stir together the mayonnaise and sriracha in a small bowl, then drizzle it lightly over the filling. Top the lettuce wraps with cilantro and red pepper flakes, if you’d like. Serve promptly. Leftover lettuce wraps will keep in an airtight container in the refrigerator for about 3 days (enjoy chilled)."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Everyday Detox: 100 Easy Recipes to Remove Toxins, Promote Gut Health, and Lose Weight Naturally by Megan Gilmore, with permission. Recipe updated in 2025 for clarity, including the addition of a spicy finishing sauce and helpful tips.",
+   "*Save time: You can chop the carrot, celery and onion in your food processor rather than dicing it by hand. Chop each element separately (no need to rinse the processor bowl between veggies) and combine them in your large saucepan.",
+   "**Lettuce options: If you can’t find butter lettuce, try baby gem, small romaine leaves, or something similarly sized. You could even use green cabbage leaves, carefully pulled off the smallest green cabbage you can buy.",
+   "Make it vegan: Replace the honey with maple syrup.",
+   "Make it gluten free: Be sure to use gluten-free tamari rather than another variety of soy sauce.",
+   "Make it soy free: Replace the tamari with coconut aminos."
+  ],
+  "summary": "These vegetarian (and easily vegan) lettuce wraps are loosely inspired by the version served at Thai restaurants. Crunchy pecans lend a hearty, almost meat-like texture to these wraps (peanuts work well, too). Recipe yields about 6 wraps, so multiply as needed for a bigger crowd.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Sauce"
+   },
+   {
+    "at": 5,
+    "title": "Filling*"
+   },
+   {
+    "at": 9,
+    "title": "Wraps and garnishes"
+   }
+  ]
+ }
 }

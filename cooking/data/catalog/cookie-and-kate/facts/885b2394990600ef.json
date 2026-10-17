@@ -18,7 +18,29 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/perfect-brown-rice-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a large pot of water to boil, using at least 6 cups water per 1 cup rice. Rinse* the rice in a fine mesh colander under running water to remove excess starch."
+   },
+   {
+    "title": null,
+    "text": "Add the rice to the boiling water. Reduce the temperature as necessary to prevent overflow, but maintain a steady boil. Boil, uncovered, for 30 minutes."
+   },
+   {
+    "title": null,
+    "text": "Drain off the remaining cooking water and return the rice to the pot. Cover the pot and let the rice rest, off the heat, for 10 minutes. Fluff, season as desired, and serve."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Saveur.",
+   "*Note on rinsing: I’ve forgotten to rinse my rice before, and the rice turned out almost as good. The cooked grains are a little more starchy—you can see a thin layer of gluey starch at the bottom of the pot after steaming. If you’re in a hurry, skip the rinse.",
+   "Make it gluten free: Rice is gluten free, so just be mindful of your additions. Soy sauce, for example, is not gluten free (substitute certified gluten-free tamari instead).",
+   "Wild rice option: For wild rice, use 8 cups water and boil for 40 to 55 minutes, until tender but pleasantly chewy."
+  ],
+  "summary": "Once you try this easy technique, you’ll never want to cook brown rice any other way. You can scale this recipe up or down as needed. The basic ratio is 1 part brown rice to 6 parts water, which yields 3 parts cooked rice. As written below, the recipe yields 3 cups cooked rice.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

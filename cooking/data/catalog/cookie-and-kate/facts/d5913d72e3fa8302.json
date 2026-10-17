@@ -1,6 +1,41 @@
 {
  "url": "https://cookieandkate.com/apple-cider-hot-toddy/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Apple Cider Hot Toddy",
+  "ingredients": [
+   "1 cup water",
+   "1 green tea or black tea bag",
+   "1 ½ ounces rye whiskey or bourbon",
+   "1 ounce real apple cider",
+   "½ small lemon",
+   "Suggested garnishes: thin, round slices of lemon, a cinnamon stick, and star anise"
+  ],
+  "yield_text": "1 drink",
+  "cook_time": "6 minutes",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/apple-cider-hot-toddy/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring the water to a simmer and carefully pour it over the tea bag into a standard-sized mug, leaving about an inch of room in your mug for the whiskey and cider. Let the tea steep for a few minutes, then discard the bag so the tea doesn’t get bitter."
+   },
+   {
+    "title": null,
+    "text": "Pour in the whiskey or bourbon and a hefty splash of apple cider (adjust these amounts to suit your tastes). Squeeze in the juice of half a lemon and garnish with lemon slices, a cinnamon stick and a star anise. Sip up."
+   }
+  ],
+  "notes": [
+   "Are you, too, experiencing an unseasonably warm holiday? For a similar, chilled drink, try whiskey with club soda, a splash of apple cider and a big squeeze of lemon."
+  ],
+  "summary": "This apple cider hot toddy recipe is light and warming, perfect for the holidays. The quality of ingredients goes a long way here, so be sure to use real, unfiltered apple cider (it should be murky). Locally produced cider tends to be fresher and contain fewer (if any) additives. Spiced cider is good, too. Recipe yields 1 cocktail.",
+  "ingredient_groups": []
+ }
 }

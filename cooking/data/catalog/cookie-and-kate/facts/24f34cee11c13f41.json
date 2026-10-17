@@ -1,6 +1,57 @@
 {
  "url": "https://cookieandkate.com/arugula-and-goat-cheese-pasta-salad/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Arugula Pasta Salad with Goat Cheese",
+  "ingredients": [
+   "8 ounces whole-grain fusilli or rotini pasta",
+   "4 ounces goat cheese, crumbled (about ⅔ cup)",
+   "2 tablespoons extra-virgin olive oil, or more if needed",
+   "2 tablespoons lemon juice, or more if needed",
+   "½ teaspoon fine salt",
+   "¼ teaspoon red pepper flakes",
+   "Freshly ground black pepper",
+   "5 ounces baby arugula (5 packed cups)",
+   "1 pint cherry tomatoes, sliced into thin rounds",
+   "⅓ cup pitted and thinly sliced Kalamata olives (optional)"
+  ],
+  "yield_text": "6 side salads",
+  "cook_time": "20 minutes",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/arugula-and-goat-cheese-pasta-salad/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Bring a large pot of salted water to boil over high heat. Cook the pasta until it is al dente, according to the package directions. Before draining, reserve about 1 cup of the pasta cooking water. Drain the pasta and pour it into a large serving bowl."
+   },
+   {
+    "title": null,
+    "text": "Sprinkle the crumbled goat cheese over the pasta, then drizzle in the olive oil and lemon juice. Sprinkle the salt, pepper flakes, and several twists of black pepper on top. Pour about ⅓ cup of the reserved pasta cooking water over the pasta and toss until the pasta is evenly coated."
+   },
+   {
+    "title": null,
+    "text": "Add the arugula, cherry tomatoes, and olives (if using) and toss to combine. If the pasta seems dry, add small splashes of cooking water and toss until it’s nice and creamy. Taste and adjust if necessary—add more olive oil for richness, lemon juice for extra zing, and salt and/or pepper for seasoning. Serve immediately."
+   },
+   {
+    "title": null,
+    "text": "This salad is best consumed soon after making, but it keeps well, chilled, for 2 to 3 days. I like to gently reheat my leftover salad for just a few seconds in the microwave, which loosens up the goat cheese again."
+   }
+  ],
+  "notes": [
+   "Make it dairy free/vegan: Substitute ½ cup vegan sour cream for the goat cheese, which is similarly creamy and tangy. You may not need to add any pasta cooking water.",
+   "Make it tomato free: Substitute one large roasted red pepper for the cherry tomatoes.",
+   "Make it gluten free: Substitute a sturdy gluten-free pasta, such as a corn and quinoa blend."
+  ],
+  "summary": "This simple pasta salad is a big bowl of my favorite things—pasta, arugula, goat cheese, lemon and cherry tomatoes. Combined, they yield the most gourmet of pasta salads. Recipe yields 4 medium salads or 6 side salads.",
+  "ingredient_groups": []
+ }
 }

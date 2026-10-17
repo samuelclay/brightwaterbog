@@ -25,7 +25,24 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2020/08/shaved-fennel-and-crushed-olive-salad/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Crush olives with a flat-bottomed cup, the side of a chef’s knife, or this ridiculous pounder I seem to use for everything but meat, and remove pit. Coarsely chop olives so that you get big, chunky pieces and add to a medium bowl. Coarsely chop fennel fronds until you have about 1/3 cup and add to bowl. Thinly, but not paper-thin, slice fennel stems crosswise and add them too. Add oil, vinegar, orange zest, and red pepper to bowl; season with kosher salt and black pepper, then stir to evenly combine. Taste and adjust seasonings as you wish."
+   },
+   {
+    "title": null,
+    "text": "Halve fennel bulbs lengthwise. Using a mandoline or your exceptional knife skills, very thinly shave fennel crosswise. Transfer fennel to a second, larger bowl. Zest one-quarter of lemon over. Juice the lemon over it — it will seem like too much but it’s just right. Season with salt and toss to coat; add more salt if needed."
+   },
+   {
+    "title": null,
+    "text": "To serve: Spread olive olive mixture on a big plate. Top with cheese. Arrange shaved fennel over, hiding the olives, then season with flaky sea salt. Or you can just toss all of it in a big bowl, but where is the drama in that."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

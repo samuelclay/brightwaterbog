@@ -26,7 +26,32 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2006/11/grievances-aired-caps-stuffed/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 400°F."
+   },
+   {
+    "title": null,
+    "text": "In a small bowl soak tomatoes in hot water to cover 5 minutes. Reserving 1 tablespoon soaking liquid, drain tomatoes well and chop fine.*"
+   },
+   {
+    "title": null,
+    "text": "Lay mushroom caps, stems removed, face down on baking sheet either lightly sprayed with cooking spray or parchment paper. Bake them approximately 10 minutes, or until their liquid puddles underneath. Remove from the oven. Carefully pour off liquid that has gathered in the bottom of the pan, and then again, carefully, turn mushroom caps over so they are ready to be filled."
+   },
+   {
+    "title": null,
+    "text": "In a small skillet heat oil over moderate heat until hot but not smoking and cook chopped mushrooms stems, shallots and garlic, stirring until shallots are softened. In a bowl stir together mushrooms mixture, bread crumbs, tomatoes, reserved soaking liquid, yolk, parsley, basil, and salt and pepper to taste. Mound stuffing in reserved mushroom caps and arrange caps in a lightly greased shallow baking dish, or the same parchment-lined pan you’ve roasted your mushrooms in. Sprinkle mushrooms with Parmesan and bake in middle of oven 15 minutes."
+   },
+   {
+    "title": null,
+    "text": "* Can skip this step if using oil-packed tomatoes, as I did."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

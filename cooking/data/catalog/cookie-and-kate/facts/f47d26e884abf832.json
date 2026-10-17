@@ -1,6 +1,63 @@
 {
  "url": "https://cookieandkate.com/pear-date-walnut-salad-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Pear Salad with Walnuts",
+  "ingredients": [
+   "¼ cup extra-virgin olive oil",
+   "1 ½ tablespoons white wine vinegar",
+   "1 teaspoon honey or maple syrup",
+   "1 teaspoon Dijon mustard",
+   "Pinch of salt",
+   "Several twists of freshly ground black pepper",
+   "⅓ cup chopped raw walnuts",
+   "5 to 6 ounces red leaf lettuce, torn into small pieces (about 5 to 6 cups), or spring mix",
+   "7 Medjool dates, pitted and sliced thin",
+   "2 Bosc* or Bartlett pears, unpeeled and sliced into ¼-inch thick pieces",
+   "⅓ cup crumbled blue cheese or goat cheese"
+  ],
+  "yield_text": "4 salads",
+  "cook_time": "15 minutes",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pear-date-walnut-salad-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "To make the dressing: In a small bowl, combine all of the dressing ingredients and whisk to combine. Taste, and adjust if necessary—I added some more mustard and another pinch of salt."
+   },
+   {
+    "title": null,
+    "text": "To make the salad: First, toast the walnuts in a medium skillet over medium heat until fragrant, stirring often, about 4 to 5 minutes. Set aside."
+   },
+   {
+    "title": null,
+    "text": "In a medium serving bowl, combine the greens, dates, pears and toasted walnuts. When you’re ready to serve, drizzle in some dressing (you won’t need all of it) and toss until the greens are lightly coated, adding more if necessary. Serve in individual bowls with blue cheese sprinkled on top."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from The Gourmet Kitchen by Jennifer Farley.",
+   "*Pear notes: This was my first experience with Bosc pears, which you’ll probably see again in another recipe. I learned that they’re more firm than most varieties, but you know they’re ripe when they yield to gentle pressure at the neck.",
+   "Make it dairy free/vegan: Omit the cheese. If you’re vegan, use maple syrup instead of honey.",
+   "Make it nut free: Substitute sunflower seeds for the walnuts.",
+   "Change it up: If you don’t like blue cheese, goat cheese would be nice instead. I think this salad would also be great with slices of Golden Delicious apples, instead of the pears."
+  ],
+  "summary": "This fresh green salad with pears, walnuts, dates and blue cheese is a fresh option for your holiday table! It’s a great side salad for fall dinners, too. Recipe yields 4 side salads.",
+  "ingredient_groups": [
+   {
+    "at": 0,
+    "title": "Vinaigrette"
+   },
+   {
+    "at": 6,
+    "title": "Salad"
+   }
+  ]
+ }
 }

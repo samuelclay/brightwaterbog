@@ -28,7 +28,24 @@
   "cuisines": [],
   "author": "Deb Perelman",
   "url": "https://smittenkitchen.com/2010/11/sweet-potatoes-with-pecans-and-goat-cheese/",
-  "source": "smitten-kitchen"
+  "source": "smitten-kitchen",
+  "steps": [
+   {
+    "title": null,
+    "text": "Preheat oven to 450 degrees. Coat a large baking sheet generously with olive oil, about 1 to 2 tablespoons. Lay sweet potatoes in one layer on the oiled sheet. Sprinkle with salt and freshly ground black pepper. Roast, without disturbing, for 15 to 20 minutes. Carefully flip each piece: the undersides should be blistery, dark and a bit puffy and should release from the pan with no effort. If they’re not, let it cook longer. Sprinkle them with additional salt and freshly ground black pepper and return the pan to the oven for another 10 minutes or so, until the undersides match the tops."
+   },
+   {
+    "title": null,
+    "text": "Meanwhile, prepare your salad. Chop your pecans well, mince your shallot, chop your celery and parsley, mince cranberries if using them. Crumble your goat cheese. If you, like me, got too soft of a goat cheese for mixing, set it aside and sprinkle it on top. If it’s firmer, stir it into the mixture. In a small dish, whisk together 2 tablespoons olive oil, 2 teaspoons red wine vinegar and 1/2 teaspoon dijon. Pour half over salad."
+   },
+   {
+    "title": null,
+    "text": "When the sweet potatoes are done, set a couple coins aside just in case the baby isn’t into the toppings. Lay the rest on a serving platter. Scoop a spoonful of the salsa over each round. Pour remaining salad dressing over top, to taste. Eat immediately."
+   }
+  ],
+  "notes": [],
+  "summary": null,
+  "ingredient_groups": []
  },
  "parser_version": 4
 }

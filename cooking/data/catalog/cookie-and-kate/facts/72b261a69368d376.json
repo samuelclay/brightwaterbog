@@ -28,7 +28,36 @@
   ],
   "author": "Cookie and Kate",
   "url": "https://cookieandkate.com/chickpea-noodle-soup-recipe/",
-  "source": "cookie-and-kate"
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Warm the olive oil in a large Dutch oven or soup pot over medium heat. Once the oil is shimmering, add the onion, celery, carrots and ¼ teaspoon salt. Cook, stirring often, until the onions are turning translucent and softening, about 5 to 7 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the turmeric and curry powder, if using, and stir constantly for about 30 seconds to wake up their flavors. Add the bay leaf, chickpeas, pasta, parsley and broth."
+   },
+   {
+    "title": null,
+    "text": "Raise the heat to high and bring the mixture to a simmer, then reduce heat to medium-low and continue simmering until the pasta is pleasantly tender, about 10 to 20 minutes."
+   },
+   {
+    "title": null,
+    "text": "Remove the pot from the heat and season generously with pepper. Add more salt, to taste, if necessary (I usually add another ¼ teaspoon). Serve while hot, with some extra parsley and pepper on top as garnish."
+   },
+   {
+    "title": null,
+    "text": "Once cool, store the soup in the refrigerator, covered, for up to 5 days."
+   }
+  ],
+  "notes": [
+   "*Pasta options: I’ve used whole grain noodles (DeLallo fusilli) and gluten free noodles (see below) with success. Egg noodles are a classic choice. Orzo would also be nice.",
+   "Make it gluten free: Substitute gluten-free noodles. I had good luck with Ancient Harvest rotini (a corn and quinoa blend).",
+   "Change it up: Omit the curry powder for more mild, traditional flavor—but it’s subtle as is. You could also substitute Great Northern beans for the chickpeas."
+  ],
+  "summary": "This noodle soup is made with chickpeas instead of chicken! It’s the perfect meatless soup when you’re feeling ill or craving familiar comfort food flavors. Recipe yields 6 big bowls of soup.",
+  "ingredient_groups": []
  },
  "parser_version": 2
 }

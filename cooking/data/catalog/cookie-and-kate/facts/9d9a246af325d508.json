@@ -1,6 +1,67 @@
 {
  "url": "https://cookieandkate.com/creamy-vegan-butternut-squash-linguine-with-fried-sage/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Creamy (vegan!) Butternut Squash Linguine with Fried Sage",
+  "ingredients": [
+   "2 tablespoons olive oil",
+   "1 tablespoon finely chopped fresh sage",
+   "2 pound butternut or kabocha squash, peeled, seeded, and cut into small ½-inch pieces (about 3 cups)",
+   "1 medium yellow onion, chopped",
+   "2 garlic cloves, pressed or chopped",
+   "⅛ teaspoon red pepper flakes (up to ¼ teaspoon for spicier pasta sauce)",
+   "Salt",
+   "Freshly ground black pepper",
+   "2 cups vegetable broth",
+   "12 ounces whole grain linguine or fettucine",
+   "Optional additional garnishes: shaved Parmesan or Pecorino and/or smoked salt"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "55 minutes",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/creamy-vegan-butternut-squash-linguine-with-fried-sage/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Warm the oil in a large skillet over medium heat. Once the oil is shimmering, add the sage and toss to coat. Let the sage get crispy before transferring it to a small bowl. Sprinkle it lightly with salt and set the bowl aside."
+   },
+   {
+    "title": null,
+    "text": "Add the squash, onion, garlic and red pepper flakes to the skillet. Season with salt and pepper. Cook, stirring occasionally, until the onion is translucent, about 8 to 10 minutes. Add the broth. Bring the mixture to a boil, then reduce the heat and simmer until the squash is soft and the liquid is reduced by half, about 15 to 20 minutes."
+   },
+   {
+    "title": null,
+    "text": "In the meantime, bring a large pot of salted water to a boil and cook the pasta until al dente according to package directions, stirring occasionally. Reserve 1 cup of the pasta cooking water before draining."
+   },
+   {
+    "title": null,
+    "text": "Once the squash mixture is done cooking, remove it from the heat and let it cool slightly. Transfer the contents of the pan to a blender, but keep the skillet handy. Purée the mixture until smooth (beware of hot steam escaping from the top of the blender), then season with salt and pepper until the flavors sing."
+   },
+   {
+    "title": null,
+    "text": "In the reserved skillet, combine the pasta, squash purée and ¼ cup cooking liquid. Cook over medium heat, tossing and adding more pasta cooking water as needed, until the sauce coats the pasta, about 2 minutes. Season with more salt and pepper if necessary."
+   },
+   {
+    "title": null,
+    "text": "Serve the pasta in individual bowls topped with fried sage, more black pepper and shaved Parmesan/Pecorino and/or smoked salt, if desired."
+   }
+  ],
+  "notes": [
+   "Recipe adapted from Bon Appetit’s Winter Squash Carbonara with Pancetta and Sage (February 2014).",
+   "Make it vegan: Skip the cheese garnish.",
+   "Make it gluten-free: Use gluten-free pasta. Commenter Jenn recommends corn and quinoa blended gluten-free pasta, which is firmer than brown rice pasta.",
+   "Change it up: The squash purée is a killer bisque, which you could thin with vegetable broth if you’d like. You could also stir it into risotto at the end of cooking."
+  ],
+  "summary": "Spiced and creamy (yet cream-less) butternut squash sauce tossed with whole grain linguine. Top with fried sage for a healthy, comforting main dish. Serve with salad or roasted vegetables to further lighten up the meal. Recipe yields 4 large servings.",
+  "ingredient_groups": []
+ }
 }

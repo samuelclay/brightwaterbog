@@ -1,6 +1,49 @@
 {
  "url": "https://cookieandkate.com/cucumber-tomato-salad-recipe/",
- "status": "access-check",
- "error": "Publisher returned a Cloudflare access check; not bypassed",
- "parser_version": 2
+ "status": "parsed",
+ "via": "wp-json",
+ "parser_version": 2,
+ "facts": {
+  "title": "Cucumber Tomato Salad with Greek Dressing",
+  "ingredients": [
+   "½ medium red onion, cut into short strips",
+   "1 English cucumber or 2 Persian cucumbers, thinly sliced into rounds",
+   "1 pint (2 cups) cherry tomatoes, halved or quartered if large",
+   "⅓ cup crumbled feta cheese (optional)",
+   "2 tablespoons thinly sliced fresh basil",
+   "2 tablespoons chopped fresh dill or additional basil",
+   "⅓ cup Greek Salad Dressing*"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "20 minutes (plus 10 minutes resting time)",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cucumber-tomato-salad-recipe/",
+  "source": "cookie-and-kate",
+  "steps": [
+   {
+    "title": null,
+    "text": "Place the onion in a small bowl of ice water and let it soak for at least 5 minutes to tame the flavor."
+   },
+   {
+    "title": null,
+    "text": "In the meantime, combine the cucumber, cherry tomatoes, optional feta, and herbs in a medium serving bowl. Once the onions are drained, add them to the bowl. Drizzle the dressing over the salad and toss to combine."
+   },
+   {
+    "title": null,
+    "text": "For best flavor, let the salad rest for at least 10 minutes before serving. This salad keeps well in the refrigerator, covered, for up to 4 days."
+   }
+  ],
+  "notes": [
+   "*Dressing note: You’ll need about half of the full salad dressing recipe. Either divide the ingredients in half to make just what you need, or better yet, make the full batch for future salads! It will keep in the fridge for about 1 week.",
+   "Make it dairy free/vegan: Omit the feta cheese."
+  ],
+  "summary": "This cucumber tomato salad recipe is light, refreshing and perfect for summer! It features cucumber, cherry tomatoes and optional feta tossed in Greek dressing. Recipe yields 6 side servings.",
+  "ingredient_groups": []
+ }
 }
