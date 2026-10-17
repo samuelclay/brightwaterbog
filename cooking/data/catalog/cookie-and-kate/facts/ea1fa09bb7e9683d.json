@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/perfect-steel-cut-oats-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Perfect Steel-Cut Oats",
+  "ingredients": [
+   "3 cups water",
+   "1 cup milk of choice: almond milk, cow’s milk, coconut milk, etc.",
+   "1 tablespoon coconut oil or unsalted butter",
+   "1 cup steel-cut oats (choose certified gluten-free oats if necessary)",
+   "¼ teaspoon salt",
+   "Optional mix-ins: ground spices like cinnamon, dried fruit like cranberries or chopped dates, toasted chopped nuts like walnuts, lemon or orange zest, etc."
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT40M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Irish"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/perfect-steel-cut-oats-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

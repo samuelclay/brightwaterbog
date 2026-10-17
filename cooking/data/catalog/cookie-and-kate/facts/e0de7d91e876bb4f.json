@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/mango-lassi-frozen-yogurt/",
+ "status": "parsed",
+ "facts": {
+  "title": "Mango Lassi Frozen Yogurt",
+  "ingredients": [
+   "16 ounces mango chunks (1 pound), frozen or fresh",
+   "⅔ cup honey",
+   "1 small lime, juiced",
+   "⅛ teaspoon salt",
+   "2 cups full-fat yogurt, chilled"
+  ],
+  "yield_text": "1 quart",
+  "cook_time": "PT50M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "Indian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/mango-lassi-frozen-yogurt/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

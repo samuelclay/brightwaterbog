@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/almond-coconut-granola-bars/",
+ "status": "parsed",
+ "facts": {
+  "title": "Almond Coconut Granola Bars",
+  "ingredients": [
+   "1 cup chopped almonds",
+   "1 ¾ cups quick-cooking oats (or old-fashioned oats, pulsed briefly in a food processor or blender to break them up)",
+   "1 cup large, unsweetened coconut flakes (shredded coconut should work, too)",
+   "½ teaspoon ground cinnamon",
+   "½ teaspoon salt",
+   "1 cup creamy almond butter or peanut butter",
+   "½ cup honey or maple syrup",
+   "1 ½ teaspoons vanilla extract"
+  ],
+  "yield_text": "16 bars",
+  "cook_time": "PT20M",
+  "categories": [
+   "Snack"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/almond-coconut-granola-bars/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

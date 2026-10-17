@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/roasted-garlic-bread-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Roasted Garlic Bread",
+  "ingredients": [
+   "1 loaf (16 ounces) ciabatta bread or crusty French bread",
+   "4 heads roasted garlic",
+   "4 tablespoons unsalted butter, softened**",
+   "¼ teaspoon fine sea salt",
+   "1 teaspoon finely chopped fresh flat-leaf parsley, or a light sprinkle of dried oregano"
+  ],
+  "yield_text": "1 loaf",
+  "cook_time": "PT1H10M",
+  "categories": [
+   "Side"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-garlic-bread-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

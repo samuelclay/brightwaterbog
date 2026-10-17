@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/whole-wheat-pancake-mix/",
+ "status": "parsed",
+ "facts": {
+  "title": "Whole Wheat Pancake Mix",
+  "ingredients": [
+   "4 cups white whole wheat flour or regular whole wheat flour",
+   "2 tablespoons baking powder",
+   "2 teaspoons baking soda",
+   "1 teaspoon fine sea salt",
+   "1 teaspoon ground cinnamon",
+   "1 cup milk of choice",
+   "1 tablespoon apple cider vinegar or distilled vinegar",
+   "1 egg",
+   "2 tablespoons unsalted butter, melted",
+   "2 tablespoons maple syrup or honey",
+   "1 cup pancake mix"
+  ],
+  "yield_text": "4 cups pancake mix",
+  "cook_time": "PT5M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/whole-wheat-pancake-mix/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/triple-coconut-granola-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Triple Coconut Granola",
+  "ingredients": [
+   "4 cups rolled oats (also known as old-fashioned oats)",
+   "1 cup slivered almonds or nuts of choice",
+   "1 teaspoon ground cinnamon",
+   "¾ teaspoon fine-grain sea salt",
+   "½ teaspoon ground ginger",
+   "½ cup melted coconut oil",
+   "½ cup maple syrup",
+   "1 teaspoon vanilla extract",
+   "½ cup large, unsweetened coconut flakes*",
+   "½ cup unsweetened shredded coconut",
+   "Optional: ⅔ cup dried fruit, chopped if large"
+  ],
+  "yield_text": "6 cups",
+  "cook_time": "PT30M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/triple-coconut-granola-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,35 @@
+{
+ "url": "https://smittenkitchen.com/2023/06/sliced-egg-sandwich/",
+ "status": "parsed",
+ "facts": {
+  "title": "sliced egg sandwich",
+  "ingredients": [
+   "1/4 cup mayonnaise",
+   "1 tablespoon smooth dijon mustard",
+   "2 teaspoons wholegrain mustard",
+   "2 teaspoons prepared horseradish",
+   "Salt and freshly-ground black pepper",
+   "2 soft challah, brioche, or potato rolls, split, or slices from a loaf",
+   "Butter, for toasting",
+   "2 hard-boiled eggs, cold, peeled, and sliced",
+   "Thinly sliced pickles, celery, pickled onions [more suggestions in Notes]",
+   "2 cups fresh arugula, roughly torn"
+  ],
+  "yield_text": "2",
+  "cook_time": "15 minutes",
+  "categories": [
+   "Breakfast",
+   "Eggs",
+   "Lunch",
+   "Quick",
+   "Recipe",
+   "Sandwich",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2023/06/sliced-egg-sandwich/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

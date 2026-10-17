@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/kale-pesto-pizza-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Kale Pesto Pizza",
+  "ingredients": [
+   "1 batch easy whole wheat pizza dough or 1 pound store-bought pizza dough",
+   "2 cups (8 ounces) grated low-moisture part-skim mozzarella cheese",
+   "1 cup lightly packed kale, chopped into small, bite-sized pieces",
+   "1 teaspoon olive oil",
+   "Optional garnishes: red pepper flakes",
+   "3 cups packed kale, preferably the Tuscan/lacinato variety, thick ribs removed and roughly chopped (about 1 small bunch)",
+   "¾ cup pecans or walnuts",
+   "2 tablespoons lemon juice (about 1 small lemon)",
+   "2 to 3 cloves garlic, depending on their size",
+   "¾ teaspoon fine-grain sea salt",
+   "Freshly ground black pepper, to taste",
+   "½ cup olive oil"
+  ],
+  "yield_text": "1 large or 2 smaller pizzas",
+  "cook_time": "PT30M",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/kale-pesto-pizza-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,24 @@
+{
+ "url": "https://cookieandkate.com/rosemary-gin-fizz/",
+ "status": "parsed",
+ "facts": {
+  "title": "Rosemary Gin Fizz",
+  "ingredients": [
+   "3 one-inch sprigs of fresh rosemary",
+   "1 small lemon, juiced",
+   "1 teaspoon honey",
+   "1 ½ ounces gin",
+   "3 ounces club soda"
+  ],
+  "yield_text": "1",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/rosemary-gin-fizz/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

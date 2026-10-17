@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/lemony-kale-pasta-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Lemony Green Pasta with Peas & Ricotta",
+  "ingredients": [
+   "Fine sea salt",
+   "1 large bunch (8 ounces) kale*, preferably Tuscan/lacinato but any variety works",
+   "¼ cup extra-virgin olive oil",
+   "2 large cloves garlic, smashed and peeled",
+   "Zest and juice from 1 medium lemon, preferably organic",
+   "¼ teaspoon red pepper flakes, reduce or omit if sensitive to spice",
+   "Freshly ground black pepper, to taste",
+   "½ pound (8 ounces) rigatoni or pappardelle or pasta of choice",
+   "2 cups (8 ounces) fresh or frozen peas",
+   "¾ cup (2 ounces) coarsely grated Parmesan cheese",
+   "½ cup or more ricotta cheese, for garnish"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT30M",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/lemony-kale-pasta-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

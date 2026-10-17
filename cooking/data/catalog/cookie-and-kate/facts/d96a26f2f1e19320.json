@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/sweet-potato-kale-and-chickpea-soup/",
+ "status": "parsed",
+ "facts": {
+  "title": "Vegan Sweet Potato, Kale and Chickpea Soup",
+  "ingredients": [
+   "2 tablespoons extra-virgin olive oil",
+   "1 large yellow onion, chopped",
+   "1 red bell pepper, chopped",
+   "1 pound sweet potatoes (2 small to medium or 1 large), peeled and diced (about 3 cups)",
+   "¼ teaspoon salt, more to taste",
+   "2 tablespoons Thai red curry paste*",
+   "1 cup uncooked farro, rinsed** (or 3 cups cooked whole grains, like wheat berries, spelt berries or kamut)",
+   "4 cups (32 ounces) vegetable broth",
+   "2 cups water",
+   "1 can (15 ounces) chickpeas, rinsed and drained, or 1 ½ cups cooked chickpeas",
+   "½ bunch of kale (4 ounces), chopped (about 3 cups)",
+   "¼ teaspoon cayenne pepper, to taste"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "PT45M",
+  "categories": [
+   "Soup"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/sweet-potato-kale-and-chickpea-soup/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

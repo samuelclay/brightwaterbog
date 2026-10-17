@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/super-kale-pesto-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Super Kale Pesto",
+  "ingredients": [
+   "2 to 3 cloves garlic",
+   "3 cups packed kale (about 1 small bunch)",
+   "¾ cup hemp seeds or toasted walnuts or pecans",
+   "2 tablespoons lemon juice (about 1 lemon)",
+   "¾ teaspoon fine-grain sea salt",
+   "¼ teaspoon ground pepper",
+   "Red pepper flakes, optional",
+   "¼ cup flaxseed oil or extra-virgin olive oil (more if desired)",
+   "Entirely optional: ⅓ cup grated Parmesan cheese",
+   "1 pound (16 ounces) whole grain pasta, like linguine",
+   "1 cup reserved pasta water"
+  ],
+  "yield_text": "1 1/4 cups",
+  "cook_time": "PT13M",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/super-kale-pesto-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

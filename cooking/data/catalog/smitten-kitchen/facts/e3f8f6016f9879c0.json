@@ -1,0 +1,33 @@
+{
+ "url": "https://smittenkitchen.com/2014/09/latke-waffles/",
+ "status": "parsed",
+ "facts": {
+  "title": "latke waffles",
+  "ingredients": [
+   "2 large or 4 medium (2 pounds or just under 1 kg) Russet or baking potato, peeled",
+   "1 medium onion (about 6 to 8 ounces), peeled",
+   "2 teaspoons baking powder",
+   "1 1/2 teaspoons (about 9 grams) table or fine sea salt",
+   "Freshly ground black pepper",
+   "1/2 cup plus 2 tablespoons (80 grams) all-purpose flour",
+   "4 large eggs",
+   "Nonstick spray, for waffle iron",
+   "2 tablespoons fresh chives, finely chopped, for garnish (totally optional)"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Breakfast",
+   "Brunch",
+   "Potatoes",
+   "Put An Egg On It",
+   "Vegetarian",
+   "Waffles"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2014/09/latke-waffles/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

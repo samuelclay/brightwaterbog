@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/lemon-kale-salad-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Lemony Kale Salad",
+  "ingredients": [
+   "2 tablespoons extra-virgin olive oil",
+   "1 to 2 tablespoons lemon juice",
+   "1 teaspoon Dijon mustard",
+   "1 medium clove garlic, pressed or minced",
+   "Several twists of freshly ground black pepper",
+   "Pinch of red pepper flakes (optional)",
+   "1 medium-to-large bunch of Tuscan kale (8 ounces)",
+   "⅛ teaspoon fine salt",
+   "½ cup (1 ½ ounces) finely grated Pecorino Romano or Parmesan cheese"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT15M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/lemon-kale-salad-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

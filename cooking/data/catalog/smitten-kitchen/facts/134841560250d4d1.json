@@ -1,0 +1,31 @@
+{
+ "url": "https://smittenkitchen.com/2007/04/gulping-beanfuls/",
+ "status": "parsed",
+ "facts": {
+  "title": "artichoke, cranberry bean and arugula salad",
+  "ingredients": [
+   "2 of the largest, most globe-like artichokes you can find",
+   "2 lemons",
+   "A few cloves of garlic, smashed but left in their skins",
+   "One can of cranberry beans, rinsed and drained",
+   "A bundle of fresh arugula, washed and dried",
+   "2 to 3 tablespoons mayonnaise",
+   "Salt and pepper to taste"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Artichokes",
+   "Arugula",
+   "Beans",
+   "Salad",
+   "Spring",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2007/04/gulping-beanfuls/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

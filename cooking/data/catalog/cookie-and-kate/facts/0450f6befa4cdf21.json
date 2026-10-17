@@ -1,0 +1,36 @@
+{
+ "url": "https://cookieandkate.com/succotash-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Vegetarian Succotash",
+  "ingredients": [
+   "2 tablespoons extra-virgin olive oil",
+   "4 ears fresh corn, shucked (or about 3 cups frozen corn, thawed)",
+   "1 teaspoon fine salt, divided",
+   "1 small red onion, chopped",
+   "1 poblano pepper, chopped",
+   "1 red bell pepper, chopped",
+   "Optional: 1 medium jalapeño, ribs and seeds removed and chopped",
+   "2 cloves garlic, pressed or minced",
+   "2 cups fresh or frozen lima beans*, thawed under cool running water",
+   "2 tablespoons butter, plus more for serving",
+   "Freshly ground black pepper, to taste",
+   "Optional: Pinch of cayenne (for even more spice)",
+   "¼ cup chopped fresh basil, divided",
+   "2 tablespoons chopped green onion",
+   "Flaky sea salt or kosher salt, for serving"
+  ],
+  "yield_text": "6 side servings",
+  "cook_time": "PT35M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/succotash-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

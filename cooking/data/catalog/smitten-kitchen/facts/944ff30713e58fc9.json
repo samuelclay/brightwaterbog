@@ -1,0 +1,28 @@
+{
+ "url": "https://smittenkitchen.com/2014/11/crispy-sweet-potato-roast/",
+ "status": "parsed",
+ "facts": {
+  "title": "crispy sweet potato roast",
+  "ingredients": [
+   "3 tablespoons salted or unsalted butter, melted",
+   "3 tablespoons olive oil",
+   "Coarse salt and black pepper or red pepper flakes to taste",
+   "5 pounds sweet potatoes, peeled and sliced thin",
+   "2 shallots, peeled and sliced thin"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Fall",
+   "Potatoes",
+   "Side Dish",
+   "Thanksgiving",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2014/11/crispy-sweet-potato-roast/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

@@ -1,0 +1,36 @@
+{
+ "url": "https://cookieandkate.com/peach-cobbler/",
+ "status": "parsed",
+ "facts": {
+  "title": "Peach Cobbler with Almond Topping",
+  "ingredients": [
+   "2 ½ pounds ripe peaches, peeled* and cut into 1-inch chunks (about 6 medium-to-large)",
+   "3 tablespoons honey",
+   "2 tablespoons arrowroot starch or cornstarch",
+   "1 teaspoon vanilla extract",
+   "½ teaspoon ground cinnamon",
+   "2 ½ cups (225 grams) blanched almond flour**",
+   "1 tablespoon baking powder",
+   "¼ teaspoon fine salt",
+   "3 tablespoons granulated sugar",
+   "Zest from 1 large lemon",
+   "5 tablespoons unsalted butter, just melted",
+   "2 tablespoons plain whole-milk Greek yogurt",
+   "1 large egg",
+   "Optional: 1 teaspoon turbinado sugar (raw sugar) for sprinkling on top",
+   "Vanilla ice cream or whipped cream, for serving"
+  ],
+  "yield_text": "9 servings",
+  "cook_time": "PT1H",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/peach-cobbler/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,40 @@
+{
+ "url": "https://smittenkitchen.com/2013/01/gnocchi-in-tomato-broth/",
+ "status": "parsed",
+ "facts": {
+  "title": "gnocchi in tomato broth",
+  "ingredients": [
+   "Tomato broth",
+   "2 tablespoons (30 ml) olive oil",
+   "1 medium carrot, chopped",
+   "1 medium stalk celery, chopped",
+   "1 small yellow onion, chopped",
+   "3 garlic cloves, peeled and smashed",
+   "1/2 cup (120 ml) white wine",
+   "One 28-ounce (795 grams) can whole or chopped tomatoes with juices",
+   "Small handful fresh basil leaves, plus more for garnish",
+   "2 cups (475 ml) chicken or vegetable stock",
+   "Salt and freshly ground black pepper, to taste",
+   "Gnocchi",
+   "2 pounds (905 grams) Russet potatoes (3 to 4)",
+   "1 large egg, lightly beaten",
+   "1 teaspoon table salt",
+   "1 1/4 to 1 1/2 cups (156 to 190 grams) all-purpose flour, plus more for dusting surface"
+  ],
+  "yield_text": "Yield: 2 1/2 to 3 cups broth and 85 to 100 gnocchi, serving 4",
+  "cook_time": null,
+  "categories": [
+   "Italian",
+   "Pasta",
+   "Soup",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2013/01/gnocchi-in-tomato-broth/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

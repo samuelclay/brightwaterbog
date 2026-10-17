@@ -1,0 +1,34 @@
+{
+ "url": "https://smittenkitchen.com/2006/09/silky-cauliflower-soup/",
+ "status": "parsed",
+ "facts": {
+  "title": "silky cauliflower soup",
+  "ingredients": [
+   "1 head cauliflower",
+   "2 tablespoons olive oil",
+   "1 small onion, chopped",
+   "2 cloves garlic, minced",
+   "1 quart low-sodium chicken or vegetable stock",
+   "1/2 cup finely grated Parmesan",
+   "Salt and freshly ground black pepper"
+  ],
+  "yield_text": "4 6o 6",
+  "cook_time": "40 minutes",
+  "categories": [
+   "5 Ingredients or Fewer",
+   "Cauliflower",
+   "Dinner",
+   "Gluten-Free",
+   "Lunch",
+   "Seafood",
+   "Soup",
+   "Vegetarian",
+   "Weeknight Favorite"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2006/09/silky-cauliflower-soup/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

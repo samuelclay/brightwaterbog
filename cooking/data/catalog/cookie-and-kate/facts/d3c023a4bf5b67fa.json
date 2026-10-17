@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/vegetarian-breakfast-burritos-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Vegetarian Breakfast Burritos",
+  "ingredients": [
+   "Six 8-inch whole-grain tortillas",
+   "1 full batch homemade hash browns",
+   "6 large eggs",
+   "1 cup cooked pinto beans or black beans",
+   "¼ teaspoon fine salt",
+   "Several dashes of hot sauce, such as Cholula",
+   "1 tablespoon unsalted butter",
+   "⅔ cup (packed) shredded sharp cheddar cheese",
+   "½ cup chopped cilantro, divided",
+   "½ cup chopped green onion (mostly green parts), divided",
+   "6 tablespoons of your favorite salsa, plus extra for serving",
+   "1 large avocado, diced"
+  ],
+  "yield_text": "6 burritos",
+  "cook_time": "PT45M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/vegetarian-breakfast-burritos-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

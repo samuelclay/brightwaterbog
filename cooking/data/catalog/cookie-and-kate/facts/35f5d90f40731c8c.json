@@ -1,0 +1,39 @@
+{
+ "url": "https://cookieandkate.com/curried-coconut-quinoa-greens-roasted-cauliflower/",
+ "status": "parsed",
+ "facts": {
+  "title": "Curried Coconut Quinoa and Greens with Roasted Cauliflower",
+  "ingredients": [
+   "1 head cauliflower, cut into bite-sized florets",
+   "2 tablespoons melted coconut oil or olive oil",
+   "¼ teaspoon cayenne pepper",
+   "Sea salt",
+   "2 teaspoons melted coconut oil or olive oil",
+   "1 medium yellow onion, chopped",
+   "1 teaspoon ground ginger",
+   "1 teaspoon ground turmeric",
+   "½ teaspoon curry powder of choice (optional)",
+   "½ teaspoon ground cardamom",
+   "1 can (14 ounces) light coconut milk",
+   "½ cup water",
+   "1 cup quinoa, rinsed well in a fine mesh colander",
+   "⅓ cup raisins",
+   "1 teaspoon sea salt",
+   "1 tablespoon apple cider vinegar",
+   "4 cups baby arugula or chopped chard, spinach, maybe even kale*",
+   "Optional garnishes: 2 green onions, chopped, and a sprinkle of red pepper flakes"
+  ],
+  "yield_text": "4",
+  "cook_time": "PT40M",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [
+   "Indian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/curried-coconut-quinoa-greens-roasted-cauliflower/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

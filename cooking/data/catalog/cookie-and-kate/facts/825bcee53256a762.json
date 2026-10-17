@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/best-hummus-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Best Hummus",
+  "ingredients": [
+   "1 can (15 ounces) chickpeas, rinsed and drained, or 1 ½ cups cooked chickpeas",
+   "½ teaspoon baking soda",
+   "¼ cup lemon juice (from 1 ½ to 2 lemons), more to taste",
+   "1 medium-to-large clove garlic, roughly chopped",
+   "½ teaspoon fine sea salt, to taste",
+   "½ cup tahini",
+   "2 to 4 tablespoons ice water, more as needed",
+   "½ teaspoon ground cumin",
+   "1 tablespoon extra-virgin olive oil",
+   "Any of the following garnishes: drizzle of olive oil or zhoug sauce, sprinkle of ground sumac or paprika, chopped fresh parsley"
+  ],
+  "yield_text": "2 cups (8 servings)",
+  "cook_time": "PT40M",
+  "categories": [
+   "Dip"
+  ],
+  "cuisines": [
+   "Middle Eastern"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-hummus-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

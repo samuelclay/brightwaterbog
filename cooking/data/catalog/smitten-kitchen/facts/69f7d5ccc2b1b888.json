@@ -1,0 +1,38 @@
+{
+ "url": "https://smittenkitchen.com/2009/12/spinach-and-cheese-strata/",
+ "status": "parsed",
+ "facts": {
+  "title": "spinach and cheese strata",
+  "ingredients": [
+   "1 (10 ounce) package frozen spinach, thawed, squeeze of all excess liquid, and chopped",
+   "1 1/2 cups finely chopped onion (1 large)",
+   "3 tablespoons unsalted butter",
+   "1 teaspoon salt",
+   "1/2 teaspoon black pepper",
+   "1/4 teaspoon freshly grated nutmeg",
+   "8 cups cubed French or Italian bread in 1-inch cubes (1/2 lb)",
+   "6 ounces coarsely grated Gruyère (2 cups)",
+   "2 ounces finely grated parmesan (1 cup)",
+   "2 3/4 cups milk",
+   "9 large eggs",
+   "2 tablespoons Dijon mustard"
+  ],
+  "yield_text": "Serves 6 to 8",
+  "cook_time": null,
+  "categories": [
+   "Breakfast",
+   "Brunch",
+   "Casserole",
+   "Eggs",
+   "Freezer Friendly",
+   "Lunch",
+   "Spinach",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2009/12/spinach-and-cheese-strata/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

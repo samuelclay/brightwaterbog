@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/spicy-watermelon-margarita-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Spicy Watermelon Margaritas",
+  "ingredients": [
+   "1 small seedless watermelon, or half of a larger watermelon",
+   "1 part kosher salt",
+   "1 part ancho chili powder or regular chili powder",
+   "Lime wedges",
+   "2 ounces fresh watermelon juice",
+   "1 ½ ounces tequila, preferably 100% agave silver or blanco tequila",
+   "¾ ounce fresh lime juice",
+   "½ ounce fresh orange juice",
+   "½ teaspoon agave nectar or simple syrup, more to taste",
+   "1 thinly sliced jalapeño round (¼th inch wide, a little goes a long way!)",
+   "Optional garnish: 1 tiny watermelon wedge"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/spicy-watermelon-margarita-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

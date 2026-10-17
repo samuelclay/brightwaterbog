@@ -1,0 +1,36 @@
+{
+ "url": "https://cookieandkate.com/sun-dried-tomato-caesar-salad/",
+ "status": "parsed",
+ "facts": {
+  "title": "Ashley's Sun-Dried Tomato Caesar Salad",
+  "ingredients": [
+   "3 tablespoons olive oil",
+   "½ cup grated Parmesan",
+   "¼ teaspoon salt",
+   "2 cups of ¾-inch cubes of rustic bread",
+   "¼ cup roughly chopped sun-dried tomatoes",
+   "½ cup grated Parmesan",
+   "2 tablespoons freshly squeezed lemon juice",
+   "2 tablespoons water",
+   "1 garlic clove, roughly chopped",
+   "Pinch sea salt",
+   "½ cup extra-virgin olive oil",
+   "Freshly ground black pepper, to taste",
+   "2 or more small heads of romaine, halved or chopped",
+   "Sprinkle of additional Parmesan",
+   "Sprinkle of additional chopped sun-dried tomatoes"
+  ],
+  "yield_text": "2 to 4 salads",
+  "cook_time": "PT30M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/sun-dried-tomato-caesar-salad/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

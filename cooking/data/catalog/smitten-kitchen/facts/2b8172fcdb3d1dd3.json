@@ -1,0 +1,30 @@
+{
+ "url": "https://smittenkitchen.com/2008/01/pickled-carrot-sticks/",
+ "status": "parsed",
+ "facts": {
+  "title": "pickled carrot sticks",
+  "ingredients": [
+   "1 pound (455 grams) carrots, trimmed, peeled or scrubbed, and cut into 3 1/2- by 1/3-inch sticks",
+   "1 cup (235 ml) water",
+   "1 cup (235 ml) cider vinegar or plain vinegar (the former makes a sweeter, milder brine)",
+   "2 tablespoons (25 grams) granulated sugar",
+   "2 garlic cloves, lightly crushed",
+   "1 tablespoon (8 grams) kosher salt",
+   "1 1/2 tablespoons dill seeds, coriander seeds, or black peppercorns, or a mix thereof"
+  ],
+  "yield_text": "1 pound of pickled carrots",
+  "cook_time": "15 minutes prep, plus 1 day or more to pickle",
+  "categories": [
+   "Carrots",
+   "Game Day",
+   "Party Snacks",
+   "Pickled",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2008/01/pickled-carrot-sticks/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

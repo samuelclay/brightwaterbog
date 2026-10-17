@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/pots-de-creme-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Pots de Crème",
+  "ingredients": [
+   "2 eggs",
+   "2 egg yolks",
+   "2 teaspoons vanilla extract",
+   "½ cup sugar",
+   "16 ounces heavy cream",
+   "12 ounces semi-sweet chocolate chips*",
+   "¼ cup Kahlua or Crème de Cocao or Amaretto or orange juice",
+   "2 tablespoons orange juice"
+  ],
+  "yield_text": "18 servings",
+  "cook_time": "PT25M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "French"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pots-de-creme-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

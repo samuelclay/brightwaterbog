@@ -1,0 +1,36 @@
+{
+ "url": "https://cookieandkate.com/christmas-enchiladas-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Christmas Enchiladas",
+  "ingredients": [
+   "½ batch (1 cup) red enchilada sauce",
+   "½ batch (1 cup) green enchilada sauce",
+   "2 tablespoons extra-virgin olive oil",
+   "1 large yellow onion, cut into 2” long thin strips",
+   "2 medium red bell peppers, cut into 2” long thin strips",
+   "¾ teaspoon fine salt, divided",
+   "8 ounces Baby Bella mushrooms, cleaned and thinly sliced",
+   "5 ounces baby spinach",
+   "4 cloves garlic, pressed or minced",
+   "1 teaspoon ground cumin",
+   "1 can (15 ounces) black beans, drained and rinsed, or 1 ½ cups cooked black beans",
+   "Freshly ground black pepper, to taste",
+   "4 ounces (1 packed cup) Monterey Jack cheese or pepper jack cheese (for extra kick)",
+   "10 corn tortillas",
+   "Garnishes: Chopped red onion or radish or green onion, cilantro leaves and crumbled Cotija or feta cheese"
+  ],
+  "yield_text": "10 enchiladas",
+  "cook_time": "PT1H10M",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Southwestern"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/christmas-enchiladas-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

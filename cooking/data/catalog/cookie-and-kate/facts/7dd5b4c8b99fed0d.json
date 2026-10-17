@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/pecan-granola-bars-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Pecan Granola Bars",
+  "ingredients": [
+   "1 ¼ cups pecan halves (5 ounces)",
+   "2 cups quick-cooking oats (or old-fashioned oats, pulsed briefly in a food processor or blender to break them up)",
+   "1 teaspoon ground cinnamon",
+   "½ teaspoon fine sea salt (if using regular table salt or salted nut butter, scale back a bit)",
+   "1 cup homemade pecan butter* or creamy almond butter or peanut butter",
+   "½ cup maple syrup or honey",
+   "1 ½ teaspoons vanilla extract"
+  ],
+  "yield_text": "16 granola bars",
+  "cook_time": "PT25M",
+  "categories": [
+   "Snack"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pecan-granola-bars-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

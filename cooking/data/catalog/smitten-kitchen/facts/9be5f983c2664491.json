@@ -1,0 +1,42 @@
+{
+ "url": "https://smittenkitchen.com/2016/05/cucumber-yogurt-raita-salad/",
+ "status": "parsed",
+ "facts": {
+  "title": "cucumber yogurt raita salad",
+  "ingredients": [
+   "1 cup (227 grams) plain, full-fat yogurt",
+   "1 garlic clove, peeled",
+   "1-inch piece of fresh ginger, peeled",
+   "1/4 teaspoon granulated sugar",
+   "Juice of half a lemon (about 2 tablespoons)",
+   "1 tablespoon minced mild or hot fresh chile",
+   "1 teaspoon cumin seeds, black or yellow mustard seeds or nigella seeds",
+   "2 tablespoons chopped mint leaves, divided",
+   "2 tablespoons chopped cilantro leaves, divided",
+   "Kosher salt to taste",
+   "2 long, English-style cucumbers (2 pounds total)",
+   "1 cup cherry or grape tomatoes, diced",
+   "1/2 medium red onion, chopped small"
+  ],
+  "yield_text": "Serves 6, more with a spread of foods",
+  "cook_time": "15 minutes",
+  "categories": [
+   "Budget",
+   "Cucumber",
+   "Indian",
+   "Picnics",
+   "Ramadan",
+   "Salad",
+   "Summer",
+   "Tomatoes",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Indian"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2016/05/cucumber-yogurt-raita-salad/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

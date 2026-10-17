@@ -13,12 +13,14 @@ export default {
     const m = url.pathname.match(/^\/r\/(\d+)/);
     if (!m) return env.ASSETS.fetch(request);
 
-    const [pageRes, ogRes] = await Promise.all([
+    const [pageRes, ...ogResponses] = await Promise.all([
       env.ASSETS.fetch(new URL("/", url)),
       env.ASSETS.fetch(new URL("/data/og.json", url)),
+      env.ASSETS.fetch(new URL("/data/smitten_kitchen_og.json", url)),
+      env.ASSETS.fetch(new URL("/data/cookie_and_kate_og.json", url)),
     ]);
     let html = await pageRes.text();
-    const og = await ogRes.json().catch(() => null);
+    const og = Object.assign({}, ...await Promise.all(ogResponses.map(response => response.json().catch(() => ({})))));
     const r = og && og[m[1]];
     if (r) {
       const tags = [

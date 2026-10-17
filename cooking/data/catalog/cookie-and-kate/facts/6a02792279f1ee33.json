@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/fresh-honeydew-margaritas/",
+ "status": "parsed",
+ "facts": {
+  "title": "Fresh Honeydew Margarita",
+  "ingredients": [
+   "1 honeydew melon",
+   "3 parts kosher salt",
+   "1 part ancho chili powder or regular chili powder",
+   "Lime wedges",
+   "2 ounces fresh honeydew juice",
+   "1 ½ ounces tequila, preferably 100% agave silver or blanco tequila",
+   "1 ounce fresh lime juice",
+   "Entirely optional: ½ teaspoon agave nectar or simple syrup, more to taste"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT10M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/fresh-honeydew-margaritas/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

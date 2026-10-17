@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/honey-whole-wheat-banana-bread/",
+ "status": "parsed",
+ "facts": {
+  "title": "Honey Whole Wheat Banana Bread Recipe",
+  "ingredients": [
+   "⅓ cup melted coconut oil or extra-virgin olive oil",
+   "½ cup honey or maple syrup",
+   "2 eggs",
+   "1 cup mashed bananas",
+   "1 teaspoon vanilla extract",
+   "½ teaspoon salt",
+   "½ teaspoon cinnamon, plus more to swirl on top",
+   "1 ¾ cups whole wheat pastry flour or regular whole wheat flour",
+   "1 teaspoon baking soda*",
+   "¼ cup hot water*"
+  ],
+  "yield_text": "1 loaf",
+  "cook_time": "PT1H5M",
+  "categories": [
+   "Quick bread"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/honey-whole-wheat-banana-bread/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,36 @@
+{
+ "url": "https://cookieandkate.com/greek-lentil-salad-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Greek Lentil Salad",
+  "ingredients": [
+   "1 cup black beluga lentils (dry/uncooked)",
+   "3 cups water",
+   "3 lightly packed cups of chopped baby spinach",
+   "½ medium red onion, chopped",
+   "⅓ cup oil-packed sun-dried tomatoes, rinsed",
+   "⅓ cup pitted and quartered Kalamata olives",
+   "⅓ cup chopped fresh basil or flat-leaf parsley",
+   "Optional garnish: crumbled feta cheese",
+   "¼ cup olive oil",
+   "2 tablespoons red wine vinegar",
+   "1 tablespoon tahini",
+   "2 garlic cloves, pressed or minced",
+   "½ teaspoon dried oregano",
+   "Scant ½ teaspoon fine-grain sea salt (if using regular table salt, start with ¼ teaspoon and add more to taste)",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT45M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Greek"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/greek-lentil-salad-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/easy-chocolate-bark-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Easy Chocolate Bark",
+  "ingredients": [
+   "12 ounces quality chocolate chips or chopped chocolate",
+   "¾ cup raw nuts or seeds (choose from almonds, pecans, hazelnuts, pistachios and/or pepitas)",
+   "¼ cup dried cranberries or other dried fruit (dried cherries, apricots and/or candied ginger—chopped if large)",
+   "About ½ teaspoon flaky sea salt, optional"
+  ],
+  "yield_text": "25 pieces",
+  "cook_time": "PT20M",
+  "categories": [
+   "Candy"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/easy-chocolate-bark-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

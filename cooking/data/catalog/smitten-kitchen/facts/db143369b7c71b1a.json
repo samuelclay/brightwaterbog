@@ -1,0 +1,32 @@
+{
+ "url": "https://smittenkitchen.com/2007/08/quick-zucchini-saute/",
+ "status": "parsed",
+ "facts": {
+  "title": "quick zucchini sauté",
+  "ingredients": [
+   "1 to 2 tablespoons olive oil",
+   "2 tablespoons thinly sliced almonds",
+   "1 medium or 2 small zucchinis, cut into 1/8-inch matchsticks",
+   "Salt and freshly ground pepper",
+   "Peelings of pecorino romano or parmesan cheese, to taste (optional)"
+  ],
+  "yield_text": "2",
+  "cook_time": "5 minutes",
+  "categories": [
+   "5 Ingredients or Fewer",
+   "Best of Smitten Kitchen",
+   "Budget",
+   "Dinner",
+   "Quick",
+   "Summer",
+   "Vegetarian",
+   "Weeknight Favorite",
+   "Zucchini"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2007/08/quick-zucchini-saute/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

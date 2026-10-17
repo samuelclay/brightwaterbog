@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/cauliflower-steak-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Roasted Cauliflower Steak",
+  "ingredients": [
+   "1 large, dense head of cauliflower",
+   "1 to 2 tablespoons extra virgin olive oil, for brushing",
+   "¼ teaspoon fine salt",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT40M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cauliflower-steak-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

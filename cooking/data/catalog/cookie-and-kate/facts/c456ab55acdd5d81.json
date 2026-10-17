@@ -1,0 +1,24 @@
+{
+ "url": "https://cookieandkate.com/best-whipped-cream-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Homemade Whipped Cream",
+  "ingredients": [
+   "1 cup chilled heavy cream",
+   "1 tablespoon maple syrup or honey or powdered sugar",
+   "1 teaspoon vanilla extract"
+  ],
+  "yield_text": "2 cups",
+  "cook_time": "PT10M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "Classic"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-whipped-cream-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

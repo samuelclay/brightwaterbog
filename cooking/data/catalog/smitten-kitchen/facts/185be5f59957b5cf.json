@@ -1,0 +1,30 @@
+{
+ "url": "https://smittenkitchen.com/2010/05/shaved-asparagus-pizza/",
+ "status": "parsed",
+ "facts": {
+  "title": "shaved asparagus pizza",
+  "ingredients": [
+   "1 recipe Really Simple Pizza Dough or your favorite pizza dough",
+   "1/2 pound asparagus",
+   "1/4 cup grated Parmesan",
+   "1/2 pound mozzarella, shredded or cut into small cubes",
+   "2 teaspoons olive oil",
+   "1/2 teaspoon coarse salt",
+   "Several grinds black pepper",
+   "1 scallion, thinly sliced"
+  ],
+  "yield_text": "Makes 1 thin crust 12-inch pizza",
+  "cook_time": null,
+  "categories": [
+   "Asparagus",
+   "Pizza",
+   "Spring",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2010/05/shaved-asparagus-pizza/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

@@ -1,0 +1,24 @@
+{
+ "url": "https://smittenkitchen.com/2010/03/baked-kale-chips/",
+ "status": "parsed",
+ "facts": {
+  "title": "baked kale chips",
+  "ingredients": [
+   "1 bunch (about 6 ounces) kale",
+   "1 tablespoon olive oil",
+   "Sea salt, to taste"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Kale",
+   "Snack",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2010/03/baked-kale-chips/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

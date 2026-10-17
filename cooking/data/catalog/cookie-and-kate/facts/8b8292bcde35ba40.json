@@ -1,0 +1,37 @@
+{
+ "url": "https://cookieandkate.com/caesar-salad-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Homemade Caesar Salad",
+  "ingredients": [
+   "2 large slices of crusty bread, about ¾-inch thick (about 4 ounces)",
+   "2 tablespoons extra virgin olive oil",
+   "¼ teaspoon fine salt",
+   "⅛ teaspoon garlic powder",
+   "Freshly ground black pepper, to taste",
+   "½ cup mayonnaise",
+   "1 medium garlic clove, minced",
+   "2 teaspoons lemon juice, to taste",
+   "1 teaspoon Dijon mustard",
+   "½ teaspoon Worcestershire sauce*, to taste",
+   "⅛ teaspoon fine salt",
+   "⅓ cup (1 ounce) finely grated Parmesan cheese",
+   "1 tablespoon water",
+   "Freshly ground black pepper, to taste",
+   "2 medium heads of romaine lettuce (10 ounces), roughly chopped",
+   "⅓ cup (1 ounce) finely grated Parmesan"
+  ],
+  "yield_text": "4 salads",
+  "cook_time": "PT25M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/caesar-salad-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

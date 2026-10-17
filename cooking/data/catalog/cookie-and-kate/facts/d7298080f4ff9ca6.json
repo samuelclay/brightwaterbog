@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/sesame-dressing-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Sesame Dressing",
+  "ingredients": [
+   "1 tablespoon sesame seeds (optional, for texture and flavor)",
+   "¼ cup toasted sesame oil",
+   "2 tablespoons reduced-sodium tamari or soy sauce",
+   "2 tablespoons lime juice",
+   "2 to 3 teaspoons finely grated fresh ginger",
+   "1 clove garlic, pressed or minced",
+   "½ teaspoon Dijon mustard",
+   "Pinch of red pepper flakes (optional, for spice)"
+  ],
+  "yield_text": "1/2 cup",
+  "cook_time": "PT10M",
+  "categories": [
+   "Salad dressing"
+  ],
+  "cuisines": [
+   "East Asian-inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/sesame-dressing-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

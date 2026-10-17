@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/healthy-breakfast-casserole-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Healthy Breakfast Casserole",
+  "ingredients": [
+   "1 tablespoon extra-virgin olive oil",
+   "2 medium red bell peppers, chopped (about 2 cups)",
+   "¾ cup thinly sliced green onion (about 1 small bunch)",
+   "5 ounces roughly chopped spinach (about 5 cups)",
+   "12 eggs",
+   "3 tablespoons full-fat dairy (heavy cream, half-and-half, whole milk, sour cream or yogurt)",
+   "Several dashes of your favorite hot sauce, like Cholula",
+   "½ teaspoon fine salt",
+   "10 twists of freshly ground black pepper",
+   "4 ounces (1 cup) crumbled feta or goat cheese"
+  ],
+  "yield_text": "8 servings",
+  "cook_time": "PT50M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/healthy-breakfast-casserole-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

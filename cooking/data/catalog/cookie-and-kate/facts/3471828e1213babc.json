@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/blender-oatmeal-pancakes-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Blender Oatmeal Pancakes",
+  "ingredients": [
+   "2 cups old-fashioned oats or quick-cooking oats",
+   "1 cup water",
+   "1 medium ripe banana (the riper, the better), sliced into 1-inch chunks",
+   "2 large eggs",
+   "2 tablespoons maple syrup",
+   "2 tablespoon melted butter, plus more for brushing the skillet if needed",
+   "2 ½ teaspoons baking powder",
+   "1 teaspoon vanilla extract",
+   "½ teaspoon ground cinnamon",
+   "½ teaspoon fine salt",
+   "Optional serving suggestions: Thinly sliced banana, maple syrup, almond butter or peanut butter"
+  ],
+  "yield_text": "12 pancakes",
+  "cook_time": "PT20M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/blender-oatmeal-pancakes-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

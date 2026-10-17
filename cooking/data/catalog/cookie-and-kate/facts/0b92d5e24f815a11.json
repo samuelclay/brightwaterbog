@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/the-very-best-brownies/",
+ "status": "parsed",
+ "facts": {
+  "title": "The Very Best Brownies.",
+  "ingredients": [
+   "10 tablespoons unsalted butter, cut into ½-inch slices",
+   "1 ¼ cups cane sugar",
+   "¾ cup natural unsweetened cocoa powder",
+   "½ teaspoon fine sea salt",
+   "¼ teaspoon baking powder",
+   "½ teaspoon espresso powder or very finely ground coffee (optional)",
+   "2 cold large eggs",
+   "1 ½ teaspoons vanilla extract",
+   "⅔ cup white whole wheat flour or flour of choice",
+   "2 ounces dark or semi-sweet chocolate, roughly chopped, or ⅓ cup chocolate chips"
+  ],
+  "yield_text": "16",
+  "cook_time": "PT40M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/the-very-best-brownies/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

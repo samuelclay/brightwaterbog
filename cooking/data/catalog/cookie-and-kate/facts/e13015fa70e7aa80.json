@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/lemon-rosemary-olive-oil-shortbread/",
+ "status": "parsed",
+ "facts": {
+  "title": "Lemon, Rosemary and Olive Oil Shortbread",
+  "ingredients": [
+   "3 cups white whole wheat flour",
+   "1 ¼ cups powdered sugar (yields sweet shortbread, scale back to 1 cup or just ¾ cup for less sweet/more savory cookies)",
+   "1 teaspoon fine salt",
+   "1 tablespoon chopped fresh rosemary",
+   "Zest of 2 lemons (preferably organic)",
+   "1 cup California Olive Ranch Everyday Extra Virgin Olive Oil"
+  ],
+  "yield_text": "32",
+  "cook_time": "PT55M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "Scottish"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/lemon-rosemary-olive-oil-shortbread/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

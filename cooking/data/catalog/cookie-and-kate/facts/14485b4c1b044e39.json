@@ -1,0 +1,36 @@
+{
+ "url": "https://cookieandkate.com/best-carrot-cake-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Favorite Carrot Cake",
+  "ingredients": [
+   "2 cups whole wheat pastry flour or all-purpose flour",
+   "1 ½ cups white whole wheat flour or regular whole wheat flour",
+   "1 tablespoon ground cinnamon",
+   "2 teaspoons ground ginger",
+   "2 teaspoons baking powder",
+   "1 ½ teaspoons fine sea salt",
+   "1 teaspoon baking soda",
+   "1 ½ pounds peeled and grated carrots* (about 4 cups)",
+   "1 cup raw pecan or walnut halves",
+   "¾ cup mild extra-virgin olive oil** or melted coconut oil",
+   "1 ¼ cups maple syrup or honey",
+   "1 cup milk of choice",
+   "4 eggs, preferably at room temperature",
+   "2 teaspoons vanilla extract",
+   "Double batch classic cream cheese frosting or naturally sweetened cream cheese frosting"
+  ],
+  "yield_text": "16 slices",
+  "cook_time": "PT1H20M",
+  "categories": [
+   "Cake"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-carrot-cake-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/pasta-alla-norma-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Pasta alla Norma",
+  "ingredients": [
+   "1 batch Super Simple Marinara Sauce, or 2 cups (16 ounces) store-bought marinara",
+   "2 medium eggplants (about 2 ¼ pounds total)",
+   "¼ cup + 1 teaspoon extra-virgin olive oil",
+   "¼ teaspoon fine salt, more to taste",
+   "8 ounces rigatoni, ziti or spaghetti",
+   "½ cup chopped fresh basil, plus a handful more small basil leaves or torn leaves for garnish",
+   "½ to 1 teaspoon red pepper flakes, to taste (optional)",
+   "½ teaspoon dried oregano",
+   "¾ cup (1.5 ounces) finely grated ricotta salata and/or Parmesan cheese"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT1H10M",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Sicilian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pasta-alla-norma-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

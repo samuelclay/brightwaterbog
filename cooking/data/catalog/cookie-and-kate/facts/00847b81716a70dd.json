@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/vegetarian-blt-sandwich-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Vegetarian \"BLT\" Sandwich with Halloumi",
+  "ingredients": [
+   "4 large or 6 medium slices of sourdough bread",
+   "2 medium-to-large ripe red tomatoes",
+   "Flaky sea salt or kosher salt",
+   "6 ounces halloumi cheese",
+   "¼ cup extra-virgin olive oil, for frying",
+   "Freshly ground black pepper",
+   "6 tablespoons mayonnaise, or as needed",
+   "6 tender green lettuce leaves"
+  ],
+  "yield_text": "2 to 3 sandwiches",
+  "cook_time": "PT30M",
+  "categories": [
+   "Sandwich"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/vegetarian-blt-sandwich-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

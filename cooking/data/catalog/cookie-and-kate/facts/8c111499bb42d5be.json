@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/hasselback-potatoes/",
+ "status": "parsed",
+ "facts": {
+  "title": "Hasselback Potatoes",
+  "ingredients": [
+   "4 to 6 medium Russet or yellow potatoes (7 to 9 ounces each)",
+   "1 stick (8 tablespoons) unsalted butter, at room temperature",
+   "2 medium cloves garlic, pressed or minced",
+   "¼ teaspoon fine salt",
+   "Flaky sea salt or kosher salt, for sprinkling",
+   "Optional toppings, such as sour cream, chives, salt and pepper"
+  ],
+  "yield_text": "4 to 6",
+  "cook_time": "PT1H30M",
+  "categories": [
+   "Side dish"
+  ],
+  "cuisines": [
+   "Swedish"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/hasselback-potatoes/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

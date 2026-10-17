@@ -1,0 +1,37 @@
+{
+ "url": "https://cookieandkate.com/greek-wedge-salad-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Greek Wedge Salad",
+  "ingredients": [
+   "2 heads of romaine",
+   "1 ½ cups halved or quartered cherry tomatoes, depending on their size",
+   "⅔ cup chopped seeded cucumber (about ½ medium garden cucumber)",
+   "⅔ cup chopped celery (about 2 ribs)",
+   "¼ cup pitted and halved Kalamata olives",
+   "1 shallot, very thinly sliced",
+   "1 tablespoon lemon juice",
+   "Pinch of salt",
+   "¼ cup extra-virgin olive oil",
+   "2 to 3 tablespoons lemon juice",
+   "2 tablespoons tahini",
+   "2 to 3 cloves garlic, pressed or minced",
+   "½ teaspoon fine-grain sea salt",
+   "Freshly ground black pepper, to taste",
+   "¼ cup crumbled feta cheese (optional)",
+   "¼ cup finely chopped fresh mint and/or basil"
+  ],
+  "yield_text": "4 salads",
+  "cook_time": "PT15M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Greek"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/greek-wedge-salad-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

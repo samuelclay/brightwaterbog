@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/classic-pico-de-gallo-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Classic Pico de Gallo",
+  "ingredients": [
+   "1 cup finely chopped white onion (about 1 small onion)",
+   "1 medium jalapeño or serrano pepper, ribs and seeds removed, finely chopped",
+   "¼ cup lime juice",
+   "¾ teaspoon fine sea salt, more to taste",
+   "1 ½ pounds ripe red tomatoes (about 8 small or 4 large), chopped",
+   "½ cup finely chopped fresh cilantro (about 1 bunch)"
+  ],
+  "yield_text": "4 cups",
+  "cook_time": "PT15M",
+  "categories": [
+   "Dip"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/classic-pico-de-gallo-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

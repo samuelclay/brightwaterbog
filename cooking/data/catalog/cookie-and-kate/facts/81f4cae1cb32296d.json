@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/spicy-quick-pickled-radishes/",
+ "status": "parsed",
+ "facts": {
+  "title": "Spicy Quick Pickled Radishes",
+  "ingredients": [
+   "1 bunch radishes",
+   "¾ cup white wine vinegar or apple cider vinegar",
+   "¾ cup water",
+   "3 tablespoons honey or maple syrup",
+   "2 teaspoons salt",
+   "1 teaspoon red pepper flakes (this yields very spicy pickles, so use ½ teaspoon for medium spicy pickles or none at all)",
+   "½ teaspoon whole mustard seeds (optional)",
+   "Optional add-ins: garlic cloves, black peppercorns, fennel seeds, coriander seeds"
+  ],
+  "yield_text": "1 1/4 cups",
+  "cook_time": "PT12M",
+  "categories": [
+   "Condiments"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/spicy-quick-pickled-radishes/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

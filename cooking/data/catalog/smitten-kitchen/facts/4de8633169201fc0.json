@@ -1,0 +1,36 @@
+{
+ "url": "https://smittenkitchen.com/2011/02/spaghetti-with-lemon-and-olive-oil-al-limone/",
+ "status": "parsed",
+ "facts": {
+  "title": "spaghetti with lemon and olive oil",
+  "ingredients": [
+   "1 pound spaghetti or linguine",
+   "Salt",
+   "3 lemons",
+   "1/4 cup extra virgin olive oil , plus additional for serving",
+   "1/4 cup heavy cream",
+   "1 ounce finely grated Parmesan cheese (about 1/2 cup), plus additional for serving",
+   "Ground black pepper",
+   "Small handful fresh basil or arugula leaves, shredded"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Citrus",
+   "Italian",
+   "Lemon",
+   "Pasta",
+   "Travel",
+   "Vegetarian",
+   "Winter"
+  ],
+  "cuisines": [
+   "Italian",
+   "Travel"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2011/02/spaghetti-with-lemon-and-olive-oil-al-limone/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/easy-tapenade-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Easy Tapenade",
+  "ingredients": [
+   "1 cup Castelvetrano olives, pitted*",
+   "½ cup Niçoise or Kalamata olives, pitted*",
+   "¼ cup lightly packed fresh flat-leaf parsley (thin stems are ok)",
+   "1 tablespoon drained capers",
+   "¼ cup extra virgin olive oil",
+   "2 medium cloves garlic, pressed or minced",
+   "1 tablespoon lemon juice"
+  ],
+  "yield_text": "1 1/2 cups",
+  "cook_time": "PT10M",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "French"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/easy-tapenade-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

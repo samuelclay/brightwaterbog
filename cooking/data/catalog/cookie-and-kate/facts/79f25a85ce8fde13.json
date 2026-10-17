@@ -1,0 +1,35 @@
+{
+ "url": "https://cookieandkate.com/palak-paneer/",
+ "status": "parsed",
+ "facts": {
+  "title": "Palak Paneer",
+  "ingredients": [
+   "16 ounces fresh or frozen spinach*",
+   "1-inch piece of fresh ginger, quartered lengthwise",
+   "4 cloves garlic, each cut into several segments",
+   "1 large green serrano chile or 1 medium jalapeno, ribs and seeds removed, cut into 1-inch pieces",
+   "1 large yellow or white onion, halved and cut into 1-inch chunks",
+   "1 teaspoon ground coriander",
+   "½ teaspoon ground cumin",
+   "½ teaspoon garam masala",
+   "¾ teaspoon fine salt, divided, to taste",
+   "8 to 12 ounces paneer (Indian cheese), depending on how cheesy you want your dish to be, cut into ¾-inch to 1-inch cubes",
+   "4 tablespoons extra-virgin olive oil or avocado oil, divided",
+   "½ cup whole-milk plain Greek yogurt or heavy cream",
+   "Optional squeeze of fresh lemon juice or finely chopped tomatoes for acidity",
+   "For serving: cooked basmati rice or flatbread (roti or naan), warmed"
+  ],
+  "yield_text": "4 bowls",
+  "cook_time": "PT45M",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Indian"
+  ],
+  "author": "Kathryne Taylor",
+  "url": "https://cookieandkate.com/palak-paneer/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

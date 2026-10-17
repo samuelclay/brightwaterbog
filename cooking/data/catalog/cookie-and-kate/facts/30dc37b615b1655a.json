@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/blueberry-frozen-yogurt/",
+ "status": "parsed",
+ "facts": {
+  "title": "Blueberry Frozen Yogurt",
+  "ingredients": [
+   "1 pint (2 ½ cups) blueberries, fresh or frozen",
+   "⅔ cup honey",
+   "1 small lemon, to be zested and juiced",
+   "¼ teaspoon salt",
+   "2 cups full fat yogurt, chilled"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "PT1H",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/blueberry-frozen-yogurt/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

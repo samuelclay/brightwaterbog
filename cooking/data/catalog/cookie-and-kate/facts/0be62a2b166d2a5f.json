@@ -1,0 +1,36 @@
+{
+ "url": "https://cookieandkate.com/best-veggie-burger-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Favorite Veggie Burgers",
+  "ingredients": [
+   "1 ½ pounds sweet potatoes (2 medium or 3 small)",
+   "½ cup quinoa, rinsed in a fine-mesh colander",
+   "1 cup water",
+   "1 can (15 ounces) black beans, rinsed and drained (or 1 ½ cups cooked black beans)",
+   "½ cup chopped red onion (about ½ small red onion)",
+   "⅓ cup chopped fresh cilantro",
+   "2 cloves garlic, pressed or minced",
+   "2 tablespoons adobo sauce* or 2 teaspoons smoked paprika",
+   "2 teaspoons ground cumin",
+   "1 teaspoon chili powder",
+   "½ teaspoon salt",
+   "1 ¼ cups quick-cooking oats** (use certified gluten-free oats if necessary)",
+   "Extra-virgin olive oil, for brushing (or avocado oil, if using stovetop method)",
+   "8 whole wheat hamburger buns (optional)",
+   "Your favorite burger fixings: Avocado or guacamole, tomato, onion, lettuce, pickles, cheese, sprouts, ketchup, hot sauce, mustard, fried eggs…"
+  ],
+  "yield_text": "8 burger patties",
+  "cook_time": "PT1H20M",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-veggie-burger-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

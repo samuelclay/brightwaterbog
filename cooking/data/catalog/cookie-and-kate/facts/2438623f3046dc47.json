@@ -1,0 +1,22 @@
+{
+ "url": "https://cookieandkate.com/kombucha-moscow-mules/",
+ "status": "parsed",
+ "facts": {
+  "title": "Kombucha Moscow Mules",
+  "ingredients": [
+   "1 part vodka",
+   "3 parts kombucha (ginger or gingerberry)",
+   "½ lime, juiced"
+  ],
+  "yield_text": "1",
+  "cook_time": "PT2M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/kombucha-moscow-mules/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/gluten-free-apple-tart-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Gluten-Free Apple Tart",
+  "ingredients": [
+   "1 cup (135 grams) firmly packed almond flour",
+   "1 cup (90 grams) oat flour* (certified gluten-free if necessary)",
+   "¼ teaspoon salt",
+   "¼ cup melted butter or coconut oil",
+   "3 tablespoons maple syrup",
+   "2 large Honeycrisp or 3 medium Granny Smith apples (about 1 ¼ pounds)",
+   "3 tablespoons maple syrup, divided",
+   "1 tablespoon lemon juice",
+   "¼ teaspoon ground cinnamon, plus more for dusting if you’d like"
+  ],
+  "yield_text": "1 tart",
+  "cook_time": "PT1H5M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "Gluten free"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/gluten-free-apple-tart-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

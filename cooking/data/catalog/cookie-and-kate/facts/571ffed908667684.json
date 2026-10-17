@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/grilled-pizza-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "How to Grill Pizza",
+  "ingredients": [
+   "1 batch easy whole wheat pizza dough or 1 pound store-bought pizza dough",
+   "1 cup pizza sauce or pesto",
+   "8 ounces (2 cups) freshly grated low-moisture part-skim mozzarella cheese or goat cheese, crumbled",
+   "Toppings of your choice*"
+  ],
+  "yield_text": "2 pizzas",
+  "cook_time": "PT45M",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/grilled-pizza-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

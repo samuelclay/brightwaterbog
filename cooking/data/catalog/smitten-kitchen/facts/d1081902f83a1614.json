@@ -1,0 +1,28 @@
+{
+ "url": "https://smittenkitchen.com/2007/01/a-monday-kind-of-salad/",
+ "status": "parsed",
+ "facts": {
+  "title": "sweet and spicy candied pecans",
+  "ingredients": [
+   "Nonstick vegetable oil spray",
+   "3 tablespoons light corn syrup",
+   "1 1/2 tablespoons sugar",
+   "3/4 teaspoon salt",
+   "1/4 teaspoon (generous) freshly ground black pepper",
+   "1/8 teaspoon cayenne pepper",
+   "1 1/2 cups pecan pieces"
+  ],
+  "yield_text": "Makes 1 1/2 cups.",
+  "cook_time": null,
+  "categories": [
+   "Gluten-Free",
+   "Salad",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2007/01/a-monday-kind-of-salad/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

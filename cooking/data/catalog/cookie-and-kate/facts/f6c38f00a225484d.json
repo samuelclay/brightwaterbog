@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/veggie-breakfast-sandwich-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Veggie Breakfast Sandwich",
+  "ingredients": [
+   "1 whole wheat English muffin, sliced in half and toasted (or two fairly small slices of bread, toasted)",
+   "2 teaspoons mayonnaise",
+   "½ ripe avocado, mashed",
+   "Salt and freshly ground black pepper",
+   "1 large egg",
+   "½ teaspoon water",
+   "1 teaspoon butter or olive oil",
+   "2 small slices of cheddar or Monterey Jack cheese (about ½ ounce, any other melty cheese will do)",
+   "1 slice of ripe red tomato, if tomatoes are in season (optional)",
+   "Thinly sliced red onion",
+   "Several dashes of hot sauce (like Tabasco or Cholula)",
+   "Small handful arugula or sprouts"
+  ],
+  "yield_text": "1",
+  "cook_time": "PT15M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Vegetarian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/veggie-breakfast-sandwich-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

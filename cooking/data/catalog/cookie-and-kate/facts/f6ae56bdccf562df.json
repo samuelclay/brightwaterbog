@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/baked-sweet-potato-fries/",
+ "status": "parsed",
+ "facts": {
+  "title": "Crispy Baked Sweet Potato Fries",
+  "ingredients": [
+   "2 pounds sweet potatoes (about 2 medium-large or 3 medium)",
+   "1 tablespoon cornstarch",
+   "½ teaspoon fine sea salt",
+   "2 tablespoons extra-virgin olive oil",
+   "Optional spices: freshly ground black pepper, cayenne pepper and/or garlic powder"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT45M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/baked-sweet-potato-fries/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/whole-wheat-pancakes-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Whole Wheat Pancakes",
+  "ingredients": [
+   "1 cup milk of choice",
+   "1 tablespoon apple cider vinegar or distilled white vinegar",
+   "1 cup white whole wheat flour or regular whole wheat flour",
+   "1 ½ teaspoons baking powder",
+   "½ teaspoon baking soda",
+   "¼ teaspoon salt",
+   "¼ teaspoon ground cinnamon",
+   "1 egg",
+   "2 tablespoons unsalted butter, melted",
+   "2 tablespoons maple syrup or honey",
+   "1 teaspoon pure vanilla extract"
+  ],
+  "yield_text": "6 pancakes",
+  "cook_time": "PT30M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/whole-wheat-pancakes-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

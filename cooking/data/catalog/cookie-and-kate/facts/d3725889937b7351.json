@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/vegan-white-russian-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Dairy-Free White Russian",
+  "ingredients": [
+   "1 cup raw cashews",
+   "2 cups water, divided (plus more for soaking)",
+   "1 to 2 tablespoons maple syrup, to taste",
+   "2 teaspoons vanilla extract",
+   "1 ounce vodka",
+   "1 ounce Kahlua (rum and coffee liqueur)",
+   "2 ounces cashew cream"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT10M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "Vegan"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/vegan-white-russian-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

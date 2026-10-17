@@ -1,0 +1,27 @@
+{
+ "url": "https://smittenkitchen.com/2009/04/simple-potato-gratin/",
+ "status": "parsed",
+ "facts": {
+  "title": "simple potato gratin",
+  "ingredients": [
+   "3 tablespoons butter, cut into pieces, plus an additional pat for buttering gratin dish",
+   "4 large yellow potatoes* (about 1 1/2 pounds), peeled",
+   "Salt and freshly ground black pepper",
+   "1 cup milk, half-and-half or cream",
+   "2 ounces cheese, grated or crumbled (Parmesan or Gruyere are the classics, but that doesn’t mean that goat cheese, blue cheese or any of your favorites won’t work as well) [optional]"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Potatoes",
+   "Side Dish",
+   "Thanksgiving",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2009/04/simple-potato-gratin/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/tomato-chickpea-pasta-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Tomato & Chickpea Pasta with Goat Cheese",
+  "ingredients": [
+   "8 ounces short-cut pasta noodles",
+   "One 4 to 5 ounce log of goat cheese",
+   "4 medium cloves garlic, peeled but left whole",
+   "1 can (15 ounces) chickpeas, rinsed and drained, or 1 ½ cups cooked chickpeas",
+   "2 pints (4 cups) cherry tomatoes – smaller tomatoes are better!",
+   "½ cup Kalamata olives, pitted and roughly chopped (optional)",
+   "⅓ cup extra-virgin olive oil",
+   "Salt, to taste",
+   "Freshly ground black pepper, to taste",
+   "Pinch of red pepper flakes (optional, for heat)",
+   "⅓ cup thinly sliced fresh basil"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "PT45M",
+  "categories": [
+   "Pasta"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/tomato-chickpea-pasta-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

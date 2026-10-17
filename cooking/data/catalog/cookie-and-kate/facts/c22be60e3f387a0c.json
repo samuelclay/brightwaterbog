@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/ruby-red-grapefruit-and-rosemary-honey-cocktail/",
+ "status": "parsed",
+ "facts": {
+  "title": "Ruby Red and Rosemary Honey Cocktail",
+  "ingredients": [
+   "¼ cup honey",
+   "¼ cup water",
+   "2 ounces fresh ruby red grapefruit juice (1 grapefruit yields 6 to 8 ounces of juice)",
+   "1 ½ ounces vodka or gin",
+   "½ small lemon, juiced",
+   "¼ to ½ ounce honey simple syrup",
+   "2-inch sprig of rosemary",
+   "Tiny dash of sea salt (trust me)",
+   "2 to 3-inch sprig of rosemary"
+  ],
+  "yield_text": "1",
+  "cook_time": "PT10M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/ruby-red-grapefruit-and-rosemary-honey-cocktail/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

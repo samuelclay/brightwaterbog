@@ -1,0 +1,34 @@
+{
+ "url": "https://smittenkitchen.com/2007/05/zucchini-carpaccio-salad/",
+ "status": "parsed",
+ "facts": {
+  "title": "zucchini carpaccio salad",
+  "ingredients": [
+   "1 1/2 pound zucchini (about 3 large) or a mix of thin summer squash",
+   "1 1/4 teaspoons kosher salt",
+   "1/2 pound arugula, stems discarded and leaves cut into 1/2-inch-wide strips (6 cups), or baby arugula",
+   "1 ounce parmesan, coarsely grated (on large holes of a box grater; about 1/2 cup) or shaved with a vegetable peeler",
+   "3 tablespoons olive oil",
+   "Juice of one lemon",
+   "1/4 teaspoon freshly ground black pepper"
+  ],
+  "yield_text": "4 as a main, 6 as a side",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Budget",
+   "Gluten-Free",
+   "Italian",
+   "Salad",
+   "Summer",
+   "Vegetarian",
+   "Zucchini"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2007/05/zucchini-carpaccio-salad/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

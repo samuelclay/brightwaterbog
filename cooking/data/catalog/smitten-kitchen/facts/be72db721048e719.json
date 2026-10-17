@@ -1,0 +1,36 @@
+{
+ "url": "https://smittenkitchen.com/2014/10/cauliflower-cheese/",
+ "status": "parsed",
+ "facts": {
+  "title": "cauliflower cheese",
+  "ingredients": [
+   "1 medium head (about 2 to 2 1/4 pounds) cauliflower",
+   "4 tablespoons (55 grams or 2 ounces) unsalted butter",
+   "4 tablespoons (30 grams or 1 ounce) all-purpose flour",
+   "2 teaspoons mustard powder",
+   "Salt, to taste",
+   "Freshly ground black pepper or ground cayenne",
+   "2 cups (475 ml) milk, whole is best but low-fat will probably work just fine",
+   "1 1/4 cups plus 2 tablespoons (about 155 grams or 5 1/2 ounces total) grated cheddar, the strongest you can get, preferably English or Irish",
+   "Chopped chives or flat-leaf parsley, for garnish (optional)"
+  ],
+  "yield_text": "Serves 4 as a side",
+  "cook_time": null,
+  "categories": [
+   "British",
+   "Cauliflower",
+   "Dinner",
+   "Side Dish",
+   "Thanksgiving",
+   "Vegetarian",
+   "Weeknight Favorite"
+  ],
+  "cuisines": [
+   "British"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2014/10/cauliflower-cheese/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

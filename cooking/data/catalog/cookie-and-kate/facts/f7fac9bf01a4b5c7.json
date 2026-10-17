@@ -1,0 +1,35 @@
+{
+ "url": "https://cookieandkate.com/vegan-banana-nut-scones/",
+ "status": "parsed",
+ "facts": {
+  "title": "Vegan Banana Nut Scones",
+  "ingredients": [
+   "1 cup raw pecans or walnuts",
+   "2 cups white whole wheat flour or regular whole wheat flour",
+   "1 tablespoon baking powder",
+   "1 teaspoon cinnamon",
+   "½ teaspoon ground ginger",
+   "½ teaspoon salt",
+   "⅓ cup solid coconut oil or 5 tablespoons cold butter",
+   "¾ cup mashed ripe banana (about 2 medium bananas)",
+   "¼ cup milk of choice (almond milk, etc.)",
+   "2 tablespoons maple syrup or honey",
+   "½ teaspoon vanilla extract",
+   "1 cup powdered sugar*",
+   "⅛ teaspoon fine salt",
+   "1 tablespoon melted coconut oil or butter",
+   "½ teaspoon vanilla",
+   "¼ cup maple syrup, add more if needed"
+  ],
+  "yield_text": "8",
+  "cook_time": "PT30M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/vegan-banana-nut-scones/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

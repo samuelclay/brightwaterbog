@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/tomato-and-goat-cheese-toast/",
+ "status": "parsed",
+ "facts": {
+  "title": "Tomato and Goat Cheese Toast",
+  "ingredients": [
+   "Whole wheat bread, preferably sliced thick",
+   "Goat cheese",
+   "Tomato",
+   "Olive oil",
+   "One clove of fresh garlic, finely minced or use a garlic press",
+   "Sea salt and black pepper (optional)"
+  ],
+  "yield_text": "1",
+  "cook_time": "PT10M",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/tomato-and-goat-cheese-toast/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,48 @@
+{
+ "url": "https://smittenkitchen.com/2007/01/artichoke-gaga/",
+ "status": "parsed",
+ "facts": {
+  "title": "artichoke ravioli with tomatoes",
+  "ingredients": [
+   "For pasta",
+   "1 1/2 cups all-purpose flour",
+   "2 large eggs",
+   "1/2 teaspoon salt",
+   "2 tablespoons water",
+   "For filling",
+   "2 tablespoons unsalted butter, cut into pieces",
+   "1 small onion, chopped (1/2 cup)",
+   "1 (10-oz) box frozen artichoke hearts, thawed and patted dry",
+   "1 oz finely grated Parmigiano-Reggiano (1/2 cup)",
+   "1/3 cup chopped fresh flat-leaf parsley",
+   "1 large egg yolk",
+   "1/2 teaspoon fresh lemon juice",
+   "1/4 teaspoon salt",
+   "1/4 teaspoon black pepper",
+   "3/4 teaspoon freshly grated nutmeg",
+   "1 large egg white, lightly beaten with 2 teaspoons water (for egg wash)",
+   "For assembly",
+   "1 tablespoon unsalted butter, cut into pieces",
+   "3 medium plum tomatoes, trimmed and cut into 1/4-inch dice (3/4 cup)",
+   "1/4 cup water",
+   "1/3 cup heavy cream",
+   "1 oz finely grated Parmigiano-Reggiano (1/2 cup)",
+   "1/4 teaspoon salt",
+   "1/4 teaspoon black pepper"
+  ],
+  "yield_text": "Makes 4 servings.",
+  "cook_time": null,
+  "categories": [
+   "Artichokes",
+   "Pasta",
+   "Spring",
+   "Tomatoes",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2007/01/artichoke-gaga/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

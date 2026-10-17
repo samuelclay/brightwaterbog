@@ -1,0 +1,34 @@
+{
+ "url": "https://cookieandkate.com/the-little-green-salad/",
+ "status": "parsed",
+ "facts": {
+  "title": "The Little Green Salad",
+  "ingredients": [
+   "5 ounces arugula or leafy greens",
+   "½ cup small nuts or seeds (pine nuts, sunflower seeds, sliced almonds or chopped pecans)",
+   "½ cup freshly grated Parmesan cheese or aged cheddar, like Kerrygold",
+   "3 tablespoons extra-virgin olive oil",
+   "3 tablespoons lemon juice (from about 2 lemons)",
+   "1 tablespoon Dijon mustard",
+   "½ tablespoon honey or maple syrup, to taste",
+   "1 medium clove garlic, pressed or minced",
+   "⅛ teaspoon fine salt",
+   "Freshly ground black pepper, to taste",
+   "Sliced cherry tomatoes, avocado and sunflower seeds",
+   "Thinly sliced cucumbers, radishes and almonds",
+   "Thinly sliced fennel and pine nuts",
+   "Raspberries, blackberries, or sliced strawberries and almonds",
+   "Thinly sliced apple or pear, dried cranberries and toasted chopped pecans"
+  ],
+  "yield_text": "6 side salads",
+  "cook_time": "PT15M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/the-little-green-salad/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

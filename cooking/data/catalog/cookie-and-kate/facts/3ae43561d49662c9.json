@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/best-guacamole-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Best Guacamole",
+  "ingredients": [
+   "4 medium ripe avocados, halved and pitted",
+   "½ cup finely chopped white onion (about ½ small onion)",
+   "¼ cup finely chopped fresh cilantro",
+   "1 small jalapeño, seeds and ribs removed, finely chopped",
+   "3 tablespoons lime juice (from about 1 ½ limes), or more if needed",
+   "¼ teaspoon ground coriander",
+   "1 teaspoon kosher salt, more to taste"
+  ],
+  "yield_text": "2 1/2 cups guacamole",
+  "cook_time": "PT15M",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-guacamole-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

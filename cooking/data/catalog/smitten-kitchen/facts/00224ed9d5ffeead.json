@@ -1,0 +1,40 @@
+{
+ "url": "https://smittenkitchen.com/2010/02/ginger-fried-rice/",
+ "status": "parsed",
+ "facts": {
+  "title": "ginger fried rice",
+  "ingredients": [
+   "1/2 cup peanut oil",
+   "2 tablespoons minced garlic",
+   "2 tablespoons minced ginger",
+   "Salt",
+   "2 cups thinly sliced leeks, white and light green parts only, rinsed and dried",
+   "4 cups day-old cooked rice; Vongerichten recommends jasmine but this is the perfect way to use up any leftover rice you have, especially from Chinese delivery",
+   "4 large eggs",
+   "2 teaspoons sesame oil (for some heat but the same awesome flavor, use hot sesame oil)",
+   "4 teaspoons soy sauce"
+  ],
+  "yield_text": "Serves 4",
+  "cook_time": null,
+  "categories": [
+   "Budget",
+   "Chinese",
+   "Dinner",
+   "Eggs",
+   "Grain/Rice",
+   "Kid Favorites",
+   "Leeks",
+   "Pantry",
+   "Put An Egg On It",
+   "Vegetarian",
+   "Weeknight Favorite"
+  ],
+  "cuisines": [
+   "Chinese"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2010/02/ginger-fried-rice/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

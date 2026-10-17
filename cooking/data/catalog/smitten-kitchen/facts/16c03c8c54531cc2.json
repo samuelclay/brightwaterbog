@@ -1,0 +1,26 @@
+{
+ "url": "https://smittenkitchen.com/2017/03/easiest-french-fries/",
+ "status": "parsed",
+ "facts": {
+  "title": "easiest french fries",
+  "ingredients": [
+   "2 1/2 pounds (1 1/8 kg) Yukon Gold potatoes (about 6 medium)",
+   "6 cups (1.4 liters) peanut oil",
+   "Fine sea or table salt"
+  ],
+  "yield_text": "4, generously",
+  "cook_time": "45 minutes, with prep",
+  "categories": [
+   "5 Ingredients or Fewer",
+   "Best of Smitten Kitchen",
+   "Potatoes",
+   "Side Dish",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2017/03/easiest-french-fries/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

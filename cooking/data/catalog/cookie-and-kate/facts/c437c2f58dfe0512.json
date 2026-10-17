@@ -1,0 +1,36 @@
+{
+ "url": "https://cookieandkate.com/broccoli-chickpea-pita-sandwiches/",
+ "status": "parsed",
+ "facts": {
+  "title": "Lemony Broccoli, Chickpea & Avocado Pita Sandwiches",
+  "ingredients": [
+   "1 bunch of broccoli, florets removed and sliced thin",
+   "1 can (15 ounces) chickpeas, rinsed and drained, or 1 ½ cups cooked chickpeas",
+   "⅓ cup oil-packed sun-dried tomatoes, rinsed and chopped",
+   "⅓ cup finely chopped red onion",
+   "⅓ cup crumbled feta cheese or thinly sliced Kalamata olives",
+   "¼ cup olive oil",
+   "2 tablespoons lemon juice, to taste",
+   "1 ½ teaspoons Dijon mustard",
+   "1 ½ teaspoons honey or maple syrup, to taste",
+   "1 clove garlic, pressed or minced",
+   "¼ teaspoon salt, to taste",
+   "Pinch red pepper flakes",
+   "2 medium avocados, or about ¾ cup of your favorite hummus",
+   "Salt, to taste",
+   "4 whole grain pita breads, or 4 large, thick slices of hearty whole grain bread"
+  ],
+  "yield_text": "4 sandwiches",
+  "cook_time": "PT25M",
+  "categories": [
+   "Sandwich"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/broccoli-chickpea-pita-sandwiches/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

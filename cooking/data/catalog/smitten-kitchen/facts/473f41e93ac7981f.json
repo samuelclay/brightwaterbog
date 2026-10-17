@@ -1,0 +1,28 @@
+{
+ "url": "https://smittenkitchen.com/2008/04/fork-crushed-purple-potatoes/",
+ "status": "parsed",
+ "facts": {
+  "title": "fork-crushed purple potatoes",
+  "ingredients": [
+   "1 pound Purple Majesty or other purple potatoes, washed",
+   "4 small shallots, minced",
+   "2 tablespoons fresh-squeezed lemon juice",
+   "6 tablespoons good extra-virgin olive oil",
+   "Fleur de sel to taste",
+   "White pepper to taste",
+   "2 tablespoons parsley, chopped"
+  ],
+  "yield_text": "Serves 4",
+  "cook_time": null,
+  "categories": [
+   "Potatoes",
+   "Spring",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2008/04/fork-crushed-purple-potatoes/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/citrus-olive-oil-cake-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Citrus Olive Oil Cake",
+  "ingredients": [
+   "1 ½ cups white whole wheat flour or regular whole wheat flour",
+   "2 teaspoons baking powder",
+   "¼ teaspoon salt",
+   "2 teaspoons citrus zest",
+   "¼ cup fresh citrus juice",
+   "1 cup sugar",
+   "¾ cup plain whole-milk yogurt",
+   "3 eggs",
+   "½ teaspoon pure vanilla extract",
+   "½ cup extra-virgin olive oil",
+   "⅓ cup powdered sugar (here’s how to make your own)",
+   "2 to 3 teaspoons fresh citrus juice"
+  ],
+  "yield_text": "1 cake",
+  "cook_time": "PT1H10M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/citrus-olive-oil-cake-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

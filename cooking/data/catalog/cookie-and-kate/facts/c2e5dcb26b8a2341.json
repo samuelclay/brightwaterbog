@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/marinated-chickpeas-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Jessica's Marinated Chickpeas",
+  "ingredients": [
+   "2 cans (15 ounces each) chickpeas, rinsed and drained, or 3 cups cooked chickpeas",
+   "⅔ cup chopped roasted red peppers",
+   "⅔ cup crumbled feta cheese",
+   "½ cup chopped fresh basil",
+   "⅓ cup olive oil",
+   "¼ cup red wine vinegar",
+   "1 tablespoon + 1 teaspoon honey",
+   "4 medium cloves garlic, pressed or minced",
+   "½ teaspoon dried oregano",
+   "½ teaspoon salt",
+   "½ teaspoon freshly ground black pepper",
+   "½ teaspoon red pepper flakes (scale back significantly if sensitive to spice)"
+  ],
+  "yield_text": "6 side servings",
+  "cook_time": "PT15M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/marinated-chickpeas-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

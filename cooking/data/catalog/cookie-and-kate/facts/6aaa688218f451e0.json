@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/lemon-curd-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Honey Lemon Curd",
+  "ingredients": [
+   "4 tablespoons unsalted butter, diced into ½” cubes",
+   "⅓ cup honey",
+   "4 large egg yolks",
+   "2 large eggs",
+   "1 tablespoon finely grated lemon zest",
+   "⅔ cup fresh lemon juice (from around 4 large or 8 small lemons)"
+  ],
+  "yield_text": "2 cups",
+  "cook_time": "PT25M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/lemon-curd-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/tomato-jam-and-mozzarella-panini/",
+ "status": "parsed",
+ "facts": {
+  "title": "Tomato Jam and Mozzarella Panini",
+  "ingredients": [
+   "2 pints (about 1 ½ pounds or 4 cups) cherry tomatoes, grape tomatoes or Sungold tomatoes, halved crosswise",
+   "2 tablespoons honey or sugar",
+   "2 tablespoons apple cider vinegar",
+   "¼ teaspoon salt",
+   "Several twists freshly ground black pepper",
+   "8 slices whole grain sourdough bread",
+   "2 cups grated low-moisture part-skim mozzarella",
+   "1 cup grated Parmesan cheese",
+   "Tomato jam",
+   "4 to 6 fresh basil leaves, torn into small pieces",
+   "Olive oil or butter, for frying"
+  ],
+  "yield_text": "4 sandwiches",
+  "cook_time": "PT50M",
+  "categories": [
+   "Sandwich"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/tomato-jam-and-mozzarella-panini/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/herbed-quinoa-and-pomegranate-salad/",
+ "status": "parsed",
+ "facts": {
+  "title": "Herbed Quinoa and Pomegranate Salad",
+  "ingredients": [
+   "1 cup quinoa",
+   "⅓ cup slivered almonds",
+   "⅓ cup chopped fresh mint leaves",
+   "⅓ cup chopped fresh parsley leaves",
+   "⅓ cup fresh pomegranate arils",
+   "⅓ cup dried cranberries or raisins",
+   "⅓ cup thinly sliced Kalamata olives (and/or ⅓ cup crumbled goat cheese or feta)",
+   "¼ cup olive oil",
+   "¼ cup fresh lemon juice (about two medium lemons, juiced)",
+   "¼ teaspoon salt",
+   "¼ teaspoon ground cinnamon",
+   "Several twists of freshly ground black pepper"
+  ],
+  "yield_text": "4 to 8 servings",
+  "cook_time": "PT40M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/herbed-quinoa-and-pomegranate-salad/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

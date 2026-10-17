@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/gluten-free-banana-bread-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Gluten-Free Banana Bread (Made with Almond Flour)",
+  "ingredients": [
+   "¼ cup melted coconut oil or extra-virgin olive oil or high-quality vegetable oil",
+   "½ cup honey or maple syrup",
+   "4 large eggs",
+   "1 cup mashed ripe bananas (about 2 ½ medium or 2 large bananas)",
+   "1 teaspoon baking powder",
+   "1 teaspoon vanilla extract",
+   "½ teaspoon baking soda",
+   "½ teaspoon ground cinnamon",
+   "½ teaspoon fine sea salt",
+   "2 ½ cups (230 grams) almond flour, spooned and leveled"
+  ],
+  "yield_text": "1 loaf",
+  "cook_time": "PT1H15M",
+  "categories": [
+   "Baked Good"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/gluten-free-banana-bread-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

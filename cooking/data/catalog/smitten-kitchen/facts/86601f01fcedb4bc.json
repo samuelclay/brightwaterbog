@@ -1,0 +1,36 @@
+{
+ "url": "https://smittenkitchen.com/2007/03/goodbye-little-white-containers/",
+ "status": "parsed",
+ "facts": {
+  "title": "bulgur salad with chickpeas and red peppers",
+  "ingredients": [
+   "1 1/2 cups fine-grain bulgur",
+   "3 cups boiling water",
+   "3 tablespoons fresh lemon juice",
+   "1 teaspoon honey",
+   "1 teaspoon ground cumin",
+   "1/4 to 1/2 teaspoon cayenne pepper",
+   "Salt",
+   "1/4 cup extra-virgin olive oil",
+   "1 can chickpeas, rinsed and drained",
+   "6 ounces drained jarred roasted red peppers, diced (about 1 cup)",
+   "1/2 cup quartered yellow cherry tomatoes",
+   "1 small red onion, finely chopped",
+   "1/4 cup minced fresh parsley leaves",
+   "1 medium head Bibb lettuce, leaves separated",
+   "4 pita breads, warmed and cut into wedges"
+  ],
+  "yield_text": "Serves 4 as a main course.",
+  "cook_time": null,
+  "categories": [
+   "Beans",
+   "Grain/Rice",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2007/03/goodbye-little-white-containers/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

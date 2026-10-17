@@ -1,0 +1,35 @@
+{
+ "url": "https://smittenkitchen.com/2022/04/simplest-mushroom-pasta/",
+ "status": "parsed",
+ "facts": {
+  "title": "simplest mushroom pasta",
+  "ingredients": [
+   "Kosher salt",
+   "1 pound dried pasta, any shape you like",
+   "2 tablespoons olive oil",
+   "2 tablespoons salted or unsalted butter",
+   "1 pound fresh cremini mushrooms, sliced thin (see note)",
+   "4 medium garlic cloves, minced",
+   "Freshly ground black pepper",
+   "Glug of dry marsala or white wine (optional)",
+   "1/3 cup crème fraîche or mascarpone, or heavy cream",
+   "Handful chopped chives or parsley, to finish (optional)",
+   "Grated parmesan or pecorino"
+  ],
+  "yield_text": "4",
+  "cook_time": "20 minutes",
+  "categories": [
+   "Budget",
+   "Dinner",
+   "Mushrooms",
+   "Pasta",
+   "Vegetarian",
+   "Weeknight Favorite"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2022/04/simplest-mushroom-pasta/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://smittenkitchen.com/2015/06/crispy-frizzled-artichokes/",
+ "status": "parsed",
+ "facts": {
+  "title": "crispy frizzled artichokes",
+  "ingredients": [
+   "Baby or large artichokes, as many as you wish to prep and eat",
+   "1 to 2 lemons, halved (1 should be fine for smaller amounts)",
+   "Olive oil",
+   "Coarse salt",
+   "Chopped flat-leaf parsley (for garnish, optional)"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Artichokes",
+   "Gluten-Free",
+   "Grilling",
+   "Italian",
+   "Party Snacks",
+   "Summer",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2015/06/crispy-frizzled-artichokes/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

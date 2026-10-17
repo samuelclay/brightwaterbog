@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/quinoa-tabbouleh/",
+ "status": "parsed",
+ "facts": {
+  "title": "Quinoa Tabbouleh",
+  "ingredients": [
+   "½ cup quinoa",
+   "1 cup water",
+   "1 cup diced cucumber (1 small-to-medium)",
+   "1 cup diced tomato* (1 large)",
+   "1 teaspoon fine sea salt, divided",
+   "3 medium bunches curly parsley",
+   "⅓ cup (⅔ ounce) chopped fresh mint",
+   "⅓ cup thinly sliced green onion",
+   "⅓ cup extra-virgin olive oil",
+   "3 to 4 tablespoons lemon juice, to taste",
+   "1 medium clove garlic, pressed or minced",
+   "Optional additions: 1 can chickpeas, drained and rinsed, and/or up to 4 ounces crumbled feta cheese"
+  ],
+  "yield_text": "6",
+  "cook_time": "PT30M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Lebanese-inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/quinoa-tabbouleh/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

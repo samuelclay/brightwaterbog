@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/spiced-apple-margaritas/",
+ "status": "parsed",
+ "facts": {
+  "title": "Spiced Apple Margaritas",
+  "ingredients": [
+   "2 ounces reposado tequila",
+   "1 ½ to 2 ounces apple juice or cider, preferably organic",
+   "¾ ounce fresh lime juice (about 1 medium lime, juiced)",
+   "1 teaspoon honey simple syrup (recipe below) or ¾ teaspoon agave nectar",
+   "Dash ground cinnamon",
+   "¼ cup honey",
+   "¼ cup water",
+   "1 teaspoon sugar",
+   "1 teaspoon kosher salt or sea salt",
+   "½ teaspoon ground cinnamon",
+   "Lime wedges",
+   "Optional garnish: 1 star of anise per drink"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT10M",
+  "categories": [
+   "Cocktails"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/spiced-apple-margaritas/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

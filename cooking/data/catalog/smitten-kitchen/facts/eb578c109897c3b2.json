@@ -1,0 +1,31 @@
+{
+ "url": "https://smittenkitchen.com/2007/08/bean-symphony/",
+ "status": "parsed",
+ "facts": {
+  "title": "mixed bean salad",
+  "ingredients": [
+   "2 medium tomatoes",
+   "1/2 pound yellow wax beans, ends trimmed and beans halved crosswise",
+   "1/2 pound haricot vert, or slim green beans, ends trimmed and beans halved crosswise",
+   "2 to 3 tablespoons olive oil",
+   "2 cloves garlic, minced",
+   "Pinch of red pepper flakes",
+   "Glug of white wine",
+   "Salt and pepper",
+   "Juice of one lemon"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Green Beans",
+   "Salad",
+   "Summer",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2007/08/bean-symphony/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

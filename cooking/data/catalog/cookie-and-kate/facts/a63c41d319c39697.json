@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/french-toast-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Foolproof French Toast",
+  "ingredients": [
+   "1 medium loaf of bread* (about 16 ounces, see step 1)",
+   "1 ½ cups whole milk**",
+   "3 egg yolks",
+   "2 tablespoons unsalted butter, melted",
+   "2 tablespoons maple syrup or brown sugar",
+   "1 tablespoon vanilla extract",
+   "1 teaspoon ground cinnamon",
+   "¼ teaspoon fine salt",
+   "For serving: Maple syrup, butter, fresh berries or berry compote, whipped cream or Greek yogurt, sprinkle of powdered sugar…"
+  ],
+  "yield_text": "8 to 12 slices",
+  "cook_time": "PT35M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "French"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/french-toast-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

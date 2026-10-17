@@ -1,0 +1,35 @@
+{
+ "url": "https://cookieandkate.com/creamy-vegan-pumpkin-soup/",
+ "status": "parsed",
+ "facts": {
+  "title": "Creamy Roasted Pumpkin Soup",
+  "ingredients": [
+   "4 tablespoons olive oil, divided",
+   "One 4-pound sugar pie pumpkin",
+   "1 large yellow onion, chopped",
+   "4 large or 6 medium garlic cloves, pressed or minced",
+   "½ teaspoon sea salt",
+   "½ teaspoon ground cinnamon",
+   "½ teaspoon ground nutmeg",
+   "⅛ teaspoon cloves",
+   "Tiny dash of cayenne pepper",
+   "Freshly ground black pepper",
+   "4 cups (32 ounces) vegetable broth",
+   "½ cup full fat coconut milk or heavy cream",
+   "2 tablespoons maple syrup or honey",
+   "¼ cup pepitas (green pumpkin seeds)"
+  ],
+  "yield_text": "4 to 6 bowls",
+  "cook_time": "PT1H25M",
+  "categories": [
+   "Soup"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/creamy-vegan-pumpkin-soup/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,35 @@
+{
+ "url": "https://smittenkitchen.com/2016/04/potato-pizza-even-better/",
+ "status": "parsed",
+ "facts": {
+  "title": "potato pizza, even better",
+  "ingredients": [
+   "4 teaspoons fine sea or table salt",
+   "6 to 8 (1 kilo) small to medium Yukon Gold potatoes, peeled",
+   "1 medium yellow onion, diced",
+   "1/2 teaspoon freshly ground black pepper",
+   "4 to 5 tablespoons olive oil",
+   "About 1 tablespoon fresh rosemary leaves"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "5 Ingredients or Fewer",
+   "Best of Smitten Kitchen",
+   "Dairy-Free",
+   "Dinner",
+   "Egg-Free",
+   "Kid Favorites",
+   "Pizza",
+   "Potatoes",
+   "Vegan",
+   "Vegetarian",
+   "Weeknight Favorite"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2016/04/potato-pizza-even-better/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

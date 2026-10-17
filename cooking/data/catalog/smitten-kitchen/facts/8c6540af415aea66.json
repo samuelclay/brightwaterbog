@@ -1,0 +1,33 @@
+{
+ "url": "https://smittenkitchen.com/2017/02/guacamole/",
+ "status": "parsed",
+ "facts": {
+  "title": "guacamole",
+  "ingredients": [
+   "2 tablespoons minced white onion (from about 1/8 large one)",
+   "1 1/2 tablespoons minced, seeded jalapeño (from about half a medium one)",
+   "2 tablespoons cilantro leaves, minced, plus more to taste",
+   "Juice of half a lime",
+   "1/4 teaspoon coarse or kosher salt, plus more to taste",
+   "2 medium-large ripe avocados"
+  ],
+  "yield_text": "4 or so as a snack",
+  "cook_time": "10 minutes",
+  "categories": [
+   "Avocado",
+   "Dips",
+   "Game Day",
+   "Party Snacks",
+   "Snack",
+   "Tex-Mex",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Tex-Mex"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2017/02/guacamole/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

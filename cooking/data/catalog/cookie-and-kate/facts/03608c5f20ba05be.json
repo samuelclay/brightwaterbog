@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/tropical-fruit-salad-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Tropical Fruit Salad",
+  "ingredients": [
+   "½ medium cantaloupe or honeydew melon, diced into ¼″ cubes (about 4 cups)",
+   "½ mini seedless watermelon, diced into ¼″ cubes (about 4 cups)",
+   "1 small pineapple, diced into ¼″ cubes (about 4 cups)",
+   "1 medium lime, juiced (about 2 tablespoons)",
+   "Optional, for serving: yogurt, granola, or Tajín seasoning for a spicy kick"
+  ],
+  "yield_text": "12 cups",
+  "cook_time": "PT30M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Costa Rican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/tropical-fruit-salad-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

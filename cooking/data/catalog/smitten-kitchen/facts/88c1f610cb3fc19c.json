@@ -1,0 +1,39 @@
+{
+ "url": "https://smittenkitchen.com/2008/03/vegetarian-cassoulet/",
+ "status": "parsed",
+ "facts": {
+  "title": "vegetarian cassoulet",
+  "ingredients": [
+   "For cassoulet",
+   "3 medium leeks (white and pale green parts only)",
+   "4 medium carrots, halved",
+   "lengthwise and cut into 1-inch-wide pieces",
+   "3 celery ribs, cut into 1-inch-wide pieces",
+   "4 garlic cloves, chopped",
+   "1/4 cup olive oil",
+   "4 thyme sprigs",
+   "2 parsley sprigs",
+   "1 Turkish or 1/2 California bay leaf",
+   "3 (19-ounce) cans cannellini or Great Northern beans, rinsed and drained or 4 1/2 cups cooked dried beans (dried beans cooking instructions here)",
+   "1 19-ounce can diced tomatoes, with their juice",
+   "3 tablespoons tomato paste",
+   "1 quart stock",
+   "For garlic crumbs",
+   "4 cups coarse fresh bread crumbs from a baguette",
+   "1/3 cup olive oil",
+   "1 tablespoon chopped garlic",
+   "1/4 cup chopped parsley"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Beans",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2008/03/vegetarian-cassoulet/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/strawberry-rhubarb-crisp/",
+ "status": "parsed",
+ "facts": {
+  "title": "Strawberry Rhubarb Crisp",
+  "ingredients": [
+   "1 pound strawberries, hulled and sliced into small bite-sized pieces",
+   "1 pound rhubarb (4 to 6 stalks), cut into ¼ by ½-inch pieces (slice larger stalks in half lengthwise before slicing them into ¼-inch wide pieces)",
+   "⅓ to ½ cup honey*",
+   "3 tablespoons arrowroot starch or cornstarch",
+   "2 tablespoons lemon juice or orange juice",
+   "1 cup old-fashioned oats (certified gluten-free for a gluten-free crisp)",
+   "½ cup packed almond flour",
+   "⅓ cup lightly packed coconut sugar or brown sugar",
+   "¼ teaspoon fine salt",
+   "4 tablespoons butter, melted",
+   "3 tablespoons plain yogurt (Greek or regular) or additional melted butter"
+  ],
+  "yield_text": "8",
+  "cook_time": "PT1H",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/strawberry-rhubarb-crisp/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

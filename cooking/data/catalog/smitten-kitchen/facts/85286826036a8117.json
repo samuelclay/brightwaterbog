@@ -1,0 +1,41 @@
+{
+ "url": "https://smittenkitchen.com/2014/08/smoky-eggplant-dip/",
+ "status": "parsed",
+ "facts": {
+  "title": "smoky eggplant dip",
+  "ingredients": [
+   "2 medium eggplants (about 1 pound each)",
+   "2 tablespoons olive oil, divided",
+   "1 teaspoon coarse or kosher salt, or to taste",
+   "6 tablespoons tahini (sesame seed paste), well-stirred if a new container",
+   "2 garlic cloves, peeled and minced or pressed",
+   "Juice of 1 lemon, plus more to taste, if desired",
+   "Pinch of cayenne or aleppo pepper",
+   "Pinch or two of ground cumin",
+   "2 tablespoons well-chopped flat-leaf parsley, divided",
+   "Toasted sesame seeds or za’atar for garnish"
+  ],
+  "yield_text": "Makes about 2 cups",
+  "cook_time": null,
+  "categories": [
+   "Dinner",
+   "Dips",
+   "Egg-Free",
+   "Eggplant",
+   "Middle Eastern",
+   "Party Snacks",
+   "Picnics",
+   "Ramadan",
+   "Summer",
+   "Vegan",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Middle Eastern"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2014/08/smoky-eggplant-dip/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/caesar-dressing-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Easy Caesar Dressing",
+  "ingredients": [
+   "½ cup mayonnaise",
+   "1 medium garlic clove, minced",
+   "2 teaspoons lemon juice, to taste",
+   "1 teaspoon Dijon mustard",
+   "½ teaspoon Worcestershire sauce*, to taste",
+   "⅛ teaspoon fine salt",
+   "⅓ cup (1 ounce) finely grated Parmesan cheese",
+   "1 tablespoon water",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "PT5M",
+  "categories": [
+   "Salad dressing"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/caesar-dressing-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

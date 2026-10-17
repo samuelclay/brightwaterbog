@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/buffalo-brussels-sprouts-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Buffalo Brussels Sprouts",
+  "ingredients": [
+   "1 ½ pounds Brussels sprouts",
+   "2 tablespoons extra-virgin olive oil",
+   "3 tablespoons red hot sauce, such as Frank’s",
+   "2 tablespoons unsalted butter, melted",
+   "Freshly ground black pepper, to taste",
+   "Up to 1 tablespoon honey, to taste (optional)",
+   "1 small avocado, diced, or ¼ cup crumbled blue cheese (both optional)",
+   "1 to 2 tablespoons finely chopped chives or green onion",
+   "1 tablespoon torn fresh cilantro or parsley",
+   "Fine salt, to taste"
+  ],
+  "yield_text": "4 to 6 servings",
+  "cook_time": "PT40M",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/buffalo-brussels-sprouts-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

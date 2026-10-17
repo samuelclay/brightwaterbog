@@ -1,0 +1,36 @@
+{
+ "url": "https://cookieandkate.com/raw-kale-asian-salad/",
+ "status": "parsed",
+ "facts": {
+  "title": "Raw Kale Salad with Red Pepper Dressing",
+  "ingredients": [
+   "½ cup olive oil",
+   "1 red bell pepper, seeded and chopped into big pieces",
+   "2 tablespoons apple cider vinegar",
+   "1 lime, juiced",
+   "2 tablespoons agave nectar",
+   "¾ inch piece of fresh ginger, peeled and roughly chopped",
+   "1 clove garlic",
+   "¼ teaspoon fine salt",
+   "totally optional: ¼ teaspoon toasted sesame oil, which isn’t raw, but tastes good",
+   "5 big stalks of kale",
+   "Fine salt",
+   "½ avocado, cubed",
+   "1 carrot, peeled and sliced into strips with a vegetable peeler",
+   "3 tablespoons purple cabbage, chopped",
+   "1 tablespoon cilantro, roughly chopped",
+   "1 tablespoon red onion, thinly sliced",
+   "1 teaspoon sesame seeds"
+  ],
+  "yield_text": "1 medium salad",
+  "cook_time": "PT15M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/raw-kale-asian-salad/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

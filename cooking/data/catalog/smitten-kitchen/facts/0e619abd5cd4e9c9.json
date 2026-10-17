@@ -1,0 +1,40 @@
+{
+ "url": "https://smittenkitchen.com/2007/08/napa-wrapper/",
+ "status": "parsed",
+ "facts": {
+  "title": "smoke-roasted stuffed bell peppers",
+  "ingredients": [
+   "2 medium red bell peppers",
+   "3 medium mixed bell peppers (orange, yellow, green)",
+   "3/4 teaspoon kosher salt",
+   "1/2 teaspoon ground black pepper",
+   "3 tablespoons butter",
+   "1 onion, finely chopped",
+   "2 cloves garlic, minced",
+   "1 medium zucchini, cut into 1/4-inch dice",
+   "1 medium yellow squash, cut into 1/4-inch dice",
+   "2 cups fresh or frozen corn kernels",
+   "1 medium tomato, seeded and cut into 1/4-inch dice",
+   "2 tablespoons chopped fresh herbs (such as parley, oregano, basil or a mix)",
+   "1/4 cup plain dried breadcrumbs",
+   "Oil for coating grill grate",
+   "2 tablespoons grates Parmesan cheese (optional)"
+  ],
+  "yield_text": "Makes 8 small servings",
+  "cook_time": null,
+  "categories": [
+   "Grilling",
+   "Peppers",
+   "Tips",
+   "Travel",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Travel"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2007/08/napa-wrapper/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

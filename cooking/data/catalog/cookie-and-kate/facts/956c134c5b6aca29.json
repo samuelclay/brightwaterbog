@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/maple-mint-julep-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Easy Mint Julep",
+  "ingredients": [
+   "10 fresh mint leaves, plus a mint sprig for garnish",
+   "2 teaspoons maple syrup, or to taste",
+   "2 ounces bourbon",
+   "Crushed ice"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/maple-mint-julep-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

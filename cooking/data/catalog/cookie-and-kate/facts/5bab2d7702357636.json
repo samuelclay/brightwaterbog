@@ -1,0 +1,34 @@
+{
+ "url": "https://cookieandkate.com/simple-kale-and-black-bean-burritos/",
+ "status": "parsed",
+ "facts": {
+  "title": "Kale and Black Bean Burritos",
+  "ingredients": [
+   "2 medium leaves of kale, washed and dried, stems removed and roughly chopped into bite-sized pieces",
+   "1 tablespoon cilantro, roughly chopped",
+   "2 teaspoons seeded and finely chopped fresh jalapeño (optional)",
+   "Big squeeze of fresh lime juice",
+   "Splash of olive oil",
+   "Pinch of ground cumin",
+   "Dash of chili powder",
+   "Dash of sea salt",
+   "½ cup cooked or canned black beans, rinsed and drained",
+   "1 clove garlic, minced or pressed",
+   "1 small (8 inch) whole wheat tortilla",
+   "½ small avocado, pitted and sliced into strips lengthwise",
+   "1 tablespoon chopped red onion",
+   "1 to 2 tablespoons crumbled feta cheese",
+   "Sour cream or plain Greek yogurt to serve on the side (optional, not shown)"
+  ],
+  "yield_text": "1 burrito",
+  "cook_time": "PT10M",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/simple-kale-and-black-bean-burritos/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

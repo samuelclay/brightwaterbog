@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/greek-pizza-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Greek Pizza",
+  "ingredients": [
+   "1 batch easy whole wheat pizza dough or 1 pound store-bought pizza dough",
+   "⅔ cup easy pizza sauce or marinara sauce or one 32-ounce can whole tomatoes, drained and crushed by hand",
+   "½ teaspoon dried oregano",
+   "8 ounces (2 packed cups) grated low-moisture part-skim mozzarella cheese",
+   "½ cup thin, 1-inch strips roasted red pepper",
+   "½ cup quartered marinated or jarred artichokes, halved lengthwise",
+   "15 pitted Kalamata olives, halved lengthwise",
+   "½ cup (2 to 3 ounces) crumbled feta",
+   "Optional garnishes: three to four fresh basil leaves, torn into little pieces, and red pepper flakes"
+  ],
+  "yield_text": "2 pizzas",
+  "cook_time": "PT30M",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/greek-pizza-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

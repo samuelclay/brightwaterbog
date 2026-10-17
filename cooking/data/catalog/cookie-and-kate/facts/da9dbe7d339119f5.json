@@ -1,0 +1,39 @@
+{
+ "url": "https://cookieandkate.com/veggie-breakfast-tacos/",
+ "status": "parsed",
+ "facts": {
+  "title": "Veggie Breakfast Tacos",
+  "ingredients": [
+   "2 teaspoons olive oil",
+   "1 small white or yellow onion, diced",
+   "3 garlic cloves, pressed or minced",
+   "1 small zucchini, sliced into 2-inch long, thin strips",
+   "1 small yellow squash, sliced into 2-inch long, thin strips",
+   "1 red pepper, seeded, membranes removed and chopped",
+   "½ lime, juiced",
+   "Salt",
+   "Pinch red pepper flakes",
+   "6 eggs, scrambled",
+   "Hot sauce",
+   "Salt and freshly ground black pepper",
+   "1 tomato or a handful of cherry tomatoes, chopped",
+   "6 small tortillas, corn or flour",
+   "1 jalapeño, seeded, membranes removed and minced",
+   "Feta, crumbled",
+   "Fresh cilantro, chopped",
+   "Hot sauce (like Cholula) and/or salsa"
+  ],
+  "yield_text": "6",
+  "cook_time": "PT35M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/veggie-breakfast-tacos/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

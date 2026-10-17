@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/apple-steel-cut-oatmeal-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Apple Steel-Cut Oatmeal",
+  "ingredients": [
+   "1 tablespoon butter (optional)",
+   "1 cup steel-cut oats (certified gluten-free if necessary)",
+   "3 medium-to-large apples, cored and sliced into 1-to-2″ chunks",
+   "4 cups water",
+   "Pinch of salt",
+   "Maple syrup or honey, to taste (optional)",
+   "Optional toppings: swirl of nut butter (pecan butter, almond butter or peanut butter), toasted pecans or pepitas, chopped fresh apples, dried cranberries, drizzle of additional maple syrup or honey, light sprinkle of ground cinnamon…"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT45M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/apple-steel-cut-oatmeal-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

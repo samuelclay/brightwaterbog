@@ -1,0 +1,24 @@
+{
+ "url": "https://cookieandkate.com/perfect-stovetop-popcorn-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Best Stovetop Popcorn",
+  "ingredients": [
+   "2 tablespoons extra-virgin olive oil or coconut oil",
+   "½ cup popcorn kernels, divided",
+   "Salt, to taste"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT10M",
+  "categories": [
+   "Snack"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/perfect-stovetop-popcorn-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

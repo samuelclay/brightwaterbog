@@ -1,0 +1,38 @@
+{
+ "url": "https://cookieandkate.com/greek-farro-salad-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Greek Farro Salad",
+  "ingredients": [
+   "1 cup dried farro, rinsed",
+   "5 ounces arugula",
+   "1 can chickpeas, rinsed and drained (or 1 ½ cups cooked chickpeas)",
+   "1 large cucumber (about ¾ pound), seeded and chopped (to yield about 1 ½ cups chopped cucumber)",
+   "1 cup chopped roasted red bell pepper, homemade or jarred",
+   "20 kalamata olives, sliced into thin rounds (about ½ cup)",
+   "½ cup feta cheese, crumbled",
+   "½ cup chopped flat-leaf parsley",
+   "¼ teaspoon salt",
+   "⅓ cup olive oil",
+   "2 to 3 tablespoons fresh lemon juice, to taste",
+   "2 teaspoons honey or maple syrup",
+   "2 garlic cloves, pressed",
+   "½ teaspoon dried oregano",
+   "½ teaspoon salt",
+   "¼ teaspoon red pepper flakes",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT40M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Greek"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/greek-farro-salad-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

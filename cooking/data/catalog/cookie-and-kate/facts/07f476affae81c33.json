@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/strawberry-oat-muffins-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Strawberry Oat Muffins",
+  "ingredients": [
+   "1 ¾ cups white whole wheat flour or regular whole wheat flour",
+   "⅓ cup old-fashioned oats, plus 2 tablespoons for sprinkling on top",
+   "1 teaspoon baking powder",
+   "½ teaspoon baking soda",
+   "½ teaspoon fine sea salt",
+   "⅓ cup extra-virgin olive oil",
+   "⅓ cup maple syrup",
+   "2 eggs, preferably at room temperature",
+   "1 cup plain Greek yogurt*",
+   "2 teaspoons vanilla extract",
+   "2 cups hulled and diced ripe strawberries",
+   "1 teaspoon turbinado sugar (also called raw sugar), for sprinkling on top (optional)"
+  ],
+  "yield_text": "12 muffins",
+  "cook_time": "PT40M",
+  "categories": [
+   "Muffins"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/strawberry-oat-muffins-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,41 @@
+{
+ "url": "https://cookieandkate.com/huevos-rancheros-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Fresh Huevos Rancheros",
+  "ingredients": [
+   "2 medium ripe tomatoes, chopped (about 1 ½ cups)",
+   "¼ cup finely chopped white onion",
+   "¼ cup chopped fresh cilantro",
+   "2 tablespoons lime juice (about 1 medium lime)",
+   "¼ teaspoon fine-grain sea salt",
+   "2 teaspoons extra-virgin olive oil",
+   "¼ cup finely chopped white onion",
+   "¼ teaspoon fine-grain sea salt",
+   "1 teaspoon ground cumin",
+   "1 can (15 ounces) black beans or pinto beans, rinsed and drained, or 1 ½ cups cooked beans",
+   "¼ cup water",
+   "Freshly ground black pepper, to taste",
+   "½ teaspoon lime juice",
+   "1 ½ cups (12 ounces) of your favorite red salsa, either homemade or jarred",
+   "4 teaspoons extra-virgin olive oil, divided",
+   "4 eggs",
+   "4 corn tortillas",
+   "½ cup shredded Monterey Jack cheese (optional)",
+   "Freshly ground black pepper",
+   "Optional garnishes: Crumbled Cotija or feta cheese, sliced avocado, additional chopped cilantro and/or hot sauce"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT45M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Kate",
+  "url": "https://cookieandkate.com/huevos-rancheros-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

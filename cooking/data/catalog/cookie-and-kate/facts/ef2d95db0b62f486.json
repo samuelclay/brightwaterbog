@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/classic-mojito-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Classic Mojito",
+  "ingredients": [
+   "1 ½ teaspoons sugar, to taste",
+   "4 leafy sprigs of fresh mint, each about 5 to 6 inches long",
+   "2 ounces white rum",
+   "¾ ounce lime juice",
+   "Ice",
+   "Club soda or sparkling water",
+   "Entirely optional: 1 to 2 drops of Angostura bitters",
+   "1 lime round, for garnish"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "Cuban"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/classic-mojito-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

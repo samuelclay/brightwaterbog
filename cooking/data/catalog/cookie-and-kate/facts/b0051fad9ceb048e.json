@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/aji-verde-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Aji Verde (Spicy Peruvian Green Sauce)",
+  "ingredients": [
+   "½ cup mayonnaise",
+   "2 cups lightly packed fresh cilantro, mostly leaves but small stems are ok (from 1 big bunch of cilantro or 1 ½ medium)",
+   "2 medium jalapeños, seeds and membranes removed but reserved, roughly chopped",
+   "2 cloves garlic, roughly chopped",
+   "⅓ cup (1 ounce) grated Cotija or Parmesan cheese",
+   "1 tablespoon lime juice",
+   "¼ teaspoon fine sea salt"
+  ],
+  "yield_text": "1 1/4 cups",
+  "cook_time": "PT10M",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Peruvian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/aji-verde-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

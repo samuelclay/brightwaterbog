@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/baked-goat-cheese-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Baked Goat Cheese",
+  "ingredients": [
+   "10 ounces goat cheese",
+   "2 ounces cream cheese",
+   "1 tablespoon honey, plus 2 teaspoons more for drizzling, divided",
+   "1 small-to-medium garlic clove, cut into several pieces",
+   "¼ teaspoon fine salt",
+   "10 twists of freshly ground black pepper",
+   "⅛ teaspoon red pepper flakes, to taste (optional)",
+   "For serving: Crusty sourdough or crostini or toasted pita wedges, berries, olives or tapenade, etc."
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "PT25M",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/baked-goat-cheese-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

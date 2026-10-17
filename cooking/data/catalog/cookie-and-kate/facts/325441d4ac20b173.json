@@ -1,0 +1,34 @@
+{
+ "url": "https://cookieandkate.com/spicy-vegan-black-bean-soup/",
+ "status": "parsed",
+ "facts": {
+  "title": "Spicy Black Bean Soup",
+  "ingredients": [
+   "2 tablespoons extra-virgin olive oil",
+   "2 medium yellow onions, chopped",
+   "3 celery ribs, finely chopped",
+   "1 large carrot, peeled and sliced into thin rounds",
+   "6 garlic cloves, pressed or minced",
+   "4 ½ teaspoons ground cumin",
+   "½ teaspoon red pepper flakes",
+   "4 cans (15 ounces each) black beans, rinsed and drained",
+   "4 cups (32 ounces) low-sodium vegetable broth",
+   "¼ cup chopped fresh cilantro (optional)",
+   "1 to 2 teaspoons sherry vinegar, to taste, or 2 tablespoons fresh lime juice",
+   "Sea salt and freshly ground black pepper, to taste",
+   "Optional garnishes: diced avocado, extra cilantro, thinly sliced radishes, tortilla chips…"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "PT55M",
+  "categories": [
+   "Soup"
+  ],
+  "cuisines": [
+   "Vegan"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/spicy-vegan-black-bean-soup/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

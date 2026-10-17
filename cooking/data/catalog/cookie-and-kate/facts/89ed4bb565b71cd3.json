@@ -1,0 +1,34 @@
+{
+ "url": "https://cookieandkate.com/pumpkin-cookie-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Whole Wheat Pumpkin Cookies Recipe",
+  "ingredients": [
+   "2 ½ cups whole wheat pastry flour",
+   "1 teaspoon baking powder",
+   "1 teaspoon baking soda",
+   "2 teaspoons ground cinnamon",
+   "¾ teaspoon ground nutmeg",
+   "¾ teaspoon ground cloves",
+   "½ teaspoon fine salt",
+   "½ cup butter, softened",
+   "1 ½ cups raw (turbinado) sugar",
+   "1 cup canned pumpkin puree",
+   "1 egg",
+   "1 teaspoon vanilla extract",
+   "Powdered sugar, for dusting"
+  ],
+  "yield_text": "about 30-36 cookies",
+  "cook_time": "PT30M",
+  "categories": [
+   "Cookie"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pumpkin-cookie-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

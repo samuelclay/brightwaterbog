@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/simple-strawberry-smoothie-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Simple Strawberry Smoothie",
+  "ingredients": [
+   "1 ½ cups to 2 cups unsweetened vanilla almond milk or water",
+   "10 ounces (2 cups) frozen strawberries, thawed for 5 to 10 minutes*",
+   "1 ½ cups frozen bananas",
+   "¼ cup almond butter",
+   "Optional nutrition boosters: ¼ cup old-fashioned oats and/or 2 tablespoons flax seed",
+   "1 to 2 teaspoons maple syrup, if desired for sweetness"
+  ],
+  "yield_text": "4 cups",
+  "cook_time": "PT10M",
+  "categories": [
+   "Smoothie"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/simple-strawberry-smoothie-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/classic-french-75-cocktail-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Classic French 75 Cocktail",
+  "ingredients": [
+   "1 ½ ounces gin",
+   "¾ ounce fresh lemon juice (about ¾ medium lemon)",
+   "¾ ounce simple syrup (recipe follows)",
+   "2 to 3 ounces chilled Champagne (enough to top the glass)",
+   "Lemon peel, for garnish",
+   "¼ cup honey or sugar",
+   "¼ cup water"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT10M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "French"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/classic-french-75-cocktail-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

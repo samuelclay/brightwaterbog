@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/ginger-beer-concentrate/",
+ "status": "parsed",
+ "facts": {
+  "title": "Ginger Beer Concentrate",
+  "ingredients": [
+   "1 ¼ pounds fresh ginger, roughly peeled and chopped into 1-inch chunks",
+   "2 cups filtered water, divided",
+   "1 cup freshly squeezed lime juice (from 4 to 5 limes), plus more as garnish",
+   "1 ¼ to 1 ½ cups of agave nectar, honey or pure cane sugar (to taste, see note)",
+   "club soda"
+  ],
+  "yield_text": "36 oz",
+  "cook_time": "PT20M",
+  "categories": [
+   "Beverages"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/ginger-beer-concentrate/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

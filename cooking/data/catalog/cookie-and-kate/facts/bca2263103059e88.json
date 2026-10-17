@@ -1,0 +1,24 @@
+{
+ "url": "https://cookieandkate.com/perfect-roasted-cabbage-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Perfect Roasted Cabbage",
+  "ingredients": [
+   "1 pound red or green cabbage* (about 1 small cabbage or ½ medium)",
+   "2 tablespoons extra-virgin olive oil",
+   "¼ teaspoon fine salt"
+  ],
+  "yield_text": "2 to 4 side servings",
+  "cook_time": "PT25M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "N/A"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/perfect-roasted-cabbage-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

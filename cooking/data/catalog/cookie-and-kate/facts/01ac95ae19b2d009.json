@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/simple-vegan-pancake-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Simple Vegan Pancakes",
+  "ingredients": [
+   "1 cup whole wheat flour*",
+   "1 tablespoon baking powder",
+   "¼ teaspoon salt",
+   "1 cup almond milk or dairy-free milk of choice",
+   "2 tablespoons olive oil or melted coconut oil",
+   "2 tablespoons maple syrup or sugar of choice",
+   "1 teaspoon pure vanilla extract",
+   "More oil to grease your pan/skillet, if necessary"
+  ],
+  "yield_text": "6 pancakes",
+  "cook_time": "PT20M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/simple-vegan-pancake-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

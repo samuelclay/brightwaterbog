@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/cucumber-cocktails/",
+ "status": "parsed",
+ "facts": {
+  "title": "Watermelon Cucumber Cooler",
+  "ingredients": [
+   "2 ½ cups watermelon, seeds removed, cut into chunks",
+   "½ large English cucumber, peeled and cut into chunks",
+   "2 limes, juiced",
+   "1 tablespoon honey or agave nectar",
+   "3 ounces vodka",
+   "Optional garnishes: cucumber slice, lime slice and/or small watermelon wedge"
+  ],
+  "yield_text": "2 cocktails",
+  "cook_time": "PT10M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cucumber-cocktails/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

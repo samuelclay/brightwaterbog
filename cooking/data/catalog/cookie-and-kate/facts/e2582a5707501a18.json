@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/broccolini-almond-pizza-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Broccolini Almond Pizza",
+  "ingredients": [
+   "1 batch easy whole wheat pizza dough or 1 pound store-bought pizza dough",
+   "⅔ cup pizza sauce or marinara sauce or one 32-ounce can whole tomatoes, drained and crushed by hand",
+   "2 cups shredded low-moisture part-skim mozzarella cheese",
+   "½ cup (2 to 3 ounces) crumbled feta",
+   "½ pound (8 ounces) broccolini",
+   "1 teaspoon extra-virgin olive oil",
+   "¼ cup sliced almonds",
+   "Optional garnishes: red pepper flakes and a few fresh basil leaves, torn into little pieces"
+  ],
+  "yield_text": "4 to 6 servings",
+  "cook_time": "PT40M",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/broccolini-almond-pizza-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

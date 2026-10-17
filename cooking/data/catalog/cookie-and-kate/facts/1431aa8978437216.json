@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/baked-goat-cheese-with-tomato-sauce/",
+ "status": "parsed",
+ "facts": {
+  "title": "Baked Goat Cheese with Tomato Sauce",
+  "ingredients": [
+   "1 tablespoon extra-virgin olive oil, plus more for garnish",
+   "½ cup finely chopped white onion",
+   "2 medium garlic cloves, pressed or minced",
+   "1 tablespoon plus 1 teaspoon chopped fresh basil or ¼ teaspoon dried basil",
+   "¼ teaspoon red pepper flakes (omit if sensitive to spice)",
+   "¼ teaspoon dried oregano",
+   "1 ½ teaspoons white wine vinegar",
+   "1 can (15 ounces) crushed tomatoes, preferably fire-roasted or San Marzano, if possible",
+   "½ teaspoon kosher salt or ¼ teaspoon fine sea salt",
+   "Freshly ground black pepper",
+   "4 ounces goat cheese",
+   "Whole grain baguette or crusty bread or crostini or naan, for serving"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT40M",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/baked-goat-cheese-with-tomato-sauce/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,25 @@
+{
+ "url": "https://smittenkitchen.com/2013/10/frico-grilled-cheese-sandwiches/",
+ "status": "parsed",
+ "facts": {
+  "title": "frico grilled cheese sandwiches",
+  "ingredients": [
+   "2 slices bread of your choice, sliced 1/2-inch thick",
+   "2 teaspoons butter, salted or unsalted",
+   "1/2 cup (2 ounces) coarsely grated cheddar, plus more to taste"
+  ],
+  "yield_text": "Makes 1 sandwich; scale up as needed",
+  "cook_time": "10 minutes",
+  "categories": [
+   "Kid Favorites",
+   "Quick",
+   "Sandwich",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2013/10/frico-grilled-cheese-sandwiches/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

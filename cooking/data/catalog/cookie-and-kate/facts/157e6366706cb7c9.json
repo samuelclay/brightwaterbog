@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/gingerbread-granola/",
+ "status": "parsed",
+ "facts": {
+  "title": "Gingerbread Granola",
+  "ingredients": [
+   "4 cups old-fashioned rolled oats",
+   "1 ½ cups raw pecans and/or walnuts",
+   "1 teaspoon fine sea salt",
+   "1 teaspoon ground cinnamon",
+   "1 teaspoon ground ginger",
+   "½ cup melted coconut oil or olive oil",
+   "⅓ cup real maple syrup",
+   "¼ cup molasses",
+   "1 teaspoon vanilla extract",
+   "½ cup large, unsweetened coconut flakes* (optional)",
+   "⅓ cup chopped dried cranberries",
+   "⅓ cup chopped candied ginger"
+  ],
+  "yield_text": "8 cups",
+  "cook_time": "PT40M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/gingerbread-granola/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

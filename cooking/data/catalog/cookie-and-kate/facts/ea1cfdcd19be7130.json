@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/the-bootleg-cocktail/",
+ "status": "parsed",
+ "facts": {
+  "title": "The Bootleg Cocktail",
+  "ingredients": [
+   "½ cup fresh lemon juice (about 3 large lemons, juiced)",
+   "¼ cup fresh lime juice (about 1 large or 2 medium limes, juiced) or additional lemon juice",
+   "¼ cup light agave nectar or cane sugar or honey*",
+   "2 packed tablespoons fresh mint leaves",
+   "2 ounces bootleg mix",
+   "2 ounces gin, vodka or bourbon",
+   "2 ounces club soda"
+  ],
+  "yield_text": "4",
+  "cook_time": "PT10M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/the-bootleg-cocktail/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

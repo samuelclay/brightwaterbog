@@ -1,0 +1,40 @@
+{
+ "url": "https://cookieandkate.com/pasta-e-fagioli-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Pasta e Fagioli (Italian Pasta and Beans)",
+  "ingredients": [
+   "4 tablespoons extra-virgin olive oil, divided",
+   "1 medium-to-large yellow onion, finely chopped",
+   "2 carrots, scrubbed clean, finely chopped",
+   "2 ribs celery, finely chopped",
+   "¾ teaspoon fine sea salt, divided",
+   "Freshly ground black pepper, to taste",
+   "4 cloves garlic, pressed or minced",
+   "1 can (15 ounces) crushed tomatoes*",
+   "4 cups vegetable broth",
+   "3 cups water",
+   "2 bay leaves",
+   "1 teaspoon dried oregano",
+   "¼ teaspoon red pepper flakes, omit if sensitive to spice",
+   "2 cans (15 ounces each) cannellini beans, Great Northern beans, or chickpeas, rinsed and drained (or 3 cups cooked beans)",
+   "1 cup (about 4 ounces) cavatelli, ditalini, elbow or small shell pasta of choice",
+   "2 cups chopped Tuscan kale (tough ribs removed first), or chard or collard greens",
+   "¼ cup finely chopped Italian parsley",
+   "1 tablespoon fresh lemon juice (about ½ medium lemon)",
+   "Optional garnishes: Additional chopped parsley, black pepper, grated Parmesan cheese or light drizzle of olive oil"
+  ],
+  "yield_text": "6 bowls",
+  "cook_time": "PT1H",
+  "categories": [
+   "Stew"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pasta-e-fagioli-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

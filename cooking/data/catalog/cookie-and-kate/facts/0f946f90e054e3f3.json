@@ -1,0 +1,39 @@
+{
+ "url": "https://cookieandkate.com/tex-mex-omelet-with-roasted-cherry-tomato-salsa/",
+ "status": "parsed",
+ "facts": {
+  "title": "Tex-Mex Omelet with Roasted Cherry Tomato Salsa",
+  "ingredients": [
+   "1 pint cherry tomatoes",
+   "½ teaspoon olive oil",
+   "½ small white onion, chopped",
+   "⅓ cup loosely packed cilantro, chopped",
+   "1 jalapeño, deseeded and membranes removed, finely chopped",
+   "2 cloves garlic, minced",
+   "1 small lime, juiced, or 2 teaspoons white wine vinegar",
+   "⅛ teaspoon sea salt",
+   "2 eggs",
+   "2 tablespoons milk or water",
+   "pinch sea salt",
+   "pinch black pepper",
+   "hot sauce (Cholula recommended)",
+   "1 scant tablespoon butter",
+   "⅓ cup Jack cheese or other melty cheese, shredded",
+   "3 tablespoons black beans",
+   "handful blue corn chips or tortilla chips, broken into small bite-sized pieces",
+   "optional garnishes: sliced avocado, sour cream, hot sauce, etc."
+  ],
+  "yield_text": "1 omelet",
+  "cook_time": "PT40M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/tex-mex-omelet-with-roasted-cherry-tomato-salsa/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

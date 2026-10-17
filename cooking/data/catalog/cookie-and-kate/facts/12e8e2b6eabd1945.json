@@ -1,0 +1,35 @@
+{
+ "url": "https://cookieandkate.com/spinach-salad-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Spinach Salad",
+  "ingredients": [
+   "5 ounces baby spinach",
+   "¼ medium red onion, very thinly sliced",
+   "4 to 5 ounces goat cheese, crumbled",
+   "½ cup pecan halves",
+   "6 ounces fresh raspberries or see note for additional options",
+   "1 tablespoon thick balsamic vinegar* or balsamic glaze, drizzled over the top",
+   "Freshly ground black pepper",
+   "3 tablespoons extra-virgin olive oil",
+   "1 tablespoon sherry vinegar, red wine vinegar or apple cider vinegar",
+   "1 teaspoon Dijon mustard",
+   "½ teaspoon maple syrup or honey",
+   "1 small clove garlic, pressed or minced",
+   "⅛ teaspoon fine salt, to taste",
+   "Several twists of freshly ground black pepper"
+  ],
+  "yield_text": "6 salads",
+  "cook_time": "PT24M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/spinach-salad-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

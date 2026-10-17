@@ -36,6 +36,12 @@
   for meat, fish, fish sauce, bonito, and meat-based fats before adding them.
 - The NYT rows carry full recipe text and photos, and both the repo and the deployed
   site are public.
+- Smitten Kitchen and Cookie and Kate are linked catalogs (ingredients + link, no
+  directions) documented in `data/catalog/README.md`. `make smitten-kitchen
+  cookie-and-kate` imports, downloads each recipe's lead photo
+  (`tools/fetch_blog_images.py`), and rebuilds; every row should have one, so check
+  `without_photo` in each `report.json`. `make deploy` ships whatever is local, so run
+  it only after every import (NYT included) has finished.
 
 ## Website (website/)
 

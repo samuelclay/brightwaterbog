@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/creamy-tahini-dressing-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Creamy Tahini Dressing",
+  "ingredients": [
+   "¼ cup extra-virgin olive oil",
+   "¼ cup tahini",
+   "2 to 3 tablespoons lemon juice, to taste",
+   "2 teaspoons Dijon mustard",
+   "2 teaspoons maple syrup or honey",
+   "½ teaspoon fine sea salt",
+   "Freshly ground black pepper, to taste",
+   "2 tablespoons ice-cold water, more as needed"
+  ],
+  "yield_text": "3/4 cup",
+  "cook_time": "PT10M",
+  "categories": [
+   "Salad dressing"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/creamy-tahini-dressing-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

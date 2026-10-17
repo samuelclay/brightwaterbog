@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/favorite-grilled-cheese-sandwich-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Favorite Grilled Cheese Sandwich",
+  "ingredients": [
+   "2 large slices of whole grain sourdough, or your favorite crusty bread",
+   "Enough Dijon mustard for a thin layer across one slice of bread (about 1 ½ teaspoons)",
+   "1 cup lightly packed (3 ounces) freshly grated sharp cheddar cheese, plus a little more for sprinkling on the outside (optional)",
+   "2 teaspoons chopped green onion, green parts only",
+   "Unsalted butter, for melting in the pan (about 2 teaspoons)"
+  ],
+  "yield_text": "1 sandwich",
+  "cook_time": "PT15M",
+  "categories": [
+   "Main Dish"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/favorite-grilled-cheese-sandwich-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

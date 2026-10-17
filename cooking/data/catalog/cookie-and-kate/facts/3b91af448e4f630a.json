@@ -1,0 +1,35 @@
+{
+ "url": "https://cookieandkate.com/summertime-pasta-salad-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Summertime Pasta Salad with Tomatoes, Corn and Jalapeño Pesto",
+  "ingredients": [
+   "½ pound whole grain bow-tie pasta or rotini or penne",
+   "1 can (15 ounces) black beans, rinsed and drained, or 1 ½ cups cooked black beans",
+   "1 pint cherry tomatoes (10 ounces), sliced into thin rounds",
+   "1 ear fresh corn, shucked (about ½ cup fresh corn kernels)",
+   "½ to ¾ cup crumbled feta or diced avocado",
+   "1 cup lightly packed fresh parsley",
+   "1 cup lightly packed fresh cilantro or basil",
+   "1 to 2 medium jalapeños, roughly chopped (remove seeds and membranes for less heat), optional",
+   "1 medium lemon, juiced",
+   "1 medium garlic clove, roughly chopped",
+   "½ teaspoon salt",
+   "½ cup pepitas (green pumpkin seeds) or slivered almonds",
+   "½ cup olive oil",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "8 cups",
+  "cook_time": "PT30M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/summertime-pasta-salad-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,27 @@
+{
+ "url": "https://smittenkitchen.com/2007/01/quiche-me-deadly/",
+ "status": "parsed",
+ "facts": {
+  "title": "leek and mushroom quiche",
+  "ingredients": [
+   "1 1/4 cups all-purpose flour",
+   "1/2 teaspoon salt",
+   "1/4 teaspoon sugar",
+   "1/2 cup (1 stick) unsalted butter, chilled and cut into small pieces",
+   "2 to 3 tablespoons ice water"
+  ],
+  "yield_text": "Makes one tart dough",
+  "cook_time": null,
+  "categories": [
+   "Leeks",
+   "Mushrooms",
+   "Tarts/Quiche",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2007/01/quiche-me-deadly/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

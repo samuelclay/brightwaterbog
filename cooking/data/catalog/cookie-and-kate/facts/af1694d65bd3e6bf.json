@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/classic-tomato-soup-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Classic Tomato Soup",
+  "ingredients": [
+   "2 tablespoons extra-virgin olive oil",
+   "1 medium yellow onion, chopped",
+   "½ teaspoon fine sea salt",
+   "2 tablespoons tomato paste",
+   "1 large can (28 ounces) whole tomatoes, with their liquid",
+   "2 cups vegetable broth",
+   "½ cup cooked Great Northern beans or cannellini beans, rinsed and drained",
+   "2 tablespoons unsalted butter, cut into a few pieces",
+   "1 teaspoon coconut sugar or brown sugar, to taste",
+   "Freshly ground black pepper, to taste",
+   "For the tomato-basil variation (optional): 10 to 15 fresh basil leaves, to taste"
+  ],
+  "yield_text": "4 bowls",
+  "cook_time": "PT55M",
+  "categories": [
+   "Soup"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/classic-tomato-soup-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

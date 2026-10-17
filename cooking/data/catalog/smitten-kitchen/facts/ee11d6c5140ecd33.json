@@ -1,0 +1,33 @@
+{
+ "url": "https://smittenkitchen.com/2007/07/red-pepper-soup/",
+ "status": "parsed",
+ "facts": {
+  "title": "red pepper soup",
+  "ingredients": [
+   "2 tablespoons olive oil",
+   "3 1/4 cup sliced onions",
+   "3 large cloves garlic, crushed",
+   "1/4 cup dry white wine",
+   "12 large red bell peppers, cut into 1-inch pieces",
+   "2 cups chicken or vegetable stock or broth",
+   "2 tablespoons chopped fresh thyme",
+   "1/4 to 1/2 teaspoon hot red pepper flakes",
+   "Salt and white or black pepper",
+   "Crème fraîche for garnish",
+   "Thyme sprigs for garnish."
+  ],
+  "yield_text": "Makes six large servings, 12 demitasse size.",
+  "cook_time": null,
+  "categories": [
+   "Peppers",
+   "Soup",
+   "Summer",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2007/07/red-pepper-soup/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

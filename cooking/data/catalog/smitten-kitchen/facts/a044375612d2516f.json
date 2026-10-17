@@ -1,0 +1,34 @@
+{
+ "url": "https://smittenkitchen.com/2019/04/cannellini-aglio-e-olio/",
+ "status": "parsed",
+ "facts": {
+  "title": "cannellini aglio e olio",
+  "ingredients": [
+   "3 tablespoons olive oil",
+   "4 garlic cloves, peeled and thinly sliced",
+   "Salt and red pepper flakes",
+   "1 15-ounce can cannellini beans, drained and rinsed (about 1 3/4 cups)",
+   "Half a 14-ounce can artichoke hearts, drained, chopped",
+   "1/4 cup chopped flat-leaf parsley",
+   "Grated parmesan or pecorino romano"
+  ],
+  "yield_text": "2 as lunch, 4 as a side",
+  "cook_time": "10 minutes",
+  "categories": [
+   "5 Ingredients or Fewer",
+   "Artichokes",
+   "Beans",
+   "Budget",
+   "Pantry",
+   "Quick",
+   "Recipe",
+   "Salad",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2019/04/cannellini-aglio-e-olio/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

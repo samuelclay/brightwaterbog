@@ -1,0 +1,38 @@
+{
+ "url": "https://smittenkitchen.com/2007/09/tortilla-de-patatas/",
+ "status": "parsed",
+ "facts": {
+  "title": "tortilla de patatas",
+  "ingredients": [
+   "1 1/4 to 1 1/2 pounds (3 to 4) yukon gold potatoes",
+   "1 small white or yellow onion",
+   "1 cup olive oil",
+   "7 large eggs",
+   "Salt and freshly ground black pepper (don’t skimp)"
+  ],
+  "yield_text": "8",
+  "cook_time": "45 to 60 minutes",
+  "categories": [
+   "5 Ingredients or Fewer",
+   "Brunch",
+   "Budget",
+   "Dinner",
+   "Eggs",
+   "Kid Favorites",
+   "Party Snacks",
+   "Passover",
+   "Picnics",
+   "Potatoes",
+   "Spanish",
+   "Vegetarian",
+   "Weeknight Favorite"
+  ],
+  "cuisines": [
+   "Spanish"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2007/09/tortilla-de-patatas/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

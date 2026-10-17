@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/barbecue-pineapple-jalapeno-and-feta-pizza/",
+ "status": "parsed",
+ "facts": {
+  "title": "Barbecue Pineapple, Jalapeño and Feta Pizza",
+  "ingredients": [
+   "1 batch easy whole wheat pizza dough, seasoned generously with freshly ground black pepper",
+   "½ cup barbecue sauce",
+   "2 cups (8 ounces) grated low-moisture, part-skim mozzarella cheese",
+   "⅓ pound (1 cup sliced) fresh pineapple chunks, sliced into ¼-inch thick, bite-sized pieces",
+   "¼ to ⅓ cup pickled jalapeños",
+   "½ cup (2 to 3 ounces) crumbled feta",
+   "3 tablespoons finely chopped red onion",
+   "Red pepper flakes, a light sprinkling of chopped fresh cilantro, more barbecue sauce or a smoky hot sauce"
+  ],
+  "yield_text": "2 pizzas",
+  "cook_time": "PT40M",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/barbecue-pineapple-jalapeno-and-feta-pizza/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

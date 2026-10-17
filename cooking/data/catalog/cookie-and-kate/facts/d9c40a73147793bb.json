@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/spicy-quick-pickled-vegetables-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Spicy Quick-Pickled Veggies",
+  "ingredients": [
+   "½ medium cauliflower, florets cut into small, bite-sized pieces",
+   "2 medium carrots, cut on a sharp diagonal into ⅛” thin rounds",
+   "1 small white or yellow onion, sliced into very thin rounds",
+   "2 medium jalapeños, sliced into thin rounds",
+   "6 garlic cloves, quartered",
+   "1 cup plain white vinegar or apple cider vinegar",
+   "1 cup water",
+   "1 tablespoon salt",
+   "1 ½ tablespoons honey or maple syrup",
+   "1 bay leaf",
+   "1 teaspoon oregano (preferably Mexican oregano)",
+   "Freshly ground black pepper"
+  ],
+  "yield_text": "1 quart pickles",
+  "cook_time": "PT20M",
+  "categories": [
+   "Condiment"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/spicy-quick-pickled-vegetables-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

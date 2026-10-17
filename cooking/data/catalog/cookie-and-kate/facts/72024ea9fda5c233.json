@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/roasted-butternut-squash-soup/",
+ "status": "parsed",
+ "facts": {
+  "title": "Roasted Butternut Squash Soup",
+  "ingredients": [
+   "1 large butternut squash (about 3 pounds), halved vertically* and seeds removed",
+   "1 tablespoon olive oil, plus more for drizzling",
+   "½ cup chopped shallot (about 1 large shallot bulb)",
+   "1 teaspoon salt",
+   "4 garlic cloves, pressed or minced",
+   "1 teaspoon maple syrup",
+   "⅛ teaspoon ground nutmeg",
+   "Freshly ground black pepper, to taste",
+   "3 to 4 cups (24 to 32 ounces) vegetable broth, as needed",
+   "1 to 2 tablespoons butter, to taste"
+  ],
+  "yield_text": "4 bowls or 6 cups",
+  "cook_time": "PT1H5M",
+  "categories": [
+   "Soup"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-butternut-squash-soup/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

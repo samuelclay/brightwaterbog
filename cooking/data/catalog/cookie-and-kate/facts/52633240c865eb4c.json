@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/broccoli-cheese-soup-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Broccoli Cheese Soup",
+  "ingredients": [
+   "3 tablespoons unsalted butter",
+   "2 medium yellow onions, coarsely chopped",
+   "6 garlic cloves, smashed and peeled",
+   "½ teaspoon red pepper flakes (reduce or omit if sensitive to spice)",
+   "1 ¼ teaspoon fine sea salt, divided, to taste",
+   "Freshly ground black pepper, to taste",
+   "2 pounds broccoli with stalks (3 large or 4 medium)",
+   "1 large (about 12 ounces) russet potato, peeled and cut into 1 to 2-inch chunks",
+   "6 cups water",
+   "4 to 8 ounces grated sharp cheddar cheese, depending on your mood",
+   "Thinly sliced chives or green onions, for garnish (optional)"
+  ],
+  "yield_text": "6 bowls",
+  "cook_time": "PT1H5M",
+  "categories": [
+   "Soup"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/broccoli-cheese-soup-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

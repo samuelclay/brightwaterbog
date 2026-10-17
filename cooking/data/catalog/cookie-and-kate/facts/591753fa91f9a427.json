@@ -1,0 +1,23 @@
+{
+ "url": "https://cookieandkate.com/favorite-fried-eggs-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Favorite Fried Eggs",
+  "ingredients": [
+   "1 tablespoon extra-virgin olive oil",
+   "1 egg"
+  ],
+  "yield_text": "1 fried egg",
+  "cook_time": "PT5M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Vegetarian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/favorite-fried-eggs-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

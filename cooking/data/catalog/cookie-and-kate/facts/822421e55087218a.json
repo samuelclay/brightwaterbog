@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/best-manhattan-cocktail-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Best Manhattan Cocktail",
+  "ingredients": [
+   "Ice, for stirring",
+   "2 ounces rye or bourbon",
+   "1 ounce sweet vermouth",
+   "2 dashes Angostura bitters",
+   "1 Luxardo cherry or other cocktail cherry, for garnish"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-manhattan-cocktail-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

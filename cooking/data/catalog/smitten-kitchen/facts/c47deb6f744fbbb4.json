@@ -1,0 +1,34 @@
+{
+ "url": "https://smittenkitchen.com/2011/11/dijon-braised-brussels-sprouts/",
+ "status": "parsed",
+ "facts": {
+  "title": "dijon-braised brussels sprouts",
+  "ingredients": [
+   "1 pound brussels sprouts",
+   "1 tablespoon unsalted butter",
+   "1 tablespoon olive oil",
+   "Salt",
+   "Freshly ground black pepper",
+   "1/2 cup dry white wine",
+   "1 cup broth (chicken or vegetable)",
+   "2 to 3 shallots, peeled and thinly sliced",
+   "2 tablespoons heavy cream",
+   "1 tablespoon smooth dijon mustard (or more to taste)",
+   "2 tablespoons chopped flat-leaf parsley (optional)"
+  ],
+  "yield_text": "Serves 4 as a side dish",
+  "cook_time": null,
+  "categories": [
+   "Brussels Sprouts",
+   "Fall",
+   "Side Dish",
+   "Thanksgiving",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2011/11/dijon-braised-brussels-sprouts/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/gluten-free-banana-oat-waffles/",
+ "status": "parsed",
+ "facts": {
+  "title": "Gluten-Free Banana Oat Waffles",
+  "ingredients": [
+   "2 ¼ cups (200 grams) oat flour*, certified gluten-free if necessary",
+   "3 tablespoons packed coconut sugar or brown sugar**",
+   "2 tablespoons arrowroot starch or cornstarch***",
+   "1 tablespoon baking powder",
+   "½ teaspoon salt",
+   "½ teaspoon cinnamon",
+   "3 large eggs",
+   "1 cup milk of choice",
+   "Scant ½ cup melted coconut oil or 7 ½ tablespoons unsalted butter, melted",
+   "¾ cup mashed ripe bananas (about 2 medium)",
+   "2 teaspoons vanilla extract",
+   "Suggested toppings: thinly sliced banana, maple syrup or honey, peanut butter and/or toasted nuts, whipped cream…"
+  ],
+  "yield_text": "8 waffles",
+  "cook_time": "PT35M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/gluten-free-banana-oat-waffles/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

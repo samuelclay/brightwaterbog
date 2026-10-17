@@ -1,0 +1,29 @@
+{
+ "url": "https://smittenkitchen.com/2012/05/warm-crisp-and-a-little-melty-salad-croutons/",
+ "status": "parsed",
+ "facts": {
+  "title": "warm, crisp and a little melty salad croutons",
+  "ingredients": [
+   "4 ounces goat milk Gouda, coarsely grated*",
+   "4 ounces fresh goat cheese, softened",
+   "1 tablespoon all-purpose flour",
+   "1 large egg",
+   "1/4 cup Panko** breadcrumbs",
+   "1/2 teaspoon coarse or sea salt",
+   "Olive oil, for frying",
+   "Freshly ground black pepper"
+  ],
+  "yield_text": "Makes 4 croutons",
+  "cook_time": null,
+  "categories": [
+   "Cheese",
+   "Salad",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2012/05/warm-crisp-and-a-little-melty-salad-croutons/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

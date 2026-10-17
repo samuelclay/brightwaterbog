@@ -1,0 +1,33 @@
+{
+ "url": "https://smittenkitchen.com/2010/08/fresh-tomato-sauce/",
+ "status": "parsed",
+ "facts": {
+  "title": "fresh tomato sauce",
+  "ingredients": [
+   "4 pounds sad, unloved tomatoes",
+   "1/4 cup olive oil",
+   "Small onion",
+   "2 to 3 small cloves of garlic",
+   "1/2 medium carrot",
+   "1/2 stalk of celery",
+   "1/2 teaspoon salt plus more to taste",
+   "Slivers of fresh basil, to finish"
+  ],
+  "yield_text": "Yield: About 4 cups sauce",
+  "cook_time": null,
+  "categories": [
+   "Italian",
+   "Savory Condiments",
+   "Summer",
+   "Tomatoes",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2010/08/fresh-tomato-sauce/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

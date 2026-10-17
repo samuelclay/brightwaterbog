@@ -1,0 +1,24 @@
+{
+ "url": "https://cookieandkate.com/perfect-roasted-beets/",
+ "status": "parsed",
+ "facts": {
+  "title": "Perfect Roasted Beets",
+  "ingredients": [
+   "1 ½ pounds beets (about 3 large or 5 small-to-medium)",
+   "1 tablespoon extra-virgin olive oil",
+   "¼ teaspoon fine salt, to taste"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT50M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/perfect-roasted-beets/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

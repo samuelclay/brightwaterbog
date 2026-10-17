@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/frozen-blueberry-margaritas/",
+ "status": "parsed",
+ "facts": {
+  "title": "Frozen Blueberry Margaritas",
+  "ingredients": [
+   "2 ounces 100% agave silver/blanco tequila",
+   "1 ½ ounces fresh orange juice",
+   "1 ounce fresh lime juice",
+   "1 teaspoon agave nectar or simple syrup, more to taste",
+   "½ cup frozen or fresh blueberries",
+   "½ cup ice cubes",
+   "2 teaspoons kosher salt",
+   "Optional: ½ teaspoon chili powder (for a little kick)",
+   "Small orange wedge"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/frozen-blueberry-margaritas/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

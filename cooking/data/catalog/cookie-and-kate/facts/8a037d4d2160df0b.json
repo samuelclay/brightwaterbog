@@ -1,0 +1,24 @@
+{
+ "url": "https://cookieandkate.com/perfect-roasted-broccoli-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Perfect Roasted Broccoli",
+  "ingredients": [
+   "1 pound (16 ounces) broccoli florets, cut into bite-sized pieces (from 2 pounds or about 1 ½ bunches of broccoli)",
+   "2 tablespoons extra-virgin olive oil",
+   "Salt and freshly ground black pepper"
+  ],
+  "yield_text": "4 side servings",
+  "cook_time": "PT25M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/perfect-roasted-broccoli-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

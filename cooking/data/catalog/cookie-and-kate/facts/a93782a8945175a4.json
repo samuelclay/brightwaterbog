@@ -1,0 +1,23 @@
+{
+ "url": "https://cookieandkate.com/chocolate-peppermint-cups-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Chocolate Peppermint Cups",
+  "ingredients": [
+   "2 tablespoons raw honey",
+   "¼ teaspoon peppermint extract",
+   "1 cup dark chocolate",
+   "Flaky sea salt, for sprinkling"
+  ],
+  "yield_text": "12 to 15 mini cups",
+  "cook_time": "PT42M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/chocolate-peppermint-cups-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

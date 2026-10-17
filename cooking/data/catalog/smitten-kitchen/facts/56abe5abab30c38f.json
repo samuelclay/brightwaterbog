@@ -1,0 +1,35 @@
+{
+ "url": "https://smittenkitchen.com/2018/05/chilaquiles-brunch-casserole/",
+ "status": "parsed",
+ "facts": {
+  "title": "chilaquiles brunch casserole",
+  "ingredients": [
+   "12 small (6-inch) corn tortillas, quartered and fried until crisp",
+   "1 1/4 cups (from a 10-ounce can) red enchilada sauce [see Note]",
+   "1 3/4 cups (from a 15-ounce can) black beans, drained and rinsed",
+   "2 cups (8 ounces) coarsely grated shredded monterey jack or cheddar cheese",
+   "6 to 8 large eggs",
+   "Kosher salt and freshly ground black pepper",
+   "Thinly sliced scallions, sour cream, diced avocado, and hot sauce, to finish and serve"
+  ],
+  "yield_text": "8",
+  "cook_time": "1 hour",
+  "categories": [
+   "Beans",
+   "Breakfast",
+   "Brunch",
+   "Casserole",
+   "Eggs",
+   "Recipe",
+   "Tex-Mex",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Tex-Mex"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2018/05/chilaquiles-brunch-casserole/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

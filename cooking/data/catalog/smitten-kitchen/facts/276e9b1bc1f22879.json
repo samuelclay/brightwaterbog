@@ -1,0 +1,35 @@
+{
+ "url": "https://smittenkitchen.com/2008/03/pasta-with-cauliflower-walnuts-and-feta/",
+ "status": "parsed",
+ "facts": {
+  "title": "pasta with cauliflower, walnuts and feta",
+  "ingredients": [
+   "2 heads cauliflower",
+   "1 medium onion",
+   "4 cloves garlic",
+   "1 pound whole-wheat pasta",
+   "Extra-virgin olive oil",
+   "Salt and pepper",
+   "1 pinch red pepper flakes",
+   "White wine vinegar",
+   "1/2 lemon",
+   "1/2 cup toasted walnuts",
+   "4 ounces ricotta salata or feta cheese"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Cauliflower",
+   "Dinner",
+   "Pasta",
+   "Quick",
+   "Vegetarian",
+   "Weeknight Favorite"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2008/03/pasta-with-cauliflower-walnuts-and-feta/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

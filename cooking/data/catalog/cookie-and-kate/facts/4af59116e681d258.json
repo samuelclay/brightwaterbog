@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/avocado-toast-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Avocado Toast",
+  "ingredients": [
+   "1 slice of bread",
+   "½ ripe avocado",
+   "Pinch of salt",
+   "Optional: Any of the extra toppings suggested in this post"
+  ],
+  "yield_text": "1 slice",
+  "cook_time": "PT5M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/avocado-toast-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

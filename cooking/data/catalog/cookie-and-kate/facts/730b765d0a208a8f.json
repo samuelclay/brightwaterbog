@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/quick-pickled-onions-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Quick-Pickled Onions",
+  "ingredients": [
+   "1 medium red onion, very thinly sliced",
+   "½ cup water",
+   "¼ cup distilled white vinegar",
+   "¼ cup apple cider vinegar or additional white vinegar",
+   "1 ½ tablespoons maple syrup or honey",
+   "1 ½ teaspoons fine sea salt",
+   "¼ teaspoon red pepper flakes (optional, for heat)"
+  ],
+  "yield_text": "2 cups",
+  "cook_time": "PT10M",
+  "categories": [
+   "Condiment"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/quick-pickled-onions-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

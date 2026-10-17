@@ -1,0 +1,32 @@
+{
+ "url": "https://smittenkitchen.com/2018/06/watermelon-cucumber-salad/",
+ "status": "parsed",
+ "facts": {
+  "title": "watermelon cucumber salad",
+  "ingredients": [
+   "About 1/4 a large seedless watermelon or 1 small (mini) watermelon",
+   "2 small (Perisan-style) seedless cucumber, thinly sliced",
+   "8 ounces ricotta salata, cut into matchsticks",
+   "1/4 cup toasted, salted pepitas (hulled pumpkin seeds)",
+   "Olive oil, for drizzling",
+   "Sea salt and freshly ground black pepperr"
+  ],
+  "yield_text": "4",
+  "cook_time": "15 minutes",
+  "categories": [
+   "5 Ingredients or Fewer",
+   "Cucumber",
+   "Quick",
+   "Recipe",
+   "Salad",
+   "Summer",
+   "Vegetarian",
+   "Watermelon"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2018/06/watermelon-cucumber-salad/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

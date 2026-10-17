@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/simple-tortilla-pizzas/",
+ "status": "parsed",
+ "facts": {
+  "title": "Tortilla Pizzas",
+  "ingredients": [
+   "1 whole wheat tortilla (or whole wheat pita bread)",
+   "¼ cup sauce (marinara, pesto, olive oil and garlic, barbecue sauce)",
+   "⅓ cup or less shredded/crumbled cheese (mozzarella, cheddar, goat, feta)",
+   "Toppings (go wild!)"
+  ],
+  "yield_text": "1",
+  "cook_time": "PT15M",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/simple-tortilla-pizzas/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/mediterranean-cauliflower-rice-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Mediterranean Cauliflower Rice",
+  "ingredients": [
+   "1 medium-to-large head cauliflower or 16 ounces store-bought cauliflower rice",
+   "½ cup sliced almonds",
+   "2 tablespoons extra-virgin olive oil",
+   "2 cloves garlic, pressed or minced",
+   "Pinch of red pepper flakes (omit if sensitive to spice)",
+   "¼ teaspoon fine sea salt",
+   "½ cup chopped flat-leaf parsley",
+   "1 tablespoon lemon juice",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "4 side servings",
+  "cook_time": "PT35M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/mediterranean-cauliflower-rice-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

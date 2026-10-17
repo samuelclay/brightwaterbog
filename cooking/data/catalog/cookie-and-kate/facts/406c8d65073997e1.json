@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/ginger-salad-dressing-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Ginger Salad Dressing",
+  "ingredients": [
+   "½ cup extra-virgin olive oil",
+   "2 tablespoons apple cider vinegar, to taste",
+   "2 tablespoons Dijon mustard",
+   "1 tablespoon maple syrup or honey, to taste",
+   "2 teaspoons finely grated fresh ginger",
+   "½ teaspoon fine sea salt",
+   "About 20 twists of freshly ground black pepper"
+  ],
+  "yield_text": "3/4 cup",
+  "cook_time": "PT5M",
+  "categories": [
+   "Salad dressing"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/ginger-salad-dressing-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

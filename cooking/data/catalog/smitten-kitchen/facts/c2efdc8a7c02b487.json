@@ -1,0 +1,32 @@
+{
+ "url": "https://smittenkitchen.com/2013/04/spinach-and-smashed-egg-toast/",
+ "status": "parsed",
+ "facts": {
+  "title": "spinach and smashed egg toast",
+  "ingredients": [
+   "1 large egg",
+   "1 slice of your favorite hearty bread",
+   "2 ounces baby spinach",
+   "1 pat butter",
+   "1 tablespoon minced shallot or white onion",
+   "1 tablespoon heavy cream",
+   "Sea salt and freshly ground black pepper",
+   "1 teaspoon smooth Dijon mustard",
+   "1 tablespoon crumbled cheese, such as goat cheese or feta"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Breakfast",
+   "Eggs",
+   "Put An Egg On It",
+   "Spinach",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2013/04/spinach-and-smashed-egg-toast/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

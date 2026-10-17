@@ -1,0 +1,31 @@
+{
+ "url": "https://smittenkitchen.com/2018/09/foolproof-cacio-e-pepe/",
+ "status": "parsed",
+ "facts": {
+  "title": "foolproof cacio e pepe",
+  "ingredients": [
+   "8 ounces dried spaghetti or tonnarelli",
+   "4 ounces aged pecorino romano, finely grated",
+   "A lot of freshly ground black pepper"
+  ],
+  "yield_text": "2 to 3, or to preference",
+  "cook_time": "15 minutes",
+  "categories": [
+   "5 Ingredients or Fewer",
+   "Best of Smitten Kitchen",
+   "Date Night",
+   "Dinner",
+   "Italian",
+   "Pasta",
+   "Quick",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2018/09/foolproof-cacio-e-pepe/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

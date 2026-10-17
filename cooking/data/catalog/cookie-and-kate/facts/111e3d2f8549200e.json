@@ -1,0 +1,36 @@
+{
+ "url": "https://cookieandkate.com/mexican-kale-quinoa-salad/",
+ "status": "parsed",
+ "facts": {
+  "title": "Mexican(ish) Kale & Quinoa Salad",
+  "ingredients": [
+   "1 cup quinoa, rinsed in a fine-mesh colander",
+   "2 cups water",
+   "½ cup pepitas (hulled pumpkin seeds)",
+   "1 small bunch of curly green or Tuscan kale, tough ribs removed and chopped into small pieces (or about 3 cups roughly chopped baby spinach)",
+   "Fine sea salt",
+   "1 can (15 ounces) black beans, rinsed and drained, or 1 ½ cups cooked black beans",
+   "½ cup thinly sliced green onions or finely chopped red onion",
+   "½ cup lightly packed chopped fresh cilantro",
+   "½ cup oil-packed sun-dried tomatoes, rinsed and chopped",
+   "⅓ cup crumbled feta cheese (optional)",
+   "1 to 2 medium jalapeños, seeds and membranes removed, chopped",
+   "¼ cup olive oil",
+   "3 to 4 tablespoons fresh lime juice (about 2 medium limes)",
+   "¾ teaspoon ground cumin",
+   "½ teaspoon fine sea salt"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT40M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/mexican-kale-quinoa-salad/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

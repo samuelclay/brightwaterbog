@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/pecan-milk-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Pecan Milk",
+  "ingredients": [
+   "1 cup raw or freshly roasted pecans (see notes!)",
+   "4 cups water, divided",
+   "1 to 2 tablespoons maple syrup, to taste",
+   "½ teaspoon pure vanilla extract",
+   "Sea salt"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT5M",
+  "categories": [
+   "Drinks"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pecan-milk-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

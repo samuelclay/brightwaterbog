@@ -1,0 +1,27 @@
+{
+ "url": "https://smittenkitchen.com/2013/11/parsley-leaf-potatoes/",
+ "status": "parsed",
+ "facts": {
+  "title": "parsley leaf potatoes",
+  "ingredients": [
+   "3 ounces (6 tablespoons) unsalted butter",
+   "8 small-medium baking potatoes (about 4 pounds), scrubbed",
+   "16 fresh flat-leaf parsley leaves",
+   "Coarse salt"
+  ],
+  "yield_text": "Serves 8 to 12",
+  "cook_time": null,
+  "categories": [
+   "Herbs",
+   "Potatoes",
+   "Side Dish",
+   "Thanksgiving",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2013/11/parsley-leaf-potatoes/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

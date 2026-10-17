@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/healthy-maple-pumpkin-muffins/",
+ "status": "parsed",
+ "facts": {
+  "title": "Healthy Pumpkin Muffins",
+  "ingredients": [
+   "⅓ cup melted coconut oil or extra-virgin olive oil*",
+   "½ cup maple syrup or honey",
+   "2 eggs, at room temperature",
+   "1 cup pumpkin purée",
+   "¼ cup milk of choice",
+   "2 teaspoons pumpkin spice blend (or 1 teaspoon ground cinnamon, ½ teaspoon ground ginger, ¼ teaspoon ground nutmeg, and ¼ teaspoon ground allspice or cloves)",
+   "1 teaspoon baking soda",
+   "1 teaspoon vanilla extract",
+   "½ teaspoon salt",
+   "1 ¾ cups whole wheat flour**",
+   "⅓ cup old-fashioned oats, plus more for sprinkling on top",
+   "Optional: 2 teaspoons turbinado (raw) sugar for a sweet crunch"
+  ],
+  "yield_text": "12 muffins",
+  "cook_time": "PT33M",
+  "categories": [
+   "Baked Good"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/healthy-maple-pumpkin-muffins/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

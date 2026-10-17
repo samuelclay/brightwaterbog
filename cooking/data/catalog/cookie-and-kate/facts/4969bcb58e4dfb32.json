@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/whole-wheat-waffles-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Whole Grain Waffles",
+  "ingredients": [
+   "1 cup whole wheat pastry flour",
+   "1 cup whole wheat flour",
+   "1 ½ teaspoons baking powder",
+   "1 teaspoon baking soda",
+   "½ teaspoon fine salt",
+   "½ teaspoon ground cinnamon",
+   "2 cups buttermilk (make your own: add 2 tablespoons of vinegar or lemon juice to 2 cups milk, and let sit for 5 minutes)",
+   "3 eggs",
+   "1 tablespoon maple syrup (or honey)",
+   "¼ cup (½ stick) butter, melted (original recipe called for one full stick of butter)",
+   "½ teaspoon vanilla extract"
+  ],
+  "yield_text": "6 waffles",
+  "cook_time": "PT25M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/whole-wheat-waffles-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

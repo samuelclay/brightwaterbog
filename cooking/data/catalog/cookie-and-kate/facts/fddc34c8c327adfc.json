@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/roasted-vegetables-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Roasted Vegetables",
+  "ingredients": [
+   "1 bell pepper (red, orange or yellow), cut into 1” squares",
+   "2 carrots, peeled and cut on the diagonal so each piece is about ½″ thick at the widest part",
+   "1 crown of broccoli, cut into bite-sized florets",
+   "1 small red onion, cut into ½”-wide wedges",
+   "2 tablespoons extra virgin olive oil",
+   "¼ teaspoon fine salt",
+   "Optional seasonings: 1 tablespoon unsalted butter and 1 tablespoon white wine vinegar"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT35M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "None"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-vegetables-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

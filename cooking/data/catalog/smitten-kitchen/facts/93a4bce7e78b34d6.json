@@ -1,0 +1,43 @@
+{
+ "url": "https://smittenkitchen.com/2014/04/three-bean-chili/",
+ "status": "parsed",
+ "facts": {
+  "title": "three-bean chili",
+  "ingredients": [
+   "1 tablespoon olive oil",
+   "1 medium onion, chopped small",
+   "1 to 2 peppers of your choice (see Notes, below), finely chopped",
+   "3 cloves garlic, minced",
+   "2 tablespoons chili powder",
+   "2 teaspoons ground cumin",
+   "1 teaspoon dried oregano",
+   "1 1/2 teaspoons table salt or 2 1/2 teaspoons kosher or coarse salt",
+   "1 12-ounce bottle beer",
+   "1 28-ounce can crushed tomatoes, fire-roasted if you can find them",
+   "1 1/2 cups mixed dried beans (see Note)",
+   "3 1/2 to 4 cups water"
+  ],
+  "yield_text": "Yield: About 9 cups chili; 8 smaller servings or 4 to 6 large ones",
+  "cook_time": null,
+  "categories": [
+   "Beans",
+   "Budget",
+   "Dinner",
+   "Egg-Free",
+   "Game Day",
+   "Pantry",
+   "Slow Cooker",
+   "Stew",
+   "Tex-Mex",
+   "Vegan",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Tex-Mex"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2014/04/three-bean-chili/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

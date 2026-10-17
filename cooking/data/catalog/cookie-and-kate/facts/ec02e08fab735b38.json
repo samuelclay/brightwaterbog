@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/homemade-bircher-muesli-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Homemade Bircher Muesli",
+  "ingredients": [
+   "⅓ cup old-fashioned oats",
+   "1 tablespoon raisins or dried cranberries or cherries",
+   "¼ teaspoon ground cinnamon",
+   "1 tablespoon almond butter or peanut butter",
+   "2 tablespoons homemade applesauce or store-bought applesauce",
+   "⅓ cup milk of choice, plus extra for serving (optional)",
+   "1 medium Granny Smith or Honeycrisp apple, preferably organic",
+   "Chopped pecans, walnuts or almonds",
+   "Drizzle of honey or maple syrup, if desired"
+  ],
+  "yield_text": "1 serving",
+  "cook_time": "PT10M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Swiss"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/homemade-bircher-muesli-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

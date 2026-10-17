@@ -1,0 +1,36 @@
+{
+ "url": "https://smittenkitchen.com/2015/02/charred-cauliflower-quesadillas/",
+ "status": "parsed",
+ "facts": {
+  "title": "charred cauliflower quesadillas",
+  "ingredients": [
+   "2 small or 1 large fresh poblano chiles",
+   "1 small head cauliflower, cored and cut into rough 1-inch chunks",
+   "Salt and freshly ground black pepper to taste",
+   "3 tablespoons olive oil, plus more for cooking quesadillas",
+   "3 scallions, thinly sliced",
+   "1 tablespoon lime juice",
+   "2 cups (about 8 ounces) coarsely grated monterey jack cheese",
+   "12 small (7-inch) flour tortillas"
+  ],
+  "yield_text": "Yield: 6 quesadillas, serves 6",
+  "cook_time": null,
+  "categories": [
+   "Cauliflower",
+   "Dinner",
+   "Kid Favorites",
+   "Peppers",
+   "Sandwich",
+   "Tex-Mex",
+   "Vegetarian",
+   "Weeknight Favorite"
+  ],
+  "cuisines": [
+   "Tex-Mex"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2015/02/charred-cauliflower-quesadillas/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/fresh-pineapple-salsa-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Fresh Pineapple Salsa",
+  "ingredients": [
+   "3 cups diced fresh pineapple (about 1 medium)",
+   "1 red bell pepper, chopped",
+   "½ cup chopped red onion (about ½ small onion)",
+   "¼ cup chopped fresh cilantro",
+   "1 medium jalapeño*, seeds and ribs removed, finely chopped",
+   "3 tablespoons lime juice (from about 1 ½ limes), or more if needed",
+   "¼ teaspoon fine sea salt"
+  ],
+  "yield_text": "3 1/2 cups",
+  "cook_time": "PT20M",
+  "categories": [
+   "Salsa"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/fresh-pineapple-salsa-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

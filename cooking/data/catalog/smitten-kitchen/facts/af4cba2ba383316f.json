@@ -1,0 +1,38 @@
+{
+ "url": "https://smittenkitchen.com/2017/02/broccoli-pizza/",
+ "status": "parsed",
+ "facts": {
+  "title": "broccoli pizza",
+  "ingredients": [
+   "2 tablespoons unsalted butter",
+   "1 tablespoon flour",
+   "1/2 cup whole milk",
+   "1/4 teaspoon kosher salt",
+   "1 large or 2 medium garlic cloves, minced",
+   "Freshly ground black pepper",
+   "Olive oil for pan and fingertips",
+   "1 recipe pizza dough (below) or about a 2/3 volume of my lazy fitted-to-your-schedule favorite or your favorite, whichever it may be",
+   "3/4 pound broccoli",
+   "Zest and juice from 1/2 a lemon",
+   "2 ounces coarsely grated provolone",
+   "4 ounces mozzarella, torn into small clumps",
+   "1/2 cup finely grated pecorino romano",
+   "Salt and red pepper flakes, to taste"
+  ],
+  "yield_text": "4",
+  "cook_time": "2 hours (for dough), 40 minutes (for everything else)",
+  "categories": [
+   "Broccoli",
+   "Dinner",
+   "Kid Favorites",
+   "Pizza",
+   "Vegetarian",
+   "Weeknight Favorite"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2017/02/broccoli-pizza/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

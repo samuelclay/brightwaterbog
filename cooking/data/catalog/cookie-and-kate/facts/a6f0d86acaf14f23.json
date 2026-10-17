@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/hibiscus-mocktail-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Refreshing Hibiscus Mocktail",
+  "ingredients": [
+   "3 bags of hibiscus tea or 1 tablespoon loose hibiscus tea",
+   "3 cups (24 ounces) water",
+   "2 small limes (about 4 tablespoons lime juice), plus lime rounds for garnish",
+   "Topo Chico or other sparkling water or club soda",
+   "Ice, for serving",
+   "2 tablespoons honey",
+   "2 tablespoons water"
+  ],
+  "yield_text": "4 drinks",
+  "cook_time": "PT10M",
+  "categories": [
+   "Drink"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/hibiscus-mocktail-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/creamy-avocado-dip-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Creamy Avocado Dip",
+  "ingredients": [
+   "2 large avocados, halved and pitted",
+   "½ cup lightly packed fresh cilantro (some stems are okay)",
+   "⅓ cup lime juice (from about 2 ½ limes)",
+   "1 small jalapeño, seeds and ribs removed, roughly chopped",
+   "2 tablespoons water, more as needed to thin",
+   "½ teaspoon fine sea salt"
+  ],
+  "yield_text": "1 1/2 cups",
+  "cook_time": "PT5M",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/creamy-avocado-dip-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

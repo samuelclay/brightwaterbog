@@ -1,0 +1,34 @@
+{
+ "url": "https://cookieandkate.com/blueberry-cake-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Simple Blueberry Cake",
+  "ingredients": [
+   "1 ¾ cups plus 1 teaspoon white whole wheat flour or regular whole wheat flour",
+   "1 teaspoon baking powder",
+   "½ teaspoon baking soda",
+   "½ teaspoon fine sea salt",
+   "¼ teaspoon ground cinnamon",
+   "½ cup maple syrup or honey",
+   "6 tablespoons melted butter",
+   "2 eggs, preferably at room temperature",
+   "⅔ cup buttermilk*",
+   "2 teaspoons vanilla extract",
+   "3 cups blueberries, fresh (1 ½ pints) or frozen, divided",
+   "1 tablespoon turbinado sugar (also called raw sugar), for sprinkling on top",
+   "Optional serving suggestions: Vanilla ice cream, Greek yogurt or whipped cream"
+  ],
+  "yield_text": "1 cake",
+  "cook_time": "PT55M",
+  "categories": [
+   "Cake"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/blueberry-cake-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

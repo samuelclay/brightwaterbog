@@ -1,0 +1,24 @@
+{
+ "url": "https://cookieandkate.com/perfect-lentils-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "How to Cook Lentils",
+  "ingredients": [
+   "1 cup dry lentils (any variety)",
+   "½ teaspoon salt, to taste",
+   "Optional flavor enhancers: 1 bay leaf and/or 1 large clove garlic (peeled but left whole) and/or 1 to 2 teaspoons extra-virgin olive oil"
+  ],
+  "yield_text": "3 cups",
+  "cook_time": "PT20M",
+  "categories": [
+   "Basic"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/perfect-lentils-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

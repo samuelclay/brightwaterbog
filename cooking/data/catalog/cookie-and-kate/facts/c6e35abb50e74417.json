@@ -1,0 +1,40 @@
+{
+ "url": "https://cookieandkate.com/quinoa-black-bean-tacos-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Quinoa Black Bean Tacos with Creamy Avocado Sauce",
+  "ingredients": [
+   "1 tablespoon olive oil",
+   "1 cup chopped red onion",
+   "2 large garlic cloves, pressed or minced",
+   "3 tablespoons tomato paste",
+   "1 teaspoon ground cumin",
+   "½ teaspoon ground chili powder",
+   "½ cup uncooked quinoa, rinsed well in a fine mesh colander",
+   "1 cup vegetable broth or water",
+   "1 (14 ounce) can black beans or 1 ½ cups cooked black beans, rinsed and drained",
+   "¼ to ½ teaspoon salt, to taste",
+   "Freshly ground black pepper, to taste",
+   "1 large avocado, sliced into long strips",
+   "1 to 2 medium limes, juiced",
+   "1 medium jalapeño, deseeded, membranes removed and roughly chopped",
+   "1 handful fresh cilantro",
+   "¼ teaspoon salt",
+   "6 to 8 small, round corn tortillas (certified gluten-free if necessary)",
+   "1 ½ cups roughly chopped romaine lettuce, arugula or spring greens",
+   "Optional garnishes: pickled jalapeños or radishes, crumbled feta cheese"
+  ],
+  "yield_text": "6 tacos",
+  "cook_time": "PT30M",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/quinoa-black-bean-tacos-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

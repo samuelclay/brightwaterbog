@@ -1,0 +1,33 @@
+{
+ "url": "https://smittenkitchen.com/2014/05/fresh-spinach-pasta/",
+ "status": "parsed",
+ "facts": {
+  "title": "fresh spinach pasta",
+  "ingredients": [
+   "5 ounces baby spinach leaves",
+   "2 3/4 to 3 cups all-purpose flour, preferably unbleached",
+   "1/2 teaspoon sea salt or kosher salt",
+   "3 large eggs",
+   "3 large egg yolks",
+   "Water (only if absolutely needed)",
+   "Additional flour for rolling"
+  ],
+  "yield_text": "Serves 4 generously to 6 petitely; makes about 22 ounces of dough",
+  "cook_time": null,
+  "categories": [
+   "Italian",
+   "Pasta",
+   "Savory Projects",
+   "Spinach",
+   "Spring",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2014/05/fresh-spinach-pasta/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

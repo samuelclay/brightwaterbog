@@ -1,0 +1,38 @@
+{
+ "url": "https://cookieandkate.com/vegetable-soup-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Seriously Good Vegetable Soup",
+  "ingredients": [
+   "4 tablespoons extra-virgin olive oil, divided",
+   "1 medium yellow or white onion, chopped",
+   "3 carrots, peeled and chopped",
+   "2 celery stalks, chopped",
+   "2 cups chopped seasonal vegetables, such as sweet potatoes, green beans, butternut squash, potatoes, bell pepper, zucchini or yellow squash",
+   "1 teaspoon fine sea salt, divided, to taste",
+   "6 cloves garlic, pressed or minced",
+   "½ teaspoon curry powder",
+   "½ teaspoon dried thyme",
+   "1 large can (28 ounces) diced tomatoes",
+   "4 cups (32 ounces) vegetable broth",
+   "2 cups water",
+   "2 bay leaves",
+   "½ teaspoon red pepper flakes, reduce or omit if sensitive to spice",
+   "Freshly ground black pepper, to taste",
+   "2 cups chopped kale or collard greens or chard (thick ribs removed), or spinach",
+   "1 tablespoon lemon juice"
+  ],
+  "yield_text": "6 bowls",
+  "cook_time": "PT1H",
+  "categories": [
+   "Soup"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/vegetable-soup-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

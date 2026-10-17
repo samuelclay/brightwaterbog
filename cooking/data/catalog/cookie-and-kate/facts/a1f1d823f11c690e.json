@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/whole-wheat-gingerbread-pancakes/",
+ "status": "parsed",
+ "facts": {
+  "title": "Whole Wheat Gingerbread Pancakes",
+  "ingredients": [
+   "1 cup whole wheat flour",
+   "1 tablespoon baking powder",
+   "1 teaspoon ground ginger",
+   "¾ teaspoon ground cinnamon",
+   "¼ teaspoon ground nutmeg",
+   "¼ teaspoon salt",
+   "1 cup milk of choice",
+   "1 large egg",
+   "3 tablespoons unsulphured molasses (the strength of your molasses will determine the intensity of the gingerbread flavor—lighter molasses imparts less flavor, whereas blackstrap can be pretty intense)",
+   "2 tablespoons maple syrup or coconut sugar or brown sugar",
+   "2 tablespoons melted butter or coconut oil",
+   "½ teaspoon vanilla extract"
+  ],
+  "yield_text": "2 to 4 servings",
+  "cook_time": "PT35M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/whole-wheat-gingerbread-pancakes/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

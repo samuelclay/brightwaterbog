@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/chocolate-chia-pudding/",
+ "status": "parsed",
+ "facts": {
+  "title": "Chocolate Chia Pudding",
+  "ingredients": [
+   "1 cup unsweetened milk of choice*",
+   "3 tablespoons chia seeds",
+   "2 tablespoons cocoa powder",
+   "1 tablespoon maple syrup**, to taste",
+   "Optional: 1 teaspoon chopped dark chocolate or mini chocolate chips, for texture",
+   "Garnish suggestions: chopped dark chocolate or mini chocolate chips, whipped cream, fresh raspberries, sliced banana, shredded coconut, toasted sliced almonds, chopped pecans or vanilla Greek yogurt"
+  ],
+  "yield_text": "2",
+  "cook_time": "PT5M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [],
+  "author": "Kathryne Taylor",
+  "url": "https://cookieandkate.com/chocolate-chia-pudding/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

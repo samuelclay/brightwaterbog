@@ -1,0 +1,37 @@
+{
+ "url": "https://smittenkitchen.com/2007/01/hibernation-fare/",
+ "status": "parsed",
+ "facts": {
+  "title": "hibernation fare",
+  "ingredients": [
+   "1 tablespoon vegetable oil",
+   "1 humongous onion, diced",
+   "1 15-ounce can of pinto beans, drained and rinsed",
+   "1 15-ounce can of black beans, drained and rinsed",
+   "1 15-ounce can of kidney beans, drained and rinsed",
+   "1 28-ounce plus one 15-ounce can diced tomatoes",
+   "1 cup water or stock",
+   "2 tablespoons chili powder",
+   "1 1/2 teaspoons cumin",
+   "1 teaspoon ground coriander",
+   "1 tablespoon unsweetened cocoa",
+   "1 minced chipotle in adobo, from a can, or if your store is out, ahem, 1/4 teaspoon cayenne will do",
+   "Salt and pepper, to taste",
+   "Sliced green onions, for garnish"
+  ],
+  "yield_text": "Makes (at least) 8 servings.",
+  "cook_time": null,
+  "categories": [
+   "Beans",
+   "Meat",
+   "Pasta",
+   "Vegetarian",
+   "Winter"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2007/01/hibernation-fare/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

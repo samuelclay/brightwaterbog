@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/orange-almond-granola-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Orange & Almond Granola",
+  "ingredients": [
+   "2 teaspoons orange zest (from about 1 ½ oranges, preferably organic)",
+   "2 tablespoons sugar",
+   "4 cups old-fashioned rolled oats",
+   "1 ½ cup raw almonds",
+   "1 teaspoon fine sea salt",
+   "1 teaspoon ground cinnamon",
+   "½ cup extra-virgin olive oil or melted coconut oil",
+   "½ cup honey or maple syrup",
+   "1 tablespoon vanilla extract",
+   "¾ cup raisins, preferably golden"
+  ],
+  "yield_text": "8 cups",
+  "cook_time": "PT30M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/orange-almond-granola-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

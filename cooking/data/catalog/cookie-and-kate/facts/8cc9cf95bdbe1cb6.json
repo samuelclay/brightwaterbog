@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/bold-teriyaki-sauce-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Bold Teriyaki Sauce",
+  "ingredients": [
+   "½ cup reduced-sodium tamari, shoyu or soy sauce*",
+   "½ cup water",
+   "⅓ cup honey or maple syrup",
+   "1 tablespoon rice vinegar or white wine vinegar",
+   "2 teaspoons grated fresh ginger",
+   "6 cloves garlic, pressed or minced",
+   "1 tablespoon cornstarch or arrowroot starch",
+   "1 tablespoon water"
+  ],
+  "yield_text": "1 1/4 cups",
+  "cook_time": "PT15M",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Japanese"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/bold-teriyaki-sauce-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

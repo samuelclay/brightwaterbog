@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/whiskey-sour-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Whiskey Sour",
+  "ingredients": [
+   "2 ounces bourbon whiskey, such as Bulleit",
+   "1 ounce lemon juice",
+   "1 ½ teaspoons maple syrup or ½ ounce simple syrup",
+   "Optional: 1 egg white",
+   "Orange wedge and Luxardo cocktail cherry, for garnish"
+  ],
+  "yield_text": "1 drink",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/whiskey-sour-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

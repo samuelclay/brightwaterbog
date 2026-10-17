@@ -1,0 +1,35 @@
+{
+ "url": "https://smittenkitchen.com/2013/11/spinach-and-egg-pizzettes/",
+ "status": "parsed",
+ "facts": {
+  "title": "spinach and egg pizzette",
+  "ingredients": [
+   "About 1 pound fresh spinach with stems or 10 ounces baby spinach",
+   "1/4 cup creme fraiche",
+   "1 small garlic clove, minched",
+   "1/2 cup finely grated parmesan, plus more for garnish",
+   "1/2 teaspoon coarse salt, plus more to taste",
+   "5 to 6 (one per pizza) small eggs, if you can find them, or the next smallest that you can find",
+   "Freshly ground black pepper",
+   "Olive oil, to finish"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Brunch",
+   "Eggs",
+   "Italian",
+   "Pizza",
+   "Put An Egg On It",
+   "Spinach",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2013/11/spinach-and-egg-pizzettes/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

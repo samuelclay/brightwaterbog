@@ -1,0 +1,35 @@
+{
+ "url": "https://cookieandkate.com/creamy-pumpkin-marinara-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Creamy Pumpkin Marinara",
+  "ingredients": [
+   "2 tablespoons extra-virgin olive oil",
+   "1 yellow onion, chopped",
+   "1 red bell pepper, chopped",
+   "½ teaspoon salt, divided",
+   "2 cloves garlic, pressed or minced",
+   "½ teaspoon dried oregano",
+   "¼ teaspoon dried tarragon",
+   "¼ teaspoon ground cinnamon",
+   "1 can (15 ounces) diced or crushed tomatoes",
+   "1 can (15 ounces) pumpkin purée",
+   "1 to 2 tablespoons butter",
+   "1 to 2 teaspoons balsamic vinegar",
+   "Freshly ground black pepper",
+   "Finely grated Parmesan and chopped fresh parsley, for garnish (both optional)"
+  ],
+  "yield_text": "4 cups",
+  "cook_time": "PT25M",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/creamy-pumpkin-marinara-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/butternut-squash-mac-and-cheese/",
+ "status": "parsed",
+ "facts": {
+  "title": "Butternut Squash Mac and Cheese",
+  "ingredients": [
+   "1 medium to large butternut squash (1.5 pounds or larger), halved",
+   "1 teaspoon extra virgin olive oil",
+   "2 tablespoons unsalted butter",
+   "1 teaspoon garlic powder",
+   "1 teaspoon onion powder",
+   "1 pound short-cut pasta (pipe regate, macaroni noodles, casarecce, cavatelli, fusilli)",
+   "5 cups water",
+   "1 teaspoon fine salt, to taste",
+   "4 ounces cream cheese, cubed",
+   "8 ounces shredded sharp cheddar cheese",
+   "½ cup (2 ounces) finely grated Parmesan cheese, plus more for serving"
+  ],
+  "yield_text": "8 servings",
+  "cook_time": "PT1H15M",
+  "categories": [
+   "Pasta"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/butternut-squash-mac-and-cheese/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

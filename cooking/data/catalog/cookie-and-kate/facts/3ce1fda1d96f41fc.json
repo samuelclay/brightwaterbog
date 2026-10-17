@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/overnight-oats-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Overnight Oats",
+  "ingredients": [
+   "⅓ cup homemade muesli, or ⅓ cup old-fashioned oats plus ¼ teaspoon ground cinnamon",
+   "1 tablespoon chia seeds",
+   "1 tablespoon almond butter or peanut butter",
+   "½ cup milk of choice for a very thick consistency, or up to ⅔ cup milk for a lighter consistency",
+   "½ cup fruit",
+   "Drizzle of maple syrup or honey, if desired"
+  ],
+  "yield_text": "1 serving",
+  "cook_time": "PT5M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Gluten free"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/overnight-oats-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

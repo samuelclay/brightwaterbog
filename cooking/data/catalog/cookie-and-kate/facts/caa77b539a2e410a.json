@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/baked-potato-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Best Baked Potato",
+  "ingredients": [
+   "1 to 4 medium Russet potatoes (7 to 9 ounces each)",
+   "1 tablespoon melted butter or extra-virgin olive oil",
+   "Flaky sea salt or kosher salt, for sprinkling",
+   "Desired toppings, such as sour cream, butter, chives, salt and pepper"
+  ],
+  "yield_text": "4 baked potatoes",
+  "cook_time": "PT1H5M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/baked-potato-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

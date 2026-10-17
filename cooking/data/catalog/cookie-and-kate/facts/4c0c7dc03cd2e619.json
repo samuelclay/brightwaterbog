@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/green-goddess-tortellini-salad/",
+ "status": "parsed",
+ "facts": {
+  "title": "Green Goddess Tortellini Salad",
+  "ingredients": [
+   "1 batch Green Goddess Dressing",
+   "2 packages (8 to 10 ounces each) spinach or cheese tortellini",
+   "1 teaspoon salt, more to taste",
+   "3 cups tender vegetables*",
+   "2 handfuls of baby arugula",
+   "1 tablespoon extra-virgin olive oil",
+   "1 tablespoon lemon juice",
+   "Lemon zest",
+   "Flaky sea salt, to taste (optional)"
+  ],
+  "yield_text": "4 to 6 servings",
+  "cook_time": "PT30M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/green-goddess-tortellini-salad/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

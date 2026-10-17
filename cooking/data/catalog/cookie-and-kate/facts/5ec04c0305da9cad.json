@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/spaghetti-with-fresh-tomato-sauce/",
+ "status": "parsed",
+ "facts": {
+  "title": "Spaghetti with Fresh Tomato Sauce",
+  "ingredients": [
+   "1 ½ pounds ripe tomatoes",
+   "2 tablespoons olive oil",
+   "1 tablespoon fresh lemon juice",
+   "½ teaspoon salt",
+   "¼ teaspoon sugar, optional",
+   "Freshly ground black pepper, to taste",
+   "1 very small garlic clove (or ½ medium clove), pressed or minced",
+   "½ pound whole grain thin spaghetti or angel-hair pasta or rotini/fusilli or penne",
+   "Optional but recommended: ½ cup freshly grated Parmesan",
+   "¼ cup chopped fresh basil"
+  ],
+  "yield_text": "2 to 4 servings",
+  "cook_time": "PT25M",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/spaghetti-with-fresh-tomato-sauce/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,36 @@
+{
+ "url": "https://cookieandkate.com/pinto-posole-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Pinto Posole",
+  "ingredients": [
+   "2 to 4 guajillo chili peppers*",
+   "2 tablespoons extra-virgin olive oil",
+   "1 large white onion, finely chopped",
+   "4 cloves garlic, pressed or minced",
+   "1 tablespoon ground cumin",
+   "½ cup (4 ounces) tomato paste",
+   "1 bay leaf",
+   "3 cans (15 ounces each) pinto beans, rinsed and drained",
+   "1 can (15 ounces) hominy, rinsed and drained",
+   "32 ounces (4 cups) vegetable broth",
+   "2 cups water",
+   "½ teaspoon fine sea salt, to taste",
+   "¼ cup chopped cilantro, divided",
+   "1 lime, halved",
+   "Recommended garnishes: sliced avocado, shredded green cabbage, chopped radish, onion and/or jalapeño"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT55M",
+  "categories": [
+   "Soup"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pinto-posole-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

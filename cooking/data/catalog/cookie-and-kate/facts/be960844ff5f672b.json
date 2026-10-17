@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/classic-hot-toddy-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Classic Hot Toddy",
+  "ingredients": [
+   "¾ cup water",
+   "1 ½ ounces whiskey",
+   "2 to 3 teaspoons honey, to taste",
+   "2 to 3 teaspoons lemon juice, to taste",
+   "1 lemon round",
+   "1 cinnamon stick (optional, for garnish)"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT10M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "Scottish"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/classic-hot-toddy-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

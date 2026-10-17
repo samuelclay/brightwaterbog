@@ -1,0 +1,40 @@
+{
+ "url": "https://cookieandkate.com/carrot-cake-pancakes/",
+ "status": "parsed",
+ "facts": {
+  "title": "Carrot Cake Pancakes",
+  "ingredients": [
+   "2 cups finely grated carrots (about 6 big or 8 smallish carrots)*",
+   "1 cup (125 grams) whole wheat pastry flour, whole wheat flour or all-purpose flour",
+   "1 ½ teaspoons baking powder",
+   "½ teaspoon baking soda",
+   "½ teaspoon fine salt",
+   "1 teaspoon ground cinnamon",
+   "¼ teaspoon ground nutmeg",
+   "¼ teaspoon ground ginger",
+   "1 large egg",
+   "2 tablespoons packed coconut sugar or brown sugar",
+   "1 cup buttermilk**",
+   "1 teaspoon vanilla extract",
+   "Avocado oil or butter, for cooking",
+   "4 ounces cream cheese, softened",
+   "2 tablespoons real maple syrup, plus more for serving",
+   "2 tablespoons milk (more depending on desired consistency)",
+   "½ teaspoon vanilla extract",
+   "Dash of ground cinnamon",
+   "Optional: Chopped toasted walnuts or pecans, for garnish"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT35M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/carrot-cake-pancakes/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

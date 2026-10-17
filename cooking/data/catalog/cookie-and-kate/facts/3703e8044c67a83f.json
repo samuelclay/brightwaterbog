@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/caprese-sandwich-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Caprese Sandwich",
+  "ingredients": [
+   "1 baguette (16 ounces)",
+   "1 tablespoon thick balsamic vinegar or balsamic glaze*",
+   "1 tablespoon extra-virgin olive oil",
+   "1 ½ cups baby arugula",
+   "1 mozzarella ball (8 ounces)",
+   "2 medium ripe tomatoes, sliced into ¼-inch thick rounds",
+   "Flaky sea salt or kosher salt",
+   "1 small or ½ medium clove garlic, roughly chopped",
+   "½ cup mayonnaise",
+   "½ cup (1 ounce) lightly packed fresh basil",
+   "¼ teaspoon fine sea salt",
+   "Lots of freshly ground black pepper, to taste"
+  ],
+  "yield_text": "4 sandwiches",
+  "cook_time": "PT20M",
+  "categories": [
+   "Sandwich"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/caprese-sandwich-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

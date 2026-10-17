@@ -145,3 +145,8 @@ finishes.
 - Known data quirks are kept in each extraction's `issues` field (e.g. pair 53's
   nutrition line is cut off in the photo; pair 102's front card has no matching
   ingredients/steps because its back was a different recipe).
+
+## Smitten Kitchen and Cookie and Kate
+
+The independent linked catalogs, parallel import commands, and review reports are
+documented in [data/catalog/README.md](data/catalog/README.md).

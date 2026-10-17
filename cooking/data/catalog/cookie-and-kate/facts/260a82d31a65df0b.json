@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/how-to-make-a-cheese-board/",
+ "status": "parsed",
+ "facts": {
+  "title": "How to Make a Cheese Board",
+  "ingredients": [
+   "Soft cheese: Goat cheese, Brie or Camembert",
+   "Semi-hard cheese: Cheddar, Gouda or Havarti",
+   "Hard cheese*: Parmesan, Manchego or Pecorino",
+   "Blue cheese: Gorgonzola, Roquefort or Stilton",
+   "Nuts: Almonds, pecans, walnuts or pistachios",
+   "Fresh or dried fruit",
+   "Honey or jam",
+   "Olives, tapenade or pepperoncini peppers",
+   "Crackers or crostini"
+  ],
+  "yield_text": "4 to 10 servings",
+  "cook_time": "PT25M",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "French"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/how-to-make-a-cheese-board/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

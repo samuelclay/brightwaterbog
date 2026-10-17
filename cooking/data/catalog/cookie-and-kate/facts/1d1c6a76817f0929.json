@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/naturally-sweetened-pecan-pie-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Naturally Sweetened Pecan Pie",
+  "ingredients": [
+   "1 single-crust pie dough",
+   "1 ¾ cups pecan halves",
+   "3 large eggs",
+   "1 cup maple syrup",
+   "2 tablespoons melted butter",
+   "2 teaspoons vanilla extract",
+   "Optional: 1 tablespoon bourbon",
+   "½ teaspoon fine sea salt",
+   "Optional, for serving: vanilla ice cream or whipped cream"
+  ],
+  "yield_text": "1 pie",
+  "cook_time": "PT1H10M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/naturally-sweetened-pecan-pie-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/socca-pizza-with-summer-squash-and-feta/",
+ "status": "parsed",
+ "facts": {
+  "title": "Socca Pizza with Summer Squash and Feta",
+  "ingredients": [
+   "1 cup (120 grams) chickpea flour",
+   "1 cup water",
+   "¼ cup olive oil, divided",
+   "1 to 2 garlic cloves, pressed or minced",
+   "¼ teaspoon sea salt",
+   "½ cup shredded mozzarella",
+   "¼ cup crumbled feta",
+   "1 small zucchini and/or yellow squash, ribboned with a vegetable peeler and/or julienne peeler and tossed lightly in olive oil",
+   "5 pitted Kalamata olives, sliced in half lengthwise",
+   "Small handful sun-dried tomatoes (either oil-packed or Trader Joe’s dried kind)",
+   "1 small sprig fresh thyme, optional"
+  ],
+  "yield_text": "2",
+  "cook_time": "PT1H25M",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [
+   "French-inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/socca-pizza-with-summer-squash-and-feta/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

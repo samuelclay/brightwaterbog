@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/quick-pickled-peppers-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Quick Pickled Peppers",
+  "ingredients": [
+   "½ pound jalapeños (choose larger jalapeños for less spicy pickles)",
+   "1 red bell pepper",
+   "1 cup apple cider vinegar (or white wine vinegar or distilled white vinegar)",
+   "1 cup water",
+   "2 tablespoons honey or sugar of choice",
+   "2 cloves garlic, peeled and smashed",
+   "1 teaspoon salt"
+  ],
+  "yield_text": "1/2 pound pickled peppers",
+  "cook_time": "PT25M",
+  "categories": [
+   "Pickles"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/quick-pickled-peppers-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/paloma-cocktail/",
+ "status": "parsed",
+ "facts": {
+  "title": "Paloma Cocktail",
+  "ingredients": [
+   "2 ounces silver (blanco) tequila",
+   "1 ½ ounces grapefruit juice",
+   "¾ ounce lime juice",
+   "½ ounce simple syrup",
+   "Tiny pinch of salt",
+   "Topo Chico or other sparkling water",
+   "Thin wedge of grapefruit, for garnish"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/paloma-cocktail/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

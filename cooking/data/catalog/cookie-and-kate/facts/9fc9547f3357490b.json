@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/pomegranate-salsa-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Pomegranate Salsa",
+  "ingredients": [
+   "2 cups pomegranate arils (about 2 pomegranate’s worth)",
+   "⅓ cup finely chopped red onion",
+   "¼ cup finely chopped cilantro",
+   "1 jalapeño pepper, seeded and finely chopped (use a smaller jalapeño for less heat, or leave in some seeds for more heat)",
+   "½ teaspoon lime zest",
+   "2 tablespoons lime juice",
+   "⅛ teaspoon fine salt",
+   "4 to 5 ounces goat cheese",
+   "8 ounces cream cheese",
+   "1 tablespoon honey",
+   "1 small-to-medium garlic clove",
+   "⅛ teaspoon fine salt"
+  ],
+  "yield_text": "8 servings",
+  "cook_time": "PT20M",
+  "categories": [
+   "Salsa"
+  ],
+  "cuisines": [
+   "Mexican-inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pomegranate-salsa-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

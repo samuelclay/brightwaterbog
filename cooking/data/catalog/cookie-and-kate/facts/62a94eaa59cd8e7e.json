@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/best-chickpea-salad-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Favorite Chickpea Salad",
+  "ingredients": [
+   "2 cans (15 ounces each) chickpeas, rinsed and drained, or 3 cups cooked chickpeas",
+   "1 medium red bell pepper, chopped",
+   "1 ½ cups chopped fresh flat-leaf parsley (about 1 bunch)",
+   "½ cup chopped red onion (about ½ small)",
+   "½ cup chopped celery (about 2 ribs)",
+   "3 tablespoons extra-virgin olive oil",
+   "3 tablespoons lemon juice (from 1 to 1 ½ lemons), or more if needed",
+   "2 cloves garlic, pressed or minced",
+   "½ teaspoon fine salt",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT20M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-chickpea-salad-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

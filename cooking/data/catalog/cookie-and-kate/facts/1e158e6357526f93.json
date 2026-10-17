@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/no-bake-greek-yogurt-tart-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "No-Bake Greek Yogurt Tart",
+  "ingredients": [
+   "2 cups raw pecans",
+   "10 Medjool dates, soaked in warm water for 10 minutes and pitted",
+   "¼ teaspoon fine sea salt",
+   "1 ½ cups plain Greek yogurt",
+   "½ cup raspberries or blueberries",
+   "4 strawberries, hulled and thinly sliced",
+   "2 tablespoons honey"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "PT30M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/no-bake-greek-yogurt-tart-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

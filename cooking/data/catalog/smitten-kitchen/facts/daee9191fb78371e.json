@@ -1,0 +1,35 @@
+{
+ "url": "https://smittenkitchen.com/2010/04/avocado-salad-with-carrot-ginger-dressing/",
+ "status": "parsed",
+ "facts": {
+  "title": "avocado salad with carrot-ginger dressing",
+  "ingredients": [
+   "1 large carrot, peeled and roughly chopped",
+   "1 small shallot, peeled and roughly chopped",
+   "2 tablespoons roughly chopped fresh ginger",
+   "2 tablespoons white miso",
+   "2 tablespoons rice vinegar",
+   "2 tablespoons toasted sesame seed oil",
+   "1/4 cup grape seed or another neutral oil",
+   "2 tablespoons water",
+   "1 small/medium head of lettuce",
+   "1/4 red onion, thinly sliced",
+   "1 avocado, quartered and thinly sliced"
+  ],
+  "yield_text": "4 with dressing to spare",
+  "cook_time": "20 minutes",
+  "categories": [
+   "Avocado",
+   "Carrots",
+   "Egg-Free",
+   "Salad",
+   "Vegan",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2010/04/avocado-salad-with-carrot-ginger-dressing/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

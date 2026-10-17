@@ -1,0 +1,33 @@
+{
+ "url": "https://smittenkitchen.com/2015/09/oat-and-wheat-sandwich-bread/",
+ "status": "parsed",
+ "facts": {
+  "title": "oat and wheat sandwich bread",
+  "ingredients": [
+   "5 cups (635 grams) whole-wheat flour",
+   "2 cups (160 grams) rolled oats",
+   "1 tablespoon kosher or coarse salt",
+   "3 tablespoons raw or brown sugar, honey or agave nectar",
+   "1 large egg",
+   "1/4 cup (55 grams grams) vegetable or olive oil, plus a little more to coat bowl",
+   "1 1/4 cups lukewarm water",
+   "1 1/4 cups lukewarm milk, any kind",
+   "1 1/2 tablespoons (about 14 grams) instant yeast"
+  ],
+  "yield_text": "Yield: 2 standard sandwich bread loaves",
+  "cook_time": null,
+  "categories": [
+   "Bread",
+   "Budget",
+   "Freezer Friendly",
+   "Sandwich",
+   "Savory Projects",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2015/09/oat-and-wheat-sandwich-bread/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

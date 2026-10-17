@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/rosemary-parmesan-sweet-potato/",
+ "status": "parsed",
+ "facts": {
+  "title": "Rosemary Parmesan Sweet Potato",
+  "ingredients": [
+   "1 sweet potato",
+   "2 tablespoons chopped green onions",
+   "2 tablespoons grated Parmesan cheese",
+   "pat of butter",
+   "1 teaspoon finely chopped fresh rosemary",
+   "freshly ground sea salt and black pepper, to taste"
+  ],
+  "yield_text": "1",
+  "cook_time": "PT55M",
+  "categories": [
+   "Side"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/rosemary-parmesan-sweet-potato/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

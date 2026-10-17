@@ -1,0 +1,38 @@
+{
+ "url": "https://cookieandkate.com/favorite-banana-cake-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Favorite Banana Cake",
+  "ingredients": [
+   "⅓ cup melted coconut oil or extra-virgin olive oil or high quality vegetable oil*",
+   "½ cup honey or maple syrup",
+   "2 large eggs",
+   "1 cup mashed ripe bananas (about 2 ½ medium or 2 large bananas)",
+   "¼ cup milk of choice or water",
+   "1 teaspoon baking powder",
+   "½ teaspoon baking soda",
+   "1 teaspoon vanilla extract",
+   "½ teaspoon salt",
+   "½ teaspoon ground cinnamon",
+   "1 cup white whole wheat flour or regular whole wheat flour",
+   "¾ cup whole wheat pastry flour or all-purpose flour",
+   "Totally optional: ½ cup mix-ins like chopped walnuts or pecans, chocolate chips, raisins, chopped dried fruit, fresh banana slices…",
+   "8 ounces cream cheese, softened to room temperature",
+   "2 tablespoons unsalted butter, softened to room temperature",
+   "1 ¼ cups powdered sugar",
+   "1 teaspoon vanilla extract"
+  ],
+  "yield_text": "One 9-inch cake",
+  "cook_time": "PT55M",
+  "categories": [
+   "Cake"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/favorite-banana-cake-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

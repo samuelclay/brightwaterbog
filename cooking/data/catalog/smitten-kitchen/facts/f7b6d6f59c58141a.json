@@ -1,0 +1,43 @@
+{
+ "url": "https://smittenkitchen.com/2015/05/pasta-salad-with-roasted-tomatoes/",
+ "status": "parsed",
+ "facts": {
+  "title": "pasta salad with roasted tomatoes",
+  "ingredients": [
+   "Roasted tomatoes",
+   "4 cups (about 680 grams) grape tomatoes",
+   "Olive oil",
+   "Salt",
+   "Oregano dressing",
+   "1 big clove or 2 small cloves garlic",
+   "1 1/2 tablespoons dried oregano",
+   "1 1/4 teaspoons kosher salt, plus more to taste",
+   "Freshly ground black pepper",
+   "3 tablespoons lemon juice",
+   "3 tablespoons red or white wine vinegar",
+   "1/3 cup olive oil",
+   "Assembly",
+   "1 pound (455 grams) dried pasta, a bite-sized shape of your choosing, cooked until 1 to 2 minutes before doneness and drained",
+   "6 ounces (170 grams) crumbled salty cheese, such as ricotta salata, feta, queso fresco",
+   "1/2 cup (70 grams) pine nuts, well-toasted and cooled",
+   "1/2 cup (70 grams) pitted and rough-chopped olives of your choice",
+   "Salt and pepper",
+   "Handful fresh basil leaves, roughly chopped"
+  ],
+  "yield_text": "Serves 8",
+  "cook_time": null,
+  "categories": [
+   "Pasta",
+   "Picnics",
+   "Salad",
+   "Summer",
+   "Tomatoes",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2015/05/pasta-salad-with-roasted-tomatoes/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

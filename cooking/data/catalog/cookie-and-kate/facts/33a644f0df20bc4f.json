@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/italian-dressing-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Italian Dressing",
+  "ingredients": [
+   "½ cup extra-virgin olive oil",
+   "⅓ cup red wine vinegar or white wine vinegar",
+   "1 tablespoon Dijon mustard",
+   "2 teaspoons dried oregano",
+   "1 teaspoon honey",
+   "2 cloves garlic, pressed or minced",
+   "10 twists of freshly ground black pepper",
+   "¼ teaspoon salt, more to taste",
+   "Pinch of red pepper flakes, for heat (optional)"
+  ],
+  "yield_text": "1 cup",
+  "cook_time": "PT5M",
+  "categories": [
+   "Salad dressing"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/italian-dressing-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

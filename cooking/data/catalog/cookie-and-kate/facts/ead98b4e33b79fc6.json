@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/healthy-granola-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Healthy Granola",
+  "ingredients": [
+   "4 cups old-fashioned rolled oats (use certified gluten-free oats for gluten-free granola)",
+   "1 ½ cup raw nuts and/or seeds",
+   "1 teaspoon fine-grain sea salt",
+   "½ teaspoon ground cinnamon",
+   "½ cup melted coconut oil or olive oil",
+   "½ cup maple syrup or honey",
+   "1 teaspoon vanilla extract",
+   "⅔ cup dried fruit, chopped if large",
+   "Totally optional additional mix-ins: ½ cup chocolate chips or coconut flakes*"
+  ],
+  "yield_text": "8 cups",
+  "cook_time": "PT26M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/healthy-granola-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

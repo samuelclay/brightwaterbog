@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/chocolate-smoothie/",
+ "status": "parsed",
+ "facts": {
+  "title": "Creamy Chocolate Smoothie",
+  "ingredients": [
+   "¾ cup cashew milk, almond milk or milk of choice",
+   "1 large frozen banana (break your bananas into one-inch chunks before freezing)",
+   "1 tablespoon semisweet to dark chocolate chips",
+   "1 tablespoon cocoa powder",
+   "1 to 2 tablespoons peanut butter, almond butter or cashew butter",
+   "Optional sweetener: ½ teaspoon maple syrup"
+  ],
+  "yield_text": "1",
+  "cook_time": "PT5M",
+  "categories": [
+   "Smoothie"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/chocolate-smoothie/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/kale-pecan-pesto-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Kale Pecan Pesto Recipe",
+  "ingredients": [
+   "3 cups packed kale (about 1 small bunch), preferably the Tuscan/lacinato variety, thick ribs removed",
+   "½ cup raw pecans",
+   "1 to 2 tablespoons lemon juice, to taste",
+   "1 medium-to-large clove garlic",
+   "½ teaspoon fine sea salt",
+   "½ cup extra-virgin olive oil",
+   "½ cup grated Parmesan cheese"
+  ],
+  "yield_text": "1 1/2 cups",
+  "cook_time": "PT10M",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/kale-pecan-pesto-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

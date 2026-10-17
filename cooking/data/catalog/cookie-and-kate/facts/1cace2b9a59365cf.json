@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/easy-pizza-sauce-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Easy Pizza Sauce",
+  "ingredients": [
+   "3 tablespoons tomato paste",
+   "1 can (14 ounces) crushed tomatoes,* fire-roasted or regular",
+   "1 tablespoon extra-virgin olive oil",
+   "3 cloves garlic, pressed or minced",
+   "1 teaspoon balsamic vinegar",
+   "½ teaspoon dried oregano",
+   "½ teaspoon fine salt",
+   "Up to 1 teaspoon coconut sugar or brown sugar (optional)"
+  ],
+  "yield_text": "1 3/4 cups",
+  "cook_time": "PT5M",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/easy-pizza-sauce-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

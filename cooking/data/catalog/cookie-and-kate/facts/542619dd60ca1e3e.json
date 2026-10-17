@@ -1,0 +1,35 @@
+{
+ "url": "https://cookieandkate.com/west-african-peanut-soup/",
+ "status": "parsed",
+ "facts": {
+  "title": "Vegetarian Peanut Soup",
+  "ingredients": [
+   "2 tablespoons extra-virgin olive oil",
+   "1 medium red onion, chopped",
+   "1 medium jalapeño (optional, for heat), seeded, ribs removed, and finely chopped",
+   "1 teaspoon fine salt, to taste",
+   "2 tablespoons finely grated or minced fresh ginger",
+   "4 medium cloves garlic, pressed or minced",
+   "4 cups (32 ounces) vegetable broth",
+   "2 cups water",
+   "¾ cup creamy peanut butter*",
+   "6 ounces tomato paste",
+   "1 medium bunch collard greens or kale (about 8 ounces), tough ribs removed and leaves chopped into bite-size pieces",
+   "Hot sauce, preferably Sriracha",
+   "For serving (optional): 1 batch of cooked brown rice",
+   "For garnish (optional): ¼ cup roughly chopped roasted peanuts and a handful of chopped fresh cilantro"
+  ],
+  "yield_text": "6",
+  "cook_time": "PT45M",
+  "categories": [
+   "Soup"
+  ],
+  "cuisines": [
+   "African"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/west-african-peanut-soup/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

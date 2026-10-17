@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/blue-cheese-dip-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Easy Blue Cheese Dip",
+  "ingredients": [
+   "1 cup sour cream or Greek yogurt",
+   "1 cup (4 ounces) crumbled blue cheese, plus more for garnish",
+   "2 tablespoons lemon juice",
+   "1 tablespoon finely chopped chives or green onion, plus more for garnish",
+   "1 medium clove garlic, pressed or minced",
+   "Freshly ground black pepper, to taste",
+   "½ teaspoon fine salt, to taste"
+  ],
+  "yield_text": "2 cups",
+  "cook_time": "PT10M",
+  "categories": [
+   "Dip"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/blue-cheese-dip-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

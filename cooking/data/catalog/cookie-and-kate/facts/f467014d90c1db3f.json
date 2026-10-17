@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/edamame-hummus-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Edamame Hummus",
+  "ingredients": [
+   "⅓ cup tahini",
+   "⅓ cup lemon juice (about 2 to 3 lemons)",
+   "3 tablespoons extra-virgin olive oil, plus more for garnish",
+   "1 medium clove garlic, roughly chopped",
+   "½ teaspoon fine-grain sea salt",
+   "½ cup lightly packed fresh cilantro leaves, plus more for garnish",
+   "1 ½ cups shelled edamame (10 ounces), preferably organic, defrosted if frozen*",
+   "2 to 4 tablespoons water, as necessary",
+   "Sesame seeds for garnish (optional)"
+  ],
+  "yield_text": "2 cups",
+  "cook_time": "PT20M",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Asian Fusion"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/edamame-hummus-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

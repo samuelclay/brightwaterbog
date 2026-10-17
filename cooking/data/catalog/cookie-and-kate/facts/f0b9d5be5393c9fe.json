@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/festive-pomegranate-guacamole/",
+ "status": "parsed",
+ "facts": {
+  "title": "Festive Pomegranate Guacamole",
+  "ingredients": [
+   "4 medium ripe avocados, pitted and diced",
+   "2 tablespoons fresh lime juice",
+   "2 garlic cloves, pressed or minced",
+   "1 teaspoon salt",
+   "½ medium red onion, chopped",
+   "¼ cup fresh cilantro, mostly leaves, chopped",
+   "1 to 2 small jalapeños (or 1 serrano pepper), seeded and chopped",
+   "1 medium pomegranate, deseeded (about 1 cup worth of pomegranate arils)",
+   "Optional: ½ cup crumbled feta"
+  ],
+  "yield_text": "3 cups",
+  "cook_time": "PT20M",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/festive-pomegranate-guacamole/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

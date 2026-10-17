@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/fresh-jalapeno-relish-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Fresh Jalapeño Relish",
+  "ingredients": [
+   "1 pound fresh jalapeños",
+   "2 cloves garlic, peeled and quartered",
+   "¼ cup apple cider vinegar",
+   "1 ½ teaspoons fine sea salt"
+  ],
+  "yield_text": "2 cups",
+  "cook_time": "PT20M",
+  "categories": [
+   "Dip"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/fresh-jalapeno-relish-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

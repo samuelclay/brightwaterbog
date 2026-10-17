@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/easy-aioli-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Cheater's Aioli",
+  "ingredients": [
+   "5 medium cloves garlic, pressed or minced",
+   "2 teaspoons lemon juice, to taste",
+   "Sprinkle of salt",
+   "½ cup good quality mayonnaise, to taste",
+   "Optional: ¼ teaspoon Dijon mustard"
+  ],
+  "yield_text": "1/2 cup",
+  "cook_time": "PT15M",
+  "categories": [
+   "Condiment"
+  ],
+  "cuisines": [
+   "French"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/easy-aioli-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

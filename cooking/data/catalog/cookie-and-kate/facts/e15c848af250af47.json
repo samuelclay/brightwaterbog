@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/mixed-berry-crisp-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Mixed Berry Crisp (Gluten Free)",
+  "ingredients": [
+   "2 pounds (32 ounces, about 5 cups) mixed berries, fresh or frozen*",
+   "⅓ cup honey or maple syrup",
+   "2 tablespoons arrowroot starch or 3 tablespoons cornstarch",
+   "½ teaspoon orange or lemon zest",
+   "2 tablespoons orange or lemon juice",
+   "1 cup old-fashioned oats**",
+   "½ cup packed almond flour or almond meal",
+   "½ cup sliced almonds or chopped pistachios or pecans (optional)",
+   "⅓ cup packed coconut sugar or brown sugar",
+   "¼ teaspoon fine salt",
+   "4 tablespoons unsalted butter, melted",
+   "3 tablespoons plain yogurt (Greek or regular), or additional melted butter"
+  ],
+  "yield_text": "8 servings",
+  "cook_time": "PT55M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/mixed-berry-crisp-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

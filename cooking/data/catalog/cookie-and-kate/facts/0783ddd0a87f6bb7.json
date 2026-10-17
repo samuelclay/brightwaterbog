@@ -1,0 +1,34 @@
+{
+ "url": "https://cookieandkate.com/sun-dried-tomato-spinach-quinoa-salad-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Sun-Dried Tomato, Spinach and Quinoa Salad",
+  "ingredients": [
+   "1 cup quinoa, rinsed in a fine-mesh colander",
+   "⅓ cup oil-packed sun-dried tomatoes, drained and chopped",
+   "2 cups roughly chopped fresh spinach or arugula",
+   "⅓ cup sliced almonds",
+   "¼ teaspoon olive oil",
+   "Salt, to taste",
+   "2 tablespoons olive oil",
+   "2 tablespoons lemon juice",
+   "2 cloves garlic, pressed or minced",
+   "1 teaspoon Dijon mustard",
+   "½ teaspoon salt",
+   "Pinch of red pepper flakes",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT25M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/sun-dried-tomato-spinach-quinoa-salad-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

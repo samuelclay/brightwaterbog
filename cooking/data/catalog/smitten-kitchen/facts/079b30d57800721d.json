@@ -1,0 +1,31 @@
+{
+ "url": "https://smittenkitchen.com/2014/07/three-ingredient-summertime-salsa/",
+ "status": "parsed",
+ "facts": {
+  "title": "three-ingredient summertime salsa",
+  "ingredients": [
+   "Three-Ingredient Summertime Salsa",
+   "From Lisa Fain, via Cup of Jo"
+  ],
+  "yield_text": "Yield: About 1 1/2 cups salsa",
+  "cook_time": null,
+  "categories": [
+   "5 Ingredients or Fewer",
+   "Dips",
+   "Party Snacks",
+   "Picnics",
+   "Quick",
+   "Summer",
+   "Tex-Mex",
+   "Tomatoes",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Tex-Mex"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2014/07/three-ingredient-summertime-salsa/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

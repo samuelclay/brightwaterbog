@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/greek-salad-dressing-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Greek Salad Dressing",
+  "ingredients": [
+   "½ cup extra-virgin olive oil",
+   "¼ cup red wine vinegar",
+   "2 medium cloves garlic, pressed or minced",
+   "2 teaspoons honey or maple syrup, to taste",
+   "½ teaspoon dried oregano, to taste",
+   "½ teaspoon fine salt",
+   "Freshly ground black pepper",
+   "Pinch of red pepper flakes, for heat (optional)"
+  ],
+  "yield_text": "3/4 cup",
+  "cook_time": "PT5M",
+  "categories": [
+   "Salad dressing"
+  ],
+  "cuisines": [
+   "Greek"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/greek-salad-dressing-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

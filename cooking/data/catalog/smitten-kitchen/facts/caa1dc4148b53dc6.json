@@ -1,0 +1,31 @@
+{
+ "url": "https://smittenkitchen.com/2023/04/hash-brown-patties/",
+ "status": "parsed",
+ "facts": {
+  "title": "hash brown patties",
+  "ingredients": [
+   "1 pound russet potato(es), peeled, and cut into 1-inch chunks",
+   "Salt",
+   "1 tablespoon potato starch",
+   "Neutral, high-heat oil for frying"
+  ],
+  "yield_text": "4 large or 6 smaller patties",
+  "cook_time": "40 minutes",
+  "categories": [
+   "5 Ingredients or Fewer",
+   "Breakfast",
+   "Dairy-Free",
+   "Egg-Free",
+   "Gluten-Free",
+   "Potatoes",
+   "Put An Egg On It",
+   "Recipe",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2023/04/hash-brown-patties/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/fresh-margaritas/",
+ "status": "parsed",
+ "facts": {
+  "title": "Skinny Margaritas",
+  "ingredients": [
+   "Kosher salt or coarsely ground sea salt",
+   "2 ounces (¼ cup) silver tequila",
+   "1 ½ ounces (3 tablespoons/about 1 ½ small limes) fresh lime juice",
+   "1 ounce (2 tablespoons/about ½ of a medium orange) fresh orange juice",
+   "1 teaspoon light agave nectar",
+   "1 lime wedge or round, for garnish"
+  ],
+  "yield_text": "1",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/fresh-margaritas/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

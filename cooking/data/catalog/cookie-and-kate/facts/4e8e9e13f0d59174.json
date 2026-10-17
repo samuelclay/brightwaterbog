@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/easy-refried-beans-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Easy Refried Beans",
+  "ingredients": [
+   "1 tablespoon extra-virgin olive oil",
+   "½ cup finely chopped yellow or white onion (about ½ small onion)",
+   "¼ teaspoon fine sea salt",
+   "2 cloves garlic, pressed or minced",
+   "½ teaspoon chili powder",
+   "¼ teaspoon ground cumin",
+   "2 cans (15 ounces each) pinto beans, rinsed and drained, or 3 cups cooked pinto beans",
+   "½ cup water",
+   "2 tablespoons chopped fresh cilantro",
+   "1 tablespoon lime juice (about ½ medium lime), to taste"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT25M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/easy-refried-beans-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/mediterranean-bean-salad-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Mediterranean Bean Salad",
+  "ingredients": [
+   "2 cans red kidney beans (15 ounces each), rinsed and drained, or 3 cups cooked kidney beans",
+   "1 can chickpeas (15 ounces), rinsed and drained, or 1 ½ cups cooked chickpeas",
+   "1 small red onion, diced (about 1 cup)",
+   "2 stalks celery, sliced in half or thirds lengthwise and chopped (about ¾ cup)",
+   "1 medium cucumber, peeled, seeded and diced",
+   "¾ cup chopped fresh parsley",
+   "2 tablespoons chopped fresh dill or mint",
+   "¼ cup extra-virgin olive oil",
+   "¼ cup lemon juice (about 1 ½ lemons)",
+   "3 cloves garlic, pressed or minced",
+   "¾ teaspoon fine salt",
+   "Small pinch red pepper flakes"
+  ],
+  "yield_text": "6",
+  "cook_time": "PT20M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/mediterranean-bean-salad-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

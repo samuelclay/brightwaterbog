@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/savory-steel-cut-oatmeal-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Savory Steel Cut Oatmeal",
+  "ingredients": [
+   "3 cups water",
+   "1 cup neutral-flavored milk of choice (like cow’s milk or plain, unsweetened almond milk) or an additional cup of water",
+   "1 tablespoon unsalted butter or olive oil",
+   "1 cup steel-cut oats (choose certified gluten-free oats if necessary)",
+   "¼ teaspoon salt, more to taste",
+   "Freshly ground black pepper, to taste",
+   "Mix-in ideas: grated cheese or nutritional yeast, drizzle of additional olive oil or pat of butter, sautéed veggies or greens, sun-dried tomatoes, red pepper flakes and/or ground spices",
+   "Topping ideas: toasted chopped nuts or seeds, fried/poached/scrambled eggs and/or lightly dressed fresh greens"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT45M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/savory-steel-cut-oatmeal-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

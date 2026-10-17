@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/best-irish-coffee-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Best Irish Coffee",
+  "ingredients": [
+   "1 ½ ounces Irish whiskey",
+   "1 to 2 teaspoons maple syrup, to taste",
+   "6 ounces hot freshly brewed coffee (that’s ¾ cup/use your favorite roast)",
+   "Whipped cream, for topping"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "Irish"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-irish-coffee-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,35 @@
+{
+ "url": "https://cookieandkate.com/miso-noodle-soup/",
+ "status": "parsed",
+ "facts": {
+  "title": "Miso Noodle Soup",
+  "ingredients": [
+   "4 cups (32 ounces) vegetable broth",
+   "2 cups water",
+   "4 ounces spaghetti noodles, broken in half",
+   "1 (14-ounce) container extra-firm tofu, drained and sliced into small, bite-sized cubes",
+   "1 medium red bell pepper, sliced into bite-size strips (about 1 ½ cups)",
+   "⅓ cup thinly sliced green onions",
+   "2 teaspoons grated fresh ginger",
+   "⅛ teaspoon red pepper flakes (optional)",
+   "1 cup fresh snow peas, halved crosswise",
+   "1 medium carrot, peeled and ribboned using a vegetable peeler",
+   "¼ cup white miso",
+   "1 to 2 tablespoons toasted sesame oil, to taste",
+   "1 to 2 tablespoons tamari or soy sauce, to taste",
+   "For extra spice (optional): additional red pepper flakes and/or sriracha"
+  ],
+  "yield_text": "6 bowls",
+  "cook_time": "PT30M",
+  "categories": [
+   "Soup"
+  ],
+  "cuisines": [
+   "Japanese-inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/miso-noodle-soup/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

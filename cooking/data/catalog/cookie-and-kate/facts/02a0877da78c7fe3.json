@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/egg-and-potato-breakfast-scramble/",
+ "status": "parsed",
+ "facts": {
+  "title": "Egg and Potato Breakfast Scramble",
+  "ingredients": [
+   "6 ounces red potatoes, rinsed and scrubbed and diced.",
+   "¼ cup water",
+   "2 teaspoons olive oil",
+   "Pinch of salt",
+   "3 large eggs, beaten",
+   "Dash of milk",
+   "1 scallion, thinly sliced",
+   "⅓ cup grated cheese",
+   "1 tablespoon freshly chopped herbs OR a pinch of dried herbs"
+  ],
+  "yield_text": "2",
+  "cook_time": "PT25M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/egg-and-potato-breakfast-scramble/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

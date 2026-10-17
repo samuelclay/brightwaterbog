@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/ultimate-gazpacho-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Ultimate Gazpacho",
+  "ingredients": [
+   "2 ½ pounds ripe red tomatoes (about 4 large or 9 small)",
+   "1 small Vidalia or sweet yellow onion (½ pound), peeled and cut into rough 1-inch chunks",
+   "1 small cucumber (½ pound), peeled and seeded",
+   "1 medium red bell pepper, cored and seeded",
+   "¼ cup fresh basil leaves, plus extra for garnish",
+   "1 large garlic clove, peeled",
+   "¼ cup extra-virgin olive oil",
+   "2 tablespoons sherry vinegar or red wine vinegar",
+   "¾ teaspoon fine salt",
+   "Freshly ground black pepper"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT25M",
+  "categories": [
+   "Soup"
+  ],
+  "cuisines": [
+   "Spanish"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/ultimate-gazpacho-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

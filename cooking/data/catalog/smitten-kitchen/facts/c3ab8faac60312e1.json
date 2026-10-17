@@ -1,0 +1,34 @@
+{
+ "url": "https://smittenkitchen.com/2013/02/egg-salad-with-pickled-celery-and-coarse-dijon/",
+ "status": "parsed",
+ "facts": {
+  "title": "egg salad with pickled celery and coarse dijon",
+  "ingredients": [
+   "1/4 cup white wine vinegar",
+   "1/4 cup water",
+   "2 teaspoons Kosher salt",
+   "1 1/2 teaspoons granulated sugar",
+   "2 stalks celery, trimmed, diced tiny",
+   "4 large eggs",
+   "1 heaped teaspoon whole-grain Dijon",
+   "2 teaspoons minced shallot or red onion (or more to taste)",
+   "2 tablespoons mayonnaise or full-fat plain yogurt",
+   "Salt and freshly ground pepper to taste",
+   "Chopped flat-leaf parsley or fresh dill (to garnish, optional)"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Celery",
+   "Eggs",
+   "Lunch",
+   "Salad",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2013/02/egg-salad-with-pickled-celery-and-coarse-dijon/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

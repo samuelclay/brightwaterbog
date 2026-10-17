@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/best-oatmeal-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "How to Make the Best Oatmeal",
+  "ingredients": [
+   "2 tablespoons unsalted butter or coconut oil",
+   "2 cups old-fashioned rolled oats",
+   "1 ½ cups water",
+   "½ cup milk of choice or additional water",
+   "Generous pinch of fine salt",
+   "Pinch of ground cinnamon (optional)"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT18M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "N/A"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-oatmeal-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

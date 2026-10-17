@@ -1,0 +1,24 @@
+{
+ "url": "https://cookieandkate.com/kir-royale-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Kir Royale Cocktail",
+  "ingredients": [
+   "½ ounce (1 tablespoon) Chambord or crème de cassis",
+   "5 ounces chilled brut (dry) Champagne",
+   "Optional garnish: 1 fresh raspberry"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT2M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "French"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/kir-royale-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

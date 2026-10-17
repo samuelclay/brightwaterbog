@@ -1,0 +1,24 @@
+{
+ "url": "https://cookieandkate.com/how-to-cook-spaghetti-squash/",
+ "status": "parsed",
+ "facts": {
+  "title": "How to Cook Spaghetti Squash (The Best Way!)",
+  "ingredients": [
+   "1 spaghetti squash",
+   "2 teaspoons extra-virgin olive oil",
+   "Sprinkle of salt and pepper"
+  ],
+  "yield_text": "2 servings",
+  "cook_time": "PT45M",
+  "categories": [
+   "Basics"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/how-to-cook-spaghetti-squash/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

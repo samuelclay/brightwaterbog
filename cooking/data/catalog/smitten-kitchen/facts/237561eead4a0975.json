@@ -1,0 +1,31 @@
+{
+ "url": "https://smittenkitchen.com/2018/02/slow-roasted-sweet-potatoes/",
+ "status": "parsed",
+ "facts": {
+  "title": "slow-roasted sweet potatoes",
+  "ingredients": [
+   "4 medium sweet potatoes (about 3 pounds), scrubbed clean",
+   "4 teaspoons olive oil",
+   "2 teaspoons kosher salt",
+   "1 teaspoon freshly ground black pepper"
+  ],
+  "yield_text": "4",
+  "cook_time": "3 hours",
+  "categories": [
+   "5 Ingredients or Fewer",
+   "Best of Smitten Kitchen",
+   "Egg-Free",
+   "Kid Favorites",
+   "Potatoes",
+   "Savory Projects",
+   "Vegan",
+   "Vegetarian",
+   "Winter"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2018/02/slow-roasted-sweet-potatoes/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/blistered-shishito-peppers-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Blistered Shishito Peppers",
+  "ingredients": [
+   "8 ounces (3 heaping cups) shishito peppers",
+   "2 teaspoons extra-virgin olive oil or avocado oil",
+   "Lemon wedge, optional",
+   "Salt, preferably flaky sea salt or kosher salt, to taste"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT15M",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Asian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/blistered-shishito-peppers-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

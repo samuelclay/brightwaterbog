@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/almond-flour-pancakes-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Almond Flour Pancakes",
+  "ingredients": [
+   "2 cups (185 grams) fine blanched almond flour, spooned and leveled",
+   "2 teaspoons baking powder",
+   "½ teaspoon ground cinnamon (optional)",
+   "½ teaspoon fine salt",
+   "3 eggs, ideally at room temperature",
+   "½ cup milk (any milk will do), more as needed",
+   "2 tablespoons melted butter or melted coconut oil",
+   "2 tablespoons maple syrup (optional)",
+   "1 teaspoon vanilla extract",
+   "½ teaspoon almond extract (optional)",
+   "Avocado oil, butter, or coconut oil, for greasing the pan"
+  ],
+  "yield_text": "12",
+  "cook_time": "PT30M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/almond-flour-pancakes-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

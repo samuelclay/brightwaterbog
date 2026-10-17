@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/blueberry-lavender-lemonade/",
+ "status": "parsed",
+ "facts": {
+  "title": "Blueberry Lavender Hard Lemonade",
+  "ingredients": [
+   "15 blueberries",
+   "2 lemons, juiced",
+   "½ teaspoon agave nectar or simple syrup (or more, to taste)",
+   "1 ½ ounces vodka or gin (Hendrick’s suggested)",
+   "3 sprigs of fresh lavender and ⅔ cup cold water OR ⅔ cup lavender tea made with dried lavender (see instructions)",
+   "Plenty of ice"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT10M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/blueberry-lavender-lemonade/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

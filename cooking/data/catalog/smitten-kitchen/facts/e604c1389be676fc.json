@@ -1,0 +1,34 @@
+{
+ "url": "https://smittenkitchen.com/2018/03/melting-potatoes/",
+ "status": "parsed",
+ "facts": {
+  "title": "melting potatoes",
+  "ingredients": [
+   "4 tablespoons unsalted butter, melted",
+   "2 teaspoons chopped fresh thyme or rosemary leaves",
+   "1 teaspoon kosher salt",
+   "1/2 teaspoon freshly ground black pepper",
+   "2 pounds yukon gold potatoes, peeled, cut into 1-inch slices",
+   "1 cup chicken or vegetable stock or low-sodium broth",
+   "3 to 4 garlic cloves, peeled and smashed"
+  ],
+  "yield_text": "4 to 6",
+  "cook_time": "50 minutes",
+  "categories": [
+   "5 Ingredients or Fewer",
+   "Best of Smitten Kitchen",
+   "Dinner",
+   "Potatoes",
+   "Recipe",
+   "Side Dish",
+   "Thanksgiving",
+   "Vegetarian",
+   "Weeknight Favorite"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2018/03/melting-potatoes/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

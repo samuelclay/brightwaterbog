@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/mango-pineapple-green-smoothie/",
+ "status": "parsed",
+ "facts": {
+  "title": "Mango-Rita Green Smoothie",
+  "ingredients": [
+   "2 cups fresh spinach",
+   "1 cup unsweetened coconut water",
+   "1 orange, peeled",
+   "2 cups chopped mango",
+   "1 cup chopped pineapple",
+   "Juice of ½ lime, more to taste, plus 2 lime slices for garnish",
+   "Tiny pinch of salt (trust me)"
+  ],
+  "yield_text": "2 smoothies",
+  "cook_time": "PT10M",
+  "categories": [
+   "Smoothie"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/mango-pineapple-green-smoothie/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

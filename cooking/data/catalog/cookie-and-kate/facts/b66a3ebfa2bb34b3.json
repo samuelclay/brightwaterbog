@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/mexican-brown-rice-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Mexican Brown Rice",
+  "ingredients": [
+   "2 medium ripe tomatoes, or 1 small can (15 ounces) diced tomatoes, undrained",
+   "1 small yellow onion, root end trimmed and quartered",
+   "2 cloves garlic, roughly chopped",
+   "¼ cup extra-virgin olive oil",
+   "2 cups long-grain brown rice (do not rinse!)",
+   "1 medium jalapeño pepper, seeded and finely chopped (scale back or omit if sensitive to spice)",
+   "2 ½ cups vegetable broth",
+   "1 tablespoon tomato paste",
+   "1 teaspoon salt, to taste",
+   "½ cup finely chopped fresh cilantro",
+   "Red pepper flakes, optional, for extra heat",
+   "1 lime, sliced into wedges, for serving"
+  ],
+  "yield_text": "6 to 8 servings",
+  "cook_time": "PT1H30M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/mexican-brown-rice-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

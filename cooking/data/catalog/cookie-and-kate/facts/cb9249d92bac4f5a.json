@@ -1,0 +1,24 @@
+{
+ "url": "https://cookieandkate.com/crostini-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "How to Make Crostini",
+  "ingredients": [
+   "1 baguette (crusty French bread)",
+   "2 to 3 tablespoons extra-virgin olive oil, as needed",
+   "Flaky sea salt or fine salt, to taste"
+  ],
+  "yield_text": "24",
+  "cook_time": "PT15M",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/crostini-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

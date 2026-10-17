@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/cucumber-mint-gimlet-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Cucumber Mint Gimlet",
+  "ingredients": [
+   "2-inch slice of peeled cucumber, halved and then quartered",
+   "10 mint leaves",
+   "1 ½ teaspoons light agave nectar or simple syrup",
+   "1 lime, juiced",
+   "1 ½ ounces gin, preferably Hendrick’s"
+  ],
+  "yield_text": "1",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "N/A"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cucumber-mint-gimlet-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

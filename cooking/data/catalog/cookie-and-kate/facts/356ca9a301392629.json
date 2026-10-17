@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/gluten-free-double-chocolate-cookies/",
+ "status": "parsed",
+ "facts": {
+  "title": "Buckwheat Double Chocolate Cookies",
+  "ingredients": [
+   "6 tablespoons unsalted butter",
+   "12 ounces bittersweet chocolate (60–70% cacao mass)*, chopped (about 2 ¼ cups), plus several chunks for the tops of the cookies",
+   "½ cup buckwheat flour",
+   "2 tablespoons tapioca flour**",
+   "¾ teaspoon baking powder",
+   "2 large eggs, at room temperature***",
+   "½ cup plus 2 tablespoons cane sugar",
+   "½ teaspoon fine sea salt",
+   "1 teaspoon vanilla extract",
+   "Flaky salt such as Maldon, for the tops"
+  ],
+  "yield_text": "30 cookies",
+  "cook_time": "PT35M",
+  "categories": [
+   "Cookie"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/gluten-free-double-chocolate-cookies/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

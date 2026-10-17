@@ -1,0 +1,30 @@
+{
+ "url": "https://smittenkitchen.com/2010/12/garlic-butter-roasted-mushrooms/",
+ "status": "parsed",
+ "facts": {
+  "title": "garlic butter roasted mushrooms",
+  "ingredients": [
+   "1 pound mushrooms such as cremini or white, halved lengthwise if large",
+   "2 tablespoons capers, rinsed and chopped",
+   "3 large garlic cloves, minced",
+   "2 tablespoons vegetable oil",
+   "3 tablespoons unsalted butter, cut into pieces",
+   "2 teaspoons fresh lemon juice",
+   "1/4 cup chopped flat-leaf parsley"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Mushrooms",
+   "Party Snacks",
+   "Side Dish",
+   "Thanksgiving",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2010/12/garlic-butter-roasted-mushrooms/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

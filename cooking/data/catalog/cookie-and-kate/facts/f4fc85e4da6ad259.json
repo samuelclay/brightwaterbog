@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/simple-fruit-compote-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Easy Fruit Compote",
+  "ingredients": [
+   "1 pound (16 ounces) fresh or frozen fruit",
+   "2 tablespoons honey or maple syrup",
+   "Dash of salt",
+   "See optional flavoring ideas given above recipe"
+  ],
+  "yield_text": "2 cups",
+  "cook_time": "PT15M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "Classic"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/simple-fruit-compote-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

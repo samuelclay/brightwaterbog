@@ -1,0 +1,45 @@
+{
+ "url": "https://smittenkitchen.com/2012/03/potato-knish-two-ways/",
+ "status": "parsed",
+ "facts": {
+  "title": "potato knish, two ways",
+  "ingredients": [
+   "Dough",
+   "2 1/2 cups all-purpose flour",
+   "1 teaspoon baking powder",
+   "1/2 teaspoon table salt",
+   "1 large egg",
+   "1/2 cup vegetable oil",
+   "1 teaspoon white vinegar",
+   "1/2 cup water (see Update, above)",
+   "Filling",
+   "1 1/2 pounds (about 3 medium) russet potatoes, peeled and quartered",
+   "1 small yellow onion, peeled and diced small",
+   "1 tablespoon vegetable or olive oil",
+   "1 tablespoon unsalted butter",
+   "1/2 teaspoon table salt",
+   "Freshly ground black pepper",
+   "To finish",
+   "1 large egg yolk",
+   "1 teaspoon water"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Jewish",
+   "Kale",
+   "Leeks",
+   "Potatoes",
+   "Savory Projects",
+   "Vegetarian",
+   "Winter"
+  ],
+  "cuisines": [
+   "Jewish"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2012/03/potato-knish-two-ways/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

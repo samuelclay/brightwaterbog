@@ -1,0 +1,36 @@
+{
+ "url": "https://cookieandkate.com/lemony-roasted-cauliflower-risotto/",
+ "status": "parsed",
+ "facts": {
+  "title": "Lemony Roasted Cauliflower Risotto",
+  "ingredients": [
+   "1 tablespoon olive oil",
+   "1 small yellow onion, chopped",
+   "2 cloves garlic, pressed or minced",
+   "5 cups (40 ounces) vegetable broth, divided (if your broth comes in 32-ounce containers, feel free to avoid opening another container by substituting 1 cup water for 1 cup broth in step 3)",
+   "1 ½ cups short-grain brown rice",
+   "2 tablespoons olive oil",
+   "1 large head of cauliflower, sliced into florets",
+   "1 cup freshly grated Parmesan cheese",
+   "½ cup dry white wine, optional",
+   "3 tablespoons unsalted butter, diced",
+   "1 teaspoon sea salt, more to taste",
+   "Freshly ground black pepper, to taste",
+   "Pinch red pepper flakes, to taste",
+   "Zest and juice of ½ lemon, preferably organic (about ¼ teaspoon zest and 1 tablespoon juice)",
+   "Garnish: ¼ cup sliced almonds or a few sprigs fresh thyme, leaves removed from stems and larger leaves torn into small pieces"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT1H25M",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/lemony-roasted-cauliflower-risotto/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

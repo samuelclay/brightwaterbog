@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/tom-collins-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Tom Collins Cocktail",
+  "ingredients": [
+   "Ice",
+   "2 ounces gin*",
+   "1 ounce lemon juice",
+   "½ ounce simple syrup, recipe below",
+   "Club soda or sparkling water",
+   "1 lemon round or ½ orange round, for garnish",
+   "1 Luxardo cherry or other cocktail cherry, for garnish",
+   "¼ cup sugar (traditional) or honey",
+   "¼ cup water"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT10M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/tom-collins-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

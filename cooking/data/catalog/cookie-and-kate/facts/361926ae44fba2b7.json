@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/basque-cheesecake-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Basque Cheesecake",
+  "ingredients": [
+   "2 pounds cream cheese, at room temperature",
+   "1 ¼ to 1 ½ cups sugar, depending on desired level of sweetness",
+   "2 cups heavy cream, divided",
+   "6 large eggs",
+   "1 teaspoon vanilla extract",
+   "½ teaspoon fine salt",
+   "⅓ cup all-purpose flour"
+  ],
+  "yield_text": "12 slices",
+  "cook_time": "PT1H30M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "Basque"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/basque-cheesecake-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

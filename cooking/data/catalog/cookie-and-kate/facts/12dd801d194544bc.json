@@ -1,0 +1,34 @@
+{
+ "url": "https://cookieandkate.com/blueberry-almond-crisp/",
+ "status": "parsed",
+ "facts": {
+  "title": "Blueberry Almond Crisp",
+  "ingredients": [
+   "2 pounds blueberries (that’s 32 ounces, which is about 5 cups or a little less than 3 pints), fresh or frozen*",
+   "⅓ cup maple syrup or honey",
+   "2 tablespoons arrowroot starch or 3 tablespoons cornstarch",
+   "½ teaspoon lemon zest",
+   "2 tablespoons lemon juice (from 1 to 2 lemons)",
+   "¼ teaspoon cinnamon",
+   "1 cup old-fashioned oats (certified gluten-free for a gluten-free crisp)",
+   "½ cup packed almond meal or almond flour",
+   "½ cup sliced almonds",
+   "⅓ cup lightly packed brown sugar",
+   "¼ teaspoon fine salt",
+   "4 tablespoons butter, melted",
+   "3 tablespoons plain yogurt (Greek or regular), or additional melted butter"
+  ],
+  "yield_text": "8 servings",
+  "cook_time": "PT55M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/blueberry-almond-crisp/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,24 @@
+{
+ "url": "https://cookieandkate.com/roasted-acorn-squash-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Perfect Roasted Acorn Squash",
+  "ingredients": [
+   "2 medium acorn squash",
+   "1 tablespoon extra-virgin olive oil, divided",
+   "¼ teaspoon fine salt"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT40M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-acorn-squash-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

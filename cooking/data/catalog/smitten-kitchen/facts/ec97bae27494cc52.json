@@ -1,0 +1,23 @@
+{
+ "url": "https://smittenkitchen.com/2015/10/oven-fries/",
+ "status": "parsed",
+ "facts": {
+  "title": "oven fries",
+  "ingredients": [
+   "4 medium Yukon Gold or 3 smallish Russet potatoes",
+   "3 to 4 tablespoons olive oil",
+   "Fine sea salt"
+  ],
+  "yield_text": "Yield: fries for 4 people",
+  "cook_time": null,
+  "categories": [
+   "Potatoes",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2015/10/oven-fries/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

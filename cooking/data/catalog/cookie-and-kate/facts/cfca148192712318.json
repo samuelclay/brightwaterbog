@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/crispy-smashed-potatoes-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Crispy Smashed Potatoes",
+  "ingredients": [
+   "2 pounds small-to-medium red or yellow potatoes",
+   "1 tablespoon plus ¼ teaspoon fine sea salt, divided",
+   "4 tablespoons olive oil, divided",
+   "¼ teaspoon garlic powder",
+   "¼ teaspoon onion powder",
+   "Freshly ground black pepper, to taste",
+   "2 tablespoons chopped fresh parsley, chives and/or green onion"
+  ],
+  "yield_text": "4 side servings",
+  "cook_time": "PT1H5M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/crispy-smashed-potatoes-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

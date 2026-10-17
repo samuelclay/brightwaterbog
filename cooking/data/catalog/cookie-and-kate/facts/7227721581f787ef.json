@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/classic-aperol-spritz-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Classic Aperol Spritz",
+  "ingredients": [
+   "Ice",
+   "3 ounces (1 part) Aperol",
+   "3 ounces (1 part) dry Prosecco",
+   "1 ounce (a splash) club soda or unflavored sparkling water",
+   "Orange slice, for garnish"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT3M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/classic-aperol-spritz-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

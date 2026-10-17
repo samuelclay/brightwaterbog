@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/clementine-french-75-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Clementine French 75",
+  "ingredients": [
+   "3 tablespoons honey",
+   "3 tablespoons water",
+   "1 ounce gin",
+   "1 ounce fresh clementine juice",
+   "½ ounce honey simple syrup",
+   "Dry Champagne or Prosecco or Cava, for topping off the drink (a few ounces per drink)",
+   "Twist of clementine peel or a clementine wedge, for garnishing"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT10M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/clementine-french-75-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

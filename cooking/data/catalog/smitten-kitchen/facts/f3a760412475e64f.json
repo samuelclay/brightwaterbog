@@ -1,0 +1,39 @@
+{
+ "url": "https://smittenkitchen.com/2009/02/crispy-black-bean-tacos-with-feta-and-slaw/",
+ "status": "parsed",
+ "facts": {
+  "title": "crisp black bean tacos with feta and slaw",
+  "ingredients": [
+   "1 15-ounce can black beans, drained",
+   "1 teaspoon ground cumin",
+   "5 teaspoons olive oil, divided",
+   "2 tablespoons (or more) fresh lime juice",
+   "2 cups shredded cabbage or packaged coleslaw mix",
+   "2 green onions, thinly sliced",
+   "1/3 cup chopped fresh cilantro",
+   "4 white or yellow corn tortillas",
+   "1/3 cup crumbled feta cheese",
+   "Hot sauce"
+  ],
+  "yield_text": "2",
+  "cook_time": "20 minutes",
+  "categories": [
+   "Beans",
+   "Budget",
+   "Cabbage",
+   "Dinner",
+   "Kid Favorites",
+   "Quick",
+   "Tex-Mex",
+   "Vegetarian",
+   "Weeknight Favorite"
+  ],
+  "cuisines": [
+   "Tex-Mex"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2009/02/crispy-black-bean-tacos-with-feta-and-slaw/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

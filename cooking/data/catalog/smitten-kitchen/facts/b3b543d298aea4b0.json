@@ -1,0 +1,36 @@
+{
+ "url": "https://smittenkitchen.com/2016/02/broccoli-melts/",
+ "status": "parsed",
+ "facts": {
+  "title": "broccoli melts",
+  "ingredients": [
+   "1 pound broccolini or regular broccoli",
+   "2 tablespoons olive oil",
+   "3 cloves garlic, minced",
+   "A few pinches red pepper flakes, to taste",
+   "Finely grated zest, then juice, of 1/2 lemon",
+   "Coarse salt, to taste",
+   "1/2 cup finely grated aged pecorino romano cheese",
+   "8 thin slices totally unfancy deli provolone",
+   "8 slices bread of your choice"
+  ],
+  "yield_text": "Yield: 8 small-medium open-faced melts",
+  "cook_time": null,
+  "categories": [
+   "Best of Smitten Kitchen",
+   "Broccoli",
+   "Cheese",
+   "Dinner",
+   "Kid Favorites",
+   "Party Snacks",
+   "Sandwich",
+   "Vegetarian",
+   "Weeknight Favorite"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2016/02/broccoli-melts/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

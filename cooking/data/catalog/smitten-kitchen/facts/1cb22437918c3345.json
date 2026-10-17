@@ -1,0 +1,31 @@
+{
+ "url": "https://smittenkitchen.com/2015/04/crispy-broccoli-with-lemon-and-garlic/",
+ "status": "parsed",
+ "facts": {
+  "title": "crispy broccoli with lemon and garlic",
+  "ingredients": [
+   "1 pound fresh broccoli",
+   "3 tablespoons olive oil",
+   "2 garlic cloves, minced",
+   "1/2 teaspoon kosher salt, plus more to taste",
+   "A few pinches of pepper flakes, to taste",
+   "Finely grated zest from half a lemon",
+   "Juice of half a lemon, or more to taste, to finish"
+  ],
+  "yield_text": "Serves 2, sometimes",
+  "cook_time": "45 minutes",
+  "categories": [
+   "Broccoli",
+   "Budget",
+   "Citrus",
+   "Lemon",
+   "Side Dish",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2015/04/crispy-broccoli-with-lemon-and-garlic/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

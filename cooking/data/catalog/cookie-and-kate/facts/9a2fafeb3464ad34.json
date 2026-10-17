@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/roasted-chickpeas-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Crispy Roasted Chickpeas",
+  "ingredients": [
+   "1 can (15 ounces) chickpeas, rinsed and drained, or 1 ½ cups cooked chickpeas",
+   "1 tablespoon olive oil",
+   "⅛ teaspoon fine salt",
+   "Optional seasonings (see note)"
+  ],
+  "yield_text": "1 cup",
+  "cook_time": "PT35M",
+  "categories": [
+   "Snack"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-chickpeas-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

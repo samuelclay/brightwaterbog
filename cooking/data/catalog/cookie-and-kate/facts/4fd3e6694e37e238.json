@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/simple-breakfast-tostadas-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Simple Breakfast Tostadas",
+  "ingredients": [
+   "8 corn tortillas (make sure they’re 100% corn or they won’t get crispy)",
+   "1 tablespoon extra-virgin olive oil",
+   "2 cups refried beans, warmed",
+   "½ cup grated sharp cheddar cheese",
+   "8 eggs, fried or scrambled (your preference)",
+   "2 cups pico de gallo",
+   "Optional garnishes, for serving: your favorite hot sauce or salsa, avocado, and/or crumbled Cotijah or feta cheese"
+  ],
+  "yield_text": "8 tostadas",
+  "cook_time": "PT40M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/simple-breakfast-tostadas-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

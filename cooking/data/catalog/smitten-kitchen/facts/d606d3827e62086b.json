@@ -1,0 +1,33 @@
+{
+ "url": "https://smittenkitchen.com/2014/02/fennel-and-blood-orange-salad/",
+ "status": "parsed",
+ "facts": {
+  "title": "fennel and blood orange salad",
+  "ingredients": [
+   "1/4 cup hazelnuts or walnuts",
+   "1 medium-large fennel bulb, leaves and stems trimmed off",
+   "Salt and freshly ground black pepper",
+   "Juice of 1 lemon",
+   "2 large blood oranges",
+   "1 small shallot, peeled and cut into paper-thin slices",
+   "10 mint leaves",
+   "2 tablespoons extra-virgin olive oil",
+   "1 teaspoon lime zest"
+  ],
+  "yield_text": "Serves 3",
+  "cook_time": null,
+  "categories": [
+   "Citrus",
+   "Fennel",
+   "Orange",
+   "Salad",
+   "Vegetarian",
+   "Winter"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2014/02/fennel-and-blood-orange-salad/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

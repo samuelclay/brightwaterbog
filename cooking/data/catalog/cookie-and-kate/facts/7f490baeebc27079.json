@@ -1,0 +1,37 @@
+{
+ "url": "https://cookieandkate.com/spinach-lasagna/",
+ "status": "parsed",
+ "facts": {
+  "title": "Spinach Lasagna",
+  "ingredients": [
+   "1 can (28 ounces) diced tomatoes",
+   "¼ cup roughly chopped fresh basil",
+   "2 tablespoons olive oil",
+   "2 garlic cloves, pressed or minced",
+   "½ teaspoon fine salt",
+   "¼ teaspoon red pepper flakes (optional)",
+   "2 cups (16 ounces) low-fat cottage cheese",
+   "2 tablespoons olive oil",
+   "1 small-to-medium yellow onion, chopped",
+   "¼ teaspoon fine salt",
+   "4 cloves garlic, pressed or minced",
+   "12 ounces baby spinach, preferably organic",
+   "Freshly ground black pepper, to taste",
+   "9 no-boil lasagna noodles",
+   "8 ounces (2 cups) freshly grated low-moisture, part-skim mozzarella cheese",
+   "Sprinkle of additional chopped fresh basil, for garnish"
+  ],
+  "yield_text": "9 servings",
+  "cook_time": "PT1H5M",
+  "categories": [
+   "Main Dish"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/spinach-lasagna/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

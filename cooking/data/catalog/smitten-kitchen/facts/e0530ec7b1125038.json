@@ -1,0 +1,30 @@
+{
+ "url": "https://smittenkitchen.com/2008/06/zucchini-strand-spaghetti/",
+ "status": "parsed",
+ "facts": {
+  "title": "zucchini strand spaghetti",
+  "ingredients": [
+   "Salt and freshly ground black pepper",
+   "3/4 pound whole-wheat dried spaghettini",
+   "3/4 pound zucchini",
+   "1/4 cup olive oil",
+   "2 tablespoons minced garlic",
+   "1/2 teaspoon red pepper flakes",
+   "3 tablespoons coarsely chopped fresh basil leaves",
+   "1/2 cup grated Parmesan, plus a small piece"
+  ],
+  "yield_text": "Servings: We got a solid four dinner servings out of this",
+  "cook_time": null,
+  "categories": [
+   "Pasta",
+   "Summer",
+   "Vegetarian",
+   "Zucchini"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2008/06/zucchini-strand-spaghetti/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

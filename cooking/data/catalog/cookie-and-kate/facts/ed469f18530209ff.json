@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/pumpkin-pineapple-cocktail/",
+ "status": "parsed",
+ "facts": {
+  "title": "Pumpkin Pineapple and Rum Cocktail",
+  "ingredients": [
+   "7 ounces (1 scant cup) pineapple juice",
+   "3 tablespoons pumpkin purée",
+   "1 teaspoon honey or maple syrup (more or less to taste)",
+   "1 big lemon, juiced",
+   "¼ teaspoon vanilla extract",
+   "¼ teaspoon ground cinnamon",
+   "Pinch of ground ginger",
+   "Dash of nutmeg",
+   "Dash of allspice or cloves",
+   "3 ounces dark rum"
+  ],
+  "yield_text": "2 cocktails",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pumpkin-pineapple-cocktail/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

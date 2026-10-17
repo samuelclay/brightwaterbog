@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/cantaloupe-tequila-cocktail/",
+ "status": "parsed",
+ "facts": {
+  "title": "Cantaloupe Fiesta Cocktail",
+  "ingredients": [
+   "¼ chilled cantaloupe, seeds removed",
+   "1 ½ ounces silver/blanco tequila",
+   "1 lime, juiced",
+   "½ teaspoon agave nectar or simple syrup, to taste",
+   "Tiny pinch of sea salt",
+   "3 ice cubes"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cantaloupe-tequila-cocktail/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

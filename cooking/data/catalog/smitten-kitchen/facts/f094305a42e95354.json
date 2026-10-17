@@ -1,0 +1,32 @@
+{
+ "url": "https://smittenkitchen.com/2013/09/zucchini-parmesan-crisps/",
+ "status": "parsed",
+ "facts": {
+  "title": "zucchini parmesan crisps",
+  "ingredients": [
+   "Olive oil or cooking spray",
+   "2 medium zucchini (about 1 pound total)",
+   "1 to 2 egg whites",
+   "1/2 cup grated parmesan cheese",
+   "1/2 cup plain, dry breadcrumbs, such as panko",
+   "A couple pinches sea salt",
+   "Freshly ground black pepper"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Party Snacks",
+   "Side Dish",
+   "Snack",
+   "Summer",
+   "Summer Squash",
+   "Vegetarian",
+   "Zucchini"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2013/09/zucchini-parmesan-crisps/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

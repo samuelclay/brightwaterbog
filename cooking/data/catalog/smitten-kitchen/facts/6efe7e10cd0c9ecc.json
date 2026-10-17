@@ -1,0 +1,30 @@
+{
+ "url": "https://smittenkitchen.com/2008/07/sauteed-radishes-and-sugar-snaps-with-dill/",
+ "status": "parsed",
+ "facts": {
+  "title": "sauteed radishes and sugar snaps with dill",
+  "ingredients": [
+   "1 tablespoon butter",
+   "1 tablespoon olive oil",
+   "1/2 cup thinly sliced shallots",
+   "12 ounces sugar snap peas, trimmed, strings removed",
+   "2 cups thinly sliced radishes (about 1 large bunch)",
+   "1/4 cup orange juice",
+   "1 teaspoon dill seeds",
+   "1 tablespoon chopped fresh dill"
+  ],
+  "yield_text": "Makes 6 servings.",
+  "cook_time": null,
+  "categories": [
+   "Peas",
+   "Radishes",
+   "Side Dish",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2008/07/sauteed-radishes-and-sugar-snaps-with-dill/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

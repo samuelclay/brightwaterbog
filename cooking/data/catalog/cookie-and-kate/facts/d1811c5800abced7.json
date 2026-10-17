@@ -1,0 +1,38 @@
+{
+ "url": "https://cookieandkate.com/spicy-roasted-ratatouille-with-spaghetti/",
+ "status": "parsed",
+ "facts": {
+  "title": "Roasted Ratatouille with Spaghetti",
+  "ingredients": [
+   "2 pints cherry or grape tomatoes",
+   "1 medium eggplant (about 1 pound), diced",
+   "1 medium zucchini, diced",
+   "1 medium yellow squash, diced",
+   "1 medium red bell pepper (or orange or yellow), diced",
+   "1 medium yellow or white onion, diced",
+   "6 tablespoons olive oil, divided",
+   "2 tablespoons balsamic vinegar",
+   "6 cloves garlic, pressed or minced",
+   "½ teaspoon salt",
+   "Freshly ground black pepper",
+   "Red pepper flakes",
+   "½ pound (8 ounces) whole grain spaghetti",
+   "Freshly grated Parmesan cheese, optional",
+   "2 tablespoons chopped fresh basil",
+   "1 tablespoon chopped fresh oregano (or 1 teaspoon dried oregano)",
+   "1 teaspoon fresh thyme (optional)"
+  ],
+  "yield_text": "6",
+  "cook_time": "PT45M",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [
+   "French"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/spicy-roasted-ratatouille-with-spaghetti/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

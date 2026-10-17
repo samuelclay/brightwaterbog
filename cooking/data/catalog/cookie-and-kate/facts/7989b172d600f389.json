@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/fresh-cranberry-margaritas/",
+ "status": "parsed",
+ "facts": {
+  "title": "Fresh Cranberry Margaritas",
+  "ingredients": [
+   "1 ½ cup fresh cranberries",
+   "½ cup light agave nectar or sugar",
+   "¼ cup fresh orange juice",
+   "2 teaspoons orange zest (from 1 to 2 oranges)",
+   "1 tablespoon kosher salt",
+   "1 tablespoon sugar",
+   "¾ teaspoon ground cinnamon",
+   "½ teaspoon ground ginger",
+   "¼ teaspoon ground cloves or allspice",
+   "1 cup (8 ounces) fresh orange juice",
+   "½ cup (4 ounces) fresh lime juice",
+   "1 ½ cup (12 ounces) silver/blanco tequila",
+   "optional garnish: 8 star anise"
+  ],
+  "yield_text": "8",
+  "cook_time": "PT35M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/fresh-cranberry-margaritas/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

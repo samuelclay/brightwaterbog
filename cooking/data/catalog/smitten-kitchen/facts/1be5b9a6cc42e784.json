@@ -1,0 +1,36 @@
+{
+ "url": "https://smittenkitchen.com/2021/04/lemon-potatoes/",
+ "status": "parsed",
+ "facts": {
+  "title": "lemon potatoes",
+  "ingredients": [
+   "2 pounds yukon gold (ideally) or russet potatoes (see note), peeled and quartered lengthwise into thick wedges",
+   "4 tablespoons olive oil or 3 tablespoons olive oil plus 1 tablespoon unsalted butter, diced",
+   "2 teaspoons fresh oregano leaves, minced or 1 teaspoon dried oregano",
+   "1 teaspoon kosher salt",
+   "Finely grated zest and juice of two lemons (about 1/4 cup juice)",
+   "1/2 teaspoon freshly ground black pepper",
+   "3 to 4 garlic cloves, peeled and smashed",
+   "3/4 cup broth, chicken or vegetable",
+   "Chopped fresh parsley or dill, plus additional lemon slices or wedges, to finish"
+  ],
+  "yield_text": "4 to 6",
+  "cook_time": "1 hour",
+  "categories": [
+   "Budget",
+   "Greek",
+   "Lemon",
+   "Potatoes",
+   "Recipe",
+   "Side Dish",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Greek"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2021/04/lemon-potatoes/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

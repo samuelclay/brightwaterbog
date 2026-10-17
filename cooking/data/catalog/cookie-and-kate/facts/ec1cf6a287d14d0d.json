@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/strawberry-salsa-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Strawberry Salsa",
+  "ingredients": [
+   "Juice and zest from 1 medium lime",
+   "1 ½ teaspoons honey or maple syrup",
+   "Pinch of fine sea salt",
+   "1 pint of strawberries, hulled and diced",
+   "1 jalapeño pepper, seeded and chopped (use a smaller jalapeño for less heat, or leave in some seeds for more heat)",
+   "½ small red onion, chopped",
+   "½ cup chopped fresh cilantro",
+   "Freshly ground black pepper, to taste",
+   "Chips for serving"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT10M",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/strawberry-salsa-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

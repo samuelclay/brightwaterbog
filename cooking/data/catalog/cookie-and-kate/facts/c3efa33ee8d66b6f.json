@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/torn-olives-with-almonds-celery-parmesan/",
+ "status": "parsed",
+ "facts": {
+  "title": "Torn Olives with Almonds, Celery & Parmesan",
+  "ingredients": [
+   "2 cups (270 grams) large pitted green olives, drained and torn into bite-sized pieces*",
+   "1 cup diced celery (from 2 to 3 medium ribs)",
+   "½ cup roasted almonds, roughly chopped**",
+   "2 ounces Parmesan, crumbled with a fork or knife point into ½ cup rubble",
+   "1 large garlic clove, very thinly sliced",
+   "2 tablespoons extra-virgin olive oil, more to taste",
+   "1 tablespoon white wine vinegar, more to taste",
+   "Kosher salt and red pepper flakes, to taste",
+   "Leaves from celery ribs, roughly chopped, for garnish"
+  ],
+  "yield_text": "2 cups",
+  "cook_time": "PT15M",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/torn-olives-with-almonds-celery-parmesan/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

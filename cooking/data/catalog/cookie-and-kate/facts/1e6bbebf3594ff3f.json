@@ -1,0 +1,22 @@
+{
+ "url": "https://cookieandkate.com/roasted-red-peppers-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Roasted Red Peppers",
+  "ingredients": [
+   "4 medium red bell peppers"
+  ],
+  "yield_text": "1 1/2 cups",
+  "cook_time": "PT40M",
+  "categories": [
+   "Basic"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-red-peppers-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

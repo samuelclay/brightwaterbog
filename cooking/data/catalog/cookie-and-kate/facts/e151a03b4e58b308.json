@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/fresh-corn-salsa-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Fresh Corn Salsa",
+  "ingredients": [
+   "3 cups raw corn kernels* (from about 4 cobs of shucked sweet corn)",
+   "1 cup finely chopped red onion (about ½ medium onion)",
+   "Optional: 1 diced ripe avocado",
+   "½ cup finely chopped fresh cilantro (about 1 bunch)",
+   "1 to 2 medium jalapeños, finely chopped (use 1 for mild-to-medium salsa or 2 for more spicy salsa)",
+   "¼ cup lime juice (about 2 limes), to taste",
+   "1 tablespoon white wine vinegar",
+   "¼ teaspoon chili powder",
+   "¼ teaspoon ground cumin",
+   "½ teaspoon fine salt"
+  ],
+  "yield_text": "8 servings",
+  "cook_time": "PT20M",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/fresh-corn-salsa-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

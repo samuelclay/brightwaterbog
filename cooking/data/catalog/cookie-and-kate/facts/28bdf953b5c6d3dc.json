@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/favorite-hot-chocolate-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Favorite Hot Chocolate",
+  "ingredients": [
+   "2 cups milk of choice*",
+   "2 tablespoons cocoa powder**",
+   "1 to 2 tablespoons maple syrup, to taste",
+   "2 ounces quality chocolate, chopped (or ¼ cup chocolate chips)",
+   "½ teaspoon vanilla extract",
+   "Topping of choice (optional): Whipped cream, marshmallows, shaved chocolate, or any of the options provided within post"
+  ],
+  "yield_text": "2 cups",
+  "cook_time": "PT10M",
+  "categories": [
+   "Drink"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/favorite-hot-chocolate-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

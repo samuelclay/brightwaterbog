@@ -1,0 +1,40 @@
+{
+ "url": "https://cookieandkate.com/quinoa-vegetable-soup-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Quinoa Vegetable Soup",
+  "ingredients": [
+   "3 tablespoons extra virgin olive oil",
+   "1 medium yellow or white onion, chopped",
+   "3 carrots, peeled and chopped",
+   "2 celery stalks, chopped",
+   "1 to 2 cups chopped seasonal vegetables, like zucchini, yellow squash, bell pepper, sweet potatoes or butternut squash",
+   "6 garlic cloves, pressed or minced",
+   "½ teaspoon dried thyme",
+   "1 large can (28 ounces) diced tomatoes",
+   "Scant 1 cup quinoa, rinsed well in a fine mesh colander (use less for a lighter, more broth-y soup)",
+   "4 cups (32 ounces) vegetable broth",
+   "2 cups water",
+   "1 teaspoon salt, more to taste",
+   "2 bay leaves",
+   "Pinch red pepper flakes",
+   "Freshly ground black pepper",
+   "1 can (15 ounces) great northern beans or chickpeas, rinsed and drained",
+   "1 cup or more chopped fresh kale or collard greens, tough ribs removed",
+   "1 to 2 teaspoons lemon juice, to taste",
+   "Optional garnish: freshly grated Parmesan cheese"
+  ],
+  "yield_text": "4 to 6 servings",
+  "cook_time": "PT1H",
+  "categories": [
+   "Soup"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/quinoa-vegetable-soup-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

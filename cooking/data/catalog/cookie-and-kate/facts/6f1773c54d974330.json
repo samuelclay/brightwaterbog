@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/apple-oatmeal-pancakes-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Apple Oatmeal Pancakes",
+  "ingredients": [
+   "1 cup apple sauce",
+   "1 cup old-fashioned oats (gluten free if necessary)",
+   "1 egg",
+   "2 tablespoons coconut oil or butter, melted",
+   "1 tablespoon baking powder",
+   "1 teaspoon maple syrup or honey",
+   "1 teaspoon vanilla extract",
+   "½ teaspoon ground cinnamon",
+   "¼ teaspoon salt",
+   "1 cup grated tart apple (1 large honeycrisp apple was more than plenty for me)"
+  ],
+  "yield_text": "6 pancakes",
+  "cook_time": "PT15M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/apple-oatmeal-pancakes-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

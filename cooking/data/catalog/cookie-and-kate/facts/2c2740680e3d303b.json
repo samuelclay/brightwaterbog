@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/caprese-pasta-salad/",
+ "status": "parsed",
+ "facts": {
+  "title": "Caprese Pasta Salad",
+  "ingredients": [
+   "6 ounces (2 cups) whole grain fusilli or rotini pasta",
+   "⅓ cup extra-virgin olive oil",
+   "2 pints cherry or grape tomatoes",
+   "½ teaspoon fine sea salt",
+   "8 ounces mozzarella “pearls”, or one mozzarella ball, torn into bite-sized pieces",
+   "Several sprigs of fresh basil (enough for 2+ tablespoons chopped)",
+   "2 to 3 teaspoons white balsamic vinegar or regular balsamic vinegar, to taste"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT15M",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/caprese-pasta-salad/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

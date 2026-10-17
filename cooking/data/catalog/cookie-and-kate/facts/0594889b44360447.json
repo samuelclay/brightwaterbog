@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/fresh-ginger-tea-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Fresh Ginger Tea",
+  "ingredients": [
+   "1-inch chunk of fresh ginger (no need to peel), sliced into pieces no wider than ¼-inch",
+   "1 cup water",
+   "Optional flavorings (choose just one): 1 cinnamon stick, 1-inch piece of fresh turmeric (cut into thin slices, same as the ginger), or several sprigs of fresh mint",
+   "Optional add-ins: 1 thin round of fresh lemon or orange, and/or 1 teaspoon honey or maple syrup, to taste"
+  ],
+  "yield_text": "1 cup",
+  "cook_time": "PT10M",
+  "categories": [
+   "Drink"
+  ],
+  "cuisines": [
+   "Asian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/fresh-ginger-tea-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

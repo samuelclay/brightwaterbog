@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/kale-guacamole-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Kale Guacamole",
+  "ingredients": [
+   "3 to 4 big leaves of curly green kale (the Tuscan/lacinato variety also works well)",
+   "4 medium ripe avocados, halved and pitted",
+   "3 to 4 tablespoons lime juice (about 1 ½ medium limes), divided, to taste",
+   "¾ teaspoon kosher salt, to taste",
+   "⅓ cup roughly chopped red onion",
+   "¼ cup roughly chopped fresh cilantro, lightly packed",
+   "1 small jalapeño, seeds and membranes removed, roughly chopped"
+  ],
+  "yield_text": "3 1/2 cups",
+  "cook_time": "PT15M",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/kale-guacamole-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

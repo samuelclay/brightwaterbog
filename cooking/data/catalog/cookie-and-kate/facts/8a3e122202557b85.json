@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/smashed-broccoli-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Cheesy Smashed Broccoli",
+  "ingredients": [
+   "1 bunch of broccoli (about 1 ½ pounds) or 16 ounces broccoli florets",
+   "1 ½ tablespoons extra-virgin olive oil",
+   "Scant ½ teaspoon fine salt, more to taste",
+   "½ teaspoon garlic powder",
+   "½ teaspoon onion powder",
+   "2 ounces (¾ cup) finely grated Parmesan cheese",
+   "¼ teaspoon red pepper flakes (optional, for a kick)",
+   "Freshly ground black pepper",
+   "1 to 2 teaspoons fresh lemon juice, to taste"
+  ],
+  "yield_text": "4 to 6",
+  "cook_time": "PT35M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/smashed-broccoli-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

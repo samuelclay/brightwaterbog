@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/broccoli-pesto-pasta-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Broccoli Pesto Pasta with Green Olives",
+  "ingredients": [
+   "2 cups broccoli florets",
+   "1 pound uncooked pasta, such as rigatoni or penne",
+   "1 cup plain green olives, drained and pitted",
+   "3 tablespoons pine nuts",
+   "2 cups fresh basil leaves (about 1 ⅓ ounce, or 2 small containers)",
+   "3 cloves garlic, roughly chopped",
+   "3 tablespoons freshly grated Parmesan cheese",
+   "Several twists of freshly ground black pepper, to taste",
+   "¼ cup extra-virgin olive oil",
+   "Salt, to taste",
+   "Optional, for serving: Dollops of ricotta and/or red pepper flakes, drizzle of olive oil"
+  ],
+  "yield_text": "4 to 6 servings",
+  "cook_time": "PT35M",
+  "categories": [
+   "Dinner"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/broccoli-pesto-pasta-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

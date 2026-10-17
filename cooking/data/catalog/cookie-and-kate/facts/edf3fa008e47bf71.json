@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/healthy-almond-chocolate-chip-granola-bars/",
+ "status": "parsed",
+ "facts": {
+  "title": "Honey-Sweetened Almond Chocolate Chip Granola Bars",
+  "ingredients": [
+   "1 ¾ cups quick-cooking oats (or old-fashioned oats, pulsed briefly in a food processor or blender to break them up)",
+   "1 ⅓ cup sliced almonds",
+   "⅔ cup mini dark chocolate chips",
+   "1 teaspoon ground cinnamon",
+   "½ to ¾ teaspoon salt, to taste (decrease if your almond/peanut butter is salted)",
+   "1 cup creamy unsalted almond butter or peanut butter",
+   "½ cup honey",
+   "1 ½ teaspoons vanilla extract"
+  ],
+  "yield_text": "14 to 16 bars",
+  "cook_time": "PT20M",
+  "categories": [
+   "Snack"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/healthy-almond-chocolate-chip-granola-bars/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

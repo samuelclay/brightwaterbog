@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/coconut-macaroons-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Coconut Macaroons",
+  "ingredients": [
+   "8 ounces (3 cups) unsweetened shredded coconut*",
+   "1 cup sugar",
+   "½ teaspoon ground cinnamon",
+   "3 large egg whites",
+   "3 tablespoons honey or maple syrup",
+   "2 teaspoons vanilla extract",
+   "½ teaspoon fine salt",
+   "1 cup (6 ounces) semisweet or dark chocolate chips"
+  ],
+  "yield_text": "34 cookies",
+  "cook_time": "PT35M",
+  "categories": [
+   "Cookie"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/coconut-macaroons-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

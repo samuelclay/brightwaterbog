@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/mezcalita-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Mezcalita",
+  "ingredients": [
+   "For the spicy rim: Tajín Clásico Seasoning or a mix of 2 parts kosher salt and 1 part chili powder",
+   "Lime wedges, for lining the rim and garnish",
+   "1 ½ ounces mild mezcal",
+   "2 ounces fresh orange juice",
+   "1 ounce fresh lime juice",
+   "Optional: 3 dashes of orange bitters (for extra orange flavor)",
+   "Optional: 1 to 3 teaspoons orange liqueur, simple syrup or agave nectar"
+  ],
+  "yield_text": "1 drink",
+  "cook_time": "PT10M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/mezcalita-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

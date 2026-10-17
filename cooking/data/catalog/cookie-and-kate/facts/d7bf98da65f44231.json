@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/whole-wheat-banana-pancakes-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Whole Wheat Banana Pancakes",
+  "ingredients": [
+   "1 cup white whole wheat flour or regular whole wheat flour",
+   "1 tablespoon baking powder (not baking soda!)",
+   "½ teaspoon ground cinnamon",
+   "¼ teaspoon fine sea salt",
+   "⅔ cup milk of choice*",
+   "½ cup mashed ripe banana (from about 1 large banana), plus another banana for slicing on top",
+   "1 large egg",
+   "2 tablespoons maple syrup or honey, plus more for serving",
+   "2 tablespoons melted unsalted butter or coconut oil",
+   "½ teaspoon vanilla extract",
+   "Optional toppings: sliced banana, maple syrup, peanut butter or almond butter"
+  ],
+  "yield_text": "6 to 7 pancakes",
+  "cook_time": "PT20M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/whole-wheat-banana-pancakes-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

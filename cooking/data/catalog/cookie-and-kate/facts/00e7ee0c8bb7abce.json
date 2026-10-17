@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/cucumber-mojito-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Cucumber Mojito",
+  "ingredients": [
+   "2-inch slice of peeled cucumber, halved into two rounds and then quartered",
+   "10 fresh mint leaves",
+   "1 ½ to 2 teaspoons cane sugar, to taste",
+   "1 small to medium lime, juiced",
+   "1 ½ ounces clear rum",
+   "Club soda"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cucumber-mojito-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

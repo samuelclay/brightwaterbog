@@ -1,0 +1,32 @@
+{
+ "url": "https://smittenkitchen.com/2020/07/pasta-with-pesto-genovese/",
+ "status": "parsed",
+ "facts": {
+  "title": "pasta with pesto genovese",
+  "ingredients": [
+   "1 pound (455 grams) dried pasta, any shape (shown here: gemelli ; more traditional: trofie )",
+   "2 ounces (55 grams) aged parmesan or pecorino romano",
+   "2 to 3 garlic cloves",
+   "1/4 cup (35 grams) toasted pine nuts",
+   "Kosher salt and freshly ground black pepper",
+   "Heaped 4 cups fresh basil leaves (3 ounces or 85 grams), from approximately a 5-6-ounce bundle with stems",
+   "1/2 cup (120 ml) olive oil, plus more as needed"
+  ],
+  "yield_text": "Makes 1 cup pesto for 1 pound dried pasta; serves 4 to 8;",
+  "cook_time": "15 minutes",
+  "categories": [
+   "Italian",
+   "Pasta",
+   "Recipe",
+   "Summer",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2020/07/pasta-with-pesto-genovese/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

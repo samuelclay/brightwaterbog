@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/cherry-pecan-muesli-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Cherry Pecan Muesli",
+  "ingredients": [
+   "4 cups old-fashioned rolled oats (certified gluten-free if necessary)",
+   "1 ¼ cups chopped raw pecans",
+   "1 cup large, unsweetened coconut flakes or shredded unsweetened coconut",
+   "½ teaspoon salt",
+   "½ teaspoon ground cinnamon",
+   "2 tablespoons maple syrup",
+   "1 tablespoon melted coconut oil",
+   "1 tablespoon pure vanilla extract",
+   "½ cup chopped dried cherries"
+  ],
+  "yield_text": "12 servings",
+  "cook_time": "PT25M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cherry-pecan-muesli-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

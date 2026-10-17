@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/tropical-acai-bowl-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Tropical Acai Bowl",
+  "ingredients": [
+   "1 ½ cups frozen mango chunks",
+   "1 cup frozen pineapple chunks",
+   "1 cup frozen banana chunks (freeze ripe bananas in ½″-thick slices)",
+   "Two packets (3.5 ounces or 100 grams each) frozen unsweetened açai berry purée",
+   "1 cup ice cold water, more if necessary",
+   "1 to 2 tablespoons lime juice, to taste",
+   "Recommended garnishes: coconut granola, shredded unsweetened coconut, chopped nuts, chia seeds, sliced fresh banana or kiwi or other tropical fruits"
+  ],
+  "yield_text": "2 smoothie bowls",
+  "cook_time": "PT10M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Brazilian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/tropical-acai-bowl-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

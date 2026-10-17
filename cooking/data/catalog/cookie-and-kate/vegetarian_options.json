@@ -1,0 +1,26 @@
+{
+  "https://cookieandkate.com/caesar-dressing-recipe/": {
+    "replacements": {
+      "½ teaspoon Worcestershire sauce*, to taste": "½ teaspoon vegetarian Worcestershire sauce, to taste"
+    },
+    "note": "Use vegetarian Worcestershire sauce, as specified in the original recipe notes."
+  },
+  "https://cookieandkate.com/homemade-bloody-mary-recipe/": {
+    "replacements": {
+      "1 teaspoon Worcestershire sauce*": "1 teaspoon vegetarian Worcestershire sauce"
+    },
+    "note": "Use vegetarian Worcestershire sauce, as specified in the original recipe notes."
+  },
+  "https://cookieandkate.com/favorite-hot-chocolate-recipe/": {
+    "replacements": {
+      "Topping of choice (optional): Whipped cream, marshmallows, shaved chocolate, or any of the options provided within post": "Optional topping: whipped cream or shaved chocolate"
+    },
+    "note": "Uses the whipped cream or shaved chocolate topping options; omits marshmallows."
+  },
+  "https://cookieandkate.com/caesar-salad-recipe/": {
+    "replacements": {
+      "½ teaspoon Worcestershire sauce*, to taste": "½ teaspoon vegetarian Worcestershire sauce, to taste"
+    },
+    "note": "Use vegetarian Worcestershire sauce, as specified in the original recipe notes."
+  }
+}

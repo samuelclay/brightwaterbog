@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/avocado-pesto-toast-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Avocado Pesto Toast",
+  "ingredients": [
+   "¼ cup pepitas (hulled pumpkin seeds)",
+   "2 large ripe avocados",
+   "2 medium cloves garlic",
+   "2 tablespoons lemon juice",
+   "¼ teaspoon salt, to taste",
+   "⅔ cup (1 ounce) packed fresh basil leaves",
+   "4 slices of good bread",
+   "Cooked eggs (fried, poached or scrambled, your preference)",
+   "Halved cherry tomatoes (1 small handful per serving)",
+   "Freshly ground black pepper, red pepper flakes and/or flaky sea salt"
+  ],
+  "yield_text": "4 toasts",
+  "cook_time": "PT20M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/avocado-pesto-toast-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

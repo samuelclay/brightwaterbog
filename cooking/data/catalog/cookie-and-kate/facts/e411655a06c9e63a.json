@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/martini-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Martini",
+  "ingredients": [
+   "2 ounces gin or vodka",
+   "1 ounce dry vermouth",
+   "For a dirty martini: 1 to 3 teaspoons olive brine",
+   "Garnish: Strip of lemon peel (for a twist) or 2 cocktail olives"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/martini-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

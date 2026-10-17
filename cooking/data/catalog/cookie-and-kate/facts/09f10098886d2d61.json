@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/healthy-blueberry-muffins/",
+ "status": "parsed",
+ "facts": {
+  "title": "Healthy Blueberry Muffins",
+  "ingredients": [
+   "1 ¾ cups plus 1 teaspoon white whole wheat flour or regular whole wheat flour",
+   "1 teaspoon baking powder",
+   "½ teaspoon baking soda",
+   "½ teaspoon fine salt",
+   "¼ teaspoon ground cinnamon (optional)",
+   "⅓ cup melted coconut oil or extra-virgin olive oil",
+   "½ cup honey or maple syrup",
+   "2 eggs, preferably at room temperature",
+   "1 cup plain Greek yogurt*",
+   "2 teaspoons vanilla extract",
+   "1 cup (6 ounces) blueberries, fresh or frozen",
+   "1 tablespoon turbinado sugar (also called raw sugar), for sprinkling on top"
+  ],
+  "yield_text": "12 muffins",
+  "cook_time": "PT35M",
+  "categories": [
+   "Muffin"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/healthy-blueberry-muffins/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

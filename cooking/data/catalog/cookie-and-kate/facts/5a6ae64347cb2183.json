@@ -1,0 +1,23 @@
+{
+ "url": "https://cookieandkate.com/basil-gimlet/",
+ "status": "parsed",
+ "facts": {
+  "title": "Basil Gimlet",
+  "ingredients": [
+   "8 medium basil leaves",
+   "1 ½ ounces gin",
+   "1 lime, juiced",
+   "1 to 2 teaspoons agave nectar or simple syrup, to taste"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/basil-gimlet/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

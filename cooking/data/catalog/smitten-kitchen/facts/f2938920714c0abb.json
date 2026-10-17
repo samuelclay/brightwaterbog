@@ -1,0 +1,31 @@
+{
+ "url": "https://smittenkitchen.com/2010/08/eggplant-salad-toasts/",
+ "status": "parsed",
+ "facts": {
+  "title": "eggplant salad toasts",
+  "ingredients": [
+   "1 medium eggplant, about 3/4 pound, cut into 1/2-inch cubes",
+   "2 tablespoons olive oil plus additional for oiling baking sheet",
+   "1/4 teaspoon salt",
+   "Black pepper",
+   "1 teaspoon red wine vinegar",
+   "1/4 cup crumbled crumbled feta",
+   "1 scallion, thinly sliced",
+   "8 1/2-inch slices of baguette, brushed with olive oil",
+   "1 small clove garlic, peeled and halved"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Eggplant",
+   "Salad",
+   "Summer",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2010/08/eggplant-salad-toasts/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

@@ -1,0 +1,27 @@
+{
+ "url": "https://smittenkitchen.com/2014/12/roasted-grape-and-olive-crostini/",
+ "status": "parsed",
+ "facts": {
+  "title": "roasted grape and olive crostini",
+  "ingredients": [
+   "2 tablespoons olive oil",
+   "1 cup grapes, seedless purple ones are my first choice, all will work",
+   "1 cup olives, pitted kalamata are my first choice, all will work",
+   "1 1/2 teaspoons finely chopped rosemary, divided",
+   "Sea salt and red pepper flakes",
+   "About 12 baguette slices, toasted",
+   "3/4 cup ricotta"
+  ],
+  "yield_text": "Yield: 12 crostini, a very small batch. I usually double this for a small party.",
+  "cook_time": null,
+  "categories": [
+   "Party Snacks",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2014/12/roasted-grape-and-olive-crostini/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

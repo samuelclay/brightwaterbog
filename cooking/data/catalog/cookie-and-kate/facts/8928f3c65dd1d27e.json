@@ -1,0 +1,36 @@
+{
+ "url": "https://cookieandkate.com/arugula-almond-pesto-pizza/",
+ "status": "parsed",
+ "facts": {
+  "title": "Arugula-Almond Pesto Pizza",
+  "ingredients": [
+   "3 cups of packed fresh arugula and/or basil, tough stems removed",
+   "¾ cup sliced almonds",
+   "½ to ¾ cup freshly grated Parmesan cheese",
+   "2 to 3 garlic cloves, peeled and roughly chopped",
+   "½ teaspoon salt",
+   "½ cup extra virgin olive oil",
+   "1 tablespoon fresh lemon juice",
+   "Freshly ground black pepper, to taste",
+   "1 batch easy whole wheat pizza dough",
+   "8 ounces fresh mozzarella, torn, or part-skim mozzarella, shredded, or ¼-inch slices of goat cheese",
+   "1 small tomato, sliced thin",
+   "1 small yellow squash, quartered lengthwise and sliced into little triangle shapes",
+   "Sprinkle of sliced almonds",
+   "Sprinkle of fresh arugula or chopped basil",
+   "Red pepper flakes, to taste"
+  ],
+  "yield_text": "8",
+  "cook_time": "PT45M",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/arugula-almond-pesto-pizza/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

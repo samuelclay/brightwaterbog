@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/hearty-spaghetti-with-lentils-marinara/",
+ "status": "parsed",
+ "facts": {
+  "title": "Hearty Spaghetti with Lentils & Marinara",
+  "ingredients": [
+   "½ cup dry lentils (French green lentils or regular brown lentils), or 1 ½ cups cooked lentils (leftover or from a can, rinsed and drained)",
+   "1 bay leaf",
+   "1 large garlic clove, peeled but left whole",
+   "¼ teaspoon salt",
+   "2 cups vegetable broth or water",
+   "2 cups marinara sauce",
+   "8 ounces whole-grain pasta",
+   "Optional garnishes: grated Parmesan or vegan Parmesan and/or chopped fresh basil"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT35M",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/hearty-spaghetti-with-lentils-marinara/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

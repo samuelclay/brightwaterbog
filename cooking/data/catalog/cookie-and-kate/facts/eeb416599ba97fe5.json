@@ -1,0 +1,24 @@
+{
+ "url": "https://cookieandkate.com/watermelon-mimosas/",
+ "status": "parsed",
+ "facts": {
+  "title": "Watermelon Mimosas",
+  "ingredients": [
+   "⅓ medium watermelon, preferably chilled (seedless watermelon is the easiest to work with, but sugar baby watermelons are the most tasty)",
+   "1 bottle Champagne, chilled",
+   "Optional, for extra sweetness: simple syrup or St. Germain, to taste"
+  ],
+  "yield_text": "6 cocktails",
+  "cook_time": "PT10M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/watermelon-mimosas/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

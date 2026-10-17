@@ -1,0 +1,24 @@
+{
+ "url": "https://cookieandkate.com/perfect-roasted-brussels-sprouts-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Perfect Roasted Brussels Sprouts",
+  "ingredients": [
+   "1 ½ pounds Brussels sprouts",
+   "2 tablespoons extra-virgin olive oil",
+   "¼ teaspoon fine sea salt"
+  ],
+  "yield_text": "4 side servings",
+  "cook_time": "PT30M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "European"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/perfect-roasted-brussels-sprouts-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

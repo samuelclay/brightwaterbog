@@ -1,0 +1,27 @@
+{
+ "url": "https://smittenkitchen.com/2008/05/haricot-vert-with-shallots/",
+ "status": "parsed",
+ "facts": {
+  "title": "haricot vert with shallots",
+  "ingredients": [
+   "1/2 pound of haricot vert, trimmed and tailed",
+   "2 teaspoon butter",
+   "1 small shallot, sliced",
+   "Salt and freshly ground black pepper to taste",
+   "2 tablespoons diced fresh tomato",
+   "Wedge of lemon"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Green Beans",
+   "Summer",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2008/05/haricot-vert-with-shallots/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

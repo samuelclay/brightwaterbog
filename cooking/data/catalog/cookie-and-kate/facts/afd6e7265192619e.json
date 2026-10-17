@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/baked-jalapeno-poppers-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Baked Jalapeño Poppers",
+  "ingredients": [
+   "12 large jalapeño peppers",
+   "8 ounces cream cheese, at room temperature",
+   "¼ cup chopped fresh cilantro, plus 1 tablespoon for garnish",
+   "¼ cup chopped green onion, plus 1 tablespoon for garnish",
+   "¼ teaspoon garlic powder",
+   "¼ teaspoon onion powder",
+   "¼ teaspoon fine sea salt",
+   "⅓ cup grated sharp cheddar cheese",
+   "2 tablespoons crumbled feta cheese, optional",
+   "1 big handful Kettle Brand Country Style Barbecue potato chips"
+  ],
+  "yield_text": "12 peppers",
+  "cook_time": "PT35M",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/baked-jalapeno-poppers-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

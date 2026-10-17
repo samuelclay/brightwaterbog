@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/earl-grey-french-75/",
+ "status": "parsed",
+ "facts": {
+  "title": "Earl Grey French 75",
+  "ingredients": [
+   "½ cup gin",
+   "2 teabags Earl Grey tea",
+   "3 tablespoons honey",
+   "3 tablespoons water",
+   "1 ounce Earl Grey-infused gin",
+   "¾ ounce fresh lemon juice",
+   "½ ounce honey simple syrup",
+   "Dry Champagne or Prosecco, for topping off the drink (a few ounces per drink)",
+   "Twist of lemon, as garnish"
+  ],
+  "yield_text": "4 cocktails",
+  "cook_time": "PT1H10M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/earl-grey-french-75/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

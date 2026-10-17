@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/best-granola-bars-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Easy No-Bake Granola Bars",
+  "ingredients": [
+   "1 ¾ cups old-fashioned oats or quick-cooking oats",
+   "1 teaspoon ground cinnamon",
+   "½ teaspoon fine sea salt (if using regular table salt, scale back a bit)",
+   "2 cups mix-ins* (nuts, seeds, chocolate, shredded coconut or dried fruit)",
+   "1 cup creamy peanut butter or almond butter",
+   "½ cup honey or maple syrup",
+   "1 teaspoon vanilla extract"
+  ],
+  "yield_text": "16 bars",
+  "cook_time": "PT20M",
+  "categories": [
+   "Snack"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-granola-bars-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

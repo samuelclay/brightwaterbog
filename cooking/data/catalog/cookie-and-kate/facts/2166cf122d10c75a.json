@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/gluten-free-chocolate-chip-cookies-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Gluten-Free Chocolate Chip Cookies",
+  "ingredients": [
+   "2 cups (180 grams) blanched almond flour, spooned and leveled",
+   "1 ½ teaspoons baking powder",
+   "¼ teaspoon fine salt",
+   "¼ cup unsalted butter, just melted",
+   "⅓ cup maple syrup",
+   "1 large egg",
+   "1 teaspoon vanilla extract",
+   "½ cup chocolate chips (semi-sweet or bittersweet)",
+   "Flaky sea salt, for sprinkling on top (optional)"
+  ],
+  "yield_text": "16",
+  "cook_time": "PT30M",
+  "categories": [
+   "Cookies"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/gluten-free-chocolate-chip-cookies-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

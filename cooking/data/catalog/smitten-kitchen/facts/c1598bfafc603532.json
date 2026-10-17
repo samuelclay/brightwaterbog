@@ -1,0 +1,32 @@
+{
+ "url": "https://smittenkitchen.com/2010/10/roasted-eggplant-soup/",
+ "status": "parsed",
+ "facts": {
+  "title": "roasted eggplant soup",
+  "ingredients": [
+   "3 medium tomatoes, halved",
+   "1 large eggplant (about 1 1/2 pounds), halved lengthwise",
+   "1 small onion, halved (eh, mine was medium)",
+   "6 large garlic cloves, peeled",
+   "2 tablespoons olive oil",
+   "1 tablespoon chopped fresh thyme or 1 teaspoon dried",
+   "4 cups chicken stock or vegetable broth",
+   "1/4 cup heavy cream",
+   "3/4 cup (about 3 1/2 ounces) crumbled goat cheese"
+  ],
+  "yield_text": "Serves 4",
+  "cook_time": null,
+  "categories": [
+   "Eggplant",
+   "Fall",
+   "Soup",
+   "Tomatoes",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2010/10/roasted-eggplant-soup/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

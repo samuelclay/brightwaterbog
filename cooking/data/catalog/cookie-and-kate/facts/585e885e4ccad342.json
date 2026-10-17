@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/simple-breakfast-quesadillas-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Simple Breakfast Quesadillas",
+  "ingredients": [
+   "2 eggs",
+   "Hot sauce, like Cholula",
+   "Pinch of salt",
+   "⅓ cup cooked pinto beans or black beans, rinsed and drained",
+   "2 teaspoons butter or extra-virgin olive oil",
+   "1 tablespoon chopped green onion",
+   "1 tablespoon finely chopped cilantro",
+   "1 tablespoon chopped pickled jalapeño (optional)",
+   "1 medium (8″) whole grain tortilla",
+   "½ cup (packed) grated sharp cheddar cheese",
+   "Salsa or additional hot sauce, for serving"
+  ],
+  "yield_text": "1 quesadilla",
+  "cook_time": "PT25M",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/simple-breakfast-quesadillas-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

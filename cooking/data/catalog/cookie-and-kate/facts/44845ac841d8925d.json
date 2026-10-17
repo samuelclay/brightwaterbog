@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/easy-salted-fudge-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Easy Salted Oat Fudge",
+  "ingredients": [
+   "¾ cup creamy unsalted almond butter or peanut butter",
+   "¾ cup semi-sweet chocolate chips",
+   "⅓ cup maple syrup or honey",
+   "4 tablespoons butter, sliced into small cubes, or ¼ cup melted coconut oil",
+   "¾ teaspoon salt (scale back, to taste, if your nut butter is salted)",
+   "½ teaspoon ground cinnamon",
+   "1 ½ teaspoons vanilla extract",
+   "1 ¾ cups old-fashioned oats ground into flour, see step 1",
+   "1 cup whole pecans or other nuts",
+   "Optional: Flaky sea salt, for sprinkling on top"
+  ],
+  "yield_text": "About 36 small squares of fudge.",
+  "cook_time": "PT20M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/easy-salted-fudge-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

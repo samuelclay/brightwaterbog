@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/buckwheat-pancakes/",
+ "status": "parsed",
+ "facts": {
+  "title": "Gluten-Free Buckwheat Pancakes",
+  "ingredients": [
+   "1 cup plus 1 tablespoon buckwheat flour (or ½ cup buckwheat and ½ cup flour of choice)",
+   "1 tablespoon sugar",
+   "1 teaspoon baking powder",
+   "1 teaspoon baking soda",
+   "¼ teaspoon salt",
+   "1 ¼ cups buttermilk, shaken*",
+   "2 eggs",
+   "½ teaspoon pure vanilla extract",
+   "Butter, for the skillet"
+  ],
+  "yield_text": "12 pancakes",
+  "cook_time": "PT25M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/buckwheat-pancakes/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,40 @@
+{
+ "url": "https://smittenkitchen.com/2009/08/tomato-and-corn-pie/",
+ "status": "parsed",
+ "facts": {
+  "title": "tomato and corn pie",
+  "ingredients": [
+   "2 cups (260 grams) all-purpose flour",
+   "1 tablespoon baking powder",
+   "3/4 teaspoons kosher salt",
+   "6 tablespoons (3 ounces or 85 grams) cold unsalted butter, cut into 1/2-inch cubes",
+   "3/4 cup (175 ml) whole milk",
+   "1/3 cup (70 grams) mayonnaise",
+   "2 tablespoons (30 ml) fresh lemon juice",
+   "1 3/4 pounds (795 grams) beefsteak tomatoes",
+   "1 1/2 cups corn (from about 3 ears), coarsely chopped by hand or lightly puréed in a food processor, divided",
+   "2 tablespoons finely chopped basil, divided",
+   "1 tablespoon finely chopped chives, divided",
+   "1 teaspoon kosher salt",
+   "1/4 teaspoon black pepper, divided",
+   "1 3/4 cups (7 ounces or 200 grams) coarsely grated sharp cheddar cheese, divided",
+   "2 teaspoons melted butter"
+  ],
+  "yield_text": "8",
+  "cook_time": "About 1.5 hours, with baking time",
+  "categories": [
+   "Corn",
+   "Dinner",
+   "Picnics",
+   "Summer",
+   "Tarts/Quiche",
+   "Tomatoes",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2009/08/tomato-and-corn-pie/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

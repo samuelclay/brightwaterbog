@@ -1,0 +1,37 @@
+{
+ "url": "https://cookieandkate.com/healthy-gingerbread-cookies/",
+ "status": "parsed",
+ "facts": {
+  "title": "Healthier Gingerbread Cookies",
+  "ingredients": [
+   "3 cups (345 grams) whole wheat pastry flour*, spooned and leveled, plus more for work surface",
+   "2 teaspoons ground ginger",
+   "2 teaspoons ground cinnamon",
+   "¾ teaspoon kosher salt",
+   "½ teaspoon ground cloves",
+   "½ teaspoon finely ground black pepper",
+   "½ teaspoon baking soda",
+   "¼ teaspoon baking powder",
+   "½ cup melted coconut oil",
+   "½ cup unsulphured molasses (use regular molasses for lighter, somewhat spicy cookies or blackstrap molasses for very spicy, intensely flavored cookies—or a mixture of both)",
+   "½ cup packed coconut sugar",
+   "1 large egg",
+   "Powdered sugar, for dusting (optional)",
+   "½ cup powdered sugar (here’s how to make your own)",
+   "¼ teaspoon lemon zest (optional, for intense lemon flavor)",
+   "2 ¼ teaspoons lemon juice"
+  ],
+  "yield_text": "32 cookies",
+  "cook_time": "PT40M",
+  "categories": [
+   "Cookie"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/healthy-gingerbread-cookies/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

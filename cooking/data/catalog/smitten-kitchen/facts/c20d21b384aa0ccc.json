@@ -1,0 +1,50 @@
+{
+ "url": "https://smittenkitchen.com/2009/01/squash-and-chickpea-moroccan-stew/",
+ "status": "parsed",
+ "facts": {
+  "title": "squash and chickpea moroccan stew",
+  "ingredients": [
+   "1 tablespoon unsalted butter",
+   "1 tablespoon olive oil",
+   "1 medium yellow onion, small dice",
+   "4 medium cloves garlic, thinly sliced",
+   "2 teaspoons ground cumin",
+   "1 (3-inch) cinnamon stick",
+   "Salt and freshly ground black pepper",
+   "1 pound butternut squash, large dice",
+   "3/4 pound red potatoes, large dice",
+   "2 cups low-sodium chicken or vegetable broth",
+   "2 cups cooked chickpeas, drained",
+   "1 (14-ounce) can diced tomatoes, with juices",
+   "Pinch saffron threads (optional)",
+   "1/2 preserved lemon, finely chopped",
+   "1 cup brined green olives (Aida recommended Cerignola)",
+   "Steamed couscous, for serving (directions here and elsewhere on the web)",
+   "Fresh cilantro leaves, roughly chopped, for garnish",
+   "Toasted slivered almonds, for garnish",
+   "Plain yogurt, for garnish",
+   "Hot sauce of your choice (for serving)"
+  ],
+  "yield_text": "Serves 6 to 8",
+  "cook_time": null,
+  "categories": [
+   "Beans",
+   "Braiser",
+   "Egg-Free",
+   "Freezer Friendly",
+   "North African",
+   "Ramadan",
+   "Stew",
+   "Vegan",
+   "Vegetarian",
+   "Winter Squash"
+  ],
+  "cuisines": [
+   "North African"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2009/01/squash-and-chickpea-moroccan-stew/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

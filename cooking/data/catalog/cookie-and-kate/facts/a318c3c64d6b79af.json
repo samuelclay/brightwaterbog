@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/chia-seed-pudding-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "My Favorite Chia Seed Pudding",
+  "ingredients": [
+   "1 cup homemade cashew milk, almond milk or light coconut milk",
+   "½ teaspoon orange zest, preferably from an organic orange",
+   "⅛ teaspoon vanilla extract, more to taste",
+   "3 tablespoons chia seeds",
+   "Recommended toppings: drizzle of honey or maple syrup, sliced bananas, fresh or defrosted berries or my berry chia seed jam, shredded coconut, toasted chopped nuts…"
+  ],
+  "yield_text": "1 serving",
+  "cook_time": "PT5M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/chia-seed-pudding-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

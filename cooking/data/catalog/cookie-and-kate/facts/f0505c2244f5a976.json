@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/simple-caprese-skewers-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Caprese Skewers",
+  "ingredients": [
+   "About 20 4- to 5-inch skewers",
+   "1 pint (2 cups) cherry tomatoes (smaller tomatoes are preferable)",
+   "8 ounces ciliegine (mini mozzarella balls), drained",
+   "1 small bunch of basil (smaller basil leaves are preferable; one ⅔ ounce container will do)",
+   "2 tablespoons extra-virgin olive oil",
+   "1 tablespoon balsamic reduction or thick balsamic vinegar",
+   "Flaky sea salt or kosher salt, for sprinkling"
+  ],
+  "yield_text": "20 skewers",
+  "cook_time": "PT15M",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/simple-caprese-skewers-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

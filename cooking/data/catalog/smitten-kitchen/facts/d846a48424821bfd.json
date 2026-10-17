@@ -1,0 +1,33 @@
+{
+ "url": "https://smittenkitchen.com/2026/08/cucumber-salad-with-sesame-and-rice-vinegar/",
+ "status": "parsed",
+ "facts": {
+  "title": "cucumber salad with sesame and rice vinegar",
+  "ingredients": [
+   "1 pound (455 grams) Persian-style cucumbers, trimmed, in 1/2-inch slices",
+   "1 1/2 teaspoons kosher salt (Diamond brand, use half of others)",
+   "3 tablespoons (45 ml) unseasoned rice vinegar",
+   "1 tablespoon (15 ml) toasted sesame oil",
+   "1 tablespoon (15 ml) soy sauce",
+   "Ground black or white pepper",
+   "Chili oil or chili crisp to taste, or red pepper flakes",
+   "Toasted sesame seeds"
+  ],
+  "yield_text": "2 to 4, theoretically",
+  "cook_time": "15 minutes, plus resting time",
+  "categories": [
+   "Cucumber",
+   "Japanese",
+   "Recipe",
+   "Salad",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Japanese"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2026/08/cucumber-salad-with-sesame-and-rice-vinegar/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

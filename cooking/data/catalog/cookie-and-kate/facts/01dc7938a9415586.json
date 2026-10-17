@@ -1,0 +1,35 @@
+{
+ "url": "https://cookieandkate.com/veggie-sesame-noodles-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Veggie Sesame Noodles",
+  "ingredients": [
+   "8 ounces soba noodles or spaghetti noodles of choice*",
+   "¼ cup raw sesame seeds",
+   "⅓ cup reduced sodium tamari (or soy sauce, just be sure it’s reduced sodium or it will taste too salty)",
+   "¼ cup toasted sesame oil",
+   "2 tablespoons lime juice (about 1 medium lime)",
+   "1 teaspoon grated fresh ginger",
+   "2 cloves garlic, pressed or minced",
+   "½ teaspoon red pepper flakes, to taste (scale back or omit if sensitive to spice)",
+   "2 ½ cups thinly sliced red cabbage (about 10 ounces or ¼th medium cabbage)",
+   "3 whole carrots, peeled and then sliced into ribbons with vegetable peeler (about 1 ½ cups)",
+   "1 red bell pepper, sliced into very thin strips",
+   "1 bunch green onions, chopped",
+   "½ cup chopped cilantro",
+   "Optional: 2 cups shelled edamame, steamed"
+  ],
+  "yield_text": "6",
+  "cook_time": "PT35M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Chinese-Inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/veggie-sesame-noodles-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

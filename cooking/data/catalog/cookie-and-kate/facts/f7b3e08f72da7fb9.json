@@ -1,0 +1,36 @@
+{
+ "url": "https://cookieandkate.com/breakfast-quesadillas-with-scrambled-eggs-spinach-and-black-beans/",
+ "status": "parsed",
+ "facts": {
+  "title": "Vegetarian Breakfast Quesadillas with Scrambled Eggs, Spinach and Black Beans",
+  "ingredients": [
+   "2 eggs",
+   "1 teaspoon olive oil",
+   "1 cup spinach, roughly chopped",
+   "¼ cup cooked black beans",
+   "1 medium whole grain tortilla",
+   "½ cup melty shredded cheese (like cheddar or Monterey Jack), divided",
+   "Hot sauce, like Cholula",
+   "Sea salt",
+   "1 large avocado, diced",
+   "1 tablespoon fresh lime juice (about 1 small lime, juiced)",
+   "2 tablespoons finely chopped white onion or radishes",
+   "3 packed tablespoons fresh cilantro (about 1 small handful)",
+   "1 small garlic clove, pressed or minced",
+   "½ teaspoon ground coriander",
+   "⅛ teaspoon sea salt"
+  ],
+  "yield_text": "1",
+  "cook_time": "PT25M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/breakfast-quesadillas-with-scrambled-eggs-spinach-and-black-beans/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

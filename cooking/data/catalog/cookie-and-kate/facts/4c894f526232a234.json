@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/pasta-with-peas-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Pasta with Peas and Pesto",
+  "ingredients": [
+   "4 cloves garlic, pressed or finely chopped",
+   "⅓ cup (1 ounce) finely grated Pecorino Romano or Parmesan cheese, plus more for garnish",
+   "⅓ cup extra-virgin olive oil",
+   "2 lemons, 1 juiced and 1 thinly sliced into rounds",
+   "¼ teaspoon red pepper flakes, optional",
+   "Salt and pepper, to taste",
+   "10 to 16 ounces (2 to 3 cups) frozen peas, completely thawed*",
+   "16 ounces short-cut pasta**",
+   "⅓ cup to ½ cup pesto, homemade or jarred",
+   "Fresh basil leaves, for garnish"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "PT25M",
+  "categories": [
+   "Pasta"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pasta-with-peas-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

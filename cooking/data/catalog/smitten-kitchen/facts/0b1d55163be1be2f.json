@@ -1,0 +1,31 @@
+{
+ "url": "https://smittenkitchen.com/2023/08/corn-cacio-e-pepe/",
+ "status": "parsed",
+ "facts": {
+  "title": "corn cacio e pepe",
+  "ingredients": [
+   "2 tablespoons (30 grams) olive oil",
+   "About 3 cups fresh corn kernels (from 3 medium-large ears)",
+   "Kosher salt",
+   "Freshly ground black pepper",
+   "1 tablespoon (15 grams) butter, salted or unsalted",
+   "1 pound (455 grams) dried linguine or another pasta of your choice",
+   "8 ounces (225 grams) pecorino romano cheese, cut into 1-inch chunks, plus a few extra gratings for garnish"
+  ],
+  "yield_text": "4",
+  "cook_time": "25 minutes",
+  "categories": [
+   "Corn",
+   "Dinner",
+   "Pasta",
+   "Recipe",
+   "Summer",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2023/08/corn-cacio-e-pepe/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

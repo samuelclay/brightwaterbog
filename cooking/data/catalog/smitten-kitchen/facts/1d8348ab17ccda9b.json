@@ -1,0 +1,36 @@
+{
+ "url": "https://smittenkitchen.com/2009/12/mushroom-marsala-pasta-with-artichokes/",
+ "status": "parsed",
+ "facts": {
+  "title": "mushroom marsala pasta with artichokes",
+  "ingredients": [
+   "3 tablespoons olive oil",
+   "1 small onion, finely chopped",
+   "1 pound mushrooms, trimmed, cleaned and chopped into small bits",
+   "1 teaspoon kosher salt, plus 1 tablespoon for pasta water",
+   "1 cup dry Marsala wine",
+   "1 pound pasta, Giada recommends thimble-shaped pasta, ditalini, but I think I used snail-shaped or chiocciole",
+   "1/2 pound frozen artichoke hearts, thawed",
+   "3/4 cup grated Parmesan",
+   "1/2 cup cream",
+   "1/2 cup chopped fresh flat-leaf parsley",
+   "1 teaspoon freshly ground black pepper"
+  ],
+  "yield_text": "Serves 4 to 6",
+  "cook_time": null,
+  "categories": [
+   "Artichokes",
+   "Italian",
+   "Mushrooms",
+   "Pasta",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2009/12/mushroom-marsala-pasta-with-artichokes/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

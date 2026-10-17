@@ -1,0 +1,32 @@
+{
+ "url": "https://smittenkitchen.com/2024/04/steamed-artichokes/",
+ "status": "parsed",
+ "facts": {
+  "title": "steamed artichokes",
+  "ingredients": [
+   "2 to 3 full-sized fresh artichokes",
+   "1 to 2 lemons, halved",
+   "Salt, freshly ground black pepper",
+   "A big pat of butter (optional)",
+   "A few garlic cloves, halved lengthwise (optional)",
+   "Mayonnaise, for dipping sauce"
+  ],
+  "yield_text": "1 artichoke per person",
+  "cook_time": "45 minutes",
+  "categories": [
+   "5 Ingredients or Fewer",
+   "Appetizers",
+   "Artichokes",
+   "Recipe",
+   "Side Dish",
+   "Spring",
+   "Vegetable",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2024/04/steamed-artichokes/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/mini-lava-cakes-for-two/",
+ "status": "parsed",
+ "facts": {
+  "title": "Mini Lava Cakes for Two",
+  "ingredients": [
+   "3 tablespoons unsalted butter, plus more for greasing the tin",
+   "Cocoa powder or additional flour, for dusting the tin",
+   "⅓ cup quality bittersweet or semisweet chocolate chips or 2 ounces chocolate, chopped into small pieces",
+   "2 large eggs",
+   "2 tablespoons sugar",
+   "¼ teaspoon vanilla extract",
+   "Pinch of salt",
+   "1 teaspoon flour (whole wheat, all purpose or gluten-free flour blend)",
+   "Suggested garnishes: Powdered sugar, strawberry or vanilla ice cream, fresh sliced strawberries or whole raspberries"
+  ],
+  "yield_text": "2 lava cakes",
+  "cook_time": "PT20M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/mini-lava-cakes-for-two/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

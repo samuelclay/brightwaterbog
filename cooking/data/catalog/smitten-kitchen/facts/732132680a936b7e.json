@@ -1,0 +1,37 @@
+{
+ "url": "https://smittenkitchen.com/2010/10/mushroom-lasagna/",
+ "status": "parsed",
+ "facts": {
+  "title": "mushroom lasagna",
+  "ingredients": [
+   "Salt",
+   "Olive oil",
+   "3/4 pound (12 ounces or 340 grams) dried lasagna noodles",
+   "1 large clove garlic, minced",
+   "4 cups (950 ml) whole milk",
+   "3/4 cup (12 tablespoons, 6 ounces or 170 grams) unsalted butter, divided",
+   "1/2 cup (65 grams) all-purpose flour",
+   "1 teaspoon freshly ground black pepper",
+   "1 teaspoon ground nutmeg",
+   "1 1/2 pounds (680 grams) cremini or portobello mushrooms, sliced",
+   "1 cup (85 grams or 3 ounces) freshly grated parmesan"
+  ],
+  "yield_text": "8",
+  "cook_time": "2 hours",
+  "categories": [
+   "Freezer Friendly",
+   "Italian",
+   "Mushrooms",
+   "Pasta",
+   "Thanksgiving",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2010/10/mushroom-lasagna/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

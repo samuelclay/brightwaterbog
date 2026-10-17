@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/muesli-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Muesli",
+  "ingredients": [
+   "4 cups old-fashioned rolled oats",
+   "1 cup slivered almonds",
+   "1 cup large, unsweetened coconut flakes or shredded unsweetened coconut",
+   "½ cup pepitas (green pumpkin seeds)",
+   "1 teaspoon ground cinnamon",
+   "½ teaspoon fine salt",
+   "Optional: Up to 2 tablespoons maple syrup",
+   "1 tablespoon pure vanilla extract",
+   "½ cup chopped dried cranberries or cherries",
+   "1 cup hemp hearts"
+  ],
+  "yield_text": "8 cups",
+  "cook_time": "PT25M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "Swiss"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/muesli-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

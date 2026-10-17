@@ -1,0 +1,37 @@
+{
+ "url": "https://smittenkitchen.com/2017/09/tomato-bread-a-bit-about-spain/",
+ "status": "parsed",
+ "facts": {
+  "title": "tomato bread + a bit about spain",
+  "ingredients": [
+   "2 6-inch lengths baguette or ciabatta, cut open the long way",
+   "1 whole garlic clove, peeled",
+   "1 large (12 ounces is ideal) tomato, quartered or a few campari (golf-ball sized) tomatoes, halved",
+   "A couple tablespoons olive oil",
+   "Flaky sea salt"
+  ],
+  "yield_text": "4",
+  "cook_time": null,
+  "categories": [
+   "Bread",
+   "Breakfast",
+   "Budget",
+   "Lunch",
+   "Party Snacks",
+   "Put An Egg On It",
+   "Quick",
+   "Recipe",
+   "Side Dish",
+   "Spanish",
+   "Summer",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Spanish"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2017/09/tomato-bread-a-bit-about-spain/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

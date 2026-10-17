@@ -1,0 +1,41 @@
+{
+ "url": "https://smittenkitchen.com/2017/09/pizza-beans/",
+ "status": "parsed",
+ "facts": {
+  "title": "pizza beans",
+  "ingredients": [
+   "2 tablespoons (30 ml) olive oil",
+   "1 large onion, chopped",
+   "2 celery stalks, diced",
+   "1 large or 2 regular carrots, diced",
+   "Salt and freshly ground black pepper or red pepper flakes",
+   "2 large garlic cloves, minced",
+   "1/4 cup (60 ml) dry white or red wine (optional)",
+   "4 ounces (115 grams) curly kale leaves, chopped or torn",
+   "2 1/4 cups (550 grams) crushed tomatoes (28-ounce or 800-gram can minus 1 cup; reserve the rest for another use)",
+   "1 pound (455 grams) cooked firm-tender giant white beans",
+   "Up to 3/4 cup (175 ml) vegetable broth",
+   "1/2 pound (225 grams) mozzarella, coarsely grated",
+   "1/3 cup (35 grams) grated Parmesan",
+   "2 tablespoons (5 grams) roughly chopped fresh flat-leaf parsley, for garnish (optional)"
+  ],
+  "yield_text": "8",
+  "cook_time": "45 minutes",
+  "categories": [
+   "Beans",
+   "Best of Smitten Kitchen",
+   "Fall",
+   "Freezer Friendly",
+   "Kid Favorites",
+   "Pantry",
+   "Recipe",
+   "Savory Projects",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2017/09/pizza-beans/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

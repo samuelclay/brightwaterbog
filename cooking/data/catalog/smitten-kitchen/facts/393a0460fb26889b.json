@@ -1,0 +1,43 @@
+{
+ "url": "https://smittenkitchen.com/2020/10/simple-cauliflower-tacos/",
+ "status": "parsed",
+ "facts": {
+  "title": "simple cauliflower tacos",
+  "ingredients": [
+   "2 tablespoons red wine vinegar",
+   "1 1/2 tablespoons cold water",
+   "1/4 teaspoon granulated sugar",
+   "Kosher salt",
+   "1/2 red onion, thinly sliced",
+   "3 tablespoons olive oil",
+   "1 large (3 pounds) head cauliflower, trimmed, chopped small, including core",
+   "Red pepper flakes",
+   "1 heaped teaspoon ground cumin",
+   "1 lime, halved",
+   "1 15-ounce can black beans, drained and rinsed",
+   "12 small (4 to 5-inch) or 8 medium (7-inch) corn or flour tortillas",
+   "1/2 to 1 avocado, thinly sliced (to taste)",
+   "1/2 cup crumbled cotija cheese",
+   "Chopped fresh cilantro",
+   "Hot sauce and/or pickled jalapeños"
+  ],
+  "yield_text": "4",
+  "cook_time": "40 minutes",
+  "categories": [
+   "Cauliflower",
+   "Dinner",
+   "Kid Favorites",
+   "Recipe",
+   "Tex-Mex",
+   "Vegetarian",
+   "Weeknight Favorite"
+  ],
+  "cuisines": [
+   "Tex-Mex"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2020/10/simple-cauliflower-tacos/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

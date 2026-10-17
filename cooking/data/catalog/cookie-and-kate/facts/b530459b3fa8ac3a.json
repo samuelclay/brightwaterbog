@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/peanut-butter-honey-ice-cream/",
+ "status": "parsed",
+ "facts": {
+  "title": "Peanut Butter Honey Ice Cream",
+  "ingredients": [
+   "2 cans coconut milk (28 ounces total), either 2 cans full-fat or 1 can full-fat and 1 can light",
+   "¾ cup honey",
+   "½ cup creamy, natural, unsalted* peanut butter",
+   "1 teaspoon pure vanilla extract",
+   "½ teaspoon fine salt*",
+   "1 ½ teaspoons arrowroot starch (optional), whisked with a few tablespoons of the coconut milk mixture"
+  ],
+  "yield_text": "6 to 8",
+  "cook_time": "PT10M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/peanut-butter-honey-ice-cream/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

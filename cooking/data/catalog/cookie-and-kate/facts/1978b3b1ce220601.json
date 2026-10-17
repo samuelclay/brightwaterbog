@@ -1,0 +1,40 @@
+{
+ "url": "https://cookieandkate.com/broccoli-rabe-and-black-bean-quesadillas/",
+ "status": "parsed",
+ "facts": {
+  "title": "Broccoli Rabe and Black Bean Quesadillas",
+  "ingredients": [
+   "1 large bunch of broccoli rabe (about 1 pound)",
+   "Small handful of chopped fresh cilantro",
+   "1 tablespoon olive oil",
+   "2 teaspoons lime juice, to taste",
+   "1 medium clove garlic, pressed or minced",
+   "Pinch of salt, to taste",
+   "Pinch of red pepper flakes",
+   "1 tablespoon olive oil",
+   "1 medium shallot, chopped, or ⅓ cup chopped red onion",
+   "¼ teaspoon salt",
+   "1 clove garlic, pressed or minced",
+   "½ teaspoon ground cumin",
+   "¼ teaspoon chili powder",
+   "1 can (15 ounces) black beans, rinsed and drained, or 1 ½ cups cooked black beans",
+   "⅓ cup water",
+   "4 small (8-inch) whole grain tortillas",
+   "2 cups grated Monterey Jack or cheddar cheese",
+   "Olive oil, for brushing",
+   "Serving suggestions: salsa verde and/or guacamole"
+  ],
+  "yield_text": "4 quesadillas",
+  "cook_time": "PT30M",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/broccoli-rabe-and-black-bean-quesadillas/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

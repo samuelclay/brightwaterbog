@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/roasted-sweet-potatoes-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Perfect Roasted Sweet Potatoes",
+  "ingredients": [
+   "2 pounds sweet potatoes (3 to 4 medium sweet potatoes)",
+   "2 tablespoons extra-virgin olive oil",
+   "Optional: 1 teaspoon chili powder or freshly ground black pepper, to taste",
+   "¼ teaspoon fine sea salt"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT40M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-sweet-potatoes-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

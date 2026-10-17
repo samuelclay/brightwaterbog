@@ -1,0 +1,35 @@
+{
+ "url": "https://smittenkitchen.com/2008/10/acorn-squash-quesadillas-tomatillo-salsa/",
+ "status": "parsed",
+ "facts": {
+  "title": "acorn squash quesadillas + tomatillo salsa",
+  "ingredients": [
+   "1 small/medium acorn squash",
+   "4 tablespoons vegetable oil",
+   "3 tablespoons diced white onion",
+   "1 tablespoon minced jalapeno",
+   "1 clove garlic, minced",
+   "2 poblano chiles, roasted, peeled and cut into strips",
+   "Salt and pepper to taste",
+   "10-inch flour tortillas",
+   "1 cup shredded Mexican cheese blend of your choice",
+   "Butter for frying quesadillas",
+   "Garnishes: Julienned radishes, crema or sour cream and/or salsa verde cruda (recipe below)"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Dips",
+   "Tex-Mex",
+   "Vegetarian",
+   "Winter Squash"
+  ],
+  "cuisines": [
+   "Tex-Mex"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2008/10/acorn-squash-quesadillas-tomatillo-salsa/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

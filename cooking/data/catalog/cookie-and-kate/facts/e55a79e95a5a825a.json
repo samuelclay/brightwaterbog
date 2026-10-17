@@ -1,0 +1,23 @@
+{
+ "url": "https://cookieandkate.com/simple-syrup-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Simple Syrup",
+  "ingredients": [
+   "½ cup sugar or honey",
+   "½ cup water"
+  ],
+  "yield_text": "3/4 cup",
+  "cook_time": "PT7M",
+  "categories": [
+   "Cocktail component"
+  ],
+  "cuisines": [
+   "N/A"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/simple-syrup-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

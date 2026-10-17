@@ -1,0 +1,36 @@
+{
+ "url": "https://smittenkitchen.com/2007/09/pizza-even-sweeter/",
+ "status": "parsed",
+ "facts": {
+  "title": "pizza, updated",
+  "ingredients": [
+   "Dough",
+   "6 tablespoons warm water (may need up to 1 or 2 tablespoons more water)",
+   "2 tablespoons white wine",
+   "3/4 teaspoon active dry yeast",
+   "1/2 teaspoon honey",
+   "1 teaspoon salt",
+   "1 tablespoon olive oil",
+   "1 1/2 cups flour",
+   "Assembly",
+   "Cornmeal for sprinkling",
+   "Flour for dusting counter",
+   "1/2 pound torn-up buffalo mozzarella",
+   "Few leaves of torn-up basil"
+  ],
+  "yield_text": "Yield: One small, thin-crust pizza. Can serve two with a big salad.",
+  "cook_time": null,
+  "categories": [
+   "Italian",
+   "Pizza",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2007/09/pizza-even-sweeter/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

@@ -1,0 +1,35 @@
+{
+ "url": "https://smittenkitchen.com/2007/07/israeli-salad-pita-chips/",
+ "status": "parsed",
+ "facts": {
+  "title": "israeli salad + pita chips",
+  "ingredients": [
+   "2 medium roma tomatoes, cubed",
+   "1 pound seedless (English) or Persian cucumbers, unpeeled, cubed",
+   "1/2 medium red onion or 4 scallions, finely chopped",
+   "3 tablespoons finely minced fresh parsley",
+   "Juice of half a lemon, or more to taste",
+   "2 to 3 tablespoons olive oil",
+   "1 1/2 teaspoons sumac powder",
+   "Salt and pepper, to taste"
+  ],
+  "yield_text": "2 to 4",
+  "cook_time": "10 minutes",
+  "categories": [
+   "Cucumber",
+   "Israeli",
+   "Salad",
+   "Snack",
+   "Summer",
+   "Tomatoes",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Israeli"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2007/07/israeli-salad-pita-chips/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

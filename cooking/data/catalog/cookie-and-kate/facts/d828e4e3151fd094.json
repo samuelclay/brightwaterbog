@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/cream-of-broccoli-soup-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Cream of Broccoli Soup",
+  "ingredients": [
+   "4 tablespoons unsalted butter, divided",
+   "2 medium yellow onions, coarsely chopped",
+   "6 garlic cloves, smashed and peeled",
+   "1 ¼ teaspoon fine sea salt, divided, to taste",
+   "Freshly ground black pepper, to taste",
+   "2 pounds broccoli with stalks (3 large or 4 medium)",
+   "6 cups water",
+   "1 to 2 teaspoons lemon juice, to taste",
+   "Optional garnishes: Drizzle of heavy cream and/or sprinkled of finely snipped fresh chives"
+  ],
+  "yield_text": "6 bowls",
+  "cook_time": "PT1H",
+  "categories": [
+   "Soup"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cream-of-broccoli-soup-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

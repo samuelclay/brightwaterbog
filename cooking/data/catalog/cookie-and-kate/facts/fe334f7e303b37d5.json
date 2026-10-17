@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/broccoli-cheddar-spinach-frittata/",
+ "status": "parsed",
+ "facts": {
+  "title": "Broccoli, Cheddar & Spinach Frittata",
+  "ingredients": [
+   "8 SimplyNature Organic Cage Free Eggs",
+   "½ cup milk of choice",
+   "2 small-to-medium cloves garlic, pressed or minced",
+   "½ teaspoon sea salt, divided",
+   "Freshly ground black pepper",
+   "1 cup freshly grated cheddar cheese, divided",
+   "1 tablespoon SimplyNature Organic Extra Virgin Olive Oil, more as needed",
+   "1 small yellow onion, chopped",
+   "⅓ cup water",
+   "2 cups thinly sliced broccoli florets",
+   "2 cups SimplyNature Organic Baby Spinach, roughly chopped",
+   "⅓ cup thinly sliced green onions"
+  ],
+  "yield_text": "6 to 8 servings",
+  "cook_time": "PT40M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/broccoli-cheddar-spinach-frittata/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

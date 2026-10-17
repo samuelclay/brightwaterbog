@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/vegan-blt-sandwich-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Vegan BLT Sandwich",
+  "ingredients": [
+   "2 slices whole grain bread",
+   "1 medium ripe avocado",
+   "Salt, to taste",
+   "¼ cup coconut bacon",
+   "1 medium ripe red tomato",
+   "Freshly ground black pepper",
+   "Several small leaves of romaine or butter lettuce"
+  ],
+  "yield_text": "1 sandwich",
+  "cook_time": "PT12M",
+  "categories": [
+   "Sandwich"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/vegan-blt-sandwich-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

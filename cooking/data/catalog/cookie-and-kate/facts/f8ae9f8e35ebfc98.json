@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/apple-carrot-muffins-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Apple & Carrot \"Superhero\" Muffins",
+  "ingredients": [
+   "2 cups packed almond meal or almond flour (10 ounces)",
+   "1 ½ cups old-fashioned oats (certified gluten free if necessary)",
+   "2 teaspoons ground cinnamon",
+   "1 teaspoon baking soda",
+   "½ teaspoon fine sea salt",
+   "Optional mix-ins: ½ cup chopped walnuts, or raisins or chocolate chips",
+   "½ cup honey or maple syrup",
+   "3 eggs",
+   "6 tablespoons unsalted butter, melted",
+   "1 cup grated Granny Smith apple (about 1 ½ apples)",
+   "1 cup peeled and grated carrots (about 3 carrots)"
+  ],
+  "yield_text": "12 muffins",
+  "cook_time": "PT45M",
+  "categories": [
+   "Muffins"
+  ],
+  "cuisines": [
+   "N/A"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/apple-carrot-muffins-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

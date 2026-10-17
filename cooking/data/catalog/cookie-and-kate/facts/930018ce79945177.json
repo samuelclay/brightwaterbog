@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/rainier-cherry-mojito/",
+ "status": "parsed",
+ "facts": {
+  "title": "Rainier Cherry Mojito",
+  "ingredients": [
+   "8 cherries",
+   "Small handful fresh mint leaves",
+   "½ lime, juiced",
+   "1 teaspoon cane sugar or raw (turbinado) sugar",
+   "1 ½ ounces white rum",
+   "Club soda"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/rainier-cherry-mojito/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/cilantro-hemp-pesto-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Cilantro Hemp Pesto",
+  "ingredients": [
+   "2 cups packed cilantro leaves with tender stems (from 2 small bunches)",
+   "½ cup shelled hemp seeds (hemp hearts)",
+   "Optional, for heat: 1 medium jalapeño, seeds and ribs removed, roughly chopped",
+   "1 garlic clove, roughly chopped",
+   "½ teaspoon fine sea salt",
+   "¼ cup extra-virgin olive oil, more if desired"
+  ],
+  "yield_text": "2/3 cup",
+  "cook_time": "PT10M",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cilantro-hemp-pesto-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

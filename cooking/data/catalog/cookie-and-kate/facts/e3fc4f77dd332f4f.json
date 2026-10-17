@@ -1,0 +1,22 @@
+{
+ "url": "https://cookieandkate.com/baked-sweet-potato-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Perfect Baked Sweet Potato",
+  "ingredients": [
+   "1 to 4 medium sweet potatoes (about 8 to 12 ounces each)"
+  ],
+  "yield_text": "1 sweet potato",
+  "cook_time": "PT50M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/baked-sweet-potato-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

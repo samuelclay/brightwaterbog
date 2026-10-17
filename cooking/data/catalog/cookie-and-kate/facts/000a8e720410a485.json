@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/bees-knees-cocktail-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Bee's Knees Cocktail",
+  "ingredients": [
+   "½ ounce honey syrup (see step 1)",
+   "1 ounce lemon juice (about ½ medium lemon)",
+   "2 ounces gin",
+   "Lemon twist, for garnish"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/bees-knees-cocktail-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

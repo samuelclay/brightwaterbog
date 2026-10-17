@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/green-goddess-hummus-sandwich/",
+ "status": "parsed",
+ "facts": {
+  "title": "Green Goddess Hummus Sandwich",
+  "ingredients": [
+   "2 slices sturdy whole grain bread, lightly toasted",
+   "¼ cup homemade green goddess hummus or store-bought hummus",
+   "About a 1-inch section of cucumber, sliced thin",
+   "1 to 2 lettuce leaves, cut to size",
+   "Pickles, to taste (slice larger store-bought pickles into thin strips if necessary)",
+   "5 to 7 medium to large carrots (¾th to 1 pound carrots)",
+   "1 small to medium red onion (about ½ pound)",
+   "1 cup plain white vinegar or white wine vinegar or apple cider vinegar",
+   "1 cup water",
+   "¼ cup honey or maple syrup or sugar of choice",
+   "2 ½ teaspoons salt",
+   "½ teaspoon red pepper flakes, optional"
+  ],
+  "yield_text": "1 sandwich",
+  "cook_time": "PT25M",
+  "categories": [
+   "Sandwich"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/green-goddess-hummus-sandwich/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

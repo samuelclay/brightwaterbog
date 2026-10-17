@@ -1,0 +1,39 @@
+{
+ "url": "https://smittenkitchen.com/2016/01/swiss-chard-pancakes/",
+ "status": "parsed",
+ "facts": {
+  "title": "swiss chard pancakes",
+  "ingredients": [
+   "2 cups (475 ml) whole milk",
+   "2 1/2 cups (325 grams) all-purpose flour",
+   "3 large eggs",
+   "1 teaspoon coarse salt",
+   "Freshly ground black pepper",
+   "1 small onion, coarsely chopped",
+   "10 fresh chives, snipped",
+   "1 shallot, coarsely chopped",
+   "2 garlic cloves, split, germ removed, and coarsely chopped",
+   "Leaves from 10 parsley sprigs",
+   "5 large or 10 small Swiss chard leaves, center ribs removed, roughly chopped",
+   "About 1/2 cup (120 ml) grapeseed, peanut, vegetable, or olive oil"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Dinner",
+   "Freezer Friendly",
+   "French",
+   "Pancakes",
+   "Swiss Chard",
+   "Vegetarian",
+   "Weeknight Favorite"
+  ],
+  "cuisines": [
+   "French"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2016/01/swiss-chard-pancakes/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

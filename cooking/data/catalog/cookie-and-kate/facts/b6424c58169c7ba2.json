@@ -1,0 +1,34 @@
+{
+ "url": "https://cookieandkate.com/garden-fresh-corn-salad/",
+ "status": "parsed",
+ "facts": {
+  "title": "Garden-Fresh Corn Salad",
+  "ingredients": [
+   "3 cups raw corn kernels (from about 4 cobs)",
+   "1 medium tomato, chopped (about ½ cup)",
+   "¾ cup chopped green onion",
+   "1 cup quartered and thinly sliced cucumber (preferably English cucumber)",
+   "½ cup chopped fresh leafy herbs (choose from basil, dill, mint, parsley and/or cilantro)",
+   "½ cup chopped radishes",
+   "1 medium jalapeño, very thinly sliced (omit if sensitive to spice)",
+   "¼ cup extra-virgin olive oil",
+   "1 tablespoon red wine vinegar or white wine vinegar, to taste",
+   "2 medium cloves garlic, pressed or minced",
+   "½ teaspoon fine sea salt, to taste",
+   "Freshly ground black pepper, to taste",
+   "⅓ cup crumbled feta cheese or 1 ripe avocado, diced"
+  ],
+  "yield_text": "4 salads",
+  "cook_time": "PT30M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/garden-fresh-corn-salad/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

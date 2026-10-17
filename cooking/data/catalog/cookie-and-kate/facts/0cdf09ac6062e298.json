@@ -1,0 +1,35 @@
+{
+ "url": "https://cookieandkate.com/carrot-ginger-dressing-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Carrot Ginger Dressing",
+  "ingredients": [
+   "⅓ cup extra-virgin olive oil",
+   "⅓ cup rice vinegar",
+   "2 large carrots, peeled and roughly chopped (about ⅔ cup)",
+   "2 tablespoons peeled and roughly chopped fresh ginger",
+   "2 tablespoons lime juice",
+   "1 tablespoon plus 1 teaspoon honey",
+   "1 ½ teaspoons toasted sesame oil",
+   "¼ teaspoon salt, more to taste",
+   "Fresh greens of choice",
+   "Red onion",
+   "Cucumber",
+   "Carrot",
+   "Cherry tomatoes",
+   "Red cabbage"
+  ],
+  "yield_text": "1 1/3 cups",
+  "cook_time": "PT10M",
+  "categories": [
+   "Salad dressing"
+  ],
+  "cuisines": [
+   "Asian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/carrot-ginger-dressing-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

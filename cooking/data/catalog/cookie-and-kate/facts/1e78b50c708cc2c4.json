@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/potatoes-au-gratin-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Potatoes au Gratin (Gratin Dauphinois)",
+  "ingredients": [
+   "2 pounds russet potatoes",
+   "2 cups heavy cream",
+   "2 medium cloves garlic, pressed or minced",
+   "1 teaspoon fine salt",
+   "10 twists of freshly ground black pepper",
+   "⅛ teaspoon ground nutmeg",
+   "2 cups (8 ounces) grated Gruyère cheese or Emmental",
+   "½ teaspoon finely chopped fresh chives, optional"
+  ],
+  "yield_text": "12",
+  "cook_time": "PT1H5M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "French"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/potatoes-au-gratin-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

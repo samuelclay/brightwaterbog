@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/pumpkin-mac-and-cheese-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Pumpkin Mac and Cheese",
+  "ingredients": [
+   "2 tablespoons unsalted butter",
+   "1 ½ teaspoons pumpkin spice blend*",
+   "1 ½ teaspoons garlic powder",
+   "1 ½ teaspoons onion powder",
+   "1 can (15 ounces) pumpkin purée (not pumpkin pie filling)",
+   "1 pound short-cut pasta (pipe regate, macaroni noodles, casarecce, cavatelli, fusilli)",
+   "5 cups water",
+   "1 teaspoon fine salt, to taste",
+   "4 ounces cream cheese, cubed",
+   "8 ounces shredded sharp cheddar cheese",
+   "½ cup (2 ounces) finely grated Parmesan cheese, plus more for serving"
+  ],
+  "yield_text": "8 servings",
+  "cook_time": "PT30M",
+  "categories": [
+   "Pasta"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pumpkin-mac-and-cheese-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

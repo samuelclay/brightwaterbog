@@ -1,0 +1,23 @@
+{
+ "url": "https://cookieandkate.com/pistachio-butter-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Pistachio Butter",
+  "ingredients": [
+   "2 to 3 ½ cups (9 to 16 ounces) raw shelled pistachios",
+   "Pinch or more of salt, to taste"
+  ],
+  "yield_text": "9 to 16 ounces",
+  "cook_time": "PT20M",
+  "categories": [
+   "Spread"
+  ],
+  "cuisines": [
+   "N/A"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pistachio-butter-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

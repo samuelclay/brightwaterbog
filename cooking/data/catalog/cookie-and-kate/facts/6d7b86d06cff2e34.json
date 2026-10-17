@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/classic-mulled-wine-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Classic Mulled Wine",
+  "ingredients": [
+   "2 small oranges or 1 large",
+   "1 bottle of affordable Merlot, Zinfandel or Garnacha (also called Grenache)",
+   "¼ cup brandy",
+   "1 to 2 tablespoons maple syrup or honey, to taste",
+   "2 whole cinnamon sticks",
+   "3 star anise",
+   "4 whole cloves",
+   "Optional garnishes: Fresh whole cranberries (about ¼ cup), cinnamon sticks, additional orange rounds or half moons"
+  ],
+  "yield_text": "5 drinks",
+  "cook_time": "PT15M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "International"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/classic-mulled-wine-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

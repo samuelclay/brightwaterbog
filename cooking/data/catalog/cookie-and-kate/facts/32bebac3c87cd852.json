@@ -1,0 +1,24 @@
+{
+ "url": "https://cookieandkate.com/turmeric-tea-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Turmeric Tea",
+  "ingredients": [
+   "One 2-inch nub of fresh turmeric (no need to peel)",
+   "1 cup water",
+   "Optional: Lemon or orange round, honey or maple syrup"
+  ],
+  "yield_text": "1 cup",
+  "cook_time": "PT10M",
+  "categories": [
+   "Drink"
+  ],
+  "cuisines": [
+   "Southeast Asian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/turmeric-tea-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

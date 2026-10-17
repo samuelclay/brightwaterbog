@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/panisse/",
+ "status": "parsed",
+ "facts": {
+  "title": "Panisses (Chickpea Fries)",
+  "ingredients": [
+   "2 ¼ cups (262 grams) chickpea flour",
+   "1 ½ teaspoons fine salt",
+   "10 twists of freshly ground black pepper, plus more for serving",
+   "2 teaspoons + 4 tablespoons extra-virgin olive oil (for the baked version, or a generous amount of avocado or olive oil for frying), divided, plus more for greasing the pan",
+   "4 cups water",
+   "Flaky sea salt or kosher salt, for serving",
+   "Optional: creamy basil sauce, aioli or your sauce of choice"
+  ],
+  "yield_text": "20",
+  "cook_time": "PT1H",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "French"
+  ],
+  "author": "Kathryne Taylor",
+  "url": "https://cookieandkate.com/panisse/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

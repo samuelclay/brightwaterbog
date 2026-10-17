@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/elote-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Elote (Mexican Street Corn)",
+  "ingredients": [
+   "4 ears of grilled corn on the cob",
+   "¼ cup mayonnaise",
+   "1 ½ teaspoons lime juice",
+   "½ teaspoon chili powder, plus more for sprinkling",
+   "Pinch of cayenne pepper (optional, for extra heat)",
+   "¼ teaspoon kosher salt or a pinch of fine salt",
+   "2 ounces (about ½ cup) finely grated Cotija cheese*",
+   "2 tablespoons finely chopped cilantro"
+  ],
+  "yield_text": "4",
+  "cook_time": "PT30M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/elote-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

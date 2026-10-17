@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/esquites-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Esquites",
+  "ingredients": [
+   "2 tablespoons unsalted butter or extra-virgin olive oil",
+   "3 ½ cups corn kernels (16 ounces frozen or from about 5 fresh cobs)",
+   "½ teaspoon fine salt",
+   "2 medium cloves garlic, pressed or minced",
+   "¼ cup mayonnaise*",
+   "1 medium finely chopped jalapeño, optional",
+   "1 tablespoon lime juice, plus extra lime wedges for garnish",
+   "1 teaspoon chili powder, plus more for sprinkling",
+   "Pinch of cayenne pepper (optional, for extra heat)",
+   "¼ cup finely grated Cotija cheese**, plus more for sprinkling",
+   "¼ cup finely chopped cilantro"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT20M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/esquites-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

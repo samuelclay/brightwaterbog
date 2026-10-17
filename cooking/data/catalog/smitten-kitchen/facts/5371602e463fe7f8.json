@@ -1,0 +1,32 @@
+{
+ "url": "https://smittenkitchen.com/2009/09/roasted-tomatoes-and-cipollini/",
+ "status": "parsed",
+ "facts": {
+  "title": "roasted tomatoes and cipollini",
+  "ingredients": [
+   "1 pound cipollini onions",
+   "1 pound small Roma or large cherry tomatoes",
+   "1/4 cup olive oil",
+   "Coarse salt",
+   "4 slices of country or ciabatta bread, one-inch thick",
+   "1 15-ounce can of white beans, drained and rinsed or 1 1/2 cups cooked beans of your choice",
+   "Garlic clove (optional)",
+   "Few fresh basil leaves, slivered"
+  ],
+  "yield_text": "Serves four as a small dish, two as a main",
+  "cook_time": null,
+  "categories": [
+   "Herbs",
+   "Onions",
+   "Side Dish",
+   "Summer",
+   "Tomatoes",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2009/09/roasted-tomatoes-and-cipollini/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

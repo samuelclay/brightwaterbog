@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/baked-feta-dip-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Baked Feta Dip with Cherry Tomatoes",
+  "ingredients": [
+   "1 block (5 to 8 ounces) feta cheese*",
+   "4 medium cloves garlic, peeled but left whole",
+   "1 pint (2 cups) cherry tomatoes",
+   "⅓ cup Kalamata olives, halved lengthwise and pitted (optional)",
+   "2 tablespoons extra virgin olive oil",
+   "Pinch of red pepper flakes (optional, for heat)",
+   "Freshly ground black pepper, to taste",
+   "Salt, to taste",
+   "2 tablespoons thinly sliced fresh basil",
+   "For serving: Crostini or baked pita wedges or crackers"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT40M",
+  "categories": [
+   "Dip"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/baked-feta-dip-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,24 @@
+{
+ "url": "https://cookieandkate.com/crispy-baked-french-fries/",
+ "status": "parsed",
+ "facts": {
+  "title": "Crispy Baked French Fries",
+  "ingredients": [
+   "2 to 4 russet potatoes (about 8 ounces each)",
+   "¼ cup plus 1 teaspoon quality canola oil or vegetable oil",
+   "Sea salt and ground black pepper"
+  ],
+  "yield_text": "4",
+  "cook_time": "PT35M",
+  "categories": [
+   "Side"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/crispy-baked-french-fries/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

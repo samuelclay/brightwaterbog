@@ -1,0 +1,38 @@
+{
+ "url": "https://cookieandkate.com/gingerbread-cake-with-cream-cheese-frosting/",
+ "status": "parsed",
+ "facts": {
+  "title": "Gingerbread Cake with Cream Cheese Frosting",
+  "ingredients": [
+   "1 ⅔ cups white whole wheat flour or regular whole wheat flour",
+   "1 ½ teaspoons baking powder",
+   "1 teaspoon ground cinnamon",
+   "1 teaspoon ground ginger",
+   "½ teaspoon fine salt",
+   "¼ teaspoon ground cloves",
+   "¼ teaspoon ground nutmeg",
+   "¼ teaspoon baking soda",
+   "1 large egg",
+   "⅓ cup honey",
+   "⅓ cup molasses*",
+   "½ cup milk of choice",
+   "6 tablespoons (¾ stick) unsalted butter, melted",
+   "8 ounces cream cheese, softened to room temperature",
+   "2 tablespoons unsalted butter, softened to room temperature",
+   "1 ¼ cups powdered sugar",
+   "1 teaspoon vanilla extract"
+  ],
+  "yield_text": "9 slices",
+  "cook_time": "PT40M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/gingerbread-cake-with-cream-cheese-frosting/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

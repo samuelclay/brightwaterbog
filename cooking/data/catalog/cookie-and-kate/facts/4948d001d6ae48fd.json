@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/creamy-chia-pudding-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Creamy Chia Pudding",
+  "ingredients": [
+   "1 ½ cups water",
+   "¼ cup chia seeds",
+   "6 large dates*",
+   "⅔ cup raw cashews",
+   "½ teaspoon ground cinnamon",
+   "½ teaspoon pure vanilla extract",
+   "Pinch of sea salt",
+   "Fresh fruit: berries, sliced bananas, chopped pineapple, etc.",
+   "Sprinkle of cocoa powder, mini chocolate chips or finely chopped dark chocolate, toasted coconut, cinnamon, etc."
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT20M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/creamy-chia-pudding-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

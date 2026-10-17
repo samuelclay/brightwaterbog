@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/raspberry-daiquiri/",
+ "status": "parsed",
+ "facts": {
+  "title": "Raspberry Daiquiri",
+  "ingredients": [
+   "10 raspberries",
+   "½ ounce orange liqueur",
+   "2 ounces rum",
+   "½ teaspoon raw sugar",
+   "one lime, juiced",
+   "1 small lime wedge",
+   "Sugar"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/raspberry-daiquiri/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

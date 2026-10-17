@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/roasted-red-pepper-and-tomato-soup/",
+ "status": "parsed",
+ "facts": {
+  "title": "Roasted Red Pepper and Tomato Soup",
+  "ingredients": [
+   "8 to 9 medium tomatoes (about 5 pounds), cored and quartered",
+   "3 red bell peppers (about 1 pound), seeded and quartered",
+   "2 small yellow onions, cut into wedges about ¾″ wide on the outer edges",
+   "2 tablespoons extra virgin olive oil, divided",
+   "6 cloves garlic, unpeeled",
+   "4 cups (32 ounces) vegetable broth",
+   "¼ teaspoon smoked paprika",
+   "Pinch of cayenne pepper (omit if sensitive to spice)",
+   "Fine salt and freshly ground black pepper, to taste"
+  ],
+  "yield_text": "About 12 cups",
+  "cook_time": "PT1H10M",
+  "categories": [
+   "Soup"
+  ],
+  "cuisines": [
+   "Spanish-inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-red-pepper-and-tomato-soup/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

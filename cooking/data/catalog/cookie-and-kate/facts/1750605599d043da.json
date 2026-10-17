@@ -1,0 +1,36 @@
+{
+ "url": "https://cookieandkate.com/spring-pea-and-asparagus-pasta/",
+ "status": "parsed",
+ "facts": {
+  "title": "Spring Pea and Asparagus Pasta",
+  "ingredients": [
+   "1 pound (16 ounces) pasta (conchiglie, orecchiette, shells, fusilli or linguine—whole grain if desired)",
+   "¾ cup pine nuts",
+   "¼ cup olive oil, plus more for garnish",
+   "5 shallots, quartered lengthwise and sliced very thin crosswise",
+   "1 pound pencil-thin asparagus, woody ends snapped off, and cut in ½-inch slices on the bias",
+   "2 garlic cloves, minced",
+   "2 cups shelled fresh or frozen English peas (defrost peas if frozen)",
+   "⅔ cup grated Parmigiano-Reggiano cheese (or regular Parmesan), plus more for garnish",
+   "2 tablespoons unsalted butter",
+   "2 teaspoons grated lemon zest (from one lemon)",
+   "1 tablespoon lemon juice (less than one lemon)",
+   "1 cup roughly chopped mixed herbs",
+   "Fine salt, to taste",
+   "Freshly ground black pepper, to taste",
+   "Pinch of red pepper flakes (optional)"
+  ],
+  "yield_text": "6",
+  "cook_time": "PT45M",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/spring-pea-and-asparagus-pasta/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

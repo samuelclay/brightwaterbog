@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/how-to-make-tzatziki/",
+ "status": "parsed",
+ "facts": {
+  "title": "Best Tzatziki",
+  "ingredients": [
+   "2 cups grated cucumber (from about 1 medium 10-ounce cucumber, no need to peel or seed the cucumber first, grate on the large holes of your box grater)",
+   "1 ½ cups plain Greek yogurt",
+   "2 tablespoons extra-virgin olive oil",
+   "2 tablespoons chopped fresh mint and/or dill",
+   "1 tablespoon lemon juice",
+   "1 medium clove garlic, pressed or minced",
+   "½ teaspoon fine sea salt"
+  ],
+  "yield_text": "2 1/2 cups",
+  "cook_time": "PT15M",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Greek"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/how-to-make-tzatziki/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

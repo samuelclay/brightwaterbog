@@ -1,0 +1,37 @@
+{
+ "url": "https://smittenkitchen.com/2019/07/zucchini-quesadillas/",
+ "status": "parsed",
+ "facts": {
+  "title": "zucchini quesadillas",
+  "ingredients": [
+   "3 tablespoons olive oil, plus more for frying quesadillas",
+   "2 to 3 garlic cloves, thinly sliced",
+   "1/2 teaspoon mild (aleppo) or hotter red pepper flakes",
+   "1 1/2 pounds zucchini or other slim summer squash, halved and thinly sliced",
+   "Kosher salt",
+   "1 lime, halved",
+   "6 ounces grated monterey jack cheese",
+   "12 6-inch corn tortillas",
+   "Sliced avocado, chopped fresh cilantro, additional lime, and thinly sliced jalapeno to finish"
+  ],
+  "yield_text": "6 quesadillas",
+  "cook_time": "35 minutes",
+  "categories": [
+   "Gluten-Free",
+   "Kid Favorites",
+   "Lunch",
+   "Summer",
+   "Summer Squash",
+   "Tex-Mex",
+   "Vegetarian",
+   "Zucchini"
+  ],
+  "cuisines": [
+   "Tex-Mex"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2019/07/zucchini-quesadillas/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

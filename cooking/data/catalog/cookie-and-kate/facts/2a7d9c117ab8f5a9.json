@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/baked-apples-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Perfect Baked Apples",
+  "ingredients": [
+   "4 medium Honeycrisp or Gala apples",
+   "½ cup old-fashioned oats",
+   "¼ cup lightly packed coconut sugar or brown sugar",
+   "¼ cup chopped pecans or walnuts (optional but recommended)",
+   "½ teaspoon ground cinnamon",
+   "Pinch of fine salt",
+   "4 tablespoons unsalted butter, melted",
+   "¾ cup water",
+   "Optional serving suggestions: Scoop of vanilla ice cream or plain Greek yogurt"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT1H10M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/baked-apples-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

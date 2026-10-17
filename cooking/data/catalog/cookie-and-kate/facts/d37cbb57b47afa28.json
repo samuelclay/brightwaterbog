@@ -1,0 +1,23 @@
+{
+ "url": "https://cookieandkate.com/best-roasted-garlic-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Roasted Garlic",
+  "ingredients": [
+   "1 or more heads of garlic",
+   "1 to 2 teaspoons extra-virgin olive oil"
+  ],
+  "yield_text": "1 head roasted garlic",
+  "cook_time": "PT50M",
+  "categories": [
+   "Basic"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-roasted-garlic-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

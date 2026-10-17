@@ -1,0 +1,29 @@
+{
+ "url": "https://smittenkitchen.com/2010/01/edna-maes-sour-cream-pancakes/",
+ "status": "parsed",
+ "facts": {
+  "title": "Edna Mae’s Sour Cream Pancakes",
+  "ingredients": [
+   "7 tablespoons (60 grams) all-purpose flour",
+   "1 tablespoon (13 grams) sugar",
+   "1 teaspoon baking soda",
+   "1/2 teaspoon salt",
+   "1 cup (240 grams) sour cream",
+   "2 large eggs",
+   "1/2 teaspoon vanilla extract",
+   "Butter, as needed",
+   "Maple syrup (or perhaps some Cranberry Syrup)"
+  ],
+  "yield_text": "8 five-inch pancakes or 12 four-inch pancakes",
+  "cook_time": null,
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "yield_count": 8,
+  "url": "https://smittenkitchen.com/2010/01/edna-maes-sour-cream-pancakes/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

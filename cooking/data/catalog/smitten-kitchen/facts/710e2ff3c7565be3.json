@@ -1,0 +1,39 @@
+{
+ "url": "https://smittenkitchen.com/2014/01/cheese-blintz/",
+ "status": "parsed",
+ "facts": {
+  "title": "cheese blintz",
+  "ingredients": [
+   "Wrappers",
+   "4 tablespoons unsalted butter, melted and cooled slightly",
+   "1 cup milk",
+   "4 large eggs",
+   "1 cup all-purpose flour",
+   "Few pinches of salt",
+   "Filling",
+   "2 cups farmer’s cheese, quark, a thicker cottage cheese or ricotta",
+   "6 tablespoons sour cream, mascarpone, creme fraiche or softened cream cheese",
+   "2 tablespoons granulated sugar (or more to taste, see Note up top)",
+   "1/4 teaspoon vanilla extract (if desired)",
+   "Few gratings fresh lemon zest (if desired)",
+   "2 large egg yolks or 1 large egg (optional, see Note up top)"
+  ],
+  "yield_text": "Yield (with 8-inch crêpe and 3 tablespoons of filling in each): 12",
+  "cook_time": null,
+  "categories": [
+   "Jewish",
+   "Pancakes",
+   "Russian",
+   "Vegetarian",
+   "Winter"
+  ],
+  "cuisines": [
+   "Jewish",
+   "Russian"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2014/01/cheese-blintz/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

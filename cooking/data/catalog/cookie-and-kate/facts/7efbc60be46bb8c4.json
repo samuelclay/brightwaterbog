@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/golden-milk-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Creamy Golden Milk (Hot or Iced)",
+  "ingredients": [
+   "1 cup raw, unsalted cashews",
+   "4 cups water, divided",
+   "1 tablespoon ground turmeric",
+   "1 ½ teaspoons ground cinnamon",
+   "1 teaspoon ground ginger",
+   "½ teaspoon ground cardamom",
+   "10 twists of freshly ground black pepper",
+   "Tiny pinch of fine salt",
+   "2 tablespoons honey or maple syrup",
+   "2 teaspoons vanilla extract"
+  ],
+  "yield_text": "5 cups",
+  "cook_time": "PT15M",
+  "categories": [
+   "Drink"
+  ],
+  "cuisines": [
+   "Indian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/golden-milk-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

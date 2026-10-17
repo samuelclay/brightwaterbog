@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/quick-quesadillas-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "10-Minute Quesadillas",
+  "ingredients": [
+   "1 whole-grain flour tortilla (about 8″ diameter)",
+   "½ cup freshly grated cheddar cheese",
+   "¼ cup cooked black beans or pinto beans, rinsed and drained",
+   "1 tablespoon chopped red bell pepper or jarred roasted bell pepper or a few thinly sliced cherry tomatoes",
+   "1 tablespoon chopped red onion or green onion",
+   "1 tablespoon chopped pickled jalapeño",
+   "1 teaspoon avocado oil, melted butter or extra-virgin olive oil, for brushing",
+   "Any of the following, for serving: Salsa, pico de gallo, guacamole or strips of avocado, sour cream, hot sauce, chopped fresh cilantro…"
+  ],
+  "yield_text": "1 quesadilla",
+  "cook_time": "PT10M",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/quick-quesadillas-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

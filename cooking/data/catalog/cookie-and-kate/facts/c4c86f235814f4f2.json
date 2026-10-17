@@ -1,0 +1,34 @@
+{
+ "url": "https://cookieandkate.com/pesto-pasta-salad-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Pesto Pasta Salad",
+  "ingredients": [
+   "1 pound whole grain pasta (fusilli, rotini, penne or farfalle)",
+   "1 pint cherry tomatoes, halved or quartered",
+   "3 handfuls baby arugula or spinach",
+   "Optional cheese: ½ cup or more crumbled feta cheese, little mozzarella balls or grated Parmesan",
+   "Optional additions: ½ cup thinly sliced Kalamata olives and/or 1 can (15 ounces) chickpeas, rinsed and drained (or 1 ½ cups cooked chickpeas)",
+   "Freshly ground black pepper",
+   "½ cup pepitas (hulled pumpkin seeds)*",
+   "½ cup packed fresh basil",
+   "½ cup packed fresh flat-leaf parsley or additional basil",
+   "¼ cup lemon juice (about 2 lemons)",
+   "1 clove garlic, roughly chopped",
+   "½ teaspoon fine salt",
+   "⅓ cup extra-virgin olive oil"
+  ],
+  "yield_text": "6 to 8 servings",
+  "cook_time": "PT25M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pesto-pasta-salad-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

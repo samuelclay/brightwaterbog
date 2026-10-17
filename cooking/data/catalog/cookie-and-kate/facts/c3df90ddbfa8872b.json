@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/french-blond-cocktail/",
+ "status": "parsed",
+ "facts": {
+  "title": "French Blond Cocktail",
+  "ingredients": [
+   "2 ounces Lillet Blanc",
+   "2 ounces grapefruit juice",
+   "1 ounce gin (Hendrick’s recommended)",
+   "½ ounce St-Germain (elderflower liqueur)",
+   "1 teaspoon lemon juice",
+   "1 strip of lemon peel"
+  ],
+  "yield_text": "1",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "French"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/french-blond-cocktail/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

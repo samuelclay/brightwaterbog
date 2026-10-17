@@ -1,0 +1,38 @@
+{
+ "url": "https://cookieandkate.com/sweet-corn-and-black-bean-tacos/",
+ "status": "parsed",
+ "facts": {
+  "title": "Sweet Corn and Black Bean Tacos",
+  "ingredients": [
+   "2 ears of corn, shucked (about 2 cups fresh corn kernels)",
+   "¼ cup chopped cilantro",
+   "3 medium red radishes, thinly sliced into small strips",
+   "1 medium lime, zested and juiced (to yield about 1 teaspoon zest and 2 tablespoons lime juice)",
+   "1 small-to-medium jalapeño pepper, seeds removed and minced (omit if sensitive to spice)",
+   "1 tablespoon olive oil",
+   "¼ teaspoon sea salt",
+   "½ to ⅔ cup crumbled feta, to taste (optional)",
+   "2 cans black black beans, rinsed and drained (or 3 cups cooked black beans)",
+   "1 tablespoon olive oil",
+   "1 small yellow or white onion, chopped",
+   "1 tablespoon ground cumin",
+   "⅓ cup water",
+   "Salt and black pepper, to taste",
+   "10 small round corn tortillas (gluten free for gluten-free tacos)",
+   "1 large avocado, sliced into thin strips",
+   "Optional garnishes: pickled jalapeños, salsa verde and/or hot sauce"
+  ],
+  "yield_text": "10 tacos",
+  "cook_time": "PT35M",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/sweet-corn-and-black-bean-tacos/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

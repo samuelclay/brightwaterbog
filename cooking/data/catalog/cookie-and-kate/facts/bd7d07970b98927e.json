@@ -1,0 +1,23 @@
+{
+ "url": "https://cookieandkate.com/cinnamon-maple-whiskey-sour-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Cinnamon Maple Whiskey Sour",
+  "ingredients": [
+   "1 ½ ounces (3 tablespoons) Bulleit bourbon or your bourbon of choice",
+   "1 ounce (2 tablespoons) fresh lemon juice",
+   "2 to 4 teaspoons maple syrup, to taste",
+   "Pinch of ground cinnamon, optional"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cinnamon-maple-whiskey-sour-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

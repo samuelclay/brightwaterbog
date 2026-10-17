@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/best-cucumber-salad-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Gaby's Cucumber Salad",
+  "ingredients": [
+   "3 tablespoons extra-virgin olive oil",
+   "2 tablespoons balsamic vinegar",
+   "2 small-to-medium cloves garlic, pressed or minced",
+   "Kosher salt and freshly ground black pepper, to taste",
+   "1 ripe avocado, pitted and sliced or diced",
+   "4 Persian cucumbers or 2 medium English cucumbers (12 ounces), thinly sliced",
+   "Optional additions: 1 to 2 cups arugula, ½ cup halved cherry tomatoes, and/or 1 to 2 chopped radishes"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT5M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Californian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-cucumber-salad-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,34 @@
+{
+ "url": "https://cookieandkate.com/wild-rice-kale-salad-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Megan's Wild Rice & Kale Salad",
+  "ingredients": [
+   "1 cup wild rice",
+   "1 ¼ cups water",
+   "2 tablespoons extra-virgin olive oil",
+   "¼ cup lemon juice, more as needed (from 1 to 2 lemons)",
+   "1 clove garlic, pressed or minced",
+   "½ teaspoon fine sea salt",
+   "¼ teaspoon freshly ground black pepper",
+   "2 teaspoons maple syrup",
+   "1 small bunch kale",
+   "5 green onions, tender white and green parts only",
+   "1 cup cherry tomatoes",
+   "1 medium red bell pepper",
+   "½ cup crumbled feta cheese or goat cheese, optional*"
+  ],
+  "yield_text": "4 salads",
+  "cook_time": "PT50M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Vegetarian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/wild-rice-kale-salad-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

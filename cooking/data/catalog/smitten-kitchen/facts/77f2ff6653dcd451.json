@@ -1,0 +1,31 @@
+{
+ "url": "https://smittenkitchen.com/2010/04/creamed-chard-and-spring-onions/",
+ "status": "parsed",
+ "facts": {
+  "title": "creamed chard and spring onions",
+  "ingredients": [
+   "1 1-pound bunch Swiss chard, thick stems removed and leaves sliced into ribbons",
+   "3 spring onions, ends trimmed, white and some green parts sliced into thin coins",
+   "3 tablespoons butter",
+   "3 tablespoons all-purpose flour",
+   "1 1/4 cups milk",
+   "Salt and pepper"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Onions",
+   "Pasta",
+   "Side Dish",
+   "Spring",
+   "Swiss Chard",
+   "Thanksgiving",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2010/04/creamed-chard-and-spring-onions/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

@@ -1,0 +1,31 @@
+{
+ "url": "https://smittenkitchen.com/2009/03/penne-with-potatoes-and-rocket/",
+ "status": "parsed",
+ "facts": {
+  "title": "penne with potatoes and rocket",
+  "ingredients": [
+   "1 pound firm boiling potatoes",
+   "About 1/2 cup extra-virgin olive oil",
+   "Salt and pepper",
+   "2 bunches rocket (about a half pound)",
+   "1 small red onion",
+   "4 to 6 cloves of garlic, or as per my experience, 1 or 2",
+   "1 sprig rosemary (optional)",
+   "3/4 pound penne or other tubular pasta",
+   "1/2 lemon"
+  ],
+  "yield_text": "Serves 4",
+  "cook_time": null,
+  "categories": [
+   "Arugula",
+   "Pasta",
+   "Potatoes",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2009/03/penne-with-potatoes-and-rocket/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

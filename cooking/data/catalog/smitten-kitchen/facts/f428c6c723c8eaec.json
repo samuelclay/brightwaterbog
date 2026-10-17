@@ -1,0 +1,38 @@
+{
+ "url": "https://smittenkitchen.com/2007/06/everyday-yellow-dal/",
+ "status": "parsed",
+ "facts": {
+  "title": "everyday yellow dal",
+  "ingredients": [
+   "1 cup yellow split peas, soaked in cold water for 1 hour",
+   "1 large tomato (about 8 ounces), cut into 8 wedges",
+   "1/4 cup canola oil",
+   "1/2 teaspoon cumin seeds",
+   "1 medium red onion, finely chopped (about 1 1/2 cups)",
+   "5 large garlic cloves, thinly sliced",
+   "1 teaspoon coriander seeds, finely ground",
+   "3/4 teaspoon ground turmeric",
+   "1/2 teaspoon cayenne",
+   "1/4 cup minced cilantro leaves",
+   "1 tablespoon unsalted butter",
+   "1 teaspoon salt"
+  ],
+  "yield_text": "4, generously",
+  "cook_time": "1 hour plus soaking time",
+  "categories": [
+   "Beans",
+   "Budget",
+   "Indian",
+   "Pantry",
+   "Ramadan",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Indian"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2007/06/everyday-yellow-dal/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/roasted-potatoes-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Perfect Roasted Potatoes",
+  "ingredients": [
+   "2 pounds Yukon gold potatoes and/or red potatoes, scrubbed clean",
+   "1 tablespoon extra virgin olive oil",
+   "1 teaspoon garlic powder",
+   "¼ teaspoon fine salt",
+   "Optional: 1 tablespoon finely snipped rosemary (from about 3 sprigs)",
+   "Optional garnish: 2 teaspoons finely chopped fresh parsley",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT50M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "N/A"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-potatoes-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

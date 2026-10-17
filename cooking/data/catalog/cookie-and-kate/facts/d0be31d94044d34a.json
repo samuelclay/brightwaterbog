@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/rhubarb-chia-jam/",
+ "status": "parsed",
+ "facts": {
+  "title": "Rhubarb Chia Jam",
+  "ingredients": [
+   "1 pound fresh rhubarb, leafy ends removed, stalks chopped across into ¼-inch slices",
+   "3 tablespoons honey, maple syrup or agave nectar",
+   "2 tablespoons chia seeds",
+   "1 tablespoon fresh lemon juice or orange juice"
+  ],
+  "yield_text": "1 1/2 cups",
+  "cook_time": "PT30M",
+  "categories": [
+   "Condiment"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/rhubarb-chia-jam/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

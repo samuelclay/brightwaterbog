@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/peach-mojito/",
+ "status": "parsed",
+ "facts": {
+  "title": "Peach Mojito",
+  "ingredients": [
+   "1 small, ripe peach, skin removed and sliced",
+   "Small handful fresh mint leaves",
+   "1 lime, juiced",
+   "1 ½ ounces white rum",
+   "1 teaspoon cane sugar or raw (turbinado) sugar",
+   "Club soda"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/peach-mojito/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

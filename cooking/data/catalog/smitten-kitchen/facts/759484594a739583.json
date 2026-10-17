@@ -1,0 +1,36 @@
+{
+ "url": "https://smittenkitchen.com/2012/07/zucchini-bread-pancakes/",
+ "status": "parsed",
+ "facts": {
+  "title": "zucchini bread pancakes",
+  "ingredients": [
+   "2 large eggs",
+   "3 tablespoons olive oil",
+   "2 tablespoons light brown, dark brown or granulated sugar",
+   "1/4 cup buttermilk or 2 tablespoons each of milk and plain yogurt, whisked until smooth",
+   "1/2 teaspoon vanilla extract",
+   "2 cups shredded zucchini (from about 9 ounces whole, or 1 1/2 medium zucchini), heaping cups are fine",
+   "1 cup all-purpose flour (half can seamlessly be swapped with a whole wheat flour)",
+   "1/4 teaspoon table salt",
+   "1 teaspoon baking soda",
+   "1 teaspoon ground cinnamon",
+   "1/8 teaspoon ground or freshly grated nutmeg",
+   "Butter or oil, for coating skillet"
+  ],
+  "yield_text": "Makes 10 to 12 pancakes",
+  "cook_time": null,
+  "categories": [
+   "Breakfast",
+   "Brunch",
+   "Pancakes",
+   "Summer",
+   "Vegetarian",
+   "Zucchini"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2012/07/zucchini-bread-pancakes/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

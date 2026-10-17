@@ -1,0 +1,23 @@
+{
+ "url": "https://cookieandkate.com/cashew-butter-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Cashew Butter",
+  "ingredients": [
+   "16 ounces (just over 3 cups) unroasted shelled cashews",
+   "¼ teaspoon fine salt"
+  ],
+  "yield_text": "1 3/4 cups",
+  "cook_time": "PT30M",
+  "categories": [
+   "Spread"
+  ],
+  "cuisines": [
+   "N/A"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cashew-butter-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

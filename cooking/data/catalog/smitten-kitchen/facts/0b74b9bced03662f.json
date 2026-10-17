@@ -1,0 +1,34 @@
+{
+ "url": "https://smittenkitchen.com/2010/01/barley-risotto-with-beans-and-greens/",
+ "status": "parsed",
+ "facts": {
+  "title": "barley risotto with beans and greens",
+  "ingredients": [
+   "5 cups low-sodium vegetable or chicken stock",
+   "2 tablespoons extra-virgin olive oil",
+   "1 medium onion, cut into 1/4-inch dice",
+   "1/4 teaspoon thyme",
+   "1/2 cup white wine (optional)",
+   "1 cup pearled barley (7 ounces)",
+   "1 cup beans, canned or precooked",
+   "3 cups chopped escarole",
+   "1/2 cup freshly grated Parmigiano-Reggiano cheese, plus more for serving",
+   "2 tablespoons unsalted butter, softened",
+   "Salt and freshly ground pepper"
+  ],
+  "yield_text": "Serves 3 to 4 (most recipes would say 4; maybe we were just really hungry?)",
+  "cook_time": null,
+  "categories": [
+   "Beans",
+   "Escarole",
+   "Grain/Rice",
+   "Pantry",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2010/01/barley-risotto-with-beans-and-greens/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

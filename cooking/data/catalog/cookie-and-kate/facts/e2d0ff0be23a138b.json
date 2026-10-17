@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/chocolate-chip-blondies-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Coffee Chocolate Chip Blondies",
+  "ingredients": [
+   "1 ½ cups white whole wheat flour or regular whole wheat flour (Sarah used all-purpose)",
+   "1 ½ teaspoons baking powder",
+   "12 tablespoons (1 ½ sticks) unsalted butter",
+   "2 cups packed coconut sugar, or 1 ½ cups packed brown sugar",
+   "¾ teaspoon salt",
+   "2 tablespoons strong coffee or cold brew concentrate, room temperature",
+   "1 egg",
+   "1 ½ tablespoons vanilla extract (yes, tablespoons)",
+   "¾ cup chopped pecans",
+   "¾ cup bittersweet or semisweet chocolate chips"
+  ],
+  "yield_text": "18 blondies",
+  "cook_time": "PT58M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/chocolate-chip-blondies-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

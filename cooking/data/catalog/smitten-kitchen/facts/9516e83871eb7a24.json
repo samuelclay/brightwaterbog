@@ -1,0 +1,38 @@
+{
+ "url": "https://smittenkitchen.com/2015/10/the-broccoli-roast/",
+ "status": "parsed",
+ "facts": {
+  "title": "the broccoli roast",
+  "ingredients": [
+   "Dry rub",
+   "2 teaspoons packed dark brown sugar",
+   "1 teaspoon paprika, ideally smoked but regular will also work",
+   "1 tablespoon chili powder",
+   "1 teaspoon onion powder",
+   "Chipotle powder or ground red pepper (cayenne) to taste",
+   "1 teaspoon coarse or kosher salt, and more to taste",
+   "Cider vinegar dip",
+   "1 tablespoon cider vinegar",
+   "1/4 teaspoon smooth dijon mustard",
+   "Pinch of salt, smoked flaky sea salt is wonderful here if you have it",
+   "Pinch of pepper flakes",
+   "Shake of smoked hot paprika or chipotle powder"
+  ],
+  "yield_text": "Serves 2, heartily",
+  "cook_time": null,
+  "categories": [
+   "Broccoli",
+   "Budget",
+   "Dinner",
+   "Fall",
+   "Quick",
+   "Vegetarian",
+   "Weeknight Favorite"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2015/10/the-broccoli-roast/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

@@ -1,0 +1,23 @@
+{
+ "url": "https://cookieandkate.com/best-mimosa-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Best Mimosa",
+  "ingredients": [
+   "1 bottle (750 mL) chilled Cava or Prosecco",
+   "2 to 4 cups chilled pulp-free orange juice"
+  ],
+  "yield_text": "8 mimosas",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-mimosa-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

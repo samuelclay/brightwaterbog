@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/gluten-free-cornbread/",
+ "status": "parsed",
+ "facts": {
+  "title": "Gluten-Free Cornbread",
+  "ingredients": [
+   "½ cup (1 stick) unsalted butter",
+   "1 ½ cups (300 grams) cornmeal, medium-grind or finer*",
+   "2 cups (180 grams) blanched almond flour",
+   "1 ½ teaspoons fine sea salt",
+   "2 teaspoons baking powder",
+   "½ teaspoon baking soda",
+   "3 large eggs, at room temperature**",
+   "½ cup maple syrup or honey",
+   "1 ½ cups milk of choice***, at room temperature",
+   "Optional serving suggestions: additional butter, honey or jam"
+  ],
+  "yield_text": "16 slices",
+  "cook_time": "PT45M",
+  "categories": [
+   "Quick bread"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Kathryne Taylor",
+  "url": "https://cookieandkate.com/gluten-free-cornbread/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

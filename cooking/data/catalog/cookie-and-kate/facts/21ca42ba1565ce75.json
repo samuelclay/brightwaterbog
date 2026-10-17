@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/savory-mashed-sweet-potatoes/",
+ "status": "parsed",
+ "facts": {
+  "title": "Savory Mashed Sweet Potatoes",
+  "ingredients": [
+   "4 pounds sweet potatoes (about 7 small-to-medium), peeled and cut into 1″ cubes",
+   "2 teaspoons salt, divided",
+   "⅓ cup finely sliced green onion, mostly green parts (from 1 bunch)",
+   "⅓ cup finely chopped fresh flat-leaf parsley",
+   "1 small-to-medium garlic clove, pressed or minced",
+   "¼ cup sour cream*",
+   "3 tablespoons butter, cubed",
+   "Freshly ground black pepper",
+   "1 teaspoon extra-virgin olive oil"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "PT30M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/savory-mashed-sweet-potatoes/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

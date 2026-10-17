@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/perfect-scrambled-eggs/",
+ "status": "parsed",
+ "facts": {
+  "title": "Scrambled Eggs",
+  "ingredients": [
+   "6 eggs",
+   "2 tablespoons half and half, heavy cream or whole milk",
+   "¼ teaspoon fine salt",
+   "1 tablespoon unsalted butter, quartered",
+   "Optional, 1 teaspoon finely snipped fresh chives, plus more for garnish",
+   "Grated cheese, if desired for serving"
+  ],
+  "yield_text": "2",
+  "cook_time": "PT10M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "N/A"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/perfect-scrambled-eggs/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

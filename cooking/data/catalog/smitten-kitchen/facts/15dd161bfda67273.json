@@ -1,0 +1,33 @@
+{
+ "url": "https://smittenkitchen.com/2014/04/asparagus-stuffed-eggs/",
+ "status": "parsed",
+ "facts": {
+  "title": "asparagus-stuffed eggs",
+  "ingredients": [
+   "6 large eggs",
+   "4 medium asparagus spears",
+   "2 teaspoons very finely minced shallot, scallion or chives, plus a pinch extra for garnish",
+   "3 tablespoons mayonnaise, whipping cream, creme fraiche, sour cream and/or soft butter",
+   "1/2 teaspoon smooth Dijon (optional)",
+   "Few gratings fresh lemon zest (optional)",
+   "Salt and pepper to taste"
+  ],
+  "yield_text": "Yield: 12 stuffed egg halves",
+  "cook_time": null,
+  "categories": [
+   "Asparagus",
+   "Breakfast",
+   "Easter",
+   "Eggs",
+   "Gluten-Free",
+   "Party Snacks",
+   "Spring",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2014/04/asparagus-stuffed-eggs/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

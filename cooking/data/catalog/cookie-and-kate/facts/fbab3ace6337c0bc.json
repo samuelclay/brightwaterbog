@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/banana-oat-pancakes/",
+ "status": "parsed",
+ "facts": {
+  "title": "Banana Oat Pancakes",
+  "ingredients": [
+   "1 cup oat flour*",
+   "½ teaspoon baking soda",
+   "½ teaspoon salt",
+   "½ teaspoon ground cinnamon",
+   "¼ teaspoon ground nutmeg",
+   "Scant 1 ¼ cup mashed bananas (about 3 small bananas, mashed, or 9.5 ounces)",
+   "2 tablespoons melted unsalted butter or coconut oil, plus more for cooking",
+   "2 tablespoons maple syrup",
+   "1 tablespoon lemon juice",
+   "2 eggs"
+  ],
+  "yield_text": "8 pancakes",
+  "cook_time": "PT25M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "N/A"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/banana-oat-pancakes/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

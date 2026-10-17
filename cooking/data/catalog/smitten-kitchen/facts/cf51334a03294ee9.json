@@ -1,0 +1,45 @@
+{
+ "url": "https://smittenkitchen.com/2010/04/shakshuka/",
+ "status": "parsed",
+ "facts": {
+  "title": "shakshuka",
+  "ingredients": [
+   "1/4 cup olive oil",
+   "5 Anaheim chiles or 3 jalapeños, stemmed, seeded, and finely chopped",
+   "1 small yellow onion, chopped",
+   "5 cloves garlic, thinly sliced",
+   "1 teaspoon ground cumin",
+   "1 tablespoon paprika",
+   "1 28-ounce can whole peeled tomatoes",
+   "Kosher salt, to taste",
+   "6 eggs",
+   "1/2 cup feta cheese, crumbled",
+   "1 tablespoon chopped flat-leaf parsley",
+   "Warm pitas, for serving"
+  ],
+  "yield_text": "3 to 6",
+  "cook_time": "45 minutes",
+  "categories": [
+   "Best of Smitten Kitchen",
+   "Breakfast",
+   "Brunch",
+   "Budget",
+   "Dinner",
+   "Eggs",
+   "Israeli",
+   "North African",
+   "Quick",
+   "Ramadan",
+   "Vegetarian",
+   "Weeknight Favorite"
+  ],
+  "cuisines": [
+   "Israeli",
+   "North African"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2010/04/shakshuka/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

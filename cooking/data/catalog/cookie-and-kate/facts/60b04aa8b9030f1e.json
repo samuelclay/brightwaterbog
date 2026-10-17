@@ -1,0 +1,37 @@
+{
+ "url": "https://cookieandkate.com/chopped-kale-salad-with-edamame-carrot-and-avocado/",
+ "status": "parsed",
+ "facts": {
+  "title": "Chopped Kale Salad with Edamame, Carrot and Avocado",
+  "ingredients": [
+   "1 bunch kale (preferably lacinato/Tuscan/dinosaur kale but regular curly kale works, too)",
+   "Fine salt",
+   "1 cup chopped snow peas (slice off tough ends first)",
+   "1 large carrot, peeled and ribboned with a vegetable peeler",
+   "1 small red bell pepper, deseeded and chopped",
+   "1 heaping cup organic edamame (if using frozen edamame, defrost by tossing into a pot of boiling water for 3 to 4 minutes)",
+   "1 avocado, pitted and sliced into small chunks",
+   "1 large shallot, finely sliced",
+   "Handful of cilantro, chopped",
+   "Handful of Thai basil (or regular basil), chopped",
+   "¼ cup olive oil",
+   "2 tablespoons rice vinegar",
+   "1 tablespoon finely grated ginger",
+   "1 tablespoon low-sodium tamari (or other low-sodium soy sauce*)",
+   "2 teaspoons lime juice",
+   "3 garlic cloves, pressed or minced"
+  ],
+  "yield_text": "4",
+  "cook_time": "PT20M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Asian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/chopped-kale-salad-with-edamame-carrot-and-avocado/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

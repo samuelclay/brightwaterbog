@@ -1,0 +1,33 @@
+{
+ "url": "https://smittenkitchen.com/2013/04/ramp-pizza/",
+ "status": "parsed",
+ "facts": {
+  "title": "ramp pizza",
+  "ingredients": [
+   "4 ounce, about half a bundle, ramps (see footnote for other suggestions)",
+   "2 tablespoons olive oil",
+   "Red pepper flakes (optional)",
+   "Salt",
+   "Cornmeal",
+   "1 12-ounce pizza dough, ready to use",
+   "1/3 to 1/2 cup canned tomato puree or whole canned tomatoes",
+   "1 tiny garlic clove, minced",
+   "Pinch of sugar or drops of red wine vinegar (if needed)",
+   "3 to 4 ounces mozzarella, sliced into paper-thin rounds (optional)",
+   "1/4 cup pecorino romano cheese, finely grated"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Pizza",
+   "Ramps",
+   "Spring",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2013/04/ramp-pizza/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/oat-milk-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "How to Make Oat Milk",
+  "ingredients": [
+   "1 cup old-fashioned oats*",
+   "4 cups water, divided",
+   "1 tablespoon maple syrup",
+   "1 teaspoon vanilla extract",
+   "Tiny pinch of salt"
+  ],
+  "yield_text": "4 3/4 cups",
+  "cook_time": "PT5M",
+  "categories": [
+   "Alternative milk"
+  ],
+  "cuisines": [
+   "Vegan"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/oat-milk-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

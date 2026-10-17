@@ -1,0 +1,36 @@
+{
+ "url": "https://cookieandkate.com/beer-bean-stuffed-poblano-peppers/",
+ "status": "parsed",
+ "facts": {
+  "title": "Beer Bean-Stuffed Poblano Peppers",
+  "ingredients": [
+   "½ pound dried black beans, picked over and rinsed",
+   "1 teaspoon olive oil",
+   "1 yellow onion, chopped",
+   "2 cloves garlic, minced",
+   "12 ounces Mexican beer",
+   "1 canned chipotle chile in adobo, chopped (1 pepper, not the whole can!), or ½ teaspoon chipotle chile powder",
+   "scant ½ teaspoon ground cinnamon",
+   "sea salt",
+   "6 poblano chiles",
+   "1 cup crumbled cotija or feta cheese",
+   "1 cup shredded Jack cheese",
+   "juice of ½ lime",
+   "1 cup cherry tomatoes, chopped",
+   "1 tablespoon olive oil",
+   "½ cup chopped fresh cilantro"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT1H35M",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/beer-bean-stuffed-poblano-peppers/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

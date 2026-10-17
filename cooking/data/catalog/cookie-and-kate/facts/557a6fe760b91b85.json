@@ -1,0 +1,24 @@
+{
+ "url": "https://cookieandkate.com/easy-green-enchilada-sauce/",
+ "status": "parsed",
+ "facts": {
+  "title": "Easy Green Enchilada Sauce",
+  "ingredients": [
+   "24 ounces (3 cups) mild to medium salsa verde, either jarred or homemade",
+   "⅓ cup fresh cilantro leaves (some tender stems are ok)",
+   "¼ cup sour cream, heavy cream or crème fraîche"
+  ],
+  "yield_text": "2 1/3 cups",
+  "cook_time": "PT15M",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/easy-green-enchilada-sauce/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

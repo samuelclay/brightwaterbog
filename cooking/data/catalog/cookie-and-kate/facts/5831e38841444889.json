@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/mai-tai-cocktail-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Mai Tai Cocktail",
+  "ingredients": [
+   "2 ounces dark molasses rum (such as El Dorado 8-Year Demerara Rum)",
+   "1 ounce light pure cane rum (such as Batiste Rhum Ecoiste)",
+   "½ ounce honey simple syrup*",
+   "½ ounce orgeat syrup",
+   "¾ ounce fresh lime juice",
+   "Spritz** or dash of Angostura bitters",
+   "Lime wheel, for garnish"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT10M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "Hawaiian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/mai-tai-cocktail-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

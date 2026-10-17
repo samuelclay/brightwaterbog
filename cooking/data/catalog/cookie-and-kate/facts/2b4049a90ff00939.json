@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/best-pimento-cheese-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Pimento Cheese",
+  "ingredients": [
+   "2 cups freshly grated extra-sharp Cheddar cheese",
+   "8 ounces cream cheese, cut into 1″ cubes and softened at room temperature*",
+   "4 ounces pimento peppers**, well drained and chopped if in strips",
+   "2 tablespoons mayonnaise",
+   "¼ teaspoon garlic powder",
+   "¼ teaspoon onion powder",
+   "¼ teaspoon ground cayenne pepper (decrease or omit if sensitive to spice)",
+   "½ medium jalapeño pepper, ribs and seeds removed, and minced (about 1 tablespoon; omit if sensitive to spice)",
+   "Freshly ground black pepper, to taste",
+   "Salt, to taste"
+  ],
+  "yield_text": "2 cups",
+  "cook_time": "PT10M",
+  "categories": [
+   "Dip or spread"
+  ],
+  "cuisines": [
+   "Southern"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-pimento-cheese-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,32 @@
+{
+ "url": "https://smittenkitchen.com/2013/08/charred-corn-crepes/",
+ "status": "parsed",
+ "facts": {
+  "title": "charred corn crepes",
+  "ingredients": [
+   "1 large fresh corn cob",
+   "2 tablespoons butter, melted",
+   "1/2 cup flour",
+   "1 cup milk, any fat level will do",
+   "2 large eggs",
+   "1/2 teaspoon table salt",
+   "Butter or oil for pan"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Corn",
+   "Pancakes",
+   "Summer",
+   "Tex-Mex",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Tex-Mex"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2013/08/charred-corn-crepes/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

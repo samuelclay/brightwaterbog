@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/croutons-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Homemade Croutons",
+  "ingredients": [
+   "2 large slices of crusty bread, about ¾-inch thick (about 4 ounces)",
+   "2 tablespoons extra virgin olive oil",
+   "¼ teaspoon fine salt",
+   "⅛ teaspoon garlic powder",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT15M",
+  "categories": [
+   "Salad topping"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/croutons-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

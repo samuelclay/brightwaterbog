@@ -1,0 +1,36 @@
+{
+ "url": "https://cookieandkate.com/sweet-potato-chili-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Vegetarian Sweet Potato Chili",
+  "ingredients": [
+   "1 tablespoon olive oil",
+   "1 medium red onion, chopped",
+   "1 green bell pepper, chopped",
+   "1 red bell pepper, chopped",
+   "1 medium sweet potato, peeled and cut into 1⁄2-inch cubes",
+   "Salt and freshly ground black pepper",
+   "4 garlic cloves, pressed or minced, or 1 heaping tablespoon of minced garlic",
+   "1 tablespoon chili powder",
+   "1 teaspoon ground cumin",
+   "1 teaspoon cayenne pepper",
+   "2 teaspoons unsweetened cocoa powder",
+   "¼ teaspoon ground cinnamon",
+   "1 large can (28 ounces) diced tomatoes, with their juices*",
+   "1 can (15 ounces) black beans, rinsed and drained, or 1 ½ cups cooked black beans",
+   "1 can (15 ounces) kidney beans, rinsed and drained, or 1 ½ cups cooked kidney beans",
+   "2 cups vegetable broth",
+   "Suggested garnishes: sour cream, grated cheese, thinly sliced green onions and/or chopped cilantro"
+  ],
+  "yield_text": "6",
+  "cook_time": "PT1H10M",
+  "categories": [
+   "Stew"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/sweet-potato-chili-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

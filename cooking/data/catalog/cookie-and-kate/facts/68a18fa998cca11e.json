@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/enchilada-sauce-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Homemade Enchilada Sauce",
+  "ingredients": [
+   "3 tablespoons olive oil",
+   "3 tablespoons flour (whole wheat flour, all-purpose flour and gluten-free flour blends all work!)",
+   "1 tablespoon ground chili powder",
+   "1 teaspoon ground cumin",
+   "½ teaspoon garlic powder",
+   "¼ teaspoon dried oregano",
+   "¼ teaspoon salt, to taste",
+   "Pinch of cinnamon (optional but recommended)",
+   "2 tablespoons tomato paste",
+   "2 cups vegetable broth",
+   "1 teaspoon apple cider vinegar or distilled white vinegar",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "2 cups",
+  "cook_time": "PT10M",
+  "categories": [
+   "Condiment"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/enchilada-sauce-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,27 @@
+{
+ "url": "https://smittenkitchen.com/2014/10/the-crispy-egg/",
+ "status": "parsed",
+ "facts": {
+  "title": "the crispy egg",
+  "ingredients": [
+   "1 glug olive oil or cooking fat of your choice",
+   "1 egg, any size",
+   "Salt, pepper, herbs, spices or hot sauce, or all of the above"
+  ],
+  "yield_text": "",
+  "cook_time": null,
+  "categories": [
+   "Breakfast",
+   "Budget",
+   "Eggs",
+   "Put An Egg On It",
+   "Quick",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2014/10/the-crispy-egg/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

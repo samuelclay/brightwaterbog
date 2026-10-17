@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/pumpkin-spice-blend-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Pumpkin Spice Blend",
+  "ingredients": [
+   "1 tablespoon ground cinnamon",
+   "1 teaspoon ground ginger",
+   "1 teaspoon ground nutmeg",
+   "1 teaspoon ground allspice or cloves"
+  ],
+  "yield_text": "2 tablespoons",
+  "cook_time": "PT5M",
+  "categories": [
+   "Spice Blend"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pumpkin-spice-blend-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

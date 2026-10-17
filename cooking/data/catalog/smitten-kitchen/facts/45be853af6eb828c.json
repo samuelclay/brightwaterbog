@@ -1,0 +1,29 @@
+{
+ "url": "https://smittenkitchen.com/2009/06/spanakopita-triangles-then-some/",
+ "status": "parsed",
+ "facts": {
+  "title": "spanakopita triangles + then some",
+  "ingredients": [
+   "1 tablespoon unsalted butter",
+   "1/2 cup sliced green onions",
+   "1 clove garlic, minced",
+   "1 pound fresh spinach (coarse stems removed if ‘grown-up’ spinach; baby spinach can be used in full)",
+   "3/4 pound feta, crumbled",
+   "1 tablespoon lemon juice",
+   "Salt and pepper to taste"
+  ],
+  "yield_text": "Makes about 30 pastries",
+  "cook_time": null,
+  "categories": [
+   "Mushrooms",
+   "Party Snacks",
+   "Spinach",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2009/06/spanakopita-triangles-then-some/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

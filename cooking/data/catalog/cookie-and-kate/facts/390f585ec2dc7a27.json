@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/poppy-seed-dressing/",
+ "status": "parsed",
+ "facts": {
+  "title": "Poppy Seed Dressing",
+  "ingredients": [
+   "½ teaspoon lemon zest",
+   "⅓ cup lemon juice (from about 2 lemons)",
+   "⅓ cup olive oil",
+   "1 tablespoon poppy seeds",
+   "2 tablespoons mayonnaise or plain Greek yogurt",
+   "2 tablespoons Dijon mustard",
+   "2 tablespoons honey or maple syrup",
+   "1 small clove of garlic, pressed or minced",
+   "¼ teaspoon fine salt"
+  ],
+  "yield_text": "1 cup",
+  "cook_time": "PT5M",
+  "categories": [
+   "Salad dressing"
+  ],
+  "cuisines": [
+   "N/A"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/poppy-seed-dressing/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

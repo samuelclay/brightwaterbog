@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/christmas-punch-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Vanilla-Pear Holiday Punch",
+  "ingredients": [
+   "¼ teaspoon ground cinnamon",
+   "24 ounces (3 cups) pear juice or pear nectar",
+   "12 ounces (1 ½ cups) reposado tequila",
+   "8 ounces (1 cup) club soda or sparkling water",
+   "4 ounces (½ cup) lemon juice",
+   "1 to 2 tablespoons honey simple syrup*",
+   "½ teaspoon vanilla extract",
+   "Suggested garnishes: Lemon rounds, short fresh rosemary sprigs, ½ cup fresh cranberries",
+   "Ice cubes, for serving"
+  ],
+  "yield_text": "8 drinks",
+  "cook_time": "PT10M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/christmas-punch-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

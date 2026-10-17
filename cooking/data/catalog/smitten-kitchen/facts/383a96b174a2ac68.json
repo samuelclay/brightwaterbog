@@ -1,0 +1,36 @@
+{
+ "url": "https://smittenkitchen.com/2014/12/twice-baked-potatoes-with-kale/",
+ "status": "parsed",
+ "facts": {
+  "title": "twice-baked potatoes with kale",
+  "ingredients": [
+   "3 russet potatoes (mine were 9 to 10 ounces each)",
+   "1 bundle lacinato kale (aka dinosaur, tuscan or black kale), swiss chard or spinach (10 ounces)",
+   "Coarse salt",
+   "1 tablespoon olive oil",
+   "1 tablespoon butter",
+   "1 large leek",
+   "1 cup coarsely grated cheddar, gruyere or comté, 2/3 cup finely grated parmesan or pecorino, or 1/2 to 2/3 cup cream cheese or goat cheese, softened",
+   "3/4 cup sour cream",
+   "Freshly ground black pepper or red pepper flakes to taste"
+  ],
+  "yield_text": "Serves 6 as a side; 3 as a hearty main",
+  "cook_time": null,
+  "categories": [
+   "Budget",
+   "Dinner",
+   "Gluten-Free",
+   "Kale",
+   "Potatoes",
+   "Side Dish",
+   "Thanksgiving",
+   "Vegetarian",
+   "Weeknight Favorite"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2014/12/twice-baked-potatoes-with-kale/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

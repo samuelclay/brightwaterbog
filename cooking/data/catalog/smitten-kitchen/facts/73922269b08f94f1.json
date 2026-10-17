@@ -1,0 +1,34 @@
+{
+ "url": "https://smittenkitchen.com/2011/03/the-best-baked-spinach/",
+ "status": "parsed",
+ "facts": {
+  "title": "the best baked spinach",
+  "ingredients": [
+   "1 garlic clove (optional)",
+   "3½ to 4½ tablespoons unsalted butter, divided",
+   "3 pounds (1.3 kg) fresh spinach or 3 10-ounce (283-gram) packages frozen spinach, defrosted",
+   "Kosher salt and freshly ground black pepper",
+   "1½ tablespoons all-purpose flour",
+   "1 cup beef, chicken, or vegetable stock (Julia recommends beef)",
+   "3/4 cup (85 grams) grated swiss, gruyère, or comté cheese, divided",
+   "2 tablespoons fine, dry breadcrumbs"
+  ],
+  "yield_text": "6 as a side",
+  "cook_time": "1 hour",
+  "categories": [
+   "French",
+   "Put An Egg On It",
+   "Side Dish",
+   "Spinach",
+   "Thanksgiving",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "French"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2011/03/the-best-baked-spinach/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

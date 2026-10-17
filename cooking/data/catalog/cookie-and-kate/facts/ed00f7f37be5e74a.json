@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/red-pepper-martini/",
+ "status": "parsed",
+ "facts": {
+  "title": "Red Pepper Martini",
+  "ingredients": [
+   "1 medium bell pepper, seeded and sliced into 2-inch pieces",
+   "¼ medium jalapeño pepper, seeded",
+   "1 lime, juiced",
+   "½ garlic clove, peeled",
+   "3 ounces Stoli vodka",
+   "1 teaspoon agave nectar or simple syrup",
+   "1 dash hot sauce, preferably Cholula",
+   "Freshly ground black pepper",
+   "Coarse sea salt or kosher salt, optional"
+  ],
+  "yield_text": "2",
+  "cook_time": "PT10M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/red-pepper-martini/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

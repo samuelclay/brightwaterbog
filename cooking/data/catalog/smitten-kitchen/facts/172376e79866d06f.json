@@ -1,0 +1,44 @@
+{
+ "url": "https://smittenkitchen.com/2010/03/spinach-and-chickpeas/",
+ "status": "parsed",
+ "facts": {
+  "title": "spinach and chickpeas",
+  "ingredients": [
+   "1/2 pound (230 grams) dried chickpeas, cooked until soft and tender* or two 15-ounce cans of chickpeas, drained and rinsed",
+   "6 tablespoon olive oil",
+   "1 pound (450 grams) spinach, washed",
+   "A hefty 1-inch slice from a country loaf or about 2 slices from sandwich loaf bread (2.5 ounces or 75 grams), crusts removed and cut into small cubes",
+   "1/2 cup (4 ounces) tomato sauce",
+   "3 garlic cloves, thinly sliced",
+   "1/2 teaspoon ground cumin",
+   "Pinch of red pepper flakes",
+   "1 1/2 tablespoons red wine vinegar",
+   "1/2 teaspoon smoked paprika**",
+   "Salt and freshly ground black pepper",
+   "Lemon juice, to taste"
+  ],
+  "yield_text": "Serves 4",
+  "cook_time": null,
+  "categories": [
+   "Beans",
+   "Best of Smitten Kitchen",
+   "Budget",
+   "Egg-Free",
+   "Freezer Friendly",
+   "Pantry",
+   "Put An Egg On It",
+   "Ramadan",
+   "Spanish",
+   "Spinach",
+   "Vegan",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Spanish"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2010/03/spinach-and-chickpeas/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

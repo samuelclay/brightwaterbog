@@ -1,0 +1,31 @@
+{
+ "url": "https://smittenkitchen.com/2022/04/snacky-asparagus/",
+ "status": "parsed",
+ "facts": {
+  "title": "snacky asparagus",
+  "ingredients": [
+   "1 pound fresh asparagus, woody ends trimmed or snapped",
+   "Olive oil",
+   "1 lemon, halved",
+   "Flaky sea salt",
+   "Red pepper flakes",
+   "1 to 2 tablespoons mayo or another dressing"
+  ],
+  "yield_text": "Serves 2 to 4, perhaps",
+  "cook_time": "10 minutes",
+  "categories": [
+   "5 Ingredients or Fewer",
+   "Asparagus",
+   "Recipe",
+   "Side Dish",
+   "Snack",
+   "Spring",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2022/04/snacky-asparagus/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

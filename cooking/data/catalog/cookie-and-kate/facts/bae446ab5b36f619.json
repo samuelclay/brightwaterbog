@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/easy-whole-wheat-pizza-dough/",
+ "status": "parsed",
+ "facts": {
+  "title": "Easy Whole Wheat Pizza Dough",
+  "ingredients": [
+   "1 cup water, heated to 110 degrees (very warm, almost too hot for comfort)",
+   "1 tablespoon extra virgin olive oil",
+   "1 tablespoon honey or sugar",
+   "1 envelope (2 ¼ teaspoons) rapid-rise or instant yeast",
+   "2 ¾ cups (345 grams) white whole wheat flour or regular whole wheat flour",
+   "¼ cup grated Parmesan cheese",
+   "1 teaspoon fine salt",
+   "1 cup pizza sauce or one 32-ounce can whole tomatoes, drained and crushed by hand",
+   "2 to 3 cups shredded low-moisture part-skim mozzarella cheese",
+   "Additional toppings, as desired"
+  ],
+  "yield_text": "4 to 8",
+  "cook_time": "PT30M",
+  "categories": [
+   "Pizza"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/easy-whole-wheat-pizza-dough/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

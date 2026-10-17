@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/french-carrot-salad-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "French Carrot Salad",
+  "ingredients": [
+   "1 pound carrots, peeled",
+   "2 tablespoons finely snipped chives or chopped green onion",
+   "2 tablespoons finely chopped fresh parsley",
+   "Optional: 1 can (15 ounces) chickpeas, rinsed and drained, or 1 ½ cups cooked chickpeas",
+   "2 tablespoons extra-virgin olive oil",
+   "2 tablespoons lemon juice",
+   "2 teaspoons honey",
+   "1 teaspoon Dijon mustard",
+   "½ teaspoon ground cumin",
+   "¼ teaspoon fine sea salt"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT20M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "French"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/french-carrot-salad-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/roasted-breakfast-potatoes-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Roasted Breakfast Potatoes",
+  "ingredients": [
+   "2 pounds red potatoes, scrubbed clean and sliced into even, ¾″ pieces",
+   "1 red bell pepper, sliced into 1” squares",
+   "½ medium white onion, sliced into wedges (see photos)",
+   "2 tablespoons extra-virgin olive oil",
+   "1 teaspoon garlic powder",
+   "½ teaspoon sea salt",
+   "Freshly ground black pepper"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT1H",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/roasted-breakfast-potatoes-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

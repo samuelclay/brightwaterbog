@@ -1,0 +1,30 @@
+{
+ "url": "https://cookieandkate.com/peanut-dipping-sauce/",
+ "status": "parsed",
+ "facts": {
+  "title": "Peanut Dipping Sauce",
+  "ingredients": [
+   "¾ cup creamy peanut butter",
+   "¼ cup rice vinegar",
+   "⅓ cup reduced sodium tamari or reduced-sodium soy sauce",
+   "3 tablespoons honey",
+   "1 ½ teaspoons grated fresh ginger or ½ teaspoon ground ginger",
+   "1 to 2 medium cloves garlic, pressed or minced, to taste",
+   "¼ teaspoon red pepper flakes, plus more for sprinkling",
+   "2 to 4 tablespoons water or coconut milk, or as necessary to reach your desired consistency",
+   "Optional garnishes: sprinkling of chopped roasted peanuts and additional red pepper flakes"
+  ],
+  "yield_text": "1 2/3 cup",
+  "cook_time": "PT5M",
+  "categories": [
+   "Sauce"
+  ],
+  "cuisines": [
+   "Asian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/peanut-dipping-sauce/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

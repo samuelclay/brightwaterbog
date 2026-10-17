@@ -1,0 +1,35 @@
+{
+ "url": "https://smittenkitchen.com/2007/12/ratatouille-tart/",
+ "status": "parsed",
+ "facts": {
+  "title": "ratatouille tart",
+  "ingredients": [
+   "14 ounces frozen puff pastry, defrosted in the fridge overnight*",
+   "1 Asian eggplant",
+   "1 smallish zucchini",
+   "1 smallish yellow squash",
+   "1 longish red bell pepper",
+   "1/3 cup tomato puree (such as Pomi) or canned plain tomato sauce",
+   "2 tablespoons olive oil",
+   "Salt and pepper",
+   "Few sprigs fresh thyme",
+   "1 cup crumbled feta"
+  ],
+  "yield_text": "Serves 8",
+  "cook_time": null,
+  "categories": [
+   "Eggplant",
+   "Peppers",
+   "Summer",
+   "Summer Squash",
+   "Tarts/Quiche",
+   "Vegetarian",
+   "Zucchini"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2007/12/ratatouille-tart/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

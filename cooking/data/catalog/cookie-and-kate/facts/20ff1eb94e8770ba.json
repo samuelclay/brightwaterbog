@@ -1,0 +1,24 @@
+{
+ "url": "https://cookieandkate.com/gremolata-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Gremolata (Italian Parsley Condiment)",
+  "ingredients": [
+   "1 medium bunch of fresh flat-leaf parsley (about ¾ cup chopped)",
+   "Zest from 1 medium lemon (about 1 teaspoon)",
+   "1 medium clove garlic, pressed or minced"
+  ],
+  "yield_text": "3/4 cup",
+  "cook_time": "PT5M",
+  "categories": [
+   "Garnish"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/gremolata-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

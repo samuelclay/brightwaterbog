@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/blueberry-lemon-yogurt-cake-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Blueberry Lemon Yogurt Cake",
+  "ingredients": [
+   "1 ½ cups white whole wheat flour or regular whole wheat flour, plus more for dusting",
+   "2 teaspoons baking powder",
+   "½ teaspoon fine salt",
+   "2 medium lemons, preferably organic, to be zested and juiced",
+   "1 cup sugar",
+   "¾ cup plain whole-milk (full fat) yogurt or Greek yogurt",
+   "3 extra-large eggs",
+   "½ teaspoon pure vanilla extract",
+   "½ cup extra-virgin olive oil",
+   "1 cup fresh or frozen blueberries (if frozen, do not defrost!)",
+   "2 teaspoons honey",
+   "Optional accompaniments: Whipped cream or vanilla ice cream"
+  ],
+  "yield_text": "1 loaf cake",
+  "cook_time": "PT1H5M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/blueberry-lemon-yogurt-cake-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

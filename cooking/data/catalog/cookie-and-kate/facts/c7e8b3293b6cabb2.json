@@ -1,0 +1,33 @@
+{
+ "url": "https://cookieandkate.com/healthy-banana-muffins-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Maple-Sweetened Banana Muffins",
+  "ingredients": [
+   "⅓ cup melted coconut oil or extra-virgin olive oil*",
+   "½ cup maple syrup or honey",
+   "2 eggs, preferably at room temperature",
+   "1 cup packed mashed ripe bananas (about 3 bananas)",
+   "¼ cup milk of choice or water",
+   "1 teaspoon baking soda",
+   "1 teaspoon vanilla extract",
+   "½ teaspoon salt",
+   "½ teaspoon cinnamon, plus more for sprinkling on top",
+   "1 ¾ cups white whole wheat flour or regular whole wheat flour",
+   "⅓ cup old-fashioned oats (optional), plus more for sprinkling on top",
+   "1 teaspoon turbinado (raw) sugar or other granulated sugar, for sprinkling on top"
+  ],
+  "yield_text": "11 muffins",
+  "cook_time": "PT35M",
+  "categories": [
+   "Baked goods"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/healthy-banana-muffins-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

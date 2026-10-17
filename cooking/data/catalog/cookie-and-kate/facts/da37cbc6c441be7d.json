@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/homemade-almond-butter-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Homemade Almond Butter",
+  "ingredients": [
+   "16 ounces (3 cups) raw almonds",
+   "¼ teaspoon salt",
+   "Optional: ¼ teaspoon ground cinnamon",
+   "Optional: ½ teaspoon vanilla extract",
+   "Optional: 2 tablespoons maple syrup or honey"
+  ],
+  "yield_text": "16 ounces",
+  "cook_time": "PT25M",
+  "categories": [
+   "Nut Butter"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/homemade-almond-butter-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

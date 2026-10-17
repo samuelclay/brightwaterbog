@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/orange-arugula-salad-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Vibrant Orange & Arugula Salad",
+  "ingredients": [
+   "¼ cup sliced almonds",
+   "5 to 6 ounces baby arugula",
+   "2 oranges, peeled and sliced into thin rounds",
+   "2 ounces goat cheese, crumbled (about ½ cup)",
+   "¼ cup thinly sliced and roughly chopped radishes",
+   "Pinch of ground cinnamon, to sprinkle on top",
+   "¼ cup extra-virgin olive oil",
+   "3 tablespoons lemon juice",
+   "1 ½ teaspoons honey",
+   "¼ teaspoon salt"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "PT20M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/orange-arugula-salad-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

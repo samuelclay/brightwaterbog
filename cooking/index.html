@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <base href="/">
 <!--og--><title>The Cooking Book</title>
-<meta name="description" content="131 plant-based dinners from the family's Purple Carrot recipe cards, plus the recipes saved from NYT Cooking — full ingredients, steps, and photos, all searchable on one page.">
+<meta name="description" content="The family's Purple Carrot and NYT Cooking collection, plus vegetarian recipe links from Smitten Kitchen and Cookie and Kate — searchable ingredients, servings, and cooking times.">
 <link rel="canonical" href="https://cooking.samuelclay.com/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="The Cooking Book">
 <meta property="og:title" content="The Cooking Book">
-<meta property="og:description" content="131 plant-based dinners from the family's Purple Carrot recipe cards, plus the recipes saved from NYT Cooking — full ingredients, steps, and photos, all searchable on one page.">
+<meta property="og:description" content="The family's Purple Carrot and NYT Cooking collection, plus vegetarian recipe links from Smitten Kitchen and Cookie and Kate — searchable ingredients, servings, and cooking times.">
 <meta property="og:url" content="https://cooking.samuelclay.com/">
 <meta property="og:image" content="https://cooking.samuelclay.com/images/og-cover.jpg">
 <meta property="og:image:width" content="1200">
@@ -187,6 +187,7 @@ main{max-width:1200px;margin:0 auto;padding:1.6rem 1.5rem 4rem}
 .card-btn:focus-visible{outline:3px solid var(--carrot);outline-offset:-3px}
 .cover-wrap{aspect-ratio:4/3;overflow:hidden;background:var(--hairline)}
 .cover-wrap img{width:100%;height:100%;object-fit:cover;object-position:center 12%}
+.cover-wrap img.linked{object-position:center}   /* blog photos are mostly portrait, dish centered */
 .card-body{padding:.8rem .95rem 1rem;display:flex;flex-direction:column;gap:.3rem;flex:1}
 .card-body h2{
   font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:1.06rem;line-height:1.25;
@@ -206,6 +207,17 @@ main{max-width:1200px;margin:0 auto;padding:1.6rem 1.5rem 4rem}
 /* source chips lead the tag row: orange for the binder, slate blue for NYT Cooking */
 .mini-tag.src-pc{background:var(--carrot);color:#fff}
 .mini-tag.src-nyt{background:#33465B;color:#fff}
+.mini-tag.src-smitten-kitchen{background:#9A4635;color:#fff}
+.mini-tag.src-cookie-and-kate{background:#3E6551;color:#fff}
+.linked-cover{height:100%;display:flex;flex-direction:column;justify-content:space-between;padding:1.25rem;background:#F6E9DE;color:#743B2E}
+.linked-cover.cookie-and-kate{background:#E8EFE4;color:#345A45}
+.linked-cover .publisher{font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.linked-cover .dish{font-family:'Fraunces',Georgia,serif;font-size:1.6rem;line-height:1.15}
+.linked-cover .visit{font-size:.8rem}
+.original-recipe{display:block;margin:1rem 0;padding:1rem;border-radius:8px;background:#F1EAF7;color:var(--aubergine);font-weight:700;text-decoration:none}
+.original-recipe small{display:block;margin-top:.35rem;font-weight:400;line-height:1.5}
+.detail.no-photo .detail-inner{grid-template-columns:1fr}
+.detail.no-photo .detail-photos{display:none}
 .cover-wrap .no-photo{
   width:100%;height:100%;display:flex;align-items:center;justify-content:center;
   font-family:'Fraunces',Georgia,serif;font-style:italic;color:var(--ink-soft);background:#F1EAF7;
@@ -541,6 +553,8 @@ footer.site{
 <script src="data/nyt_brittany_recipes.js"></script>
 <script src="data/nyt_brittany_imported_recipes.js"></script>
 <script src="assets/nyt-collections.js"></script>
+<script src="data/smitten_kitchen_recipes.js"></script>
+<script src="data/cookie_and_kate_recipes.js"></script>
 <script>
 (function(){
   // Binder cards first, then the recipes saved from NYT Cooking (data/nyt_recipes.js and
@@ -548,12 +562,14 @@ footer.site{
   // shape, source:"nyt"). Each row gets a source tag so "Source" filters like any other group.
   const R = [...(window.RECIPES || []), ...window.mergeNytCollections(
     window.NYT_SAM_IMPORTED_RECIPES, window.NYT_RECIPES,
-    window.NYT_BRITTANY_IMPORTED_RECIPES, window.NYT_BRITTANY_RECIPES)];
-  const srcChip = r => r.source_tags.map(name => `<span class="mini-tag src-${r.source==='nyt'?'nyt':'pc'}">${esc(name)}</span>`).join('');
+    window.NYT_BRITTANY_IMPORTED_RECIPES, window.NYT_BRITTANY_RECIPES),
+    ...(window.SMITTEN_KITCHEN_RECIPES || []), ...(window.COOKIE_AND_KATE_RECIPES || [])];
+  const BLOG_SOURCES = {'smitten-kitchen':'Smitten Kitchen','cookie-and-kate':'Cookie and Kate'};
+  const srcChip = r => r.source_tags.map(name => `<span class="mini-tag src-${r.source==='nyt'?'nyt':BLOG_SOURCES[r.source]?r.source:'pc'}">${esc(name)}</span>`).join('');
   R.forEach(r => {
     r.source_tags = r.source==='nyt'
       ? r.collections.map(id => window.NYT_COLLECTION_NAMES[id]).filter(Boolean)
-      : ['Purple Carrot'];
+      : [BLOG_SOURCES[r.source] || 'Purple Carrot'];
     r.course_tags = r.course_tags || ['Dinner'];   // every binder card is a dinner kit
   });
   const grid = document.getElementById('grid');
@@ -720,7 +736,7 @@ footer.site{
       const serves = r.servings ? `serves ${esc(r.servings)}` : (r.yield_text ? esc(r.yield_text) : '');
       art.innerHTML = `
         <button class="card-btn" aria-expanded="false">
-          <span class="cover-wrap">${cover?`<img src="${cover}" alt="${esc(r.title)} — recipe photo" loading="${idx<16?'eager':'lazy'}">`:`<span class="no-photo">no photo</span>`}</span>
+          <span class="cover-wrap">${cover?`<img${r.linked?' class="linked"':''} src="${cover}" alt="${esc(r.title)} — recipe photo" loading="${idx<16?'eager':'lazy'}">`:r.linked?`<span class="linked-cover ${esc(r.source)}"><span class="publisher">${esc(r.publisher)}</span><span class="dish">${esc((r.ingredient_tags||[]).slice(0,3).join(' · ') || (r.course_tags||[])[0] || 'For your table')}</span><span class="visit">Recipe collection ↗</span></span>`:`<span class="no-photo">no photo</span>`}</span>
           <span class="card-body">
             <h2>${esc(r.title)}</h2>
             ${sub?`<span class="card-sub">${esc(sub)}</span>`:''}
@@ -877,6 +893,7 @@ footer.site{
   }
   function attachScaler(d, base){
     const range = d.querySelector('.scaler-range');
+    if(!range) return;
     const num = d.querySelector('.scaler-num');
     const reset = d.querySelector('.scaler-reset');
     const note = d.querySelector('.scale-note');
@@ -911,8 +928,8 @@ footer.site{
   function renderDetail(r){
     const rx = boldRegex(r);
     const d = document.createElement('section');
-    d.className = 'detail';
-    d.setAttribute('aria-label', r.title + ' — full recipe');
+    d.className = 'detail' + (r.linked?' linked':'') + (r.front?'':' no-photo');
+    d.setAttribute('aria-label', r.title + (r.linked?' — recipe details':' — full recipe'));
     const base = baseServings(r);
     const nut = r.nutrition||{};
     const nutRow = ['calories','fat','carbohydrates','protein']
@@ -925,17 +942,18 @@ footer.site{
           <div class="detail-top">
             <div class="banner">
               ${r.yield_text||r.servings?`<span>${esc(r.yield_text || r.servings+' servings')}</span>`:''}
-              ${r.cook_time?`<span>cook time: ${esc(r.cook_time)}</span>`:''}
+              ${r.cook_time?`<span>${r.linked?'time':'cook time'}: ${esc(r.cook_time)}</span>`:''}
             </div>
-            <div class="scaler" role="group" aria-label="Scale recipe servings">
+            ${!r.linked || r.yield_count>0?`<div class="scaler" role="group" aria-label="Scale recipe servings">
               <label class="scaler-label" for="scaler-num-${r.pair}">${!r.servings&&r.yield_count>0?'Makes':'Serves'}</label>
               <input class="scaler-range" type="range" min="1" max="${SCALER_MAX}" step="1" value="${base}" aria-label="Servings slider">
               <input class="scaler-num" id="scaler-num-${r.pair}" type="number" min="1" max="99" step="1" value="${base}" inputmode="numeric">
-            </div>
+            </div>`:''}
           </div>
           <h2>${esc(r.title)}</h2>
           ${r.subtitle?`<p class="subtitle">${esc(r.subtitle)}</p>`:''}
           ${r.source==='nyt'?`<p class="subtitle byline">by ${esc(r.author||'NYT Cooking')} · <a href="${esc(r.url)}" target="_blank" rel="noopener">NYT Cooking ↗</a>${r.rating&&r.rating.count?` · ★ ${esc(r.rating.value)} <span class="rating-n">(${Number(r.rating.count).toLocaleString()} ratings)</span>`:''}</p>`:''}
+          ${r.linked?`<p class="subtitle byline">${r.author?`by ${esc(r.author)} · `:''}<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.publisher)} ↗</a></p>`:''}
           ${r.description?`<p class="desc">${esc(r.description)}</p>`:''}
           <div class="detail-tags">
             ${srcChip(r)}${[...(r.cuisine_tags||[]),...(r.ingredient_tags||[])].map(t=>`<span class="mini-tag">${esc(t)}</span>`).join('')}
@@ -951,6 +969,7 @@ footer.site{
             <div class="section-label">Tools</div>
             <ul class="plain-list">${r.tools.map(i=>`<li>${esc(i)}</li>`).join('')}</ul>`:''}
           <div class="section-label">Directions</div>
+          ${r.linked?`<a class="original-recipe" href="${esc(r.url)}" target="_blank" rel="noopener">Cook this recipe at ${esc(r.publisher)} ↗<small>Open the full instructions, photos, and recipe notes.</small></a>`:''}
           <ol class="steps">
             ${(r.steps||[]).map(s=>`<li${s.img?' class="has-photo"':''}>
               <div class="step-body">${s.title?`<span class="step-title">${esc(s.title)}</span>`:''}${rich(s.text, rx)}</div>
@@ -963,15 +982,16 @@ footer.site{
         </div>
         <div class="detail-photos">
           <div class="photo-sticky">
-            ${r.front?`<button class="photo-frame" data-side="0" aria-label="${r.source==='nyt'?'View photo fullscreen':'View front of card fullscreen'}">
-              <img src="images/card/${r.front}" alt="${esc(r.title)} — ${r.source==='nyt'?'photo':'card front photo'}">
-              <span class="zoom-hint">${r.source==='nyt'?'tap to enlarge':'tap to read'}</span>
+            ${r.front?`<button class="photo-frame" data-side="0" aria-label="${r.source==='nyt'||r.linked?'View photo fullscreen':'View front of card fullscreen'}">
+              <img src="images/card/${r.front}" alt="${esc(r.title)} — ${r.source==='nyt'||r.linked?'photo':'card front photo'}">
+              <span class="zoom-hint">${r.source==='nyt'||r.linked?'tap to enlarge':'tap to read'}</span>
             </button>`:''}
             ${r.back?`<button class="photo-frame" data-side="1" aria-label="View back of card fullscreen">
               <img src="images/card/${r.back}" alt="${esc(r.title)} — card back photo">
               <span class="zoom-hint">tap to read</span>
             </button>`:''}
             ${r.source==='nyt'?`<a class="src-link" href="${esc(r.url)}" target="_blank" rel="noopener">Saved from NYT Cooking ↗</a>`:''}
+            ${r.linked&&r.front?`<a class="src-link" href="${esc(r.url)}" target="_blank" rel="noopener">Photo: ${esc(r.publisher)} ↗</a>`:''}
           </div>
         </div>
       </div>`;
@@ -1033,7 +1053,7 @@ footer.site{
     full.onload = ()=>{
       if(lb.classList.contains('open') && !lbClosing && lbImg.src.includes(file)) lbImg.src = full.src;
     };
-    lbImg.alt = lbRecipe.title + (lbRecipe.source==='nyt' ? ' — photo' : (lbSide===0?' — card front':' — card back'));
+    lbImg.alt = lbRecipe.title + (lbRecipe.source==='nyt'||lbRecipe.linked ? ' — photo' : (lbSide===0?' — card front':' — card back'));
     lbLabel.textContent = lbRecipe.title + (lbRecipe.back ? (lbSide===0?' · front':' · back') : '');
     document.getElementById('lbFlip').style.display = lbRecipe.back ? '' : 'none';
   }
@@ -1078,7 +1098,8 @@ footer.site{
 
   // ---------- boot ----------
   const nytN = R.filter(r=>r.source==='nyt').length;
-  if(nytN) document.getElementById('nytNote').textContent = ` · plus ${nytN} recipes saved from NYT Cooking`;
+  const blogN = R.filter(r=>r.linked).length;
+  document.getElementById('nytNote').textContent = (nytN?` · plus ${nytN} recipes saved from NYT Cooking`:'') + (blogN?` · ${blogN} linked recipes from Smitten Kitchen and Cookie and Kate`:'');
   buildCards();
   buildChips();
   applyFilters();

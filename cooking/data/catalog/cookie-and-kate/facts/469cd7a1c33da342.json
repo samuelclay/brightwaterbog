@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/farro-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "How to Cook Farro",
+  "ingredients": [
+   "1 cup dry farro",
+   "4 cups water",
+   "¼ teaspoon fine salt, to taste",
+   "Optional flavorings: Light drizzle of extra virgin olive oil and 1 small clove garlic (pressed or minced)"
+  ],
+  "yield_text": "3 cups",
+  "cook_time": "PT30M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Mediterranean"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/farro-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

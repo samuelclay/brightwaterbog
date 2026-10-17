@@ -1,0 +1,30 @@
+{
+ "url": "https://smittenkitchen.com/2016/03/nolita-style-avocado-toast/",
+ "status": "parsed",
+ "facts": {
+  "title": "nolita-style avocado toast",
+  "ingredients": [
+   "1 1/2-inch slice seven-grain sandwich bread",
+   "1/2 a large, ripe avocado",
+   "1 tablespoon olive oil",
+   "1 tablespoon lemon juice, or more to taste",
+   "Salt",
+   "An unholy amount of red pepper flakes"
+  ],
+  "yield_text": "Yield: 1 serving",
+  "cook_time": null,
+  "categories": [
+   "Avocado",
+   "Budget",
+   "Quick",
+   "Ramadan",
+   "Sandwich",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2016/03/nolita-style-avocado-toast/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

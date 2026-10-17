@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/pink-drink-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Pink Drink",
+  "ingredients": [
+   "1 hibiscus tea bag",
+   "2 cups water",
+   "1 tablespoon honey or maple syrup",
+   "8 ripe strawberries, hulled and thinly sliced, divided",
+   "½ cup orange juice",
+   "½ cup light coconut milk (from a can or carton)"
+  ],
+  "yield_text": "4 cups",
+  "cook_time": "PT25M",
+  "categories": [
+   "Drink"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/pink-drink-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

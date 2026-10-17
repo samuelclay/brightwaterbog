@@ -10,6 +10,7 @@ deploy:
 	mkdir -p .dist/data
 	cp -R index.html favicons.html assets images _worker.js .dist/
 	cp data/recipes.js data/nyt_recipes.js data/nyt_sam_imported_recipes.js data/nyt_brittany_recipes.js data/nyt_brittany_imported_recipes.js data/og.json .dist/data/
+	cp data/smitten_kitchen_recipes.js data/cookie_and_kate_recipes.js data/smitten_kitchen_og.json data/cookie_and_kate_og.json .dist/data/
 	npx --yes wrangler@latest pages deploy --profile ofbrooklyn --branch main
 
 # Regenerate everything from source photos + extraction data
@@ -43,3 +44,15 @@ nyt-import:
 # Local preview at http://localhost:8471
 serve:
 	python3 -m http.server 8471
+
+# Independent, resumable linked-catalog imports. Safe to run alongside NYT work.
+# Each imports the catalog, downloads missing lead photos, then rebuilds with them.
+.PHONY: smitten-kitchen cookie-and-kate blog-catalog-build
+smitten-kitchen cookie-and-kate:
+	uv run --with beautifulsoup4 python tools/blog_catalog.py --source $@
+	uv run --with beautifulsoup4 --with pillow python tools/fetch_blog_images.py --source $@
+	uv run --with beautifulsoup4 python tools/blog_catalog.py --source $@ --build-only
+
+blog-catalog-build:
+	uv run --with beautifulsoup4 python tools/blog_catalog.py --source smitten-kitchen --build-only
+	uv run --with beautifulsoup4 python tools/blog_catalog.py --source cookie-and-kate --build-only

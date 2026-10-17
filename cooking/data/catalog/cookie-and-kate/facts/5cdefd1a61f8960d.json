@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/aguas-frescas-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "How to Make Aguas Frescas",
+  "ingredients": [
+   "1 cup roughly chopped fruit",
+   "1 cup water",
+   "½ medium lime, juiced",
+   "1 teaspoon pure cane sugar or agave nectar or sweetener of choice",
+   "Optional: 2 large mint leaves (perfect with cucumber)"
+  ],
+  "yield_text": "About 2 cups",
+  "cook_time": "PT5M",
+  "categories": [
+   "Juice"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/aguas-frescas-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

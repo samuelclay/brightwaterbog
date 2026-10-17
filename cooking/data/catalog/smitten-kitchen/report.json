@@ -1,0 +1,36 @@
+{
+ "source": "smitten-kitchen",
+ "candidates": 380,
+ "included": 376,
+ "without_photo": [],
+ "held": [
+  {
+   "url": "https://smittenkitchen.com/2007/01/asparagus-shiitake-risotto/",
+   "title": "asparagus, artichoke and shiitake risotto",
+   "ingredient_references": [
+    "5 cups (1.2 liters) chicken broth"
+   ]
+  },
+  {
+   "url": "https://smittenkitchen.com/2007/11/brussel-sprouts-and-chestnuts-in-brown-butter/",
+   "title": "brussels sprouts and chestnuts in brown butter",
+   "ingredient_references": [
+    "2 1/2 cups hot chicken stock"
+   ]
+  },
+  {
+   "url": "https://smittenkitchen.com/2013/05/japanese-cabbage-and-vegetable-pancakes/",
+   "title": "japanese vegetable pancakes",
+   "ingredient_references": [
+    "1 1/2 tablespoons Worcestershire sauce (note: this is not vegetarian)"
+   ]
+  }
+ ],
+ "skipped": [
+  {
+   "url": "https://smittenkitchen.com/2006/07/forgiving-eggplants-tresspasses/",
+   "status": "no-recipe-data",
+   "parser_version": 4
+  }
+ ]
+}

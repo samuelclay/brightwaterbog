@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/chocolate-peanut-butter-crispy-bars-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Chocolate Peanut Butter Crispy Bars",
+  "ingredients": [
+   "3 cups brown rice crisps*",
+   "1 ¼ cups whole pecans, chopped, divided",
+   "¾ cup creamy peanut butter (plus a pinch of salt if your peanut butter is unsalted)",
+   "½ cup honey",
+   "1 ½ cups (9 ounces) chocolate chips*",
+   "½ teaspoon flaky sea salt or ¼ teaspoon kosher salt"
+  ],
+  "yield_text": "16 treats",
+  "cook_time": "PT20M",
+  "categories": [
+   "Dessert"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/chocolate-peanut-butter-crispy-bars-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

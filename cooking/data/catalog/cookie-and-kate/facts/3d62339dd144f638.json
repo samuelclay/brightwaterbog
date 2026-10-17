@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/cranberry-orange-steel-cut-oats/",
+ "status": "parsed",
+ "facts": {
+  "title": "Cranberry Orange Steel Cut Oats",
+  "ingredients": [
+   "3 cups water",
+   "1 cup almond milk (or other milk: cow’s milk, coconut milk, etc.)",
+   "1 tablespoon unsalted butter (or coconut oil)",
+   "1 cup steel-cut oats",
+   "¼ teaspoon salt",
+   "Zest of one orange and juice of one orange",
+   "Cranberry sauce (recipe provided above)",
+   "Optional garnishes: toasted and chopped pecans and/or yogurt"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT32M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cranberry-orange-steel-cut-oats/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

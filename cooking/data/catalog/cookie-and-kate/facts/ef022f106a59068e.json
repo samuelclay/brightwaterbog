@@ -1,0 +1,38 @@
+{
+ "url": "https://cookieandkate.com/lentil-and-mushroom-meatballs/",
+ "status": "parsed",
+ "facts": {
+  "title": "Vegetarian Lentil and Mushroom Meatballs",
+  "ingredients": [
+   "1 cup dried brown lentils, picked over and rinsed",
+   "1 bay leaf",
+   "2 cups vegetable broth or water",
+   "8 ounces cremini mushrooms or white mushrooms, thinly sliced",
+   "½ cup old-fashioned oats",
+   "½ cup flat-leaf parsley leaves",
+   "1 teaspoon dried oregano",
+   "½ teaspoon red pepper flakes",
+   "½ teaspoon dried thyme",
+   "½ teaspoon dried tarragon",
+   "2 tablespoons olive oil",
+   "1 medium white onion, diced",
+   "3 to 4 garlic cloves, minced",
+   "¼ cup red wine",
+   "1 tablespoon tamari soy sauce (optional)",
+   "2 eggs",
+   "Fine salt and ground black pepper, to taste"
+  ],
+  "yield_text": "4",
+  "cook_time": "PT1H20M",
+  "categories": [
+   "Main"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/lentil-and-mushroom-meatballs/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

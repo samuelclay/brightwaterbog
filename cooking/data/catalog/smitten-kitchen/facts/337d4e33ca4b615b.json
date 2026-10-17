@@ -1,0 +1,36 @@
+{
+ "url": "https://smittenkitchen.com/2015/05/mushrooms-and-greens-with-toast/",
+ "status": "parsed",
+ "facts": {
+  "title": "mushrooms and greens with toast",
+  "ingredients": [
+   "3 tablespoons unsalted butter, divided",
+   "1 tablespoon olive oil",
+   "1 1/2 pounds mixed mushrooms, cleaned, trimmed and torn into bite size pieces (see suggestions above)",
+   "2 thick slices bread from a large, crusty loaf",
+   "2 cloves garlic or 1 shallot, minced",
+   "1 tablespoon white wine vinegar, or more to taste",
+   "1 fresh red chile, stemmed, seeded and minced or red pepper flakes, to taste",
+   "Coarse salt and freshly ground black pepper",
+   "6 ounces chopped fresh greens (see suggestions above)",
+   "8 ounces of a good melting cheese, thickly sliced (suggestions above)"
+  ],
+  "yield_text": "Serves 4",
+  "cook_time": null,
+  "categories": [
+   "Braiser",
+   "Casserole",
+   "Dinner",
+   "Greens",
+   "Kale",
+   "Mushrooms",
+   "Vegetarian",
+   "Weeknight Favorite"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2015/05/mushrooms-and-greens-with-toast/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

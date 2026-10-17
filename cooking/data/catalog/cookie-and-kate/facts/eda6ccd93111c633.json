@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/buffalo-cauliflower-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Roasted Buffalo Cauliflower",
+  "ingredients": [
+   "1 large head of cauliflower (about 3 pounds)",
+   "2 tablespoons cornstarch",
+   "1 teaspoon garlic powder",
+   "10 twists of freshly ground black pepper",
+   "2 tablespoons extra-virgin olive oil",
+   "3 to 4 tablespoons Frank’s red hot sauce, to taste",
+   "2 tablespoons unsalted butter, melted",
+   "Optional, for serving: Ranch dressing or blue cheese dip, carrot and celery sticks and strips of bell pepper"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT1H",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/buffalo-cauliflower-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

@@ -1,0 +1,31 @@
+{
+ "url": "https://cookieandkate.com/best-pickles-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Easy Homemade Pickles",
+  "ingredients": [
+   "1 medium-to-large cucumber or 2 small cucumbers (ideally 12 ounces total)*",
+   "½ cup water, at room temperature or cooler",
+   "½ cup rice vinegar",
+   "1 ½ tablespoons maple syrup or sugar",
+   "1 ½ teaspoons fine sea salt",
+   "¼ teaspoon red pepper flakes (optional, for heat)",
+   "20 twists of freshly ground black pepper",
+   "2 leafy sprigs of fresh dill, roughly chopped (about ¼ cup)",
+   "2 cloves garlic, peeled and smashed",
+   "1 bay leaf"
+  ],
+  "yield_text": "1 jar",
+  "cook_time": "PT15M",
+  "categories": [
+   "Condiment"
+  ],
+  "cuisines": [
+   "International"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/best-pickles-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

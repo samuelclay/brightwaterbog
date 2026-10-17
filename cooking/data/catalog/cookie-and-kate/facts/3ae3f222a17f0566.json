@@ -1,0 +1,36 @@
+{
+ "url": "https://cookieandkate.com/vegan-chipotle-carrot-queso/",
+ "status": "parsed",
+ "facts": {
+  "title": "Vegan Chipotle Carrot Queso",
+  "ingredients": [
+   "3 large carrots (about ½ pound), peeled and chopped",
+   "1 small white or yellow onion, chopped",
+   "4 cloves garlic, pressed or minced",
+   "1 ½ tablespoons extra-virgin olive oil",
+   "1 cup raw cashews, soaked for at least 2 hours if not using a Vitamix or Blendtec blender (see notes for quicker alternatives)",
+   "1 ¼ cups vegetable broth",
+   "3 to 4 tablespoons nutritional yeast flakes, to taste",
+   "1 to 3 tablespoons adobo sauce (from canned chipotle peppers)",
+   "½ teaspoon ground cumin",
+   "½ teaspoon salt, more to taste",
+   "Freshly ground black pepper, to taste",
+   "1 small can green chilis, drained",
+   "2 tablespoons finely chopped pickled jalapeño peppers (optional, for a vinegary kick)",
+   "Big handful cherry tomatoes, chopped",
+   "Handful chopped fresh cilantro"
+  ],
+  "yield_text": "3 cups",
+  "cook_time": "PT25M",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "Mexican"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/vegan-chipotle-carrot-queso/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

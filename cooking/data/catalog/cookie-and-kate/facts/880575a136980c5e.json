@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/summertime-fruit-salad-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Summertime Fruit Salad",
+  "ingredients": [
+   "1 pound strawberries, hulled and thinly sliced",
+   "3 medium peaches, thinly sliced",
+   "6 ounces (1 cup) blueberries",
+   "1 heaping tablespoon fresh, chopped basil or mint",
+   "2 tablespoons lemon juice (about 1 medium lemon)",
+   "1 tablespoon maple syrup or honey",
+   "2 teaspoons balsamic vinegar"
+  ],
+  "yield_text": "6 servings",
+  "cook_time": "PT15M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/summertime-fruit-salad-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

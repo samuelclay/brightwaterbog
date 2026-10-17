@@ -1,0 +1,37 @@
+{
+ "url": "https://smittenkitchen.com/2020/08/corn-coconut-soup/",
+ "status": "parsed",
+ "facts": {
+  "title": "corn coconut soup",
+  "ingredients": [
+   "2 large yellow onions",
+   "3 quarts (2.8 liters) water",
+   "4 large ears or 5 medium-large fresh corn, kernels cut from cobs, cobs reserved",
+   "1 (1-inch) piece ginger, peeled and thinly sliced",
+   "4 garlic cloves, sliced",
+   "2 tablespoons (30 ml) canola, safflower, or another neutral oil",
+   "2 1/2 teaspoons kosher salt, plus more to taste",
+   "1 (13.5-ounce or 400-ml) can full-fat coconut milk, well-stirred",
+   "Juice of half a lime",
+   "To garnish: Fresh cilantro leaves, lime wedges, toasted coconut flakes, (see below for next three) chile oil, pickled shallots, and/or crispy shallots"
+  ],
+  "yield_text": "4",
+  "cook_time": "2 hours",
+  "categories": [
+   "Coconut",
+   "Corn",
+   "Dairy-Free",
+   "Egg-Free",
+   "Gluten-Free",
+   "Recipe",
+   "Soup",
+   "Vegan",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2020/08/corn-coconut-soup/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

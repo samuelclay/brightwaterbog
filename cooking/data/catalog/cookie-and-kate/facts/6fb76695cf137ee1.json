@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/zhoug-sauce-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Zhoug! (Spicy Cilantro Sauce)",
+  "ingredients": [
+   "4 medium cloves garlic, roughly chopped",
+   "2 packed cups fresh cilantro (about 2 bunches, mostly leaves but skinny stems are ok)",
+   "4 medium jalapeños, seeds removed but reserved",
+   "1 teaspoon fine sea salt",
+   "1 teaspoon ground cardamom",
+   "¾ teaspoon ground cumin",
+   "½ teaspoon red pepper flakes, more to taste",
+   "¾ cup extra-virgin olive oil"
+  ],
+  "yield_text": "1 1/4 cups",
+  "cook_time": "PT10M",
+  "categories": [
+   "Condiment"
+  ],
+  "cuisines": [
+   "Middle Eastern"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/zhoug-sauce-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

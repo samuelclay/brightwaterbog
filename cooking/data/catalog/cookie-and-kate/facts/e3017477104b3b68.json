@@ -1,0 +1,32 @@
+{
+ "url": "https://cookieandkate.com/cranberry-crostini/",
+ "status": "parsed",
+ "facts": {
+  "title": "Cranberry Crostini",
+  "ingredients": [
+   "1 small loaf of crusty whole grain bread, sliced into ½-inch thick slices",
+   "2+ tablespoons olive oil",
+   "sea salt",
+   "10 ounces goat cheese, preferably at room temperature (Brie, ricotta, or cream cheese would be fine substitutes)",
+   "½ cup+ honey",
+   "½ cup water",
+   "½ teaspoon ground cinnamon",
+   "¼ teaspoon ground cloves",
+   "¼ teaspoon ground allspice",
+   "1 (12-ounce) bag fresh cranberries",
+   "Zest of 1 orange (orange part only), divided"
+  ],
+  "yield_text": "8",
+  "cook_time": "PT25M",
+  "categories": [
+   "Appetizer"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/cranberry-crostini/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

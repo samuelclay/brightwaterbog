@@ -1,0 +1,30 @@
+{
+ "url": "https://smittenkitchen.com/2018/10/crispy-spinach-pizza/",
+ "status": "parsed",
+ "facts": {
+  "title": "crispy spinach pizza",
+  "ingredients": [
+   "Olive oil",
+   "Cornmeal, for dusting",
+   "1 fully risen pizza dough or about a 2/3 volume of my lazy fitted-to-your-schedule favorite or your favorite, whichever it may be",
+   "2 ounces (2/3 cup) grated gruyere or comte cheese",
+   "2 ounces pecorino cheese, chopped into mixed-sized rubble or 2/3 cup grated",
+   "4 ounces mozzarella, either torn into shreds, diced, or (as shown) in ciliegine",
+   "1 large garlic clove, thinly sliced or grated",
+   "Sea salt and freshly ground black pepper",
+   "8 to 9 ounces fresh spinach, larger stems removed"
+  ],
+  "yield_text": "4",
+  "cook_time": "20 minutes",
+  "categories": [
+   "Pizza",
+   "Spinach",
+   "Vegetarian"
+  ],
+  "cuisines": [],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2018/10/crispy-spinach-pizza/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

@@ -1,0 +1,35 @@
+{
+ "url": "https://smittenkitchen.com/2016/08/chile-lime-melon-salad/",
+ "status": "parsed",
+ "facts": {
+  "title": "chile-lime melon salad",
+  "ingredients": [
+   "4 cups chopped or balled melon (from about 1 cantaloupe or honeydew, or 1/4 a large watermelon)",
+   "Juice of half a lime, divided, plus more to taste",
+   "Coarse salt, to taste",
+   "1/2 to 1 teaspoon chili powder",
+   "3 tablespoons crumbled cotija cheese",
+   "1 tablespoon toasted pepitas",
+   "1 tablespoon chopped fresh cilantro, plus more to taste"
+  ],
+  "yield_text": "2 hungry people or 4 as a side",
+  "cook_time": "15 minutes",
+  "categories": [
+   "Cantaloupe",
+   "Honeydew",
+   "Quick",
+   "Salad",
+   "Summer",
+   "Tex-Mex",
+   "Vegetarian",
+   "Watermelon"
+  ],
+  "cuisines": [
+   "Tex-Mex"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2016/08/chile-lime-melon-salad/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

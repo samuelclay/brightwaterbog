@@ -1,0 +1,35 @@
+{
+ "url": "https://cookieandkate.com/tomato-olive-and-chickpea-quesadilla-with-dill-yogurt-dip/",
+ "status": "parsed",
+ "facts": {
+  "title": "Tomato, Olive and Chickpea Quesadilla with Dill Yogurt Dip",
+  "ingredients": [
+   "1 whole grain tortilla (use gluten-free tortillas for gluten-free quesadillas)",
+   "¾ cup shredded Monterey Jack cheese",
+   "¼ cup cooked chickpeas, well drained",
+   "8 cherry or grape tomatoes, sliced into thin rounds",
+   "7 pitted kalamata olives, sliced into thin rounds (or a sprinkle of capers or crumbled feta cheese)",
+   "2 tablespoons chopped red onion",
+   "½ teaspoon olive oil, for brushing",
+   "1 cup plain Greek yogurt",
+   "2 tablespoons packed fresh dill, torn into pieces",
+   "2 tablespoons packed fresh mint (or basil or flat-leaf parsley), torn into pieces",
+   "1 tablespoon olive oil",
+   "1 tablespoon lemon juice (about ½ of a large lemon)",
+   "Pinch of red pepper flakes (optional, for spice)",
+   "⅛ teaspoon fine salt"
+  ],
+  "yield_text": "1",
+  "cook_time": "PT15M",
+  "categories": [
+   "appetizer or snack"
+  ],
+  "cuisines": [
+   "Greek"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/tomato-olive-and-chickpea-quesadilla-with-dill-yogurt-dip/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

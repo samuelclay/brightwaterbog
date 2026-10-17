@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/crispy-hash-browns-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Delicious Crispy Hash Browns",
+  "ingredients": [
+   "1 pound Russet potatoes (2 small-to-medium), peeled if desired",
+   "½ teaspoon salt",
+   "¼ teaspoon garlic powder",
+   "¼ teaspoon onion powder",
+   "¼ cup extra-virgin olive oil"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT30M",
+  "categories": [
+   "Breakfast"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/crispy-hash-browns-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

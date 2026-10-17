@@ -1,0 +1,43 @@
+{
+ "url": "https://smittenkitchen.com/2016/08/eggplant-parmesan-melts/",
+ "status": "parsed",
+ "facts": {
+  "title": "eggplant parmesan melts",
+  "ingredients": [
+   "2 pounds eggplant (about 2 medium)",
+   "1/2 cup all-purpose flour",
+   "Kosher salt",
+   "Freshly ground black pepper",
+   "3 large eggs",
+   "2 1/2 cups panko breadcrumbs",
+   "Olive oil, for baking, roasting or frying",
+   "3 1/2 cups prepared sauce or the following ingredients to make your own:",
+   "1 tablespoon olive oil (or frying oil)",
+   "2 garlic cloves, minced",
+   "1 28-ounce can tomato puree",
+   "1 teaspoon dried oregano",
+   "Salt and freshly ground black pepper, to taste",
+   "Pinches of red pepper flakes, to taste",
+   "2 tablespoon chopped fresh basil, plus more to garnish",
+   "About a 1-pound loaf seeded Italian bread or baguette",
+   "3/4 cup grated parmesan",
+   "3/4 pounds mozzarella, in thin slices"
+  ],
+  "yield_text": "12 small melts, serving 4 to 6",
+  "cook_time": null,
+  "categories": [
+   "Eggplant",
+   "Italian",
+   "Sandwich",
+   "Summer",
+   "Vegetarian"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Deb Perelman",
+  "url": "https://smittenkitchen.com/2016/08/eggplant-parmesan-melts/",
+  "source": "smitten-kitchen"
+ },
+ "parser_version": 4
+}

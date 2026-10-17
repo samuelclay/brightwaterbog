@@ -1,0 +1,28 @@
+{
+ "url": "https://cookieandkate.com/seaweed-salad-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Seaweed Salad",
+  "ingredients": [
+   "1 ounce arame sea vegetables (about 1 ½ cups dried)",
+   "1 ½ cups thinly sliced purple or green cabbage, roughly chopped into pieces no longer than 3 inches",
+   "1 red or orange bell pepper, chopped",
+   "½ cup thinly sliced green onion, sliced on the diagonal",
+   "¼ cup finely chopped cilantro",
+   "1 batch Sesame Dressing",
+   "1 ripe avocado, diced"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT25M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Japanese-inspired"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/seaweed-salad-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

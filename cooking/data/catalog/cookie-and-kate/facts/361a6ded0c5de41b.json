@@ -1,0 +1,23 @@
+{
+ "url": "https://cookieandkate.com/fresh-bellini-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Fresh Bellini Cocktail",
+  "ingredients": [
+   "4 medium ripe peaches (1 ½ pounds), plus a few peach slices for garnish if desired",
+   "1 bottle Prosecco, chilled"
+  ],
+  "yield_text": "5 cocktails",
+  "cook_time": "PT15M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [
+   "Italian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/fresh-bellini-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

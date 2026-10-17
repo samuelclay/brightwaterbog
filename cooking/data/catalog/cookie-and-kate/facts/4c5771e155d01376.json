@@ -1,0 +1,37 @@
+{
+ "url": "https://cookieandkate.com/greek-kale-salad-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Greek Kale Salad with Creamy Tahini Dressing",
+  "ingredients": [
+   "1 medium bunch of curly green kale (about 8 ounces)",
+   "Fine salt",
+   "1 can (15 ounces) chickpeas, rinsed and drained, or 1 ½ cups cooked chickpeas",
+   "½ cup thinly sliced Kalamata olives and/or roughly chopped pepper rings",
+   "⅓ cup oil-packed sun-dried tomatoes, rinsed and drained",
+   "⅓ cup finely grated Parmesan (optional)",
+   "⅓ cup raw sunflower seeds*",
+   "¼ teaspoon extra-virgin olive oil",
+   "¼ cup tahini",
+   "3 tablespoons lemon juice (from 1 to 1 ½ lemons)",
+   "1 tablespoon extra-virgin olive oil",
+   "1 medium clove garlic, pressed or minced",
+   "½ teaspoon Dijon mustard",
+   "¼ teaspoon fine salt",
+   "2 tablespoons water",
+   "Freshly ground black pepper, to taste"
+  ],
+  "yield_text": "4 side servings",
+  "cook_time": "PT25M",
+  "categories": [
+   "Salad"
+  ],
+  "cuisines": [
+   "Greek"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/greek-kale-salad-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

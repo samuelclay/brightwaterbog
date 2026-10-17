@@ -1,0 +1,39 @@
+{
+ "url": "https://cookieandkate.com/vegetarian-pho-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Vegetarian Pho",
+  "ingredients": [
+   "Two 3-inch cinnamon sticks",
+   "3 whole cloves",
+   "2 star anise",
+   "1 large white onion*, peeled and quartered",
+   "4-inch piece of fresh ginger*, peeled and halved lengthwise",
+   "4 cups (32 ounces) vegetable stock or broth",
+   "4 cups water",
+   "2 tablespoons reduced-sodium tamari or soy sauce",
+   "6 ounces (one large handful) rice noodles",
+   "1 tablespoon avocado oil, mild extra-virgin olive oil or your neutral-flavored oil of choice",
+   "5 ounces thinly sliced shiitake mushrooms",
+   "Salt",
+   "Mung bean sprouts",
+   "Sprigs of fresh basil or cilantro",
+   "Sprigs of fresh mint",
+   "Thinly sliced green onions (mostly green parts)",
+   "Very thinly sliced fresh jalapeño (omit if sensitive to spice)",
+   "Small wedges of lime"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT50M",
+  "categories": [
+   "Soup"
+  ],
+  "cuisines": [
+   "Vietnamese"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/vegetarian-pho-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

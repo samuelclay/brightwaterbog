@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/clementine-sunshine-smoothie/",
+ "status": "parsed",
+ "facts": {
+  "title": "Clementine Sunshine Smoothie",
+  "ingredients": [
+   "4 clementines, preferably chilled",
+   "½ cup ice",
+   "¼ cup yogurt or almond milk (plain or vanilla flavors work)",
+   "Tiny dash sea salt",
+   "Chunks of frozen banana for extra creaminess",
+   "¼ teaspoon ground turmeric for exotic flavor and more immunity-boosting properties",
+   "Drizzle of honey for extra sweetness",
+   "One drop of pure vanilla extract for more of a dreamsicle flavor"
+  ],
+  "yield_text": "1 smoothie",
+  "cook_time": "PT5M",
+  "categories": [
+   "Smoothie"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/clementine-sunshine-smoothie/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

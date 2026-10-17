@@ -1,0 +1,25 @@
+{
+ "url": "https://cookieandkate.com/strawberry-smash-cocktail/",
+ "status": "parsed",
+ "facts": {
+  "title": "Strawberry Smash Cocktail",
+  "ingredients": [
+   "5 ripe strawberries, leafy ends removed",
+   "5 fresh basil leaves",
+   "1 medium lemon, juiced (plus more for garnish)",
+   "Drizzle honey",
+   "1 ½ ounces vodka",
+   "Club soda"
+  ],
+  "yield_text": "1 cocktail",
+  "cook_time": "PT5M",
+  "categories": [
+   "Cocktail"
+  ],
+  "cuisines": [],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/strawberry-smash-cocktail/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

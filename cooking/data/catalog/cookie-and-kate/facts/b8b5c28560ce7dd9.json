@@ -1,0 +1,26 @@
+{
+ "url": "https://cookieandkate.com/frozen-mint-lemonade-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Frozen Mint Lemonade",
+  "ingredients": [
+   "½ cup fresh lemon juice (about 4 lemons)",
+   "¾ cup cold water",
+   "¼ cup lightly packed packed fresh mint (about 4 grams), plus 4 small sprigs to use as garnish",
+   "¼ cup sugar*",
+   "4 cups ice"
+  ],
+  "yield_text": "4 servings",
+  "cook_time": "PT10M",
+  "categories": [
+   "Drink"
+  ],
+  "cuisines": [
+   "Middle Eastern"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/frozen-mint-lemonade-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

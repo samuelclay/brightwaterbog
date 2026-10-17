@@ -1,0 +1,27 @@
+{
+ "url": "https://cookieandkate.com/quick-collard-greens-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Quick Collard Greens",
+  "ingredients": [
+   "1 large bunch (about 10 ounces) collard greens",
+   "1 ½ tablespoons extra-virgin olive oil",
+   "¼ teaspoon fine sea salt",
+   "2 medium cloves garlic, pressed or minced",
+   "Pinch of red pepper flakes (optional, scale back or omit if sensitive to spice)",
+   "A couple lemon wedges, for serving"
+  ],
+  "yield_text": "2 servings",
+  "cook_time": "PT15M",
+  "categories": [
+   "Side Dish"
+  ],
+  "cuisines": [
+   "Brazilian"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/quick-collard-greens-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}

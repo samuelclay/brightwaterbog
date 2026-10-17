@@ -1,0 +1,29 @@
+{
+ "url": "https://cookieandkate.com/stovetop-mac-and-cheese-recipe/",
+ "status": "parsed",
+ "facts": {
+  "title": "Real Stovetop Mac and Cheese",
+  "ingredients": [
+   "8 ounces (2 cups) regular or whole-wheat macaroni noodles",
+   "2 teaspoons salt, for the pasta cooking water",
+   "⅓ cup heavy cream",
+   "1 ⅓ packed cups (5 ounces) grated sharp cheddar cheese",
+   "½ teaspoon mustard powder",
+   "⅛ teaspoon garlic powder",
+   "⅛ teaspoon onion powder",
+   "Tiny pinch of cayenne pepper, or a dash of your favorite hot sauce"
+  ],
+  "yield_text": "3 servings",
+  "cook_time": "PT20M",
+  "categories": [
+   "Entree"
+  ],
+  "cuisines": [
+   "American"
+  ],
+  "author": "Cookie and Kate",
+  "url": "https://cookieandkate.com/stovetop-mac-and-cheese-recipe/",
+  "source": "cookie-and-kate"
+ },
+ "parser_version": 2
+}
