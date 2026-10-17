@@ -1,0 +1,1 @@
+window.NYT_BRITTANY_IMPORTED_RECIPES = [];

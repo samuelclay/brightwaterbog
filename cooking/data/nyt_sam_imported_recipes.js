@@ -1,0 +1,1 @@
+window.NYT_SAM_IMPORTED_RECIPES = [];

@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-"""Build data/nyt_recipes.js from data/nyt/raw/<id>.json + data/nyt/tags/<id>.json,
-and merge the recipes' OpenGraph rows into data/og.json.
+"""Build each recipe box's rows (COLLECTIONS: data/nyt/recipes.txt -> data/nyt_recipes.js
+for Sam, data/nyt/brittany.txt -> data/nyt_brittany_recipes.js for Brittany) from
+data/nyt/raw/<id>.json + data/nyt/tags/<id>.json, and merge the recipes' OpenGraph
+rows into data/og.json.
 
 Each raw file is the recipe page's schema.org JSON-LD with NYT's own recipe
 object attached as `_scoop` (see tools/fetch_nyt.py). Each tags file holds the
@@ -13,7 +15,8 @@ lightbox), `back`/`hero` are null, `era`/`source` are "nyt", and NYT-only
 fields ride along: `author`, `url`, `rating`, `yield_text`, `yield_count`,
 `ingredient_groups`, `keywords`, `date`, and `course_tags` (Dinner / Lunch /
 Breakfast / Dessert / Drinks / Sides & Appetizers, from NYT's own meal +
-course + dish tags; the binder cards are all Dinner).
+course + dish tags; the binder cards are all Dinner), plus `collections`
+(the box the row was built for: ["sam"] or ["brittany"]).
 
   --tagging-input   write data/nyt/tagging_input/ batches for untagged recipes
   --tags            print the NYT tag inventory (new tags flagged)
@@ -35,7 +38,13 @@ NYT = os.path.join(ROOT, "data", "nyt")
 RAW = os.path.join(NYT, "raw")
 TAGS = os.path.join(NYT, "tags")
 CARD = os.path.join(ROOT, "images", "card")
-OUT = os.path.join(ROOT, "data", "nyt_recipes.js")
+# Each person's recipe box: list file in data/nyt/ (a plain mirror of the box) ->
+# generated rows in data/. A recipe saved by both appears in both outputs and the
+# page merges it into one card (assets/nyt-collections.js).
+COLLECTIONS = {
+    "sam": ("recipes.txt", "nyt_recipes.js", "NYT_RECIPES"),
+    "brittany": ("brittany.txt", "nyt_brittany_recipes.js", "NYT_BRITTANY_RECIPES"),
+}
 OG = os.path.join(ROOT, "data", "og.json")
 BATCH = 28
 
@@ -262,6 +271,11 @@ COURSE_FIXES = {
     1021227: ["Drinks"], 12389: ["Sides & Appetizers"], 1014187: ["Dinner"],
     1014809: ["Lunch", "Sides & Appetizers"], 1014916: ["Sides & Appetizers"], 1013416: ["Sides & Appetizers", "Lunch"],
     1014449: ["Sides & Appetizers"], 1021757: ["Drinks"],
+    # Brittany's box
+    1022817: ["Sides & Appetizers"], 8904: ["Dinner"], 1023006: ["Dinner"],
+    1022366: ["Sides & Appetizers"], 1020274: ["Sides & Appetizers"], 1022934: ["Dessert"],
+    1019546: ["Sides & Appetizers"], 1012844: ["Dinner"], 1020548: ["Sides & Appetizers"],
+    1017738: ["Drinks"], 1019225: ["Sides & Appetizers"],
 }
 
 
@@ -276,7 +290,7 @@ def course_tags(rid, nt):
         out.add("Breakfast")
     if "Dessert" in course or dish & DESSERT_DISHES:
         out.add("Dessert")
-    if "Cocktails" in dish:
+    if dish & {"Cocktails", "Mocktail", "Non-Alcoholic Drinks"}:
         out.add("Drinks")
     if course & {"Side Dish", "Appetizer", "Small Plate"}:
         out.add("Sides & Appetizers")
@@ -360,17 +374,30 @@ def excluded_ids():
     f = os.path.join(NYT, "excluded.txt")
     if not os.path.exists(f):
         return set()
-    return {line.split("#", 1)[0].strip() for line in open(f)} - {""}
+    with open(f) as handle:
+        return {line.split("#", 1)[0].strip() for line in handle} - {""}
 
 
-def ordered_raw():
-    order = [s.strip().split("-", 1)[0] for s in open(os.path.join(NYT, "recipes.txt")) if s.strip()]
+def ordered_raw(list_name):
+    """Raw files for one box's list, in box order. Raw files are shared across
+    boxes, so ids not on this list belong to another collection."""
+    f = os.path.join(NYT, list_name)
+    if not os.path.exists(f):
+        return []
+    order = [s.strip().split("-", 1)[0] for s in open(f) if s.strip()]
     skip = excluded_ids()
     have = {os.path.basename(f)[:-5]: f for f in glob.glob(os.path.join(RAW, "*.json"))}
-    have = {k: v for k, v in have.items() if k not in skip}
-    files = [have[r] for r in order if r in have]
-    files += [f for r, f in sorted(have.items()) if r not in order]
-    return files
+    return [have[r] for r in order if r in have and r not in skip]
+
+
+def collection_rows():
+    out = {}
+    for name, (list_name, _, _) in COLLECTIONS.items():
+        rows = [build_row(json.load(open(f))) for f in ordered_raw(list_name)]
+        for r in rows:
+            r["collections"] = [name]
+        out[name] = rows
+    return out
 
 
 def write_tagging_input(rows):
@@ -404,14 +431,17 @@ def write_tagging_input(rows):
 
 
 def main():
-    rows = [build_row(json.load(open(f))) for f in ordered_raw()]
+    by_collection = collection_rows()
+    # every distinct recipe once (a recipe in both boxes is tagged and reported once)
+    rows = list({r["pair"]: r for rs in by_collection.values() for r in rs}.values())
     if "--tagging-input" in sys.argv:
         return write_tagging_input(rows)
 
-    with open(OUT, "w") as f:
-        f.write("window.NYT_RECIPES = ")
-        json.dump(rows, f, ensure_ascii=False, separators=(",", ":"))
-        f.write(";\n")
+    for name, (_, out, var) in COLLECTIONS.items():
+        with open(os.path.join(ROOT, "data", out), "w") as f:
+            f.write(f"window.{var} = ")
+            json.dump(by_collection[name], f, ensure_ascii=False, separators=(",", ":"))
+            f.write(";\n")
 
     og = json.load(open(OG)) if os.path.exists(OG) else {}
     for rid in excluded_ids():
@@ -429,7 +459,9 @@ def main():
     noimg = [r["pair"] for r in rows if not r["front"]]
     nosteps = [r["pair"] for r in rows if not r["steps"]]
     noing = [r["pair"] for r in rows if not r["ingredients"]]
-    print(f"wrote {len(rows)} NYT recipes -> {OUT} (+{len(rows)} og rows; {len(excluded_ids())} excluded)")
+    for name, (_, out, _) in COLLECTIONS.items():
+        print(f"wrote {len(by_collection[name])} {name} NYT recipes -> data/{out}")
+    print(f"{len(rows)} distinct NYT recipes (+og rows; {len(excluded_ids())} excluded)")
     nocourse = [r["pair"] for r in rows if not r["course_tags"]]
     for label, lst in (("UNTAGGED", untagged), ("NO COURSE", nocourse), ("NO IMAGE", noimg), ("NO STEPS", nosteps), ("NO INGREDIENTS", noing)):
         if lst:

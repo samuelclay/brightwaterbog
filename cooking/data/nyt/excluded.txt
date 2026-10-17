@@ -8,3 +8,11 @@
 1018327  # Broccoli Salad With Cheddar and Warm Bacon Vinaigrette — bacon
 1021594  # Onion Tart — rendered bacon fat or lard, no vegetarian alternative given
 1017000  # Health Soup — bonito-flake dashi and fish sauce are the base
+1015847  # Pressure Cooker Black Bean Soup — chorizo (Brittany's box)
+782155483  # Italian Picnic Heroes — deli turkey, ham, salami, soppressata (Brittany's box)
+1025629  # Spinach One-Pot Pasta — anchovies, no vegetarian alternative given (Brittany's box)
+1019167  # French Onion Panade — chicken stock is the base, no vegetarian alternative given (Brittany's box)
+1019696  # Slow-Cooker White Bean Parmesan Soup — chicken stock is the base, no alternative given (Brittany's box)
+1023407  # Slow-Cooker Corn Chowder — chicken broth is the base, no alternative given (Brittany's box)
+1027625  # Broccoli, Barley and Cannellini Bean Soup — beef bouillon is the broth (Brittany's box)
+1018491  # Butternut Squash and Green Curry Soup — 5 tbsp fish sauce, no alternative given (Brittany's box)

@@ -537,16 +537,23 @@ footer.site{
 
 <script src="data/recipes.js"></script>
 <script src="data/nyt_recipes.js"></script>
+<script src="data/nyt_sam_imported_recipes.js"></script>
+<script src="data/nyt_brittany_recipes.js"></script>
+<script src="data/nyt_brittany_imported_recipes.js"></script>
+<script src="assets/nyt-collections.js"></script>
 <script>
 (function(){
-  // Binder cards first, then the recipes saved from NYT Cooking (data/nyt_recipes.js,
-  // same row shape, source:"nyt"). Each row gets a source tag so "Source" filters like
-  // any other group.
-  const R = [...(window.RECIPES || []), ...(window.NYT_RECIPES || [])];
-  const SOURCE_NAME = {nyt:'New York Times'};
-  const srcChip = r => `<span class="mini-tag src-${r.source==='nyt'?'nyt':'pc'}">${esc(r.source_tags[0])}</span>`;
+  // Binder cards first, then the recipes saved from NYT Cooking (data/nyt_recipes.js and
+  // data/nyt_brittany_recipes.js — one per recipe box — plus any offline imports; same row
+  // shape, source:"nyt"). Each row gets a source tag so "Source" filters like any other group.
+  const R = [...(window.RECIPES || []), ...window.mergeNytCollections(
+    window.NYT_SAM_IMPORTED_RECIPES, window.NYT_RECIPES,
+    window.NYT_BRITTANY_IMPORTED_RECIPES, window.NYT_BRITTANY_RECIPES)];
+  const srcChip = r => r.source_tags.map(name => `<span class="mini-tag src-${r.source==='nyt'?'nyt':'pc'}">${esc(name)}</span>`).join('');
   R.forEach(r => {
-    r.source_tags = [SOURCE_NAME[r.source] || 'Purple Carrot'];
+    r.source_tags = r.source==='nyt'
+      ? r.collections.map(id => window.NYT_COLLECTION_NAMES[id]).filter(Boolean)
+      : ['Purple Carrot'];
     r.course_tags = r.course_tags || ['Dinner'];   // every binder card is a dinner kit
   });
   const grid = document.getElementById('grid');

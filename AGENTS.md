@@ -13,15 +13,24 @@
 
 ## Cooking site (cooking/ → cooking.samuelclay.com)
 
-- Static single page (`index.html`) over two generated lists: `data/recipes.js` (the
-  131 Purple Carrot cards, from `data/extracted/` OCR) and `data/nyt_recipes.js` (the
-  recipes saved in Samuel's NYT Cooking recipe box, tagged "New York Times"). Same row
-  shape; `pair` is the card number or the NYT recipe id. The site README documents
-  the pipeline (`make nyt`, `tools/fetch_nyt.py`, `tools/build_nyt.py`).
-- New NYT saves: add `<id>-<slug>` lines to `data/nyt/recipes.txt` (from the recipe
+- Static single page (`index.html`) over generated lists: `data/recipes.js` (the
+  131 Purple Carrot cards, from `data/extracted/` OCR), `data/nyt_recipes.js` (Samuel's
+  NYT Cooking recipe box, list `data/nyt/recipes.txt`) and `data/nyt_brittany_recipes.js`
+  (Brittany's box, list `data/nyt/brittany.txt`). Same row shape; `pair` is the card
+  number or the NYT recipe id; a recipe in both boxes renders as one card with both
+  source chips. `COLLECTIONS` in `tools/build_nyt.py` maps lists to outputs; the site
+  README documents the pipeline (`make nyt`, `tools/fetch_nyt.py`, `tools/build_nyt.py`).
+- New NYT saves: add `<id>-<slug>` lines to the owner's list file (from the recipe
   box's `/recipes/...` links; bare ids 404), run `make nyt`, tag them with subagents
   per `data/nyt/tagging_instructions.md` (`build_nyt.py --tagging-input` writes the
   batches), then rebuild. Raw NYT page data is gitignored; the tags are tracked.
+- Recipe pages are public (`fetch_nyt.py` needs no login); only the saved-recipe LIST
+  needs the owner's session. To re-pull a whole box, have them paste
+  `tools/recipe_box_export.js` into the DevTools console on `/recipe-box` (it downloads
+  `nyt-recipe-box.txt`). Brittany's NYT login lives in Samuel's Chrome, which the
+  claude-in-chrome extension did not reach on 2026-10-17 (it connects to Edge, whose
+  NYT session is a different 81-recipe account) — so ask for the console export
+  rather than fighting the extension.
 - The family is vegetarian: saved recipes built on meat or fish are listed in
   `data/nyt/excluded.txt` (with a reason) and skipped by the build. Check new saves
   for meat, fish, fish sauce, bonito, and meat-based fats before adding them.

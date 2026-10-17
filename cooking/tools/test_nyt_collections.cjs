@@ -1,0 +1,13 @@
+const assert = require('node:assert/strict');
+const {mergeCollections, names} = require('../assets/nyt-collections.js');
+const sam = {pair: 42, title: 'Shared recipe', source: 'nyt'};
+const brittany = {pair: 42, title: 'Shared recipe', source: 'nyt', collections: ['brittany']};
+const separate = {pair: 43, title: 'Brittany only', source: 'nyt', collections: ['brittany']};
+const rows = mergeCollections([sam], [brittany, separate]);
+assert.equal(rows.length, 2, 'Shared NYT ids must not create duplicate cards or DOM ids');
+assert.deepEqual(rows[0].collections.map(id => names[id]), ["Sam's New York Times Cooking", "Brittany's New York Times Cooking"]);
+assert.equal(rows.filter(row => row.collections.includes('sam')).length, 1);
+assert.equal(rows.filter(row => row.collections.includes('brittany')).length, 2);
+assert.equal(sam.collections, undefined, 'Merging must not mutate generated source data');
+assert.deepEqual(mergeCollections(undefined, [], [separate]), [separate]);
+console.log('Collection identity and filter membership checks passed');

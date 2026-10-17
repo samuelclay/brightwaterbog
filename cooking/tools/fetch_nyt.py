@@ -1,19 +1,24 @@
 #!/usr/bin/env python3
-"""Fetch NYT Cooking recipe pages listed in data/nyt/recipes.txt (one
-"<id>-<slug>" per line, as saved from the recipe box) and store each page's
-schema.org Recipe JSON-LD as data/nyt/raw/<id>.json. NYT's own recipe object
-(`scoopRecipe` inside the page's __NEXT_DATA__ — it has the tips, display
-time, yield, typed tags and ingredient-group headings the JSON-LD lacks) is
-attached under `_scoop`, and the raw HTML is kept in data/nyt/raw/html/.
+"""Fetch NYT Cooking recipe pages listed in each recipe box's list file
+(data/nyt/recipes.txt for Sam, data/nyt/brittany.txt for Brittany — see
+COLLECTIONS in build_nyt.py; one "<id>-<slug>" per line, as saved from the
+recipe box) and store each page's schema.org Recipe JSON-LD as
+data/nyt/raw/<id>.json. NYT's own recipe object (`scoopRecipe` inside the
+page's __NEXT_DATA__ — it has the tips, display time, yield, typed tags and
+ingredient-group headings the JSON-LD lacks) is attached under `_scoop`, and
+the raw HTML is kept in data/nyt/raw/html/.
 
 Already-saved ids are skipped, so re-running only fetches new saves (and
-retries earlier failures). Sequential with a short sleep — be polite.
+retries earlier failures); a recipe in both boxes is fetched once.
+Sequential with a short sleep — be polite.
 `--rescoop` re-extracts `_scoop` from the saved HTML without refetching.
 """
 import glob, gzip, json, os, re, sys, time, urllib.request
 
+from build_nyt import COLLECTIONS
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LIST = os.path.join(ROOT, "data", "nyt", "recipes.txt")
+LISTS = [os.path.join(ROOT, "data", "nyt", lst) for lst, _, _ in COLLECTIONS.values()]
 RAW = os.path.join(ROOT, "data", "nyt", "raw")
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36")
@@ -70,7 +75,8 @@ def rescoop():
 def main():
     if "--rescoop" in sys.argv:
         return rescoop()
-    slugs = [s.strip() for s in open(LIST) if s.strip()]
+    slugs = list({s.strip().split("-", 1)[0]: s.strip()
+                  for f in LISTS if os.path.exists(f) for s in open(f) if s.strip()}.values())
     os.makedirs(os.path.join(RAW, "html"), exist_ok=True)
     fails_f = os.path.join(RAW, "_fails.txt")
     fails = []
