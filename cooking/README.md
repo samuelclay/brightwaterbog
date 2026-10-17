@@ -3,7 +3,7 @@
 A single-page archive of the family's Purple Carrot recipe-card binder: 131 recipes
 digitized from 254 photos taken June 5, 2026 (Photos.app, IMG_9134–9389, minus one
 beach photo) — plus the recipes saved in Samuel's and Brittany's NYT Cooking recipe boxes
-(224 and 611 saves; 767 distinct recipes after 16 meat/fish exclusions, 52 saved by both),
+(224 and 611 saves; 752 distinct recipes after 31 meat/fish exclusions, 50 saved by both),
 which sit in the same grid with a source chip naming each person's box (see below).
 
 ## Viewing
@@ -59,8 +59,12 @@ expanded view are the only things that set them apart.
   at `cooking.nytimes.com/recipe-box?page=N` (48 per page) link to
   `/recipes/<id>-<slug>`; add new saves at the top of the file, or regenerate the whole
   list with `tools/recipe_box_export.js` (see "Separate NYT collections").
-- `data/nyt/excluded.txt` — ids to leave out (the family is vegetarian, so saved
-  recipes built on meat or fish go here with a note). `build_nyt.py` and
+- `data/nyt/excluded.txt` — ids to leave out, each with a note. The family is
+  vegetarian, and some saves predate that, so this lists any recipe with meat or
+  seafood, even when optional ("bacon (optional)"), including fish sauce and
+  Worcestershire, unless the same line offers a vegetarian alternative ("chicken or
+  vegetable broth", "fish sauce or soy sauce"). `NON_VEGETARIAN_TAGS` in
+  `tools/build_data.py` keeps those ingredient names off the filter panels. `build_nyt.py` and
   `fetch_nyt_images.py` skip them; the list files stay plain mirrors of the boxes.
 - `tools/fetch_nyt.py` — fetches each page once and stores its schema.org JSON-LD plus
   NYT's own `scoopRecipe` object (`_scoop`: tips, display time, yield, typed tags,

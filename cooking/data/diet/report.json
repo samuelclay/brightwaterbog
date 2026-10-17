@@ -1,8 +1,8 @@
 {
- "vegan": 939,
- "not_vegan": 1191,
+ "vegan": 936,
+ "not_vegan": 1179,
  "pending_review": [],
- "reviewed": 389,
+ "reviewed": 386,
  "recipes": {
   "1": {
    "title": "Tomato Zucchini Fritters",
@@ -1055,13 +1055,6 @@
    "status": "vegan",
    "lines": []
   },
-  "1024036": {
-   "title": "Thai-Style Crunchy Vegetable Salad",
-   "status": "not-vegan",
-   "lines": [
-    "1 tablespoon fish sauce"
-   ]
-  },
   "1016062": {
    "title": "Red Lentil Soup",
    "status": "vegan",
@@ -1144,13 +1137,6 @@
    "title": "Olive-Walnut Pasta",
    "status": "vegan",
    "lines": []
-  },
-  "1021158": {
-   "title": "Kimchijeon (Kimchi Pancake)",
-   "status": "not-vegan",
-   "lines": [
-    "1 teaspoon fish sauce"
-   ]
   },
   "1020204": {
    "title": "Ricotta Dumplings With Buttered Peas and Asparagus",
@@ -1461,13 +1447,6 @@
    "title": "Frozen Tom Collins",
    "status": "vegan",
    "lines": []
-  },
-  "1021091": {
-   "title": "Sweet-and-Spicy Grilled Vegetables With Burrata",
-   "status": "not-vegan",
-   "lines": [
-    "honey required, burrata/mozzarella/ricotta"
-   ]
   },
   "1021036": {
    "title": "Focaccia",
@@ -1806,22 +1785,6 @@
    "title": "Sweet and Spicy Tofu With Soba Noodles",
    "status": "vegan",
    "lines": []
-  },
-  "1015769": {
-   "title": "Sweet Potato-Pecan Salad",
-   "status": "not-vegan",
-   "lines": [
-    "1 tablespoon Worcestershire sauce"
-   ]
-  },
-  "12475": {
-   "title": "Lasagna With Roasted Broccoli",
-   "status": "not-vegan",
-   "lines": [
-    "8 ounces ricotta cheese",
-    "1 egg",
-    "4 ounces (1 cup) freshly grated Parmesan"
-   ]
   },
   "1021018": {
    "title": "Oven-Fried Patatas Bravas (Crispy Potatoes With Two Sauces)",
@@ -2251,13 +2214,6 @@
     "Gruyère required"
    ]
   },
-  "1019704": {
-   "title": "Baked Eggs With Beans and Greens",
-   "status": "not-vegan",
-   "lines": [
-    "6 large eggs"
-   ]
-  },
   "11243": {
    "title": "Thin-and-Crisp Chocolate-Chip Cookies",
    "status": "not-vegan",
@@ -2395,11 +2351,6 @@
   },
   "1016931": {
    "title": "Glazed Shiitakes With Bok Choy",
-   "status": "vegan",
-   "lines": []
-  },
-  "1017128": {
-   "title": "Lentil Salad With Roasted Vegetables",
    "status": "vegan",
    "lines": []
   },
@@ -3234,13 +3185,6 @@
    "status": "vegan",
    "lines": []
   },
-  "1023282": {
-   "title": "Mango-Avocado Salad With Lime Vinaigrette",
-   "status": "not-vegan",
-   "lines": [
-    "1 tablespoon fish sauce"
-   ]
-  },
   "1024312": {
    "title": "Fruity Ice Cream Sodas",
    "status": "not-vegan",
@@ -3294,15 +3238,6 @@
     "6 tablespoons (85 grams) very cold unsalted butter, cut into small pieces",
     "¾ cup cold buttermilk",
     "1 cup (240 ml.) heavy cream"
-   ]
-  },
-  "1023257": {
-   "title": "Spoonbread",
-   "status": "not-vegan",
-   "lines": [
-    "¾ cup unsalted butter, melted, plus more for greasing the pan and serving",
-    "1 ½ cups sour cream",
-    "2 large eggs, beaten"
    ]
   },
   "1020335": {
@@ -4545,13 +4480,6 @@
     "kimchi optional"
    ]
   },
-  "1026143": {
-   "title": "Pumpkin-Peanut Rice Balls With Maafé",
-   "status": "vegan",
-   "lines": [
-    "fish sauce optional; vegetable stock option"
-   ]
-  },
   "1022614": {
    "title": "Cauliflower Piccata",
    "status": "not-vegan",
@@ -5141,14 +5069,6 @@
     "Queso fresco (about 3 tablespoons per bowl)"
    ]
   },
-  "1026148": {
-   "title": "Creamy Tortellini Soup",
-   "status": "not-vegan",
-   "lines": [
-    "1 ¼ cup heavy cream",
-    "Grated Parmesan, for serving"
-   ]
-  },
   "1022601": {
    "title": "Cornbread Muffins",
    "status": "not-vegan",
@@ -5191,13 +5111,6 @@
    "status": "not-vegan",
    "lines": [
     "block feta is the main ingredient"
-   ]
-  },
-  "759928717": {
-   "title": "One-Pot Creamy Pasta With Carrots and Peas",
-   "status": "not-vegan",
-   "lines": [
-    "½ cup heavy cream"
    ]
   },
   "758128148": {
@@ -5612,20 +5525,6 @@
     "½ cup heavy cream"
    ]
   },
-  "1023940": {
-   "title": "Vegetable Soup With Tamarind and Lemongrass",
-   "status": "vegan",
-   "lines": [
-    "fish sauce optional"
-   ]
-  },
-  "1027365": {
-   "title": "Roasted Cabbage and Butter Beans",
-   "status": "not-vegan",
-   "lines": [
-    "4 anchovy fillets"
-   ]
-  },
   "1022299": {
    "title": "Tofu Laab",
    "status": "vegan",
@@ -5936,16 +5835,6 @@
    "status": "not-vegan",
    "lines": [
     "Freshly grated Parmesan, for serving"
-   ]
-  },
-  "769539003": {
-   "title": "One-Pot French Onion Rigatoni",
-   "status": "not-vegan",
-   "lines": [
-    "2 tablespoons unsalted butter",
-    "2 teaspoons Worcestershire sauce",
-    "½ cup heavy cream",
-    "1 cup shredded Gruyère cheese (about 5 ounces)"
    ]
   },
   "772206378": {

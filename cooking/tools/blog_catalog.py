@@ -25,7 +25,7 @@ import xml.etree.ElementTree as ET
 
 from bs4 import BeautifulSoup
 
-from build_data import CUISINE_ALIAS, norm
+from build_data import CUISINE_ALIAS, NON_VEGETARIAN_TAGS, norm
 
 ROOT = Path(__file__).resolve().parents[1]
 PARSER_VERSIONS = {'smitten-kitchen': 4, 'cookie-and-kate': 2}
@@ -42,7 +42,7 @@ SOURCES = {
 ANIMAL = re.compile(r'\b(?:chicken|beef|pork|bacon|pancetta|prosciutto|ham|lamb|veal|duck|turkey|'
     r'fish|salmon|tuna|shrimp|prawns?|anchov(?:y|ies)|bonito|dashi|'
     r'gelatin|marshmallows?|lard|suet|oysters?|worcestershire|sausage|chorizo|scallops?|crab|lobster|'
-    r'clams?|mussels?|squid|calamari|cod|halibut|tilapia|trout|haddock|caviar|sardines?)\b', re.I)
+    r'clams?|mussels?|squid|calamari|cod|halibut|tilapia|trout|haddock|caviar|sardines?|crawfish|crayfish|colatura)\b', re.I)
 # Publisher cuisine fields that are diets, labels or placeholders rather than cuisines.
 NOT_CUISINES = {'n/a', 'none', 'varies', 'various', 'vegetarian', 'vegan', 'gluten free',
     'whole grain', 'travel', 'classic', 'international'}
@@ -404,7 +404,7 @@ def vocabulary():
     rows = []
     for filename in ('recipes.js', 'nyt_recipes.js'):
         rows += json.loads((ROOT / 'data' / filename).read_text().split('=', 1)[1].strip().rstrip(';'))
-    return {key: sorted({tag for row in rows for tag in row.get(key, [])})
+    return {key: sorted({tag for row in rows for tag in row.get(key, []) if tag not in NON_VEGETARIAN_TAGS})
         for key in ('ingredient_tags', 'item_tags')}
 
 

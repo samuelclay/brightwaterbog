@@ -31,7 +31,7 @@ import sys
 from collections import Counter
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from build_data import CUISINE_ALIAS, INGREDIENT_ALIAS, ITEM_ALIAS, norm  # noqa: E402
+from build_data import CUISINE_ALIAS, INGREDIENT_ALIAS, ITEM_ALIAS, NON_VEGETARIAN_TAGS, norm  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NYT = os.path.join(ROOT, "data", "nyt")
@@ -311,6 +311,8 @@ def load_tags(rid):
         for v in vals or []:
             v = norm(v, alias, title=title)
             key = v.lower()
+            if key in NON_VEGETARIAN_TAGS:
+                continue
             if key in extra:
                 v = extra[key]
                 if v is None:

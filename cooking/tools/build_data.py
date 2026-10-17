@@ -67,6 +67,12 @@ ITEM_ALIAS = {
 }
 
 
+# Ingredient names that read as meat or fish. Recipes built on them are excluded; these stay
+# off the filter panels even where a vegetarian swap is offered ("fish sauce or soy sauce").
+NON_VEGETARIAN_TAGS = {"fish sauce", "dashi", "bonito", "anchovies", "chicken", "crawfish",
+                       "italian sausage", "bacon", "oyster sauce"}
+
+
 def norm(tag, alias, title=False):
     t = tag.strip()
     t = t if title else t.lower()
