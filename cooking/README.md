@@ -171,7 +171,8 @@ filter and takes its words out of the search box.
 `manifest.webmanifest`, `sw.js` and the icons in `assets/app-icons/` (rendered by
 `tools/make_app_icons.py` from the carrot favicon) make the site installable: Add to
 Home Screen on iPhone/iPad, Install app on Android or desktop Chrome. It opens
-standalone, with the header and filter bar padded clear of the status bar and notch.
+standalone below a plain status bar: drawing under the status bar
+(`black-translucent` + `viewport-fit=cover`) makes iOS 26 fade the sticky filter bar.
 
 The service worker precaches the page and every recipe data file, so all recipe text
 works offline; photos are cached as they're viewed. Pages and data are network-first

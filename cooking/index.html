@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <base href="/">
 <!--og--><title>The Cooking Book</title>
 <meta name="description" content="The family's Purple Carrot and NYT Cooking collection, plus vegetarian recipes from Smitten Kitchen and Cookie and Kate — full ingredients, steps, and photos, searchable and filterable by vegan or vegetarian.">
@@ -24,7 +24,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Cooking Book">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -63,10 +63,8 @@ img{display:block;max-width:100%}
 header.site{
   background:var(--aubergine);
   color:#F3EDE4;
-  padding:calc(2.2rem + env(safe-area-inset-top)) max(1.5rem, env(safe-area-inset-right)) 1.6rem max(1.5rem, env(safe-area-inset-left));
+  padding:2.2rem 1.5rem 1.6rem;
 }
-/* the installed app's status bar sits over the page: keep an aubergine strip behind it */
-body::before{content:'';position:fixed;top:0;left:0;right:0;height:env(safe-area-inset-top);background:var(--aubergine);z-index:60}
 .site-inner{max-width:1200px;margin:0 auto}
 .masthead{display:flex;align-items:flex-end;gap:1rem;flex-wrap:wrap}
 .masthead h1{
@@ -83,7 +81,7 @@ body::before{content:'';position:fixed;top:0;left:0;right:0;height:env(safe-area
 .filterbar{
   background:var(--card);
   border-bottom:1px solid var(--hairline);
-  position:sticky;top:env(safe-area-inset-top);z-index:40;
+  position:sticky;top:0;z-index:40;
   box-shadow:0 1px 0 var(--hairline);
 }
 .filterbar-inner{
@@ -481,8 +479,7 @@ main{max-width:1200px;margin:0 auto;padding:1.6rem 1.5rem 4rem}
 }
 .lightbox .lb-bar{
   position:fixed;top:0;left:0;right:0;display:flex;justify-content:space-between;
-  align-items:center;padding:calc(.7rem + env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right)) .7rem max(1rem, env(safe-area-inset-left));
-  color:#E8DFF2;font-size:.9rem;font-weight:600;
+  align-items:center;padding:.7rem 1rem;color:#E8DFF2;font-size:.9rem;font-weight:600;
   background:linear-gradient(rgba(24,15,32,.85),transparent);pointer-events:none;
 }
 .lightbox .lb-bar button{pointer-events:auto}
