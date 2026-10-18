@@ -8,7 +8,7 @@
 deploy:
 	rm -rf .dist
 	mkdir -p .dist/data
-	cp -R index.html favicons.html assets images _worker.js .dist/
+	cp -R index.html favicons.html manifest.webmanifest sw.js assets images _worker.js .dist/
 	cp data/recipes.js data/nyt_recipes.js data/nyt_sam_imported_recipes.js data/nyt_brittany_recipes.js data/nyt_brittany_imported_recipes.js data/og.json .dist/data/
 	cp data/smitten_kitchen_recipes.js data/cookie_and_kate_recipes.js data/smitten_kitchen_og.json data/cookie_and_kate_og.json data/diet.js .dist/data/
 	npx --yes wrangler@latest pages deploy --profile ofbrooklyn --branch main

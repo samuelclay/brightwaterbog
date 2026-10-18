@@ -157,6 +157,28 @@ finishes.
 directions, notes, and photo. Their import commands and reports are documented in
 [data/catalog/README.md](data/catalog/README.md).
 
+## Search
+
+Every word typed has to appear somewhere in the recipe (title, ingredients, steps,
+tags), and a plural finds its singular ("potatoes" finds "potato"). As you type, tags
+named by the words show up under the search bar ("sweet potato black beans" offers
+*sweet potato* and *black beans*; "sweet pot" offers *sweet potato* while you're still
+typing), each with the number of recipes it would leave. Tapping one turns it into a
+filter and takes its words out of the search box.
+
+## Installable app (PWA)
+
+`manifest.webmanifest`, `sw.js` and the icons in `assets/app-icons/` (rendered by
+`tools/make_app_icons.py` from the carrot favicon) make the site installable: Add to
+Home Screen on iPhone/iPad, Install app on Android or desktop Chrome. It opens
+standalone, with the header and filter bar padded clear of the status bar and notch.
+
+The service worker precaches the page and every recipe data file, so all recipe text
+works offline; photos are cached as they're viewed. Pages and data are network-first
+(a deploy shows on the next launch when online; after 4 seconds without an answer the
+cached copy wins), photos and fonts cache-first. When the page loads a new data file,
+add it to `SHELL_FILES` in `sw.js`; bump `VERSION` there when the caching logic changes.
+
 ## Vegan or vegetarian
 
 Every recipe is vegetarian; the Vegetarian / Vegan toggle in the filter bar narrows

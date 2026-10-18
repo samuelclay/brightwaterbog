@@ -47,6 +47,9 @@
   After adding recipes, settle its `pending review` list with subagents per
   `data/diet/review_instructions.md` (README "Vegan or vegetarian"). New filter tags
   belong in a section of `assets/tag-groups.js`, or they land under "Other".
+- The site is an installable PWA (`manifest.webmanifest`, `sw.js`). A new data file the
+  page loads must also go in `SHELL_FILES` in `sw.js`, and in the `make deploy` copy list,
+  or the installed app won't have it offline.
 
 ## Website (website/)
 

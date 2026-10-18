@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <base href="/">
 <!--og--><title>The Cooking Book</title>
 <meta name="description" content="The family's Purple Carrot and NYT Cooking collection, plus vegetarian recipes from Smitten Kitchen and Cookie and Kate — full ingredients, steps, and photos, searchable and filterable by vegan or vegetarian.">
@@ -19,6 +19,12 @@
 <meta name="twitter:card" content="summary_large_image"><!--/og-->
 <meta name="theme-color" content="#3E2A52">
 <link rel="icon" type="image/svg+xml" href="assets/favicons/2-carrot-on-aubergine.svg">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/app-icons/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Cooking Book">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -57,8 +63,10 @@ img{display:block;max-width:100%}
 header.site{
   background:var(--aubergine);
   color:#F3EDE4;
-  padding:2.2rem 1.5rem 1.6rem;
+  padding:calc(2.2rem + env(safe-area-inset-top)) max(1.5rem, env(safe-area-inset-right)) 1.6rem max(1.5rem, env(safe-area-inset-left));
 }
+/* the installed app's status bar sits over the page: keep an aubergine strip behind it */
+body::before{content:'';position:fixed;top:0;left:0;right:0;height:env(safe-area-inset-top);background:var(--aubergine);z-index:60}
 .site-inner{max-width:1200px;margin:0 auto}
 .masthead{display:flex;align-items:flex-end;gap:1rem;flex-wrap:wrap}
 .masthead h1{
@@ -75,7 +83,7 @@ header.site{
 .filterbar{
   background:var(--card);
   border-bottom:1px solid var(--hairline);
-  position:sticky;top:0;z-index:40;
+  position:sticky;top:env(safe-area-inset-top);z-index:40;
   box-shadow:0 1px 0 var(--hairline);
 }
 .filterbar-inner{
@@ -166,6 +174,11 @@ header.site{
 }
 .chip[aria-pressed="true"] .n{color:#C9B8DA}
 .chip.more-toggle{border-style:dashed;color:var(--ink-soft);font-weight:600}
+.tag-suggest{max-width:1200px;margin:0 auto;padding:0 1rem .6rem;display:flex;flex-wrap:wrap;gap:.35rem;align-items:center}
+.tag-suggest[hidden]{display:none}
+.tag-suggest .label{font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);margin-right:.15rem}
+.chip.suggest{border-color:var(--carrot)}
+.chip.suggest .g{font-size:.68rem;font-weight:600;color:var(--ink-soft)}
 /* segmented toggles: Vegetarian / Vegan in the bar, Most used / A–Z in the tag panels */
 .seg{display:inline-flex;flex:0 0 auto;border:1.5px solid var(--hairline);border-radius:999px;overflow:hidden;background:var(--card)}
 .seg button{padding:.4rem .8rem;font-size:.88rem;font-weight:700;color:var(--aubergine);white-space:nowrap}
@@ -468,7 +481,8 @@ main{max-width:1200px;margin:0 auto;padding:1.6rem 1.5rem 4rem}
 }
 .lightbox .lb-bar{
   position:fixed;top:0;left:0;right:0;display:flex;justify-content:space-between;
-  align-items:center;padding:.7rem 1rem;color:#E8DFF2;font-size:.9rem;font-weight:600;
+  align-items:center;padding:calc(.7rem + env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right)) .7rem max(1rem, env(safe-area-inset-left));
+  color:#E8DFF2;font-size:.9rem;font-weight:600;
   background:linear-gradient(rgba(24,15,32,.85),transparent);pointer-events:none;
 }
 .lightbox .lb-bar button{pointer-events:auto}
@@ -525,6 +539,7 @@ footer.site{
     <span class="result-count" id="count"></span>
     <button class="clear-all" id="clearAll">Clear all</button>
   </div>
+  <div class="tag-suggest" id="tagSuggest" hidden aria-live="polite"></div>
   <div class="drop-panel" id="dropPanel">
     <div class="drop-panel-inner">
       <div class="group-box" data-group="cuisine"></div>
@@ -751,10 +766,7 @@ footer.site{
         if(![...sel].every(t=>tags.includes(t))) return false;
       }
     }
-    if(state.q){
-      const q = state.q.toLowerCase();
-      if(!r._hay.includes(q)) return false;
-    }
+    if(!queryWords.every(w=>hayHas(r,w))) return false;
     return true;
   }
 
@@ -773,6 +785,7 @@ footer.site{
     document.getElementById('clearAll').classList.toggle('visible',!!any);
     updatePills();
     if(openGroup) renderGroup(openGroup);   // counts follow every other filter
+    renderSuggestions();
     let empty = document.querySelector('.empty-state');
     if(shown===0 && !empty){
       empty = document.createElement('div');
@@ -782,14 +795,90 @@ footer.site{
     } else if(shown>0 && empty){ empty.remove(); }
   }
 
-  document.getElementById('search').addEventListener('input',e=>{
-    state.q = e.target.value.trim(); applyFilters();
-  });
+  // ---------- search: every word must match; matching tags are offered as filters ----------
+  const search = document.getElementById('search');
+  const suggestBox = document.getElementById('tagSuggest');
+  const GROUP_LABEL = {cuisine:'cuisine', ingredient:'main ingredient', item:'pantry', course:'course', source:'source'};
+  // "potatoes" finds "potato" and "beans" finds "bean": a word matches as typed or singular.
+  const singular = w => w.length<=3 ? w : w.replace(/ies$/,'y').replace(/(o|ch|sh|x|ss)es$/,'$1').replace(/([^us])s$/,'$1');
+  const toWords = text => text.toLowerCase().split(/\s+/).filter(Boolean);
+  const hayHas = (r,w) => r._hay.includes(w) || r._hay.includes(singular(w));
+  let queryWords = [];
+
+  // One entry per tag name, from the first group that has it (a main ingredient beats a pantry item).
+  let TAG_INDEX = null;
+  function tagIndex(){
+    if(TAG_INDEX) return TAG_INDEX;
+    const seen = new Map();
+    ['ingredient','cuisine','item','course','source'].forEach(group=>R.forEach(r=>(r[KEY[group]]||[]).forEach(tag=>{
+      const name = tag.toLowerCase();
+      if(!seen.has(name)) seen.set(name, {group, tag, words:toWords(tag).map(singular)});
+    })));
+    return TAG_INDEX = [...seen.values()];
+  }
+
+  // Tags named by a run of typed words ("sweet potato black beans" → sweet potato, black beans),
+  // or begun by the last word still being typed ("sweet pot"). Each carries the words it
+  // would take out of the search box, and the results left after tapping it.
+  function suggestions(){
+    const typed = toWords(search.value), qs = typed.map(singular), typing = !/\s$/.test(search.value);
+    const last = typed[typed.length-1] || '';
+    const found = [];
+    for(const t of tagIndex()){
+      if(state[t.group].has(t.tag)) continue;
+      const n = t.words.length;
+      let hit = null;
+      for(let i=0; i+n<=qs.length && !hit; i++)
+        if(t.words.every((w,j)=>w===qs[i+j])) hit = {start:i, len:n, full:true};
+      for(let m=Math.min(n, qs.length); typing && !hit && m>=1 && last.length>=2; m--){
+        const i = qs.length-m;
+        if(t.words.slice(0,m-1).every((w,j)=>w===qs[i+j]) && t.words[m-1].startsWith(last)) hit = {start:i, len:m, full:false};
+      }
+      if(hit) found.push({...t, ...hit});
+    }
+    // "potato" inside "sweet potato" is the same words; keep the longer tag.
+    const kept = found.filter(c=>!found.some(d=>d!==c && d.len>c.len && d.start<=c.start && c.start+c.len<=d.start+d.len));
+    kept.forEach(c=>{
+      const rest = typed.filter((_,k)=>k<c.start || k>=c.start+c.len);
+      c.rest = rest;
+      c.n = R.filter(r=>r._fits && (r[KEY[c.group]]||[]).includes(c.tag) && rest.every(w=>hayHas(r,w))).length;
+    });
+    // whole-word matches in the order typed, then the rest by how many recipes they leave
+    return kept.filter(c=>c.n>0).sort((a,b)=> b.full-a.full || (a.full ? a.start-b.start : 0) || b.len-a.len || b.n-a.n).slice(0,8);
+  }
+
+  function renderSuggestions(){
+    // _fits: everything but the search words, which each suggestion re-applies without its own
+    R.forEach(r=>{ r._fits = inDiet(r) && GROUPS.every(g=>[...state[g]].every(t=>(r[KEY[g]]||[]).includes(t))); });
+    const list = search.value.trim() ? suggestions() : [];
+    suggestBox.hidden = !list.length;
+    suggestBox.textContent = '';
+    if(!list.length) return;
+    suggestBox.insertAdjacentHTML('beforeend', '<span class="label">Tags</span>');
+    list.forEach(c=>{
+      const b = document.createElement('button');
+      b.className = 'chip suggest';
+      b.innerHTML = `${esc(c.tag)} <span class="g">${GROUP_LABEL[c.group]}</span> <span class="n">${fmt(c.n)}</span>`;
+      b.addEventListener('click',()=>{
+        state[c.group].add(c.tag);
+        search.value = c.rest.join(' ') + (c.rest.length ? ' ' : '');
+        setQuery();
+        search.focus();
+      });
+      suggestBox.appendChild(b);
+    });
+  }
+
+  function setQuery(){
+    state.q = search.value.trim();
+    queryWords = toWords(state.q);
+    applyFilters();
+  }
+  search.addEventListener('input', setQuery);
   document.getElementById('clearAll').addEventListener('click',()=>{
     GROUPS.forEach(g=>state[g].clear());
-    state.q='';
-    document.getElementById('search').value='';
-    applyFilters();
+    search.value='';
+    setQuery();
   });
 
   // ---------- cards ----------
@@ -1173,6 +1262,8 @@ footer.site{
   buildCards();
   applyFilters();
   applyHash();  // deep-link: #<id>-<slug> opens that recipe on load
+  // Installed-app support: sw.js keeps the cookbook usable offline.
+  if('serviceWorker' in navigator) addEventListener('load', ()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));
 })();
 </script>
 </body>
