@@ -180,6 +180,12 @@ works offline; photos are cached as they're viewed. Pages and data are network-f
 cached copy wins), photos and fonts cache-first. When the page loads a new data file,
 add it to `SHELL_FILES` in `sw.js`; bump `VERSION` there when the caching logic changes.
 
+The phone often reloads the installed app after a trip to another app, so the page keeps
+its place in `localStorage` (`session`): the selected tags, search, diet toggle, and the
+open recipe with its servings and scroll position. Opening `/` restores all of it; a
+`/r/<id>` link opens its own recipe instead. The memory lapses 24 hours after the cookbook
+was last on screen (`SESSION_TTL` in `index.html`).
+
 ## Vegan or vegetarian
 
 Every recipe is vegetarian; the Vegetarian / Vegan toggle in the filter bar narrows

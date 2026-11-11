@@ -599,6 +599,7 @@ footer.site{
   const grid = document.getElementById('grid');
   const state = {cuisine:new Set(), ingredient:new Set(), item:new Set(), course:new Set(), source:new Set(), q:'', diet:'vegetarian'};
   let openPair = null;
+  let servingsNow = null;   // servings the open recipe is scaled to; null at its own count
 
   // ---------- tag inventories ----------
   const GROUPS = ['cuisine','ingredient','item','course','source'];
@@ -790,6 +791,7 @@ footer.site{
       empty.innerHTML = '<div class="big">Nothing in the binder matches</div>Try removing a filter or clearing the search — every selected tag has to match.';
       grid.appendChild(empty);
     } else if(shown>0 && empty){ empty.remove(); }
+    saveSession();
   }
 
   // ---------- search: every word must match; matching tags are offered as filters ----------
@@ -930,17 +932,19 @@ footer.site{
       openPair = null;
       if(urlMode==='push') setUrl(null,true);
       else if(urlMode==='replace') setUrl(null,false);
+      saveSession();
     }
   }
-  function openDetail(r, push=true){
+  function openDetail(r, push=true, servings=null){
     closeDetail('none');
     openPair = r.pair;
     r._el.classList.add('open');
     r._el.querySelector('.card-btn').setAttribute('aria-expanded','true');
-    detailEl = renderDetail(r);
+    detailEl = renderDetail(r, servings);
     r._el.after(detailEl);
     detailEl.scrollIntoView({block:'nearest'});
     if(push) setUrl(slugOf(r),true);
+    saveSession();
   }
   function toggleDetail(r){
     if(openPair===r.pair){closeDetail('push');return;}
@@ -1046,7 +1050,8 @@ footer.site{
       return `<span class="qty">${esc(shown)}</span>${esc(seg.slice(q.len))}`;
     }).join('');
   }
-  function attachScaler(d, base){
+  function attachScaler(d, base, start){
+    servingsNow = null;
     const range = d.querySelector('.scaler-range');
     if(!range) return;
     const num = d.querySelector('.scaler-num');
@@ -1069,6 +1074,8 @@ footer.site{
       lists.forEach(ul=>ul.classList.toggle('scaled', k!==1));
       noteText.innerHTML = `for <b>${current}</b> servings · <b>×${Math.round(k*100)/100}</b>`;
       note.hidden = k===1;
+      servingsNow = current===base ? null : current;
+      saveSession();
     }
     range.addEventListener('input', ()=>apply(range.value));
     num.addEventListener('input', ()=>{ if(num.value!=='') apply(num.value); });
@@ -1077,10 +1084,10 @@ footer.site{
       if(e.key==='Escape'){ e.stopPropagation(); el.blur(); }   // don't close the recipe
     }));
     reset.addEventListener('click', ()=>apply(base));
-    apply(base);
+    apply(start || base);
   }
 
-  function renderDetail(r){
+  function renderDetail(r, servings){
     const rx = boldRegex(r);
     const d = document.createElement('section');
     const offsite = r.linked && !(r.steps||[]).length;
@@ -1158,7 +1165,7 @@ footer.site{
     d.querySelectorAll('.step-photo').forEach(f=>{
       f.addEventListener('click',()=>openLightbox(r, r.back?1:0));
     });
-    attachScaler(d, base);
+    attachScaler(d, base, servings);
     return d;
   }
 
@@ -1252,13 +1259,76 @@ footer.site{
     if((e.key==='ArrowRight'||e.key==='ArrowLeft') && lbRecipe.back){lbSide=1-lbSide;updateLightbox();}
   });
 
+  // ---------- session memory ----------
+  // The installed app is often reloaded after a trip to another app, so the filters, the
+  // search, and the open recipe are kept in localStorage and restored on the next load.
+  // The memory lapses a day after the cookbook was last on screen.
+  const SESSION_KEY = 'session', SESSION_TTL = 24*60*60*1000;
+  let booted = false;
+  function loadSession(){
+    try{
+      const s = JSON.parse(localStorage.getItem(SESSION_KEY));
+      return s && Date.now()-s.at < SESSION_TTL ? s : null;
+    }catch(e){ return null; }
+  }
+  function saveSession(){
+    if(!booted) return;
+    const s = {at:Date.now(), q:state.q, diet:state.diet, tags:{}};
+    GROUPS.forEach(g=>{ if(state[g].size) s.tags[g] = [...state[g]]; });
+    if(openPair!=null && detailEl){
+      s.recipe = openPair;
+      s.servings = servingsNow;
+      s.offset = Math.round(-detailEl.getBoundingClientRect().top);   // how far into the recipe
+    }
+    try{ localStorage.setItem(SESSION_KEY, JSON.stringify(s)); }catch(e){}
+  }
+  function syncFilterInputs(){
+    queryWords = toWords(state.q);
+    document.querySelectorAll('.diet button').forEach(b=>b.setAttribute('aria-pressed', b.dataset.diet===state.diet ? 'true':'false'));
+  }
+  function restoreFilters(s){
+    GROUPS.forEach(g=>((s.tags||{})[g]||[]).forEach(t=>{
+      if(R.some(r=>(r[KEY[g]]||[]).includes(t))) state[g].add(t);   // skip tags since retired
+    }));
+    if(s.diet==='vegan') state.diet = 'vegan';
+    search.value = state.q = typeof s.q==='string' ? s.q : '';
+    syncFilterInputs();
+  }
+  function resetFilters(){
+    GROUPS.forEach(g=>state[g].clear());
+    state.diet = 'vegetarian';
+    search.value = state.q = '';
+    syncFilterInputs();
+  }
+
   // ---------- boot ----------
   const nytN = R.filter(r=>r.source==='nyt').length;
   const blogN = R.filter(r=>r.linked).length;
   document.getElementById('nytNote').textContent = (nytN?` · plus ${fmt(nytN)} recipes saved from NYT Cooking`:'') + (blogN?` · ${fmt(blogN)} from Smitten Kitchen and Cookie and Kate`:'');
   buildCards();
+  // A link to a recipe (/r/<id>-<slug>, or the old #<id>) opens it; otherwise the recipe
+  // left open last time comes back, at the servings and scroll position it was left at.
+  const saved = loadSession();
+  const link = location.pathname.match(/^\/r\/(\d+)/) || location.hash.match(/^#(\d+)/);
+  const linked = link && R.find(r=>r.pair===+link[1]);
+  if(saved){
+    restoreFilters(saved);
+    if(linked && !matches(linked)) resetFilters();   // a shared link beats remembered filters
+  }
   applyFilters();
-  applyHash();  // deep-link: #<id>-<slug> opens that recipe on load
+  const target = linked || (saved && !link && R.find(r=>r.pair===saved.recipe));
+  if(target && (linked || target._ok)){
+    const resume = saved && saved.recipe===target.pair;
+    openDetail(target, false, resume ? saved.servings : null);
+    if(!link) setUrl(slugOf(target), false);
+    if(resume && typeof saved.offset==='number')
+      scrollTo({top: scrollY + detailEl.getBoundingClientRect().top + saved.offset, behavior:'instant'});
+  }
+  booted = true;
+  saveSession();
+  // Switching apps can unload an installed app without warning; note the scroll position first.
+  document.addEventListener('visibilitychange', ()=>{ if(document.hidden) saveSession(); });
+  addEventListener('pagehide', saveSession);
   // Installed-app support: sw.js keeps the cookbook usable offline.
   if('serviceWorker' in navigator) addEventListener('load', ()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));
 })();
